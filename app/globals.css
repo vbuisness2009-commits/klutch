@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background: #04040A;
+  color: #E9E9F0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Tabular figures for score ranges, question counts, and durations, so
+   numbers line up in the archive table. */
+.nums {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+/* A plain panel. No hover lift, no glow: the cards that are actually
+   clickable say so with a border change and their own link styling. */
+.panel {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 6px;
+}
+
+a.panel:hover,
+button.panel:hover {
+  border-color: rgba(255, 255, 255, 0.24);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+/* Rows in the archive table. Hairlines only, no per-row borders. */
+.row-rule + .row-rule {
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #08080F;
+}
+::-webkit-scrollbar-thumb {
+  background: #242438;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #33334A;
+}

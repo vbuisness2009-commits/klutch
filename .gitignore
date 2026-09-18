@@ -40,3 +40,4 @@ scripts/.bb-loop/
 # Keep library JSON in repo so deploys ship practice forms; ignore local backups.
 content/tests/*.bak*
 content/last-extract.json
+content/*.bak*

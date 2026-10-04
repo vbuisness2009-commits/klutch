@@ -1,0 +1,279 @@
+{
+  "number": 4,
+  "title": "Linear Momentum",
+  "guide": {
+    "summary": "Momentum describes how hard it is to stop a moving object, and it is conserved whenever a system has no net external force. This unit covers momentum and impulse, the impulse-momentum theorem, conservation in collisions and explosions, the difference between elastic and inelastic collisions, and center-of-mass velocity.",
+    "sections": [
+      {
+        "heading": "Momentum and impulse",
+        "body": "Momentum is a vector:\n\np = mv\n\nmeasured in kg·m/s. Direction matters: pick a positive direction and keep signs consistent.\n\n**Impulse** is the effect of a force over time:\n\nJ = F_avg·Δt = area under a force-versus-time graph\n\nThe **impulse-momentum theorem**:\n\nJ = Δp\n\nThis explains safety design. Airbags, crumple zones, and bending your knees when you land all increase Δt for the same Δp, which lowers the average force.\n\nWatch signs on bounces. A 0.2 kg ball hitting a wall at 10 m/s and rebounding at 10 m/s has Δp = 0.2(−10) − 0.2(10) = −4 kg·m/s, magnitude 4, not zero. Bouncing transfers more momentum than stopping."
+      },
+      {
+        "heading": "Conservation of momentum",
+        "body": "If the net external force on a system is zero (or its impulse is negligible during a brief collision), the system's total momentum is constant:\n\nm₁v₁ + m₂v₂ = m₁v₁′ + m₂v₂′\n\nInternal forces, like the forces two colliding carts exert on each other, are equal and opposite by Newton's third law, so they cancel within the system.\n\n**Explosions and recoil** start with zero momentum. A 60 kg skater at rest on frictionless ice throws a 2 kg ball at 15 m/s; the skater recoils at (2 × 15)/60 = 0.5 m/s in the opposite direction."
+      },
+      {
+        "heading": "Types of collisions",
+        "body": "| Collision | Momentum | Kinetic energy |\n| --- | --- | --- |\n| Elastic | conserved | conserved |\n| Inelastic | conserved | decreases |\n| Perfectly inelastic (stick together) | conserved | maximum possible decrease |\n\nMomentum is conserved in all three (if the system is isolated). Kinetic energy is lost to internal energy, sound, and deformation in inelastic collisions.\n\nExample: a 2 kg cart at 6 m/s hits a 4 kg cart at rest and they stick. Momentum: 12 = 6v, so v = 2 m/s. Kinetic energy before: 36 J; after: 12 J; 24 J was converted.\n\nIn a 1D elastic collision between equal masses with one at rest, the moving object stops and the other leaves with the original velocity."
+      },
+      {
+        "heading": "Center of mass",
+        "body": "A system's center of mass moves as if all the mass were there and all external forces acted on it. Its velocity is\n\nv_cm = (m₁v₁ + m₂v₂)/(m₁ + m₂) = p_total/m_total\n\nWith no net external force, v_cm is constant, before, during, and after any collision or explosion. For a 2 kg object at 3 m/s right and a 1 kg object at 3 m/s left, v_cm = (6 − 3)/3 = 1 m/s right, no matter what happens when they collide."
+      },
+      {
+        "heading": "Experimental work",
+        "body": "Momentum labs typically use carts on a low-friction track with motion sensors or photogates. To test conservation, measure masses with a balance and velocities before and after, then compare total momentum. Plotting p_after versus p_before for many trials gives a line whose slope should be close to 1. Friction on the track is a small external force, so p_after is usually slightly less than p_before."
+      }
+    ],
+    "keyTakeaways": [
+      "p = mv is a vector; signs matter.",
+      "J = FΔt = Δp; impulse is the area under F–t.",
+      "Momentum is conserved when net external force (impulse) is zero.",
+      "All isolated collisions conserve momentum; only elastic ones conserve kinetic energy.",
+      "Longer collision time means smaller average force for the same Δp.",
+      "Center-of-mass velocity is constant without external force."
+    ],
+    "commonMistakes": [
+      "Ignoring direction, especially in bounces and explosions.",
+      "Assuming kinetic energy is conserved in every collision.",
+      "Saying an airbag reduces impulse; it reduces the force by increasing time.",
+      "Forgetting that objects that stick together share one final velocity.",
+      "Calling momentum conserved when an external force (like friction over a long time) acts.",
+      "Confusing impulse units (N·s) with work units (J)."
+    ],
+    "examTips": [
+      "Define the system and justify conservation: \"no net external force acts horizontally.\"",
+      "In LAB questions, describe measurements with specific equipment and repeated trials.",
+      "When graphing p_after vs p_before, the slope tests conservation; discuss deviations with a physical cause.",
+      "Check kinetic energy before and after to classify a collision.",
+      "Use force-time graph areas for impulse; mind units (N·s = kg·m/s)."
+    ],
+    "cramSheet": "**Momentum:** p = mv (vector)\n\n**Impulse:** J = FΔt = area under F–t = Δp\n\n**Conservation:** Σp_before = Σp_after if F_net,ext = 0\n\n**Collisions:** elastic (K conserved) · inelastic (K lost) · perfectly inelastic (stick)\n\n**Stick:** v_f = (m₁v₁ + m₂v₂)/(m₁ + m₂)\n\n**Recoil:** m₁v₁ = −m₂v₂ from rest\n\n**v_cm:** p_total/m_total, constant if isolated\n\n**Bounce:** Δp larger than stopping"
+  },
+  "vocab": [
+    { "term": "Momentum", "definition": "The product of mass and velocity, p = mv; a vector quantity." },
+    { "term": "Impulse", "definition": "The product of average force and time interval, J = FΔt; equal to the change in momentum." },
+    { "term": "Impulse-momentum theorem", "definition": "The impulse on an object equals its change in momentum: FΔt = Δp." },
+    { "term": "Conservation of momentum", "definition": "The total momentum of a system stays constant when no net external force acts on it." },
+    { "term": "Isolated system", "definition": "A system with no net external force acting on it." },
+    { "term": "Elastic collision", "definition": "A collision in which both momentum and kinetic energy are conserved." },
+    { "term": "Inelastic collision", "definition": "A collision in which momentum is conserved but kinetic energy decreases." },
+    { "term": "Perfectly inelastic collision", "definition": "A collision in which the objects stick together, losing the maximum kinetic energy consistent with momentum conservation." },
+    { "term": "Recoil", "definition": "The backward motion of an object when it pushes another object forward, as momentum stays zero overall." },
+    { "term": "Center of mass", "definition": "The point that moves as if all the system's mass were concentrated there." },
+    { "term": "Internal force", "definition": "A force exerted by one part of a system on another part; internal forces don't change total momentum." },
+    { "term": "External force", "definition": "A force exerted on the system by something outside it; it can change total momentum." },
+    { "term": "Force-time graph", "definition": "A plot of force against time; the area under it is the impulse." }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01", "tier": "Intro", "type": "mcq", "topic": "4.2 Linear Momentum",
+      "stem": "What is the momentum of a 3 kg ball moving at 4 m/s?",
+      "choices": [
+        { "id": "A", "text": "12 kg·m/s" },
+        { "id": "B", "text": "24 kg·m/s" },
+        { "id": "C", "text": "0.75 kg·m/s" },
+        { "id": "D", "text": "7 kg·m/s" }
+      ],
+      "answer": "A",
+      "explanation": "p = mv = 3 × 4 = 12 kg·m/s.",
+      "distractors": { "B": "Computed mv² = 48 and halved it: that's kinetic energy.", "D": "Added mass and speed." }
+    },
+    {
+      "id": "u4-q02", "tier": "Intro", "type": "mcq", "topic": "4.3 Change in Momentum and Impulse",
+      "stem": "A 50 N average force acts on a ball for 0.2 s. What impulse does it deliver?",
+      "choices": [
+        { "id": "A", "text": "10 N·s" },
+        { "id": "B", "text": "250 N·s" },
+        { "id": "C", "text": "0.004 N·s" },
+        { "id": "D", "text": "50 N·s" }
+      ],
+      "answer": "A",
+      "explanation": "J = FΔt = 50 × 0.2 = 10 N·s.",
+      "distractors": { "B": "Divided force by time." }
+    },
+    {
+      "id": "u4-q03", "tier": "Intro", "type": "mcq", "topic": "4.4 Conservation of Linear Momentum",
+      "stem": "The total momentum of a system is conserved when",
+      "choices": [
+        { "id": "A", "text": "the net external force on the system is zero" },
+        { "id": "B", "text": "kinetic energy is conserved" },
+        { "id": "C", "text": "all objects move at the same speed" },
+        { "id": "D", "text": "the objects stick together" }
+      ],
+      "answer": "A",
+      "explanation": "Only external forces can change a system's total momentum.",
+      "distractors": { "B": "Momentum is conserved in inelastic collisions too.", "D": "Sticking is one kind of collision, not the condition for conservation." }
+    },
+    {
+      "id": "u4-q04", "tier": "Intro", "type": "mcq", "topic": "4.5 Elastic and Inelastic Collisions",
+      "stem": "In a perfectly inelastic collision, the colliding objects",
+      "choices": [
+        { "id": "A", "text": "stick together and move with a common velocity" },
+        { "id": "B", "text": "bounce apart with no loss of kinetic energy" },
+        { "id": "C", "text": "lose all of their momentum" },
+        { "id": "D", "text": "reverse direction with the same speed" }
+      ],
+      "answer": "A",
+      "explanation": "\"Perfectly inelastic\" means the objects stick; momentum is conserved but kinetic energy decreases.",
+      "distractors": { "B": "Describes an elastic collision.", "C": "Momentum is conserved in an isolated collision." }
+    },
+    {
+      "id": "u4-q05", "tier": "Exam level", "type": "mcq", "topic": "4.4 Conservation of Linear Momentum",
+      "stem": "A 2 kg cart moving at 6 m/s collides with a 4 kg cart at rest on a frictionless track. The carts stick together. What is their velocity after the collision?",
+      "choices": [
+        { "id": "A", "text": "2 m/s" },
+        { "id": "B", "text": "3 m/s" },
+        { "id": "C", "text": "6 m/s" },
+        { "id": "D", "text": "1.5 m/s" }
+      ],
+      "answer": "A",
+      "explanation": "2 × 6 = (2 + 4)v, so v = 12/6 = 2 m/s.",
+      "distractors": { "B": "Divided by 4 kg only.", "D": "Divided by 8 kg." }
+    },
+    {
+      "id": "u4-q06", "tier": "Exam level", "type": "mcq", "topic": "4.3 Change in Momentum and Impulse",
+      "stem": "In a crash, an airbag reduces injury to a passenger mainly because it",
+      "choices": [
+        { "id": "A", "text": "increases the time over which the passenger's momentum changes, reducing the average force" },
+        { "id": "B", "text": "reduces the passenger's change in momentum" },
+        { "id": "C", "text": "increases the impulse on the passenger" },
+        { "id": "D", "text": "makes the collision elastic" }
+      ],
+      "answer": "A",
+      "explanation": "The passenger's Δp is fixed (moving to stopped). Spreading it over more time lowers F = Δp/Δt.",
+      "distractors": { "B": "The passenger still goes from moving to stopped.", "C": "Impulse equals Δp, which is unchanged." }
+    },
+    {
+      "id": "u4-q07", "tier": "Exam level", "type": "mcq", "topic": "4.5 Elastic and Inelastic Collisions",
+      "stem": "A billiard ball moving at speed v collides head-on, elastically, with an identical ball at rest. What happens immediately after the collision?",
+      "choices": [
+        { "id": "A", "text": "The first ball stops and the second moves at speed v." },
+        { "id": "B", "text": "Both balls move at v/2 in the original direction." },
+        { "id": "C", "text": "The first ball bounces back at speed v and the second stays at rest." },
+        { "id": "D", "text": "Both balls move at v in the original direction." }
+      ],
+      "answer": "A",
+      "explanation": "For equal masses, conserving both momentum and kinetic energy requires the velocities to exchange.",
+      "distractors": { "B": "Conserves momentum but loses half the kinetic energy: that's perfectly inelastic.", "D": "Doubles the momentum." }
+    },
+    {
+      "id": "u4-q08", "tier": "Exam level", "type": "mcq", "topic": "4.3 Change in Momentum and Impulse",
+      "stem": "A 0.5 kg ball at rest is struck by a force that rises linearly from 0 to 100 N and falls back to 0 over a total of 0.04 s (a triangular force-time graph). What is the ball's speed afterward?",
+      "choices": [
+        { "id": "A", "text": "4 m/s" },
+        { "id": "B", "text": "8 m/s" },
+        { "id": "C", "text": "2 m/s" },
+        { "id": "D", "text": "0.08 m/s" }
+      ],
+      "answer": "A",
+      "explanation": "Impulse = triangle area = ½(0.04)(100) = 2 N·s. v = 2/0.5 = 4 m/s.",
+      "distractors": { "B": "Used the rectangle 100 × 0.04, forgetting the ½.", "C": "Reported the impulse as the speed." }
+    },
+    {
+      "id": "u4-q09", "tier": "Exam level", "type": "mcq", "topic": "4.4 Conservation of Linear Momentum",
+      "stem": "A 10 kg object at rest explodes into two pieces. A 4 kg piece moves right at 6 m/s. What is the velocity of the 6 kg piece?",
+      "choices": [
+        { "id": "A", "text": "4 m/s to the left" },
+        { "id": "B", "text": "4 m/s to the right" },
+        { "id": "C", "text": "6 m/s to the left" },
+        { "id": "D", "text": "9 m/s to the left" }
+      ],
+      "answer": "A",
+      "explanation": "Total momentum stays 0: 4(6) + 6v = 0, so v = −4 m/s.",
+      "distractors": { "B": "Lost the sign; momentum would no longer be zero.", "D": "Swapped the masses." }
+    },
+    {
+      "id": "u4-q10", "tier": "Exam level", "type": "mcq", "topic": "4.3 Change in Momentum and Impulse",
+      "stem": "A 0.2 kg ball hits a wall at 10 m/s and rebounds straight back at 10 m/s. What is the magnitude of the ball's change in momentum?",
+      "choices": [
+        { "id": "A", "text": "4 kg·m/s" },
+        { "id": "B", "text": "0 kg·m/s" },
+        { "id": "C", "text": "2 kg·m/s" },
+        { "id": "D", "text": "20 kg·m/s" }
+      ],
+      "answer": "A",
+      "explanation": "Taking toward the wall as positive: Δp = 0.2(−10) − 0.2(10) = −4 kg·m/s.",
+      "distractors": { "B": "Subtracted speeds without direction.", "C": "That's the change if the ball had stopped." }
+    },
+    {
+      "id": "u4-q11", "tier": "Hardest", "type": "mcq", "topic": "4.5 Elastic and Inelastic Collisions",
+      "stem": "A 2 kg cart moving at 6 m/s collides with and sticks to a 4 kg cart at rest. How much kinetic energy is converted to other forms?",
+      "choices": [
+        { "id": "A", "text": "24 J" },
+        { "id": "B", "text": "12 J" },
+        { "id": "C", "text": "36 J" },
+        { "id": "D", "text": "0 J" }
+      ],
+      "answer": "A",
+      "explanation": "K before = ½(2)(36) = 36 J. Final speed 2 m/s, so K after = ½(6)(4) = 12 J. Lost: 24 J.",
+      "distractors": { "B": "That's the final kinetic energy.", "D": "Assumed kinetic energy is conserved." }
+    },
+    {
+      "id": "u4-q12", "tier": "Hardest", "type": "mcq", "topic": "4.1 Center of Mass / 4.4 Conservation",
+      "stem": "A 2 kg puck moves right at 3 m/s and a 1 kg puck moves left at 3 m/s on frictionless ice. What is the velocity of the system's center of mass after they collide?",
+      "choices": [
+        { "id": "A", "text": "1 m/s to the right" },
+        { "id": "B", "text": "0 m/s" },
+        { "id": "C", "text": "3 m/s to the right" },
+        { "id": "D", "text": "It depends on whether the collision is elastic." }
+      ],
+      "answer": "A",
+      "explanation": "v_cm = (2·3 + 1·(−3))/3 = 1 m/s right. With no external force, it's the same after any collision.",
+      "distractors": { "B": "Ignored the different masses.", "D": "Collision type affects the individual velocities, not v_cm." }
+    },
+    {
+      "id": "u4-q13", "tier": "Hardest", "type": "mcq", "topic": "4.3 Change in Momentum and Impulse",
+      "stem": "Two identical balls are thrown at the same speed at identical blocks resting on frictionless ice. Ball 1 sticks to its block. Ball 2 bounces straight back. Which block moves faster afterward?",
+      "choices": [
+        { "id": "A", "text": "The block hit by ball 2, because the bouncing ball's momentum changes more, so it delivers more impulse." },
+        { "id": "B", "text": "The block hit by ball 1, because the ball's mass is added to the block." },
+        { "id": "C", "text": "Both move at the same speed, because both balls had the same momentum." },
+        { "id": "D", "text": "The block hit by ball 1, because a sticking collision transfers all kinetic energy." }
+      ],
+      "answer": "A",
+      "explanation": "The impulse on the block equals minus the ball's Δp. A bouncing ball reverses direction, so its |Δp| exceeds that of a ball that just stops; the block receives more momentum.",
+      "distractors": { "B": "Even ignoring the combined velocity, the block alone gets less momentum when the ball sticks.", "D": "Sticking collisions lose the most kinetic energy." }
+    },
+    {
+      "id": "u4-q14", "tier": "Hardest", "type": "mcq", "topic": "4.4 Conservation of Linear Momentum",
+      "stem": "A 60 kg skater stands at rest on frictionless ice and throws a 2 kg ball horizontally at 15 m/s. What is the skater's speed afterward?",
+      "choices": [
+        { "id": "A", "text": "0.5 m/s" },
+        { "id": "B", "text": "2 m/s" },
+        { "id": "C", "text": "30 m/s" },
+        { "id": "D", "text": "0.03 m/s" }
+      ],
+      "answer": "A",
+      "explanation": "0 = 2(15) + 60v, so |v| = 30/60 = 0.5 m/s, opposite the ball.",
+      "distractors": { "C": "Reported the ball's momentum as a speed.", "D": "Divided 2 by 60." }
+    },
+    {
+      "id": "u4-frq1", "tier": "Exam level", "type": "frq", "topic": "4.4 Conservation of Linear Momentum", "frqType": "Experimental Design and Analysis (LAB)",
+      "prompt": "Students want to test whether momentum is conserved when two carts collide and stick together on a horizontal track. Available equipment: two carts with Velcro bumpers, a set of masses to add to the carts, an electronic balance, two motion sensors, and a meterstick.",
+      "stimulus": "Results from four trials:\n\n| Trial | 1 | 2 | 3 | 4 |\n| --- | --- | --- | --- | --- |\n| Total momentum before (kg·m/s) | 0.60 | 0.80 | 1.00 | 1.20 |\n| Total momentum after (kg·m/s) | 0.58 | 0.77 | 0.97 | 1.16 |",
+      "parts": [
+        { "label": "a", "prompt": "Describe an experimental procedure the students could use to collect the data needed. Include what measurements are taken and how.", "points": 3 },
+        { "label": "b", "prompt": "On axes of momentum after (vertical) versus momentum before (horizontal), plot the data and draw a best-fit line. (Describe your graph.)", "points": 2 },
+        { "label": "c", "prompt": "Use your best-fit line to evaluate whether momentum is conserved. Explain.", "points": 2 },
+        { "label": "d", "prompt": "Identify one physical cause for the small difference between momentum before and after, and explain how it causes the difference.", "points": 2 },
+        { "label": "e", "prompt": "If the carts bounced apart instead of sticking, would the slope of the best-fit line be expected to change? Explain.", "points": 1 }
+      ],
+      "points": 10,
+      "minutes": 25,
+      "rubric": [
+        { "criterion": "(a) Masses", "points": 1, "description": "Measure each cart's mass (with any added masses) on the balance." },
+        { "criterion": "(a) Velocities", "points": 1, "description": "Use motion sensors to measure the moving cart's velocity just before and the combined velocity just after the collision." },
+        { "criterion": "(a) Repeated/varied trials", "points": 1, "description": "Repeat with different masses or initial speeds to get a range of momenta." },
+        { "criterion": "(b) Plot", "points": 1, "description": "Four points plotted correctly on labeled axes with units." },
+        { "criterion": "(b) Best-fit line", "points": 1, "description": "A straight line through the data, close to the origin." },
+        { "criterion": "(c) Slope", "points": 1, "description": "Slope ≈ 0.97." },
+        { "criterion": "(c) Conclusion", "points": 1, "description": "A slope close to 1 means momentum after ≈ momentum before; momentum is approximately conserved." },
+        { "criterion": "(d) Cause", "points": 1, "description": "Friction between the carts' wheels and the track (or air resistance)." },
+        { "criterion": "(d) Explanation", "points": 1, "description": "Friction is an external force that exerts a small backward impulse, slightly reducing the system's momentum." },
+        { "criterion": "(e) Bouncing", "points": 1, "description": "No; momentum is conserved in elastic and inelastic collisions alike, so the slope should still be about 1." }
+      ],
+      "sampleResponse": "(a) Measure the mass of each cart, including any added masses, with the electronic balance. Place a motion sensor at each end of the track. Push cart A toward cart B, which is at rest, and record cart A's velocity just before the collision and the combined carts' velocity just after. Calculate total momentum before (m_A v_A) and after ((m_A + m_B)v′). Repeat several times, changing the added mass or push speed, to get a range of values.\n\n(b) The graph has momentum before (kg·m/s) on the horizontal axis from 0 to 1.4 and momentum after (kg·m/s) on the vertical axis from 0 to 1.4. The four points lie nearly on a straight line passing close to the origin.\n\n(c) The slope of the best-fit line is about (1.16 − 0.58)/(1.20 − 0.60) ≈ 0.97. Since this is very close to 1, momentum after is nearly equal to momentum before: momentum is approximately conserved.\n\n(d) Friction between the wheels and the track acts on the carts from outside the system. It exerts a small impulse opposite the motion during and just after the collision, slightly reducing total momentum, so p_after is a little less than p_before.\n\n(e) No. Momentum is conserved in all collisions when external forces are negligible, whether the carts stick or bounce. Only kinetic energy would differ. The slope should still be close to 1."
+    }
+  ]
+}

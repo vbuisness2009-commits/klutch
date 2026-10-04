@@ -1,0 +1,273 @@
+{
+  "number": 6,
+  "title": "Gene Expression and Regulation",
+  "guide": {
+    "summary": "Genes carry instructions, but cells decide when and how much to use them. This unit covers DNA and RNA structure, replication, transcription, RNA processing, translation, gene regulation in prokaryotes and eukaryotes, mutations, and the biotechnology tools used to study and change DNA.",
+    "sections": [
+      {
+        "heading": "DNA structure and replication",
+        "body": "DNA is a double helix of two **antiparallel** strands (one runs 5′→3′, the other 3′→5′), held together by hydrogen bonds between complementary bases: A with T, G with C. RNA is single-stranded, uses ribose, and has U instead of T.\n\nReplication is **semiconservative**: each new double helix has one original strand and one new one.\n\n| Enzyme | Job |\n| --- | --- |\n| Helicase | unwinds the helix |\n| Topoisomerase | relieves twisting ahead of the fork |\n| Primase | lays down an RNA primer |\n| DNA polymerase | adds nucleotides to the 3′ end; proofreads |\n| Ligase | joins fragments |\n\nBecause polymerase only builds 5′→3′, the **leading strand** is made continuously and the **lagging strand** is made in short **Okazaki fragments** that ligase joins."
+      },
+      {
+        "heading": "Transcription and RNA processing",
+        "body": "RNA polymerase binds the **promoter** and builds mRNA complementary to the **template strand**, 5′→3′. The mRNA matches the non-template (coding) strand, with U for T.\n\nTemplate 3′-TAC GGA TTC-5′ gives mRNA 5′-AUG CCU AAG-3′.\n\nIn eukaryotes, the pre-mRNA is processed in the nucleus:\n\n- a **5′ cap** (modified guanine) and a **poly-A tail** protect the mRNA and help it get exported and translated;\n- **introns** are removed and **exons** joined (splicing).\n\n**Alternative splicing** includes different exon combinations, so one gene can code for several proteins. This partly explains how humans make many more proteins than they have genes."
+      },
+      {
+        "heading": "Translation",
+        "body": "Ribosomes read mRNA in three-base **codons**. Each tRNA carries one amino acid and has an **anticodon** that pairs with a codon. Translation starts at AUG (methionine) and ends at a stop codon (UAA, UAG, UGA).\n\nThe code is **redundant**: most amino acids have several codons, usually differing in the third base. It is also nearly **universal**, strong evidence of common ancestry and the reason bacteria can make human insulin from an inserted gene.\n\nIn prokaryotes, transcription and translation happen together in the cytoplasm. In eukaryotes, they're separated by the nuclear envelope."
+      },
+      {
+        "heading": "Regulation of gene expression",
+        "body": "**Prokaryotic operons** group related genes under one promoter, controlled by an **operator**.\n\n- **lac operon (inducible):** normally off. A repressor binds the operator. Lactose (as allolactose) binds the repressor and releases it, allowing transcription. Low glucose increases transcription further through cAMP-CAP activation.\n- **trp operon (repressible):** normally on. When tryptophan is abundant, it binds and activates the repressor, which then binds the operator and blocks transcription.\n\nA mutation that stops the repressor binding the operator makes transcription **constitutive** (always on).\n\n**Eukaryotic regulation** works at many levels: chromatin packing (histone acetylation loosens DNA and increases transcription; DNA methylation usually silences it), transcription factors binding enhancers and promoters, alternative splicing, mRNA stability, and protein modification.\n\nEvery cell in your body has the same genome. Nerve and muscle cells differ because different **transcription factors** turn on different genes: **differential gene expression**."
+      },
+      {
+        "heading": "Mutations and biotechnology",
+        "body": "| Mutation | Effect |\n| --- | --- |\n| Silent | codon changes but amino acid doesn't |\n| Missense | one amino acid changes |\n| Nonsense | creates an early stop codon |\n| Frameshift (insert/delete not a multiple of 3) | every codon after it changes |\n\nA frameshift near the start of the coding sequence is usually the most damaging.\n\n**Tools:** PCR copies a DNA region many times; **gel electrophoresis** separates DNA fragments by size (DNA is negatively charged and moves toward the positive electrode; smaller fragments move farther); restriction enzymes cut at specific sequences; plasmids carry genes into bacteria; sequencing reads base order; CRISPR edits specific sites."
+      }
+    ],
+    "keyTakeaways": [
+      "DNA strands are antiparallel; polymerase builds only 5′→3′.",
+      "mRNA is complementary to the template strand and matches the coding strand.",
+      "Eukaryotic pre-mRNA gets a cap, a tail, and splicing; alternative splicing makes multiple proteins per gene.",
+      "lac is inducible (normally off); trp is repressible (normally on).",
+      "Cells specialize through differential gene expression, not different DNA.",
+      "Frameshifts usually do more damage than substitutions."
+    ],
+    "commonMistakes": [
+      "Writing mRNA identical to the template strand instead of complementary to it.",
+      "Mixing up the roles of operator (where the repressor binds) and promoter (where RNA polymerase binds).",
+      "Saying different cell types have different genes.",
+      "Forgetting that U replaces T in RNA.",
+      "Thinking larger DNA fragments travel farther on a gel.",
+      "Calling every substitution harmful; many are silent."
+    ],
+    "examTips": [
+      "Q5 Analyze Model often shows an operon or gene diagram; name each part and predict the effect of a mutation in it.",
+      "When transcribing, write 5′ and 3′ labels; orientation errors are common.",
+      "Explain regulation as a chain: signal → regulatory protein → binding site → change in transcription.",
+      "Use the codon table if one is given; don't memorize the full code.",
+      "Gel questions: identify fragment sizes from a ladder lane and match to cuts."
+    ],
+    "cramSheet": "**DNA:** antiparallel · A–T, G–C · semiconservative\n\n**Replication:** helicase → primase → DNA pol (5′→3′) → ligase · leading continuous, lagging Okazaki\n\n**Transcription:** RNA pol at promoter · mRNA complementary to template · U for T\n\n**Processing:** 5′ cap · poly-A tail · splice out introns · alternative splicing\n\n**Translation:** codon ↔ anticodon · AUG start · UAA/UAG/UGA stop · redundant, universal code\n\n**lac:** inducible, lactose removes repressor · **trp:** repressible, Trp activates repressor\n\n**Eukaryotes:** acetylation ↑ transcription · methylation ↓ · transcription factors\n\n**Mutations:** silent · missense · nonsense · frameshift\n\n**Gel:** DNA (−) → (+) · small fragments go farthest"
+  },
+  "vocab": [
+    { "term": "Antiparallel", "definition": "The two strands of DNA run in opposite 5′→3′ directions." },
+    { "term": "Semiconservative replication", "definition": "Each new DNA molecule contains one original strand and one newly synthesized strand." },
+    { "term": "Okazaki fragments", "definition": "Short DNA segments made on the lagging strand and later joined by ligase." },
+    { "term": "Promoter", "definition": "DNA sequence where RNA polymerase binds to begin transcription." },
+    { "term": "Template strand", "definition": "The DNA strand read by RNA polymerase; mRNA is complementary to it." },
+    { "term": "Intron", "definition": "A noncoding segment removed from pre-mRNA during splicing." },
+    { "term": "Exon", "definition": "A segment of a gene that remains in mature mRNA and is usually translated." },
+    { "term": "Alternative splicing", "definition": "Different combinations of exons are joined, producing different proteins from one gene." },
+    { "term": "Codon", "definition": "A three-nucleotide sequence in mRNA that specifies an amino acid or stop signal." },
+    { "term": "Anticodon", "definition": "The three-base sequence on tRNA that pairs with a codon." },
+    { "term": "Operon", "definition": "A cluster of prokaryotic genes controlled by a single promoter and operator." },
+    { "term": "Repressor", "definition": "A protein that binds the operator and blocks transcription." },
+    { "term": "Transcription factor", "definition": "A protein that binds DNA and regulates transcription of specific genes." },
+    { "term": "Frameshift mutation", "definition": "An insertion or deletion not in a multiple of three, which shifts the reading frame." },
+    { "term": "Gel electrophoresis", "definition": "Technique that separates DNA fragments by size using an electric field." }
+  ],
+  "practice": [
+    {
+      "id": "u6-q01", "tier": "Intro", "type": "mcq", "topic": "6.2 Replication",
+      "stem": "DNA replication is described as semiconservative because each new DNA molecule",
+      "choices": [
+        { "id": "A", "text": "contains one original strand and one newly made strand" },
+        { "id": "B", "text": "is made of entirely new nucleotides" },
+        { "id": "C", "text": "contains a mix of old and new segments in each strand" },
+        { "id": "D", "text": "keeps both original strands together" }
+      ],
+      "answer": "A",
+      "explanation": "Each parental strand serves as a template and stays paired with its new complement.",
+      "distractors": { "C": "Describes the dispersive model, ruled out by Meselson and Stahl.", "D": "Describes the conservative model." }
+    },
+    {
+      "id": "u6-q02", "tier": "Intro", "type": "mcq", "topic": "6.4 Translation",
+      "stem": "During translation, which molecule pairs with an mRNA codon?",
+      "choices": [
+        { "id": "A", "text": "The anticodon of a tRNA" },
+        { "id": "B", "text": "The promoter of the gene" },
+        { "id": "C", "text": "A ribosomal protein" },
+        { "id": "D", "text": "The 5′ cap" }
+      ],
+      "answer": "A",
+      "explanation": "tRNA anticodons base-pair with codons, bringing the matching amino acid.",
+      "distractors": { "B": "Promoters are DNA sequences used in transcription." }
+    },
+    {
+      "id": "u6-q03", "tier": "Intro", "type": "mcq", "topic": "6.3 Transcription and RNA Processing",
+      "stem": "Which segments are removed from eukaryotic pre-mRNA before it leaves the nucleus?",
+      "choices": [
+        { "id": "A", "text": "Introns" },
+        { "id": "B", "text": "Exons" },
+        { "id": "C", "text": "Codons" },
+        { "id": "D", "text": "Promoters" }
+      ],
+      "answer": "A",
+      "explanation": "Introns are spliced out; exons are joined to form mature mRNA.",
+      "distractors": { "B": "Exons are kept and expressed." }
+    },
+    {
+      "id": "u6-q04", "tier": "Intro", "type": "mcq", "topic": "6.2 Replication",
+      "stem": "DNA polymerase can add nucleotides only to which end of a growing strand?",
+      "choices": [
+        { "id": "A", "text": "The 3′ end" },
+        { "id": "B", "text": "The 5′ end" },
+        { "id": "C", "text": "Either end" },
+        { "id": "D", "text": "The middle, at the replication bubble" }
+      ],
+      "answer": "A",
+      "explanation": "Polymerase attaches each new nucleotide to the free 3′-OH, so strands grow 5′→3′.",
+      "distractors": { "B": "This is why the lagging strand must be made in fragments." }
+    },
+    {
+      "id": "u6-q05", "tier": "Exam level", "type": "mcq", "topic": "6.3 Transcription and RNA Processing",
+      "stem": "A DNA template strand reads 3′-TAC GGA TTC-5′. What is the sequence of the mRNA transcribed from it?",
+      "choices": [
+        { "id": "A", "text": "5′-AUG CCU AAG-3′" },
+        { "id": "B", "text": "5′-TAC GGA TTC-3′" },
+        { "id": "C", "text": "5′-ATG CCT AAG-3′" },
+        { "id": "D", "text": "3′-AUG CCU AAG-5′" }
+      ],
+      "answer": "A",
+      "explanation": "Complement each base (A→U, T→A, G→C, C→G); the mRNA is antiparallel to the template, so it runs 5′→3′ opposite the template's 3′→5′.",
+      "distractors": { "B": "Copied the template's bases rather than complementing them.", "C": "Uses T, which isn't in RNA.", "D": "Correct bases but wrong orientation." }
+    },
+    {
+      "id": "u6-q06", "tier": "Exam level", "type": "mcq", "topic": "6.5 Regulation of Gene Expression",
+      "stem": "In E. coli, the lac operon is transcribed when lactose is present and glucose is absent. What is the role of lactose in this process?",
+      "choices": [
+        { "id": "A", "text": "It binds the repressor and prevents it from binding the operator." },
+        { "id": "B", "text": "It binds the promoter and recruits RNA polymerase." },
+        { "id": "C", "text": "It activates the repressor so it binds the operator." },
+        { "id": "D", "text": "It is translated into the enzymes that digest it." }
+      ],
+      "answer": "A",
+      "explanation": "An isomer of lactose acts as an inducer, changing the repressor's shape so it releases the operator.",
+      "distractors": { "C": "Describes tryptophan in the trp operon." }
+    },
+    {
+      "id": "u6-q07", "tier": "Exam level", "type": "mcq", "topic": "6.7 Mutations",
+      "stem": "Which change near the beginning of a gene's coding sequence is most likely to produce a nonfunctional protein?",
+      "choices": [
+        { "id": "A", "text": "Insertion of a single nucleotide" },
+        { "id": "B", "text": "Substitution of the third base of a codon" },
+        { "id": "C", "text": "Insertion of three nucleotides" },
+        { "id": "D", "text": "Substitution that replaces one amino acid with a similar one" }
+      ],
+      "answer": "A",
+      "explanation": "A single insertion shifts the reading frame, changing every downstream codon and often creating an early stop.",
+      "distractors": { "B": "Third-base changes are often silent because of code redundancy.", "C": "Adds one amino acid but keeps the frame." }
+    },
+    {
+      "id": "u6-q08", "tier": "Exam level", "type": "mcq", "topic": "6.2 Replication",
+      "stem": "Why is the lagging strand synthesized as a series of Okazaki fragments?",
+      "choices": [
+        { "id": "A", "text": "DNA polymerase can only add nucleotides in the 5′→3′ direction, opposite to the direction the fork opens on that strand." },
+        { "id": "B", "text": "Helicase unwinds only short sections of the lagging strand." },
+        { "id": "C", "text": "The lagging strand has more errors that must be cut out." },
+        { "id": "D", "text": "Primase can work only on the leading strand." }
+      ],
+      "answer": "A",
+      "explanation": "On the lagging template, 5′→3′ synthesis moves away from the fork, so polymerase must repeatedly restart near the fork.",
+      "distractors": { "D": "Primase makes primers for every Okazaki fragment." }
+    },
+    {
+      "id": "u6-q09", "tier": "Exam level", "type": "mcq", "topic": "6.6 Gene Expression and Cell Specialization",
+      "stem": "A human nerve cell and muscle cell contain the same DNA but produce different proteins. Which best explains this?",
+      "choices": [
+        { "id": "A", "text": "Different transcription factors in each cell type activate different sets of genes." },
+        { "id": "B", "text": "Each cell type deletes the genes it does not use." },
+        { "id": "C", "text": "Mutations during development give each cell type different genes." },
+        { "id": "D", "text": "Each cell type uses a different genetic code." }
+      ],
+      "answer": "A",
+      "explanation": "Specialization comes from differential gene expression controlled by regulatory proteins, not from changes to the genome.",
+      "distractors": { "B": "Genes are silenced, not deleted.", "D": "The genetic code is the same in every cell." }
+    },
+    {
+      "id": "u6-q10", "tier": "Exam level", "type": "mcq", "topic": "6.8 Biotechnology",
+      "stem": "In gel electrophoresis, why do smaller DNA fragments travel farther than larger ones?",
+      "choices": [
+        { "id": "A", "text": "All fragments are negatively charged, and smaller ones move more easily through the gel toward the positive electrode." },
+        { "id": "B", "text": "Smaller fragments carry more negative charge per molecule." },
+        { "id": "C", "text": "Larger fragments are attracted to the negative electrode." },
+        { "id": "D", "text": "Smaller fragments are positively charged." }
+      ],
+      "answer": "A",
+      "explanation": "DNA's phosphate backbone gives a similar charge per length, so separation depends on size: the gel matrix slows larger fragments more.",
+      "distractors": { "B": "Larger fragments carry more total charge.", "C": "All DNA moves toward the positive electrode." }
+    },
+    {
+      "id": "u6-q11", "tier": "Hardest", "type": "mcq", "topic": "6.5 Regulation of Gene Expression",
+      "stem": "A mutation in the trp operon's operator prevents the repressor from binding it. What happens when tryptophan levels in the cell are high?",
+      "choices": [
+        { "id": "A", "text": "The trp genes continue to be transcribed." },
+        { "id": "B", "text": "The trp genes are not transcribed, because tryptophan binds the operator directly." },
+        { "id": "C", "text": "The repressor is not produced." },
+        { "id": "D", "text": "RNA polymerase cannot bind the promoter." }
+      ],
+      "answer": "A",
+      "explanation": "High tryptophan activates the repressor, but the repressor can't bind the mutant operator, so transcription is constitutive and wastes energy making tryptophan.",
+      "distractors": { "B": "Tryptophan acts through the repressor, not the operator.", "C": "The mutation is in the operator, not the repressor gene." }
+    },
+    {
+      "id": "u6-q12", "tier": "Hardest", "type": "mcq", "topic": "6.7 Mutations",
+      "stem": "A base substitution changes the codon GAA to GAG, and the protein is unchanged. Which property of the genetic code explains this?",
+      "choices": [
+        { "id": "A", "text": "Redundancy: more than one codon can specify the same amino acid." },
+        { "id": "B", "text": "Universality: all organisms use the same code." },
+        { "id": "C", "text": "Ambiguity: one codon can specify several amino acids." },
+        { "id": "D", "text": "Overlap: codons share bases with neighboring codons." }
+      ],
+      "answer": "A",
+      "explanation": "GAA and GAG both code for glutamate. Many synonymous codons differ only at the third position.",
+      "distractors": { "C": "The code isn't ambiguous; each codon specifies one amino acid.", "D": "The code is read in non-overlapping triplets." }
+    },
+    {
+      "id": "u6-q13", "tier": "Hardest", "type": "mcq", "topic": "6.5 Regulation of Gene Expression",
+      "stem": "Histone deacetylases remove acetyl groups from histones. Cells treated with a histone deacetylase inhibitor would most likely show",
+      "choices": [
+        { "id": "A", "text": "increased transcription of many genes, because chromatin stays more loosely packed" },
+        { "id": "B", "text": "decreased transcription, because DNA becomes more tightly packed" },
+        { "id": "C", "text": "no change, because acetylation affects only translation" },
+        { "id": "D", "text": "increased DNA methylation, silencing genes" }
+      ],
+      "answer": "A",
+      "explanation": "Acetylation neutralizes histones' positive charges, loosening their grip on DNA. Blocking its removal keeps chromatin open and accessible to transcription machinery.",
+      "distractors": { "B": "Reverses the effect of acetylation.", "C": "Histone modification acts on chromatin and transcription." }
+    },
+    {
+      "id": "u6-q14", "tier": "Hardest", "type": "mcq", "topic": "6.3 Transcription and RNA Processing",
+      "stem": "The human genome has about 20,000 protein-coding genes, but human cells make many more distinct proteins. Which process best explains the difference?",
+      "choices": [
+        { "id": "A", "text": "Alternative splicing of pre-mRNA" },
+        { "id": "B", "text": "Semiconservative replication" },
+        { "id": "C", "text": "Addition of the 5′ cap" },
+        { "id": "D", "text": "Silent mutations" }
+      ],
+      "answer": "A",
+      "explanation": "Different exon combinations from the same gene yield different mRNAs and proteins.",
+      "distractors": { "C": "The cap affects stability and translation, not which protein is made.", "D": "Silent mutations by definition don't change the protein." }
+    },
+    {
+      "id": "u6-frq1", "tier": "Exam level", "type": "frq", "topic": "6.3 Transcription and RNA Processing", "frqType": "Q5 Analyze Model or Visual Representation",
+      "prompt": "A model of a eukaryotic gene shows, from left to right: a promoter, exon 1, intron 1, exon 2, intron 2, exon 3. Transcription produces a pre-mRNA containing all exons and introns.",
+      "parts": [
+        { "label": "a", "prompt": "Identify the region of the gene where RNA polymerase binds to begin transcription.", "points": 1 },
+        { "label": "b", "prompt": "Describe one modification, other than splicing, made to the pre-mRNA before it leaves the nucleus, and state its function.", "points": 1 },
+        { "label": "c", "prompt": "A mutation at the boundary of intron 2 prevents it from being removed. Predict the effect on the protein.", "points": 1 },
+        { "label": "d", "prompt": "Explain how this single gene could produce different proteins in two different cell types.", "points": 1 }
+      ],
+      "points": 4,
+      "minutes": 8,
+      "rubric": [
+        { "criterion": "(a) Promoter", "points": 1, "description": "The promoter." },
+        { "criterion": "(b) Modification", "points": 1, "description": "A 5′ cap or poly-A tail is added; it protects the mRNA from degradation and/or aids export and ribosome binding." },
+        { "criterion": "(c) Prediction", "points": 1, "description": "The retained intron is translated or introduces a stop codon/frameshift, producing an altered (often shortened, nonfunctional) protein." },
+        { "criterion": "(d) Alternative splicing", "points": 1, "description": "Different cell types splice the pre-mRNA differently, including different combinations of exons, giving different mRNAs and proteins." }
+      ],
+      "sampleResponse": "(a) RNA polymerase binds the promoter.\n\n(b) A poly-A tail is added to the 3′ end. It protects the mRNA from degradation by enzymes in the cytoplasm and helps export the mRNA from the nucleus.\n\n(c) Intron 2's sequence would be read by the ribosome as if it were coding sequence. This would add extra amino acids, likely shift the reading frame or introduce an early stop codon, and produce an altered, probably nonfunctional, protein.\n\n(d) Through alternative splicing: in one cell type, all three exons might be joined, while in another, exon 2 might be skipped. The two mature mRNAs encode different amino acid sequences, so each cell type makes a different protein from the same gene."
+    }
+  ]
+}

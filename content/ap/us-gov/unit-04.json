@@ -1,0 +1,283 @@
+{
+  "number": 4,
+  "title": "American Political Ideologies and Beliefs",
+  "guide": {
+    "summary": "This unit asks how Americans form political beliefs, how those beliefs are measured, and how ideology shapes policy. It covers core American values, political socialization, public opinion polling, the major ideologies, and how liberals, conservatives, and libertarians approach economic and social policy.",
+    "sections": [
+      {
+        "heading": "American political culture",
+        "body": "Core values most Americans share include **individualism**, **equality of opportunity**, **free enterprise**, **rule of law**, and **limited government**. Americans often agree on these in principle but disagree on how to balance them. A debate over government-funded health care, for example, pits individualism and limited government against equality of opportunity."
+      },
+      {
+        "heading": "Political socialization",
+        "body": "**Political socialization** is how people acquire political beliefs. Agents include family (usually the strongest early influence), schools, peers, religious groups, media, and civic organizations.\n\n- **Generational effects:** major events shape people who come of age during them. Those who grew up in the Great Depression tended to support an active government for life.\n- **Life-cycle effects:** views change with age and circumstances (owning a home, raising children, retiring).\n- **Globalization** and the internet expose Americans to wider influences and views of America from abroad."
+      },
+      {
+        "heading": "Measuring public opinion",
+        "body": "Reliable polls depend on:\n\n- **Random sampling:** every member of the population has an equal chance of selection. Opt-in online polls and call-in surveys are not random and usually unrepresentative.\n- **Representative samples:** weighted to match the population's demographics.\n- **Sample size and margin of error:** a typical national poll of about 1,000 people has a margin of about ±3 percentage points. If two candidates are within the combined margin, the race is a **statistical tie**.\n- **Neutral question wording:** loaded or leading questions bias results. **Push polls** are political tactics disguised as surveys.\n\nTypes include opinion polls, tracking polls, benchmark polls, entrance polls, and **exit polls** (voters leaving polling places). Polls influence campaigns and policy, but their reliability is debated, and elected officials may also weigh intense minority opinions."
+      },
+      {
+        "heading": "Ideologies",
+        "body": "| Ideology | Economic policy | Social policy |\n| --- | --- | --- |\n| Liberal | more regulation, more government spending on social programs | more individual choice on social issues, government protection of civil rights |\n| Conservative | less regulation, lower taxes, free markets | more support for traditional values, sometimes using government to promote them |\n| Libertarian | minimal government | minimal government |\n\nThe Democratic Party generally leans liberal and the Republican Party conservative, though both contain wide internal variation."
+      },
+      {
+        "heading": "Ideology and economic policy",
+        "body": "**Fiscal policy** (Congress and president): taxing and spending.\n\n- **Keynesian** economics: increase government spending or cut taxes to boost demand during recessions.\n- **Supply-side** economics: cut taxes and regulations on businesses and investors to spur production and growth.\n\n**Monetary policy** (the **Federal Reserve**): adjusting interest rates and the money supply. Raising rates fights inflation; lowering rates stimulates borrowing and growth. The Fed is designed to be independent of elections, so it can make unpopular choices such as raising rates before a campaign."
+      }
+    ],
+    "keyTakeaways": [
+      "Americans share core values but differ on how to balance them.",
+      "Family is usually the strongest agent of socialization; generational events leave lasting marks.",
+      "Valid polls need random, representative samples and neutral wording.",
+      "Differences within the margin of error aren't meaningful.",
+      "Liberals favor more economic regulation; conservatives less; libertarians minimal government overall.",
+      "Fiscal policy is taxing and spending; monetary policy is the Fed's control of interest rates."
+    ],
+    "commonMistakes": [
+      "Treating a large but self-selected sample as reliable.",
+      "Calling a lead within the margin of error a clear lead.",
+      "Confusing fiscal policy (Congress) with monetary policy (Fed).",
+      "Saying conservatives oppose all government action; they often support defense spending and some social policies.",
+      "Mixing up generational and life-cycle effects.",
+      "Assuming party and ideology always align perfectly."
+    ],
+    "examTips": [
+      "Quantitative FRQs often use polling or demographic data; describe the trend precisely with numbers.",
+      "When evaluating a poll, check sampling method, size, margin of error, and wording.",
+      "Scenario MCQs may describe a policy; identify the ideology most likely to support it.",
+      "Link socialization factors to voting behavior in Unit 5.",
+      "Know which institution makes each type of economic policy."
+    ],
+    "cramSheet": "**Values:** individualism · equality of opportunity · free enterprise · rule of law · limited government\n\n**Socialization:** family, school, peers, religion, media · generational vs. life-cycle effects\n\n**Polling:** random sample · representative · ~1,000 → ±3% · neutral wording · push polls · exit polls\n\n**Ideology:** liberal (regulate, spend; social choice) · conservative (free market; traditional values) · libertarian (minimal government)\n\n**Economics:** fiscal (Congress, taxes/spending) · Keynesian vs. supply-side · monetary (Fed, interest rates)"
+  },
+  "vocab": [
+    { "term": "Individualism", "definition": "The belief that individuals should be responsible for their own well-being and free to make their own choices." },
+    { "term": "Equality of opportunity", "definition": "The idea that everyone should have the same chance to succeed, regardless of background." },
+    { "term": "Political socialization", "definition": "The process by which people develop political beliefs and values." },
+    { "term": "Generational effect", "definition": "Lasting political attitudes shaped by major events a generation experiences while young." },
+    { "term": "Life-cycle effect", "definition": "Changes in political views associated with age and life stage." },
+    { "term": "Random sample", "definition": "A sample in which every member of the population has an equal chance of being selected." },
+    { "term": "Margin of error", "definition": "The range within which a poll's true value likely falls, given sampling variation." },
+    { "term": "Push poll", "definition": "A campaign tactic posing as a poll that spreads negative information about an opponent." },
+    { "term": "Exit poll", "definition": "A survey of voters as they leave polling places." },
+    { "term": "Liberal", "definition": "An ideology favoring more government action on economic issues and more individual choice on social issues." },
+    { "term": "Conservative", "definition": "An ideology favoring limited government in the economy and often traditional social values." },
+    { "term": "Libertarian", "definition": "An ideology favoring minimal government in both economic and social life." },
+    { "term": "Keynesian economics", "definition": "Theory that government spending and tax cuts should boost demand during downturns." },
+    { "term": "Supply-side economics", "definition": "Theory that lower taxes and regulation on producers spur economic growth." },
+    { "term": "Monetary policy", "definition": "Federal Reserve actions affecting interest rates and the money supply." }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01", "tier": "Intro", "type": "mcq", "topic": "Political Socialization",
+      "stimulus": "A survey finds that among 18-year-olds whose parents both identify with the same party, about 70 percent identify with that party as well.",
+      "stem": "This finding best illustrates which concept?",
+      "choices": [
+        { "id": "A", "text": "The family as an agent of political socialization" },
+        { "id": "B", "text": "A life-cycle effect" },
+        { "id": "C", "text": "Supply-side economics" },
+        { "id": "D", "text": "Random sampling error" }
+      ],
+      "answer": "A",
+      "explanation": "Party identification is often passed from parents to children, especially when parents agree.",
+      "distractors": { "B": "Life-cycle effects describe changes as people age." }
+    },
+    {
+      "id": "u4-q02", "tier": "Intro", "type": "mcq", "topic": "Measuring Public Opinion",
+      "stimulus": "A poll of 1,000 randomly selected likely voters shows Candidate A with 48% and Candidate B with 45%. The margin of error is ±3 percentage points.",
+      "stem": "Which is the most accurate interpretation?",
+      "choices": [
+        { "id": "A", "text": "The race is statistically too close to call." },
+        { "id": "B", "text": "Candidate A is certain to win." },
+        { "id": "C", "text": "Candidate B's support is exactly 45%." },
+        { "id": "D", "text": "The poll is invalid because the sample is too small." }
+      ],
+      "answer": "A",
+      "explanation": "A's true support could be as low as 45% and B's as high as 48%; the ranges overlap.",
+      "distractors": { "D": "A random sample of 1,000 is standard for national polls." }
+    },
+    {
+      "id": "u4-q03", "tier": "Intro", "type": "mcq", "topic": "Ideology and Economic Policy",
+      "stimulus": "With inflation rising quickly, a government institution raises the interest rate at which banks borrow, making loans more expensive throughout the economy.",
+      "stem": "This action is an example of",
+      "choices": [
+        { "id": "A", "text": "monetary policy by the Federal Reserve" },
+        { "id": "B", "text": "fiscal policy by Congress" },
+        { "id": "C", "text": "a Keynesian spending increase" },
+        { "id": "D", "text": "an executive order" }
+      ],
+      "answer": "A",
+      "explanation": "Setting interest rates is the Fed's monetary policy tool; higher rates slow borrowing and inflation.",
+      "distractors": { "B": "Fiscal policy is taxing and spending." }
+    },
+    {
+      "id": "u4-q04", "tier": "Intro", "type": "mcq", "topic": "Ideologies of Political Parties",
+      "stimulus": "A candidate supports eliminating most business regulations, legalizing recreational drugs, and ending government involvement in marriage.",
+      "stem": "The candidate's positions most closely match which ideology?",
+      "choices": [
+        { "id": "A", "text": "Libertarian" },
+        { "id": "B", "text": "Liberal" },
+        { "id": "C", "text": "Conservative" },
+        { "id": "D", "text": "Socialist" }
+      ],
+      "answer": "A",
+      "explanation": "Minimal government on both economic and social issues is the libertarian position.",
+      "distractors": { "B": "Liberals usually favor more economic regulation.", "C": "Conservatives often favor government support for traditional social values." }
+    },
+    {
+      "id": "u4-q05", "tier": "Exam level", "type": "mcq", "topic": "Changes in Ideology",
+      "stimulus": "Researchers find that Americans who were teenagers during the Great Depression remained more supportive of government social programs throughout their lives than people born ten years later.",
+      "stem": "The researchers' finding is best explained by",
+      "choices": [
+        { "id": "A", "text": "a generational effect" },
+        { "id": "B", "text": "a life-cycle effect" },
+        { "id": "C", "text": "a push poll" },
+        { "id": "D", "text": "the margin of error" }
+      ],
+      "answer": "A",
+      "explanation": "A formative shared event shaped an entire cohort's lasting views.",
+      "distractors": { "B": "Life-cycle effects would affect everyone as they age, not one cohort." }
+    },
+    {
+      "id": "u4-q06", "tier": "Exam level", "type": "mcq", "topic": "Evaluating Public Opinion Data",
+      "stimulus": "A survey asks: \"Do you support the governor's reckless plan to waste taxpayer money on an unnecessary rail line?\" Seventy percent of respondents answer no.",
+      "stem": "Which is the most serious problem with this survey?",
+      "choices": [
+        { "id": "A", "text": "The question wording is biased, which likely skews responses." },
+        { "id": "B", "text": "The margin of error is too small." },
+        { "id": "C", "text": "The survey used an exit poll." },
+        { "id": "D", "text": "Seventy percent is too high to be accurate." }
+      ],
+      "answer": "A",
+      "explanation": "Loaded words like \"reckless\" and \"waste\" push respondents toward a particular answer, undermining validity regardless of sampling.",
+      "distractors": { "D": "A high percentage isn't by itself a sign of error." }
+    },
+    {
+      "id": "u4-q07", "tier": "Exam level", "type": "mcq", "topic": "Ideology and Policymaking",
+      "stem": "Which policy proposal would a liberal be most likely to support?",
+      "choices": [
+        { "id": "A", "text": "Raising the federal minimum wage and expanding subsidies for health insurance" },
+        { "id": "B", "text": "Eliminating environmental regulations to encourage business investment" },
+        { "id": "C", "text": "Cutting the top income tax rate while reducing social spending" },
+        { "id": "D", "text": "Abolishing the Department of Education" }
+      ],
+      "answer": "A",
+      "explanation": "Liberals generally favor government action to reduce economic inequality and expand social programs.",
+      "distractors": { "C": "Characteristic of conservative or supply-side positions." }
+    },
+    {
+      "id": "u4-q08", "tier": "Exam level", "type": "mcq", "topic": "Ideology and Economic Policy",
+      "stimulus": "During a recession, Congress passes a law funding road and bridge construction and sending payments to households, even though this increases the deficit.",
+      "stem": "This law most closely reflects which economic approach?",
+      "choices": [
+        { "id": "A", "text": "Keynesian economics" },
+        { "id": "B", "text": "Supply-side economics" },
+        { "id": "C", "text": "Monetary policy" },
+        { "id": "D", "text": "Laissez-faire economics" }
+      ],
+      "answer": "A",
+      "explanation": "Deficit spending to boost demand during a downturn is the core Keynesian prescription.",
+      "distractors": { "C": "This is fiscal policy passed by Congress." }
+    },
+    {
+      "id": "u4-q09", "tier": "Exam level", "type": "mcq", "topic": "Measuring Public Opinion",
+      "stem": "A news network wants to estimate, before official results are released, how different demographic groups voted. Which method would be most useful?",
+      "choices": [
+        { "id": "A", "text": "An exit poll of voters leaving polling places" },
+        { "id": "B", "text": "A benchmark poll taken before the campaign began" },
+        { "id": "C", "text": "A push poll" },
+        { "id": "D", "text": "An online poll of the network's website visitors" }
+      ],
+      "answer": "A",
+      "explanation": "Exit polls ask people how they just voted and collect demographic information.",
+      "distractors": { "D": "Self-selected and unrepresentative." }
+    },
+    {
+      "id": "u4-q10", "tier": "Exam level", "type": "mcq", "topic": "Changes in Ideology",
+      "stimulus": "Hypothetical survey: percentage of adults identifying as each ideology, by age\n\n| Age group | Liberal | Moderate | Conservative |\n| --- | --- | --- | --- |\n| 18–29 | 38 | 37 | 25 |\n| 30–49 | 29 | 38 | 33 |\n| 50–64 | 22 | 36 | 42 |\n| 65+ | 20 | 34 | 46 |",
+      "stem": "Which statement is supported by the data?",
+      "choices": [
+        { "id": "A", "text": "The share identifying as conservative increases with each older age group." },
+        { "id": "B", "text": "Moderates are the largest group in every age category." },
+        { "id": "C", "text": "Most adults aged 18–29 identify as liberal." },
+        { "id": "D", "text": "The data prove that people become more conservative as they age." }
+      ],
+      "answer": "A",
+      "explanation": "Conservative identification rises from 25% to 33% to 42% to 46%.",
+      "distractors": { "B": "Conservatives lead among those 50 and older.", "C": "38% isn't a majority.", "D": "A snapshot of different age groups can't distinguish life-cycle from generational effects." }
+    },
+    {
+      "id": "u4-q11", "tier": "Hardest", "type": "mcq", "topic": "Ideology and Economic Policy",
+      "stem": "During a recession, a supply-side economist and a Keynesian economist would most likely disagree about whether",
+      "choices": [
+        { "id": "A", "text": "the best stimulus is cutting taxes on businesses and investors or increasing government spending to raise demand" },
+        { "id": "B", "text": "the economy is in a recession" },
+        { "id": "C", "text": "the Federal Reserve exists" },
+        { "id": "D", "text": "Congress controls fiscal policy" }
+      ],
+      "answer": "A",
+      "explanation": "Both want growth; they disagree about whether to stimulate supply (production, investment) or demand (spending).",
+      "distractors": { "D": "Both accept the constitutional allocation of fiscal power." }
+    },
+    {
+      "id": "u4-q12", "tier": "Hardest", "type": "mcq", "topic": "Evaluating Public Opinion Data",
+      "stimulus": "A magazine invites readers to vote online on whether the president is doing a good job. Ninety thousand readers respond; 78 percent say no.",
+      "stem": "Which statement best evaluates this poll?",
+      "choices": [
+        { "id": "A", "text": "Despite its size, the poll is unreliable because respondents selected themselves and may not represent the population." },
+        { "id": "B", "text": "The poll is highly reliable because its sample is much larger than typical national polls." },
+        { "id": "C", "text": "The poll is reliable because it was conducted online." },
+        { "id": "D", "text": "The poll has a margin of error of about ±0.3 percent, making it precise." }
+      ],
+      "answer": "A",
+      "explanation": "Sample size can't fix selection bias. Margin-of-error calculations assume random sampling, which this lacks.",
+      "distractors": { "B": "Size doesn't correct a nonrandom sample.", "D": "Margin of error is meaningless for a self-selected sample." }
+    },
+    {
+      "id": "u4-q13", "tier": "Hardest", "type": "mcq", "topic": "Core Values and Attitudes",
+      "stimulus": "Senator X: \"Every American deserves a fair shot, and families shouldn't go bankrupt because a child gets sick. Government should guarantee coverage.\"\nSenator Y: \"Individuals know best how to care for their families. Government mandates crowd out personal choice and the free market.\"",
+      "stem": "The senators' disagreement best reflects tension between which core values?",
+      "choices": [
+        { "id": "A", "text": "Equality of opportunity and individualism/limited government" },
+        { "id": "B", "text": "Rule of law and federalism" },
+        { "id": "C", "text": "Free exercise and establishment of religion" },
+        { "id": "D", "text": "Popular sovereignty and separation of powers" }
+      ],
+      "answer": "A",
+      "explanation": "X invokes a fair chance for all; Y invokes personal responsibility, choice, and free enterprise.",
+      "distractors": { "B": "Neither speaker discusses legal process or state-federal relations." }
+    },
+    {
+      "id": "u4-q14", "tier": "Hardest", "type": "mcq", "topic": "Ideology and Economic Policy",
+      "stimulus": "Months before an election, the president publicly urges the Federal Reserve to cut interest rates to boost the economy. The Fed, citing inflation risks, keeps rates unchanged.",
+      "stem": "The Fed's ability to resist the president is best explained by",
+      "choices": [
+        { "id": "A", "text": "its structural independence, including long fixed terms for its governors, which insulates monetary policy from electoral pressure" },
+        { "id": "B", "text": "the Senate's power to override presidential requests to the Fed" },
+        { "id": "C", "text": "the Supreme Court's control of monetary policy" },
+        { "id": "D", "text": "the Fed's constitutional status as a fourth branch of government" }
+      ],
+      "answer": "A",
+      "explanation": "Congress designed the Fed so governors serve 14-year terms and can't be removed over policy disagreements, allowing unpopular but prudent decisions.",
+      "distractors": { "D": "The Fed is created by statute, not the Constitution." }
+    },
+    {
+      "id": "u4-frq1", "tier": "Exam level", "type": "frq", "topic": "Political socialization and participation", "frqType": "Q1 Concept Application",
+      "stimulus": "A recent study finds that Americans aged 18 to 29 are far more likely than older Americans to say they get most of their political news from social media, and much less likely to identify strongly with either major party. Nearly half describe themselves as independents.",
+      "prompt": "After reading the scenario, respond to (a), (b), and (c).",
+      "parts": [
+        { "label": "a", "prompt": "Describe the agent of political socialization most directly illustrated in the scenario.", "points": 1 },
+        { "label": "b", "prompt": "In the context of the scenario, explain how weak party identification among young adults could affect election outcomes.", "points": 1 },
+        { "label": "c", "prompt": "In the context of the scenario, explain how a political party might respond to win support from young adults.", "points": 1 }
+      ],
+      "points": 3,
+      "minutes": 20,
+      "rubric": [
+        { "criterion": "(a)", "points": 1, "description": "Describes the media (social media) as an agent of socialization that shapes political knowledge and attitudes." },
+        { "criterion": "(b)", "points": 1, "description": "Explains a plausible effect, e.g., young independents are more likely to split tickets, swing between parties, support third-party candidates, or not vote, making outcomes less predictable." },
+        { "criterion": "(c)", "points": 1, "description": "Explains a plausible response, e.g., investing in social media outreach and digital ads, adopting policy positions popular with young voters (student debt, climate), or recruiting younger candidates." }
+      ],
+      "sampleResponse": "(a) The scenario illustrates the media, specifically social media, as an agent of political socialization. Platforms where young people encounter news and commentary shape what issues they care about and how they view the parties.\n\n(b) Because many young adults don't strongly identify with a party, they're more likely to switch between parties from one election to the next or support third-party candidates. Their votes are harder to predict, which can make close elections swing on candidate appeal and turnout among young voters.\n\n(c) A party could shift its campaign spending toward social media advertising and influencers, and emphasize issues young voters rank highly, such as college costs and climate change, to build lasting party loyalty among them."
+    }
+  ]
+}

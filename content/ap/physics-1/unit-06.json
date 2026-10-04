@@ -1,0 +1,626 @@
+{
+  "number": 6,
+  "title": "Energy and Momentum of Rotating Systems",
+  "guide": {
+    "summary": "Rotating objects carry kinetic energy and angular momentum. This unit extends the energy and momentum tools from Units 3 and 4 to rotation: rotational kinetic energy, work done by torques, angular momentum and angular impulse, conservation of angular momentum, and rolling without slipping.",
+    "sections": [
+      {
+        "heading": "Rotational kinetic energy and work",
+        "body": "A rotating object has kinetic energy\n\nK_rot = ½Iω²\n\nA wheel with I = 2 kg·m² spinning at 3 rad/s has ½(2)(9) = 9 J.\n\nA torque acting through an angle does work:\n\nW = τΔθ\n\nso 5 N·m through 4 rad does 20 J. The rotational work-energy theorem: W_net = ΔK_rot."
+      },
+      {
+        "heading": "Rolling without slipping",
+        "body": "A rolling object both translates and rotates. If it doesn't slip, its center moves at v = Rω and\n\nK_total = ½Mv² + ½Iω²\n\nFor a solid cylinder (I = ½MR²): K = ½Mv² + ½(½MR²)(v/R)² = ¾Mv². A 2 kg cylinder rolling at 2 m/s has 6 J.\n\n**Races down a ramp:** objects released from the same height convert the same mgh (per kg) into kinetic energy. The smaller the fraction that goes into rotation, the faster the translation. Order of arrival: solid sphere (I = 2/5 MR²), then solid cylinder (½MR²), then hoop (MR²). Mass and radius don't matter, only the shape. A solid sphere reaches v = √(10gh/7) at the bottom.\n\nStatic friction makes rolling possible but does no work on an object rolling without slipping, because the contact point doesn't slide."
+      },
+      {
+        "heading": "Angular momentum",
+        "body": "L = Iω (for a rigid object about a fixed axis), in kg·m²/s.\n\nA point mass moving in a straight line also has angular momentum about a point: L = mvr⊥, where r⊥ is the perpendicular distance from the point to the line of motion.\n\n**Angular impulse:** τΔt = ΔL. A 3 N·m torque for 2 s on a wheel at rest with I = 1.5 kg·m² gives L = 6 kg·m²/s, so ω = 4 rad/s."
+      },
+      {
+        "heading": "Conservation of angular momentum",
+        "body": "If the net external torque on a system is zero, its angular momentum is constant:\n\nI₁ω₁ = I₂ω₂\n\nA skater pulling in her arms halves I from 4 to 2 kg·m², so ω doubles from 3 to 6 rad/s.\n\nKinetic energy is **not** necessarily conserved. In the skater's case K_rot = L²/(2I) increases when I decreases; her muscles do work pulling her arms in. When objects stick together rotationally (a child jumping onto a merry-go-round, clay dropped on a spinning disk), kinetic energy decreases, like a perfectly inelastic collision.\n\nMerry-go-round: I = 200 kg·m² at 1 rad/s. A 50 kg child steps on at r = 2 m from a standstill, adding 50 × 4 = 200 kg·m². New ω = 200/400 = 0.5 rad/s. K drops from 100 J to 50 J.\n\nWhen a projectile strikes a rod on a pivot, **angular momentum about the pivot** is conserved (the pivot force has no torque about itself), but linear momentum isn't, because the pivot exerts an external force."
+      }
+    ],
+    "keyTakeaways": [
+      "K_rot = ½Iω²; W = τΔθ.",
+      "Rolling without slipping: v = Rω, K = ½Mv² + ½Iω².",
+      "On ramps, smaller I/MR² wins: sphere, then cylinder, then hoop.",
+      "L = Iω; angular impulse τΔt = ΔL.",
+      "No external torque: L is conserved, even if K changes.",
+      "Pivoted collisions conserve angular momentum about the pivot, not linear momentum."
+    ],
+    "commonMistakes": [
+      "Forgetting the rotational term when computing a rolling object's kinetic energy.",
+      "Assuming kinetic energy is conserved whenever angular momentum is.",
+      "Thinking heavier or larger objects roll down a ramp faster.",
+      "Using linear momentum conservation for a collision with a pivoted object.",
+      "Saying static friction does work on a rolling object.",
+      "Forgetting to add the new object's I = mr² when something joins a rotating system."
+    ],
+    "examTips": [
+      "When asked to justify conservation, say \"no net external torque about the axis.\"",
+      "Graph questions: L stays flat during internal interactions; ω and K can jump.",
+      "Compare rolling objects with the fraction of energy in rotation, not with masses.",
+      "Show the full energy equation with both K terms before substituting v = Rω.",
+      "Check final answers by limiting cases (e.g., I → 0 should recover sliding results)."
+    ],
+    "cramSheet": "**K_rot:** ½Iω² · **W:** τΔθ\n\n**Rolling:** v = Rω · K = ½Mv² + ½Iω² · cylinder ¾Mv² · sphere 7/10 Mv²\n\n**Ramp race:** sphere > cylinder > hoop (independent of M, R)\n\n**L:** Iω · point mass mvr⊥\n\n**Angular impulse:** τΔt = ΔL\n\n**Conservation:** τ_ext = 0 → I₁ω₁ = I₂ω₂ · K may change\n\n**Pivot collision:** conserve L about pivot, not p"
+  },
+  "vocab": [
+    {
+      "term": "Rotational kinetic energy",
+      "definition": "Kinetic energy due to rotation, K = ½Iω²."
+    },
+    {
+      "term": "Rolling without slipping",
+      "definition": "Motion in which the contact point is momentarily at rest, so v = Rω."
+    },
+    {
+      "term": "Angular momentum",
+      "definition": "L = Iω for a rotating object; L = mvr⊥ for a point mass about a point."
+    },
+    {
+      "term": "Angular impulse",
+      "definition": "The product of torque and time interval, τΔt, equal to the change in angular momentum."
+    },
+    {
+      "term": "Conservation of angular momentum",
+      "definition": "The total angular momentum of a system is constant when the net external torque on it is zero."
+    },
+    {
+      "term": "Work done by a torque",
+      "definition": "W = τΔθ, the energy transferred by a torque through an angular displacement."
+    },
+    {
+      "term": "Total kinetic energy (rolling)",
+      "definition": "The sum of translational and rotational kinetic energy: ½Mv² + ½Iω²."
+    },
+    {
+      "term": "External torque",
+      "definition": "A torque exerted on the system by something outside it."
+    },
+    {
+      "term": "Rotational collision",
+      "definition": "An interaction in which rotating objects couple or collide; angular momentum is conserved if there's no external torque."
+    },
+    {
+      "term": "Moment arm (for L)",
+      "definition": "The perpendicular distance from the axis to a moving particle's line of motion."
+    },
+    {
+      "term": "Rotational work-energy theorem",
+      "definition": "The net work done by torques equals the change in rotational kinetic energy."
+    },
+    {
+      "term": "Static friction (rolling)",
+      "definition": "The friction that prevents slipping at the contact point; it does no work when the object rolls without slipping."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u6-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.1 Rotational Kinetic Energy",
+      "stem": "A wheel with rotational inertia 2 kg·m² spins at 3 rad/s. What is its rotational kinetic energy?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "9 J"
+        },
+        {
+          "id": "B",
+          "text": "6 J"
+        },
+        {
+          "id": "C",
+          "text": "18 J"
+        },
+        {
+          "id": "D",
+          "text": "3 J"
+        }
+      ],
+      "answer": "A",
+      "explanation": "K = ½Iω² = ½(2)(9) = 9 J.",
+      "distractors": {
+        "B": "Didn't square ω.",
+        "C": "Forgot the ½."
+      }
+    },
+    {
+      "id": "u6-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.4 Angular Momentum",
+      "stem": "What is the angular momentum of a disk with rotational inertia 4 kg·m² rotating at 5 rad/s?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "20 kg·m²/s"
+        },
+        {
+          "id": "B",
+          "text": "50 kg·m²/s"
+        },
+        {
+          "id": "C",
+          "text": "1.25 kg·m²/s"
+        },
+        {
+          "id": "D",
+          "text": "100 kg·m²/s"
+        }
+      ],
+      "answer": "A",
+      "explanation": "L = Iω = 4 × 5 = 20 kg·m²/s.",
+      "distractors": {
+        "B": "Computed ½Iω², the kinetic energy."
+      }
+    },
+    {
+      "id": "u6-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.5 Conservation of Angular Momentum",
+      "stem": "A spinning figure skater pulls her arms in toward her body. Which happens?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Her angular velocity increases and her angular momentum stays the same."
+        },
+        {
+          "id": "B",
+          "text": "Her angular velocity decreases and her angular momentum stays the same."
+        },
+        {
+          "id": "C",
+          "text": "Her angular momentum increases."
+        },
+        {
+          "id": "D",
+          "text": "Her rotational inertia increases."
+        }
+      ],
+      "answer": "A",
+      "explanation": "With negligible external torque, L = Iω is constant. Pulling arms in reduces I, so ω increases.",
+      "distractors": {
+        "D": "Bringing mass closer to the axis reduces I."
+      }
+    },
+    {
+      "id": "u6-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.2 Torque and Work",
+      "stem": "A constant torque of 5 N·m turns a wheel through 4 rad. How much work does the torque do?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "20 J"
+        },
+        {
+          "id": "B",
+          "text": "1.25 J"
+        },
+        {
+          "id": "C",
+          "text": "9 J"
+        },
+        {
+          "id": "D",
+          "text": "40 J"
+        }
+      ],
+      "answer": "A",
+      "explanation": "W = τΔθ = 5 × 4 = 20 J.",
+      "distractors": {
+        "C": "Added instead of multiplying."
+      }
+    },
+    {
+      "id": "u6-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.5 Conservation of Angular Momentum",
+      "stem": "A skater spinning at 3 rad/s with rotational inertia 4 kg·m² pulls in her arms, reducing her rotational inertia to 2 kg·m². What is her new angular velocity?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "6 rad/s"
+        },
+        {
+          "id": "B",
+          "text": "1.5 rad/s"
+        },
+        {
+          "id": "C",
+          "text": "4.2 rad/s"
+        },
+        {
+          "id": "D",
+          "text": "12 rad/s"
+        }
+      ],
+      "answer": "A",
+      "explanation": "4 × 3 = 2ω, so ω = 6 rad/s.",
+      "distractors": {
+        "B": "Inverted the ratio.",
+        "C": "Conserved kinetic energy instead: ω = 3√2."
+      }
+    },
+    {
+      "id": "u6-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.3 Rolling",
+      "stem": "A 2 kg solid cylinder (I = ½MR²) rolls without slipping at 2 m/s. What is its total kinetic energy?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "6 J"
+        },
+        {
+          "id": "B",
+          "text": "4 J"
+        },
+        {
+          "id": "C",
+          "text": "2 J"
+        },
+        {
+          "id": "D",
+          "text": "8 J"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Translational: ½(2)(4) = 4 J. Rotational: ½(½MR²)(v/R)² = ¼Mv² = 2 J. Total 6 J.",
+      "distractors": {
+        "B": "Left out the rotational energy.",
+        "C": "Only the rotational part."
+      }
+    },
+    {
+      "id": "u6-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.4 Angular Momentum and Angular Impulse",
+      "stem": "A constant net torque of 3 N·m acts for 2 s on a wheel at rest with rotational inertia 1.5 kg·m². What is the wheel's final angular velocity?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4 rad/s"
+        },
+        {
+          "id": "B",
+          "text": "6 rad/s"
+        },
+        {
+          "id": "C",
+          "text": "9 rad/s"
+        },
+        {
+          "id": "D",
+          "text": "2 rad/s"
+        }
+      ],
+      "answer": "A",
+      "explanation": "ΔL = τΔt = 6 kg·m²/s. ω = L/I = 6/1.5 = 4 rad/s.",
+      "distractors": {
+        "B": "Reported L as ω.",
+        "C": "Multiplied L by I."
+      }
+    },
+    {
+      "id": "u6-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.3 Rolling",
+      "stem": "A hoop and a solid disk with the same mass and radius are released together from rest at the top of the same incline and roll without slipping. Which reaches the bottom first?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The disk, because a smaller fraction of its kinetic energy goes into rotation"
+        },
+        {
+          "id": "B",
+          "text": "The hoop, because its mass is concentrated at the rim"
+        },
+        {
+          "id": "C",
+          "text": "They arrive together, because they have equal mass and radius"
+        },
+        {
+          "id": "D",
+          "text": "The hoop, because it has greater rotational inertia"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Both convert the same mgh. The disk's smaller I puts less into rotation and more into translation, so it moves faster at every point.",
+      "distractors": {
+        "C": "Shape matters even when mass and radius match."
+      }
+    },
+    {
+      "id": "u6-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.5 Conservation of Angular Momentum",
+      "stem": "When a spinning skater pulls her arms in, what happens to her rotational kinetic energy, and why?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It increases, because she does work with her muscles to pull her arms inward."
+        },
+        {
+          "id": "B",
+          "text": "It stays the same, because angular momentum is conserved."
+        },
+        {
+          "id": "C",
+          "text": "It decreases, because her rotational inertia decreases."
+        },
+        {
+          "id": "D",
+          "text": "It stays the same, because no external torque acts."
+        }
+      ],
+      "answer": "A",
+      "explanation": "K = L²/(2I). With L constant and I smaller, K increases. The energy comes from work done by her muscles.",
+      "distractors": {
+        "B": "Conservation of L doesn't imply conservation of K.",
+        "C": "K depends on ω², which increases more than I decreases."
+      }
+    },
+    {
+      "id": "u6-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.5 Conservation of Angular Momentum",
+      "stem": "A merry-go-round with rotational inertia 200 kg·m² spins freely at 1.0 rad/s. A 50 kg child, initially at rest, steps onto its edge 2.0 m from the axis. What is the new angular velocity?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.5 rad/s"
+        },
+        {
+          "id": "B",
+          "text": "1.0 rad/s"
+        },
+        {
+          "id": "C",
+          "text": "0.67 rad/s"
+        },
+        {
+          "id": "D",
+          "text": "2.0 rad/s"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The child adds mr² = 50 × 4 = 200 kg·m². 200 × 1.0 = 400ω, so ω = 0.5 rad/s.",
+      "distractors": {
+        "C": "Added mr = 100 instead of mr²: 200/300.",
+        "D": "Inverted the ratio."
+      }
+    },
+    {
+      "id": "u6-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.3 Rolling",
+      "stem": "A solid sphere (I = (2/5)MR²) is released from rest at height h and rolls without slipping to the bottom of a ramp. What is its speed at the bottom?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "√(10gh/7)"
+        },
+        {
+          "id": "B",
+          "text": "√(2gh)"
+        },
+        {
+          "id": "C",
+          "text": "√(4gh/3)"
+        },
+        {
+          "id": "D",
+          "text": "√(gh)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Mgh = ½Mv² + ½(2/5 MR²)(v/R)² = (7/10)Mv², so v = √(10gh/7).",
+      "distractors": {
+        "B": "Ignored rotation (sliding without friction).",
+        "C": "Used the solid cylinder's I."
+      }
+    },
+    {
+      "id": "u6-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.5 Conservation of Angular Momentum",
+      "stem": "In the situation where a 50 kg child steps onto the edge (r = 2.0 m) of a merry-go-round (I = 200 kg·m²) spinning at 1.0 rad/s, how much rotational kinetic energy is converted to other forms?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "50 J"
+        },
+        {
+          "id": "B",
+          "text": "0 J"
+        },
+        {
+          "id": "C",
+          "text": "100 J"
+        },
+        {
+          "id": "D",
+          "text": "25 J"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Before: ½(200)(1)² = 100 J. After: ½(400)(0.5)² = 50 J. 50 J converted, mostly to internal energy as the child's feet grip the platform.",
+      "distractors": {
+        "B": "Assumed kinetic energy is conserved because L is.",
+        "C": "That's the initial energy."
+      }
+    },
+    {
+      "id": "u6-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.5 Conservation of Angular Momentum",
+      "stem": "A ball of clay flies horizontally and sticks to the bottom end of a vertical rod that hangs from a frictionless pivot at its top. For the clay-rod system, which quantity is conserved during the collision?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Angular momentum about the pivot"
+        },
+        {
+          "id": "B",
+          "text": "Linear momentum"
+        },
+        {
+          "id": "C",
+          "text": "Kinetic energy"
+        },
+        {
+          "id": "D",
+          "text": "Both linear momentum and angular momentum about the pivot"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The pivot exerts an external force during the collision, so linear momentum isn't conserved. That force acts at the pivot, so it has no torque about it: angular momentum about the pivot is conserved. The collision is inelastic, so kinetic energy isn't.",
+      "distractors": {
+        "B": "The pivot force is external and changes linear momentum.",
+        "C": "The clay sticks; kinetic energy is lost."
+      }
+    },
+    {
+      "id": "u6-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.5 Conservation of Angular Momentum",
+      "stem": "A disk spins freely at ω₀ on a frictionless axle. An identical disk, not rotating, is dropped onto it and the two quickly spin together. What fraction of the original rotational kinetic energy remains?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1/2"
+        },
+        {
+          "id": "B",
+          "text": "1/4"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Iω₀ = 2Iω, so ω = ω₀/2. K_final = ½(2I)(ω₀/2)² = ¼Iω₀², which is half of ½Iω₀².",
+      "distractors": {
+        "B": "Squared the ½ but forgot that I doubled.",
+        "C": "Assumed kinetic energy is conserved."
+      }
+    },
+    {
+      "id": "u6-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "6.5 Conservation of Angular Momentum",
+      "frqType": "Translation Between Representations (TBR)",
+      "prompt": "A disk with rotational inertia I spins at angular velocity ω₀ on a frictionless vertical axle. At time t₁, a ring of clay with rotational inertia I_c (about the same axis), initially not rotating, is dropped onto the disk. The clay slides briefly, then sticks and rotates with the disk.",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Describe sketches of (i) the angular momentum of the disk-clay system, (ii) the disk's angular velocity, and (iii) the system's rotational kinetic energy, each as a function of time from before t₁ to well after.",
+          "points": 3
+        },
+        {
+          "label": "b",
+          "prompt": "Derive an expression for the final angular velocity in terms of I, I_c, and ω₀.",
+          "points": 3
+        },
+        {
+          "label": "c",
+          "prompt": "Derive an expression for the fraction of the initial rotational kinetic energy that remains.",
+          "points": 3
+        },
+        {
+          "label": "d",
+          "prompt": "Explain why angular momentum is conserved but kinetic energy is not, and identify what happens to the missing energy.",
+          "points": 3
+        }
+      ],
+      "points": 12,
+      "minutes": 25,
+      "rubric": [
+        {
+          "criterion": "(a)(i) L graph",
+          "points": 1,
+          "description": "Horizontal line: constant before, during, and after t₁."
+        },
+        {
+          "criterion": "(a)(ii) ω graph",
+          "points": 1,
+          "description": "Constant at ω₀, decreases quickly at t₁, then constant at a lower value."
+        },
+        {
+          "criterion": "(a)(iii) K graph",
+          "points": 1,
+          "description": "Constant, drops at t₁, then constant at a lower value."
+        },
+        {
+          "criterion": "(b) Principle",
+          "points": 1,
+          "description": "Conservation of angular momentum: L_i = L_f."
+        },
+        {
+          "criterion": "(b) Substitution",
+          "points": 1,
+          "description": "Iω₀ = (I + I_c)ω_f."
+        },
+        {
+          "criterion": "(b) Answer",
+          "points": 1,
+          "description": "ω_f = Iω₀/(I + I_c)."
+        },
+        {
+          "criterion": "(c) Setup",
+          "points": 1,
+          "description": "Ratio K_f/K_i with K = ½Iω²."
+        },
+        {
+          "criterion": "(c) Substitution",
+          "points": 1,
+          "description": "[½(I + I_c)ω_f²]/[½Iω₀²] with ω_f from (b)."
+        },
+        {
+          "criterion": "(c) Answer",
+          "points": 1,
+          "description": "K_f/K_i = I/(I + I_c)."
+        },
+        {
+          "criterion": "(d) L conserved",
+          "points": 1,
+          "description": "The axle is frictionless, so no net external torque acts on the system about the axis."
+        },
+        {
+          "criterion": "(d) K not conserved",
+          "points": 1,
+          "description": "Kinetic friction between the clay and disk (internal) does net negative work while they slide relative to each other."
+        },
+        {
+          "criterion": "(d) Energy destination",
+          "points": 1,
+          "description": "Lost kinetic energy becomes internal (thermal) energy of the disk and clay, plus some deformation/sound."
+        }
+      ],
+      "sampleResponse": "(a) (i) The system's angular momentum is a horizontal line at Iω₀ for all times. (ii) The disk's angular velocity is constant at ω₀ before t₁, drops rapidly over the short sliding interval after t₁, then stays constant at a smaller value. (iii) The rotational kinetic energy is constant at ½Iω₀² before t₁, drops over the same short interval, then stays constant at a lower value.\n\n(b) No external torque acts about the axle, so angular momentum is conserved: Iω₀ = (I + I_c)ω_f, giving ω_f = Iω₀/(I + I_c).\n\n(c) K_i = ½Iω₀². K_f = ½(I + I_c)ω_f² = ½(I + I_c)·I²ω₀²/(I + I_c)² = ½I²ω₀²/(I + I_c). K_f/K_i = I/(I + I_c).\n\n(d) Angular momentum is conserved because the axle is frictionless and gravity and the normal force are parallel to the axis, so the net external torque about the axis is zero. The friction between the clay and the disk is internal to the system: it exerts equal and opposite torques on them, so it can't change the total angular momentum. But while they slide relative to each other, that friction converts kinetic energy into internal energy, warming the surfaces (and some goes to sound and deformation). So K decreases, as (c) shows: K_f/K_i < 1."
+    }
+  ]
+}

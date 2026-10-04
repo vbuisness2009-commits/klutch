@@ -1,0 +1,274 @@
+{
+  "number": 4,
+  "title": "Introductions, Conclusions, and Methods of Development",
+  "guide": {
+    "summary": "Openings and closings do disproportionate rhetorical work. Introductions establish exigence, orient the audience, and set up the thesis; conclusions explain significance and leave the audience with a final impression. This unit also continues methods of development and introduces the synthesis essay, where you build your own argument from sources.",
+    "sections": [
+      {
+        "heading": "Introductions",
+        "body": "An effective introduction does three jobs: it captures attention, establishes **exigence** (why this matters now), and positions the thesis.\n\nCommon openings:\n\n- **Anecdote:** creates empathy and a human stake.\n- **Striking statistic:** establishes scale or urgency.\n- **Misconception to correct:** \"Most people assume... but.\"\n- **Concession:** starts on common ground with a skeptical audience.\n- **Question:** frames the inquiry.\n\nThe right opening depends on the audience. Policymakers may respond to scale; a general audience may need a person to care about. Skeptics may need to see that the writer understands their view."
+      },
+      {
+        "heading": "Conclusions",
+        "body": "Weak conclusions restate the thesis. Strong ones answer \"so what?\":\n\n- **Significance:** why the argument matters beyond the immediate case.\n- **Call to action:** what the audience should do.\n- **Framing (circular structure):** returning to the opening image or story, often with new meaning gained from the argument.\n- **Broader implications:** extending the claim to a larger context.\n\nA conclusion must stay consistent with the thesis. If the thesis is qualified, the conclusion shouldn't suddenly overclaim. A short final sentence after longer ones creates emphasis."
+      },
+      {
+        "heading": "The synthesis essay",
+        "body": "The synthesis essay gives you about six sources (texts, a chart or image) on an issue. You must:\n\n1. Take a **defensible position** on the prompt.\n2. Use **at least three sources** as evidence, cited by letter or title.\n3. **Explain** how each source supports your reasoning: commentary is still the core of Row B.\n\nSources are evidence, not authorities to summarize. The strongest essays put sources **in conversation**: one source's data answers another's concern; a source's limitation becomes a qualification of your claim. Consider each source's perspective and bias (a trade association has interests; a government report has a scope)."
+      },
+      {
+        "heading": "Applying this on the exam",
+        "body": "Multiple-choice writing questions often ask which sentence would best introduce or conclude a paragraph or essay given a stated goal. Match the choice to the goal: if the question asks for a conclusion that emphasizes broader significance, eliminate choices that only summarize.\n\nIn reading questions, consider how the first and last paragraphs relate. Does the ending answer a question posed at the start? Does a returning image mean something new?"
+      }
+    ],
+    "keyTakeaways": [
+      "Introductions establish exigence and position the thesis for a specific audience.",
+      "Conclusions should explain significance, not just restate.",
+      "Framing returns to the opening with new meaning.",
+      "Conclusions must match the thesis's level of certainty.",
+      "Synthesis requires a position supported by at least three sources with commentary.",
+      "Put sources in conversation rather than summarizing them one by one."
+    ],
+    "commonMistakes": [
+      "Opening with a generic statement like \"Since the dawn of time.\"",
+      "Ending with a summary that adds nothing.",
+      "Overclaiming in the conclusion after a qualified thesis.",
+      "Summarizing sources in sequence in a synthesis essay.",
+      "Citing fewer than three sources.",
+      "Ignoring a source's perspective or bias."
+    ],
+    "examTips": [
+      "In synthesis, decide your position before rereading sources, then choose sources that serve your line of reasoning.",
+      "Cite sources clearly (Source A) and quote or paraphrase briefly.",
+      "Use one source to complicate another for the sophistication point.",
+      "For conclusion questions, ask what the writer wants the audience to do or think last.",
+      "Keep introductions short on the exam; get to the thesis quickly."
+    ],
+    "cramSheet": "**Intro jobs:** attention · exigence · thesis\n\n**Openings:** anecdote · statistic · misconception · concession · question\n\n**Conclusions:** significance · call to action · framing · broader implications\n\n**Consistency:** qualified thesis → measured conclusion\n\n**Synthesis:** position + ≥3 sources + commentary · sources in conversation · note bias"
+  },
+  "vocab": [
+    { "term": "Exigence", "definition": "The problem or event that prompts a piece of writing and makes it urgent." },
+    { "term": "Hook", "definition": "An opening designed to capture the reader's attention." },
+    { "term": "Framing device", "definition": "A story or image that opens and closes a text, often gaining new meaning at the end." },
+    { "term": "Call to action", "definition": "A conclusion urging the audience to take a specific step." },
+    { "term": "Significance", "definition": "Why an argument matters beyond its immediate subject." },
+    { "term": "Synthesis", "definition": "Combining information from multiple sources to support an original argument." },
+    { "term": "Source", "definition": "A text, chart, or image used as evidence in a synthesis essay." },
+    { "term": "Bias", "definition": "A perspective or interest that may shape how a source presents information." },
+    { "term": "Sources in conversation", "definition": "Relating sources to each other, showing agreement, tension, or qualification." },
+    { "term": "Emphasis", "definition": "Highlighting an idea through placement, repetition, or sentence length." },
+    { "term": "Orienting the reader", "definition": "Giving background needed to understand an argument." },
+    { "term": "Overclaiming", "definition": "Asserting more than the evidence supports." }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01", "tier": "Intro", "type": "mcq", "topic": "Introductions",
+      "stimulus": "Every eleven minutes, a child in this state is treated in an emergency room for a dog bite. Most of the dogs are not strays. They are family pets.",
+      "stem": "Used as the opening of an essay urging parents to supervise children around dogs, the passage primarily serves to",
+      "choices": [
+        { "id": "A", "text": "establish urgency and overturn the assumption that the danger comes from unfamiliar animals" },
+        { "id": "B", "text": "argue that families should not own dogs" },
+        { "id": "C", "text": "provide a counterargument the writer will later concede" },
+        { "id": "D", "text": "describe the treatment of dog bites" }
+      ],
+      "answer": "A",
+      "explanation": "The statistic creates urgency; the reveal that the dogs are family pets corrects a misconception and points toward supervision.",
+      "distractors": { "B": "The essay's purpose is supervision, not giving up pets." }
+    },
+    {
+      "id": "u4-q02", "tier": "Intro", "type": "mcq", "topic": "Conclusions",
+      "stimulus": "An essay arguing for preserving a historic diner opens with the writer's father teaching her to drink coffee at its counter when she was nine.",
+      "stem": "Which conclusion would best use a framing device?",
+      "choices": [
+        { "id": "A", "text": "Last week I sat at that counter with my own daughter, who ordered hot chocolate and asked whether the diner would still be here when she was old enough for coffee." },
+        { "id": "B", "text": "In conclusion, the diner should be preserved for the reasons stated above." },
+        { "id": "C", "text": "Diners became popular in the United States in the early twentieth century." },
+        { "id": "D", "text": "Many cities have lost historic buildings." }
+      ],
+      "answer": "A",
+      "explanation": "It returns to the counter and the coffee ritual, now with a new generation, turning the memory into a stake in the future.",
+      "distractors": { "B": "Restates without significance." }
+    },
+    {
+      "id": "u4-q03", "tier": "Intro", "type": "mcq", "topic": "Conclusions",
+      "stimulus": "The school board votes on the proposal Thursday at 7 p.m. If you believe every student deserves a seat on a bus, come and say so. Bring your neighbor.",
+      "stem": "This conclusion primarily functions as",
+      "choices": [
+        { "id": "A", "text": "a call to action" },
+        { "id": "B", "text": "a concession" },
+        { "id": "C", "text": "a statistical summary" },
+        { "id": "D", "text": "a framing device" }
+      ],
+      "answer": "A",
+      "explanation": "It gives the audience a time, place, and specific action.",
+      "distractors": { "D": "It doesn't return to an opening image." }
+    },
+    {
+      "id": "u4-q04", "tier": "Intro", "type": "mcq", "topic": "Introductions",
+      "stimulus": "A student is writing an op-ed about the lack of shade at city bus stops. He wants his introduction to establish why the issue is urgent now.",
+      "stem": "Which sentence would best accomplish this goal?",
+      "choices": [
+        { "id": "A", "text": "This summer, for the first time, the city recorded twenty-two days above 105°F, and riders, many of them elderly, waited at stops with no shade at all." },
+        { "id": "B", "text": "Bus stops are places where people wait for buses." },
+        { "id": "C", "text": "Shade has been valued by people throughout history." },
+        { "id": "D", "text": "The city has many bus routes." }
+      ],
+      "answer": "A",
+      "explanation": "It ties the problem to a recent, specific development that affects vulnerable people.",
+      "distractors": { "C": "Generic and not tied to the present moment." }
+    },
+    {
+      "id": "u4-q05", "tier": "Exam level", "type": "mcq", "topic": "Conclusions",
+      "stimulus": "Draft conclusion: \"To sum up, community gardens provide fresh food, bring neighbors together, and improve vacant lots. That is why they are good.\"\n\nThe writer wants a conclusion that emphasizes the broader significance of the argument rather than restating it.",
+      "stem": "Which revision best achieves this goal?",
+      "choices": [
+        { "id": "A", "text": "A vacant lot tells a neighborhood that no one is coming; a garden on the same lot says that someone already has. Cities that fund gardens are investing not only in vegetables but in residents' belief that their block is worth tending." },
+        { "id": "B", "text": "In conclusion, community gardens provide fresh food, community, and better lots." },
+        { "id": "C", "text": "Community gardens are good for three reasons, as shown above." },
+        { "id": "D", "text": "Some people do not like gardening." }
+      ],
+      "answer": "A",
+      "explanation": "It extends the argument to a larger idea, civic hope and investment, rather than listing points again.",
+      "distractors": { "B": "Still a summary." }
+    },
+    {
+      "id": "u4-q06", "tier": "Exam level", "type": "mcq", "topic": "Introductions",
+      "stimulus": "I understand why many residents oppose the new apartment building. Traffic on Elm Street is already bad, and change is hard when you love a place the way it is. I love it too. That is exactly why I think we should say yes.",
+      "stem": "Opening with acknowledgment of the opposition most likely serves to",
+      "choices": [
+        { "id": "A", "text": "establish common ground with a skeptical audience before presenting a claim they may resist" },
+        { "id": "B", "text": "show that the writer agrees with the opposition" },
+        { "id": "C", "text": "provide statistics about traffic" },
+        { "id": "D", "text": "change the subject to traffic policy" }
+      ],
+      "answer": "A",
+      "explanation": "Validating the audience's feelings and sharing their love of the place makes them more willing to hear the turn in the final sentence.",
+      "distractors": { "B": "The final sentence takes the opposite position." }
+    },
+    {
+      "id": "u4-q07", "tier": "Exam level", "type": "mcq", "topic": "Introductions / audience",
+      "stimulus": "A writer is drafting a letter to state legislators urging them to fund lead pipe replacement. Many legislators are focused on controlling the budget.",
+      "stem": "Which opening would best suit this audience?",
+      "choices": [
+        { "id": "A", "text": "Every dollar spent replacing lead service lines is projected to save several dollars in future health and education costs, a return few budget items can match." },
+        { "id": "B", "text": "Lead is a soft, heavy metal with the symbol Pb." },
+        { "id": "C", "text": "Legislators who oppose this funding do not care about children." },
+        { "id": "D", "text": "Water is essential to all life on Earth." }
+      ],
+      "answer": "A",
+      "explanation": "It frames the proposal in the audience's terms: fiscal return.",
+      "distractors": { "C": "Alienates the people the writer needs to persuade." }
+    },
+    {
+      "id": "u4-q08", "tier": "Exam level", "type": "mcq", "topic": "Conclusions / emphasis",
+      "stimulus": "We built highways through these neighborhoods because they were the cheapest land to take. We told residents it was progress. We told them it was temporary inconvenience in exchange for a better city. We were wrong.",
+      "stem": "The final sentence's brevity, compared with the sentences before it, primarily serves to",
+      "choices": [
+        { "id": "A", "text": "emphasize the writer's blunt admission after a buildup of justifications" },
+        { "id": "B", "text": "introduce a new piece of evidence" },
+        { "id": "C", "text": "soften the writer's criticism" },
+        { "id": "D", "text": "shift to a different audience" }
+      ],
+      "answer": "A",
+      "explanation": "Longer sentences repeating \"We told\" build up official rationalizations; four plain words then deflate them.",
+      "distractors": { "C": "The short sentence sharpens rather than softens." }
+    },
+    {
+      "id": "u4-q09", "tier": "Exam level", "type": "mcq", "topic": "Introductions",
+      "stimulus": "Ask most people what killed the dinosaurs, and they will say an asteroid. Ask them what nearly killed the oceans 250 million years ago, and they will have no answer, though that extinction was far worse.",
+      "stem": "The writer's opening strategy is best described as",
+      "choices": [
+        { "id": "A", "text": "contrasting a familiar story with a less familiar one to spark curiosity about the essay's real subject" },
+        { "id": "B", "text": "refuting the asteroid theory" },
+        { "id": "C", "text": "presenting a call to action" },
+        { "id": "D", "text": "summarizing the essay's conclusion" }
+      ],
+      "answer": "A",
+      "explanation": "The well-known asteroid story highlights a gap in readers' knowledge that the essay will fill.",
+      "distractors": { "B": "The writer accepts the asteroid explanation." }
+    },
+    {
+      "id": "u4-q10", "tier": "Exam level", "type": "mcq", "topic": "Transitions between introduction and body",
+      "stimulus": "Introduction ends: \"Reading for pleasure among teenagers has declined for three decades.\"\nFirst body paragraph begins: \"Libraries that let students choose what they read, including graphic novels and audiobooks, have reversed that trend.\"",
+      "stem": "The writer wants to add a sentence at the end of the introduction to connect it to the body. Which sentence best does this?",
+      "choices": [
+        { "id": "A", "text": "The decline is not inevitable; it reflects choices schools make about what counts as reading." },
+        { "id": "B", "text": "Reading is important for many reasons." },
+        { "id": "C", "text": "Graphic novels first appeared in the twentieth century." },
+        { "id": "D", "text": "Many teenagers prefer sports." }
+      ],
+      "answer": "A",
+      "explanation": "It turns the problem into something changeable through school choices, setting up the body's solution.",
+      "distractors": { "D": "Introduces an unrelated cause." }
+    },
+    {
+      "id": "u4-q11", "tier": "Hardest", "type": "mcq", "topic": "Conclusions / framing",
+      "stimulus": "An essay opens with the image of a dam on the writer's childhood river: \"a gray wall that seemed as permanent as the hills.\" The essay argues that aging dams should be removed to restore fish runs. It ends: \"Last spring I watched the gray wall come down in a week. The hills, it turns out, were the only permanent thing there.\"",
+      "stem": "The conclusion's return to the opening image primarily serves to",
+      "choices": [
+        { "id": "A", "text": "reverse the opening's sense of permanence, reinforcing the argument that human structures are temporary choices that can be undone" },
+        { "id": "B", "text": "express regret that the dam was removed" },
+        { "id": "C", "text": "introduce a new argument about hillside erosion" },
+        { "id": "D", "text": "summarize the essay's statistics on fish runs" }
+      ],
+      "answer": "A",
+      "explanation": "The dam once \"seemed as permanent as the hills\"; now only the hills are. The image's meaning shifts to support the claim that dams are reversible decisions.",
+      "distractors": { "B": "The tone suggests discovery, not regret." }
+    },
+    {
+      "id": "u4-q12", "tier": "Hardest", "type": "mcq", "topic": "Conclusions / consistency",
+      "stimulus": "Thesis: \"For many students, a gap year before college can build maturity and focus, though it works best when the year is structured.\"",
+      "stem": "Which conclusion is most consistent with this thesis?",
+      "choices": [
+        { "id": "A", "text": "A gap year isn't a cure for every uncertain graduate, but for those who plan it with purpose, it can turn drift into direction before the first tuition bill arrives." },
+        { "id": "B", "text": "Every student should take a gap year, because it always leads to success." },
+        { "id": "C", "text": "Gap years are a waste of time for everyone." },
+        { "id": "D", "text": "College is expensive." }
+      ],
+      "answer": "A",
+      "explanation": "It keeps the thesis's qualifications (\"for many,\" \"structured\") while emphasizing the benefit.",
+      "distractors": { "B": "Overclaims; the thesis is qualified." }
+    },
+    {
+      "id": "u4-q13", "tier": "Hardest", "type": "mcq", "topic": "Introductions / audience",
+      "stimulus": "A public health researcher must choose an opening for a report to county commissioners about expanding a vaccination clinic. Option 1 tells the story of a single family whose infant was hospitalized. Option 2 reports that hospitalizations for a preventable disease rose 40 percent in the county last year, costing the public hospital an estimated $2.3 million.",
+      "stem": "Which reasoning best supports choosing Option 2 for this audience?",
+      "choices": [
+        { "id": "A", "text": "Commissioners responsible for budgets and the whole county are likely to weigh scale and cost, which the statistic addresses directly." },
+        { "id": "B", "text": "Anecdotes are never appropriate in professional writing." },
+        { "id": "C", "text": "Statistics are always more persuasive than stories." },
+        { "id": "D", "text": "The commissioners are unlikely to care about children." }
+      ],
+      "answer": "A",
+      "explanation": "The choice depends on audience; here, the decision-makers' responsibilities make county-wide scale and cost most relevant. (A story could still appear later.)",
+      "distractors": { "B": "An absolute claim; anecdotes often work well.", "C": "Also an overgeneralization; effectiveness depends on the audience." }
+    },
+    {
+      "id": "u4-q14", "tier": "Hardest", "type": "mcq", "topic": "Conclusions / broader implications",
+      "stimulus": "An essay argues that a small town's decision to keep its only grocery store open by converting it into a cooperative owned by residents saved the town's center.",
+      "stem": "Which concluding sentence best extends the argument to broader implications?",
+      "choices": [
+        { "id": "A", "text": "As chains abandon thousands of rural towns, the cooperative model offers a way for communities to stop waiting to be chosen and start choosing for themselves." },
+        { "id": "B", "text": "The store sells fresh produce and bread." },
+        { "id": "C", "text": "In conclusion, the cooperative saved the town." },
+        { "id": "D", "text": "The town has about 1,200 residents." }
+      ],
+      "answer": "A",
+      "explanation": "It connects one town's case to a national pattern and frames the cooperative as a model of agency.",
+      "distractors": { "C": "Restates." }
+    },
+    {
+      "id": "u4-frq1", "tier": "Exam level", "type": "frq", "topic": "Synthesis", "frqType": "Q1 Synthesis",
+      "stimulus": "The sources below were written for this practice set. On the exam you would see six sources; this practice version uses four.\n\n**Source A (summary of a transportation report):** After London introduced a daily charge for driving into its central zone in 2003, traffic entering the zone fell substantially in the first years, and bus ridership rose. The revenue funded transit improvements. Congestion later crept back as road space was reallocated to buses and bicycles.\n\n**Source B (statement from a downtown business association):** Our members worry that a congestion fee will push shoppers to suburban malls with free parking. Small retailers operate on thin margins; even a modest drop in visits could close stores that have anchored downtown for decades.\n\n**Source C (hypothetical data table for a mid-sized city):**\n\n| Commuters entering downtown | Share |\n| --- | --- |\n| Drive alone | 64% |\n| Transit | 22% |\n| Walk/bike | 9% |\n| Carpool | 5% |\n\n**Source D (op-ed by an urban equity researcher):** Flat fees fall hardest on low-income drivers who have no good transit option. Any congestion price must come with discounts for low-income residents and real bus service, or it becomes a toll on the poor to clear roads for the rich.",
+      "prompt": "Many cities have considered charging drivers a fee to enter crowded downtown areas at peak hours. Write an essay that develops your position on whether a mid-sized American city should adopt congestion pricing. Synthesize material from at least three of the sources and incorporate it into a coherent, well-developed essay.\n\nIn your response you should do the following:\n- Respond to the prompt with a thesis that presents a defensible position.\n- Select and use evidence from at least three of the provided sources to support your line of reasoning. Indicate clearly the sources used through direct quotation, paraphrase, or summary.\n- Explain how the evidence supports your line of reasoning.\n- Use appropriate grammar and punctuation in communicating your argument.",
+      "points": 6,
+      "minutes": 55,
+      "rubric": [
+        { "criterion": "Row A: Thesis", "points": 1, "description": "Responds with a defensible thesis that takes a position on adopting congestion pricing." },
+        { "criterion": "Row B: Evidence and commentary", "points": 4, "description": "4: evidence from at least three sources supports all claims; commentary consistently explains it. 3: three sources with commentary explaining most. 2: three sources with summary-heavy commentary (or fewer than three sources caps at 2). 1: evidence from one or two sources with little commentary." },
+        { "criterion": "Row C: Sophistication", "points": 1, "description": "E.g., puts sources in conversation, addresses limitations or tensions, or crafts a nuanced argument." }
+      ],
+      "sampleResponse": "A mid-sized city should adopt congestion pricing, but only as part of a package that funds transit and protects low-income drivers; a fee by itself would punish the people with the fewest alternatives while doing little to change how the city moves.\n\nThe case for pricing rests on its record of changing behavior. When London began charging drivers to enter its center in 2003, traffic fell substantially and bus ridership rose (Source A). The fee worked because it made drivers weigh a cost they had always ignored: the space their car takes from everyone else. Just as important, the revenue paid for transit, turning a penalty into an investment.\n\nYet a mid-sized American city is not London. In the hypothetical city in Source C, 64 percent of downtown commuters drive alone and only 22 percent use transit. That imbalance cuts both ways. It shows how much room there is to reduce car trips, but it also suggests many residents have no practical alternative today. If the city simply charges a fee, the equity researcher's warning applies: it becomes \"a toll on the poor to clear roads for the rich\" (Source D). The design must therefore come first. Discounts for low-income residents and, above all, more frequent buses would give drivers a real choice rather than just a bill.\n\nThe business association's fear that shoppers will flee to free suburban parking (Source B) deserves a serious answer rather than dismissal. London's experience suggests the answer is in how revenue is spent: when fees fund better transit, downtown remains accessible to people who don't drive. A city could also price only peak commuting hours, leaving evenings and weekends, prime shopping times, free.\n\nSource A also contains a caution: congestion crept back in London as road space was given to buses and bikes. That isn't a failure; it shows that pricing is a tool for reallocating space, not a permanent fix. A city that adopts it should measure results and adjust the price, rather than expect a single decision to solve traffic forever.\n\nCongestion pricing, done carelessly, would deepen inequality. Done as a transit-funding, discount-protected policy, it can give a mid-sized city what it lacks most: a reason for people to leave the car at home and a way to pay for the buses that make that possible."
+    }
+  ]
+}

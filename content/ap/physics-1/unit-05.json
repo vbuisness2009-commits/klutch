@@ -1,0 +1,625 @@
+{
+  "number": 5,
+  "title": "Torque and Rotational Dynamics",
+  "guide": {
+    "summary": "Rotation has its own versions of displacement, velocity, acceleration, force, and mass: angle, angular velocity, angular acceleration, torque, and rotational inertia. This unit covers rotational kinematics, torque, rotational inertia, Newton's second law for rotation, and static equilibrium.",
+    "sections": [
+      {
+        "heading": "Rotational kinematics",
+        "body": "Angular quantities describe rotation about a fixed axis:\n\n| Linear | Angular | Link (point at radius r) |\n| --- | --- | --- |\n| x (m) | θ (rad) | s = rθ |\n| v (m/s) | ω (rad/s) | v = rω |\n| a (m/s²) | α (rad/s²) | a_t = rα |\n\nFor constant α, the kinematic equations carry over directly:\n\nω = ω₀ + αt · θ = θ₀ + ω₀t + ½αt² · ω² = ω₀² + 2αΔθ\n\nA wheel starting from rest with α = 2 rad/s² turns ½(2)(3²) = 9 rad in 3 s.\n\nEvery point on a rigid object has the same ω, but points farther from the axis move faster: v = rω."
+      },
+      {
+        "heading": "Torque",
+        "body": "Torque measures a force's ability to rotate an object about an axis:\n\nτ = rF sin θ\n\nwhere r is the distance from the axis to where the force acts, and θ is the angle between r and F. Equivalently, τ = r⊥F, using the **lever arm** (perpendicular distance from the axis to the force's line of action).\n\nPushing a door 0.8 m from the hinges with 10 N at 30° to the door gives τ = 0.8 × 10 × sin 30° = 4 N·m. Pushing perpendicular gives the maximum; pushing toward the hinge gives zero.\n\nAssign signs: counterclockwise positive, clockwise negative (or vice versa, consistently)."
+      },
+      {
+        "heading": "Rotational inertia",
+        "body": "Rotational inertia I is resistance to angular acceleration. It depends on mass **and how far the mass is from the axis**:\n\nI = Σ m r² for point masses\n\nFor the same mass and radius, a hoop (all mass at the rim, I = MR²) has more rotational inertia than a solid disk (I = ½MR²). The exam gives formulas for specific shapes when needed.\n\nMoving mass outward increases I sharply: doubling r for point masses quadruples I.\n\n**Parallel axis theorem:** I = I_cm + Md², for an axis a distance d from a parallel axis through the center of mass. A uniform rod: I_cm = (1/12)ML², about one end (1/3)ML²."
+      },
+      {
+        "heading": "Newton's second law for rotation",
+        "body": "τ_net = Iα\n\nThe same torque produces a smaller angular acceleration in an object with larger I. A disk and a hoop of equal mass and radius under equal torque: the disk spins up faster.\n\nCombined problems link translation and rotation. A mass m hanging from a string wrapped around a pulley (radius R, inertia I):\n\nmg − T = ma (hanging mass) · TR = Iα (pulley) · a = Rα (string doesn't slip)\n\nSolving: a = mg/(m + I/R²). The pulley's inertia acts like extra mass, so a < g."
+      },
+      {
+        "heading": "Static equilibrium",
+        "body": "An object is in static equilibrium when\n\nΣF = 0 and Στ = 0 (about **any** axis)\n\nChoose the axis through an unknown force to eliminate it. For a uniform 4 m, 100 N beam on supports at both ends with a 200 N person 1 m from the left end, take torques about the left support:\n\nR(4) = 100(2) + 200(1) = 400, so R = 100 N. Then ΣF = 0 gives L = 300 − 100 = 200 N.\n\nThe weight of a uniform object acts at its center. On a seesaw, balance means m₁r₁ = m₂r₂: a 30 kg child 2 m from the pivot balances a 40 kg child 1.5 m on the other side.\n\nZero net torque doesn't mean no rotation: it means constant angular velocity."
+      }
+    ],
+    "keyTakeaways": [
+      "ω, α, θ follow the same kinematic equations as v, a, x.",
+      "v = rω and a_t = rα link rotation to linear motion.",
+      "τ = rF sin θ; maximum when F is perpendicular to r.",
+      "I depends on mass distribution: mass farther from the axis means larger I.",
+      "τ_net = Iα.",
+      "Equilibrium: ΣF = 0 and Στ = 0; pick the pivot at an unknown force."
+    ],
+    "commonMistakes": [
+      "Using the full distance r when the force isn't perpendicular, without the sin θ.",
+      "Forgetting the weight of the beam itself in equilibrium problems.",
+      "Treating I as depending only on mass.",
+      "Mixing degrees and radians in ω and α calculations.",
+      "Assuming zero net torque means the object isn't rotating.",
+      "Forgetting the pulley's rotational inertia reduces the acceleration of a hanging mass."
+    ],
+    "examTips": [
+      "State the axis you're calculating torques about.",
+      "In derivations, start from τ_net = Iα or Στ = 0 explicitly.",
+      "Free-body diagrams for rotation should show where each force acts, not just its direction.",
+      "Expect comparisons (\"which reaches the bottom first\") that hinge on I.",
+      "Check units: torque in N·m, I in kg·m², α in rad/s²."
+    ],
+    "cramSheet": "**Kinematics:** ω = ω₀ + αt · θ = ω₀t + ½αt² · ω² = ω₀² + 2αθ\n\n**Links:** s = rθ · v = rω · a_t = rα\n\n**Torque:** τ = rF sin θ = r⊥F\n\n**Inertia:** I = Σmr² · hoop MR² · disk ½MR² · rod (center) ML²/12 · rod (end) ML²/3\n\n**Parallel axis:** I = I_cm + Md²\n\n**Newton II:** τ_net = Iα\n\n**Equilibrium:** ΣF = 0, Στ = 0 · pivot at unknown force\n\n**Pulley + mass:** a = mg/(m + I/R²)"
+  },
+  "vocab": [
+    {
+      "term": "Angular displacement",
+      "definition": "The angle, in radians, through which an object rotates."
+    },
+    {
+      "term": "Angular velocity",
+      "definition": "Rate of change of angular displacement, ω, in rad/s."
+    },
+    {
+      "term": "Angular acceleration",
+      "definition": "Rate of change of angular velocity, α, in rad/s²."
+    },
+    {
+      "term": "Torque",
+      "definition": "The rotational effect of a force about an axis: τ = rF sin θ."
+    },
+    {
+      "term": "Lever arm",
+      "definition": "The perpendicular distance from the axis of rotation to the line of action of a force."
+    },
+    {
+      "term": "Rotational inertia",
+      "definition": "An object's resistance to angular acceleration; depends on mass and its distribution relative to the axis."
+    },
+    {
+      "term": "Parallel axis theorem",
+      "definition": "I = I_cm + Md² for an axis parallel to one through the center of mass, at distance d."
+    },
+    {
+      "term": "Newton's second law for rotation",
+      "definition": "Net torque equals rotational inertia times angular acceleration: τ_net = Iα."
+    },
+    {
+      "term": "Static equilibrium",
+      "definition": "A state in which net force and net torque on an object are both zero and it is at rest."
+    },
+    {
+      "term": "Rotational equilibrium",
+      "definition": "Net torque is zero, so angular velocity is constant."
+    },
+    {
+      "term": "Tangential speed",
+      "definition": "Linear speed of a point on a rotating object, v = rω."
+    },
+    {
+      "term": "Center of mass",
+      "definition": "The point where an object's weight can be considered to act for torque calculations."
+    },
+    {
+      "term": "Radian",
+      "definition": "The angle subtended by an arc equal in length to the radius; 2π rad = 360°."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u5-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "5.3 Torque",
+      "stem": "A 20 N force is applied perpendicular to a wrench, 0.5 m from the bolt. What torque does it produce about the bolt?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10 N·m"
+        },
+        {
+          "id": "B",
+          "text": "40 N·m"
+        },
+        {
+          "id": "C",
+          "text": "20.5 N·m"
+        },
+        {
+          "id": "D",
+          "text": "0.025 N·m"
+        }
+      ],
+      "answer": "A",
+      "explanation": "τ = rF = 0.5 × 20 = 10 N·m.",
+      "distractors": {
+        "B": "Divided F by r."
+      }
+    },
+    {
+      "id": "u5-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "5.1 Rotational Kinematics",
+      "stem": "A wheel turns one full revolution every 2 s at a steady rate. What is its angular velocity?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "π rad/s"
+        },
+        {
+          "id": "B",
+          "text": "2π rad/s"
+        },
+        {
+          "id": "C",
+          "text": "0.5 rad/s"
+        },
+        {
+          "id": "D",
+          "text": "4π rad/s"
+        }
+      ],
+      "answer": "A",
+      "explanation": "One revolution is 2π rad. ω = 2π/2 = π rad/s.",
+      "distractors": {
+        "B": "Forgot to divide by the 2 s period.",
+        "C": "Gave revolutions per second instead of radians per second."
+      }
+    },
+    {
+      "id": "u5-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "5.4 Rotational Inertia",
+      "stem": "A hoop and a solid disk have the same mass and radius. Which has greater rotational inertia about its center?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The hoop, because all its mass is at the maximum distance from the axis"
+        },
+        {
+          "id": "B",
+          "text": "The disk, because it has more material near the center"
+        },
+        {
+          "id": "C",
+          "text": "They are equal, because they have the same mass and radius"
+        },
+        {
+          "id": "D",
+          "text": "It depends on how fast they rotate"
+        }
+      ],
+      "answer": "A",
+      "explanation": "I = Σmr². The hoop's mass is all at r = R; the disk's is spread from 0 to R. Hoop: MR²; disk: ½MR².",
+      "distractors": {
+        "C": "Rotational inertia depends on mass distribution, not just mass.",
+        "D": "I is a property of shape and axis."
+      }
+    },
+    {
+      "id": "u5-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "5.5 Rotational Equilibrium",
+      "stem": "Which conditions must hold for an object to be in static equilibrium?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Net force is zero and net torque is zero."
+        },
+        {
+          "id": "B",
+          "text": "Net force is zero only."
+        },
+        {
+          "id": "C",
+          "text": "Net torque is zero only."
+        },
+        {
+          "id": "D",
+          "text": "All forces on the object are equal in magnitude."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Zero net force prevents translational acceleration; zero net torque prevents angular acceleration.",
+      "distractors": {
+        "B": "Two equal, opposite, offset forces give zero net force but nonzero torque."
+      }
+    },
+    {
+      "id": "u5-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.5 Rotational Equilibrium",
+      "stem": "A 30 kg child sits 2.0 m from the pivot of a seesaw. Where should a 40 kg child sit on the other side to balance it? (Ignore the seesaw's mass.)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.5 m from the pivot"
+        },
+        {
+          "id": "B",
+          "text": "2.7 m from the pivot"
+        },
+        {
+          "id": "C",
+          "text": "2.0 m from the pivot"
+        },
+        {
+          "id": "D",
+          "text": "1.0 m from the pivot"
+        }
+      ],
+      "answer": "A",
+      "explanation": "30g(2.0) = 40g(r), so r = 60/40 = 1.5 m.",
+      "distractors": {
+        "B": "Inverted the ratio: 2.0 × 40/30."
+      }
+    },
+    {
+      "id": "u5-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.6 Newton's Second Law in Rotational Form",
+      "stem": "A net torque of 6 N·m acts on a wheel with rotational inertia 2 kg·m². What is its angular acceleration?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3 rad/s²"
+        },
+        {
+          "id": "B",
+          "text": "12 rad/s²"
+        },
+        {
+          "id": "C",
+          "text": "0.33 rad/s²"
+        },
+        {
+          "id": "D",
+          "text": "8 rad/s²"
+        }
+      ],
+      "answer": "A",
+      "explanation": "α = τ/I = 6/2 = 3 rad/s².",
+      "distractors": {
+        "B": "Multiplied.",
+        "C": "Divided I by τ."
+      }
+    },
+    {
+      "id": "u5-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.1 Rotational Kinematics",
+      "stem": "A wheel starts from rest and has constant angular acceleration 2 rad/s². Through what angle does it turn in the first 3 s?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "9 rad"
+        },
+        {
+          "id": "B",
+          "text": "6 rad"
+        },
+        {
+          "id": "C",
+          "text": "18 rad"
+        },
+        {
+          "id": "D",
+          "text": "3 rad"
+        }
+      ],
+      "answer": "A",
+      "explanation": "θ = ½αt² = ½(2)(9) = 9 rad.",
+      "distractors": {
+        "B": "That's the final angular velocity in rad/s.",
+        "C": "Forgot the ½."
+      }
+    },
+    {
+      "id": "u5-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.3 Torque",
+      "stem": "A person pushes on a door 0.8 m from its hinges with a 10 N force directed at 30° to the plane of the door. What torque does the force produce about the hinges?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4 N·m"
+        },
+        {
+          "id": "B",
+          "text": "8 N·m"
+        },
+        {
+          "id": "C",
+          "text": "6.9 N·m"
+        },
+        {
+          "id": "D",
+          "text": "0 N·m"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The angle between r (along the door) and F is 30°. τ = 0.8 × 10 × sin 30° = 4 N·m.",
+      "distractors": {
+        "B": "Treated the force as perpendicular.",
+        "C": "Used cos 30°."
+      }
+    },
+    {
+      "id": "u5-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.2 Connecting Linear and Rotational Motion",
+      "stem": "A point on a spinning wheel is 0.3 m from the axle. The wheel spins at 10 rad/s. What is the point's linear speed?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3 m/s"
+        },
+        {
+          "id": "B",
+          "text": "33 m/s"
+        },
+        {
+          "id": "C",
+          "text": "0.03 m/s"
+        },
+        {
+          "id": "D",
+          "text": "10 m/s"
+        }
+      ],
+      "answer": "A",
+      "explanation": "v = rω = 0.3 × 10 = 3 m/s.",
+      "distractors": {
+        "B": "Divided ω by r.",
+        "D": "Assumed every point moves at ω."
+      }
+    },
+    {
+      "id": "u5-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.5 Rotational Equilibrium",
+      "stem": "A uniform 4.0 m beam weighing 100 N rests horizontally on supports at each end. A 200 N person stands 1.0 m from the left end. What upward force does the right support exert?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "100 N"
+        },
+        {
+          "id": "B",
+          "text": "200 N"
+        },
+        {
+          "id": "C",
+          "text": "150 N"
+        },
+        {
+          "id": "D",
+          "text": "50 N"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Torques about the left support: R(4.0) = 100(2.0) + 200(1.0) = 400 N·m, so R = 100 N. (The left support then provides 300 − 100 = 200 N.)",
+      "distractors": {
+        "B": "That's the left support's force.",
+        "C": "Split the 300 N total weight evenly, ignoring where the person stands.",
+        "D": "Left out the beam's own weight."
+      }
+    },
+    {
+      "id": "u5-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "5.6 Newton's Second Law in Rotational Form",
+      "stem": "A block of mass m hangs from a light string wrapped around a pulley of radius R and rotational inertia I. The pulley turns on a frictionless axle and the string doesn't slip. What is the magnitude of the block's acceleration?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "mg/(m + I/R²)"
+        },
+        {
+          "id": "B",
+          "text": "g"
+        },
+        {
+          "id": "C",
+          "text": "mgR²/I"
+        },
+        {
+          "id": "D",
+          "text": "mg/(m + IR²)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Block: mg − T = ma. Pulley: TR = Iα = Ia/R, so T = Ia/R². Then mg = a(m + I/R²).",
+      "distractors": {
+        "B": "Ignores the pulley's resistance to rotation.",
+        "C": "Ignores the block's own inertia.",
+        "D": "Wrote T = IaR² by mistake; units don't work."
+      }
+    },
+    {
+      "id": "u5-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "5.6 Newton's Second Law in Rotational Form",
+      "stem": "Equal torques are applied to a solid disk and a hoop of the same mass and radius, both starting from rest. After the same time, which has the greater angular velocity?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The disk, because its smaller rotational inertia gives a larger angular acceleration"
+        },
+        {
+          "id": "B",
+          "text": "The hoop, because its mass is farther from the axis"
+        },
+        {
+          "id": "C",
+          "text": "They are equal, because the torques and masses are equal"
+        },
+        {
+          "id": "D",
+          "text": "The hoop, because it has larger rotational inertia"
+        }
+      ],
+      "answer": "A",
+      "explanation": "α = τ/I. I_disk = ½MR² < I_hoop = MR², so α_disk = 2α_hoop and ω = αt is twice as large.",
+      "distractors": {
+        "D": "Larger I means smaller α for the same torque."
+      }
+    },
+    {
+      "id": "u5-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "5.4 Rotational Inertia",
+      "stem": "Two small, equal masses are fixed on a light rod at distance r on either side of the rotation axis. A constant torque gives the system angular acceleration α. If both masses are moved to distance 2r, what is the new angular acceleration under the same torque?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "α/4"
+        },
+        {
+          "id": "B",
+          "text": "α/2"
+        },
+        {
+          "id": "C",
+          "text": "2α"
+        },
+        {
+          "id": "D",
+          "text": "α"
+        }
+      ],
+      "answer": "A",
+      "explanation": "I = 2mr² becomes 2m(2r)² = 4(2mr²). α = τ/I falls to one quarter.",
+      "distractors": {
+        "B": "Treated I as proportional to r instead of r²."
+      }
+    },
+    {
+      "id": "u5-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "5.5 Rotational Equilibrium",
+      "stem": "The net torque on a spinning object about its center of mass is zero. Which must be true?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Its angular velocity is constant."
+        },
+        {
+          "id": "B",
+          "text": "It is not rotating."
+        },
+        {
+          "id": "C",
+          "text": "The net force on it is zero."
+        },
+        {
+          "id": "D",
+          "text": "Its angular velocity is decreasing."
+        }
+      ],
+      "answer": "A",
+      "explanation": "τ_net = Iα = 0 means α = 0, so ω stays constant (possibly nonzero).",
+      "distractors": {
+        "B": "Zero torque doesn't stop existing rotation.",
+        "C": "Forces through the center of mass can produce zero torque but nonzero net force."
+      }
+    },
+    {
+      "id": "u5-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "5.5–5.6 Equilibrium and τ = Iα",
+      "frqType": "Mathematical Routines (MR)",
+      "prompt": "A uniform rod of mass M and length L is attached to a wall by a frictionless hinge at its left end. A vertical string attached to the right end holds the rod horizontal and at rest. The rotational inertia of the rod about the hinge is (1/3)ML².",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Describe a free-body diagram for the rod, showing each force and where it acts.",
+          "points": 2
+        },
+        {
+          "label": "b",
+          "prompt": "Derive an expression for the tension in the string in terms of M and g.",
+          "points": 3
+        },
+        {
+          "label": "c",
+          "prompt": "Derive an expression for the magnitude and direction of the force the hinge exerts on the rod.",
+          "points": 2
+        },
+        {
+          "label": "d",
+          "prompt": "The string is cut. Derive an expression for the rod's angular acceleration immediately after the string is cut, in terms of g and L.",
+          "points": 3
+        }
+      ],
+      "points": 10,
+      "minutes": 20,
+      "rubric": [
+        {
+          "criterion": "(a) Forces",
+          "points": 1,
+          "description": "Weight Mg downward, tension T upward, hinge force (vertical) — and no others."
+        },
+        {
+          "criterion": "(a) Points of application",
+          "points": 1,
+          "description": "Weight at the center (L/2), tension at the right end, hinge force at the left end."
+        },
+        {
+          "criterion": "(b) Principle",
+          "points": 1,
+          "description": "Στ = 0 about the hinge."
+        },
+        {
+          "criterion": "(b) Torque terms",
+          "points": 1,
+          "description": "T·L − Mg·(L/2) = 0."
+        },
+        {
+          "criterion": "(b) Answer",
+          "points": 1,
+          "description": "T = Mg/2."
+        },
+        {
+          "criterion": "(c) Principle",
+          "points": 1,
+          "description": "ΣF = 0: F_hinge + T − Mg = 0."
+        },
+        {
+          "criterion": "(c) Answer",
+          "points": 1,
+          "description": "F_hinge = Mg/2, upward."
+        },
+        {
+          "criterion": "(d) Principle",
+          "points": 1,
+          "description": "τ_net = Iα about the hinge."
+        },
+        {
+          "criterion": "(d) Substitution",
+          "points": 1,
+          "description": "Mg(L/2) = (1/3)ML²α."
+        },
+        {
+          "criterion": "(d) Answer",
+          "points": 1,
+          "description": "α = 3g/(2L)."
+        }
+      ],
+      "sampleResponse": "(a) Three forces act on the rod: its weight Mg downward at the center (L/2 from the hinge); the string's tension T upward at the right end (L from the hinge); and the hinge force F_h at the left end. Because the other two forces are vertical, F_h is vertical too.\n\n(b) Taking torques about the hinge, F_h has no lever arm. Στ = 0: T·L − Mg(L/2) = 0, so T = Mg/2.\n\n(c) ΣF_y = 0: F_h + T − Mg = 0, so F_h = Mg − Mg/2 = Mg/2, directed upward.\n\n(d) Immediately after the cut, only the weight produces torque about the hinge. τ = Iα: Mg(L/2) = (1/3)ML²α, so α = (MgL/2)/(ML²/3) = 3g/(2L)."
+    }
+  ]
+}

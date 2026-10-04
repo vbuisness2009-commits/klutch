@@ -1,0 +1,271 @@
+{
+  "number": 8,
+  "title": "Fluids",
+  "guide": {
+    "summary": "Fluids are substances that flow: liquids and gases. This unit covers density, pressure and how it changes with depth, buoyancy and Archimedes' principle, and fluid flow through the continuity equation and Bernoulli's equation.",
+    "sections": [
+      {
+        "heading": "Density and pressure",
+        "body": "**Density** ρ = m/V, in kg/m³. Water is about 1,000 kg/m³. A 2 kg object with a volume of 0.001 m³ has ρ = 2,000 kg/m³.\n\n**Pressure** is force per area, P = F/A, in pascals (Pa = N/m²). 100 N spread over 0.5 m² is 200 Pa. Fluid pressure acts perpendicular to every surface it touches, in all directions.\n\nIn a fluid at rest, pressure increases with depth:\n\nP = P₀ + ρgh\n\nwhere P₀ is the pressure at the surface (often atmospheric, about 1.0 × 10⁵ Pa). **Gauge pressure** is the part above atmospheric, ρgh. At 10 m in water, gauge pressure is 1,000 × 10 × 10 = 1.0 × 10⁵ Pa, roughly one extra atmosphere.\n\nPressure depends only on depth, not on the container's shape.\n\n**Pascal's principle:** a pressure change applied to an enclosed fluid is transmitted undiminished everywhere. A hydraulic lift multiplies force: F₂ = F₁(A₂/A₁). 50 N on a 0.01 m² piston supports 2,500 N on a 0.5 m² piston (but the large piston moves 50 times less distance, so no energy is gained)."
+      },
+      {
+        "heading": "Buoyancy",
+        "body": "**Archimedes' principle:** the buoyant force equals the weight of the fluid displaced.\n\nF_b = ρ_fluid·V_displaced·g\n\nIt arises because pressure is greater on the bottom of an object than the top.\n\nA fully submerged 0.002 m³ object in water feels F_b = 1,000 × 0.002 × 10 = 20 N, regardless of what it's made of. If it weighs 50 N, its apparent weight is 50 − 20 = 30 N.\n\n**Floating:** a floating object displaces exactly its own weight of fluid. Setting ρ_obj·V·g = ρ_fluid·V_sub·g gives\n\nV_sub/V = ρ_obj/ρ_fluid\n\nWood of density 600 kg/m³ floats 60% submerged in water. In a denser fluid, it floats higher.\n\nAn object sinks if its average density exceeds the fluid's. A steel ship floats because its hull encloses air, lowering its average density.\n\nA floating ice cube that melts leaves the water level unchanged: the meltwater exactly fills the volume the ice displaced."
+      },
+      {
+        "heading": "Fluid flow: continuity",
+        "body": "For an incompressible fluid in steady flow, the volume flow rate is constant:\n\nA₁v₁ = A₂v₂\n\nWhen a pipe narrows, the fluid speeds up. From 0.04 m² at 2 m/s to 0.01 m², the speed becomes 8 m/s. This is conservation of mass applied to fluids: what goes in must come out."
+      },
+      {
+        "heading": "Bernoulli's equation",
+        "body": "Bernoulli's equation is conservation of energy per unit volume for flowing fluid:\n\nP₁ + ½ρv₁² + ρgy₁ = P₂ + ½ρv₂² + ρgy₂\n\nIn a horizontal pipe, faster flow means lower pressure. With water entering at 2.0 × 10⁵ Pa and 2 m/s and leaving a narrower section at 8 m/s:\n\nP₂ = P₁ + ½ρ(v₁² − v₂²) = 2.0 × 10⁵ + 500(4 − 64) = 1.7 × 10⁵ Pa\n\nWind blowing over a roof lowers the pressure above it while the air inside stays still, so the roof can be pushed upward.\n\n**Torricelli's result:** water leaving a hole a depth h below the open surface of a large tank exits at v = √(2gh), the same speed as an object falling from that height. At 5 m depth, v = 10 m/s."
+      }
+    ],
+    "keyTakeaways": [
+      "ρ = m/V; P = F/A.",
+      "P = P₀ + ρgh: pressure depends only on depth.",
+      "Buoyant force = weight of displaced fluid.",
+      "Floating: fraction submerged = ρ_obj/ρ_fluid.",
+      "Continuity: A₁v₁ = A₂v₂.",
+      "Bernoulli: faster flow at the same height means lower pressure."
+    ],
+    "commonMistakes": [
+      "Using the object's density instead of the fluid's in F_b = ρVg.",
+      "Thinking buoyant force depends on depth for a fully submerged object.",
+      "Thinking a hydraulic lift creates energy.",
+      "Forgetting to square velocities in Bernoulli's equation.",
+      "Confusing absolute and gauge pressure.",
+      "Assuming a narrower pipe means slower flow."
+    ],
+    "examTips": [
+      "Draw a free-body diagram for buoyancy problems: weight, buoyant force, and any tension or applied force.",
+      "In derivations, start from Newton's second law or Bernoulli's equation explicitly.",
+      "Check whether a question asks for gauge or absolute pressure.",
+      "For continuity, compare areas, not diameters; area scales with diameter squared.",
+      "Explain Bernoulli effects with pressure differences creating a net force."
+    ],
+    "cramSheet": "**Density:** ρ = m/V · water 1,000 kg/m³\n\n**Pressure:** P = F/A · P = P₀ + ρgh · gauge = ρgh\n\n**Pascal:** F₂ = F₁·A₂/A₁\n\n**Buoyancy:** F_b = ρ_fluid V_disp g · apparent weight = mg − F_b\n\n**Floating:** V_sub/V = ρ_obj/ρ_fluid\n\n**Continuity:** A₁v₁ = A₂v₂\n\n**Bernoulli:** P + ½ρv² + ρgy = constant\n\n**Torricelli:** v = √(2gh)"
+  },
+  "vocab": [
+    { "term": "Density", "definition": "Mass per unit volume, ρ = m/V." },
+    { "term": "Pressure", "definition": "Force per unit area, P = F/A, measured in pascals." },
+    { "term": "Absolute pressure", "definition": "Total pressure, including atmospheric pressure." },
+    { "term": "Gauge pressure", "definition": "Pressure above atmospheric pressure, ρgh in a liquid." },
+    { "term": "Hydrostatic pressure", "definition": "Pressure in a fluid at rest due to the weight of fluid above: ρgh." },
+    { "term": "Pascal's principle", "definition": "Pressure applied to an enclosed fluid is transmitted equally throughout the fluid." },
+    { "term": "Buoyant force", "definition": "The upward force a fluid exerts on an immersed object." },
+    { "term": "Archimedes' principle", "definition": "The buoyant force equals the weight of the fluid the object displaces." },
+    { "term": "Apparent weight", "definition": "An object's weight minus the buoyant force acting on it." },
+    { "term": "Continuity equation", "definition": "For an incompressible fluid, A₁v₁ = A₂v₂: the volume flow rate is constant." },
+    { "term": "Volume flow rate", "definition": "Volume of fluid passing a point per unit time, Av." },
+    { "term": "Bernoulli's equation", "definition": "P + ½ρv² + ρgy is constant along a streamline for an ideal fluid." },
+    { "term": "Incompressible fluid", "definition": "A fluid whose density doesn't change with pressure, a good approximation for liquids." }
+  ],
+  "practice": [
+    {
+      "id": "u8-q01", "tier": "Intro", "type": "mcq", "topic": "8.1 Internal Structure and Density",
+      "stem": "An object has a mass of 2.0 kg and a volume of 0.0010 m³. What is its density?",
+      "choices": [
+        { "id": "A", "text": "2,000 kg/m³" },
+        { "id": "B", "text": "0.0005 kg/m³" },
+        { "id": "C", "text": "200 kg/m³" },
+        { "id": "D", "text": "20 kg/m³" }
+      ],
+      "answer": "A",
+      "explanation": "ρ = m/V = 2.0/0.0010 = 2,000 kg/m³.",
+      "distractors": { "B": "Divided volume by mass." }
+    },
+    {
+      "id": "u8-q02", "tier": "Intro", "type": "mcq", "topic": "8.2 Pressure",
+      "stem": "A 100 N force is spread evenly over an area of 0.50 m². What is the pressure?",
+      "choices": [
+        { "id": "A", "text": "200 Pa" },
+        { "id": "B", "text": "50 Pa" },
+        { "id": "C", "text": "0.005 Pa" },
+        { "id": "D", "text": "100 Pa" }
+      ],
+      "answer": "A",
+      "explanation": "P = F/A = 100/0.50 = 200 Pa.",
+      "distractors": { "B": "Multiplied instead of dividing." }
+    },
+    {
+      "id": "u8-q03", "tier": "Intro", "type": "mcq", "topic": "8.3 Fluids and Newton's Laws",
+      "stem": "The buoyant force on an object submerged in a fluid is equal to",
+      "choices": [
+        { "id": "A", "text": "the weight of the fluid the object displaces" },
+        { "id": "B", "text": "the weight of the object" },
+        { "id": "C", "text": "the object's mass times the fluid's density" },
+        { "id": "D", "text": "the pressure at the object's depth" }
+      ],
+      "answer": "A",
+      "explanation": "Archimedes' principle.",
+      "distractors": { "B": "True only for floating objects." }
+    },
+    {
+      "id": "u8-q04", "tier": "Intro", "type": "mcq", "topic": "8.2 Pressure",
+      "stem": "How does the pressure in a lake change as you dive deeper?",
+      "choices": [
+        { "id": "A", "text": "It increases, because more water is above you." },
+        { "id": "B", "text": "It decreases, because water is denser near the surface." },
+        { "id": "C", "text": "It stays the same, because water is incompressible." },
+        { "id": "D", "text": "It depends on the width of the lake." }
+      ],
+      "answer": "A",
+      "explanation": "P = P₀ + ρgh grows with depth h.",
+      "distractors": { "D": "Hydrostatic pressure depends only on depth." }
+    },
+    {
+      "id": "u8-q05", "tier": "Exam level", "type": "mcq", "topic": "8.2 Pressure",
+      "stem": "What is the gauge pressure 10 m below the surface of a freshwater lake? (Use ρ = 1,000 kg/m³ and g = 10 m/s².)",
+      "choices": [
+        { "id": "A", "text": "1.0 × 10⁵ Pa" },
+        { "id": "B", "text": "2.0 × 10⁵ Pa" },
+        { "id": "C", "text": "1.0 × 10⁴ Pa" },
+        { "id": "D", "text": "1.0 × 10³ Pa" }
+      ],
+      "answer": "A",
+      "explanation": "ρgh = 1,000 × 10 × 10 = 1.0 × 10⁵ Pa.",
+      "distractors": { "B": "That's the absolute pressure, including the atmosphere.", "C": "Left out a factor of 10." }
+    },
+    {
+      "id": "u8-q06", "tier": "Exam level", "type": "mcq", "topic": "8.4 Fluids and Conservation Laws",
+      "stem": "Water flows at 2.0 m/s through a pipe with cross-sectional area 0.040 m². The pipe narrows to 0.010 m². What is the water's speed in the narrow section?",
+      "choices": [
+        { "id": "A", "text": "8.0 m/s" },
+        { "id": "B", "text": "0.5 m/s" },
+        { "id": "C", "text": "4.0 m/s" },
+        { "id": "D", "text": "32 m/s" }
+      ],
+      "answer": "A",
+      "explanation": "A₁v₁ = A₂v₂: 0.040 × 2.0 = 0.010 × v₂, v₂ = 8.0 m/s.",
+      "distractors": { "B": "Inverted the area ratio.", "C": "Used the square root of the area ratio." }
+    },
+    {
+      "id": "u8-q07", "tier": "Exam level", "type": "mcq", "topic": "8.3 Fluids and Newton's Laws",
+      "stem": "A block of wood with density 600 kg/m³ floats in water (1,000 kg/m³). What fraction of its volume is submerged?",
+      "choices": [
+        { "id": "A", "text": "60%" },
+        { "id": "B", "text": "40%" },
+        { "id": "C", "text": "100%" },
+        { "id": "D", "text": "167%" }
+      ],
+      "answer": "A",
+      "explanation": "V_sub/V = ρ_wood/ρ_water = 0.6.",
+      "distractors": { "B": "That's the fraction above water.", "D": "Inverted the ratio." }
+    },
+    {
+      "id": "u8-q08", "tier": "Exam level", "type": "mcq", "topic": "8.4 Fluids and Conservation Laws",
+      "stem": "During a strong windstorm, the roof of a closed house can be lifted off. Which best explains this?",
+      "choices": [
+        { "id": "A", "text": "Fast-moving air above the roof has lower pressure than the still air inside, so there is a net upward force." },
+        { "id": "B", "text": "Wind pushes down harder on the roof, compressing the air inside, which then pushes up." },
+        { "id": "C", "text": "The wind increases the air pressure above the roof." },
+        { "id": "D", "text": "The buoyant force of the air on the house increases in wind." }
+      ],
+      "answer": "A",
+      "explanation": "Bernoulli: higher speed at the same height means lower pressure. The pressure difference times the roof's area is a large upward force.",
+      "distractors": { "C": "Faster-moving air has lower pressure, not higher." }
+    },
+    {
+      "id": "u8-q09", "tier": "Exam level", "type": "mcq", "topic": "8.3 Fluids and Newton's Laws",
+      "stem": "An object with volume 0.0020 m³ is completely submerged in water (1,000 kg/m³). What is the buoyant force on it? (Use g = 10 m/s².)",
+      "choices": [
+        { "id": "A", "text": "20 N" },
+        { "id": "B", "text": "2 N" },
+        { "id": "C", "text": "200 N" },
+        { "id": "D", "text": "It depends on the object's mass." }
+      ],
+      "answer": "A",
+      "explanation": "F_b = ρVg = 1,000 × 0.0020 × 10 = 20 N.",
+      "distractors": { "B": "Left out g.", "D": "A fully submerged object's buoyant force depends only on its volume and the fluid." }
+    },
+    {
+      "id": "u8-q10", "tier": "Exam level", "type": "mcq", "topic": "8.2 Pressure",
+      "stem": "In a hydraulic lift, a 50 N force is applied to a small piston of area 0.010 m². The large piston has area 0.50 m². What force can the large piston exert?",
+      "choices": [
+        { "id": "A", "text": "2,500 N" },
+        { "id": "B", "text": "1.0 N" },
+        { "id": "C", "text": "50 N" },
+        { "id": "D", "text": "25 N" }
+      ],
+      "answer": "A",
+      "explanation": "Equal pressure: F₂ = F₁(A₂/A₁) = 50 × 50 = 2,500 N.",
+      "distractors": { "B": "Inverted the area ratio.", "C": "Assumed force is transmitted unchanged instead of pressure." }
+    },
+    {
+      "id": "u8-q11", "tier": "Hardest", "type": "mcq", "topic": "8.3 Fluids and Newton's Laws",
+      "stem": "A 5.0 kg metal object with volume 0.0020 m³ hangs from a scale while fully submerged in water. What does the scale read? (Use g = 10 m/s².)",
+      "choices": [
+        { "id": "A", "text": "30 N" },
+        { "id": "B", "text": "50 N" },
+        { "id": "C", "text": "20 N" },
+        { "id": "D", "text": "70 N" }
+      ],
+      "answer": "A",
+      "explanation": "Weight 50 N; buoyant force 1,000 × 0.0020 × 10 = 20 N. Tension = 50 − 20 = 30 N.",
+      "distractors": { "C": "Reported the buoyant force.", "D": "Added buoyancy instead of subtracting." }
+    },
+    {
+      "id": "u8-q12", "tier": "Hardest", "type": "mcq", "topic": "8.4 Fluids and Conservation Laws",
+      "stem": "Water drains through a small hole in the side of a large open tank, 5.0 m below the water's surface. What is the speed of the water leaving the hole? (Use g = 10 m/s².)",
+      "choices": [
+        { "id": "A", "text": "10 m/s" },
+        { "id": "B", "text": "50 m/s" },
+        { "id": "C", "text": "7.1 m/s" },
+        { "id": "D", "text": "100 m/s" }
+      ],
+      "answer": "A",
+      "explanation": "Bernoulli between the surface and the hole (both at atmospheric pressure, surface speed ≈ 0): v = √(2gh) = √100 = 10 m/s.",
+      "distractors": { "C": "Used √(gh).", "D": "Forgot the square root." }
+    },
+    {
+      "id": "u8-q13", "tier": "Hardest", "type": "mcq", "topic": "8.4 Fluids and Conservation Laws",
+      "stem": "Water flows through a horizontal pipe. In the wide section, the pressure is 2.0 × 10⁵ Pa and the speed is 2.0 m/s. In the narrow section the speed is 8.0 m/s. What is the pressure in the narrow section? (ρ = 1,000 kg/m³)",
+      "choices": [
+        { "id": "A", "text": "1.7 × 10⁵ Pa" },
+        { "id": "B", "text": "2.3 × 10⁵ Pa" },
+        { "id": "C", "text": "1.82 × 10⁵ Pa" },
+        { "id": "D", "text": "2.0 × 10⁵ Pa" }
+      ],
+      "answer": "A",
+      "explanation": "P₂ = P₁ + ½ρ(v₁² − v₂²) = 2.0 × 10⁵ + 500(4 − 64) = 2.0 × 10⁵ − 3.0 × 10⁴ = 1.7 × 10⁵ Pa.",
+      "distractors": { "B": "Sign error: faster flow means lower pressure.", "C": "Squared the difference in speeds, (8 − 2)², instead of the difference of squares.", "D": "Ignored Bernoulli's equation." }
+    },
+    {
+      "id": "u8-q14", "tier": "Hardest", "type": "mcq", "topic": "8.3 Fluids and Newton's Laws",
+      "stem": "An ice cube floats in a full glass of water, filled exactly to the brim. When the ice melts completely, what happens?",
+      "choices": [
+        { "id": "A", "text": "The water level stays the same; no water spills." },
+        { "id": "B", "text": "Water overflows because the ice adds volume as it melts." },
+        { "id": "C", "text": "The water level drops because ice is less dense than water." },
+        { "id": "D", "text": "Water overflows because melting ice releases heat." }
+      ],
+      "answer": "A",
+      "explanation": "Floating ice displaces its own weight of water. When it melts, it becomes exactly that weight of water, which fills exactly the volume it was displacing.",
+      "distractors": { "C": "The ice's lower density is why part sticks out, but the melted water takes less volume by the same amount." }
+    },
+    {
+      "id": "u8-frq1", "tier": "Exam level", "type": "frq", "topic": "8.3 Fluids and Newton's Laws", "frqType": "Qualitative/Quantitative Translation (QQT)",
+      "prompt": "A solid block of density ρ_b and volume V floats at rest in a fluid of density ρ_f, where ρ_b < ρ_f.",
+      "parts": [
+        { "label": "a", "prompt": "The block is moved to a fluid with greater density. Without writing equations, explain whether the block floats higher, lower, or at the same level.", "points": 2 },
+        { "label": "b", "prompt": "Derive an expression for the fraction of the block's volume that is submerged, in terms of ρ_b and ρ_f.", "points": 3 },
+        { "label": "c", "prompt": "Explain whether your expression in (b) is consistent with your answer to (a).", "points": 1 },
+        { "label": "d", "prompt": "Derive an expression for the downward force that must be applied to hold the block completely submerged and at rest.", "points": 2 }
+      ],
+      "points": 8,
+      "minutes": 15,
+      "rubric": [
+        { "criterion": "(a) Claim", "points": 1, "description": "The block floats higher." },
+        { "criterion": "(a) Reasoning", "points": 1, "description": "The buoyant force must still equal the block's weight; a denser fluid provides that force with less displaced volume." },
+        { "criterion": "(b) Principle", "points": 1, "description": "Equilibrium: F_b = mg (ΣF = 0)." },
+        { "criterion": "(b) Expressions", "points": 1, "description": "ρ_f V_sub g = ρ_b V g." },
+        { "criterion": "(b) Answer", "points": 1, "description": "V_sub/V = ρ_b/ρ_f." },
+        { "criterion": "(c) Consistency", "points": 1, "description": "Yes: increasing ρ_f decreases ρ_b/ρ_f, so less is submerged." },
+        { "criterion": "(d) Setup", "points": 1, "description": "F + ρ_b V g = ρ_f V g." },
+        { "criterion": "(d) Answer", "points": 1, "description": "F = (ρ_f − ρ_b)Vg." }
+      ],
+      "sampleResponse": "(a) The block floats higher. While floating, the buoyant force must balance the block's weight, which doesn't change. In a denser fluid, each cubic meter displaced weighs more, so less of the block needs to be underwater to produce the same buoyant force.\n\n(b) The block is in equilibrium, so the buoyant force equals its weight: ρ_f V_sub g = ρ_b V g. Then V_sub/V = ρ_b/ρ_f.\n\n(c) Yes. As ρ_f increases, the fraction ρ_b/ρ_f decreases, so a smaller fraction is submerged and the block floats higher.\n\n(d) Fully submerged, the buoyant force is ρ_f V g upward. The weight ρ_b V g and the applied force F act downward. ΣF = 0: F + ρ_b V g = ρ_f V g, so F = (ρ_f − ρ_b)Vg."
+    }
+  ]
+}

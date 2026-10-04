@@ -1,0 +1,627 @@
+{
+  "number": 3,
+  "title": "Work, Energy, and Power",
+  "guide": {
+    "summary": "Energy is the most powerful bookkeeping tool in Physics 1. This unit defines work, kinetic energy, and potential energy, connects them through the work-energy theorem and conservation of energy, and defines power. Choosing the system carefully decides which energies are internal and which forces do external work.",
+    "sections": [
+      {
+        "heading": "Work",
+        "body": "Work is energy transferred by a force acting over a displacement:\n\nW = F·d·cos θ\n\nwhere θ is the angle between the force and the displacement. Work is a scalar measured in joules (J = N·m).\n\n- θ = 0°: full positive work (force helps the motion).\n- θ = 90°: zero work. The normal force on a level surface and the centripetal force in circular motion do no work.\n- θ = 180°: negative work, as kinetic friction does on a sliding block.\n\nFor a force that varies with position, work is the **area under the force-versus-position graph**. A force rising linearly from 0 to 10 N over 4 m does ½(4)(10) = 20 J."
+      },
+      {
+        "heading": "Kinetic energy and the work-energy theorem",
+        "body": "K = ½mv²\n\nThe **work-energy theorem**: the net work done on an object equals its change in kinetic energy.\n\nW_net = ΔK\n\nIf net work is zero, speed is constant (direction can still change). If a 2 kg block moving at 5 m/s (25 J) slides 3 m against a 5 N friction force, friction does −15 J, leaving 10 J of kinetic energy, so v = √10 ≈ 3.2 m/s.\n\nBecause K depends on v², doubling speed quadruples kinetic energy. Two objects with equal kinetic energy and masses m and 4m have speeds in the ratio 2 : 1."
+      },
+      {
+        "heading": "Potential energy and choosing a system",
+        "body": "Potential energy belongs to a **system** of interacting objects, not one object.\n\n- **Gravitational** (object-Earth system, near the surface): U_g = mgh\n- **Spring** (spring-object system): U_s = ½kx², where x is the stretch or compression from equilibrium\n\nThe choice of system decides the bookkeeping:\n\n- If Earth is **outside** the system, gravity is an external force doing work on the block.\n- If Earth is **inside** the system, there's no external work by gravity; instead the system has gravitational potential energy.\n\nCount each interaction once: either as work by an external force or as potential energy, never both. AP questions often ask you to state the system and then explain whether its energy changes."
+      },
+      {
+        "heading": "Conservation of energy",
+        "body": "For a system with no external work and no friction, total mechanical energy is constant:\n\nK₁ + U₁ = K₂ + U₂\n\nA cart released from rest at 20 m on a frictionless track has, at 15 m, ½mv² = mg(5), so v = √(2 × 10 × 5) = 10 m/s. Mass cancels.\n\nWith friction inside the system, mechanical energy converts to internal (thermal) energy:\n\nK₁ + U₁ = K₂ + U₂ + ΔE_internal\n\nA 2 kg block released from 5 m that reaches the bottom of a rough incline at 8 m/s dissipated 100 J − 64 J = 36 J.\n\nWith external work, the system's energy changes by that amount: W_ext = ΔE_system."
+      },
+      {
+        "heading": "Power",
+        "body": "Power is the rate of energy transfer:\n\nP = ΔE/Δt = W/Δt, and for a constant force along the motion, P = Fv\n\nUnits: watts (W = J/s). A 60 kg student climbing 3 m of stairs in 6 s produces mgh/t = 1,800 J/6 s = 300 W. Running up the same stairs takes the same energy but more power."
+      },
+      {
+        "heading": "Energy bar charts",
+        "body": "AP Physics 1 frequently asks for **energy bar charts**: bars for K, U_g, U_s, and sometimes ΔE_internal at two moments, plus any external work. The total height must match the energy change rule. Draw zero as a clear baseline, keep bar heights proportional, and leave a bar empty if that energy is zero. These charts are a fast way to check a conservation argument before doing algebra."
+      }
+    ],
+    "keyTakeaways": [
+      "W = Fd cos θ; perpendicular forces do no work.",
+      "Work is the area under a force-position graph.",
+      "W_net = ΔK.",
+      "Potential energy belongs to a system; count gravity as work or as potential energy, not both.",
+      "Without friction or external work, K + U is constant; friction converts mechanical energy into internal energy.",
+      "P = W/t = Fv."
+    ],
+    "commonMistakes": [
+      "Treating the normal force or centripetal force as doing work.",
+      "Double counting gravity as both work and potential energy.",
+      "Forgetting that kinetic energy depends on v squared.",
+      "Using the wrong x in ½kx² (it's displacement from equilibrium, not total length).",
+      "Ignoring energy dissipated by friction.",
+      "Confusing energy (J) with power (W)."
+    ],
+    "examTips": [
+      "State your system explicitly whenever you use energy conservation.",
+      "Write the general equation before substituting; derivations earn points for the starting principle.",
+      "Energy bar charts must be consistent with your calculation.",
+      "When a question asks \"how would the answer change,\" reason from your derived expression.",
+      "Check limiting cases: if friction goes to zero, does your answer reduce to the frictionless result?"
+    ],
+    "cramSheet": "**Work:** W = Fd cos θ · area under F–x graph · ⊥ force → 0 J\n\n**K:** ½mv² · **U_g:** mgh · **U_s:** ½kx²\n\n**Work-energy:** W_net = ΔK\n\n**Conservation:** K₁ + U₁ = K₂ + U₂ (+ ΔE_int with friction) · W_ext = ΔE_sys\n\n**Power:** P = W/t = Fv\n\n**System choice:** Earth in → U_g · Earth out → gravity does work"
+  },
+  "vocab": [
+    {
+      "term": "Work",
+      "definition": "Energy transferred by a force acting through a displacement: W = Fd cos θ."
+    },
+    {
+      "term": "Kinetic energy",
+      "definition": "Energy of motion, K = ½mv²."
+    },
+    {
+      "term": "Gravitational potential energy",
+      "definition": "Energy of an object-Earth system due to separation: U_g = mgh near Earth's surface."
+    },
+    {
+      "term": "Elastic (spring) potential energy",
+      "definition": "Energy stored in a deformed spring: U_s = ½kx²."
+    },
+    {
+      "term": "Work-energy theorem",
+      "definition": "The net work done on an object equals its change in kinetic energy."
+    },
+    {
+      "term": "Conservation of energy",
+      "definition": "The total energy of a closed, isolated system remains constant."
+    },
+    {
+      "term": "Mechanical energy",
+      "definition": "The sum of kinetic and potential energy in a system."
+    },
+    {
+      "term": "Internal (thermal) energy",
+      "definition": "Energy associated with the random motion of particles; friction converts mechanical energy into it."
+    },
+    {
+      "term": "System",
+      "definition": "The object or objects chosen for analysis; everything else is the environment."
+    },
+    {
+      "term": "Conservative force",
+      "definition": "A force, like gravity or a spring force, whose work doesn't depend on path and can be described by a potential energy."
+    },
+    {
+      "term": "Nonconservative force",
+      "definition": "A force, like friction, whose work depends on path and converts mechanical energy into other forms."
+    },
+    {
+      "term": "Power",
+      "definition": "Rate at which energy is transferred, P = W/t, measured in watts."
+    },
+    {
+      "term": "Spring constant",
+      "definition": "k, the stiffness of a spring in N/m, from Hooke's law F = kx."
+    },
+    {
+      "term": "Energy bar chart",
+      "definition": "A diagram showing the amounts of each energy type in a system at different moments."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.2 Work",
+      "stem": "A 20 N force pulls a box 5 m across the floor. The force is directed 60° above the horizontal. How much work does the force do on the box?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "50 J"
+        },
+        {
+          "id": "B",
+          "text": "100 J"
+        },
+        {
+          "id": "C",
+          "text": "87 J"
+        },
+        {
+          "id": "D",
+          "text": "0 J"
+        }
+      ],
+      "answer": "A",
+      "explanation": "W = Fd cos θ = 20 × 5 × cos 60° = 100 × 0.5 = 50 J.",
+      "distractors": {
+        "B": "Ignored the angle.",
+        "C": "Used sin 60° instead of cos 60°."
+      }
+    },
+    {
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.1 Translational Kinetic Energy",
+      "stem": "What is the kinetic energy of a 2 kg object moving at 3 m/s?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "9 J"
+        },
+        {
+          "id": "B",
+          "text": "6 J"
+        },
+        {
+          "id": "C",
+          "text": "18 J"
+        },
+        {
+          "id": "D",
+          "text": "3 J"
+        }
+      ],
+      "answer": "A",
+      "explanation": "K = ½(2)(3²) = 9 J.",
+      "distractors": {
+        "B": "Didn't square v.",
+        "C": "Forgot the ½."
+      }
+    },
+    {
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.3 Potential Energy",
+      "stem": "A spring with spring constant 200 N/m is compressed 0.10 m from equilibrium. How much elastic potential energy is stored?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1 J"
+        },
+        {
+          "id": "B",
+          "text": "2 J"
+        },
+        {
+          "id": "C",
+          "text": "20 J"
+        },
+        {
+          "id": "D",
+          "text": "10 J"
+        }
+      ],
+      "answer": "A",
+      "explanation": "U = ½kx² = ½(200)(0.01) = 1 J.",
+      "distractors": {
+        "B": "Forgot the ½.",
+        "C": "Computed kx, the force, instead."
+      }
+    },
+    {
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.5 Power",
+      "stem": "A motor does 600 J of work in 3 s. What is its average power output?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "200 W"
+        },
+        {
+          "id": "B",
+          "text": "1,800 W"
+        },
+        {
+          "id": "C",
+          "text": "600 W"
+        },
+        {
+          "id": "D",
+          "text": "0.005 W"
+        }
+      ],
+      "answer": "A",
+      "explanation": "P = W/t = 600/3 = 200 W.",
+      "distractors": {
+        "B": "Multiplied instead of dividing.",
+        "D": "Divided time by work."
+      }
+    },
+    {
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.4 Conservation of Energy",
+      "stem": "A ball is dropped from rest from a height of 5 m. Air resistance is negligible. What is its speed just before it hits the ground? (Use g = 10 m/s².)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10 m/s"
+        },
+        {
+          "id": "B",
+          "text": "50 m/s"
+        },
+        {
+          "id": "C",
+          "text": "7.1 m/s"
+        },
+        {
+          "id": "D",
+          "text": "100 m/s"
+        }
+      ],
+      "answer": "A",
+      "explanation": "mgh = ½mv², so v = √(2gh) = √100 = 10 m/s.",
+      "distractors": {
+        "B": "Computed gh without the square root.",
+        "C": "Used v = √(gh), dropping the 2.",
+        "D": "Computed 2gh and stopped."
+      }
+    },
+    {
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.2 Work / Work-Energy Theorem",
+      "stem": "A 2 kg block moving at 5 m/s slides 3 m across a horizontal surface while a constant 5 N friction force acts on it. What is the block's speed after sliding 3 m?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "√10 m/s ≈ 3.2 m/s"
+        },
+        {
+          "id": "B",
+          "text": "5 m/s"
+        },
+        {
+          "id": "C",
+          "text": "√20 m/s ≈ 4.5 m/s"
+        },
+        {
+          "id": "D",
+          "text": "0 m/s"
+        }
+      ],
+      "answer": "A",
+      "explanation": "K₀ = ½(2)(25) = 25 J. Friction does −(5)(3) = −15 J. K = 10 J, so v = √(2 × 10/2) = √10 m/s.",
+      "distractors": {
+        "B": "Ignored friction.",
+        "C": "Forgot that ½m = 1, so v² = K, not 2K."
+      }
+    },
+    {
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.2 Work",
+      "stem": "A ball on a string moves in a horizontal circle at constant speed. How much work does the string's tension do on the ball during one revolution?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Zero, because the tension is always perpendicular to the ball's velocity"
+        },
+        {
+          "id": "B",
+          "text": "Positive, because tension pulls the ball toward the center"
+        },
+        {
+          "id": "C",
+          "text": "Negative, because tension opposes the ball's tendency to move outward"
+        },
+        {
+          "id": "D",
+          "text": "Equal to the tension times the circumference"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Tension points to the center; velocity is tangent. cos 90° = 0 at every instant, consistent with the constant kinetic energy.",
+      "distractors": {
+        "D": "Treats the force as parallel to the path."
+      }
+    },
+    {
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.4 Conservation of Energy",
+      "stem": "A roller coaster cart starts from rest at a height of 20 m on a frictionless track. What is its speed when it is 15 m above the ground? (Use g = 10 m/s².)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10 m/s"
+        },
+        {
+          "id": "B",
+          "text": "20 m/s"
+        },
+        {
+          "id": "C",
+          "text": "17 m/s"
+        },
+        {
+          "id": "D",
+          "text": "5 m/s"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Drop of 5 m: ½v² = g(5), v = √100 = 10 m/s. Mass cancels.",
+      "distractors": {
+        "B": "Used the full 20 m height.",
+        "C": "Used the 15 m height as the drop."
+      }
+    },
+    {
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.5 Power",
+      "stem": "A 60 kg student climbs a 3 m flight of stairs at constant speed in 6 s. What average power does the student deliver to the student-Earth system? (Use g = 10 m/s².)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "300 W"
+        },
+        {
+          "id": "B",
+          "text": "30 W"
+        },
+        {
+          "id": "C",
+          "text": "180 W"
+        },
+        {
+          "id": "D",
+          "text": "3,000 W"
+        }
+      ],
+      "answer": "A",
+      "explanation": "ΔU = mgh = 60 × 10 × 3 = 1,800 J. P = 1,800/6 = 300 W.",
+      "distractors": {
+        "B": "Left out g.",
+        "D": "Multiplied by 10 instead of dividing by 6."
+      }
+    },
+    {
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.4 Conservation of Energy",
+      "stem": "A spring (k = 800 N/m) is compressed 0.10 m and launches a 0.5 kg block across a frictionless horizontal surface. What is the block's speed after it leaves the spring?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4 m/s"
+        },
+        {
+          "id": "B",
+          "text": "16 m/s"
+        },
+        {
+          "id": "C",
+          "text": "8 m/s"
+        },
+        {
+          "id": "D",
+          "text": "2 m/s"
+        }
+      ],
+      "answer": "A",
+      "explanation": "½kx² = ½(800)(0.01) = 4 J = ½(0.5)v², so v² = 16 and v = 4 m/s.",
+      "distractors": {
+        "B": "Reported v².",
+        "C": "Forgot the ½ on the spring energy."
+      }
+    },
+    {
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.2 Work (variable force)",
+      "stem": "A 1 kg cart starts from rest on a frictionless track. A horizontal force on it increases linearly from 0 N at x = 0 to 10 N at x = 4 m. What is the cart's speed at x = 4 m?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "√40 m/s ≈ 6.3 m/s"
+        },
+        {
+          "id": "B",
+          "text": "√80 m/s ≈ 8.9 m/s"
+        },
+        {
+          "id": "C",
+          "text": "20 m/s"
+        },
+        {
+          "id": "D",
+          "text": "√20 m/s ≈ 4.5 m/s"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Work = area of the triangle = ½(4)(10) = 20 J = ½(1)v², so v = √40 m/s.",
+      "distractors": {
+        "B": "Used F_max × d = 40 J, treating the force as constant at 10 N.",
+        "C": "Reported the work as a speed.",
+        "D": "Used 10 J, half the correct work."
+      }
+    },
+    {
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.3 Potential Energy / system choice",
+      "stem": "A person lifts a book at constant velocity from the floor to a shelf. The system is the book and Earth. Which statement correctly describes the energy of this system?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The person does positive work on the system, equal to the increase in gravitational potential energy; kinetic energy is unchanged."
+        },
+        {
+          "id": "B",
+          "text": "The system's energy is constant, because the book moves at constant velocity."
+        },
+        {
+          "id": "C",
+          "text": "Gravity does negative work on the system, cancelling the person's work, so the system's energy is unchanged."
+        },
+        {
+          "id": "D",
+          "text": "The person's work increases both the kinetic and potential energy of the system."
+        }
+      ],
+      "answer": "A",
+      "explanation": "The person is external to the system, so their work changes the system's energy. Gravity is internal (it's represented by U_g), so it isn't counted as external work.",
+      "distractors": {
+        "B": "Constant velocity means ΔK = 0, not ΔE_system = 0.",
+        "C": "Double counts gravity, which is internal to this system."
+      }
+    },
+    {
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.4 Conservation of Energy",
+      "stem": "A 2 kg block is released from rest 5 m above the bottom of a rough incline and reaches the bottom moving at 8 m/s. How much mechanical energy was converted to internal energy? (Use g = 10 m/s².)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "36 J"
+        },
+        {
+          "id": "B",
+          "text": "64 J"
+        },
+        {
+          "id": "C",
+          "text": "100 J"
+        },
+        {
+          "id": "D",
+          "text": "164 J"
+        }
+      ],
+      "answer": "A",
+      "explanation": "U_initial = 2 × 10 × 5 = 100 J. K_final = ½(2)(64) = 64 J. Dissipated: 100 − 64 = 36 J.",
+      "distractors": {
+        "B": "That's the final kinetic energy.",
+        "D": "Added instead of subtracting."
+      }
+    },
+    {
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.1 Translational Kinetic Energy",
+      "stem": "Block X has mass m and block Y has mass 4m. They have equal kinetic energies. What is the ratio of X's speed to Y's speed?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "1/2"
+        },
+        {
+          "id": "D",
+          "text": "1/4"
+        }
+      ],
+      "answer": "A",
+      "explanation": "½m v_X² = ½(4m) v_Y², so v_X² = 4v_Y² and v_X/v_Y = 2.",
+      "distractors": {
+        "B": "Forgot the square root.",
+        "C": "Inverted the ratio."
+      }
+    },
+    {
+      "id": "u3-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "3.4 Conservation of Energy",
+      "frqType": "Qualitative/Quantitative Translation (QQT)",
+      "prompt": "A block of mass m is released from rest at height h on a frictionless curved ramp. At the bottom, it slides across a rough horizontal section of length d, where the coefficient of kinetic friction is μ. It then slides onto a frictionless surface and compresses a spring of spring constant k.",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Without writing equations, explain whether the spring's maximum compression would increase, decrease, or stay the same if the rough section were made twice as long.",
+          "points": 2
+        },
+        {
+          "label": "b",
+          "prompt": "Derive an expression for the maximum compression x of the spring in terms of m, g, h, μ, d, and k.",
+          "points": 3
+        },
+        {
+          "label": "c",
+          "prompt": "Explain whether your expression in (b) is consistent with your answer to (a).",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Derive the condition on h, in terms of μ and d, for the block to reach the spring.",
+          "points": 2
+        }
+      ],
+      "points": 8,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "(a) Claim",
+          "points": 1,
+          "description": "The maximum compression decreases."
+        },
+        {
+          "criterion": "(a) Reasoning",
+          "points": 1,
+          "description": "Friction acts over a longer distance, so more mechanical energy is converted to internal energy, leaving less to store in the spring."
+        },
+        {
+          "criterion": "(b) Starting principle",
+          "points": 1,
+          "description": "Energy conservation including friction: mgh − μmgd = ½kx² (or equivalent)."
+        },
+        {
+          "criterion": "(b) Friction work",
+          "points": 1,
+          "description": "Friction force μmg with work μmgd (normal force equals mg on the level section)."
+        },
+        {
+          "criterion": "(b) Answer",
+          "points": 1,
+          "description": "x = √(2mg(h − μd)/k)."
+        },
+        {
+          "criterion": "(c) Consistency",
+          "points": 1,
+          "description": "Yes: increasing d decreases h − μd, so x decreases."
+        },
+        {
+          "criterion": "(d) Setup",
+          "points": 1,
+          "description": "The block reaches the spring if its kinetic energy after the rough section is positive: mgh − μmgd > 0."
+        },
+        {
+          "criterion": "(d) Answer",
+          "points": 1,
+          "description": "h > μd."
+        }
+      ],
+      "sampleResponse": "(a) The maximum compression would decrease. Kinetic friction does negative work on the block over the whole rough section, so a longer section converts more of the block's mechanical energy into internal energy. Less kinetic energy remains when the block reaches the spring, so less can be stored as spring potential energy.\n\n(b) System: block, Earth, spring, and the rough surface. Initial energy mgh. On the level rough section, N = mg, so the friction force is μmg and the energy dissipated is μmgd. At maximum compression, the block is momentarily at rest:\nmgh − μmgd = ½kx²\nx = √(2mg(h − μd)/k)\n\n(c) Yes. Doubling d increases μd, which decreases h − μd, so x decreases, matching (a).\n\n(d) The block must still be moving after the rough section: ½mv² = mgh − μmgd > 0, so h > μd."
+    }
+  ]
+}

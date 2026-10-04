@@ -1,0 +1,278 @@
+{
+  "number": 5,
+  "title": "Heredity",
+  "guide": {
+    "summary": "Heredity explains how traits pass from parents to offspring. This unit connects meiosis to Mendel's laws, then extends them to linked genes, sex-linked and non-nuclear inheritance, environmental effects on phenotype, and chromosomal errors. Probability and chi-square analysis are the core math skills.",
+    "sections": [
+      {
+        "heading": "Meiosis and genetic diversity",
+        "body": "Meiosis turns one diploid (2n) cell into four haploid (n) gametes through two divisions:\n\n- **Meiosis I** separates homologous chromosomes. In prophase I, homologs pair and **crossing over** swaps segments between non-sister chromatids. In metaphase I, pairs line up independently of one another (**independent assortment**).\n- **Meiosis II** separates sister chromatids, like mitosis.\n\nDiversity comes from three sources: crossing over, independent assortment (2ⁿ combinations, where n is the haploid number, so 2n = 8 gives 2⁴ = 16), and random fertilization.\n\nCompare with mitosis: mitosis gives two identical diploid cells; meiosis gives four genetically different haploid cells. Shared features of meiosis across eukaryotes are evidence of common ancestry."
+      },
+      {
+        "heading": "Mendelian genetics and probability",
+        "body": "**Law of segregation:** each parent passes one of its two alleles, chosen at random. **Law of independent assortment:** genes on different chromosomes sort independently.\n\nMonohybrid Aa × Aa gives genotypes 1 AA : 2 Aa : 1 aa and phenotypes 3 dominant : 1 recessive. A test cross with aa reveals whether a dominant-phenotype individual is AA or Aa.\n\nFor multiple genes, use the **product rule** instead of a giant Punnett square:\n\nAaBbCc × AaBbCc, probability of A_ bb C_ = (3/4)(1/4)(3/4) = 9/64\n\nUse the **sum rule** for \"or\" outcomes that can happen in more than one way.\n\n**Conditional probability trap:** if a child of Aa × Aa parents shows the dominant phenotype, the chance the child is a carrier is 2/3, not 1/2, because aa has been ruled out."
+      },
+      {
+        "heading": "Beyond simple dominance",
+        "body": "| Pattern | Example | Result |\n| --- | --- | --- |\n| Incomplete dominance | red × white snapdragons | pink heterozygotes; F2 1 : 2 : 1 |\n| Codominance | AB blood type | both alleles fully expressed |\n| Multiple alleles | ABO blood groups | more than two alleles in the population |\n| Polygenic | height, skin color | continuous variation |\n| Pleiotropy | sickle cell allele | one gene affects many traits |\n\n**Sex-linked** genes sit on the X chromosome. Males (XY) have one copy, so recessive X-linked traits appear more often in males. A son gets his X from his mother; a father passes his X to every daughter.\n\n**Non-nuclear inheritance:** mitochondria and chloroplasts carry their own DNA and are inherited from the egg. A mitochondrial trait passes from an affected mother to all her children, and never from an affected father."
+      },
+      {
+        "heading": "Linkage and mapping",
+        "body": "Genes close together on the same chromosome tend to be inherited together and do **not** assort independently. Crossing over occasionally separates them, producing **recombinant** offspring.\n\nIn a test cross AaBb × aabb, if offspring are 42% AB, 42% ab, 8% Ab, 8% aB, the parental types dominate. Recombination frequency = (8 + 8)% = 16%, so the genes are about 16 map units apart. Farther apart means more crossing over, up to 50% (indistinguishable from independent assortment)."
+      },
+      {
+        "heading": "Chi-square analysis",
+        "body": "Chi-square tests whether observed counts differ from expected counts by more than chance.\n\nχ² = Σ (observed − expected)² / expected\n\nDegrees of freedom = number of categories − 1. Compare to the critical value at p = 0.05 (given on the formula sheet: 3.84 for df = 1, 5.99 for 2, 7.81 for 3).\n\n- χ² < critical value: **fail to reject** the null hypothesis; the difference is likely due to chance.\n- χ² > critical value: **reject** the null; something other than the predicted model is going on, such as linkage.\n\nThe null hypothesis is always \"there is no significant difference between observed and expected.\" Never say you \"accept\" or \"prove\" it."
+      },
+      {
+        "heading": "Environment and chromosomal errors",
+        "body": "Phenotype depends on genotype **and** environment. Hydrangea flower color varies with soil pH; Himalayan rabbits grow dark fur only where the skin is cool because a pigment enzyme is temperature-sensitive; phenylketonuria's effects can be prevented by diet.\n\n**Nondisjunction** is failure of chromosomes to separate. In meiosis I, all four gametes are abnormal (two n + 1, two n − 1); in meiosis II, two of the four are. Fertilization by an n + 1 gamete gives trisomy, as in Down syndrome (trisomy 21)."
+      }
+    ],
+    "keyTakeaways": [
+      "Meiosis I separates homologs; meiosis II separates sister chromatids.",
+      "Diversity: crossing over, independent assortment, random fertilization.",
+      "Use the product rule for multi-gene probabilities.",
+      "X-linked recessive traits are more common in males; sons inherit their X from their mothers.",
+      "Linked genes produce mostly parental types; recombination frequency estimates distance.",
+      "Chi-square: compare to the critical value at df = categories − 1; fail to reject or reject."
+    ],
+    "commonMistakes": [
+      "Saying chi-square \"proves\" a hypothesis or that you \"accept\" the null.",
+      "Using df = number of categories instead of categories − 1.",
+      "Forgetting that 2/3 of dominant-phenotype offspring from Aa × Aa are carriers.",
+      "Confusing incomplete dominance (blend) with codominance (both shown).",
+      "Assuming all genes assort independently even when data show linkage.",
+      "Attributing mitochondrial traits to the father."
+    ],
+    "examTips": [
+      "Q6 Analyze Data frequently uses chi-square; show the formula, each term, the sum, df, and the critical value.",
+      "Pedigree questions: check whether affected females have affected fathers to rule X-linked recessive in or out.",
+      "Explain linkage in terms of physical location on the same chromosome.",
+      "When asked to justify a ratio, connect it to segregation or independent assortment in meiosis.",
+      "Calculators are allowed; keep fractions until the end of probability problems."
+    ],
+    "cramSheet": "**Meiosis:** I = homologs separate (crossing over in prophase I) · II = sister chromatids\n\n**Diversity:** crossing over · independent assortment (2ⁿ) · random fertilization\n\n**Ratios:** Aa × Aa → 3:1 · AaBb × AaBb → 9:3:3:1 · test cross with aa\n\n**Probability:** product rule (and) · sum rule (or) · dominant child of Aa × Aa is carrier 2/3\n\n**X-linked recessive:** more males · son's X from mom · dad's X to all daughters\n\n**Mitochondrial:** mother → all children\n\n**Linkage:** recombinants % = map units\n\n**χ²:** Σ(o−e)²/e · df = k − 1 · 3.84 / 5.99 / 7.81\n\n**Nondisjunction:** MI → 4 abnormal · MII → 2 abnormal"
+  },
+  "vocab": [
+    { "term": "Homologous chromosomes", "definition": "A pair of chromosomes, one from each parent, carrying the same genes in the same order." },
+    { "term": "Crossing over", "definition": "Exchange of segments between non-sister chromatids of homologs during prophase I." },
+    { "term": "Independent assortment", "definition": "Random orientation of homologous pairs in metaphase I, so genes on different chromosomes sort independently." },
+    { "term": "Law of segregation", "definition": "The two alleles for a gene separate during gamete formation, so each gamete gets one." },
+    { "term": "Genotype", "definition": "The alleles an organism carries." },
+    { "term": "Phenotype", "definition": "The observable traits of an organism, determined by genotype and environment." },
+    { "term": "Test cross", "definition": "Crossing an individual with a homozygous recessive to determine its genotype." },
+    { "term": "Incomplete dominance", "definition": "Heterozygotes show an intermediate phenotype." },
+    { "term": "Codominance", "definition": "Both alleles are fully and separately expressed in heterozygotes." },
+    { "term": "Sex-linked gene", "definition": "A gene located on a sex chromosome, usually the X." },
+    { "term": "Linked genes", "definition": "Genes close together on the same chromosome that tend to be inherited together." },
+    { "term": "Recombination frequency", "definition": "The percentage of recombinant offspring; 1% corresponds to 1 map unit." },
+    { "term": "Chi-square test", "definition": "A statistical test comparing observed and expected counts to judge whether differences are due to chance." },
+    { "term": "Nondisjunction", "definition": "Failure of chromosomes or chromatids to separate properly, producing gametes with abnormal chromosome numbers." },
+    { "term": "Non-nuclear inheritance", "definition": "Inheritance of genes in mitochondria or chloroplasts, typically from the mother." }
+  ],
+  "practice": [
+    {
+      "id": "u5-q01", "tier": "Intro", "type": "mcq", "topic": "5.3 Mendelian Genetics",
+      "stem": "Two heterozygous plants (Aa × Aa) are crossed. A is completely dominant. What phenotypic ratio is expected in the offspring?",
+      "choices": [
+        { "id": "A", "text": "3 dominant : 1 recessive" },
+        { "id": "B", "text": "1 dominant : 1 recessive" },
+        { "id": "C", "text": "1 : 2 : 1" },
+        { "id": "D", "text": "All dominant" }
+      ],
+      "answer": "A",
+      "explanation": "Genotypes are 1 AA : 2 Aa : 1 aa. AA and Aa both look dominant, giving 3 : 1.",
+      "distractors": { "B": "That's the ratio from Aa × aa.", "C": "That's the genotypic ratio." }
+    },
+    {
+      "id": "u5-q02", "tier": "Intro", "type": "mcq", "topic": "5.1 Meiosis",
+      "stem": "During which stage of meiosis does crossing over occur?",
+      "choices": [
+        { "id": "A", "text": "Prophase I" },
+        { "id": "B", "text": "Metaphase I" },
+        { "id": "C", "text": "Anaphase II" },
+        { "id": "D", "text": "Prophase II" }
+      ],
+      "answer": "A",
+      "explanation": "Homologs pair up in prophase I, and non-sister chromatids exchange segments.",
+      "distractors": { "B": "Homologs line up at the plate; independent assortment happens here." }
+    },
+    {
+      "id": "u5-q03", "tier": "Intro", "type": "mcq", "topic": "5.1 Meiosis",
+      "stem": "Which correctly describes the products of meiosis in a diploid organism?",
+      "choices": [
+        { "id": "A", "text": "Four haploid cells that are genetically different from one another" },
+        { "id": "B", "text": "Two diploid cells identical to the parent cell" },
+        { "id": "C", "text": "Four diploid cells that are genetically different" },
+        { "id": "D", "text": "Two haploid cells identical to each other" }
+      ],
+      "answer": "A",
+      "explanation": "Two divisions after one round of replication halve the chromosome number; crossing over and independent assortment make each cell unique.",
+      "distractors": { "B": "Describes mitosis." }
+    },
+    {
+      "id": "u5-q04", "tier": "Intro", "type": "mcq", "topic": "5.4 Non-Mendelian Genetics",
+      "stem": "Red-green colorblindness is an X-linked recessive trait. A colorblind man has children with a woman who is homozygous for normal vision. What is expected for their sons?",
+      "choices": [
+        { "id": "A", "text": "All sons have normal vision." },
+        { "id": "B", "text": "All sons are colorblind." },
+        { "id": "C", "text": "Half the sons are colorblind." },
+        { "id": "D", "text": "All sons are carriers." }
+      ],
+      "answer": "A",
+      "explanation": "Sons receive their X from the mother, who has only normal alleles. They get the father's Y.",
+      "distractors": { "B": "The father's X goes only to daughters.", "D": "Males have one X, so they can't be carriers of an X-linked trait." }
+    },
+    {
+      "id": "u5-q05", "tier": "Exam level", "type": "mcq", "topic": "5.3 Mendelian Genetics",
+      "stem": "In a cross AaBb × AaBb, where the genes assort independently, what fraction of offspring are expected to be aabb?",
+      "choices": [
+        { "id": "A", "text": "1/16" },
+        { "id": "B", "text": "1/4" },
+        { "id": "C", "text": "3/16" },
+        { "id": "D", "text": "1/8" }
+      ],
+      "answer": "A",
+      "explanation": "P(aa) = 1/4 and P(bb) = 1/4. Product rule: 1/16.",
+      "distractors": { "B": "That's the probability for one gene only.", "C": "That's the fraction with one dominant and one recessive phenotype in a given combination." }
+    },
+    {
+      "id": "u5-q06", "tier": "Exam level", "type": "mcq", "topic": "5.3 Mendelian Genetics (chi-square)",
+      "stem": "A cross of two heterozygous purple-flowered plants produces 290 purple and 110 white offspring. Using chi-square analysis with p = 0.05 (critical value 3.84 for df = 1), which conclusion is correct?",
+      "choices": [
+        { "id": "A", "text": "χ² ≈ 1.33, so fail to reject the hypothesis of a 3 : 1 ratio." },
+        { "id": "B", "text": "χ² ≈ 1.33, so reject the hypothesis of a 3 : 1 ratio." },
+        { "id": "C", "text": "χ² ≈ 20, so reject the hypothesis of a 3 : 1 ratio." },
+        { "id": "D", "text": "χ² ≈ 0.33, so the data prove a 3 : 1 ratio." }
+      ],
+      "answer": "A",
+      "explanation": "Expected 300 and 100. χ² = 10²/300 + 10²/100 = 0.33 + 1.00 = 1.33 < 3.84, so the deviation is consistent with chance.",
+      "distractors": { "B": "1.33 is below the critical value, so you can't reject.", "C": "Used the raw differences without squaring and dividing.", "D": "Included only one term, and chi-square never proves a hypothesis." }
+    },
+    {
+      "id": "u5-q07", "tier": "Exam level", "type": "mcq", "topic": "5.4 Non-Mendelian Genetics",
+      "stem": "A test cross AaBb × aabb produces 42% AB, 42% ab, 8% Ab, and 8% aB offspring. What is the approximate distance between the two genes?",
+      "choices": [
+        { "id": "A", "text": "16 map units" },
+        { "id": "B", "text": "8 map units" },
+        { "id": "C", "text": "84 map units" },
+        { "id": "D", "text": "42 map units" }
+      ],
+      "answer": "A",
+      "explanation": "Recombinants are the minority classes, Ab and aB: 8% + 8% = 16%.",
+      "distractors": { "B": "Counted only one recombinant class.", "C": "Added the parental classes." }
+    },
+    {
+      "id": "u5-q08", "tier": "Exam level", "type": "mcq", "topic": "5.6 Chromosomal Inheritance",
+      "stem": "If one pair of homologous chromosomes fails to separate during meiosis I, what proportion of the resulting gametes have an abnormal chromosome number?",
+      "choices": [
+        { "id": "A", "text": "All four" },
+        { "id": "B", "text": "Two of four" },
+        { "id": "C", "text": "One of four" },
+        { "id": "D", "text": "None" }
+      ],
+      "answer": "A",
+      "explanation": "Both homologs go to one cell, which makes two n + 1 gametes; the other cell makes two n − 1 gametes.",
+      "distractors": { "B": "That's nondisjunction in meiosis II." }
+    },
+    {
+      "id": "u5-q09", "tier": "Exam level", "type": "mcq", "topic": "5.4 Non-Mendelian Genetics",
+      "stem": "In a family pedigree, a disorder appears in every child of affected women and in no child of affected men who have unaffected partners. Which inheritance pattern best explains this?",
+      "choices": [
+        { "id": "A", "text": "Mitochondrial inheritance" },
+        { "id": "B", "text": "X-linked recessive" },
+        { "id": "C", "text": "Autosomal dominant" },
+        { "id": "D", "text": "Autosomal recessive" }
+      ],
+      "answer": "A",
+      "explanation": "Mitochondria come from the egg, so affected mothers pass the trait to all offspring and fathers pass it to none.",
+      "distractors": { "B": "Affected fathers would pass the allele to all daughters, and affected mothers wouldn't affect every child.", "C": "Affected fathers would pass it to about half their children." }
+    },
+    {
+      "id": "u5-q10", "tier": "Exam level", "type": "mcq", "topic": "5.4 Non-Mendelian Genetics",
+      "stem": "In snapdragons, red (RR) × white (WW) produces pink offspring. If two pink plants are crossed, what phenotypes are expected?",
+      "choices": [
+        { "id": "A", "text": "1 red : 2 pink : 1 white" },
+        { "id": "B", "text": "3 red : 1 white" },
+        { "id": "C", "text": "All pink" },
+        { "id": "D", "text": "1 pink : 1 white" }
+      ],
+      "answer": "A",
+      "explanation": "Incomplete dominance: each genotype has a distinct phenotype, so the 1 : 2 : 1 genotypic ratio is also the phenotypic ratio.",
+      "distractors": { "B": "Assumes complete dominance.", "C": "Ignores segregation in the pink parents." }
+    },
+    {
+      "id": "u5-q11", "tier": "Hardest", "type": "mcq", "topic": "5.3 Mendelian Genetics",
+      "stem": "Cystic fibrosis is autosomal recessive. Two unaffected carriers have an unaffected child. What is the probability that this child is a carrier?",
+      "choices": [
+        { "id": "A", "text": "2/3" },
+        { "id": "B", "text": "1/2" },
+        { "id": "C", "text": "1/4" },
+        { "id": "D", "text": "3/4" }
+      ],
+      "answer": "A",
+      "explanation": "Among AA, Aa, Aa, aa, the child isn't aa. Of the remaining three equally likely outcomes, two are Aa.",
+      "distractors": { "B": "Ignored the information that the child is unaffected.", "D": "That's the probability of being unaffected." }
+    },
+    {
+      "id": "u5-q12", "tier": "Hardest", "type": "mcq", "topic": "5.1 Meiosis",
+      "stem": "An organism has a diploid number of 8. Considering only independent assortment (no crossing over), how many genetically different gametes can it produce?",
+      "choices": [
+        { "id": "A", "text": "16" },
+        { "id": "B", "text": "8" },
+        { "id": "C", "text": "256" },
+        { "id": "D", "text": "64" }
+      ],
+      "answer": "A",
+      "explanation": "Haploid number n = 4 pairs. Each pair can orient two ways: 2⁴ = 16.",
+      "distractors": { "C": "Used 2⁸, the diploid number.", "B": "Confused the chromosome number with the combinations." }
+    },
+    {
+      "id": "u5-q13", "tier": "Hardest", "type": "mcq", "topic": "5.3 Mendelian Genetics",
+      "stem": "In the cross AaBbCc × AaBbCc, with complete dominance and independent assortment, what is the probability of an offspring with dominant phenotypes for A and C and a recessive phenotype for B?",
+      "choices": [
+        { "id": "A", "text": "9/64" },
+        { "id": "B", "text": "3/64" },
+        { "id": "C", "text": "27/64" },
+        { "id": "D", "text": "1/64" }
+      ],
+      "answer": "A",
+      "explanation": "P(A_) = 3/4, P(bb) = 1/4, P(C_) = 3/4. Product: 9/64.",
+      "distractors": { "B": "Used 1/4 for one of the dominant traits.", "C": "That's all three dominant." }
+    },
+    {
+      "id": "u5-q14", "tier": "Hardest", "type": "mcq", "topic": "5.5 Environmental Effects on Phenotype",
+      "stem": "Himalayan rabbits have white fur except on cool extremities, which are black. When a patch on a rabbit's warm back is shaved and kept cold with an ice pack while the fur regrows, the new fur is black. Which explanation is best supported?",
+      "choices": [
+        { "id": "A", "text": "An enzyme needed for pigment production is active only at lower temperatures." },
+        { "id": "B", "text": "Cold temperatures mutate the fur-color gene in skin cells." },
+        { "id": "C", "text": "The rabbit is heterozygous, and cold activates the dominant allele." },
+        { "id": "D", "text": "Shaving removes an inhibitor of pigment production." }
+      ],
+      "answer": "A",
+      "explanation": "Genotype is unchanged; the environment changes how its product works. A temperature-sensitive enzyme is denatured at body-core temperature but functional where it's cool.",
+      "distractors": { "B": "Temperature doesn't reliably cause one specific mutation, and the change is reversible.", "D": "Shaved patches kept warm grow white fur, so shaving alone isn't the cause." }
+    },
+    {
+      "id": "u5-frq1", "tier": "Exam level", "type": "frq", "topic": "5.3 Mendelian Genetics (chi-square)", "frqType": "Q6 Analyze Data",
+      "prompt": "In a plant species, round seeds (R) are dominant to wrinkled (r), and yellow seeds (Y) are dominant to green (y). A researcher crosses two RrYy plants and counts the offspring.",
+      "stimulus": "| Phenotype | Round, yellow | Round, green | Wrinkled, yellow | Wrinkled, green |\n| --- | --- | --- | --- | --- |\n| Observed | 300 | 110 | 95 | 35 |",
+      "parts": [
+        { "label": "a", "prompt": "State the null hypothesis for a chi-square test of these data.", "points": 1 },
+        { "label": "b", "prompt": "Calculate the chi-square value. Show your work.", "points": 1 },
+        { "label": "c", "prompt": "Using p = 0.05 (critical value 7.81 for df = 3), state whether the null hypothesis should be rejected. Justify your answer.", "points": 1 },
+        { "label": "d", "prompt": "Describe the pattern of results that would suggest the two genes are linked.", "points": 1 }
+      ],
+      "points": 4,
+      "minutes": 10,
+      "rubric": [
+        { "criterion": "(a) Null hypothesis", "points": 1, "description": "There is no statistically significant difference between the observed counts and those expected from a 9 : 3 : 3 : 1 ratio (independent assortment)." },
+        { "criterion": "(b) Calculation", "points": 1, "description": "Expected 303.75, 101.25, 101.25, 33.75; χ² ≈ 0.046 + 0.756 + 0.386 + 0.046 ≈ 1.23." },
+        { "criterion": "(c) Conclusion", "points": 1, "description": "Fail to reject, because 1.23 < 7.81 with df = 3; the deviation is likely due to chance." },
+        { "criterion": "(d) Linkage pattern", "points": 1, "description": "Assuming R and Y were on the same chromosome in the parents, parental phenotypes (round yellow, wrinkled green) would be much more frequent and recombinant phenotypes (round green, wrinkled yellow) much less frequent than 9 : 3 : 3 : 1 predicts, giving a large χ²." }
+      ],
+      "sampleResponse": "(a) There is no significant difference between the observed numbers of offspring and the numbers expected from a 9 : 3 : 3 : 1 ratio.\n\n(b) Total = 540. Expected: 540 × 9/16 = 303.75; 540 × 3/16 = 101.25 (twice); 540 × 1/16 = 33.75.\nχ² = (300 − 303.75)²/303.75 + (110 − 101.25)²/101.25 + (95 − 101.25)²/101.25 + (35 − 33.75)²/33.75\n= 0.046 + 0.756 + 0.386 + 0.046 ≈ 1.23.\n\n(c) With 4 categories, df = 3. Since 1.23 < 7.81, I fail to reject the null hypothesis. The differences are likely due to chance, consistent with independent assortment.\n\n(d) If the genes were linked, the parental combinations (round yellow and wrinkled green) would be overrepresented and the recombinant combinations (round green and wrinkled yellow) underrepresented, because the alleles would tend to be inherited together. The χ² value would exceed 7.81."
+    }
+  ]
+}

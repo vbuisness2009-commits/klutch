@@ -1,0 +1,645 @@
+{
+  "number": 7,
+  "title": "Natural Selection",
+  "guide": {
+    "summary": "Evolution is change in allele frequencies in a population over generations. This unit covers natural and artificial selection, the other mechanisms of evolution (drift, gene flow, mutation), Hardy-Weinberg equilibrium, the evidence for common ancestry, phylogenetic trees, speciation, extinction, and hypotheses about the origin of life. It is the most heavily weighted unit.",
+    "sections": [
+      {
+        "heading": "Natural selection",
+        "body": "Natural selection requires four things:\n\n1. **Variation** in a trait within a population.\n2. The variation is **heritable**.\n3. More offspring are produced than can survive (competition).\n4. Individuals with some variants survive and reproduce more (**differential reproductive success**).\n\nOver generations, the favored alleles become more common. Selection acts on **phenotypes**, but it is **populations** that evolve, not individuals. Mutations arise randomly; the environment doesn't cause the mutation it selects for. Antibiotic resistance is the classic case: resistant bacteria already existed by chance, and the antibiotic killed the others.\n\n**Fitness** means reproductive success relative to others, not strength or size.\n\n**Modes of selection:**\n\n| Mode | Favors | Example |\n| --- | --- | --- |\n| Directional | one extreme | dark peppered moths on soot-covered trees |\n| Stabilizing | the intermediate | human birth weight |\n| Disruptive | both extremes | seedcrackers with small or large beaks |\n\n**Artificial selection** is the same process with humans choosing which individuals breed. **Sexual selection** favors traits that improve mating success."
+      },
+      {
+        "heading": "Other mechanisms of evolution",
+        "body": "- **Genetic drift:** random changes in allele frequency, strongest in small populations. A **bottleneck** (a disaster shrinks the population) and the **founder effect** (a few individuals start a new population) both reduce variation.\n- **Gene flow:** migration moves alleles between populations, making them more similar.\n- **Mutation:** the ultimate source of new alleles.\n- **Nonrandom mating:** changes genotype frequencies.\n\nDrift and selection both change allele frequencies; only selection consistently improves adaptation."
+      },
+      {
+        "heading": "Hardy-Weinberg equilibrium",
+        "body": "If a population meets five conditions, allele and genotype frequencies stay constant: no mutation, no migration (gene flow), very large size (no drift), random mating, and no natural selection. Real populations rarely meet them, so the model is a **null hypothesis**: deviation means evolution is happening.\n\np + q = 1 (allele frequencies)\np² + 2pq + q² = 1 (genotype frequencies)\n\nStart from the recessive phenotype, because only it reveals its genotype: if 16% are aa, q² = 0.16, q = 0.4, p = 0.6, and carriers 2pq = 0.48.\n\nWhen counting genotypes directly, count **alleles**: in 360 AA, 480 Aa, 160 aa (1000 individuals, 2000 alleles), a = (480 + 2·160)/2000 = 0.4."
+      },
+      {
+        "heading": "Evidence for evolution and phylogeny",
+        "body": "- **Fossils** show change over time and transitional forms, dated by radiometric methods.\n- **Homologous structures** (human arm, whale flipper, bat wing) share bone structure from a common ancestor despite different functions. **Analogous structures** (bird and insect wings) evolved independently: convergent evolution.\n- **Vestigial structures** are reduced remnants of ancestral features.\n- **Molecular evidence:** shared DNA and protein sequences; fewer differences mean more recent common ancestry. The near-universal genetic code points to a single origin.\n\n**Phylogenetic trees and cladograms** show hypothesized relationships. Each **node** is a common ancestor. Organisms that share a more recent node are more closely related. Trees are built from **shared derived characters** and, increasingly, from molecular data. A tree's branch order matters, not how close two tips appear on the page."
+      },
+      {
+        "heading": "Speciation and extinction",
+        "body": "The **biological species concept** defines a species as a group whose members can interbreed and produce fertile offspring.\n\n**Reproductive isolation** keeps species apart:\n\n- Prezygotic: habitat, temporal (different breeding seasons), behavioral (different courtship), mechanical, gametic.\n- Postzygotic: hybrid inviability, hybrid sterility (mules), hybrid breakdown.\n\n**Allopatric speciation** follows geographic separation. **Sympatric speciation** happens without it, often by polyploidy in plants: a tetraploid crossed with its diploid parent produces sterile triploids, so the tetraploid is instantly isolated.\n\nSpeciation can be gradual or follow **punctuated equilibrium** (long stasis, rapid change). **Adaptive radiation** follows the opening of new niches, often after mass extinctions."
+      },
+      {
+        "heading": "Origin of life",
+        "body": "Early Earth had no free O₂. Experiments (Miller-Urey) showed simple organic molecules can form from inorganic precursors with an energy source. The **RNA world hypothesis** proposes RNA came first because it can both store information and catalyze reactions (ribozymes). Self-replicating molecules enclosed in lipid membranes could have formed the first protocells."
+      }
+    ],
+    "keyTakeaways": [
+      "Selection needs heritable variation and differential reproductive success.",
+      "Individuals don't evolve; populations do.",
+      "Mutations are random; selection is not.",
+      "Hardy-Weinberg is a null model: p + q = 1, p² + 2pq + q² = 1.",
+      "Homologous structures and shared sequences are evidence of common ancestry.",
+      "Speciation requires reproductive isolation."
+    ],
+    "commonMistakes": [
+      "Saying organisms evolve or mutate \"in order to\" survive.",
+      "Taking √(dominant phenotype frequency) to get p.",
+      "Treating fitness as physical strength.",
+      "Reading cladogram relatedness from tip position instead of node order.",
+      "Confusing homologous and analogous structures.",
+      "Forgetting that drift has the largest effect in small populations."
+    ],
+    "examTips": [
+      "Hardy-Weinberg and phylogeny questions appear every year; practice both.",
+      "When explaining selection, name the selective pressure, the advantageous trait, and differential reproduction.",
+      "Graphing FRQs: label axes with units, pick an appropriate scale, and draw error bars when data include them.",
+      "Non-overlapping 95% confidence intervals (±2 SE) suggest a statistically significant difference.",
+      "Molecular data questions: fewer differences means a more recent common ancestor."
+    ],
+    "cramSheet": "**Selection needs:** variation · heritability · overproduction · differential reproduction\n\n**Modes:** directional · stabilizing · disruptive · sexual\n\n**Other mechanisms:** drift (bottleneck, founder) · gene flow · mutation\n\n**H-W conditions:** no mutation, no migration, large pop, random mating, no selection\n\n**H-W math:** start with q² = recessive phenotype · p + q = 1 · carriers 2pq\n\n**Evidence:** fossils · homologous · vestigial · molecular · universal code\n\n**Trees:** node = common ancestor · more recent shared node = closer\n\n**Isolation:** prezygotic (habitat, temporal, behavioral, mechanical, gametic) · postzygotic (inviable, sterile)\n\n**Speciation:** allopatric (barrier) · sympatric (polyploidy)"
+  },
+  "vocab": [
+    {
+      "term": "Natural selection",
+      "definition": "Differential survival and reproduction of individuals due to heritable differences in phenotype."
+    },
+    {
+      "term": "Fitness",
+      "definition": "An individual's reproductive success relative to others in the population."
+    },
+    {
+      "term": "Adaptation",
+      "definition": "A heritable trait that increases fitness in a particular environment."
+    },
+    {
+      "term": "Directional selection",
+      "definition": "Selection favoring one extreme phenotype, shifting the population's mean."
+    },
+    {
+      "term": "Stabilizing selection",
+      "definition": "Selection favoring intermediate phenotypes and reducing variation."
+    },
+    {
+      "term": "Disruptive selection",
+      "definition": "Selection favoring both extremes over the intermediate."
+    },
+    {
+      "term": "Genetic drift",
+      "definition": "Random change in allele frequencies, most significant in small populations."
+    },
+    {
+      "term": "Bottleneck effect",
+      "definition": "Drift caused by a sharp reduction in population size, which reduces genetic variation."
+    },
+    {
+      "term": "Founder effect",
+      "definition": "Drift that occurs when a few individuals start a new population."
+    },
+    {
+      "term": "Gene flow",
+      "definition": "Transfer of alleles between populations through migration."
+    },
+    {
+      "term": "Hardy-Weinberg equilibrium",
+      "definition": "A state in which allele and genotype frequencies stay constant because no evolutionary forces act."
+    },
+    {
+      "term": "Homologous structures",
+      "definition": "Structures shared due to common ancestry, even if their functions differ."
+    },
+    {
+      "term": "Analogous structures",
+      "definition": "Structures with similar function that evolved independently in unrelated lineages."
+    },
+    {
+      "term": "Shared derived character",
+      "definition": "A trait that evolved in a common ancestor and is shared by its descendants; used to build cladograms."
+    },
+    {
+      "term": "Reproductive isolation",
+      "definition": "Barriers that prevent two populations from interbreeding and producing fertile offspring."
+    },
+    {
+      "term": "Polyploidy",
+      "definition": "Having more than two complete sets of chromosomes; can cause instant sympatric speciation in plants."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u7-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "7.2 Natural Selection",
+      "stem": "Natural selection acts directly on an organism's",
+      "choices": [
+        {
+          "id": "A",
+          "text": "phenotype"
+        },
+        {
+          "id": "B",
+          "text": "genotype only"
+        },
+        {
+          "id": "C",
+          "text": "individual alleles in gametes"
+        },
+        {
+          "id": "D",
+          "text": "acquired characteristics"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The environment interacts with traits that are expressed; genotypes change in frequency as a consequence.",
+      "distractors": {
+        "B": "Unexpressed alleles (like recessive alleles in carriers) are invisible to selection.",
+        "D": "Acquired traits aren't inherited."
+      }
+    },
+    {
+      "id": "u7-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "7.9 Common Ancestry",
+      "stem": "The forelimbs of humans, whales, and bats have the same arrangement of bones but different functions. These are best described as",
+      "choices": [
+        {
+          "id": "A",
+          "text": "homologous structures, evidence of common ancestry"
+        },
+        {
+          "id": "B",
+          "text": "analogous structures, evidence of convergent evolution"
+        },
+        {
+          "id": "C",
+          "text": "vestigial structures with no function"
+        },
+        {
+          "id": "D",
+          "text": "structures produced by artificial selection"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Same underlying structure inherited from a shared ancestor, modified for different uses.",
+      "distractors": {
+        "B": "Analogous structures have similar functions but different origins."
+      }
+    },
+    {
+      "id": "u7-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "7.4 Population Genetics",
+      "stem": "Which is one of the conditions required for a population to remain in Hardy-Weinberg equilibrium?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A very large population size"
+        },
+        {
+          "id": "B",
+          "text": "Natural selection favoring heterozygotes"
+        },
+        {
+          "id": "C",
+          "text": "Frequent migration between populations"
+        },
+        {
+          "id": "D",
+          "text": "Individuals choosing mates with similar traits"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Large size makes genetic drift negligible.",
+      "distractors": {
+        "B": "Any selection violates equilibrium.",
+        "C": "Gene flow violates it.",
+        "D": "Nonrandom mating violates it."
+      }
+    },
+    {
+      "id": "u7-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "7.3 Artificial Selection / 7.4 Population Genetics",
+      "stem": "Hunting reduced a population of northern elephant seals to about 20 individuals. Today the population is large but has very little genetic variation. This illustrates",
+      "choices": [
+        {
+          "id": "A",
+          "text": "the bottleneck effect"
+        },
+        {
+          "id": "B",
+          "text": "gene flow"
+        },
+        {
+          "id": "C",
+          "text": "stabilizing selection"
+        },
+        {
+          "id": "D",
+          "text": "sympatric speciation"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A drastic reduction in size randomly eliminated most alleles; the recovered population descends from the few survivors.",
+      "distractors": {
+        "B": "Gene flow would add variation from other populations."
+      }
+    },
+    {
+      "id": "u7-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.5 Hardy-Weinberg Equilibrium",
+      "stem": "In a population in Hardy-Weinberg equilibrium, 16% of individuals show a recessive phenotype. What fraction of the population is heterozygous?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.48"
+        },
+        {
+          "id": "B",
+          "text": "0.24"
+        },
+        {
+          "id": "C",
+          "text": "0.36"
+        },
+        {
+          "id": "D",
+          "text": "0.84"
+        }
+      ],
+      "answer": "A",
+      "explanation": "q² = 0.16, so q = 0.4 and p = 0.6. 2pq = 2(0.6)(0.4) = 0.48.",
+      "distractors": {
+        "B": "Forgot the factor of 2 in 2pq.",
+        "C": "That's p², the homozygous dominant frequency.",
+        "D": "That's the dominant phenotype frequency."
+      }
+    },
+    {
+      "id": "u7-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.10 Phylogeny",
+      "stimulus": "| Organism | Jaws | Lungs | Four limbs | Amniotic egg | Hair |\n| --- | --- | --- | --- | --- | --- |\n| Lamprey | − | − | − | − | − |\n| Shark | + | − | − | − | − |\n| Frog | + | + | + | − | − |\n| Lizard | + | + | + | + | − |\n| Mouse | + | + | + | + | + |",
+      "stem": "Based on the shared derived characters in the table, which two organisms are most closely related?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Lizard and mouse"
+        },
+        {
+          "id": "B",
+          "text": "Frog and lizard"
+        },
+        {
+          "id": "C",
+          "text": "Shark and frog"
+        },
+        {
+          "id": "D",
+          "text": "Lamprey and shark"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Lizard and mouse share the most derived traits, including the amniotic egg, so they share the most recent common ancestor.",
+      "distractors": {
+        "B": "Frog and lizard share three derived traits; lizard and mouse share four, including the amniotic egg."
+      }
+    },
+    {
+      "id": "u7-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.2 Natural Selection",
+      "stem": "After years of treatment with an antibiotic, most bacteria in a hospital population are resistant. Which explanation is most accurate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Resistant bacteria were already present by random mutation, and they survived and reproduced while susceptible bacteria died."
+        },
+        {
+          "id": "B",
+          "text": "The antibiotic caused bacteria to mutate so they could resist it."
+        },
+        {
+          "id": "C",
+          "text": "Individual bacteria gradually built up tolerance and passed it on."
+        },
+        {
+          "id": "D",
+          "text": "Bacteria chose to become resistant because they needed to survive."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Mutation is random with respect to need; the antibiotic is the selective pressure that changed allele frequencies.",
+      "distractors": {
+        "B": "Selective agents don't direct mutations.",
+        "C": "Describes inheritance of acquired characteristics."
+      }
+    },
+    {
+      "id": "u7-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.12 Speciation",
+      "stem": "Two frog species live in the same pond. One breeds in early spring, the other in late summer. This is an example of",
+      "choices": [
+        {
+          "id": "A",
+          "text": "temporal isolation, a prezygotic barrier"
+        },
+        {
+          "id": "B",
+          "text": "habitat isolation, a prezygotic barrier"
+        },
+        {
+          "id": "C",
+          "text": "hybrid sterility, a postzygotic barrier"
+        },
+        {
+          "id": "D",
+          "text": "geographic isolation leading to allopatric speciation"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Different breeding times prevent mating, so no zygote forms.",
+      "distractors": {
+        "B": "They share the same habitat.",
+        "D": "They live in the same pond, so there's no geographic barrier."
+      }
+    },
+    {
+      "id": "u7-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.2 Natural Selection",
+      "stem": "Before industrial pollution, most peppered moths in an area were light-colored. After soot darkened tree bark, dark moths became most common. This change is an example of",
+      "choices": [
+        {
+          "id": "A",
+          "text": "directional selection"
+        },
+        {
+          "id": "B",
+          "text": "stabilizing selection"
+        },
+        {
+          "id": "C",
+          "text": "disruptive selection"
+        },
+        {
+          "id": "D",
+          "text": "genetic drift"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Predation favored one extreme (dark), shifting the population's phenotype distribution.",
+      "distractors": {
+        "D": "The change had a consistent environmental cause (visibility to predators), not random chance."
+      }
+    },
+    {
+      "id": "u7-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.9 Common Ancestry",
+      "stimulus": "Number of amino acid differences in cytochrome c compared with humans:\n\n| Chimpanzee | Rhesus monkey | Dog | Yeast |\n| --- | --- | --- | --- |\n| 0 | 1 | 11 | 44 |",
+      "stem": "Which conclusion is best supported by the data?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Humans share a more recent common ancestor with rhesus monkeys than with dogs."
+        },
+        {
+          "id": "B",
+          "text": "Humans evolved from chimpanzees."
+        },
+        {
+          "id": "C",
+          "text": "Yeast cytochrome c does not function in cellular respiration."
+        },
+        {
+          "id": "D",
+          "text": "Dogs are more closely related to yeast than to humans."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Fewer amino acid differences indicate less time since divergence: 1 for rhesus versus 11 for dogs.",
+      "distractors": {
+        "B": "Humans and chimps share a common ancestor; neither evolved from the other.",
+        "D": "Dog differs from humans by 11, but the table gives no dog-yeast comparison."
+      }
+    },
+    {
+      "id": "u7-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "7.5 Hardy-Weinberg Equilibrium",
+      "stem": "A population of 1,000 has 360 AA, 480 Aa, and 160 aa individuals. A disease kills all aa individuals before they reproduce, while AA and Aa reproduce normally. What is the frequency of allele a among the parents of the next generation?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "About 0.29"
+        },
+        {
+          "id": "B",
+          "text": "0.40"
+        },
+        {
+          "id": "C",
+          "text": "0.24"
+        },
+        {
+          "id": "D",
+          "text": "0.16"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Survivors: 360 AA + 480 Aa = 840 individuals, 1,680 alleles. Only Aa carry a: 480 alleles. 480/1,680 ≈ 0.29.",
+      "distractors": {
+        "B": "That's q before selection.",
+        "C": "Divided by the original 2,000 alleles, ignoring that aa individuals were removed.",
+        "D": "That's q² before selection."
+      }
+    },
+    {
+      "id": "u7-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "7.2 Natural Selection",
+      "stem": "Human infants of very low or very high birth weight historically had higher mortality than infants of intermediate weight. Over time, this pattern would be expected to",
+      "choices": [
+        {
+          "id": "A",
+          "text": "reduce variation in birth weight while keeping the mean about the same"
+        },
+        {
+          "id": "B",
+          "text": "shift the mean birth weight upward"
+        },
+        {
+          "id": "C",
+          "text": "produce two distinct birth weight peaks"
+        },
+        {
+          "id": "D",
+          "text": "increase variation in birth weight"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Stabilizing selection removes both extremes, narrowing the distribution around the existing mean.",
+      "distractors": {
+        "B": "Directional selection would shift the mean.",
+        "C": "Disruptive selection would split the distribution."
+      }
+    },
+    {
+      "id": "u7-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "7.12 Speciation",
+      "stem": "A tetraploid (4n) plant arises from a diploid (2n) species through an error in cell division. Why is the tetraploid considered reproductively isolated from its parent species?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Crosses between them produce triploid offspring that are sterile."
+        },
+        {
+          "id": "B",
+          "text": "The tetraploid cannot produce gametes."
+        },
+        {
+          "id": "C",
+          "text": "The two populations are separated geographically."
+        },
+        {
+          "id": "D",
+          "text": "The tetraploid's pollen is a different color."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Diploid gametes (2n) from the tetraploid fuse with haploid gametes (n), giving 3n offspring whose chromosomes can't pair evenly in meiosis. This postzygotic barrier isolates the tetraploid instantly.",
+      "distractors": {
+        "B": "Tetraploids can self-fertilize or mate with other tetraploids.",
+        "C": "Polyploid speciation is sympatric."
+      }
+    },
+    {
+      "id": "u7-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "7.13 Origins of Life on Earth",
+      "stem": "Which observation most directly supports the hypothesis that RNA preceded DNA and proteins in early life?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Some RNA molecules can store genetic information and catalyze chemical reactions."
+        },
+        {
+          "id": "B",
+          "text": "RNA uses uracil instead of thymine."
+        },
+        {
+          "id": "C",
+          "text": "DNA is more chemically stable than RNA."
+        },
+        {
+          "id": "D",
+          "text": "Proteins are made of 20 amino acids."
+        }
+      ],
+      "answer": "A",
+      "explanation": "A molecule that can both carry information and act as an enzyme could self-replicate without DNA or proteins.",
+      "distractors": {
+        "C": "True, but it explains why DNA later took over storage, not why RNA came first."
+      }
+    },
+    {
+      "id": "u7-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "7.2 Natural Selection",
+      "frqType": "Q2 Interpreting and Evaluating Experimental Results with Graphing",
+      "prompt": "On an isolated island, ground finches eat seeds. During a severe drought in 1977, small soft seeds became scarce and mostly large, hard seeds remained. Researchers measured the beak depth of the adult finch population each year. Beak depth is highly heritable.",
+      "stimulus": "| Year | 1976 | 1977 | 1978 | 1979 |\n| --- | --- | --- | --- | --- |\n| Mean beak depth (mm) | 9.2 | 9.6 | 9.9 | 9.8 |\n| ±2 SE (mm) | 0.1 | 0.1 | 0.1 | 0.1 |",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Explain how the drought caused the change in mean beak depth.",
+          "points": 2
+        },
+        {
+          "label": "b",
+          "prompt": "Construct an appropriately labeled graph of mean beak depth by year, including error bars. (Describe your graph in words.)",
+          "points": 3
+        },
+        {
+          "label": "c",
+          "prompt": "Based on the error bars, determine whether the difference in mean beak depth between 1976 and 1978 is statistically significant.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Predict the mean beak depth after several years of heavy rain in which small soft seeds become abundant again. Justify your prediction.",
+          "points": 2
+        },
+        {
+          "label": "e",
+          "prompt": "Identify the condition, stated in the prompt, that allows the change in beak depth to appear in the offspring generation.",
+          "points": 1
+        }
+      ],
+      "points": 9,
+      "minutes": 25,
+      "rubric": [
+        {
+          "criterion": "(a) Variation",
+          "points": 1,
+          "description": "Beak depth varied among finches in the population before the drought."
+        },
+        {
+          "criterion": "(a) Differential survival/reproduction",
+          "points": 1,
+          "description": "Finches with deeper beaks could crack hard seeds, so they survived and reproduced more than those with shallow beaks."
+        },
+        {
+          "criterion": "(b) Axes",
+          "points": 1,
+          "description": "x-axis: year; y-axis: mean beak depth (mm), with an appropriate scale."
+        },
+        {
+          "criterion": "(b) Plotting",
+          "points": 1,
+          "description": "All four points plotted correctly (bar or point graph acceptable)."
+        },
+        {
+          "criterion": "(b) Error bars",
+          "points": 1,
+          "description": "Error bars of ±0.1 mm drawn on each point."
+        },
+        {
+          "criterion": "(c) Significance",
+          "points": 1,
+          "description": "Significant, because the error bars (9.1–9.3 and 9.8–10.0) do not overlap."
+        },
+        {
+          "criterion": "(d) Prediction",
+          "points": 1,
+          "description": "Mean beak depth will decrease."
+        },
+        {
+          "criterion": "(d) Justification",
+          "points": 1,
+          "description": "Smaller-beaked finches handle small seeds more efficiently, so they would have higher fitness; selection would favor shallower beaks."
+        },
+        {
+          "criterion": "(e) Heritability",
+          "points": 1,
+          "description": "Beak depth is heritable, so surviving parents pass deeper beaks to offspring."
+        }
+      ],
+      "sampleResponse": "(a) Before the drought, finches varied in beak depth. When only hard seeds remained, finches with deeper beaks could crack them and get enough food, while many shallow-beaked finches starved. Deep-beaked birds survived and reproduced more, so the population's mean beak depth increased.\n\n(b) The graph has year (1976–1979) on the x-axis and mean beak depth (mm) on the y-axis, scaled from 9.0 to 10.2 mm. Points at 9.2, 9.6, 9.9, and 9.8 mm, each with an error bar extending 0.1 mm above and below.\n\n(c) The 1976 interval (9.1–9.3 mm) and the 1978 interval (9.8–10.0 mm) don't overlap, so the difference is statistically significant.\n\n(d) Mean beak depth would decrease. With small soft seeds abundant, finches with smaller beaks could handle them more efficiently, and deep beaks would no longer give an advantage, so shallower-beaked birds would have greater reproductive success.\n\n(e) Beak depth is highly heritable, so the surviving deep-beaked parents passed the trait to their offspring."
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "number": 3,
+  "title": "Cellular Energetics",
+  "guide": {
+    "summary": "Cells run on controlled energy transfer. This unit covers how enzymes speed reactions and how their activity is regulated, then follows energy through photosynthesis (light into chemical energy) and cellular respiration (chemical energy into ATP). The exam focuses on enzyme data, electron transport and chemiosmosis, and predicting what happens when a step is blocked.",
+    "sections": [
+      {
+        "heading": "Enzyme structure and function",
+        "body": "Enzymes are proteins (a few are RNA) that lower the **activation energy** of a reaction without being consumed. The substrate binds the **active site**, whose shape and chemical properties depend on the enzyme's tertiary structure. Change that shape and function changes.\n\nThree environmental factors show up constantly:\n\n- **Temperature:** rate rises as molecules collide more often, up to an optimum. Above it, hydrogen bonds and other interactions holding the fold break and the enzyme **denatures**; activity drops sharply and often does not return on cooling.\n- **pH:** changes the charge on R groups in and near the active site, disrupting binding. Each enzyme has its own optimum (pepsin near pH 2, trypsin near 8).\n- **Substrate concentration:** rate rises until every active site is busy, then plateaus at the maximum rate.\n\n**Inhibitors:**\n\n| Type | Binds | Effect of adding more substrate |\n| --- | --- | --- |\n| Competitive | the active site | restores the maximum rate |\n| Noncompetitive (allosteric) | a different site, changing the active site's shape | cannot restore the maximum rate |\n\nOn graphs, a competitive inhibitor shifts the curve right but reaches the same plateau; a noncompetitive inhibitor lowers the plateau."
+      },
+      {
+        "heading": "Energy and coupling",
+        "body": "Exergonic reactions release free energy; endergonic reactions require it. Cells couple them, often through ATP hydrolysis, so the overall process is favorable. Living systems need a constant input of energy to maintain order, consistent with the second law of thermodynamics; a cell that loses its energy supply moves toward disorder and dies.\n\nMetabolic pathways are sequences of enzyme-catalyzed steps. Blocking one enzyme makes its substrate **accumulate** and its product **decrease**. This logic answers many \"predict the effect\" questions."
+      },
+      {
+        "heading": "Photosynthesis",
+        "body": "**Light-dependent reactions** (thylakoid membranes):\n\n1. Photosystem II absorbs light; excited electrons enter the electron transport chain.\n2. Water is split to replace those electrons, releasing **O₂** (the oxygen in O₂ comes from water, not CO₂).\n3. As electrons move along the chain, H⁺ is pumped into the **thylakoid lumen**, building a gradient.\n4. Photosystem I re-energizes electrons, which reduce NADP⁺ to **NADPH**.\n5. H⁺ flows back to the stroma through **ATP synthase**, making ATP (chemiosmosis).\n\n**Calvin cycle** (stroma): rubisco fixes CO₂ onto RuBP, forming 3-PGA. ATP and NADPH reduce 3-PGA to G3P, some of which leaves to build sugars; the rest regenerates RuBP using more ATP.\n\nThe two stages depend on each other: the Calvin cycle needs ATP and NADPH; the light reactions need NADP⁺ and ADP returned by the cycle."
+      },
+      {
+        "heading": "Cellular respiration",
+        "body": "| Stage | Location | Main outputs per glucose |\n| --- | --- | --- |\n| Glycolysis | cytosol | 2 pyruvate, net 2 ATP, 2 NADH |\n| Pyruvate oxidation | mitochondrial matrix | 2 acetyl-CoA, 2 CO₂, 2 NADH |\n| Krebs (citric acid) cycle | matrix | 4 CO₂, 6 NADH, 2 FADH₂, 2 ATP |\n| Electron transport + chemiosmosis | inner mitochondrial membrane | most of the ATP; H₂O |\n\nNADH and FADH₂ donate electrons to the electron transport chain. Energy released as electrons pass along it pumps H⁺ from the matrix into the **intermembrane space**. **O₂ is the final electron acceptor**, forming water. H⁺ flowing back through ATP synthase drives ATP synthesis.\n\n**Fermentation:** without O₂, the electron transport chain stops and NADH can't be oxidized. Fermentation converts pyruvate to lactate or ethanol specifically to **regenerate NAD⁺**, so glycolysis can keep making 2 ATP."
+      },
+      {
+        "heading": "Predicting disruptions",
+        "body": "- **Block the final acceptor** (cyanide on complex IV, or no O₂): electron flow stops, the H⁺ gradient collapses, ATP synthase stops, NADH builds up, and the Krebs cycle slows for lack of NAD⁺.\n- **Uncoupler** (makes the inner membrane leaky to H⁺): electron transport and O₂ use continue or even speed up, but the gradient dissipates, so ATP production falls and energy is released as heat.\n- **Lights off:** ATP and NADPH run out; 3-PGA accumulates because it can't be reduced, while RuBP falls because it isn't regenerated.\n\nGlycolysis happens in the cytosol of nearly every organism and needs no oxygen, evidence that it evolved early, before O₂ was abundant and before membrane-bound organelles."
+      }
+    ],
+    "keyTakeaways": [
+      "Enzymes lower activation energy; their shape determines function.",
+      "Competitive inhibition is overcome by more substrate; noncompetitive is not.",
+      "Light reactions make ATP, NADPH, and O₂ (from water); the Calvin cycle uses them to fix CO₂.",
+      "O₂ is the final electron acceptor in aerobic respiration.",
+      "Chemiosmosis: H⁺ gradient across a membrane powers ATP synthase in both organelles.",
+      "Fermentation exists to regenerate NAD⁺ for glycolysis."
+    ],
+    "commonMistakes": [
+      "Saying high temperature \"kills\" an enzyme instead of describing denaturation of its structure.",
+      "Thinking the O₂ released in photosynthesis comes from CO₂.",
+      "Placing the H⁺ reservoir in the wrong compartment (it's the lumen in chloroplasts, the intermembrane space in mitochondria).",
+      "Saying fermentation makes ATP directly; it only regenerates NAD⁺.",
+      "Confusing an uncoupler (O₂ use continues) with cyanide (O₂ use stops).",
+      "Describing a graph without explaining the molecular cause."
+    ],
+    "examTips": [
+      "Enzyme activity graphs and tables are common in Q1/Q2 FRQs; explain changes in terms of active-site shape.",
+      "For blocked-pathway questions, trace one step at a time: what accumulates, what runs out.",
+      "Know where each process happens; location questions are quick points.",
+      "Justify with the mechanism, not just the result: \"because the proton gradient dissipates\" rather than \"because ATP decreases.\"",
+      "Calculator use is allowed; percent change and rate calculations appear in data questions."
+    ],
+    "cramSheet": "**Enzymes:** lower Eₐ · active site shape = function · denature above optimum T, away from optimum pH\n\n**Competitive:** active site, beaten by more substrate · **Noncompetitive:** allosteric, lowers max rate\n\n**Light rxns (thylakoid):** H₂O → O₂ · ETC pumps H⁺ into lumen · ATP + NADPH\n\n**Calvin (stroma):** CO₂ + RuBP → 3-PGA → G3P (uses ATP, NADPH)\n\n**Respiration:** glycolysis (cytosol, 2 ATP) → pyruvate ox → Krebs (matrix) → ETC (inner membrane, O₂ final acceptor)\n\n**Fermentation:** regenerates NAD⁺\n\n**Blocks:** cyanide → gradient lost, NADH piles up · uncoupler → O₂ used, little ATP, heat"
+  },
+  "vocab": [
+    { "term": "Activation energy", "definition": "The energy needed to start a reaction; enzymes lower it." },
+    { "term": "Active site", "definition": "The region of an enzyme where the substrate binds; its shape and chemistry determine specificity." },
+    { "term": "Denaturation", "definition": "Loss of a protein's three-dimensional shape, and therefore its function, caused by heat, pH, or chemicals." },
+    { "term": "Competitive inhibitor", "definition": "A molecule that binds the active site, blocking substrate; overcome by raising substrate concentration." },
+    { "term": "Noncompetitive (allosteric) inhibitor", "definition": "A molecule that binds elsewhere on the enzyme and changes the active site's shape; lowers the maximum rate." },
+    { "term": "Chemiosmosis", "definition": "ATP synthesis powered by H⁺ flowing down its gradient through ATP synthase." },
+    { "term": "ATP synthase", "definition": "Membrane enzyme that uses the flow of H⁺ to phosphorylate ADP into ATP." },
+    { "term": "Electron transport chain", "definition": "Membrane proteins that pass electrons along, using released energy to pump H⁺ across the membrane." },
+    { "term": "Photosystem", "definition": "Complex of pigments and proteins in the thylakoid membrane that absorbs light and energizes electrons." },
+    { "term": "Calvin cycle", "definition": "Light-independent reactions in the stroma that fix CO₂ into sugar using ATP and NADPH." },
+    { "term": "Rubisco", "definition": "The enzyme that attaches CO₂ to RuBP in the first step of the Calvin cycle." },
+    { "term": "Glycolysis", "definition": "Splitting of glucose into two pyruvate in the cytosol, yielding a net 2 ATP and 2 NADH." },
+    { "term": "Krebs (citric acid) cycle", "definition": "Series of reactions in the mitochondrial matrix that oxidize acetyl-CoA, releasing CO₂ and producing NADH and FADH₂." },
+    { "term": "Final electron acceptor", "definition": "The molecule that accepts electrons at the end of the transport chain; O₂ in aerobic respiration." },
+    { "term": "Fermentation", "definition": "Anaerobic pathway that regenerates NAD⁺ from NADH so glycolysis can continue." }
+  ],
+  "practice": [
+    {
+      "id": "u3-q01", "tier": "Intro", "type": "mcq", "topic": "3.5 Photosynthesis",
+      "stem": "In which part of the chloroplast does the Calvin cycle take place?",
+      "choices": [
+        { "id": "A", "text": "Stroma" },
+        { "id": "B", "text": "Thylakoid membrane" },
+        { "id": "C", "text": "Thylakoid lumen" },
+        { "id": "D", "text": "Outer membrane" }
+      ],
+      "answer": "A",
+      "explanation": "The Calvin cycle enzymes, including rubisco, are dissolved in the stroma.",
+      "distractors": { "B": "That's where the light-dependent reactions occur.", "C": "That's where H⁺ accumulates during the light reactions." }
+    },
+    {
+      "id": "u3-q02", "tier": "Intro", "type": "mcq", "topic": "3.6 Cellular Respiration",
+      "stem": "Which molecule is the final electron acceptor in aerobic cellular respiration?",
+      "choices": [
+        { "id": "A", "text": "Oxygen" },
+        { "id": "B", "text": "NAD⁺" },
+        { "id": "C", "text": "Carbon dioxide" },
+        { "id": "D", "text": "Pyruvate" }
+      ],
+      "answer": "A",
+      "explanation": "O₂ accepts electrons at the end of the electron transport chain and combines with H⁺ to form water.",
+      "distractors": { "B": "NAD⁺ is an electron carrier that delivers electrons to the chain, not the final acceptor.", "C": "CO₂ is a waste product of the Krebs cycle.", "D": "Pyruvate accepts electrons only in fermentation." }
+    },
+    {
+      "id": "u3-q03", "tier": "Intro", "type": "mcq", "topic": "3.2 Environmental Impacts on Enzyme Function",
+      "stem": "A competitive inhibitor reduces an enzyme's activity by",
+      "choices": [
+        { "id": "A", "text": "binding to the active site and blocking the substrate" },
+        { "id": "B", "text": "binding to an allosteric site and changing the active site's shape" },
+        { "id": "C", "text": "permanently denaturing the enzyme" },
+        { "id": "D", "text": "raising the activation energy of the uncatalyzed reaction" }
+      ],
+      "answer": "A",
+      "explanation": "Competitive inhibitors resemble the substrate and compete for the active site.",
+      "distractors": { "B": "Describes noncompetitive inhibition.", "D": "Inhibitors affect the enzyme, not the uncatalyzed reaction." }
+    },
+    {
+      "id": "u3-q04", "tier": "Intro", "type": "mcq", "topic": "3.6 Cellular Respiration",
+      "stem": "Which process occurs in the cytosol and yields a net gain of 2 ATP per glucose molecule?",
+      "choices": [
+        { "id": "A", "text": "Glycolysis" },
+        { "id": "B", "text": "The Krebs cycle" },
+        { "id": "C", "text": "Oxidative phosphorylation" },
+        { "id": "D", "text": "The Calvin cycle" }
+      ],
+      "answer": "A",
+      "explanation": "Glycolysis splits glucose into two pyruvate in the cytosol, using 2 ATP and making 4.",
+      "distractors": { "B": "Occurs in the mitochondrial matrix.", "C": "Occurs at the inner mitochondrial membrane and makes most of the ATP." }
+    },
+    {
+      "id": "u3-q05", "tier": "Exam level", "type": "mcq", "topic": "3.2 Environmental Impacts on Enzyme Function",
+      "stimulus": "| Temperature (°C) | 10 | 20 | 30 | 40 | 50 | 60 |\n| --- | --- | --- | --- | --- | --- | --- |\n| Reaction rate (μmol/min) | 2 | 5 | 9 | 12 | 4 | 0 |",
+      "stem": "A student measured the rate of an enzyme-catalyzed reaction at different temperatures. Which best explains the change in rate between 40°C and 50°C?",
+      "choices": [
+        { "id": "A", "text": "The enzyme's three-dimensional structure was disrupted, altering the active site so substrate binds less effectively." },
+        { "id": "B", "text": "The substrate molecules moved too quickly to collide with the enzyme." },
+        { "id": "C", "text": "The activation energy of the reaction increased at higher temperature." },
+        { "id": "D", "text": "The enzyme was consumed by the reaction at higher temperatures." }
+      ],
+      "answer": "A",
+      "explanation": "Above the optimum (about 40°C here), heat breaks the bonds that maintain tertiary structure. The active site changes shape and activity falls.",
+      "distractors": { "B": "Faster motion increases collisions; it doesn't prevent them.", "C": "Temperature doesn't raise the activation energy of the reaction.", "D": "Enzymes are not consumed in reactions." }
+    },
+    {
+      "id": "u3-q06", "tier": "Exam level", "type": "mcq", "topic": "3.2 Environmental Impacts on Enzyme Function",
+      "stem": "An enzyme reaction slows when a competitive inhibitor is added. The researcher then greatly increases the substrate concentration while keeping the inhibitor concentration constant. Which outcome is most likely?",
+      "choices": [
+        { "id": "A", "text": "The rate increases and approaches the uninhibited maximum because substrate outcompetes the inhibitor for active sites." },
+        { "id": "B", "text": "The rate stays the same because the inhibitor has permanently altered the active site." },
+        { "id": "C", "text": "The rate decreases because excess substrate also inhibits the enzyme." },
+        { "id": "D", "text": "The rate increases but plateaus at half the uninhibited maximum." }
+      ],
+      "answer": "A",
+      "explanation": "Competitive inhibition is reversible competition for the same site; enough substrate makes inhibitor binding rare.",
+      "distractors": { "B": "Describes irreversible inhibition.", "D": "Describes noncompetitive inhibition." }
+    },
+    {
+      "id": "u3-q07", "tier": "Exam level", "type": "mcq", "topic": "3.6 Cellular Respiration",
+      "stem": "The compound 2,4-dinitrophenol (DNP) makes the inner mitochondrial membrane permeable to H⁺. In cells treated with DNP, which is most likely?",
+      "choices": [
+        { "id": "A", "text": "ATP production decreases because the H⁺ gradient across the inner membrane dissipates." },
+        { "id": "B", "text": "O₂ consumption stops because electrons cannot reach the final acceptor." },
+        { "id": "C", "text": "ATP production increases because H⁺ enters the matrix faster." },
+        { "id": "D", "text": "Glycolysis stops because pyruvate cannot enter the mitochondrion." }
+      ],
+      "answer": "A",
+      "explanation": "H⁺ leaks back without passing through ATP synthase. Electron transport and O₂ use continue, but the energy is released as heat instead of making ATP.",
+      "distractors": { "B": "Describes cyanide; with an uncoupler electrons still flow to O₂.", "C": "H⁺ bypasses ATP synthase, so it can't drive ATP synthesis." }
+    },
+    {
+      "id": "u3-q08", "tier": "Exam level", "type": "mcq", "topic": "3.5 Photosynthesis",
+      "stem": "Plants are given water labeled with the heavy isotope ¹⁸O and normal CO₂. Where will the ¹⁸O label first appear?",
+      "choices": [
+        { "id": "A", "text": "In the O₂ released by the plant" },
+        { "id": "B", "text": "In the glucose produced by the Calvin cycle" },
+        { "id": "C", "text": "In CO₂ released by the plant" },
+        { "id": "D", "text": "In the NADPH produced by photosystem I" }
+      ],
+      "answer": "A",
+      "explanation": "Photosystem II splits water to replace its electrons, releasing the water's oxygen atoms as O₂.",
+      "distractors": { "B": "The oxygen in sugar comes from CO₂.", "D": "NADPH carries electrons and hydrogen, not oxygen." }
+    },
+    {
+      "id": "u3-q09", "tier": "Exam level", "type": "mcq", "topic": "3.6 Cellular Respiration",
+      "stem": "Yeast grown without oxygen convert pyruvate to ethanol and CO₂. What is the main benefit of this reaction to the yeast?",
+      "choices": [
+        { "id": "A", "text": "It regenerates NAD⁺ so glycolysis can continue producing ATP." },
+        { "id": "B", "text": "It produces large amounts of ATP through substrate-level phosphorylation." },
+        { "id": "C", "text": "It supplies electrons to the electron transport chain." },
+        { "id": "D", "text": "It removes CO₂ that would otherwise inhibit glycolysis." }
+      ],
+      "answer": "A",
+      "explanation": "Glycolysis needs NAD⁺. Without O₂, NADH can't be oxidized by the chain, so fermentation oxidizes it by reducing pyruvate's derivative.",
+      "distractors": { "B": "Fermentation's conversion step makes no ATP.", "C": "The chain isn't running without O₂." }
+    },
+    {
+      "id": "u3-q10", "tier": "Exam level", "type": "mcq", "topic": "3.5 Photosynthesis",
+      "stem": "During the light-dependent reactions, where is the H⁺ concentration highest?",
+      "choices": [
+        { "id": "A", "text": "Thylakoid lumen" },
+        { "id": "B", "text": "Stroma" },
+        { "id": "C", "text": "Intermembrane space of the chloroplast" },
+        { "id": "D", "text": "Cytosol" }
+      ],
+      "answer": "A",
+      "explanation": "The electron transport chain pumps H⁺ into the lumen, and water splitting releases H⁺ there. H⁺ then flows out to the stroma through ATP synthase.",
+      "distractors": { "B": "H⁺ is pumped out of the stroma.", "C": "That's the analogous compartment in mitochondria, not where chloroplasts build the gradient." }
+    },
+    {
+      "id": "u3-q11", "tier": "Hardest", "type": "mcq", "topic": "3.5 Photosynthesis",
+      "stem": "Algae photosynthesizing in bright light are suddenly placed in darkness. In the first minute, which change in the stroma is most likely?",
+      "choices": [
+        { "id": "A", "text": "3-PGA increases and RuBP decreases." },
+        { "id": "B", "text": "RuBP increases and 3-PGA decreases." },
+        { "id": "C", "text": "Both 3-PGA and RuBP increase." },
+        { "id": "D", "text": "NADPH increases because it is no longer used." }
+      ],
+      "answer": "A",
+      "explanation": "Rubisco keeps fixing CO₂ onto RuBP, making 3-PGA. But converting 3-PGA to G3P and regenerating RuBP both need ATP and NADPH, which are no longer produced. 3-PGA piles up and RuBP is used up.",
+      "distractors": { "B": "Reverses which step depends on light-generated ATP and NADPH.", "D": "NADPH is no longer produced and is used up by remaining reductions." }
+    },
+    {
+      "id": "u3-q12", "tier": "Hardest", "type": "mcq", "topic": "3.6 Cellular Respiration",
+      "stem": "Cyanide blocks the transfer of electrons from the electron transport chain to O₂. In a cyanide-poisoned cell, which sequence of effects is most likely?",
+      "choices": [
+        { "id": "A", "text": "Electron transport stops, the H⁺ gradient is not maintained, NADH accumulates, and the Krebs cycle slows." },
+        { "id": "B", "text": "Electron transport speeds up, the H⁺ gradient increases, and ATP production rises." },
+        { "id": "C", "text": "The Krebs cycle speeds up to compensate, producing more FADH₂ and ATP." },
+        { "id": "D", "text": "Only glycolysis stops, because it requires oxygen." }
+      ],
+      "answer": "A",
+      "explanation": "With no final acceptor, electrons back up. Pumping stops, ATP synthase stalls, NADH can't be oxidized, and without NAD⁺ the Krebs cycle slows.",
+      "distractors": { "C": "The Krebs cycle needs NAD⁺, which isn't being regenerated.", "D": "Glycolysis doesn't require O₂; it continues, especially with fermentation." }
+    },
+    {
+      "id": "u3-q13", "tier": "Hardest", "type": "mcq", "topic": "3.2 Environmental Impacts on Enzyme Function",
+      "stimulus": "| Substrate (mM) | 1 | 2 | 5 | 10 | 20 |\n| --- | --- | --- | --- | --- | --- |\n| Rate, no inhibitor | 20 | 33 | 55 | 70 | 80 |\n| Rate, with compound X | 10 | 17 | 28 | 35 | 40 |",
+      "stem": "Reaction rates (μmol/min) were measured with and without compound X. Which conclusion is best supported?",
+      "choices": [
+        { "id": "A", "text": "X is a noncompetitive inhibitor, because increasing substrate does not overcome its effect." },
+        { "id": "B", "text": "X is a competitive inhibitor, because it slows the reaction at every substrate concentration." },
+        { "id": "C", "text": "X denatures the enzyme irreversibly, because the rate never reaches 80." },
+        { "id": "D", "text": "X is a competitive inhibitor, because the rate still increases with substrate." }
+      ],
+      "answer": "A",
+      "explanation": "With X the rate is about half the control at every concentration, including the highest. Excess substrate doesn't restore the maximum, the signature of noncompetitive inhibition.",
+      "distractors": { "B": "Competitive inhibitors' effect shrinks as substrate rises; here it doesn't.", "C": "Irreversible denaturation of all enzyme would stop the reaction; some activity remains.", "D": "Rates rise with substrate under any inhibition type; what matters is the maximum." }
+    },
+    {
+      "id": "u3-q14", "tier": "Hardest", "type": "mcq", "topic": "3.7 Fitness",
+      "stem": "Glycolysis occurs in the cytosol of nearly all living organisms and does not require oxygen. Which hypothesis do these observations best support?",
+      "choices": [
+        { "id": "A", "text": "Glycolysis evolved early, before atmospheric O₂ was abundant and before membrane-bound organelles." },
+        { "id": "B", "text": "Glycolysis evolved after mitochondria, as a backup when oxygen ran out." },
+        { "id": "C", "text": "Glycolysis evolved independently in each lineage because it is efficient." },
+        { "id": "D", "text": "Glycolysis is the most efficient way to produce ATP from glucose." }
+      ],
+      "answer": "A",
+      "explanation": "A pathway shared by almost all life, needing no O₂ or organelles, most likely was present in a common ancestor living in an anoxic world.",
+      "distractors": { "C": "Universal sharing of the same pathway points to common ancestry, not repeated invention.", "D": "Glycolysis yields only 2 ATP per glucose; oxidative phosphorylation yields far more." }
+    },
+    {
+      "id": "u3-frq1", "tier": "Exam level", "type": "frq", "topic": "3.2 Environmental Impacts on Enzyme Function", "frqType": "Q3 Scientific Investigation",
+      "prompt": "Catalase breaks down hydrogen peroxide (H₂O₂) into water and oxygen gas. A student places filter-paper disks soaked in catalase extract into beakers of 3% H₂O₂ buffered to pH 3, 5, 7, 9, and 11, and records the time for each disk to rise to the surface (oxygen bubbles make it float). A faster rise indicates higher enzyme activity.",
+      "parts": [
+        { "label": "a", "prompt": "Identify the independent variable in the investigation.", "points": 1 },
+        { "label": "b", "prompt": "Describe an appropriate negative control for this investigation.", "points": 1 },
+        { "label": "c", "prompt": "State the null hypothesis for this investigation.", "points": 1 },
+        { "label": "d", "prompt": "The student repeats the experiment at pH 7 using catalase extract that was boiled for 10 minutes. Predict the result and justify your prediction.", "points": 1 }
+      ],
+      "points": 4,
+      "minutes": 8,
+      "rubric": [
+        { "criterion": "(a) Independent variable", "points": 1, "description": "The pH of the H₂O₂ solution." },
+        { "criterion": "(b) Negative control", "points": 1, "description": "Disks soaked in water (or buffer) with no catalase placed in H₂O₂, or boiled catalase; any condition with no active enzyme." },
+        { "criterion": "(c) Null hypothesis", "points": 1, "description": "pH has no effect on the rate of catalase activity (rise time)." },
+        { "criterion": "(d) Prediction with justification", "points": 1, "description": "The disk will not rise (or rise far more slowly), because heat denatures catalase, changing the active site so it can no longer bind H₂O₂." }
+      ],
+      "sampleResponse": "(a) The independent variable is the pH of the hydrogen peroxide solution.\n\n(b) A disk soaked in buffer with no catalase, placed in 3% H₂O₂. It shows how long a disk takes to rise (if at all) without enzyme activity.\n\n(c) The pH of the solution has no effect on the time it takes catalase-soaked disks to rise.\n\n(d) The boiled disk will not rise, or will rise much more slowly than at pH 7 with active enzyme. Boiling disrupts the hydrogen bonds and other interactions that maintain catalase's tertiary structure, so the active site changes shape and can no longer bind and break down H₂O₂, and little or no oxygen is produced."
+    }
+  ]
+}

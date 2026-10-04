@@ -1,0 +1,276 @@
+{
+  "number": 4,
+  "title": "Cell Communication and Cell Cycle",
+  "guide": {
+    "summary": "Cells coordinate by sending and receiving signals, and they divide only when internal and external conditions allow. This unit covers signal transduction pathways, feedback that maintains homeostasis, the stages of the cell cycle, and the checkpoints whose failure leads to cancer.",
+    "sections": [
+      {
+        "heading": "How cells communicate",
+        "body": "Signals travel different distances:\n\n- **Direct contact:** through gap junctions (animals) or plasmodesmata (plants), or by surface molecules touching, as in immune cell recognition.\n- **Paracrine (local):** a signal diffuses to nearby cells, as with growth factors.\n- **Synaptic:** neurotransmitters cross a synapse.\n- **Endocrine (long distance):** hormones travel in the blood.\n\nEvery pathway has three stages: **reception** (a ligand binds a specific receptor), **transduction** (a series of molecular changes relays and amplifies the signal), and **response** (a change in gene expression, enzyme activity, or cell behavior).\n\nWhere the receptor sits depends on the ligand. Polar and large ligands like peptide hormones can't cross the membrane, so they bind **membrane receptors**. Small nonpolar ligands like steroid hormones diffuse through the bilayer and bind **intracellular receptors**, often acting as transcription factors."
+      },
+      {
+        "heading": "Signal transduction",
+        "body": "**G protein-coupled receptors (GPCRs):** the ligand changes the receptor's shape; it activates a G protein by swapping GDP for GTP; the G protein activates an enzyme such as adenylyl cyclase, which converts ATP into the **second messenger cAMP**. cAMP activates protein kinase A, which phosphorylates target proteins.\n\n**Receptor tyrosine kinases:** ligand binding causes two receptors to **dimerize** and phosphorylate each other's tyrosines; relay proteins bind the phosphates and become active.\n\n**Ligand-gated ion channels:** binding opens a channel, letting ions such as Na⁺ or Ca²⁺ flow.\n\nTwo features matter for the exam:\n\n- **Amplification:** each step can activate many molecules of the next, so a few hormone molecules produce a huge response.\n- **Phosphorylation cascades:** kinases add phosphates to activate proteins; phosphatases remove them to switch the signal off. Enzymes such as phosphodiesterase break down cAMP.\n\nA mutation that locks a pathway component \"on\" (such as Ras stuck bound to GTP) signals continuously even without a ligand. A mutation that breaks a component blocks the response even when ligand is present."
+      },
+      {
+        "heading": "Feedback",
+        "body": "**Negative feedback** reverses a change and keeps conditions near a set point. Blood glucose rises after a meal; the pancreas releases insulin; cells take up glucose; glucose falls and insulin release declines.\n\n**Positive feedback** amplifies a change, driving a process to completion. During childbirth, stretching of the cervix triggers oxytocin release, which strengthens contractions, which increases stretching. Fruit ripening via ethylene and blood clotting also use positive feedback.\n\nDisrupting feedback causes disease. In type 1 diabetes, insulin isn't produced; in type 2, cells respond poorly to it."
+      },
+      {
+        "heading": "The cell cycle",
+        "body": "**Interphase** takes most of the cycle:\n\n- **G1:** growth and normal function.\n- **S:** DNA replication; each chromosome becomes two sister chromatids.\n- **G2:** more growth and preparation for division.\n\n**Mitosis** divides the nucleus: prophase (chromosomes condense, spindle forms), metaphase (chromosomes line up at the middle), anaphase (sister chromatids separate), telophase (nuclear envelopes reform). **Cytokinesis** divides the cytoplasm.\n\nCells that stop dividing enter **G0**, as most neurons do.\n\nTo estimate how long a phase lasts, count cells: the fraction of cells in a phase times the total cycle length approximates its duration. If 10 of 100 cells are in prophase and the cycle takes 24 hours, prophase lasts about 2.4 hours."
+      },
+      {
+        "heading": "Regulation, checkpoints, and cancer",
+        "body": "**Cyclins** and **cyclin-dependent kinases (Cdks)** drive the cycle. Cdk levels stay constant, but a Cdk is only active when bound to its cyclin. Cyclin concentrations rise and fall, so activity pulses. Cyclin-Cdk complexes phosphorylate targets that push the cell into the next phase; cyclin is then degraded.\n\n**Checkpoints:**\n\n- **G1:** is the cell big enough, are growth signals present, is DNA undamaged? The main decision point.\n- **G2:** is DNA fully and accurately replicated?\n- **M (spindle):** are all chromosomes attached to the spindle? Drugs that block spindle formation arrest cells in metaphase.\n\n**Cancer** results from mutations that let cells ignore these controls. Oncogenes are overactive versions of growth-promoting genes (like Ras). Tumor suppressors like **p53** stop the cycle when DNA is damaged and can trigger **apoptosis**; losing them lets damaged cells keep dividing."
+      }
+    ],
+    "keyTakeaways": [
+      "Signaling has three stages: reception, transduction, response.",
+      "Nonpolar ligands use intracellular receptors; polar ligands use membrane receptors.",
+      "Transduction cascades amplify signals; kinases turn proteins on, phosphatases turn them off.",
+      "Negative feedback maintains homeostasis; positive feedback drives a process to completion.",
+      "Cyclin-Cdk complexes drive the cycle; checkpoints at G1, G2, and M stop it if something is wrong.",
+      "Cancer: oncogenes stuck on, tumor suppressors lost."
+    ],
+    "commonMistakes": [
+      "Saying the ligand enters the cell for a membrane receptor pathway.",
+      "Confusing positive feedback with a \"good\" outcome; it means amplification.",
+      "Thinking Cdk levels oscillate; cyclin levels do.",
+      "Saying DNA replicates during mitosis; it replicates in S phase.",
+      "Describing a mutation's effect without tracing it through the pathway.",
+      "Mixing up which mutation type (gain vs. loss of function) causes signaling with no ligand."
+    ],
+    "examTips": [
+      "Q4 Conceptual Analysis often asks you to predict a pathway disruption; trace each step.",
+      "Graphs of cyclin or MPF activity are common; connect peaks to cell cycle phases.",
+      "When asked about amplification, mention that one activated molecule activates many downstream molecules.",
+      "Use precise terms: ligand, receptor, second messenger, phosphorylation.",
+      "Know at least one example each of positive and negative feedback in detail."
+    ],
+    "cramSheet": "**Signaling:** reception → transduction → response\n\n**Receptors:** polar ligand → membrane (GPCR, RTK, ion channel) · nonpolar (steroid) → intracellular\n\n**GPCR:** ligand → G protein (GTP) → adenylyl cyclase → cAMP → PKA\n\n**RTK:** dimerize → autophosphorylate → relay proteins\n\n**Feedback:** negative = return to set point (insulin) · positive = amplify (oxytocin, clotting, ethylene)\n\n**Cycle:** G1 → S (replicate) → G2 → M (PMAT) → cytokinesis · G0 = resting\n\n**Control:** cyclin oscillates, Cdk constant · checkpoints G1, G2, M\n\n**Cancer:** oncogene (stuck on) · tumor suppressor p53 (lost) · apoptosis"
+  },
+  "vocab": [
+    { "term": "Ligand", "definition": "A signaling molecule that binds specifically to a receptor." },
+    { "term": "Receptor", "definition": "A protein that binds a specific ligand and changes shape, starting a response." },
+    { "term": "Signal transduction", "definition": "The series of molecular steps that converts a signal at the receptor into a cellular response." },
+    { "term": "Second messenger", "definition": "A small, nonprotein molecule (like cAMP or Ca²⁺) that relays a signal inside the cell." },
+    { "term": "G protein-coupled receptor", "definition": "A membrane receptor that activates a G protein when its ligand binds." },
+    { "term": "Receptor tyrosine kinase", "definition": "A membrane receptor that dimerizes and phosphorylates tyrosines on itself when its ligand binds." },
+    { "term": "Phosphorylation cascade", "definition": "A chain of kinases, each activating the next by adding phosphate groups, which amplifies a signal." },
+    { "term": "Negative feedback", "definition": "Regulation in which a response reduces the original stimulus, keeping a variable near a set point." },
+    { "term": "Positive feedback", "definition": "Regulation in which a response increases the original stimulus, amplifying a process." },
+    { "term": "Interphase", "definition": "The portion of the cell cycle (G1, S, G2) between divisions, when the cell grows and replicates DNA." },
+    { "term": "Mitosis", "definition": "Division of the nucleus into two genetically identical nuclei: prophase, metaphase, anaphase, telophase." },
+    { "term": "Cyclin", "definition": "A regulatory protein whose concentration rises and falls during the cell cycle and activates Cdks." },
+    { "term": "Cyclin-dependent kinase (Cdk)", "definition": "A kinase that is active only when bound to cyclin; it drives cell cycle transitions." },
+    { "term": "Checkpoint", "definition": "A control point where the cycle halts unless conditions are met." },
+    { "term": "Apoptosis", "definition": "Programmed cell death, used to remove damaged or unneeded cells." },
+    { "term": "Tumor suppressor", "definition": "A gene (like p53) whose product restrains cell division; loss of function contributes to cancer." }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01", "tier": "Intro", "type": "mcq", "topic": "4.2 Introduction to Signal Transduction",
+      "stem": "In a cell signaling pathway, the binding of a ligand to its receptor is called",
+      "choices": [
+        { "id": "A", "text": "reception" },
+        { "id": "B", "text": "transduction" },
+        { "id": "C", "text": "response" },
+        { "id": "D", "text": "amplification" }
+      ],
+      "answer": "A",
+      "explanation": "Reception is the first stage: the signal is detected when the ligand binds.",
+      "distractors": { "B": "Transduction follows, relaying the signal inside the cell." }
+    },
+    {
+      "id": "u4-q02", "tier": "Intro", "type": "mcq", "topic": "4.6 Cell Cycle",
+      "stem": "During which phase of the cell cycle is DNA replicated?",
+      "choices": [
+        { "id": "A", "text": "S phase" },
+        { "id": "B", "text": "G1 phase" },
+        { "id": "C", "text": "Prophase" },
+        { "id": "D", "text": "Anaphase" }
+      ],
+      "answer": "A",
+      "explanation": "The S (synthesis) phase of interphase is when DNA is copied.",
+      "distractors": { "C": "Chromosomes condense in prophase, but they were already replicated.", "D": "Sister chromatids separate in anaphase." }
+    },
+    {
+      "id": "u4-q03", "tier": "Intro", "type": "mcq", "topic": "4.5 Feedback",
+      "stem": "Which is an example of positive feedback?",
+      "choices": [
+        { "id": "A", "text": "Oxytocin release increasing the strength of uterine contractions during childbirth" },
+        { "id": "B", "text": "Insulin release lowering blood glucose after a meal" },
+        { "id": "C", "text": "Sweating to lower body temperature" },
+        { "id": "D", "text": "Shivering to raise body temperature" }
+      ],
+      "answer": "A",
+      "explanation": "Contractions cause more oxytocin release, which causes stronger contractions: the response amplifies the stimulus.",
+      "distractors": { "B": "Insulin reduces the stimulus (high glucose): negative feedback.", "C": "Returns temperature toward the set point: negative feedback." }
+    },
+    {
+      "id": "u4-q04", "tier": "Intro", "type": "mcq", "topic": "4.1 Cell Communication",
+      "stem": "Testosterone binds to a receptor inside the cytoplasm rather than on the cell surface. Which property of testosterone explains this?",
+      "choices": [
+        { "id": "A", "text": "It is nonpolar and can diffuse across the phospholipid bilayer." },
+        { "id": "B", "text": "It is a large protein that enters through channel proteins." },
+        { "id": "C", "text": "It is charged and is pumped in by active transport." },
+        { "id": "D", "text": "It is too small to bind a membrane receptor." }
+      ],
+      "answer": "A",
+      "explanation": "Steroid hormones are lipid-derived and nonpolar, so they pass through the membrane's hydrophobic interior.",
+      "distractors": { "B": "Testosterone is a steroid, not a protein.", "C": "Charged molecules can't cross the bilayer freely, which is why they use membrane receptors." }
+    },
+    {
+      "id": "u4-q05", "tier": "Exam level", "type": "mcq", "topic": "4.3 Signal Transduction",
+      "stem": "A few molecules of epinephrine binding to liver cells can cause the release of millions of glucose molecules. Which feature of signal transduction best explains this?",
+      "choices": [
+        { "id": "A", "text": "Each activated component can activate many molecules of the next component in the pathway." },
+        { "id": "B", "text": "Each epinephrine molecule is converted into many glucose molecules." },
+        { "id": "C", "text": "Epinephrine enters the nucleus and increases transcription of glycogen genes." },
+        { "id": "D", "text": "The receptor remains bound to epinephrine permanently." }
+      ],
+      "answer": "A",
+      "explanation": "One activated adenylyl cyclase makes many cAMP; each protein kinase phosphorylates many targets. Amplification multiplies the signal at each step.",
+      "distractors": { "B": "The ligand carries information, not the raw material.", "C": "Epinephrine is polar and binds a membrane GPCR." }
+    },
+    {
+      "id": "u4-q06", "tier": "Exam level", "type": "mcq", "topic": "4.4 Changes in Signal Transduction Pathways",
+      "stem": "Ras is a G protein in a growth factor pathway. A mutation prevents Ras from hydrolyzing GTP to GDP. Which outcome is most likely?",
+      "choices": [
+        { "id": "A", "text": "The pathway signals continuously, promoting cell division even without growth factor." },
+        { "id": "B", "text": "The pathway cannot be activated, even when growth factor is present." },
+        { "id": "C", "text": "The growth factor receptor is no longer produced." },
+        { "id": "D", "text": "The cell undergoes apoptosis immediately." }
+      ],
+      "answer": "A",
+      "explanation": "Ras is active when bound to GTP. If it can't hydrolyze GTP, it stays on, relaying a division signal constantly. This is a common oncogenic mutation.",
+      "distractors": { "B": "Describes a loss-of-function mutation.", "C": "The mutation affects Ras, not receptor production." }
+    },
+    {
+      "id": "u4-q07", "tier": "Exam level", "type": "mcq", "topic": "4.5 Feedback",
+      "stem": "Which sequence best describes negative feedback in blood glucose regulation?",
+      "choices": [
+        { "id": "A", "text": "Glucose rises → insulin released → cells take up glucose → glucose falls → insulin release decreases" },
+        { "id": "B", "text": "Glucose rises → glucagon released → more glucose released → glucose rises further" },
+        { "id": "C", "text": "Glucose falls → insulin released → glucose falls further" },
+        { "id": "D", "text": "Insulin released → glucose rises → more insulin released" }
+      ],
+      "answer": "A",
+      "explanation": "The response (glucose uptake) removes the stimulus (high glucose), shutting off the response.",
+      "distractors": { "B": "Glucagon raises glucose; releasing it when glucose is already high would be positive feedback and doesn't happen.", "C": "Insulin is released when glucose is high, not low." }
+    },
+    {
+      "id": "u4-q08", "tier": "Exam level", "type": "mcq", "topic": "4.7 Regulation of Cell Cycle",
+      "stem": "Colchicine prevents microtubules from assembling. Dividing cells treated with colchicine accumulate in which stage?",
+      "choices": [
+        { "id": "A", "text": "Metaphase, because chromosomes cannot attach to a spindle" },
+        { "id": "B", "text": "G1, because cells cannot pass the G1 checkpoint" },
+        { "id": "C", "text": "S phase, because DNA polymerase requires microtubules" },
+        { "id": "D", "text": "Telophase, because nuclear envelopes cannot reform" }
+      ],
+      "answer": "A",
+      "explanation": "Without spindle microtubules, chromosomes can't attach properly, so the M checkpoint holds the cell before anaphase.",
+      "distractors": { "C": "DNA replication doesn't depend on microtubules." }
+    },
+    {
+      "id": "u4-q09", "tier": "Exam level", "type": "mcq", "topic": "4.6 Cell Cycle",
+      "stimulus": "| Phase | Interphase | Prophase | Metaphase | Anaphase | Telophase |\n| --- | --- | --- | --- | --- | --- |\n| Number of cells | 160 | 20 | 8 | 6 | 6 |",
+      "stem": "A student counted 200 onion root tip cells in each phase. The complete cell cycle takes 24 hours. Approximately how long do these cells spend in prophase?",
+      "choices": [
+        { "id": "A", "text": "2.4 hours" },
+        { "id": "B", "text": "20 hours" },
+        { "id": "C", "text": "4.8 hours" },
+        { "id": "D", "text": "0.1 hours" }
+      ],
+      "answer": "A",
+      "explanation": "20/200 = 10% of cells are in prophase, so it takes about 10% of 24 hours: 2.4 hours.",
+      "distractors": { "B": "Used the raw count as hours.", "C": "Divided by 100 instead of 200.", "D": "Reported the fraction instead of the time." }
+    },
+    {
+      "id": "u4-q10", "tier": "Exam level", "type": "mcq", "topic": "4.7 Regulation of Cell Cycle",
+      "stem": "The protein p53 halts the cell cycle at G1 when DNA is damaged. A mutation that inactivates p53 would most likely",
+      "choices": [
+        { "id": "A", "text": "allow cells with damaged DNA to enter S phase and divide" },
+        { "id": "B", "text": "arrest all cells permanently in G1" },
+        { "id": "C", "text": "prevent DNA replication in all cells" },
+        { "id": "D", "text": "increase the rate of DNA repair" }
+      ],
+      "answer": "A",
+      "explanation": "Without p53, the G1 checkpoint can't stop damaged cells, so mutations pass to daughter cells, contributing to cancer.",
+      "distractors": { "B": "Losing a brake removes the arrest; it doesn't cause one." }
+    },
+    {
+      "id": "u4-q11", "tier": "Hardest", "type": "mcq", "topic": "4.7 Regulation of Cell Cycle",
+      "stem": "When a cell in G1 is fused with a cell in S phase, the G1 nucleus immediately begins replicating its DNA. Which conclusion is best supported?",
+      "choices": [
+        { "id": "A", "text": "Molecules in the cytoplasm of S-phase cells trigger the start of DNA replication." },
+        { "id": "B", "text": "DNA replication is controlled only by genes in the G1 nucleus." },
+        { "id": "C", "text": "The G1 cell's checkpoint proteins were destroyed by fusion." },
+        { "id": "D", "text": "S-phase DNA was transferred into the G1 nucleus." }
+      ],
+      "answer": "A",
+      "explanation": "The G1 nucleus responded to something in the shared cytoplasm, consistent with cyclin-Cdk complexes acting as diffusible signals.",
+      "distractors": { "B": "If control were only internal to the G1 nucleus, fusion wouldn't change its timing.", "D": "Nuclei didn't merge; the G1 nucleus copied its own DNA." }
+    },
+    {
+      "id": "u4-q12", "tier": "Hardest", "type": "mcq", "topic": "4.4 Changes in Signal Transduction Pathways",
+      "stem": "Cholera toxin chemically modifies a G protein in intestinal cells so it cannot hydrolyze GTP. Which effect follows?",
+      "choices": [
+        { "id": "A", "text": "Adenylyl cyclase stays active, cAMP levels remain high, and downstream responses continue without ligand." },
+        { "id": "B", "text": "cAMP cannot be produced, so the cells stop responding to their normal signal." },
+        { "id": "C", "text": "The receptor is permanently blocked, so no ligand can bind." },
+        { "id": "D", "text": "Phosphodiesterase activity rises, lowering cAMP." }
+      ],
+      "answer": "A",
+      "explanation": "A G protein stuck in the GTP-bound state keeps activating adenylyl cyclase. Persistent cAMP drives continuous ion and water secretion, causing severe diarrhea.",
+      "distractors": { "B": "Describes a G protein stuck off.", "C": "The toxin acts on the G protein, not the receptor." }
+    },
+    {
+      "id": "u4-q13", "tier": "Hardest", "type": "mcq", "topic": "4.3 Signal Transduction",
+      "stem": "A mutant receptor tyrosine kinase binds its ligand normally but cannot form dimers. Which result is most likely?",
+      "choices": [
+        { "id": "A", "text": "Tyrosines are not phosphorylated, so relay proteins are not activated." },
+        { "id": "B", "text": "The receptor phosphorylates relay proteins directly without dimerizing." },
+        { "id": "C", "text": "Signaling increases because unpaired receptors are more active." },
+        { "id": "D", "text": "The ligand passes through the membrane and acts in the nucleus." }
+      ],
+      "answer": "A",
+      "explanation": "Each receptor phosphorylates its partner's tyrosines in the dimer. No dimer, no phosphotyrosines, so relay proteins have nothing to bind.",
+      "distractors": { "B": "The phosphorylated tyrosines are the docking sites for relay proteins." }
+    },
+    {
+      "id": "u4-q14", "tier": "Hardest", "type": "mcq", "topic": "4.7 Regulation of Cell Cycle",
+      "stimulus": "Measurements across several cell cycles:\n\n- Cdk concentration stays roughly constant.\n- Cyclin concentration rises through interphase, peaks at the start of mitosis, then drops sharply.\n- Cyclin-Cdk (MPF) activity is low through interphase, peaks at the start of mitosis, then drops.",
+      "stem": "Which explanation best accounts for these data?",
+      "choices": [
+        { "id": "A", "text": "Cdk is active only when bound to cyclin, and cyclin is degraded after mitosis begins." },
+        { "id": "B", "text": "Cdk is degraded after mitosis, so its activity falls." },
+        { "id": "C", "text": "Cyclin is active on its own and inhibits Cdk during interphase." },
+        { "id": "D", "text": "MPF activity is determined only by Cdk concentration." }
+      ],
+      "answer": "A",
+      "explanation": "Activity tracks cyclin, not Cdk. Since Cdk is constant, cyclin binding must be what switches it on, and cyclin destruction switches it off.",
+      "distractors": { "B": "The data say Cdk concentration stays constant.", "D": "Cdk is constant while MPF activity varies, so Cdk alone can't determine it." }
+    },
+    {
+      "id": "u4-frq1", "tier": "Exam level", "type": "frq", "topic": "4.3–4.4 Signal Transduction", "frqType": "Q4 Conceptual Analysis",
+      "prompt": "Epinephrine binds a G protein-coupled receptor on liver cells. The activated G protein stimulates adenylyl cyclase to produce cAMP, which activates protein kinase A. A kinase cascade ultimately activates glycogen phosphorylase, which breaks down glycogen into glucose. The enzyme phosphodiesterase converts cAMP to inactive AMP.",
+      "parts": [
+        { "label": "a", "prompt": "Describe the role of the G protein in this pathway.", "points": 1 },
+        { "label": "b", "prompt": "Explain how the binding of a small number of epinephrine molecules can result in the release of a large amount of glucose.", "points": 1 },
+        { "label": "c", "prompt": "A drug inhibits phosphodiesterase. Predict the effect of the drug on glucose release after epinephrine is removed.", "points": 1 },
+        { "label": "d", "prompt": "Justify your prediction in part (c).", "points": 1 }
+      ],
+      "points": 4,
+      "minutes": 8,
+      "rubric": [
+        { "criterion": "(a) Role of G protein", "points": 1, "description": "When the receptor is activated, the G protein exchanges GDP for GTP and activates adenylyl cyclase, relaying the signal from the receptor." },
+        { "criterion": "(b) Amplification", "points": 1, "description": "Each activated enzyme activates or produces many molecules of the next component (many cAMP per adenylyl cyclase, many phosphorylated targets per kinase), multiplying the signal." },
+        { "criterion": "(c) Prediction", "points": 1, "description": "Glucose release continues (or declines more slowly) after epinephrine is removed." },
+        { "criterion": "(d) Justification", "points": 1, "description": "cAMP is not broken down, so it stays elevated and keeps protein kinase A and the cascade active." }
+      ],
+      "sampleResponse": "(a) When epinephrine binds, the receptor changes shape and activates the G protein, which releases GDP and binds GTP. The active G protein then activates adenylyl cyclase, passing the signal from the receptor to the enzyme that makes cAMP.\n\n(b) The pathway amplifies the signal: one activated adenylyl cyclase produces many cAMP molecules, each protein kinase A phosphorylates many enzymes in the next step, and each glycogen phosphorylase releases many glucose molecules. A small signal is multiplied at every step.\n\n(c) Glucose release will continue for longer after epinephrine is removed than in untreated cells.\n\n(d) Phosphodiesterase normally turns the signal off by breaking down cAMP. With it inhibited, cAMP remains high even after the receptor is no longer bound, so protein kinase A stays active and keeps the cascade running."
+    }
+  ]
+}

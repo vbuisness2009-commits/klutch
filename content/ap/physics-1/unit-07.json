@@ -1,0 +1,617 @@
+{
+  "number": 7,
+  "title": "Oscillations",
+  "guide": {
+    "summary": "Simple harmonic motion (SHM) happens whenever a restoring force is proportional to displacement. This unit covers the defining features of SHM, the periods of mass-spring systems and pendulums, graphs of position, velocity, and acceleration, and how energy shifts between kinetic and potential during an oscillation.",
+    "sections": [
+      {
+        "heading": "What makes motion simple harmonic",
+        "body": "An object undergoes SHM when the net force pulls it back toward equilibrium with a magnitude proportional to its displacement:\n\nF = −kx\n\nThe negative sign means the force points opposite the displacement. A spring with k = 50 N/m stretched 0.2 m pulls back with 10 N toward equilibrium.\n\nKey quantities:\n\n- **Amplitude A:** maximum displacement from equilibrium.\n- **Period T:** time for one full cycle.\n- **Frequency f = 1/T:** cycles per second (Hz). A period of 0.5 s means f = 2 Hz."
+      },
+      {
+        "heading": "Periods of springs and pendulums",
+        "body": "**Mass-spring system:** T = 2π√(m/k)\n\n**Simple pendulum (small angles):** T = 2π√(L/g)\n\nNeither depends on amplitude (for small oscillations). This surprises students: pulling a spring farther makes it go faster, but it has farther to travel, and the two effects cancel.\n\nScaling:\n\n| Change | Effect on T |\n| --- | --- |\n| Mass × 4 (spring) | × 2 |\n| k × 2 | ÷ √2 |\n| Length × 4 (pendulum) | × 2 |\n| g ÷ 6 (Moon) | × √6 |\n| Pendulum mass changed | no change |\n\nIn an elevator accelerating upward, a pendulum feels a larger effective g, so its period shortens.\n\nFor a vertical spring, gravity just shifts the equilibrium; the period is still 2π√(m/k). Since k = mg/Δx at equilibrium, T = 2π√(Δx/g). A mass that stretches a spring 0.1 m oscillates with T = 2π√(0.1/10) ≈ 0.63 s."
+      },
+      {
+        "heading": "Graphs of SHM",
+        "body": "If x(t) = A cos(2πt/T), then:\n\n- At the **extremes** (x = ±A): velocity is zero, acceleration and restoring force are maximum and point toward equilibrium.\n- At **equilibrium** (x = 0): speed is maximum, acceleration and force are zero.\n\nVelocity is a quarter cycle out of step with position; acceleration is always opposite to position (a = −(k/m)x). At t = T/4, the object passes through equilibrium moving in the negative direction at maximum speed."
+      },
+      {
+        "heading": "Energy in SHM",
+        "body": "For a mass-spring system with no friction, total energy is constant:\n\nE = ½kA² = ½kx² + ½mv²\n\nAt the extremes, all energy is potential; at equilibrium, all is kinetic: ½mv_max² = ½kA². With k = 100 N/m, A = 0.1 m, and m = 1 kg, v_max = A√(k/m) = 1 m/s.\n\nAt x = A/2, potential energy is ½k(A/2)² = ¼ of the total, so kinetic energy is ¾ and v = (√3/2)v_max ≈ 0.87v_max. Halfway out is not half the energy.\n\nWith friction or drag, amplitude decreases over time (damping), but the period stays nearly the same."
+      }
+    ],
+    "keyTakeaways": [
+      "SHM requires F = −kx: a restoring force proportional to displacement.",
+      "T_spring = 2π√(m/k); T_pendulum = 2π√(L/g).",
+      "Period doesn't depend on amplitude (small oscillations) or pendulum mass.",
+      "Speed is maximum at equilibrium; acceleration is maximum at the extremes.",
+      "E = ½kA²; at x = A/2, three-quarters of the energy is kinetic.",
+      "Period scales with square roots: quadrupling m or L doubles T."
+    ],
+    "commonMistakes": [
+      "Thinking a larger amplitude changes the period.",
+      "Thinking a heavier pendulum bob swings slower.",
+      "Saying acceleration is zero at the extremes because velocity is zero there.",
+      "Scaling period linearly with mass or length instead of with the square root.",
+      "Assuming half the amplitude means half the kinetic energy.",
+      "Using the large-angle pendulum without noting the small-angle approximation."
+    ],
+    "examTips": [
+      "Experimental questions on period often require linearizing: graph T² versus L or m.",
+      "When asked how T changes, start from the formula and identify the proportionality.",
+      "Describe graphs precisely: where values are maximum, zero, and their signs.",
+      "Use energy conservation for speeds; use the period formula for timing.",
+      "Measure many oscillations and divide to reduce timing uncertainty."
+    ],
+    "cramSheet": "**SHM:** F = −kx · a = −(k/m)x\n\n**Periods:** spring 2π√(m/k) · pendulum 2π√(L/g) · f = 1/T\n\n**Independent of:** amplitude (small), pendulum mass\n\n**Extremes:** v = 0, |a| max · **Equilibrium:** |v| max, a = 0\n\n**Energy:** ½kA² = ½kx² + ½mv² · v_max = A√(k/m)\n\n**At x = A/2:** U = ¼E, K = ¾E\n\n**Linearize:** T² ∝ L (slope 4π²/g) · T² ∝ m (slope 4π²/k)"
+  },
+  "vocab": [
+    {
+      "term": "Simple harmonic motion",
+      "definition": "Periodic motion produced by a restoring force proportional to displacement from equilibrium."
+    },
+    {
+      "term": "Restoring force",
+      "definition": "A force that acts to return an object to equilibrium, such as F = −kx."
+    },
+    {
+      "term": "Equilibrium position",
+      "definition": "The position where the net force on the oscillating object is zero."
+    },
+    {
+      "term": "Amplitude",
+      "definition": "The maximum displacement from equilibrium."
+    },
+    {
+      "term": "Period",
+      "definition": "The time required for one complete oscillation."
+    },
+    {
+      "term": "Frequency",
+      "definition": "The number of oscillations per second, f = 1/T, in hertz."
+    },
+    {
+      "term": "Hooke's law",
+      "definition": "The force exerted by an ideal spring is proportional to its displacement: F = −kx."
+    },
+    {
+      "term": "Simple pendulum",
+      "definition": "A point mass on a light string; for small angles its period is 2π√(L/g)."
+    },
+    {
+      "term": "Small-angle approximation",
+      "definition": "For small angles, sin θ ≈ θ, which makes a pendulum's motion approximately simple harmonic."
+    },
+    {
+      "term": "Damping",
+      "definition": "Loss of energy in an oscillating system, reducing amplitude over time."
+    },
+    {
+      "term": "Mechanical energy in SHM",
+      "definition": "E = ½kA², constant without damping, shared between kinetic and potential energy."
+    },
+    {
+      "term": "Linearization",
+      "definition": "Graphing transformed variables, such as T² versus L, so a relationship appears as a straight line."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u7-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "7.2 Frequency and Period of SHM",
+      "stem": "A mass on a spring oscillates with a small amplitude. If the amplitude is doubled, what happens to the period?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It stays the same."
+        },
+        {
+          "id": "B",
+          "text": "It doubles."
+        },
+        {
+          "id": "C",
+          "text": "It is halved."
+        },
+        {
+          "id": "D",
+          "text": "It increases by a factor of √2."
+        }
+      ],
+      "answer": "A",
+      "explanation": "T = 2π√(m/k) contains no amplitude. The mass travels farther but faster.",
+      "distractors": {
+        "B": "Assumes the speed stays fixed while the distance doubles."
+      }
+    },
+    {
+      "id": "u7-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "7.2 Frequency and Period of SHM",
+      "stem": "An oscillator has a period of 0.5 s. What is its frequency?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2 Hz"
+        },
+        {
+          "id": "B",
+          "text": "0.5 Hz"
+        },
+        {
+          "id": "C",
+          "text": "4π Hz"
+        },
+        {
+          "id": "D",
+          "text": "π Hz"
+        }
+      ],
+      "answer": "A",
+      "explanation": "f = 1/T = 1/0.5 = 2 Hz.",
+      "distractors": {
+        "C": "Computed 2π/T, the angular frequency in rad/s."
+      }
+    },
+    {
+      "id": "u7-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "7.1 Defining Simple Harmonic Motion",
+      "stem": "Where is the speed of a mass in simple harmonic motion greatest?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "At the equilibrium position"
+        },
+        {
+          "id": "B",
+          "text": "At maximum displacement"
+        },
+        {
+          "id": "C",
+          "text": "Halfway between equilibrium and maximum displacement"
+        },
+        {
+          "id": "D",
+          "text": "It is the same everywhere"
+        }
+      ],
+      "answer": "A",
+      "explanation": "All the energy is kinetic at equilibrium, where spring potential energy is zero.",
+      "distractors": {
+        "B": "The mass momentarily stops there."
+      }
+    },
+    {
+      "id": "u7-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "7.1 Defining Simple Harmonic Motion",
+      "stem": "A spring with k = 50 N/m is stretched 0.2 m from equilibrium. What is the force the spring exerts on the attached mass?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10 N toward equilibrium"
+        },
+        {
+          "id": "B",
+          "text": "10 N away from equilibrium"
+        },
+        {
+          "id": "C",
+          "text": "250 N toward equilibrium"
+        },
+        {
+          "id": "D",
+          "text": "1 N toward equilibrium"
+        }
+      ],
+      "answer": "A",
+      "explanation": "|F| = kx = 50 × 0.2 = 10 N; the restoring force points back toward equilibrium.",
+      "distractors": {
+        "B": "Restoring forces oppose displacement.",
+        "D": "Computed ½kx², the stored energy."
+      }
+    },
+    {
+      "id": "u7-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.2 Frequency and Period of SHM",
+      "stem": "A simple pendulum has period T. If its length is quadrupled, what is the new period?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2T"
+        },
+        {
+          "id": "B",
+          "text": "4T"
+        },
+        {
+          "id": "C",
+          "text": "T/2"
+        },
+        {
+          "id": "D",
+          "text": "16T"
+        }
+      ],
+      "answer": "A",
+      "explanation": "T ∝ √L. √4 = 2.",
+      "distractors": {
+        "B": "Treated T as proportional to L."
+      }
+    },
+    {
+      "id": "u7-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.2 Frequency and Period of SHM",
+      "stem": "A mass oscillates on a spring with period T. The spring is replaced by one with twice the spring constant. What is the new period?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "T/√2"
+        },
+        {
+          "id": "B",
+          "text": "2T"
+        },
+        {
+          "id": "C",
+          "text": "T/2"
+        },
+        {
+          "id": "D",
+          "text": "√2·T"
+        }
+      ],
+      "answer": "A",
+      "explanation": "T ∝ 1/√k, so doubling k divides T by √2.",
+      "distractors": {
+        "C": "Dropped the square root.",
+        "D": "Inverted the dependence on k."
+      }
+    },
+    {
+      "id": "u7-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.3 Energy of Simple Harmonic Oscillators",
+      "stem": "A 1.0 kg mass on a horizontal spring (k = 100 N/m) oscillates with amplitude 0.10 m on a frictionless surface. What is its maximum speed?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.0 m/s"
+        },
+        {
+          "id": "B",
+          "text": "10 m/s"
+        },
+        {
+          "id": "C",
+          "text": "0.1 m/s"
+        },
+        {
+          "id": "D",
+          "text": "0.32 m/s"
+        }
+      ],
+      "answer": "A",
+      "explanation": "½kA² = ½mv²: v = A√(k/m) = 0.10 × 10 = 1.0 m/s.",
+      "distractors": {
+        "B": "Forgot to multiply by A.",
+        "D": "Took √A instead of A√(k/m)."
+      }
+    },
+    {
+      "id": "u7-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.1 Defining Simple Harmonic Motion",
+      "stem": "When a mass on a spring is at its maximum displacement, which is true?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Its velocity is zero and its acceleration has maximum magnitude."
+        },
+        {
+          "id": "B",
+          "text": "Its velocity is maximum and its acceleration is zero."
+        },
+        {
+          "id": "C",
+          "text": "Both its velocity and acceleration are zero."
+        },
+        {
+          "id": "D",
+          "text": "Both its velocity and acceleration are maximum."
+        }
+      ],
+      "answer": "A",
+      "explanation": "It momentarily stops, but the restoring force kx is largest, so acceleration is largest.",
+      "distractors": {
+        "C": "Zero velocity doesn't imply zero acceleration."
+      }
+    },
+    {
+      "id": "u7-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.2 Frequency and Period of SHM",
+      "stem": "A pendulum clock keeps correct time on Earth. On the Moon, where g is about one-sixth of Earth's, how does its period compare?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "√6 times longer"
+        },
+        {
+          "id": "B",
+          "text": "6 times longer"
+        },
+        {
+          "id": "C",
+          "text": "√6 times shorter"
+        },
+        {
+          "id": "D",
+          "text": "The same"
+        }
+      ],
+      "answer": "A",
+      "explanation": "T ∝ 1/√g. Dividing g by 6 multiplies T by √6 ≈ 2.4.",
+      "distractors": {
+        "B": "Forgot the square root.",
+        "C": "Got the direction wrong: weaker gravity means slower swings."
+      }
+    },
+    {
+      "id": "u7-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.1 Defining Simple Harmonic Motion",
+      "stem": "An oscillator's position is x(t) = A cos(2πt/T). At t = T/4, which describes the oscillator?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "At equilibrium, moving in the negative direction at maximum speed"
+        },
+        {
+          "id": "B",
+          "text": "At x = A, momentarily at rest"
+        },
+        {
+          "id": "C",
+          "text": "At x = −A, momentarily at rest"
+        },
+        {
+          "id": "D",
+          "text": "At equilibrium, at rest"
+        }
+      ],
+      "answer": "A",
+      "explanation": "cos(π/2) = 0, so x = 0. Starting at +A, it's heading toward −A, so velocity is negative and maximum in magnitude.",
+      "distractors": {
+        "B": "That's t = 0.",
+        "C": "That's t = T/2.",
+        "D": "Speed is maximum at equilibrium."
+      }
+    },
+    {
+      "id": "u7-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "7.3 Energy of Simple Harmonic Oscillators",
+      "stem": "A mass on a horizontal spring oscillates with amplitude A and maximum speed v_max. What is its speed when x = A/2?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "(√3/2)·v_max"
+        },
+        {
+          "id": "B",
+          "text": "v_max/2"
+        },
+        {
+          "id": "C",
+          "text": "v_max/√2"
+        },
+        {
+          "id": "D",
+          "text": "(3/4)·v_max"
+        }
+      ],
+      "answer": "A",
+      "explanation": "½kA² = ½k(A/2)² + ½mv², so ½mv² = ¾·½kA² = ¾·½mv_max². v = (√3/2)v_max.",
+      "distractors": {
+        "B": "Assumed speed is linear in position.",
+        "D": "That's the kinetic energy fraction, not the speed fraction."
+      }
+    },
+    {
+      "id": "u7-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "7.3 Energy of Simple Harmonic Oscillators",
+      "stem": "For a frictionless mass-spring oscillator, what fraction of the total energy is kinetic when the displacement is half the amplitude?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3/4"
+        },
+        {
+          "id": "B",
+          "text": "1/2"
+        },
+        {
+          "id": "C",
+          "text": "1/4"
+        },
+        {
+          "id": "D",
+          "text": "1/√2"
+        }
+      ],
+      "answer": "A",
+      "explanation": "U = ½k(A/2)² = ¼(½kA²). The remaining ¾ is kinetic.",
+      "distractors": {
+        "B": "Assumed energy is linear in x.",
+        "C": "That's the potential energy fraction."
+      }
+    },
+    {
+      "id": "u7-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "7.2 Frequency and Period of SHM",
+      "stem": "Hanging a mass on a vertical spring stretches it 0.10 m to its new equilibrium. If the mass is pulled down and released, what is the period of oscillation? (Use g = 10 m/s².)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "About 0.63 s"
+        },
+        {
+          "id": "B",
+          "text": "0.10 s"
+        },
+        {
+          "id": "C",
+          "text": "About 6.3 s"
+        },
+        {
+          "id": "D",
+          "text": "It can't be found without knowing the mass."
+        }
+      ],
+      "answer": "A",
+      "explanation": "At equilibrium kΔx = mg, so m/k = Δx/g = 0.01 s². T = 2π√0.01 = 0.2π ≈ 0.63 s.",
+      "distractors": {
+        "B": "Took √(Δx/g) without the 2π.",
+        "D": "Only the ratio m/k matters, and the stretch gives it."
+      }
+    },
+    {
+      "id": "u7-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "7.2 Frequency and Period of SHM",
+      "stem": "A pendulum hangs in an elevator. How does its period change when the elevator accelerates upward?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It decreases, because the effective gravitational acceleration increases."
+        },
+        {
+          "id": "B",
+          "text": "It increases, because the bob feels heavier."
+        },
+        {
+          "id": "C",
+          "text": "It stays the same, because the length doesn't change."
+        },
+        {
+          "id": "D",
+          "text": "It decreases, because the string's length decreases."
+        }
+      ],
+      "answer": "A",
+      "explanation": "In the accelerating frame, the effective g is g + a, so T = 2π√(L/(g + a)) is smaller.",
+      "distractors": {
+        "B": "A larger effective g speeds the pendulum up.",
+        "C": "Period depends on g as well as L."
+      }
+    },
+    {
+      "id": "u7-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "7.2 Frequency and Period of SHM",
+      "frqType": "Experimental Design and Analysis (LAB)",
+      "prompt": "Students want to determine the gravitational acceleration g using a pendulum. They have string, a small metal bob, a meterstick, a protractor, and a stopwatch.",
+      "stimulus": "| Length L (m) | 0.20 | 0.40 | 0.60 | 0.80 |\n| --- | --- | --- | --- | --- |\n| Period squared T² (s²) | 0.81 | 1.60 | 2.43 | 3.21 |",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Describe a procedure the students could use to collect data for determining g. Include how they would reduce uncertainty.",
+          "points": 3
+        },
+        {
+          "label": "b",
+          "prompt": "Identify quantities to graph to obtain a straight line, and state how g is related to the slope.",
+          "points": 2
+        },
+        {
+          "label": "c",
+          "prompt": "Using the data in the table, describe the graph, determine the slope, and calculate g.",
+          "points": 3
+        },
+        {
+          "label": "d",
+          "prompt": "One student released the pendulum from 60° instead of a small angle. Explain how this would affect the measured value of g.",
+          "points": 2
+        }
+      ],
+      "points": 10,
+      "minutes": 25,
+      "rubric": [
+        {
+          "criterion": "(a) Length",
+          "points": 1,
+          "description": "Measure L from the pivot to the center of the bob with the meterstick."
+        },
+        {
+          "criterion": "(a) Timing",
+          "points": 1,
+          "description": "Release from a small angle (under about 15°), time many oscillations (e.g., 10) and divide to find T."
+        },
+        {
+          "criterion": "(a) Varying L",
+          "points": 1,
+          "description": "Repeat for several different lengths (with repeated trials)."
+        },
+        {
+          "criterion": "(b) Graph",
+          "points": 1,
+          "description": "T² on the vertical axis versus L on the horizontal axis."
+        },
+        {
+          "criterion": "(b) Slope relation",
+          "points": 1,
+          "description": "Slope = 4π²/g, so g = 4π²/slope."
+        },
+        {
+          "criterion": "(c) Graph",
+          "points": 1,
+          "description": "Points lie close to a straight line through the origin."
+        },
+        {
+          "criterion": "(c) Slope",
+          "points": 1,
+          "description": "Slope ≈ 4.0 s²/m."
+        },
+        {
+          "criterion": "(c) g",
+          "points": 1,
+          "description": "g ≈ 4π²/4.0 ≈ 9.8 m/s² (consistent with the student's slope)."
+        },
+        {
+          "criterion": "(d) Claim",
+          "points": 1,
+          "description": "The measured g would be too small."
+        },
+        {
+          "criterion": "(d) Reasoning",
+          "points": 1,
+          "description": "At large angles, the period is longer than 2π√(L/g) predicts (small-angle approximation fails), so T² is too large and the calculated g is too small."
+        }
+      ],
+      "sampleResponse": "(a) Tie the bob to the string and hang it from a fixed support. Measure L from the pivot to the bob's center with the meterstick. Pull the bob aside to about 10° (checked with the protractor) and release it. Time 10 full oscillations with the stopwatch and divide by 10 to get T, which reduces the effect of reaction time. Repeat each length three times and average. Use at least four different lengths.\n\n(b) Since T = 2π√(L/g), T² = (4π²/g)L. Graph T² versus L; the slope is 4π²/g, so g = 4π²/slope.\n\n(c) The points fall on a nearly straight line through the origin. Using the endpoints, slope ≈ (3.21 − 0.81)/(0.80 − 0.20) = 2.40/0.60 = 4.0 s²/m. Then g = 4π²/4.0 ≈ 39.5/4.0 ≈ 9.9 m/s², close to the accepted 9.8 m/s².\n\n(d) The value of g would be too small. The equation T = 2π√(L/g) assumes small angles. At 60°, the restoring force is less than proportional to displacement, so the period is noticeably longer than predicted. A larger T² for the same L gives a larger slope and therefore a smaller calculated g."
+    }
+  ]
+}

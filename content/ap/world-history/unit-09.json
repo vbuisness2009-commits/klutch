@@ -1,0 +1,265 @@
+{
+  "number": 9,
+  "title": "Globalization, c. 1900–present",
+  "guide": {
+    "summary": "Since 1900, advances in technology, medicine, and communication have transformed daily life and connected the world more closely than ever. Global trade and institutions expanded, while disease, environmental change, and inequality posed new challenges. Social movements for rights spread worldwide, and popular culture became global.",
+    "sections": [
+      {
+        "heading": "Technology and medicine",
+        "body": "Communication and transportation advances (radio, television, air travel, shipping containers, the internet, cell phones) shrank distances. The **Green Revolution** (high-yield seeds, fertilizers, irrigation) dramatically increased food production in places like India and Mexico, though it raised environmental and inequality concerns.\n\nMedical advances (antibiotics, vaccines, the eradication of **smallpox** by 1980) extended life expectancy. New and persistent diseases remained: the **1918 influenza** pandemic, **HIV/AIDS**, malaria, tuberculosis, and COVID-19. Diseases associated with longer lives (heart disease, cancer) became more common."
+      },
+      {
+        "heading": "Environment",
+        "body": "Population growth, industrialization, and resource use caused **deforestation**, **desertification**, air and water pollution, and **climate change** from greenhouse gases. International responses include the **Kyoto Protocol** (1997) and the **Paris Agreement** (2015), alongside environmental movements and debates over responsibility between industrialized and developing countries."
+      },
+      {
+        "heading": "Economics and institutions",
+        "body": "After WWII, many states pursued **free-market** policies, especially from the 1980s (Reagan, Thatcher), and **Deng Xiaoping**'s reforms opened China to trade. Free trade agreements (**NAFTA**, the **European Union**'s single market, the **WTO**) and multinational corporations integrated economies. Global finance created both growth and crises, such as the 2008 financial crisis.\n\nInternational organizations (the **United Nations**, **World Bank**, **IMF**) and regional groups (EU, ASEAN, African Union) expanded cooperation. Nongovernmental organizations (like Doctors Without Borders) addressed humanitarian needs. Critics argue globalization increased inequality and weakened local industries and cultures."
+      },
+      {
+        "heading": "Society and culture",
+        "body": "Rights movements spread: women's suffrage and feminism, the U.S. civil rights movement, the end of apartheid, LGBTQ rights movements, and the **Universal Declaration of Human Rights** (1948). Some movements resisted change, including religious fundamentalist movements.\n\nPopular culture became global: Hollywood films, Bollywood, K-pop, reggae, and global sports like soccer and the Olympics. Consumer culture spread through multinational brands. Migration and digital media mixed cultures while sometimes provoking backlash."
+      }
+    ],
+    "keyTakeaways": [
+      "Technology and medicine transformed life, but diseases persisted and emerged.",
+      "The Green Revolution increased food supply with environmental costs.",
+      "Environmental change, especially climate change, became a global issue.",
+      "Free trade and international institutions integrated the global economy.",
+      "Rights movements spread worldwide, as did resistance to change.",
+      "Global popular culture blended and spread across borders."
+    ],
+    "commonMistakes": [
+      "Treating globalization as purely positive or purely negative.",
+      "Forgetting that smallpox was eradicated while other diseases persisted.",
+      "Confusing the World Bank/IMF with the UN Security Council.",
+      "Ignoring resistance movements alongside rights movements.",
+      "Overlooking environmental costs of economic growth.",
+      "Equating cultural globalization only with Westernization."
+    ],
+    "examTips": [
+      "Unit 9 is 8–10% of the exam; know its big themes and a few examples each.",
+      "Use continuity and change: trade networks of earlier units vs. modern globalization.",
+      "Give balanced assessments for complexity points.",
+      "Name specific institutions and agreements.",
+      "Connect environmental change to industrialization (Unit 5)."
+    ],
+    "cramSheet": "**Tech:** radio, TV, internet · containers · air travel · Green Revolution\n\n**Medicine:** antibiotics · vaccines · smallpox eradicated 1980 · 1918 flu · HIV/AIDS · COVID-19\n\n**Environment:** deforestation · climate change · Kyoto 1997 · Paris 2015\n\n**Economy:** free-market reforms · Deng · NAFTA · EU · WTO · multinationals · 2008 crisis\n\n**Institutions:** UN · World Bank · IMF · NGOs\n\n**Society:** rights movements · UDHR 1948 · fundamentalism · global pop culture"
+  },
+  "vocab": [
+    { "term": "Globalization", "definition": "The increasing interconnection of economies, cultures, and societies worldwide." },
+    { "term": "Green Revolution", "definition": "Mid-twentieth-century agricultural advances that greatly increased crop yields." },
+    { "term": "Pandemic", "definition": "A disease outbreak spreading across countries or continents." },
+    { "term": "Climate change", "definition": "Long-term changes in global temperatures and weather, largely driven by greenhouse gas emissions." },
+    { "term": "Free trade", "definition": "Trade between countries with few tariffs or restrictions." },
+    { "term": "Multinational corporation", "definition": "A company operating in many countries." },
+    { "term": "World Trade Organization", "definition": "International organization overseeing trade rules among nations." },
+    { "term": "International Monetary Fund", "definition": "Organization promoting monetary cooperation and lending to countries in financial difficulty." },
+    { "term": "Nongovernmental organization (NGO)", "definition": "A nonprofit group independent of governments that addresses social or humanitarian issues." },
+    { "term": "European Union", "definition": "A political and economic union of European states with a single market." },
+    { "term": "Fundamentalism", "definition": "A movement emphasizing strict adherence to religious doctrine, often in reaction to modernization." },
+    { "term": "Cultural diffusion", "definition": "The spread of cultural elements from one society to another." },
+    { "term": "Paris Agreement", "definition": "2015 international agreement to limit global warming." }
+  ],
+  "practice": [
+    {
+      "id": "u9-q01", "tier": "Intro", "type": "mcq", "topic": "9.1 Advances in Technology and Exchange",
+      "stem": "The Green Revolution of the mid-twentieth century most directly resulted in",
+      "choices": [
+        { "id": "A", "text": "large increases in crop yields in countries such as India and Mexico" },
+        { "id": "B", "text": "the end of all famine worldwide" },
+        { "id": "C", "text": "a decline in fertilizer use" },
+        { "id": "D", "text": "the spread of smallpox" }
+      ],
+      "answer": "A",
+      "explanation": "High-yield seeds, fertilizers, and irrigation boosted production.",
+      "distractors": { "B": "Famines still occurred, often for political reasons." }
+    },
+    {
+      "id": "u9-q02", "tier": "Intro", "type": "mcq", "topic": "9.2 Technological Advances and Limitations: Disease",
+      "stem": "Which disease was eradicated worldwide by 1980 through a global vaccination campaign?",
+      "choices": [
+        { "id": "A", "text": "Smallpox" },
+        { "id": "B", "text": "Malaria" },
+        { "id": "C", "text": "HIV/AIDS" },
+        { "id": "D", "text": "Tuberculosis" }
+      ],
+      "answer": "A",
+      "explanation": "The WHO declared smallpox eradicated in 1980.",
+      "distractors": {}
+    },
+    {
+      "id": "u9-q03", "tier": "Intro", "type": "mcq", "topic": "9.4 Economics in the Global Age",
+      "stem": "Which agreement created a free trade zone among the United States, Canada, and Mexico in 1994?",
+      "choices": [
+        { "id": "A", "text": "NAFTA" },
+        { "id": "B", "text": "The Paris Agreement" },
+        { "id": "C", "text": "The Warsaw Pact" },
+        { "id": "D", "text": "The Treaty of Versailles" }
+      ],
+      "answer": "A",
+      "explanation": "NAFTA reduced tariffs among the three countries.",
+      "distractors": {}
+    },
+    {
+      "id": "u9-q04", "tier": "Intro", "type": "mcq", "topic": "9.3 Technological Advances: Debates About the Environment",
+      "stem": "The Paris Agreement (2015) was designed to address",
+      "choices": [
+        { "id": "A", "text": "climate change by limiting greenhouse gas emissions" },
+        { "id": "B", "text": "nuclear disarmament" },
+        { "id": "C", "text": "the end of the Cold War" },
+        { "id": "D", "text": "trade tariffs" }
+      ],
+      "answer": "A",
+      "explanation": "Nations pledged to limit global temperature rise.",
+      "distractors": {}
+    },
+    {
+      "id": "u9-q05", "tier": "Exam level", "type": "mcq", "topic": "9.4 Economics in the Global Age",
+      "stem": "Which development most directly contributed to China's rapid economic growth after 1980?",
+      "choices": [
+        { "id": "A", "text": "Deng Xiaoping's market reforms and opening to foreign investment" },
+        { "id": "B", "text": "The Great Leap Forward" },
+        { "id": "C", "text": "The Cultural Revolution" },
+        { "id": "D", "text": "Withdrawal from all international trade" }
+      ],
+      "answer": "A",
+      "explanation": "Special economic zones and market incentives attracted investment and exports.",
+      "distractors": { "B": "Caused famine." }
+    },
+    {
+      "id": "u9-q06", "tier": "Exam level", "type": "mcq", "topic": "9.2 Disease",
+      "stem": "Which statement best describes global health in the twentieth century?",
+      "choices": [
+        { "id": "A", "text": "Medical advances extended life expectancy, but new and persistent diseases continued to cause widespread death." },
+        { "id": "B", "text": "All infectious diseases were eliminated." },
+        { "id": "C", "text": "Life expectancy declined worldwide." },
+        { "id": "D", "text": "Medicine made no significant advances." }
+      ],
+      "answer": "A",
+      "explanation": "Antibiotics and vaccines helped greatly, yet HIV/AIDS, malaria, and pandemics persisted.",
+      "distractors": {}
+    },
+    {
+      "id": "u9-q07", "tier": "Exam level", "type": "mcq", "topic": "9.6 Calls for Reform and Responses",
+      "stem": "The Universal Declaration of Human Rights (1948) is best understood as",
+      "choices": [
+        { "id": "A", "text": "an international statement of basic rights adopted by the UN after the atrocities of World War II" },
+        { "id": "B", "text": "a trade agreement" },
+        { "id": "C", "text": "a military alliance" },
+        { "id": "D", "text": "a treaty ending the Cold War" }
+      ],
+      "answer": "A",
+      "explanation": "It set a global standard for rights, though not legally binding itself.",
+      "distractors": {}
+    },
+    {
+      "id": "u9-q08", "tier": "Exam level", "type": "mcq", "topic": "9.7 Globalized Culture",
+      "stem": "The worldwide popularity of K-pop and Bollywood films best illustrates",
+      "choices": [
+        { "id": "A", "text": "that cultural globalization flows from many regions, not only from the West" },
+        { "id": "B", "text": "the decline of global communication" },
+        { "id": "C", "text": "the Columbian Exchange" },
+        { "id": "D", "text": "the end of consumer culture" }
+      ],
+      "answer": "A",
+      "explanation": "Non-Western cultural products gained global audiences through digital media.",
+      "distractors": {}
+    },
+    {
+      "id": "u9-q09", "tier": "Exam level", "type": "mcq", "topic": "9.5 Calls for Reform",
+      "stem": "Which is an example of a movement resisting aspects of globalization?",
+      "choices": [
+        { "id": "A", "text": "Protests against the World Trade Organization, such as those in Seattle in 1999" },
+        { "id": "B", "text": "The founding of NAFTA" },
+        { "id": "C", "text": "The expansion of multinational corporations" },
+        { "id": "D", "text": "The eradication of smallpox" }
+      ],
+      "answer": "A",
+      "explanation": "Protesters argued free trade harmed workers and the environment.",
+      "distractors": {}
+    },
+    {
+      "id": "u9-q10", "tier": "Exam level", "type": "mcq", "topic": "9.3 Debates About the Environment",
+      "stem": "Which factor has most contributed to deforestation in regions such as the Amazon since the late twentieth century?",
+      "choices": [
+        { "id": "A", "text": "Clearing land for agriculture, cattle ranching, and logging" },
+        { "id": "B", "text": "The Green Revolution's reduction in farmland" },
+        { "id": "C", "text": "The end of global trade" },
+        { "id": "D", "text": "Glaciation" }
+      ],
+      "answer": "A",
+      "explanation": "Commercial agriculture and ranching drive much forest loss.",
+      "distractors": {}
+    },
+    {
+      "id": "u9-q11", "tier": "Hardest", "type": "mcq", "topic": "9.4 Economics in the Global Age",
+      "stem": "Which statement best evaluates the effects of economic globalization since the 1980s?",
+      "choices": [
+        { "id": "A", "text": "It contributed to rapid growth and reduced extreme poverty in many countries but also to rising inequality and job losses in some industries." },
+        { "id": "B", "text": "It benefited every group equally." },
+        { "id": "C", "text": "It had no effect on poverty." },
+        { "id": "D", "text": "It ended all international financial crises." }
+      ],
+      "answer": "A",
+      "explanation": "Effects were uneven; China and India saw large poverty declines, while some manufacturing regions declined.",
+      "distractors": { "D": "The 2008 crisis shows otherwise." }
+    },
+    {
+      "id": "u9-q12", "tier": "Hardest", "type": "mcq", "topic": "9.8 Resistance to Globalization",
+      "stem": "Which development best illustrates continuity between twentieth-century globalization and earlier networks of exchange?",
+      "choices": [
+        { "id": "A", "text": "Trade networks continued to spread diseases, goods, and ideas across regions, as the Silk Roads and Columbian Exchange had." },
+        { "id": "B", "text": "Globalization ended all cultural exchange." },
+        { "id": "C", "text": "Trade became purely local." },
+        { "id": "D", "text": "Diseases stopped spreading through travel." }
+      ],
+      "answer": "A",
+      "explanation": "COVID-19 spreading through air travel parallels the plague spreading through Mongol-era trade.",
+      "distractors": {}
+    },
+    {
+      "id": "u9-q13", "tier": "Hardest", "type": "mcq", "topic": "9.3 Debates About the Environment",
+      "stem": "Debates over responsibility for climate change between industrialized and developing countries most often center on",
+      "choices": [
+        { "id": "A", "text": "whether countries that industrialized earlier and emitted more historically should bear greater costs" },
+        { "id": "B", "text": "whether climate change exists in tropical regions only" },
+        { "id": "C", "text": "the Columbian Exchange" },
+        { "id": "D", "text": "the Treaty of Versailles" }
+      ],
+      "answer": "A",
+      "explanation": "Developing nations argue they shouldn't be limited in ways early industrializers weren't.",
+      "distractors": {}
+    },
+    {
+      "id": "u9-q14", "tier": "Hardest", "type": "mcq", "topic": "9.6 Calls for Reform",
+      "stem": "Which statement best describes the spread of rights movements in the late twentieth century?",
+      "choices": [
+        { "id": "A", "text": "Activists drew on international ideas and support, as in the global anti-apartheid boycott, while facing resistance from established powers." },
+        { "id": "B", "text": "Rights movements occurred only in the United States." },
+        { "id": "C", "text": "Rights movements faced no opposition." },
+        { "id": "D", "text": "Rights movements ended with the Cold War." }
+      ],
+      "answer": "A",
+      "explanation": "International pressure helped end apartheid; movements shared strategies across borders.",
+      "distractors": {}
+    },
+    {
+      "id": "u9-frq1", "tier": "Exam level", "type": "frq", "topic": "Globalization", "frqType": "SAQ (no stimulus)",
+      "prompt": "Answer (a), (b), and (c).",
+      "parts": [
+        { "label": "a", "prompt": "Identify ONE technological development after 1900 that increased global interaction.", "points": 1 },
+        { "label": "b", "prompt": "Explain ONE way economic globalization affected a society after 1900.", "points": 1 },
+        { "label": "c", "prompt": "Explain ONE way people or states resisted globalization after 1900.", "points": 1 }
+      ],
+      "points": 3,
+      "minutes": 13,
+      "rubric": [
+        { "criterion": "(a)", "points": 1, "description": "E.g., the internet, cell phones, container shipping, air travel, satellite TV." },
+        { "criterion": "(b)", "points": 1, "description": "E.g., China's export growth after Deng's reforms; deindustrialization in some regions; maquiladoras in Mexico after NAFTA." },
+        { "criterion": "(c)", "points": 1, "description": "E.g., anti-WTO protests; protectionist tariffs; religious or nationalist movements rejecting Western culture." }
+      ],
+      "sampleResponse": "(a) The internet, which spread widely in the 1990s, allowed instant global communication and trade.\n\n(b) After Deng Xiaoping's reforms opened China to foreign investment, export-oriented factories grew rapidly, lifting hundreds of millions of people out of extreme poverty but also widening inequality between coastal cities and rural areas.\n\n(c) In 1999, protesters in Seattle demonstrated against the World Trade Organization, arguing that free trade rules hurt workers' rights and the environment."
+    }
+  ]
+}

@@ -1,0 +1,669 @@
+{
+ "number": 1,
+ "title": "Chemistry of Life",
+ "guide": {
+  "summary": "Unit 1 builds the molecular toolkit for everything else in AP Biology: how water's polarity creates hydrogen bonding and its life-supporting properties, which elements end up in which macromolecules, and how the structure of carbohydrates, lipids, nucleic acids, and proteins determines their function. Exam questions rarely ask for definitions alone; they ask you to predict how a structural change (a double bond, a substituted amino acid, a base-composition shift) changes function.",
+  "sections": [
+   {
+    "heading": "Water: polarity and hydrogen bonding",
+    "body": "Oxygen is more electronegative than hydrogen, so the O–H covalent bonds in water are **polar covalent**: electrons spend more time near oxygen, giving oxygen a partial negative charge (δ−) and each hydrogen a partial positive charge (δ+). Because the molecule is bent, these partial charges don't cancel, so water as a whole is polar.\n\nA **hydrogen bond** is an attraction between a δ+ hydrogen (bonded to O or N) and a δ− atom (O or N) on another molecule or another part of the same molecule. Hydrogen bonds are individually weak compared to covalent bonds, which is exactly why they matter: they constantly break and re-form, giving water its emergent properties.\n\n| Property | Cause | Biological consequence |\n|---|---|---|\n| Cohesion | H-bonds between water molecules | Water column pulled up xylem during transpiration |\n| Adhesion | H-bonds between water and other polar surfaces | Capillary action up narrow xylem vessel walls |\n| Surface tension | Cohesion at the air–water interface | Small organisms can stand on water |\n| High specific heat | Energy must break H-bonds before molecules speed up | Stable body and aquatic temperatures (homeostasis) |\n| High heat of vaporization | Evaporating molecules carry away lots of energy | Evaporative cooling (sweating, transpiration) |\n| Ice less dense than liquid | H-bonds lock molecules into an open lattice | Ice floats and insulates lakes |\n| Universal solvent for polar/ionic solutes | Partial charges surround ions and polar molecules | Transport of solutes in blood and sap |\n\n**Exam move:** when asked to *explain* a property, always connect three links: polarity → hydrogen bonding → the property. \"Water has high specific heat because it is polar\" loses the point; \"the polarity of water allows hydrogen bonds between molecules, and energy must be absorbed to break these bonds before temperature rises\" earns it."
+   },
+   {
+    "heading": "Elements of life and building macromolecules",
+    "body": "Living things build their molecules from atoms taken from the environment. Carbon, hydrogen, and oxygen are the most common. Know which macromolecules need the other elements, because the exam loves radioactive-labeling questions:\n\n- **Nitrogen (N):** proteins (amino group of every amino acid) and nucleic acids (nitrogenous bases).\n- **Phosphorus (P):** nucleic acids (sugar–phosphate backbone) and phospholipids. Also ATP.\n- **Sulfur (S):** proteins only (in some amino acid R groups, e.g., cysteine, which forms disulfide bridges).\n\nSo if an organism is grown with ³⁵S, the label appears in proteins but not DNA; with ³²P, in DNA/RNA and membranes but not (most) proteins; with ¹⁵N, in both proteins and nucleic acids but not in carbohydrates or fatty acids. This is the logic of the Hershey–Chase experiment.\n\n**Dehydration synthesis** joins monomers by a covalent bond: an –OH is removed from one monomer and an –H from the other, releasing H₂O. **Hydrolysis** breaks the bond by adding water back: H goes to one monomer, OH to the other. Building a polymer of n monomers releases n − 1 water molecules; hydrolyzing it uses n − 1 waters. Digestive enzymes are hydrolases; anabolic pathways use dehydration synthesis and require energy input."
+   },
+   {
+    "heading": "Carbohydrates and lipids",
+    "body": "**Carbohydrates.** Monosaccharides (glucose, fructose, ribose) are the monomers; they are joined by covalent (glycosidic) bonds into disaccharides and polysaccharides, which may be **linear or branched**. Function follows the linkage and shape: starch (plants) and glycogen (animals, highly branched) store energy because enzymes can quickly hydrolyze them; cellulose (plant cell walls) and chitin (fungal walls, arthropod exoskeletons) are structural because their linkages form straight chains that hydrogen-bond to neighboring chains into strong fibers. Most animals lack enzymes to hydrolyze cellulose. You don't need to memorize the specific structures of polymers (excluded), but you do need to reason about how structure → function.\n\n**Lipids** are mostly nonpolar and hydrophobic; they are not true polymers.\n- **Saturated fatty acids** have only C–C single bonds, so the tails are straight, pack tightly, and are solid at room temperature (animal fats).\n- **Unsaturated fatty acids** have at least one C=C double bond, which creates a kink. Kinks prevent tight packing, so these fats are liquid at room temperature (oils). More double bonds → more kinks → more fluid.\n- **Phospholipids** have a hydrophilic phosphate head and two hydrophobic fatty acid tails (amphipathic), so in water they spontaneously form bilayers — the basis of every membrane.\n- **Steroids** (four fused rings) include cholesterol, which helps maintain membrane fluidity across temperatures, and steroid hormones (estrogen, testosterone), which are nonpolar and cross membranes to reach intracellular receptors.\n- **Fats (triglycerides)** store energy densely and insulate.\n\nA classic exam prediction: organisms living in cold environments tend to have membranes with more unsaturated fatty acids, which keeps their membranes fluid; organisms in hot environments have more saturated tails (and cholesterol adjustments) to keep membranes from becoming too fluid."
+   },
+   {
+    "heading": "Nucleic acids",
+    "body": "DNA and RNA store and transmit information in the **sequence** of nucleotides. Each nucleotide = a five-carbon sugar (deoxyribose in DNA, ribose in RNA) + a phosphate + a nitrogenous base (A, T, G, C in DNA; U replaces T in RNA).\n\nDirectionality is a high-yield idea. Each strand has a **5′ end** (free phosphate on the 5′ carbon) and a **3′ end** (free –OH on the 3′ carbon). New nucleotides are always added to the **3′ end**, so synthesis runs 5′→3′. DNA is an **antiparallel double helix**: one strand runs 5′→3′ while its partner runs 3′→5′. Bases pair by hydrogen bonds (A–T with 2, G–C with 3; in RNA, A–U). Because G–C pairs have more H-bonds, DNA with higher GC content requires more energy (higher temperature) to separate the strands.\n\n| | DNA | RNA |\n|---|---|---|\n| Sugar | Deoxyribose | Ribose |\n| Bases | A, T, G, C | A, U, G, C |\n| Strands | Usually double | Usually single |\n\n**Chargaff-style math:** in double-stranded DNA, %A = %T and %G = %C. If a sample is 22% G, then C = 22%, G + C = 44%, A + T = 56%, so A = 28%. This rule does **not** hold for single-stranded RNA or single-stranded viral DNA — a common hardest-tier twist."
+   },
+   {
+    "heading": "Proteins: four levels of structure",
+    "body": "Amino acids are the monomers of proteins. Each has an amino group, a carboxyl group, and a variable **R group** whose chemical properties (nonpolar, polar, charged acidic, charged basic) determine how the amino acid interacts. Amino acids are joined by **peptide bonds** (dehydration synthesis) into a polypeptide with an **amino (N-) terminus** and a **carboxyl (C-) terminus** — directionality matters, just as in nucleic acids. (Memorizing amino acid structures is excluded.)\n\n- **Primary structure:** the sequence of amino acids, determined by the gene. It determines everything else.\n- **Secondary structure:** α-helices and β-pleated sheets held by hydrogen bonds between backbone atoms (not R groups).\n- **Tertiary structure:** overall 3-D shape from R-group interactions — hydrophobic interactions (nonpolar R groups cluster in the interior away from water), hydrogen bonds, ionic bonds between charged R groups, and covalent disulfide bridges.\n- **Quaternary structure:** two or more polypeptides associated (e.g., hemoglobin).\n\n**Predicting effects of a change (skill 6.E):** a substitution that swaps a nonpolar R group in the protein's hydrophobic core for a charged one is likely to disrupt folding, changing the shape and function. Substituting one nonpolar amino acid for another similar one often has little effect. For a membrane protein, the region inside the bilayer has nonpolar R groups; the parts facing cytosol or extracellular fluid have polar/charged R groups. pH changes alter the charge on acidic/basic R groups and break ionic bonds, and high temperature disrupts H-bonds and hydrophobic interactions — both can **denature** a protein (lose tertiary/quaternary shape) without breaking peptide bonds."
+   },
+   {
+    "heading": "Worked example: a labeling and structure set",
+    "body": "**Scenario.** Bacteria are grown in medium containing ¹⁵N-labeled ammonium as their only nitrogen source, then transferred to a medium with ³⁵S-labeled sulfate.\n\n1. *Which molecules carry ¹⁵N?* Proteins (amino groups) and nucleic acids (bases). Not glucose, not fatty acids.\n2. *Which carry ³⁵S?* Only proteins made after the transfer (in methionine/cysteine). DNA will not be labeled with ³⁵S.\n3. *A researcher hydrolyzes a 51-amino-acid polypeptide completely. How many water molecules are consumed?* 51 − 1 = **50**.\n4. *A double-stranded DNA sample is 31% T. What percent is G?* A = T = 31% → A + T = 62% → G + C = 38% → G = **19%**.\n\nThe pattern for any Unit 1 calculation: identify which rule applies (n − 1 waters; complementary pairing; element ↔ molecule) and show the arithmetic in one line."
+   }
+  ],
+  "keyTakeaways": [
+   "Polarity → hydrogen bonding → cohesion, adhesion, surface tension, high specific heat, solvent properties; always state the full chain.",
+   "N is in proteins and nucleic acids; P in nucleic acids, phospholipids, and ATP; S in proteins only.",
+   "Dehydration synthesis builds polymers and releases water; hydrolysis breaks them and consumes water (n − 1 per chain).",
+   "Unsaturated fatty acids have C=C kinks that increase membrane fluidity; saturated tails pack tightly.",
+   "Nucleic acids are antiparallel, built 5′→3′; A–T/U and G–C pairing; Chargaff's rule works only for double-stranded DNA.",
+   "Protein shape (and so function) is determined by primary sequence via R-group interactions; denaturation disrupts shape without breaking peptide bonds."
+  ],
+  "commonMistakes": [
+   "Calling a hydrogen bond a covalent bond between water molecules, or saying water's O–H bonds are hydrogen bonds.",
+   "Saying secondary structure comes from R-group interactions (it's backbone H-bonds; tertiary is R groups).",
+   "Assuming ³²P labels proteins or ³⁵S labels DNA.",
+   "Applying %A = %T to single-stranded RNA or viral DNA.",
+   "Claiming high temperature breaks peptide bonds; denaturation disrupts weak interactions (and sometimes disulfides), not the primary structure."
+  ],
+  "examTips": [
+   "Expect a model or diagram in about half the Unit 1 questions: a molecule fragment, an R-group chart, or a membrane cross-section. Describe what the model shows before reasoning.",
+   "Prediction questions (6.E) often ask what happens if a hydrophobic R group is replaced with a charged one — think 'where in the folded protein is it?'",
+   "Unit 1 shows up inside other units: membrane structure (Unit 2), enzyme shape (Unit 3), DNA directionality (Unit 6). Learn it as a toolkit.",
+   "For FRQ 'describe' points, one precise sentence with the right vocabulary (e.g., 'hydrolysis adds a water molecule to break the covalent bond between monomers') is enough."
+  ],
+  "cramSheet": "- Water: polar covalent O–H; H-bonds between molecules → cohesion, adhesion, surface tension, high specific heat, evaporative cooling, ice floats, dissolves polar/ionic.\n- Elements: C H O everywhere; N → proteins + nucleic acids; P → nucleic acids, phospholipids, ATP; S → proteins.\n- Dehydration synthesis: monomer + monomer → polymer + H₂O. Hydrolysis reverses it. n monomers → n − 1 waters.\n- Carbs: monosaccharides → polysaccharides (linear or branched). Starch/glycogen = storage; cellulose/chitin = structure.\n- Lipids: saturated (straight, solid) vs unsaturated (kinked, fluid); phospholipids amphipathic → bilayer; steroids incl. cholesterol (fluidity buffer) and hormones.\n- Nucleotide = sugar + phosphate + base. DNA: deoxyribose, T, double, antiparallel. RNA: ribose, U, single. Add to 3′ end; synthesis 5′→3′.\n- In dsDNA: A = T, G = C. G–C has 3 H-bonds → higher melting temp.\n- Protein: amino acids + peptide bonds; N-terminus → C-terminus. 1° sequence; 2° backbone H-bonds (α-helix, β-sheet); 3° R-group interactions (hydrophobic, ionic, H-bond, disulfide); 4° multiple subunits.\n- Denaturation = loss of shape from heat/pH/chemicals → loss of function; peptide bonds intact."
+ },
+ "vocab": [
+  {
+   "term": "Polar covalent bond",
+   "definition": "A covalent bond in which electrons are shared unequally because one atom is more electronegative, producing partial charges (δ+ and δ−).",
+   "example": "O–H bonds in water."
+  },
+  {
+   "term": "Hydrogen bond",
+   "definition": "A weak attraction between a partially positive hydrogen attached to O or N and a partially negative O or N atom on another molecule or another region of the same molecule."
+  },
+  {
+   "term": "Cohesion",
+   "definition": "Attraction between molecules of the same substance; in water, caused by hydrogen bonding.",
+   "example": "Pulls a continuous column of water up the xylem."
+  },
+  {
+   "term": "Adhesion",
+   "definition": "Attraction between water and other polar or charged surfaces.",
+   "example": "Water climbing the walls of a narrow tube."
+  },
+  {
+   "term": "Specific heat",
+   "definition": "Energy required to raise the temperature of 1 g of a substance by 1 °C; water's is high because hydrogen bonds must be broken first."
+  },
+  {
+   "term": "Dehydration synthesis",
+   "definition": "A reaction that joins two monomers with a covalent bond, removing the equivalent of one water molecule."
+  },
+  {
+   "term": "Hydrolysis",
+   "definition": "A reaction that breaks the covalent bond between monomers by adding a water molecule."
+  },
+  {
+   "term": "Monomer",
+   "definition": "A small subunit that can be joined to others to form a polymer (monosaccharide, amino acid, nucleotide)."
+  },
+  {
+   "term": "Polysaccharide",
+   "definition": "A carbohydrate polymer of many monosaccharides, linear or branched, used for energy storage (starch, glycogen) or structure (cellulose, chitin)."
+  },
+  {
+   "term": "Saturated fatty acid",
+   "definition": "A fatty acid with only single bonds between carbons, giving a straight tail that packs tightly."
+  },
+  {
+   "term": "Unsaturated fatty acid",
+   "definition": "A fatty acid with at least one C=C double bond, causing a kink that reduces packing and increases fluidity."
+  },
+  {
+   "term": "Phospholipid",
+   "definition": "An amphipathic lipid with a hydrophilic phosphate head and hydrophobic fatty acid tails; forms bilayers in water."
+  },
+  {
+   "term": "Steroid",
+   "definition": "A lipid built from four fused carbon rings, such as cholesterol and steroid hormones."
+  },
+  {
+   "term": "Nucleotide",
+   "definition": "Monomer of nucleic acids made of a five-carbon sugar, a phosphate group, and a nitrogenous base."
+  },
+  {
+   "term": "Antiparallel",
+   "definition": "Arrangement of the two DNA strands running in opposite 5′→3′ directions."
+  },
+  {
+   "term": "5′ and 3′ ends",
+   "definition": "The phosphate end (5′) and hydroxyl end (3′) of a nucleic acid strand; new nucleotides are added only to the 3′ end."
+  },
+  {
+   "term": "R group (side chain)",
+   "definition": "The variable part of an amino acid; its chemical properties (nonpolar, polar, charged) determine how it interacts and therefore protein folding."
+  },
+  {
+   "term": "Peptide bond",
+   "definition": "Covalent bond joining amino acids, formed by dehydration synthesis between the carboxyl group of one and the amino group of the next."
+  },
+  {
+   "term": "Primary structure",
+   "definition": "The linear sequence of amino acids in a polypeptide, which determines its higher-order structure."
+  },
+  {
+   "term": "Tertiary structure",
+   "definition": "The overall three-dimensional shape of a polypeptide, produced by interactions among R groups."
+  },
+  {
+   "term": "Quaternary structure",
+   "definition": "The association of two or more polypeptide subunits into one functional protein."
+  },
+  {
+   "term": "Denaturation",
+   "definition": "Loss of a protein's three-dimensional shape (and function) when heat, pH, or chemicals disrupt the interactions that maintain it."
+  }
+ ],
+ "practice": [
+  {
+   "id": "u1-q01",
+   "type": "mcq",
+   "tier": "Intro",
+   "topic": "1.1 Structure of Water and Hydrogen Bonding",
+   "skill": "1.B",
+   "stem": "Which of the following best explains why water has a high specific heat?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Covalent bonds within each water molecule must be broken before the temperature can rise."
+    },
+    {
+     "id": "B",
+     "text": "Water molecules are nonpolar, so they absorb heat without changing state."
+    },
+    {
+     "id": "C",
+     "text": "Hydrogen bonds between water molecules absorb energy as they break before molecular motion increases."
+    },
+    {
+     "id": "D",
+     "text": "Water is less dense as a solid than as a liquid."
+    }
+   ],
+   "answer": "C",
+   "explanation": "Temperature reflects the average kinetic energy of molecules. In water, much of the added energy first goes into breaking hydrogen bonds between molecules, so temperature rises slowly. That is why aquatic environments and bodies resist temperature change.",
+   "distractors": {
+    "A": "Confuses intramolecular covalent bonds (which do not break on heating) with intermolecular hydrogen bonds.",
+    "B": "Water is polar; that polarity is the source of hydrogen bonding.",
+    "D": "A true property of water, but it explains why ice floats, not specific heat."
+   }
+  },
+  {
+   "id": "u1-q02",
+   "type": "mcq",
+   "tier": "Intro",
+   "topic": "1.2 Elements of Life",
+   "skill": "1.A",
+   "stem": "A researcher grows plants in soil whose only phosphorus source is radioactive ³²P. In which of the following molecules would the radioactive label be found?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Cellulose"
+    },
+    {
+     "id": "B",
+     "text": "Starch"
+    },
+    {
+     "id": "C",
+     "text": "Fatty acids from triglycerides"
+    },
+    {
+     "id": "D",
+     "text": "Phospholipids"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Phosphorus is a component of the phosphate group in phospholipids (and in nucleic acids and ATP). Carbohydrates (cellulose, starch) and fatty acids contain only C, H, and O.",
+   "distractors": {
+    "A": "Polysaccharides contain only C, H, and O.",
+    "B": "Starch is also only C, H, O.",
+    "C": "Fatty acid chains contain no phosphorus; the phosphate is on the head of a phospholipid, not on triglyceride fatty acids."
+   }
+  },
+  {
+   "id": "u1-q03",
+   "type": "mcq",
+   "tier": "Intro",
+   "topic": "1.6 Nucleic Acids",
+   "skill": "1.A",
+   "stem": "Which of the following correctly distinguishes RNA from DNA?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "RNA contains deoxyribose and thymine."
+    },
+    {
+     "id": "B",
+     "text": "RNA strands are synthesized by adding nucleotides to the 5′ end."
+    },
+    {
+     "id": "C",
+     "text": "RNA nucleotides lack phosphate groups."
+    },
+    {
+     "id": "D",
+     "text": "RNA contains ribose and uracil and is typically single stranded."
+    }
+   ],
+   "answer": "D",
+   "explanation": "RNA uses ribose (with an –OH on the 2′ carbon) and the base uracil in place of thymine, and it is usually single stranded. Both nucleic acids have phosphate groups and both are synthesized 5′→3′, adding to the 3′ end.",
+   "distractors": {
+    "A": "Those are DNA features.",
+    "B": "All nucleic acid synthesis adds to the 3′ –OH end.",
+    "C": "All nucleotides have a phosphate; it forms the backbone."
+   }
+  },
+  {
+   "id": "u1-q04",
+   "type": "mcq",
+   "tier": "Intro",
+   "topic": "1.7 Proteins",
+   "skill": "1.A",
+   "stem": "Which level of protein structure results directly from hydrogen bonds between atoms of the polypeptide backbone, forming α-helices and β-pleated sheets?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Secondary"
+    },
+    {
+     "id": "B",
+     "text": "Primary"
+    },
+    {
+     "id": "C",
+     "text": "Tertiary"
+    },
+    {
+     "id": "D",
+     "text": "Quaternary"
+    }
+   ],
+   "answer": "A",
+   "explanation": "Secondary structure is stabilized by hydrogen bonds between the backbone carbonyl oxygen and amino hydrogen of nearby amino acids. Tertiary structure comes from R-group interactions.",
+   "distractors": {
+    "B": "Primary structure is the amino acid sequence held by peptide bonds.",
+    "C": "Tertiary structure depends on R-group interactions, not backbone H-bonds.",
+    "D": "Quaternary structure involves multiple polypeptide subunits."
+   }
+  },
+  {
+   "id": "u1-q05",
+   "type": "mcq",
+   "tier": "Exam level",
+   "topic": "1.5 Lipids",
+   "skill": "6.E",
+   "stem": "A species of fish lives in water that ranges from 4 °C in winter to 20 °C in summer. Researchers measure the fatty acid composition of the fish's cell membranes in each season.\n\nWhich prediction is best supported by an understanding of membrane structure?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Winter membranes will contain a higher proportion of saturated fatty acids, because straight tails absorb more heat."
+    },
+    {
+     "id": "B",
+     "text": "Summer membranes will contain a higher proportion of unsaturated fatty acids, because double bonds stabilize the membrane at high temperature."
+    },
+    {
+     "id": "C",
+     "text": "Winter membranes will contain a higher proportion of unsaturated fatty acids, because kinked tails pack less tightly and keep the membrane fluid at low temperature."
+    },
+    {
+     "id": "D",
+     "text": "Fatty acid composition will not change, because membrane fluidity depends only on cholesterol."
+    }
+   ],
+   "answer": "C",
+   "explanation": "Low temperature reduces molecular motion and makes membranes more rigid. Double bonds in unsaturated fatty acids put kinks in the tails, preventing tight packing and maintaining fluidity. The fish would be expected to increase unsaturation in winter.",
+   "distractors": {
+    "A": "Saturated tails pack tightly, making a cold membrane even more rigid; 'absorb more heat' is not a mechanism.",
+    "B": "Reverses the relationship: more unsaturation would make a warm membrane too fluid.",
+    "D": "Cholesterol helps buffer fluidity, but fatty acid saturation also determines it."
+   }
+  },
+  {
+   "id": "u1-q06",
+   "type": "mcq",
+   "tier": "Exam level",
+   "topic": "1.6 Nucleic Acids",
+   "skill": "5.A",
+   "stem": "A sample of double-stranded DNA from a bacterium is analyzed and found to contain 34 percent cytosine. What percentage of the nucleotides in the sample contain adenine?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "16%"
+    },
+    {
+     "id": "B",
+     "text": "17%"
+    },
+    {
+     "id": "C",
+     "text": "33%"
+    },
+    {
+     "id": "D",
+     "text": "34%"
+    }
+   ],
+   "answer": "A",
+   "explanation": "In double-stranded DNA, C = G, so G = 34% and G + C = 68%. A + T = 100 − 68 = 32%, and A = T, so A = 16%.",
+   "distractors": {
+    "B": "Halves 34% instead of working through complementary pairs.",
+    "C": "Splits the remaining 66% after subtracting only C, forgetting G = C.",
+    "D": "Assumes A equals C."
+   }
+  },
+  {
+   "id": "u1-q07",
+   "type": "mcq",
+   "tier": "Exam level",
+   "topic": "1.3 Introduction to Macromolecules",
+   "skill": "5.A",
+   "stem": "A polypeptide 120 amino acids long is completely digested by protease enzymes in the small intestine. Which of the following correctly describes this process?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "120 water molecules are produced as peptide bonds form."
+    },
+    {
+     "id": "B",
+     "text": "119 water molecules are consumed as peptide bonds are hydrolyzed."
+    },
+    {
+     "id": "C",
+     "text": "119 water molecules are produced as peptide bonds are hydrolyzed."
+    },
+    {
+     "id": "D",
+     "text": "120 water molecules are consumed as hydrogen bonds between amino acids are broken."
+    }
+   ],
+   "answer": "B",
+   "explanation": "A linear chain of 120 amino acids has 119 peptide bonds. Hydrolysis breaks each bond by adding one water molecule, so 119 water molecules are consumed.",
+   "distractors": {
+    "A": "Digestion breaks bonds rather than forming them, and the count is off by one.",
+    "C": "Hydrolysis consumes water; dehydration synthesis produces it.",
+    "D": "Peptide bonds are covalent, not hydrogen bonds, and the count is off by one."
+   }
+  },
+  {
+   "id": "u1-q08",
+   "type": "mcq",
+   "tier": "Exam level",
+   "topic": "1.7 Proteins",
+   "skill": "6.E",
+   "stem": "A cytosolic enzyme folds so that amino acid 74, which has a nonpolar R group, is buried in the interior of the protein surrounded by other nonpolar R groups. A mutation replaces amino acid 74 with an amino acid that has a negatively charged R group.\n\nWhich of the following is the most likely effect of this mutation?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The enzyme's primary structure will be unchanged, so function will be unaffected."
+    },
+    {
+     "id": "B",
+     "text": "The charged R group will be attracted into the hydrophobic interior, stabilizing the tertiary structure."
+    },
+    {
+     "id": "C",
+     "text": "The charged R group will disrupt hydrophobic interactions in the protein's interior, likely altering tertiary structure and reducing enzyme function."
+    },
+    {
+     "id": "D",
+     "text": "The mutation will break peptide bonds near position 74, fragmenting the protein."
+    }
+   ],
+   "answer": "C",
+   "explanation": "A charged R group is hydrophilic and would be energetically unfavorable in a hydrophobic core. The protein would likely fold differently, which can change the shape of the active site and reduce function.",
+   "distractors": {
+    "A": "A substitution changes the primary structure by definition.",
+    "B": "Charged groups are repelled from, not attracted into, a nonpolar environment.",
+    "D": "A substitution does not break the peptide backbone."
+   }
+  },
+  {
+   "id": "u1-q09",
+   "type": "mcq",
+   "tier": "Exam level",
+   "topic": "1.1 Structure of Water and Hydrogen Bonding",
+   "skill": "4.B",
+   "stem": "Researchers place drops of four liquids on a waxy leaf surface and measure the contact angle. A large angle means the drop beads up (cohesion dominates); a small angle means it spreads out (adhesion dominates).\n\n| Liquid | Contact angle (°) |\n|---|---|\n| Pure water | 105 |\n| Water + 1% detergent | 48 |\n| Water + 5% sucrose | 104 |\n| Ethanol | 20 |\n\nWhich claim is best supported by the data?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Sucrose disrupts hydrogen bonding among water molecules more than detergent does."
+    },
+    {
+     "id": "B",
+     "text": "The waxy leaf surface is polar."
+    },
+    {
+     "id": "C",
+     "text": "Ethanol is more cohesive than water."
+    },
+    {
+     "id": "D",
+     "text": "Detergent reduces the cohesion of water relative to its adhesion to the waxy surface."
+    }
+   ],
+   "answer": "D",
+   "explanation": "Detergent lowered the contact angle from 105° to 48°, so the drop spread more: cohesion among water molecules was reduced relative to adhesion to the surface. Sucrose barely changed the angle.",
+   "distractors": {
+    "A": "Sucrose barely changed the angle (104° vs 105°), so it had less effect than detergent.",
+    "B": "Water beads up on the leaf, indicating weak adhesion to a nonpolar (waxy) surface.",
+    "C": "Ethanol's small angle indicates weaker cohesion relative to adhesion."
+   }
+  },
+  {
+   "id": "u1-q10",
+   "type": "mcq",
+   "tier": "Exam level",
+   "topic": "1.4 Carbohydrates",
+   "skill": "1.B",
+   "stem": "Cellulose and starch are both polymers of glucose, yet most animals can digest starch but not cellulose. Which statement best explains this difference?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Starch and cellulose differ in the type of covalent linkage between glucose monomers, and animal digestive enzymes are specific to the linkage in starch."
+    },
+    {
+     "id": "B",
+     "text": "Cellulose contains nitrogen, which animal enzymes cannot process."
+    },
+    {
+     "id": "C",
+     "text": "Cellulose is a lipid, and lipids cannot be hydrolyzed."
+    },
+    {
+     "id": "D",
+     "text": "Starch is a monosaccharide and does not require hydrolysis."
+    }
+   ],
+   "answer": "A",
+   "explanation": "Enzymes are specific to substrate shape. The glucose–glucose linkages in cellulose produce straight chains with a different geometry than the linkages in starch; animal amylases fit only the starch linkage.",
+   "distractors": {
+    "B": "Cellulose contains only C, H, and O.",
+    "C": "Cellulose is a carbohydrate.",
+    "D": "Starch is a polysaccharide."
+   }
+  },
+  {
+   "id": "u1-q11",
+   "type": "mcq",
+   "tier": "Hardest",
+   "topic": "1.6 Nucleic Acids",
+   "skill": "5.A",
+   "stem": "A virus has a genome made of single-stranded DNA. Analysis of the genome gives the following base composition.\n\n| Base | Percent |\n|---|---|\n| A | 24 |\n| T | 33 |\n| G | 18 |\n| C | 25 |\n\nThe virus infects a host cell and its genome is copied to make a complementary strand, producing a double-stranded intermediate. What is the percentage of G in the double-stranded intermediate?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "18.0%"
+    },
+    {
+     "id": "B",
+     "text": "21.5%"
+    },
+    {
+     "id": "C",
+     "text": "25.0%"
+    },
+    {
+     "id": "D",
+     "text": "28.5%"
+    }
+   ],
+   "answer": "B",
+   "explanation": "The complementary strand has G equal to the original strand's C (25%) and C equal to the original G (18%). In the duplex, total G = (18 + 25)/2 = 21.5% of all nucleotides. Equivalently, G + C in the duplex equals the single strand's G + C = 43%, and in a duplex G = C, so G = 21.5%.",
+   "distractors": {
+    "A": "Uses only the original strand's G.",
+    "C": "Uses only the complementary strand's G (original C).",
+    "D": "Averages A and T instead of G and C, or applies A + T complement logic incorrectly."
+   }
+  },
+  {
+   "id": "u1-q12",
+   "type": "mcq",
+   "tier": "Hardest",
+   "topic": "1.7 Proteins",
+   "skill": "6.C",
+   "stem": "A transmembrane protein spans the plasma membrane once. Researchers determine the properties of the R groups in three segments.\n\n| Segment | Amino acids | R-group properties |\n|---|---|---|\n| 1 | 1–40 | Mostly polar and charged |\n| 2 | 41–62 | Almost entirely nonpolar |\n| 3 | 63–210 | Mostly polar and charged; includes the ligand-binding site |\n\nA mutant version of the protein has a substitution in segment 2 that places a positively charged amino acid at position 52. The mutant protein is synthesized normally but is found free in the cytosol instead of in the membrane. Which explanation best accounts for this observation?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The charged R group prevents peptide bond formation, so segment 3 is not synthesized."
+    },
+    {
+     "id": "B",
+     "text": "The charged R group in the membrane-spanning segment is unfavorable in the hydrophobic interior of the bilayer, so the segment no longer stably associates with the fatty acid tails."
+    },
+    {
+     "id": "C",
+     "text": "The positive charge increases hydrogen bonding with phospholipid heads, pulling the protein out of the membrane."
+    },
+    {
+     "id": "D",
+     "text": "The mutation changes segment 3, preventing ligand binding."
+    }
+   ],
+   "answer": "B",
+   "explanation": "Segment 2 is the transmembrane region; its nonpolar R groups interact with the hydrophobic fatty acid tails. A charged residue in this region is energetically unfavorable among nonpolar tails, so the segment is less likely to remain embedded, consistent with the protein being found in the cytosol.",
+   "distractors": {
+    "A": "The protein was synthesized normally, so translation was not blocked.",
+    "C": "Interactions with polar heads would not explain removal from the membrane; the key problem is the hydrophobic interior.",
+    "D": "The substitution is at position 52 in segment 2; segment 3 sequence is unchanged."
+   }
+  },
+  {
+   "id": "u1-q13",
+   "type": "mcq",
+   "tier": "Hardest",
+   "topic": "1.6 Nucleic Acids",
+   "skill": "6.E",
+   "stem": "Two short double-stranded DNA molecules have the same length (40 base pairs). Molecule X contains 30 percent adenine; molecule Y contains 15 percent adenine. Both are heated gradually, and the temperature at which half of each molecule is single stranded (Tm) is recorded.\n\nWhich prediction and reasoning are correct?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "X will have the higher Tm because it has more A–T pairs, which are held by covalent bonds."
+    },
+    {
+     "id": "B",
+     "text": "Both will have the same Tm because they are the same length."
+    },
+    {
+     "id": "C",
+     "text": "Y will have the higher Tm because it has more G–C pairs, which form three hydrogen bonds per pair versus two for A–T."
+    },
+    {
+     "id": "D",
+     "text": "X will have the higher Tm because adenine is a larger base than guanine."
+    }
+   ],
+   "answer": "C",
+   "explanation": "X: A = T = 30% → G + C = 40%. Y: A = T = 15% → G + C = 70%. Y has far more G–C pairs, each held by three hydrogen bonds, so more energy is needed to separate the strands.",
+   "distractors": {
+    "A": "Base pairs are held by hydrogen bonds, not covalent bonds, and A–T pairs are weaker.",
+    "B": "Length matters, but base composition also changes the number of hydrogen bonds.",
+    "D": "Adenine and guanine are both purines of similar size; size is not the relevant variable."
+   }
+  },
+  {
+   "id": "u1-q14",
+   "type": "mcq",
+   "tier": "Hardest",
+   "topic": "1.2 Elements of Life",
+   "skill": "2.A",
+   "stem": "E. coli cells are grown for many generations in medium containing ¹⁵N as the only nitrogen source and ³⁵S as the only sulfur source. The cells are then broken open and their macromolecules separated. Which row correctly shows which fractions are labeled?\n\n(Each choice lists: DNA / proteins / phospholipids / glycogen.)",
+   "choices": [
+    {
+     "id": "A",
+     "text": "¹⁵N only / ³⁵S only / ¹⁵N only / neither"
+    },
+    {
+     "id": "B",
+     "text": "¹⁵N only / ¹⁵N and ³⁵S / neither / neither"
+    },
+    {
+     "id": "C",
+     "text": "¹⁵N and ³⁵S / ¹⁵N only / neither / ¹⁵N only"
+    },
+    {
+     "id": "D",
+     "text": "¹⁵N only / ¹⁵N and ³⁵S / ¹⁵N only / neither"
+    }
+   ],
+   "answer": "D",
+   "explanation": "DNA bases contain N but no S. Proteins contain N in every amino acid and S in some. Common bacterial phospholipids (e.g., phosphatidylethanolamine, the major E. coli phospholipid) carry a nitrogen-containing head group, so they pick up ¹⁵N but have no sulfur. Glycogen contains only C, H, O. The first row is the only one consistent with all four.\n\nNote: if the question had said 'fatty acid tails' instead of phospholipids, neither label would appear. Reading the exact molecule named is the hardest part of this item.",
+   "distractors": {
+    "A": "Every amino acid contains nitrogen, so proteins carry ¹⁵N as well as ³⁵S.",
+    "B": "Ignores the nitrogen in common phospholipid head groups (e.g., ethanolamine).",
+    "C": "DNA contains no sulfur, and glycogen contains no nitrogen."
+   }
+  },
+  {
+   "id": "u1-frq1",
+   "type": "frq",
+   "tier": "Exam level",
+   "topic": "1.7 Proteins / 1.5 Lipids",
+   "frqType": "Q5 Analyze Model or Visual Representation (4 points)",
+   "skill": "2.B",
+   "stimulus": "**Model (described in words).** An aquaporin monomer is a single polypeptide that folds into six α-helices spanning the plasma membrane. The helices are arranged in a ring around a narrow channel.\n\n| Region of the protein | R-group properties |\n|---|---|\n| Helix surfaces facing the fatty acid tails | Nonpolar (e.g., leucine, valine, phenylalanine) |\n| Residues lining the central channel | Mostly polar; several form hydrogen bonds with passing water molecules |\n| Loops facing cytosol and extracellular fluid | Polar and charged |\n\nWater molecules pass through the channel one at a time in single file.",
+   "prompt": "Read the model description and answer parts A–D.",
+   "parts": [
+    {
+     "label": "A",
+     "prompt": "Describe the type of interaction that holds the side chains of the inner-lining amino acids (the lumen of the channel) in contact with water as it passes through.",
+     "points": 1
+    },
+    {
+     "label": "B",
+     "prompt": "Explain why the R groups facing the fatty acid tails are nonpolar.",
+     "points": 1
+    },
+    {
+     "label": "C",
+     "prompt": "A mutation changes residue 112, which faces the lipid tails, from leucine (nonpolar) to aspartate (negatively charged). Represent the effect of this change by stating where on the model the aspartate side chain would most likely end up after the protein refolds, and what happens to the alignment of that helix.",
+     "points": 1
+    },
+    {
+     "label": "D",
+     "prompt": "Aquaporins are found in Bacteria, Archaea, and Eukarya. Explain how this observation relates to the broader principle of common ancestry.",
+     "points": 1
+    }
+   ],
+   "points": 4,
+   "minutes": 10,
+   "rubric": [
+    {
+     "criterion": "A — describe",
+     "points": 1,
+     "description": "Hydrogen bonds (or polar/hydrophilic interactions) between polar/charged R groups lining the channel and water molecules."
+    },
+    {
+     "criterion": "B — explain",
+     "points": 1,
+     "description": "Nonpolar R groups interact favorably with (are not repelled by) the hydrophobic fatty acid tails of the bilayer interior; polar groups would be excluded from this region. Must link nonpolar ↔ hydrophobic interior."
+    },
+    {
+     "criterion": "C — represent",
+     "points": 1,
+     "description": "The charged aspartate side chain would be expected to move away from the lipid tails toward the aqueous channel lumen or a membrane surface (the helix would rotate or shift/tilt, or the segment could fail to insert), disrupting packing of the channel. Accept any prediction that the charged group relocates toward a hydrophilic environment and alters helix position."
+    },
+    {
+     "criterion": "D — connect to larger principle",
+     "points": 1,
+     "description": "A shared, structurally similar protein in all three domains suggests it was present in a common ancestor and has been conserved because of its essential function in water transport."
+    }
+   ],
+   "sampleResponse": "**A.** The polar R groups lining the channel form hydrogen bonds with water molecules as they pass.\n\n**B.** The interior of the membrane is made of nonpolar fatty acid tails. Nonpolar R groups interact with these hydrophobic tails through hydrophobic interactions, while polar or charged R groups would be repelled, so the membrane-facing surface of the helices is nonpolar.\n\n**C.** The negatively charged aspartate would be unstable among the hydrophobic tails, so the helix would likely rotate or tilt so that the aspartate side chain faces the water-filled channel or the membrane surface. This shifts the helix out of its normal alignment and disrupts how the helices pack around the pore.\n\n**D.** Because aquaporins with similar structure occur in all three domains, they most likely were inherited from a common ancestor of all living things and conserved because moving water across membranes is essential to survival."
+  }
+ ]
+}

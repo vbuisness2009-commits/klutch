@@ -1,0 +1,214 @@
+{
+ "slug": "biology",
+ "name": "AP Biology",
+ "lastVerified": "2026-10",
+ "overview": "AP Biology is an introductory college biology course organized around four big ideas: evolution, energetics, information storage and transmission, and systems interactions. The exam rewards explaining mechanisms (not reciting facts), reading experimental data, and reasoning about what happens when a biological system is disrupted. Nearly every question is anchored to a scenario, model, graph, or data table, and roughly a quarter of the exam is quantitative (chi-square, Hardy–Weinberg, water potential, rates, percent change, error bars).",
+ "examMode": "Hybrid digital: multiple-choice is taken in the Bluebook app; free-response questions are viewed in Bluebook and answers are handwritten in a paper booklet.",
+ "totalMinutes": 180,
+ "sections": [
+  {
+   "name": "Section I",
+   "questionType": "Multiple choice (4 options, A–D)",
+   "count": 60,
+   "minutes": 90,
+   "weight": "50%",
+   "calculator": "Allowed",
+   "notes": "Discrete questions plus sets of typically 4–5 questions sharing a stimulus (data, models, experimental descriptions)."
+  },
+  {
+   "name": "Section II",
+   "questionType": "Free response: 2 long (9 pts each) + 4 short (4 pts each)",
+   "count": 6,
+   "minutes": 90,
+   "weight": "50%",
+   "calculator": "Allowed",
+   "notes": "Q1 Interpreting and Evaluating Experimental Results; Q2 the same with Graphing; Q3 Scientific Investigation; Q4 Conceptual Analysis; Q5 Analyze Model or Visual Representation; Q6 Analyze Data. Suggested pacing ~25 min per long question and ~10 min per short question."
+  }
+ ],
+ "units": [
+  {
+   "number": 1,
+   "title": "Chemistry of Life",
+   "weight": "8–11%"
+  },
+  {
+   "number": 2,
+   "title": "Cells",
+   "weight": "10–13%"
+  },
+  {
+   "number": 3,
+   "title": "Cellular Energetics",
+   "weight": "12–16%"
+  },
+  {
+   "number": 4,
+   "title": "Cell Communication and Cell Cycle",
+   "weight": "10–15%"
+  },
+  {
+   "number": 5,
+   "title": "Heredity",
+   "weight": "8–11%"
+  },
+  {
+   "number": 6,
+   "title": "Gene Expression and Regulation",
+   "weight": "12–16%"
+  },
+  {
+   "number": 7,
+   "title": "Natural Selection",
+   "weight": "13–20%"
+  },
+  {
+   "number": 8,
+   "title": "Ecology",
+   "weight": "10–15%"
+  }
+ ],
+ "skills": [
+  {
+   "name": "1. Concept Explanation",
+   "description": "Describe and explain biological concepts and processes, including in applied contexts. 25–33% of MCQ."
+  },
+  {
+   "name": "2. Visual Representations",
+   "description": "Describe, explain, and represent relationships in diagrams, models, and pathways, and connect them to larger principles. 16–24% of MCQ."
+  },
+  {
+   "name": "3. Questions and Methods",
+   "description": "Pose testable questions, state null hypotheses, identify independent/dependent variables and controls, and propose new investigations. 8–14% of MCQ."
+  },
+  {
+   "name": "4. Representing and Describing Data",
+   "description": "Construct correct graphs (type, labeled axes with units, scaling, plotted points, error bars) and describe trends and specific data points. 8–14% of MCQ."
+  },
+  {
+   "name": "5. Statistical Tests and Data Analysis",
+   "description": "Calculate means, rates, ratios, percent change; use error bars/confidence intervals; perform chi-square tests; use data to evaluate a hypothesis. 8–14% of MCQ."
+  },
+  {
+   "name": "6. Argumentation",
+   "description": "Make claims, support them with evidence, justify with reasoning, connect results to theory, and predict effects of disruptions. 20–26% of MCQ."
+  }
+ ],
+ "scoring": {
+  "summary": "Section I (60 MCQ, 1 raw point each, no guessing penalty) and Section II (34 raw points: 9 + 9 + 4 × 4) are each scaled to 50% of a weighted composite, which College Board converts to a 1–5 score using cut points set each year. Because each FRQ point is worth far more of the composite than each MCQ, partial FRQ credit matters a lot.",
+  "approxCutoffs": [
+   {
+    "score": 5,
+    "minPercent": 70
+   },
+   {
+    "score": 4,
+    "minPercent": 57
+   },
+   {
+    "score": 3,
+    "minPercent": 43
+   },
+   {
+    "score": 2,
+    "minPercent": 30
+   }
+  ],
+  "distribution": {
+   "year": 2026,
+   "percents": {
+    "5": 15,
+    "4": 25,
+    "3": 31,
+    "2": 21,
+    "1": 8
+   }
+  }
+ },
+ "frqTypes": [
+  {
+   "name": "Q1 Interpreting and Evaluating Experimental Results",
+   "points": 9,
+   "howScored": "Four parts on an authentic experiment with data in a table and/or graph: A (1) describe a concept; B (3) identify methods such as variables/controls or describe data; C (3) identify methods, analyze data, or calculate; D (2) make and justify predictions. One point per correct element; only the first answer is scored when more are requested than given."
+  },
+  {
+   "name": "Q2 Interpreting and Evaluating Experimental Results with Graphing",
+   "points": 9,
+   "howScored": "A (1) describe a concept; B (4) construct the graph from a table — points for correct graph type, labeled axes with units, appropriate scale/plotting, and error bars or a trend element when asked; C (2) analyze data, calculate, state a null hypothesis, or predict results; D (2) make and justify predictions."
+  },
+  {
+   "name": "Q3 Scientific Investigation",
+   "points": 4,
+   "howScored": "One point each: describe a concept; identify a procedure (variable/control); state the null hypothesis or predict results; justify the prediction."
+  },
+  {
+   "name": "Q4 Conceptual Analysis",
+   "points": 4,
+   "howScored": "One point each: describe; explain; predict the effect of a disruption; justify the prediction."
+  },
+  {
+   "name": "Q5 Analyze Model or Visual Representation",
+   "points": 4,
+   "howScored": "One point each: describe a feature of the model; explain relationships in it; represent a relationship (often a prediction on or modification of the model); connect the model to a larger principle."
+  },
+  {
+   "name": "Q6 Analyze Data",
+   "points": 4,
+   "howScored": "One point each: describe data (two points, often a specific value and a trend/comparison); use data to evaluate a hypothesis; explain how results relate to a biological principle."
+  }
+ ],
+ "strategy": [
+  "Budget the MCQ at 90 seconds per question, but skip and flag any long calculation; Bluebook lets you return to flagged items.",
+  "In FRQ, answer exactly the task verb: 'identify' is a word or phrase, 'describe' is a characteristic, 'explain' needs a how/why mechanism, 'justify' needs evidence plus reasoning.",
+  "Give only one answer when one is asked for — readers score only the first response, so a wrong second answer can't help and an extra one is ignored.",
+  "For any graph: correct type (line for continuous x, bar for categories), both axes labeled with units, linear scale, error bars if SE/CI values are given, and a key for multiple series.",
+  "When error bars (±2 SE) overlap, say the difference is NOT statistically significant; when they don't overlap, the difference is likely significant. Don't claim 'proven'.",
+  "State null hypotheses as 'there is no difference/no effect of X on Y' — never as a prediction of a specific outcome.",
+  "Use the formula sheet: chi-square critical values (p = 0.05 row), Hardy–Weinberg, water potential (Ψ = Ψs + Ψp, Ψs = −iCRT), Simpson's index, logistic growth, SA/V formulas.",
+  "Do the four short FRQs first if you're a strong writer; they're 4 points in ~10 minutes, the highest points-per-minute on the exam.",
+  "For prediction questions, follow the chain one step at a time: disrupted component → immediate molecular effect → cellular effect → organism/population effect."
+ ],
+ "pitfalls": [
+  "Describing a trend without numbers when the question asks for a specific data point, or reading the wrong series/axis.",
+  "Confusing 'fail to reject the null' with 'accept the alternative' or 'prove the null' in chi-square questions.",
+  "Saying enzymes are 'used up' or that high temperature 'kills' an enzyme instead of describing denaturation and loss of active-site shape.",
+  "Mixing up water potential direction: water moves from higher (less negative) Ψ to lower (more negative) Ψ.",
+  "Treating evolution as individual organisms 'adapting' or mutations arising 'in order to' meet a need.",
+  "Counting ATP/carbon atoms in glycolysis or Krebs steps — memorizing pathway intermediates and enzymes is excluded; the exam asks where, why, and what the gradient does.",
+  "Identifying the control as 'the thing held constant' — controlled variables and control groups are different things.",
+  "Writing a vague justification ('because it affects the cell') with no mechanistic link."
+ ],
+ "referenceSheet": "AP Biology Equations and Formulas (provided in print and in Bluebook): mean, sample standard deviation s = √[Σ(xᵢ − x̄)²/(n − 1)], standard error SE = s/√n; chi-square χ² = Σ(o − e)²/e with a critical-value table for p = 0.05 and 0.01, df 1–8; laws of probability (P(A or B) = P(A) + P(B) for mutually exclusive; P(A and B) = P(A) × P(B) for independent); Hardy–Weinberg p² + 2pq + q² = 1 and p + q = 1; mode/median/mean/range definitions; metric prefixes; rate dY/dt; population growth dN/dt = B − D; exponential dN/dt = rmax·N; logistic dN/dt = rmax·N·(K − N)/K; Simpson's Diversity Index = 1 − Σ(n/N)²; water potential Ψ = Ψp + Ψs and Ψs = −iCRT (R = 0.0831 L·bar/mol·K, T in K); surface area and volume of sphere, rectangular solid, cylinder, and cube. The current CED excludes the Gibbs free energy equation, and pH, Q10, and primary-productivity formulas are no longer on the sheet.",
+ "sources": [
+  {
+   "title": "AP Biology Exam (AP Central)",
+   "url": "https://apcentral.collegeboard.org/courses/ap-biology/exam"
+  },
+  {
+   "title": "AP Biology Course (AP Central) — units, weightings, science practices",
+   "url": "https://apcentral.collegeboard.org/courses/ap-biology/course"
+  },
+  {
+   "title": "AP Biology Course and Exam Description (effective fall 2025)",
+   "url": "https://apcentral.collegeboard.org/media/pdf/ap-biology-course-and-exam-description.pdf"
+  },
+  {
+   "title": "AP Course and Exam Changes overview",
+   "url": "https://apcentral.collegeboard.org/courses/how-ap-develops-courses-and-exams/course-changes-overview"
+  },
+  {
+   "title": "AP Biology Score Distributions (AP Students)",
+   "url": "https://apstudents.collegeboard.org/about-ap-scores/score-distributions/ap-biology"
+  },
+  {
+   "title": "AP Biology 2025 Free-Response Questions",
+   "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-biology.pdf"
+  }
+ ],
+ "caveats": [
+  "The updated CED (effective fall 2025) renamed Unit 2 to 'Cells', reorganized Units 1–3 (macromolecules split into separate topics; photosynthesis and respiration consolidated into Topics 3.4–3.5), added biogeochemical cycles to Topic 8.2, and dropped extinction as a stand-alone topic. Some third-party materials still use the 2019 topic numbering.",
+  "Long FRQs (Q1, Q2) are 9 points each per the current CED (previously 10), so the FRQ raw total is 34.",
+  "The 2026 score distribution shown is the rounded figure posted on AP Students before full 2026 data (counts, mean) was published. 2025: 18.9 / 24.1 / 27.4 / 21.0 / 8.6.",
+  "Composite cutoffs are estimates from past released scoring worksheets and prep-industry calculators; College Board does not publish cut scores and they shift each year.",
+  "Check the AP Biology Clarifications and Corrections document on AP Central for any wording changes made after this profile was compiled."
+ ]
+}

@@ -1,0 +1,233 @@
+{
+ "slug": "art-history",
+ "name": "AP Art History",
+ "lastVerified": "2026-10",
+ "overview": "AP Art History surveys 250 required works of art and architecture (the image set) from prehistory to the present across ten content areas, and asks you to analyze form, function, content, and context, compare works, attribute unfamiliar works, and explain how art traditions continue and change. The exam rewards precise visual description tied to contextual explanation, not memorized trivia alone. Required works must be identified accurately (title or designation, artist or culture, date, materials), and some questions use works beyond the image set that you must attribute by comparison with the works you know.",
+ "examMode": "Fully digital in Bluebook",
+ "totalMinutes": 180,
+ "sections": [
+  {
+   "name": "Section I",
+   "questionType": "Multiple choice",
+   "count": 80,
+   "minutes": 60,
+   "weight": "50%",
+   "notes": "Sets of questions based on color images of works of art plus individual questions, some image-based. Four answer choices (A–D). Includes works beyond the image set for attribution and visual-analysis-of-unknown-works questions."
+  },
+  {
+   "name": "Section II",
+   "questionType": "Free response (2 long essays + 4 short essays)",
+   "count": 6,
+   "minutes": 120,
+   "weight": "50%",
+   "notes": "Q1 Comparison (long, 8 pts, ~35 min), Q2 Visual/Contextual Analysis (long, 6 pts, ~25 min), Q3 Visual Analysis, Q4 Contextual Analysis, Q5 Attribution, Q6 Continuity and Change (short, 5 pts each, ~15 min each). Q1, Q3, Q4, Q5, and Q6 include images; Q2 does not."
+  }
+ ],
+ "units": [
+  {
+   "number": 1,
+   "title": "Global Prehistory, 30,000–500 BCE",
+   "weight": "~4%"
+  },
+  {
+   "number": 2,
+   "title": "Ancient Mediterranean, 3500 BCE–300 CE",
+   "weight": "~15%"
+  },
+  {
+   "number": 3,
+   "title": "Early Europe and Colonial Americas, 200–1750 CE",
+   "weight": "~21%"
+  },
+  {
+   "number": 4,
+   "title": "Later Europe and Americas, 1750–1980 CE",
+   "weight": "~21%"
+  },
+  {
+   "number": 5,
+   "title": "Indigenous Americas, 1000 BCE–1980 CE",
+   "weight": "~6%"
+  },
+  {
+   "number": 6,
+   "title": "Africa, 1100–1980 CE",
+   "weight": "~6%"
+  },
+  {
+   "number": 7,
+   "title": "West and Central Asia, 500 BCE–1980 CE",
+   "weight": "~4%"
+  },
+  {
+   "number": 8,
+   "title": "South, East, and Southeast Asia, 300 BCE–1980 CE",
+   "weight": "~8%"
+  },
+  {
+   "number": 9,
+   "title": "The Pacific, 700–1980 CE",
+   "weight": "~4%"
+  },
+  {
+   "number": 10,
+   "title": "Global Contemporary, 1980 CE to Present",
+   "weight": "~11%"
+  }
+ ],
+ "skills": [
+  {
+   "name": "1. Visual Analysis",
+   "description": "Describe and explain how form, style, materials, technique, and content create meaning in a work of art."
+  },
+  {
+   "name": "2. Contextual Analysis",
+   "description": "Explain how context (patronage, function, audience, religion, politics, reception, location) shapes and is shaped by a work of art."
+  },
+  {
+   "name": "3. Comparison of Works of Art",
+   "description": "Explain similarities and differences between works and what those comparisons reveal about meaning, function, or context."
+  },
+  {
+   "name": "4. Artistic Traditions",
+   "description": "Explain how a work shows continuity with or change from an artistic tradition, style, or practice, and how it influenced later art."
+  },
+  {
+   "name": "5. Visual Analysis of Unknown Works",
+   "description": "Analyze visual elements of a work beyond the image set by connecting it to works you know."
+  },
+  {
+   "name": "6. Attribution of Unknown Works",
+   "description": "Attribute a work beyond the image set to an artist, culture, style, or object type, and justify the attribution with visual evidence."
+  },
+  {
+   "name": "7. Art Historical Interpretations",
+   "description": "Analyze how and why scholars interpret works in particular ways, and corroborate, qualify, or modify an interpretation."
+  },
+  {
+   "name": "8. Argumentation",
+   "description": "Develop a defensible claim about a work and support it with specific visual and contextual evidence and reasoning (assessed mainly in FRQ 1 and 2)."
+  }
+ ],
+ "scoring": {
+  "summary": "Multiple choice (80 questions, no penalty for wrong answers) and free response (6 essays, 34 raw points total: 8 + 6 + 5 + 5 + 5 + 5) are each worth 50% of the composite. The composite is converted to a 1–5 score; the conversion is set each year and not published.",
+  "approxCutoffs": [
+   {
+    "score": 5,
+    "minPercent": 70
+   },
+   {
+    "score": 4,
+    "minPercent": 58
+   },
+   {
+    "score": 3,
+    "minPercent": 45
+   },
+   {
+    "score": 2,
+    "minPercent": 32
+   }
+  ],
+  "distribution": {
+   "year": 2025,
+   "percents": {
+    "5": 16.0,
+    "4": 23.3,
+    "3": 26.2,
+    "2": 24.1,
+    "1": 10.3
+   }
+  }
+ },
+ "frqTypes": [
+  {
+   "name": "Q1 Long Essay — Comparison",
+   "points": 8,
+   "howScored": "Analytic rubric (2025 format): 1 pt for two accurate identifiers of the work you select (beyond the title given); 2 pts for describing a visual (or contextual) characteristic of each work; 2 pts for explaining two similarities or differences using specific visual evidence from both works; 3 pts for a claim about why the works are similar or different, supported with specific contextual evidence from each work. Exact row wording varies by year."
+  },
+  {
+   "name": "Q2 Long Essay — Visual/Contextual Analysis",
+   "points": 6,
+   "howScored": "Row A identifiers (1), Row B defensible claim/thesis that establishes a line of reasoning (1), Row C evidence (2: two specific pieces of visual and/or contextual evidence), Row D analysis and reasoning explaining how the evidence supports the claim (1), Row E complexity — a complex understanding using evidence to corroborate, qualify, or modify an interpretation (1). Rows are scored independently. No image is provided; you choose from a list or the content area."
+  },
+  {
+   "name": "Q3 Visual Analysis",
+   "points": 5,
+   "howScored": "Five 1-point tasks (A–E): typically describe two visual characteristics, then use visual evidence to explain how artistic choices create an effect, and explain continuity with or influence on a tradition. Work is usually beyond the image set (image provided)."
+  },
+  {
+   "name": "Q4 Contextual Analysis",
+   "points": 5,
+   "howScored": "Five 1-point tasks on an image-set work (image provided): describe visual or contextual features, describe function or context, explain how context shaped the work, and explain how an interpretation follows from the evidence."
+  },
+  {
+   "name": "Q5 Attribution",
+   "points": 5,
+   "howScored": "1 pt for correct attribution (artist, culture, style, or object type); 2 pts for two visual similarities with a specific image-set work that justify the attribution; 2 pts for further analysis (e.g., how the work reinforced cultural values or functioned). If the attribution is wrong, later points can be limited."
+  },
+  {
+   "name": "Q6 Continuity and Change",
+   "points": 5,
+   "howScored": "Five 1-point tasks on an image-set work (image provided): describe characteristics, use specific evidence to explain continuity with a tradition, explain change from it, and analyze an interpretation of the change."
+  }
+ ],
+ "strategy": [
+  "Budget Section I at 45 seconds per question; the image sets go fast if you name the work first and then reread the stem.",
+  "In every essay that asks for identifiers, give at least three (artist/culture, date, material) so that one slip does not cost the point.",
+  "Answer each lettered task in its own labeled sentence or paragraph on short essays; readers score A–E separately and need to find each one.",
+  "Pair every visual claim with a 'because' that names context: function, patron, audience, religion, politics, or reception.",
+  "For Q1 and Q2, choose the work you know best from the list, not the most impressive one; specific evidence beats sophistication.",
+  "For attribution (Q5), reason from medium, scale, iconography, and style to a specific image-set work, and name that comparison work explicitly.",
+  "Pace the free response: about 35 min for Q1, 25 for Q2, and 15 for each short essay; skipping a whole question costs more than a weaker answer.",
+  "For continuity and change, state one continuity AND one change, each tied to a concrete visual feature.",
+  "Use the date to orient yourself: a date range plus a material often narrows an unknown work to one culture."
+ ],
+ "pitfalls": [
+  "Describing a work without explaining what the feature does or means (description alone rarely earns explain points).",
+  "Confusing similar works: Brancusi's vs. Klimt's The Kiss, the two Venuses (Botticelli vs. Titian), Chartres vs. Sainte-Foy, Great Mosque of Córdoba vs. Isfahan.",
+  "Wrong or vague dates — readers accept ranges, but 'medieval' for a Renaissance work loses the identifier.",
+  "Over-studying Europe: about 40% of the exam weight is outside Units 2–4, and Africa, the Pacific, and Asia carry whole FRQs.",
+  "Treating non-Western objects as static 'art for display'; many are performed, used, activated, or ritually renewed, and questions test that function.",
+  "Writing a thesis that only restates the prompt; a defensible claim makes an argument someone could disagree with.",
+  "Ignoring the 'why' in contextual questions — patronage and audience are often the scoring hinge."
+ ],
+ "sources": [
+  {
+   "title": "AP Art History Exam (AP Central)",
+   "url": "https://apcentral.collegeboard.org/courses/ap-art-history/exam"
+  },
+  {
+   "title": "AP Art History Assessment (AP Students)",
+   "url": "https://apstudents.collegeboard.org/courses/ap-art-history/assessment"
+  },
+  {
+   "title": "AP Art History course page (units and weightings)",
+   "url": "https://apcentral.collegeboard.org/courses/ap-art-history"
+  },
+  {
+   "title": "AP Art History Course and Exam Description (image set appendix, exam information)",
+   "url": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description.pdf"
+  },
+  {
+   "title": "AP Art History CED Clarifications and Corrections (Fall 2026)",
+   "url": "https://apcentral.collegeboard.org/media/pdf/ap-art-history-course-and-exam-description-clarifications.pdf"
+  },
+  {
+   "title": "2025 AP Art History Scoring Guidelines",
+   "url": "https://apcentral.collegeboard.org/media/pdf/ap25-sg-art-history.pdf"
+  },
+  {
+   "title": "AP Art History Score Distributions",
+   "url": "https://apstudents.collegeboard.org/about-ap-scores/score-distributions/ap-art-history"
+  }
+ ],
+ "caveats": [
+  "Composite cutoffs are rough estimates from public score calculators and past released data; College Board does not publish cut scores and they shift each year.",
+  "Score distribution shown is the final 2025 data. Preliminary 2026 figures on the College Board site were 5: 15%, 4: 25%, 3: 27%, 2: 24%, 1: 9%.",
+  "Fall 2026 clarifications renamed work 141 (The Migration Series, Panel 49) and work 175 (Sande Sowei mask) and corrected the date of work 227 (Summer Trees) to 1979; this content uses the updated captions.",
+  "Suggested FRQ times (35/25/15/15/15/15) are College Board's recommended pacing; the 2 hours are a single block on exam day.",
+  "Exact rubric row wording for Q1 and the short essays changes from year to year; the rubrics here mirror the 2025 structure.",
+  "No images can be shown on this site; practice stimuli describe works in words, which makes some items harder or easier than the image-based real exam."
+ ]
+}

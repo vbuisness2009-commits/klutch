@@ -4,6 +4,7 @@ import { AuthShell } from "@/components/auth/AuthShell";
 export default function SignupPage() {
   return (
     <AuthShell
+      mode="signup"
       title="Start being klutch."
       subtitle="Create your account. Take your diagnostic. Get your plan."
       cta="Create account"
@@ -15,7 +16,6 @@ export default function SignupPage() {
           </Link>
         </>
       }
-      showName
     />
   );
 }

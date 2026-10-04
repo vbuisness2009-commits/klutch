@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { AP_SUBJECTS, type ApSubject } from "@/lib/apSubjects";
-import { NEEDS_CHECK, needsCheck } from "@/lib/apContent";
+import { NEEDS_CHECK } from "@/lib/apContent";
 
 const CATEGORIES: ApSubject["category"][] = [
   "Math & CS",
@@ -74,7 +74,7 @@ export default function ApHub() {
                   >
                     <span className="text-sm text-zinc-200">{s.name}</span>
                     <span className="flex flex-shrink-0 items-baseline gap-2.5">
-                      {needsCheck(s.slug) && (
+                      {NEEDS_CHECK.has(s.slug) && (
                         <span className="text-[11px] text-zinc-600">
                           Provisional
                         </span>

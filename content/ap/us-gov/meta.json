@@ -1,0 +1,185 @@
+{
+  "slug": "us-gov",
+  "name": "AP United States Government and Politics",
+  "lastVerified": "2026-10",
+  "overview": "AP U.S. Government and Politics is a college-level introduction to how the American political system works: the constitutional design (federalism, separation of powers, checks and balances), the three branches and the bureaucracy, civil liberties and civil rights, public opinion and ideology, and how citizens participate through voting, parties, interest groups, elections, and the media. The exam rewards applying concepts to new scenarios, reading data and foundational documents, comparing a required Supreme Court case with an unfamiliar one, and writing an evidence-based argument that cites the required foundational documents. For 2026–27 the course framework adds four required foundational documents (Federalist No. 39, the Emancipation Proclamation, the Gettysburg Address, and core principles from Adam Smith's The Wealth of Nations), for 13 in total, and lists 14 required Supreme Court cases.",
+  "examMode": "Fully digital in Bluebook (both sections typed/answered in the app)",
+  "totalMinutes": 180,
+  "sections": [
+    {
+      "name": "Section I",
+      "questionType": "Multiple choice",
+      "count": 55,
+      "minutes": 80,
+      "weight": "50%",
+      "notes": "4 answer choices (A–D). About 30 standalone questions plus stimulus sets: five quantitative-data sets (2–3 questions each), two text-based sets (3–4 questions; one uses a foundational document), and three visual-source sets (2 questions each: map, cartoon, or infographic)."
+    },
+    {
+      "name": "Section II",
+      "questionType": "Free response",
+      "count": 4,
+      "minutes": 100,
+      "weight": "50%",
+      "notes": "Four equally weighted questions (12.5% each): Q1 Concept Application (3 pts, ~20 min), Q2 Quantitative Analysis (4 pts, ~20 min), Q3 SCOTUS Comparison (4 pts, ~20 min), Q4 Argument Essay (6 pts, ~40 min)."
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Foundations of American Democracy",
+      "weight": "15–22%"
+    },
+    {
+      "number": 2,
+      "title": "Interactions Among Branches of Government",
+      "weight": "25–36%"
+    },
+    {
+      "number": 3,
+      "title": "Civil Liberties and Civil Rights",
+      "weight": "13–18%"
+    },
+    {
+      "number": 4,
+      "title": "American Political Ideologies and Beliefs",
+      "weight": "10–15%"
+    },
+    {
+      "number": 5,
+      "title": "Political Participation",
+      "weight": "20–27%"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Concept Application",
+      "description": "Apply political concepts and processes to scenarios in context: describe, explain, and compare principles, institutions, processes, policies, and behaviors."
+    },
+    {
+      "name": "SCOTUS Application",
+      "description": "Apply Supreme Court decisions: know the facts, holdings, and reasoning of the required cases and compare them with non-required cases."
+    },
+    {
+      "name": "Data Analysis",
+      "description": "Analyze and interpret quantitative data in tables, charts, graphs, maps, and infographics, and connect patterns to political concepts."
+    },
+    {
+      "name": "Source Analysis",
+      "description": "Read, analyze, and interpret foundational documents and other text-based and visual sources (claims, perspective, reasoning)."
+    },
+    {
+      "name": "Argumentation",
+      "description": "Develop an argument in essay format: defensible thesis, evidence from foundational documents and course knowledge, reasoning, and a response to an opposing view."
+    }
+  ],
+  "scoring": {
+    "summary": "Multiple choice (55 questions) and free response (4 questions, 17 raw points) are each worth 50% of the composite. Each FRQ is weighted equally at 12.5% even though they carry 3, 4, 4, and 6 raw points, so a point on the 3-point Concept Application question is worth twice as much as a point on the 6-point Argument Essay. There is no penalty for wrong answers. The weighted composite is converted to a 1–5 score by College Board equating each year.",
+    "approxCutoffs": [
+      {
+        "score": 5,
+        "minPercent": 75
+      },
+      {
+        "score": 4,
+        "minPercent": 62
+      },
+      {
+        "score": 3,
+        "minPercent": 48
+      },
+      {
+        "score": 2,
+        "minPercent": 33
+      }
+    ],
+    "distribution": {
+      "year": 2026,
+      "percents": {
+        "1": 8,
+        "2": 16,
+        "3": 25,
+        "4": 28,
+        "5": 23
+      }
+    }
+  },
+  "frqTypes": [
+    {
+      "name": "Q1 Concept Application",
+      "points": 3,
+      "howScored": "A scenario (news-style paragraph) followed by parts A–C. Typically: A describes a political institution, behavior, or process in the scenario (1); B explains how it affects something (1); C explains how the scenario connects to another concept or how another actor could respond (1). Each point requires connecting to the scenario, not just a definition."
+    },
+    {
+      "name": "Q2 Quantitative Analysis",
+      "points": 4,
+      "howScored": "A graph, table, or map followed by parts A–D: A identifies a data point (1); B describes a trend or pattern (1); C draws a conclusion about the data's implication for a concept or explains a limitation (1); D explains how the data relate to a political process (e.g. socialization, interest-group strategy) (1)."
+    },
+    {
+      "name": "Q3 SCOTUS Comparison",
+      "points": 4,
+      "howScored": "A summary of a non-required case is given; the prompt names a required case. A identifies the constitutional clause/principle common to both (1); B explains how the facts of the two cases led to similar or different holdings — 2 points, one for accurately describing relevant facts/holding of the required case and one for explaining the similarity/difference; C explains how the non-required holding relates to a concept, or how an actor could respond to it (1)."
+    },
+    {
+      "name": "Q4 Argument Essay",
+      "points": 6,
+      "howScored": "Row A thesis that is defensible and establishes a line of reasoning (1). Row B evidence (0–3): 1 point for one piece of specific, relevant evidence; 2 points for one piece from a listed foundational document used to support the claim, or two pieces not from the list; 3 points for two pieces that support the claim, one of which comes from a listed foundational document (and the thesis point must be earned). Row C reasoning explaining why the evidence supports the claim (1). Row D responds to an opposing or alternative perspective with refutation, concession, or rebuttal (1)."
+    }
+  ],
+  "strategy": [
+    "Spend about 20 minutes each on FRQs 1–3 and 40 on the Argument Essay. Because FRQs are weighted equally, never leave Q1 or Q3 thin to polish the essay.",
+    "On FRQs, label each part (A, B, C) and answer in complete sentences that tie back to the scenario. A correct definition that never mentions the scenario usually earns nothing.",
+    "For the SCOTUS Comparison, write two or three sentences of facts for the required case (who sued, what law, what the Court held, and why) before comparing. The comparison point depends on accurate facts.",
+    "In the Argument Essay, put your thesis in the first sentence, name the foundational document and the specific idea in it (e.g. Federalist No. 10's argument that a large republic controls faction), and use the word 'because' to make reasoning visible.",
+    "Always include a one-paragraph rebuttal: state the opposing view fairly, then explain why your evidence outweighs it. It is the easiest point on the essay to forget.",
+    "On data stimuli, read the title, axis labels, units, and source note before the question. Many wrong answers are true statements that the data do not show.",
+    "For quantitative MCQ sets, check whether the question asks what the data show or what explains the data — the second needs course content, the first must be read straight off the chart.",
+    "Pace Section I at about 1 minute 25 seconds per question; flag long stimulus sets and come back rather than stalling.",
+    "Memorize the 13 required foundational documents and 14 required cases by their one-line principle; most MCQs test application, not recall of dates."
+  ],
+  "pitfalls": [
+    "Confusing civil liberties (protections from government, Bill of Rights, due process) with civil rights (protection from discrimination, equal protection).",
+    "Mixing up Federalist No. 10 (faction, large republic) with Federalist No. 51 (separation of powers, 'ambition must be made to counteract ambition').",
+    "Treating judicial review as stated in the Constitution — it was established by Marbury v. Madison and defended in Federalist No. 78.",
+    "Thinking the Commerce Clause always wins: Lopez (1995) limited it, while McCulloch is about the Necessary and Proper Clause and supremacy.",
+    "Writing a thesis that restates the prompt ('social media can help or hurt democracy') instead of taking a side with a reason.",
+    "Describing a trend in data with no direction or time frame, or citing numbers not actually in the chart.",
+    "Calling Roe v. Wade a required case: the 2026 framework's required list has 14 cases; Dobbs v. Jackson (2022) overturning Roe is covered in the essential knowledge.",
+    "Confusing selective incorporation (applying Bill of Rights protections to states through the Fourteenth Amendment's Due Process Clause) with equal protection."
+  ],
+  "sources": [
+    {
+      "title": "AP U.S. Government and Politics Exam (AP Students)",
+      "url": "https://apstudents.collegeboard.org/courses/ap-united-states-government-and-politics/assessment"
+    },
+    {
+      "title": "AP U.S. Government and Politics course page (AP Central)",
+      "url": "https://apcentral.collegeboard.org/courses/ap-united-states-government-and-politics"
+    },
+    {
+      "title": "AP U.S. Government and Politics Course and Exam Description, effective Fall 2026",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-government-and-politics-course-and-exam-description.pdf"
+    },
+    {
+      "title": "AP U.S. Government and Politics CED Clarifications and Corrections (Fall 2026)",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-us-government-and-politics-course-and-exam-description-clarifications.pdf"
+    },
+    {
+      "title": "2025 AP U.S. Government and Politics Free-Response Questions, Set 1",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-us-gov-pol-set-1.pdf"
+    },
+    {
+      "title": "2025 AP U.S. Government and Politics Scoring Guidelines, Set 1",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap25-sg-us-gov-pol-set-1.pdf"
+    },
+    {
+      "title": "2026 AP Score Distributions (AP Students)",
+      "url": "https://apstudents.collegeboard.org/about-ap-scores/score-distributions"
+    }
+  ],
+  "caveats": [
+    "The 2026–27 framework (effective Fall 2026) adds four required foundational documents: Federalist No. 39, the Emancipation Proclamation, the Gettysburg Address, and core principles from Adam Smith's The Wealth of Nations. Released exams before 2027 could not have asked about these, so there is no released calibration for how they appear on the exam.",
+    "The Fall 2026 CED's required Supreme Court case list has 14 cases and does not include Roe v. Wade; older review materials list 15.",
+    "Composite cutoffs are estimates based on commonly reported score-calculator ranges; College Board does not publish cut scores and they shift by year.",
+    "The digital exam may present stimulus sets in a different order than older paper exams; question counts and timing are from College Board's 2026–27 exam page."
+  ]
+}

@@ -1,8 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { FeedbackChat } from "./FeedbackChat";
+import { attemptFromAnalytics } from "@/lib/attempts";
+import { saveAttempt, type SaveResult } from "@/lib/attemptsClient";
 import {
   HEURISTIC_NOTE,
   buildSessionAnalytics,
@@ -28,6 +30,8 @@ type Props = {
   itemTimes?: Record<string, number>;
   answerChanges?: Record<string, number>;
   scorable?: boolean;
+  /** Admin preview of an unpublished test: never saved to an account. */
+  preview?: boolean;
 };
 
 export function ResultsScreen({
@@ -38,6 +42,7 @@ export function ResultsScreen({
   itemTimes = {},
   answerChanges = {},
   scorable = true,
+  preview = false,
 }: Props) {
   const analytics = useMemo(
     () =>
@@ -88,6 +93,14 @@ export function ResultsScreen({
     (i) => !i.pretest && i.correct === false
   );
 
+  const [saveStatus, setSaveStatus] = useState<SaveResult | "saving">("saving");
+  const savedOnce = useRef(false);
+  useEffect(() => {
+    if (savedOnce.current || preview) return;
+    savedOnce.current = true;
+    void saveAttempt(attemptFromAnalytics(analytics)).then(setSaveStatus);
+  }, [analytics]);
+
   return (
     <div className="relative min-h-[calc(100vh-3.5rem)] overflow-hidden">
       <div
@@ -114,6 +127,14 @@ export function ResultsScreen({
           </>
         ) : (
           <ScoreHero result={analytics.score!} totals={analytics.totals} />
+        )}
+
+        {preview ? (
+          <p className="mt-4 text-[12px] text-amber-300/90">
+            Admin preview. This result is not saved to any account.
+          </p>
+        ) : (
+          <SaveStatus status={saveStatus} />
         )}
 
         <FeedbackChat analytics={feedbackPayload} />
@@ -169,6 +190,41 @@ export function ResultsScreen({
         </Link>
       </section>
     </div>
+  );
+}
+
+function SaveStatus({ status }: { status: SaveResult | "saving" }) {
+  if (status === "saving") {
+    return <p className="mt-4 text-[12px] text-zinc-600">Saving to your account…</p>;
+  }
+  if (status === "saved") {
+    return (
+      <p className="mt-4 text-[12px] text-zinc-500">
+        Saved to your account.{" "}
+        <Link href="/dashboard" className="font-medium text-mint hover:underline">
+          See your dashboard
+        </Link>
+      </p>
+    );
+  }
+  if (status === "signed-out") {
+    return (
+      <p className="mt-4 text-[12px] text-zinc-400">
+        <Link href="/signup?next=/dashboard" className="font-semibold text-mint hover:underline">
+          Create a free account
+        </Link>{" "}
+        or{" "}
+        <Link href="/login?next=/dashboard" className="font-semibold text-mint hover:underline">
+          log in
+        </Link>{" "}
+        to keep this score. It&rsquo;s held on this device until you do.
+      </p>
+    );
+  }
+  return (
+    <p className="mt-4 text-[12px] text-rose-300/80">
+      Couldn&rsquo;t save this result to your account.
+    </p>
   );
 }
 
@@ -307,9 +363,7 @@ function TimingRow({ row }: { row: ItemAnalytics }) {
   const bandLeft = (pace.minSec / cap) * 100;
   const bandWidth = ((pace.maxSec - pace.minSec) / cap) * 100;
   const label =
-    !row.skill ||
-    row.skill === "Imported from PDF" ||
-    row.skill === "Imported"
+    !row.skill || row.skill === "Imported"
       ? row.domain
       : row.skill;
 
@@ -443,11 +497,10 @@ function MissedItem({
   paceLabel: string;
 }) {
   const [open, setOpen] = useState(false);
+  const answered = Boolean(response?.trim());
   const answer = isSpr(item) ? item.accepted[0] : item.correct;
   const label =
-    !item.skill ||
-    item.skill === "Imported from PDF" ||
-    item.skill === "Imported"
+    !item.skill || item.skill === "Imported"
       ? item.domain
       : item.skill;
 
@@ -470,7 +523,7 @@ function MissedItem({
           <span className="text-zinc-700"> / {paceLabel}</span>
         </span>
         <span className="nums flex-shrink-0 text-[12px] text-zinc-500">
-          you: {response || "blank"} · key: {answer}
+          {answered ? `you: ${response} · key: ${answer}` : "Not answered"}
         </span>
       </button>
 
@@ -488,7 +541,11 @@ function MissedItem({
             content={item.stem}
             className="max-w-[70ch] text-[14px] font-medium leading-relaxed text-zinc-200"
           />
-          {item.solutions && item.solutions.length > 0 ? (
+          {!answered ? (
+            <p className="mt-4 text-[13px] text-zinc-500">
+              Not answered, so no answer or explanation is shown.
+            </p>
+          ) : item.solutions && item.solutions.length > 0 ? (
             <SolutionTabs solutions={item.solutions} />
           ) : (
             <RichBlock
@@ -520,7 +577,7 @@ function RichBlock({
       />
     );
   }
-  return <p className={className}>{content}</p>;
+  return <p className={`${className ?? ""} whitespace-pre-line`}>{content}</p>;
 }
 
 function SolutionTabs({ solutions }: { solutions: SolutionPath[] }) {

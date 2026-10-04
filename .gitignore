@@ -32,12 +32,11 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts.bak
 
-# Zenith SAT PDF generator output
-sat-pdf-gen/out/*
-!sat-pdf-gen/out/.gitkeep
 .shots/
-scripts/.bb-loop/
-# Keep library JSON in repo so deploys ship practice forms; ignore local backups.
+# Retired material (past papers, extraction dumps). Never read, never shipped.
+content/_retired/
+# Local file-store backups.
 content/tests/*.bak*
 content/last-extract.json
 content/*.bak*
+.env*

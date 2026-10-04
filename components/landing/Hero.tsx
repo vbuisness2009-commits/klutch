@@ -1,10 +1,14 @@
 import Link from "next/link";
-import { ARCHIVE_COUNT } from "@/lib/satArchive";
 import { AP_SUBJECTS } from "@/lib/apSubjects";
+import { listTests } from "@/lib/testEngine/store";
 
 const AP_COUNT = AP_SUBJECTS.length;
 
-export function Hero() {
+export async function Hero() {
+  const satCount = (await listTests()).filter(
+    (t) => t.published || t.published
+  ).length;
+
   return (
     <section className="border-b border-white/[0.07]">
       <div className="mx-auto grid max-w-6xl gap-12 px-5 pb-16 pt-14 sm:px-8 lg:grid-cols-[1.25fr_1fr] lg:gap-14 lg:pb-20 lg:pt-20">
@@ -35,7 +39,6 @@ export function Hero() {
           </div>
         </div>
 
-        {/* Both pillars, with their honest status side by side. */}
         <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-1 lg:pt-2">
           <div className="panel p-5">
             <div className="flex items-baseline justify-between gap-3">
@@ -47,8 +50,9 @@ export function Hero() {
               </span>
             </div>
             <p className="nums mt-2 text-[13px] leading-relaxed text-zinc-400">
-              {ARCHIVE_COUNT} past administrations, parsed question by question.
-              Full papers, timed by module, scored 400 to 1600.
+              {satCount === 0
+                ? "Papers appear here as they are uploaded."
+                : `${satCount} paper${satCount === 1 ? "" : "s"} ready — timed by module, scored 400 to 1600.`}
             </p>
           </div>
 
@@ -58,12 +62,11 @@ export function Hero() {
                 AP
               </h2>
               <span className="text-[11px] font-semibold text-zinc-400">
-                Filling in
+                {AP_COUNT} subjects
               </span>
             </div>
             <p className="nums mt-2 text-[13px] leading-relaxed text-zinc-400">
-              All {AP_COUNT} subjects are mapped to their units. Past exams,
-              tiered practice, guides, and vocab are being loaded subject by
+              Unit guides, vocab, and practice — still being loaded subject by
               subject.
             </p>
           </div>

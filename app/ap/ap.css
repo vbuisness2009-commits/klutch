@@ -1,0 +1,125 @@
+/* AP content typography. Loaded by app/ap/layout.tsx, so it only ships on AP
+   pages. Markdown from content/ap renders through components/ap/Markdown.tsx
+   into these classes. */
+
+/* Content is written with Unicode math (∫ √ ² ≤ θ ₀). Inter isn't bundled, so
+   the system UI font does the text and the math-capable fonts each platform
+   ships (STIX Two on macOS, Cambria Math on Windows, Noto on Android/Linux)
+   fill in glyphs it lacks, one character at a time. */
+.ap-text {
+  font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Noto Sans", "Helvetica Neue", Arial, "STIX Two Math", "STIX Two Text",
+    "Cambria Math", "Noto Sans Math", "Segoe UI Symbol", "Apple Symbols",
+    sans-serif;
+  overflow-wrap: anywhere;
+}
+
+.ap-md > * + * {
+  margin-top: 0.85em;
+}
+.ap-md p {
+  line-height: 1.7;
+}
+
+.ap-md ul,
+.ap-md ol {
+  padding-left: 1.35em;
+}
+.ap-md li {
+  line-height: 1.65;
+}
+.ap-md li + li {
+  margin-top: 0.35em;
+}
+.ap-md li > * + * {
+  margin-top: 0.35em;
+}
+.ap-md li::marker {
+  color: #71717a;
+}
+
+.ap-md-h {
+  font-size: 1.02em;
+  margin-top: 1.4em;
+}
+
+.ap-md blockquote {
+  border-left: 2px solid rgba(255, 255, 255, 0.18);
+  padding-left: 1em;
+  color: #d4d4d8;
+}
+
+.ap-md hr {
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.09);
+}
+
+/* Code and tables scroll inside their own box so a long line never widens the
+   page on a phone. */
+.ap-code,
+.ap-inline-code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "DejaVu Sans Mono",
+    "Noto Sans Mono", "Liberation Mono", monospace;
+}
+.ap-code {
+  overflow-x: auto;
+  max-width: 100%;
+  background: #08080f;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 6px;
+  padding: 0.85em 1em;
+  font-size: 13px;
+  line-height: 1.6;
+  color: #e4e4e7;
+  white-space: pre;
+  tab-size: 4;
+  overflow-wrap: normal;
+}
+.ap-inline-code {
+  font-size: 0.88em;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 4px;
+  padding: 0.05em 0.35em;
+  color: #f4f4f5;
+  overflow-wrap: anywhere;
+}
+
+.ap-table-wrap {
+  overflow-x: auto;
+  max-width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  border-radius: 6px;
+}
+.ap-table-wrap table {
+  border-collapse: collapse;
+  min-width: 100%;
+  font-size: 0.93em;
+  font-variant-numeric: tabular-nums;
+}
+.ap-table-wrap th,
+.ap-table-wrap td {
+  padding: 0.5em 0.85em;
+  text-align: left;
+  vertical-align: top;
+  overflow-wrap: normal;
+}
+.ap-table-wrap th {
+  font-weight: 600;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.03);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
+}
+.ap-table-wrap tr + tr td {
+  border-top: 1px solid rgba(255, 255, 255, 0.07);
+}
+.ap-table-wrap td + td,
+.ap-table-wrap th + th {
+  border-left: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.ap-code:focus-visible,
+.ap-table-wrap:focus-visible {
+  outline: 2px solid rgba(61, 255, 193, 0.6);
+  outline-offset: 2px;
+}

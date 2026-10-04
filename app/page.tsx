@@ -3,6 +3,8 @@ import { Hero } from "@/components/landing/Hero";
 import { SatSection } from "@/components/landing/SatSection";
 import { ApSection } from "@/components/landing/ApSection";
 
+export const dynamic = "force-dynamic";
+
 export default function HomePage() {
   return (
     <>

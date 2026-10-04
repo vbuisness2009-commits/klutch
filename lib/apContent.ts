@@ -1,48 +1,18 @@
 /**
- * AP content model.
+ * Fallback AP unit lists.
  *
  * `AP_UNITS` carries the unit breakdown for every subject, transcribed from the
- * College Board course descriptions. Subjects listed in `NEEDS_CHECK` are ones
- * whose CED was recently revised or that don't use conventional units
- * (portfolio courses, the QUEST framework, language themes). Their titles are
- * a best reading and should be checked against the current CED before anyone
- * studies off them.
+ * College Board course descriptions. It is only used until a subject's
+ * content/ap/<slug>/meta.json lands; from then on meta.units is authoritative
+ * (see lib/apLoader.ts). Subjects listed in `NEEDS_CHECK` are ones whose CED
+ * was recently revised or that don't use conventional units (portfolio
+ * courses, the QUEST framework, language themes). Their fallback titles are a
+ * best reading and are marked provisional until real content replaces them.
  *
- * `AP_COVERAGE` counts content that actually exists. A zero renders as an empty
- * state. Don't put a number here until the material is loaded.
+ * This file stays dependency-free so scripts/check-ap-units.ts can import it
+ * straight from Node. Anything that touches the filesystem lives in
+ * lib/apLoader.ts.
  */
-
-export type ContentKind = "exams" | "practice" | "guides" | "vocab" | "videos";
-
-export const CONTENT_LABELS: Record<ContentKind, string> = {
-  exams: "Past exams",
-  practice: "Practice",
-  guides: "Unit guides",
-  vocab: "Vocab",
-  videos: "Videos",
-};
-
-export const CONTENT_ORDER: ContentKind[] = [
-  "guides",
-  "practice",
-  "vocab",
-  "videos",
-  "exams",
-];
-
-/** Difficulty tiers every practice set is graded into. */
-export const DIFFICULTIES = ["Intro", "Exam level", "Hardest"] as const;
-export type Difficulty = (typeof DIFFICULTIES)[number];
-
-export type Coverage = Record<ContentKind, number>;
-
-const EMPTY: Coverage = {
-  exams: 0,
-  practice: 0,
-  guides: 0,
-  vocab: 0,
-  videos: 0,
-};
 
 // The six themes shared by every AP world language course.
 const LANGUAGE_THEMES = [
@@ -356,9 +326,10 @@ export const AP_UNITS: Record<string, string[]> = {
 };
 
 /**
- * Subjects whose unit titles still need checking against the current CED,
- * either because the course was recently redesigned or because it doesn't use
- * conventional content units.
+ * Subjects whose fallback unit titles still need checking against the current
+ * CED, either because the course was recently redesigned or because it doesn't
+ * use conventional content units. A subject stops being provisional as soon as
+ * its meta.json exists.
  */
 export const NEEDS_CHECK = new Set([
   "cs-a",
@@ -371,22 +342,8 @@ export const NEEDS_CHECK = new Set([
   "studio-art-drawing",
 ]);
 
-export const AP_COVERAGE: Record<string, Partial<Coverage>> = {};
-
-export function coverageFor(slug: string): Coverage {
-  return { ...EMPTY, ...(AP_COVERAGE[slug] ?? {}) };
-}
-
-export function hasContent(slug: string): boolean {
-  return Object.values(coverageFor(slug)).some((n) => n > 0);
-}
-
 export function unitTitles(slug: string, unitCount: number): string[] {
   return (
     AP_UNITS[slug] ?? Array.from({ length: unitCount }, (_, i) => `Unit ${i + 1}`)
   );
-}
-
-export function needsCheck(slug: string): boolean {
-  return NEEDS_CHECK.has(slug);
 }

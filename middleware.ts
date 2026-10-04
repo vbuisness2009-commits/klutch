@@ -1,34 +1,43 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
+import { ADMIN_COOKIE, verifyAdminSession } from "@/lib/adminAuth";
 
 /**
- * Optional lock on the admin surface for public deploys.
- * Set ADMIN_SECRET in the environment; visitors must send
- *   ?key=SECRET  or  header x-admin-key: SECRET
- * Practice / player routes stay open.
+ * /admin and /api/admin are only visible to the ADMIN_EMAIL session. Everyone
+ * else gets a plain 404, so the hub doesn't advertise that it exists. The login
+ * page and endpoint stay reachable by direct URL so a new device can sign in.
  */
-export function middleware(req: NextRequest) {
-  const secret = process.env.ADMIN_SECRET;
-  if (!secret) return NextResponse.next();
-
+export async function middleware(req: NextRequest) {
   const path = req.nextUrl.pathname;
-  if (!path.startsWith("/admin") && !path.startsWith("/api/admin")) {
-    return NextResponse.next();
+
+  const isAdminPage = path === "/admin" || path.startsWith("/admin/");
+  const isAdminApi = path.startsWith("/api/admin");
+  const isLogin =
+    path === "/admin/login" || path === "/api/admin/login";
+
+  if (!isAdminPage && !isAdminApi) return NextResponse.next();
+  if (isLogin) {
+    const res = NextResponse.next();
+    res.headers.set("x-robots-tag", "noindex, nofollow");
+    return res;
   }
 
-  const key =
-    req.nextUrl.searchParams.get("key") ||
-    req.headers.get("x-admin-key") ||
-    "";
+  const token = req.cookies.get(ADMIN_COOKIE)?.value;
+  const session = await verifyAdminSession(token);
 
-  if (key === secret) return NextResponse.next();
+  if (!session) {
+    if (isAdminApi) {
+      return NextResponse.json({ error: "Not found." }, { status: 404 });
+    }
+    // Any path outside the matcher with no page renders the site's 404.
+    return NextResponse.rewrite(new URL("/__not-found", req.url), {
+      status: 404,
+    });
+  }
 
-  return NextResponse.json(
-    { error: "Admin locked. Pass ?key=… or x-admin-key." },
-    { status: 401 }
-  );
+  return NextResponse.next();
 }
 
 export const config = {
-  matcher: ["/admin/:path*", "/api/admin/:path*"],
+  matcher: ["/admin", "/admin/:path*", "/api/admin/:path*"],
 };

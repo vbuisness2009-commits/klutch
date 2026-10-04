@@ -88,6 +88,12 @@ type BaseItem = {
   stimulus?: string;
   stem: string;
   rationale: string;
+  /**
+   * Where the answer key came from. Missing/unset means the item still needs
+   * a key (typical Bluebook export). "solved" means the post-upload Gemini
+   * pass filled it; "paper" means it arrived with the source file.
+   */
+  keySource?: "paper" | "solved" | "missing";
   /** Set by importers when stem and stimulus carry markup rather than plain text. */
   html?: boolean;
   /** Target active-time band for pacing feedback. */

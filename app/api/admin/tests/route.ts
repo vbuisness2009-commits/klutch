@@ -1,9 +1,5 @@
 import { NextResponse } from "next/server";
-import { importBluebookJson, type SourceFile } from "@/lib/testEngine/importBluebook";
-import {
-  importExtracted,
-  type ExtractedQuestion,
-} from "@/lib/testEngine/importExtracted";
+import { parseUpload } from "@/lib/testEngine/authoring";
 import {
   listTests,
   saveTest,
@@ -15,22 +11,30 @@ import {
 export const dynamic = "force-dynamic";
 
 export async function GET() {
-  return NextResponse.json({ tests: await listTests() });
+  try {
+    return NextResponse.json({ tests: await listTests() });
+  } catch (e) {
+    return NextResponse.json(
+      { error: e instanceof Error ? e.message : "Could not load tests.", tests: [] },
+      { status: 500 }
+    );
+  }
 }
 
+/**
+ * Upload a Klutch practice test (CSV or JSON authoring format).
+ * Body: { title, collection?, source?, published?, kind: "csv" | "json", text }
+ * The file is re-validated here; the client-side preview is never trusted.
+ */
 export async function POST(request: Request) {
   let body: {
     title?: string;
     collection?: string;
     source?: string;
-    availability?: { test?: boolean; pdf?: boolean };
-    swapModuleTwo?: boolean;
-    /** "bluebook" for exported session JSON, "extracted" for PDF output. */
-    format?: "bluebook" | "extracted";
-    crops?: Record<string, string>;
-    data?: unknown;
+    published?: boolean;
+    kind?: "csv" | "json";
+    text?: string;
   };
-
   try {
     body = await request.json();
   } catch {
@@ -38,64 +42,42 @@ export async function POST(request: Request) {
   }
 
   const title = body.title?.trim();
-  if (!title) {
-    return NextResponse.json({ error: "A title is required." }, { status: 400 });
+  if (!title) return NextResponse.json({ error: "A title is required." }, { status: 400 });
+  if (body.kind !== "csv" && body.kind !== "json") {
+    return NextResponse.json({ error: "kind must be csv or json." }, { status: 400 });
   }
-  if (!body.data || typeof body.data !== "object") {
-    return NextResponse.json(
-      { error: "No test file contents were included." },
-      { status: 400 }
-    );
+  if (typeof body.text !== "string" || !body.text.trim()) {
+    return NextResponse.json({ error: "The file is empty." }, { status: 400 });
   }
 
-  const id = await uniqueId(slugify(title));
-
-  let imported;
   try {
-    imported =
-      body.format === "extracted"
-        ? importExtracted(body.data as ExtractedQuestion[], {
-            id,
-            name: title,
-            crops: body.crops,
-          })
-        : importBluebookJson(body.data as SourceFile, {
-            id,
-            name: title,
-            swapModuleTwo: body.swapModuleTwo,
-          });
+    const id = await uniqueId(slugify(title));
+    const result = parseUpload(body.kind, body.text, { id, name: title });
+    if (!result.form) {
+      return NextResponse.json(
+        { error: `${result.errors.length} problem(s) must be fixed before saving.`, errors: result.errors, warnings: result.warnings },
+        { status: 422 }
+      );
+    }
+    const now = new Date().toISOString();
+    const stored: StoredTest = {
+      id,
+      title,
+      collection: body.collection?.trim() || result.doc?.collection?.trim() || "Full-length tests",
+      source: body.source?.trim() || "",
+      published: Boolean(body.published),
+      scorable: result.scorable,
+      warnings: result.warnings.map((w) => `${w.where}: ${w.message}`),
+      uploadedAt: now,
+      updatedAt: now,
+      form: result.form,
+    };
+    await saveTest(stored);
+    return NextResponse.json({ id, scorable: stored.scorable, warnings: result.warnings, summary: result.summary });
   } catch (e) {
     return NextResponse.json(
-      { error: e instanceof Error ? e.message : "Could not read that file." },
-      { status: 422 }
+      { error: e instanceof Error ? e.message : "Could not save the test." },
+      { status: 500 }
     );
   }
-
-  const stored: StoredTest = {
-    id,
-    title,
-    collection: body.collection?.trim() || "Uncategorized",
-    source: body.source?.trim() || "",
-    availability: {
-      test: body.availability?.test ?? true,
-      pdf: body.availability?.pdf ?? false,
-    },
-    scorable: imported.scorable,
-    warnings: imported.warnings,
-    uploadedAt: new Date().toISOString(),
-    form: imported.form,
-  };
-
-  await saveTest(stored);
-
-  return NextResponse.json({
-    id,
-    scorable: stored.scorable,
-    warnings: stored.warnings,
-    sections: imported.form.sections.map((s) => ({
-      name: s.name,
-      module1: s.module1.items.length,
-      module2: s.module2.upper.items.length,
-    })),
-  });
 }

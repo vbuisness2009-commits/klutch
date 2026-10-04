@@ -1,0 +1,14 @@
+.env
+.env*.local
+.next
+node_modules
+.shots
+.DS_Store
+scripts/.bb-loop
+sat-pdf-gen/out
+content/last-extract.json
+content/*.bak*
+content/tests/*.bak*
+*.tsbuildinfo
+.agents
+skills-lock.json

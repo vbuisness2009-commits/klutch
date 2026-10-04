@@ -1,0 +1,691 @@
+{
+ "number": 2,
+ "title": "Cells",
+ "guide": {
+  "summary": "Unit 2 explains how cell structure enables cell function: organelles and the endomembrane system, the limits that surface area-to-volume ratio places on cell size, how the fluid mosaic membrane controls what enters and leaves, the mechanisms of passive and active transport, and osmosis quantified with water potential. It ends with why eukaryotic cells are compartmentalized and the evidence that mitochondria and chloroplasts were once free-living prokaryotes.",
+  "sections": [
+   {
+    "heading": "Organelles: structure explains function",
+    "body": "Every question about organelles is really a structure–function question. Learn each organelle with its *why*.\n\n| Structure | Key feature | Function the exam rewards |\n|---|---|---|\n| Ribosome | rRNA + protein, no membrane; in all cells | Synthesizes proteins from mRNA; its universality is evidence of common ancestry |\n| Rough ER | Membrane studded with ribosomes | Synthesizes proteins destined for membranes, lysosomes, or secretion; compartmentalizes them |\n| Smooth ER | No ribosomes | Lipid synthesis, detoxification; stores Ca²⁺ in muscle |\n| Golgi complex | Stacks of flattened membrane sacs | Folds and chemically modifies (e.g., adds carbohydrates) and packages proteins for trafficking |\n| Lysosome | Membrane sac with hydrolytic enzymes, acidic interior | Intracellular digestion, recycling organelles, apoptosis |\n| Vacuole | Membrane-bound sac | Plants: large central vacuole stores water and maintains turgor pressure; animals: smaller, storage |\n| Mitochondrion | Double membrane; highly folded inner membrane (cristae) | Aerobic respiration; folds increase surface area for ETC and ATP synthase |\n| Chloroplast | Double membrane; thylakoid stacks in stroma | Photosynthesis; thylakoid membranes carry the light-reaction machinery |\n\nThe **endomembrane system** — nuclear envelope, ER, Golgi, lysosomes, vacuoles, vesicles, and plasma membrane — works as a pipeline. For a secreted protein: ribosome on rough ER → ER lumen (folding begins) → transport vesicle → Golgi (modification) → secretory vesicle → exocytosis at the plasma membrane. Pulse-chase questions (a radioactive amino acid appears first in rough ER, then Golgi, then vesicles, then outside the cell) test this order.\n\nTwo exam favorites: (1) a cell type that secretes lots of protein (pancreatic cells, plasma cells) has abundant rough ER and Golgi; a cell that detoxifies drugs (liver) has abundant smooth ER; a muscle cell has many mitochondria. (2) If lysosomal enzymes leak into the cytosol (pH ~7.2) they work poorly, because their optimum is the acidic lysosomal pH (~4.5–5)."
+   },
+   {
+    "heading": "Cell size and surface area-to-volume ratio",
+    "body": "A cell exchanges materials across its surface, but its needs scale with its volume. As a cell grows, volume increases faster than surface area, so **SA:V decreases**. For a cube of side s, SA = 6s² and V = s³, so SA/V = 6/s; for a sphere, SA/V = 3/r. Doubling the side halves the ratio.\n\nConsequences the exam asks about:\n- Small cells exchange materials (nutrients, wastes, heat) more efficiently, which limits cell size.\n- Cells and organisms evolve structures that **increase surface area without much volume**: microvilli on gut epithelial cells, root hairs, folded inner mitochondrial membranes, flattened shapes, alveoli, gills.\n- Large organisms have specialized exchange surfaces and lose heat more slowly per unit mass (relevant to Unit 8 thermoregulation).\n\n**Worked example (agar cubes).** Cubes of agar containing an indicator are soaked in a solution that diffuses inward 0.5 cm in 10 minutes. What fraction of a 3 cm cube is reached? The untouched core is a cube of side 3 − 2(0.5) = 2 cm, volume 8 cm³, out of 27 cm³. Fraction reached = 1 − 8/27 = 19/27 ≈ **70%**. For a 2 cm cube it is 1 − 1/8 = 87.5%, and for a 4 cm cube 1 − 27/64 ≈ 58%. Larger cube → lower SA:V → smaller fraction reached by diffusion."
+   },
+   {
+    "heading": "The plasma membrane and selective permeability",
+    "body": "The **fluid mosaic model**: a phospholipid bilayer with hydrophilic phosphate heads facing the aqueous cytosol and extracellular fluid and hydrophobic fatty acid tails facing each other in the interior. Embedded and attached are proteins, cholesterol (in animal cells, buffers fluidity), glycoproteins, and glycolipids (cell recognition). Components move laterally — it's fluid.\n\nMembrane proteins reflect the same R-group logic as Unit 1: the parts in contact with the tails are nonpolar; the parts facing water are polar or charged.\n\n**Selective permeability** comes from the hydrophobic interior:\n- Small nonpolar molecules (O₂, CO₂, N₂) and steroid hormones cross freely.\n- Small polar uncharged molecules (H₂O, NH₃) cross slowly in small amounts; aquaporins greatly speed water movement.\n- Ions (Na⁺, K⁺, Cl⁻, H⁺) and large polar molecules (glucose) essentially cannot cross the bilayer; they need channels or carriers.\n\nThe **cell wall** (plants: cellulose; fungi: chitin; bacteria: peptidoglycan; archaea: other polymers) gives structure, is a barrier to some substances, and protects against **osmotic lysis** — a walled cell in a hypotonic solution becomes turgid instead of bursting."
+   },
+   {
+    "heading": "Transport: passive, facilitated, active, bulk",
+    "body": "**Passive transport** moves substances down their concentration gradient with no direct metabolic energy: simple diffusion through the bilayer and **facilitated diffusion** through channel or carrier proteins. Facilitated diffusion shows **saturation**: as concentration rises, rate levels off when all transporters are busy. Simple diffusion rate keeps increasing roughly linearly with the gradient. On a graph of uptake rate vs. external concentration, a plateau signals a protein-mediated process.\n\n**Active transport** uses energy (usually ATP) to move substances, often against their gradient. The **Na⁺/K⁺ pump (Na⁺/K⁺-ATPase)** pumps 3 Na⁺ out and 2 K⁺ in per ATP, building the electrochemical gradient and membrane potential (inside negative). Inhibiting the pump (e.g., with ouabain) or ATP production (e.g., cyanide blocks the ETC) gradually dissipates these gradients.\n\n**Secondary active transport (cotransport)** uses the energy stored in one gradient (often Na⁺ or H⁺) to move another substance against its gradient — e.g., Na⁺–glucose cotransport in gut cells. Blocking the Na⁺/K⁺ pump eventually stops glucose uptake even though the cotransporter itself doesn't use ATP. That indirect link is a classic hardest-tier question.\n\n**Bulk transport** uses energy and vesicles: **endocytosis** (phagocytosis of particles, pinocytosis of fluid, receptor-mediated uptake of specific ligands) and **exocytosis** (secretion; vesicle fuses with the plasma membrane)."
+   },
+   {
+    "heading": "Tonicity, osmosis, and water potential",
+    "body": "**Osmosis** is the diffusion of water across a selectively permeable membrane. Water moves from **hypotonic** (lower solute) to **hypertonic** (higher solute) regions — equivalently from **higher water potential (Ψ) to lower Ψ**.\n\n- Animal cell in hypotonic solution → swells, may lyse. In hypertonic → shrivels (crenates).\n- Plant cell in hypotonic → turgid (ideal). In hypertonic → plasmolysis (membrane pulls from wall).\n\n**Water potential:** Ψ = Ψs + Ψp. Pure water at atmospheric pressure has Ψ = 0. Adding solute makes Ψs negative: **Ψs = −iCRT**, where i = ionization constant (1 for sucrose/glucose, 2 for NaCl), C = molarity, R = 0.0831 L·bar/(mol·K), T = °C + 273. In an open beaker, Ψp = 0, so Ψ = Ψs.\n\n**Worked example.** What is Ψ of 0.30 M NaCl at 27 °C in an open beaker? Ψs = −(2)(0.30)(0.0831)(300) = **−15.0 bar**. A plant cell with Ψs = −9.0 bar and Ψp = +2.0 bar has Ψ = −7.0 bar. Placed in the NaCl solution, water moves **out** of the cell (−7.0 → −15.0), and the cell may plasmolyze.\n\n**Finding a tissue's Ψ experimentally:** soak equal-mass tissue samples in a series of sucrose solutions and graph percent change in mass vs. molarity. The x-intercept (0% change) is the molarity isotonic to the tissue; plug it into −iCRT to estimate the tissue's Ψs.\n\n**Osmoregulation:** freshwater protists live in hypotonic water and use **contractile vacuoles** to pump out excess water (energy-requiring); move them to a more concentrated medium and the vacuole contracts less often. Kidneys and plant vacuoles also regulate water and solutes."
+   },
+   {
+    "heading": "Compartmentalization and its origins",
+    "body": "Internal membranes **compartmentalize** eukaryotic cells: they keep incompatible reactions apart (e.g., hydrolytic enzymes in lysosomes), concentrate enzymes and substrates, maintain different pH or ion levels, and **increase surface area** for membrane-bound reactions (cristae, thylakoids, ER).\n\nProkaryotes typically lack membrane-bound organelles but are not unorganized: they have a nucleoid region, ribosomes, and sometimes infoldings of the plasma membrane where reactions such as photosynthesis occur.\n\n**Endosymbiotic theory:** mitochondria and chloroplasts descended from once free-living prokaryotes engulfed by an ancestral cell. Evidence: they have **double membranes**, their own **circular DNA**, ribosomes that resemble bacterial ribosomes, and they divide by a fission-like process; their DNA sequences are most similar to particular bacterial groups (α-proteobacteria for mitochondria, cyanobacteria for chloroplasts)."
+   }
+  ],
+  "keyTakeaways": [
+   "Endomembrane pathway for secreted proteins: rough ER → vesicle → Golgi → vesicle → plasma membrane (exocytosis).",
+   "SA:V decreases as size increases (cube: 6/s; sphere: 3/r); exchange efficiency favors small or folded/flattened structures.",
+   "Hydrophobic membrane interior makes membranes selectively permeable: small nonpolar molecules cross; ions and large polar molecules need proteins.",
+   "Facilitated diffusion saturates; active transport needs ATP; cotransport uses a gradient built by a pump.",
+   "Water moves from higher to lower water potential; Ψ = Ψs + Ψp and Ψs = −iCRT.",
+   "Mitochondria and chloroplasts show endosymbiotic origin: double membrane, circular DNA, bacterial-like ribosomes."
+  ],
+  "commonMistakes": [
+   "Saying water moves toward lower solute concentration (it moves toward higher solute / lower Ψ).",
+   "Forgetting i = 2 for NaCl or forgetting to convert °C to K in Ψs = −iCRT.",
+   "Saying 'large cells have more surface area so they exchange better' — total SA is larger, but SA per unit volume is smaller.",
+   "Calling facilitated diffusion active transport because it uses a protein.",
+   "Thinking a cell wall prevents osmosis; it prevents lysis by resisting expansion (building Ψp)."
+  ],
+  "examTips": [
+   "Expect at least one water potential calculation and one SA:V calculation on most exams; show the formula, substitution, and units.",
+   "Graphs of mass change vs. solute concentration appear often: the x-intercept is isotonic.",
+   "Inhibitor questions: ATP poison stops primary active transport directly and secondary active transport indirectly (as gradients run down).",
+   "Q2 FRQ graphing is often from Unit 2 osmosis data: use a scatter/line graph with molarity on x, % mass change on y, include negative y values on a properly scaled axis."
+  ],
+  "cramSheet": "- Ribosome (all cells) → protein. RER → proteins for export/membranes. SER → lipids, detox. Golgi → modify/package. Lysosome → hydrolytic enzymes, acidic. Vacuole → turgor (plants). Mito/chloroplast → double membrane, folded inner membranes.\n- SA:V: cube 6/s, sphere 3/r. Bigger → smaller ratio → slower exchange per volume.\n- Bilayer: polar heads out, nonpolar tails in. O₂, CO₂ pass; ions/glucose need proteins; water slowly or via aquaporins.\n- Passive (down gradient, no ATP): simple diffusion (linear), facilitated (saturates). Active: ATP, e.g., Na⁺/K⁺ pump 3 out/2 in. Cotransport uses Na⁺/H⁺ gradient.\n- Endocytosis/exocytosis = vesicles + energy.\n- Hypotonic → water in; hypertonic → water out. Animal cells lyse/crenate; plant cells turgid/plasmolyzed.\n- Ψ = Ψs + Ψp; Ψs = −iCRT (R = 0.0831, T in K, i = 2 for NaCl). Water: high Ψ → low Ψ.\n- % mass change vs molarity: x-intercept = isotonic concentration.\n- Endosymbiosis evidence: double membrane, circular DNA, bacterial-type ribosomes, binary-fission-like division."
+ },
+ "vocab": [
+  {
+   "term": "Endomembrane system",
+   "definition": "The interconnected membranes of eukaryotic cells (nuclear envelope, ER, Golgi, lysosomes, vacuoles, vesicles, plasma membrane) that modify, package, and transport lipids and proteins."
+  },
+  {
+   "term": "Rough endoplasmic reticulum",
+   "definition": "ER with bound ribosomes that synthesizes proteins destined for secretion, membranes, or lysosomes and compartmentalizes them."
+  },
+  {
+   "term": "Golgi complex",
+   "definition": "Stacks of flattened membrane sacs that fold, chemically modify, and package proteins for trafficking."
+  },
+  {
+   "term": "Lysosome",
+   "definition": "Membrane-enclosed sac of hydrolytic enzymes that digests material and participates in apoptosis."
+  },
+  {
+   "term": "Surface area-to-volume ratio",
+   "definition": "Ratio of a cell's membrane area to its volume; it decreases as cells grow and limits the rate of exchange relative to need."
+  },
+  {
+   "term": "Fluid mosaic model",
+   "definition": "Model of the membrane as a fluid phospholipid bilayer in which proteins, cholesterol, glycoproteins, and glycolipids move laterally."
+  },
+  {
+   "term": "Selective permeability",
+   "definition": "Property of membranes that lets some substances cross more easily than others, due to the hydrophobic interior."
+  },
+  {
+   "term": "Passive transport",
+   "definition": "Net movement of molecules down their concentration gradient without direct input of metabolic energy."
+  },
+  {
+   "term": "Facilitated diffusion",
+   "definition": "Passive transport through channel or carrier proteins; rate saturates when transporters are occupied."
+  },
+  {
+   "term": "Active transport",
+   "definition": "Movement of molecules that requires direct energy input (usually ATP), often against a concentration gradient."
+  },
+  {
+   "term": "Sodium–potassium pump",
+   "definition": "A membrane ATPase that moves 3 Na⁺ out and 2 K⁺ into the cell per ATP, maintaining electrochemical gradients and membrane potential."
+  },
+  {
+   "term": "Cotransport (secondary active transport)",
+   "definition": "Transport of one substance against its gradient powered by the movement of another ion down its gradient, which a primary pump maintains."
+  },
+  {
+   "term": "Aquaporin",
+   "definition": "Channel protein that allows rapid movement of water across a membrane."
+  },
+  {
+   "term": "Endocytosis",
+   "definition": "Uptake of large molecules or particles by infolding of the plasma membrane to form vesicles; requires energy."
+  },
+  {
+   "term": "Exocytosis",
+   "definition": "Release of materials when a vesicle fuses with the plasma membrane; requires energy."
+  },
+  {
+   "term": "Hypertonic",
+   "definition": "Describes a solution with a higher solute concentration (lower water potential) than another; water moves into it."
+  },
+  {
+   "term": "Hypotonic",
+   "definition": "Describes a solution with a lower solute concentration (higher water potential) than another; water moves out of it."
+  },
+  {
+   "term": "Water potential (Ψ)",
+   "definition": "Potential energy of water per volume relative to pure water; water flows from higher to lower Ψ. Ψ = Ψs + Ψp."
+  },
+  {
+   "term": "Solute potential (Ψs)",
+   "definition": "Component of water potential due to dissolved solutes; Ψs = −iCRT and is zero for pure water and negative otherwise."
+  },
+  {
+   "term": "Plasmolysis",
+   "definition": "Shrinking of a plant cell's protoplast away from the cell wall when water leaves the cell in a hypertonic environment."
+  },
+  {
+   "term": "Contractile vacuole",
+   "definition": "Organelle in freshwater protists that collects and expels excess water to prevent lysis."
+  },
+  {
+   "term": "Endosymbiotic theory",
+   "definition": "Theory that mitochondria and chloroplasts evolved from free-living prokaryotes engulfed by an ancestral host cell."
+  }
+ ],
+ "practice": [
+  {
+   "id": "u2-q01",
+   "type": "mcq",
+   "tier": "Intro",
+   "topic": "2.1 Cell Structure and Function",
+   "skill": "1.A",
+   "stem": "Which structure is found in prokaryotic and eukaryotic cells and is evidence of common ancestry among all known life?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Nucleus"
+    },
+    {
+     "id": "B",
+     "text": "Mitochondrion"
+    },
+    {
+     "id": "C",
+     "text": "Golgi complex"
+    },
+    {
+     "id": "D",
+     "text": "Ribosome"
+    }
+   ],
+   "answer": "D",
+   "explanation": "Ribosomes (rRNA + protein, no membrane) occur in every known cell and carry out translation in essentially the same way, indicating descent from a common ancestor.",
+   "distractors": {
+    "A": "Prokaryotes lack a nucleus.",
+    "B": "Only eukaryotes have mitochondria.",
+    "C": "Only eukaryotes have a Golgi."
+   }
+  },
+  {
+   "id": "u2-q02",
+   "type": "mcq",
+   "tier": "Intro",
+   "topic": "2.2 Cell Size",
+   "skill": "5.A",
+   "stem": "Which of the following cells would exchange materials with its environment most efficiently, relative to its metabolic needs?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "A cube-shaped cell with side length 10 µm"
+    },
+    {
+     "id": "B",
+     "text": "A cube-shaped cell with side length 20 µm"
+    },
+    {
+     "id": "C",
+     "text": "A cube-shaped cell with side length 40 µm"
+    },
+    {
+     "id": "D",
+     "text": "All three, because surface area increases with size"
+    }
+   ],
+   "answer": "A",
+   "explanation": "For a cube, SA/V = 6/s. The 10 µm cell has SA/V = 0.6 µm⁻¹, higher than 0.3 (20 µm) and 0.15 (40 µm), so it has the most membrane per unit volume.",
+   "distractors": {
+    "B": "Intermediate ratio.",
+    "C": "Largest cell has the lowest SA:V.",
+    "D": "Total SA increases, but SA per unit volume decreases."
+   }
+  },
+  {
+   "id": "u2-q03",
+   "type": "mcq",
+   "tier": "Intro",
+   "topic": "2.4 Membrane Permeability",
+   "skill": "1.B",
+   "stem": "Which substance can cross a phospholipid bilayer most rapidly without the help of a transport protein?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Na⁺"
+    },
+    {
+     "id": "B",
+     "text": "O₂"
+    },
+    {
+     "id": "C",
+     "text": "Glucose"
+    },
+    {
+     "id": "D",
+     "text": "Cl⁻"
+    }
+   ],
+   "answer": "B",
+   "explanation": "O₂ is small and nonpolar, so it dissolves in the hydrophobic interior of the bilayer and diffuses across. Ions and large polar molecules require channels or carriers.",
+   "distractors": {
+    "A": "Charged ions are blocked by the hydrophobic interior.",
+    "C": "Glucose is large and polar.",
+    "D": "Charged ion."
+   }
+  },
+  {
+   "id": "u2-q04",
+   "type": "mcq",
+   "tier": "Intro",
+   "topic": "2.1 Cell Structure and Function",
+   "skill": "2.B",
+   "stem": "Researchers add a radioactive amino acid to pancreatic cells for 3 minutes, then replace it with unlabeled amino acids and track the label. In what order would the label most likely appear?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Golgi → rough ER → secretory vesicles → outside the cell"
+    },
+    {
+     "id": "B",
+     "text": "Rough ER → Golgi → secretory vesicles → outside the cell"
+    },
+    {
+     "id": "C",
+     "text": "Smooth ER → lysosomes → Golgi → outside the cell"
+    },
+    {
+     "id": "D",
+     "text": "Nucleus → rough ER → Golgi → outside the cell"
+    }
+   ],
+   "answer": "B",
+   "explanation": "Secreted proteins are made by ribosomes on the rough ER, move by vesicle to the Golgi for modification, and are packaged into secretory vesicles that undergo exocytosis.",
+   "distractors": {
+    "A": "Golgi receives proteins from the ER, not the reverse.",
+    "C": "Smooth ER lacks ribosomes; lysosomes are not on the secretory route.",
+    "D": "Proteins are not made in the nucleus."
+   }
+  },
+  {
+   "id": "u2-q05",
+   "type": "mcq",
+   "tier": "Exam level",
+   "topic": "2.2 Cell Size",
+   "skill": "5.A",
+   "stem": "Agar cubes containing a pH indicator are placed in a solution that diffuses into agar at 0.5 cm in 10 minutes. After 10 minutes, approximately what percentage of the volume of a 3 cm × 3 cm × 3 cm cube has been reached by the solution?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "30%"
+    },
+    {
+     "id": "B",
+     "text": "50%"
+    },
+    {
+     "id": "C",
+     "text": "70%"
+    },
+    {
+     "id": "D",
+     "text": "89%"
+    }
+   ],
+   "answer": "C",
+   "explanation": "The unreached core is a cube of side 3 − 2(0.5) = 2 cm, volume 8 cm³. Total volume 27 cm³. Fraction reached = 1 − 8/27 = 19/27 ≈ 0.70, or 70%.",
+   "distractors": {
+    "A": "Reports the unreached fraction (8/27 ≈ 30%).",
+    "B": "Guesses half without accounting for diffusion from all six faces.",
+    "D": "Uses a core side of 2.5 cm, subtracting only one 0.5 cm layer, and then reports 1 − (2.5/3)³ ≈ 42%… or confuses with the 2 cm cube value (87.5%)."
+   }
+  },
+  {
+   "id": "u2-q06",
+   "type": "mcq",
+   "tier": "Exam level",
+   "topic": "2.7 Tonicity and Osmoregulation",
+   "skill": "5.A",
+   "stem": "A plant cell has a solute potential of −0.9 MPa and a pressure potential of +0.3 MPa. It is placed in an open beaker of solution with a water potential of −0.4 MPa. Which of the following will occur?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "There will be no net movement, because the pressure potential balances the solute potential."
+    },
+    {
+     "id": "B",
+     "text": "Water will move out of the cell, because the cell's water potential (−0.6 MPa) is higher than the solution's."
+    },
+    {
+     "id": "C",
+     "text": "Water will move into the cell, because the cell's solute potential is higher than the solution's."
+    },
+    {
+     "id": "D",
+     "text": "Water will move into the cell, because the cell's water potential (−0.6 MPa) is lower than the solution's."
+    }
+   ],
+   "answer": "D",
+   "explanation": "Cell Ψ = Ψs + Ψp = −0.9 + 0.3 = −0.6 MPa. Solution Ψ = −0.4 MPa. Water moves from higher (−0.4) to lower (−0.6) water potential — into the cell, increasing turgor.",
+   "distractors": {
+    "A": "Ψp does not fully offset Ψs here; the cell's Ψ is −0.6, not 0 or −0.4.",
+    "B": "−0.6 is lower than −0.4, not higher; reverses the comparison of negative numbers.",
+    "C": "The cell's solute potential (−0.9) is lower, not higher, and the comparison should use total Ψ."
+   }
+  },
+  {
+   "id": "u2-q07",
+   "type": "mcq",
+   "tier": "Exam level",
+   "topic": "2.8 Mechanisms of Transport",
+   "skill": "6.E",
+   "stem": "Ouabain binds to and inhibits the Na⁺/K⁺-ATPase. If a nerve cell is treated with ouabain for several hours, which change is most likely?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The Na⁺ and K⁺ gradients across the membrane will gradually dissipate, reducing the membrane potential."
+    },
+    {
+     "id": "B",
+     "text": "Intracellular Na⁺ concentration will decrease and K⁺ will increase."
+    },
+    {
+     "id": "C",
+     "text": "ATP will be consumed more rapidly by the pump."
+    },
+    {
+     "id": "D",
+     "text": "Na⁺ will begin to diffuse out of the cell through the pump."
+    }
+   ],
+   "answer": "A",
+   "explanation": "The pump normally maintains high Na⁺ outside and high K⁺ inside. With the pump blocked, ions continue to leak down their gradients, so the gradients and resting membrane potential run down.",
+   "distractors": {
+    "B": "Reverses the direction; without pumping, Na⁺ inside rises and K⁺ falls.",
+    "C": "The inhibited pump uses less ATP.",
+    "D": "Na⁺ leaks in, not out, down its gradient."
+   }
+  },
+  {
+   "id": "u2-q08",
+   "type": "mcq",
+   "tier": "Exam level",
+   "topic": "2.6 Facilitated Diffusion",
+   "skill": "6.B",
+   "stem": "Researchers measure the rate at which a solute enters cells at different external concentrations.\n\n| External concentration (mM) | Rate of uptake (µmol/min) |\n|---|---|\n| 1 | 4.0 |\n| 2 | 7.8 |\n| 5 | 15.1 |\n| 10 | 19.6 |\n| 20 | 20.2 |\n| 40 | 20.3 |\n\nIntracellular concentration remained below external concentration in all trials. Which conclusion is best supported?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The solute crosses by facilitated diffusion through a limited number of transport proteins."
+    },
+    {
+     "id": "B",
+     "text": "The solute crosses by simple diffusion through the bilayer."
+    },
+    {
+     "id": "C",
+     "text": "The solute crosses by active transport against its gradient."
+    },
+    {
+     "id": "D",
+     "text": "The solute enters by exocytosis."
+    }
+   ],
+   "answer": "A",
+   "explanation": "Uptake rises then plateaus near 20 µmol/min, the signature of saturation of a limited number of transport proteins. Because the solute moved down its gradient (inside stayed lower), no energy input is implied, consistent with facilitated diffusion.",
+   "distractors": {
+    "B": "Simple diffusion would keep increasing roughly linearly with concentration.",
+    "C": "Movement was down the gradient, so there is no evidence of active transport.",
+    "D": "Exocytosis moves materials out of the cell."
+   }
+  },
+  {
+   "id": "u2-q09",
+   "type": "mcq",
+   "tier": "Exam level",
+   "topic": "2.7 Tonicity and Osmoregulation",
+   "skill": "6.E",
+   "stem": "A freshwater protist with a contractile vacuole is moved from pond water into a solution that is isotonic to its cytoplasm. Which change is most likely?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "The contractile vacuole will contract more frequently to remove additional water."
+    },
+    {
+     "id": "B",
+     "text": "The contractile vacuole will contract less frequently, because less water enters the cell by osmosis."
+    },
+    {
+     "id": "C",
+     "text": "The cell will lyse because it can no longer expel water."
+    },
+    {
+     "id": "D",
+     "text": "The cell will begin taking in water by active transport."
+    }
+   ],
+   "answer": "B",
+   "explanation": "In pond water (hypotonic), water constantly enters by osmosis and the vacuole works hard to expel it. In an isotonic solution there is no net water entry, so less pumping is needed.",
+   "distractors": {
+    "A": "That would occur in a more hypotonic medium.",
+    "C": "Lysis happens when too much water enters, which won't occur in isotonic solution.",
+    "D": "Water moves by osmosis, not active transport."
+   }
+  },
+  {
+   "id": "u2-q10",
+   "type": "mcq",
+   "tier": "Exam level",
+   "topic": "2.10 Origins of Cell Compartmentalization",
+   "skill": "6.B",
+   "stem": "Which observation provides the strongest evidence that chloroplasts evolved from free-living prokaryotes?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Chloroplasts contain chlorophyll, which absorbs light energy."
+    },
+    {
+     "id": "B",
+     "text": "Chloroplasts are found only in plant and algal cells."
+    },
+    {
+     "id": "C",
+     "text": "Chloroplasts have their own circular DNA and ribosomes similar to those of cyanobacteria."
+    },
+    {
+     "id": "D",
+     "text": "Chloroplasts produce glucose used by the rest of the cell."
+    }
+   ],
+   "answer": "C",
+   "explanation": "Circular DNA and bacterial-type ribosomes (and gene sequences closely related to cyanobacteria) indicate that chloroplasts were once independent prokaryotes.",
+   "distractors": {
+    "A": "Describes function, not ancestry.",
+    "B": "Distribution doesn't indicate an origin as a prokaryote.",
+    "D": "Function, not evidence of origin."
+   }
+  },
+  {
+   "id": "u2-q11",
+   "type": "mcq",
+   "tier": "Hardest",
+   "topic": "2.7 Tonicity and Osmoregulation",
+   "skill": "5.A",
+   "stem": "A biologist prepares a 0.30 M NaCl solution in an open beaker at 27 °C. Assuming NaCl fully dissociates, what is the water potential of the solution? (R = 0.0831 L·bar/mol·K)",
+   "choices": [
+    {
+     "id": "A",
+     "text": "−7.5 bar"
+    },
+    {
+     "id": "B",
+     "text": "−13.6 bar"
+    },
+    {
+     "id": "C",
+     "text": "−15.0 bar"
+    },
+    {
+     "id": "D",
+     "text": "+15.0 bar"
+    }
+   ],
+   "answer": "C",
+   "explanation": "Ψs = −iCRT = −(2)(0.30 mol/L)(0.0831 L·bar/mol·K)(27 + 273 K) = −14.96 ≈ −15.0 bar. In an open beaker Ψp = 0, so Ψ = Ψs = −15.0 bar.",
+   "distractors": {
+    "A": "Uses i = 1, ignoring that NaCl dissociates into two ions.",
+    "B": "Uses 273 K instead of converting 27 °C to 300 K.",
+    "D": "Drops the negative sign; solute potential is always ≤ 0."
+   }
+  },
+  {
+   "id": "u2-q12",
+   "type": "mcq",
+   "tier": "Hardest",
+   "topic": "2.8 Mechanisms of Transport",
+   "skill": "6.C",
+   "stem": "Intestinal epithelial cells are incubated under four conditions, and the rate at which they take up glucose from a medium with a lower glucose concentration than the cytoplasm is measured.\n\n| Condition | Glucose uptake (% of control) |\n|---|---|\n| Control | 100 |\n| Cyanide (blocks ATP synthesis by the ETC) | 18 |\n| Ouabain (blocks the Na⁺/K⁺ pump) | 15 |\n| Na⁺-free medium | 6 |\n\nWhich model of glucose uptake is most consistent with all of the data?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Glucose enters by facilitated diffusion through a channel that requires Na⁺ to open."
+    },
+    {
+     "id": "B",
+     "text": "Glucose is pumped directly by an ATP-hydrolyzing glucose pump that is also inhibited by ouabain."
+    },
+    {
+     "id": "C",
+     "text": "Glucose enters by simple diffusion, and Na⁺ increases membrane fluidity."
+    },
+    {
+     "id": "D",
+     "text": "Glucose enters through a Na⁺–glucose cotransporter that uses the Na⁺ gradient, which is maintained by the ATP-driven Na⁺/K⁺ pump."
+    }
+   ],
+   "answer": "D",
+   "explanation": "Glucose moves into the cell against its gradient, so energy is required. Removing Na⁺ nearly abolishes uptake, so uptake is coupled to Na⁺. Blocking the Na⁺/K⁺ pump or ATP production also reduces uptake, because the pump maintains the Na⁺ gradient that powers cotransport. This is secondary active transport.",
+   "distractors": {
+    "A": "Facilitated diffusion can't move glucose against its gradient.",
+    "B": "Ouabain is specific to the Na⁺/K⁺ pump; this model also fails to explain the Na⁺-free result.",
+    "C": "Glucose is too large and polar for simple diffusion, especially against a gradient."
+   }
+  },
+  {
+   "id": "u2-q13",
+   "type": "mcq",
+   "tier": "Hardest",
+   "topic": "2.5 Membrane Transport",
+   "skill": "6.E",
+   "stem": "A dialysis bag permeable to water and glucose but not sucrose contains 0.4 M sucrose and 0.2 M glucose. It is placed in a beaker of 0.3 M glucose. Which prediction about the system before it reaches equilibrium is correct?",
+   "choices": [
+    {
+     "id": "A",
+     "text": "Glucose diffuses into the bag and water moves into the bag, so the bag gains mass."
+    },
+    {
+     "id": "B",
+     "text": "Glucose diffuses out of the bag and the bag loses mass."
+    },
+    {
+     "id": "C",
+     "text": "Sucrose diffuses out of the bag until its concentrations are equal."
+    },
+    {
+     "id": "D",
+     "text": "No net movement occurs because total solute is equal inside and outside."
+    }
+   ],
+   "answer": "A",
+   "explanation": "Glucose is more concentrated outside (0.3 vs 0.2 M), so it diffuses into the bag. Total solute inside (0.6 M) exceeds outside (0.3 M), and the sucrose can never leave, so water moves in by osmosis and the bag gains mass.",
+   "distractors": {
+    "B": "Reverses the glucose gradient and ignores the trapped sucrose.",
+    "C": "The membrane is impermeable to sucrose.",
+    "D": "Inside is 0.6 M total solute and outside is 0.3 M, so they are not equal."
+   }
+  },
+  {
+   "id": "u2-q14",
+   "type": "mcq",
+   "tier": "Hardest",
+   "topic": "2.2 Cell Size",
+   "skill": "5.A",
+   "stem": "Cell X is a sphere with radius 10 µm. Cell Y is a flat disk (cylinder) with radius 10 µm and height 2 µm. Which statement is correct? (Sphere: SA = 4πr², V = 4/3πr³; cylinder: SA = 2πrh + 2πr², V = πr²h.)",
+   "choices": [
+    {
+     "id": "A",
+     "text": "X has the larger SA:V because spheres maximize surface area."
+    },
+    {
+     "id": "B",
+     "text": "Y has an SA:V about 4 times that of X, so Y can exchange materials more efficiently per unit volume."
+    },
+    {
+     "id": "C",
+     "text": "Y has an SA:V about 1.5 times that of X, because Y has less volume."
+    },
+    {
+     "id": "D",
+     "text": "X and Y have the same SA:V because they have the same radius."
+    }
+   ],
+   "answer": "B",
+   "explanation": "X: SA/V = 3/r = 0.3 µm⁻¹. Y: SA = 2π(10)(2) + 2π(10²) = 240π µm²; V = π(10²)(2) = 200π µm³; SA/V = 1.2 µm⁻¹. 1.2/0.3 = 4. Flattening greatly increases SA relative to volume.",
+   "distractors": {
+    "A": "A sphere minimizes, not maximizes, surface area for a given volume.",
+    "C": "Arithmetic error; the ratio is 4.",
+    "D": "Radius alone does not determine SA:V when shapes differ."
+   }
+  },
+  {
+   "id": "u2-frq1",
+   "type": "frq",
+   "tier": "Exam level",
+   "topic": "2.7 Tonicity and Osmoregulation",
+   "frqType": "Q2 Interpreting and Evaluating Experimental Results with Graphing (9 points)",
+   "skill": "4.A",
+   "stimulus": "Students cut cylinders of potato tissue of equal size, recorded the mass of each, and placed five cylinders in each of six sucrose solutions in covered cups at 22 °C. After 24 hours they blotted and re-massed the cylinders.\n\n**Table 1. Percent change in mass of potato cores**\n\n| Sucrose concentration (M) | Mean change in mass (%) | ±2 SE |\n|---|---|---|\n| 0.0 | +18 | 2.1 |\n| 0.2 | +7 | 1.8 |\n| 0.4 | −4 | 1.5 |\n| 0.6 | −13 | 1.9 |\n| 0.8 | −20 | 2.2 |\n| 1.0 | −24 | 2.0 |",
+   "prompt": "Students investigated water movement into and out of plant tissue. Answer parts A–D.",
+   "parts": [
+    {
+     "label": "A",
+     "prompt": "Describe the role of aquaporins in the movement of water into the potato cells.",
+     "points": 1
+    },
+    {
+     "label": "B",
+     "prompt": "Construct an appropriately labeled graph that represents the data in Table 1, and use it to determine the sucrose concentration at which the potato tissue would show no change in mass.",
+     "points": 4
+    },
+    {
+     "label": "C",
+     "prompt": "Using your answer from part B, calculate the solute potential of the potato tissue at 22 °C. Assume the tissue's pressure potential is 0 bar. (Ψs = −iCRT; R = 0.0831 L·bar/mol·K; i = 1 for sucrose.) Then identify a control the students should have included to confirm that mass changes were caused by water movement rather than evaporation.",
+     "points": 2
+    },
+    {
+     "label": "D",
+     "prompt": "The students repeat the experiment with potato cores that had been left out in dry air for 2 hours before massing. Predict how the sucrose concentration at which there is no change in mass would differ from your answer in part B, and justify your prediction.",
+     "points": 2
+    }
+   ],
+   "points": 9,
+   "minutes": 25,
+   "rubric": [
+    {
+     "criterion": "A — describe",
+     "points": 1,
+     "description": "Aquaporins are channel proteins that allow water molecules to move rapidly across the membrane by facilitated diffusion (down the water potential gradient)."
+    },
+    {
+     "criterion": "B — graph: type and axes",
+     "points": 1,
+     "description": "Line or scatter plot with sucrose concentration (M) on the x-axis and percent change in mass (%) on the y-axis; both labeled with units."
+    },
+    {
+     "criterion": "B — graph: scaling",
+     "points": 1,
+     "description": "Linear, evenly spaced scales on both axes that include negative y-values."
+    },
+    {
+     "criterion": "B — graph: plotting and error bars",
+     "points": 1,
+     "description": "All six means plotted correctly with ±2 SE error bars."
+    },
+    {
+     "criterion": "B — determination",
+     "points": 1,
+     "description": "Reads the x-intercept: approximately 0.32–0.34 M (accept 0.30–0.35 M consistent with the student's graph)."
+    },
+    {
+     "criterion": "C — calculation",
+     "points": 1,
+     "description": "Ψs = −(1)(0.33 M)(0.0831)(295 K) ≈ −8.0 bar (accept −7.3 to −8.6 bar consistent with part B)."
+    },
+    {
+     "criterion": "C — control",
+     "points": 1,
+     "description": "Cores placed in a covered/sealed container with no solution (or mass of cores in air over the same time), or 0.0 M distilled-water cores already serve as a reference — accept a procedure that isolates evaporation."
+    },
+    {
+     "criterion": "D — prediction",
+     "points": 1,
+     "description": "The concentration of no mass change would be higher (shift to the right)."
+    },
+    {
+     "criterion": "D — justification",
+     "points": 1,
+     "description": "Water lost to drying concentrates the cell solutes, making the tissue's Ψ more negative, so a more concentrated (lower Ψ) sucrose solution would be needed to stop net water movement."
+    }
+   ],
+   "sampleResponse": "**A.** Aquaporins are channel proteins in the plasma membrane that let water molecules pass rapidly by facilitated diffusion, moving from higher to lower water potential.\n\n**B.** A line graph with \"Sucrose concentration (M)\" on the x-axis (0 to 1.0, evenly spaced) and \"Percent change in mass (%)\" on the y-axis (−30 to +20, evenly spaced). The six means are plotted with error bars of ±2 SE and connected. The line crosses 0% at about **0.33 M**.\n\n**C.** Ψs = −iCRT = −(1)(0.33 mol/L)(0.0831 L·bar/mol·K)(22 + 273 K) = **−8.1 bar** (≈ −8.0 bar). Control: mass identical cores held in a sealed container with no solution for the same 24 hours, to measure any mass change caused by evaporation alone.\n\n**D.** The concentration at zero mass change would be **higher** than 0.33 M. Drying removes water from the cells, increasing the solute concentration inside so the tissue's water potential becomes more negative. A solution would have to be more concentrated (have a lower water potential) to match the tissue and produce no net movement of water."
+  }
+ ]
+}

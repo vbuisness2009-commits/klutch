@@ -1,0 +1,219 @@
+{
+  "slug": "us-history",
+  "name": "AP U.S. History",
+  "lastVerified": "2026-10",
+  "overview": "AP U.S. History is a college-level survey of American history from 1491 to the present, organized into nine chronological periods. The exam rewards historical thinking more than memorization: you read primary and secondary sources, place them in context, and build arguments using causation, comparison, and continuity and change over time. Periods 3 through 8 (1754–1980) carry most of the weight. Starting with the May 2027 exam, all three short-answer questions are required and each includes a source, and the long essay is a single broad prompt instead of a choice of three; course content, the multiple-choice section, and the scoring rubrics did not change.",
+  "examMode": "Fully digital in Bluebook (all answers, including essays, typed in the app)",
+  "totalMinutes": 195,
+  "sections": [
+    {
+      "name": "Section I, Part A",
+      "questionType": "Multiple choice",
+      "count": 55,
+      "minutes": 55,
+      "weight": "40%",
+      "notes": "Sets of 3–4 questions, each set tied to a primary source, secondary source, chart, map, or image. Four answer choices (A–D)."
+    },
+    {
+      "name": "Section I, Part B",
+      "questionType": "Short answer",
+      "count": 3,
+      "minutes": 40,
+      "weight": "20%",
+      "notes": "All three required (from May 2027). Q1 uses one or more secondary text sources, Q2 a primary text source, Q3 a primary or secondary non-text source (chart, map, image). Each question covers a different period between 1491 and 2001. Each is 3 points (parts a, b, c)."
+    },
+    {
+      "name": "Section II, Question 1",
+      "questionType": "Document-based question",
+      "count": 1,
+      "minutes": 60,
+      "weight": "25%",
+      "notes": "Seven documents. The 60 minutes include a 15-minute reading period. Scored on a 7-point rubric."
+    },
+    {
+      "name": "Section II, Question 2",
+      "questionType": "Long essay",
+      "count": 1,
+      "minutes": 40,
+      "weight": "15%",
+      "notes": "From May 2027: one required broad prompt with a brief introductory statement; you choose the evidence and line of reasoning. Scored on a 6-point rubric."
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Period 1: 1491–1607",
+      "weight": "4–6%"
+    },
+    {
+      "number": 2,
+      "title": "Period 2: 1607–1754",
+      "weight": "6–8%"
+    },
+    {
+      "number": 3,
+      "title": "Period 3: 1754–1800",
+      "weight": "10–17%"
+    },
+    {
+      "number": 4,
+      "title": "Period 4: 1800–1848",
+      "weight": "10–17%"
+    },
+    {
+      "number": 5,
+      "title": "Period 5: 1844–1877",
+      "weight": "10–17%"
+    },
+    {
+      "number": 6,
+      "title": "Period 6: 1865–1898",
+      "weight": "10–17%"
+    },
+    {
+      "number": 7,
+      "title": "Period 7: 1890–1945",
+      "weight": "10–17%"
+    },
+    {
+      "number": 8,
+      "title": "Period 8: 1945–1980",
+      "weight": "10–17%"
+    },
+    {
+      "number": 9,
+      "title": "Period 9: 1980–Present",
+      "weight": "4–6%"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Developments and Processes",
+      "description": "Identify and explain historical concepts, developments, and processes."
+    },
+    {
+      "name": "Sourcing and Situation",
+      "description": "Identify and explain a source's point of view, purpose, historical situation, and audience, and why those matter."
+    },
+    {
+      "name": "Claims and Evidence in Sources",
+      "description": "Identify and describe the claim or argument in a source and the evidence it uses; compare arguments of two sources."
+    },
+    {
+      "name": "Contextualization",
+      "description": "Explain the broader historical context of a development or process."
+    },
+    {
+      "name": "Making Connections",
+      "description": "Use the reasoning processes (comparison, causation, continuity and change) to explain relationships among developments."
+    },
+    {
+      "name": "Argumentation",
+      "description": "Develop a defensible claim, support it with evidence, and explain how the evidence supports, corroborates, or qualifies the argument."
+    }
+  ],
+  "scoring": {
+    "summary": "Multiple choice (55 questions) is 40% of the composite; there is no penalty for wrong answers. The three SAQs (3 points each) are 20%, the DBQ (7 points) is 25%, and the LEQ (6 points) is 15%. College Board converts the weighted composite to a 1–5 score using cut points set each year through equating; the cut points are not published. Rubric points on the essays are each earned independently, so a weak thesis does not block evidence or contextualization points.",
+    "approxCutoffs": [
+      {
+        "score": 5,
+        "minPercent": 68
+      },
+      {
+        "score": 4,
+        "minPercent": 53
+      },
+      {
+        "score": 3,
+        "minPercent": 41
+      },
+      {
+        "score": 2,
+        "minPercent": 30
+      }
+    ],
+    "distribution": {
+      "year": 2026,
+      "percents": {
+        "1": 8,
+        "2": 18,
+        "3": 23,
+        "4": 37,
+        "5": 14
+      }
+    }
+  },
+  "frqTypes": [
+    {
+      "name": "Short-answer question (SAQ)",
+      "points": 3,
+      "howScored": "Three parts (a, b, c), 1 point each, earned independently. Parts usually ask you to describe or explain one piece of evidence, a cause, an effect, or a difference between two interpretations. One accurate, specific, and relevant sentence or two per part is enough; no thesis is needed."
+    },
+    {
+      "name": "Document-based question (DBQ)",
+      "points": 7,
+      "howScored": "Thesis (1), contextualization (1), evidence from documents (2: describe 3 documents for 1 point, use 4 documents to support an argument for 2), evidence beyond the documents (1), sourcing — explain the relevance of point of view, purpose, historical situation, or audience for 2 documents (1), and complex understanding (1)."
+    },
+    {
+      "name": "Long essay question (LEQ)",
+      "points": 6,
+      "howScored": "Thesis (1), contextualization (1), evidence (2: identify two specific examples for 1, use two to support an argument for 2), analysis and reasoning (2: use comparison, causation, or continuity/change to frame the argument for 1; demonstrate a complex understanding for 2)."
+    }
+  ],
+  "strategy": [
+    "Multiple choice runs at about one minute per question. Read the source attribution (author, date, audience) before the excerpt; many questions are answered by knowing when and why the source was written.",
+    "For 'which of the following most directly caused/influenced' questions, eliminate answers that are true but from the wrong period. The best answer must come before the source and connect to it directly.",
+    "On SAQs, start each part with the task verb's answer in the first sentence, then add one sentence of specific evidence (a named law, event, person, or date). Label parts (a), (b), (c).",
+    "Use the DBQ's 15-minute reading period to sort documents into two or three argument groups and to jot one sourcing note (why this author, this audience, this moment) beside at least two documents.",
+    "Earn the DBQ evidence points deliberately: describe at least four documents in your own words and tie each to your claim, then add one specific outside example you clearly label as not from the documents.",
+    "Write the thesis as a claim plus reasons ('X happened largely because of A and B, although C limited it'). A thesis with a 'although' clause often sets up the complexity point.",
+    "Contextualization should describe developments before or around the prompt's time frame in three or four sentences, not a one-line 'throughout history' opener.",
+    "For the 2027-format LEQ, pick the evidence you know best within the prompt's time frame. Two well-explained specific examples earn full evidence credit; four tied to a nuanced argument can help earn complexity.",
+    "Budget time: about 13 minutes per SAQ, 45 minutes writing the DBQ after reading, and 40 minutes for the LEQ (including 5 minutes of planning)."
+  ],
+  "pitfalls": [
+    "Quoting documents instead of describing them; quotation alone does not earn evidence credit.",
+    "Sourcing by identifying ('the author is a senator') without explaining how that affects the document's meaning or reliability for your argument.",
+    "Choosing MCQ answers that are true facts but do not answer the specific question about the excerpt.",
+    "Confusing similar items across periods: the Second Great Awakening vs. the First, Populists vs. Progressives, the New Deal vs. the Great Society.",
+    "Writing contextualization that is only a sentence, or that drifts decades away from the prompt.",
+    "Running out of time on the LEQ because the DBQ ran long.",
+    "Treating Period 1, 2, and 9 as skippable; they appear in multiple choice and can anchor SAQs."
+  ],
+  "sources": [
+    {
+      "title": "AP United States History Exam (AP Central)",
+      "url": "https://apcentral.collegeboard.org/courses/ap-united-states-history/exam"
+    },
+    {
+      "title": "AP United States History Course (AP Central) — unit list and weightings",
+      "url": "https://apcentral.collegeboard.org/courses/ap-united-states-history"
+    },
+    {
+      "title": "AP U.S. History Assessment (AP Students)",
+      "url": "https://apstudents.collegeboard.org/courses/ap-united-states-history/assessment"
+    },
+    {
+      "title": "AP History Exam Updates for 2027 (AP Central)",
+      "url": "https://apcentral.collegeboard.org/courses/ap-history-exam-updates"
+    },
+    {
+      "title": "AP U.S. History Score Distributions (AP Students)",
+      "url": "https://apstudents.collegeboard.org/about-ap-scores/score-distributions/ap-united-states-history"
+    },
+    {
+      "title": "2025 AP U.S. History Scoring Guidelines, Set 1",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap25-sg-us-history-set-1.pdf"
+    },
+    {
+      "title": "2027 AP U.S. History Exam Changes (apushistoryexamprep.com, secondary summary)",
+      "url": "https://www.apushistoryexamprep.com/ap-us-history-2027-exam-changes.html"
+    }
+  ],
+  "caveats": [
+    "The May 2027 exam is the first with the revised SAQ and LEQ formats. College Board has published the structure but few full sample questions in the new format, so practice SAQs and LEQs here follow the published description (source-based SAQs; one broad LEQ prompt with an introductory statement).",
+    "College Board's exam page lists the DBQ as drawing on 1754–1980, while its 2027 update announcement says the DBQ will cover a wider chronological range. Check the current Course and Exam Description for the exact range.",
+    "Approximate cutoffs are estimates only. College Board does not publish cut scores, and since 2024 the share of 4s has roughly doubled compared with 2016–2023, so older released scoring worksheets probably overstate the composite needed today. Treat these numbers as rough targets, not thresholds.",
+    "The 2026 distribution is shown as rounded percentages as displayed by College Board; 2025 figures were 14.2 / 36.2 / 23.3 / 18.4 / 8.0."
+  ]
+}

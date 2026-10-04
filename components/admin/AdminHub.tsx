@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { TestSummary } from "@/lib/testEngine/store";
-import { PdfImport } from "./PdfImport";
 
 const inputClass =
   "w-full rounded border border-white/15 bg-white/[0.03] px-3 py-2 text-sm text-white placeholder:text-zinc-600 focus:border-mint/60 focus:outline-none";
@@ -11,7 +10,6 @@ const inputClass =
 export function AdminHub() {
   const [tests, setTests] = useState<TestSummary[]>([]);
   const [loading, setLoading] = useState(true);
-  const [tab, setTab] = useState<"json" | "pdf">("json");
 
   const refresh = useCallback(async () => {
     const res = await fetch("/api/admin/tests", { cache: "no-store" });
@@ -26,42 +24,29 @@ export function AdminHub() {
 
   return (
     <section className="mx-auto max-w-6xl px-5 py-14 sm:px-8">
-      <h1 className="font-display text-[32px] font-bold tracking-tight text-white">
-        Test library
-      </h1>
-      <p className="mt-2 max-w-[62ch] text-[15px] leading-relaxed text-zinc-400">
-        Upload a test, give it a title and a grouping, and choose whether it can
-        be sat in the player, printed, or both. Exported JSON imports directly.
-        A PDF goes through extraction first, which also picks up the answer key.
-      </p>
-
-      <div className="mt-7 flex gap-6 border-b border-white/[0.14]">
-        {(
-          [
-            ["json", "Exported JSON"],
-            ["pdf", "PDF paper"],
-          ] as const
-        ).map(([id, label]) => (
-          <button
-            key={id}
-            type="button"
-            onClick={() => setTab(id)}
-            className={`-mb-px border-b-2 pb-2.5 text-sm transition ${
-              tab === id
-                ? "border-mint font-semibold text-white"
-                : "border-transparent text-zinc-500 hover:text-zinc-200"
-            }`}
-          >
-            {label}
-          </button>
-        ))}
+      <div className="flex flex-wrap items-start justify-between gap-4">
+        <div>
+          <h1 className="font-display text-[32px] font-bold tracking-tight text-white">
+            Test library
+          </h1>
+          <p className="mt-2 max-w-[62ch] text-[15px] leading-relaxed text-zinc-400">
+            Upload a practice test as JSON. After import, Gemini fills any
+            missing answer keys so the paper is scorable.
+          </p>
+        </div>
+        <button
+          type="button"
+          onClick={async () => {
+            await fetch("/api/admin/login", { method: "DELETE" });
+            window.location.href = "/admin/login";
+          }}
+          className="text-[13px] font-medium text-zinc-500 underline decoration-white/20 underline-offset-4 transition hover:text-zinc-300"
+        >
+          Sign out
+        </button>
       </div>
 
-      {tab === "json" ? (
-        <UploadForm onUploaded={refresh} />
-      ) : (
-        <PdfImport onSaved={refresh} />
-      )}
+      <UploadForm onUploaded={refresh} />
 
       <h2 className="mt-14 font-display text-xl font-bold tracking-tight text-white">
         Uploaded
@@ -91,87 +76,92 @@ function UploadForm({ onUploaded }: { onUploaded: () => void }) {
   const [title, setTitle] = useState("");
   const [collection, setCollection] = useState("");
   const [source, setSource] = useState("");
-  const [asTest, setAsTest] = useState(true);
-  const [asPdf, setAsPdf] = useState(true);
-  const [swap, setSwap] = useState(false);
+  const [publishNow, setPublishNow] = useState(false);
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState<
     { kind: "ok" | "error"; text: string } | null
   >(null);
+  const [errors, setErrors] = useState<string[]>([]);
 
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
     const file = fileRef.current?.files?.[0];
     if (!file) {
-      setMessage({ kind: "error", text: "Pick a JSON file first." });
+      setMessage({ kind: "error", text: "Pick a .json or .csv file first." });
       return;
     }
-
+    const kind = file.name.toLowerCase().endsWith(".csv") ? "csv" : "json";
     setBusy(true);
     setMessage(null);
+    setErrors([]);
     try {
-      const data = JSON.parse(await file.text());
+      let text = await file.text();
+      if (text.charCodeAt(0) === 0xfeff) text = text.slice(1);
+
       const res = await fetch("/api/admin/tests", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({
-          title: title || file.name.replace(/\.json$/i, ""),
+          title: title || file.name.replace(/\.(json|csv)$/i, ""),
           collection,
           source,
-          swapModuleTwo: swap,
-          availability: { test: asTest, pdf: asPdf },
-          data,
+          published: publishNow,
+          kind,
+          text,
         }),
       });
-      const json = await res.json();
-
+      const json = (await res.json().catch(() => ({}))) as {
+        error?: string;
+        id?: string;
+        scorable?: boolean;
+        warnings?: { where: string; message: string }[];
+        errors?: { where: string; message: string }[];
+        summary?: string;
+      };
       if (!res.ok) {
-        setMessage({ kind: "error", text: json.error ?? "Upload failed." });
-      } else {
-        const counts = (json.sections ?? [])
-          .map(
-            (s: { name: string; module1: number; module2: number }) =>
-              `${s.name} ${s.module1}+${s.module2}`
-          )
-          .join(", ");
-        setMessage({
-          kind: "ok",
-          text: [
-            `Imported as ${json.id}.`,
-            counts,
-            ...(json.warnings ?? []),
-          ]
-            .filter(Boolean)
-            .join(" "),
-        });
-        setTitle("");
-        setSource("");
-        if (fileRef.current) fileRef.current.value = "";
-        onUploaded();
+        setErrors((json.errors ?? []).map((er) => `${er.where}: ${er.message}`));
+        setMessage({ kind: "error", text: json.error ?? `Upload failed (HTTP ${res.status}).` });
+        return;
       }
-    } catch {
-      setMessage({ kind: "error", text: "That file is not valid JSON." });
+      const warn = json.warnings?.length
+        ? ` ${json.warnings.length} warning${json.warnings.length === 1 ? "" : "s"}.`
+        : "";
+      setMessage({
+        kind: "ok",
+        text: `Imported as ${json.id}. ${json.summary ?? ""}${warn}${json.scorable ? "" : " Some keys still missing."}`,
+      });
+      setTitle("");
+      setSource("");
+      if (fileRef.current) fileRef.current.value = "";
+      onUploaded();
+    } catch (err) {
+      const detail = err instanceof Error ? err.message : "unknown error";
+      setMessage({ kind: "error", text: `Upload failed: ${detail}` });
     } finally {
       setBusy(false);
     }
   };
 
   return (
-    <form
-      onSubmit={submit}
-      className="panel mt-8 max-w-2xl space-y-4 p-6"
-    >
+    <form onSubmit={submit} className="panel mt-8 max-w-2xl space-y-4 p-6">
       <div>
         <label htmlFor="file" className="block text-[13px] text-zinc-400">
-          Test file
+          Test file (.json or .csv)
         </label>
         <input
           id="file"
           ref={fileRef}
           type="file"
-          accept="application/json,.json"
+          accept=".json,.csv,application/json,text/csv"
           className="mt-1.5 block w-full text-sm text-zinc-300 file:mr-3 file:rounded file:border file:border-white/15 file:bg-white/[0.04] file:px-3 file:py-1.5 file:text-[13px] file:font-semibold file:text-white"
         />
+        <p className="mt-1.5 text-[12px] leading-relaxed text-zinc-600">
+          Author in the Klutch practice-test format — one row per question for
+          CSV, or sections → modules → items for JSON. Download a template:{" "}
+          <a href="/api/admin/tests/template?kind=json" className="text-mint underline underline-offset-4">JSON</a>
+          {" · "}
+          <a href="/api/admin/tests/template?kind=csv" className="text-mint underline underline-offset-4">CSV</a>
+        </p>
       </div>
 
       <div className="grid gap-4 sm:grid-cols-2">
@@ -184,7 +174,7 @@ function UploadForm({ onUploaded }: { onUploaded: () => void }) {
             className={`mt-1.5 ${inputClass}`}
             value={title}
             onChange={(e) => setTitle(e.target.value)}
-            placeholder="September U.S. SAT"
+            placeholder="Klutch SAT · Test 1"
           />
         </div>
         <div>
@@ -210,57 +200,47 @@ function UploadForm({ onUploaded }: { onUploaded: () => void }) {
 
       <div>
         <label htmlFor="source" className="block text-[13px] text-zinc-400">
-          Source
+          Author / notes
         </label>
         <input
           id="source"
           className={`mt-1.5 ${inputClass}`}
           value={source}
           onChange={(e) => setSource(e.target.value)}
-          placeholder="Where this came from and who owns it"
+          placeholder="Who wrote it, internal notes (never shown to students)"
         />
-        <p className="mt-1.5 text-[12px] leading-relaxed text-zinc-600">
-          Recorded per upload so the library can be audited later. Only publish
-          material you have the right to distribute.
-        </p>
       </div>
 
-      <fieldset>
-        <legend className="text-[13px] text-zinc-400">Available as</legend>
-        <div className="mt-2 flex flex-wrap gap-x-6 gap-y-2">
-          <Check label="Test in the player" checked={asTest} onChange={setAsTest} />
-          <Check label="Printable PDF" checked={asPdf} onChange={setAsPdf} />
-          <Check
-            label="Swap module 2 forms"
-            checked={swap}
-            onChange={setSwap}
-          />
-        </div>
-        <p className="mt-2 max-w-[60ch] text-[12px] leading-relaxed text-zinc-600">
-          Module 2 arrives as two interleaved forms with nothing marking which
-          is harder. If the routing looks backwards after a run, re-upload with
-          the swap on.
-        </p>
-      </fieldset>
+      <Check label="Publish now (students see it immediately)" checked={publishNow} onChange={setPublishNow} />
 
-      <div className="flex items-center gap-4 pt-1">
+      <div className="flex flex-wrap items-center gap-4 pt-1">
         <button
           type="submit"
           disabled={busy}
           className="rounded bg-mint px-4 py-2 text-[13px] font-semibold text-ink-950 transition hover:bg-mint-400 disabled:opacity-50"
         >
-          {busy ? "Importing" : "Upload"}
+          {busy ? "Uploading…" : "Upload"}
         </button>
         {message && (
           <p
-            className={`text-[13px] leading-relaxed ${
+            className={`max-w-[42ch] text-[13px] leading-relaxed ${
               message.kind === "ok" ? "text-mint" : "text-rose-300"
             }`}
+            role="status"
           >
             {message.text}
           </p>
         )}
       </div>
+
+      {errors.length > 0 && (
+        <ul className="mt-2 space-y-1 border-l-2 border-rose-400/50 pl-3 text-[12px] text-rose-300">
+          {errors.slice(0, 20).map((e, i) => (
+            <li key={i}>{e}</li>
+          ))}
+          {errors.length > 20 && <li>…and {errors.length - 20} more.</li>}
+        </ul>
+      )}
     </form>
   );
 }
@@ -340,64 +320,21 @@ function TestTable({
                   <label className="flex items-center gap-2 text-[12px] text-zinc-300">
                     <input
                       type="checkbox"
-                      checked={t.availability.test}
+                      checked={t.published}
                       onChange={(e) =>
-                        patch(t.id, {
-                          availability: {
-                            test: e.target.checked,
-                            pdf: t.availability.pdf,
-                          },
-                        })
+                        patch(t.id, { published: e.target.checked })
                       }
                       className="h-4 w-4 accent-mint"
                     />
-                    Player
-                  </label>
-                  <label className="flex items-center gap-2 text-[12px] text-zinc-300">
-                    <input
-                      type="checkbox"
-                      checked={t.availability.pdf}
-                      onChange={(e) =>
-                        patch(t.id, {
-                          availability: {
-                            test: t.availability.test,
-                            pdf: e.target.checked,
-                          },
-                        })
-                      }
-                      className="h-4 w-4 accent-mint"
-                    />
-                    PDF
+                    Published
                   </label>
 
-                  {t.availability.test && (
-                    <Link
-                      href={`/practice/test/${t.id}`}
-                      className="text-[12px] font-semibold text-mint hover:text-mint-300"
-                    >
-                      Take it
-                    </Link>
-                  )}
-                  {t.availability.pdf && (
-                    <>
-                      <a
-                        href={`/api/admin/tests/${t.id}/pdf`}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="text-[12px] font-semibold text-mint hover:text-mint-300"
-                      >
-                        PDF
-                      </a>
-                      <a
-                        href={`/api/admin/tests/${t.id}/pdf?answers=1`}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="text-[12px] text-zinc-400 transition hover:text-white"
-                      >
-                        PDF + key
-                      </a>
-                    </>
-                  )}
+                  <Link
+                    href={`/practice/test/${t.id}`}
+                    className="text-[12px] font-semibold text-mint hover:text-mint-300"
+                  >
+                    {t.published ? "Take it" : "Preview"}
+                  </Link>
                   <button
                     type="button"
                     onClick={() => remove(t.id, t.title)}

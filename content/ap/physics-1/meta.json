@@ -1,0 +1,131 @@
+{
+  "slug": "physics-1",
+  "name": "AP Physics 1: Algebra-Based",
+  "lastVerified": "2026-10",
+  "overview": "AP Physics 1 is an algebra- and trigonometry-based first course in mechanics: kinematics, forces, energy, momentum, rotation, oscillations, and (since the 2024–25 redesign) fluids. The exam rewards reasoning more than plugging numbers: you are asked to build and connect representations (free-body diagrams, energy bar charts, graphs), derive symbolic relationships starting from a fundamental principle, design and analyze experiments with linearized graphs, and justify claims with physics principles. Waves, sound, and circuits are no longer in Physics 1; they moved to Physics 2.",
+  "examMode": "Hybrid digital: multiple choice is answered in the Bluebook app; free-response questions are viewed in Bluebook and handwritten in a paper booklet.",
+  "totalMinutes": 180,
+  "sections": [
+    {
+      "name": "Section I",
+      "questionType": "Multiple choice (single-select, 4 choices)",
+      "count": 42,
+      "minutes": 85,
+      "weight": "50%",
+      "calculator": "Allowed",
+      "notes": "Discrete questions and short question sets built around a stimulus or data. Starting with the May 2027 exam this section has 42 questions in 85 minutes (it was 40 questions in 80 minutes in 2025 and 2026). No penalty for guessing."
+    },
+    {
+      "name": "Section II",
+      "questionType": "Free response",
+      "count": 4,
+      "minutes": 95,
+      "weight": "50%",
+      "calculator": "Allowed",
+      "notes": "One each of Mathematical Routines (10 pts), Translation Between Representations (12 pts), Experimental Design and Analysis (10 pts), and Qualitative/Quantitative Translation (8 pts). Starting May 2027 the section is 95 minutes (was 100)."
+    }
+  ],
+  "units": [
+    { "number": 1, "title": "Kinematics", "weight": "10%–15%" },
+    { "number": 2, "title": "Force and Translational Dynamics", "weight": "18%–23%" },
+    { "number": 3, "title": "Work, Energy, and Power", "weight": "18%–23%" },
+    { "number": 4, "title": "Linear Momentum", "weight": "10%–15%" },
+    { "number": 5, "title": "Torque and Rotational Dynamics", "weight": "10%–15%" },
+    { "number": 6, "title": "Energy and Momentum of Rotating Systems", "weight": "5%–8%" },
+    { "number": 7, "title": "Oscillations", "weight": "5%–8%" },
+    { "number": 8, "title": "Fluids", "weight": "10%–15%" }
+  ],
+  "skills": [
+    {
+      "name": "Creating Representations",
+      "description": "Create and use diagrams, tables, graphs, and sketches (free-body diagrams, energy bar charts, motion graphs) that describe a physical situation or relationship."
+    },
+    {
+      "name": "Mathematical Routines",
+      "description": "Derive symbolic expressions from fundamental principles, calculate unknown quantities with units, compare physical quantities, and predict how a quantity changes when another changes (functional dependence)."
+    },
+    {
+      "name": "Scientific Questioning and Argumentation",
+      "description": "Design experimental procedures, choose what to measure and graph, analyze data (especially linearized graphs and slopes), and make and justify claims using physical laws and evidence."
+    }
+  ],
+  "scoring": {
+    "summary": "Section I (42 MCQ, 1 point each) and Section II (4 FRQs totaling 40 raw points: 10 + 12 + 10 + 8) are each scaled to 50% of a composite score, which College Board converts to a 1–5 score. Cut points are set each year and are not published.",
+    "approxCutoffs": [
+      { "score": 5, "minPercent": 70 },
+      { "score": 4, "minPercent": 54 },
+      { "score": 3, "minPercent": 40 },
+      { "score": 2, "minPercent": 25 }
+    ],
+    "distribution": {
+      "year": 2026,
+      "percents": { "5": 19, "4": 24, "3": 25, "2": 15, "1": 17 }
+    }
+  },
+  "frqTypes": [
+    {
+      "name": "Mathematical Routines (MR)",
+      "points": 10,
+      "howScored": "Points for a correct sketch or diagram element, for a multistep derivation that begins from a fundamental principle or reference equation, for correct substitutions, for a correct final expression or value, and for a justified claim. A correct, isolated final expression often earns some but not all derivation points; the 'begin with a fundamental principle' point requires the starting equation to be written."
+    },
+    {
+      "name": "Translation Between Representations (TBR)",
+      "points": 12,
+      "howScored": "Typically four linked parts: draw a representation (free-body diagram or energy bar chart, with only the appropriate forces or energies and correct relative sizes), derive an equation from a principle, sketch a graph whose features (start point, shape, slope sign) are each scored separately, and then justify whether/how the representations are consistent. Later parts are scored for consistency with your own earlier work."
+    },
+    {
+      "name": "Experimental Design and Analysis (LAB)",
+      "points": 10,
+      "howScored": "Procedure points (measure the right quantities with the right equipment; a method to reduce uncertainty such as repeated trials or many values of the independent variable), a point for choosing quantities to graph and a point for relating the slope to the target quantity, graphing points (axis label with units and linear scale, correctly plotted points, best-fit line), and analysis points (slope relation, numerical result within an accepted range)."
+    },
+    {
+      "name": "Qualitative/Quantitative Translation (QQT)",
+      "points": 8,
+      "howScored": "A claim plus a qualitative justification in terms of physical quantities (not just equations), a derivation from Newton's laws or a conservation law, and a final part that checks whether the derived expression is consistent with the qualitative claim using functional-dependence language (proportional, increases as, in the numerator)."
+    }
+  ],
+  "strategy": [
+    "Budget about 2 minutes per multiple-choice question (85 minutes for 42). Flag anything that needs a long calculation and come back to it.",
+    "Many MCQs are faster with proportional reasoning than with numbers: write the governing equation, then ask how the target changes when one variable doubles.",
+    "On every derivation, start by writing a fundamental principle or a reference-sheet equation (e.g., ΣF = ma, Kᵢ + Uᵢ + W = K_f + U_f, pᵢ = p_f). That first line is usually its own point.",
+    "Define your system before writing a conservation equation. Whether gravity counts as work or as potential energy depends on whether Earth is in the system.",
+    "When a graph is requested, score the features: correct starting value, correct shape (linear vs. curved, concave up vs. down), correct sign of slope, and labeled key values. A rough sketch with the right features earns the points.",
+    "For justification prompts, name the physical quantities and how they relate (e.g., 'the net external force on the system is zero, so total momentum is constant'). Do not just cite an equation; 'use qualitative reasoning beyond referencing equations' is a real rubric requirement.",
+    "In the lab question, always mention reducing uncertainty (repeat trials, many different values of the independent variable) and say exactly what instrument measures each quantity.",
+    "Linearize before you graph: if y ∝ x², plot y vs. x²; if F ∝ 1/sin θ, plot F vs. 1/sin θ. Then state what the slope equals in symbols, then compute it from two points on the best-fit line (not from data points).",
+    "Later FRQ parts are graded for consistency with your earlier answers. If you get stuck, make an assumption, state it, and keep going.",
+    "Use the built-in calculator or your own; carry units in every numerical answer, and use g = 9.8 m/s² as on the reference sheet unless told otherwise."
+  ],
+  "pitfalls": [
+    "Treating velocity as zero means acceleration is zero (at the top of a toss, a = g downward).",
+    "Drawing 'force of motion' or centripetal force as an extra arrow on a free-body diagram.",
+    "Assuming the normal force always equals mg (it does not on inclines, in accelerating elevators, or when other forces have vertical components).",
+    "Using conservation of mechanical energy when friction or another nonconservative force does work, or using conservation of momentum when there is a net external impulse.",
+    "Confusing kinetic energy conservation with momentum conservation in inelastic collisions.",
+    "Mixing up torque arm and distance along the object: τ = rF sin θ uses the angle between r and F.",
+    "Forgetting that rolling objects split kinetic energy between translation and rotation, so they reach the bottom slower than a sliding object.",
+    "Thinking the period of a mass–spring system depends on amplitude, or that a pendulum's period depends on mass.",
+    "Computing buoyant force with the object's density instead of the fluid's density and the displaced volume.",
+    "Losing justification points by writing a correct claim with reasoning that only restates the claim."
+  ],
+  "referenceSheet": "The Physics 1 reference information (available in Bluebook and on paper) includes: constants (G = 6.67 × 10⁻¹¹ N·m²/kg², g = 9.8 m/s², 1 atm = 1.0 × 10⁵ Pa), prefixes, trig values for 0°, 30°, 37°, 45°, 53°, 60°, 90°, and geometry formulas (areas, volumes, right-triangle trig). Mechanics and fluids equations include: v = v₀ + at, x = x₀ + v₀t + ½at², v² = v₀² + 2a(x − x₀); ΣF = ma; |F_f| ≤ μ|F_N|; F_s = −kΔx; F_g = Gm₁m₂/r²; a_c = v²/r; K = ½mv²; W = Fd cos θ; ΔU_g = mgΔy; U_s = ½kx²; U_G = −Gm₁m₂/r; P = ΔE/Δt = Fv cos θ; p = mv; J = FΔt = Δp; x_cm = Σmx/Σm; θ = θ₀ + ω₀t + ½αt² and related rotational kinematics; v = rω, a_T = rα; τ = rF sin θ; Στ = Iα; I = Σmr², I' = I_cm + Md²; K = ½Iω²; L = Iω, L = rmv sin θ, ΔL = τΔt; W = τΔθ; T = 2π/ω = 1/f; T_s = 2π√(m/k); T_p = 2π√(ℓ/g); x = A cos(2πft) or A sin(2πft); ρ = m/V; P = F/A; P = P₀ + ρgh; F_b = ρVg; A₁v₁ = A₂v₂; P₁ + ρgy₁ + ½ρv₁² = P₂ + ρgy₂ + ½ρv₂².",
+  "sources": [
+    { "title": "AP Physics 1: Algebra-Based Exam (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-physics-1/exam" },
+    { "title": "AP Physics 1: Algebra-Based Course page with unit weightings (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-physics-1" },
+    { "title": "AP Physics 1 Assessment (AP Students)", "url": "https://apstudents.collegeboard.org/courses/ap-physics-1-algebra-based/assessment" },
+    { "title": "AP Physics 1 Course and Exam Description Clarifications and Corrections (Fall 2026)", "url": "https://apcentral.collegeboard.org/media/pdf/ap-physics-1-course-and-exam-description-clarifications.pdf" },
+    { "title": "2025 AP Physics 1 Free-Response Questions", "url": "https://apcentral.collegeboard.org/media/pdf/ap25-frq-physics-1.pdf" },
+    { "title": "2025 AP Physics 1 Scoring Guidelines", "url": "https://apcentral.collegeboard.org/media/pdf/ap25-sg-physics-1.pdf" },
+    { "title": "AP Physics 1 Exam Reference Information (equation sheet)", "url": "https://apcentral.collegeboard.org/media/pdf/ap-physics-1-equations-sheet.pdf" },
+    { "title": "AP Physics 1 Score Distributions (AP Students)", "url": "https://apstudents.collegeboard.org/about-ap-scores/score-distributions/ap-physics-1" },
+    { "title": "OnePrep: AP Physics 1 exam changes by year", "url": "https://www.oneprep.com/blog/ap-physics-1-exam-changes" },
+    { "title": "Arbor Scientific: Upcoming Changes to AP Physics 2024-2025", "url": "https://www.arborsci.com/blogs/cool/ap-physics-changes-2024" },
+    { "title": "Num8ers AP Physics 1 score calculator (estimated cutoffs)", "url": "https://num8ers.com/score-calculator/ap-physics-1-score-calculator/" }
+  ],
+  "caveats": [
+    "The May 2027 exam uses 42 MCQ in 85 minutes and a 95-minute FRQ section, per College Board's Fall 2026 CED clarifications. Released 2025 exams used 40 MCQ / 80 min and 100 min for FRQs, so their suggested FRQ timings are slightly longer than you will have.",
+    "Composite cutoffs are third-party estimates (from a public score calculator); College Board does not publish cut scores and they change each year.",
+    "The FRQ point values (10/12/10/8) are taken from the 2025 scoring guidelines; College Board could rebalance them.",
+    "The reference-sheet summary here is written from the published sheet but is not a verbatim copy; use the official PDF in practice."
+  ]
+}

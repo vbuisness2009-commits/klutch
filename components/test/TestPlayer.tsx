@@ -5,8 +5,6 @@ import { QuestionPane } from "./QuestionPane";
 import { DesmosPanel } from "./DesmosPanel";
 import { ResultsScreen } from "./ResultsScreen";
 import {
-  isCorrect,
-  scoredItems,
   type Item,
   type Route,
   type SectionId,
@@ -14,6 +12,25 @@ import {
 } from "@/lib/testEngine/types";
 
 type Phase = "intro" | "module" | "review" | "break" | "done";
+
+async function fetchRoute(
+  formId: string | undefined,
+  sectionId: SectionId,
+  responses: Record<string, string>
+): Promise<Route> {
+  if (!formId) return "lower";
+  try {
+    const res = await fetch(`/api/tests/${encodeURIComponent(formId)}/route`, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ sectionId, responses }),
+    });
+    const json = (await res.json()) as { route?: Route };
+    return json.route === "upper" ? "upper" : "lower";
+  } catch {
+    return "lower";
+  }
+}
 
 function clock(total: number): string {
   const m = Math.floor(Math.max(0, total) / 60);
@@ -25,14 +42,20 @@ export function TestPlayer({
   form,
   fast,
   scorable = true,
-  realPaper = false,
+  formId,
+  preview = false,
+  builtIn = false,
 }: {
   form: TestForm;
   fast: boolean;
   /** False for uploads with no answer key: deliverable, but not scoreable. */
   scorable?: boolean;
-  /** True for uploaded past papers (not the synthetic practice-a pool). */
-  realPaper?: boolean;
+  /** Library id used for routing and review requests. */
+  formId?: string;
+  /** Admin preview of an unpublished test. Results are not saved. */
+  preview?: boolean;
+  /** The built-in placeholder form rather than an authored Klutch test. */
+  builtIn?: boolean;
 }) {
   const [phase, setPhase] = useState<Phase>("intro");
   const [sectionIdx, setSectionIdx] = useState(0);
@@ -55,6 +78,10 @@ export function TestPlayer({
   const [pageVisible, setPageVisible] = useState(true);
   const [windowFocused, setWindowFocused] = useState(true);
   const timingItemRef = useRef<string | null>(null);
+  const advancing = useRef(false);
+  /** Keyed form, fetched only after the last module is submitted. */
+  const [reviewForm, setReviewForm] = useState<TestForm | null>(null);
+  const [reviewError, setReviewError] = useState(false);
 
   const section = form.sections[sectionIdx];
   const isMath = section?.id === "math";
@@ -79,18 +106,15 @@ export function TestPlayer({
     setPhase("module");
   }, [moduleSeconds]);
 
-  /** Module 1 performance picks the module 2 form. Scored items only. */
-  const advance = useCallback(() => {
-    if (!section || !activeModule) return;
+  /** Module 1 performance picks the module 2 form; the server holds the keys. */
+  const advance = useCallback(async () => {
+    if (!section || !activeModule || advancing.current) return;
 
     if (moduleNum === 1) {
-      const correct = scoredItems(activeModule.items).filter((it) =>
-        isCorrect(it, responses[it.id])
-      ).length;
-      setRoutes((r) => ({
-        ...r,
-        [section.id]: correct >= section.routeUpAt ? "upper" : "lower",
-      }));
+      advancing.current = true;
+      const route = await fetchRoute(formId, section.id, responses);
+      advancing.current = false;
+      setRoutes((r) => ({ ...r, [section.id]: route }));
       setModuleNum(2);
       setQIdx(0);
       setSecondsLeft(moduleSeconds);
@@ -105,6 +129,7 @@ export function TestPlayer({
     }
     setPhase("done");
   }, [
+    formId,
     section,
     activeModule,
     moduleNum,
@@ -114,6 +139,23 @@ export function TestPlayer({
     moduleSeconds,
     breakSeconds,
   ]);
+
+  const loadReview = useCallback(() => {
+    fetch(`/api/tests/${encodeURIComponent(formId ?? form.id)}/review`, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ routes, responses }),
+    })
+      .then((r) => (r.ok ? r.json() : Promise.reject(r.status)))
+      .then((json: { form: TestForm }) => setReviewForm(json.form))
+      .catch(() => setReviewError(true));
+  }, [formId, form.id, routes, responses]);
+
+  useEffect(() => {
+    if (phase === "done" && !reviewForm) loadReview();
+    // Only on entering the results phase.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [phase]);
 
   const resumeAfterBreak = useCallback(() => {
     const next = sectionIdx + 1;
@@ -230,10 +272,15 @@ export function TestPlayer({
           ))}
         </dl>
         <p className="mt-6 max-w-[60ch] text-[13px] leading-relaxed text-zinc-500">
-          {realPaper
-            ? "This is an uploaded past paper. Timing and module routing match the digital SAT; the score is an ability estimate with a wide margin until the item pool is calibrated."
-            : "The questions in this form are placeholders while the item pool is built. Scores are not calibrated and are shown as a raw count only."}
+          {builtIn
+            ? "The questions in this form are placeholders that exercise the player. Scores are not calibrated."
+            : "An original Klutch practice test. Timing and module routing follow the digital SAT format; the score is an estimate with a wide margin, not an official score."}
         </p>
+        {preview && (
+          <p className="mt-3 text-[13px] text-amber-300">
+            Admin preview. This test may be unpublished, and results are not saved.
+          </p>
+        )}
         {fast && (
           <p className="mt-3 text-[13px] text-amber-300">
             Fast mode: every clock is compressed to 45 seconds.
@@ -277,15 +324,37 @@ export function TestPlayer({
 
   // ---------------------------------------------------------------- done
   if (phase === "done") {
+    if (!reviewForm) {
+      return (
+        <Shell>
+          <p className="text-sm text-zinc-400">
+            {reviewError ? "Couldn\u2019t load your results. " : "Scoring your test\u2026"}
+          </p>
+          {reviewError && (
+            <button
+              type="button"
+              onClick={() => {
+                setReviewError(false);
+                loadReview();
+              }}
+              className="mt-4 rounded bg-mint px-4 py-2 text-[13px] font-semibold text-ink-950"
+            >
+              Try again
+            </button>
+          )}
+        </Shell>
+      );
+    }
     return (
       <ResultsScreen
-        form={form}
+        form={reviewForm}
         routes={routes}
         responses={responses}
         flags={flags}
         itemTimes={itemTimes}
         answerChanges={answerChanges}
         scorable={scorable}
+        preview={preview}
       />
     );
   }

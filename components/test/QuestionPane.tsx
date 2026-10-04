@@ -179,9 +179,8 @@ export function QuestionPane({
 }
 
 /**
- * Imported items carry markup from the source export; authored ones are plain
- * text. Rendering markup is why uploads go through the admin hub rather than
- * being accepted from end users.
+ * Authored items are plain text unless the author set `html`. Rendering markup
+ * is why uploads only go through the admin hub, never from end users.
  */
 function Rich({
   html,
@@ -203,5 +202,6 @@ function Rich({
       />
     );
   }
-  return <Tag className={className}>{content}</Tag>;
+  // Authored plain text keeps its line breaks (passages, poems, tables of values).
+  return <Tag className={`${className ?? ""} whitespace-pre-line`}>{content}</Tag>;
 }

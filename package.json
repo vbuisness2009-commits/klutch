@@ -8,14 +8,13 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "gen:sat": "node sat-pdf-gen/generate.mjs",
-    "check:math-extract": "node --experimental-strip-types scripts/check-math-extract.ts"
+    "check:scoring": "node --experimental-strip-types scripts/check-scoring.ts",
+    "check:authoring": "node --experimental-strip-types scripts/check-authoring.ts"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.1.0",
+    "bcryptjs": "^3.0.3",
     "next": "14.2.15",
-    "pdf-lib": "^1.17.1",
-    "pdfjs-dist": "^6.3.289",
-    "puppeteer-core": "^23.11.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "server-only": "^0.0.1"

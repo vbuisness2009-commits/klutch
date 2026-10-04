@@ -1,0 +1,222 @@
+{
+  "slug": "english-lang",
+  "name": "AP English Language and Composition",
+  "lastVerified": "2026-10",
+  "overview": "AP English Language and Composition is an introductory college composition course built on four big ideas: Rhetorical Situation, Claims and Evidence, Reasoning and Organization, and Style. Students read short nonfiction (speeches, essays, op-eds, letters, visual and quantitative sources) to explain how a writer's choices serve a purpose for an audience, and they write evidence-based arguments of their own. The exam tests both directions: 45 multiple-choice questions on reading nonfiction and on revising student drafts, then three timed essays (synthesis, rhetorical analysis, and argument).",
+  "examMode": "Fully digital in Bluebook (essays typed; responses auto-submit at the end)",
+  "totalMinutes": 195,
+  "sections": [
+    {
+      "name": "Section I",
+      "questionType": "Multiple choice (4 answer choices each)",
+      "count": 45,
+      "minutes": 60,
+      "weight": "45%",
+      "notes": "Five question sets. Sets 1–2 (11–14 questions each) are reading questions on nonfiction passages (23–25 total). Sets 3–5 (7–9, 7–9, and 4–6 questions) are writing questions that ask you to revise a student draft (20–22 total)."
+    },
+    {
+      "name": "Section II, Question 1",
+      "questionType": "Synthesis essay",
+      "count": 1,
+      "minutes": 55,
+      "weight": "18.3%",
+      "notes": "Six sources on one topic (at least two visual, at least one quantitative). Use at least three. Section II is 2 hours 15 minutes total including a 15-minute reading period; 40 minutes of writing per essay is recommended. Minutes shown here = 15-minute reading period + 40 minutes."
+    },
+    {
+      "name": "Section II, Question 2",
+      "questionType": "Rhetorical analysis essay",
+      "count": 1,
+      "minutes": 40,
+      "weight": "18.3%",
+      "notes": "Analyze the rhetorical choices a writer makes in a nonfiction passage to achieve a purpose."
+    },
+    {
+      "name": "Section II, Question 3",
+      "questionType": "Argument essay",
+      "count": 1,
+      "minutes": 40,
+      "weight": "18.3%",
+      "notes": "Develop your own position on an assigned issue using evidence from your reading, experience, or observation. Section II (all three essays together) is 55% of the score; each essay is scored 0–6."
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Rhetorical Situation, Claims, and Evidence"
+    },
+    {
+      "number": 2,
+      "title": "Audience, Thesis, and Argument Structure"
+    },
+    {
+      "number": 3,
+      "title": "Evidence, Line of Reasoning, and Methods of Development"
+    },
+    {
+      "number": 4,
+      "title": "Introductions, Conclusions, and Methods of Development"
+    },
+    {
+      "number": 5,
+      "title": "Line of Reasoning, Organization, Transitions, and Tone"
+    },
+    {
+      "number": 6,
+      "title": "Evidence, Thesis, and Style"
+    },
+    {
+      "number": 7,
+      "title": "Qualifying Claims, Sentence Structure, and Conventions"
+    },
+    {
+      "number": 8,
+      "title": "Audience, Style, and Sentences That Show Relationships"
+    },
+    {
+      "number": 9,
+      "title": "Counterarguments and Alternative Perspectives"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Rhetorical Situation – Reading (RHS 1)",
+      "description": "Explain how writers' choices reflect the components of the rhetorical situation: exigence, audience, writer, purpose, context, and message. 11–14% of the MCQ section."
+    },
+    {
+      "name": "Rhetorical Situation – Writing (RHS 2)",
+      "description": "Make strategic choices in a text to address a rhetorical situation, e.g., introductions, conclusions, and appeals that fit an audience's beliefs, values, or needs. 11–14% of the MCQ section."
+    },
+    {
+      "name": "Claims and Evidence – Reading (CLE 3)",
+      "description": "Identify and describe the claims and evidence of an argument, the thesis, and how claims are qualified. 13–16% of the MCQ section."
+    },
+    {
+      "name": "Claims and Evidence – Writing (CLE 4)",
+      "description": "Analyze and select evidence to develop and refine a claim; write defensible theses; qualify claims. 11–14% of the MCQ section."
+    },
+    {
+      "name": "Reasoning and Organization – Reading (REO 5)",
+      "description": "Describe the line of reasoning and explain whether it supports the thesis; explain how organization and methods of development (comparison, cause-effect, narration, definition, etc.) serve a purpose. 13–16% of the MCQ section."
+    },
+    {
+      "name": "Reasoning and Organization – Writing (REO 6)",
+      "description": "Use organization, transitions, commentary, and methods of development to advance an argument. 11–14% of the MCQ section."
+    },
+    {
+      "name": "Style – Reading (STL 7)",
+      "description": "Explain how word choice, comparisons, syntax, clause placement, and grammar and mechanics contribute to tone, style, and effectiveness. 11–14% of the MCQ section."
+    },
+    {
+      "name": "Style – Writing (STL 8)",
+      "description": "Select words, comparisons, sentence structures, and punctuation to convey ideas clearly and create a particular tone or style. 11–14% of the MCQ section."
+    }
+  ],
+  "scoring": {
+    "summary": "Section I (45 MCQ, one point each, no penalty for wrong answers) is 45% of the composite; Section II (three essays, each 0–6 on the analytic rubric: Row A thesis 0–1, Row B evidence and commentary 0–4, Row C sophistication 0–1) is 55%. The weighted composite is converted to a 1–5 AP score; the conversion is set each year and is not published.",
+    "approxCutoffs": [
+      {
+        "score": 5,
+        "minPercent": 70
+      },
+      {
+        "score": 4,
+        "minPercent": 60
+      },
+      {
+        "score": 3,
+        "minPercent": 48
+      },
+      {
+        "score": 2,
+        "minPercent": 33
+      }
+    ],
+    "distribution": {
+      "year": 2025,
+      "percents": {
+        "5": 13.4,
+        "4": 28.0,
+        "3": 32.8,
+        "2": 16.1,
+        "1": 9.7
+      }
+    }
+  },
+  "frqTypes": [
+    {
+      "name": "Q1 Synthesis",
+      "points": 6,
+      "howScored": "Row A (0–1): a defensible position on the issue. Row B (0–4): specific evidence from at least THREE of the six sources supporting every claim in a line of reasoning, with commentary that consistently explains how the evidence supports it; fewer than two sources caps the row at 0, two sources at 1. Row C (0–1): sophistication, e.g., exploring tensions across the sources or situating the argument in a broader context. Errors that interfere with communication cap Row B at 3."
+    },
+    {
+      "name": "Q2 Rhetorical Analysis",
+      "points": 6,
+      "howScored": "Row A (0–1): a defensible thesis that analyzes the writer's rhetorical choices (not just names devices). Row B (0–4): specific evidence plus commentary that consistently explains how multiple choices advance the writer's purpose for the audience. Row C (0–1): explains the significance of choices given the rhetorical situation, or the function of the passage's complexities/tensions, or a consistently vivid style."
+    },
+    {
+      "name": "Q3 Argument",
+      "points": 6,
+      "howScored": "Row A (0–1): a defensible position that responds to the prompt. Row B (0–4): specific, well-chosen evidence (from reading, history, experience, observation) supporting every claim, with consistent commentary. Row C (0–1): a nuanced argument that explores complexity or tension, or articulates implications/limitations in a broader context, or a consistently vivid and persuasive style."
+    }
+  ],
+  "strategy": [
+    "Do the two reading sets first if they are longer for you; writing (revision) questions are usually faster per item, so do not let a hard reading passage eat your whole hour. Budget about 80 seconds per question.",
+    "For revision questions, read the stated goal in the stem (\"to provide context,\" \"to emphasize the contrast\") and choose the option that does exactly that job in that spot; correct grammar alone never makes an answer right.",
+    "On keep/delete and add-a-sentence questions, pick between the two 'keep' (or two 'delete') reasons by checking which reason is actually true of the paragraph's purpose.",
+    "On reading questions, predict the function of the cited line before reading the choices. Words like \"primarily\" and \"most nearly\" demand the best fit in context, not a merely possible fit.",
+    "Use the 15-minute reading period to annotate the synthesis sources and sketch a position; you may start writing whenever you are ready.",
+    "Spend roughly 40 minutes per essay. A clear thesis in the first paragraph, two or three body paragraphs where commentary outweighs quotation, and a sentence of complexity woven through beats a long, unfocused essay.",
+    "In rhetorical analysis, write about choices and their effects on the audience (\"by reminding graduates that... she...\"), not a tour of devices. Move through the passage in order if that helps you track the writer's line of reasoning.",
+    "In the argument essay, use specific evidence (a named event, study, book, or concrete personal example) and explain why it proves the claim; vague hypotheticals score poorly.",
+    "Aim Row C at one move: name the strongest tension in the issue and resolve it with a qualified claim, carrying that through the essay rather than adding a token 'some may argue' sentence."
+  ],
+  "pitfalls": [
+    "Summarizing sources or the passage instead of explaining how the evidence supports a claim; summary caps Row B at 1–2.",
+    "Using only two synthesis sources (Row B maximum of 1).",
+    "Device-spotting in rhetorical analysis (\"she uses ethos, pathos, and logos\") without connecting choices to purpose and audience.",
+    "Choosing revision answers that sound sophisticated but do not match the goal stated in the question.",
+    "Misreading tone: AP passages are often nuanced, so extreme answer choices (\"contemptuous,\" \"despairing\") are usually wrong unless the passage is unmistakably extreme.",
+    "Treating sophistication as fancy vocabulary. Readers reward complex thinking, not complex words."
+  ],
+  "sources": [
+    {
+      "title": "AP English Language and Composition Exam (AP Students)",
+      "url": "https://apstudents.collegeboard.org/courses/ap-english-language-and-composition/assessment"
+    },
+    {
+      "title": "AP English Language and Composition Exam (AP Central)",
+      "url": "https://apcentral.collegeboard.org/courses/ap-english-language-and-composition/exam"
+    },
+    {
+      "title": "AP English Language and Composition Course (AP Central)",
+      "url": "https://apcentral.collegeboard.org/courses/ap-english-language-and-composition/course"
+    },
+    {
+      "title": "AP English Language and Composition Course and Exam Description, effective Fall 2024",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-english-language-and-composition-course-and-exam-description.pdf"
+    },
+    {
+      "title": "AP Course and Exam Changes (AP Central)",
+      "url": "https://apcentral.collegeboard.org/courses/how-ap-develops-courses-and-exams/course-changes-overview"
+    },
+    {
+      "title": "AP English Language and Composition Score Distributions",
+      "url": "https://apstudents.collegeboard.org/about-ap-scores/score-distributions/ap-english-language-and-composition"
+    },
+    {
+      "title": "2025 AP Score Distributions",
+      "url": "https://apstudents.collegeboard.org/about-ap-scores/score-distributions/2025"
+    },
+    {
+      "title": "Barron's: 2025 AP English Language and AP English Literature updates",
+      "url": "https://www.barronseduc.com/blogs/home/post/ap-english-lang-lit-updates"
+    }
+  ],
+  "caveats": [
+    "The Course and Exam Description numbers its nine units but does not give them titles; the unit titles here are Klutch's labels summarizing each unit's skill focus from the CED's Course at a Glance. The CED also calls the unit sequence optional, and the exam weights skill categories, not units, so no per-unit exam weights are listed.",
+    "Change since Fall 2024 (first applied on the 2025 exam): multiple-choice questions have four answer choices instead of five. The exam is fully digital in Bluebook. College Board lists no further changes announced for 2026–27; the Fall 2024 CED (with its clarifications document) is current.",
+    "Per-essay minutes in the sections table are recommendations; Section II is one 2-hour-15-minute block including a 15-minute reading period, and students manage their own time across the three essays.",
+    "Approximate cutoffs are Klutch estimates based on historically released scoring worksheets and typical curves; College Board does not publish cut scores and they shift each year.",
+    "College Board's score-distribution page showed 2026 figures rounded to whole numbers and labeled in a way that could not be confirmed as final; the 2025 distribution (to one decimal) is used here."
+  ]
+}

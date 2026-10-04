@@ -1,0 +1,1318 @@
+{
+  "url": "http://localhost:3100/practice/test/international-october-sat-a?fast=1",
+  "bugs": [],
+  "log": [
+    {
+      "t": 1789706650385,
+      "msg": "open",
+      "extra": "http://localhost:3100/practice/test/international-october-sat-a?fast=1"
+    },
+    {
+      "t": 1789706671489,
+      "msg": "console.error",
+      "extra": "Failed to load resource: the server responded with a status of 404 (Not Found)"
+    },
+    {
+      "t": 1789706672362,
+      "msg": "status",
+      "extra": 200
+    },
+    {
+      "t": 1789706672451,
+      "msg": "screenshot intro",
+      "extra": "scripts/.bb-loop/03-intro.png"
+    },
+    {
+      "t": 1789706672465,
+      "msg": "intro text",
+      "extra": "International October SAT A\n\nTwo sections, two timed modules each. You can move freely inside a module, but once a module ends it closes for good, exactly like the real thing. There is a break between sections.\n\nReading and Writing\n2 modules · 27 questions · 32 min each\nMath\n2 modules · 22 questions · 35 min each\n\nThis is an uploaded past paper. Timing and module routing match the digital SAT; the"
+    },
+    {
+      "t": 1789706672480,
+      "msg": "click \"Start section 1\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672501,
+      "msg": "timer visible",
+      "extra": true
+    },
+    {
+      "t": 1789706672503,
+      "msg": "click \"Hide timer\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672505,
+      "msg": "click \"Show timer\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672507,
+      "msg": "click \"Cross out\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672507,
+      "msg": "--- module start: rw-m1",
+      "extra": null
+    },
+    {
+      "t": 1789706672519,
+      "msg": "header",
+      "extra": "Reading and Writing, Module 1This module decides which module 2 you get0:45Hide timer"
+    },
+    {
+      "t": 1789706672661,
+      "msg": "screenshot rw-m1-q1",
+      "extra": "scripts/.bb-loop/12-rw-m1-q1.png"
+    },
+    {
+      "t": 1789706672663,
+      "msg": "answered MCQ A",
+      "extra": null
+    },
+    {
+      "t": 1789706672665,
+      "msg": "click \"Mark for review\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672667,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672668,
+      "msg": "answered MCQ B",
+      "extra": null
+    },
+    {
+      "t": 1789706672670,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672671,
+      "msg": "answered MCQ C",
+      "extra": null
+    },
+    {
+      "t": 1789706672673,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672673,
+      "msg": "answered MCQ D",
+      "extra": null
+    },
+    {
+      "t": 1789706672675,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672678,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672682,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672686,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672689,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672691,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672693,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672695,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672701,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672704,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672706,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672709,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672712,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672715,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672717,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672719,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672721,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672723,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672726,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672728,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672730,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672733,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672735,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672738,
+      "msg": "click \"Review module\"",
+      "extra": null
+    },
+    {
+      "t": 1789706672839,
+      "msg": "screenshot rw-m1-review",
+      "extra": "scripts/.bb-loop/45-rw-m1-review.png"
+    },
+    {
+      "t": 1789706673147,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673151,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673155,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673158,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673161,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673163,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673166,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673168,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673170,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673173,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673175,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673178,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673182,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673184,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673187,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673189,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673192,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673194,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673196,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673199,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673201,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673203,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673206,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673208,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673211,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673213,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673217,
+      "msg": "click \"Review module\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673220,
+      "msg": "click \"Submit module\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673220,
+      "msg": "submitted rw-m1 via \"Submit module\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673222,
+      "msg": "after RW M1 route",
+      "extra": "Reading and Writing, Module 2\nRouted to the lower form\n0:45\nHide timer"
+    },
+    {
+      "t": 1789706673222,
+      "msg": "--- module start: rw-m2",
+      "extra": null
+    },
+    {
+      "t": 1789706673225,
+      "msg": "header",
+      "extra": "Reading and Writing, Module 2Routed to the lower form0:45Hide timer"
+    },
+    {
+      "t": 1789706673345,
+      "msg": "screenshot rw-m2-q1",
+      "extra": "scripts/.bb-loop/78-rw-m2-q1.png"
+    },
+    {
+      "t": 1789706673346,
+      "msg": "answered MCQ A",
+      "extra": null
+    },
+    {
+      "t": 1789706673348,
+      "msg": "click \"Mark for review\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673351,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673352,
+      "msg": "answered MCQ B",
+      "extra": null
+    },
+    {
+      "t": 1789706673355,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673356,
+      "msg": "answered MCQ C",
+      "extra": null
+    },
+    {
+      "t": 1789706673358,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673368,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673372,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673376,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673382,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673387,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673392,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673399,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673404,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673409,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673413,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673416,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673420,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673424,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673428,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673432,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673435,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673438,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673440,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673442,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673444,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673449,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673452,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673455,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673457,
+      "msg": "click \"Review module\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673539,
+      "msg": "screenshot rw-m2-review",
+      "extra": "scripts/.bb-loop/110-rw-m2-review.png"
+    },
+    {
+      "t": 1789706673845,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673849,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673853,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673856,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673858,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673860,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673863,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673866,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673869,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673872,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673880,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673885,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673888,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673890,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673893,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673895,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673897,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673899,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673902,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673904,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673907,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673910,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673914,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673917,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673919,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673922,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673924,
+      "msg": "click \"Review module\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673927,
+      "msg": "click \"Submit and break\"",
+      "extra": null
+    },
+    {
+      "t": 1789706673927,
+      "msg": "submitted rw-m2 via \"Submit and break\"",
+      "extra": null
+    },
+    {
+      "t": 1789706674035,
+      "msg": "screenshot break",
+      "extra": "scripts/.bb-loop/140-break.png"
+    },
+    {
+      "t": 1789706674035,
+      "msg": "on break",
+      "extra": null
+    },
+    {
+      "t": 1789706674038,
+      "msg": "click \"Resume testing\"",
+      "extra": null
+    },
+    {
+      "t": 1789706674054,
+      "msg": "math header",
+      "extra": "Math, Module 1\nThis module decides which module 2 you get\n0:45\nHide timer\nCalculator\nReference"
+    },
+    {
+      "t": 1789706674057,
+      "msg": "click \"Calculator\"",
+      "extra": null
+    },
+    {
+      "t": 1789706674825,
+      "msg": "desmos",
+      "extra": {
+        "iframe": true,
+        "src": "https://www.desmos.com/testing/cb-digital-sat/graphing",
+        "loadingShown": false
+      }
+    },
+    {
+      "t": 1789706674920,
+      "msg": "screenshot math-desmos",
+      "extra": "scripts/.bb-loop/146-math-desmos.png"
+    },
+    {
+      "t": 1789706674924,
+      "msg": "click \"Reference\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675213,
+      "msg": "screenshot math-ref",
+      "extra": "scripts/.bb-loop/148-math-ref.png"
+    },
+    {
+      "t": 1789706675213,
+      "msg": "--- module start: math-m1",
+      "extra": null
+    },
+    {
+      "t": 1789706675218,
+      "msg": "header",
+      "extra": "Math, Module 1This module decides which module 2 you get0:44Hide timerCalculatorReference"
+    },
+    {
+      "t": 1789706675307,
+      "msg": "screenshot math-m1-q1",
+      "extra": "scripts/.bb-loop/151-math-m1-q1.png"
+    },
+    {
+      "t": 1789706675308,
+      "msg": "answered MCQ A",
+      "extra": null
+    },
+    {
+      "t": 1789706675310,
+      "msg": "click \"Mark for review\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675313,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675314,
+      "msg": "answered MCQ B",
+      "extra": null
+    },
+    {
+      "t": 1789706675317,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675317,
+      "msg": "answered MCQ C",
+      "extra": null
+    },
+    {
+      "t": 1789706675328,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675336,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675340,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675343,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675346,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675353,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675357,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675362,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675364,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675367,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675370,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675373,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675383,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675390,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675394,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675397,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675404,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675406,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675409,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675413,
+      "msg": "click \"Review module\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675510,
+      "msg": "screenshot math-m1-review",
+      "extra": "scripts/.bb-loop/178-math-m1-review.png"
+    },
+    {
+      "t": 1789706675821,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675831,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675836,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675841,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675844,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675847,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675850,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675852,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675857,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675860,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675862,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675865,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675868,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675871,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675874,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675877,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675881,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675884,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675888,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675891,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675893,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675896,
+      "msg": "click \"Review module\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675900,
+      "msg": "click \"Submit module\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675900,
+      "msg": "submitted math-m1 via \"Submit module\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675903,
+      "msg": "--- module start: math-m2",
+      "extra": null
+    },
+    {
+      "t": 1789706675905,
+      "msg": "header",
+      "extra": "Math, Module 2Routed to the lower form0:45Hide timerCalculatorReference"
+    },
+    {
+      "t": 1789706675993,
+      "msg": "screenshot math-m2-q1",
+      "extra": "scripts/.bb-loop/205-math-m2-q1.png"
+    },
+    {
+      "t": 1789706675994,
+      "msg": "answered MCQ A",
+      "extra": null
+    },
+    {
+      "t": 1789706675996,
+      "msg": "click \"Mark for review\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675998,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706675999,
+      "msg": "answered MCQ B",
+      "extra": null
+    },
+    {
+      "t": 1789706676001,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676002,
+      "msg": "answered MCQ C",
+      "extra": null
+    },
+    {
+      "t": 1789706676004,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676007,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676009,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676014,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676016,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676019,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676022,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676025,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676028,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676030,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676033,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676035,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676038,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676040,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676043,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676046,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676049,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676052,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676055,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676057,
+      "msg": "click \"Review module\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676141,
+      "msg": "screenshot math-m2-review",
+      "extra": "scripts/.bb-loop/232-math-m2-review.png"
+    },
+    {
+      "t": 1789706676452,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676460,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676464,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676467,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676469,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676473,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676475,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676478,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676481,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676484,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676486,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676489,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676492,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676495,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676498,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676501,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676504,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676506,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676509,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676512,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676515,
+      "msg": "click \"Next\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676517,
+      "msg": "click \"Review module\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676555,
+      "msg": "click \"Finish test\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676555,
+      "msg": "submitted math-m2 via \"Finish test\"",
+      "extra": null
+    },
+    {
+      "t": 1789706676666,
+      "msg": "screenshot results",
+      "extra": "scripts/.bb-loop/257-results.png"
+    },
+    {
+      "t": 1789706676667,
+      "msg": "results text",
+      "extra": "Your score\n410\nplus or minus 80 · out of 1600\n210\nReading and Writing · 1/54 · lower module\n200\nMath · 1/44 · lower module\nTime on items\n2s\nCorrect\n2/98\nFlagged\n4\nSlow\n1\n\nScored the way the real test is: an ability estimate fitted across every question you answered, not a count of correct answers, so a hard question right counts for more than an easy one. The margin is real. It is wide because the item pool is not calibrated yet, and a single number would imply precision this does not have.\n\nQuestion timing\n\nActive time while each question was on screen (paused on review, break, or when the ta"
+    },
+    {
+      "t": 1789706676669,
+      "msg": "results timing",
+      "extra": {
+        "hasTable": true,
+        "rowCount": 98,
+        "withTime": 1,
+        "maxTime": 2,
+        "hasCoach": true,
+        "hasTotals": true,
+        "bodyHasTiming": true
+      }
+    }
+  ]
+}

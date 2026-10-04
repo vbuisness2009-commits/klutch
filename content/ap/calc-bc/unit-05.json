@@ -1,0 +1,280 @@
+{
+  "number": 5,
+  "title": "Analytical Applications of Differentiation",
+  "guide": {
+    "summary": "This is the heaviest-weighted unit on the exam. It uses derivatives to describe the shape of a graph: where a function increases, where it peaks, how it bends. It includes the Mean Value and Extreme Value Theorems, the first and second derivative tests, concavity and inflection points, and optimization.",
+    "sections": [
+      {
+        "heading": "Mean Value Theorem and Extreme Value Theorem",
+        "body": "**Mean Value Theorem (MVT):** if f is continuous on [a, b] and differentiable on (a, b), then some c in (a, b) has\n\nf′(c) = (f(b) − f(a))/(b − a)\n\nSomewhere, the instantaneous rate equals the average rate. On FRQs you must **state both hypotheses** in your justification; \"f is differentiable, so it is also continuous\" is the efficient way.\n\n**Extreme Value Theorem (EVT):** if f is continuous on a closed interval [a, b], then f attains both an absolute maximum and an absolute minimum there.\n\nThe hypotheses matter. |x| on [−1, 1] fails MVT because it isn't differentiable at 0. 1/x on [−1, 1] fails both because it isn't even continuous."
+      },
+      {
+        "heading": "Increasing, decreasing, and critical points",
+        "body": "f is **increasing** where f′ > 0 and **decreasing** where f′ < 0.\n\nA **critical point** is an x in the domain where f′(x) = 0 or f′(x) does not exist. Extrema can only happen at critical points or endpoints.\n\n**First derivative test:** at a critical point c,\n\n- f′ changes from + to −: relative maximum.\n- f′ changes from − to +: relative minimum.\n- f′ doesn't change sign: no extremum.\n\nWatch repeated factors. If f′(x) = (x − 1)²(x − 3), then f′ = 0 at x = 1, but (x − 1)² ≥ 0 means f′ has the same sign on both sides of 1. Only x = 3 gives an extremum (a minimum).\n\nOn FRQs, justify with the sign change of **f′**, by name. \"f changes from increasing to decreasing\" is acceptable; \"the graph goes up then down\" is not."
+      },
+      {
+        "heading": "Absolute extrema: the Candidates Test",
+        "body": "To find the absolute max or min of a continuous function on [a, b]:\n\n1. Find all critical points in (a, b).\n2. Evaluate f at each critical point **and** at both endpoints.\n3. The largest value is the absolute max; the smallest is the absolute min.\n\nExample: f(x) = x³ − 3x² on [−1, 4]. f′ = 3x(x − 2), so critical points 0 and 2.\n\n| x | −1 | 0 | 2 | 4 |\n| --- | --- | --- | --- | --- |\n| f(x) | −4 | 0 | −4 | 16 |\n\nAbsolute max 16 at x = 4; absolute min −4, attained at both x = −1 and x = 2. Present the table; it is the justification."
+      },
+      {
+        "heading": "Concavity and inflection points",
+        "body": "f is **concave up** where f″ > 0 (equivalently, where f′ is increasing) and **concave down** where f″ < 0 (f′ decreasing).\n\nAn **inflection point** is where concavity changes. f″ = 0 is not enough: f(x) = x⁴ has f″(0) = 0 but is concave up on both sides. Justify with \"f″ changes sign at x = c\" or \"f′ changes from increasing to decreasing.\"\n\nMany exam questions give you the graph of **f′** and ask about f. Translate:\n\n| On the graph of f′ | Means for f |\n| --- | --- |\n| above the axis | f increasing |\n| crosses axis + to − | relative max of f |\n| increasing | f concave up |\n| has a peak or valley | inflection point of f |"
+      },
+      {
+        "heading": "Second derivative test",
+        "body": "If f′(c) = 0 and f″(c) < 0, f has a relative maximum at c (concave down, like the top of a hill). If f′(c) = 0 and f″(c) > 0, a relative minimum. If f″(c) = 0, the test says nothing; fall back on the first derivative test."
+      },
+      {
+        "heading": "Optimization",
+        "body": "1. Identify the quantity to maximize or minimize; write it as a function of one variable using the constraint.\n2. State the domain.\n3. Find critical points.\n4. Justify the extremum: Candidates Test on a closed domain, or the first/second derivative test when there's a single critical point.\n\nExample: closest point on y = √x to (3, 0). Minimize D² = (x − 3)² + x (squaring removes the root and has the same minimizer). d/dx = 2(x − 3) + 1 = 0 gives x = 5/2. The second derivative is 2 > 0, so it's a minimum. The point is (5/2, √(5/2))."
+      }
+    ],
+    "keyTakeaways": [
+      "MVT needs continuity on [a, b] and differentiability on (a, b); state them.",
+      "Extrema occur only at critical points or endpoints.",
+      "Relative extremum requires f′ to change sign; repeated roots often don't.",
+      "Absolute extrema on a closed interval: Candidates Test with a table.",
+      "Inflection points need f″ to change sign, not just equal zero.",
+      "Reading f′ as a graph: above axis = f increasing; rising = f concave up."
+    ],
+    "commonMistakes": [
+      "Calling every zero of f′ an extremum.",
+      "Forgetting to check endpoints when finding absolute extrema.",
+      "Calling every zero of f″ an inflection point.",
+      "Justifying with \"the graph of f′ changes\" without saying from positive to negative.",
+      "Answering an optimization question with the x-value when it asks for the maximum value (or vice versa).",
+      "Applying MVT without stating the hypotheses."
+    ],
+    "examTips": [
+      "Graph-of-f′ questions are near-certain on the FRQ section; practice translating features.",
+      "Justifications should name the function: \"because f′ changes from positive to negative at x = 2.\"",
+      "Candidates Test answers need the table or a list of values; a bare number loses points.",
+      "On MVT items, compute the average rate first and check that a matching instantaneous rate is plausible.",
+      "In optimization, always finish by answering the exact question asked, with units."
+    ],
+    "cramSheet": "**MVT:** f cts on [a,b], diff on (a,b) ⇒ ∃c: f′(c) = (f(b)−f(a))/(b−a)\n\n**EVT:** cts on [a,b] ⇒ abs max and min exist\n\n**Critical point:** f′ = 0 or DNE\n\n**1st deriv test:** f′ + → − max · − → + min · no change = nothing\n\n**2nd deriv test:** f′ = 0, f″ < 0 max · f″ > 0 min · f″ = 0 inconclusive\n\n**Candidates:** critical points + endpoints, compare values\n\n**Concavity:** f″ > 0 up · f″ < 0 down · inflection = f″ changes sign\n\n**Graph of f′:** above axis ↑ · rising → f concave up · peak/valley → inflection of f"
+  },
+  "vocab": [
+    { "term": "Mean Value Theorem", "definition": "If f is continuous on [a, b] and differentiable on (a, b), then f′(c) = (f(b) − f(a))/(b − a) for some c in (a, b)." },
+    { "term": "Extreme Value Theorem", "definition": "A function continuous on a closed interval attains an absolute maximum and an absolute minimum on it." },
+    { "term": "Critical point", "definition": "A value c in the domain where f′(c) = 0 or f′(c) does not exist." },
+    { "term": "Relative (local) maximum", "definition": "f(c) ≥ f(x) for all x near c; occurs where f′ changes from positive to negative." },
+    { "term": "Relative (local) minimum", "definition": "f(c) ≤ f(x) for all x near c; occurs where f′ changes from negative to positive." },
+    { "term": "Absolute (global) extremum", "definition": "The largest or smallest value of f over its entire domain or interval." },
+    { "term": "First derivative test", "definition": "Classifies a critical point by the sign change of f′ around it." },
+    { "term": "Second derivative test", "definition": "If f′(c) = 0, then f″(c) < 0 gives a relative max and f″(c) > 0 a relative min." },
+    { "term": "Candidates Test", "definition": "Find absolute extrema on [a, b] by evaluating f at critical points and endpoints and comparing." },
+    { "term": "Concave up", "definition": "f″ > 0, equivalently f′ increasing; the graph bends upward." },
+    { "term": "Concave down", "definition": "f″ < 0, equivalently f′ decreasing; the graph bends downward." },
+    { "term": "Point of inflection", "definition": "A point on the graph where concavity changes; f″ changes sign there." },
+    { "term": "Optimization", "definition": "Finding the maximum or minimum value of a quantity subject to a constraint." }
+  ],
+  "practice": [
+    {
+      "id": "u5-q01", "tier": "Intro", "type": "mcq", "topic": "5.2 Extreme Value Theorem and Critical Points",
+      "stem": "What are the critical points of f(x) = x³ − 3x?",
+      "choices": [
+        { "id": "A", "text": "x = −1 and x = 1" },
+        { "id": "B", "text": "x = 0 only" },
+        { "id": "C", "text": "x = −√3, 0, and √3" },
+        { "id": "D", "text": "x = 1 only" }
+      ],
+      "answer": "A",
+      "explanation": "f′(x) = 3x² − 3 = 3(x − 1)(x + 1) = 0 at x = ±1.",
+      "distractors": { "C": "Those are the zeros of f, not of f′.", "D": "Lost the negative root." }
+    },
+    {
+      "id": "u5-q02", "tier": "Intro", "type": "mcq", "topic": "5.3 Determining Intervals on Which a Function Is Increasing or Decreasing",
+      "stem": "If f′(x) = (x − 2)(x + 1), on which interval is f decreasing?",
+      "choices": [
+        { "id": "A", "text": "(−1, 2)" },
+        { "id": "B", "text": "(−∞, −1)" },
+        { "id": "C", "text": "(2, ∞)" },
+        { "id": "D", "text": "(−∞, −1) ∪ (2, ∞)" }
+      ],
+      "answer": "A",
+      "explanation": "f′ < 0 between the roots −1 and 2, where one factor is positive and the other negative.",
+      "distractors": { "D": "That's where f is increasing." }
+    },
+    {
+      "id": "u5-q03", "tier": "Intro", "type": "mcq", "topic": "5.1 Using the Mean Value Theorem",
+      "stem": "For f(x) = x² on [1, 3], what value of c satisfies the conclusion of the Mean Value Theorem?",
+      "choices": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "4" },
+        { "id": "C", "text": "√5" },
+        { "id": "D", "text": "3" }
+      ],
+      "answer": "A",
+      "explanation": "Average rate: (9 − 1)/(3 − 1) = 4. f′(c) = 2c = 4 gives c = 2.",
+      "distractors": { "B": "That's the average rate, not c.", "C": "Averaged the function values and took a square root.", "D": "c must be strictly inside the interval." }
+    },
+    {
+      "id": "u5-q04", "tier": "Intro", "type": "mcq", "topic": "5.6 Determining Concavity",
+      "stem": "At what x-value does f(x) = x³ − 6x² have a point of inflection?",
+      "choices": [
+        { "id": "A", "text": "x = 2" },
+        { "id": "B", "text": "x = 0 and x = 4" },
+        { "id": "C", "text": "x = 4" },
+        { "id": "D", "text": "x = 0" }
+      ],
+      "answer": "A",
+      "explanation": "f″(x) = 6x − 12, which is 0 at x = 2 and changes sign there.",
+      "distractors": { "B": "Those are critical points (zeros of f′).", "C": "That's where the relative minimum is." }
+    },
+    {
+      "id": "u5-q05", "tier": "Exam level", "type": "mcq", "topic": "5.5 Using the Candidates Test",
+      "stem": "What is the absolute maximum value of f(x) = x³ − 3x² on [−1, 4]?",
+      "choices": [
+        { "id": "A", "text": "16" },
+        { "id": "B", "text": "0" },
+        { "id": "C", "text": "−4" },
+        { "id": "D", "text": "4" }
+      ],
+      "answer": "A",
+      "explanation": "Critical points 0 and 2. f(−1) = −4, f(0) = 0, f(2) = −4, f(4) = 16. Max is 16.",
+      "distractors": { "B": "That's the relative max; the endpoint x = 4 is higher.", "C": "That's the absolute minimum.", "D": "Reported the x-value, not the max value." }
+    },
+    {
+      "id": "u5-q06", "tier": "Exam level", "type": "mcq", "topic": "5.4 Using the First Derivative Test",
+      "stem": "If f′(x) = (x − 1)²(x − 3), at which x-values does f have a relative extremum?",
+      "choices": [
+        { "id": "A", "text": "x = 3 only" },
+        { "id": "B", "text": "x = 1 only" },
+        { "id": "C", "text": "x = 1 and x = 3" },
+        { "id": "D", "text": "None" }
+      ],
+      "answer": "A",
+      "explanation": "(x − 1)² ≥ 0, so f′ has the sign of (x − 3) everywhere except x = 1. f′ doesn't change sign at 1 but goes from − to + at 3: a relative minimum.",
+      "distractors": { "C": "Treated every zero of f′ as an extremum." }
+    },
+    {
+      "id": "u5-q07", "tier": "Exam level", "type": "mcq", "topic": "5.6 Determining Concavity",
+      "stem": "If f′(x) = x·e^(−x), on what interval is the graph of f concave up?",
+      "choices": [
+        { "id": "A", "text": "x < 1" },
+        { "id": "B", "text": "x > 1" },
+        { "id": "C", "text": "x > 0" },
+        { "id": "D", "text": "0 < x < 1" }
+      ],
+      "answer": "A",
+      "explanation": "f″(x) = e^(−x) − x·e^(−x) = (1 − x)e^(−x). Since e^(−x) > 0, f″ > 0 exactly when x < 1.",
+      "distractors": { "B": "Sign error in the product rule.", "C": "Used where f′ > 0, which is where f is increasing." }
+    },
+    {
+      "id": "u5-q08", "tier": "Exam level", "type": "mcq", "topic": "5.11 Solving Optimization Problems",
+      "stem": "Among all rectangles with perimeter 40, what is the largest possible area?",
+      "choices": [
+        { "id": "A", "text": "100" },
+        { "id": "B", "text": "400" },
+        { "id": "C", "text": "80" },
+        { "id": "D", "text": "96" }
+      ],
+      "answer": "A",
+      "explanation": "Sides x and 20 − x. A = x(20 − x), A′ = 20 − 2x = 0 at x = 10. A″ = −2 < 0, a max. A = 100.",
+      "distractors": { "B": "Squared the half-perimeter, 20², instead of using sides of 10.", "D": "A non-optimal rectangle (8 × 12)." }
+    },
+    {
+      "id": "u5-q09", "tier": "Exam level", "type": "mcq", "topic": "5.7 Using the Second Derivative Test",
+      "stem": "f is twice differentiable with f′(2) = 0 and f″(2) = −3. Which must be true?",
+      "choices": [
+        { "id": "A", "text": "f has a relative maximum at x = 2." },
+        { "id": "B", "text": "f has a relative minimum at x = 2." },
+        { "id": "C", "text": "f has a point of inflection at x = 2." },
+        { "id": "D", "text": "There isn't enough information to classify x = 2." }
+      ],
+      "answer": "A",
+      "explanation": "Horizontal tangent and concave down: the second derivative test gives a relative max.",
+      "distractors": { "B": "Reversed the test.", "C": "Inflection requires f″ to change sign, not f′ = 0." }
+    },
+    {
+      "id": "u5-q10", "tier": "Exam level", "type": "mcq", "topic": "5.4 Using the First Derivative Test",
+      "stem": "g′(x) = x² − 4 on −3 ≤ x ≤ 3. At what x does g have a relative maximum?",
+      "choices": [
+        { "id": "A", "text": "x = −2" },
+        { "id": "B", "text": "x = 2" },
+        { "id": "C", "text": "x = 0" },
+        { "id": "D", "text": "x = −3" }
+      ],
+      "answer": "A",
+      "explanation": "g′ > 0 for x < −2 and g′ < 0 for −2 < x < 2, so g′ changes from + to − at x = −2.",
+      "distractors": { "B": "g′ changes from − to + at 2: a minimum.", "C": "That's where g′ is smallest, an inflection point of g." }
+    },
+    {
+      "id": "u5-q11", "tier": "Hardest", "type": "mcq", "topic": "5.1 Using the Mean Value Theorem",
+      "stem": "Which function satisfies the hypotheses of the Mean Value Theorem on [−1, 1]?",
+      "choices": [
+        { "id": "A", "text": "f(x) = x^(2/3)" },
+        { "id": "B", "text": "f(x) = |x|" },
+        { "id": "C", "text": "f(x) = 1/x" },
+        { "id": "D", "text": "f(x) = x³ − x" }
+      ],
+      "answer": "D",
+      "explanation": "A polynomial is continuous and differentiable everywhere. x^(2/3) has a cusp at 0, |x| a corner at 0, and 1/x is undefined at 0.",
+      "distractors": { "A": "Continuous on [−1, 1], but not differentiable at 0.", "B": "Continuous but has a corner at 0." }
+    },
+    {
+      "id": "u5-q12", "tier": "Hardest", "type": "mcq", "topic": "5.11 Solving Optimization Problems",
+      "stem": "Which point on the graph of y = √x is closest to the point (3, 0)?",
+      "choices": [
+        { "id": "A", "text": "(5/2, √(5/2))" },
+        { "id": "B", "text": "(3, √3)" },
+        { "id": "C", "text": "(2, √2)" },
+        { "id": "D", "text": "(1, 1)" }
+      ],
+      "answer": "A",
+      "explanation": "Minimize D² = (x − 3)² + x. Derivative: 2(x − 3) + 1 = 0, so x = 5/2. Second derivative 2 > 0 confirms a minimum.",
+      "distractors": { "B": "Directly above (3, 0) isn't the shortest distance to a curve that bends." }
+    },
+    {
+      "id": "u5-q13", "tier": "Hardest", "type": "mcq", "topic": "5.9 Connecting a Function, Its First Derivative, and Its Second Derivative",
+      "stem": "If f″(x) = (x − 1)(x − 2)², at which x-values does the graph of f have a point of inflection?",
+      "choices": [
+        { "id": "A", "text": "x = 1 only" },
+        { "id": "B", "text": "x = 2 only" },
+        { "id": "C", "text": "x = 1 and x = 2" },
+        { "id": "D", "text": "None" }
+      ],
+      "answer": "A",
+      "explanation": "(x − 2)² ≥ 0, so f″ has the sign of (x − 1). f″ changes sign only at x = 1.",
+      "distractors": { "C": "Treated every zero of f″ as an inflection point." }
+    },
+    {
+      "id": "u5-q14", "tier": "Hardest", "type": "mcq", "topic": "5.5 Using the Candidates Test",
+      "stem": "Let f(x) = x + 4/x on [1, 4]. Which statement is true?",
+      "choices": [
+        { "id": "A", "text": "The absolute maximum value is 5, attained at x = 1 and at x = 4." },
+        { "id": "B", "text": "The absolute maximum value is 4, attained at x = 2." },
+        { "id": "C", "text": "The absolute maximum value is 5, attained only at x = 1." },
+        { "id": "D", "text": "f has no absolute maximum on [1, 4]." }
+      ],
+      "answer": "A",
+      "explanation": "f′ = 1 − 4/x² = 0 at x = 2. f(1) = 5, f(2) = 4, f(4) = 4 + 1 = 5. Max 5 at both endpoints; min 4 at x = 2.",
+      "distractors": { "B": "x = 2 gives the minimum.", "C": "Forgot to evaluate the right endpoint.", "D": "EVT guarantees a max for a continuous function on a closed interval." }
+    },
+    {
+      "id": "u5-frq1", "tier": "Exam level", "type": "frq", "topic": "5.4–5.9 Analyzing f from f′", "frqType": "Free response (no calculator)",
+      "prompt": "The function f is differentiable on [−3, 4] with f(0) = 3 and f′(x) = (x + 1)(x − 2)².",
+      "parts": [
+        { "label": "a", "prompt": "Find the x-coordinate of each relative extremum of f on (−3, 4). Classify each as a relative maximum or minimum. Justify your answer.", "points": 2 },
+        { "label": "b", "prompt": "On what open intervals is the graph of f concave up? Justify your answer.", "points": 2 },
+        { "label": "c", "prompt": "Find the x-coordinates of all points of inflection of the graph of f. Justify your answer.", "points": 2 },
+        { "label": "d", "prompt": "Use the line tangent to f at x = 0 to approximate f(0.1). Is the approximation an overestimate or an underestimate? Justify.", "points": 3 }
+      ],
+      "points": 9,
+      "minutes": 15,
+      "rubric": [
+        { "criterion": "(a) Answer", "points": 1, "description": "Relative minimum at x = −1; no extremum at x = 2." },
+        { "criterion": "(a) Justification", "points": 1, "description": "f′ changes from negative to positive at x = −1; f′ does not change sign at x = 2 because (x − 2)² ≥ 0." },
+        { "criterion": "(b) f″", "points": 1, "description": "f″(x) = (x − 2)² + 2(x + 1)(x − 2) = 3x(x − 2)." },
+        { "criterion": "(b) Intervals", "points": 1, "description": "Concave up on (−3, 0) and (2, 4), because f″ > 0 there." },
+        { "criterion": "(c) Answer", "points": 1, "description": "x = 0 and x = 2." },
+        { "criterion": "(c) Justification", "points": 1, "description": "f″ changes sign at each of these values." },
+        { "criterion": "(d) Tangent line", "points": 1, "description": "f′(0) = 4, so y = 3 + 4x." },
+        { "criterion": "(d) Estimate", "points": 1, "description": "f(0.1) ≈ 3.4." },
+        { "criterion": "(d) Over/under", "points": 1, "description": "Overestimate, because f″ < 0 on (0, 0.1), so f is concave down there." }
+      ],
+      "sampleResponse": "(a) f′(x) = 0 at x = −1 and x = 2. For x < −1, f′ < 0; for −1 < x < 2 and x > 2, f′ > 0 since (x − 2)² ≥ 0. So f′ changes from negative to positive at x = −1: relative minimum. At x = 2, f′ doesn't change sign, so there's no extremum.\n\n(b) f″(x) = (x − 2)² + (x + 1)·2(x − 2) = (x − 2)[(x − 2) + 2(x + 1)] = 3x(x − 2). f″ > 0 when x < 0 or x > 2, so f is concave up on (−3, 0) and (2, 4).\n\n(c) f″ changes sign at x = 0 (from + to −) and at x = 2 (from − to +), so both are points of inflection.\n\n(d) f′(0) = (1)(4) = 4, so the tangent line is y = 3 + 4x and f(0.1) ≈ 3.4. On (0, 0.1), f″(x) = 3x(x − 2) < 0, so f is concave down and lies below its tangent line. The approximation is an overestimate."
+    }
+  ]
+}

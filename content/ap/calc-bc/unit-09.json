@@ -1,0 +1,272 @@
+{
+  "number": 9,
+  "title": "Parametric Equations, Polar Coordinates, and Vector-Valued Functions",
+  "guide": {
+    "summary": "This BC-only unit extends calculus to curves that aren't graphs of y = f(x). Parametric equations describe x and y separately in terms of t; vector-valued functions describe motion in the plane; polar coordinates describe curves by distance and angle. You'll find slopes, second derivatives, speeds, distances, and areas in each setting.",
+    "sections": [
+      {
+        "heading": "Parametric equations",
+        "body": "For x = x(t), y = y(t):\n\ndy/dx = (dy/dt)/(dx/dt)\n\nd²y/dx² = [d/dt (dy/dx)] / (dx/dt)\n\nThe second-derivative formula is a frequent trap: you differentiate dy/dx with respect to **t**, then divide by dx/dt again.\n\nExample: x = t², y = t³. dy/dx = 3t²/(2t) = 3t/2. d/dt(3t/2) = 3/2, so d²y/dx² = (3/2)/(2t) = 3/(4t).\n\n**Horizontal tangents:** dy/dt = 0 with dx/dt ≠ 0. **Vertical tangents:** dx/dt = 0 with dy/dt ≠ 0.\n\n**Arc length:** L = ∫ √((dx/dt)² + (dy/dt)²) dt."
+      },
+      {
+        "heading": "Vector-valued functions and motion",
+        "body": "Position r(t) = ⟨x(t), y(t)⟩. Velocity v(t) = ⟨x′(t), y′(t)⟩. Acceleration a(t) = ⟨x″(t), y″(t)⟩.\n\n**Speed** = |v(t)| = √(x′² + y′²). **Total distance traveled** from a to b = ∫ₐᵇ |v(t)| dt (same as arc length).\n\nPosition from velocity: r(b) = r(a) + ∫ₐᵇ v(t) dt, component by component.\n\nDirection of motion: x′ > 0 means moving right; y′ > 0 means moving up. A particle is at rest only when **both** components of velocity are 0."
+      },
+      {
+        "heading": "Polar coordinates",
+        "body": "A point (r, θ) has x = r cos θ, y = r sin θ, and r² = x² + y². So r = 2 is the circle x² + y² = 4, and r = 2cos θ is a circle of radius 1 centered at (1, 0).\n\n**Slope:** treat θ as the parameter. x = r cos θ, y = r sin θ, so dy/dx = (dy/dθ)/(dx/dθ), with the product rule applied to r(θ)·sin θ and r(θ)·cos θ.\n\n**Area:** A = ½ ∫ r² dθ over the interval that traces the region once.\n\n**Area between curves:** A = ½ ∫ (r_outer² − r_inner²) dθ between intersection angles. Find intersections by setting the r's equal, but also check the pole, which can be reached at different θ values.\n\n**dr/dθ** tells whether points move away from (r increasing, if r > 0) or toward the origin."
+      },
+      {
+        "heading": "Common exam patterns",
+        "body": "FRQs often give a particle's velocity components (sometimes from a table or as functions needing a calculator) and ask for speed, position, slope of the path, and total distance. Polar FRQs ask for area of a region, the rate at which distance from the origin changes (dr/dθ), and slope at a point. Always label vectors with angle brackets and include both components."
+      }
+    ],
+    "keyTakeaways": [
+      "dy/dx = (dy/dt)/(dx/dt); d²y/dx² = [d/dt(dy/dx)]/(dx/dt).",
+      "Speed = √(x′² + y′²); distance = ∫ speed dt.",
+      "Position = initial position + ∫ velocity, component-wise.",
+      "Polar: x = r cos θ, y = r sin θ; slope via θ as a parameter.",
+      "Polar area = ½∫r² dθ; between curves, ½∫(R² − r²) dθ.",
+      "At rest requires both velocity components to be zero."
+    ],
+    "commonMistakes": [
+      "Forgetting to divide by dx/dt a second time for d²y/dx².",
+      "Computing displacement instead of distance for total distance traveled.",
+      "Forgetting the ½ in polar area.",
+      "Using wrong limits that trace part of a polar region twice.",
+      "Using dr/dθ as the slope dy/dx of a polar curve.",
+      "Calling a particle at rest when only one velocity component is zero."
+    ],
+    "examTips": [
+      "Write vectors as ⟨x, y⟩; answers missing a component lose points.",
+      "On calculator FRQs, store intermediate values and use fnInt and nDeriv carefully.",
+      "Sketch polar curves quickly by plotting r at θ = 0, π/2, π, 3π/2.",
+      "For \"distance from origin\" questions in polar, the rate is dr/dθ (or dr/dt).",
+      "State units for speed and distance when given."
+    ],
+    "cramSheet": "**Parametric:** dy/dx = y′/x′ · d²y/dx² = (dy/dx)′/x′ · horiz tan: y′ = 0 · vert tan: x′ = 0\n\n**Vectors:** v = ⟨x′, y′⟩ · a = ⟨x″, y″⟩ · speed = √(x′² + y′²) · distance = ∫speed · r(b) = r(a) + ∫v\n\n**Polar:** x = r cos θ · y = r sin θ · r² = x² + y² · dy/dx = (dy/dθ)/(dx/dθ)\n\n**Polar area:** ½∫r² dθ · between: ½∫(R² − r²) dθ"
+  },
+  "vocab": [
+    { "term": "Parametric equations", "definition": "Equations giving x and y each as functions of a parameter, often t." },
+    { "term": "Parameter", "definition": "An independent variable, such as time t, that determines both coordinates." },
+    { "term": "Vector-valued function", "definition": "A function whose output is a vector, such as r(t) = ⟨x(t), y(t)⟩." },
+    { "term": "Velocity vector", "definition": "⟨x′(t), y′(t)⟩, giving direction and rate of motion." },
+    { "term": "Speed", "definition": "The magnitude of velocity: √(x′(t)² + y′(t)²)." },
+    { "term": "Acceleration vector", "definition": "⟨x″(t), y″(t)⟩, the rate of change of velocity." },
+    { "term": "Arc length (parametric)", "definition": "∫√((dx/dt)² + (dy/dt)²) dt." },
+    { "term": "Polar coordinates", "definition": "A point described by its distance r from the origin and angle θ from the positive x-axis." },
+    { "term": "Pole", "definition": "The origin in polar coordinates." },
+    { "term": "Polar area", "definition": "½∫r² dθ, the area swept out by a polar curve." },
+    { "term": "Cardioid", "definition": "A heart-shaped polar curve such as r = 1 + cos θ." },
+    { "term": "dr/dθ", "definition": "The rate at which distance from the origin changes with respect to θ." }
+  ],
+  "practice": [
+    {
+      "id": "u9-q01", "tier": "Intro", "type": "mcq", "topic": "9.1 Defining and Differentiating Parametric Equations",
+      "stem": "A curve is defined by x = t² and y = t³. What is dy/dx at t = 2?",
+      "choices": [
+        { "id": "A", "text": "3" },
+        { "id": "B", "text": "12" },
+        { "id": "C", "text": "4/3" },
+        { "id": "D", "text": "3/2" }
+      ],
+      "answer": "A",
+      "explanation": "dy/dx = 3t²/(2t) = 3t/2 = 3 at t = 2.",
+      "distractors": { "B": "That's dy/dt alone.", "C": "Inverted the ratio.", "D": "Evaluated at t = 1." }
+    },
+    {
+      "id": "u9-q02", "tier": "Intro", "type": "mcq", "topic": "9.7 Defining Polar Coordinates",
+      "stem": "Which Cartesian equation is equivalent to the polar equation r = 2?",
+      "choices": [
+        { "id": "A", "text": "x² + y² = 4" },
+        { "id": "B", "text": "y = 2" },
+        { "id": "C", "text": "x = 2" },
+        { "id": "D", "text": "x² + y² = 2" }
+      ],
+      "answer": "A",
+      "explanation": "r² = x² + y², so r = 2 gives a circle of radius 2.",
+      "distractors": { "D": "Forgot to square r." }
+    },
+    {
+      "id": "u9-q03", "tier": "Intro", "type": "mcq", "topic": "9.5 Defining and Differentiating Vector-Valued Functions",
+      "stem": "A particle's position is r(t) = ⟨t², sin t⟩. What is its velocity vector?",
+      "choices": [
+        { "id": "A", "text": "⟨2t, cos t⟩" },
+        { "id": "B", "text": "⟨2t, −cos t⟩" },
+        { "id": "C", "text": "⟨t³/3, −cos t⟩" },
+        { "id": "D", "text": "⟨2, −sin t⟩" }
+      ],
+      "answer": "A",
+      "explanation": "Differentiate each component.",
+      "distractors": { "C": "Integrated instead.", "D": "That's the acceleration vector." }
+    },
+    {
+      "id": "u9-q04", "tier": "Intro", "type": "mcq", "topic": "9.6 Solving Motion Problems Using Parametric and Vector-Valued Functions",
+      "stem": "A particle's velocity at time t = 1 is ⟨3, −4⟩. What is its speed?",
+      "choices": [
+        { "id": "A", "text": "5" },
+        { "id": "B", "text": "−1" },
+        { "id": "C", "text": "7" },
+        { "id": "D", "text": "25" }
+      ],
+      "answer": "A",
+      "explanation": "√(9 + 16) = 5.",
+      "distractors": { "B": "Added components.", "D": "Forgot the square root." }
+    },
+    {
+      "id": "u9-q05", "tier": "Exam level", "type": "mcq", "topic": "9.8 Finding the Area of a Polar Region",
+      "stem": "What is the area enclosed by the polar curve r = 2 cos θ?",
+      "choices": [
+        { "id": "A", "text": "π" },
+        { "id": "B", "text": "2π" },
+        { "id": "C", "text": "4π" },
+        { "id": "D", "text": "π/2" }
+      ],
+      "answer": "A",
+      "explanation": "The curve is traced once for −π/2 ≤ θ ≤ π/2. ½∫ 4cos²θ dθ over that interval = π. (It's a circle of radius 1.)",
+      "distractors": { "B": "Integrated over 0 to 2π, tracing the circle twice.", "C": "Treated 2 as the radius." }
+    },
+    {
+      "id": "u9-q06", "tier": "Exam level", "type": "mcq", "topic": "9.3 Second Derivatives of Parametric Equations",
+      "stem": "For x = t², y = t³, what is d²y/dx² at t = 1?",
+      "choices": [
+        { "id": "A", "text": "3/4" },
+        { "id": "B", "text": "3/2" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "6" }
+      ],
+      "answer": "A",
+      "explanation": "dy/dx = 3t/2. d/dt(3t/2) = 3/2. Divide by dx/dt = 2t: 3/(4t) = 3/4.",
+      "distractors": { "B": "Forgot to divide by dx/dt again.", "D": "Computed d²y/dt²." }
+    },
+    {
+      "id": "u9-q07", "tier": "Exam level", "type": "mcq", "topic": "9.1 Defining and Differentiating Parametric Equations",
+      "stem": "A curve is given by x = t² − 1, y = t³ − 3t. At which values of t does the curve have a horizontal tangent line?",
+      "choices": [
+        { "id": "A", "text": "t = 1 and t = −1" },
+        { "id": "B", "text": "t = 0" },
+        { "id": "C", "text": "t = √3 and t = −√3" },
+        { "id": "D", "text": "t = 1 only" }
+      ],
+      "answer": "A",
+      "explanation": "dy/dt = 3t² − 3 = 0 at t = ±1, and dx/dt = 2t ≠ 0 there.",
+      "distractors": { "B": "dx/dt = 0 at t = 0 gives a vertical tangent.", "C": "Those are where y = 0." }
+    },
+    {
+      "id": "u9-q08", "tier": "Exam level", "type": "mcq", "topic": "9.6 Motion with Vector-Valued Functions",
+      "stem": "A particle moves with position ⟨cos t, sin t⟩. What is the total distance it travels from t = 0 to t = π?",
+      "choices": [
+        { "id": "A", "text": "π" },
+        { "id": "B", "text": "2" },
+        { "id": "C", "text": "0" },
+        { "id": "D", "text": "2π" }
+      ],
+      "answer": "A",
+      "explanation": "Speed = √(sin²t + cos²t) = 1, so distance = ∫₀^π 1 dt = π (half the unit circle).",
+      "distractors": { "B": "That's the straight-line displacement from (1, 0) to (−1, 0)." }
+    },
+    {
+      "id": "u9-q09", "tier": "Exam level", "type": "mcq", "topic": "9.7 Polar Coordinates and Slope",
+      "stem": "What is the slope dy/dx of the polar curve r = θ at θ = π/2?",
+      "choices": [
+        { "id": "A", "text": "−2/π" },
+        { "id": "B", "text": "2/π" },
+        { "id": "C", "text": "π/2" },
+        { "id": "D", "text": "0" }
+      ],
+      "answer": "A",
+      "explanation": "y = θ sin θ, x = θ cos θ. dy/dθ = sin θ + θ cos θ = 1; dx/dθ = cos θ − θ sin θ = −π/2. Slope = 1/(−π/2) = −2/π.",
+      "distractors": { "B": "Sign error in dx/dθ.", "C": "Used dr/dθ or r instead of the slope." }
+    },
+    {
+      "id": "u9-q10", "tier": "Exam level", "type": "mcq", "topic": "9.4 Arc Lengths of Curves (Parametric)",
+      "stem": "What is the length of the path x = 3t, y = 4t for 0 ≤ t ≤ 2?",
+      "choices": [
+        { "id": "A", "text": "10" },
+        { "id": "B", "text": "14" },
+        { "id": "C", "text": "5" },
+        { "id": "D", "text": "7" }
+      ],
+      "answer": "A",
+      "explanation": "Speed = √(9 + 16) = 5; length = 5 × 2 = 10.",
+      "distractors": { "B": "Added the component distances 6 + 8.", "C": "Forgot to multiply by the time interval." }
+    },
+    {
+      "id": "u9-q11", "tier": "Hardest", "type": "mcq", "topic": "9.8 Finding the Area of a Polar Region",
+      "stem": "What is the area enclosed by the cardioid r = 1 + cos θ?",
+      "choices": [
+        { "id": "A", "text": "3π/2" },
+        { "id": "B", "text": "π" },
+        { "id": "C", "text": "3π" },
+        { "id": "D", "text": "2π" }
+      ],
+      "answer": "A",
+      "explanation": "½∫₀^(2π) (1 + 2cos θ + cos²θ) dθ = ½(2π + 0 + π) = 3π/2.",
+      "distractors": { "C": "Forgot the ½.", "B": "Dropped the cos²θ term." }
+    },
+    {
+      "id": "u9-q12", "tier": "Hardest", "type": "mcq", "topic": "9.9 Finding the Area of the Region Bounded by Two Polar Curves",
+      "stem": "What is the area of the region inside r = 2 sin θ and outside r = 1?",
+      "choices": [
+        { "id": "A", "text": "π/3 + √3/2" },
+        { "id": "B", "text": "2π/3 + √3" },
+        { "id": "C", "text": "π/3" },
+        { "id": "D", "text": "π − √3/2" }
+      ],
+      "answer": "A",
+      "explanation": "Intersections: 2 sin θ = 1 at θ = π/6, 5π/6. A = ½∫ (4sin²θ − 1) dθ from π/6 to 5π/6. ∫4sin²θ dθ = 2θ − sin 2θ, giving 4π/3 + √3 over the interval; ∫1 dθ = 2π/3. A = ½(2π/3 + √3) = π/3 + √3/2.",
+      "distractors": { "B": "Forgot the ½.", "C": "Dropped the sin 2θ terms." }
+    },
+    {
+      "id": "u9-q13", "tier": "Hardest", "type": "mcq", "topic": "9.6 Motion with Vector-Valued Functions",
+      "stem": "A particle has velocity v(t) = ⟨2t, eᵗ⟩ and position ⟨1, 0⟩ at t = 0. What is its position at t = 1?",
+      "choices": [
+        { "id": "A", "text": "⟨2, e − 1⟩" },
+        { "id": "B", "text": "⟨2, e⟩" },
+        { "id": "C", "text": "⟨1, e⟩" },
+        { "id": "D", "text": "⟨3, e − 1⟩" }
+      ],
+      "answer": "A",
+      "explanation": "x(1) = 1 + ∫₀¹ 2t dt = 2. y(1) = 0 + ∫₀¹ eᵗ dt = e − 1.",
+      "distractors": { "B": "Used eᵗ at t = 1 without subtracting e⁰.", "D": "Added the velocity at t = 1 instead of integrating." }
+    },
+    {
+      "id": "u9-q14", "tier": "Hardest", "type": "mcq", "topic": "9.6 Motion with Vector-Valued Functions",
+      "stem": "A particle moves with x(t) = t³ − 3t and y(t) = t². For what values of t is the particle moving left and up?",
+      "choices": [
+        { "id": "A", "text": "0 < t < 1" },
+        { "id": "B", "text": "−1 < t < 0" },
+        { "id": "C", "text": "t > 1" },
+        { "id": "D", "text": "−1 < t < 1" }
+      ],
+      "answer": "A",
+      "explanation": "Left: x′ = 3t² − 3 < 0 for −1 < t < 1. Up: y′ = 2t > 0 for t > 0. Both: 0 < t < 1.",
+      "distractors": { "B": "Moving left but down there.", "D": "Ignored the vertical condition." }
+    },
+    {
+      "id": "u9-frq1", "tier": "Exam level", "type": "frq", "topic": "9.6 Motion with Vector-Valued Functions", "frqType": "Free response (no calculator)",
+      "prompt": "A particle moves in the xy-plane with position x(t) = t² − 4t and y(t) = t³ − 3t² for 0 ≤ t ≤ 4.",
+      "parts": [
+        { "label": "a", "prompt": "Find the velocity vector at t = 1 and the speed of the particle at t = 1.", "points": 2 },
+        { "label": "b", "prompt": "Find the slope of the path of the particle at t = 3.", "points": 1 },
+        { "label": "c", "prompt": "At what time t, 0 < t < 4, is the particle at rest? Justify your answer.", "points": 2 },
+        { "label": "d", "prompt": "Write, but do not evaluate, an integral expression for the total distance the particle travels from t = 0 to t = 4.", "points": 2 },
+        { "label": "e", "prompt": "Find the acceleration vector of the particle at the time found in part (c).", "points": 2 }
+      ],
+      "points": 9,
+      "minutes": 15,
+      "rubric": [
+        { "criterion": "(a) Velocity", "points": 1, "description": "v(1) = ⟨2(1) − 4, 3(1)² − 6(1)⟩ = ⟨−2, −3⟩." },
+        { "criterion": "(a) Speed", "points": 1, "description": "√(4 + 9) = √13." },
+        { "criterion": "(b) Slope", "points": 1, "description": "dy/dx = (3t² − 6t)/(2t − 4) at t = 3 is 9/2." },
+        { "criterion": "(c) Setup", "points": 1, "description": "Sets x′(t) = 2t − 4 = 0 and y′(t) = 3t(t − 2) = 0." },
+        { "criterion": "(c) Answer", "points": 1, "description": "t = 2, the only time in (0, 4) where both components are zero." },
+        { "criterion": "(d) Integrand", "points": 1, "description": "√((2t − 4)² + (3t² − 6t)²)." },
+        { "criterion": "(d) Limits", "points": 1, "description": "∫₀⁴ ... dt." },
+        { "criterion": "(e) Acceleration components", "points": 1, "description": "a(t) = ⟨2, 6t − 6⟩." },
+        { "criterion": "(e) Answer", "points": 1, "description": "a(2) = ⟨2, 6⟩." }
+      ],
+      "sampleResponse": "(a) x′(t) = 2t − 4 and y′(t) = 3t² − 6t, so v(1) = ⟨−2, −3⟩. Speed = √((−2)² + (−3)²) = √13.\n\n(b) dy/dx = y′(t)/x′(t). At t = 3: y′(3) = 27 − 18 = 9 and x′(3) = 2, so the slope is 9/2.\n\n(c) The particle is at rest when both x′(t) = 0 and y′(t) = 0. x′(t) = 0 only at t = 2. y′(t) = 3t(t − 2) = 0 at t = 0 and t = 2. On 0 < t < 4, both are zero only at t = 2, so the particle is at rest at t = 2.\n\n(d) Total distance = ∫₀⁴ √((2t − 4)² + (3t² − 6t)²) dt.\n\n(e) a(t) = ⟨x″(t), y″(t)⟩ = ⟨2, 6t − 6⟩, so a(2) = ⟨2, 6⟩."
+    }
+  ]
+}

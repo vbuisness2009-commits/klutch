@@ -1,0 +1,627 @@
+{
+  "number": 10,
+  "title": "Infinite Sequences and Series",
+  "guide": {
+    "summary": "The largest BC-only unit asks when an infinite sum has a finite value, and how functions can be written as infinite polynomials. It covers convergence tests, alternating series and error bounds, Taylor and Maclaurin polynomials with the Lagrange error bound, and power series with their radius and interval of convergence.",
+    "sections": [
+      {
+        "heading": "Convergence basics",
+        "body": "A series Σaₙ converges if its partial sums approach a finite limit.\n\n- **Geometric:** Σ arⁿ converges to (first term)/(1 − r) when |r| < 1; diverges otherwise. Σₙ₌₀ (1/3)ⁿ = 3/2.\n- **nth-term test:** if aₙ doesn't approach 0, the series diverges. If aₙ → 0, the test says **nothing**.\n- **p-series:** Σ 1/nᵖ converges if p > 1, diverges if p ≤ 1. The harmonic series (p = 1) diverges.\n- **Integral test:** if f is positive, continuous, decreasing, Σf(n) and ∫₁^∞ f(x) dx both converge or both diverge.\n- **Direct and limit comparison:** compare with a known series. If lim aₙ/bₙ is finite and positive, both behave the same."
+      },
+      {
+        "heading": "Ratio test, alternating series, and absolute convergence",
+        "body": "**Ratio test:** L = lim |aₙ₊₁/aₙ|. L < 1 converges absolutely; L > 1 diverges; L = 1 is inconclusive. Best for factorials and exponentials: Σ n!/3ⁿ has ratio (n + 1)/3 → ∞, so it diverges.\n\n**Alternating series test:** Σ(−1)ⁿbₙ converges if bₙ decreases to 0. The **alternating series error bound**: the error after stopping is at most the first omitted term's absolute value.\n\n**Absolute vs. conditional:** if Σ|aₙ| converges, the series converges absolutely. The alternating harmonic series Σ(−1)ⁿ⁺¹/n converges, but Σ1/n doesn't, so it converges **conditionally**."
+      },
+      {
+        "heading": "Taylor polynomials and error",
+        "body": "The nth-degree Taylor polynomial of f about x = a:\n\nPₙ(x) = Σₖ₌₀ⁿ f⁽ᵏ⁾(a)(x − a)ᵏ / k!\n\nAbout a = 0 it's a Maclaurin polynomial. If f(0) = 1, f′(0) = 2, f″(0) = 6, then P₂(x) = 1 + 2x + 3x² (remember to divide by 2!).\n\n**Lagrange error bound:** |f(x) − Pₙ(x)| ≤ M|x − a|ⁿ⁺¹/(n + 1)!, where M bounds |f⁽ⁿ⁺¹⁾| between a and x. Approximating e^0.1 with P₂: M ≤ e^0.1 < 3, so the error is at most 3(0.1)³/6 = 0.0005."
+      },
+      {
+        "heading": "Power series",
+        "body": "Memorize these Maclaurin series:\n\n| Function | Series | Interval |\n| --- | --- | --- |\n| eˣ | Σ xⁿ/n! | all x |\n| sin x | x − x³/3! + x⁵/5! − ... | all x |\n| cos x | 1 − x²/2! + x⁴/4! − ... | all x |\n| 1/(1 − x) | Σ xⁿ | −1 < x < 1 |\n\nBuild new series by substituting (replace x with −x², for instance), multiplying by powers of x, differentiating, or integrating term by term. Integrating 1/(1 + x²) = Σ(−1)ⁿx²ⁿ gives arctan x = Σ(−1)ⁿx²ⁿ⁺¹/(2n + 1).\n\n**Radius of convergence:** use the ratio test on the general term with x included. Then **test each endpoint separately**, since behavior there can differ. Σ(x − 3)ⁿ/n has R = 1; at x = 4 it's harmonic (diverges); at x = 2 it's alternating harmonic (converges). Interval: [2, 4)."
+      }
+    ],
+    "keyTakeaways": [
+      "The nth-term test can show divergence only.",
+      "Geometric: a/(1 − r) for |r| < 1. p-series: converges iff p > 1.",
+      "Ratio test for factorials/exponentials; L = 1 is inconclusive.",
+      "Alternating series error ≤ first omitted term.",
+      "Lagrange bound: M|x − a|ⁿ⁺¹/(n + 1)!.",
+      "Test endpoints separately for intervals of convergence."
+    ],
+    "commonMistakes": [
+      "Concluding convergence because terms go to 0.",
+      "Forgetting the factorial in Taylor coefficients.",
+      "Starting a geometric sum at the wrong first term.",
+      "Skipping endpoint checks.",
+      "Using the ratio test when L = 1 and drawing a conclusion.",
+      "Stating a test's conclusion without verifying its conditions (decreasing, positive)."
+    ],
+    "examTips": [
+      "A Taylor/series FRQ appears on nearly every BC exam; practice writing general terms.",
+      "State conditions explicitly when applying the alternating series test.",
+      "For error bound questions, show the bound expression with numbers, then compare.",
+      "Use known series and manipulate rather than computing derivatives from scratch.",
+      "Interval of convergence answers need brackets or parentheses chosen by endpoint testing."
+    ],
+    "cramSheet": "**Divergence:** aₙ ↛ 0 → diverges\n\n**Geometric:** a/(1 − r), |r| < 1 · **p-series:** p > 1\n\n**Tests:** integral · comparison · limit comparison · ratio (L < 1) · alternating (bₙ ↓ 0)\n\n**Error:** alternating ≤ |next term| · Lagrange ≤ M|x − a|ⁿ⁺¹/(n + 1)!\n\n**Taylor:** Σ f⁽ᵏ⁾(a)(x − a)ᵏ/k!\n\n**Series:** eˣ = Σxⁿ/n! · sin x = Σ(−1)ⁿx²ⁿ⁺¹/(2n + 1)! · cos x = Σ(−1)ⁿx²ⁿ/(2n)! · 1/(1 − x) = Σxⁿ\n\n**Interval:** ratio for R, then test endpoints"
+  },
+  "vocab": [
+    {
+      "term": "Sequence",
+      "definition": "An ordered list of numbers a₁, a₂, a₃, ..."
+    },
+    {
+      "term": "Series",
+      "definition": "The sum of the terms of a sequence."
+    },
+    {
+      "term": "Partial sum",
+      "definition": "The sum of the first n terms of a series."
+    },
+    {
+      "term": "Geometric series",
+      "definition": "A series with a constant ratio r between terms; converges to a/(1 − r) if |r| < 1."
+    },
+    {
+      "term": "p-series",
+      "definition": "Σ1/nᵖ, which converges if and only if p > 1."
+    },
+    {
+      "term": "Harmonic series",
+      "definition": "Σ1/n, a divergent p-series with p = 1."
+    },
+    {
+      "term": "Ratio test",
+      "definition": "Uses lim|aₙ₊₁/aₙ| to determine convergence; inconclusive when the limit is 1."
+    },
+    {
+      "term": "Alternating series test",
+      "definition": "An alternating series converges if the absolute values of its terms decrease to 0."
+    },
+    {
+      "term": "Absolute convergence",
+      "definition": "Σ|aₙ| converges."
+    },
+    {
+      "term": "Conditional convergence",
+      "definition": "Σaₙ converges but Σ|aₙ| diverges."
+    },
+    {
+      "term": "Taylor polynomial",
+      "definition": "A polynomial approximation built from a function's derivatives at a point."
+    },
+    {
+      "term": "Maclaurin series",
+      "definition": "A Taylor series centered at x = 0."
+    },
+    {
+      "term": "Lagrange error bound",
+      "definition": "An upper bound on the error of a Taylor approximation: M|x − a|ⁿ⁺¹/(n + 1)!."
+    },
+    {
+      "term": "Radius of convergence",
+      "definition": "The distance from the center within which a power series converges."
+    },
+    {
+      "term": "Interval of convergence",
+      "definition": "All x-values for which a power series converges, including any endpoints that converge."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u10-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "10.2 Working with Geometric Series",
+      "stem": "Σₙ₌₀^∞ (1/3)ⁿ =",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3/2"
+        },
+        {
+          "id": "B",
+          "text": "1/2"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "The series diverges."
+        }
+      ],
+      "answer": "A",
+      "explanation": "First term 1, ratio 1/3: 1/(1 − 1/3) = 3/2.",
+      "distractors": {
+        "B": "Started at n = 1: (1/3)/(2/3)."
+      }
+    },
+    {
+      "id": "u10-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "10.3 The nth Term Test for Divergence",
+      "stem": "Which statement about Σₙ₌₁^∞ n/(n + 1) is true?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It diverges because its terms approach 1, not 0."
+        },
+        {
+          "id": "B",
+          "text": "It converges because its terms are less than 1."
+        },
+        {
+          "id": "C",
+          "text": "It converges to 1."
+        },
+        {
+          "id": "D",
+          "text": "The nth-term test is inconclusive."
+        }
+      ],
+      "answer": "A",
+      "explanation": "lim n/(n + 1) = 1 ≠ 0, so the nth-term test shows divergence.",
+      "distractors": {
+        "D": "The test is inconclusive only when terms go to 0."
+      }
+    },
+    {
+      "id": "u10-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "10.5 Harmonic Series and p-Series",
+      "stem": "Which series converges?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Σ 1/n^(3/2)"
+        },
+        {
+          "id": "B",
+          "text": "Σ 1/n"
+        },
+        {
+          "id": "C",
+          "text": "Σ 1/√n"
+        },
+        {
+          "id": "D",
+          "text": "Σ 1/n^(1/3)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A p-series converges when p > 1; only 3/2 qualifies.",
+      "distractors": {
+        "B": "Harmonic series diverges."
+      }
+    },
+    {
+      "id": "u10-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "10.14 Finding Taylor or Maclaurin Series for a Function",
+      "stem": "Which is the Maclaurin series for eˣ?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Σₙ₌₀^∞ xⁿ/n!"
+        },
+        {
+          "id": "B",
+          "text": "Σₙ₌₀^∞ xⁿ"
+        },
+        {
+          "id": "C",
+          "text": "Σₙ₌₀^∞ (−1)ⁿxⁿ/n!"
+        },
+        {
+          "id": "D",
+          "text": "Σₙ₌₀^∞ x²ⁿ/(2n)!"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Every derivative of eˣ at 0 is 1.",
+      "distractors": {
+        "B": "That's 1/(1 − x).",
+        "C": "That's e^(−x).",
+        "D": "That's cosh x, not on the exam."
+      }
+    },
+    {
+      "id": "u10-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "10.2 Working with Geometric Series",
+      "stem": "Σₙ₌₁^∞ 3(−2/5)ⁿ =",
+      "choices": [
+        {
+          "id": "A",
+          "text": "−6/7"
+        },
+        {
+          "id": "B",
+          "text": "15/7"
+        },
+        {
+          "id": "C",
+          "text": "5/7"
+        },
+        {
+          "id": "D",
+          "text": "The series diverges."
+        }
+      ],
+      "answer": "A",
+      "explanation": "First term (n = 1) is −6/5; r = −2/5. Sum = (−6/5)/(1 + 2/5) = (−6/5)/(7/5) = −6/7.",
+      "distractors": {
+        "B": "Used the n = 0 term 3 as the first term.",
+        "C": "Dropped the 3 and the sign."
+      }
+    },
+    {
+      "id": "u10-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "10.9 Determining Absolute or Conditional Convergence",
+      "stem": "The series Σₙ₌₁^∞ (−1)ⁿ⁺¹/n",
+      "choices": [
+        {
+          "id": "A",
+          "text": "converges conditionally"
+        },
+        {
+          "id": "B",
+          "text": "converges absolutely"
+        },
+        {
+          "id": "C",
+          "text": "diverges"
+        },
+        {
+          "id": "D",
+          "text": "converges by the ratio test"
+        }
+      ],
+      "answer": "A",
+      "explanation": "It converges by the alternating series test, but Σ1/n diverges.",
+      "distractors": {
+        "D": "The ratio test gives L = 1, inconclusive."
+      }
+    },
+    {
+      "id": "u10-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "10.8 Ratio Test for Convergence",
+      "stem": "What does the ratio test show about Σₙ₌₁^∞ n!/3ⁿ?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It diverges, because the ratio (n + 1)/3 approaches infinity."
+        },
+        {
+          "id": "B",
+          "text": "It converges, because 3ⁿ grows faster than n!."
+        },
+        {
+          "id": "C",
+          "text": "The test is inconclusive."
+        },
+        {
+          "id": "D",
+          "text": "It converges to 3."
+        }
+      ],
+      "answer": "A",
+      "explanation": "aₙ₊₁/aₙ = (n + 1)!/3ⁿ⁺¹ · 3ⁿ/n! = (n + 1)/3 → ∞.",
+      "distractors": {
+        "B": "Factorials outgrow exponentials."
+      }
+    },
+    {
+      "id": "u10-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "10.11 Finding Taylor Polynomial Approximations of Functions",
+      "stem": "A function f has f(0) = 1, f′(0) = 2, and f″(0) = 6. What is its second-degree Taylor polynomial about x = 0?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1 + 2x + 3x²"
+        },
+        {
+          "id": "B",
+          "text": "1 + 2x + 6x²"
+        },
+        {
+          "id": "C",
+          "text": "1 + 2x + 12x²"
+        },
+        {
+          "id": "D",
+          "text": "1 + x + 3x²"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The x² coefficient is f″(0)/2! = 3.",
+      "distractors": {
+        "B": "Forgot to divide by 2!."
+      }
+    },
+    {
+      "id": "u10-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "10.13 Radius and Interval of Convergence of Power Series",
+      "stem": "What is the radius of convergence of Σₙ₌₁^∞ xⁿ/(n·2ⁿ)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "1/2"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "∞"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Ratio: |x|·n/(2(n + 1)) → |x|/2 < 1 gives |x| < 2.",
+      "distractors": {
+        "B": "Inverted the condition."
+      }
+    },
+    {
+      "id": "u10-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "10.14 Taylor or Maclaurin Series",
+      "stem": "Which gives the first three nonzero terms of the Maclaurin series for sin x?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "x − x³/6 + x⁵/120"
+        },
+        {
+          "id": "B",
+          "text": "1 − x²/2 + x⁴/24"
+        },
+        {
+          "id": "C",
+          "text": "x + x³/6 + x⁵/120"
+        },
+        {
+          "id": "D",
+          "text": "x − x³/3 + x⁵/5"
+        }
+      ],
+      "answer": "A",
+      "explanation": "sin x = x − x³/3! + x⁵/5! − ...",
+      "distractors": {
+        "B": "That's cos x.",
+        "D": "That's arctan x."
+      }
+    },
+    {
+      "id": "u10-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "10.13 Radius and Interval of Convergence",
+      "stem": "What is the interval of convergence of Σₙ₌₁^∞ (x − 3)ⁿ/n?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "[2, 4)"
+        },
+        {
+          "id": "B",
+          "text": "(2, 4)"
+        },
+        {
+          "id": "C",
+          "text": "(2, 4]"
+        },
+        {
+          "id": "D",
+          "text": "[2, 4]"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Ratio gives |x − 3| < 1. At x = 4: Σ1/n diverges. At x = 2: Σ(−1)ⁿ/n converges by the alternating series test.",
+      "distractors": {
+        "C": "Swapped which endpoint converges.",
+        "B": "Skipped endpoint testing."
+      }
+    },
+    {
+      "id": "u10-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "10.10 Alternating Series Error Bound",
+      "stem": "The sum S = Σₙ₌₁^∞ (−1)ⁿ⁺¹/n² is approximated using its first three terms. What is the best upper bound on the error?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1/16"
+        },
+        {
+          "id": "B",
+          "text": "1/9"
+        },
+        {
+          "id": "C",
+          "text": "1/25"
+        },
+        {
+          "id": "D",
+          "text": "1/4"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The error is at most the first omitted term, n = 4: 1/16.",
+      "distractors": {
+        "B": "Used the last included term.",
+        "C": "Skipped a term."
+      }
+    },
+    {
+      "id": "u10-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "10.12 Lagrange Error Bound",
+      "stem": "The second-degree Maclaurin polynomial for eˣ is used to approximate e^0.1. Using the Lagrange error bound with M = 3, the error is at most",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.0005"
+        },
+        {
+          "id": "B",
+          "text": "0.005"
+        },
+        {
+          "id": "C",
+          "text": "0.00005"
+        },
+        {
+          "id": "D",
+          "text": "0.05"
+        }
+      ],
+      "answer": "A",
+      "explanation": "M(0.1)³/3! = 3(0.001)/6 = 0.0005.",
+      "distractors": {
+        "C": "Used (0.1)⁴ instead of (0.1)³.",
+        "B": "Used (0.1)² instead of (0.1)³.",
+        "D": "Used (0.1)¹."
+      }
+    },
+    {
+      "id": "u10-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "10.15 Representing Functions as Power Series",
+      "stem": "What is the coefficient of x⁹ in the Maclaurin series for arctan x?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1/9"
+        },
+        {
+          "id": "B",
+          "text": "−1/9"
+        },
+        {
+          "id": "C",
+          "text": "1/9!"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Integrating 1/(1 + x²) = Σ(−1)ⁿx²ⁿ gives arctan x = Σ(−1)ⁿx²ⁿ⁺¹/(2n + 1). x⁹ means n = 4, so the sign is positive: 1/9.",
+      "distractors": {
+        "B": "Sign error: (−1)⁴ = 1.",
+        "C": "Confused with sin x's factorial denominators."
+      }
+    },
+    {
+      "id": "u10-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "10.11–10.15 Taylor polynomials",
+      "frqType": "Free response (no calculator)",
+      "prompt": "A function f has derivatives of all orders. f(0) = 2, f′(0) = −1, f″(0) = 4, and f‴(0) = −6.",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Write the third-degree Taylor polynomial P₃(x) for f about x = 0.",
+          "points": 2
+        },
+        {
+          "label": "b",
+          "prompt": "Use P₃ to approximate f(0.1).",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "It is known that |f⁽⁴⁾(x)| ≤ 12 for 0 ≤ x ≤ 0.1. Use the Lagrange error bound to show that P₃(0.1) differs from f(0.1) by less than 0.0001.",
+          "points": 2
+        },
+        {
+          "label": "d",
+          "prompt": "Let g(x) = ∫₀ˣ f(t) dt. Write the fourth-degree Taylor polynomial for g about x = 0.",
+          "points": 2
+        },
+        {
+          "label": "e",
+          "prompt": "Write the sixth-degree Taylor polynomial for h(x) = f(x²) about x = 0.",
+          "points": 2
+        }
+      ],
+      "points": 9,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "(a) Coefficients",
+          "points": 1,
+          "description": "Uses f⁽ᵏ⁾(0)/k!: 2, −1, 4/2 = 2, −6/6 = −1."
+        },
+        {
+          "criterion": "(a) Polynomial",
+          "points": 1,
+          "description": "P₃(x) = 2 − x + 2x² − x³."
+        },
+        {
+          "criterion": "(b) Approximation",
+          "points": 1,
+          "description": "P₃(0.1) = 2 − 0.1 + 0.02 − 0.001 = 1.919."
+        },
+        {
+          "criterion": "(c) Bound expression",
+          "points": 1,
+          "description": "12(0.1)⁴/4!."
+        },
+        {
+          "criterion": "(c) Conclusion",
+          "points": 1,
+          "description": "= 0.00005 < 0.0001."
+        },
+        {
+          "criterion": "(d) Integration",
+          "points": 1,
+          "description": "Integrates P₃ term by term from 0 to x."
+        },
+        {
+          "criterion": "(d) Polynomial",
+          "points": 1,
+          "description": "2x − x²/2 + 2x³/3 − x⁴/4."
+        },
+        {
+          "criterion": "(e) Substitution",
+          "points": 1,
+          "description": "Replaces x with x² in P₃."
+        },
+        {
+          "criterion": "(e) Polynomial",
+          "points": 1,
+          "description": "2 − x² + 2x⁴ − x⁶."
+        }
+      ],
+      "sampleResponse": "(a) P₃(x) = f(0) + f′(0)x + f″(0)x²/2! + f‴(0)x³/3! = 2 − x + 2x² − x³.\n\n(b) P₃(0.1) = 2 − 0.1 + 2(0.01) − 0.001 = 1.919.\n\n(c) |f(0.1) − P₃(0.1)| ≤ max|f⁽⁴⁾|·(0.1)⁴/4! = 12(0.0001)/24 = 0.00005, which is less than 0.0001.\n\n(d) g(x) = ∫₀ˣ f(t) dt, so its polynomial is ∫₀ˣ (2 − t + 2t² − t³) dt = 2x − x²/2 + 2x³/3 − x⁴/4.\n\n(e) Substituting x² for x: h(x) ≈ 2 − x² + 2x⁴ − x⁶."
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "number": 3,
+  "title": "Development and Learning",
+  "guide": {
+    "summary": "This unit covers how people change across the lifespan (physical, cognitive, social, and moral development) and how behavior changes through experience: classical conditioning, operant conditioning, and social and cognitive learning. Expect scenario questions that require precise labels.",
+    "sections": [
+      {
+        "heading": "Studying development",
+        "body": "**Cross-sectional** studies compare different age groups at one time; they're fast but vulnerable to **cohort effects** (differences due to generation, not age). **Longitudinal** studies follow the same people over time; they reveal individual change but are slow and suffer attrition.\n\nThemes: nature and nurture, continuity vs. stages, stability vs. change. **Critical** and **sensitive periods** are windows when certain experiences have the most impact."
+      },
+      {
+        "heading": "Cognitive and social development",
+        "body": "**Piaget's stages:**\n\n| Stage | Ages | Key achievement |\n| --- | --- | --- |\n| Sensorimotor | 0–2 | object permanence |\n| Preoperational | 2–7 | symbolic thought; egocentrism; fails conservation |\n| Concrete operational | 7–11 | conservation, logical thinking about concrete events |\n| Formal operational | 12+ | abstract, hypothetical reasoning |\n\nChildren adapt schemas through **assimilation** (fitting new information into existing schemas) and **accommodation** (changing schemas). **Vygotsky** emphasized social learning: the **zone of proximal development** is what a child can do with help, supported by **scaffolding**.\n\n**Attachment:** Harlow's monkeys preferred contact comfort over food. Ainsworth's **Strange Situation** identifies secure, avoidant, anxious (ambivalent), and disorganized attachment. **Erikson's stages** pose psychosocial challenges, such as trust vs. mistrust in infancy and **identity vs. role confusion** in adolescence. **Parenting styles:** authoritative (warm with clear limits) is generally linked to the best outcomes.\n\n**Kohlberg's moral development:** preconventional (consequences), conventional (laws, approval), postconventional (principles). **Emerging adulthood** describes the extended transition from adolescence to adulthood."
+      },
+      {
+        "heading": "Classical conditioning",
+        "body": "A neutral stimulus paired with an **unconditioned stimulus (US)** that naturally triggers an **unconditioned response (UR)** becomes a **conditioned stimulus (CS)** that triggers a **conditioned response (CR)**.\n\nIn Pavlov's work, food (US) causes salivation (UR); after pairing with a tone, the tone (CS) causes salivation (CR).\n\nKey processes: **acquisition**, **extinction** (CS without US), **spontaneous recovery** (CR returns after a pause), **generalization** (similar stimuli trigger CR), **discrimination**. **Taste aversion** (Garcia) can form in one trial with a long delay, showing **biological preparedness**."
+      },
+      {
+        "heading": "Operant and social learning",
+        "body": "Operant conditioning changes voluntary behavior through consequences:\n\n| | Add a stimulus | Remove a stimulus |\n| --- | --- | --- |\n| Behavior increases | positive reinforcement | negative reinforcement |\n| Behavior decreases | positive punishment | negative punishment |\n\n\"Negative\" means removal, not \"bad.\" Taking aspirin to remove a headache is negative reinforcement.\n\n**Schedules:** continuous reinforcement speeds acquisition. Partial schedules resist extinction: **fixed ratio**, **variable ratio** (slot machines; highest, steadiest responding, most resistant to extinction), **fixed interval** (scalloped responding), **variable interval**. **Shaping** reinforces successive approximations.\n\n**Social learning** (Bandura): people learn by **observation** and **modeling**, as in the Bobo doll studies. **Latent learning** (Tolman) occurs without reinforcement and appears when there's a reason to show it, suggesting **cognitive maps**. **Insight learning** is sudden understanding."
+      }
+    ],
+    "keyTakeaways": [
+      "Cross-sectional designs risk cohort effects; longitudinal designs track the same people.",
+      "Piaget: object permanence → symbolic thought → conservation → abstract reasoning.",
+      "Vygotsky's ZPD and scaffolding stress social support.",
+      "Classical conditioning pairs stimuli; operant conditioning uses consequences.",
+      "Negative reinforcement increases behavior by removing something unpleasant.",
+      "Variable-ratio schedules produce the most persistent responding."
+    ],
+    "commonMistakes": [
+      "Calling negative reinforcement punishment.",
+      "Mislabeling the CS and US in conditioning scenarios.",
+      "Confusing assimilation and accommodation.",
+      "Placing conservation in the preoperational stage (children there lack it).",
+      "Confusing extinction with spontaneous recovery.",
+      "Forgetting cohort effects in cross-sectional studies."
+    ],
+    "examTips": [
+      "For operant scenarios, ask two questions: was something added or removed, and did the behavior increase or decrease?",
+      "For classical conditioning, start by finding what naturally causes the response (US/UR).",
+      "Developmental research-method questions often hinge on cohort effects.",
+      "Name the specific stage or concept and apply it to the scenario on FRQs.",
+      "Know which findings challenged strict behaviorism (taste aversion, latent learning)."
+    ],
+    "cramSheet": "**Methods:** cross-sectional (cohort effects) vs. longitudinal\n\n**Piaget:** sensorimotor (object permanence) · preoperational (egocentrism, no conservation) · concrete (conservation) · formal (abstract) · assimilation vs. accommodation\n\n**Social:** Vygotsky ZPD/scaffolding · Harlow · Ainsworth (secure, avoidant, anxious, disorganized) · Erikson (identity vs. role confusion) · Baumrind (authoritative) · Kohlberg\n\n**Classical:** US→UR · CS→CR · extinction · spontaneous recovery · generalization · taste aversion\n\n**Operant:** +R · −R · +P · −P · VR most resistant · shaping\n\n**Social/cognitive:** Bandura modeling · Tolman latent learning · insight"
+  },
+  "vocab": [
+    { "term": "Cohort effect", "definition": "Differences between age groups due to generational experiences rather than age." },
+    { "term": "Object permanence", "definition": "Awareness that objects continue to exist when not perceived." },
+    { "term": "Conservation", "definition": "Understanding that quantity stays the same despite changes in shape or appearance." },
+    { "term": "Egocentrism", "definition": "In Piaget's theory, a preoperational child's difficulty taking another's perspective." },
+    { "term": "Assimilation", "definition": "Interpreting new experiences in terms of existing schemas." },
+    { "term": "Accommodation", "definition": "Changing schemas to incorporate new information." },
+    { "term": "Zone of proximal development", "definition": "The range of tasks a learner can do with guidance but not alone." },
+    { "term": "Secure attachment", "definition": "Comfort-seeking and confident exploration with a caregiver present." },
+    { "term": "Conditioned stimulus", "definition": "An originally neutral stimulus that triggers a response after pairing with an unconditioned stimulus." },
+    { "term": "Spontaneous recovery", "definition": "Reappearance of an extinguished conditioned response after a pause." },
+    { "term": "Negative reinforcement", "definition": "Increasing a behavior by removing an aversive stimulus." },
+    { "term": "Negative punishment", "definition": "Decreasing a behavior by removing a desirable stimulus." },
+    { "term": "Variable-ratio schedule", "definition": "Reinforcement after an unpredictable number of responses." },
+    { "term": "Shaping", "definition": "Reinforcing successive approximations toward a target behavior." },
+    { "term": "Observational learning", "definition": "Learning by watching others." },
+    { "term": "Latent learning", "definition": "Learning that occurs without reinforcement and isn't shown until there's an incentive." }
+  ],
+  "practice": [
+    {
+      "id": "u3-q01", "tier": "Intro", "type": "mcq", "topic": "3.3 Cognitive Development (Piaget)",
+      "stimulus": "A 4-month-old stops looking for a toy as soon as it's covered with a blanket. At 10 months, the same baby lifts the blanket to find it.",
+      "stem": "The change shows the development of",
+      "choices": [
+        { "id": "A", "text": "object permanence" },
+        { "id": "B", "text": "conservation" },
+        { "id": "C", "text": "formal operational thought" },
+        { "id": "D", "text": "theory of mind" }
+      ],
+      "answer": "A",
+      "explanation": "Understanding that hidden objects still exist develops in the sensorimotor stage.",
+      "distractors": { "B": "Conservation develops around ages 7–11." }
+    },
+    {
+      "id": "u3-q02", "tier": "Intro", "type": "mcq", "topic": "3.7 Classical Conditioning",
+      "stimulus": "Whenever Sam opens a can of cat food with an electric can opener, his cat eats. Soon the cat runs to the kitchen at the sound of the can opener, even when Sam is opening soup.",
+      "stem": "In this example, the sound of the can opener is",
+      "choices": [
+        { "id": "A", "text": "the conditioned stimulus" },
+        { "id": "B", "text": "the unconditioned stimulus" },
+        { "id": "C", "text": "the unconditioned response" },
+        { "id": "D", "text": "a negative reinforcer" }
+      ],
+      "answer": "A",
+      "explanation": "The sound was neutral until paired with food; now it triggers the response.",
+      "distractors": { "B": "The food is the unconditioned stimulus." }
+    },
+    {
+      "id": "u3-q03", "tier": "Intro", "type": "mcq", "topic": "3.8 Operant Conditioning",
+      "stimulus": "Whenever Ellie has a headache, she takes a pain reliever, and the headache goes away. She now takes pain relievers at the first sign of a headache.",
+      "stem": "Ellie's behavior has been strengthened by",
+      "choices": [
+        { "id": "A", "text": "negative reinforcement" },
+        { "id": "B", "text": "positive reinforcement" },
+        { "id": "C", "text": "positive punishment" },
+        { "id": "D", "text": "negative punishment" }
+      ],
+      "answer": "A",
+      "explanation": "Removing an aversive stimulus (the headache) increases the behavior.",
+      "distractors": { "C": "Punishment decreases behavior." }
+    },
+    {
+      "id": "u3-q04", "tier": "Intro", "type": "mcq", "topic": "3.9 Social, Cognitive, and Neurological Factors in Learning",
+      "stimulus": "Children who watched an adult hit an inflatable doll were later more likely to hit the doll themselves than children who hadn't seen the adult.",
+      "stem": "This study demonstrates",
+      "choices": [
+        { "id": "A", "text": "observational learning" },
+        { "id": "B", "text": "classical conditioning" },
+        { "id": "C", "text": "latent learning" },
+        { "id": "D", "text": "habituation" }
+      ],
+      "answer": "A",
+      "explanation": "Bandura's Bobo doll studies showed learning through modeling.",
+      "distractors": { "C": "Latent learning is unexpressed learning revealed later by incentives." }
+    },
+    {
+      "id": "u3-q05", "tier": "Exam level", "type": "mcq", "topic": "3.3 Cognitive Development (Piaget)",
+      "stimulus": "A child watches as juice is poured from a short, wide glass into a tall, thin glass. She insists the tall glass has more juice.",
+      "stem": "According to Piaget, the child is most likely in which stage, and what is she lacking?",
+      "choices": [
+        { "id": "A", "text": "Preoperational; she hasn't yet mastered conservation." },
+        { "id": "B", "text": "Sensorimotor; she lacks object permanence." },
+        { "id": "C", "text": "Concrete operational; she lacks abstract reasoning." },
+        { "id": "D", "text": "Formal operational; she lacks hypothetical thinking." }
+      ],
+      "answer": "A",
+      "explanation": "Preoperational children focus on one dimension (height) and fail to conserve quantity.",
+      "distractors": { "C": "Concrete operational children understand conservation." }
+    },
+    {
+      "id": "u3-q06", "tier": "Exam level", "type": "mcq", "topic": "3.4 Social-Emotional Development (attachment)",
+      "stimulus": "In a laboratory playroom, a toddler explores freely while her mother is present, cries when her mother leaves, and quickly seeks comfort and calms when she returns.",
+      "stem": "Her behavior is most consistent with",
+      "choices": [
+        { "id": "A", "text": "secure attachment" },
+        { "id": "B", "text": "avoidant attachment" },
+        { "id": "C", "text": "anxious-ambivalent attachment" },
+        { "id": "D", "text": "disorganized attachment" }
+      ],
+      "answer": "A",
+      "explanation": "Confident exploration and easy comforting on reunion define secure attachment in the Strange Situation.",
+      "distractors": { "B": "Avoidant children show little distress and ignore the caregiver on return.", "C": "Ambivalent children are hard to soothe on reunion." }
+    },
+    {
+      "id": "u3-q07", "tier": "Exam level", "type": "mcq", "topic": "3.8 Operant Conditioning",
+      "stem": "Which reinforcement schedule would most likely produce behavior that is highly resistant to extinction?",
+      "choices": [
+        { "id": "A", "text": "Variable ratio, as in a slot machine paying out after an unpredictable number of plays" },
+        { "id": "B", "text": "Continuous reinforcement" },
+        { "id": "C", "text": "Fixed interval, as in a paycheck every two weeks" },
+        { "id": "D", "text": "Fixed ratio, as in a reward after every 10 responses" }
+      ],
+      "answer": "A",
+      "explanation": "Unpredictable payoffs make it hard to tell when reinforcement has stopped.",
+      "distractors": { "B": "Continuous reinforcement extinguishes fastest once rewards stop." }
+    },
+    {
+      "id": "u3-q08", "tier": "Exam level", "type": "mcq", "topic": "3.7 Classical Conditioning",
+      "stimulus": "After repeatedly hearing a tone without receiving food, a dog stops salivating to the tone. A week later, the dog hears the tone and salivates again.",
+      "stem": "The return of salivation is called",
+      "choices": [
+        { "id": "A", "text": "spontaneous recovery" },
+        { "id": "B", "text": "generalization" },
+        { "id": "C", "text": "acquisition" },
+        { "id": "D", "text": "discrimination" }
+      ],
+      "answer": "A",
+      "explanation": "An extinguished response can reappear after a rest period.",
+      "distractors": { "B": "Generalization is responding to similar stimuli." }
+    },
+    {
+      "id": "u3-q09", "tier": "Exam level", "type": "mcq", "topic": "3.4 Social-Emotional Development (Erikson)",
+      "stimulus": "A 16-year-old tries out different friend groups, styles, and career ideas, asking herself who she really is.",
+      "stem": "According to Erikson, she is working through",
+      "choices": [
+        { "id": "A", "text": "identity vs. role confusion" },
+        { "id": "B", "text": "intimacy vs. isolation" },
+        { "id": "C", "text": "trust vs. mistrust" },
+        { "id": "D", "text": "generativity vs. stagnation" }
+      ],
+      "answer": "A",
+      "explanation": "Adolescence centers on forming a coherent sense of self.",
+      "distractors": { "B": "Typical of young adulthood." }
+    },
+    {
+      "id": "u3-q10", "tier": "Exam level", "type": "mcq", "topic": "3.3 Cognitive Development (Vygotsky)",
+      "stimulus": "A child can't solve a puzzle alone but succeeds when her older brother points to edge pieces and asks guiding questions. Over time, he offers less help.",
+      "stem": "The brother's support best illustrates",
+      "choices": [
+        { "id": "A", "text": "scaffolding within the zone of proximal development" },
+        { "id": "B", "text": "assimilation" },
+        { "id": "C", "text": "negative reinforcement" },
+        { "id": "D", "text": "a critical period" }
+      ],
+      "answer": "A",
+      "explanation": "Vygotsky: guidance supports tasks just beyond independent ability and is gradually withdrawn.",
+      "distractors": { "B": "Assimilation is Piaget's concept for fitting information into schemas." }
+    },
+    {
+      "id": "u3-q11", "tier": "Hardest", "type": "mcq", "topic": "3.8 Operant Conditioning",
+      "stimulus": "Whenever Tasha earns an A on a test, her parents excuse her from washing dishes that week. Tasha begins studying more.",
+      "stem": "Tasha's increased studying is the result of",
+      "choices": [
+        { "id": "A", "text": "negative reinforcement, because an unpleasant chore is removed" },
+        { "id": "B", "text": "negative punishment, because something is removed" },
+        { "id": "C", "text": "positive reinforcement, because she receives an A" },
+        { "id": "D", "text": "positive punishment, because chores are aversive" }
+      ],
+      "answer": "A",
+      "explanation": "Removing an aversive stimulus (dishes) increases the behavior (studying).",
+      "distractors": { "B": "Punishment decreases behavior; here studying increases.", "C": "The A is the outcome of studying, but the parents' consequence is removing the chore." }
+    },
+    {
+      "id": "u3-q12", "tier": "Hardest", "type": "mcq", "topic": "3.1 Themes and Methods in Developmental Psychology",
+      "stimulus": "A 2025 study compares 20-year-olds and 70-year-olds on comfort using smartphones and concludes that aging reduces technological ability.",
+      "stem": "Which is the most important limitation of this conclusion?",
+      "choices": [
+        { "id": "A", "text": "The cross-sectional design confounds age with generational experience, a cohort effect." },
+        { "id": "B", "text": "Longitudinal studies always suffer from attrition." },
+        { "id": "C", "text": "The study lacks a dependent variable." },
+        { "id": "D", "text": "Smartphones are too new to study." }
+      ],
+      "answer": "A",
+      "explanation": "70-year-olds grew up without smartphones; differences may reflect cohort rather than aging.",
+      "distractors": { "B": "This isn't a longitudinal study." }
+    },
+    {
+      "id": "u3-q13", "tier": "Hardest", "type": "mcq", "topic": "3.7 Classical Conditioning (biological preparedness)",
+      "stimulus": "Rats that became ill several hours after drinking sweetened water avoided it afterward, but rats that became ill after a light-and-sound cue didn't learn to avoid the cue.",
+      "stem": "These findings most directly challenged which assumption of early behaviorism?",
+      "choices": [
+        { "id": "A", "text": "That any stimulus can be conditioned to any response equally easily, with short delays required" },
+        { "id": "B", "text": "That reinforcement increases behavior" },
+        { "id": "C", "text": "That animals can learn" },
+        { "id": "D", "text": "That extinction occurs" }
+      ],
+      "answer": "A",
+      "explanation": "Garcia's taste aversion research showed biological preparedness: taste-illness associations form readily, even with long delays, while others don't.",
+      "distractors": { "B": "The study concerns classical conditioning constraints." }
+    },
+    {
+      "id": "u3-q14", "tier": "Hardest", "type": "mcq", "topic": "3.9 Cognitive Factors in Learning",
+      "stimulus": "Rats explored a maze for 10 days without food reward. When food was then placed at the end, they ran the maze as quickly as rats that had been rewarded all along.",
+      "stem": "This result best supports the idea that",
+      "choices": [
+        { "id": "A", "text": "the rats formed cognitive maps through latent learning, without reinforcement" },
+        { "id": "B", "text": "learning requires immediate reinforcement" },
+        { "id": "C", "text": "the rats were classically conditioned to food" },
+        { "id": "D", "text": "the rats had been shaped by successive approximations" }
+      ],
+      "answer": "A",
+      "explanation": "Tolman's results showed learning occurred without reward and appeared once there was an incentive.",
+      "distractors": { "B": "The study contradicts this." }
+    },
+    {
+      "id": "u3-frq1", "tier": "Exam level", "type": "frq", "topic": "Language development (research)", "frqType": "Article Analysis Question (AAQ)",
+      "stimulus": "Summary of a study written for this practice set:\n\nResearchers recruited 240 families with 3-year-old children from public preschools in two cities. Parents gave informed consent. Parents completed a questionnaire reporting how many minutes per day they read aloud to their child. Trained examiners, who didn't know the parents' answers, measured each child's vocabulary using a standardized picture-naming test.\n\nThe correlation between daily minutes of reading and vocabulary score was r = +.42 (p < .001). Families who read more also tended to have higher incomes.",
+      "prompt": "Using the research summary, respond to all parts.",
+      "parts": [
+        { "label": "a", "prompt": "Identify the research method used in the study.", "points": 1 },
+        { "label": "b", "prompt": "State the operational definition of children's vocabulary.", "points": 1 },
+        { "label": "c", "prompt": "Describe what the correlation coefficient indicates.", "points": 1 },
+        { "label": "d", "prompt": "Explain why examiners not knowing the parents' answers strengthens the study.", "points": 1 },
+        { "label": "e", "prompt": "Identify one ethical guideline the researchers followed.", "points": 1 },
+        { "label": "f", "prompt": "Explain the extent to which the findings can be generalized.", "points": 1 },
+        { "label": "g", "prompt": "Explain whether the study supports the claim that reading aloud causes larger vocabularies.", "points": 1 }
+      ],
+      "points": 7,
+      "minutes": 25,
+      "rubric": [
+        { "criterion": "(a)", "points": 1, "description": "Correlational study (no manipulation or random assignment)." },
+        { "criterion": "(b)", "points": 1, "description": "Each child's score on a standardized picture-naming test administered by trained examiners." },
+        { "criterion": "(c)", "points": 1, "description": "A moderate positive relationship: children whose parents read more tended to have higher vocabulary scores." },
+        { "criterion": "(d)", "points": 1, "description": "It reduces experimenter bias, since examiners' expectations couldn't influence how they scored vocabulary." },
+        { "criterion": "(e)", "points": 1, "description": "Informed consent from parents." },
+        { "criterion": "(f)", "points": 1, "description": "Limited to families of 3-year-olds in public preschools in two cities; may not apply to other ages, regions, or families not enrolled in preschool. The sample is large, which helps." },
+        { "criterion": "(g)", "points": 1, "description": "No: a correlation can't establish causation; a third variable such as family income could explain both reading time and vocabulary." }
+      ],
+      "sampleResponse": "(a) The study is correlational: researchers measured reading time and vocabulary without manipulating either.\n\n(b) Vocabulary was operationally defined as the child's score on a standardized picture-naming test given by trained examiners.\n\n(c) r = +.42 indicates a moderate positive correlation: as daily reading time increases, children's vocabulary scores tend to increase.\n\n(d) Because examiners didn't know how much each family read, their expectations couldn't bias how they administered or scored the test, reducing experimenter bias.\n\n(e) The researchers obtained informed consent from the parents.\n\n(f) The findings may generalize to 3-year-olds in similar public preschools, and the sample of 240 families is fairly large, but they may not apply to families in other regions, to children not in preschool, or to other ages.\n\n(g) The study doesn't support a causal claim. It's correlational, and families who read more also had higher incomes, which could independently provide richer language environments. An experiment randomly assigning families to read more would be needed to test causation."
+    }
+  ]
+}

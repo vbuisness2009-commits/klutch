@@ -1,0 +1,230 @@
+{
+  "slug": "calc-bc",
+  "name": "AP Calculus BC",
+  "lastVerified": "2026-10",
+  "overview": "AP Calculus BC covers everything in Calculus AB (limits, derivatives, integrals, and differential equations) plus additional techniques of integration, Euler's method, logistic growth, arc length, parametric, polar, and vector-valued functions, and infinite sequences and series, including Taylor and Maclaurin series. The exam has the same format as AB, and students also receive an AB subscore based on the AB portion of the exam.",
+  "examMode": "Hybrid digital: multiple-choice answered in Bluebook; free-response questions viewed in Bluebook and handwritten in a paper booklet.",
+  "totalMinutes": 190,
+  "sections": [
+    {
+      "name": "Section I, Part A",
+      "questionType": "Multiple choice (4 options)",
+      "count": 29,
+      "minutes": 62,
+      "weight": "35%",
+      "calculator": "Not allowed",
+      "notes": "New for May 2027: 29 questions in 62 minutes (was 30 in 60)."
+    },
+    {
+      "name": "Section I, Part B",
+      "questionType": "Multiple choice (4 options)",
+      "count": 13,
+      "minutes": 38,
+      "weight": "15%",
+      "calculator": "Graphing calculator required",
+      "notes": "New for May 2027: 13 questions in 38 minutes (was 15 in 45). Only some items actually need the calculator."
+    },
+    {
+      "name": "Section II, Part A",
+      "questionType": "Free response",
+      "count": 2,
+      "minutes": 30,
+      "weight": "16.7%",
+      "calculator": "Graphing calculator required",
+      "notes": "Each FRQ is worth 9 points."
+    },
+    {
+      "name": "Section II, Part B",
+      "questionType": "Free response",
+      "count": 4,
+      "minutes": 60,
+      "weight": "33.3%",
+      "calculator": "Not allowed",
+      "notes": "At least 2 of the 6 FRQs use a real-world context."
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Limits and Continuity",
+      "weight": "4–7%"
+    },
+    {
+      "number": 2,
+      "title": "Differentiation: Definition and Fundamental Properties",
+      "weight": "4–7%"
+    },
+    {
+      "number": 3,
+      "title": "Differentiation: Composite, Implicit, and Inverse Functions",
+      "weight": "4–7%"
+    },
+    {
+      "number": 4,
+      "title": "Contextual Applications of Differentiation",
+      "weight": "6–9%"
+    },
+    {
+      "number": 5,
+      "title": "Analytical Applications of Differentiation",
+      "weight": "8–11%"
+    },
+    {
+      "number": 6,
+      "title": "Integration and Accumulation of Change",
+      "weight": "17–20%"
+    },
+    {
+      "number": 7,
+      "title": "Differential Equations",
+      "weight": "6–9%"
+    },
+    {
+      "number": 8,
+      "title": "Applications of Integration",
+      "weight": "6–9%"
+    },
+    {
+      "number": 9,
+      "title": "Parametric Equations, Polar Coordinates, and Vector-Valued Functions",
+      "weight": "11–12%"
+    },
+    {
+      "number": 10,
+      "title": "Infinite Sequences and Series",
+      "weight": "17–18%"
+    }
+  ],
+  "skills": [
+    {
+      "name": "1. Implementing Mathematical Processes",
+      "description": "Determine expressions and values using mathematical procedures and rules (limits, derivatives, antiderivatives, Riemann sums, series tests). About 50–70% of MCQ and 35–60% of FRQ points (AB weights; BC similar)."
+    },
+    {
+      "name": "2. Connecting Representations",
+      "description": "Translate mathematical information within or across representations: graphs, tables, formulas, and verbal descriptions. About 15–30% of MCQ and 10–20% of FRQ."
+    },
+    {
+      "name": "3. Justification",
+      "description": "Justify reasoning and solutions: verify theorem hypotheses (IVT, MVT, EVT), justify extrema, concavity, and convergence with calculus-based reasons. About 10–20% of MCQ and 35–60% of FRQ — the biggest FRQ point source."
+    },
+    {
+      "name": "4. Communication and Notation",
+      "description": "Use correct notation, units, and language in context (free-response only, about 10–25%): write limits, integrals, and derivatives correctly, and interpret answers with units."
+    }
+  ],
+  "scoring": {
+    "summary": "Section I (42 MCQ) and Section II (6 FRQs × 9 points = 54 points) each count 50%. Raw scores are weighted into a composite, and College Board converts the composite to a 1–5 score using cut points that vary by year and are not published. BC students also receive an AB subscore.",
+    "approxCutoffs": [
+      {
+        "score": 5,
+        "minPercent": 68
+      },
+      {
+        "score": 4,
+        "minPercent": 53
+      },
+      {
+        "score": 3,
+        "minPercent": 40
+      },
+      {
+        "score": 2,
+        "minPercent": 30
+      }
+    ]
+  },
+  "frqTypes": [
+    {
+      "name": "Rates/accumulation in context (often with a table)",
+      "points": 9,
+      "howScored": "Points for setting up integrals of rates, Riemann/trapezoidal estimates with correct units, interpreting values in context, and using the FTC (amount = initial + ∫ rate). Calculator questions reward the setup plus a 3-decimal answer."
+    },
+    {
+      "name": "Particle motion / position–velocity–acceleration",
+      "points": 9,
+      "howScored": "Points for v = x′, a = v′, speeding up/slowing down via the signs of v and a, total distance with |v|, and position from initial position plus net change."
+    },
+    {
+      "name": "Graph of f′ (or of f) analysis",
+      "points": 9,
+      "howScored": "Points for locating extrema/inflection points WITH a correct reason referencing f′ or f″ sign changes, evaluating accumulation functions with geometry, and Candidates-Test extreme values."
+    },
+    {
+      "name": "Differential equations",
+      "points": 9,
+      "howScored": "Typical split: slope field sketch (1), tangent-line approximation (2), separation of variables (5: separate, antiderivatives, constant, use initial condition, solve for y). Solutions without separation earn no credit on the separation part."
+    },
+    {
+      "name": "Area and volume",
+      "points": 9,
+      "howScored": "Points for correct integrand and limits (often an integrand point and a limits/constant point), and an answer; cross-section and washer setups are scored separately from the evaluation."
+    },
+    {
+      "name": "Function analysis / implicit differentiation / tables",
+      "points": 9,
+      "howScored": "Points for applying theorems (MVT/IVT) with hypotheses stated, implicit derivatives, tangent lines, and limits (including L’Hospital’s Rule with verification of the indeterminate form)."
+    }
+  ],
+  "strategy": [
+    "Part A MCQ (no calculator) is 29 questions in 62 minutes — just over 2 minutes each. Do the quick derivative/limit items first and flag long ones.",
+    "Part B MCQ (13 questions, 38 minutes) and FRQ Part A require a graphing calculator: know how to graph, find zeros/intersections, numerically differentiate (nDeriv) and integrate (fnInt), and STORE intermediate values instead of retyping rounded ones.",
+    "Report decimal answers correct to three places after the decimal point; rounding early (e.g., storing a bound as 2.3 instead of 2.30259…) is a classic lost point.",
+    "On FRQs, write the setup (the integral or derivative expression) before the number. A bare calculator answer often earns no credit; the setup point is frequently separate from the answer point.",
+    "Justifications must name the calculus reason: “f′ changes from positive to negative at x = 3, so f has a relative maximum there,” not “the graph goes up then down.”",
+    "When a theorem is used (IVT, MVT, EVT), explicitly state that its hypotheses (continuity, differentiability) are met, citing the given information.",
+    "Answer in context with units: “the rate at which water is leaving the tank is 4.2 gallons per hour at t = 3.”",
+    "Never leave an FRQ part blank: parts are scored independently, and a correct setup or a correct use of an earlier (even wrong) answer can still earn points.",
+    "Series questions are worth a large share of BC points: know convergence tests cold, including when each applies and how to state its conditions.",
+    "On Taylor polynomial FRQs, write the general term and use the Lagrange or alternating series error bound exactly as asked."
+  ],
+  "pitfalls": [
+    "Confusing f, f′, and f″ when reading a graph of f′ — e.g., treating the maximum of f′ as the maximum of f.",
+    "Dropping the inner derivative in the chain rule, especially with trig, exponential, and inverse functions.",
+    "Writing equations that are false, such as linking unequal expressions with “=” (e.g., ‘f′(x) = 3x² = 12’). Readers penalize false statements.",
+    "Using a sign chart of f instead of f′ (or f″) to justify extrema or inflection points.",
+    "Forgetting that ∫ₐᵇ r(t) dt is net change, not total distance; total distance needs |v|.",
+    "Omitting the constant of integration, or failing to use the initial condition to solve for C, in separable differential equations.",
+    "Rounding intermediate calculator results and getting a final answer off in the third decimal place."
+  ],
+  "referenceSheet": "None. No formula sheet is provided on AP Calculus AB; all derivative/integral rules, geometry formulas, and theorems must be memorized.",
+  "sources": [
+    {
+      "title": "AP Central – AP Calculus AB course page (units and weightings, 2026-27 updates)",
+      "url": "https://apcentral.collegeboard.org/courses/ap-calculus-ab"
+    },
+    {
+      "title": "AP Central – AP Calculus AB Exam (format and timing)",
+      "url": "https://apcentral.collegeboard.org/courses/ap-calculus-ab/exam"
+    },
+    {
+      "title": "AP Students – AP Calculus AB Exam (2027 format, weights)",
+      "url": "https://apstudents.collegeboard.org/courses/ap-calculus-ab/assessment"
+    },
+    {
+      "title": "2026 AP Calculus AB Free-Response Questions (PDF)",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap26-frq-calculus-ab.pdf"
+    },
+    {
+      "title": "AP Central – AP Calculus AB and BC Course and Exam Description (PDF)",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-and-bc-course-and-exam-description.pdf"
+    },
+    {
+      "title": "AP Calculus AB and BC CED Clarifications and Corrections, effective Fall 2026 (PDF)",
+      "url": "https://apcentral.collegeboard.org/media/pdf/ap-calculus-ab-bc-course-and-exam-description-clarifications-effective-fall-2026.pdf"
+    },
+    {
+      "title": "AP Students – 2026 AP Score Distributions",
+      "url": "https://apstudents.collegeboard.org/about-ap-scores/score-distributions"
+    }
+  ],
+  "caveats": [
+    "May 2027 MCQ format changed: Part A is 29 questions/62 minutes and Part B is 13 questions/38 minutes (previously 30/60 and 15/45). Course content did not change.",
+    "The 35%/15% split between MCQ Parts A and B is as listed on the AP Students page for 2027; older materials list 33.3%/16.7%.",
+    "Approximate cutoffs are estimates based on historical released-exam conversions (older format); College Board does not publish cut scores and they vary year to year.",
+    "The CED's own Exam Information section uses slightly different unit names in one table (e.g., 'Applying Derivatives to Analyze Functions'); the official framework titles are used here.",
+    "Klutch built this profile from the Calculus AB research (the two exams share one format and course framework) plus the BC unit weightings from the Course and Exam Description; recheck BC-specific details against AP Central.",
+    "Units 1–8 reuse Klutch's AB unit content because the BC exam tests those topics the same way; BC-only topics are added to units 6–8, and units 9–10 are BC-only.",
+    "Approximate cutoffs are Klutch estimates; BC curves are typically higher than AB. College Board does not publish cut scores."
+  ]
+}

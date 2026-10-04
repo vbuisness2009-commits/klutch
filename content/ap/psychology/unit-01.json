@@ -1,0 +1,290 @@
+{
+  "number": 1,
+  "title": "Biological Bases of Behavior",
+  "guide": {
+    "summary": "Behavior and mental processes depend on biology: genes interacting with environment, a nervous system that communicates through electrical and chemical signals, a brain with specialized but flexible regions, cycles of sleep, and sensory systems that convert energy into neural messages. Expect questions that apply these ideas to scenarios and research findings.",
+    "sections": [
+      {
+        "heading": "Heredity and environment",
+        "body": "Nearly all traits reflect both genes and environment. **Twin studies** compare identical (monozygotic) and fraternal (dizygotic) twins; if identical twins are much more similar, genes likely play a larger role. **Adoption studies** compare children with biological and adoptive parents. **Heritability** estimates how much of the variation in a trait within a group is due to genetic differences; it says nothing about an individual, and it can change if environments change.\n\nEvolutionary psychology asks how behaviors may have been shaped by natural selection."
+      },
+      {
+        "heading": "Nervous system and neural communication",
+        "body": "The **central nervous system** is the brain and spinal cord. The **peripheral nervous system** includes the **somatic** (voluntary movement) and **autonomic** systems. The autonomic system has a **sympathetic** branch (arousal, fight or flight) and a **parasympathetic** branch (calming, rest and digest). Reflexes can be handled by the spinal cord without the brain.\n\nA **neuron** receives signals at dendrites and sends them down the axon. When the neuron's charge passes a **threshold**, an **action potential** fires, **all or none**; stronger stimuli produce more frequent firing, not bigger action potentials. **Myelin** speeds transmission; its loss (as in multiple sclerosis) slows signals.\n\nAt the synapse, **neurotransmitters** cross to receptors. Key ones: dopamine (reward, movement), serotonin (mood), acetylcholine (muscles, memory), GABA (inhibitory), glutamate (excitatory), endorphins (pain relief). **Agonists** mimic or enhance a neurotransmitter; **antagonists** block it. **Reuptake inhibitors** (such as SSRIs) keep neurotransmitters in the synapse longer.\n\nThe **endocrine system** uses hormones: adrenaline for arousal, oxytocin for bonding, melatonin for sleep."
+      },
+      {
+        "heading": "The brain",
+        "body": "| Region | Main role |\n| --- | --- |\n| Medulla | heartbeat, breathing |\n| Cerebellum | coordination, balance, procedural memory |\n| Thalamus | relays sensory information (except smell) |\n| Hypothalamus | hunger, thirst, temperature, hormones |\n| Amygdala | fear and emotion |\n| Hippocampus | forming new explicit memories |\n| Frontal lobe | planning, judgment; motor cortex; Broca's area (speech production) |\n| Parietal lobe | somatosensory cortex (touch) |\n| Temporal lobe | auditory cortex; Wernicke's area (language comprehension) |\n| Occipital lobe | visual cortex |\n\n**Split-brain** patients, whose corpus callosum was cut, show hemispheric specialization: an image flashed to the left visual field goes to the right hemisphere, which usually can't name it but can identify it with the left hand. **Neuroplasticity** lets the brain reorganize, especially in childhood.\n\nTools: lesion studies and case studies suggest causation; EEG (timing), fMRI and PET (activity), CT and MRI (structure) show correlations between activity and tasks."
+      },
+      {
+        "heading": "Sleep and sensation",
+        "body": "**Circadian rhythms**, regulated by the suprachiasmatic nucleus, cycle roughly every 24 hours; jet lag and shift work disrupt them. Sleep cycles through NREM stages and **REM** (vivid dreams, muscle paralysis, active brain) about every 90 minutes. Sleep supports memory consolidation; deprivation impairs attention, mood, and immunity. Disorders include insomnia, narcolepsy, and sleep apnea.\n\n**Sensation** detects energy; **perception** interprets it. The **absolute threshold** is the minimum stimulus detected half the time; the **difference threshold** (JND) follows **Weber's law**, a constant proportion. **Sensory adaptation** reduces response to constant stimuli.\n\nVision: the **trichromatic theory** explains color detection by three cone types; **opponent-process theory** explains afterimages (stare at red, see green). Hearing: place theory (high pitches) and frequency theory (low pitches)."
+      }
+    ],
+    "keyTakeaways": [
+      "Traits reflect gene-environment interaction; heritability is about group variation.",
+      "Action potentials are all or none; intensity is coded by firing rate.",
+      "Agonists mimic, antagonists block, reuptake inhibitors prolong neurotransmitters.",
+      "Know brain regions by function and the split-brain visual field pattern.",
+      "Imaging shows correlation; lesions and case studies suggest causation.",
+      "Trichromatic explains cones; opponent-process explains afterimages."
+    ],
+    "commonMistakes": [
+      "Saying a stronger stimulus makes a bigger action potential.",
+      "Mixing up sympathetic (arousal) and parasympathetic (calming).",
+      "Confusing Broca's (production) and Wernicke's (comprehension).",
+      "Treating heritability as applying to individuals.",
+      "Forgetting visual fields cross: left field goes to the right hemisphere.",
+      "Confusing sensation and perception."
+    ],
+    "examTips": [
+      "Scenario questions often hinge on one word: \"production,\" \"comprehension,\" \"mimic,\" \"block.\"",
+      "Research-based questions may ask what a study can and can't conclude.",
+      "For drug questions, decide agonist vs. antagonist before reading choices.",
+      "Weber's law questions require proportional reasoning.",
+      "Connect biology to behavior, not just definitions."
+    ],
+    "cramSheet": "**Genes:** twin, adoption studies · heritability = group variation\n\n**NS:** CNS · PNS (somatic, autonomic: sympathetic ↑, parasympathetic ↓)\n\n**Neuron:** threshold → all-or-none AP · myelin speeds · agonist/antagonist/reuptake\n\n**NTs:** dopamine · serotonin · ACh · GABA (−) · glutamate (+) · endorphins\n\n**Brain:** medulla · cerebellum · thalamus · hypothalamus · amygdala · hippocampus · lobes · Broca/Wernicke · split brain · plasticity\n\n**Sleep:** SCN · REM · consolidation\n\n**Sensation:** absolute/difference threshold · Weber · adaptation · trichromatic + opponent-process"
+  },
+  "vocab": [
+    { "term": "Heritability", "definition": "The proportion of variation in a trait within a population attributable to genetic differences." },
+    { "term": "Action potential", "definition": "A brief electrical charge that travels down an axon when the neuron reaches threshold; all or none." },
+    { "term": "Myelin sheath", "definition": "Fatty covering on axons that speeds neural transmission." },
+    { "term": "Neurotransmitter", "definition": "A chemical messenger that crosses the synapse between neurons." },
+    { "term": "Agonist", "definition": "A substance that mimics or enhances a neurotransmitter's effect." },
+    { "term": "Antagonist", "definition": "A substance that blocks a neurotransmitter's effect." },
+    { "term": "Reuptake", "definition": "Reabsorption of a neurotransmitter by the sending neuron." },
+    { "term": "Sympathetic nervous system", "definition": "Autonomic division that arouses the body for action." },
+    { "term": "Parasympathetic nervous system", "definition": "Autonomic division that calms the body and conserves energy." },
+    { "term": "Hippocampus", "definition": "Brain structure essential for forming new explicit memories." },
+    { "term": "Amygdala", "definition": "Brain structure involved in fear and emotion." },
+    { "term": "Broca's area", "definition": "Frontal lobe region involved in speech production." },
+    { "term": "Wernicke's area", "definition": "Temporal lobe region involved in language comprehension." },
+    { "term": "Neuroplasticity", "definition": "The brain's ability to reorganize by forming new connections." },
+    { "term": "Circadian rhythm", "definition": "The body's roughly 24-hour biological cycle." },
+    { "term": "Weber's law", "definition": "The just noticeable difference is a constant proportion of the original stimulus." }
+  ],
+  "practice": [
+    {
+      "id": "u1-q01", "tier": "Intro", "type": "mcq", "topic": "1.3 The Neuron and Neural Firing",
+      "stimulus": "A new medication binds to acetylcholine receptors and activates them, producing the same effect as acetylcholine itself.",
+      "stem": "The medication is best described as",
+      "choices": [
+        { "id": "A", "text": "an agonist" },
+        { "id": "B", "text": "an antagonist" },
+        { "id": "C", "text": "a reuptake inhibitor" },
+        { "id": "D", "text": "a hormone" }
+      ],
+      "answer": "A",
+      "explanation": "Agonists mimic or enhance a neurotransmitter's action.",
+      "distractors": { "B": "Antagonists block receptors without activating them.", "C": "Reuptake inhibitors work by preventing reabsorption, not by activating receptors." }
+    },
+    {
+      "id": "u1-q02", "tier": "Intro", "type": "mcq", "topic": "1.4 The Brain",
+      "stimulus": "After a stroke, Dana understands what people say to her but struggles to form words; her speech is slow and halting.",
+      "stem": "Damage to which area most likely explains Dana's symptoms?",
+      "choices": [
+        { "id": "A", "text": "Broca's area" },
+        { "id": "B", "text": "Wernicke's area" },
+        { "id": "C", "text": "The occipital lobe" },
+        { "id": "D", "text": "The cerebellum" }
+      ],
+      "answer": "A",
+      "explanation": "Broca's area in the frontal lobe controls speech production; comprehension is intact.",
+      "distractors": { "B": "Wernicke's damage impairs comprehension, often with fluent but meaningless speech." }
+    },
+    {
+      "id": "u1-q03", "tier": "Intro", "type": "mcq", "topic": "1.2 Overview of the Nervous System",
+      "stimulus": "As Malik walks onstage to give a speech, his heart pounds, his breathing quickens, and his digestion slows.",
+      "stem": "Which division of the nervous system is most active?",
+      "choices": [
+        { "id": "A", "text": "Sympathetic" },
+        { "id": "B", "text": "Parasympathetic" },
+        { "id": "C", "text": "Somatic" },
+        { "id": "D", "text": "Central" }
+      ],
+      "answer": "A",
+      "explanation": "The sympathetic division prepares the body for action.",
+      "distractors": { "B": "Would calm the body afterward." }
+    },
+    {
+      "id": "u1-q04", "tier": "Intro", "type": "mcq", "topic": "1.5 Sleep",
+      "stimulus": "In a sleep lab, a participant's EEG shows fast, irregular brain waves similar to waking, her eyes move rapidly, and her major muscles are temporarily paralyzed.",
+      "stem": "The participant is most likely in",
+      "choices": [
+        { "id": "A", "text": "REM sleep" },
+        { "id": "B", "text": "NREM stage 3 (deep sleep)" },
+        { "id": "C", "text": "NREM stage 1" },
+        { "id": "D", "text": "a waking state" }
+      ],
+      "answer": "A",
+      "explanation": "REM combines an active brain with muscle paralysis and vivid dreaming.",
+      "distractors": { "B": "Deep sleep has slow delta waves." }
+    },
+    {
+      "id": "u1-q05", "tier": "Exam level", "type": "mcq", "topic": "1.1 Interaction of Heredity and Environment",
+      "stimulus": "Researchers find that identical twins raised in different homes have a correlation of +.70 on a measure of extraversion, while fraternal twins raised together have a correlation of +.25.",
+      "stem": "Which conclusion is best supported?",
+      "choices": [
+        { "id": "A", "text": "Genetic factors contribute substantially to individual differences in extraversion." },
+        { "id": "B", "text": "Environment has no effect on extraversion." },
+        { "id": "C", "text": "Extraversion is 70 percent genetic in every individual." },
+        { "id": "D", "text": "Being raised together lowers extraversion." }
+      ],
+      "answer": "A",
+      "explanation": "Identical twins raised apart are more similar than fraternal twins raised together, pointing to genetic influence.",
+      "distractors": { "B": "The correlation isn't perfect, so environment matters too.", "C": "Correlations and heritability describe groups, not individuals." }
+    },
+    {
+      "id": "u1-q06", "tier": "Exam level", "type": "mcq", "topic": "1.4 The Brain",
+      "stimulus": "A patient whose corpus callosum has been severed fixes her eyes on a dot. A picture of a key flashes briefly to the left of the dot.",
+      "stem": "Which response is most likely?",
+      "choices": [
+        { "id": "A", "text": "She says she saw nothing but can pick out the key with her left hand." },
+        { "id": "B", "text": "She names the key aloud and picks it out with her right hand." },
+        { "id": "C", "text": "She can neither name nor pick out the key." },
+        { "id": "D", "text": "She names the key but can't pick it out with either hand." }
+      ],
+      "answer": "A",
+      "explanation": "The left visual field projects to the right hemisphere, which controls the left hand but, in most people, lacks speech.",
+      "distractors": { "B": "That would happen if the image appeared to the right of the dot." }
+    },
+    {
+      "id": "u1-q07", "tier": "Exam level", "type": "mcq", "topic": "1.6 Sensation",
+      "stimulus": "A worker can just detect the difference when 1 pound is added to a 50-pound box.",
+      "stem": "According to Weber's law, about how much weight would need to be added to a 100-pound box for the worker to detect the difference?",
+      "choices": [
+        { "id": "A", "text": "2 pounds" },
+        { "id": "B", "text": "1 pound" },
+        { "id": "C", "text": "50 pounds" },
+        { "id": "D", "text": "0.5 pound" }
+      ],
+      "answer": "A",
+      "explanation": "The just noticeable difference is a constant proportion: 1/50 = 2 percent, and 2 percent of 100 is 2.",
+      "distractors": { "B": "Assumes a constant amount rather than a constant proportion." }
+    },
+    {
+      "id": "u1-q08", "tier": "Exam level", "type": "mcq", "topic": "1.3 The Neuron and Neural Firing",
+      "stem": "Multiple sclerosis damages the myelin sheath around axons. Which change in neural functioning is most likely?",
+      "choices": [
+        { "id": "A", "text": "Neural signals travel more slowly and less reliably." },
+        { "id": "B", "text": "Neurons can no longer release neurotransmitters." },
+        { "id": "C", "text": "Action potentials become larger." },
+        { "id": "D", "text": "Reuptake of serotonin is blocked." }
+      ],
+      "answer": "A",
+      "explanation": "Myelin insulates axons and speeds conduction; its loss slows and disrupts signals, causing problems with movement and sensation.",
+      "distractors": { "C": "Action potentials are all or none in size." }
+    },
+    {
+      "id": "u1-q09", "tier": "Exam level", "type": "mcq", "topic": "1.4 The Brain",
+      "stimulus": "At age 4, Leo had surgery removing much of his left hemisphere to stop severe seizures. By age 10, his language abilities are close to normal.",
+      "stem": "Leo's recovery best illustrates",
+      "choices": [
+        { "id": "A", "text": "neuroplasticity" },
+        { "id": "B", "text": "the all-or-none principle" },
+        { "id": "C", "text": "sensory adaptation" },
+        { "id": "D", "text": "the opponent-process theory" }
+      ],
+      "answer": "A",
+      "explanation": "The young brain reorganized so that the right hemisphere took over language functions.",
+      "distractors": { "B": "Concerns individual neuron firing." }
+    },
+    {
+      "id": "u1-q10", "tier": "Exam level", "type": "mcq", "topic": "1.5 Sleep",
+      "stimulus": "After flying from Los Angeles to London, Priya feels wide awake at 2 a.m. local time and exhausted at noon for several days.",
+      "stem": "Priya's experience is best explained by",
+      "choices": [
+        { "id": "A", "text": "a disruption of her circadian rhythm" },
+        { "id": "B", "text": "narcolepsy" },
+        { "id": "C", "text": "REM rebound" },
+        { "id": "D", "text": "sleep apnea" }
+      ],
+      "answer": "A",
+      "explanation": "Her internal clock is still synchronized to her home time zone (jet lag).",
+      "distractors": { "B": "Narcolepsy involves sudden sleep attacks unrelated to travel." }
+    },
+    {
+      "id": "u1-q11", "tier": "Hardest", "type": "mcq", "topic": "1.3 The Neuron and Neural Firing",
+      "stimulus": "A researcher records from a single sensory neuron while pressing on the skin, first gently and then firmly.",
+      "stem": "Compared with the gentle press, the firm press would most likely produce",
+      "choices": [
+        { "id": "A", "text": "action potentials of the same size but at a higher frequency" },
+        { "id": "B", "text": "larger action potentials at the same frequency" },
+        { "id": "C", "text": "no action potentials, because of adaptation" },
+        { "id": "D", "text": "a single, longer action potential" }
+      ],
+      "answer": "A",
+      "explanation": "Action potentials are all or none; intensity is coded by firing rate (and by how many neurons fire).",
+      "distractors": { "B": "Contradicts the all-or-none principle." }
+    },
+    {
+      "id": "u1-q12", "tier": "Hardest", "type": "mcq", "topic": "1.4 The Brain (research methods)",
+      "stimulus": "An fMRI study finds that a region of the prefrontal cortex is more active when participants make moral judgments than when they make neutral judgments.",
+      "stem": "Which conclusion is most justified by this study alone?",
+      "choices": [
+        { "id": "A", "text": "Activity in this region is associated with making moral judgments." },
+        { "id": "B", "text": "This region causes all moral reasoning." },
+        { "id": "C", "text": "Damaging this region would eliminate moral judgments." },
+        { "id": "D", "text": "Moral judgments occur only in this region." }
+      ],
+      "answer": "A",
+      "explanation": "Imaging shows correlation between activity and tasks; causal claims require lesion, stimulation, or experimental evidence.",
+      "distractors": { "B": "Overstates causation.", "C": "Would need lesion or stimulation evidence." }
+    },
+    {
+      "id": "u1-q13", "tier": "Hardest", "type": "mcq", "topic": "1.6 Sensation (vision)",
+      "stimulus": "After staring at a bright red square for 60 seconds, Jordan looks at a white wall and sees a green square.",
+      "stem": "Which theory best explains Jordan's experience?",
+      "choices": [
+        { "id": "A", "text": "Opponent-process theory, because fatigue of red-responding cells shifts the balance toward green" },
+        { "id": "B", "text": "Trichromatic theory, because three cone types detect red, green, and blue" },
+        { "id": "C", "text": "Place theory, because different hair cells respond to different pitches" },
+        { "id": "D", "text": "Weber's law, because the difference threshold changed" }
+      ],
+      "answer": "A",
+      "explanation": "Opponent cells pair red and green; overstimulating red produces a green afterimage.",
+      "distractors": { "B": "Trichromatic theory explains color detection by cones but not afterimages.", "C": "Place theory concerns hearing." }
+    },
+    {
+      "id": "u1-q14", "tier": "Hardest", "type": "mcq", "topic": "1.3 The Neuron and Neural Firing",
+      "stimulus": "Selective serotonin reuptake inhibitors (SSRIs) are commonly prescribed for depression.",
+      "stem": "How do SSRIs most directly affect neural communication?",
+      "choices": [
+        { "id": "A", "text": "They prevent serotonin from being reabsorbed by the sending neuron, leaving more in the synapse." },
+        { "id": "B", "text": "They block serotonin receptors on the receiving neuron." },
+        { "id": "C", "text": "They destroy serotonin in the synapse." },
+        { "id": "D", "text": "They increase the size of action potentials." }
+      ],
+      "answer": "A",
+      "explanation": "Blocking reuptake prolongs serotonin's availability to bind receptors.",
+      "distractors": { "B": "That would be an antagonist." }
+    },
+    {
+      "id": "u1-frq1", "tier": "Exam level", "type": "frq", "topic": "1.5 Sleep (research)", "frqType": "Article Analysis Question (AAQ)",
+      "stimulus": "Summary of a study written for this practice set:\n\nResearchers recruited 80 undergraduate volunteers at one university. All gave informed consent. Participants learned a list of 40 word pairs at 9 p.m. They were then randomly assigned either to sleep normally in the lab (sleep group) or to stay awake overnight under supervision (deprivation group). At 9 p.m. the next evening, after the deprivation group had slept for a few hours of recovery, both groups were tested. Memory was measured as the number of word pairs correctly recalled.\n\n| Group | Mean pairs recalled | Standard deviation |\n| --- | --- | --- |\n| Sleep | 31.2 | 4.1 |\n| Deprivation | 24.6 | 5.3 |\n\nThe difference was statistically significant (p < .01). Participants were told the purpose of the study after testing.",
+      "prompt": "Using the research summary, respond to all parts.",
+      "parts": [
+        { "label": "a", "prompt": "Identify the research method used in the study.", "points": 1 },
+        { "label": "b", "prompt": "State the operational definition of the dependent variable.", "points": 1 },
+        { "label": "c", "prompt": "Describe what the standard deviations indicate about the two groups.", "points": 1 },
+        { "label": "d", "prompt": "Explain what the p-value indicates about the results.", "points": 1 },
+        { "label": "e", "prompt": "Identify one ethical guideline the researchers followed.", "points": 1 },
+        { "label": "f", "prompt": "Explain the extent to which the findings can be generalized.", "points": 1 },
+        { "label": "g", "prompt": "Explain how the findings support or refute the claim that sleep helps consolidate memories.", "points": 1 }
+      ],
+      "points": 7,
+      "minutes": 25,
+      "rubric": [
+        { "criterion": "(a)", "points": 1, "description": "Experiment (random assignment to conditions)." },
+        { "criterion": "(b)", "points": 1, "description": "The number of word pairs (out of 40) correctly recalled at the test the following evening." },
+        { "criterion": "(c)", "points": 1, "description": "Scores in the deprivation group were more spread out (more variable) than in the sleep group." },
+        { "criterion": "(d)", "points": 1, "description": "There is less than a 1% probability the difference occurred by chance alone, so it is statistically significant." },
+        { "criterion": "(e)", "points": 1, "description": "Informed consent, or debriefing (explaining the purpose afterward)." },
+        { "criterion": "(f)", "points": 1, "description": "Limited: the sample was undergraduate volunteers from one university, so results may not generalize to other ages or populations." },
+        { "criterion": "(g)", "points": 1, "description": "Supports: participants who slept after learning recalled more word pairs, consistent with sleep aiding consolidation, even when the deprivation group had some recovery sleep before testing." }
+      ],
+      "sampleResponse": "(a) The study is an experiment, because participants were randomly assigned to the sleep or deprivation condition.\n\n(b) Memory was operationally defined as the number of the 40 word pairs a participant correctly recalled at 9 p.m. the next evening.\n\n(c) The deprivation group's larger standard deviation (5.3 vs. 4.1) means its recall scores were more spread out around the mean than the sleep group's.\n\n(d) p < .01 means there is less than a 1% chance that a difference this large would occur by chance if sleep had no effect, so the difference is statistically significant.\n\n(e) The researchers obtained informed consent from all participants, and they debriefed participants by explaining the purpose after testing.\n\n(f) Generalization is limited. The participants were undergraduate volunteers from one university, so the results may not apply to older adults, children, or people from other backgrounds.\n\n(g) The findings support the claim. Participants who slept after learning recalled about 6.6 more pairs on average than those kept awake, even though the deprivation group had some recovery sleep before testing, suggesting the first night's sleep helped consolidate the new memories."
+    }
+  ]
+}

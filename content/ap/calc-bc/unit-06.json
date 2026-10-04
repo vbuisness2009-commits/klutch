@@ -1,0 +1,792 @@
+{
+  "number": 6,
+  "title": "Integration and Accumulation of Change",
+  "guide": {
+    "summary": "Integration measures accumulated change. This unit starts with approximating area using Riemann and trapezoidal sums, defines the definite integral as their limit, and connects integration to differentiation through the Fundamental Theorem of Calculus. It finishes with antiderivative rules and u-substitution.",
+    "sections": [
+      {
+        "heading": "Accumulation and Riemann sums",
+        "body": "If r(t) is a rate (gallons per hour), then rate × time is an amount. Over many short intervals, adding these up approximates the total change. That's a Riemann sum.\n\nFor a table of values, each method uses a different height on each subinterval:\n\n| x | 0 | 2 | 4 | 6 |\n| --- | --- | --- | --- | --- |\n| f(x) | 1 | 3 | 4 | 7 |\n\n- **Left sum:** 2(1 + 3 + 4) = 16\n- **Right sum:** 2(3 + 4 + 7) = 28\n- **Trapezoidal sum:** 2[(1 + 3)/2 + (3 + 4)/2 + (4 + 7)/2] = 22\n- **Midpoint sum:** needs values at the midpoints, not available here.\n\nSubintervals in exam tables are often **unequal**. Multiply each height by its own width.\n\n**Over or under?** For an increasing function, a left sum underestimates and a right sum overestimates. For a concave-up function, the trapezoidal sum overestimates."
+      },
+      {
+        "heading": "The definite integral",
+        "body": "The definite integral ∫ₐᵇ f(x) dx is the limit of Riemann sums as the widths shrink to zero. It represents **net signed area**: regions below the axis count as negative.\n\nThe exam asks you to convert a limit of a Riemann sum into an integral:\n\nlim(n→∞) Σₖ₌₁ⁿ (1/n)(1 + k/n)² = ∫₁² x² dx\n\nRead Δx = 1/n, so the interval has length 1. The term inside, 1 + k/n, runs from just above 1 to 2, so the bounds are 1 to 2 and f(x) = x².\n\n**Properties:**\n\n- ∫ₐᵃ f = 0 and ∫ᵇₐ f = −∫ₐᵇ f\n- ∫ₐᵇ f + ∫ᵇᶜ f = ∫ₐᶜ f\n- ∫ₐᵇ k·f = k∫ₐᵇ f\n\nFor geometric functions (lines, semicircles), compute integrals from area directly."
+      },
+      {
+        "heading": "Fundamental Theorem of Calculus",
+        "body": "**Part 1 (derivative of an accumulation function):** if g(x) = ∫ₐˣ f(t) dt, then g′(x) = f(x).\n\nWith a variable upper limit, add the chain rule:\n\nd/dx ∫₀^(x²) sin t dt = sin(x²)·2x\n\n**Part 2 (evaluation):** if F′ = f, then ∫ₐᵇ f(x) dx = F(b) − F(a).\n\nThe **net change theorem** is FTC2 read in context: ∫ₐᵇ r′(t) dt = r(b) − r(a). Starting amount plus accumulated change gives the ending amount:\n\nA(b) = A(a) + ∫ₐᵇ A′(t) dt\n\nThis structure drives many FRQs."
+      },
+      {
+        "heading": "Accumulation functions as functions",
+        "body": "Treat g(x) = ∫ₐˣ f(t) dt like any other function. Since g′ = f and g″ = f′:\n\n- g is increasing where f > 0.\n- g has a relative max where f changes from + to −.\n- g is concave up where f is increasing.\n- g has an inflection point where f has a peak or valley.\n\nTo evaluate g at a specific x, compute signed area from a to x. If x < a, flip the sign: g(x) = −∫ₓᵃ f(t) dt."
+      },
+      {
+        "heading": "Antiderivatives and u-substitution",
+        "body": "| Integrand | Antiderivative |\n| --- | --- |\n| xⁿ (n ≠ −1) | xⁿ⁺¹/(n + 1) + C |\n| 1/x | ln|x| + C |\n| eˣ | eˣ + C |\n| sin x | −cos x + C |\n| cos x | sin x + C |\n| sec²x | tan x + C |\n| 1/(1 + x²) | arctan x + C |\n\n**u-substitution** reverses the chain rule. Look for an inner function whose derivative also appears:\n\n∫ 2x(x² + 1)³ dx: let u = x² + 1, du = 2x dx. The integral becomes ∫ u³ du = u⁴/4 + C = (x² + 1)⁴/4 + C.\n\nFor definite integrals, either change the bounds to u-values or substitute back before evaluating. Mixing the two is a common error."
+      },
+      {
+        "heading": "BC only: integration by parts, partial fractions, improper integrals",
+        "body": "**Integration by parts:** ∫u dv = uv − ∫v du. Choose u to become simpler when differentiated (LIATE: logs, inverse trig, algebraic, trig, exponential). ∫x eˣ dx = x eˣ − ∫eˣ dx = (x − 1)eˣ + C. ∫ln x dx = x ln x − x + C (take u = ln x, dv = dx).\n\n**Partial fractions** (distinct linear factors): 1/(x² − 1) = ½[1/(x − 1) − 1/(x + 1)], so ∫ dx/(x² − 1) = ½ ln|(x − 1)/(x + 1)| + C.\n\n**Improper integrals:** replace the infinite bound (or the bad point) with a variable and take a limit. ∫₁^∞ dx/x² = lim(b→∞) (1 − 1/b) = 1 converges; ∫₁^∞ dx/x = lim ln b diverges. In general ∫₁^∞ dx/xᵖ converges only for p > 1."
+      }
+    ],
+    "keyTakeaways": [
+      "Riemann sums: left, right, midpoint, trapezoidal. Multiply by each subinterval's own width.",
+      "The definite integral is net signed area and the limit of Riemann sums.",
+      "FTC1: d/dx ∫ₐˣ f(t) dt = f(x); with g(x) as the upper limit, multiply by g′(x).",
+      "FTC2: ∫ₐᵇ f = F(b) − F(a). In context, ending = starting + ∫ rate.",
+      "An accumulation function's derivative is its integrand, so analyze it with f.",
+      "u-substitution: choose u so that du appears; change bounds or substitute back."
+    ],
+    "commonMistakes": [
+      "Using a single width on tables with unequal subintervals.",
+      "Forgetting the chain rule when the upper limit is a function of x.",
+      "Forgetting + C on indefinite integrals.",
+      "Integrating sin x as cos x (it's −cos x).",
+      "Changing variables to u but leaving the old x-bounds.",
+      "Treating area below the axis as positive when the question asks for the integral's value."
+    ],
+    "examTips": [
+      "Table-based Riemann and trapezoidal sums appear on nearly every exam; show the full sum with numbers.",
+      "Interpret ∫ₐᵇ r(t) dt in context: the total amount of [quantity] that [entered/left] from t = a to t = b, with units.",
+      "When given a graph made of lines and semicircles, compute integrals with geometry.",
+      "Accumulation-function FRQs mirror Unit 5: max/min, increasing, concavity, but with the integrand playing f′.",
+      "Use the calculator section's fnInt for any integral you can't do by hand.",
+      "BC exams frequently combine these BC-only techniques with AB ideas in the same FRQ."
+    ],
+    "cramSheet": "**Left/Right/Trap:** Σ width × height · trap = width × (left + right)/2\n\n**Over/under:** increasing → L under, R over · concave up → trap over\n\n**Riemann limit → integral:** Δx = (b − a)/n, xₖ = a + kΔx\n\n**FTC1:** d/dx ∫ₐ^(g(x)) f(t) dt = f(g(x))·g′(x)\n\n**FTC2:** ∫ₐᵇ f = F(b) − F(a) · A(b) = A(a) + ∫ₐᵇ A′\n\n**g(x) = ∫ₐˣ f:** g′ = f · g″ = f′\n\n**u-sub:** u = inner, du = u′dx, change bounds"
+  },
+  "vocab": [
+    {
+      "term": "Riemann sum",
+      "definition": "A sum of the form Σ f(xₖ)Δxₖ that approximates the area under a curve using rectangles."
+    },
+    {
+      "term": "Left Riemann sum",
+      "definition": "Uses the function value at the left endpoint of each subinterval as the rectangle height."
+    },
+    {
+      "term": "Right Riemann sum",
+      "definition": "Uses the function value at the right endpoint of each subinterval."
+    },
+    {
+      "term": "Midpoint Riemann sum",
+      "definition": "Uses the function value at the midpoint of each subinterval."
+    },
+    {
+      "term": "Trapezoidal sum",
+      "definition": "Approximates area with trapezoids: Σ Δxₖ·(f(xₖ₋₁) + f(xₖ))/2."
+    },
+    {
+      "term": "Definite integral",
+      "definition": "∫ₐᵇ f(x) dx, the limit of Riemann sums; the net signed area between f and the x-axis from a to b."
+    },
+    {
+      "term": "Antiderivative",
+      "definition": "A function F with F′ = f."
+    },
+    {
+      "term": "Indefinite integral",
+      "definition": "∫ f(x) dx = F(x) + C, the family of all antiderivatives of f."
+    },
+    {
+      "term": "Accumulation function",
+      "definition": "g(x) = ∫ₐˣ f(t) dt, which accumulates the signed area under f from a to x."
+    },
+    {
+      "term": "Fundamental Theorem of Calculus, Part 1",
+      "definition": "If g(x) = ∫ₐˣ f(t) dt and f is continuous, then g′(x) = f(x)."
+    },
+    {
+      "term": "Fundamental Theorem of Calculus, Part 2",
+      "definition": "If F′ = f on [a, b], then ∫ₐᵇ f(x) dx = F(b) − F(a)."
+    },
+    {
+      "term": "Net change",
+      "definition": "∫ₐᵇ r(t) dt, the total change in a quantity whose rate of change is r."
+    },
+    {
+      "term": "u-substitution",
+      "definition": "An integration technique that reverses the chain rule by setting u equal to an inner function."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u6-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.8 Finding Antiderivatives",
+      "stem": "∫ (3x² + 2) dx =",
+      "choices": [
+        {
+          "id": "A",
+          "text": "x³ + 2x + C"
+        },
+        {
+          "id": "B",
+          "text": "6x + C"
+        },
+        {
+          "id": "C",
+          "text": "x³ + 2 + C"
+        },
+        {
+          "id": "D",
+          "text": "3x³ + 2x + C"
+        }
+      ],
+      "answer": "A",
+      "explanation": "∫3x² dx = x³ and ∫2 dx = 2x. Add C.",
+      "distractors": {
+        "B": "Differentiated instead of integrating.",
+        "C": "Forgot to integrate the constant.",
+        "D": "Raised the power but didn't divide by 3."
+      }
+    },
+    {
+      "id": "u6-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.7 The Fundamental Theorem of Calculus and Definite Integrals",
+      "stem": "∫₀² 2x dx =",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "8"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Antiderivative x². 2² − 0² = 4. (Also the area of a triangle with base 2 and height 4.)",
+      "distractors": {
+        "B": "Evaluated the integrand at 1.",
+        "C": "Used base × height without the ½."
+      }
+    },
+    {
+      "id": "u6-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.2 Approximating Areas with Riemann Sums",
+      "stimulus": "| x | 0 | 2 | 4 | 6 |\n| --- | --- | --- | --- | --- |\n| f(x) | 1 | 3 | 4 | 7 |",
+      "stem": "Using a left Riemann sum with the three subintervals shown, what is the approximation of ∫₀⁶ f(x) dx?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "16"
+        },
+        {
+          "id": "B",
+          "text": "28"
+        },
+        {
+          "id": "C",
+          "text": "8"
+        },
+        {
+          "id": "D",
+          "text": "22"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Width 2 each, heights from the left endpoints 1, 3, 4: 2(1 + 3 + 4) = 16.",
+      "distractors": {
+        "B": "That's the right sum.",
+        "C": "Forgot to multiply by the width.",
+        "D": "That's the trapezoidal sum."
+      }
+    },
+    {
+      "id": "u6-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.8 Finding Antiderivatives",
+      "stem": "∫ sin x dx =",
+      "choices": [
+        {
+          "id": "A",
+          "text": "−cos x + C"
+        },
+        {
+          "id": "B",
+          "text": "cos x + C"
+        },
+        {
+          "id": "C",
+          "text": "−sin x + C"
+        },
+        {
+          "id": "D",
+          "text": "sin x·x + C"
+        }
+      ],
+      "answer": "A",
+      "explanation": "d/dx(−cos x) = sin x.",
+      "distractors": {
+        "B": "Sign error; d/dx(cos x) = −sin x."
+      }
+    },
+    {
+      "id": "u6-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.4 The Fundamental Theorem of Calculus and Accumulation Functions",
+      "stem": "If g(x) = ∫₁ˣ √(t² + 1) dt, then g′(2) =",
+      "choices": [
+        {
+          "id": "A",
+          "text": "√5"
+        },
+        {
+          "id": "B",
+          "text": "√5 − √2"
+        },
+        {
+          "id": "C",
+          "text": "2√5"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "answer": "A",
+      "explanation": "FTC1: g′(x) = √(x² + 1), so g′(2) = √5.",
+      "distractors": {
+        "B": "Evaluated the integrand at both bounds and subtracted.",
+        "C": "Applied an unnecessary chain rule factor."
+      }
+    },
+    {
+      "id": "u6-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.9 Integrating Using Substitution",
+      "stem": "∫ 2x(x² + 1)³ dx =",
+      "choices": [
+        {
+          "id": "A",
+          "text": "(x² + 1)⁴/4 + C"
+        },
+        {
+          "id": "B",
+          "text": "(x² + 1)⁴ + C"
+        },
+        {
+          "id": "C",
+          "text": "x²(x² + 1)⁴/4 + C"
+        },
+        {
+          "id": "D",
+          "text": "2(x² + 1)⁴/4 + C"
+        }
+      ],
+      "answer": "A",
+      "explanation": "u = x² + 1, du = 2x dx. ∫u³ du = u⁴/4.",
+      "distractors": {
+        "B": "Forgot to divide by 4.",
+        "C": "Integrated 2x separately and multiplied.",
+        "D": "Kept the 2x factor after substituting."
+      }
+    },
+    {
+      "id": "u6-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.9 Integrating Using Substitution",
+      "stem": "∫₀¹ e^(2x) dx =",
+      "choices": [
+        {
+          "id": "A",
+          "text": "(e² − 1)/2"
+        },
+        {
+          "id": "B",
+          "text": "e² − 1"
+        },
+        {
+          "id": "C",
+          "text": "2(e² − 1)"
+        },
+        {
+          "id": "D",
+          "text": "e²/2"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Antiderivative e^(2x)/2. [e²/2] − [1/2] = (e² − 1)/2.",
+      "distractors": {
+        "B": "Forgot to divide by 2.",
+        "C": "Multiplied by 2 instead of dividing.",
+        "D": "Forgot to subtract the value at 0, e⁰/2 = 1/2."
+      }
+    },
+    {
+      "id": "u6-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.6 Applying Properties of Definite Integrals",
+      "stem": "If ∫₀⁵ f(x) dx = 8 and ∫₃⁵ f(x) dx = 3, then ∫₀³ 2f(x) dx =",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "5"
+        },
+        {
+          "id": "C",
+          "text": "22"
+        },
+        {
+          "id": "D",
+          "text": "6"
+        }
+      ],
+      "answer": "A",
+      "explanation": "∫₀³ f = 8 − 3 = 5. Then ∫₀³ 2f = 10.",
+      "distractors": {
+        "B": "Forgot the factor 2.",
+        "C": "Added the integrals instead of subtracting.",
+        "D": "Doubled the wrong piece."
+      }
+    },
+    {
+      "id": "u6-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.2 Approximating Areas with Riemann Sums",
+      "stimulus": "| t (hours) | 0 | 1 | 3 | 6 |\n| --- | --- | --- | --- | --- |\n| r(t) (liters/hour) | 4 | 6 | 7 | 3 |",
+      "stem": "Water flows into a tank at rate r(t). Using a trapezoidal sum with the subintervals shown, approximately how many liters enter the tank from t = 0 to t = 6?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "33"
+        },
+        {
+          "id": "B",
+          "text": "30"
+        },
+        {
+          "id": "C",
+          "text": "16.5"
+        },
+        {
+          "id": "D",
+          "text": "37"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Widths are 1, 2, 3. 1·(4 + 6)/2 + 2·(6 + 7)/2 + 3·(7 + 3)/2 = 5 + 13 + 15 = 33.",
+      "distractors": {
+        "B": "Multiplied the average of the four rates (5) by 6 hours.",
+        "C": "Assumed every width was 1.",
+        "D": "That's the left Riemann sum: 1·4 + 2·6 + 3·7."
+      }
+    },
+    {
+      "id": "u6-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.5 Interpreting the Behavior of Accumulation Functions",
+      "stem": "Let g(x) = ∫₀ˣ (t² − 4) dt for 0 ≤ x ≤ 5. On what interval is g increasing?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "(2, 5)"
+        },
+        {
+          "id": "B",
+          "text": "(0, 2)"
+        },
+        {
+          "id": "C",
+          "text": "(0, 5)"
+        },
+        {
+          "id": "D",
+          "text": "(√12, 5)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "g′(x) = x² − 4 > 0 when x > 2.",
+      "distractors": {
+        "B": "That's where g′ < 0.",
+        "D": "Solved g(x) = 0 instead of g′(x) > 0."
+      }
+    },
+    {
+      "id": "u6-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.4 The Fundamental Theorem of Calculus and Accumulation Functions",
+      "stem": "d/dx ∫₀^(x²) sin t dt =",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2x sin(x²)"
+        },
+        {
+          "id": "B",
+          "text": "sin(x²)"
+        },
+        {
+          "id": "C",
+          "text": "2x cos(x²)"
+        },
+        {
+          "id": "D",
+          "text": "1 − cos(x²)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "FTC1 with the chain rule: sin(x²)·d/dx(x²) = 2x sin(x²).",
+      "distractors": {
+        "B": "Forgot the chain rule.",
+        "D": "That's the integral itself, not its derivative."
+      }
+    },
+    {
+      "id": "u6-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.6 Applying Properties of Definite Integrals",
+      "stem": "∫₀² |x − 1| dx =",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "1/2"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The graph is two triangles, each with base 1 and height 1: ½ + ½ = 1.",
+      "distractors": {
+        "B": "Integrated x − 1 without the absolute value.",
+        "D": "Counted only one triangle."
+      }
+    },
+    {
+      "id": "u6-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.9 Integrating Using Substitution",
+      "stem": "∫₀¹ x/(x² + 1) dx =",
+      "choices": [
+        {
+          "id": "A",
+          "text": "(1/2) ln 2"
+        },
+        {
+          "id": "B",
+          "text": "ln 2"
+        },
+        {
+          "id": "C",
+          "text": "2 ln 2"
+        },
+        {
+          "id": "D",
+          "text": "π/4"
+        }
+      ],
+      "answer": "A",
+      "explanation": "u = x² + 1, du = 2x dx, bounds 1 to 2. (1/2)∫₁² du/u = (1/2) ln 2.",
+      "distractors": {
+        "B": "Forgot the ½ from du = 2x dx.",
+        "D": "Confused with ∫ 1/(x² + 1) dx = arctan x."
+      }
+    },
+    {
+      "id": "u6-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.3 Riemann Sums, Summation Notation, and Definite Integral Notation",
+      "stem": "lim(n→∞) Σₖ₌₁ⁿ (1/n)(1 + k/n)² =",
+      "choices": [
+        {
+          "id": "A",
+          "text": "7/3"
+        },
+        {
+          "id": "B",
+          "text": "1/3"
+        },
+        {
+          "id": "C",
+          "text": "8/3"
+        },
+        {
+          "id": "D",
+          "text": "3"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Δx = 1/n over an interval of length 1, and xₖ = 1 + k/n runs from 1 to 2. So it's ∫₁² x² dx = (8 − 1)/3 = 7/3.",
+      "distractors": {
+        "B": "Used bounds 0 to 1.",
+        "C": "Used bounds 0 to 2."
+      }
+    },
+    {
+      "id": "u6-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "6.4–6.5 Accumulation functions",
+      "frqType": "Free response (no calculator)",
+      "prompt": "The continuous function f is defined on [−2, 4] by f(x) = x + 2 for −2 ≤ x ≤ 0 and f(x) = 2 − x for 0 < x ≤ 4. (Its graph is two line segments meeting at (0, 2).) Let g(x) = ∫₀ˣ f(t) dt.",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Find g(4) and g(−2).",
+          "points": 2
+        },
+        {
+          "label": "b",
+          "prompt": "Find g′(3) and g″(3).",
+          "points": 2
+        },
+        {
+          "label": "c",
+          "prompt": "Find the absolute maximum value of g on [−2, 4]. Justify your answer.",
+          "points": 3
+        },
+        {
+          "label": "d",
+          "prompt": "Find the x-coordinate of each point of inflection of the graph of g on (−2, 4). Justify your answer.",
+          "points": 2
+        }
+      ],
+      "points": 9,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "(a) g(4)",
+          "points": 1,
+          "description": "g(4) = ∫₀⁴ (2 − t) dt = 2 − 2 = 0 (triangle above minus triangle below)."
+        },
+        {
+          "criterion": "(a) g(−2)",
+          "points": 1,
+          "description": "g(−2) = −∫₋₂⁰ f(t) dt = −2."
+        },
+        {
+          "criterion": "(b) g′(3)",
+          "points": 1,
+          "description": "g′(3) = f(3) = −1."
+        },
+        {
+          "criterion": "(b) g″(3)",
+          "points": 1,
+          "description": "g″(3) = f′(3) = −1."
+        },
+        {
+          "criterion": "(c) Critical points",
+          "points": 1,
+          "description": "g′(x) = f(x) = 0 at x = 2 (and at the endpoint x = −2)."
+        },
+        {
+          "criterion": "(c) Candidates",
+          "points": 1,
+          "description": "g(−2) = −2, g(2) = 2, g(4) = 0."
+        },
+        {
+          "criterion": "(c) Answer",
+          "points": 1,
+          "description": "Absolute maximum value is 2, at x = 2."
+        },
+        {
+          "criterion": "(d) Answer",
+          "points": 1,
+          "description": "x = 0."
+        },
+        {
+          "criterion": "(d) Justification",
+          "points": 1,
+          "description": "g″ = f′ changes from positive (+1) to negative (−1) at x = 0."
+        }
+      ],
+      "sampleResponse": "(a) g(4) = ∫₀⁴ (2 − t) dt. The region from 0 to 2 is a triangle above the axis with area 2; from 2 to 4 it's a triangle below with area 2. So g(4) = 2 − 2 = 0.\ng(−2) = ∫₀⁻² f(t) dt = −∫₋₂⁰ (t + 2) dt = −(½·2·2) = −2.\n\n(b) g′(x) = f(x), so g′(3) = 2 − 3 = −1. g″(x) = f′(x), and f′(3) = −1, so g″(3) = −1.\n\n(c) g′(x) = f(x) = 0 at x = −2 and x = 2. Candidates: g(−2) = −2, g(2) = ∫₀² (2 − t) dt = 2, g(4) = 0. The absolute maximum value is 2.\n\n(d) g″(x) = f′(x), which is 1 on (−2, 0) and −1 on (0, 4). g″ changes sign at x = 0, so the graph of g has a point of inflection there."
+    },
+    {
+      "id": "bc6-q01",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Integration by parts",
+      "stem": "∫ x eˣ dx =",
+      "choices": [
+        {
+          "id": "A",
+          "text": "(x − 1)eˣ + C"
+        },
+        {
+          "id": "B",
+          "text": "x eˣ + C"
+        },
+        {
+          "id": "C",
+          "text": "(x + 1)eˣ + C"
+        },
+        {
+          "id": "D",
+          "text": "½x² eˣ + C"
+        }
+      ],
+      "answer": "A",
+      "explanation": "u = x, dv = eˣ dx: x eˣ − ∫eˣ dx = (x − 1)eˣ + C.",
+      "distractors": {
+        "C": "Sign error in uv − ∫v du.",
+        "D": "Integrated each factor separately."
+      }
+    },
+    {
+      "id": "bc6-q02",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Integration by parts",
+      "stem": "∫₀¹ x eˣ dx =",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "e"
+        },
+        {
+          "id": "C",
+          "text": "e − 1"
+        },
+        {
+          "id": "D",
+          "text": "2e − 1"
+        }
+      ],
+      "answer": "A",
+      "explanation": "[(x − 1)eˣ]₀¹ = (0)e − (−1)(1) = 1.",
+      "distractors": {
+        "C": "Evaluated only ∫eˣ.",
+        "B": "Dropped the lower-limit term."
+      }
+    },
+    {
+      "id": "bc6-q03",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Integration by parts",
+      "stem": "∫ ln x dx =",
+      "choices": [
+        {
+          "id": "A",
+          "text": "x ln x − x + C"
+        },
+        {
+          "id": "B",
+          "text": "1/x + C"
+        },
+        {
+          "id": "C",
+          "text": "(ln x)²/2 + C"
+        },
+        {
+          "id": "D",
+          "text": "x ln x + C"
+        }
+      ],
+      "answer": "A",
+      "explanation": "u = ln x, dv = dx: x ln x − ∫x·(1/x) dx = x ln x − x + C.",
+      "distractors": {
+        "B": "Differentiated instead.",
+        "D": "Forgot the − ∫v du term."
+      }
+    },
+    {
+      "id": "bc6-q04",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Partial fractions",
+      "stem": "∫ dx/(x² − 1) =",
+      "choices": [
+        {
+          "id": "A",
+          "text": "½ ln|(x − 1)/(x + 1)| + C"
+        },
+        {
+          "id": "B",
+          "text": "ln|x² − 1| + C"
+        },
+        {
+          "id": "C",
+          "text": "arctan x + C"
+        },
+        {
+          "id": "D",
+          "text": "½ ln|(x + 1)/(x − 1)| + C"
+        }
+      ],
+      "answer": "A",
+      "explanation": "1/((x − 1)(x + 1)) = ½/(x − 1) − ½/(x + 1). Integrate: ½ ln|x − 1| − ½ ln|x + 1|.",
+      "distractors": {
+        "B": "Treated it as u′/u, which needs 2x on top.",
+        "C": "That's ∫dx/(x² + 1).",
+        "D": "Reversed the signs of the decomposition."
+      }
+    },
+    {
+      "id": "bc6-q05",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Improper integrals",
+      "stem": "Which improper integral converges?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "∫₁^∞ dx/x²"
+        },
+        {
+          "id": "B",
+          "text": "∫₁^∞ dx/x"
+        },
+        {
+          "id": "C",
+          "text": "∫₁^∞ dx/√x"
+        },
+        {
+          "id": "D",
+          "text": "∫₀¹ dx/x"
+        }
+      ],
+      "answer": "A",
+      "explanation": "∫₁^∞ x⁻ᵖ dx converges only for p > 1; here p = 2 and the value is 1. ∫₀¹ dx/x diverges at 0.",
+      "distractors": {
+        "B": "p = 1 diverges (ln b → ∞).",
+        "C": "p = ½ diverges.",
+        "D": "Diverges: ln x → −∞ as x → 0⁺."
+      }
+    }
+  ]
+}

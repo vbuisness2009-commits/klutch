@@ -1,0 +1,285 @@
+{
+  "number": 5,
+  "title": "Mental and Physical Health",
+  "guide": {
+    "summary": "This unit covers how stress affects health and how people cope, positive psychology, the classification and explanation of psychological disorders, and the range of psychological and biomedical treatments. Expect scenario questions asking you to identify a disorder or treatment and research-based questions about treatment effectiveness.",
+    "sections": [
+      {
+        "heading": "Health psychology and positive psychology",
+        "body": "**Stress** arises from appraising events as threatening or challenging. Selye's **general adaptation syndrome**: alarm, resistance, exhaustion. Chronic stress suppresses the immune system and is linked to heart disease, especially with hostility (Type A anger). **Tend-and-befriend** is an alternative to fight-or-flight.\n\nCoping: **problem-focused** (change the stressor) and **emotion-focused** (manage the reaction). Social support, exercise, and a sense of control buffer stress.\n\n**Positive psychology** studies well-being, strengths, gratitude, and resilience. Subjective well-being adapts to circumstances (**adaptation-level phenomenon**) and depends on comparisons (**relative deprivation**)."
+      },
+      {
+        "heading": "Explaining and classifying disorders",
+        "body": "A disorder involves clinically significant disturbance in thought, emotion, or behavior that is dysfunctional or maladaptive. Clinicians use the **DSM-5-TR**. The **biopsychosocial** approach combines biological, psychological, and social-cultural factors; the **diathesis-stress model** says a predisposition plus stress triggers a disorder.\n\nKey categories:\n\n- **Anxiety disorders:** generalized anxiety, panic disorder, specific phobias, social anxiety.\n- **Obsessive-compulsive disorder:** intrusive obsessions and repetitive compulsions.\n- **PTSD:** after trauma; flashbacks, avoidance, hypervigilance.\n- **Depressive disorders:** major depressive disorder; persistent depressive disorder.\n- **Bipolar disorders:** alternating depression and mania.\n- **Schizophrenia:** **positive symptoms** (hallucinations, delusions, disorganized speech) and **negative symptoms** (flat affect, withdrawal). Linked to excess dopamine activity and brain abnormalities, with strong genetic influence.\n- **Dissociative disorders:** disruptions in memory and identity (dissociative identity disorder).\n- **Personality disorders:** enduring maladaptive patterns, such as antisocial and borderline.\n- **Neurodevelopmental:** ADHD, autism spectrum disorder.\n- **Feeding and eating:** anorexia nervosa, bulimia nervosa, binge-eating disorder."
+      },
+      {
+        "heading": "Treatment",
+        "body": "| Approach | Goal and techniques |\n| --- | --- |\n| Psychodynamic | insight into unconscious conflict; free association, interpretation |\n| Humanistic | growth; client-centered therapy, active listening, unconditional positive regard |\n| Behavioral | change maladaptive behavior; **exposure therapy**, **systematic desensitization**, aversive conditioning, token economies |\n| Cognitive | change distorted thinking; Beck's cognitive therapy, Ellis's REBT |\n| Cognitive-behavioral (CBT) | combine both; strong evidence for anxiety and depression |\n| Group and family | relationships and social systems |\n\n**Systematic desensitization** pairs relaxation with gradually more anxiety-provoking stimuli (counterconditioning).\n\n**Biomedical:** antidepressants (SSRIs), anti-anxiety drugs (benzodiazepines), **antipsychotics** (reduce positive symptoms; risk of tardive dyskinesia), **lithium** for bipolar disorder, **ECT** for severe depression resistant to other treatments.\n\nEvaluating treatment requires controlled studies, including **meta-analyses**, because many people improve over time anyway (regression toward the mean, placebo effects). Effective therapy often depends on the **therapeutic alliance**."
+      }
+    ],
+    "keyTakeaways": [
+      "Chronic stress impairs immune function; coping can be problem- or emotion-focused.",
+      "The diathesis-stress model combines vulnerability with triggers.",
+      "Schizophrenia: positive vs. negative symptoms.",
+      "Bipolar disorder includes mania; depression alone isn't bipolar.",
+      "Systematic desensitization pairs relaxation with a fear hierarchy.",
+      "Evaluate treatments with controlled studies; spontaneous improvement and placebos complicate judgments."
+    ],
+    "commonMistakes": [
+      "Confusing schizophrenia with dissociative identity disorder.",
+      "Calling hallucinations negative symptoms.",
+      "Mixing up problem-focused and emotion-focused coping.",
+      "Confusing exposure therapy with aversive conditioning.",
+      "Assuming improvement after treatment proves the treatment worked.",
+      "Treating OCD as a personality quirk rather than a disorder involving distress or impairment."
+    ],
+    "examTips": [
+      "Identify disorders from symptom clusters, not single symptoms.",
+      "Match treatments to perspectives: thoughts → cognitive, behaviors → behavioral, insight → psychodynamic.",
+      "AAQs on treatment studies often ask about control groups, random assignment, and generalizability.",
+      "Know which medication classes treat which disorders.",
+      "Use the biopsychosocial model to give complex explanations."
+    ],
+    "cramSheet": "**Stress:** appraisal · GAS (alarm, resistance, exhaustion) · immune suppression · problem- vs. emotion-focused coping\n\n**Positive psych:** well-being · adaptation level · relative deprivation\n\n**Models:** DSM-5-TR · biopsychosocial · diathesis-stress\n\n**Disorders:** GAD · panic · phobia · OCD · PTSD · MDD · bipolar (mania) · schizophrenia (+/− symptoms, dopamine) · DID · antisocial/borderline · ADHD · ASD · anorexia/bulimia\n\n**Therapy:** psychodynamic · client-centered · exposure · systematic desensitization · token economy · cognitive (Beck, Ellis) · CBT\n\n**Drugs:** SSRIs · benzodiazepines · antipsychotics · lithium · ECT"
+  },
+  "vocab": [
+    { "term": "General adaptation syndrome", "definition": "Selye's three-phase stress response: alarm, resistance, exhaustion." },
+    { "term": "Problem-focused coping", "definition": "Reducing stress by directly changing the stressor or how we interact with it." },
+    { "term": "Emotion-focused coping", "definition": "Reducing stress by managing emotional reactions." },
+    { "term": "Diathesis-stress model", "definition": "A disorder develops from an underlying vulnerability combined with stressful experiences." },
+    { "term": "Biopsychosocial model", "definition": "An approach integrating biological, psychological, and social-cultural factors." },
+    { "term": "Obsessive-compulsive disorder", "definition": "Unwanted repetitive thoughts and/or actions that cause distress or impairment." },
+    { "term": "Post-traumatic stress disorder", "definition": "A disorder following trauma, with intrusive memories, avoidance, and hyperarousal." },
+    { "term": "Bipolar disorder", "definition": "A disorder alternating between depression and mania." },
+    { "term": "Positive symptoms", "definition": "In schizophrenia, the presence of inappropriate behaviors like hallucinations and delusions." },
+    { "term": "Negative symptoms", "definition": "In schizophrenia, the absence of appropriate behaviors, like flat affect or social withdrawal." },
+    { "term": "Systematic desensitization", "definition": "Pairing relaxation with gradually increasing anxiety-provoking stimuli." },
+    { "term": "Cognitive-behavioral therapy", "definition": "Therapy that changes both distorted thinking and maladaptive behavior." },
+    { "term": "Token economy", "definition": "An operant procedure where desired behaviors earn tokens exchangeable for rewards." },
+    { "term": "Antipsychotic drugs", "definition": "Medications that reduce positive symptoms of psychosis, often by blocking dopamine receptors." },
+    { "term": "Meta-analysis", "definition": "A statistical method combining results of many studies." }
+  ],
+  "practice": [
+    {
+      "id": "u5-q01", "tier": "Intro", "type": "mcq", "topic": "5.1 Introduction to Health Psychology",
+      "stimulus": "Overwhelmed by three upcoming exams, Nora makes a study schedule and asks her teacher for an extension on one paper.",
+      "stem": "Nora is using",
+      "choices": [
+        { "id": "A", "text": "problem-focused coping" },
+        { "id": "B", "text": "emotion-focused coping" },
+        { "id": "C", "text": "the tend-and-befriend response" },
+        { "id": "D", "text": "a defense mechanism" }
+      ],
+      "answer": "A",
+      "explanation": "She directly addresses the source of stress.",
+      "distractors": { "B": "Emotion-focused coping would involve managing her feelings, such as by venting or relaxing." }
+    },
+    {
+      "id": "u5-q02", "tier": "Intro", "type": "mcq", "topic": "5.4 Selection of Categories of Psychological Disorders",
+      "stimulus": "For three weeks, a patient has slept only three hours a night, talked rapidly about grand business plans, and spent his savings impulsively. Months earlier, he had a long period of deep sadness and hopelessness.",
+      "stem": "His symptoms are most consistent with",
+      "choices": [
+        { "id": "A", "text": "bipolar disorder" },
+        { "id": "B", "text": "major depressive disorder" },
+        { "id": "C", "text": "generalized anxiety disorder" },
+        { "id": "D", "text": "dissociative identity disorder" }
+      ],
+      "answer": "A",
+      "explanation": "Mania (reduced sleep, grandiosity, impulsivity) plus a depressive episode indicates bipolar disorder.",
+      "distractors": { "B": "MDD doesn't include manic episodes." }
+    },
+    {
+      "id": "u5-q03", "tier": "Intro", "type": "mcq", "topic": "5.5 Treatment of Psychological Disorders",
+      "stimulus": "A therapist teaches a client with a fear of dogs to relax deeply, then has her imagine increasingly frightening dog-related scenes while staying relaxed.",
+      "stem": "This technique is",
+      "choices": [
+        { "id": "A", "text": "systematic desensitization" },
+        { "id": "B", "text": "free association" },
+        { "id": "C", "text": "aversive conditioning" },
+        { "id": "D", "text": "a token economy" }
+      ],
+      "answer": "A",
+      "explanation": "It pairs relaxation with a graded fear hierarchy.",
+      "distractors": { "C": "Aversive conditioning pairs an unwanted behavior with an unpleasant stimulus." }
+    },
+    {
+      "id": "u5-q04", "tier": "Intro", "type": "mcq", "topic": "5.4 Categories of Psychological Disorders (schizophrenia)",
+      "stimulus": "A patient diagnosed with schizophrenia shows little facial expression, speaks very little, and has withdrawn from friends.",
+      "stem": "These are examples of",
+      "choices": [
+        { "id": "A", "text": "negative symptoms" },
+        { "id": "B", "text": "positive symptoms" },
+        { "id": "C", "text": "manic symptoms" },
+        { "id": "D", "text": "dissociative symptoms" }
+      ],
+      "answer": "A",
+      "explanation": "Negative symptoms are the absence of typical behaviors.",
+      "distractors": { "B": "Positive symptoms include hallucinations and delusions." }
+    },
+    {
+      "id": "u5-q05", "tier": "Exam level", "type": "mcq", "topic": "5.3 Explaining and Classifying Psychological Disorders",
+      "stimulus": "Two siblings inherit a genetic vulnerability to depression. Only the one who experiences a series of major losses in her twenties develops major depressive disorder.",
+      "stem": "This pattern is best explained by",
+      "choices": [
+        { "id": "A", "text": "the diathesis-stress model" },
+        { "id": "B", "text": "the general adaptation syndrome" },
+        { "id": "C", "text": "the adaptation-level phenomenon" },
+        { "id": "D", "text": "a purely biological model" }
+      ],
+      "answer": "A",
+      "explanation": "Vulnerability (diathesis) plus stressors triggered the disorder.",
+      "distractors": { "D": "Both share the vulnerability; only one developed the disorder." }
+    },
+    {
+      "id": "u5-q06", "tier": "Exam level", "type": "mcq", "topic": "5.4 Categories of Psychological Disorders",
+      "stimulus": "A man checks that his door is locked dozens of times before leaving home, feels intense anxiety if he doesn't, and is often late to work as a result.",
+      "stem": "His symptoms are most consistent with",
+      "choices": [
+        { "id": "A", "text": "obsessive-compulsive disorder" },
+        { "id": "B", "text": "specific phobia" },
+        { "id": "C", "text": "antisocial personality disorder" },
+        { "id": "D", "text": "PTSD" }
+      ],
+      "answer": "A",
+      "explanation": "Intrusive worries (obsessions) and repetitive checking (compulsions) cause distress and impairment.",
+      "distractors": { "B": "Phobias involve fear of a specific object or situation." }
+    },
+    {
+      "id": "u5-q07", "tier": "Exam level", "type": "mcq", "topic": "5.5 Treatment of Psychological Disorders",
+      "stimulus": "A therapist helps a client notice that she thinks, \"If I make one mistake, everyone will see I'm a failure,\" and then has her test the belief by deliberately making small mistakes at work and observing what happens.",
+      "stem": "This approach is best described as",
+      "choices": [
+        { "id": "A", "text": "cognitive-behavioral therapy" },
+        { "id": "B", "text": "psychodynamic therapy" },
+        { "id": "C", "text": "client-centered therapy" },
+        { "id": "D", "text": "biomedical therapy" }
+      ],
+      "answer": "A",
+      "explanation": "It targets distorted thoughts and uses behavioral experiments to change them.",
+      "distractors": { "C": "Client-centered therapy is nondirective." }
+    },
+    {
+      "id": "u5-q08", "tier": "Exam level", "type": "mcq", "topic": "5.5 Treatment (biomedical)",
+      "stem": "Which medication is most commonly used to stabilize mood in bipolar disorder?",
+      "choices": [
+        { "id": "A", "text": "Lithium" },
+        { "id": "B", "text": "A benzodiazepine" },
+        { "id": "C", "text": "A stimulant" },
+        { "id": "D", "text": "An SSRI alone" }
+      ],
+      "answer": "A",
+      "explanation": "Lithium reduces manic episodes and stabilizes mood.",
+      "distractors": { "D": "Antidepressants alone can trigger mania in some bipolar patients." }
+    },
+    {
+      "id": "u5-q09", "tier": "Exam level", "type": "mcq", "topic": "5.1 Introduction to Health Psychology",
+      "stimulus": "During weeks of final exams, students showed lower levels of immune cells and caught more colds than during a calm week.",
+      "stem": "This finding best supports the idea that",
+      "choices": [
+        { "id": "A", "text": "stress can suppress immune system functioning" },
+        { "id": "B", "text": "colds cause stress" },
+        { "id": "C", "text": "exams improve health" },
+        { "id": "D", "text": "immune function is unaffected by psychological factors" }
+      ],
+      "answer": "A",
+      "explanation": "Stress hormones can reduce immune activity, increasing vulnerability to illness.",
+      "distractors": { "B": "The timing points from stress to illness." }
+    },
+    {
+      "id": "u5-q10", "tier": "Exam level", "type": "mcq", "topic": "5.2 Positive Psychology",
+      "stimulus": "A year after receiving a big raise, Carmen reports being no happier than before.",
+      "stem": "This is best explained by",
+      "choices": [
+        { "id": "A", "text": "the adaptation-level phenomenon" },
+        { "id": "B", "text": "relative deprivation" },
+        { "id": "C", "text": "the general adaptation syndrome" },
+        { "id": "D", "text": "learned helplessness" }
+      ],
+      "answer": "A",
+      "explanation": "People adapt to new circumstances, so the raise becomes the new normal.",
+      "distractors": { "B": "Relative deprivation involves comparing with others who have more." }
+    },
+    {
+      "id": "u5-q11", "tier": "Hardest", "type": "mcq", "topic": "5.5 Treatment (research)",
+      "stimulus": "A clinic reports that 70 percent of patients felt better after six weeks of a new herbal treatment for mild depression. No other group was studied.",
+      "stem": "Which is the strongest criticism of concluding that the herb is effective?",
+      "choices": [
+        { "id": "A", "text": "Without a placebo control group, improvement could reflect placebo effects or natural recovery over time." },
+        { "id": "B", "text": "Seventy percent is too high to be believable." },
+        { "id": "C", "text": "Six weeks is too short for any treatment to work." },
+        { "id": "D", "text": "Herbal treatments can never be studied scientifically." }
+      ],
+      "answer": "A",
+      "explanation": "Many people with mild depression improve spontaneously, and expectations alone can produce improvement; a randomized placebo-controlled trial is needed.",
+      "distractors": { "D": "They can be tested with controlled experiments." }
+    },
+    {
+      "id": "u5-q12", "tier": "Hardest", "type": "mcq", "topic": "5.4 Categories (schizophrenia, biology)",
+      "stimulus": "Drugs that block dopamine receptors often reduce hallucinations and delusions, while drugs that increase dopamine activity, such as amphetamines in high doses, can produce psychotic symptoms.",
+      "stem": "These observations best support which explanation of schizophrenia's positive symptoms?",
+      "choices": [
+        { "id": "A", "text": "Overactivity in dopamine pathways contributes to positive symptoms." },
+        { "id": "B", "text": "Schizophrenia is caused entirely by a lack of serotonin." },
+        { "id": "C", "text": "Schizophrenia results only from childhood conflicts." },
+        { "id": "D", "text": "Dopamine has no role in schizophrenia." }
+      ],
+      "answer": "A",
+      "explanation": "Converging evidence from antagonists and agonists implicates excess dopamine activity, though genetics and brain structure also matter.",
+      "distractors": { "B": "The evidence concerns dopamine." }
+    },
+    {
+      "id": "u5-q13", "tier": "Hardest", "type": "mcq", "topic": "5.4 Categories (dissociative vs. psychotic)",
+      "stimulus": "A news article describes a person with \"split personalities\" as having schizophrenia.",
+      "stem": "Which correction is most accurate?",
+      "choices": [
+        { "id": "A", "text": "Distinct alternating identities describe dissociative identity disorder; schizophrenia involves a split from reality, such as hallucinations and delusions." },
+        { "id": "B", "text": "Schizophrenia and dissociative identity disorder are the same diagnosis." },
+        { "id": "C", "text": "Schizophrenia involves alternating mania and depression." },
+        { "id": "D", "text": "Dissociative identity disorder is a type of anxiety disorder." }
+      ],
+      "answer": "A",
+      "explanation": "\"Schizophrenia\" refers to disrupted thought and perception, not multiple personalities.",
+      "distractors": { "C": "Describes bipolar disorder." }
+    },
+    {
+      "id": "u5-q14", "tier": "Hardest", "type": "mcq", "topic": "5.5 Treatment (behavioral)",
+      "stimulus": "On a psychiatric unit, patients earn points for making their beds, attending group sessions, and taking medication on time. Points can be exchanged for privileges like extra phone time.",
+      "stem": "This program is based on which principle, and which limitation is most likely?",
+      "choices": [
+        { "id": "A", "text": "Operant conditioning; behaviors may decline after patients leave the setting where rewards are given." },
+        { "id": "B", "text": "Classical conditioning; patients will become afraid of points." },
+        { "id": "C", "text": "Psychodynamic insight; patients will uncover repressed memories." },
+        { "id": "D", "text": "Humanistic therapy; patients will become dependent on unconditional positive regard." }
+      ],
+      "answer": "A",
+      "explanation": "A token economy reinforces desired behavior, but gains may not generalize when reinforcement stops.",
+      "distractors": { "B": "No stimulus pairing is involved." }
+    },
+    {
+      "id": "u5-frq1", "tier": "Exam level", "type": "frq", "topic": "5.5 Treatment (research)", "frqType": "Article Analysis Question (AAQ)",
+      "stimulus": "Summary of a study written for this practice set:\n\nResearchers recruited 120 adults diagnosed with social anxiety disorder through clinics in three cities. After giving informed consent, participants were randomly assigned to 12 weeks of cognitive-behavioral therapy (CBT) or to a waitlist control group that received CBT after the study ended. Social anxiety was measured before and after the 12 weeks using a standardized questionnaire scored 0–60, with higher scores indicating more anxiety. Clinicians who scored the questionnaires didn't know participants' group assignments.\n\n| Group | Mean before | Mean after |\n| --- | --- | --- |\n| CBT | 41.5 | 24.8 |\n| Waitlist | 40.9 | 37.2 |\n\nThe difference in improvement between groups was statistically significant (p < .01), with a large effect size.",
+      "prompt": "Using the research summary, respond to all parts.",
+      "parts": [
+        { "label": "a", "prompt": "Identify the independent variable in the study.", "points": 1 },
+        { "label": "b", "prompt": "State the operational definition of social anxiety.", "points": 1 },
+        { "label": "c", "prompt": "Describe the purpose of the waitlist control group.", "points": 1 },
+        { "label": "d", "prompt": "Explain why it's important that scorers didn't know participants' group assignments.", "points": 1 },
+        { "label": "e", "prompt": "Identify one ethical guideline the researchers followed.", "points": 1 },
+        { "label": "f", "prompt": "Explain the extent to which the findings can be generalized.", "points": 1 },
+        { "label": "g", "prompt": "Explain how the findings support or refute the claim that CBT is an effective treatment for social anxiety.", "points": 1 }
+      ],
+      "points": 7,
+      "minutes": 25,
+      "rubric": [
+        { "criterion": "(a)", "points": 1, "description": "Type of treatment: CBT vs. waitlist (no treatment during the study)." },
+        { "criterion": "(b)", "points": 1, "description": "Scores on a standardized 0–60 social anxiety questionnaire, higher meaning more anxiety." },
+        { "criterion": "(c)", "points": 1, "description": "Shows how much anxiety changes without treatment (e.g., natural improvement, retesting effects), providing a comparison for CBT's effect." },
+        { "criterion": "(d)", "points": 1, "description": "Prevents experimenter bias in scoring, since scorers' expectations about CBT couldn't influence results." },
+        { "criterion": "(e)", "points": 1, "description": "Informed consent; or providing the control group with treatment afterward (minimizing harm/fair access)." },
+        { "criterion": "(f)", "points": 1, "description": "Likely generalizes to adults with diagnosed social anxiety seeking clinic treatment in similar settings; less clear for adolescents, milder cases, or other countries." },
+        { "criterion": "(g)", "points": 1, "description": "Supports: the CBT group dropped about 17 points vs. about 4 for the waitlist, a significant, large difference with random assignment." }
+      ],
+      "sampleResponse": "(a) The independent variable is the treatment condition: 12 weeks of CBT versus being on a waitlist.\n\n(b) Social anxiety was operationally defined as the score on a standardized 0–60 questionnaire, with higher scores meaning more anxiety.\n\n(c) The waitlist group shows how much anxiety scores would change anyway over 12 weeks, from natural recovery, expectation, or retaking the questionnaire. Comparing it to the CBT group isolates CBT's effect.\n\n(d) Because scorers didn't know which participants received CBT, their expectations couldn't bias how they scored questionnaires, reducing experimenter bias.\n\n(e) The researchers obtained informed consent and gave the waitlist group CBT after the study, so no one was permanently denied treatment.\n\n(f) The findings likely generalize to adults diagnosed with social anxiety who seek treatment at clinics like these, since the sample came from three cities and was randomly assigned. They may generalize less to teenagers, people with milder symptoms, or other cultural settings.\n\n(g) The findings support the claim. The CBT group's mean dropped from 41.5 to 24.8, about 17 points, compared with about 4 points for the waitlist group. Because participants were randomly assigned and the difference was significant with a large effect size, CBT likely caused the greater improvement."
+    }
+  ]
+}

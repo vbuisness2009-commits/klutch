@@ -1,0 +1,725 @@
+{
+  "number": 8,
+  "title": "Applications of Integration",
+  "guide": {
+    "summary": "This unit turns definite integrals into answers about the world: the average value of a function, position and distance from velocity, amounts in a tank from rates in and out, areas between curves, and volumes of solids by cross sections, disks, and washers.",
+    "sections": [
+      {
+        "heading": "Average value of a function",
+        "body": "The average value of f on [a, b] is\n\nf_avg = (1/(b − a)) ∫ₐᵇ f(x) dx\n\nFor f(x) = x² on [0, 3]: (1/3)·9 = 3.\n\nDon't confuse this with the **average rate of change**, (f(b) − f(a))/(b − a). Average value averages the function's outputs; average rate of change is a slope. If the question says \"average temperature,\" integrate the temperature; if it says \"average rate at which the temperature changes,\" use the slope formula."
+      },
+      {
+        "heading": "Motion and accumulation from rates",
+        "body": "Given velocity v(t) and starting position x(0):\n\n- **Position:** x(t) = x(0) + ∫₀ᵗ v(s) ds\n- **Displacement** on [a, b]: ∫ₐᵇ v(t) dt\n- **Total distance** on [a, b]: ∫ₐᵇ |v(t)| dt\n\nFor v(t) = t − 2 on [0, 4], the displacement is 0 but the total distance is 4.\n\nRates in and out work the same way. If water enters at R(t) and leaves at D(t), and the tank starts with A₀:\n\nA(t) = A₀ + ∫₀ᵗ [R(s) − D(s)] ds\n\nThe amount is increasing when R > D. Its maximum on an interval occurs where R − D changes from positive to negative, or at an endpoint."
+      },
+      {
+        "heading": "Area between curves",
+        "body": "Integrate (top − bottom) with respect to x, or (right − left) with respect to y:\n\nA = ∫ₐᵇ [f(x) − g(x)] dx\n\nFind intersections to get the bounds. If the curves cross inside the interval, split the integral so each piece is top minus bottom.\n\nSome regions are much easier in y. The region between x = y² and x = y + 2 meets at y = −1 and y = 2:\n\nA = ∫₋₁² [(y + 2) − y²] dy = 9/2\n\nIn x, the same region would need two integrals."
+      },
+      {
+        "heading": "Volumes with known cross sections",
+        "body": "If each cross section perpendicular to the x-axis has area A(x), the volume is ∫ₐᵇ A(x) dx.\n\nLet s be the length of the region's slice (top − bottom):\n\n| Cross section | Area |\n| --- | --- |\n| square with side s | s² |\n| semicircle with diameter s | (π/8)s² |\n| equilateral triangle with side s | (√3/4)s² |\n| isosceles right triangle with leg s | s²/2 |\n| rectangle with height h·s | h·s² |\n\nThe most common mistake is using s as the radius of a semicircle; s is the **diameter**, so r = s/2 and the area is ½π(s/2)²."
+      },
+      {
+        "heading": "Disks and washers",
+        "body": "Revolving a region around a horizontal line gives circular cross sections.\n\n**Disk** (region touches the axis): V = π∫ₐᵇ [R(x)]² dx\n\n**Washer** (gap between region and axis): V = π∫ₐᵇ ([R(x)]² − [r(x)]²) dx\n\nR is the outer radius and r the inner, measured from the **axis of rotation**. Square each radius separately; π∫(R − r)² is wrong.\n\nFor an axis other than the x-axis, subtract: revolving about y = −1, a curve y = f(x) above the axis has radius f(x) − (−1) = f(x) + 1. Revolving about y = 4 with the curve below it, the radius is 4 − f(x).\n\nThe same ideas work for vertical axes with everything written in y."
+      },
+      {
+        "heading": "BC only: arc length",
+        "body": "The length of a smooth curve y = f(x) from a to b is\n\nL = ∫ₐᵇ √(1 + [f′(x)]²) dx\n\nFor y = (2/3)x^(3/2) on [0, 3]: f′ = √x, so L = ∫₀³ √(1 + x) dx = (2/3)(4^(3/2) − 1) = 14/3. Many arc-length integrals can't be done by hand; on calculator questions, set up and evaluate numerically. For parametric curves (Unit 9): L = ∫√((dx/dt)² + (dy/dt)²) dt."
+      }
+    ],
+    "keyTakeaways": [
+      "Average value: (1/(b − a))∫ₐᵇ f. Not the same as average rate of change.",
+      "Position = start + ∫ velocity. Total distance uses |v|.",
+      "Amount = initial + ∫(rate in − rate out).",
+      "Area = ∫(top − bottom) dx or ∫(right − left) dy.",
+      "Cross sections: ∫ A(x) dx with s = top − bottom.",
+      "Washers: π∫(R² − r²); radii measured from the axis of rotation."
+    ],
+    "commonMistakes": [
+      "Using (R − r)² instead of R² − r² for washers.",
+      "Measuring the radius from the x-axis when rotating about a different line.",
+      "Treating a semicircle's diameter as its radius.",
+      "Forgetting the initial position or initial amount.",
+      "Computing displacement when the question asks for total distance.",
+      "Forgetting to split an area integral where the curves cross."
+    ],
+    "examTips": [
+      "Area/volume FRQs often ask you to \"write, but do not evaluate\" an integral; give the full integral with bounds and π.",
+      "On calculator questions, store intersection points to full precision before using them as bounds.",
+      "For rates in/out, the question \"is the amount increasing at t = 3?\" is answered by the sign of R(3) − D(3).",
+      "Always say what an integral represents in context with units when asked to interpret it.",
+      "Draw a quick sketch for every volume problem, marking the axis and a typical radius.",
+      "BC exams frequently combine these BC-only techniques with AB ideas in the same FRQ."
+    ],
+    "cramSheet": "**Average value:** (1/(b−a))∫ₐᵇ f\n\n**Position:** x(t) = x(0) + ∫₀ᵗ v · **Distance:** ∫|v|\n\n**Tank:** A(t) = A₀ + ∫₀ᵗ (in − out)\n\n**Area:** ∫(top − bottom) dx · ∫(right − left) dy\n\n**Cross sections:** square s² · semicircle (π/8)s² · equilateral (√3/4)s² · iso right s²/2\n\n**Disk:** π∫R² · **Washer:** π∫(R² − r²) · radius about y = k: |f(x) − k|"
+  },
+  "vocab": [
+    {
+      "term": "Average value of a function",
+      "definition": "(1/(b − a))∫ₐᵇ f(x) dx, the height of the rectangle with the same area as the region under f on [a, b]."
+    },
+    {
+      "term": "Displacement",
+      "definition": "∫ₐᵇ v(t) dt, the net change in position."
+    },
+    {
+      "term": "Total distance traveled",
+      "definition": "∫ₐᵇ |v(t)| dt, counting motion in both directions as positive."
+    },
+    {
+      "term": "Net change",
+      "definition": "The integral of a rate, giving the total change in the quantity over the interval."
+    },
+    {
+      "term": "Area between curves",
+      "definition": "∫(upper − lower) dx or ∫(right − left) dy over the interval between intersections."
+    },
+    {
+      "term": "Cross section",
+      "definition": "The two-dimensional shape formed by slicing a solid perpendicular to an axis."
+    },
+    {
+      "term": "Volume by cross sections",
+      "definition": "V = ∫ₐᵇ A(x) dx, where A(x) is the area of the cross section at x."
+    },
+    {
+      "term": "Solid of revolution",
+      "definition": "A solid formed by revolving a planar region about a line."
+    },
+    {
+      "term": "Disk method",
+      "definition": "V = π∫[R(x)]² dx for a region that touches the axis of rotation."
+    },
+    {
+      "term": "Washer method",
+      "definition": "V = π∫([R(x)]² − [r(x)]²) dx for a region with a gap between it and the axis."
+    },
+    {
+      "term": "Outer radius",
+      "definition": "In the washer method, the distance from the axis of rotation to the farther boundary curve."
+    },
+    {
+      "term": "Inner radius",
+      "definition": "In the washer method, the distance from the axis of rotation to the nearer boundary curve."
+    },
+    {
+      "term": "Axis of rotation",
+      "definition": "The line a region is revolved around; all radii are measured from it."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u8-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "8.1 Finding the Average Value of a Function on an Interval",
+      "stem": "What is the average value of f(x) = x² on [0, 3]?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "9"
+        },
+        {
+          "id": "C",
+          "text": "4.5"
+        },
+        {
+          "id": "D",
+          "text": "9/4"
+        }
+      ],
+      "answer": "A",
+      "explanation": "(1/3)∫₀³ x² dx = (1/3)(9) = 3.",
+      "distractors": {
+        "B": "Forgot to divide by the interval length.",
+        "C": "Averaged f(0) and f(3).",
+        "D": "Evaluated f at the midpoint x = 1.5 instead of integrating."
+      }
+    },
+    {
+      "id": "u8-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "8.4 Finding the Area Between Curves Expressed as Functions of x",
+      "stem": "What is the area of the region between y = x and y = x² from x = 0 to x = 1?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1/6"
+        },
+        {
+          "id": "B",
+          "text": "1/2"
+        },
+        {
+          "id": "C",
+          "text": "1/3"
+        },
+        {
+          "id": "D",
+          "text": "5/6"
+        }
+      ],
+      "answer": "A",
+      "explanation": "On [0, 1], x ≥ x². ∫₀¹ (x − x²) dx = 1/2 − 1/3 = 1/6.",
+      "distractors": {
+        "B": "Area under y = x only.",
+        "C": "Area under y = x² only.",
+        "D": "Added the two areas."
+      }
+    },
+    {
+      "id": "u8-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "8.2 Connecting Position, Velocity, and Acceleration Using Integrals",
+      "stem": "A particle has velocity v(t) = 2t and position x(0) = 3. What is x(2)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "7"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "8"
+        }
+      ],
+      "answer": "A",
+      "explanation": "x(2) = 3 + ∫₀² 2t dt = 3 + 4 = 7.",
+      "distractors": {
+        "B": "Forgot the initial position.",
+        "D": "Added v(2) = 4 twice."
+      }
+    },
+    {
+      "id": "u8-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "8.9 Volume with Disc Method: Revolving Around the x- or y-Axis",
+      "stem": "The region under y = √x from x = 0 to x = 4 is revolved about the x-axis. What is the volume?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "8π"
+        },
+        {
+          "id": "B",
+          "text": "16π"
+        },
+        {
+          "id": "C",
+          "text": "4π"
+        },
+        {
+          "id": "D",
+          "text": "16π/3"
+        }
+      ],
+      "answer": "A",
+      "explanation": "π∫₀⁴ (√x)² dx = π∫₀⁴ x dx = 8π.",
+      "distractors": {
+        "B": "Forgot the ½ from integrating x.",
+        "D": "Multiplied the area under the curve, 16/3, by π."
+      }
+    },
+    {
+      "id": "u8-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "8.2 Connecting Position, Velocity, and Acceleration Using Integrals",
+      "stem": "A particle moves with velocity v(t) = t − 2 for 0 ≤ t ≤ 4. What is the total distance traveled?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "8"
+        }
+      ],
+      "answer": "A",
+      "explanation": "∫₀⁴ |t − 2| dt: two triangles of area 2 each, total 4.",
+      "distractors": {
+        "B": "That's the displacement.",
+        "C": "Counted only one triangle."
+      }
+    },
+    {
+      "id": "u8-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "8.4 Area Between Curves",
+      "stem": "What is the area of the region bounded by y = 4 − x² and the x-axis?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "32/3"
+        },
+        {
+          "id": "B",
+          "text": "16/3"
+        },
+        {
+          "id": "C",
+          "text": "8"
+        },
+        {
+          "id": "D",
+          "text": "64/3"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Intersections at x = ±2. ∫₋₂² (4 − x²) dx = 16 − 16/3 = 32/3.",
+      "distractors": {
+        "B": "Integrated only from 0 to 2.",
+        "C": "Computed the triangle with the same vertices."
+      }
+    },
+    {
+      "id": "u8-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "8.11 Volume with Washer Method",
+      "stem": "The region between y = x and y = x² for 0 ≤ x ≤ 1 is revolved about the x-axis. What is the volume?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2π/15"
+        },
+        {
+          "id": "B",
+          "text": "π/30"
+        },
+        {
+          "id": "C",
+          "text": "π/6"
+        },
+        {
+          "id": "D",
+          "text": "8π/15"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Outer radius x, inner radius x². π∫₀¹ (x² − x⁴) dx = π(1/3 − 1/5) = 2π/15.",
+      "distractors": {
+        "B": "Used π∫(x − x²)², subtracting before squaring.",
+        "C": "Multiplied the area of the region by π."
+      }
+    },
+    {
+      "id": "u8-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "8.7 Volumes with Cross Sections: Squares and Rectangles",
+      "stem": "The base of a solid is the region under y = √x from x = 0 to x = 4. Cross sections perpendicular to the x-axis are squares. What is the volume?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "8"
+        },
+        {
+          "id": "B",
+          "text": "8π"
+        },
+        {
+          "id": "C",
+          "text": "16/3"
+        },
+        {
+          "id": "D",
+          "text": "16"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Side s = √x, area s² = x. ∫₀⁴ x dx = 8.",
+      "distractors": {
+        "B": "Added π as if the cross sections were circles.",
+        "C": "Integrated s instead of s²."
+      }
+    },
+    {
+      "id": "u8-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "8.5 Finding the Area Between Curves Expressed as Functions of y",
+      "stem": "What is the area of the region bounded by x = y² and x = y + 2?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "9/2"
+        },
+        {
+          "id": "B",
+          "text": "7/6"
+        },
+        {
+          "id": "C",
+          "text": "10/3"
+        },
+        {
+          "id": "D",
+          "text": "27/2"
+        }
+      ],
+      "answer": "A",
+      "explanation": "y² = y + 2 at y = −1 and y = 2. ∫₋₁² (y + 2 − y²) dy = [y²/2 + 2y − y³/3] from −1 to 2 = 10/3 − (−7/6) = 9/2.",
+      "distractors": {
+        "B": "Integrated only from −1 to 0.",
+        "C": "Integrated only from 0 to 2."
+      }
+    },
+    {
+      "id": "u8-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "8.3 Using Accumulation Functions and Definite Integrals in Applied Contexts",
+      "stem": "A tank holds 100 liters at t = 0. Water flows in at 10 liters per minute and drains at D(t) = 2t liters per minute. How much water is in the tank at t = 5 minutes?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "125 liters"
+        },
+        {
+          "id": "B",
+          "text": "75 liters"
+        },
+        {
+          "id": "C",
+          "text": "150 liters"
+        },
+        {
+          "id": "D",
+          "text": "25 liters"
+        }
+      ],
+      "answer": "A",
+      "explanation": "100 + ∫₀⁵ (10 − 2t) dt = 100 + (50 − 25) = 125.",
+      "distractors": {
+        "C": "Ignored the drain.",
+        "D": "Reported only the net change."
+      }
+    },
+    {
+      "id": "u8-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "8.10 Volume with Disc Method: Revolving Around Other Axes",
+      "stem": "The region bounded by y = x² and y = 4 is revolved about the line y = 4. What is the volume?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "512π/15"
+        },
+        {
+          "id": "B",
+          "text": "256π/15"
+        },
+        {
+          "id": "C",
+          "text": "32π/3"
+        },
+        {
+          "id": "D",
+          "text": "256π/5"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Radius 4 − x² for −2 ≤ x ≤ 2. π∫₋₂² (4 − x²)² dx = π[64 − 128/3 + 64/5] = 512π/15.",
+      "distractors": {
+        "B": "Integrated only from 0 to 2.",
+        "C": "Multiplied the area, 32/3, by π.",
+        "D": "Revolved about the x-axis instead: π∫(4² − (x²)²) dx."
+      }
+    },
+    {
+      "id": "u8-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "8.2 Position from Velocity",
+      "stem": "A particle has velocity v(t) = sin(πt) and position x(0) = 1. What is x(1)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1 + 2/π"
+        },
+        {
+          "id": "B",
+          "text": "2/π"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "1 − 2/π"
+        }
+      ],
+      "answer": "A",
+      "explanation": "∫₀¹ sin(πt) dt = [−cos(πt)/π]₀¹ = (1/π) + (1/π) = 2/π. x(1) = 1 + 2/π.",
+      "distractors": {
+        "B": "Forgot x(0).",
+        "C": "Thought sin integrates to zero over this interval.",
+        "D": "Sign error in the antiderivative."
+      }
+    },
+    {
+      "id": "u8-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "8.8 Volumes with Cross Sections: Triangles and Semicircles",
+      "stem": "The base of a solid is the region under y = √x from x = 0 to x = 4. Cross sections perpendicular to the x-axis are semicircles with diameters in the base. What is the volume?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "π"
+        },
+        {
+          "id": "B",
+          "text": "2π"
+        },
+        {
+          "id": "C",
+          "text": "4π"
+        },
+        {
+          "id": "D",
+          "text": "8π"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Diameter √x, radius √x/2, area ½π(√x/2)² = πx/8. ∫₀⁴ πx/8 dx = π.",
+      "distractors": {
+        "C": "Used the diameter √x as the radius: ½π·x.",
+        "D": "Used full circles of radius √x."
+      }
+    },
+    {
+      "id": "u8-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "8.6 Finding the Area Between Curves That Intersect at More Than Two Points",
+      "stem": "What is the total area enclosed between y = sin x and y = cos x on [0, π/2]?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2√2 − 2"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "√2 − 1"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
+      ],
+      "answer": "A",
+      "explanation": "They cross at π/4. By symmetry, 2∫₀^(π/4) (cos x − sin x) dx = 2[(√2/2 + √2/2) − 1] = 2√2 − 2.",
+      "distractors": {
+        "B": "Integrated cos x − sin x across the whole interval without splitting.",
+        "C": "Computed only one of the two regions."
+      }
+    },
+    {
+      "id": "u8-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "8.4–8.12 Area and volume",
+      "frqType": "Free response (no calculator)",
+      "prompt": "Let R be the region in the first quadrant bounded by y = 2x and y = x².",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Find the area of R.",
+          "points": 2
+        },
+        {
+          "label": "b",
+          "prompt": "Find the volume of the solid generated when R is revolved about the x-axis.",
+          "points": 3
+        },
+        {
+          "label": "c",
+          "prompt": "R is the base of a solid whose cross sections perpendicular to the x-axis are squares. Find the volume of the solid.",
+          "points": 2
+        },
+        {
+          "label": "d",
+          "prompt": "Write, but do not evaluate, an integral expression for the volume of the solid generated when R is revolved about the line y = −1.",
+          "points": 2
+        }
+      ],
+      "points": 9,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "(a) Integral",
+          "points": 1,
+          "description": "∫₀² (2x − x²) dx, with intersections x = 0 and x = 2."
+        },
+        {
+          "criterion": "(a) Answer",
+          "points": 1,
+          "description": "4/3."
+        },
+        {
+          "criterion": "(b) Limits and constant",
+          "points": 1,
+          "description": "π∫₀² … dx."
+        },
+        {
+          "criterion": "(b) Integrand",
+          "points": 1,
+          "description": "(2x)² − (x²)²."
+        },
+        {
+          "criterion": "(b) Answer",
+          "points": 1,
+          "description": "π(32/3 − 32/5) = 64π/15."
+        },
+        {
+          "criterion": "(c) Integral",
+          "points": 1,
+          "description": "∫₀² (2x − x²)² dx."
+        },
+        {
+          "criterion": "(c) Answer",
+          "points": 1,
+          "description": "16/15."
+        },
+        {
+          "criterion": "(d) Radii",
+          "points": 1,
+          "description": "Outer radius 2x + 1 and inner radius x² + 1."
+        },
+        {
+          "criterion": "(d) Integral",
+          "points": 1,
+          "description": "π∫₀² [(2x + 1)² − (x² + 1)²] dx."
+        }
+      ],
+      "sampleResponse": "(a) The curves meet where 2x = x², at x = 0 and x = 2. On [0, 2], 2x ≥ x². Area = ∫₀² (2x − x²) dx = [x² − x³/3]₀² = 4 − 8/3 = 4/3.\n\n(b) Washers with outer radius 2x and inner radius x²: V = π∫₀² (4x² − x⁴) dx = π[4x³/3 − x⁵/5]₀² = π(32/3 − 32/5) = 64π/15.\n\n(c) Side s = 2x − x². V = ∫₀² (2x − x²)² dx = ∫₀² (4x² − 4x³ + x⁴) dx = 32/3 − 16 + 32/5 = 16/15.\n\n(d) Measured from y = −1, the outer radius is 2x + 1 and the inner radius is x² + 1. V = π∫₀² [(2x + 1)² − (x² + 1)²] dx."
+    },
+    {
+      "id": "bc8-q01",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Arc length",
+      "stem": "What is the length of the curve y = (2/3)x^(3/2) from x = 0 to x = 3?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "14/3"
+        },
+        {
+          "id": "B",
+          "text": "16/3"
+        },
+        {
+          "id": "C",
+          "text": "2√3"
+        },
+        {
+          "id": "D",
+          "text": "7/3"
+        }
+      ],
+      "answer": "A",
+      "explanation": "y′ = x^(1/2), so 1 + (y′)² = 1 + x. ∫₀³ √(1 + x) dx = (2/3)[(1 + x)^(3/2)]₀³ = (2/3)(8 − 1) = 14/3.",
+      "distractors": {
+        "B": "Forgot to subtract the value at 0.",
+        "D": "Dropped the 2/3 factor's 2."
+      }
+    },
+    {
+      "id": "bc8-q02",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Arc length",
+      "stem": "Which integral gives the length of y = sin x from x = 0 to x = π?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "∫₀^π √(1 + cos²x) dx"
+        },
+        {
+          "id": "B",
+          "text": "∫₀^π √(1 + sin²x) dx"
+        },
+        {
+          "id": "C",
+          "text": "∫₀^π (1 + cos x) dx"
+        },
+        {
+          "id": "D",
+          "text": "∫₀^π √(1 − cos²x) dx"
+        }
+      ],
+      "answer": "A",
+      "explanation": "f′(x) = cos x, so L = ∫√(1 + cos²x) dx.",
+      "distractors": {
+        "B": "Used f instead of f′.",
+        "C": "Forgot the square and the root."
+      }
+    },
+    {
+      "id": "bc8-q03",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Arc length",
+      "stem": "What is the length of y = ln(cos x) from x = 0 to x = π/4?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ln(√2 + 1)"
+        },
+        {
+          "id": "B",
+          "text": "√2"
+        },
+        {
+          "id": "C",
+          "text": "ln √2"
+        },
+        {
+          "id": "D",
+          "text": "π/4"
+        }
+      ],
+      "answer": "A",
+      "explanation": "y′ = −tan x, so √(1 + tan²x) = sec x. ∫₀^(π/4) sec x dx = ln|sec x + tan x| from 0 to π/4 = ln(√2 + 1) − ln 1.",
+      "distractors": {
+        "C": "That's |y(π/4) − y(0)|, the vertical change, not length.",
+        "D": "Treated the curve as having length equal to the horizontal span."
+      }
+    }
+  ]
+}

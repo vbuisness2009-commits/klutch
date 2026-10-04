@@ -1,0 +1,65 @@
+{
+  "slug": "psychology",
+  "name": "AP Psychology",
+  "lastVerified": "2026-10",
+  "overview": "AP Psychology introduces the scientific study of behavior and mental processes. The course was redesigned for 2024–25 around five units and four science practices, with a stronger emphasis on research methods, data interpretation, and applying concepts to scenarios. Free-response questions now ask students to analyze a research article and to build an argument from evidence.",
+  "examMode": "Fully digital in Bluebook",
+  "totalMinutes": 160,
+  "sections": [
+    { "name": "Section I", "questionType": "Multiple choice (4 options)", "count": 75, "minutes": 90, "weight": "66.7%", "notes": "Many questions are set in scenarios or include data, graphs, or research summaries." },
+    { "name": "Section II, Question 1", "questionType": "Article Analysis Question (AAQ)", "count": 1, "minutes": 25, "weight": "16.7%", "notes": "Analyze one research article summary: methods, variables, statistics, ethics, and generalizability." },
+    { "name": "Section II, Question 2", "questionType": "Evidence-Based Question (EBQ)", "count": 1, "minutes": 45, "weight": "16.7%", "notes": "Make a claim and support it with evidence from three provided sources and psychological concepts." }
+  ],
+  "units": [
+    { "number": 1, "title": "Biological Bases of Behavior", "weight": "15–25%" },
+    { "number": 2, "title": "Cognition", "weight": "15–25%" },
+    { "number": 3, "title": "Development and Learning", "weight": "15–25%" },
+    { "number": 4, "title": "Social Psychology and Personality", "weight": "15–25%" },
+    { "number": 5, "title": "Mental and Physical Health", "weight": "15–25%" }
+  ],
+  "skills": [
+    { "name": "Concept Application", "description": "Apply psychological perspectives, theories, concepts, and research findings to a scenario." },
+    { "name": "Research Methods and Design", "description": "Identify and evaluate research methods, variables, sampling, and ethics." },
+    { "name": "Data Interpretation", "description": "Interpret quantitative data, including descriptive and inferential statistics, in tables and graphs." },
+    { "name": "Argumentation", "description": "Develop and justify a claim using evidence and psychological reasoning." }
+  ],
+  "scoring": {
+    "summary": "Section I (75 MCQ) counts for two-thirds of the score and Section II (two 7-point FRQs) for one-third. The weighted composite is converted to a 1–5 score using cut points that change each year and are not published.",
+    "approxCutoffs": [
+      { "score": 5, "minPercent": 75 },
+      { "score": 4, "minPercent": 62 },
+      { "score": 3, "minPercent": 50 },
+      { "score": 2, "minPercent": 38 }
+    ]
+  },
+  "frqTypes": [
+    { "name": "Article Analysis Question (AAQ)", "points": 7, "howScored": "One point each for tasks such as identifying the research method, operational definition of a variable, a statistic and its meaning, an ethical guideline followed, whether findings generalize, and how the findings support or refute a claim." },
+    { "name": "Evidence-Based Question (EBQ)", "points": 7, "howScored": "A defensible claim (1 point), then for two pieces of evidence from different sources: citing the evidence (1 point each) and explaining how it supports the claim using a psychological concept (2 points each)." }
+  ],
+  "strategy": [
+    "Read every scenario for the concept being tested before reading answer choices; distractors are often real terms that don't fit the scenario.",
+    "Master research methods: experimental vs. correlational designs, operational definitions, random assignment vs. random sampling, and what each statistic tells you.",
+    "On the AAQ, answer exactly what each part asks in one or two precise sentences, using the article's details.",
+    "On the EBQ, cite sources by letter and explicitly link each piece of evidence to a named psychological concept.",
+    "Practice reading graphs and tables quickly: means, standard deviations, correlation coefficients, and effect sizes.",
+    "When two answers seem right, pick the one that matches the specific term in the stem (e.g., \"best explains\" vs. \"best describes\").",
+    "Budget about 70 seconds per multiple-choice question."
+  ],
+  "pitfalls": [
+    "Confusing random sampling (generalizability) with random assignment (causal inference).",
+    "Inferring causation from correlational studies.",
+    "Mixing up negative reinforcement and punishment.",
+    "Confusing similar terms: sensation vs. perception, assimilation vs. accommodation, proactive vs. retroactive interference.",
+    "Defining a term on FRQs without applying it to the scenario.",
+    "Writing vague claims on the EBQ that can't be supported with the sources."
+  ],
+  "sources": [
+    { "title": "AP Psychology Course and Exam Description (effective Fall 2024)", "url": "https://apcentral.collegeboard.org/courses/ap-psychology" },
+    { "title": "AP Psychology Exam (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-psychology/exam" }
+  ],
+  "caveats": [
+    "Klutch wrote this profile from knowledge of the 2024 redesign without re-opening College Board pages in this session; recheck timing and point values against AP Central before relying on them.",
+    "Approximate cutoffs are Klutch estimates. The redesigned exam has few years of data, and College Board does not publish cut scores.",
+    "No score distribution is listed because Klutch hasn't verified the latest published figures."
+  ]
+}

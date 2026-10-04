@@ -1,0 +1,576 @@
+{
+  "number": 4,
+  "title": "Chemical Reactions",
+  "guide": {
+    "summary": "Unit 4 covers how to represent and quantify reactions: distinguishing physical and chemical changes, writing balanced net ionic equations, using particulate diagrams, doing stoichiometry with limiting reactants and percent yield, analyzing titrations, and classifying reactions as precipitation, acid–base, or redox.",
+    "sections": [
+      {
+        "heading": "Representing reactions",
+        "body": "A chemical change forms new substances (bonds broken and formed); a physical change alters state or form but not identity. Net ionic equations show only species that change: write strong electrolytes (soluble salts, strong acids, strong bases) as ions, cancel spectators, and keep solids, gases, water, weak acids, and weak bases as molecules or formula units. All sodium, potassium, ammonium, and nitrate salts are soluble. Particulate diagrams must conserve atoms: count each atom type before and after, and identify leftover (excess) reactant particles."
+      },
+      {
+        "heading": "Stoichiometry",
+        "body": "Path: grams → moles (÷ molar mass) → mole ratio from balanced equation → moles of target → grams. For limiting reactant, compute product from each reactant (or compare mole ratios); the smaller amount wins. Percent yield = actual/theoretical × 100. For solutions, moles = M × V(L). In mixing problems, track the excess reactant: moles remaining ÷ total volume gives its concentration."
+      },
+      {
+        "heading": "Titration",
+        "body": "In an acid–base titration, a solution of known concentration (titrant) is added until the equivalence point, where moles of H⁺ and OH⁻ match the stoichiometry. Watch polyprotic acids: H₂SO₄ needs 2 mol NaOH per mole of acid. Errors: an air bubble in the buret tip or rinsing the buret with water instead of titrant changes the volume or concentration recorded; trace each to the final result."
+      },
+      {
+        "heading": "Reaction types and oxidation numbers",
+        "body": "Precipitation: two soluble ionic solutions form an insoluble solid. Acid–base (Brønsted–Lowry): proton transfer from acid to base. Redox: electron transfer, shown by changes in oxidation number. Oxidation is loss of electrons (oxidation number increases); reduction is gain. Rules: elements = 0; monatomic ions = charge; O usually −2; H usually +1 with nonmetals; sum equals the overall charge. Example: in Cr₂O₇²⁻, 2x + 7(−2) = −2, so Cr = +6."
+      }
+    ],
+    "keyTakeaways": [
+      "Net ionic: break up only strong electrolytes in solution; cancel spectators.",
+      "Limiting reactant determines theoretical yield.",
+      "moles = M × V(L); track excess reactant in mixing problems.",
+      "Polyprotic acids change the mole ratio in titrations.",
+      "Oxidation number increase = oxidized; decrease = reduced.",
+      "Particulate diagrams must conserve atoms."
+    ],
+    "commonMistakes": [
+      "Writing weak acids (HF, CH₃COOH) as dissociated ions in net ionic equations.",
+      "Choosing the limiting reactant by comparing grams instead of moles.",
+      "Using 1:1 mole ratios for diprotic acids.",
+      "Forgetting to convert mL to L.",
+      "Confusing the oxidizing agent (reduced) with the species oxidized."
+    ],
+    "examTips": [
+      "FRQs almost always ask for a net ionic equation somewhere; know solubility rules for Na⁺, K⁺, NH₄⁺, NO₃⁻.",
+      "Error analysis: decide whether the error raises or lowers the measured quantity, then follow it through the equation.",
+      "Particulate diagrams often appear in MCQs; count particles carefully.",
+      "Gravimetric analysis: an undried precipitate gives a mass that's too high."
+    ],
+    "cramSheet": "**Net ionic:** ions = strong electrolytes (aq) · keep s, l, g, weak acids/bases · cancel spectators\n\n**Stoich:** g → mol → ratio → mol → g · limiting = least product · % yield = actual/theo × 100\n\n**Solutions:** mol = MV · excess conc = mol left ÷ total V\n\n**Titration:** mol acid × H⁺ per acid = mol base × OH⁻ per base\n\n**Redox:** OIL RIG · ox # sum = charge · O −2, H +1"
+  },
+  "vocab": [
+    {
+      "term": "Net ionic equation",
+      "definition": "An equation showing only the species that actually change in a reaction in solution."
+    },
+    {
+      "term": "Spectator ion",
+      "definition": "An ion present in solution that does not participate in the reaction."
+    },
+    {
+      "term": "Limiting reactant",
+      "definition": "The reactant that is used up first and determines the maximum product formed."
+    },
+    {
+      "term": "Theoretical yield",
+      "definition": "The maximum amount of product predicted by stoichiometry."
+    },
+    {
+      "term": "Percent yield",
+      "definition": "(Actual yield ÷ theoretical yield) × 100."
+    },
+    {
+      "term": "Titrant",
+      "definition": "The solution of known concentration added from a buret in a titration."
+    },
+    {
+      "term": "Equivalence point",
+      "definition": "The point in a titration where stoichiometrically equal amounts of reactants have been combined."
+    },
+    {
+      "term": "Precipitate",
+      "definition": "An insoluble solid formed from a reaction in solution."
+    },
+    {
+      "term": "Oxidation",
+      "definition": "Loss of electrons; increase in oxidation number."
+    },
+    {
+      "term": "Reduction",
+      "definition": "Gain of electrons; decrease in oxidation number."
+    },
+    {
+      "term": "Oxidizing agent",
+      "definition": "The species that causes oxidation of another species and is itself reduced."
+    },
+    {
+      "term": "Brønsted–Lowry acid",
+      "definition": "A proton (H⁺) donor."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Oxidation–Reduction Reactions",
+      "stem": "What is the oxidation number of Cr in Cr₂O₇²⁻?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "+3"
+        },
+        {
+          "id": "B",
+          "text": "+6"
+        },
+        {
+          "id": "C",
+          "text": "+7"
+        },
+        {
+          "id": "D",
+          "text": "+12"
+        }
+      ],
+      "answer": "B",
+      "explanation": "2x + 7(−2) = −2 → 2x = 12 → x = +6.",
+      "distractors": {
+        "D": "Total for both Cr atoms."
+      }
+    },
+    {
+      "id": "u4-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Net Ionic Equations",
+      "stem": "Which is the net ionic equation for the reaction of aqueous AgNO₃ with aqueous NaCl?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq)"
+        },
+        {
+          "id": "B",
+          "text": "Ag⁺(aq) + Cl⁻(aq) → AgCl(s)"
+        },
+        {
+          "id": "C",
+          "text": "Na⁺(aq) + NO₃⁻(aq) → NaNO₃(s)"
+        },
+        {
+          "id": "D",
+          "text": "Ag⁺(aq) + NO₃⁻(aq) + Na⁺(aq) + Cl⁻(aq) → AgCl(aq) + NaNO₃(aq)"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Na⁺ and NO₃⁻ are spectators; AgCl precipitates.",
+      "distractors": {
+        "A": "Molecular equation.",
+        "C": "NaNO₃ is soluble."
+      }
+    },
+    {
+      "id": "u4-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Introduction to Titration",
+      "stem": "A 25.00 mL sample of HCl is titrated to the equivalence point with 18.40 mL of 0.100 M NaOH. What is [HCl]?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.0736 M"
+        },
+        {
+          "id": "B",
+          "text": "0.136 M"
+        },
+        {
+          "id": "C",
+          "text": "0.0460 M"
+        },
+        {
+          "id": "D",
+          "text": "1.84 M"
+        }
+      ],
+      "answer": "A",
+      "explanation": "mol NaOH = 0.01840 × 0.100 = 1.840 × 10⁻³ = mol HCl; ÷ 0.02500 L = 0.0736 M.",
+      "distractors": {
+        "B": "Inverts the volume ratio."
+      }
+    },
+    {
+      "id": "u4-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Oxidation–Reduction Reactions",
+      "stem": "In the reaction Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), which species is the oxidizing agent?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Zn(s)"
+        },
+        {
+          "id": "B",
+          "text": "Cu²⁺(aq)"
+        },
+        {
+          "id": "C",
+          "text": "Zn²⁺(aq)"
+        },
+        {
+          "id": "D",
+          "text": "Cu(s)"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Cu²⁺ gains electrons (is reduced), so it oxidizes Zn.",
+      "distractors": {
+        "A": "Zn is oxidized; it's the reducing agent."
+      }
+    },
+    {
+      "id": "u4-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Stoichiometry",
+      "stem": "4.00 g of H₂ (2.016 g/mol) reacts with 40.0 g of O₂ (32.00 g/mol) to form water (18.02 g/mol). What is the theoretical yield of H₂O?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "22.5 g"
+        },
+        {
+          "id": "B",
+          "text": "35.8 g"
+        },
+        {
+          "id": "C",
+          "text": "45.0 g"
+        },
+        {
+          "id": "D",
+          "text": "44.0 g"
+        }
+      ],
+      "answer": "B",
+      "explanation": "2H₂ + O₂ → 2H₂O. H₂ = 1.98 mol needs 0.99 mol O₂ (1.25 available), so H₂ limits. H₂O = 1.98 mol × 18.02 = 35.8 g.",
+      "distractors": {
+        "C": "Assumes O₂ limits: 1.25 × 2 × 18.02.",
+        "D": "Simply adds reactant masses."
+      }
+    },
+    {
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Physical and Chemical Changes",
+      "stimulus": "A sealed container initially holds 6 N₂ molecules and 9 H₂ molecules. They react completely according to N₂ + 3H₂ → 2NH₃.",
+      "stem": "Which describes the container after the reaction?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "6 NH₃ and 3 N₂"
+        },
+        {
+          "id": "B",
+          "text": "12 NH₃"
+        },
+        {
+          "id": "C",
+          "text": "6 NH₃ and 3 H₂"
+        },
+        {
+          "id": "D",
+          "text": "3 NH₃ and 3 N₂"
+        }
+      ],
+      "answer": "A",
+      "explanation": "9 H₂ need 3 N₂, forming 6 NH₃; 3 N₂ remain. H₂ is limiting.",
+      "distractors": {
+        "B": "Assumes N₂ limits."
+      }
+    },
+    {
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Introduction to Titration",
+      "stem": "20.0 mL of H₂SO₄ is titrated to the equivalence point with 30.0 mL of 0.200 M NaOH. What is [H₂SO₄]?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.150 M"
+        },
+        {
+          "id": "B",
+          "text": "0.300 M"
+        },
+        {
+          "id": "C",
+          "text": "0.0750 M"
+        },
+        {
+          "id": "D",
+          "text": "0.133 M"
+        }
+      ],
+      "answer": "A",
+      "explanation": "mol OH⁻ = 6.00 × 10⁻³. H₂SO₄ is diprotic: 3.00 × 10⁻³ mol ÷ 0.0200 L = 0.150 M.",
+      "distractors": {
+        "B": "Ignores the 2:1 ratio."
+      }
+    },
+    {
+      "id": "u4-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Net Ionic Equations",
+      "stem": "What is the net ionic equation for the reaction between aqueous acetic acid (CH₃COOH) and aqueous NaOH?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "H⁺(aq) + OH⁻(aq) → H₂O(l)"
+        },
+        {
+          "id": "B",
+          "text": "CH₃COOH(aq) + OH⁻(aq) → CH₃COO⁻(aq) + H₂O(l)"
+        },
+        {
+          "id": "C",
+          "text": "CH₃COOH(aq) + NaOH(aq) → CH₃COONa(aq) + H₂O(l)"
+        },
+        {
+          "id": "D",
+          "text": "CH₃COO⁻(aq) + Na⁺(aq) → CH₃COONa(s)"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Acetic acid is weak and stays mostly molecular; Na⁺ is a spectator.",
+      "distractors": {
+        "A": "Only correct for strong acids."
+      }
+    },
+    {
+      "id": "u4-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Types of Chemical Reactions",
+      "stem": "Which reaction is a redox reaction?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NaOH + HCl → NaCl + H₂O"
+        },
+        {
+          "id": "B",
+          "text": "BaCl₂ + Na₂SO₄ → BaSO₄ + 2NaCl"
+        },
+        {
+          "id": "C",
+          "text": "2Mg + O₂ → 2MgO"
+        },
+        {
+          "id": "D",
+          "text": "CaCO₃ → CaO + CO₂"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Mg goes from 0 to +2 and O from 0 to −2. The others show no oxidation-number changes.",
+      "distractors": {
+        "D": "Decomposition, but all oxidation numbers stay the same."
+      }
+    },
+    {
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Introduction to Titration",
+      "stem": "A student rinses a clean buret with distilled water but not with the NaOH titrant before filling it. How does this affect the calculated concentration of the acid?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Too high, because the diluted NaOH requires a larger volume to reach the equivalence point"
+        },
+        {
+          "id": "B",
+          "text": "Too low, because less NaOH is needed"
+        },
+        {
+          "id": "C",
+          "text": "No effect, because water is neutral"
+        },
+        {
+          "id": "D",
+          "text": "Too low, because water reacts with the acid"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Water dilutes the titrant, so more volume is delivered. The student multiplies that larger volume by the labeled (higher) concentration, overestimating moles of acid.",
+      "distractors": {
+        "C": "Water doesn't react, but it dilutes the titrant."
+      }
+    },
+    {
+      "id": "u4-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Stoichiometry",
+      "stem": "50.0 mL of 0.100 M AgNO₃ is mixed with 25.0 mL of 0.150 M NaCl. What mass of AgCl (143.32 g/mol) forms?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.537 g"
+        },
+        {
+          "id": "B",
+          "text": "0.717 g"
+        },
+        {
+          "id": "C",
+          "text": "1.25 g"
+        },
+        {
+          "id": "D",
+          "text": "0.358 g"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Ag⁺ = 5.00 × 10⁻³ mol, Cl⁻ = 3.75 × 10⁻³ mol, so Cl⁻ limits: 3.75 × 10⁻³ × 143.32 = 0.537 g.",
+      "distractors": {
+        "B": "Uses Ag⁺ as limiting."
+      }
+    },
+    {
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Stoichiometry",
+      "stimulus": "Equal volumes of 0.20 M Pb(NO₃)₂ and 0.20 M KI are mixed. PbI₂ precipitates.",
+      "stem": "Which ion has the highest concentration in the final solution?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Pb²⁺"
+        },
+        {
+          "id": "B",
+          "text": "I⁻"
+        },
+        {
+          "id": "C",
+          "text": "NO₃⁻"
+        },
+        {
+          "id": "D",
+          "text": "K⁺"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Per liter of each: NO₃⁻ 0.40 mol, K⁺ 0.20, I⁻ 0.20 → reacts with 0.10 Pb²⁺ (leaving 0.10 Pb²⁺, ~0 I⁻). NO₃⁻ is the largest spectator.",
+      "distractors": {
+        "D": "Spectator, but half as many moles as nitrate."
+      }
+    },
+    {
+      "id": "u4-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Oxidation–Reduction Reactions",
+      "stem": "In the reaction 2MnO₄⁻ + 5H₂C₂O₄ + 6H⁺ → 2Mn²⁺ + 10CO₂ + 8H₂O, how many electrons are transferred overall as written?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "5"
+        },
+        {
+          "id": "C",
+          "text": "10"
+        },
+        {
+          "id": "D",
+          "text": "20"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Mn goes from +7 to +2 (5 e⁻ each × 2 = 10). C goes from +3 to +4 (1 e⁻ each × 10 C = 10). Ten electrons transferred.",
+      "distractors": {
+        "D": "Double counts both half-reactions."
+      }
+    },
+    {
+      "id": "u4-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Stoichiometry",
+      "stem": "A student isolates PbI₂ by filtration but weighs it before it is completely dry. How does this affect the calculated percent yield and the calculated moles of I⁻ in the original sample?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Both are too high."
+        },
+        {
+          "id": "B",
+          "text": "Both are too low."
+        },
+        {
+          "id": "C",
+          "text": "Percent yield too high; moles of I⁻ too low."
+        },
+        {
+          "id": "D",
+          "text": "Neither is affected."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Water adds mass, so the measured PbI₂ is too large. Both quantities computed from that mass are inflated.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Precipitation Stoichiometry",
+      "frqType": "Short FRQ",
+      "prompt": "A student mixes 30.0 mL of 0.200 M Pb(NO₃)₂(aq) with 20.0 mL of 0.250 M KI(aq). A yellow precipitate of PbI₂ (461.0 g/mol) forms.",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Write the balanced net ionic equation for the reaction.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Identify the limiting reactant and calculate the theoretical mass of PbI₂.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Calculate the concentration of Pb²⁺ remaining in the solution after the reaction (assume volumes are additive and PbI₂ is completely insoluble).",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "The student reports a mass of PbI₂ greater than the theoretical yield. Identify one experimental error that is consistent with this result, and explain.",
+          "points": 1
+        }
+      ],
+      "points": 4,
+      "minutes": 9,
+      "rubric": [
+        {
+          "criterion": "a: Net ionic",
+          "points": 1,
+          "description": "Pb²⁺(aq) + 2 I⁻(aq) → PbI₂(s)."
+        },
+        {
+          "criterion": "b: Limiting and mass",
+          "points": 1,
+          "description": "Pb²⁺ = 6.00 × 10⁻³ mol; I⁻ = 5.00 × 10⁻³ mol, needing only 2.50 × 10⁻³ mol Pb²⁺, so I⁻ (KI) limits. PbI₂ = 2.50 × 10⁻³ × 461.0 = 1.15 g."
+        },
+        {
+          "criterion": "c: Excess concentration",
+          "points": 1,
+          "description": "(6.00 − 2.50) × 10⁻³ = 3.50 × 10⁻³ mol ÷ 0.0500 L = 0.0700 M."
+        },
+        {
+          "criterion": "d: Error",
+          "points": 1,
+          "description": "E.g., precipitate not fully dried (water adds mass) or not rinsed (soluble KNO₃ remains); either increases measured mass."
+        }
+      ],
+      "sampleResponse": "(a) Pb²⁺(aq) + 2 I⁻(aq) → PbI₂(s)\n\n(b) mol Pb²⁺ = 0.0300 L × 0.200 M = 6.00 × 10⁻³ mol. mol I⁻ = 0.0200 L × 0.250 M = 5.00 × 10⁻³ mol, which requires only 2.50 × 10⁻³ mol Pb²⁺. I⁻ (from KI) is limiting. Mass PbI₂ = 2.50 × 10⁻³ mol × 461.0 g/mol = 1.15 g.\n\n(c) Pb²⁺ remaining = 6.00 × 10⁻³ − 2.50 × 10⁻³ = 3.50 × 10⁻³ mol. Total volume = 0.0500 L, so [Pb²⁺] = 0.0700 M.\n\n(d) The precipitate may not have been completely dried before weighing. Residual water adds to the measured mass, making it larger than the true mass of PbI₂."
+    }
+  ]
+}

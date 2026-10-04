@@ -1,0 +1,623 @@
+{
+  "number": 8,
+  "title": "Acids and Bases",
+  "guide": {
+    "summary": "Acids and bases make up 11–15% of the exam. You must calculate pH for strong and weak acids and bases, interpret titration curves, design and analyze buffers with Henderson–Hasselbalch, predict the pH of salt solutions, and explain acid strength from molecular structure.",
+    "sections": [
+      {
+        "heading": "pH and strong acids/bases",
+        "body": "pH = −log[H₃O⁺]; pOH = −log[OH⁻]; pH + pOH = 14.00 at 25 °C (Kw = 1.0 × 10⁻¹⁴). Strong acids (HCl, HBr, HI, HNO₃, HClO₄, H₂SO₄ first proton) and strong bases (Group 1 hydroxides, Ca/Sr/Ba hydroxides) ionize completely: [H₃O⁺] equals the acid concentration. When mixing a strong acid and strong base, subtract moles, then divide the excess by the total volume."
+      },
+      {
+        "heading": "Weak acids and bases",
+        "body": "Weak acids partially ionize: Ka = [H₃O⁺][A⁻]/[HA]. For a weak acid with small Ka, [H₃O⁺] ≈ √(Ka·C). Weak bases: Kb = [BH⁺][OH⁻]/[B], [OH⁻] ≈ √(Kb·C). For a conjugate pair, Ka × Kb = Kw. Percent ionization increases as the acid is diluted. Salts: the conjugate base of a weak acid (CH₃COO⁻, F⁻) makes a solution basic; the conjugate acid of a weak base (NH₄⁺) makes it acidic; ions from strong acids/bases (Na⁺, Cl⁻, NO₃⁻) are neutral."
+      },
+      {
+        "heading": "Titrations",
+        "body": "Strong acid–strong base: equivalence pH = 7. Weak acid–strong base: initial pH higher than a strong acid's; buffer region; at half-equivalence, pH = pKa; at equivalence, pH > 7 because the conjugate base hydrolyzes. Weak base–strong acid: equivalence pH < 7. Polyprotic acids show multiple equivalence points. Choose an indicator whose pKa (color-change range) brackets the equivalence pH; phenolphthalein (~8–10) suits weak acid–strong base titrations."
+      },
+      {
+        "heading": "Buffers",
+        "body": "A buffer contains significant amounts of a weak acid and its conjugate base. pH = pKa + log([A⁻]/[HA]). Added H⁺ is consumed by A⁻; added OH⁻ is consumed by HA, so pH changes little. Do stoichiometry first (moles), then Henderson–Hasselbalch. Buffer capacity grows with the concentration of both components; the buffer is most effective when [A⁻] ≈ [HA] (pH ≈ pKa). A buffer can be made by partially neutralizing a weak acid with a strong base."
+      },
+      {
+        "heading": "Acid strength and structure",
+        "body": "Stronger acids have more stable conjugate bases. Binary acids down a group (HF < HCl < HBr < HI): the H–X bond gets longer and weaker. Oxyacids: more electronegative central atom or more O atoms pulls electron density from the O–H bond and delocalizes the negative charge of the conjugate base (HClO < HClO₂ < HClO₃ < HClO₄). Carboxylic acids are acidic because the carboxylate ion is resonance-stabilized."
+      }
+    ],
+    "keyTakeaways": [
+      "Strong acid: [H₃O⁺] = C. Weak acid: [H₃O⁺] ≈ √(KaC).",
+      "Ka × Kb = Kw; pH + pOH = 14.",
+      "Half-equivalence: pH = pKa.",
+      "Weak acid + strong base equivalence pH > 7.",
+      "Buffers: stoichiometry first, then Henderson–Hasselbalch.",
+      "More stable conjugate base → stronger acid."
+    ],
+    "commonMistakes": [
+      "Using Henderson–Hasselbalch before reacting added strong acid/base.",
+      "Assuming equivalence is always at pH 7.",
+      "Confusing the equivalence point (stoichiometric) with the endpoint (indicator change).",
+      "Saying a buffer keeps pH constant (it minimizes change).",
+      "Treating 'concentrated' as 'strong'."
+    ],
+    "examTips": [
+      "Titration curves are the most common A/B stimulus; locate half-equivalence and equivalence.",
+      "Particulate diagrams ask which species dominates at a pH; compare pH to pKa.",
+      "pH > pKa → [A⁻] > [HA]; pH < pKa → [HA] > [A⁻].",
+      "For structure-based strength, explain with conjugate base stability or bond polarity."
+    ],
+    "cramSheet": "**pH:** −log[H₃O⁺] · pH + pOH = 14 · Kw = 1.0 × 10⁻¹⁴\n\n**Weak:** [H⁺] ≈ √(KaC) · [OH⁻] ≈ √(KbC) · KaKb = Kw\n\n**Salts:** A⁻ of weak acid → basic · NH₄⁺ → acidic · Na⁺, Cl⁻ → neutral\n\n**Titration:** ½ eq pH = pKa · WA/SB eq > 7 · WB/SA eq < 7\n\n**Buffer:** pH = pKa + log(A⁻/HA) · stoich first\n\n**Strength:** HF < HCl < HBr < HI · more O / more EN → stronger oxyacid"
+  },
+  "vocab": [
+    {
+      "term": "Brønsted–Lowry acid",
+      "definition": "A proton donor."
+    },
+    {
+      "term": "Conjugate base",
+      "definition": "The species remaining after an acid donates a proton."
+    },
+    {
+      "term": "Ka",
+      "definition": "Acid dissociation constant; larger Ka means a stronger acid."
+    },
+    {
+      "term": "pKa",
+      "definition": "−log Ka; smaller pKa means a stronger acid."
+    },
+    {
+      "term": "Kw",
+      "definition": "Ion-product constant of water: [H₃O⁺][OH⁻] = 1.0 × 10⁻¹⁴ at 25 °C."
+    },
+    {
+      "term": "Buffer",
+      "definition": "A solution of a weak acid and its conjugate base that resists pH change."
+    },
+    {
+      "term": "Henderson–Hasselbalch equation",
+      "definition": "pH = pKa + log([A⁻]/[HA])."
+    },
+    {
+      "term": "Equivalence point",
+      "definition": "The point where moles of added titrant exactly react with the analyte."
+    },
+    {
+      "term": "Half-equivalence point",
+      "definition": "The point where half the weak acid has been neutralized; pH = pKa."
+    },
+    {
+      "term": "Indicator",
+      "definition": "A weak acid whose acid and base forms have different colors."
+    },
+    {
+      "term": "Buffer capacity",
+      "definition": "The amount of acid or base a buffer can absorb before pH changes significantly."
+    },
+    {
+      "term": "Amphoteric",
+      "definition": "Able to act as an acid or a base (e.g., H₂O, HCO₃⁻)."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u8-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "pH and pOH of Strong Acids and Bases",
+      "stem": "What is the pH of 0.020 M HCl?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.020"
+        },
+        {
+          "id": "B",
+          "text": "1.70"
+        },
+        {
+          "id": "C",
+          "text": "2.00"
+        },
+        {
+          "id": "D",
+          "text": "12.30"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Strong acid: [H₃O⁺] = 0.020 M; pH = −log(0.020) = 1.70.",
+      "distractors": {
+        "D": "pOH-style error."
+      }
+    },
+    {
+      "id": "u8-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Introduction to Acids and Bases",
+      "stem": "What is the conjugate base of HSO₄⁻?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "H₂SO₄"
+        },
+        {
+          "id": "B",
+          "text": "SO₄²⁻"
+        },
+        {
+          "id": "C",
+          "text": "HSO₃⁻"
+        },
+        {
+          "id": "D",
+          "text": "OH⁻"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Remove one H⁺: HSO₄⁻ → SO₄²⁻.",
+      "distractors": {
+        "A": "Conjugate acid."
+      }
+    },
+    {
+      "id": "u8-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "pH and pOH of Strong Acids and Bases",
+      "stem": "A solution has [OH⁻] = 1.0 × 10⁻³ M at 25 °C. Its pH is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3.00"
+        },
+        {
+          "id": "B",
+          "text": "7.00"
+        },
+        {
+          "id": "C",
+          "text": "11.00"
+        },
+        {
+          "id": "D",
+          "text": "14.00"
+        }
+      ],
+      "answer": "C",
+      "explanation": "pOH = 3.00; pH = 14.00 − 3.00 = 11.00.",
+      "distractors": {
+        "A": "That's pOH."
+      }
+    },
+    {
+      "id": "u8-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Acid–Base Properties of Salts",
+      "stem": "Which 0.10 M solution is basic?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NaCl"
+        },
+        {
+          "id": "B",
+          "text": "NH₄Cl"
+        },
+        {
+          "id": "C",
+          "text": "NaCH₃COO"
+        },
+        {
+          "id": "D",
+          "text": "KNO₃"
+        }
+      ],
+      "answer": "C",
+      "explanation": "CH₃COO⁻ is the conjugate base of a weak acid and accepts H⁺ from water, producing OH⁻.",
+      "distractors": {
+        "B": "NH₄⁺ is acidic."
+      }
+    },
+    {
+      "id": "u8-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Weak Acid and Base Equilibria",
+      "stem": "What is the pH of 0.10 M acetic acid (Ka = 1.8 × 10⁻⁵)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.00"
+        },
+        {
+          "id": "B",
+          "text": "2.87"
+        },
+        {
+          "id": "C",
+          "text": "4.74"
+        },
+        {
+          "id": "D",
+          "text": "5.74"
+        }
+      ],
+      "answer": "B",
+      "explanation": "[H₃O⁺] ≈ √(1.8 × 10⁻⁵ × 0.10) = 1.3 × 10⁻³ M; pH = 2.87.",
+      "distractors": {
+        "A": "Treats it as strong.",
+        "C": "pKa."
+      }
+    },
+    {
+      "id": "u8-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Buffers",
+      "stem": "A buffer contains 0.10 M CH₃COOH and 0.15 M CH₃COO⁻ (pKa = 4.74). Its pH is closest to",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4.56"
+        },
+        {
+          "id": "B",
+          "text": "4.74"
+        },
+        {
+          "id": "C",
+          "text": "4.92"
+        },
+        {
+          "id": "D",
+          "text": "5.24"
+        }
+      ],
+      "answer": "C",
+      "explanation": "pH = 4.74 + log(0.15/0.10) = 4.74 + 0.18 = 4.92.",
+      "distractors": {
+        "A": "Inverts the ratio."
+      }
+    },
+    {
+      "id": "u8-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Acid–Base Titrations",
+      "stem": "During the titration of a weak acid with NaOH, the pH at the half-equivalence point is 3.85. The Ka of the acid is closest to",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.4 × 10⁻⁴"
+        },
+        {
+          "id": "B",
+          "text": "3.85 × 10⁻⁴"
+        },
+        {
+          "id": "C",
+          "text": "7.1 × 10⁻¹¹"
+        },
+        {
+          "id": "D",
+          "text": "3.85"
+        }
+      ],
+      "answer": "A",
+      "explanation": "At half-equivalence [HA] = [A⁻], so pH = pKa = 3.85; Ka = 10⁻³·⁸⁵ = 1.4 × 10⁻⁴.",
+      "distractors": {
+        "C": "Kb of the conjugate base."
+      }
+    },
+    {
+      "id": "u8-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Acid–Base Titrations",
+      "stem": "25.0 mL of 0.10 M HCl is mixed with 15.0 mL of 0.10 M NaOH. What is the pH?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.00"
+        },
+        {
+          "id": "B",
+          "text": "1.60"
+        },
+        {
+          "id": "C",
+          "text": "2.00"
+        },
+        {
+          "id": "D",
+          "text": "7.00"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Excess H⁺ = 2.5 × 10⁻³ − 1.5 × 10⁻³ = 1.0 × 10⁻³ mol in 0.0400 L = 0.025 M; pH = 1.60.",
+      "distractors": {
+        "A": "Ignores the NaOH entirely (pH of the original acid)."
+      }
+    },
+    {
+      "id": "u8-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Acid–Base Titrations",
+      "stem": "Why is the pH at the equivalence point of a CH₃COOH–NaOH titration greater than 7?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Excess NaOH is present at the equivalence point."
+        },
+        {
+          "id": "B",
+          "text": "The acetate ion formed is a weak base that reacts with water to produce OH⁻."
+        },
+        {
+          "id": "C",
+          "text": "Na⁺ ions are basic."
+        },
+        {
+          "id": "D",
+          "text": "Acetic acid is a strong acid."
+        }
+      ],
+      "answer": "B",
+      "explanation": "At equivalence, all HA has become A⁻; CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻.",
+      "distractors": {
+        "A": "No excess at equivalence by definition."
+      }
+    },
+    {
+      "id": "u8-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Weak Acid and Base Equilibria",
+      "stem": "What is the pH of 0.10 M NH₃ (Kb = 1.8 × 10⁻⁵)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2.87"
+        },
+        {
+          "id": "B",
+          "text": "9.26"
+        },
+        {
+          "id": "C",
+          "text": "11.13"
+        },
+        {
+          "id": "D",
+          "text": "13.00"
+        }
+      ],
+      "answer": "C",
+      "explanation": "[OH⁻] = √(1.8 × 10⁻⁶) = 1.3 × 10⁻³; pOH = 2.87; pH = 11.13.",
+      "distractors": {
+        "A": "pOH.",
+        "B": "pKa of NH₄⁺."
+      }
+    },
+    {
+      "id": "u8-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Buffers",
+      "stem": "0.010 mol of HCl is added to 1.0 L of a buffer that is 0.10 M CH₃COOH and 0.10 M CH₃COO⁻ (pKa = 4.74). Assuming no volume change, the new pH is closest to",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2.00"
+        },
+        {
+          "id": "B",
+          "text": "4.65"
+        },
+        {
+          "id": "C",
+          "text": "4.74"
+        },
+        {
+          "id": "D",
+          "text": "4.83"
+        }
+      ],
+      "answer": "B",
+      "explanation": "H⁺ converts A⁻ to HA: A⁻ 0.090, HA 0.110. pH = 4.74 + log(0.090/0.110) = 4.65.",
+      "distractors": {
+        "A": "Ignores the buffer.",
+        "D": "Adds to A⁻ instead of HA."
+      }
+    },
+    {
+      "id": "u8-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Molecular Structure of Acids and Bases",
+      "stem": "HClO₄ is a much stronger acid than HClO. Which explanation is best?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "HClO₄ has more hydrogen atoms to donate."
+        },
+        {
+          "id": "B",
+          "text": "The additional electronegative O atoms in HClO₄ withdraw electron density from the O–H bond and delocalize the negative charge of ClO₄⁻, stabilizing the conjugate base."
+        },
+        {
+          "id": "C",
+          "text": "The O–H bond in HClO₄ is shorter and stronger."
+        },
+        {
+          "id": "D",
+          "text": "ClO₄⁻ is a stronger base than ClO⁻."
+        }
+      ],
+      "answer": "B",
+      "explanation": "A more stable conjugate base means a stronger acid; charge delocalization over four O atoms stabilizes ClO₄⁻.",
+      "distractors": {
+        "A": "Both have one H.",
+        "D": "Reversed: ClO₄⁻ is the weaker base."
+      }
+    },
+    {
+      "id": "u8-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Acid–Base Indicators",
+      "stem": "A weak acid (pKa 4.7) is titrated with NaOH; the equivalence pH is about 8.7. Which indicator is most appropriate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Methyl orange (color change pH 3.1–4.4)"
+        },
+        {
+          "id": "B",
+          "text": "Methyl red (color change pH 4.4–6.2)"
+        },
+        {
+          "id": "C",
+          "text": "Bromothymol blue (color change pH 6.0–7.6)"
+        },
+        {
+          "id": "D",
+          "text": "Phenolphthalein (color change pH 8.2–10.0)"
+        }
+      ],
+      "answer": "D",
+      "explanation": "The indicator's transition range should contain the equivalence pH.",
+      "distractors": {
+        "A": "Would change near the half-equivalence region, giving a volume that is too small."
+      }
+    },
+    {
+      "id": "u8-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Buffers",
+      "stem": "Which mixture, in 1.0 L of water, forms a buffer?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.10 mol HCl and 0.10 mol NaCl"
+        },
+        {
+          "id": "B",
+          "text": "0.10 mol CH₃COOH and 0.050 mol NaOH"
+        },
+        {
+          "id": "C",
+          "text": "0.10 mol NH₃ and 0.10 mol HCl"
+        },
+        {
+          "id": "D",
+          "text": "0.10 mol HNO₃ and 0.10 mol KNO₃"
+        }
+      ],
+      "answer": "B",
+      "explanation": "NaOH converts half the acetic acid to acetate, leaving 0.050 mol each of HA and A⁻.",
+      "distractors": {
+        "C": "All NH₃ is converted to NH₄⁺; no base remains.",
+        "A": "Strong acid and neutral salt."
+      }
+    },
+    {
+      "id": "u8-frq1",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Titration of a Weak Acid",
+      "frqType": "Long FRQ",
+      "prompt": "A student titrates 25.00 mL of an unknown monoprotic weak acid, HA, with 0.100 M NaOH. The equivalence point is reached after 20.00 mL of NaOH is added. After 10.00 mL of NaOH was added, the pH was 4.20.",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Calculate the initial concentration of HA.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Determine the value of Ka for HA. Justify your method.",
+          "points": 2
+        },
+        {
+          "label": "c",
+          "prompt": "Calculate the pH of the HA solution before any NaOH was added.",
+          "points": 2
+        },
+        {
+          "label": "d",
+          "prompt": "Predict whether the pH at the equivalence point is less than, equal to, or greater than 7. Justify with a chemical equation.",
+          "points": 2
+        },
+        {
+          "label": "e",
+          "prompt": "After 15.00 mL of NaOH is added, which species is present in greater concentration: HA or A⁻? Justify.",
+          "points": 1
+        },
+        {
+          "label": "f",
+          "prompt": "A second student uses an indicator that changes color at pH 5 to detect the endpoint. Would this student's calculated [HA] be greater than, less than, or equal to the first student's? Justify.",
+          "points": 2
+        }
+      ],
+      "points": 10,
+      "minutes": 23,
+      "rubric": [
+        {
+          "criterion": "a: [HA]",
+          "points": 1,
+          "description": "0.02000 L × 0.100 M = 2.00 × 10⁻³ mol; ÷ 0.02500 L = 0.0800 M."
+        },
+        {
+          "criterion": "b1: Half-equivalence",
+          "points": 1,
+          "description": "10.00 mL is half the equivalence volume, so [HA] = [A⁻] and pH = pKa."
+        },
+        {
+          "criterion": "b2: Ka",
+          "points": 1,
+          "description": "Ka = 10⁻⁴·²⁰ = 6.3 × 10⁻⁵."
+        },
+        {
+          "criterion": "c1: Setup",
+          "points": 1,
+          "description": "Ka = x²/(0.0800 − x) ≈ x²/0.0800."
+        },
+        {
+          "criterion": "c2: pH",
+          "points": 1,
+          "description": "x = 2.2 × 10⁻³ M; pH = 2.65."
+        },
+        {
+          "criterion": "d1: Claim",
+          "points": 1,
+          "description": "Greater than 7."
+        },
+        {
+          "criterion": "d2: Equation",
+          "points": 1,
+          "description": "A⁻(aq) + H₂O(l) ⇌ HA(aq) + OH⁻(aq): the conjugate base produces OH⁻."
+        },
+        {
+          "criterion": "e: Species",
+          "points": 1,
+          "description": "A⁻; past half-equivalence, more than half the HA has been converted to A⁻ (pH > pKa)."
+        },
+        {
+          "criterion": "f1: Claim",
+          "points": 1,
+          "description": "Less than."
+        },
+        {
+          "criterion": "f2: Justification",
+          "points": 1,
+          "description": "The indicator changes color well before the true equivalence (pH ≈ 8.4), so less NaOH volume is recorded, giving fewer calculated moles of HA."
+        }
+      ],
+      "sampleResponse": "(a) mol NaOH at equivalence = 0.02000 L × 0.100 M = 2.00 × 10⁻³ mol = mol HA. [HA] = 2.00 × 10⁻³ ÷ 0.02500 L = 0.0800 M.\n\n(b) 10.00 mL is half the equivalence volume, so half of HA has been converted to A⁻ and [HA] = [A⁻]. By Henderson–Hasselbalch, pH = pKa = 4.20. Ka = 10⁻⁴·²⁰ = 6.3 × 10⁻⁵.\n\n(c) Ka = x²/(0.0800 − x) ≈ x²/0.0800 = 6.3 × 10⁻⁵. x = [H₃O⁺] = 2.2 × 10⁻³ M; pH = 2.65.\n\n(d) Greater than 7. At equivalence, the solution contains A⁻, a weak base: A⁻(aq) + H₂O(l) ⇌ HA(aq) + OH⁻(aq), which produces OH⁻.\n\n(e) A⁻. At 15.00 mL, 1.50 × 10⁻³ mol of HA has been converted to A⁻, leaving only 0.50 × 10⁻³ mol HA.\n\n(f) Less than. The indicator changes at pH 5, which occurs before the equivalence point (where pH is about 8.4). The student records a smaller volume of NaOH, so the calculated moles and concentration of HA are too small."
+    }
+  ]
+}

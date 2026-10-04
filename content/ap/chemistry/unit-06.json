@@ -1,0 +1,614 @@
+{
+  "number": 6,
+  "title": "Thermochemistry",
+  "guide": {
+    "summary": "Thermochemistry tracks energy changes in physical and chemical processes. You must apply q = mcΔT in calorimetry, account for heat transfer between system and surroundings, calculate enthalpy changes from bond enthalpies, enthalpies of formation, and Hess's law, and explain energy changes in terms of bonds and intermolecular forces.",
+    "sections": [
+      {
+        "heading": "Endothermic, exothermic, and energy diagrams",
+        "body": "Exothermic processes release energy to the surroundings (ΔH < 0; surroundings warm up). Endothermic processes absorb energy (ΔH > 0; surroundings cool). On an energy diagram, exothermic products sit below reactants. Breaking bonds or overcoming IMFs always requires energy; forming bonds or attractions always releases energy. Dissolving can be either, depending on the balance between breaking solute–solute and solvent–solvent interactions and forming solute–solvent interactions."
+      },
+      {
+        "heading": "Calorimetry and heat transfer",
+        "body": "q = mcΔT. Heat flows from hot to cold until thermal equilibrium: q_lost = −q_gained. In a coffee-cup calorimeter, q_rxn = −q_solution; divide by moles of the limiting reactant to get ΔH in kJ/mol, and include the sign. Substances with a lower specific heat change temperature more for the same q. Heat lost to the surroundings makes the measured ΔT too small, so |ΔH| is underestimated. During phase changes, temperature stays constant: q = n·ΔH_fus or n·ΔH_vap."
+      },
+      {
+        "heading": "Enthalpy calculations",
+        "body": "Bond enthalpies: ΔH ≈ Σ(bonds broken) − Σ(bonds formed). Enthalpies of formation: ΔH° = ΣnΔH°f(products) − ΣnΔH°f(reactants); elements in standard states have ΔH°f = 0. Hess's law: if you reverse a reaction, change the sign of ΔH; if you multiply it, multiply ΔH. ΔH scales with the amount reacted, so heat released = (moles of limiting reactant ÷ coefficient) × |ΔH|."
+      }
+    ],
+    "keyTakeaways": [
+      "Bond breaking absorbs energy; bond forming releases it.",
+      "q_rxn = −q_surroundings; ΔH = q_rxn ÷ mol.",
+      "Lower specific heat → bigger ΔT for the same q.",
+      "ΔH = Σ broken − Σ formed (bond enthalpies).",
+      "ΔH° = Σ products − Σ reactants (formation).",
+      "Reverse → flip sign; multiply → multiply ΔH."
+    ],
+    "commonMistakes": [
+      "Dropping the sign of ΔH after calorimetry.",
+      "Reversing the bond enthalpy formula (formed − broken).",
+      "Using the mass of solute instead of the solution in q = mcΔT.",
+      "Forgetting that temperature is constant during a phase change.",
+      "Not scaling ΔH to the limiting reactant."
+    ],
+    "examTips": [
+      "Calorimetry is a favorite long-FRQ lab; expect error analysis on heat loss.",
+      "Show the sign reasoning: temperature rose → exothermic → negative ΔH.",
+      "Explain thermochemistry with bonds and IMFs, not 'energy is stored in bonds'.",
+      "For Hess's law, write each manipulated equation and cancel species carefully."
+    ],
+    "cramSheet": "**Signs:** exo ΔH < 0 (surr. warms) · endo ΔH > 0 · break = absorb · form = release\n\n**Calorimetry:** q = mcΔT · q_rxn = −q_soln · ΔH = q_rxn/mol · heat loss → |ΔH| too small\n\n**Phase change:** q = nΔH_fus or nΔH_vap, T constant\n\n**Bonds:** ΔH = broken − formed\n\n**Formation:** ΔH = Σprod − Σreact · elements = 0\n\n**Hess:** reverse flips sign · ×n multiplies ΔH"
+  },
+  "vocab": [
+    {
+      "term": "Enthalpy change (ΔH)",
+      "definition": "The heat absorbed or released by a process at constant pressure."
+    },
+    {
+      "term": "Exothermic",
+      "definition": "A process that releases energy to the surroundings (ΔH < 0)."
+    },
+    {
+      "term": "Endothermic",
+      "definition": "A process that absorbs energy from the surroundings (ΔH > 0)."
+    },
+    {
+      "term": "Specific heat capacity",
+      "definition": "The energy needed to raise 1 g of a substance by 1 °C."
+    },
+    {
+      "term": "Calorimetry",
+      "definition": "Measuring heat flow by monitoring temperature changes."
+    },
+    {
+      "term": "Thermal equilibrium",
+      "definition": "The state reached when objects in contact reach the same temperature."
+    },
+    {
+      "term": "Bond enthalpy",
+      "definition": "Average energy required to break one mole of a given bond in the gas phase."
+    },
+    {
+      "term": "Standard enthalpy of formation",
+      "definition": "ΔH for forming one mole of a compound from its elements in their standard states."
+    },
+    {
+      "term": "Hess's law",
+      "definition": "The total ΔH of a reaction is the sum of ΔH values for any series of steps that add up to it."
+    },
+    {
+      "term": "Enthalpy of fusion",
+      "definition": "Energy required to melt one mole of a solid at its melting point."
+    },
+    {
+      "term": "Enthalpy of vaporization",
+      "definition": "Energy required to vaporize one mole of a liquid at its boiling point."
+    },
+    {
+      "term": "System and surroundings",
+      "definition": "The system is the part studied (the reaction); the surroundings are everything else (e.g., the water)."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u6-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Endothermic and Exothermic Processes",
+      "stem": "When solid NH₄NO₃ dissolves in water in a beaker, the beaker feels cold. Which is true?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The process is exothermic and ΔH < 0."
+        },
+        {
+          "id": "B",
+          "text": "The process is endothermic and ΔH > 0."
+        },
+        {
+          "id": "C",
+          "text": "No energy is transferred."
+        },
+        {
+          "id": "D",
+          "text": "The water is absorbing energy from the dissolving salt."
+        }
+      ],
+      "answer": "B",
+      "explanation": "The surroundings (water) lose energy to the system, so the dissolving process is endothermic.",
+      "distractors": {
+        "D": "Reverses the direction of heat flow."
+      }
+    },
+    {
+      "id": "u6-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Energy of Phase Changes",
+      "stem": "How much energy is required to melt 36.0 g of ice at 0 °C? (ΔH_fus = 6.01 kJ/mol; H₂O = 18.0 g/mol)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3.01 kJ"
+        },
+        {
+          "id": "B",
+          "text": "6.01 kJ"
+        },
+        {
+          "id": "C",
+          "text": "12.0 kJ"
+        },
+        {
+          "id": "D",
+          "text": "216 kJ"
+        }
+      ],
+      "answer": "C",
+      "explanation": "36.0 g ÷ 18.0 = 2.00 mol × 6.01 kJ/mol = 12.0 kJ.",
+      "distractors": {
+        "D": "Uses grams instead of moles."
+      }
+    },
+    {
+      "id": "u6-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Heat Capacity and Calorimetry",
+      "stem": "Equal masses of aluminum (c = 0.90 J/g·°C) and copper (c = 0.385 J/g·°C) each absorb the same amount of heat. Which statement is correct?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Aluminum's temperature rises more."
+        },
+        {
+          "id": "B",
+          "text": "Copper's temperature rises more."
+        },
+        {
+          "id": "C",
+          "text": "Both rise by the same amount."
+        },
+        {
+          "id": "D",
+          "text": "Neither changes temperature."
+        }
+      ],
+      "answer": "B",
+      "explanation": "ΔT = q/(mc); lower c means larger ΔT.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Hess's Law",
+      "stimulus": "C(s) + O₂(g) → CO₂(g)   ΔH = −393.5 kJ\nCO(g) + ½O₂(g) → CO₂(g)   ΔH = −283.0 kJ",
+      "stem": "What is ΔH for C(s) + ½O₂(g) → CO(g)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "−676.5 kJ"
+        },
+        {
+          "id": "B",
+          "text": "−110.5 kJ"
+        },
+        {
+          "id": "C",
+          "text": "+110.5 kJ"
+        },
+        {
+          "id": "D",
+          "text": "+676.5 kJ"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Keep reaction 1, reverse reaction 2 (+283.0): −393.5 + 283.0 = −110.5 kJ.",
+      "distractors": {
+        "A": "Adds without reversing."
+      }
+    },
+    {
+      "id": "u6-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Heat Transfer and Thermal Equilibrium",
+      "stem": "A 50.0 g metal sample at 100.0 °C is placed in 100.0 g of water at 22.0 °C. The final temperature is 25.0 °C. What is the metal's specific heat? (c_water = 4.18 J/g·°C)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.167 J/g·°C"
+        },
+        {
+          "id": "B",
+          "text": "0.334 J/g·°C"
+        },
+        {
+          "id": "C",
+          "text": "0.502 J/g·°C"
+        },
+        {
+          "id": "D",
+          "text": "2.99 J/g·°C"
+        }
+      ],
+      "answer": "B",
+      "explanation": "q_water = 100.0 × 4.18 × 3.0 = 1254 J = q lost by metal. c = 1254/(50.0 × 75.0) = 0.334 J/g·°C.",
+      "distractors": {
+        "A": "Uses 100 for the metal's mass.",
+        "D": "Inverts the ratio."
+      }
+    },
+    {
+      "id": "u6-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Enthalpy of Formation",
+      "stimulus": "ΔH°f (kJ/mol): C₂H₅OH(l) −277.7; CO₂(g) −393.5; H₂O(l) −285.8",
+      "stem": "What is ΔH° for C₂H₅OH(l) + 3O₂(g) → 2CO₂(g) + 3H₂O(l)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "−1366.7 kJ/mol"
+        },
+        {
+          "id": "B",
+          "text": "−401.6 kJ/mol"
+        },
+        {
+          "id": "C",
+          "text": "+1366.7 kJ/mol"
+        },
+        {
+          "id": "D",
+          "text": "−1922.1 kJ/mol"
+        }
+      ],
+      "answer": "A",
+      "explanation": "[2(−393.5) + 3(−285.8)] − [−277.7 + 0] = −1644.4 + 277.7 = −1366.7 kJ/mol.",
+      "distractors": {
+        "D": "Adds the reactant's ΔH°f instead of subtracting.",
+        "C": "Reactants − products."
+      }
+    },
+    {
+      "id": "u6-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Bond Enthalpies",
+      "stimulus": "Average bond enthalpies (kJ/mol): C–H 413; O=O 495; C=O 799; O–H 463",
+      "stem": "Estimate ΔH for CH₄ + 2O₂ → CO₂ + 2H₂O(g).",
+      "choices": [
+        {
+          "id": "A",
+          "text": "+808 kJ/mol"
+        },
+        {
+          "id": "B",
+          "text": "−808 kJ/mol"
+        },
+        {
+          "id": "C",
+          "text": "−2642 kJ/mol"
+        },
+        {
+          "id": "D",
+          "text": "−351 kJ/mol"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Broken: 4(413) + 2(495) = 2642. Formed: 2(799) + 4(463) = 3450. ΔH = 2642 − 3450 = −808 kJ/mol.",
+      "distractors": {
+        "A": "Formed − broken reversed."
+      }
+    },
+    {
+      "id": "u6-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Bond Enthalpies",
+      "stem": "Which statement best explains why the combustion of methane is exothermic?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Breaking the bonds in CH₄ and O₂ releases energy."
+        },
+        {
+          "id": "B",
+          "text": "The energy released forming bonds in CO₂ and H₂O is greater than the energy absorbed breaking bonds in CH₄ and O₂."
+        },
+        {
+          "id": "C",
+          "text": "Methane stores energy in its bonds that is released when they break."
+        },
+        {
+          "id": "D",
+          "text": "The products have more potential energy than the reactants."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Bond breaking always absorbs energy; the net release comes from stronger bonds forming in products.",
+      "distractors": {
+        "C": "Classic misconception."
+      }
+    },
+    {
+      "id": "u6-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Enthalpy of Reaction",
+      "stem": "For 2H₂(g) + O₂(g) → 2H₂O(l), ΔH = −572 kJ. How much heat is released when 4.0 g of H₂ reacts with 16.0 g of O₂?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "143 kJ"
+        },
+        {
+          "id": "B",
+          "text": "286 kJ"
+        },
+        {
+          "id": "C",
+          "text": "572 kJ"
+        },
+        {
+          "id": "D",
+          "text": "1144 kJ"
+        }
+      ],
+      "answer": "B",
+      "explanation": "H₂ = 2.0 mol (needs 1.0 mol O₂); O₂ = 0.50 mol, so O₂ limits. Heat = 0.50 × 572 = 286 kJ.",
+      "distractors": {
+        "C": "Assumes H₂ limits."
+      }
+    },
+    {
+      "id": "u6-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Energy Diagrams",
+      "stem": "On a heating curve for water, the temperature stays constant at 100 °C while heat is added. During this time, the added energy is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "increasing the average kinetic energy of water molecules"
+        },
+        {
+          "id": "B",
+          "text": "overcoming hydrogen bonds between water molecules as liquid becomes gas"
+        },
+        {
+          "id": "C",
+          "text": "breaking O–H covalent bonds"
+        },
+        {
+          "id": "D",
+          "text": "lost to the surroundings"
+        }
+      ],
+      "answer": "B",
+      "explanation": "At a phase change, energy increases potential energy by separating molecules, not kinetic energy.",
+      "distractors": {
+        "C": "Covalent bonds stay intact during boiling."
+      }
+    },
+    {
+      "id": "u6-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Heat Capacity and Calorimetry",
+      "stem": "In a coffee-cup calorimetry experiment on an exothermic reaction, significant heat escapes through the cup's lid. How does this affect the calculated ΔH?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ΔH is more negative than the true value."
+        },
+        {
+          "id": "B",
+          "text": "ΔH is less negative (smaller magnitude) than the true value."
+        },
+        {
+          "id": "C",
+          "text": "ΔH becomes positive."
+        },
+        {
+          "id": "D",
+          "text": "No effect, because ΔH is a state function."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Lost heat makes the measured ΔT smaller, so the calculated q and |ΔH| are too small.",
+      "distractors": {
+        "D": "ΔH is a state function, but the measurement is still wrong."
+      }
+    },
+    {
+      "id": "u6-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Endothermic and Exothermic Processes",
+      "stem": "Dissolving CaCl₂ in water is exothermic. Which comparison is consistent with this?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Energy released forming ion–dipole attractions exceeds energy absorbed separating the ions and separating water molecules."
+        },
+        {
+          "id": "B",
+          "text": "Energy absorbed separating Ca²⁺ and Cl⁻ exceeds energy released forming ion–dipole attractions."
+        },
+        {
+          "id": "C",
+          "text": "No interactions are broken during dissolving."
+        },
+        {
+          "id": "D",
+          "text": "Covalent bonds in water break, releasing energy."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Net exothermic means the attractions formed release more energy than the interactions broken absorb.",
+      "distractors": {
+        "B": "Describes an endothermic dissolution."
+      }
+    },
+    {
+      "id": "u6-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Hess's Law",
+      "stimulus": "N₂(g) + 2O₂(g) → 2NO₂(g)   ΔH = +66 kJ\n2NO(g) + O₂(g) → 2NO₂(g)   ΔH = −114 kJ",
+      "stem": "What is ΔH for N₂(g) + O₂(g) → 2NO(g)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "−48 kJ"
+        },
+        {
+          "id": "B",
+          "text": "+180 kJ"
+        },
+        {
+          "id": "C",
+          "text": "−180 kJ"
+        },
+        {
+          "id": "D",
+          "text": "+48 kJ"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Keep reaction 1 (+66); reverse reaction 2 (+114): 2NO₂ → 2NO + O₂. Sum: N₂ + O₂ → 2NO, ΔH = +180 kJ.",
+      "distractors": {
+        "A": "Adds without reversing."
+      }
+    },
+    {
+      "id": "u6-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Heat Transfer and Thermal Equilibrium",
+      "stem": "100. g of water at 80.0 °C is mixed with 50.0 g of water at 20.0 °C in an insulated container. What is the final temperature?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "40.0 °C"
+        },
+        {
+          "id": "B",
+          "text": "50.0 °C"
+        },
+        {
+          "id": "C",
+          "text": "60.0 °C"
+        },
+        {
+          "id": "D",
+          "text": "66.7 °C"
+        }
+      ],
+      "answer": "C",
+      "explanation": "100(80 − T) = 50(T − 20) → 8000 − 100T = 50T − 1000 → T = 60.0 °C.",
+      "distractors": {
+        "B": "Unweighted average."
+      }
+    },
+    {
+      "id": "u6-frq1",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Calorimetry and Enthalpy",
+      "frqType": "Long FRQ",
+      "prompt": "A student mixes 50.0 mL of 1.00 M HCl with 50.0 mL of 1.00 M NaOH in a coffee-cup calorimeter. Both solutions start at 22.0 °C; the maximum temperature reached is 28.8 °C. Assume the solution has a density of 1.00 g/mL and a specific heat of 4.18 J/(g·°C), and that the calorimeter absorbs no heat.",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Calculate the heat, in J, absorbed by the solution.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Calculate ΔH of neutralization, in kJ per mole of H₂O formed. Include the correct sign.",
+          "points": 2
+        },
+        {
+          "label": "c",
+          "prompt": "The experiment is repeated with 50.0 mL of 2.00 M HCl and 50.0 mL of 2.00 M NaOH. Predict the temperature change. Justify your prediction.",
+          "points": 2
+        },
+        {
+          "label": "d",
+          "prompt": "In reality, the cup absorbs some heat. Would this make the magnitude of the calculated ΔH larger or smaller than the true value? Justify.",
+          "points": 2
+        },
+        {
+          "label": "e",
+          "prompt": "Explain, in terms of bond formation, why the neutralization H⁺(aq) + OH⁻(aq) → H₂O(l) releases energy.",
+          "points": 1
+        },
+        {
+          "label": "f",
+          "prompt": "Describe an energy diagram for this reaction, labeling reactants, products, and ΔH.",
+          "points": 2
+        }
+      ],
+      "points": 10,
+      "minutes": 23,
+      "rubric": [
+        {
+          "criterion": "a: q solution",
+          "points": 1,
+          "description": "q = (100. g)(4.18)(6.8) = 2.8 × 10³ J (2842 J)."
+        },
+        {
+          "criterion": "b1: Moles",
+          "points": 1,
+          "description": "0.0500 mol H₂O formed (0.0500 L × 1.00 M; reactants in 1:1 ratio)."
+        },
+        {
+          "criterion": "b2: ΔH with sign",
+          "points": 1,
+          "description": "−2.842 kJ ÷ 0.0500 mol = −56.8 kJ/mol; negative because temperature rose."
+        },
+        {
+          "criterion": "c1: Prediction",
+          "points": 1,
+          "description": "ΔT ≈ 13.6 °C (about double)."
+        },
+        {
+          "criterion": "c2: Justification",
+          "points": 1,
+          "description": "Twice the moles react, releasing twice the heat into the same 100. g of solution."
+        },
+        {
+          "criterion": "d1: Claim",
+          "points": 1,
+          "description": "Smaller."
+        },
+        {
+          "criterion": "d2: Justification",
+          "points": 1,
+          "description": "Heat absorbed by the cup is not counted; measured ΔT and q_solution are smaller, so |ΔH| is underestimated."
+        },
+        {
+          "criterion": "e: Bond formation",
+          "points": 1,
+          "description": "An O–H bond forms when H⁺ (as H₃O⁺) combines with OH⁻; the energy released by bond formation and new attractions exceeds the energy needed to rearrange the hydrated ions."
+        },
+        {
+          "criterion": "f1: Levels",
+          "points": 1,
+          "description": "Reactants (H⁺ + OH⁻) at a higher energy level than products (H₂O)."
+        },
+        {
+          "criterion": "f2: ΔH label",
+          "points": 1,
+          "description": "Downward arrow from reactants to products labeled ΔH = −56.8 kJ/mol (or negative ΔH)."
+        }
+      ],
+      "sampleResponse": "(a) Mass = 100. g; ΔT = 28.8 − 22.0 = 6.8 °C. q = (100.)(4.18)(6.8) = 2842 J ≈ 2.8 × 10³ J.\n\n(b) mol H⁺ = mol OH⁻ = 0.0500 L × 1.00 M = 0.0500 mol, so 0.0500 mol H₂O forms. q_rxn = −2.842 kJ. ΔH = −2.842 ÷ 0.0500 = −56.8 kJ/mol.\n\n(c) About 13.6 °C. With 2.00 M solutions, 0.100 mol of water forms, releasing twice the heat, but the solution mass is still 100. g, so ΔT doubles.\n\n(d) Smaller. Some heat released goes into the cup instead of the solution, so the measured temperature rise and calculated q are smaller, and the magnitude of ΔH is underestimated.\n\n(e) Forming the new O–H bond in water releases energy. The energy released exceeds the energy required to rearrange the hydrated ions, so the net process releases energy.\n\n(f) The diagram shows H⁺(aq) + OH⁻(aq) on a higher horizontal line and H₂O(l) on a lower line, with a downward arrow between them labeled ΔH = −56.8 kJ/mol."
+    }
+  ]
+}

@@ -1,0 +1,625 @@
+{
+  "number": 3,
+  "title": "Properties of Substances and Mixtures",
+  "guide": {
+    "summary": "The largest unit on the exam (18–22%). It connects intermolecular forces (IMFs) to physical properties, then covers gases (ideal gas law, kinetic molecular theory, real-gas deviations), solutions and separations, and how light interacts with matter, including Beer–Lambert spectrophotometry.",
+    "sections": [
+      {
+        "heading": "Intermolecular forces and properties",
+        "body": "London dispersion forces exist between all particles and grow with the number of electrons and the size and polarizability of the electron cloud (and with surface contact area). Dipole–dipole forces act between polar molecules. Hydrogen bonding is a strong dipole interaction when H is bonded to N, O, or F and attracted to a lone pair on N, O, or F of another molecule. Ion–dipole forces drive dissolving of salts in water. Stronger IMFs mean higher boiling point, higher viscosity and surface tension, and lower vapor pressure. Caution: a large nonpolar molecule can have stronger total IMFs than a small polar one (HBr boils higher than HCl because of its larger electron cloud)."
+      },
+      {
+        "heading": "Types of solids",
+        "body": "Ionic solids: Coulombic attraction, high melting points, conduct when molten or dissolved. Covalent network solids (diamond, SiO₂): melting breaks covalent bonds, so melting points are very high. Molecular solids (I₂, ice, CO₂): only IMFs hold molecules together, so melting points are low. Metallic solids: delocalized electrons, conductive and malleable."
+      },
+      {
+        "heading": "Gases: ideal and real",
+        "body": "PV = nRT (R = 0.08206 L·atm/(mol·K); T in kelvins). Dalton's law: P_total = ΣP_i and P_A = χ_A·P_total. A gas collected over water is mixed with water vapor: subtract the vapor pressure. KMT: average kinetic energy depends only on T; at the same T, lighter particles move faster (speed ∝ 1/√M). Real gases deviate from ideal behavior at high pressure (particle volume matters) and low temperature (attractions matter); gases with strong IMFs (NH₃, H₂O) deviate most, and attractions make the measured pressure lower than ideal."
+      },
+      {
+        "heading": "Solutions and separations",
+        "body": "Molarity M = mol solute / L solution; dilution M₁V₁ = M₂V₂. 'Like dissolves like': solubility is favorable when solute–solvent interactions are comparable to the solute–solute and solvent–solvent interactions they replace. In paper or thin-layer chromatography, a component more attracted to the stationary phase travels less (lower Rf); with polar paper, more polar components have lower Rf. Distillation separates by differences in volatility (IMF strength)."
+      },
+      {
+        "heading": "Light and spectroscopy",
+        "body": "E = hν and c = λν. Microwave radiation changes molecular rotation, infrared changes vibrations, and UV/visible light changes electronic transitions. Beer–Lambert law: A = εbc, so absorbance is proportional to concentration; spectrophotometry uses a calibration curve at the wavelength of maximum absorbance. Errors: fingerprints or a wet cuvette change absorbance; using the wrong wavelength reduces sensitivity."
+      }
+    ],
+    "keyTakeaways": [
+      "Stronger IMFs → higher bp, lower vapor pressure.",
+      "London forces scale with electron count and polarizability; they can outweigh dipoles.",
+      "PV = nRT with T in K; subtract water vapor for gases collected over water.",
+      "Same T → same average KE; lighter gases move faster.",
+      "Real gases deviate most at high P, low T, and with strong IMFs.",
+      "A = εbc: absorbance ∝ concentration."
+    ],
+    "commonMistakes": [
+      "Claiming covalent bonds break when molecular substances boil.",
+      "Calling any H-containing molecule hydrogen-bonded (H must be on N, O, or F).",
+      "Using °C in gas laws.",
+      "Saying heavier gases have more kinetic energy at the same temperature.",
+      "Mixing up Rf: the component that travels farther interacts more with the mobile phase."
+    ],
+    "examTips": [
+      "IMF FRQs: name the IMF in both substances and compare strength with a particle-level reason.",
+      "Particulate diagrams of solutions: show water's O (δ−) facing cations and H (δ+) facing anions.",
+      "Lab FRQs often feature gas collection or spectrophotometry with an error-analysis part.",
+      "When asked if an error makes a result too high or too low, trace it through the equation."
+    ],
+    "cramSheet": "**IMFs:** LDF (all, ↑ with e⁻) < dipole < H-bond (H–N/O/F) · ion–dipole for salts in water\n\n**Properties:** strong IMF → high bp, low vapor pressure, high viscosity\n\n**Solids:** network ≫ ionic > metallic (varies) > molecular\n\n**Gas:** PV = nRT · R = 0.08206 · K = °C + 273 · P_A = χ_A P_tot · over water: subtract P_H₂O\n\n**KMT:** KE ∝ T · speed ∝ 1/√M · real: high P, low T, strong IMF\n\n**Solutions:** M = mol/L · M₁V₁ = M₂V₂ · like dissolves like\n\n**Light:** microwave rotation · IR vibration · UV/vis electrons · A = εbc"
+  },
+  "vocab": [
+    {
+      "term": "London dispersion forces",
+      "definition": "Attractions between temporary, induced dipoles; present in all substances and stronger for larger, more polarizable electron clouds."
+    },
+    {
+      "term": "Hydrogen bonding",
+      "definition": "Strong attraction between H bonded to N, O, or F and a lone pair on N, O, or F of another molecule."
+    },
+    {
+      "term": "Ion–dipole force",
+      "definition": "Attraction between an ion and the partial charge of a polar molecule."
+    },
+    {
+      "term": "Vapor pressure",
+      "definition": "Pressure of a vapor in equilibrium with its liquid; higher for weaker IMFs and higher temperature."
+    },
+    {
+      "term": "Covalent network solid",
+      "definition": "A solid in which atoms are joined by a continuous network of covalent bonds (e.g., diamond, SiO₂)."
+    },
+    {
+      "term": "Kinetic molecular theory",
+      "definition": "Model of gases: particles in constant random motion, negligible volume, no attractions, average KE ∝ T."
+    },
+    {
+      "term": "Partial pressure",
+      "definition": "The pressure a gas in a mixture would exert alone; P_A = χ_A·P_total."
+    },
+    {
+      "term": "Mole fraction (χ)",
+      "definition": "Moles of a component divided by total moles."
+    },
+    {
+      "term": "Molarity",
+      "definition": "Moles of solute per liter of solution."
+    },
+    {
+      "term": "Rf value",
+      "definition": "Distance traveled by a component divided by distance traveled by the solvent front in chromatography."
+    },
+    {
+      "term": "Beer–Lambert law",
+      "definition": "A = εbc: absorbance equals molar absorptivity × path length × concentration."
+    },
+    {
+      "term": "Polarizability",
+      "definition": "How easily an electron cloud can be distorted to form a temporary dipole."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Intermolecular Forces",
+      "stem": "What is the strongest type of intermolecular force between molecules of methanol, CH₃OH?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "London dispersion forces"
+        },
+        {
+          "id": "B",
+          "text": "Dipole–dipole forces without hydrogen bonding"
+        },
+        {
+          "id": "C",
+          "text": "Hydrogen bonding"
+        },
+        {
+          "id": "D",
+          "text": "Ion–dipole forces"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Methanol has an O–H bond, so H on one molecule is attracted to a lone pair on O of another.",
+      "distractors": {
+        "D": "No ions are present."
+      }
+    },
+    {
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Ideal Gas Law",
+      "stem": "How many moles of gas occupy 2.00 L at 1.00 atm and 300. K? (R = 0.08206 L·atm/(mol·K))",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.0812 mol"
+        },
+        {
+          "id": "B",
+          "text": "0.812 mol"
+        },
+        {
+          "id": "C",
+          "text": "12.3 mol"
+        },
+        {
+          "id": "D",
+          "text": "49.2 mol"
+        }
+      ],
+      "answer": "A",
+      "explanation": "n = PV/RT = (1.00)(2.00)/(0.08206 × 300.) = 0.0812 mol.",
+      "distractors": {
+        "C": "Inverted ratio RT/PV.",
+        "D": "Multiplies instead of divides."
+      }
+    },
+    {
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Solutions and Mixtures",
+      "stem": "What is the molarity of a solution made by dissolving 5.85 g of NaCl (58.44 g/mol) in enough water to make 250. mL of solution?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.0234 M"
+        },
+        {
+          "id": "B",
+          "text": "0.100 M"
+        },
+        {
+          "id": "C",
+          "text": "0.400 M"
+        },
+        {
+          "id": "D",
+          "text": "4.00 M"
+        }
+      ],
+      "answer": "C",
+      "explanation": "0.100 mol ÷ 0.250 L = 0.400 M.",
+      "distractors": {
+        "B": "Moles, not molarity.",
+        "A": "Divides by 250 instead of 0.250."
+      }
+    },
+    {
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Spectroscopy and the Electromagnetic Spectrum",
+      "stem": "Absorption of which type of radiation is most associated with changes in the vibrational motion of molecular bonds?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Microwave"
+        },
+        {
+          "id": "B",
+          "text": "Infrared"
+        },
+        {
+          "id": "C",
+          "text": "Visible"
+        },
+        {
+          "id": "D",
+          "text": "X-ray"
+        }
+      ],
+      "answer": "B",
+      "explanation": "IR excites bond vibrations; microwaves excite rotations; UV/visible excites electronic transitions.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Beer–Lambert Law",
+      "stimulus": "A solution in a 1.00 cm cuvette has an absorbance of 0.450 at its wavelength of maximum absorbance, where its molar absorptivity is 15.0 M⁻¹cm⁻¹.",
+      "stem": "The concentration of the solution is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.0300 M"
+        },
+        {
+          "id": "B",
+          "text": "0.300 M"
+        },
+        {
+          "id": "C",
+          "text": "6.75 M"
+        },
+        {
+          "id": "D",
+          "text": "33.3 M"
+        }
+      ],
+      "answer": "A",
+      "explanation": "c = A/(εb) = 0.450/(15.0 × 1.00) = 0.0300 M.",
+      "distractors": {
+        "C": "Multiplies A by ε.",
+        "D": "Inverts the ratio."
+      }
+    },
+    {
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Deviation from Ideal Gas Law",
+      "stem": "At the same high pressure and low temperature, which gas would show the greatest deviation from ideal behavior, and in which direction?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "He; measured pressure higher than ideal"
+        },
+        {
+          "id": "B",
+          "text": "NH₃; measured pressure lower than ideal, due to hydrogen-bonding attractions"
+        },
+        {
+          "id": "C",
+          "text": "H₂; measured pressure lower than ideal"
+        },
+        {
+          "id": "D",
+          "text": "Ne; measured pressure higher than ideal"
+        }
+      ],
+      "answer": "B",
+      "explanation": "NH₃ has the strongest attractions; molecules pulled toward each other strike walls less forcefully, lowering pressure.",
+      "distractors": {
+        "A": "He deviates least among these."
+      }
+    },
+    {
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Kinetic Molecular Theory",
+      "stem": "Samples of He (4.0 g/mol) and CH₄ (16.0 g/mol) are at the same temperature. Which statement is correct?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "CH₄ molecules have greater average kinetic energy."
+        },
+        {
+          "id": "B",
+          "text": "Both have the same average kinetic energy, and He atoms have about twice the average speed."
+        },
+        {
+          "id": "C",
+          "text": "Both have the same average speed."
+        },
+        {
+          "id": "D",
+          "text": "He atoms have about four times the average speed."
+        }
+      ],
+      "answer": "B",
+      "explanation": "KE depends only on T. Speed ∝ 1/√M: √(16/4) = 2.",
+      "distractors": {
+        "D": "Forgets the square root."
+      }
+    },
+    {
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Separation of Solutions and Mixtures",
+      "stimulus": "A mixture of two dyes is separated by paper chromatography (polar paper) with a mostly nonpolar solvent. Dye X has Rf = 0.20 and dye Y has Rf = 0.75.",
+      "stem": "Which conclusion is best supported?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Dye X is more polar than dye Y, because it interacts more strongly with the polar paper."
+        },
+        {
+          "id": "B",
+          "text": "Dye Y is more polar, because it traveled farther."
+        },
+        {
+          "id": "C",
+          "text": "Dye X has a larger molar mass, so it moves more slowly."
+        },
+        {
+          "id": "D",
+          "text": "The dyes have equal polarity."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Low Rf means strong attraction to the stationary (polar) phase relative to the nonpolar mobile phase.",
+      "distractors": {
+        "C": "Rf depends on relative attractions, not mass alone."
+      }
+    },
+    {
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Solubility",
+      "stem": "Which substance is most soluble in hexane, C₆H₁₄?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NaCl"
+        },
+        {
+          "id": "B",
+          "text": "I₂"
+        },
+        {
+          "id": "C",
+          "text": "KNO₃"
+        },
+        {
+          "id": "D",
+          "text": "Glucose, C₆H₁₂O₆"
+        }
+      ],
+      "answer": "B",
+      "explanation": "I₂ is nonpolar; its London forces with hexane are comparable to those it replaces. The others are ionic or extensively hydrogen-bonded.",
+      "distractors": {
+        "D": "Glucose's many O–H groups need a polar solvent."
+      }
+    },
+    {
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Solids, Liquids, and Gases",
+      "stem": "Rank the vapor pressures at 25 °C of diethyl ether (C₂H₅OC₂H₅), ethanol (C₂H₅OH), and water from highest to lowest.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "water > ethanol > diethyl ether"
+        },
+        {
+          "id": "B",
+          "text": "diethyl ether > ethanol > water"
+        },
+        {
+          "id": "C",
+          "text": "ethanol > diethyl ether > water"
+        },
+        {
+          "id": "D",
+          "text": "diethyl ether > water > ethanol"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Ether has no O–H, so it lacks hydrogen bonding between its molecules: weakest IMFs, highest vapor pressure. Water forms the most extensive H-bond network.",
+      "distractors": {
+        "A": "Reverses the IMF–vapor pressure relationship."
+      }
+    },
+    {
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Intermolecular Forces",
+      "stem": "HBr (bp −67 °C) boils at a higher temperature than HCl (bp −85 °C), even though HCl is more polar. Which explanation is best?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "HBr has hydrogen bonding and HCl does not."
+        },
+        {
+          "id": "B",
+          "text": "HBr has a larger, more polarizable electron cloud, so its London dispersion forces are stronger, and this outweighs HCl's stronger dipole–dipole forces."
+        },
+        {
+          "id": "C",
+          "text": "The H–Br bond is stronger than the H–Cl bond."
+        },
+        {
+          "id": "D",
+          "text": "HBr molecules have a larger dipole moment."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Br has more electrons than Cl; dispersion forces dominate the total IMF for these molecules.",
+      "distractors": {
+        "C": "Boiling doesn't break covalent bonds (and H–Br is actually weaker).",
+        "D": "HCl is more polar."
+      }
+    },
+    {
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Ideal Gas Law",
+      "stimulus": "Hydrogen gas is collected over water at 298 K in a 0.500 L container. The total pressure is 760. torr, and the vapor pressure of water at 298 K is 24 torr.",
+      "stem": "The number of moles of H₂ collected is closest to",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.0198 mol"
+        },
+        {
+          "id": "B",
+          "text": "0.0204 mol"
+        },
+        {
+          "id": "C",
+          "text": "0.0210 mol"
+        },
+        {
+          "id": "D",
+          "text": "15.0 mol"
+        }
+      ],
+      "answer": "A",
+      "explanation": "P_H₂ = 736 torr = 0.968 atm. n = (0.968)(0.500)/(0.08206 × 298) = 0.0198 mol.",
+      "distractors": {
+        "B": "Uses total pressure without subtracting water vapor.",
+        "D": "Uses torr directly with R in atm."
+      }
+    },
+    {
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Properties of Solids",
+      "stem": "SiO₂ melts above 1600 °C, while CO₂ sublimes at −78 °C. Which explanation is best?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Si–O bonds are polar while C=O bonds are nonpolar."
+        },
+        {
+          "id": "B",
+          "text": "SiO₂ is a covalent network solid, so melting requires breaking covalent bonds; CO₂ is a molecular solid held only by London forces."
+        },
+        {
+          "id": "C",
+          "text": "SiO₂ is ionic and CO₂ is covalent."
+        },
+        {
+          "id": "D",
+          "text": "SiO₂ has hydrogen bonding."
+        }
+      ],
+      "answer": "B",
+      "explanation": "The two compounds differ in solid type, not just IMFs.",
+      "distractors": {
+        "A": "C=O bonds are polar; the CO₂ molecule is nonpolar."
+      }
+    },
+    {
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Beer–Lambert Law",
+      "stimulus": "A student makes a calibration curve of absorbance vs. concentration for CuSO₄ standards. When measuring the unknown, the student does not dry the outside of the cuvette, leaving water droplets that scatter some light.",
+      "stem": "How does this error affect the calculated concentration of the unknown?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Too high, because scattered light that doesn't reach the detector registers as extra absorbance"
+        },
+        {
+          "id": "B",
+          "text": "Too low, because water dilutes the solution"
+        },
+        {
+          "id": "C",
+          "text": "No effect, because water is colorless"
+        },
+        {
+          "id": "D",
+          "text": "Too low, because droplets reduce the path length"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Less light reaches the detector, so measured absorbance is higher; from A = εbc, c is calculated too high.",
+      "distractors": {
+        "B": "Droplets outside the cuvette don't dilute the sample."
+      }
+    },
+    {
+      "id": "u3-frq1",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Gases and Vapor Pressure",
+      "frqType": "Long FRQ",
+      "prompt": "A student reacts 0.0360 g of magnesium ribbon (24.31 g/mol) with excess HCl(aq) and collects the H₂(g) produced over water at 25.0 °C. The total pressure of gas in the collection tube is 755 torr. The vapor pressure of water at 25.0 °C is 23.8 torr.",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Write the balanced net ionic equation for the reaction.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Calculate the partial pressure of H₂, in atm.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Calculate the expected volume of H₂, in mL, collected under these conditions.",
+          "points": 2
+        },
+        {
+          "label": "d",
+          "prompt": "Another student forgets to correct for water vapor and uses 755 torr as the pressure of H₂ when calculating moles of H₂ from the measured volume. Would that student's calculated moles of H₂ be greater than, less than, or equal to the actual moles? Justify your answer.",
+          "points": 2
+        },
+        {
+          "label": "e",
+          "prompt": "Using kinetic molecular theory, explain why the vapor pressure of water increases as temperature increases.",
+          "points": 2
+        },
+        {
+          "label": "f",
+          "prompt": "Explain why water vapor deviates more from ideal behavior than H₂ does under the same conditions.",
+          "points": 2
+        }
+      ],
+      "points": 10,
+      "minutes": 23,
+      "rubric": [
+        {
+          "criterion": "a: Net ionic equation",
+          "points": 1,
+          "description": "Mg(s) + 2 H⁺(aq) → Mg²⁺(aq) + H₂(g)."
+        },
+        {
+          "criterion": "b: Partial pressure",
+          "points": 1,
+          "description": "755 − 23.8 = 731.2 torr ÷ 760 = 0.962 atm."
+        },
+        {
+          "criterion": "c1: Moles of H₂",
+          "points": 1,
+          "description": "0.0360/24.31 = 1.48 × 10⁻³ mol Mg = mol H₂ (1:1)."
+        },
+        {
+          "criterion": "c2: Volume",
+          "points": 1,
+          "description": "V = nRT/P = (1.48 × 10⁻³)(0.08206)(298.2)/0.962 = 0.0377 L = 37.7 mL (consistent with b)."
+        },
+        {
+          "criterion": "d1: Claim",
+          "points": 1,
+          "description": "Greater than the actual moles."
+        },
+        {
+          "criterion": "d2: Justification",
+          "points": 1,
+          "description": "n = PV/RT; using 755 torr overstates the H₂ pressure, so n is too large."
+        },
+        {
+          "criterion": "e1: Energy distribution",
+          "points": 1,
+          "description": "At higher T, average kinetic energy of molecules increases."
+        },
+        {
+          "criterion": "e2: Escape",
+          "points": 1,
+          "description": "A greater fraction of molecules have enough energy to overcome hydrogen bonding and escape the liquid surface, so more molecules are in the vapor at equilibrium."
+        },
+        {
+          "criterion": "f1: Stronger attractions",
+          "points": 1,
+          "description": "Water molecules are polar and form hydrogen bonds; H₂ has only weak London forces."
+        },
+        {
+          "criterion": "f2: Effect",
+          "points": 1,
+          "description": "Attractions between water molecules reduce the force and frequency of collisions with walls, so behavior departs from ideal (pressure lower than predicted); KMT assumes no attractions."
+        }
+      ],
+      "sampleResponse": "(a) Mg(s) + 2 H⁺(aq) → Mg²⁺(aq) + H₂(g)\n\n(b) P_H₂ = 755 − 23.8 = 731.2 torr × (1 atm/760 torr) = 0.962 atm.\n\n(c) n(H₂) = n(Mg) = 0.0360 g ÷ 24.31 g/mol = 1.48 × 10⁻³ mol. V = nRT/P = (1.48 × 10⁻³)(0.08206)(298.2) ÷ 0.962 = 0.0377 L = 37.7 mL.\n\n(d) Greater than. Moles are calculated as n = PV/RT. Using 755 torr instead of 731 torr overstates the pressure of H₂, so the calculated n is too large.\n\n(e) As temperature increases, the average kinetic energy of water molecules increases, so a larger fraction of molecules at the surface have enough energy to overcome the hydrogen bonds holding them in the liquid. More molecules escape into the gas phase, increasing the vapor pressure.\n\n(f) Water molecules are polar and attract one another through hydrogen bonds, while H₂ molecules experience only weak London dispersion forces. The ideal gas model assumes no attractions; for water, these attractions pull molecules toward each other and reduce the force of collisions with the walls, so water vapor deviates more."
+    }
+  ]
+}

@@ -1,0 +1,589 @@
+{
+  "number": 1,
+  "title": "Atomic Structure and Properties",
+  "guide": {
+    "summary": "Unit 1 builds the atom-level foundation: counting particles with the mole, reading mass spectra and composition data, writing electron configurations, interpreting photoelectron spectra (PES), and explaining periodic trends with Coulomb's law. Every trend explanation on the exam must come back to nuclear charge, distance, and shielding.",
+    "sections": [
+      {
+        "heading": "Moles, mass spectra, and composition",
+        "body": "The mole links mass to particle count: n = m/M, and 1 mol = 6.022 × 10²³ particles. A mass spectrum of an element shows each isotope's mass and relative abundance; the average atomic mass is the abundance-weighted mean. Percent composition converts to an empirical formula: assume 100 g, convert grams to moles, divide by the smallest. Multiply the empirical formula by (molar mass ÷ empirical mass) to get the molecular formula. For mixtures, set up one unknown (e.g., grams of one component) and use a conserved quantity, such as total moles of Cl precipitated as AgCl."
+      },
+      {
+        "heading": "Electron configuration and PES",
+        "body": "Electrons fill 1s 2s 2p 3s 3p 4s 3d 4p… (Aufbau). Transition metals lose 4s electrons before 3d when forming cations (Fe → Fe²⁺ is [Ar]3d⁶). In PES, each peak is a subshell: its position is binding energy (how tightly held) and its height is proportional to the number of electrons. Core electrons have far higher binding energies. For the same subshell, binding energy increases with nuclear charge, so the 1s peak of Mg sits farther left (higher energy) than that of Na."
+      },
+      {
+        "heading": "Coulomb's law and periodic trends",
+        "body": "Attraction ∝ (q₁q₂)/r². Across a period, protons increase while shielding by core electrons stays nearly constant, so effective nuclear charge rises: radius shrinks, ionization energy and electronegativity rise. Down a group, valence electrons occupy a higher shell farther from the nucleus: radius grows and ionization energy falls. Exceptions: O has a lower first IE than N because the paired 2p electron in O experiences extra electron–electron repulsion; Al is lower than Mg because the 3p electron is higher in energy and shielded by 3s. Successive ionization energies jump sharply when a core electron is removed, which reveals the number of valence electrons."
+      },
+      {
+        "heading": "Ions and isoelectronic species",
+        "body": "Cations are smaller than their atoms (lost shell or less repulsion); anions are larger. In an isoelectronic series (e.g., O²⁻, F⁻, Ne, Na⁺, Mg²⁺), all have the same electrons, so the one with the most protons is smallest. Ionic compounds form between elements with very different electronegativities; formulas balance charges, and lattice energy grows with larger ionic charges and smaller ionic radii."
+      }
+    ],
+    "keyTakeaways": [
+      "Average atomic mass = Σ(isotope mass × fractional abundance).",
+      "Empirical formula: grams → moles → smallest whole-number ratio.",
+      "PES peak height ∝ electrons; position ∝ binding energy.",
+      "Trend explanations must cite Coulomb's law: charge, distance, shielding.",
+      "A big jump in successive IE marks the first core electron.",
+      "Transition metals lose ns electrons before (n−1)d."
+    ],
+    "commonMistakes": [
+      "Saying an atom 'wants' a full octet instead of explaining with Coulombic attraction.",
+      "Removing 3d electrons before 4s when forming transition-metal cations.",
+      "Confusing PES peak height (number of electrons) with position (energy).",
+      "Explaining trends with 'more electrons' instead of effective nuclear charge.",
+      "Rounding mole ratios like 1.5 to 2 instead of multiplying through."
+    ],
+    "examTips": [
+      "PES questions often ask you to identify an element or compare two elements' spectra.",
+      "Composition and mixture problems usually appear as multi-step MCQs; keep units on every line.",
+      "On FRQs, justify trends with both parts: compare protons (or Zeff) and compare distance or shielding.",
+      "Successive ionization energy tables are a common stimulus for identifying the group."
+    ],
+    "cramSheet": "**Mole:** n = m/M · 6.022 × 10²³ · avg mass = Σ(mass × abundance)\n\n**Formula:** % → g → mol → ÷ smallest → × to whole number · molecular = empirical × (M ÷ M_emp)\n\n**PES:** height = # e⁻ · left = higher binding energy · core ≫ valence\n\n**Trends:** across → Zeff ↑, r ↓, IE ↑, EN ↑ · down → r ↑, IE ↓\n\n**Exceptions:** N > O (paired 2p) · Mg > Al (3p shielded)\n\n**Ions:** cation smaller · anion larger · isoelectronic: more protons = smaller"
+  },
+  "vocab": [
+    {
+      "term": "Mole",
+      "definition": "6.022 × 10²³ particles; links mass to number of particles through molar mass."
+    },
+    {
+      "term": "Isotope",
+      "definition": "Atoms of the same element with different numbers of neutrons."
+    },
+    {
+      "term": "Empirical formula",
+      "definition": "The simplest whole-number ratio of atoms in a compound."
+    },
+    {
+      "term": "Photoelectron spectroscopy (PES)",
+      "definition": "A technique that measures the energy needed to remove electrons from each subshell; peak height shows electron count."
+    },
+    {
+      "term": "Binding energy",
+      "definition": "The energy required to remove an electron from a particular subshell."
+    },
+    {
+      "term": "Effective nuclear charge (Zeff)",
+      "definition": "The net positive charge felt by a valence electron after shielding by inner electrons."
+    },
+    {
+      "term": "Shielding",
+      "definition": "Reduction of nuclear attraction on outer electrons caused by inner (core) electrons."
+    },
+    {
+      "term": "Ionization energy",
+      "definition": "The energy required to remove the outermost electron from a gaseous atom or ion."
+    },
+    {
+      "term": "Electronegativity",
+      "definition": "An atom's ability to attract shared electrons in a bond."
+    },
+    {
+      "term": "Isoelectronic",
+      "definition": "Having the same number of electrons (e.g., Na⁺ and Ne)."
+    },
+    {
+      "term": "Coulomb's law",
+      "definition": "The force between charges is proportional to the product of the charges and inversely proportional to the square of the distance."
+    },
+    {
+      "term": "Aufbau principle",
+      "definition": "Electrons occupy the lowest-energy available orbitals first."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u1-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Moles and Molar Mass",
+      "stem": "How many atoms are in 9.0 g of H₂O (molar mass 18.0 g/mol)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3.0 × 10²³"
+        },
+        {
+          "id": "B",
+          "text": "6.0 × 10²³"
+        },
+        {
+          "id": "C",
+          "text": "9.0 × 10²³"
+        },
+        {
+          "id": "D",
+          "text": "1.8 × 10²⁴"
+        }
+      ],
+      "answer": "C",
+      "explanation": "9.0 g ÷ 18.0 g/mol = 0.50 mol H₂O. Each molecule has 3 atoms, so 1.5 mol atoms × 6.02 × 10²³ = 9.0 × 10²³ atoms.",
+      "distractors": {
+        "A": "Molecules, not atoms.",
+        "B": "Uses 1 mol instead of 0.50 mol."
+      }
+    },
+    {
+      "id": "u1-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Mass Spectra of Elements",
+      "stimulus": "A mass spectrum of chlorine shows peaks at 34.97 amu (75.77%) and 36.97 amu (24.23%).",
+      "stem": "The average atomic mass of chlorine is closest to",
+      "choices": [
+        {
+          "id": "A",
+          "text": "35.00 amu"
+        },
+        {
+          "id": "B",
+          "text": "35.45 amu"
+        },
+        {
+          "id": "C",
+          "text": "35.97 amu"
+        },
+        {
+          "id": "D",
+          "text": "36.45 amu"
+        }
+      ],
+      "answer": "B",
+      "explanation": "0.7577(34.97) + 0.2423(36.97) = 35.45 amu. The average lies closer to the more abundant isotope.",
+      "distractors": {
+        "C": "Unweighted average of the two masses."
+      }
+    },
+    {
+      "id": "u1-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Atomic Structure and Electron Configuration",
+      "stem": "Which is the ground-state electron configuration of Fe²⁺?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "[Ar] 4s² 3d⁴"
+        },
+        {
+          "id": "B",
+          "text": "[Ar] 3d⁶"
+        },
+        {
+          "id": "C",
+          "text": "[Ar] 4s² 3d⁶"
+        },
+        {
+          "id": "D",
+          "text": "[Ar] 4s¹ 3d⁵"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Fe is [Ar]4s²3d⁶. Transition metals lose 4s electrons first, giving Fe²⁺ = [Ar]3d⁶.",
+      "distractors": {
+        "A": "Removes 3d electrons before 4s.",
+        "C": "Neutral Fe."
+      }
+    },
+    {
+      "id": "u1-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Valence Electrons and Ionic Compounds",
+      "stem": "Which species has the smallest radius?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "O²⁻"
+        },
+        {
+          "id": "B",
+          "text": "F⁻"
+        },
+        {
+          "id": "C",
+          "text": "Na⁺"
+        },
+        {
+          "id": "D",
+          "text": "Mg²⁺"
+        }
+      ],
+      "answer": "D",
+      "explanation": "All are isoelectronic (10 electrons). Mg²⁺ has the most protons (12), so its electrons are pulled in most strongly.",
+      "distractors": {
+        "A": "Largest: fewest protons for 10 electrons."
+      }
+    },
+    {
+      "id": "u1-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Elemental Composition of Pure Substances",
+      "stimulus": "A compound contains 40.0% C, 6.7% H, and 53.3% O by mass. Its molar mass is about 180 g/mol.",
+      "stem": "What is the molecular formula of the compound?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "CH₂O"
+        },
+        {
+          "id": "B",
+          "text": "C₃H₆O₃"
+        },
+        {
+          "id": "C",
+          "text": "C₆H₁₂O₆"
+        },
+        {
+          "id": "D",
+          "text": "C₆H₆O₆"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Per 100 g: C 3.33 mol, H 6.65 mol, O 3.33 mol → CH₂O (30 g/mol). 180 ÷ 30 = 6, so C₆H₁₂O₆.",
+      "distractors": {
+        "A": "Empirical formula only.",
+        "B": "Molar mass 90, not 180."
+      }
+    },
+    {
+      "id": "u1-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Photoelectron Spectroscopy",
+      "stimulus": "A PES spectrum of an element shows five peaks. From highest to lowest binding energy, the relative peak heights are 2 : 2 : 6 : 2 : 1.",
+      "stem": "The element is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Na"
+        },
+        {
+          "id": "B",
+          "text": "Mg"
+        },
+        {
+          "id": "C",
+          "text": "Al"
+        },
+        {
+          "id": "D",
+          "text": "K"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Peaks correspond to 1s², 2s², 2p⁶, 3s², 3p¹: 13 electrons, so Al.",
+      "distractors": {
+        "A": "Na would show 2:2:6:1 (four peaks).",
+        "B": "Mg would show 2:2:6:2."
+      }
+    },
+    {
+      "id": "u1-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Periodic Trends",
+      "stimulus": "Successive ionization energies (kJ/mol) for element X: IE₁ = 738, IE₂ = 1451, IE₃ = 7733, IE₄ = 10,543.",
+      "stem": "Element X is most likely in which group, and why?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Group 1, because IE₁ is the smallest value"
+        },
+        {
+          "id": "B",
+          "text": "Group 2, because the large jump after IE₂ shows the third electron comes from a core shell closer to the nucleus"
+        },
+        {
+          "id": "C",
+          "text": "Group 13, because there are three relatively low ionization energies"
+        },
+        {
+          "id": "D",
+          "text": "Group 2, because IE₂ is about double IE₁"
+        }
+      ],
+      "answer": "B",
+      "explanation": "IE₃ is over five times IE₂: the third electron is a core electron with much less shielding and smaller distance. X has two valence electrons.",
+      "distractors": {
+        "D": "Right group, wrong reasoning: IE₂ > IE₁ for every element."
+      }
+    },
+    {
+      "id": "u1-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Periodic Trends",
+      "stem": "The first ionization energy of oxygen is lower than that of nitrogen. Which statement best explains this?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Oxygen has a smaller effective nuclear charge than nitrogen."
+        },
+        {
+          "id": "B",
+          "text": "In oxygen, one 2p orbital holds two electrons, and the repulsion between them makes one easier to remove."
+        },
+        {
+          "id": "C",
+          "text": "Oxygen's valence electrons are in a higher energy level than nitrogen's."
+        },
+        {
+          "id": "D",
+          "text": "Nitrogen is more electronegative than oxygen."
+        }
+      ],
+      "answer": "B",
+      "explanation": "N (2p³) has one electron in each 2p orbital; O (2p⁴) has a paired electron, and electron–electron repulsion lowers the energy needed to remove it.",
+      "distractors": {
+        "A": "O has a larger Zeff.",
+        "C": "Both use n = 2.",
+        "D": "Oxygen is more electronegative."
+      }
+    },
+    {
+      "id": "u1-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Photoelectron Spectroscopy",
+      "stem": "Compared with the PES spectrum of Na, the 1s peak in the spectrum of Mg is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "at a higher binding energy, because Mg has a greater nuclear charge"
+        },
+        {
+          "id": "B",
+          "text": "at a lower binding energy, because Mg has more electrons to shield the 1s electrons"
+        },
+        {
+          "id": "C",
+          "text": "at the same binding energy, because both 1s subshells hold two electrons"
+        },
+        {
+          "id": "D",
+          "text": "twice as tall, because Mg has twice as many valence electrons"
+        }
+      ],
+      "answer": "A",
+      "explanation": "1s electrons are not shielded by outer electrons; Mg's 12 protons attract them more strongly than Na's 11.",
+      "distractors": {
+        "D": "1s peaks both represent 2 electrons; height is equal."
+      }
+    },
+    {
+      "id": "u1-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Valence Electrons and Ionic Compounds",
+      "stem": "Which compound has the greatest lattice energy?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NaF"
+        },
+        {
+          "id": "B",
+          "text": "NaCl"
+        },
+        {
+          "id": "C",
+          "text": "MgO"
+        },
+        {
+          "id": "D",
+          "text": "KBr"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Lattice energy ∝ (q₁q₂)/r. MgO has ion charges of 2+ and 2− (product 4) and small ions; the others have charge product 1.",
+      "distractors": {
+        "A": "Smallest of the 1+/1− salts, but charge dominates."
+      }
+    },
+    {
+      "id": "u1-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Composition of Mixtures",
+      "stimulus": "A 2.000 g mixture of NaCl (58.44 g/mol) and KCl (74.55 g/mol) is dissolved, and all chloride is precipitated with excess AgNO₃, giving 4.300 g of AgCl (143.32 g/mol).",
+      "stem": "The mass percent of NaCl in the mixture is closest to",
+      "choices": [
+        {
+          "id": "A",
+          "text": "30%"
+        },
+        {
+          "id": "B",
+          "text": "43%"
+        },
+        {
+          "id": "C",
+          "text": "50%"
+        },
+        {
+          "id": "D",
+          "text": "57%"
+        }
+      ],
+      "answer": "B",
+      "explanation": "mol Cl = 4.300/143.32 = 0.03000. Let x = g NaCl: x/58.44 + (2.000 − x)/74.55 = 0.03000 → x ≈ 0.859 g, or 43%.",
+      "distractors": {
+        "D": "Percent KCl.",
+        "C": "Assumes equal masses without calculation."
+      }
+    },
+    {
+      "id": "u1-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Periodic Trends",
+      "stem": "Zn ([Ar]3d¹⁰4s²) has a higher first ionization energy than Ga ([Ar]3d¹⁰4s²4p¹). Which explanation is best?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ga has fewer protons than Zn."
+        },
+        {
+          "id": "B",
+          "text": "The electron removed from Ga is in a 4p orbital, which is higher in energy and partly shielded by the 4s electrons, so it is held less tightly."
+        },
+        {
+          "id": "C",
+          "text": "Zn's electron is removed from a 3d orbital, which is closer to the nucleus."
+        },
+        {
+          "id": "D",
+          "text": "Ga's 4p electron experiences greater effective nuclear charge than Zn's 4s electrons."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Like the Mg/Al anomaly, the first electron in a new p subshell is higher in energy and shielded by the filled s subshell.",
+      "distractors": {
+        "C": "Zn loses a 4s electron, not 3d.",
+        "A": "Ga has more protons (31 vs 30)."
+      }
+    },
+    {
+      "id": "u1-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Atomic Structure and Electron Configuration",
+      "stimulus": "Light of wavelength 5.00 × 10⁻⁷ m strikes a metal surface. (h = 6.626 × 10⁻³⁴ J·s, c = 2.998 × 10⁸ m/s)",
+      "stem": "If the minimum energy to eject an electron from this metal is 3.6 × 10⁻¹⁹ J, which statement is correct?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "No electrons are ejected because each photon carries only 3.0 × 10⁻¹⁹ J."
+        },
+        {
+          "id": "B",
+          "text": "Electrons are ejected, because each photon carries about 4.0 × 10⁻¹⁹ J, which exceeds the minimum."
+        },
+        {
+          "id": "C",
+          "text": "Electrons are ejected only if the light is bright enough, regardless of wavelength."
+        },
+        {
+          "id": "D",
+          "text": "No electrons are ejected because wavelength must exceed 1 × 10⁻⁶ m."
+        }
+      ],
+      "answer": "B",
+      "explanation": "E = hc/λ = (6.626 × 10⁻³⁴)(2.998 × 10⁸)/(5.00 × 10⁻⁷) ≈ 3.97 × 10⁻¹⁹ J > 3.6 × 10⁻¹⁹ J.",
+      "distractors": {
+        "C": "Ejection depends on photon energy (frequency), not intensity.",
+        "D": "Longer wavelength means lower energy."
+      }
+    },
+    {
+      "id": "u1-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Periodic Trends",
+      "stem": "Which ranking of atomic radius is correct, and for the correct reason?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "K > Na > Mg, because K has an additional occupied shell and Mg has greater Zeff than Na in the same shell"
+        },
+        {
+          "id": "B",
+          "text": "Mg > Na > K, because Mg has more electrons"
+        },
+        {
+          "id": "C",
+          "text": "Na > K > Mg, because K has more protons than Na"
+        },
+        {
+          "id": "D",
+          "text": "K > Mg > Na, because radius increases with atomic number"
+        }
+      ],
+      "answer": "A",
+      "explanation": "K's valence electron is in n = 4, farther from the nucleus. Na and Mg share n = 3, but Mg's extra proton (with similar core shielding) pulls electrons closer.",
+      "distractors": {
+        "D": "Radius decreases across a period."
+      }
+    },
+    {
+      "id": "u1-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "PES and Periodic Trends",
+      "frqType": "Short FRQ",
+      "prompt": "Answer the following about phosphorus (P) and sulfur (S).",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Write the complete ground-state electron configuration of S.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "The first ionization energy of P (1012 kJ/mol) is greater than that of S (1000 kJ/mol), even though S has more protons. Explain this using electron configurations.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "In the PES spectra of P and S, the 2p peaks represent the same number of electrons. Identify which element's 2p peak has the higher binding energy, and justify your answer.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Sulfur has four stable isotopes; the two most abundant are ³²S (31.97 amu, 94.99%) and ³⁴S (33.97 amu, 4.25%). Without calculating, explain why the average atomic mass of S (32.06 amu) is close to 32.",
+          "points": 1
+        }
+      ],
+      "points": 4,
+      "minutes": 9,
+      "rubric": [
+        {
+          "criterion": "a: Configuration",
+          "points": 1,
+          "description": "1s²2s²2p⁶3s²3p⁴."
+        },
+        {
+          "criterion": "b: Paired-electron repulsion",
+          "points": 1,
+          "description": "S has a paired 3p electron (3p⁴); repulsion between paired electrons makes it easier to remove than any of P's unpaired 3p³ electrons."
+        },
+        {
+          "criterion": "c: Higher binding energy",
+          "points": 1,
+          "description": "S, because it has more protons (16 vs 15), and its 2p electrons experience similar shielding (only from 1s and 2s), so the nucleus attracts them more strongly."
+        },
+        {
+          "criterion": "d: Weighted average",
+          "points": 1,
+          "description": "The average is weighted by abundance; ³²S makes up about 95% of atoms, so the mean lies close to its mass."
+        }
+      ],
+      "sampleResponse": "(a) 1s² 2s² 2p⁶ 3s² 3p⁴.\n\n(b) P is 3p³ with one electron in each 3p orbital. S is 3p⁴, so one 3p orbital holds a pair. Repulsion between the paired electrons raises that electron's energy, so less energy is needed to remove it, despite S's greater nuclear charge.\n\n(c) S. Both 2p subshells are shielded only by the 1s and 2s electrons, but S has 16 protons versus 15 for P, so the Coulombic attraction on S's 2p electrons is greater and the binding energy is higher.\n\n(d) The average atomic mass is an abundance-weighted mean. Because about 95% of sulfur atoms are ³²S, the average is pulled very close to 31.97, with only a small increase from the heavier isotopes."
+    }
+  ]
+}

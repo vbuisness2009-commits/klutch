@@ -1,0 +1,90 @@
+{
+ "slug": "chemistry",
+ "name": "AP Chemistry",
+ "lastVerified": "2026-10",
+ "overview": "AP Chemistry is a first-year college general chemistry course. The exam tests whether you can connect particle-level models (atoms, bonds, intermolecular forces, collisions) to measurable properties and data, and carry out multi-step quantitative reasoning: stoichiometry, gas laws, kinetics, equilibrium, pH, thermochemistry, and electrochemistry. Questions are built on particulate diagrams, data tables, graphs, and lab scenarios; pure recall is rare.",
+ "examMode": "Hybrid digital: multiple-choice is taken in the Bluebook app; free-response questions are viewed in Bluebook and answers are handwritten in a paper booklet.",
+ "totalMinutes": 195,
+ "sections": [
+  {
+   "name": "Section I",
+   "questionType": "Multiple choice (4 options, A–D)",
+   "count": 60,
+   "minutes": 90,
+   "weight": "50%",
+   "calculator": "Allowed",
+   "notes": "Mix of discrete questions and sets built on a shared stimulus (data, particulate diagrams, lab descriptions). A periodic table and equation sheet are provided."
+  },
+  {
+   "name": "Section II",
+   "questionType": "Free response: 3 long (10 pts each) + 4 short (4 pts each)",
+   "count": 7,
+   "minutes": 105,
+   "weight": "50%",
+   "calculator": "Allowed",
+   "notes": "Long questions are multi-part and usually span several units, often built around a lab or data set. Suggested pacing ~23 min per long question and ~9 min per short question."
+  }
+ ],
+ "units": [
+  { "number": 1, "title": "Atomic Structure and Properties", "weight": "7–9%" },
+  { "number": 2, "title": "Compound Structure and Properties", "weight": "7–9%" },
+  { "number": 3, "title": "Properties of Substances and Mixtures", "weight": "18–22%" },
+  { "number": 4, "title": "Chemical Reactions", "weight": "7–9%" },
+  { "number": 5, "title": "Kinetics", "weight": "7–9%" },
+  { "number": 6, "title": "Thermochemistry", "weight": "7–9%" },
+  { "number": 7, "title": "Equilibrium", "weight": "7–9%" },
+  { "number": 8, "title": "Acids and Bases", "weight": "11–15%" },
+  { "number": 9, "title": "Thermodynamics and Electrochemistry", "weight": "7–9%" }
+ ],
+ "skills": [
+  { "name": "1. Models and Representations", "description": "Describe and explain chemical phenomena using particulate models, Lewis diagrams, and other representations." },
+  { "name": "2. Question and Method", "description": "Identify testable questions, hypotheses, procedures, and sources of error in experiments." },
+  { "name": "3. Representing Data and Phenomena", "description": "Represent chemical phenomena with equations, graphs, and diagrams." },
+  { "name": "4. Model Analysis", "description": "Analyze and interpret models and explain their limitations." },
+  { "name": "5. Mathematical Routines", "description": "Solve problems with mathematical relationships: stoichiometry, gas laws, rate laws, equilibrium, pH, ΔG, cell potential." },
+  { "name": "6. Argumentation", "description": "Develop explanations or scientific arguments using claims, evidence, and particle-level reasoning." }
+ ],
+ "scoring": {
+  "summary": "Section I (60 MCQ, 1 raw point each, no guessing penalty) and Section II (46 raw points: 3 × 10 + 4 × 4) are each scaled to 50% of a weighted composite, which College Board converts to a 1–5 score using cut points set each year. Partial credit on FRQs is generous: a correct method with a carried-forward error still earns most points.",
+  "approxCutoffs": [
+   { "score": 5, "minPercent": 72 },
+   { "score": 4, "minPercent": 58 },
+   { "score": 3, "minPercent": 43 },
+   { "score": 2, "minPercent": 28 }
+  ]
+ },
+ "frqTypes": [
+  { "name": "Long FRQ", "points": 10, "howScored": "Multi-part question (often a lab or data set) spanning several units. Points awarded per element: correct calculation with setup and units, correct claim plus particle-level justification, correct representation (Lewis diagram, particulate drawing, graph). Errors carried forward are not penalized twice." },
+  { "name": "Short FRQ", "points": 4, "howScored": "Usually 3–4 parts on one topic. One point per correct calculation, justified claim, or representation." }
+ ],
+ "strategy": [
+  "Budget about 90 seconds per MCQ; skip and flag any long calculation and return to it.",
+  "Estimate before computing: most MCQ answer choices differ by a factor of 2, 10, or a sign, so a rough calculation often decides it.",
+  "On FRQs, always show the setup with units; a correct setup with an arithmetic slip still earns points.",
+  "Justifications must reference particles: 'stronger London dispersion forces because larger, more polarizable electron cloud', not 'bigger molecule'.",
+  "For any 'explain' about a property, name the specific interaction (ion–dipole, hydrogen bonding, Coulombic attraction) and compare it between the two substances.",
+  "Use Q vs. K to predict shifts; it is more reliable than memorized Le Châtelier rules.",
+  "Write net ionic equations: drop spectator ions and keep weak acids, weak bases, solids, gases, and water as molecules.",
+  "Answer each part independently; a later part often doesn't need an earlier answer, or lets you use a carried-forward value."
+ ],
+ "pitfalls": [
+  "Saying bonds break during boiling; phase changes overcome intermolecular forces, not covalent bonds.",
+  "Thinking bond breaking releases energy; breaking bonds always absorbs energy.",
+  "Treating a catalyst as shifting equilibrium or changing ΔH; it only lowers activation energy for both directions.",
+  "Confusing strong vs. concentrated, and weak vs. dilute, for acids.",
+  "Using the wrong sign convention for q, ΔH, and work, or forgetting to convert J to kJ.",
+  "Including solids or pure liquids in equilibrium expressions.",
+  "Assuming every reaction with negative ΔH is thermodynamically favored; check ΔG = ΔH − TΔS.",
+  "Explaining periodic trends with 'wants to fill its octet' instead of Coulomb's law (effective nuclear charge and distance)."
+ ],
+ "referenceSheet": "A periodic table and an equations and constants sheet are provided in both sections. It includes: atomic structure (E = hν, c = λν); equilibrium (Kc, Kp, Ka, Kb, Kw = 1.0 × 10⁻¹⁴ at 25 °C, pH = −log[H⁺], pH + pOH = 14, pKa = −log Ka, Henderson–Hasselbalch); kinetics (integrated rate laws for zero, first, and second order, t½ = 0.693/k for first order); gases, liquids, and solutions (PV = nRT, Dalton's law, KE = ½mv², M = n/V, A = εbc); thermodynamics and electrochemistry (q = mcΔT, ΔS°, ΔH°, ΔG° as sums over products minus reactants, ΔG° = ΔH° − TΔS°, ΔG° = −RT ln K, ΔG° = −nFE°, I = q/t); constants (R = 8.314 J/(mol·K) = 0.08206 L·atm/(mol·K), F = 96,485 C/mol e⁻, Avogadro's number, Planck's constant, speed of light).",
+ "sources": [
+  { "title": "AP Chemistry Exam (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-chemistry/exam" },
+  { "title": "AP Chemistry Course (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-chemistry/course" },
+  { "title": "AP Chemistry Course and Exam Description", "url": "https://apcentral.collegeboard.org/media/pdf/ap-chemistry-course-and-exam-description.pdf" }
+ ],
+ "caveats": [
+  "Unit titles and weightings follow the revised course framework; check AP Central for any later revision.",
+  "Cutoffs are estimates; College Board does not publish exact cut scores and they change yearly."
+ ]
+}

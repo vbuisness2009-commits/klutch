@@ -1,0 +1,574 @@
+{
+  "number": 9,
+  "title": "Thermodynamics and Electrochemistry",
+  "guide": {
+    "summary": "The final unit asks whether a process is thermodynamically favored and how that connects to equilibrium and electrochemistry. You must predict entropy changes, calculate ΔG° from ΔH° and ΔS°, relate ΔG° to K and E°, distinguish thermodynamic favorability from rate, analyze galvanic and electrolytic cells, and apply Faraday's law.",
+    "sections": [
+      {
+        "heading": "Entropy and Gibbs free energy",
+        "body": "Entropy (S) measures dispersal of matter and energy. ΔS > 0 when solids/liquids become gases, when moles of gas increase, when a solid dissolves (usually), or when temperature rises. ΔG° = ΔH° − TΔS° (convert ΔS° from J/K to kJ/K). ΔG° < 0: thermodynamically favored. Sign table: ΔH < 0, ΔS > 0 → favored at all T; ΔH > 0, ΔS < 0 → never; ΔH < 0, ΔS < 0 → favored at low T; ΔH > 0, ΔS > 0 → favored at high T. The crossover temperature is T = ΔH°/ΔS°."
+      },
+      {
+        "heading": "Favorability, rate, and coupling",
+        "body": "A thermodynamically favored process may not occur at an observable rate if its activation energy is high (kinetic control): diamond converting to graphite is favored but extremely slow. Unfavorable reactions can be driven by coupling them with a favored reaction that shares an intermediate (ΔG values add), by supplying energy (light, electricity), or by removing products."
+      },
+      {
+        "heading": "ΔG°, K, and E°",
+        "body": "ΔG° = −RT ln K: ΔG° < 0 ↔ K > 1. ΔG° = −nFE°: E° > 0 ↔ favored. When ΔG° is near zero, K is near 1 and significant amounts of both reactants and products are present at equilibrium. Under nonstandard conditions, E decreases as Q increases (Nernst equation qualitatively): increasing product ion concentration or decreasing reactant ion concentration lowers cell voltage. A cell at equilibrium has E = 0 ('dead battery')."
+      },
+      {
+        "heading": "Galvanic and electrolytic cells",
+        "body": "Galvanic cells convert chemical energy to electrical (E° > 0). Oxidation at the anode, reduction at the cathode; electrons flow through the wire from anode to cathode. In the salt bridge, anions migrate toward the anode and cations toward the cathode to maintain neutrality. E°cell = E°(cathode) − E°(anode) using reduction potentials; do not multiply E° by coefficients. Electrolytic cells use an external source to drive a nonspontaneous reaction. Faraday: q = It; mol e⁻ = q/F; mol metal = mol e⁻ ÷ (charge of ion)."
+      }
+    ],
+    "keyTakeaways": [
+      "ΔG° = ΔH° − TΔS° (watch J vs kJ).",
+      "ΔG° < 0 ↔ K > 1 ↔ E° > 0.",
+      "Favored doesn't mean fast.",
+      "Anode = oxidation; electrons flow anode → cathode.",
+      "E° is intensive: never multiply by coefficients.",
+      "mol e⁻ = It/F."
+    ],
+    "commonMistakes": [
+      "Mixing J and kJ in ΔG = ΔH − TΔS.",
+      "Multiplying E° values when balancing half-reactions.",
+      "Saying a favored reaction must be fast.",
+      "Reversing salt-bridge ion flow.",
+      "Forgetting n (moles of electrons) in ΔG° = −nFE°."
+    ],
+    "examTips": [
+      "Expect a galvanic cell diagram in FRQs: identify anode, cathode, electron flow, and ion flow.",
+      "Justify entropy predictions with phases and moles of gas.",
+      "For 'favored but not observed', cite a high activation energy.",
+      "Electrolysis problems: track units through C → mol e⁻ → mol metal → grams."
+    ],
+    "cramSheet": "**ΔS > 0:** s → l → g · more gas moles · dissolving\n\n**ΔG:** ΔH − TΔS · < 0 favored · T = ΔH/ΔS crossover\n\n**Links:** ΔG° = −RT ln K = −nFE° · K > 1 ↔ E° > 0\n\n**Kinetic control:** favored but high Ea → slow\n\n**Cells:** AN OX · RED CAT · e⁻ anode → cathode · anions → anode · E°cell = E°cat − E°an\n\n**Nernst (qual.):** Q ↑ → E ↓ · equilibrium → E = 0\n\n**Faraday:** q = It · mol e⁻ = q/F · F = 96,485 C/mol"
+  },
+  "vocab": [
+    {
+      "term": "Entropy (S)",
+      "definition": "A measure of the dispersal of matter and energy in a system."
+    },
+    {
+      "term": "Gibbs free energy (ΔG)",
+      "definition": "ΔH − TΔS; negative values indicate a thermodynamically favored process."
+    },
+    {
+      "term": "Thermodynamically favored",
+      "definition": "A process with ΔG < 0 that proceeds without continuous outside energy input."
+    },
+    {
+      "term": "Kinetic control",
+      "definition": "A favored reaction that doesn't occur at a measurable rate because of a high activation energy."
+    },
+    {
+      "term": "Coupled reactions",
+      "definition": "An unfavorable reaction driven by a favorable one through a shared intermediate."
+    },
+    {
+      "term": "Galvanic (voltaic) cell",
+      "definition": "An electrochemical cell in which a favored redox reaction produces electric current."
+    },
+    {
+      "term": "Electrolytic cell",
+      "definition": "An electrochemical cell driven by an external power source to cause a nonspontaneous reaction."
+    },
+    {
+      "term": "Anode",
+      "definition": "The electrode where oxidation occurs."
+    },
+    {
+      "term": "Cathode",
+      "definition": "The electrode where reduction occurs."
+    },
+    {
+      "term": "Salt bridge",
+      "definition": "A connection containing ions that maintains electrical neutrality in each half-cell."
+    },
+    {
+      "term": "Standard reduction potential (E°)",
+      "definition": "The tendency of a species to be reduced under standard conditions, in volts."
+    },
+    {
+      "term": "Faraday constant (F)",
+      "definition": "Charge of one mole of electrons: 96,485 C/mol."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u9-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Introduction to Entropy",
+      "stem": "Which process has ΔS < 0?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "H₂O(l) → H₂O(g)"
+        },
+        {
+          "id": "B",
+          "text": "2H₂(g) + O₂(g) → 2H₂O(l)"
+        },
+        {
+          "id": "C",
+          "text": "CaCO₃(s) → CaO(s) + CO₂(g)"
+        },
+        {
+          "id": "D",
+          "text": "NaCl(s) → Na⁺(aq) + Cl⁻(aq)"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Three moles of gas become liquid: matter becomes far less dispersed.",
+      "distractors": {}
+    },
+    {
+      "id": "u9-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Galvanic (Voltaic) Cells",
+      "stimulus": "E°(Cu²⁺/Cu) = +0.34 V; E°(Zn²⁺/Zn) = −0.76 V",
+      "stem": "What is E°cell for a galvanic cell made from these half-cells?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.42 V"
+        },
+        {
+          "id": "B",
+          "text": "1.10 V"
+        },
+        {
+          "id": "C",
+          "text": "−1.10 V"
+        },
+        {
+          "id": "D",
+          "text": "2.20 V"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Cu²⁺ is reduced (cathode), Zn is oxidized (anode): 0.34 − (−0.76) = 1.10 V.",
+      "distractors": {
+        "A": "Adds the potentials directly.",
+        "D": "Multiplies by electrons transferred."
+      }
+    },
+    {
+      "id": "u9-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Gibbs Free Energy and Thermodynamic Favorability",
+      "stem": "A reaction has ΔH° > 0 and ΔS° > 0. It is thermodynamically favored",
+      "choices": [
+        {
+          "id": "A",
+          "text": "at all temperatures"
+        },
+        {
+          "id": "B",
+          "text": "at no temperature"
+        },
+        {
+          "id": "C",
+          "text": "only at high temperatures"
+        },
+        {
+          "id": "D",
+          "text": "only at low temperatures"
+        }
+      ],
+      "answer": "C",
+      "explanation": "ΔG = ΔH − TΔS becomes negative when TΔS > ΔH, which requires large T.",
+      "distractors": {}
+    },
+    {
+      "id": "u9-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Galvanic (Voltaic) Cells",
+      "stem": "In a galvanic cell, electrons flow",
+      "choices": [
+        {
+          "id": "A",
+          "text": "through the salt bridge from cathode to anode"
+        },
+        {
+          "id": "B",
+          "text": "through the external wire from anode to cathode"
+        },
+        {
+          "id": "C",
+          "text": "through the external wire from cathode to anode"
+        },
+        {
+          "id": "D",
+          "text": "through the solution from anode to cathode"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Oxidation at the anode releases electrons that travel through the wire to the cathode. Ions, not electrons, move through the salt bridge.",
+      "distractors": {}
+    },
+    {
+      "id": "u9-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Gibbs Free Energy and Thermodynamic Favorability",
+      "stem": "For N₂(g) + 3H₂(g) → 2NH₃(g), ΔH° = −92 kJ/mol and ΔS° = −199 J/(mol·K). Which is correct?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ΔG°(298 K) ≈ −33 kJ/mol; the reaction is no longer favored above about 460 K."
+        },
+        {
+          "id": "B",
+          "text": "ΔG°(298 K) ≈ +59 kJ/mol; it is favored only at high temperature."
+        },
+        {
+          "id": "C",
+          "text": "ΔG°(298 K) ≈ −59,000 kJ/mol; favored at all temperatures."
+        },
+        {
+          "id": "D",
+          "text": "ΔG°(298 K) ≈ −151 kJ/mol; favored at all temperatures."
+        }
+      ],
+      "answer": "A",
+      "explanation": "ΔG° = −92 − 298(−0.199) = −32.7 kJ/mol. Crossover T = 92/0.199 ≈ 462 K; above that, ΔG° > 0.",
+      "distractors": {
+        "C": "Uses J for ΔS without converting.",
+        "D": "Adds TΔS with the wrong sign."
+      }
+    },
+    {
+      "id": "u9-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Free Energy and Equilibrium",
+      "stem": "A reaction has ΔG° = −5.7 kJ/mol at 298 K. Its equilibrium constant is closest to",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.10"
+        },
+        {
+          "id": "B",
+          "text": "1.0"
+        },
+        {
+          "id": "C",
+          "text": "10"
+        },
+        {
+          "id": "D",
+          "text": "1.0 × 10⁵"
+        }
+      ],
+      "answer": "C",
+      "explanation": "K = e^(−ΔG°/RT) = e^(5700/(8.314 × 298)) = e^2.30 ≈ 10.",
+      "distractors": {
+        "A": "Sign error in the exponent."
+      }
+    },
+    {
+      "id": "u9-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Thermodynamic and Kinetic Control",
+      "stem": "The conversion of diamond to graphite has ΔG° < 0 at room temperature, yet diamonds do not visibly change. Which explains this?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The reaction has a very large activation energy, so its rate is negligible."
+        },
+        {
+          "id": "B",
+          "text": "ΔG° is actually positive at room temperature."
+        },
+        {
+          "id": "C",
+          "text": "The reaction is at equilibrium."
+        },
+        {
+          "id": "D",
+          "text": "Graphite is less stable than diamond."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Thermodynamic favorability says nothing about rate; strong covalent networks must be broken.",
+      "distractors": {}
+    },
+    {
+      "id": "u9-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Electrolysis and Faraday's Law",
+      "stem": "A current of 2.00 A passes through a Cu²⁺ solution for 965 s. What mass of Cu (63.55 g/mol) is deposited?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.318 g"
+        },
+        {
+          "id": "B",
+          "text": "0.636 g"
+        },
+        {
+          "id": "C",
+          "text": "1.27 g"
+        },
+        {
+          "id": "D",
+          "text": "63.6 g"
+        }
+      ],
+      "answer": "B",
+      "explanation": "q = 1930 C → 0.0200 mol e⁻ → 0.0100 mol Cu (2 e⁻ each) → 0.636 g.",
+      "distractors": {
+        "C": "Ignores 2 e⁻ per Cu²⁺."
+      }
+    },
+    {
+      "id": "u9-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Cell Potential and Free Energy",
+      "stem": "For Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), E° = 1.10 V. ΔG° is closest to",
+      "choices": [
+        {
+          "id": "A",
+          "text": "−106 kJ/mol"
+        },
+        {
+          "id": "B",
+          "text": "−212 kJ/mol"
+        },
+        {
+          "id": "C",
+          "text": "+212 kJ/mol"
+        },
+        {
+          "id": "D",
+          "text": "−2.12 × 10⁵ kJ/mol"
+        }
+      ],
+      "answer": "B",
+      "explanation": "ΔG° = −nFE° = −(2)(96,485)(1.10) = −2.12 × 10⁵ J = −212 kJ/mol.",
+      "distractors": {
+        "A": "n = 1.",
+        "D": "Forgets to convert J to kJ."
+      }
+    },
+    {
+      "id": "u9-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Cell Potential Under Nonstandard Conditions",
+      "stem": "In a Zn/Cu galvanic cell, [Zn²⁺] is increased while [Cu²⁺] is kept at 1 M. How does the cell potential change?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It increases, because Q decreases."
+        },
+        {
+          "id": "B",
+          "text": "It decreases, because Q increases."
+        },
+        {
+          "id": "C",
+          "text": "It is unchanged, because E° is constant."
+        },
+        {
+          "id": "D",
+          "text": "It becomes negative immediately."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Q = [Zn²⁺]/[Cu²⁺] increases, so E = E° − (RT/nF) ln Q decreases.",
+      "distractors": {
+        "C": "E° is constant, but E is not."
+      }
+    },
+    {
+      "id": "u9-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Galvanic (Voltaic) Cells",
+      "stimulus": "E°(Ag⁺/Ag) = +0.80 V; E°(Ni²⁺/Ni) = −0.23 V. The balanced reaction is 2Ag⁺ + Ni → 2Ag + Ni²⁺.",
+      "stem": "Which correctly gives E°cell and ΔG°?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "E° = 1.37 V; ΔG° = −264 kJ/mol"
+        },
+        {
+          "id": "B",
+          "text": "E° = 1.03 V; ΔG° = −199 kJ/mol"
+        },
+        {
+          "id": "C",
+          "text": "E° = 1.03 V; ΔG° = −99 kJ/mol"
+        },
+        {
+          "id": "D",
+          "text": "E° = 0.57 V; ΔG° = −110 kJ/mol"
+        }
+      ],
+      "answer": "B",
+      "explanation": "E° = 0.80 − (−0.23) = 1.03 V (don't double Ag's potential). n = 2: ΔG° = −2(96,485)(1.03) = −199 kJ/mol.",
+      "distractors": {
+        "A": "Doubles E° for Ag.",
+        "C": "Uses n = 1."
+      }
+    },
+    {
+      "id": "u9-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Coupled Reactions",
+      "stimulus": "Reaction 1: A → B, ΔG° = +20 kJ/mol\nReaction 2: B → C, ΔG° = −35 kJ/mol",
+      "stem": "Which statement is correct?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A → C is favored with ΔG° = −15 kJ/mol; reaction 2 drives reaction 1 by consuming B."
+        },
+        {
+          "id": "B",
+          "text": "A → C is unfavored because reaction 1 is unfavored."
+        },
+        {
+          "id": "C",
+          "text": "ΔG° for A → C is −55 kJ/mol."
+        },
+        {
+          "id": "D",
+          "text": "Coupling changes ΔG° of reaction 1 to a negative value."
+        }
+      ],
+      "answer": "A",
+      "explanation": "ΔG values add: +20 + (−35) = −15 kJ/mol. Removing B keeps Q for reaction 1 low.",
+      "distractors": {
+        "D": "Each reaction's ΔG° is unchanged; the overall sum is negative."
+      }
+    },
+    {
+      "id": "u9-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Galvanic (Voltaic) Cells",
+      "stem": "In a Zn/Cu galvanic cell with a KNO₃ salt bridge, which describes ion movement in the salt bridge?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "NO₃⁻ moves toward the Zn half-cell; K⁺ moves toward the Cu half-cell."
+        },
+        {
+          "id": "B",
+          "text": "NO₃⁻ moves toward the Cu half-cell; K⁺ moves toward the Zn half-cell."
+        },
+        {
+          "id": "C",
+          "text": "Electrons move through the salt bridge toward Cu."
+        },
+        {
+          "id": "D",
+          "text": "Neither ion moves."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Zn²⁺ builds up at the anode (needs anions); Cu²⁺ is removed at the cathode (needs cations).",
+      "distractors": {
+        "C": "Electrons never travel through the solution."
+      }
+    },
+    {
+      "id": "u9-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Free Energy and Equilibrium",
+      "stem": "A galvanic cell runs until its voltage reads 0 V. Which statement is true at this point?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Q = K and ΔG = 0."
+        },
+        {
+          "id": "B",
+          "text": "E° = 0."
+        },
+        {
+          "id": "C",
+          "text": "All reactants have been consumed."
+        },
+        {
+          "id": "D",
+          "text": "Q > K and the reaction will reverse spontaneously."
+        }
+      ],
+      "answer": "A",
+      "explanation": "The cell has reached equilibrium; E (not E°) and ΔG (not ΔG°) equal zero.",
+      "distractors": {
+        "B": "E° is a fixed property of the reaction.",
+        "C": "Equilibrium mixtures still contain reactants."
+      }
+    },
+    {
+      "id": "u9-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Galvanic Cells",
+      "frqType": "Short FRQ",
+      "prompt": "A galvanic cell is built from a silver electrode in 1.0 M AgNO₃ and a nickel electrode in 1.0 M Ni(NO₃)₂, connected by a KNO₃ salt bridge. E°(Ag⁺/Ag) = +0.80 V; E°(Ni²⁺/Ni) = −0.23 V.",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Write the half-reaction that occurs at the anode.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Calculate E°cell.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Calculate ΔG° for the cell reaction, in kJ/mol.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Some solid Ni(NO₃)₂ is dissolved in the nickel half-cell. Predict whether the cell voltage increases, decreases, or stays the same. Justify.",
+          "points": 1
+        }
+      ],
+      "points": 4,
+      "minutes": 9,
+      "rubric": [
+        {
+          "criterion": "a: Anode",
+          "points": 1,
+          "description": "Ni(s) → Ni²⁺(aq) + 2e⁻."
+        },
+        {
+          "criterion": "b: E°",
+          "points": 1,
+          "description": "0.80 − (−0.23) = 1.03 V."
+        },
+        {
+          "criterion": "c: ΔG°",
+          "points": 1,
+          "description": "−(2)(96,485)(1.03) = −1.99 × 10⁵ J = −199 kJ/mol."
+        },
+        {
+          "criterion": "d: Nonstandard",
+          "points": 1,
+          "description": "Decreases; [Ni²⁺] is a product, so Q = [Ni²⁺]/[Ag⁺]² increases, decreasing E."
+        }
+      ],
+      "sampleResponse": "(a) Ni(s) → Ni²⁺(aq) + 2e⁻\n\n(b) Ag⁺ is reduced at the cathode. E°cell = 0.80 − (−0.23) = 1.03 V.\n\n(c) n = 2. ΔG° = −nFE° = −(2)(96,485 C/mol)(1.03 V) = −1.99 × 10⁵ J/mol = −199 kJ/mol.\n\n(d) The voltage decreases. Ni²⁺ is a product of the cell reaction, so increasing [Ni²⁺] increases Q = [Ni²⁺]/[Ag⁺]². Since E decreases as Q increases, the cell potential drops below 1.03 V."
+    }
+  ]
+}

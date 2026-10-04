@@ -1,0 +1,573 @@
+{
+  "number": 7,
+  "title": "Equilibrium",
+  "guide": {
+    "summary": "Equilibrium is a dynamic state in which forward and reverse rates are equal and concentrations are constant. You must write and manipulate K expressions, compare Q with K, use ICE tables, apply Le Châtelier's principle with particle-level reasoning, and solve solubility (Ksp) problems including the common-ion effect.",
+    "sections": [
+      {
+        "heading": "K and Q",
+        "body": "For aA + bB ⇌ cC + dD, K = [C]^c[D]^d / [A]^a[B]^b. Omit pure solids and liquids. Kp uses partial pressures; Kp = Kc(RT)^Δn, with Δn = moles of gas products − reactants. Manipulating reactions: reverse → 1/K; multiply coefficients by n → Kⁿ; add reactions → multiply Ks. K ≫ 1 favors products; K ≪ 1 favors reactants. Q has the same form with current concentrations: Q < K, net forward reaction; Q > K, net reverse; Q = K, at equilibrium."
+      },
+      {
+        "heading": "ICE tables",
+        "body": "Write Initial, Change (using stoichiometric multiples of x), and Equilibrium rows. Substitute into K and solve. If K is very small, assume x is negligible compared with initial concentrations (check that x < 5%). Perfect squares (like H₂ + I₂ ⇌ 2HI) can be solved by taking the square root of both sides."
+      },
+      {
+        "heading": "Le Châtelier's principle",
+        "body": "A stress shifts the system to partially counteract it. Adding a reactant makes Q < K, so net forward reaction. Decreasing volume (increasing pressure) shifts toward fewer moles of gas. Adding an inert gas at constant volume causes no shift (partial pressures unchanged). Only temperature changes K: for an exothermic reaction, raising T decreases K; for an endothermic reaction, raising T increases K. Catalysts change nothing about the equilibrium position. On the exam, justify shifts with Q vs. K whenever possible."
+      },
+      {
+        "heading": "Solubility equilibria",
+        "body": "For MₓAᵧ(s) ⇌ xM + yA, Ksp = [M]^x[A]^y. With molar solubility s: AB → Ksp = s²; AB₂ → Ksp = 4s³. Compare solubility directly via Ksp only for salts with the same ion ratio. Common-ion effect: adding a common ion lowers solubility. Precipitation occurs when Q > Ksp. Salts with basic anions (OH⁻, F⁻, CO₃²⁻) become more soluble in acid because H⁺ removes the anion."
+      }
+    ],
+    "keyTakeaways": [
+      "Leave solids and liquids out of K.",
+      "Reverse → 1/K; ×n → Kⁿ; add → multiply.",
+      "Q < K → forward; Q > K → reverse.",
+      "Only temperature changes K.",
+      "AB₂ salts: Ksp = 4s³.",
+      "Common ions decrease solubility."
+    ],
+    "commonMistakes": [
+      "Saying equilibrium means equal concentrations rather than equal rates.",
+      "Thinking adding a solid shifts equilibrium.",
+      "Comparing solubilities of salts with different ion ratios using Ksp alone.",
+      "Forgetting stoichiometric coefficients in the Change row of ICE tables.",
+      "Claiming pressure changes shift reactions with equal moles of gas on both sides."
+    ],
+    "examTips": [
+      "Le Châtelier FRQs reward Q vs. K reasoning: 'Adding X increases the denominator, so Q < K, and the reaction proceeds forward.'",
+      "Particulate diagrams of equilibrium mixtures are common; count particles to compute K or Q.",
+      "Ksp problems often connect to pH or common ions in a later part.",
+      "Watch the units and use concentrations, not moles, unless volume is 1 L."
+    ],
+    "cramSheet": "**K:** products^coef / reactants^coef · no (s), (l) · Kp = Kc(RT)^Δn\n\n**Manipulate:** reverse 1/K · ×n Kⁿ · add → multiply\n\n**Q vs K:** Q < K → forward · Q > K → reverse\n\n**Le Châtelier:** add reactant → forward · ↓V → fewer gas moles · inert gas (const V) → none · T changes K (exo: T↑ K↓)\n\n**Ksp:** AB s² · AB₂ 4s³ · common ion ↓ s · Q > Ksp → precipitate"
+  },
+  "vocab": [
+    {
+      "term": "Dynamic equilibrium",
+      "definition": "A state where forward and reverse reaction rates are equal, so concentrations remain constant."
+    },
+    {
+      "term": "Equilibrium constant (K)",
+      "definition": "The ratio of product to reactant concentrations (raised to their coefficients) at equilibrium."
+    },
+    {
+      "term": "Reaction quotient (Q)",
+      "definition": "Same expression as K but using current concentrations; compared with K to predict direction."
+    },
+    {
+      "term": "Le Châtelier's principle",
+      "definition": "A system at equilibrium shifts to partially offset an applied stress."
+    },
+    {
+      "term": "ICE table",
+      "definition": "Initial, Change, Equilibrium table used to find equilibrium concentrations."
+    },
+    {
+      "term": "Kp",
+      "definition": "Equilibrium constant expressed with partial pressures of gases."
+    },
+    {
+      "term": "Solubility product (Ksp)",
+      "definition": "Equilibrium constant for dissolution of a sparingly soluble ionic solid."
+    },
+    {
+      "term": "Molar solubility",
+      "definition": "Moles of solute that dissolve per liter of saturated solution."
+    },
+    {
+      "term": "Common-ion effect",
+      "definition": "Decrease in solubility of a salt when a solution already contains one of its ions."
+    },
+    {
+      "term": "Saturated solution",
+      "definition": "A solution in equilibrium with undissolved solute."
+    },
+    {
+      "term": "Homogeneous equilibrium",
+      "definition": "All species in the same phase."
+    },
+    {
+      "term": "Heterogeneous equilibrium",
+      "definition": "Species in more than one phase; solids and liquids are excluded from K."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u7-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Equilibrium Constants",
+      "stem": "What is the equilibrium expression for CaCO₃(s) ⇌ CaO(s) + CO₂(g)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "K = [CaO][CO₂]/[CaCO₃]"
+        },
+        {
+          "id": "B",
+          "text": "K = [CO₂]"
+        },
+        {
+          "id": "C",
+          "text": "K = 1/[CO₂]"
+        },
+        {
+          "id": "D",
+          "text": "K = [CaO]/[CaCO₃]"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Pure solids are omitted; only the gas remains.",
+      "distractors": {
+        "A": "Includes solids."
+      }
+    },
+    {
+      "id": "u7-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Reaction Quotient and Equilibrium Constant",
+      "stem": "For a reaction with K = 4.0, a mixture has Q = 12. Which statement is correct?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The reaction proceeds in the forward direction."
+        },
+        {
+          "id": "B",
+          "text": "The reaction proceeds in the reverse direction until Q = K."
+        },
+        {
+          "id": "C",
+          "text": "The system is at equilibrium."
+        },
+        {
+          "id": "D",
+          "text": "K will increase to 12."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Q > K: too many products, so the net reaction runs in reverse.",
+      "distractors": {
+        "D": "K only changes with temperature."
+      }
+    },
+    {
+      "id": "u7-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Properties of the Equilibrium Constant",
+      "stem": "For A ⇌ 2B, K = 5.0. What is K for 4B ⇌ 2A?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.040"
+        },
+        {
+          "id": "B",
+          "text": "0.10"
+        },
+        {
+          "id": "C",
+          "text": "−10"
+        },
+        {
+          "id": "D",
+          "text": "25"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Reverse → 1/5.0 = 0.20; double → (0.20)² = 0.040.",
+      "distractors": {
+        "B": "Divides by 2 instead of squaring."
+      }
+    },
+    {
+      "id": "u7-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Solubility Equilibria",
+      "stem": "Ksp for AgCl is 1.8 × 10⁻¹⁰. What is its molar solubility in pure water?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.8 × 10⁻¹⁰ M"
+        },
+        {
+          "id": "B",
+          "text": "9.0 × 10⁻¹¹ M"
+        },
+        {
+          "id": "C",
+          "text": "1.3 × 10⁻⁵ M"
+        },
+        {
+          "id": "D",
+          "text": "3.6 × 10⁻⁴ M"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Ksp = s² → s = √(1.8 × 10⁻¹⁰) = 1.3 × 10⁻⁵ M.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Calculating Equilibrium Concentrations",
+      "stem": "For H₂(g) + I₂(g) ⇌ 2HI(g), K = 49 at a certain temperature. If 0.50 M H₂ and 0.50 M I₂ are mixed with no HI, what is [HI] at equilibrium?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.39 M"
+        },
+        {
+          "id": "B",
+          "text": "0.78 M"
+        },
+        {
+          "id": "C",
+          "text": "0.11 M"
+        },
+        {
+          "id": "D",
+          "text": "3.5 M"
+        }
+      ],
+      "answer": "B",
+      "explanation": "(2x)²/(0.50 − x)² = 49 → 2x/(0.50 − x) = 7 → x = 0.39. [HI] = 2x = 0.78 M.",
+      "distractors": {
+        "A": "x, not 2x.",
+        "C": "[H₂] at equilibrium."
+      }
+    },
+    {
+      "id": "u7-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Le Châtelier's Principle",
+      "stem": "For N₂(g) + 3H₂(g) ⇌ 2NH₃(g), ΔH = −92 kJ, which change increases the equilibrium yield of NH₃?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Increasing the temperature"
+        },
+        {
+          "id": "B",
+          "text": "Decreasing the volume of the container"
+        },
+        {
+          "id": "C",
+          "text": "Adding a catalyst"
+        },
+        {
+          "id": "D",
+          "text": "Adding argon at constant volume"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Smaller volume raises pressure; the system shifts toward fewer moles of gas (2 vs 4).",
+      "distractors": {
+        "A": "Exothermic: higher T lowers K.",
+        "D": "Partial pressures unchanged; no shift."
+      }
+    },
+    {
+      "id": "u7-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Solubility Equilibria",
+      "stem": "The molar solubility of CaF₂ is 2.1 × 10⁻⁴ M. What is its Ksp?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4.4 × 10⁻⁸"
+        },
+        {
+          "id": "B",
+          "text": "9.3 × 10⁻¹²"
+        },
+        {
+          "id": "C",
+          "text": "3.7 × 10⁻¹¹"
+        },
+        {
+          "id": "D",
+          "text": "1.8 × 10⁻¹¹"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Ksp = s(2s)² = 4s³ = 4(2.1 × 10⁻⁴)³ = 3.7 × 10⁻¹¹.",
+      "distractors": {
+        "A": "s².",
+        "B": "s³ without the factor of 4."
+      }
+    },
+    {
+      "id": "u7-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Common-Ion Effect",
+      "stem": "What is the molar solubility of AgCl (Ksp = 1.8 × 10⁻¹⁰) in 0.10 M NaCl?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.3 × 10⁻⁵ M"
+        },
+        {
+          "id": "B",
+          "text": "1.8 × 10⁻⁹ M"
+        },
+        {
+          "id": "C",
+          "text": "1.8 × 10⁻¹¹ M"
+        },
+        {
+          "id": "D",
+          "text": "1.3 × 10⁻⁶ M"
+        }
+      ],
+      "answer": "B",
+      "explanation": "[Cl⁻] ≈ 0.10, so s = Ksp/0.10 = 1.8 × 10⁻⁹ M, far below its solubility in pure water.",
+      "distractors": {
+        "A": "Solubility in pure water."
+      }
+    },
+    {
+      "id": "u7-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Le Châtelier's Principle",
+      "stem": "For an endothermic reaction at equilibrium, the temperature is increased. Which is true?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "K increases and the system shifts toward products."
+        },
+        {
+          "id": "B",
+          "text": "K decreases and the system shifts toward reactants."
+        },
+        {
+          "id": "C",
+          "text": "K is unchanged but the system shifts toward products."
+        },
+        {
+          "id": "D",
+          "text": "Neither K nor the composition changes."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Heat acts like a reactant in an endothermic reaction; raising T increases K.",
+      "distractors": {
+        "C": "Temperature is the only factor that changes K."
+      }
+    },
+    {
+      "id": "u7-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Equilibrium Constants",
+      "stem": "For 2SO₂(g) + O₂(g) ⇌ 2SO₃(g), how are Kp and Kc related?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Kp = Kc"
+        },
+        {
+          "id": "B",
+          "text": "Kp = Kc(RT)"
+        },
+        {
+          "id": "C",
+          "text": "Kp = Kc(RT)⁻¹"
+        },
+        {
+          "id": "D",
+          "text": "Kp = Kc(RT)³"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Δn = 2 − 3 = −1, so Kp = Kc(RT)⁻¹.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Solubility Equilibria",
+      "stem": "Equal volumes of 0.020 M Pb(NO₃)₂ and 0.020 M NaCl are mixed. Ksp of PbCl₂ is 1.7 × 10⁻⁵. Does a precipitate form?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Yes, because Q = 4.0 × 10⁻⁴ > Ksp"
+        },
+        {
+          "id": "B",
+          "text": "No, because Q = 1.0 × 10⁻⁶ < Ksp"
+        },
+        {
+          "id": "C",
+          "text": "Yes, because Q = 8.0 × 10⁻⁶ ≈ Ksp"
+        },
+        {
+          "id": "D",
+          "text": "No, because PbCl₂ is always soluble"
+        }
+      ],
+      "answer": "B",
+      "explanation": "After mixing, [Pb²⁺] = [Cl⁻] = 0.010 M. Q = (0.010)(0.010)² = 1.0 × 10⁻⁶ < 1.7 × 10⁻⁵.",
+      "distractors": {
+        "C": "Forgets to dilute after mixing: (0.020)(0.020)² = 8.0 × 10⁻⁶."
+      }
+    },
+    {
+      "id": "u7-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Le Châtelier's Principle",
+      "stem": "A syringe holds an equilibrium mixture of N₂O₄ (colorless) and NO₂ (brown): N₂O₄ ⇌ 2NO₂. The plunger is quickly pushed in, halving the volume. Which describes the color?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It immediately darkens, then lightens somewhat as the system shifts toward N₂O₄, ending darker than the original."
+        },
+        {
+          "id": "B",
+          "text": "It immediately lightens and stays lighter."
+        },
+        {
+          "id": "C",
+          "text": "It darkens and stays at that darker shade."
+        },
+        {
+          "id": "D",
+          "text": "It ends lighter than the original."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Compression doubles [NO₂] at once. Q > K, so the system shifts to fewer moles (N₂O₄), partially reducing [NO₂], but not back to the original value.",
+      "distractors": {
+        "D": "Le Châtelier shifts only partly offset the stress."
+      }
+    },
+    {
+      "id": "u7-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Reaction Quotient and Equilibrium Constant",
+      "stimulus": "A 1.0 L container at equilibrium contains, for A(g) + B(g) ⇌ C(g), 2 particles of A, 2 particles of B, and 4 particles of C (each particle represents 0.10 mol).",
+      "stem": "If 0.20 mol of C is added, which statement is correct?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Q = 15, which is greater than K = 10, so the reaction shifts in reverse."
+        },
+        {
+          "id": "B",
+          "text": "Q = 10, equal to K, so no shift occurs."
+        },
+        {
+          "id": "C",
+          "text": "Q = 15, which is less than K = 20, so the reaction shifts forward."
+        },
+        {
+          "id": "D",
+          "text": "Q = 15, which is greater than K = 10, so the reaction shifts forward."
+        }
+      ],
+      "answer": "A",
+      "explanation": "At equilibrium [A] = [B] = 0.20 M and [C] = 0.40 M, so K = 0.40/(0.20 × 0.20) = 10. After adding C, [C] = 0.60 M and Q = 0.60/0.040 = 15 > K, so net reverse reaction.",
+      "distractors": {
+        "D": "Correct Q and K, wrong direction.",
+        "C": "Miscalculates K."
+      }
+    },
+    {
+      "id": "u7-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "pH and Solubility",
+      "stem": "Which salt's solubility increases most when the solution is acidified?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "AgCl"
+        },
+        {
+          "id": "B",
+          "text": "AgBr"
+        },
+        {
+          "id": "C",
+          "text": "CaCO₃"
+        },
+        {
+          "id": "D",
+          "text": "PbI₂"
+        }
+      ],
+      "answer": "C",
+      "explanation": "CO₃²⁻ is a basic anion; H⁺ converts it to HCO₃⁻ and H₂CO₃ (→ CO₂), removing it and shifting dissolution forward. Cl⁻, Br⁻, and I⁻ are negligible bases.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Solubility Equilibria",
+      "frqType": "Short FRQ",
+      "prompt": "Magnesium hydroxide, Mg(OH)₂, is a sparingly soluble base with Ksp = 5.6 × 10⁻¹² at 25 °C.",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Write the Ksp expression for Mg(OH)₂.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Calculate the molar solubility of Mg(OH)₂ in pure water.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Calculate the pH of a saturated Mg(OH)₂ solution.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "A student adds solid NaOH to a saturated Mg(OH)₂ solution with excess solid present. Predict whether the mass of solid Mg(OH)₂ increases, decreases, or stays the same. Justify using Q and Ksp.",
+          "points": 1
+        }
+      ],
+      "points": 4,
+      "minutes": 9,
+      "rubric": [
+        {
+          "criterion": "a: Expression",
+          "points": 1,
+          "description": "Ksp = [Mg²⁺][OH⁻]²."
+        },
+        {
+          "criterion": "b: Solubility",
+          "points": 1,
+          "description": "4s³ = 5.6 × 10⁻¹² → s = 1.1 × 10⁻⁴ M."
+        },
+        {
+          "criterion": "c: pH",
+          "points": 1,
+          "description": "[OH⁻] = 2s = 2.2 × 10⁻⁴ M; pOH = 3.65; pH = 10.35 (consistent with b)."
+        },
+        {
+          "criterion": "d: Common ion",
+          "points": 1,
+          "description": "Increases. Adding OH⁻ makes Q = [Mg²⁺][OH⁻]² > Ksp, so the reverse reaction (precipitation) occurs until Q = Ksp."
+        }
+      ],
+      "sampleResponse": "(a) Ksp = [Mg²⁺][OH⁻]²\n\n(b) Let s = [Mg²⁺]; [OH⁻] = 2s. Ksp = s(2s)² = 4s³ = 5.6 × 10⁻¹². s³ = 1.4 × 10⁻¹², s = 1.1 × 10⁻⁴ M.\n\n(c) [OH⁻] = 2.2 × 10⁻⁴ M. pOH = −log(2.2 × 10⁻⁴) = 3.65. pH = 14.00 − 3.65 = 10.35.\n\n(d) The mass of solid increases. Adding NaOH raises [OH⁻], so Q = [Mg²⁺][OH⁻]² becomes greater than Ksp. The system responds by precipitating Mg(OH)₂ until Q again equals Ksp."
+    }
+  ]
+}

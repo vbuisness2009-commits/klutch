@@ -1,0 +1,579 @@
+{
+  "number": 2,
+  "title": "Compound Structure and Properties",
+  "guide": {
+    "summary": "Unit 2 covers how atoms bond and how bond type and molecular shape determine properties. You need to classify bonds, read potential energy curves, explain properties of ionic solids, metals, and alloys, draw Lewis diagrams with formal charge and resonance, and predict geometry, polarity, and hybridization with VSEPR.",
+    "sections": [
+      {
+        "heading": "Bond types and potential energy",
+        "body": "Electronegativity difference sorts bonds: nonpolar covalent (≈0), polar covalent, and ionic (large difference, typically metal + nonmetal). A potential energy vs. internuclear distance curve has a minimum: the distance at the minimum is the bond length and the depth of the well is the bond energy. Higher bond order means shorter, stronger bonds; larger atoms give longer, usually weaker bonds."
+      },
+      {
+        "heading": "Ionic solids, metals, and alloys",
+        "body": "Ionic solids are lattices of cations and anions held by Coulombic attraction: high melting points, brittle (a shifted layer puts like charges next to each other), and conductive only when molten or dissolved. Metals are cations in a sea of delocalized electrons: conductive, malleable, ductile. Substitutional alloys (brass: Zn replaces Cu) form from atoms of similar size. Interstitial alloys (steel: C in Fe) put small atoms in the gaps, which makes the metal harder and less malleable because layers can't slide as easily."
+      },
+      {
+        "heading": "Lewis diagrams, formal charge, and resonance",
+        "body": "Count valence electrons, connect atoms with single bonds, complete octets on outer atoms, then form multiple bonds if the central atom lacks an octet. Formal charge = valence electrons − nonbonding electrons − ½(bonding electrons). The best structure minimizes formal charges and places negative formal charge on the more electronegative atom. Resonance means the real structure is an average: in NO₃⁻, all three N–O bonds are identical with bond order 4/3. Elements in period 3 and beyond can exceed an octet (SF₆, XeF₄)."
+      },
+      {
+        "heading": "VSEPR, polarity, and hybridization",
+        "body": "Electron domains (bonds of any order and lone pairs) repel. 2 domains: linear 180°, sp. 3: trigonal planar 120°, sp². 4: tetrahedral 109.5°, sp³. 5: trigonal bipyramidal. 6: octahedral. Lone pairs compress bond angles: CH₄ 109.5° > NH₃ ≈ 107° > H₂O ≈ 104.5°. Molecular shapes with lone pairs include bent, trigonal pyramidal, seesaw, T-shaped, square planar. A molecule is polar if bond dipoles don't cancel. Each single bond is one σ bond; a double bond is 1σ + 1π; a triple bond is 1σ + 2π."
+      }
+    ],
+    "keyTakeaways": [
+      "PE curve: minimum position = bond length, well depth = bond energy.",
+      "Higher bond order → shorter, stronger bond.",
+      "Ionic solids are brittle; metals are malleable due to delocalized electrons.",
+      "Interstitial alloys are harder and less malleable than the pure metal.",
+      "Best Lewis structure: minimal formal charges, negative on the most electronegative atom.",
+      "Lone pairs shrink bond angles and often create polarity."
+    ],
+    "commonMistakes": [
+      "Treating resonance structures as switching back and forth rather than as one averaged structure.",
+      "Counting only bonding pairs (not lone pairs) when determining electron geometry.",
+      "Calling a molecule nonpolar just because it has polar bonds that 'look' balanced, without checking lone pairs.",
+      "Saying ionic solids conduct electricity as solids.",
+      "Forgetting that a multiple bond counts as one electron domain."
+    ],
+    "examTips": [
+      "Expect Lewis structure and geometry parts in FRQs; describe the structure clearly (atoms, bonds, lone pairs).",
+      "PE-curve questions compare two bonds; reason from atomic size and bond order.",
+      "Properties questions want a particle-level reason: delocalized electrons, ion layers, interstitial atoms.",
+      "Count σ and π bonds carefully in organic molecules, including C–H bonds."
+    ],
+    "cramSheet": "**Bonds:** ΔEN small → nonpolar · medium → polar · large → ionic\n\n**PE curve:** min = length · depth = energy · higher order = shorter, stronger\n\n**Solids:** ionic brittle, high mp · metals malleable, conductive · interstitial alloy harder\n\n**Formal charge:** V − N − B/2 · minimize · negative on most EN\n\n**VSEPR:** 2 lin sp · 3 trig planar sp² · 4 tetra sp³ · 5 TBP · 6 oct · lone pairs shrink angles\n\n**σ/π:** single 1σ · double 1σ1π · triple 1σ2π"
+  },
+  "vocab": [
+    {
+      "term": "Bond order",
+      "definition": "The number of shared electron pairs between two atoms, averaged over resonance structures."
+    },
+    {
+      "term": "Bond energy",
+      "definition": "The energy required to break one mole of a given bond in the gas phase."
+    },
+    {
+      "term": "Formal charge",
+      "definition": "Valence electrons − nonbonding electrons − ½ bonding electrons; used to choose the best Lewis structure."
+    },
+    {
+      "term": "Resonance",
+      "definition": "Representation of a structure that cannot be described by one Lewis diagram; the real structure is an average."
+    },
+    {
+      "term": "Electron domain",
+      "definition": "A region of electron density around a central atom: a lone pair or a bond of any order."
+    },
+    {
+      "term": "Hybridization",
+      "definition": "Mixing of atomic orbitals to form new orbitals that match the electron-domain geometry (sp, sp², sp³)."
+    },
+    {
+      "term": "Sigma (σ) bond",
+      "definition": "A bond formed by head-on orbital overlap; every single bond is a σ bond."
+    },
+    {
+      "term": "Pi (π) bond",
+      "definition": "A bond formed by side-by-side overlap of p orbitals; present in double and triple bonds."
+    },
+    {
+      "term": "Interstitial alloy",
+      "definition": "An alloy in which small atoms fill spaces between larger metal atoms (e.g., steel)."
+    },
+    {
+      "term": "Substitutional alloy",
+      "definition": "An alloy in which atoms of similar size replace host atoms in the lattice (e.g., brass)."
+    },
+    {
+      "term": "Delocalized electrons",
+      "definition": "Electrons free to move throughout a metallic lattice, giving conductivity and malleability."
+    },
+    {
+      "term": "Molecular polarity",
+      "definition": "A net dipole resulting when bond dipoles do not cancel due to geometry."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u2-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "VSEPR and Hybridization",
+      "stem": "What is the molecular geometry of NH₃?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Trigonal planar"
+        },
+        {
+          "id": "B",
+          "text": "Trigonal pyramidal"
+        },
+        {
+          "id": "C",
+          "text": "Tetrahedral"
+        },
+        {
+          "id": "D",
+          "text": "T-shaped"
+        }
+      ],
+      "answer": "B",
+      "explanation": "N has 4 electron domains (3 bonds, 1 lone pair): tetrahedral electron geometry, trigonal pyramidal molecular geometry.",
+      "distractors": {
+        "C": "Electron-domain geometry, not molecular geometry."
+      }
+    },
+    {
+      "id": "u2-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Structure of Metals and Alloys",
+      "stem": "Steel is made by adding a small amount of carbon to iron. Steel is best classified as",
+      "choices": [
+        {
+          "id": "A",
+          "text": "an interstitial alloy"
+        },
+        {
+          "id": "B",
+          "text": "a substitutional alloy"
+        },
+        {
+          "id": "C",
+          "text": "an ionic solid"
+        },
+        {
+          "id": "D",
+          "text": "a network covalent solid"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Carbon atoms are much smaller than iron atoms and occupy the spaces between them.",
+      "distractors": {
+        "B": "Requires atoms of similar size."
+      }
+    },
+    {
+      "id": "u2-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "VSEPR and Hybridization",
+      "stem": "What is the hybridization of the carbon atom in CO₂?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "sp"
+        },
+        {
+          "id": "B",
+          "text": "sp²"
+        },
+        {
+          "id": "C",
+          "text": "sp³"
+        },
+        {
+          "id": "D",
+          "text": "sp³d"
+        }
+      ],
+      "answer": "A",
+      "explanation": "C has two electron domains (two double bonds): linear, sp.",
+      "distractors": {
+        "B": "Counts bonds as 4 domains or misreads double bonds."
+      }
+    },
+    {
+      "id": "u2-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "VSEPR and Hybridization",
+      "stem": "Which molecule is polar?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "CO₂"
+        },
+        {
+          "id": "B",
+          "text": "CCl₄"
+        },
+        {
+          "id": "C",
+          "text": "BF₃"
+        },
+        {
+          "id": "D",
+          "text": "NH₃"
+        }
+      ],
+      "answer": "D",
+      "explanation": "NH₃'s lone pair makes it trigonal pyramidal, so the N–H dipoles don't cancel. The others are symmetric.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Intramolecular Force and Potential Energy",
+      "stem": "Potential energy curves are plotted for Cl₂ and Br₂. Compared with the Cl₂ curve, the Br₂ curve has its minimum",
+      "choices": [
+        {
+          "id": "A",
+          "text": "at a shorter distance and lower (deeper) energy"
+        },
+        {
+          "id": "B",
+          "text": "at a longer distance and less deep, because Br atoms are larger and the bond is weaker"
+        },
+        {
+          "id": "C",
+          "text": "at a longer distance and deeper, because Br has more electrons"
+        },
+        {
+          "id": "D",
+          "text": "at the same distance, because both bonds are single bonds"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Br's valence orbitals are larger (n = 4), giving a longer bond with weaker attraction between nuclei and shared electrons.",
+      "distractors": {
+        "D": "Bond order is equal, but atomic size differs."
+      }
+    },
+    {
+      "id": "u2-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Resonance and Formal Charge",
+      "stem": "Which Lewis structure for the cyanate ion, OCN⁻, is the most important contributor?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "N≡C–O with three lone pairs on O (formal charge −1 on O)"
+        },
+        {
+          "id": "B",
+          "text": "N=C=O with two lone pairs on each end (formal charge −1 on N)"
+        },
+        {
+          "id": "C",
+          "text": "N–C≡O with three lone pairs on N (formal charges −2 on N, +1 on O)"
+        },
+        {
+          "id": "D",
+          "text": "C in the center bonded to nothing, with ions O⁻ and N"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A and B both have one −1 formal charge, but A places it on O, the more electronegative atom. C has larger formal charges.",
+      "distractors": {
+        "B": "Valid but minor: negative charge on the less electronegative N."
+      }
+    },
+    {
+      "id": "u2-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "VSEPR and Hybridization",
+      "stem": "Which ranks H–X–H bond angles from largest to smallest, with the correct reason?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "H₂O > NH₃ > CH₄, because O is most electronegative"
+        },
+        {
+          "id": "B",
+          "text": "CH₄ > NH₃ > H₂O, because lone pairs repel more strongly than bonding pairs"
+        },
+        {
+          "id": "C",
+          "text": "All are equal at 109.5°, because all have four electron domains"
+        },
+        {
+          "id": "D",
+          "text": "NH₃ > CH₄ > H₂O, because N has one lone pair"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Each has four domains, but lone pairs occupy more space; more lone pairs compress angles more: 109.5°, ≈107°, ≈104.5°.",
+      "distractors": {
+        "C": "Ignores lone-pair repulsion."
+      }
+    },
+    {
+      "id": "u2-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Resonance and Formal Charge",
+      "stem": "Experiments show all three N–O bonds in NO₃⁻ have the same length. This is best explained by",
+      "choices": [
+        {
+          "id": "A",
+          "text": "the ion rapidly switching between three structures with one double bond each"
+        },
+        {
+          "id": "B",
+          "text": "resonance: electrons are delocalized, so each N–O bond has a bond order of 4/3"
+        },
+        {
+          "id": "C",
+          "text": "all three bonds being double bonds"
+        },
+        {
+          "id": "D",
+          "text": "all three bonds being single bonds with N having an expanded octet"
+        }
+      ],
+      "answer": "B",
+      "explanation": "The real structure is an average of the resonance forms: 4 bonding pairs spread over 3 bonds.",
+      "distractors": {
+        "A": "Common misconception; resonance is not oscillation.",
+        "D": "N cannot exceed an octet."
+      }
+    },
+    {
+      "id": "u2-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Structure of Ionic Solids",
+      "stem": "Why does solid NaCl shatter when struck, while solid copper bends?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Shifting a layer of NaCl brings like-charged ions next to each other, causing repulsion; in Cu, delocalized electrons keep cations bonded as layers slide."
+        },
+        {
+          "id": "B",
+          "text": "NaCl's covalent bonds are weaker than copper's metallic bonds."
+        },
+        {
+          "id": "C",
+          "text": "Copper has a higher melting point than NaCl."
+        },
+        {
+          "id": "D",
+          "text": "NaCl molecules are polar and copper atoms are nonpolar."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Brittleness of ionic solids and malleability of metals both come from how the lattice responds to displacement.",
+      "distractors": {
+        "D": "NaCl is not made of molecules.",
+        "C": "True (Cu melts at a higher temperature), but melting point doesn't explain brittleness vs. malleability."
+      }
+    },
+    {
+      "id": "u2-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Lewis Diagrams",
+      "stem": "How many valence electrons are in the Lewis structure of the sulfite ion, SO₃²⁻?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "24"
+        },
+        {
+          "id": "B",
+          "text": "26"
+        },
+        {
+          "id": "C",
+          "text": "28"
+        },
+        {
+          "id": "D",
+          "text": "22"
+        }
+      ],
+      "answer": "B",
+      "explanation": "S 6 + 3 × O 6 = 24, plus 2 for the 2− charge = 26.",
+      "distractors": {
+        "A": "Forgets the ion's charge.",
+        "D": "Subtracts the charge."
+      }
+    },
+    {
+      "id": "u2-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "VSEPR and Hybridization",
+      "stem": "Which molecule has lone pairs on its central atom but is nonpolar?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "SF₄"
+        },
+        {
+          "id": "B",
+          "text": "XeF₄"
+        },
+        {
+          "id": "C",
+          "text": "ClF₃"
+        },
+        {
+          "id": "D",
+          "text": "H₂S"
+        }
+      ],
+      "answer": "B",
+      "explanation": "XeF₄ has 6 domains (4 bonds, 2 lone pairs opposite each other): square planar, so the Xe–F dipoles cancel.",
+      "distractors": {
+        "A": "Seesaw: polar.",
+        "C": "T-shaped: polar.",
+        "D": "Bent: polar."
+      }
+    },
+    {
+      "id": "u2-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "VSEPR and Hybridization",
+      "stem": "Acrylonitrile is H₂C=CH–C≡N. How many σ and π bonds does it contain?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "6 σ, 3 π"
+        },
+        {
+          "id": "B",
+          "text": "5 σ, 3 π"
+        },
+        {
+          "id": "C",
+          "text": "6 σ, 2 π"
+        },
+        {
+          "id": "D",
+          "text": "9 σ, 0 π"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Three C–H (3σ), C=C (1σ + 1π), C–C (1σ), C≡N (1σ + 2π): 6σ, 3π.",
+      "distractors": {
+        "D": "Counts every line as σ.",
+        "B": "Misses one C–H or the C–C bond."
+      }
+    },
+    {
+      "id": "u2-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Structure of Metals and Alloys",
+      "stem": "Which explanation best accounts for steel being harder and less malleable than pure iron?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Carbon atoms in the spaces between iron atoms disrupt the regular lattice and make it harder for layers of iron atoms to slide past each other."
+        },
+        {
+          "id": "B",
+          "text": "Carbon replaces iron atoms, forming ionic bonds that make the lattice brittle."
+        },
+        {
+          "id": "C",
+          "text": "Carbon removes the delocalized electrons from iron."
+        },
+        {
+          "id": "D",
+          "text": "Carbon atoms are larger than iron atoms and push layers apart."
+        }
+      ],
+      "answer": "A",
+      "explanation": "In an interstitial alloy, small atoms in the interstices pin the layers, increasing rigidity.",
+      "distractors": {
+        "B": "Steel is interstitial, not substitutional or ionic.",
+        "D": "Carbon is smaller."
+      }
+    },
+    {
+      "id": "u2-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Resonance and Formal Charge",
+      "stem": "Rank the carbon–oxygen bond length in CO, CO₂, and CO₃²⁻ from shortest to longest.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "CO < CO₂ < CO₃²⁻"
+        },
+        {
+          "id": "B",
+          "text": "CO₃²⁻ < CO₂ < CO"
+        },
+        {
+          "id": "C",
+          "text": "CO₂ < CO < CO₃²⁻"
+        },
+        {
+          "id": "D",
+          "text": "All equal, because all are C–O bonds"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Bond orders: CO 3, CO₂ 2, CO₃²⁻ 4/3 (resonance). Higher bond order means a shorter bond.",
+      "distractors": {
+        "B": "Reverses the relationship."
+      }
+    },
+    {
+      "id": "u2-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Lewis Diagrams and VSEPR",
+      "frqType": "Short FRQ",
+      "prompt": "Formaldehyde, CH₂O, and methanol, CH₃OH, both contain carbon–oxygen bonds.",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Describe a complete Lewis electron-dot diagram for CH₂O, showing all bonds and lone pairs.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Identify the approximate H–C–H bond angle in CH₂O and the hybridization of the carbon atom.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Identify which molecule has the shorter carbon–oxygen bond. Justify your answer in terms of bond order.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "The O atom in CH₃OH has two lone pairs. Identify the approximate C–O–H bond angle, and explain why it is less than 109.5°.",
+          "points": 1
+        }
+      ],
+      "points": 4,
+      "minutes": 9,
+      "rubric": [
+        {
+          "criterion": "a: Lewis diagram",
+          "points": 1,
+          "description": "C central with single bonds to two H, a double bond to O, and two lone pairs on O (12 valence electrons)."
+        },
+        {
+          "criterion": "b: Angle and hybridization",
+          "points": 1,
+          "description": "About 120° and sp² (both needed)."
+        },
+        {
+          "criterion": "c: Shorter bond",
+          "points": 1,
+          "description": "CH₂O, because its C–O bond is a double bond (order 2) versus a single bond (order 1) in CH₃OH; more shared electrons pull nuclei closer."
+        },
+        {
+          "criterion": "d: Bent angle",
+          "points": 1,
+          "description": "About 104–109° (accept 'about 105°'); the two lone pairs on O repel the bonding pairs more strongly than bonding pairs do, compressing the angle."
+        }
+      ],
+      "sampleResponse": "(a) Carbon is central. It forms single bonds to each of two H atoms and a double bond to O. O carries two lone pairs. Total 12 valence electrons (C 4 + 2 H 2 + O 6).\n\n(b) Carbon has three electron domains (trigonal planar), so the H–C–H angle is about 120°, and carbon is sp² hybridized.\n\n(c) CH₂O has the shorter C–O bond. Its C–O bond is a double bond (bond order 2), while CH₃OH has a single C–O bond (bond order 1). More shared electron pairs increase attraction between the nuclei and bonding electrons, pulling the atoms closer.\n\n(d) About 105°. O has four electron domains, but two are lone pairs. Lone pairs occupy more space and repel bonding pairs more strongly, compressing the C–O–H angle below the ideal tetrahedral 109.5°."
+    }
+  ]
+}

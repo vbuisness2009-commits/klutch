@@ -1,0 +1,578 @@
+{
+  "number": 5,
+  "title": "Kinetics",
+  "guide": {
+    "summary": "Kinetics is about how fast reactions occur and why. You must determine rate laws from initial-rate data and integrated-rate plots, use half-life, connect reaction mechanisms to rate laws, and explain rates with collision theory, activation energy, and catalysts.",
+    "sections": [
+      {
+        "heading": "Rates and rate laws",
+        "body": "Rate = k[A]^m[B]^n, where orders m and n come only from experiment, not from coefficients (unless the step is elementary). Method of initial rates: find two trials where only one concentration changes. If doubling [A] doubles the rate, first order; quadruples, second order; no change, zero order. Overall order = m + n. Units of k: zero order M/s, first order s⁻¹, second order M⁻¹s⁻¹. Relative rates follow coefficients: for 2N₂O₅ → 4NO₂ + O₂, −½Δ[N₂O₅]/Δt = ¼Δ[NO₂]/Δt = Δ[O₂]/Δt."
+      },
+      {
+        "heading": "Integrated rate laws and half-life",
+        "body": "Zero order: [A] vs t linear (slope −k). First order: ln[A] vs t linear (slope −k); t½ = 0.693/k, constant regardless of concentration; after n half-lives, (½)ⁿ remains. Second order: 1/[A] vs t linear (slope +k); half-life grows as concentration falls. Radioactive decay is first order."
+      },
+      {
+        "heading": "Mechanisms",
+        "body": "A mechanism is a sequence of elementary steps that sum to the overall reaction. For an elementary step, the rate law follows directly from its molecularity. The slowest step (rate-determining step) controls the rate law. Intermediates are produced then consumed; catalysts are consumed then regenerated. If the slow step contains an intermediate, use the preceding fast equilibrium to express the intermediate in terms of reactants (k_f[A]² = k_r[I], so [I] ∝ [A]²)."
+      },
+      {
+        "heading": "Collision theory, energy profiles, and catalysts",
+        "body": "Reactions require collisions with sufficient energy (≥ Ea) and correct orientation. Raising temperature increases collision frequency slightly, but mainly increases the fraction of collisions with energy ≥ Ea (seen in the Maxwell–Boltzmann distribution), so k increases. A reaction energy profile shows reactants, transition state(s), intermediates (valleys), and products; ΔH = products − reactants. Catalysts provide a new pathway with lower Ea; they speed forward and reverse reactions equally and do not change ΔH or K."
+      }
+    ],
+    "keyTakeaways": [
+      "Orders come from data, not stoichiometric coefficients.",
+      "Linear plot test: [A] → 0th, ln[A] → 1st, 1/[A] → 2nd.",
+      "First-order t½ = 0.693/k, independent of concentration.",
+      "The slow step determines the rate law.",
+      "Temperature increases k mainly by raising the fraction of collisions ≥ Ea.",
+      "Catalysts lower Ea; they don't change ΔH or K."
+    ],
+    "commonMistakes": [
+      "Writing a rate law from overall coefficients.",
+      "Confusing intermediates with catalysts.",
+      "Thinking higher temperature raises Ea or that catalysts are consumed.",
+      "Forgetting relative-rate coefficients when converting between species.",
+      "Applying t½ = 0.693/k to non-first-order reactions."
+    ],
+    "examTips": [
+      "Initial-rate tables appear constantly; show the ratio reasoning.",
+      "Mechanism questions: check the sum matches the overall equation and the slow step matches the rate law.",
+      "When given a graph, identify the order from which plot is linear.",
+      "Explain temperature effects with energy distribution, not just 'molecules move faster'."
+    ],
+    "cramSheet": "**Rate law:** rate = k[A]^m[B]^n · ×2 conc → ×1 (0th), ×2 (1st), ×4 (2nd)\n\n**k units:** 0th M/s · 1st s⁻¹ · 2nd M⁻¹s⁻¹\n\n**Linear plots:** [A] 0th · ln[A] 1st · 1/[A] 2nd\n\n**t½ (1st):** 0.693/k · (½)ⁿ remains\n\n**Mechanism:** slow step = rate law · intermediate made then used · catalyst used then remade\n\n**Ea:** T ↑ → fraction ≥ Ea ↑ · catalyst ↓ Ea both ways, same ΔH, same K"
+  },
+  "vocab": [
+    {
+      "term": "Rate law",
+      "definition": "An equation relating reaction rate to reactant concentrations: rate = k[A]^m[B]^n."
+    },
+    {
+      "term": "Rate constant (k)",
+      "definition": "Proportionality constant in the rate law; depends on temperature and catalyst, not concentration."
+    },
+    {
+      "term": "Reaction order",
+      "definition": "The exponent of a concentration term in the rate law, found experimentally."
+    },
+    {
+      "term": "Half-life",
+      "definition": "The time for a reactant's concentration to fall to half its value."
+    },
+    {
+      "term": "Elementary step",
+      "definition": "A single molecular event whose rate law follows from its molecularity."
+    },
+    {
+      "term": "Rate-determining step",
+      "definition": "The slowest step in a mechanism, which limits the overall rate."
+    },
+    {
+      "term": "Intermediate",
+      "definition": "A species formed in one step and consumed in a later step."
+    },
+    {
+      "term": "Catalyst",
+      "definition": "A substance that increases rate by providing a lower-Ea pathway and is regenerated."
+    },
+    {
+      "term": "Activation energy (Ea)",
+      "definition": "The minimum energy colliding particles need to react."
+    },
+    {
+      "term": "Transition state",
+      "definition": "The highest-energy arrangement along a reaction pathway."
+    },
+    {
+      "term": "Maxwell–Boltzmann distribution",
+      "definition": "The spread of molecular kinetic energies in a sample at a given temperature."
+    },
+    {
+      "term": "Molecularity",
+      "definition": "The number of particles colliding in an elementary step (uni-, bi-, termolecular)."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u5-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Elementary Reactions",
+      "stem": "What is the rate law for the elementary step NO₂ + CO → NO + CO₂?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "rate = k[NO₂][CO]"
+        },
+        {
+          "id": "B",
+          "text": "rate = k[NO₂]²"
+        },
+        {
+          "id": "C",
+          "text": "rate = k[NO][CO₂]"
+        },
+        {
+          "id": "D",
+          "text": "It cannot be determined without experimental data."
+        }
+      ],
+      "answer": "A",
+      "explanation": "For an elementary step, orders equal the coefficients of the reactants.",
+      "distractors": {
+        "D": "True for an overall reaction, but this step is stated to be elementary."
+      }
+    },
+    {
+      "id": "u5-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Concentration Changes Over Time",
+      "stem": "A first-order reaction has k = 0.0231 s⁻¹. What is its half-life?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.0160 s"
+        },
+        {
+          "id": "B",
+          "text": "30.0 s"
+        },
+        {
+          "id": "C",
+          "text": "43.3 s"
+        },
+        {
+          "id": "D",
+          "text": "60.0 s"
+        }
+      ],
+      "answer": "B",
+      "explanation": "t½ = 0.693/0.0231 = 30.0 s.",
+      "distractors": {
+        "C": "1/k, not 0.693/k."
+      }
+    },
+    {
+      "id": "u5-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Concentration Changes Over Time",
+      "stem": "A plot of 1/[A] versus time is linear with a positive slope. The reaction is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "zero order in A"
+        },
+        {
+          "id": "B",
+          "text": "first order in A"
+        },
+        {
+          "id": "C",
+          "text": "second order in A"
+        },
+        {
+          "id": "D",
+          "text": "third order in A"
+        }
+      ],
+      "answer": "C",
+      "explanation": "1/[A] = kt + 1/[A]₀ is the second-order integrated rate law; slope = k.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Catalysis",
+      "stem": "Adding a catalyst to a reaction",
+      "choices": [
+        {
+          "id": "A",
+          "text": "increases ΔH"
+        },
+        {
+          "id": "B",
+          "text": "lowers the activation energy for both forward and reverse reactions"
+        },
+        {
+          "id": "C",
+          "text": "shifts the equilibrium toward products"
+        },
+        {
+          "id": "D",
+          "text": "increases the kinetic energy of the reactant molecules"
+        }
+      ],
+      "answer": "B",
+      "explanation": "A catalyst provides an alternative pathway with lower Ea; ΔH, K, and temperature are unchanged.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Introduction to Rate Law",
+      "stimulus": "Initial-rate data for A + B → C:\n\n| Trial | [A] (M) | [B] (M) | Rate (M/s) |\n|---|---|---|---|\n| 1 | 0.10 | 0.10 | 2.0 × 10⁻³ |\n| 2 | 0.20 | 0.10 | 8.0 × 10⁻³ |\n| 3 | 0.10 | 0.30 | 2.0 × 10⁻³ |",
+      "stem": "What is the rate law?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "rate = k[A][B]"
+        },
+        {
+          "id": "B",
+          "text": "rate = k[A]²"
+        },
+        {
+          "id": "C",
+          "text": "rate = k[A]²[B]"
+        },
+        {
+          "id": "D",
+          "text": "rate = k[A]"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Trials 1→2: [A] ×2, rate ×4 → second order. Trials 1→3: [B] ×3, rate unchanged → zero order.",
+      "distractors": {
+        "A": "Uses coefficients."
+      }
+    },
+    {
+      "id": "u5-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Introduction to Rate Law",
+      "stem": "For a reaction with rate law rate = k[A]², what is the value of k?",
+      "stimulus": "Trial 1: [A] = 0.10 M, rate = 2.0 × 10⁻³ M/s.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.020 M⁻¹s⁻¹"
+        },
+        {
+          "id": "B",
+          "text": "0.20 M⁻¹s⁻¹"
+        },
+        {
+          "id": "C",
+          "text": "0.20 s⁻¹"
+        },
+        {
+          "id": "D",
+          "text": "2.0 M⁻¹s⁻¹"
+        }
+      ],
+      "answer": "B",
+      "explanation": "k = rate/[A]² = 2.0 × 10⁻³ / 0.010 = 0.20 M⁻¹s⁻¹ (units for second order).",
+      "distractors": {
+        "A": "Divides by [A] instead of [A]².",
+        "C": "Correct number, wrong units."
+      }
+    },
+    {
+      "id": "u5-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Reaction Rates",
+      "stem": "For 2N₂O₅(g) → 4NO₂(g) + O₂(g), NO₂ is forming at 0.040 M/s. At what rate is N₂O₅ being consumed?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.010 M/s"
+        },
+        {
+          "id": "B",
+          "text": "0.020 M/s"
+        },
+        {
+          "id": "C",
+          "text": "0.040 M/s"
+        },
+        {
+          "id": "D",
+          "text": "0.080 M/s"
+        }
+      ],
+      "answer": "B",
+      "explanation": "N₂O₅ : NO₂ = 2 : 4, so N₂O₅ is consumed at half the rate NO₂ forms.",
+      "distractors": {
+        "D": "Inverts the ratio.",
+        "A": "Rate of O₂ formation."
+      }
+    },
+    {
+      "id": "u5-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Reaction Energy Profile",
+      "stem": "Which statement best explains why increasing temperature increases the rate of a reaction?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Activation energy decreases at higher temperature."
+        },
+        {
+          "id": "B",
+          "text": "A greater fraction of collisions have energy equal to or greater than the activation energy."
+        },
+        {
+          "id": "C",
+          "text": "The reaction becomes more exothermic."
+        },
+        {
+          "id": "D",
+          "text": "Molecules become larger and collide more often."
+        }
+      ],
+      "answer": "B",
+      "explanation": "The Maxwell–Boltzmann distribution shifts to higher energies, increasing the fraction above Ea. Collision frequency rises only slightly.",
+      "distractors": {
+        "A": "Ea is a property of the pathway, not of temperature."
+      }
+    },
+    {
+      "id": "u5-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Mechanism and Rate Law",
+      "stimulus": "Proposed mechanism:\nStep 1 (slow): H₂O₂ + I⁻ → H₂O + IO⁻\nStep 2 (fast): H₂O₂ + IO⁻ → H₂O + O₂ + I⁻",
+      "stem": "Which statement is correct?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "I⁻ is an intermediate and rate = k[H₂O₂]²."
+        },
+        {
+          "id": "B",
+          "text": "I⁻ is a catalyst, IO⁻ is an intermediate, and rate = k[H₂O₂][I⁻]."
+        },
+        {
+          "id": "C",
+          "text": "IO⁻ is a catalyst and rate = k[H₂O₂][IO⁻]."
+        },
+        {
+          "id": "D",
+          "text": "The overall reaction is 2H₂O₂ + I⁻ → 2H₂O + O₂."
+        }
+      ],
+      "answer": "B",
+      "explanation": "I⁻ is consumed then regenerated (catalyst); IO⁻ is formed then consumed (intermediate). The slow step gives the rate law.",
+      "distractors": {
+        "D": "I⁻ cancels; overall is 2H₂O₂ → 2H₂O + O₂."
+      }
+    },
+    {
+      "id": "u5-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Concentration Changes Over Time",
+      "stem": "A radioactive isotope has a half-life of 8.0 days. What fraction of a sample remains after 32 days?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1/4"
+        },
+        {
+          "id": "B",
+          "text": "1/8"
+        },
+        {
+          "id": "C",
+          "text": "1/16"
+        },
+        {
+          "id": "D",
+          "text": "1/32"
+        }
+      ],
+      "answer": "C",
+      "explanation": "32/8 = 4 half-lives; (½)⁴ = 1/16.",
+      "distractors": {
+        "A": "Divides 32 by 8 and uses 1/4 directly."
+      }
+    },
+    {
+      "id": "u5-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Steady-State Approximation / Pre-Equilibrium",
+      "stimulus": "Proposed mechanism for 2NO + O₂ → 2NO₂:\nStep 1 (fast, reversible): 2NO ⇌ N₂O₂\nStep 2 (slow): N₂O₂ + O₂ → 2NO₂",
+      "stem": "Which rate law is consistent with this mechanism?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "rate = k[N₂O₂][O₂]"
+        },
+        {
+          "id": "B",
+          "text": "rate = k[NO]²[O₂]"
+        },
+        {
+          "id": "C",
+          "text": "rate = k[NO]²"
+        },
+        {
+          "id": "D",
+          "text": "rate = k[NO][O₂]"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Slow-step rate = k₂[N₂O₂][O₂]. The fast equilibrium gives [N₂O₂] = K[NO]², so rate = k[NO]²[O₂].",
+      "distractors": {
+        "A": "Contains an intermediate; rate laws must use reactants."
+      }
+    },
+    {
+      "id": "u5-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Concentration Changes Over Time",
+      "stem": "For a second-order reaction (rate = k[A]²), how does the second half-life compare with the first?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It is the same, as with all reactions."
+        },
+        {
+          "id": "B",
+          "text": "It is twice as long, because t½ = 1/(k[A]₀) and [A] has been halved."
+        },
+        {
+          "id": "C",
+          "text": "It is half as long, because the reaction speeds up."
+        },
+        {
+          "id": "D",
+          "text": "It is four times as long, because the reaction is second order."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Second-order half-life is inversely proportional to the starting concentration; halving [A] doubles t½.",
+      "distractors": {
+        "A": "Only true for first order."
+      }
+    },
+    {
+      "id": "u5-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Reaction Energy Profile",
+      "stimulus": "A reaction energy profile shows two peaks. The first peak is 80 kJ/mol above the reactants; the valley between peaks is 20 kJ/mol above the reactants; the second peak is 50 kJ/mol above the reactants; the products are 30 kJ/mol below the reactants.",
+      "stem": "Which statement is correct?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Step 2 is rate-determining, and the reaction is endothermic."
+        },
+        {
+          "id": "B",
+          "text": "Step 1 is rate-determining (Ea = 80 kJ/mol), an intermediate exists at the valley, and ΔH = −30 kJ/mol."
+        },
+        {
+          "id": "C",
+          "text": "Step 1 is rate-determining, and ΔH = +80 kJ/mol."
+        },
+        {
+          "id": "D",
+          "text": "The valley represents the transition state of the overall reaction."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Step 1 Ea = 80; step 2 Ea = 50 − 20 = 30. The larger barrier is step 1. Valleys are intermediates; ΔH = products − reactants = −30.",
+      "distractors": {
+        "D": "Transition states are peaks."
+      }
+    },
+    {
+      "id": "u5-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Introduction to Rate Law",
+      "stimulus": "For the reaction 2A + B → products, the rate law is rate = k[A][B]. In one experiment, [B]₀ = 2.0 M and [A]₀ = 0.010 M.",
+      "stem": "Which plot would be linear for this experiment, and why?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1/[A] vs. t, because the reaction is second order overall"
+        },
+        {
+          "id": "B",
+          "text": "ln[A] vs. t, because [B] is so large it stays essentially constant, making the reaction pseudo-first-order in A"
+        },
+        {
+          "id": "C",
+          "text": "[A] vs. t, because B is in excess"
+        },
+        {
+          "id": "D",
+          "text": "ln[B] vs. t, because B controls the rate"
+        }
+      ],
+      "answer": "B",
+      "explanation": "With B in huge excess, rate = k'[A] where k' = k[B]₀. The reaction behaves first order in A.",
+      "distractors": {
+        "A": "Would require comparable [A] and [B]."
+      }
+    },
+    {
+      "id": "u5-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Rate Laws and Mechanisms",
+      "frqType": "Short FRQ",
+      "prompt": "The reaction 2NO(g) + Br₂(g) → 2NOBr(g) is studied at constant temperature.\n\n| Trial | [NO] (M) | [Br₂] (M) | Initial rate (M/s) |\n|---|---|---|---|\n| 1 | 0.10 | 0.10 | 12 |\n| 2 | 0.20 | 0.10 | 48 |\n| 3 | 0.10 | 0.20 | 24 |",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Determine the order of the reaction with respect to NO and to Br₂. Justify using the data.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Calculate the value of the rate constant k, including units.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "A student proposes a one-step mechanism: 2NO + Br₂ → 2NOBr. Explain why this mechanism, although consistent with the rate law, is considered unlikely.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Propose a two-step mechanism with a fast reversible first step that is consistent with the rate law. Identify the intermediate.",
+          "points": 1
+        }
+      ],
+      "points": 4,
+      "minutes": 9,
+      "rubric": [
+        {
+          "criterion": "a: Orders",
+          "points": 1,
+          "description": "Second order in NO (trials 1→2: ×2 conc, ×4 rate), first order in Br₂ (trials 1→3: ×2 conc, ×2 rate)."
+        },
+        {
+          "criterion": "b: k",
+          "points": 1,
+          "description": "k = 12/[(0.10)²(0.10)] = 1.2 × 10⁴ M⁻²s⁻¹."
+        },
+        {
+          "criterion": "c: Termolecular",
+          "points": 1,
+          "description": "A single step requires three molecules to collide simultaneously with correct orientation and energy, which is very improbable."
+        },
+        {
+          "criterion": "d: Mechanism",
+          "points": 1,
+          "description": "E.g., NO + Br₂ ⇌ NOBr₂ (fast); NOBr₂ + NO → 2NOBr (slow). Intermediate NOBr₂. Rate = k[NOBr₂][NO] = k'[NO]²[Br₂]."
+        }
+      ],
+      "sampleResponse": "(a) Trials 1 and 2: [NO] doubles, [Br₂] constant, rate quadruples (12 → 48), so second order in NO. Trials 1 and 3: [Br₂] doubles, [NO] constant, rate doubles (12 → 24), so first order in Br₂. Rate = k[NO]²[Br₂].\n\n(b) k = 12 M/s ÷ [(0.10 M)²(0.10 M)] = 12 ÷ 1.0 × 10⁻³ = 1.2 × 10⁴ M⁻²s⁻¹.\n\n(c) The step is termolecular: three particles would have to collide at the same instant with proper orientation and enough energy. Such collisions are very rare, so a one-step mechanism is unlikely.\n\n(d) Step 1 (fast, reversible): NO + Br₂ ⇌ NOBr₂. Step 2 (slow): NOBr₂ + NO → 2NOBr. The slow step gives rate = k₂[NOBr₂][NO]; from the fast equilibrium, [NOBr₂] = K[NO][Br₂], so rate = k[NO]²[Br₂]. NOBr₂ is the intermediate."
+    }
+  ]
+}

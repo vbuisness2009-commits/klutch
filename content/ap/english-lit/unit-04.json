@@ -1,0 +1,548 @@
+{
+  "number": 4,
+  "title": "Short Fiction II",
+  "guide": {
+    "summary": "Returning to short fiction, this unit deepens analysis of how narrative perspective, irony, symbolism, and shifts in tone create complex meaning. Stories at this level often hold contradictions open rather than resolving them, and strong readings account for that ambiguity.",
+    "sections": [
+      {
+        "heading": "Perspective and distance",
+        "body": "Narrators control how close readers get to characters. **Free indirect discourse** blends a third-person narrator's voice with a character's thoughts (\"It was a perfectly good dress, wasn't it?\"), letting readers hear a character's feelings while keeping some distance. A narrator's **tone** toward a character (sympathetic, ironic, detached) shapes the reader's judgment."
+      },
+      {
+        "heading": "Irony",
+        "body": "- **Verbal irony:** saying the opposite of what's meant.\n- **Situational irony:** an outcome contrary to expectation.\n- **Dramatic irony:** readers know more than characters.\n\nIrony often exposes the gap between how characters see themselves and how the story presents them."
+      },
+      {
+        "heading": "Symbolism and ambiguity",
+        "body": "A **symbol** gains meaning through repetition and context. Strong analysis explains how a symbol's meaning develops or changes rather than assigning a single fixed meaning. **Ambiguity** (when a text supports more than one reading) is a feature to analyze, not a problem to solve. The best essays acknowledge competing interpretations."
+      },
+      {
+        "heading": "Tone shifts",
+        "body": "A story's tone can move from comic to sorrowful or from detached to intimate. Locate the shift and explain what causes it and what it reveals. Shifts frequently coincide with a character's moment of recognition (an **epiphany**)."
+      }
+    ],
+    "keyTakeaways": [
+      "Free indirect discourse blends narrator and character voices.",
+      "Irony reveals gaps between perception and reality.",
+      "Symbols develop through repetition and context.",
+      "Ambiguity is meaningful; account for it.",
+      "Tone shifts often accompany epiphanies.",
+      "Analyze how perspective shapes judgment."
+    ],
+    "commonMistakes": [
+      "Assigning a symbol one rigid meaning.",
+      "Missing irony in a sympathetic-seeming narrator.",
+      "Forcing ambiguous endings into single interpretations.",
+      "Confusing verbal and situational irony.",
+      "Ignoring how narrative distance shapes sympathy.",
+      "Overlooking the moment of epiphany."
+    ],
+    "examTips": [
+      "Multiple-choice questions often test the effect of free indirect discourse; listen for the character's voice in the narration.",
+      "In essays, address how a symbol's meaning changes over the story.",
+      "Name the type of irony and explain its effect.",
+      "A complex thesis can acknowledge competing readings.",
+      "Watch for distractors that oversimplify ambiguous endings."
+    ],
+    "cramSheet": "**Perspective:** free indirect discourse · narrative distance · narrator's tone\n\n**Irony:** verbal · situational · dramatic\n\n**Symbol:** develops through repetition and context\n\n**Ambiguity:** multiple valid readings\n\n**Shifts:** tone change · epiphany"
+  },
+  "vocab": [
+    {
+      "term": "Free indirect discourse",
+      "definition": "Third-person narration that takes on a character's voice and thoughts."
+    },
+    {
+      "term": "Narrative distance",
+      "definition": "How close or detached the narration is from a character's consciousness."
+    },
+    {
+      "term": "Verbal irony",
+      "definition": "Saying the opposite of what is meant."
+    },
+    {
+      "term": "Situational irony",
+      "definition": "An outcome that contradicts what is expected."
+    },
+    {
+      "term": "Symbol",
+      "definition": "An object, character, or action that represents something beyond itself."
+    },
+    {
+      "term": "Ambiguity",
+      "definition": "The capacity of a text to support multiple interpretations."
+    },
+    {
+      "term": "Epiphany",
+      "definition": "A sudden moment of insight or realization."
+    },
+    {
+      "term": "Tone shift",
+      "definition": "A change in the attitude conveyed by the narrator or speaker."
+    },
+    {
+      "term": "Juxtaposition",
+      "definition": "Placing contrasting elements side by side."
+    },
+    {
+      "term": "Understatement",
+      "definition": "Presenting something as less significant than it is."
+    },
+    {
+      "term": "Irony of situation",
+      "definition": "Another name for situational irony."
+    },
+    {
+      "term": "Implied author",
+      "definition": "The sense of the author's values that readers infer from the text as a whole."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Irony",
+      "stimulus": "The fire chief's house was the only one on the street that burned down that summer.",
+      "stem": "This sentence is an example of",
+      "choices": [
+        {
+          "id": "A",
+          "text": "situational irony"
+        },
+        {
+          "id": "B",
+          "text": "verbal irony"
+        },
+        {
+          "id": "C",
+          "text": "dramatic irony"
+        },
+        {
+          "id": "D",
+          "text": "personification"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The outcome contradicts what we'd expect of a fire chief.",
+      "distractors": {
+        "B": "Nobody says the opposite of what they mean."
+      }
+    },
+    {
+      "id": "u4-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Free indirect discourse",
+      "stimulus": "Margaret looked at the invitation again. Her sister hadn't called in three years, and now this. Well, she certainly wasn't going to drive four hours for a party.",
+      "stem": "The final sentence is best described as",
+      "choices": [
+        {
+          "id": "A",
+          "text": "free indirect discourse conveying Margaret's thoughts in her own voice"
+        },
+        {
+          "id": "B",
+          "text": "direct dialogue"
+        },
+        {
+          "id": "C",
+          "text": "an omniscient narrator's objective judgment"
+        },
+        {
+          "id": "D",
+          "text": "a flashback"
+        }
+      ],
+      "answer": "A",
+      "explanation": "\"Well, she certainly...\" sounds like Margaret, though the narration stays third-person.",
+      "distractors": {
+        "B": "There are no quotation marks; she isn't speaking aloud."
+      }
+    },
+    {
+      "id": "u4-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Verbal irony",
+      "stimulus": "\"Lovely weather for a picnic,\" Dad said as the hail bounced off the windshield.",
+      "stem": "Dad's comment is an example of",
+      "choices": [
+        {
+          "id": "A",
+          "text": "verbal irony"
+        },
+        {
+          "id": "B",
+          "text": "situational irony"
+        },
+        {
+          "id": "C",
+          "text": "foreshadowing"
+        },
+        {
+          "id": "D",
+          "text": "hyperbole"
+        }
+      ],
+      "answer": "A",
+      "explanation": "He says the opposite of what he means.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Epiphany",
+      "stimulus": "For years Paul blamed his brother for leaving. Clearing out their mother's desk, he found the letters she'd written begging his brother to go, to save himself. Paul sat on the floor and read them twice.",
+      "stem": "The discovery of the letters most likely marks",
+      "choices": [
+        {
+          "id": "A",
+          "text": "an epiphany that changes Paul's understanding of his brother's departure"
+        },
+        {
+          "id": "B",
+          "text": "the story's exposition"
+        },
+        {
+          "id": "C",
+          "text": "a comic interlude"
+        },
+        {
+          "id": "D",
+          "text": "a flashback to childhood"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The letters overturn his long-held judgment.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Symbol development",
+      "stimulus": "Early in the story, the narrator's father plants an oak sapling the day she is born. Midway through, after the father leaves the family, she wants to cut it down. At the story's end, decades later, she sits in its shade reading a letter from him.",
+      "stem": "The oak's meaning is best described as",
+      "choices": [
+        {
+          "id": "A",
+          "text": "shifting with the narrator's feelings about her father, from bond to resentment to a complicated reconciliation"
+        },
+        {
+          "id": "B",
+          "text": "fixed as a symbol of nature's beauty"
+        },
+        {
+          "id": "C",
+          "text": "unrelated to the father"
+        },
+        {
+          "id": "D",
+          "text": "a symbol of the narrator's career"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The tree's significance develops with the relationship.",
+      "distractors": {
+        "B": "Ignores its connection to the father."
+      }
+    },
+    {
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Narrative distance",
+      "stimulus": "The narrator describes the town's wealthiest family in elaborate praise, listing their charities and handsome children, then adds, in a single sentence, that the factory they own has poisoned the river for thirty years.",
+      "stem": "The narrator's technique most likely serves to",
+      "choices": [
+        {
+          "id": "A",
+          "text": "undercut the family's public image through ironic juxtaposition"
+        },
+        {
+          "id": "B",
+          "text": "sincerely celebrate the family"
+        },
+        {
+          "id": "C",
+          "text": "introduce a romance subplot"
+        },
+        {
+          "id": "D",
+          "text": "describe the river's natural beauty"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The flat final fact deflates the praise.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Tone shift",
+      "stimulus": "The first half of a story describes a chaotic family road trip with comic mishaps: a lost map, a carsick dog, a flat tire. The second half takes place in a hospital waiting room after the grandmother collapses at a rest stop.",
+      "stem": "The shift in tone most likely serves to",
+      "choices": [
+        {
+          "id": "A",
+          "text": "reveal how ordinary family chaos becomes precious in the face of possible loss"
+        },
+        {
+          "id": "B",
+          "text": "show that road trips are dangerous"
+        },
+        {
+          "id": "C",
+          "text": "provide more comic relief"
+        },
+        {
+          "id": "D",
+          "text": "introduce a mystery"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The comic first half gains poignancy in retrospect.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Ambiguity",
+      "stimulus": "At the story's end, the mother says, \"You did what you had to,\" and turns off the light, leaving her son in the dark kitchen.",
+      "stem": "The ending is best described as",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ambiguous, since her words could express forgiveness or resigned disappointment"
+        },
+        {
+          "id": "B",
+          "text": "clearly hostile"
+        },
+        {
+          "id": "C",
+          "text": "clearly joyful"
+        },
+        {
+          "id": "D",
+          "text": "unrelated to the story's conflict"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Her words and the darkness can be read in more than one way.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Dramatic irony",
+      "stimulus": "Readers know from an earlier scene that the bakery will close next week. The owner's daughter spends the story planning a surprise party there for her father's sixtieth birthday.",
+      "stem": "The daughter's planning creates",
+      "choices": [
+        {
+          "id": "A",
+          "text": "dramatic irony that makes her hopefulness poignant"
+        },
+        {
+          "id": "B",
+          "text": "verbal irony"
+        },
+        {
+          "id": "C",
+          "text": "a flashback"
+        },
+        {
+          "id": "D",
+          "text": "an unreliable narrator"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Readers know what she doesn't.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Understatement",
+      "stimulus": "After the storm took the roof, the barn, and most of the cattle, Grandpa surveyed the damage and said, \"Well. That'll need some work.\"",
+      "stem": "Grandpa's comment most likely reveals",
+      "choices": [
+        {
+          "id": "A",
+          "text": "stoic resilience expressed through understatement"
+        },
+        {
+          "id": "B",
+          "text": "that the damage is minor"
+        },
+        {
+          "id": "C",
+          "text": "indifference to the loss"
+        },
+        {
+          "id": "D",
+          "text": "anger at the narrator"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The understatement shows endurance in the face of catastrophe.",
+      "distractors": {
+        "B": "The damage is clearly severe."
+      }
+    },
+    {
+      "id": "u4-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Free indirect discourse and judgment",
+      "stimulus": "Celia smoothed her hair before the mirror. She had been very patient with Ellen, really, more patient than anyone else would have been. If Ellen had cried at the funeral, well, some people simply couldn't control themselves.",
+      "stem": "The narration most likely invites readers to",
+      "choices": [
+        {
+          "id": "A",
+          "text": "view Celia's self-assessment skeptically, as her voice reveals coldness she doesn't recognize"
+        },
+        {
+          "id": "B",
+          "text": "accept Celia's patience as fact"
+        },
+        {
+          "id": "C",
+          "text": "sympathize with Celia's grief"
+        },
+        {
+          "id": "D",
+          "text": "view Ellen as unreasonable"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Free indirect discourse lets Celia's self-justifications expose themselves; criticizing grief at a funeral signals coldness.",
+      "distractors": {
+        "B": "Takes the character's voice as the narrator's judgment."
+      }
+    },
+    {
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Symbol and ambiguity",
+      "stimulus": "In a story about a woman caring for her dying husband, a hummingbird visits the feeder outside his window each morning. On the day after he dies, it doesn't come. The next spring, she hangs the feeder again.",
+      "stem": "Which interpretation best accounts for the details?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The bird's absence marks loss, while rehanging the feeder suggests her choice to remain open to life and return despite grief."
+        },
+        {
+          "id": "B",
+          "text": "The bird proves the husband's spirit lives on."
+        },
+        {
+          "id": "C",
+          "text": "The story is primarily about bird-watching."
+        },
+        {
+          "id": "D",
+          "text": "The feeder symbolizes the husband's illness."
+        }
+      ],
+      "answer": "A",
+      "explanation": "The reading accounts for both the absence and her renewed gesture without overclaiming.",
+      "distractors": {
+        "B": "Overclaims a supernatural meaning the text doesn't confirm."
+      }
+    },
+    {
+      "id": "u4-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Irony and theme",
+      "stimulus": "A man spends his entire life saving money for a grand retirement trip around the world, refusing every vacation and small pleasure. On the morning he finally boards the ship, he realizes he has no one to send postcards to.",
+      "stem": "The ending's irony most strongly suggests that",
+      "choices": [
+        {
+          "id": "A",
+          "text": "in deferring his life for a future reward, he sacrificed the relationships that would have given it meaning"
+        },
+        {
+          "id": "B",
+          "text": "travel is overrated"
+        },
+        {
+          "id": "C",
+          "text": "saving money is always wise"
+        },
+        {
+          "id": "D",
+          "text": "postal services are unreliable"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Achieving his goal exposes what he lost pursuing it.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Juxtaposition and perspective",
+      "stimulus": "The story alternates between two first-person narrators: a teenage girl who believes her stepfather despises her, and the stepfather, whose sections reveal he is too shy to know what to say to her.",
+      "stem": "The alternating structure most likely serves to",
+      "choices": [
+        {
+          "id": "A",
+          "text": "create dramatic irony and show how misunderstanding grows from limited perspectives"
+        },
+        {
+          "id": "B",
+          "text": "confirm the girl's view of the stepfather"
+        },
+        {
+          "id": "C",
+          "text": "confuse readers about the plot"
+        },
+        {
+          "id": "D",
+          "text": "provide an omniscient view of the town"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Readers see both sides, highlighting the gap each narrator can't bridge.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Prose fiction analysis",
+      "frqType": "Q2 Prose Fiction Analysis",
+      "stimulus": "The following passage was written for this practice set.\n\nMrs. Okafor had been the crossing guard at Elm and Third for twenty-six years, and in all that time no child had been hurt on her corner. She liked to say this to new parents, the way other people mention a degree. The district had sent a letter in May: the new traffic light would be installed over the summer, and her services, though deeply appreciated, would no longer be required.\n\nOn the first day of school, she came anyway. She did not wear the vest. She stood on the corner with her coffee as the new light changed from red to green to red, precise as a metronome, and the children crossed without looking at her, because there was nothing anymore to look at her for.\n\nOne small boy, though, stopped at the curb. He was new; she could tell by his backpack, which was too big and too clean. The light turned green. He did not move. He looked up at her, and she understood that he was waiting for permission, the way children had waited for her for twenty-six years.\n\n\"Go on,\" she said. \"It's green.\"\n\nHe went. Halfway across, he turned and waved, and she lifted her coffee cup in return, as though it were the old stop sign, and held it there until he reached the other side.",
+      "prompt": "Read the passage carefully. Then, in a well-written essay, analyze how the author uses literary elements and techniques to convey Mrs. Okafor's complex response to losing her job.\n\nIn your response you should do the following:\n- Respond to the prompt with a thesis that presents a defensible interpretation.\n- Select and use evidence to support your line of reasoning.\n- Explain how the evidence supports your line of reasoning.\n- Use appropriate grammar and punctuation in communicating your argument.",
+      "points": 6,
+      "minutes": 40,
+      "rubric": [
+        {
+          "criterion": "Row A: Thesis",
+          "points": 1,
+          "description": "Defensible interpretation of Mrs. Okafor's complex response."
+        },
+        {
+          "criterion": "Row B: Evidence and commentary",
+          "points": 4,
+          "description": "4: consistent specific evidence and commentary on techniques. 3: most claims. 2: summary-heavy. 1: minimal."
+        },
+        {
+          "criterion": "Row C: Sophistication",
+          "points": 1,
+          "description": "E.g., explains the tension between obsolescence and lasting human need; analyzes the final gesture's complexity."
+        }
+      ],
+      "sampleResponse": "Losing her job leaves Mrs. Okafor grieving a role that defined her, yet the passage's final encounter suggests that what she offered was never only mechanical. Through ironic contrast between human care and impersonal technology, details of her diminished presence, and a closing gesture that restores her role for a moment, the author conveys a response that mixes loss, pride, and quiet affirmation.\n\nThe opening establishes how central the job is to her identity. Her safety record, which she shares with parents \"the way other people mention a degree,\" equates her work with a credential, an achievement she earned. The district's letter, by contrast, uses polite bureaucratic language: her services, \"though deeply appreciated,\" \"would no longer be required.\" The irony is sharp: the language of appreciation dismisses her.\n\nOn the first day of school, the author emphasizes her reduced presence. She comes \"anyway,\" without her vest, the symbol of her authority. The new light changes \"precise as a metronome,\" a simile that captures both its reliability and its coldness, and children cross \"without looking at her, because there was nothing anymore to look at her for.\" The repetition of \"look\" underscores her invisibility; she has become a bystander at her own corner.\n\nThe small boy disrupts this. His \"too big and too clean\" backpack marks him as new, and his hesitation reveals what the light can't provide: reassurance. He waits \"for permission, the way children had waited for her for twenty-six years.\" For a moment, her role returns, not as a legal necessity but as human trust.\n\nThe final gesture fuses loss and pride. Lifting her coffee cup \"as though it were the old stop sign,\" she performs her job one last time with a makeshift tool, holding it \"until he reached the other side.\" The image is both comic and tender: she has been replaced, but her care persists. The author leaves her neither defeated nor restored, but dignified in a role the world no longer officially needs."
+    }
+  ]
+}

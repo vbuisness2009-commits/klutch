@@ -1,0 +1,272 @@
+{
+  "number": 7,
+  "title": "Short Fiction III",
+  "guide": {
+    "summary": "The final short fiction unit asks for the most sophisticated readings: how stories use structure, perspective, and figurative language together to explore complex themes, and how to write analysis that accounts for tension, ambiguity, and the story's broader implications.",
+    "sections": [
+      {
+        "heading": "Integrating techniques",
+        "body": "At this level, avoid treating techniques separately. Ask how narration, structure, and imagery work together: a fragmented structure may mirror a narrator's trauma; a recurring image may track a character's shifting perception. Strong essays show how choices combine to create a single, complex effect."
+      },
+      {
+        "heading": "Theme as argument",
+        "body": "A **theme** is not a single word (\"love\") but a claim the story makes or explores (\"Love that demands sacrifice can become indistinguishable from control\"). Stories often test ideas rather than state them; the theme may emerge through irony or contradiction."
+      },
+      {
+        "heading": "Complexity and sophistication",
+        "body": "The sophistication point (Row C) rewards essays that explain a work's complexity: competing interpretations, tensions within characters, or the broader significance of the passage. It can't be earned with a single sentence; the complex understanding must run through the essay. A thesis that names a tension (\"both... and,\" \"although\") sets this up."
+      },
+      {
+        "heading": "Nonlinear and experimental structures",
+        "body": "Contemporary stories may use fragments, lists, second-person narration (\"you\"), or reversed chronology. Ask why: second person can implicate the reader or show a character's detachment from her own experience; reversed chronology can make the ending a beginning."
+      }
+    ],
+    "keyTakeaways": [
+      "Show how techniques combine rather than listing them.",
+      "State theme as a claim, not a single word.",
+      "Row C requires sustained complexity, not one clever sentence.",
+      "Experimental structures carry meaning; explain why they're used.",
+      "Second-person narration can implicate or distance.",
+      "Tension and contradiction often reveal theme."
+    ],
+    "commonMistakes": [
+      "One-word themes.",
+      "Analyzing techniques in isolation.",
+      "Adding a last-minute \"complex\" sentence to chase Row C.",
+      "Ignoring why a story uses an unusual structure.",
+      "Over-reading minor details while missing the central tension.",
+      "Writing generalizations unsupported by the text."
+    ],
+    "examTips": [
+      "Draft a thesis with a \"both... and\" or \"although\" structure.",
+      "Each body paragraph should connect to the central tension.",
+      "In MCQs about structure, ask what the arrangement emphasizes.",
+      "Use the passage's ending as key evidence.",
+      "Keep quotations brief and analyzed."
+    ],
+    "cramSheet": "**Integration:** narration + structure + imagery → one effect\n\n**Theme:** a claim, not a word\n\n**Row C:** sustained complexity · tension · competing readings\n\n**Structures:** fragments · lists · second person · reversed chronology"
+  },
+  "vocab": [
+    { "term": "Theme", "definition": "An idea or claim about life that a work explores or implies." },
+    { "term": "Second-person narration", "definition": "Narration using \"you\" as the protagonist." },
+    { "term": "Fragmented structure", "definition": "A narrative told in disconnected sections or out of order." },
+    { "term": "Reversed chronology", "definition": "A narrative told from end to beginning." },
+    { "term": "Complexity", "definition": "The presence of tensions, contradictions, or multiple meanings in a work or interpretation." },
+    { "term": "Motif", "definition": "A recurring element that develops a theme." },
+    { "term": "Stream of consciousness", "definition": "Narration imitating the flow of a character's thoughts." },
+    { "term": "Frame narrative", "definition": "A story within a story." },
+    { "term": "Unresolved ending", "definition": "An ending that leaves the central conflict open." },
+    { "term": "Implicit theme", "definition": "A theme suggested rather than stated directly." },
+    { "term": "Tension", "definition": "Opposing forces or ideas held together in a work." },
+    { "term": "Interpretation", "definition": "A reasoned claim about a work's meaning supported by evidence." }
+  ],
+  "practice": [
+    {
+      "id": "u7-q01", "tier": "Intro", "type": "mcq", "topic": "Theme",
+      "stem": "Which statement best expresses a theme rather than a topic?",
+      "choices": [
+        { "id": "A", "text": "Protecting someone from every hardship can deny them the chance to grow." },
+        { "id": "B", "text": "Family" },
+        { "id": "C", "text": "Growing up" },
+        { "id": "D", "text": "Parents and children" }
+      ],
+      "answer": "A",
+      "explanation": "A theme is a claim; the others are subjects.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q02", "tier": "Intro", "type": "mcq", "topic": "Second-person narration",
+      "stimulus": "You wake before the alarm. You make his coffee the way he likes it. You don't ask where he was last night, because you already know what he'll say.",
+      "stem": "The second-person narration most likely suggests",
+      "choices": [
+        { "id": "A", "text": "the narrator's emotional distance from her own routine, as if watching herself" },
+        { "id": "B", "text": "that the reader is the husband" },
+        { "id": "C", "text": "an omniscient narrator" },
+        { "id": "D", "text": "a cheerful morning" }
+      ],
+      "answer": "A",
+      "explanation": "\"You\" creates detachment and invites the reader into her numb routine.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q03", "tier": "Intro", "type": "mcq", "topic": "Frame narrative",
+      "stimulus": "A story begins with an old man telling his grandson about a winter long ago. Most of the story recounts that winter; the final paragraph returns to the grandson falling asleep before the ending.",
+      "stem": "The story's structure is best described as",
+      "choices": [
+        { "id": "A", "text": "a frame narrative" },
+        { "id": "B", "text": "stream of consciousness" },
+        { "id": "C", "text": "reversed chronology" },
+        { "id": "D", "text": "an epistolary narrative" }
+      ],
+      "answer": "A",
+      "explanation": "An outer story frames the inner tale.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q04", "tier": "Intro", "type": "mcq", "topic": "Stream of consciousness",
+      "stimulus": "the bus is late again and the sky looks like dishwater like Mom's apron the blue one did she ever wash it after the funeral I can't remember",
+      "stem": "The passage's lack of punctuation most likely reflects",
+      "choices": [
+        { "id": "A", "text": "the unfiltered, associative flow of the narrator's thoughts and grief" },
+        { "id": "B", "text": "a printing error" },
+        { "id": "C", "text": "a formal, objective narrator" },
+        { "id": "D", "text": "dialogue between characters" }
+      ],
+      "answer": "A",
+      "explanation": "Stream of consciousness shows how the narrator's mind drifts toward loss.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q05", "tier": "Exam level", "type": "mcq", "topic": "Reversed chronology",
+      "stimulus": "A story about a marriage is told in reverse: it begins with the couple's divorce and ends on their first date, when they laugh at the same joke.",
+      "stem": "The reversed structure most likely",
+      "choices": [
+        { "id": "A", "text": "makes the hopeful beginning poignant because readers know how it ends" },
+        { "id": "B", "text": "hides the story's ending" },
+        { "id": "C", "text": "suggests the couple will reunite" },
+        { "id": "D", "text": "creates a mystery about the divorce's cause only" }
+      ],
+      "answer": "A",
+      "explanation": "Ending with the first date infuses joy with loss through dramatic irony.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q06", "tier": "Exam level", "type": "mcq", "topic": "Integrated techniques",
+      "stimulus": "A story about a soldier returning home is told in short, numbered sections that jump between the battlefield and his family's kitchen. Ordinary objects (a ringing phone, a dropped pan) trigger the jumps.",
+      "stem": "The structure most likely",
+      "choices": [
+        { "id": "A", "text": "mirrors how traumatic memories intrude on his present life" },
+        { "id": "B", "text": "shows the war is long over for him" },
+        { "id": "C", "text": "provides a simple chronological account" },
+        { "id": "D", "text": "is unrelated to his experience" }
+      ],
+      "answer": "A",
+      "explanation": "Fragmented form enacts intrusive memories triggered by sounds.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q07", "tier": "Exam level", "type": "mcq", "topic": "Implicit theme",
+      "stimulus": "A story describes a family that installs security cameras, motion lights, and three locks after a burglary on their street. In the final scene, their teenage son climbs out his window at night just to sit on the roof and look at the stars.",
+      "stem": "The final scene most likely suggests that",
+      "choices": [
+        { "id": "A", "text": "efforts to protect can become a kind of confinement that the young will escape" },
+        { "id": "B", "text": "the family's security system failed technically" },
+        { "id": "C", "text": "the son plans a burglary" },
+        { "id": "D", "text": "astronomy is the story's subject" }
+      ],
+      "answer": "A",
+      "explanation": "The son's escape contrasts with the family's fortification.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q08", "tier": "Exam level", "type": "mcq", "topic": "Motif",
+      "stimulus": "In a story, the protagonist repeatedly notices birds in cages: at a pet store, in a neighbor's window, in a painting at the dentist. On the last page, she opens the door of her own apartment and leaves it open.",
+      "stem": "The motif and final action most likely suggest",
+      "choices": [
+        { "id": "A", "text": "her recognition of her own confinement and a tentative move toward freedom" },
+        { "id": "B", "text": "her fear of birds" },
+        { "id": "C", "text": "that she owns a pet bird" },
+        { "id": "D", "text": "carelessness about home security" }
+      ],
+      "answer": "A",
+      "explanation": "Caged birds accumulate meaning; the open door echoes an opened cage.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q09", "tier": "Exam level", "type": "mcq", "topic": "Unresolved ending",
+      "stimulus": "A story about two estranged sisters ends as one picks up the phone, dials, and listens to it ring.",
+      "stem": "The ending most likely emphasizes",
+      "choices": [
+        { "id": "A", "text": "the act of reaching out itself, with reconciliation uncertain" },
+        { "id": "B", "text": "that the sisters definitely reconcile" },
+        { "id": "C", "text": "that the phone is broken" },
+        { "id": "D", "text": "that the sisters never speak again" }
+      ],
+      "answer": "A",
+      "explanation": "The story stops at the gesture, leaving the outcome open.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q10", "tier": "Exam level", "type": "mcq", "topic": "Complexity",
+      "stem": "Which thesis about a story in which a mother sacrifices her career to care for her children demonstrates the most complexity?",
+      "choices": [
+        { "id": "A", "text": "The story honors the mother's devotion while exposing how her sacrifice was demanded by a family that never acknowledged it." },
+        { "id": "B", "text": "The mother is a good person." },
+        { "id": "C", "text": "The story is about sacrifice." },
+        { "id": "D", "text": "The mother gives up her career." }
+      ],
+      "answer": "A",
+      "explanation": "It holds admiration and critique in tension.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q11", "tier": "Hardest", "type": "mcq", "topic": "Irony and theme",
+      "stimulus": "A story's narrator, a successful lawyer, explains at length that she has \"moved past\" her immigrant parents' small grocery store. The story ends with her, late at night in her high-rise office, arranging the pens on her desk in neat rows, exactly as her father stacked cans.",
+      "stem": "The ending most strongly suggests that",
+      "choices": [
+        { "id": "A", "text": "the narrator carries her parents' habits and values more deeply than she admits" },
+        { "id": "B", "text": "the narrator has completely escaped her past" },
+        { "id": "C", "text": "the narrator dislikes her job" },
+        { "id": "D", "text": "the father worked at a law firm" }
+      ],
+      "answer": "A",
+      "explanation": "The unconscious echo of her father ironizes her claim.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q12", "tier": "Hardest", "type": "mcq", "topic": "Integrated techniques",
+      "stimulus": "A story is narrated as a list of instructions a mother writes for the babysitter: \"Bedtime is 8. She likes the hall light on. If she asks where I am, tell her I'll be back.\" The last line reads: \"If she asks again, tell her again.\"",
+      "stem": "The final instruction most likely reveals",
+      "choices": [
+        { "id": "A", "text": "the mother's awareness that her absence may be long or permanent, concealed in practical language" },
+        { "id": "B", "text": "that the child is forgetful" },
+        { "id": "C", "text": "that the babysitter is inexperienced" },
+        { "id": "D", "text": "that the mother will return shortly" }
+      ],
+      "answer": "A",
+      "explanation": "The list form suppresses emotion; the repetition hints at something heavier.",
+      "distractors": { "D": "The instruction implies the opposite." }
+    },
+    {
+      "id": "u7-q13", "tier": "Hardest", "type": "mcq", "topic": "Competing interpretations",
+      "stimulus": "A story ends with an elderly man selling the family farm and smiling as he drives away. Earlier, he had told his children the farm was \"the only thing that ever mattered.\"",
+      "stem": "Which interpretation best accounts for the contradiction?",
+      "choices": [
+        { "id": "A", "text": "His smile may express relief from a burden as much as loss, suggesting that what mattered most also confined him." },
+        { "id": "B", "text": "He never cared about the farm." },
+        { "id": "C", "text": "He is lying to his children about the sale." },
+        { "id": "D", "text": "The farm was not actually sold." }
+      ],
+      "answer": "A",
+      "explanation": "The reading accounts for both statements without discarding either.",
+      "distractors": { "B": "Ignores his earlier statement." }
+    },
+    {
+      "id": "u7-q14", "tier": "Hardest", "type": "mcq", "topic": "Symbol and perspective",
+      "stimulus": "In a story narrated by a child, his father keeps a locked toolbox in the garage that the boy is never allowed to open. After the father leaves, the boy opens it and finds only ordinary tools.",
+      "stem": "The discovery most likely suggests",
+      "choices": [
+        { "id": "A", "text": "that the father's mystery existed largely in the child's imagination, deflating the boy's idealization" },
+        { "id": "B", "text": "that the father was a carpenter by trade" },
+        { "id": "C", "text": "that the boy will become a mechanic" },
+        { "id": "D", "text": "that the toolbox contained hidden treasure" }
+      ],
+      "answer": "A",
+      "explanation": "The ordinary contents reveal how the child invested the father with meaning he couldn't reach.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-frq1", "tier": "Exam level", "type": "frq", "topic": "Prose fiction analysis", "frqType": "Q2 Prose Fiction Analysis",
+      "stimulus": "The following passage was written for this practice set.\n\nThe interpreter had been in the hospital for six hours, translating between a frightened family and a doctor who spoke quickly. She had said \"stable\" and \"critical\" and \"we're doing everything we can,\" carefully, in two languages, as if the words were glass. Now the doctor was gone, and the family sat in the plastic chairs, and the mother asked her the question she had been dreading: \"What did he really mean?\"\n\nShe was not supposed to answer that. Her job was the words, not the meaning; the meaning belonged to the doctor. She had signed a form saying so. She looked at the mother's hands, which were folded so tightly that the knuckles had gone pale, and at the teenage son, who had not stopped bouncing his knee since noon.\n\n\"He meant,\" she began, and stopped. In her own language there was a word that meant both *hope* and *waiting*. She had always found it a little sad, that the two could not be separated. Now it seemed like the only honest word she had.\n\nShe said it. The mother closed her eyes. The son's knee went still. And for a moment the three of them sat together in the hallway's hum, holding the word between them, the way you hold a cup that is too hot to drink but too warm to put down.",
+      "prompt": "Read the passage carefully. Then, in a well-written essay, analyze how the author uses literary elements and techniques to convey the interpreter's complex understanding of her role.\n\nIn your response you should do the following:\n- Respond to the prompt with a thesis that presents a defensible interpretation.\n- Select and use evidence to support your line of reasoning.\n- Explain how the evidence supports your line of reasoning.\n- Use appropriate grammar and punctuation in communicating your argument.",
+      "points": 6,
+      "minutes": 40,
+      "rubric": [
+        { "criterion": "Row A: Thesis", "points": 1, "description": "Defensible interpretation of the interpreter's complex understanding of her role." },
+        { "criterion": "Row B: Evidence and commentary", "points": 4, "description": "4: consistent specific evidence and commentary on techniques. 3: most claims. 2: summary-heavy. 1: minimal." },
+        { "criterion": "Row C: Sophistication", "points": 1, "description": "E.g., explores the tension between professional rules and human responsibility; analyzes the closing simile's ambivalence." }
+      ],
+      "sampleResponse": "In this passage, an interpreter discovers that her professional role (translating words without meaning) cannot fully contain the human responsibility of the moment. Through the image of words as glass, details of the family's suppressed fear, and the untranslatable word that joins hope and waiting, the author shows her moving from careful neutrality to an act of honest compassion that is both a small transgression and a deeper fidelity.\n\nThe opening establishes the fragility of her task. She speaks the doctor's phrases \"carefully, in two languages, as if the words were glass.\" The simile suggests that medical language is both precise and easily shattered, especially for a frightened family. Her role demands care, but it is a care for words, not people, a boundary reinforced by the form she signed agreeing that \"the meaning belonged to the doctor.\"\n\nThe mother's question breaks that boundary. The narration shifts to the interpreter's close observation: the mother's knuckles gone pale, the son's knee bouncing \"since noon.\" These indirect details reveal anxiety the family has not spoken, and the interpreter's attention to them shows that she has already begun to translate more than words. She is reading bodies, not just sentences.\n\nHer choice turns on a single word in her language that means \"both hope and waiting.\" She had once found it \"a little sad\" that the two couldn't be separated; now it is \"the only honest word she had.\" The word captures the doctor's ambiguity without false comfort, and in choosing it she fulfills the spirit of her role, conveying truth, even as she steps beyond its letter.\n\nThe closing simile captures the ambivalence of that truth. The three hold the word \"the way you hold a cup that is too hot to drink but too warm to put down.\" Hope burns, yet it comforts; they cannot consume it or abandon it. The interpreter's understanding of her role has expanded: her job is not only to carry words across languages but, sometimes, to help people bear what those words mean."
+    }
+  ]
+}

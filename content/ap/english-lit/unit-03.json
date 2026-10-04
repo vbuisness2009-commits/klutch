@@ -1,0 +1,552 @@
+{
+  "number": 3,
+  "title": "Longer Fiction or Drama I",
+  "guide": {
+    "summary": "Novels and plays develop characters, conflicts, and ideas over time. This unit introduces how longer works sustain tension, how drama communicates through dialogue and stage directions, and how to choose and use a full-length work in the literary argument essay.",
+    "sections": [
+      {
+        "heading": "Character across a long work",
+        "body": "Longer works let characters change slowly. Track a character's **values**, **motivations**, and **contradictions** from beginning to end. A character's change, or failure to change, often carries the work's meaning. Minor characters frequently act as foils or reveal social pressures the protagonist faces."
+      },
+      {
+        "heading": "Drama's conventions",
+        "body": "Plays communicate mostly through **dialogue** and action. **Stage directions** describe setting and gesture and can carry meaning (a door slammed, a long pause). A **soliloquy** reveals a character's thoughts aloud alone on stage; an **aside** is a brief comment to the audience. **Dramatic irony** occurs when the audience knows something characters don't. **Subtext** is what characters mean but don't say."
+      },
+      {
+        "heading": "Conflict and structure",
+        "body": "Long works often braid several conflicts: internal, interpersonal, and social. A **subplot** may mirror or contrast the main plot. Acts and chapters build toward a climax, and **motifs** (recurring images or ideas) connect parts of the work."
+      },
+      {
+        "heading": "The literary argument essay (Q3)",
+        "body": "Q3 presents an idea (for example, a character who must choose between duty and desire) and asks you to argue how a work of your choice develops it. Choose a work you know deeply, with specific scenes, quotations, and names. Your thesis should explain how the work uses that element to convey meaning, not just retell the plot. Plan two or three body paragraphs around stages of a character's development or different aspects of the idea."
+      }
+    ],
+    "keyTakeaways": [
+      "Track characters' change or stasis across the whole work.",
+      "In drama, stage directions and subtext carry meaning.",
+      "Dramatic irony creates tension between audience and characters.",
+      "Subplots and motifs connect parts of long works.",
+      "For Q3, choose a work you know thoroughly and argue about meaning.",
+      "Avoid plot summary; use specific moments as evidence."
+    ],
+    "commonMistakes": [
+      "Choosing a Q3 work you know only from a film adaptation.",
+      "Ignoring stage directions in drama passages.",
+      "Confusing a soliloquy with an aside.",
+      "Retelling the whole plot instead of selecting evidence.",
+      "Treating minor characters as irrelevant.",
+      "Writing a thesis about the work in general instead of the prompt's idea."
+    ],
+    "examTips": [
+      "Prepare three versatile works for Q3 (e.g., a novel, a play, and one more).",
+      "For each, know key scenes, characters' arcs, and a few short quotations.",
+      "In drama MCQs, read stage directions as carefully as dialogue.",
+      "Questions often ask what a line reveals about a relationship; consider subtext.",
+      "Tie every Q3 paragraph to the work's meaning as a whole."
+    ],
+    "cramSheet": "**Character:** values · motives · contradictions · change or stasis · foils\n\n**Drama:** dialogue · stage directions · soliloquy · aside · dramatic irony · subtext\n\n**Structure:** acts/chapters · subplot · motif · climax\n\n**Q3:** know the work deeply · argue meaning · specific scenes · no summary"
+  },
+  "vocab": [
+    {
+      "term": "Protagonist",
+      "definition": "The main character of a narrative."
+    },
+    {
+      "term": "Antagonist",
+      "definition": "A character or force opposing the protagonist."
+    },
+    {
+      "term": "Soliloquy",
+      "definition": "A speech in which a character alone on stage reveals inner thoughts."
+    },
+    {
+      "term": "Aside",
+      "definition": "A brief remark addressed to the audience, unheard by other characters."
+    },
+    {
+      "term": "Dramatic irony",
+      "definition": "When the audience knows something a character doesn't."
+    },
+    {
+      "term": "Stage directions",
+      "definition": "Instructions in a play describing setting, movement, and tone."
+    },
+    {
+      "term": "Subtext",
+      "definition": "Meaning implied beneath what characters say directly."
+    },
+    {
+      "term": "Subplot",
+      "definition": "A secondary storyline that often mirrors or contrasts the main plot."
+    },
+    {
+      "term": "Motif",
+      "definition": "A recurring image, idea, or symbol in a work."
+    },
+    {
+      "term": "Tragic flaw",
+      "definition": "A character trait that leads to a protagonist's downfall."
+    },
+    {
+      "term": "Climax",
+      "definition": "The point of highest tension or the turning point of a plot."
+    },
+    {
+      "term": "Theme",
+      "definition": "An insight about life or human nature that a work develops."
+    },
+    {
+      "term": "Literary merit",
+      "definition": "Qualities that make a work worthy of serious analysis."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Drama conventions",
+      "stimulus": "HELEN: (alone, staring at the unopened letter) If I read it, everything changes. If I don't, nothing will. And nothing has been changing for nine years.",
+      "stem": "Helen's speech is best described as",
+      "choices": [
+        {
+          "id": "A",
+          "text": "a soliloquy revealing her inner conflict"
+        },
+        {
+          "id": "B",
+          "text": "an aside to another character"
+        },
+        {
+          "id": "C",
+          "text": "a stage direction"
+        },
+        {
+          "id": "D",
+          "text": "dramatic irony"
+        }
+      ],
+      "answer": "A",
+      "explanation": "She's alone on stage voicing her thoughts.",
+      "distractors": {
+        "B": "An aside is addressed to the audience while others are present."
+      }
+    },
+    {
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Stage directions",
+      "stimulus": "MOTHER: Of course I'm happy for you. (She turns back to the sink and runs the water very hard.)",
+      "stem": "The stage direction most likely suggests that the mother",
+      "choices": [
+        {
+          "id": "A",
+          "text": "feels something other than the happiness she claims"
+        },
+        {
+          "id": "B",
+          "text": "needs to wash dishes urgently"
+        },
+        {
+          "id": "C",
+          "text": "is delighted"
+        },
+        {
+          "id": "D",
+          "text": "can't hear well"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Turning away and running water hard suggests suppressed emotion: subtext.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Dramatic irony",
+      "stimulus": "Earlier in the play, the audience watched the brother hide the money in the piano. Now the sister says, \"Whoever took it, I hope they needed it more than we do,\" as her brother sits at the piano.",
+      "stem": "The scene relies primarily on",
+      "choices": [
+        {
+          "id": "A",
+          "text": "dramatic irony"
+        },
+        {
+          "id": "B",
+          "text": "foreshadowing of the theft"
+        },
+        {
+          "id": "C",
+          "text": "a soliloquy"
+        },
+        {
+          "id": "D",
+          "text": "an unreliable narrator"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The audience knows what the sister doesn't, adding tension.",
+      "distractors": {
+        "B": "The theft has already happened."
+      }
+    },
+    {
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Motif",
+      "stimulus": "Throughout a novel, the narrator's family repeatedly passes a broken clock in the hall that no one fixes. In the final chapter, after her father's death, the narrator takes it to be repaired.",
+      "stem": "The clock most likely functions as",
+      "choices": [
+        {
+          "id": "A",
+          "text": "a motif representing the family's stalled time and the narrator's decision to move forward"
+        },
+        {
+          "id": "B",
+          "text": "a plot device for a mystery"
+        },
+        {
+          "id": "C",
+          "text": "an unimportant setting detail"
+        },
+        {
+          "id": "D",
+          "text": "a symbol of wealth"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Its recurrence and repair at the end link it to the family's arrested grief and change.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Subtext",
+      "stimulus": "FATHER: You'll need a coat in Chicago.\nSON: I have a coat.\nFATHER: A real coat. Not that jacket.\nSON: Dad.\nFATHER: (pause) Take mine. I don't go anywhere anymore.",
+      "stem": "The father's final line most likely reveals",
+      "choices": [
+        {
+          "id": "A",
+          "text": "his sadness about his son leaving and his own narrowing life, expressed through a practical gesture"
+        },
+        {
+          "id": "B",
+          "text": "his desire to move to Chicago"
+        },
+        {
+          "id": "C",
+          "text": "that he dislikes the son's jacket only for fashion reasons"
+        },
+        {
+          "id": "D",
+          "text": "that he wants his son to stay home"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The coat is care; \"I don't go anywhere anymore\" reveals loneliness.",
+      "distractors": {
+        "D": "He's equipping the son to go."
+      }
+    },
+    {
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Character change",
+      "stimulus": "In the first chapter, Ines refuses to speak at town meetings, saying it isn't her place. In the final chapter, she stands up at a meeting and asks why the clinic is closing.",
+      "stem": "The contrast between these chapters primarily shows",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ines's development from silence to public agency"
+        },
+        {
+          "id": "B",
+          "text": "that Ines is a static character"
+        },
+        {
+          "id": "C",
+          "text": "that the town has no clinic"
+        },
+        {
+          "id": "D",
+          "text": "that Ines dislikes meetings"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Her shift from deference to speaking up marks a dynamic arc.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Subplot",
+      "stimulus": "In a novel's main plot, a young man debates whether to leave his family's failing farm. In a subplot, his neighbor sells her land to a developer and moves to the city, where she feels lost.",
+      "stem": "The subplot most likely functions to",
+      "choices": [
+        {
+          "id": "A",
+          "text": "mirror the protagonist's dilemma and suggest possible costs of leaving"
+        },
+        {
+          "id": "B",
+          "text": "distract readers from the main plot"
+        },
+        {
+          "id": "C",
+          "text": "provide comic relief unrelated to the theme"
+        },
+        {
+          "id": "D",
+          "text": "resolve the protagonist's conflict"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The neighbor's choice previews one path the protagonist might take.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Aside",
+      "stimulus": "LANDLORD: The rent goes up next month. Inflation, you understand.\nTENANT: Of course. (aside) He bought a boat last week.",
+      "stem": "The tenant's aside primarily serves to",
+      "choices": [
+        {
+          "id": "A",
+          "text": "reveal to the audience her skepticism and the landlord's hypocrisy"
+        },
+        {
+          "id": "B",
+          "text": "inform the landlord of her suspicion"
+        },
+        {
+          "id": "C",
+          "text": "end the scene"
+        },
+        {
+          "id": "D",
+          "text": "show that she agrees with the landlord"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The aside, unheard by the landlord, shares her real view with the audience.",
+      "distractors": {
+        "B": "The landlord doesn't hear an aside."
+      }
+    },
+    {
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Setting in long works",
+      "stimulus": "A novel set in a mining town begins with the mine at full operation and ends after its closure, with the narrator describing the silence where whistles once marked the shifts.",
+      "stem": "The change in setting most directly reflects",
+      "choices": [
+        {
+          "id": "A",
+          "text": "the loss of the community's rhythm and identity"
+        },
+        {
+          "id": "B",
+          "text": "an improvement in the town's economy"
+        },
+        {
+          "id": "C",
+          "text": "the narrator's dislike of noise"
+        },
+        {
+          "id": "D",
+          "text": "a change in season"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The silent whistles signal the end of the life that structured the town.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Tragic flaw",
+      "stimulus": "Throughout the play, Ramón refuses every offer of help, insisting he can save the restaurant alone. In the final act, the restaurant closes, and he admits that he never let anyone in.",
+      "stem": "Ramón's downfall is best attributed to",
+      "choices": [
+        {
+          "id": "A",
+          "text": "his pride and refusal to accept help"
+        },
+        {
+          "id": "B",
+          "text": "bad luck alone"
+        },
+        {
+          "id": "C",
+          "text": "his partner's betrayal"
+        },
+        {
+          "id": "D",
+          "text": "a natural disaster"
+        }
+      ],
+      "answer": "A",
+      "explanation": "His repeated refusals and final admission point to a tragic flaw.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Subtext and relationship",
+      "stimulus": "WIFE: Did you call the doctor?\nHUSBAND: I'll call tomorrow.\nWIFE: You said that Monday.\nHUSBAND: Then I'm consistent. (He laughs. She doesn't.)",
+      "stem": "The exchange most strongly suggests",
+      "choices": [
+        {
+          "id": "A",
+          "text": "the husband uses humor to avoid confronting something he fears, which deepens the wife's worry"
+        },
+        {
+          "id": "B",
+          "text": "the couple shares a playful sense of humor about health"
+        },
+        {
+          "id": "C",
+          "text": "the husband has already called the doctor"
+        },
+        {
+          "id": "D",
+          "text": "the wife is unconcerned"
+        }
+      ],
+      "answer": "A",
+      "explanation": "His joke deflects; her silence shows it doesn't reassure her.",
+      "distractors": {
+        "B": "\"She doesn't\" laugh."
+      }
+    },
+    {
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Structure and theme",
+      "stimulus": "A play's first and last scenes take place at the same dinner table. In the first, five chairs are full and the family argues loudly. In the last, two chairs are filled and the remaining characters eat in silence.",
+      "stem": "The parallel scenes most likely emphasize",
+      "choices": [
+        {
+          "id": "A",
+          "text": "that the family's conflicts, however painful, were preferable to the absence that replaced them"
+        },
+        {
+          "id": "B",
+          "text": "that the family has resolved its disagreements happily"
+        },
+        {
+          "id": "C",
+          "text": "that dinner tables are an important stage prop"
+        },
+        {
+          "id": "D",
+          "text": "that the family moved houses"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Juxtaposing noise and silence suggests loss outweighs the strife that once defined them.",
+      "distractors": {
+        "B": "Silence and empty chairs suggest loss, not resolution."
+      }
+    },
+    {
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Character complexity",
+      "stimulus": "Throughout a novel, the grandmother criticizes everything her granddaughter does. After the grandmother dies, the granddaughter finds a drawer full of newspaper clippings of every school award she ever won.",
+      "stem": "The discovery most significantly",
+      "choices": [
+        {
+          "id": "A",
+          "text": "complicates the grandmother's characterization, revealing pride she never expressed"
+        },
+        {
+          "id": "B",
+          "text": "proves the grandmother was cruel"
+        },
+        {
+          "id": "C",
+          "text": "shows the granddaughter never won awards"
+        },
+        {
+          "id": "D",
+          "text": "introduces a new conflict about newspapers"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The clippings reveal hidden love beneath the harsh surface.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Literary argument",
+      "stem": "A student writing a Q3 essay on how a character's isolation shapes the work's meaning chooses a novel she knows well. Which thesis is strongest?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "In the novel, the protagonist's self-imposed isolation protects her from rejection but ultimately prevents the connection she craves, suggesting that safety purchased through withdrawal becomes its own prison."
+        },
+        {
+          "id": "B",
+          "text": "The novel is about isolation."
+        },
+        {
+          "id": "C",
+          "text": "The protagonist is isolated in the novel and it is very sad."
+        },
+        {
+          "id": "D",
+          "text": "The novel has many characters and settings."
+        }
+      ],
+      "answer": "A",
+      "explanation": "It makes a defensible claim about how isolation functions and what it suggests.",
+      "distractors": {
+        "B": "States a topic, not an argument."
+      }
+    },
+    {
+      "id": "u3-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Literary argument",
+      "frqType": "Q3 Literary Argument",
+      "prompt": "In many works of literature, a character keeps a secret that shapes their relationships with others.\n\nEither from your own reading or from a list of works your teacher provides, choose a work of fiction in which a character keeps a significant secret. Then, in a well-written essay, analyze how the secret contributes to an interpretation of the work as a whole.\n\nIn your response you should do the following:\n- Respond to the prompt with a thesis that presents a defensible interpretation.\n- Provide evidence to support your line of reasoning.\n- Explain how the evidence supports your line of reasoning.\n- Use appropriate grammar and punctuation in communicating your argument.",
+      "points": 6,
+      "minutes": 40,
+      "rubric": [
+        {
+          "criterion": "Row A: Thesis",
+          "points": 1,
+          "description": "Defensible interpretation of how the secret contributes to the work's meaning."
+        },
+        {
+          "criterion": "Row B: Evidence and commentary",
+          "points": 4,
+          "description": "4: specific, relevant evidence from the chosen work with commentary consistently connecting it to the interpretation. 3: most claims. 2: general or summary. 1: minimal."
+        },
+        {
+          "criterion": "Row C: Sophistication",
+          "points": 1,
+          "description": "E.g., explores complexity or tension in the work; situates the secret within the work's broader themes; persuasive style."
+        }
+      ],
+      "sampleResponse": "In F. Scott Fitzgerald's The Great Gatsby, Jay Gatsby's secret (that he was born James Gatz, a poor farmer's son who reinvented himself) drives his pursuit of Daisy and exposes the novel's critique of the American Dream: the belief that wealth can purchase belonging is itself an illusion that destroys those who trust it.\n\nGatsby's concealment of his origins shapes every relationship he forms. He presents himself as an Oxford man with inherited wealth, telling Nick an implausible story of jewels and big-game hunting. The elaborate lies reveal how completely he believes that the right surface can secure a place among the old-money elite. His mansion and lavish parties are performances designed for Daisy, who lives across the bay, symbolized by the green light he reaches toward.\n\nThe secret also determines Daisy's choice. When Tom exposes Gatsby's bootlegging in the Plaza Hotel scene, Daisy retreats to the security of Tom's established wealth. Gatsby's hidden past makes him vulnerable in a way Tom never is; however rich Gatsby becomes, the revelation that he is self-made disqualifies him in the eyes of a class that values inherited status.\n\nFinally, the secret shapes the novel's tragic ending and Nick's judgment. Only after Gatsby's death does Nick learn the full story from Gatsby's father, who proudly shows a childhood schedule of self-improvement. Nick recognizes that Gatsby's reinvention was both admirable and doomed. Gatsby's devotion to his dream survives his lies, but the world he wanted to enter rejects him.\n\nThrough Gatsby's secret, Fitzgerald suggests that the American Dream promises self-creation but is guarded by those who already possess what the dreamer seeks."
+    }
+  ]
+}

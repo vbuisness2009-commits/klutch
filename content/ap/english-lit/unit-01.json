@@ -1,0 +1,275 @@
+{
+  "number": 1,
+  "title": "Short Fiction I",
+  "guide": {
+    "summary": "The first unit introduces the core tools of literary analysis using short fiction: how characters reveal themselves, how setting shapes mood and meaning, how plot is structured, and how the narrator's perspective filters everything the reader sees. The goal is to move from noticing details to explaining what they mean.",
+    "sections": [
+      {
+        "heading": "Character",
+        "body": "Readers learn about characters through **direct characterization** (the narrator tells us: \"She was proud\") and **indirect characterization** (we infer from speech, actions, thoughts, appearance, and others' reactions). Indirect evidence is usually richer to analyze.\n\nCharacters may be **dynamic** (changing) or **static**, **round** (complex) or **flat**. A **foil** contrasts with another character to highlight traits. Pay attention to contradictions: a character who claims calm while gripping a cup until her knuckles whiten reveals more than any description."
+      },
+      {
+        "heading": "Setting",
+        "body": "Setting includes time, place, and social environment. It can create **mood**, reflect a character's inner state, or act as a force that constrains choices. A cramped kitchen may suggest a trapped life; a storm may mirror conflict. Ask what the setting makes possible or impossible for the characters."
+      },
+      {
+        "heading": "Plot and structure",
+        "body": "Traditional plots move through exposition, rising action, climax, falling action, and resolution, but many stories disrupt this order with **flashback**, **foreshadowing**, or **in medias res** openings. Structure creates meaning: an ending that circles back to the opening image invites comparison between then and now; an unresolved ending can suggest that the conflict continues."
+      },
+      {
+        "heading": "Narration",
+        "body": "**First-person** narrators tell their own stories and may be **unreliable**, revealing more than they intend. **Third-person limited** narrators stay close to one character's thoughts; **third-person omniscient** narrators move among characters. Narrative **distance** and **tone** shape how readers judge characters.\n\nAlways distinguish the narrator from the author: a narrator's opinions aren't necessarily the text's message."
+      }
+    ],
+    "keyTakeaways": [
+      "Indirect characterization is the richest evidence.",
+      "Setting can reflect, shape, or constrain character.",
+      "Structural choices like flashback and circular endings create meaning.",
+      "Narrators can be limited or unreliable; the narrator isn't the author.",
+      "Analysis explains why a detail matters, not just that it's there.",
+      "Contradictions in characters often point to a story's central tension."
+    ],
+    "commonMistakes": [
+      "Summarizing plot instead of analyzing it.",
+      "Treating the narrator as the author.",
+      "Calling setting mere backdrop.",
+      "Missing irony in a first-person narrator's claims.",
+      "Using vague terms like \"imagery\" without saying what it shows.",
+      "Ignoring the ending's relationship to the beginning."
+    ],
+    "examTips": [
+      "Multiple-choice questions often ask what a detail \"suggests\" or \"reveals\" about a character.",
+      "For narrator questions, ask what the narrator knows and doesn't know.",
+      "In prose essays, build a thesis around a tension or change in the character.",
+      "Quote briefly and analyze specific words.",
+      "Watch for distractors that are too extreme or not supported by the passage."
+    ],
+    "cramSheet": "**Character:** direct vs. indirect · dynamic/static · round/flat · foil\n\n**Setting:** time, place, society · mood · reflects/constrains character\n\n**Structure:** exposition → climax → resolution · flashback · foreshadowing · in medias res · circular endings\n\n**Narration:** first-person (possibly unreliable) · third limited · omniscient · narrator ≠ author"
+  },
+  "vocab": [
+    { "term": "Direct characterization", "definition": "The narrator explicitly states a character's traits." },
+    { "term": "Indirect characterization", "definition": "Traits revealed through speech, actions, thoughts, appearance, or others' reactions." },
+    { "term": "Dynamic character", "definition": "A character who undergoes significant internal change." },
+    { "term": "Foil", "definition": "A character who contrasts with another to highlight particular traits." },
+    { "term": "Setting", "definition": "The time, place, and social environment of a story." },
+    { "term": "Mood", "definition": "The emotional atmosphere a text creates for the reader." },
+    { "term": "Flashback", "definition": "A scene that interrupts the present action to show an earlier event." },
+    { "term": "Foreshadowing", "definition": "Hints about events to come." },
+    { "term": "In medias res", "definition": "Beginning a narrative in the middle of the action." },
+    { "term": "Unreliable narrator", "definition": "A narrator whose account can't be fully trusted." },
+    { "term": "Third-person limited", "definition": "Narration from outside the characters but close to one character's perspective." },
+    { "term": "Omniscient narrator", "definition": "A narrator with access to multiple characters' thoughts." },
+    { "term": "Conflict", "definition": "The central struggle in a story, internal or external." }
+  ],
+  "practice": [
+    {
+      "id": "u1-q01", "tier": "Intro", "type": "mcq", "topic": "Characterization",
+      "stimulus": "\"I'm not upset,\" Marta said, folding the same towel for the third time.",
+      "stem": "The detail of the towel primarily suggests that Marta",
+      "choices": [
+        { "id": "A", "text": "is more upset than she admits" },
+        { "id": "B", "text": "is careful about housework" },
+        { "id": "C", "text": "has forgotten what she was doing" },
+        { "id": "D", "text": "is truthful about her feelings" }
+      ],
+      "answer": "A",
+      "explanation": "The repetitive, distracted action contradicts her words: indirect characterization.",
+      "distractors": { "B": "Literal reading that misses the contrast." }
+    },
+    {
+      "id": "u1-q02", "tier": "Intro", "type": "mcq", "topic": "Setting",
+      "stimulus": "The apartment had one window, and it faced a brick wall close enough to touch. In the afternoons, Leo watched the strip of sky above the wall turn from white to gray.",
+      "stem": "The setting most likely contributes to a sense of",
+      "choices": [
+        { "id": "A", "text": "confinement and limited possibility" },
+        { "id": "B", "text": "luxury and comfort" },
+        { "id": "C", "text": "adventure and danger" },
+        { "id": "D", "text": "celebration" }
+      ],
+      "answer": "A",
+      "explanation": "A blocked view and a thin strip of sky suggest a narrow life.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q03", "tier": "Intro", "type": "mcq", "topic": "Narration",
+      "stimulus": "Everyone at the office agreed I was the most generous person there, which is why I never minded taking credit for the reports I helped with. Helping, after all, is a kind of authorship.",
+      "stem": "The narrator is best described as",
+      "choices": [
+        { "id": "A", "text": "unreliable, revealing self-serving behavior while praising himself" },
+        { "id": "B", "text": "omniscient and objective" },
+        { "id": "C", "text": "a neutral third-person observer" },
+        { "id": "D", "text": "entirely trustworthy" }
+      ],
+      "answer": "A",
+      "explanation": "He claims generosity while describing taking others' credit and justifies it with a convenient rationalization.",
+      "distractors": { "B": "It's first-person and biased." }
+    },
+    {
+      "id": "u1-q04", "tier": "Intro", "type": "mcq", "topic": "Structure",
+      "stimulus": "A story opens with an old woman locking her shop for the last time. The middle sections move back fifty years to her first day selling bread there. The final scene returns to the locked door.",
+      "stem": "The story's structure most likely invites readers to",
+      "choices": [
+        { "id": "A", "text": "compare the beginning and end of her working life" },
+        { "id": "B", "text": "ignore the past" },
+        { "id": "C", "text": "focus only on future events" },
+        { "id": "D", "text": "read the story as a mystery" }
+      ],
+      "answer": "A",
+      "explanation": "Framing the flashback with the closing shop makes the present resonate with the past.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q05", "tier": "Exam level", "type": "mcq", "topic": "Characterization",
+      "stimulus": "At dinner, Ruth's father praised her brother's grades for ten minutes. When Ruth mentioned her own award, he nodded and asked for the salt. She passed it to him carefully, as though it were something that might spill.",
+      "stem": "The final sentence most directly suggests Ruth's",
+      "choices": [
+        { "id": "A", "text": "effort to contain her hurt so it won't show" },
+        { "id": "B", "text": "clumsiness at the table" },
+        { "id": "C", "text": "indifference to her father's reaction" },
+        { "id": "D", "text": "anger at her brother" }
+      ],
+      "answer": "A",
+      "explanation": "The careful handling of the salt mirrors her careful control of emotion that \"might spill.\"",
+      "distractors": { "C": "Her care suggests the opposite of indifference." }
+    },
+    {
+      "id": "u1-q06", "tier": "Exam level", "type": "mcq", "topic": "Narration (third-person limited)",
+      "stimulus": "From the porch, Eli could see his mother's shape moving behind the kitchen curtain. She was probably angry; she was always angry when he was late. He decided to wait until the light went out.",
+      "stem": "The narration is best described as",
+      "choices": [
+        { "id": "A", "text": "third-person limited, presenting Eli's assumptions rather than confirmed facts about his mother" },
+        { "id": "B", "text": "omniscient, revealing the mother's true feelings" },
+        { "id": "C", "text": "first-person, told by the mother" },
+        { "id": "D", "text": "second-person, addressing the reader" }
+      ],
+      "answer": "A",
+      "explanation": "\"Probably\" shows Eli's guess; the narration stays inside his perspective.",
+      "distractors": { "B": "We don't learn what she actually feels." }
+    },
+    {
+      "id": "u1-q07", "tier": "Exam level", "type": "mcq", "topic": "Foil",
+      "stimulus": "Nadia rehearsed every conversation in her head before speaking. Her cousin Tess said whatever came into her mind, laughed loudest at her own jokes, and had never once apologized.",
+      "stem": "Tess primarily functions as",
+      "choices": [
+        { "id": "A", "text": "a foil who highlights Nadia's caution and self-consciousness" },
+        { "id": "B", "text": "the story's narrator" },
+        { "id": "C", "text": "an unreliable narrator" },
+        { "id": "D", "text": "a static setting detail" }
+      ],
+      "answer": "A",
+      "explanation": "Tess's impulsiveness throws Nadia's restraint into relief.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q08", "tier": "Exam level", "type": "mcq", "topic": "Foreshadowing",
+      "stimulus": "Grandpa tested the ice with his boot, frowned, and said it would hold. Behind him, unnoticed, a thin crack ran toward the center of the pond.",
+      "stem": "The final sentence most likely functions to",
+      "choices": [
+        { "id": "A", "text": "foreshadow danger and create dramatic irony" },
+        { "id": "B", "text": "resolve the story's conflict" },
+        { "id": "C", "text": "introduce a flashback" },
+        { "id": "D", "text": "describe a character's thoughts" }
+      ],
+      "answer": "A",
+      "explanation": "Readers see the crack that the characters don't, building tension.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q09", "tier": "Exam level", "type": "mcq", "topic": "Setting and character",
+      "stimulus": "The new house was enormous and silent. Ana's footsteps echoed in the hallway. In the old apartment, she had heard the neighbors arguing through the walls every night, and she had hated it. Now she stood very still, listening for anything at all.",
+      "stem": "The contrast between the two homes primarily reveals that Ana",
+      "choices": [
+        { "id": "A", "text": "unexpectedly misses the closeness she once resented" },
+        { "id": "B", "text": "prefers silence to noise" },
+        { "id": "C", "text": "wants to move back immediately to argue with neighbors" },
+        { "id": "D", "text": "is afraid of the dark" }
+      ],
+      "answer": "A",
+      "explanation": "Listening \"for anything\" suggests loneliness in the silence she thought she wanted.",
+      "distractors": { "B": "Her behavior contradicts this." }
+    },
+    {
+      "id": "u1-q10", "tier": "Exam level", "type": "mcq", "topic": "Conflict",
+      "stimulus": "Sam had promised his sister he'd come to her recital. His coach had promised him that missing Saturday's game meant losing his starting spot. On Friday night he set two alarms and turned both off.",
+      "stem": "The central conflict is best described as",
+      "choices": [
+        { "id": "A", "text": "internal, as Sam is torn between competing loyalties" },
+        { "id": "B", "text": "person versus nature" },
+        { "id": "C", "text": "person versus society" },
+        { "id": "D", "text": "entirely resolved" }
+      ],
+      "answer": "A",
+      "explanation": "The two promises pull him in opposite directions; turning off both alarms shows paralysis.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q11", "tier": "Hardest", "type": "mcq", "topic": "Narration and irony",
+      "stimulus": "My brother left for the city at eighteen, and good riddance. I stayed and ran the farm, which is the harder thing. I still keep his room exactly as it was, but only because I haven't needed the space.",
+      "stem": "The final sentence most strongly suggests that the narrator",
+      "choices": [
+        { "id": "A", "text": "feels a loss he won't openly admit, undercutting his earlier dismissiveness" },
+        { "id": "B", "text": "is practical and emotionally detached" },
+        { "id": "C", "text": "plans to rent the room" },
+        { "id": "D", "text": "never cared about his brother" }
+      ],
+      "answer": "A",
+      "explanation": "Preserving the room contradicts \"good riddance\"; the flimsy excuse reveals hidden attachment.",
+      "distractors": { "B": "Takes the narrator at his word." }
+    },
+    {
+      "id": "u1-q12", "tier": "Hardest", "type": "mcq", "topic": "Structure and meaning",
+      "stimulus": "A story ends with the main character about to open a letter that will tell her whether she got into the program she has worked toward for years. The story stops before she reads it.",
+      "stem": "The unresolved ending most likely emphasizes",
+      "choices": [
+        { "id": "A", "text": "the meaning of her effort and hope rather than the outcome" },
+        { "id": "B", "text": "that the author forgot to finish the story" },
+        { "id": "C", "text": "that the letter is unimportant" },
+        { "id": "D", "text": "that she definitely failed" }
+      ],
+      "answer": "A",
+      "explanation": "Withholding the result shifts focus to who she has become through striving.",
+      "distractors": { "D": "The text gives no evidence either way." }
+    },
+    {
+      "id": "u1-q13", "tier": "Hardest", "type": "mcq", "topic": "Characterization (subtle)",
+      "stimulus": "When the teacher announced the scholarship winner, Daniel clapped first and loudest. Afterward, in the parking lot, he sat in his car for twenty minutes without starting the engine.",
+      "stem": "The juxtaposition of the two scenes primarily reveals",
+      "choices": [
+        { "id": "A", "text": "the gap between Daniel's public graciousness and private disappointment" },
+        { "id": "B", "text": "that Daniel won the scholarship" },
+        { "id": "C", "text": "that Daniel's car was broken" },
+        { "id": "D", "text": "that Daniel dislikes the winner" }
+      ],
+      "answer": "A",
+      "explanation": "His public enthusiasm contrasts with his stillness alone.",
+      "distractors": { "D": "Nothing suggests dislike; clapping first suggests generosity." }
+    },
+    {
+      "id": "u1-q14", "tier": "Hardest", "type": "mcq", "topic": "Setting as symbol",
+      "stimulus": "The lighthouse had been automated for years, but Mr. Reyes still climbed its stairs every evening at dusk, wiped the glass, and checked a light that no longer needed checking.",
+      "stem": "Mr. Reyes's routine most likely suggests",
+      "choices": [
+        { "id": "A", "text": "his need for purpose and identity in a world that no longer requires his work" },
+        { "id": "B", "text": "that the automation has failed" },
+        { "id": "C", "text": "that he is training a replacement" },
+        { "id": "D", "text": "that the lighthouse is about to be demolished" }
+      ],
+      "answer": "A",
+      "explanation": "The pointless ritual shows how deeply his sense of self is tied to the job.",
+      "distractors": { "B": "The light \"no longer needed checking.\"" }
+    },
+    {
+      "id": "u1-frq1", "tier": "Exam level", "type": "frq", "topic": "Prose fiction analysis", "frqType": "Q2 Prose Fiction Analysis",
+      "stimulus": "The following passage, written for this practice set, comes from a story about a father and daughter.\n\nThe night before Clara left for college, her father decided the car needed an oil change. He had never changed the oil himself; he paid a man on Route 9 to do it. But he spent the evening in the garage anyway, with the radio on low, and when Clara came out to say goodnight, he was lying on a flattened cardboard box under the engine, holding a wrench he did not seem to be using.\n\n\"You'll want the oil checked every three thousand miles,\" he said, not sliding out. \"People forget. Then the engine seizes and you're stranded somewhere with no one to call.\"\n\n\"I'll have my phone, Dad.\"\n\n\"Phones die.\" A pause. The wrench clinked against something. \"Everything needs maintenance. That's all I'm saying.\"\n\nShe stood there a while, looking at his boots, the scuffed toes she had once stood on to dance at her cousin's wedding. Then she sat down on the cold concrete beside the car and handed him tools he didn't ask for, one at a time, until the radio played the late news and neither of them could pretend the work was the reason they were there.",
+      "prompt": "Read the passage carefully. Then, in a well-written essay, analyze how the author uses literary elements and techniques to convey the complex relationship between the father and daughter.\n\nIn your response you should do the following:\n- Respond to the prompt with a thesis that presents a defensible interpretation.\n- Select and use evidence to support your line of reasoning.\n- Explain how the evidence supports your line of reasoning.\n- Use appropriate grammar and punctuation in communicating your argument.",
+      "points": 6,
+      "minutes": 40,
+      "rubric": [
+        { "criterion": "Row A: Thesis", "points": 1, "description": "Defensible interpretation of how the author conveys the relationship." },
+        { "criterion": "Row B: Evidence and commentary", "points": 4, "description": "4: specific evidence for all claims with consistent commentary explaining how techniques create meaning. 3: most claims. 2: summary-heavy. 1: minimal." },
+        { "criterion": "Row C: Sophistication", "points": 1, "description": "E.g., explores the tension between unspoken love and practical talk; vivid, persuasive style." }
+      ],
+      "sampleResponse": "In this quiet scene, the father and daughter love each other deeply but can express that love only indirectly. Through the pretext of car maintenance, dialogue that hides emotion inside practical advice, and a closing gesture of wordless companionship, the author shows a relationship in which tenderness must be disguised as work.\n\nThe father's sudden project is the passage's central pretext. The narrator notes that he \"had never changed the oil himself,\" and he holds a wrench \"he did not seem to be using.\" These details reveal that the oil change is not really about the car; it gives him a reason to stay near his daughter on her last night at home while avoiding the vulnerability of saying goodbye. His position under the engine, \"not sliding out,\" lets him speak without being seen.\n\nHis dialogue continues the disguise. Warnings about engines that \"seize\" and being \"stranded somewhere with no one to call\" express his fear of her being alone and unprotected, but in the language of mechanics. When she counters that she'll have her phone, he insists, \"Phones die,\" and then generalizes: \"Everything needs maintenance.\" The line works on two levels: it's advice about cars, but it also suggests that relationships, too, require care, a confession he can make only through metaphor.\n\nClara understands. The memory of standing on his \"scuffed\" boots to dance shows how far back their closeness goes and how much has changed. Instead of forcing a conversation, she meets him on his terms, sitting on \"the cold concrete\" and handing him tools \"he didn't ask for.\" Her gesture mirrors his: she, too, expresses love through useless work.\n\nThe final clause reveals the truth both have avoided: \"neither of them could pretend the work was the reason they were there.\" The author ends not with words of farewell but with shared silence, suggesting that this family's deepest feelings live in what is left unsaid."
+    }
+  ]
+}

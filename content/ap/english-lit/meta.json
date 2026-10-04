@@ -1,0 +1,176 @@
+{
+  "slug": "english-lit",
+  "name": "AP English Literature and Composition",
+  "lastVerified": "2026-10",
+  "overview": "AP English Literature and Composition trains students to read fiction, poetry, and drama closely and to write analytical arguments about literature. The course is built on six big ideas: character, setting, structure, narration, figurative language, and literary argumentation.",
+  "examMode": "Fully digital in Bluebook (essays typed; responses auto-submit at the end)",
+  "totalMinutes": 180,
+  "sections": [
+    {
+      "name": "Section I",
+      "questionType": "Multiple choice (4 answer choices each)",
+      "count": 55,
+      "minutes": 60,
+      "weight": "45%",
+      "notes": "Questions are grouped in sets on 5 passages of prose fiction, poetry, and drama."
+    },
+    {
+      "name": "Section II, Question 1",
+      "questionType": "Poetry analysis essay",
+      "count": 1,
+      "minutes": 40,
+      "weight": "18.3%",
+      "notes": "Recommended time."
+    },
+    {
+      "name": "Section II, Question 2",
+      "questionType": "Prose fiction analysis essay",
+      "count": 1,
+      "minutes": 40,
+      "weight": "18.3%",
+      "notes": "Recommended time."
+    },
+    {
+      "name": "Section II, Question 3",
+      "questionType": "Literary argument essay",
+      "count": 1,
+      "minutes": 40,
+      "weight": "18.3%",
+      "notes": "Students choose a work of literary merit to discuss."
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Short Fiction I"
+    },
+    {
+      "number": 2,
+      "title": "Poetry I"
+    },
+    {
+      "number": 3,
+      "title": "Longer Fiction or Drama I"
+    },
+    {
+      "number": 4,
+      "title": "Short Fiction II"
+    },
+    {
+      "number": 5,
+      "title": "Poetry II"
+    },
+    {
+      "number": 6,
+      "title": "Longer Fiction or Drama II"
+    },
+    {
+      "number": 7,
+      "title": "Short Fiction III"
+    },
+    {
+      "number": 8,
+      "title": "Poetry III"
+    },
+    {
+      "number": 9,
+      "title": "Longer Fiction or Drama III"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Character",
+      "description": "Explain how characters, their perspectives, and their changes contribute to meaning."
+    },
+    {
+      "name": "Setting",
+      "description": "Explain the function of setting in a text."
+    },
+    {
+      "name": "Structure",
+      "description": "Explain how plot, sequence, and form contribute to meaning."
+    },
+    {
+      "name": "Narration",
+      "description": "Explain how narrators and speakers shape perspective."
+    },
+    {
+      "name": "Figurative Language",
+      "description": "Explain how comparisons, imagery, and symbols convey meaning."
+    },
+    {
+      "name": "Literary Argumentation",
+      "description": "Develop a defensible interpretation supported by textual evidence and commentary."
+    }
+  ],
+  "scoring": {
+    "summary": "Section I counts 45% and Section II 55%. Each essay is scored on a 6-point rubric: Row A thesis (1), Row B evidence and commentary (4), Row C sophistication (1). The weighted composite is converted to 1–5 using unpublished cut points.",
+    "approxCutoffs": [
+      {
+        "score": 5,
+        "minPercent": 72
+      },
+      {
+        "score": 4,
+        "minPercent": 58
+      },
+      {
+        "score": 3,
+        "minPercent": 45
+      },
+      {
+        "score": 2,
+        "minPercent": 32
+      }
+    ]
+  },
+  "frqTypes": [
+    {
+      "name": "Q1 Poetry Analysis",
+      "points": 6,
+      "howScored": "Thesis 1, evidence and commentary 4, sophistication 1."
+    },
+    {
+      "name": "Q2 Prose Fiction Analysis",
+      "points": 6,
+      "howScored": "Thesis 1, evidence and commentary 4, sophistication 1."
+    },
+    {
+      "name": "Q3 Literary Argument",
+      "points": 6,
+      "howScored": "Thesis 1, evidence and commentary 4, sophistication 1; evidence comes from a work the student chooses."
+    }
+  ],
+  "strategy": [
+    "Read each passage once for the whole before answering; many questions ask about shifts and overall effect.",
+    "Identify the speaker or narrator and their attitude before analyzing devices.",
+    "In essays, build a thesis that names the work's complexity (a tension, ambiguity, or shift), not just a list of devices.",
+    "Embed short quotations and explain how word choice creates meaning.",
+    "Prepare two or three rich novels or plays for Q3 that fit many prompts (identity, isolation, sacrifice, power).",
+    "Budget about 40 minutes per essay, with 5–8 minutes of planning."
+  ],
+  "pitfalls": [
+    "Device-spotting without explaining meaning.",
+    "Summarizing plot instead of analyzing.",
+    "Treating the speaker of a poem as the poet.",
+    "Choosing a Q3 work you know only from a film or summary.",
+    "Missing tonal shifts at volta or turning points.",
+    "Ignoring how form (stanza, line breaks, chronology) contributes to meaning."
+  ],
+  "sources": [
+    {
+      "title": "AP English Literature and Composition (AP Central)",
+      "url": "https://apcentral.collegeboard.org/courses/ap-english-literature-and-composition"
+    },
+    {
+      "title": "AP English Literature Course and Exam Description",
+      "url": "https://apcentral.collegeboard.org/courses/ap-english-literature-and-composition/course"
+    }
+  ],
+  "caveats": [
+    "Klutch wrote this profile from knowledge of the course framework without re-opening College Board pages in this session; recheck question counts, the number of answer choices, and timing against AP Central.",
+    "The CED numbers its nine units but they follow a spiral of short fiction, poetry, and longer works; titles here use that structure.",
+    "All practice passages are original works written for Klutch, not excerpts from published literature, so they can be freely used.",
+    "Approximate cutoffs are Klutch estimates."
+  ]
+}

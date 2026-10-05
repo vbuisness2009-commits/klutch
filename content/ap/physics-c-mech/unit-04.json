@@ -1,0 +1,579 @@
+{
+  "number": 4,
+  "title": "Linear Momentum",
+  "guide": {
+    "summary": "This unit covers linear momentum, impulse as the time integral of force, conservation of momentum for isolated systems, elastic and inelastic collisions in one and two dimensions, explosions, and the motion of a system's center of mass.",
+    "sections": [
+      {
+        "heading": "Momentum and impulse",
+        "body": "Linear momentum p = mv is a vector. Newton's second law in its general form: ΣF = dp/dt. Impulse J = ∫F dt = Δp; the area under a force–time graph equals impulse. For the same change in momentum, a longer collision time means a smaller average force (airbags, crumple zones). An object that bounces back experiences a larger impulse than one that stops, because the change in velocity is larger."
+      },
+      {
+        "heading": "Conservation of momentum",
+        "body": "If the net external force on a system is zero (or negligible during a brief collision), total momentum is conserved: Σp_i = Σp_f, in each direction separately. Internal forces (between objects in the system) cancel in pairs. Explosions start from rest and end with total momentum zero. The center of mass velocity v_cm = Σp/M is constant for an isolated system, even during collisions."
+      },
+      {
+        "heading": "Collisions",
+        "body": "In all collisions, momentum is conserved. In elastic collisions, kinetic energy is also conserved; in one dimension with m₂ initially at rest: v₁' = (m₁ − m₂)v₁/(m₁ + m₂), v₂' = 2m₁v₁/(m₁ + m₂). Equal masses exchange velocities. In inelastic collisions, kinetic energy decreases; in perfectly inelastic collisions the objects stick together and the maximum possible kinetic energy is lost (consistent with momentum conservation). Combined problems (ballistic pendulum) use momentum conservation during the collision and energy conservation afterward. In two dimensions, conserve x- and y-momentum separately."
+      }
+    ],
+    "keyTakeaways": [
+      "J = ∫F dt = Δp.",
+      "Momentum conserved when external impulse is negligible.",
+      "Elastic: momentum and KE conserved; inelastic: only momentum.",
+      "Perfectly inelastic: objects stick; max KE loss.",
+      "v_cm constant for isolated systems.",
+      "Bouncing gives larger impulse than sticking."
+    ],
+    "commonMistakes": [
+      "Conserving kinetic energy in inelastic collisions.",
+      "Using energy conservation during a ballistic pendulum collision.",
+      "Ignoring the vector nature of momentum (signs, components).",
+      "Thinking a stationary object can't be part of a momentum-conserving system.",
+      "Confusing impulse with force."
+    ],
+    "examTips": [
+      "Define the system and check external forces before conserving momentum.",
+      "Two-stage problems: collision (momentum), then motion (energy or kinematics).",
+      "Force–time graph questions: find area, divide by mass for Δv.",
+      "QQT FRQs: compare impulses or forces using Δp and Δt."
+    ],
+    "cramSheet": "**Momentum:** p = mv · ΣF = dp/dt\n\n**Impulse:** J = ∫F dt = Δp · area under F–t\n\n**Conservation:** isolated → Σp_i = Σp_f (each axis)\n\n**Elastic 1D (m₂ at rest):** v₁' = (m₁ − m₂)v₁/(m₁ + m₂) · v₂' = 2m₁v₁/(m₁ + m₂)\n\n**Perfectly inelastic:** v_f = Σp/Σm\n\n**COM:** v_cm = Σp/M constant if isolated"
+  },
+  "vocab": [
+    {
+      "term": "Linear momentum",
+      "definition": "The product of mass and velocity, p = mv."
+    },
+    {
+      "term": "Impulse",
+      "definition": "The integral of force over time, equal to the change in momentum."
+    },
+    {
+      "term": "Isolated system",
+      "definition": "A system with no net external force."
+    },
+    {
+      "term": "Conservation of momentum",
+      "definition": "The total momentum of an isolated system remains constant."
+    },
+    {
+      "term": "Elastic collision",
+      "definition": "A collision in which total kinetic energy is conserved."
+    },
+    {
+      "term": "Inelastic collision",
+      "definition": "A collision in which kinetic energy is not conserved."
+    },
+    {
+      "term": "Perfectly inelastic collision",
+      "definition": "A collision in which objects stick together."
+    },
+    {
+      "term": "Explosion",
+      "definition": "An event where internal forces push parts of a system apart; total momentum is unchanged."
+    },
+    {
+      "term": "Ballistic pendulum",
+      "definition": "A device that uses a perfectly inelastic collision followed by a swing to measure a projectile's speed."
+    },
+    {
+      "term": "Center-of-mass velocity",
+      "definition": "Total momentum divided by total mass."
+    },
+    {
+      "term": "Average force",
+      "definition": "Impulse divided by the collision time."
+    },
+    {
+      "term": "Coefficient of restitution",
+      "definition": "The ratio of relative speeds after and before a collision (1 for elastic)."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Impulse",
+      "stem": "A force F(t) = 6t² (N) acts on an object from t = 0 to t = 2 s. What impulse does it deliver?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "12 N·s"
+        },
+        {
+          "id": "B",
+          "text": "16 N·s"
+        },
+        {
+          "id": "C",
+          "text": "24 N·s"
+        },
+        {
+          "id": "D",
+          "text": "48 N·s"
+        }
+      ],
+      "answer": "B",
+      "explanation": "J = ∫₀² 6t² dt = 2t³ = 16 N·s.",
+      "distractors": {
+        "C": "F(2) only."
+      }
+    },
+    {
+      "id": "u4-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Conservation of Linear Momentum",
+      "stem": "A 2.0 kg cart moving at 6.0 m/s collides with and sticks to a 4.0 kg cart at rest. What is their final speed?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.5 m/s"
+        },
+        {
+          "id": "B",
+          "text": "2.0 m/s"
+        },
+        {
+          "id": "C",
+          "text": "3.0 m/s"
+        },
+        {
+          "id": "D",
+          "text": "6.0 m/s"
+        }
+      ],
+      "answer": "B",
+      "explanation": "12 kg·m/s ÷ 6 kg = 2.0 m/s.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Elastic and Inelastic Collisions",
+      "stem": "Two identical billiard balls collide head-on elastically. Ball A moves at 3 m/s; ball B is at rest. After the collision,",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A stops and B moves at 3 m/s"
+        },
+        {
+          "id": "B",
+          "text": "both move at 1.5 m/s"
+        },
+        {
+          "id": "C",
+          "text": "A bounces back at 3 m/s"
+        },
+        {
+          "id": "D",
+          "text": "both stop"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Equal masses exchange velocities in a 1D elastic collision.",
+      "distractors": {
+        "B": "Perfectly inelastic result."
+      }
+    },
+    {
+      "id": "u4-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Impulse",
+      "stem": "Why does an airbag reduce injury in a crash?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It reduces the change in momentum of the occupant."
+        },
+        {
+          "id": "B",
+          "text": "It increases the time over which the occupant stops, reducing the average force."
+        },
+        {
+          "id": "C",
+          "text": "It increases the occupant's momentum."
+        },
+        {
+          "id": "D",
+          "text": "It eliminates the impulse."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Same Δp over a longer Δt means smaller force.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Elastic and Inelastic Collisions",
+      "stem": "A 2.0 kg ball moving at 6.0 m/s collides elastically head-on with a 4.0 kg ball at rest. What are their velocities afterward?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "−2.0 m/s and 4.0 m/s"
+        },
+        {
+          "id": "B",
+          "text": "2.0 m/s and 2.0 m/s"
+        },
+        {
+          "id": "C",
+          "text": "0 and 3.0 m/s"
+        },
+        {
+          "id": "D",
+          "text": "−6.0 m/s and 6.0 m/s"
+        }
+      ],
+      "answer": "A",
+      "explanation": "v₁' = (2 − 4)(6)/6 = −2; v₂' = 2(2)(6)/6 = 4. Check: 12 = −4 + 16 ✓; KE 36 = 4 + 32 ✓.",
+      "distractors": {
+        "B": "Perfectly inelastic."
+      }
+    },
+    {
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Conservation of Linear Momentum",
+      "stem": "In the collision where a 2.0 kg cart at 6.0 m/s sticks to a 4.0 kg cart at rest, how much kinetic energy is lost?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "12 J"
+        },
+        {
+          "id": "B",
+          "text": "24 J"
+        },
+        {
+          "id": "C",
+          "text": "36 J"
+        },
+        {
+          "id": "D",
+          "text": "0 J"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Initial K = 36 J; final K = ½(6)(2²) = 12 J; lost 24 J.",
+      "distractors": {
+        "A": "Final KE."
+      }
+    },
+    {
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Conservation of Linear Momentum",
+      "stem": "A 10 g bullet moving at 400 m/s embeds in a 2.0 kg block hanging from a string. How high does the block swing? (g = 9.8 m/s²)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.20 m"
+        },
+        {
+          "id": "B",
+          "text": "0.41 m"
+        },
+        {
+          "id": "C",
+          "text": "2.0 m"
+        },
+        {
+          "id": "D",
+          "text": "8.2 m"
+        }
+      ],
+      "answer": "A",
+      "explanation": "V = 4/2.01 ≈ 1.99 m/s; h = V²/2g ≈ 0.20 m.",
+      "distractors": {
+        "D": "Uses energy conservation through the collision."
+      }
+    },
+    {
+      "id": "u4-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Center of Mass",
+      "stem": "Two carts collide on a frictionless track. Which quantity is the same before and after the collision regardless of collision type?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Total kinetic energy"
+        },
+        {
+          "id": "B",
+          "text": "Velocity of the center of mass"
+        },
+        {
+          "id": "C",
+          "text": "Each cart's speed"
+        },
+        {
+          "id": "D",
+          "text": "Each cart's momentum"
+        }
+      ],
+      "answer": "B",
+      "explanation": "v_cm = p_total/M, and p_total is conserved.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Conservation of Linear Momentum",
+      "stem": "A 3.0 kg object at rest explodes into two pieces. A 1.0 kg piece moves east at 6.0 m/s. What is the velocity of the other piece?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3.0 m/s west"
+        },
+        {
+          "id": "B",
+          "text": "6.0 m/s west"
+        },
+        {
+          "id": "C",
+          "text": "2.0 m/s west"
+        },
+        {
+          "id": "D",
+          "text": "3.0 m/s east"
+        }
+      ],
+      "answer": "A",
+      "explanation": "0 = 1(6) + 2v → v = −3 m/s.",
+      "distractors": {
+        "C": "Divides by total mass."
+      }
+    },
+    {
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Impulse",
+      "stem": "A 0.20 kg ball hits a wall at 10 m/s and rebounds at 8.0 m/s along the same line. The contact lasts 0.010 s. What is the average force on the ball?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "40 N"
+        },
+        {
+          "id": "B",
+          "text": "160 N"
+        },
+        {
+          "id": "C",
+          "text": "360 N"
+        },
+        {
+          "id": "D",
+          "text": "200 N"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Δp = 0.20(8 − (−10)) = 3.6 N·s; F = 3.6/0.010 = 360 N.",
+      "distractors": {
+        "A": "Subtracts speeds instead of accounting for reversal."
+      }
+    },
+    {
+      "id": "u4-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Conservation of Linear Momentum",
+      "stem": "A 1.0 kg puck moving east at 4.0 m/s strikes a 1.0 kg puck at rest on frictionless ice. Afterward, the first puck moves at 2.0 m/s at 60° north of east. What is the speed of the second puck? (cos 60° = 0.50, sin 60° ≈ 0.87)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2.0 m/s"
+        },
+        {
+          "id": "B",
+          "text": "3.0 m/s"
+        },
+        {
+          "id": "C",
+          "text": "3.5 m/s"
+        },
+        {
+          "id": "D",
+          "text": "6.0 m/s"
+        }
+      ],
+      "answer": "C",
+      "explanation": "x: 4.0 = 1.0 + v₂ₓ → v₂ₓ = 3.0. y: 0 = 1.73 + v₂ᵧ → v₂ᵧ = −1.73. Speed = √(9 + 3) ≈ 3.5 m/s.",
+      "distractors": {
+        "B": "Uses only the x-component.",
+        "A": "Subtracts speeds directly."
+      }
+    },
+    {
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Elastic and Inelastic Collisions",
+      "stem": "In the puck collision above, is the collision elastic?",
+      "stimulus": "Before: 1.0 kg at 4.0 m/s east; 1.0 kg at rest. After: first puck 2.0 m/s at 60° north of east; second puck about 3.5 m/s at 30° south of east.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Yes: total kinetic energy is 8.0 J before and after, and the pucks move off at 90° to each other."
+        },
+        {
+          "id": "B",
+          "text": "No: kinetic energy decreases by half."
+        },
+        {
+          "id": "C",
+          "text": "No: momentum is not conserved."
+        },
+        {
+          "id": "D",
+          "text": "It cannot be determined without the collision time."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Before: ½(1)(16) = 8.0 J. After: ½(1)(4) + ½(1)(12) = 8.0 J. For equal masses with one initially at rest, an elastic glancing collision always sends them off at right angles.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Center of Mass",
+      "stem": "A 60 kg person stands at one end of a 20 kg, 4.0 m boat at rest on still water and walks to the other end. Ignoring water resistance, how far does the boat move?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.0 m"
+        },
+        {
+          "id": "B",
+          "text": "3.0 m"
+        },
+        {
+          "id": "C",
+          "text": "4.0 m"
+        },
+        {
+          "id": "D",
+          "text": "1.3 m"
+        }
+      ],
+      "answer": "B",
+      "explanation": "COM stays fixed: 60(4 − d) = 20d → 240 = 80d → d = 3.0 m.",
+      "distractors": {
+        "A": "Swaps the masses."
+      }
+    },
+    {
+      "id": "u4-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Impulse",
+      "stem": "A net force on a 2.0 kg object varies as F(t) = 8 − 2t (N) for 0 ≤ t ≤ 4 s. If the object starts at rest, what is its maximum speed during this interval?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4.0 m/s"
+        },
+        {
+          "id": "B",
+          "text": "8.0 m/s"
+        },
+        {
+          "id": "C",
+          "text": "16 m/s"
+        },
+        {
+          "id": "D",
+          "text": "2.0 m/s"
+        }
+      ],
+      "answer": "B",
+      "explanation": "F stays positive until t = 4, so speed increases throughout. J = ∫(8 − 2t) dt from 0 to 4 = 32 − 16 = 16 N·s; v = 16/2 = 8 m/s.",
+      "distractors": {
+        "C": "Forgets to divide by mass."
+      }
+    },
+    {
+      "id": "u4-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Impulse",
+      "frqType": "Qualitative/Quantitative Translation (QQT)",
+      "prompt": "Two balls of equal mass m are thrown horizontally at the same speed v toward a heavy block resting on a frictionless floor. Ball 1 is made of clay and sticks to the block. Ball 2 is rubber and bounces straight back with speed v (elastic). The block's mass M is much greater than m.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "A student claims that the clay ball gives the block a larger speed because it 'stays with' the block. Without equations, explain which ball gives the block a larger speed.",
+          "points": 3
+        },
+        {
+          "label": "B",
+          "prompt": "Derive expressions for the impulse each ball exerts on the block in terms of m and v, treating the block as nearly stationary during the collision.",
+          "points": 3
+        },
+        {
+          "label": "C",
+          "prompt": "Explain how your expressions support or contradict your answer to (A).",
+          "points": 2
+        }
+      ],
+      "points": 8,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "A1: Claim",
+          "points": 1,
+          "description": "The rubber ball gives the block a larger speed."
+        },
+        {
+          "criterion": "A2: Ball's momentum change",
+          "points": 1,
+          "description": "The rubber ball's momentum reverses, so its change in momentum is larger than the clay ball's, which only stops."
+        },
+        {
+          "criterion": "A3: Newton's third law",
+          "points": 1,
+          "description": "By Newton's third law / momentum conservation, the block gains momentum equal to the ball's loss, so it gains more from the rubber ball."
+        },
+        {
+          "criterion": "B1: Clay",
+          "points": 1,
+          "description": "Δp_ball = 0 − mv → impulse on block ≈ mv."
+        },
+        {
+          "criterion": "B2: Rubber",
+          "points": 1,
+          "description": "Δp_ball = (−mv) − mv = −2mv → impulse on block ≈ 2mv."
+        },
+        {
+          "criterion": "B3: Principle",
+          "points": 1,
+          "description": "Uses J = Δp and Newton's third law (impulse on block equals negative impulse on ball)."
+        },
+        {
+          "criterion": "C1: Comparison",
+          "points": 1,
+          "description": "2mv > mv: the rubber ball delivers twice the impulse."
+        },
+        {
+          "criterion": "C2: Consistency",
+          "points": 1,
+          "description": "Block's speed ∝ impulse/M, so it is larger for the rubber ball, consistent with (A)."
+        }
+      ],
+      "sampleResponse": "A. The rubber ball gives the block a larger speed. The clay ball's momentum only goes to zero, but the rubber ball's momentum reverses direction, so its momentum changes by a greater amount. Because the ball and block exert equal and opposite forces on each other during the same contact time, the block's momentum changes by an equal and opposite amount, so the block gains more momentum from the rubber ball.\n\nB. Impulse on a ball equals its change in momentum, and by Newton's third law the impulse on the block is equal and opposite. Clay ball: Δp = 0 − mv = −mv, so the block receives an impulse of mv. Rubber ball: Δp = (−mv) − (mv) = −2mv, so the block receives an impulse of 2mv.\n\nC. The rubber ball delivers an impulse of 2mv, twice the clay ball's mv. Since the block's final speed is its impulse divided by its mass, the rubber ball gives the block about twice the speed, supporting my answer to (A) and contradicting the student's claim."
+    }
+  ]
+}

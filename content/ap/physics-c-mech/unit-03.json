@@ -1,0 +1,599 @@
+{
+  "number": 3,
+  "title": "Work, Energy, and Power",
+  "guide": {
+    "summary": "This unit uses calculus to connect force and energy: work as an integral of force over displacement, the work–energy theorem, conservative forces and potential energy (F = −dU/dx), potential energy graphs and equilibrium, conservation of energy with and without nonconservative forces, and power.",
+    "sections": [
+      {
+        "heading": "Work and kinetic energy",
+        "body": "Work by a force: W = ∫F·dr; for a constant force, W = Fd cos θ. The area under an F–x graph is work. Work–energy theorem: W_net = ΔK, with K = ½mv². Spring force F = −kx does work −½k(x_f² − x_i²) on the attached object. Forces perpendicular to motion (normal force on level ground, centripetal tension) do no work."
+      },
+      {
+        "heading": "Potential energy",
+        "body": "For a conservative force, work is path-independent and a potential energy function exists with F_x = −dU/dx (equivalently ΔU = −∫F dx). Spring: U = ½kx². Near Earth: U = mgy. Universal gravitation: U = −GMm/r (zero at infinity). On a U(x) graph, force points 'downhill'; equilibrium is where dU/dx = 0; minima are stable and maxima are unstable. A particle with total energy E is confined to regions where U(x) ≤ E; turning points occur where U = E."
+      },
+      {
+        "heading": "Energy conservation and power",
+        "body": "If only conservative forces do work, mechanical energy K + U is conserved. Nonconservative forces such as friction change mechanical energy: ΔK + ΔU = W_nc (friction makes W_nc negative and converts energy to thermal energy). Escape speed from a planet's surface: v_esc = √(2GM/R). Power is the rate of energy transfer: P = dW/dt = F·v; average power = W/Δt."
+      }
+    ],
+    "keyTakeaways": [
+      "W = ∫F dx; area under F–x graph.",
+      "W_net = ΔK.",
+      "F = −dU/dx; stable equilibrium at U minima.",
+      "Turning points where U(x) = E.",
+      "ΔK + ΔU = W_nc.",
+      "P = F·v."
+    ],
+    "commonMistakes": [
+      "Dropping the negative sign in F = −dU/dx.",
+      "Using mgh for gravitational energy far from Earth's surface.",
+      "Including work by gravity and also gravitational PE (double counting).",
+      "Thinking the normal force always does zero work (it can on accelerating platforms).",
+      "Confusing stable and unstable equilibrium on U(x) graphs."
+    ],
+    "examTips": [
+      "For variable forces, set up the integral with limits.",
+      "U(x) graph questions: find force from slope, equilibria from flat spots, turning points from E line.",
+      "Energy bar charts: track K, U_g, U_s, and thermal energy for the chosen system.",
+      "Lab FRQs often linearize spring launch data (v vs. x)."
+    ],
+    "cramSheet": "**Work:** W = ∫F dx · constant F: Fd cos θ · area under F–x\n\n**Theorem:** W_net = ΔK\n\n**PE:** F = −dU/dx · spring ½kx² · gravity mgy or −GMm/r\n\n**U(x) graph:** min stable · max unstable · turning points U = E\n\n**Conservation:** ΔK + ΔU = W_nc · v_esc = √(2GM/R)\n\n**Power:** P = dW/dt = F·v"
+  },
+  "vocab": [
+    {
+      "term": "Work",
+      "definition": "Energy transferred by a force acting through a displacement: W = ∫F·dr."
+    },
+    {
+      "term": "Kinetic energy",
+      "definition": "Energy of motion: ½mv²."
+    },
+    {
+      "term": "Work–energy theorem",
+      "definition": "The net work on an object equals its change in kinetic energy."
+    },
+    {
+      "term": "Conservative force",
+      "definition": "A force whose work is path-independent and can be described by a potential energy."
+    },
+    {
+      "term": "Potential energy function",
+      "definition": "U(x) such that F = −dU/dx for a conservative force."
+    },
+    {
+      "term": "Stable equilibrium",
+      "definition": "An equilibrium at a minimum of U, where small displacements produce restoring forces."
+    },
+    {
+      "term": "Unstable equilibrium",
+      "definition": "An equilibrium at a maximum of U, where small displacements grow."
+    },
+    {
+      "term": "Turning point",
+      "definition": "A position where U = E and kinetic energy is zero."
+    },
+    {
+      "term": "Nonconservative work",
+      "definition": "Work by forces such as friction that change mechanical energy."
+    },
+    {
+      "term": "Escape speed",
+      "definition": "Minimum speed to escape a planet's gravity: √(2GM/R)."
+    },
+    {
+      "term": "Power",
+      "definition": "Rate at which work is done: P = dW/dt."
+    },
+    {
+      "term": "Mechanical energy",
+      "definition": "Sum of kinetic and potential energy."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Work",
+      "stem": "A force F(x) = 3x² (N, x in m) acts on an object along the x-axis. How much work does it do from x = 0 to x = 2 m?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "6 J"
+        },
+        {
+          "id": "B",
+          "text": "8 J"
+        },
+        {
+          "id": "C",
+          "text": "12 J"
+        },
+        {
+          "id": "D",
+          "text": "24 J"
+        }
+      ],
+      "answer": "B",
+      "explanation": "W = ∫₀² 3x² dx = x³ |₀² = 8 J.",
+      "distractors": {
+        "C": "Force at x = 2 m, not work.",
+        "D": "Multiplies the final force by the distance."
+      }
+    },
+    {
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Conservative Forces and Potential Energy",
+      "stem": "A potential energy function is U(x) = 5x². What is the force at x = 2 m?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "+20 N"
+        },
+        {
+          "id": "B",
+          "text": "−20 N"
+        },
+        {
+          "id": "C",
+          "text": "−10 N"
+        },
+        {
+          "id": "D",
+          "text": "+40 N"
+        }
+      ],
+      "answer": "B",
+      "explanation": "F = −dU/dx = −10x = −20 N.",
+      "distractors": {
+        "A": "Drops the negative sign."
+      }
+    },
+    {
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Conservation of Energy",
+      "stem": "A 0.50 kg block is pushed against a spring (k = 200 N/m), compressing it 0.10 m, and released on a frictionless surface. What is its speed after leaving the spring?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.0 m/s"
+        },
+        {
+          "id": "B",
+          "text": "2.0 m/s"
+        },
+        {
+          "id": "C",
+          "text": "4.0 m/s"
+        },
+        {
+          "id": "D",
+          "text": "20 m/s"
+        }
+      ],
+      "answer": "B",
+      "explanation": "½kx² = 1.0 J = ½(0.5)v² → v = 2.0 m/s.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Power",
+      "stem": "A motor exerts a constant 500 N force to pull a crate at a constant 2.0 m/s. What power does the motor deliver?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "250 W"
+        },
+        {
+          "id": "B",
+          "text": "500 W"
+        },
+        {
+          "id": "C",
+          "text": "1,000 W"
+        },
+        {
+          "id": "D",
+          "text": "2,000 W"
+        }
+      ],
+      "answer": "C",
+      "explanation": "P = Fv = 500 × 2.0.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Conservative Forces and Potential Energy",
+      "stem": "A particle's potential energy is U(x) = 2x³ − 6x (J). Which describes its equilibrium positions?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Stable at x = 1 m; unstable at x = −1 m"
+        },
+        {
+          "id": "B",
+          "text": "Stable at x = −1 m; unstable at x = 1 m"
+        },
+        {
+          "id": "C",
+          "text": "Stable at both x = ±1 m"
+        },
+        {
+          "id": "D",
+          "text": "Only at x = 0"
+        }
+      ],
+      "answer": "A",
+      "explanation": "dU/dx = 6x² − 6 = 0 at x = ±1; d²U/dx² = 12x is positive at x = 1 (minimum) and negative at x = −1 (maximum).",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Work",
+      "stem": "A spring (k = 400 N/m) is stretched from 0.10 m to 0.30 m beyond equilibrium. How much work does the external agent do?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "8 J"
+        },
+        {
+          "id": "B",
+          "text": "16 J"
+        },
+        {
+          "id": "C",
+          "text": "18 J"
+        },
+        {
+          "id": "D",
+          "text": "80 J"
+        }
+      ],
+      "answer": "B",
+      "explanation": "W = ½k(x₂² − x₁²) = 200(0.09 − 0.01) = 16 J.",
+      "distractors": {
+        "C": "Uses only the final position."
+      }
+    },
+    {
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Power",
+      "stem": "A 1,000 kg car climbs a frictionless 5° incline at a constant 20 m/s. What power must the engine supply? (sin 5° ≈ 0.087)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.7 kW"
+        },
+        {
+          "id": "B",
+          "text": "17 kW"
+        },
+        {
+          "id": "C",
+          "text": "196 kW"
+        },
+        {
+          "id": "D",
+          "text": "0.87 kW"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Force needed = mg sin θ ≈ 853 N; P = Fv ≈ 17,000 W.",
+      "distractors": {
+        "C": "Uses full weight."
+      }
+    },
+    {
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Conservation of Energy",
+      "stem": "A 2.0 kg block slides 3.0 m down a ramp, dropping 1.5 m in height, starting from rest. It reaches the bottom at 4.0 m/s. How much energy was converted to thermal energy by friction?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "13.4 J"
+        },
+        {
+          "id": "B",
+          "text": "16 J"
+        },
+        {
+          "id": "C",
+          "text": "29.4 J"
+        },
+        {
+          "id": "D",
+          "text": "45.4 J"
+        }
+      ],
+      "answer": "A",
+      "explanation": "mgh = 29.4 J; K = 16 J; thermal = 13.4 J.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Conservative Forces and Potential Energy",
+      "stimulus": "A U(x) graph has a minimum of −4 J at x = 2 m and rises to 0 J at x = 0 and to +3 J at x = 5 m. A particle has total mechanical energy −1 J.",
+      "stem": "Which statement is correct?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The particle is trapped between two turning points on either side of x = 2 m, and its maximum kinetic energy is 3 J."
+        },
+        {
+          "id": "B",
+          "text": "The particle can escape to x = 5 m."
+        },
+        {
+          "id": "C",
+          "text": "The particle's maximum kinetic energy is 4 J."
+        },
+        {
+          "id": "D",
+          "text": "The particle is at rest at x = 2 m."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Turning points where U = −1 J; K_max = E − U_min = −1 − (−4) = 3 J at x = 2 m.",
+      "distractors": {
+        "C": "Uses |U_min|."
+      }
+    },
+    {
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Conservation of Energy",
+      "stem": "What is the escape speed from a planet of mass M and radius R?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "√(GM/R)"
+        },
+        {
+          "id": "B",
+          "text": "√(2GM/R)"
+        },
+        {
+          "id": "C",
+          "text": "2GM/R"
+        },
+        {
+          "id": "D",
+          "text": "√(GM/2R)"
+        }
+      ],
+      "answer": "B",
+      "explanation": "½mv² − GMm/R = 0.",
+      "distractors": {
+        "A": "Orbital speed at the surface."
+      }
+    },
+    {
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Work",
+      "stem": "A particle moves along the x-axis under the force F(x) = −kx + bx³. What is the potential energy function, taking U(0) = 0?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "U = ½kx² − ¼bx⁴"
+        },
+        {
+          "id": "B",
+          "text": "U = −½kx² + ¼bx⁴"
+        },
+        {
+          "id": "C",
+          "text": "U = −k + 3bx²"
+        },
+        {
+          "id": "D",
+          "text": "U = ½kx² + ¼bx⁴"
+        }
+      ],
+      "answer": "A",
+      "explanation": "U = −∫F dx = ½kx² − ¼bx⁴.",
+      "distractors": {
+        "B": "Omits the negative in U = −∫F dx."
+      }
+    },
+    {
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Conservation of Energy",
+      "stem": "A 1.0 kg block moving at 4.0 m/s on a horizontal surface (μ_k = 0.25) hits a spring (k = 100 N/m). How far does it compress the spring? (g = 10 m/s²)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.40 m"
+        },
+        {
+          "id": "B",
+          "text": "0.38 m"
+        },
+        {
+          "id": "C",
+          "text": "0.35 m"
+        },
+        {
+          "id": "D",
+          "text": "0.28 m"
+        }
+      ],
+      "answer": "B",
+      "explanation": "½mv² = ½kx² + μ_kmgx → 8 = 50x² + 2.5x. Solving: x = [−2.5 + √(6.25 + 1600)]/100 ≈ 0.38 m.",
+      "distractors": {
+        "A": "Ignores friction: ½kx² = 8 J gives 0.40 m."
+      }
+    },
+    {
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Conservative Forces and Potential Energy",
+      "stem": "How much energy is needed to move a satellite of mass m from rest on Earth's surface (radius R, Earth mass M) to a circular orbit of radius 2R? Ignore Earth's rotation.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3GMm/(4R)"
+        },
+        {
+          "id": "B",
+          "text": "GMm/(2R)"
+        },
+        {
+          "id": "C",
+          "text": "GMm/R"
+        },
+        {
+          "id": "D",
+          "text": "GMm/(4R)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Orbit energy = −GMm/(4R); surface energy (at rest) = −GMm/R. Difference = 3GMm/(4R).",
+      "distractors": {
+        "B": "Only potential energy change, ignores orbital KE."
+      }
+    },
+    {
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Power",
+      "stem": "A car's engine delivers constant power P. Ignoring friction and drag, how does the car's speed depend on time when starting from rest?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "v ∝ t"
+        },
+        {
+          "id": "B",
+          "text": "v ∝ √t"
+        },
+        {
+          "id": "C",
+          "text": "v ∝ t²"
+        },
+        {
+          "id": "D",
+          "text": "v is constant"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Pt = ½mv² → v = √(2Pt/m).",
+      "distractors": {
+        "A": "Constant force, not constant power."
+      }
+    },
+    {
+      "id": "u3-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Conservation of Energy",
+      "frqType": "Experimental Design and Analysis (LAB)",
+      "prompt": "Students want to determine the spring constant k of a spring launcher. They compress the spring by distance x, release a 0.50 kg cart on a level, low-friction track, and measure the cart's speed v after it leaves the spring.\n\n| x (m) | 0.02 | 0.04 | 0.06 | 0.08 | 0.10 |\n|---|---|---|---|---|---|\n| v (m/s) | 0.41 | 0.79 | 1.22 | 1.58 | 2.01 |",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Describe a method to measure the cart's speed after it leaves the spring, including equipment and a way to reduce uncertainty.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Starting from energy conservation, derive a relationship between v and x that predicts a straight-line graph.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Describe a graph of the data that would be linear, with labels and a best-fit line, and determine its slope.",
+          "points": 3
+        },
+        {
+          "label": "D",
+          "prompt": "Use the slope to calculate k.",
+          "points": 2
+        },
+        {
+          "label": "E",
+          "prompt": "If friction were not negligible, would the calculated value of k be larger or smaller than the true value? Explain.",
+          "points": 1
+        }
+      ],
+      "points": 10,
+      "minutes": 22,
+      "rubric": [
+        {
+          "criterion": "A1: Method",
+          "points": 1,
+          "description": "Use a motion sensor or photogate (measure time to pass two gates a known distance apart) to find speed just after release."
+        },
+        {
+          "criterion": "A2: Uncertainty",
+          "points": 1,
+          "description": "Repeat trials at each compression and average."
+        },
+        {
+          "criterion": "B1: Principle",
+          "points": 1,
+          "description": "½kx² = ½mv²."
+        },
+        {
+          "criterion": "B2: Linear form",
+          "points": 1,
+          "description": "v = √(k/m) x, so v vs. x is linear with slope √(k/m)."
+        },
+        {
+          "criterion": "C1: Axes",
+          "points": 1,
+          "description": "v (m/s) vs. x (m), labeled with units and linear scales."
+        },
+        {
+          "criterion": "C2: Line",
+          "points": 1,
+          "description": "Points plotted and a straight best-fit line through the origin region."
+        },
+        {
+          "criterion": "C3: Slope",
+          "points": 1,
+          "description": "Slope ≈ 20 s⁻¹ (accept 19–21)."
+        },
+        {
+          "criterion": "D1: Relation",
+          "points": 1,
+          "description": "slope² = k/m."
+        },
+        {
+          "criterion": "D2: Result",
+          "points": 1,
+          "description": "k ≈ (20)²(0.50) ≈ 200 N/m (consistent with slope)."
+        },
+        {
+          "criterion": "E",
+          "points": 1,
+          "description": "Smaller: friction removes energy, so measured v is lower, giving a smaller slope and smaller calculated k."
+        }
+      ],
+      "sampleResponse": "A. Place two photogates a measured distance apart (e.g., 10 cm) just beyond where the cart leaves the spring. The time to travel between them gives the speed. Repeat each compression five times and average the speeds.\n\nB. With negligible friction, the spring's potential energy becomes the cart's kinetic energy: ½kx² = ½mv². Solving, v = √(k/m) · x, so a graph of v vs. x should be a straight line through the origin with slope √(k/m).\n\nC. Plot v (m/s) on the vertical axis and x (m) on the horizontal axis with linear scales. The points fall on a straight line; the best-fit line has slope ≈ (2.01 − 0.41)/(0.10 − 0.02) ≈ 20 s⁻¹.\n\nD. slope = √(k/m) → k = m(slope)² = (0.50 kg)(20 s⁻¹)² = 200 N/m.\n\nE. Smaller. Friction would remove some energy before the speed is measured, so measured speeds would be lower than predicted. A smaller slope gives a smaller calculated k."
+    }
+  ]
+}

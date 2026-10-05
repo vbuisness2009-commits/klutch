@@ -1,0 +1,272 @@
+{
+  "number": 2,
+  "title": "Force and Translational Dynamics",
+  "guide": {
+    "summary": "This unit applies Newton's laws to systems, including center of mass (with integrals), free-body diagrams, friction, spring forces, velocity-dependent resistive forces solved with differential equations, circular motion, and gravitation and orbits.",
+    "sections": [
+      {
+        "heading": "Systems and center of mass",
+        "body": "The center of mass of discrete objects: x_cm = Σm_ix_i/Σm_i. For a continuous object, x_cm = (1/M)∫x dm with dm = λ dx (λ may vary with x). The center of mass of a system moves as if all external forces acted on a single particle of the total mass: ΣF_ext = Ma_cm. Internal forces don't change the motion of the center of mass."
+      },
+      {
+        "heading": "Newton's laws and common forces",
+        "body": "ΣF = ma (more generally ΣF = dp/dt). Draw free-body diagrams with only real forces from interactions. Newton's third law pairs act on different objects. Kinetic friction f_k = μ_kF_N opposes sliding; static friction adjusts up to μ_sF_N. Spring force F = −kx. For connected objects (Atwood machines, blocks on tables with pulleys), apply Newton's second law to each object or treat the system as a whole (with ideal strings and massless, frictionless pulleys, tension is the same throughout)."
+      },
+      {
+        "heading": "Resistive forces",
+        "body": "A drag force proportional to velocity (F = −bv) gives the differential equation m dv/dt = mg − bv for a falling object. Separating variables: v(t) = (mg/b)(1 − e^(−bt/m)). Terminal velocity v_T = mg/b occurs when drag balances weight; the time constant is m/b. For drag proportional to v², terminal velocity is √(mg/c). Acceleration is greatest initially and decreases toward zero."
+      },
+      {
+        "heading": "Circular motion and gravitation",
+        "body": "Uniform circular motion requires a net centripetal force ΣF_c = mv²/r toward the center, provided by real forces (tension, friction, gravity, normal force). On a flat curve, v_max = √(μ_sgr). At the top of a vertical loop, the minimum speed is √(gr). Newton's law of gravitation: F = Gm₁m₂/r². The gravitational field g = GM/r² decreases with the square of distance from the center. Circular orbits: v = √(GM/r), T² = (4π²/GM)r³. Inside a uniform sphere, g increases linearly with r."
+      }
+    ],
+    "keyTakeaways": [
+      "x_cm = (1/M)∫x dm.",
+      "ΣF_ext = Ma_cm.",
+      "Linear drag: v(t) = v_T(1 − e^(−bt/m)), v_T = mg/b.",
+      "Centripetal force is a net force, not a new force.",
+      "Orbits: v = √(GM/r).",
+      "g ∝ 1/r² outside a sphere."
+    ],
+    "commonMistakes": [
+      "Adding 'centripetal force' to a free-body diagram.",
+      "Putting third-law pairs on the same free-body diagram.",
+      "Treating acceleration as constant with a drag force.",
+      "Using μ_s F_N as the static friction force when it's not at maximum.",
+      "Measuring orbital radius from the surface instead of the center."
+    ],
+    "examTips": [
+      "Derivations: begin with ΣF = ma (or m dv/dt) for each object.",
+      "For drag, show separation of variables and boundary conditions.",
+      "Center-of-mass integrals: write dm in terms of x before integrating.",
+      "Graph questions on drag: v(t) approaches v_T asymptotically; a(t) decays to 0."
+    ],
+    "cramSheet": "**COM:** Σmx/Σm · (1/M)∫x dm · ΣF_ext = Ma_cm\n\n**Newton:** ΣF = ma = dp/dt · 3rd-law pairs on different objects\n\n**Friction:** f_k = μ_kN · f_s ≤ μ_sN\n\n**Drag (bv):** m dv/dt = mg − bv · v_T = mg/b · v = v_T(1 − e^(−bt/m))\n\n**Circular:** ΣF = mv²/r · flat curve v = √(μgr) · loop top v_min = √(gr)\n\n**Gravity:** F = GMm/r² · g = GM/r² · v_orbit = √(GM/r)"
+  },
+  "vocab": [
+    { "term": "Center of mass", "definition": "The mass-weighted average position of a system." },
+    { "term": "Free-body diagram", "definition": "A representation of all external forces acting on an object." },
+    { "term": "Normal force", "definition": "The perpendicular contact force exerted by a surface." },
+    { "term": "Coefficient of kinetic friction", "definition": "Ratio of kinetic friction force to normal force." },
+    { "term": "Resistive force", "definition": "A force opposing motion through a fluid, often proportional to v or v²." },
+    { "term": "Terminal velocity", "definition": "The constant velocity reached when drag balances other forces." },
+    { "term": "Time constant (drag)", "definition": "m/b, the characteristic time to approach terminal velocity." },
+    { "term": "Centripetal acceleration", "definition": "Acceleration toward the center of a circular path: v²/r." },
+    { "term": "Gravitational field", "definition": "Gravitational force per unit mass: g = GM/r²." },
+    { "term": "Orbital speed", "definition": "Speed of a circular orbit: √(GM/r)." },
+    { "term": "Linear mass density", "definition": "Mass per unit length, λ = dm/dx." },
+    { "term": "Apparent weight", "definition": "The normal force on an object, e.g., a scale reading in an accelerating elevator." }
+  ],
+  "practice": [
+    {
+      "id": "u2-q01", "tier": "Intro", "type": "mcq", "topic": "Newton's Second Law",
+      "stem": "Blocks of 3.0 kg and 5.0 kg hang from opposite ends of a string over a massless, frictionless pulley. What is the magnitude of their acceleration? (g = 9.8 m/s²)",
+      "choices": [
+        { "id": "A", "text": "1.2 m/s²" },
+        { "id": "B", "text": "2.45 m/s²" },
+        { "id": "C", "text": "3.9 m/s²" },
+        { "id": "D", "text": "9.8 m/s²" }
+      ],
+      "answer": "B",
+      "explanation": "a = (m₂ − m₁)g/(m₁ + m₂) = 2(9.8)/8 = 2.45 m/s².",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q02", "tier": "Intro", "type": "mcq", "topic": "Resistive Forces",
+      "stem": "An object falls through a fluid with drag force −bv. Its terminal speed is",
+      "choices": [
+        { "id": "A", "text": "mg/b" },
+        { "id": "B", "text": "b/mg" },
+        { "id": "C", "text": "√(mg/b)" },
+        { "id": "D", "text": "mgb" }
+      ],
+      "answer": "A",
+      "explanation": "At terminal speed, mg = bv.",
+      "distractors": { "C": "Applies to drag ∝ v²." }
+    },
+    {
+      "id": "u2-q03", "tier": "Intro", "type": "mcq", "topic": "Gravitational Force",
+      "stem": "A satellite orbits at a height above Earth's surface equal to Earth's radius. The gravitational field strength there is",
+      "choices": [
+        { "id": "A", "text": "g/2" },
+        { "id": "B", "text": "g/4" },
+        { "id": "C", "text": "g" },
+        { "id": "D", "text": "2g" }
+      ],
+      "answer": "B",
+      "explanation": "Distance from center doubles: g ∝ 1/r².",
+      "distractors": { "A": "Measures distance from the surface." }
+    },
+    {
+      "id": "u2-q04", "tier": "Intro", "type": "mcq", "topic": "Circular Motion",
+      "stem": "A car rounds a flat curve of radius 50 m. The coefficient of static friction is 0.80. What is the maximum speed without skidding?",
+      "choices": [
+        { "id": "A", "text": "6.3 m/s" },
+        { "id": "B", "text": "14 m/s" },
+        { "id": "C", "text": "20 m/s" },
+        { "id": "D", "text": "39 m/s" }
+      ],
+      "answer": "C",
+      "explanation": "μ_smg = mv²/r → v = √(0.8 × 9.8 × 50) ≈ 20 m/s.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q05", "tier": "Exam level", "type": "mcq", "topic": "Center of Mass",
+      "stem": "A rod of length L has linear density λ = kx, where x is measured from one end. Where is its center of mass?",
+      "choices": [
+        { "id": "A", "text": "L/2" },
+        { "id": "B", "text": "2L/3" },
+        { "id": "C", "text": "L/3" },
+        { "id": "D", "text": "3L/4" }
+      ],
+      "answer": "B",
+      "explanation": "x_cm = ∫kx² dx/∫kx dx = (L³/3)/(L²/2) = 2L/3.",
+      "distractors": { "A": "Uniform rod." }
+    },
+    {
+      "id": "u2-q06", "tier": "Exam level", "type": "mcq", "topic": "Friction",
+      "stem": "A block slides down a 30° incline with μ_k = 0.20. What is its acceleration?",
+      "choices": [
+        { "id": "A", "text": "3.2 m/s²" },
+        { "id": "B", "text": "4.9 m/s²" },
+        { "id": "C", "text": "6.6 m/s²" },
+        { "id": "D", "text": "1.7 m/s²" }
+      ],
+      "answer": "A",
+      "explanation": "a = g(sin 30° − μ_k cos 30°) = 9.8(0.5 − 0.173) ≈ 3.2 m/s².",
+      "distractors": { "B": "Ignores friction.", "C": "Adds friction." }
+    },
+    {
+      "id": "u2-q07", "tier": "Exam level", "type": "mcq", "topic": "Resistive Forces",
+      "stem": "An object is released from rest in a fluid with drag F = −bv. Which expression gives its velocity (downward positive)?",
+      "choices": [
+        { "id": "A", "text": "v = (mg/b)(1 − e^(−bt/m))" },
+        { "id": "B", "text": "v = (mg/b)e^(−bt/m)" },
+        { "id": "C", "text": "v = gt" },
+        { "id": "D", "text": "v = (mg/b)(1 − e^(−mt/b))" }
+      ],
+      "answer": "A",
+      "explanation": "Solving m dv/dt = mg − bv with v(0) = 0.",
+      "distractors": { "D": "Inverted time constant." }
+    },
+    {
+      "id": "u2-q08", "tier": "Exam level", "type": "mcq", "topic": "Circular Motion",
+      "stem": "A ball on a string moves in a vertical circle of radius r. What is the minimum speed at the top for the string to stay taut?",
+      "choices": [
+        { "id": "A", "text": "0" },
+        { "id": "B", "text": "√(gr)" },
+        { "id": "C", "text": "√(2gr)" },
+        { "id": "D", "text": "√(5gr)" }
+      ],
+      "answer": "B",
+      "explanation": "At minimum speed, T = 0 and gravity alone provides centripetal force: mg = mv²/r.",
+      "distractors": { "D": "Minimum speed at the bottom." }
+    },
+    {
+      "id": "u2-q09", "tier": "Exam level", "type": "mcq", "topic": "Newton's Second Law",
+      "stem": "A 60 kg person stands on a scale in an elevator accelerating downward at 2.0 m/s². What does the scale read?",
+      "choices": [
+        { "id": "A", "text": "468 N" },
+        { "id": "B", "text": "588 N" },
+        { "id": "C", "text": "708 N" },
+        { "id": "D", "text": "120 N" }
+      ],
+      "answer": "A",
+      "explanation": "N = m(g − a) = 60(7.8) = 468 N.",
+      "distractors": { "C": "Upward acceleration." }
+    },
+    {
+      "id": "u2-q10", "tier": "Exam level", "type": "mcq", "topic": "Gravitational Force",
+      "stem": "Satellite A orbits at radius r and satellite B at radius 4r around the same planet. The ratio of B's orbital period to A's is",
+      "choices": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "4" },
+        { "id": "C", "text": "8" },
+        { "id": "D", "text": "16" }
+      ],
+      "answer": "C",
+      "explanation": "T² ∝ r³: T ∝ r^(3/2) = 4^(3/2) = 8.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q11", "tier": "Hardest", "type": "mcq", "topic": "Resistive Forces",
+      "stem": "An object moving horizontally on a frictionless surface experiences only a drag force −bv. With initial speed v₀, how far does it travel before stopping?",
+      "choices": [
+        { "id": "A", "text": "mv₀/b" },
+        { "id": "B", "text": "Infinitely far" },
+        { "id": "C", "text": "mv₀²/(2b)" },
+        { "id": "D", "text": "bv₀/m" }
+      ],
+      "answer": "A",
+      "explanation": "m dv/dt = −bv → v = v₀e^(−bt/m); x = ∫v dt from 0 to ∞ = mv₀/b (it approaches this asymptotically).",
+      "distractors": { "B": "v never reaches zero, but the distance converges." }
+    },
+    {
+      "id": "u2-q12", "tier": "Hardest", "type": "mcq", "topic": "Gravitational Force",
+      "stem": "Inside a uniform solid planet of radius R, the gravitational field at distance r from the center (r < R) is",
+      "choices": [
+        { "id": "A", "text": "proportional to r" },
+        { "id": "B", "text": "proportional to 1/r²" },
+        { "id": "C", "text": "constant" },
+        { "id": "D", "text": "zero" }
+      ],
+      "answer": "A",
+      "explanation": "Only mass inside r contributes: M(r) ∝ r³, so g ∝ r³/r² = r.",
+      "distractors": { "D": "True inside a hollow shell." }
+    },
+    {
+      "id": "u2-q13", "tier": "Hardest", "type": "mcq", "topic": "Newton's Second Law",
+      "stem": "A 2.0 kg block on a frictionless table is connected over a pulley to a hanging 3.0 kg block. A student pulls the 2.0 kg block away from the pulley with a horizontal force F so that the system accelerates with the hanging block rising at 1.0 m/s². What is F?",
+      "choices": [
+        { "id": "A", "text": "29 N" },
+        { "id": "B", "text": "34 N" },
+        { "id": "C", "text": "5.0 N" },
+        { "id": "D", "text": "39 N" }
+      ],
+      "answer": "B",
+      "explanation": "System: F − m₂g = (m₁ + m₂)a → F = 3(9.8) + 5(1.0) = 29.4 + 5 = 34.4 N.",
+      "distractors": { "A": "Ignores acceleration." }
+    },
+    {
+      "id": "u2-q14", "tier": "Hardest", "type": "mcq", "topic": "Circular Motion",
+      "stem": "A car travels at speed v over the top of a hill that is a circular arc of radius r. At what speed does the car just lose contact with the road?",
+      "choices": [
+        { "id": "A", "text": "√(gr)" },
+        { "id": "B", "text": "√(2gr)" },
+        { "id": "C", "text": "gr" },
+        { "id": "D", "text": "√(g/r)" }
+      ],
+      "answer": "A",
+      "explanation": "mg − N = mv²/r; N = 0 when v = √(gr).",
+      "distractors": {}
+    },
+    {
+      "id": "u2-frq1", "tier": "Hardest", "type": "frq", "topic": "Resistive Forces", "frqType": "Translation Between Representations (TBR)",
+      "prompt": "A small sphere of mass m is released from rest in a tall column of oil. The oil exerts a resistive force of magnitude bv, where b is a positive constant. Ignore buoyancy.",
+      "parts": [
+        { "label": "A", "prompt": "Draw (describe) a free-body diagram of the sphere at a time after release when its speed is v, with arrows of appropriate relative length.", "points": 2 },
+        { "label": "B", "prompt": "Starting from Newton's second law, derive an expression for the sphere's velocity as a function of time.", "points": 4 },
+        { "label": "C", "prompt": "Sketch (describe) graphs of velocity vs. time and acceleration vs. time from release until long after.", "points": 3 },
+        { "label": "D", "prompt": "Explain how the relative lengths of the arrows in (A) change over time, and how that is consistent with your graphs in (C).", "points": 3 }
+      ],
+      "points": 12,
+      "minutes": 25,
+      "rubric": [
+        { "criterion": "A1: Forces", "points": 1, "description": "Gravitational force mg downward and resistive force bv upward, both labeled." },
+        { "criterion": "A2: Relative lengths", "points": 1, "description": "Gravity arrow longer than drag arrow (before terminal speed)." },
+        { "criterion": "B1: Newton's law", "points": 1, "description": "m dv/dt = mg − bv." },
+        { "criterion": "B2: Separation", "points": 1, "description": "dv/(mg − bv) = dt/m (or equivalent)." },
+        { "criterion": "B3: Integration with limits", "points": 1, "description": "−(1/b) ln[(mg − bv)/mg] = t/m." },
+        { "criterion": "B4: Result", "points": 1, "description": "v(t) = (mg/b)(1 − e^(−bt/m))." },
+        { "criterion": "C1: v graph start", "points": 1, "description": "v starts at 0 with initial slope g." },
+        { "criterion": "C2: v asymptote", "points": 1, "description": "Concave down, approaching v_T = mg/b asymptotically." },
+        { "criterion": "C3: a graph", "points": 1, "description": "a starts at g and decreases exponentially toward 0." },
+        { "criterion": "D1: Drag grows", "points": 1, "description": "As v increases, drag arrow lengthens; gravity arrow constant." },
+        { "criterion": "D2: Net force", "points": 1, "description": "Net force (difference) shrinks, so acceleration (slope of v–t) decreases." },
+        { "criterion": "D3: Terminal", "points": 1, "description": "Eventually arrows equal in length; net force zero; v constant at v_T, a = 0, matching the graphs." }
+      ],
+      "sampleResponse": "A. The free-body diagram shows a downward arrow labeled F_g = mg and an upward arrow labeled F_drag = bv. Because the sphere hasn't reached terminal speed, the downward arrow is longer.\n\nB. Taking down as positive, Newton's second law gives m dv/dt = mg − bv. Separating variables: ∫₀^v dv/(mg − bv) = ∫₀^t dt/m. Integrating: −(1/b) ln[(mg − bv)/mg] = t/m. Solving: mg − bv = mg e^(−bt/m), so v(t) = (mg/b)(1 − e^(−bt/m)).\n\nC. Velocity vs. time starts at zero with slope g, is concave down, and approaches the horizontal asymptote v_T = mg/b. Acceleration vs. time starts at g and decays exponentially toward zero.\n\nD. The gravitational force arrow stays the same length while the drag arrow grows as the sphere speeds up. The difference between them (the net force) shrinks, so the acceleration decreases, which is why the v–t graph flattens and the a–t graph falls. Eventually the drag arrow equals the gravity arrow, the net force is zero, the acceleration is zero, and the velocity remains constant at terminal velocity, matching the asymptotes of both graphs."
+    }
+  ]
+}

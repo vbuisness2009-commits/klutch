@@ -1,0 +1,268 @@
+{
+  "number": 1,
+  "title": "Kinematics",
+  "guide": {
+    "summary": "Calculus-based kinematics describes motion with derivatives and integrals: v = dx/dt, a = dv/dt, and their integrals, including motion with non-constant acceleration, graphical analysis, two-dimensional and projectile motion, and relative velocity.",
+    "sections": [
+      {
+        "heading": "Calculus of motion",
+        "body": "Velocity is the time derivative of position, v = dx/dt; acceleration is the derivative of velocity, a = dv/dt = d²x/dt². Going backward, Δx = ∫v dt and Δv = ∫a dt; include initial conditions to find constants. The constant-acceleration equations are special cases. When acceleration depends on position, use a = v dv/dx and integrate ∫v dv = ∫a dx. When it depends on velocity, separate variables: dv/a(v) = dt. An object speeds up when v and a have the same sign and slows down when they have opposite signs. Displacement can be zero while distance traveled is not; find turning points where v = 0."
+      },
+      {
+        "heading": "Graphs",
+        "body": "On an x–t graph, slope = velocity; on a v–t graph, slope = acceleration and area = displacement; on an a–t graph, area = change in velocity. Curvature of an x–t graph indicates acceleration: concave up means a > 0."
+      },
+      {
+        "heading": "Two dimensions and projectiles",
+        "body": "Treat x and y motion independently with vectors r(t), v(t) = dr/dt, a(t) = dv/dt. For a projectile (no air resistance), a_x = 0 and a_y = −g. Launch at speed v₀ and angle θ from level ground: time of flight 2v₀ sin θ/g, maximum height (v₀ sin θ)²/2g, range v₀² sin 2θ/g (maximum at 45°). Relative velocity: v_A/C = v_A/B + v_B/C."
+      }
+    ],
+    "keyTakeaways": [
+      "v = dx/dt, a = dv/dt; integrate with initial conditions.",
+      "a = v dv/dx for position-dependent acceleration.",
+      "Speeding up: v and a same sign.",
+      "v–t area = displacement; slope = acceleration.",
+      "Projectile: independent x and y; a_y = −g.",
+      "Relative velocities add as vectors."
+    ],
+    "commonMistakes": [
+      "Using constant-acceleration equations when a varies.",
+      "Forgetting the constant of integration (initial position or velocity).",
+      "Confusing distance with displacement when the object reverses.",
+      "Saying an object slows down whenever acceleration is negative.",
+      "Treating the vertical velocity at the top of a projectile's path as the full velocity."
+    ],
+    "examTips": [
+      "Show the integral or derivative explicitly; FRQ points require the calculus step.",
+      "For distance, split the interval at each turning point.",
+      "Graph-translation questions: match slopes and areas between x, v, a graphs.",
+      "For drag-type problems, write the differential equation before solving."
+    ],
+    "cramSheet": "**Derivatives:** v = dx/dt · a = dv/dt\n\n**Integrals:** Δx = ∫v dt · Δv = ∫a dt · +initial conditions\n\n**Tricks:** a = v dv/dx · separate variables for a(v)\n\n**Speed:** up if v, a same sign\n\n**Graphs:** x–t slope v · v–t slope a, area Δx · a–t area Δv\n\n**Projectile:** a_x = 0 · a_y = −g · R = v₀² sin 2θ/g · H = (v₀ sin θ)²/2g"
+  },
+  "vocab": [
+    { "term": "Displacement", "definition": "Change in position, a vector." },
+    { "term": "Instantaneous velocity", "definition": "The derivative of position with respect to time." },
+    { "term": "Instantaneous acceleration", "definition": "The derivative of velocity with respect to time." },
+    { "term": "Turning point", "definition": "An instant when velocity is zero and the direction of motion reverses." },
+    { "term": "Distance traveled", "definition": "Total path length, the integral of speed |v| over time." },
+    { "term": "Projectile motion", "definition": "Two-dimensional motion with constant downward acceleration g and no horizontal acceleration." },
+    { "term": "Relative velocity", "definition": "Velocity of an object as measured in a particular reference frame." },
+    { "term": "Range", "definition": "Horizontal distance a projectile travels." },
+    { "term": "Separation of variables", "definition": "Rearranging a differential equation so each variable appears on one side before integrating." },
+    { "term": "Jerk", "definition": "The time derivative of acceleration." },
+    { "term": "Position vector", "definition": "A vector from the origin to an object's location, r(t)." },
+    { "term": "Uniform motion", "definition": "Motion with constant velocity." }
+  ],
+  "practice": [
+    {
+      "id": "u1-q01", "tier": "Intro", "type": "mcq", "topic": "Kinematics with Calculus",
+      "stem": "A particle's position is x(t) = 4t³ − 2t (meters, seconds). What is its acceleration at t = 2 s?",
+      "choices": [
+        { "id": "A", "text": "24 m/s²" },
+        { "id": "B", "text": "48 m/s²" },
+        { "id": "C", "text": "46 m/s²" },
+        { "id": "D", "text": "28 m/s²" }
+      ],
+      "answer": "B",
+      "explanation": "v = 12t² − 2; a = 24t = 48 m/s² at t = 2.",
+      "distractors": { "C": "Velocity at t = 2." }
+    },
+    {
+      "id": "u1-q02", "tier": "Intro", "type": "mcq", "topic": "Kinematics with Calculus",
+      "stem": "A particle's acceleration is a(t) = 6t m/s², and its velocity at t = 0 is 2 m/s. What is its velocity at t = 3 s?",
+      "choices": [
+        { "id": "A", "text": "18 m/s" },
+        { "id": "B", "text": "20 m/s" },
+        { "id": "C", "text": "27 m/s" },
+        { "id": "D", "text": "29 m/s" }
+      ],
+      "answer": "D",
+      "explanation": "v = 3t² + 2 = 27 + 2 = 29 m/s.",
+      "distractors": { "C": "Forgets the initial velocity." }
+    },
+    {
+      "id": "u1-q03", "tier": "Intro", "type": "mcq", "topic": "Graphical Analysis",
+      "stem": "On a velocity-vs-time graph, the area between the curve and the time axis represents",
+      "choices": [
+        { "id": "A", "text": "acceleration" },
+        { "id": "B", "text": "displacement" },
+        { "id": "C", "text": "jerk" },
+        { "id": "D", "text": "average speed" }
+      ],
+      "answer": "B",
+      "explanation": "Δx = ∫v dt.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q04", "tier": "Intro", "type": "mcq", "topic": "Projectile Motion",
+      "stem": "A ball is launched from level ground at 20 m/s at 30° above horizontal. Neglecting air resistance, what is its range? (g = 9.8 m/s²)",
+      "choices": [
+        { "id": "A", "text": "20 m" },
+        { "id": "B", "text": "35 m" },
+        { "id": "C", "text": "41 m" },
+        { "id": "D", "text": "71 m" }
+      ],
+      "answer": "B",
+      "explanation": "R = v₀² sin 2θ/g = 400(0.866)/9.8 ≈ 35 m.",
+      "distractors": { "C": "Range at 45°." }
+    },
+    {
+      "id": "u1-q05", "tier": "Exam level", "type": "mcq", "topic": "Kinematics with Calculus",
+      "stem": "A particle moves with x(t) = t³ − 6t² + 9t (m). What total distance does it travel from t = 0 to t = 3 s?",
+      "choices": [
+        { "id": "A", "text": "0 m" },
+        { "id": "B", "text": "4 m" },
+        { "id": "C", "text": "8 m" },
+        { "id": "D", "text": "12 m" }
+      ],
+      "answer": "C",
+      "explanation": "v = 3t² − 12t + 9 = 0 at t = 1, 3. x(0) = 0, x(1) = 4, x(3) = 0. Distance = 4 + 4 = 8 m.",
+      "distractors": { "A": "Displacement." }
+    },
+    {
+      "id": "u1-q06", "tier": "Exam level", "type": "mcq", "topic": "Kinematics with Calculus",
+      "stem": "A particle's velocity is v(x) = 3x (SI units). What is its acceleration when x = 2 m?",
+      "choices": [
+        { "id": "A", "text": "3 m/s²" },
+        { "id": "B", "text": "6 m/s²" },
+        { "id": "C", "text": "18 m/s²" },
+        { "id": "D", "text": "9 m/s²" }
+      ],
+      "answer": "C",
+      "explanation": "a = v dv/dx = (3x)(3) = 9x = 18 m/s².",
+      "distractors": { "A": "Just dv/dx." }
+    },
+    {
+      "id": "u1-q07", "tier": "Exam level", "type": "mcq", "topic": "Kinematics with Calculus",
+      "stem": "At an instant, an object's velocity is −4 m/s and its acceleration is +2 m/s². At that instant, the object is",
+      "choices": [
+        { "id": "A", "text": "speeding up" },
+        { "id": "B", "text": "slowing down" },
+        { "id": "C", "text": "at rest" },
+        { "id": "D", "text": "moving at constant speed" }
+      ],
+      "answer": "B",
+      "explanation": "Opposite signs of v and a mean speed is decreasing.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q08", "tier": "Exam level", "type": "mcq", "topic": "Relative Motion",
+      "stem": "A boat points directly across a river at 4.0 m/s relative to the water; the current flows at 3.0 m/s. The river is 80 m wide. How far downstream does the boat land?",
+      "choices": [
+        { "id": "A", "text": "20 m" },
+        { "id": "B", "text": "60 m" },
+        { "id": "C", "text": "80 m" },
+        { "id": "D", "text": "100 m" }
+      ],
+      "answer": "B",
+      "explanation": "Crossing time = 80/4 = 20 s; drift = 3 × 20 = 60 m.",
+      "distractors": { "D": "Total path length." }
+    },
+    {
+      "id": "u1-q09", "tier": "Exam level", "type": "mcq", "topic": "Projectile Motion",
+      "stem": "Two balls are launched from level ground with the same speed, one at 30° and one at 60°. Which is true (no air resistance)?",
+      "choices": [
+        { "id": "A", "text": "They land at the same distance, but the 60° ball stays in the air longer." },
+        { "id": "B", "text": "The 30° ball goes farther." },
+        { "id": "C", "text": "They have the same time of flight." },
+        { "id": "D", "text": "The 60° ball lands farther." }
+      ],
+      "answer": "A",
+      "explanation": "sin 60° = sin 120°, so ranges match; flight time ∝ sin θ.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q10", "tier": "Exam level", "type": "mcq", "topic": "Graphical Analysis",
+      "stem": "A position-vs-time graph is concave down and has positive slope at t = 2 s. At t = 2 s, the object is",
+      "choices": [
+        { "id": "A", "text": "moving in +x and slowing down" },
+        { "id": "B", "text": "moving in +x and speeding up" },
+        { "id": "C", "text": "moving in −x and slowing down" },
+        { "id": "D", "text": "at rest" }
+      ],
+      "answer": "A",
+      "explanation": "Positive slope: v > 0; concave down: a < 0. Opposite signs → slowing.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q11", "tier": "Hardest", "type": "mcq", "topic": "Kinematics with Calculus",
+      "stem": "A particle moves with acceleration a = −kv², where k is a positive constant, and initial velocity v₀ > 0. What is v(t)?",
+      "choices": [
+        { "id": "A", "text": "v₀/(1 + kv₀t)" },
+        { "id": "B", "text": "v₀e^(−kt)" },
+        { "id": "C", "text": "v₀ − kv₀²t" },
+        { "id": "D", "text": "v₀/(1 − kv₀t)" }
+      ],
+      "answer": "A",
+      "explanation": "dv/v² = −k dt → −1/v + 1/v₀ = −kt → v = v₀/(1 + kv₀t).",
+      "distractors": { "B": "Solution for a = −kv.", "C": "Assumes constant acceleration." }
+    },
+    {
+      "id": "u1-q12", "tier": "Hardest", "type": "mcq", "topic": "Kinematics with Calculus",
+      "stem": "A particle starts from rest at x = 0 and has acceleration a(x) = 2x + 4 (SI units). What is its speed at x = 3 m?",
+      "choices": [
+        { "id": "A", "text": "√21 m/s" },
+        { "id": "B", "text": "√42 m/s" },
+        { "id": "C", "text": "10 m/s" },
+        { "id": "D", "text": "√30 m/s" }
+      ],
+      "answer": "B",
+      "explanation": "∫v dv = ∫(2x + 4) dx → v²/2 = x² + 4x = 21 → v = √42 m/s.",
+      "distractors": { "A": "Forgets the factor of 2 from v²/2." }
+    },
+    {
+      "id": "u1-q13", "tier": "Hardest", "type": "mcq", "topic": "Projectile Motion",
+      "stem": "A projectile's position is r(t) = (10t) î + (20t − 4.9t²) ĵ (meters). At what time is its speed minimum, and what is that speed?",
+      "choices": [
+        { "id": "A", "text": "t ≈ 2.0 s; 10 m/s" },
+        { "id": "B", "text": "t = 0; 22 m/s" },
+        { "id": "C", "text": "t ≈ 4.1 s; 0 m/s" },
+        { "id": "D", "text": "t ≈ 2.0 s; 0 m/s" }
+      ],
+      "answer": "A",
+      "explanation": "v_y = 20 − 9.8t = 0 at t ≈ 2.04 s; speed = |v_x| = 10 m/s at the top.",
+      "distractors": { "D": "Forgets horizontal velocity." }
+    },
+    {
+      "id": "u1-q14", "tier": "Hardest", "type": "mcq", "topic": "Graphical Analysis",
+      "stimulus": "An acceleration-vs-time graph shows a = 4 m/s² from t = 0 to 3 s, then a = −2 m/s² from t = 3 to 7 s. The object starts from rest.",
+      "stem": "What is its velocity at t = 7 s?",
+      "choices": [
+        { "id": "A", "text": "4 m/s" },
+        { "id": "B", "text": "12 m/s" },
+        { "id": "C", "text": "−4 m/s" },
+        { "id": "D", "text": "20 m/s" }
+      ],
+      "answer": "A",
+      "explanation": "Δv = 4(3) + (−2)(4) = 12 − 8 = 4 m/s.",
+      "distractors": { "B": "Velocity at t = 3 s." }
+    },
+    {
+      "id": "u1-frq1", "tier": "Exam level", "type": "frq", "topic": "Kinematics with Calculus", "frqType": "Mathematical Routines (MR)",
+      "prompt": "A particle moves along the x-axis with acceleration a(t) = 12 − 6t (m/s², t in seconds). At t = 0, v = −9 m/s and x = 0.",
+      "parts": [
+        { "label": "A", "prompt": "Starting from the definition of acceleration, derive an expression for v(t).", "points": 2 },
+        { "label": "B", "prompt": "Determine the times when the particle is momentarily at rest, and state the direction of motion during 0 < t < 1 s and 1 s < t < 3 s.", "points": 2 },
+        { "label": "C", "prompt": "Determine x(t) and calculate the position at t = 3 s.", "points": 2 },
+        { "label": "D", "prompt": "Calculate the total distance traveled from t = 0 to t = 3 s.", "points": 2 },
+        { "label": "E", "prompt": "At t = 0.5 s, is the particle speeding up or slowing down? Justify.", "points": 2 }
+      ],
+      "points": 10,
+      "minutes": 22,
+      "rubric": [
+        { "criterion": "A1: Integral", "points": 1, "description": "v = ∫a dt = 12t − 3t² + C." },
+        { "criterion": "A2: Constant", "points": 1, "description": "C = −9: v(t) = −9 + 12t − 3t²." },
+        { "criterion": "B1: Rest times", "points": 1, "description": "−3(t² − 4t + 3) = 0 → t = 1 s and t = 3 s." },
+        { "criterion": "B2: Directions", "points": 1, "description": "−x for 0 < t < 1 (v < 0); +x for 1 < t < 3 (v > 0)." },
+        { "criterion": "C1: Position function", "points": 1, "description": "x(t) = −9t + 6t² − t³ (x₀ = 0)." },
+        { "criterion": "C2: Value", "points": 1, "description": "x(3) = −27 + 54 − 27 = 0 m." },
+        { "criterion": "D1: Turning point", "points": 1, "description": "x(1) = −9 + 6 − 1 = −4 m." },
+        { "criterion": "D2: Distance", "points": 1, "description": "4 m + 4 m = 8 m." },
+        { "criterion": "E1: Values", "points": 1, "description": "v(0.5) = −9 + 6 − 0.75 = −3.75 m/s; a(0.5) = 9 m/s²." },
+        { "criterion": "E2: Conclusion", "points": 1, "description": "Opposite signs → slowing down." }
+      ],
+      "sampleResponse": "A. a = dv/dt, so v = ∫(12 − 6t) dt = 12t − 3t² + C. At t = 0, v = −9 m/s, so C = −9. v(t) = −9 + 12t − 3t² m/s.\n\nB. v = 0 → −3(t² − 4t + 3) = −3(t − 1)(t − 3) = 0 → t = 1 s and t = 3 s. For 0 < t < 1, v is negative (e.g., v(0.5) = −3.75), so the particle moves in the −x direction. For 1 < t < 3, v is positive (e.g., v(2) = 3), so it moves in the +x direction.\n\nC. x = ∫v dt = −9t + 6t² − t³ + x₀ with x₀ = 0. x(3) = −27 + 54 − 27 = 0 m.\n\nD. x(1) = −9 + 6 − 1 = −4 m. From t = 0 to 1 the particle moves 4 m in −x; from t = 1 to 3 it moves from −4 m back to 0, another 4 m. Total distance = 8 m.\n\nE. At t = 0.5 s, v = −3.75 m/s and a = 12 − 3 = 9 m/s². Velocity and acceleration have opposite signs, so the particle is slowing down."
+    }
+  ]
+}

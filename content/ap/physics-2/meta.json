@@ -1,0 +1,151 @@
+{
+ "slug": "physics-2",
+ "name": "AP Physics 2",
+ "lastVerified": "2026-10",
+ "overview": "AP Physics 2 is an algebra-based, introductory college physics course covering thermodynamics, electric force, field, and potential, DC circuits (including capacitors), magnetism and electromagnetic induction, geometric optics, waves, sound, and physical optics, and modern physics. Like Physics 1, the exam emphasizes reasoning over plugging: you must build representations (field diagrams, ray diagrams, PV diagrams, circuit schematics), derive relationships from fundamental principles, design experiments, and justify claims using functional dependence.",
+ "examMode": "Hybrid digital: multiple choice is answered in the Bluebook app; free-response questions are viewed in Bluebook and handwritten in a paper booklet.",
+ "totalMinutes": 180,
+ "sections": [
+  {
+   "name": "Section I",
+   "questionType": "Multiple choice (single-select, 4 choices)",
+   "count": 42,
+   "minutes": 85,
+   "weight": "50%",
+   "calculator": "Allowed",
+   "notes": "Discrete questions and short question sets built around a stimulus or data. Starting with the May 2027 exam this section has 42 questions in 85 minutes (it was 40 questions in 80 minutes in 2025 and 2026). No penalty for guessing."
+  },
+  {
+   "name": "Section II",
+   "questionType": "Free response",
+   "count": 4,
+   "minutes": 95,
+   "weight": "50%",
+   "calculator": "Allowed",
+   "notes": "One each of Mathematical Routines (10 pts), Translation Between Representations (12 pts), Experimental Design and Analysis (10 pts), and Qualitative/Quantitative Translation (8 pts). Starting May 2027 the section is 95 minutes (was 100)."
+  }
+ ],
+ "units": [
+  {
+   "number": 1,
+   "title": "Thermodynamics"
+  },
+  {
+   "number": 2,
+   "title": "Electric Force, Field, and Potential"
+  },
+  {
+   "number": 3,
+   "title": "Electric Circuits"
+  },
+  {
+   "number": 4,
+   "title": "Magnetism and Electromagnetic Induction"
+  },
+  {
+   "number": 5,
+   "title": "Geometric Optics"
+  },
+  {
+   "number": 6,
+   "title": "Waves, Sound, and Physical Optics"
+  },
+  {
+   "number": 7,
+   "title": "Modern Physics"
+  }
+ ],
+ "skills": [
+  {
+   "name": "Creating Representations",
+   "description": "Create and use diagrams, tables, graphs, and sketches (free-body diagrams, energy bar charts, motion graphs) that describe a physical situation or relationship."
+  },
+  {
+   "name": "Mathematical Routines",
+   "description": "Derive symbolic expressions from fundamental principles, calculate unknown quantities with units, compare physical quantities, and predict how a quantity changes when another changes (functional dependence)."
+  },
+  {
+   "name": "Scientific Questioning and Argumentation",
+   "description": "Design experimental procedures, choose what to measure and graph, analyze data (especially linearized graphs and slopes), and make and justify claims using physical laws and evidence."
+  }
+ ],
+ "scoring": {
+  "summary": "Section I (multiple choice) and Section II (4 FRQs: Mathematical Routines, Translation Between Representations, Experimental Design and Analysis, Qualitative/Quantitative Translation) are each 50% of the composite, converted to 1–5 using cut points set each year.",
+  "approxCutoffs": [
+   {
+    "score": 5,
+    "minPercent": 70
+   },
+   {
+    "score": 4,
+    "minPercent": 55
+   },
+   {
+    "score": 3,
+    "minPercent": 41
+   },
+   {
+    "score": 2,
+    "minPercent": 27
+   }
+  ]
+ },
+ "frqTypes": [
+  {
+   "name": "Mathematical Routines (MR)",
+   "points": 10,
+   "howScored": "Points for a correct sketch or diagram element, for a multistep derivation that begins from a fundamental principle or reference equation, for correct substitutions, for a correct final expression or value, and for a justified claim. A correct, isolated final expression often earns some but not all derivation points; the 'begin with a fundamental principle' point requires the starting equation to be written."
+  },
+  {
+   "name": "Translation Between Representations (TBR)",
+   "points": 12,
+   "howScored": "Typically four linked parts: draw a representation (free-body diagram or energy bar chart, with only the appropriate forces or energies and correct relative sizes), derive an equation from a principle, sketch a graph whose features (start point, shape, slope sign) are each scored separately, and then justify whether/how the representations are consistent. Later parts are scored for consistency with your own earlier work."
+  },
+  {
+   "name": "Experimental Design and Analysis (LAB)",
+   "points": 10,
+   "howScored": "Procedure points (measure the right quantities with the right equipment; a method to reduce uncertainty such as repeated trials or many values of the independent variable), a point for choosing quantities to graph and a point for relating the slope to the target quantity, graphing points (axis label with units and linear scale, correctly plotted points, best-fit line), and analysis points (slope relation, numerical result within an accepted range)."
+  },
+  {
+   "name": "Qualitative/Quantitative Translation (QQT)",
+   "points": 8,
+   "howScored": "A claim plus a qualitative justification in terms of physical quantities (not just equations), a derivation from Newton's laws or a conservation law, and a final part that checks whether the derived expression is consistent with the qualitative claim using functional-dependence language (proportional, increases as, in the numerator)."
+  }
+ ],
+ "strategy": [
+  "Start every derivation from a fundamental equation on the reference sheet, then substitute; FRQ derivation points require the starting principle.",
+  "For circuits, use Kirchhoff's loop and junction rules explicitly; reason about how adding a branch changes equivalent resistance and current.",
+  "Field vs. potential: field is a vector (direction of force on +q); potential is a scalar (add with signs).",
+  "Draw ray diagrams with at least two principal rays; determine real/virtual and upright/inverted from the diagram and the sign of the image distance.",
+  "For PV diagrams, work done by the gas is the area under the curve; use ΔU = Q + W with W = work done on the gas (the AP convention).",
+  "For induction, find the change in flux first, then use Lenz's law to determine the direction of induced current.",
+  "Justify claims with functional dependence: 'because V is in the numerator', 'as d doubles, E is quartered'.",
+  "In the lab FRQ, choose quantities to graph that make a straight line and relate the slope to the target quantity."
+ ],
+ "pitfalls": [
+  "Using W = work done by the gas in ΔU = Q + W (AP uses work done on the gas).",
+  "Confusing electric potential (scalar, V) with electric potential energy (J) and electric field (vector, N/C).",
+  "Thinking current is 'used up' through a resistor.",
+  "Using the right-hand rule for a negative charge without reversing the direction.",
+  "Forgetting that the magnetic force does no work on a moving charge.",
+  "Mixing up the conditions for constructive and destructive interference in thin films (phase shifts on reflection).",
+  "Treating photon energy as depending on intensity rather than frequency.",
+  "Sign errors for diverging lenses and convex mirrors (negative focal lengths)."
+ ],
+ "referenceSheet": "The Physics 2 reference information (in Bluebook and on paper) includes constants (e, mₑ, k = 1/4πε₀, ε₀, μ₀, h, c, R, k_B, 1 eV), prefixes, trig values, and geometry; equations for fluids and thermodynamics (P = F/A, PV = nRT = Nk_BT, K_avg = (3/2)k_BT, ΔU = Q + W, W = −PΔV, Q/Δt = kAΔT/L), electricity (F = k|q₁q₂|/r², E = F/q, U_E = kq₁q₂/r, V = kq/r, ΔV = −EΔd for uniform fields, C = κε₀A/d, U_C = ½CΔV², I = Δq/Δt, R = ρℓ/A, ΔV = IR, P = IΔV, series and parallel resistor and capacitor rules), magnetism (F = qvB sin θ, F = IℓB sin θ, B = μ₀I/2πr, Φ = BA cos θ, ε = −ΔΦ/Δt, ε = Bℓv), optics and waves (v = fλ, n = c/v, n₁ sin θ₁ = n₂ sin θ₂, 1/s_i + 1/s_o = 1/f, M = h_i/h_o = −s_i/s_o, d sin θ = mλ), and modern physics (E = hf, K_max = hf − φ, λ = h/p, E = mc²). This summary is written from the published sheet, not copied; use the official PDF in practice.",
+ "sources": [
+  {
+   "title": "AP Physics 2 Exam (AP Central)",
+   "url": "https://apcentral.collegeboard.org/courses/ap-physics-2/exam"
+  },
+  {
+   "title": "AP Physics 2 Course and Exam Description",
+   "url": "https://apcentral.collegeboard.org/courses/ap-physics-2/course"
+  }
+ ],
+ "caveats": [
+  "Section timing and question counts follow the same structure as Physics 1; College Board adjusted counts for the 2027 exam, so confirm on AP Central.",
+  "Cutoffs are estimates; College Board does not publish cut scores.",
+  "Unit weightings are omitted here; see the current CED."
+ ]
+}

@@ -1,0 +1,268 @@
+{
+  "number": 1,
+  "title": "Thermodynamics",
+  "guide": {
+    "summary": "Thermodynamics connects the microscopic motion of particles to macroscopic quantities such as pressure and temperature, and tracks energy transfer as heat and work. You must use the ideal gas law, kinetic theory, the first law (ΔU = Q + W with W done on the gas), PV diagrams, thermal conduction, and the second law.",
+    "sections": [
+      {
+        "heading": "Kinetic theory and the ideal gas law",
+        "body": "Gas pressure results from particles colliding with container walls: P = F/A. Temperature (in kelvins) is proportional to the average translational kinetic energy of particles: K_avg = (3/2)k_BT. At the same temperature, all ideal gases have the same average kinetic energy, so lighter particles move faster (v_rms ∝ √(T/m)). Ideal gas law: PV = nRT = Nk_BT. Doubling absolute temperature at constant volume doubles pressure; doubling volume at constant temperature halves pressure."
+      },
+      {
+        "heading": "First law and PV diagrams",
+        "body": "Internal energy U of an ideal gas depends only on temperature. First law (AP convention): ΔU = Q + W, where Q is heat added to the gas and W is work done on the gas, W = −PΔV for constant pressure. On a PV diagram, the area under a curve equals the magnitude of work; expansion means the gas does positive work (W on gas negative). Processes: isobaric (constant P), isochoric/isovolumetric (constant V, W = 0, ΔU = Q), isothermal (constant T, ΔU = 0, Q = −W), adiabatic (Q = 0, ΔU = W). For a closed cycle, ΔU = 0; the net work equals the enclosed area; a clockwise cycle (P vertical, V horizontal) means net work done by the gas is positive and net heat flows in."
+      },
+      {
+        "heading": "Heat transfer and the second law",
+        "body": "Thermal energy transfers by conduction, convection, and radiation, from higher to lower temperature until thermal equilibrium. Rate of conduction: Q/Δt = kAΔT/L, increasing with conductivity, area, and temperature difference and decreasing with thickness. Specific heat: Q = mcΔT. The second law: the entropy of an isolated system never decreases; heat flows spontaneously only from hot to cold, and no heat engine is 100% efficient."
+      }
+    ],
+    "keyTakeaways": [
+      "T (kelvins) ∝ average kinetic energy.",
+      "PV = nRT; use kelvins.",
+      "ΔU = Q + W, W = work on the gas.",
+      "Area under PV curve = |work|.",
+      "Isothermal: ΔU = 0; adiabatic: Q = 0; isochoric: W = 0.",
+      "Cycle: ΔU = 0, net W = enclosed area."
+    ],
+    "commonMistakes": [
+      "Using °C in gas laws.",
+      "Sign errors from using work done by the gas in ΔU = Q + W.",
+      "Saying temperature measures total energy rather than average kinetic energy.",
+      "Thinking adiabatic means constant temperature.",
+      "Forgetting that heat added during an isothermal expansion all becomes work."
+    ],
+    "examTips": [
+      "PV diagram questions: find T at points using PV ∝ T.",
+      "State the sign of Q, W, and ΔU for each process with reasons.",
+      "Microscopic explanations: refer to collision frequency and force per collision.",
+      "Conduction questions test proportional reasoning with k, A, ΔT, L."
+    ],
+    "cramSheet": "**Kinetic:** K_avg = (3/2)k_BT · v_rms ∝ √(T/m)\n\n**Gas:** PV = nRT = Nk_BT · T in K\n\n**First law:** ΔU = Q + W (W on gas = −PΔV)\n\n**Processes:** isobaric · isochoric (W = 0) · isothermal (ΔU = 0) · adiabatic (Q = 0)\n\n**Cycle:** ΔU = 0 · net W = area · clockwise → net work by gas > 0\n\n**Conduction:** Q/Δt = kAΔT/L\n\n**2nd law:** entropy of isolated system ≥ 0 change · heat flows hot → cold"
+  },
+  "vocab": [
+    { "term": "Internal energy", "definition": "The total kinetic and potential energy of particles in a system; for an ideal gas, depends only on temperature." },
+    { "term": "Ideal gas law", "definition": "PV = nRT, relating pressure, volume, amount, and absolute temperature of an ideal gas." },
+    { "term": "Isobaric process", "definition": "A process at constant pressure." },
+    { "term": "Isochoric process", "definition": "A process at constant volume; no work is done." },
+    { "term": "Isothermal process", "definition": "A process at constant temperature; internal energy is constant." },
+    { "term": "Adiabatic process", "definition": "A process with no heat transfer." },
+    { "term": "First law of thermodynamics", "definition": "ΔU = Q + W; energy is conserved for a thermodynamic system." },
+    { "term": "Thermal conductivity", "definition": "A material property describing how well it conducts heat." },
+    { "term": "Thermal equilibrium", "definition": "The state in which objects in contact have the same temperature and no net heat flows." },
+    { "term": "Entropy", "definition": "A measure of the number of microscopic arrangements; never decreases for an isolated system." },
+    { "term": "Root-mean-square speed", "definition": "A measure of typical particle speed in a gas, proportional to √(T/m)." },
+    { "term": "Specific heat", "definition": "Energy needed to raise 1 kg of a substance by 1 K." }
+  ],
+  "practice": [
+    {
+      "id": "u1-q01", "tier": "Intro", "type": "mcq", "topic": "Kinetic Theory of Temperature and Pressure",
+      "stem": "The absolute temperature of an ideal gas is doubled. The average translational kinetic energy of its molecules",
+      "choices": [
+        { "id": "A", "text": "doubles" },
+        { "id": "B", "text": "quadruples" },
+        { "id": "C", "text": "increases by a factor of √2" },
+        { "id": "D", "text": "stays the same" }
+      ],
+      "answer": "A",
+      "explanation": "K_avg = (3/2)k_BT is proportional to T.",
+      "distractors": { "C": "That's the change in rms speed." }
+    },
+    {
+      "id": "u1-q02", "tier": "Intro", "type": "mcq", "topic": "The Ideal Gas Law",
+      "stem": "Two moles of an ideal gas at 300 K occupy 0.050 m³. What is the pressure? (R = 8.31 J/mol·K)",
+      "choices": [
+        { "id": "A", "text": "1.0 × 10³ Pa" },
+        { "id": "B", "text": "1.0 × 10⁵ Pa" },
+        { "id": "C", "text": "2.5 × 10⁴ Pa" },
+        { "id": "D", "text": "5.0 × 10⁵ Pa" }
+      ],
+      "answer": "B",
+      "explanation": "P = nRT/V = (2)(8.31)(300)/0.050 ≈ 1.0 × 10⁵ Pa.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q03", "tier": "Intro", "type": "mcq", "topic": "The First Law of Thermodynamics",
+      "stem": "During an adiabatic compression of an ideal gas, which is true?",
+      "choices": [
+        { "id": "A", "text": "Q = 0, work is done on the gas, and the temperature increases." },
+        { "id": "B", "text": "Q = 0 and the temperature decreases." },
+        { "id": "C", "text": "ΔU = 0." },
+        { "id": "D", "text": "W = 0." }
+      ],
+      "answer": "A",
+      "explanation": "With Q = 0, ΔU = W > 0, so internal energy and temperature rise.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q04", "tier": "Intro", "type": "mcq", "topic": "Thermal Energy Transfer and Equilibrium",
+      "stem": "A metal spoon and a wooden spoon have been sitting in the same room for hours. The metal spoon feels colder to the touch because",
+      "choices": [
+        { "id": "A", "text": "the metal spoon is at a lower temperature" },
+        { "id": "B", "text": "metal has a higher thermal conductivity, so it transfers energy away from your hand faster" },
+        { "id": "C", "text": "wood generates heat" },
+        { "id": "D", "text": "metal has more internal energy" }
+      ],
+      "answer": "B",
+      "explanation": "Both are at room temperature; the metal conducts heat from your skin faster.",
+      "distractors": { "A": "They are in thermal equilibrium with the room." }
+    },
+    {
+      "id": "u1-q05", "tier": "Exam level", "type": "mcq", "topic": "The First Law of Thermodynamics",
+      "stem": "A gas expands at a constant pressure of 2.0 × 10⁵ Pa from 0.010 m³ to 0.030 m³ while 10,000 J of heat is added. What is the change in internal energy?",
+      "choices": [
+        { "id": "A", "text": "+14,000 J" },
+        { "id": "B", "text": "+6,000 J" },
+        { "id": "C", "text": "−6,000 J" },
+        { "id": "D", "text": "+10,000 J" }
+      ],
+      "answer": "B",
+      "explanation": "W on gas = −PΔV = −4,000 J. ΔU = Q + W = 10,000 − 4,000 = 6,000 J.",
+      "distractors": { "A": "Adds the work with the wrong sign." }
+    },
+    {
+      "id": "u1-q06", "tier": "Exam level", "type": "mcq", "topic": "Kinetic Theory of Temperature and Pressure",
+      "stem": "Helium (4 g/mol) and argon (40 g/mol) are in thermal equilibrium. Which statement is correct?",
+      "choices": [
+        { "id": "A", "text": "The atoms have the same average kinetic energy, and helium atoms have a higher rms speed." },
+        { "id": "B", "text": "Argon atoms have greater average kinetic energy." },
+        { "id": "C", "text": "Both have the same rms speed." },
+        { "id": "D", "text": "Helium atoms have 10 times the rms speed of argon atoms." }
+      ],
+      "answer": "A",
+      "explanation": "Same T → same K_avg; v_rms ∝ 1/√m, so helium is √10 ≈ 3.2 times faster.",
+      "distractors": { "D": "Forgets the square root." }
+    },
+    {
+      "id": "u1-q07", "tier": "Exam level", "type": "mcq", "topic": "The First Law of Thermodynamics",
+      "stem": "An ideal gas expands isothermally. Which describes heat and work?",
+      "choices": [
+        { "id": "A", "text": "Heat flows into the gas, equal in magnitude to the work the gas does." },
+        { "id": "B", "text": "Heat flows out of the gas." },
+        { "id": "C", "text": "No heat flows." },
+        { "id": "D", "text": "The internal energy increases." }
+      ],
+      "answer": "A",
+      "explanation": "ΔU = 0, so Q = −W; the gas does work, so heat must enter.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q08", "tier": "Exam level", "type": "mcq", "topic": "Specific Heat and Thermal Conductivity",
+      "stem": "A wall has thermal conductivity 0.80 W/(m·K), area 2.0 m², and thickness 0.10 m. The inside is 20 K warmer than outside. What is the rate of heat conduction?",
+      "choices": [
+        { "id": "A", "text": "32 W" },
+        { "id": "B", "text": "160 W" },
+        { "id": "C", "text": "320 W" },
+        { "id": "D", "text": "3,200 W" }
+      ],
+      "answer": "C",
+      "explanation": "Q/Δt = kAΔT/L = (0.80)(2.0)(20)/0.10 = 320 W.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q09", "tier": "Exam level", "type": "mcq", "topic": "The Ideal Gas Law",
+      "stem": "A sealed rigid container of gas is heated from 27 °C to 327 °C. The pressure",
+      "choices": [
+        { "id": "A", "text": "increases by a factor of about 12" },
+        { "id": "B", "text": "doubles" },
+        { "id": "C", "text": "stays the same" },
+        { "id": "D", "text": "increases by a factor of √2" }
+      ],
+      "answer": "B",
+      "explanation": "300 K → 600 K at constant V doubles P.",
+      "distractors": { "A": "Uses Celsius." }
+    },
+    {
+      "id": "u1-q10", "tier": "Exam level", "type": "mcq", "topic": "Kinetic Theory of Temperature and Pressure",
+      "stem": "At constant temperature, the volume of a gas is halved. From a microscopic perspective, why does pressure double?",
+      "choices": [
+        { "id": "A", "text": "Molecules move faster." },
+        { "id": "B", "text": "Molecules collide with each unit area of wall twice as often, with the same average force per collision." },
+        { "id": "C", "text": "Each collision exerts twice the force." },
+        { "id": "D", "text": "The number of molecules doubles." }
+      ],
+      "answer": "B",
+      "explanation": "Same speeds (same T) but higher number density means more frequent collisions.",
+      "distractors": { "A": "Speed depends on T, which is constant." }
+    },
+    {
+      "id": "u1-q11", "tier": "Hardest", "type": "mcq", "topic": "The First Law of Thermodynamics",
+      "stimulus": "A gas is taken around a closed cycle that traces a clockwise loop on a PV diagram (pressure on the vertical axis), enclosing an area of 500 J.",
+      "stem": "Over one complete cycle, which is correct?",
+      "choices": [
+        { "id": "A", "text": "ΔU = 0; the gas does 500 J of net work; 500 J of net heat flows into the gas." },
+        { "id": "B", "text": "ΔU = 500 J; no heat flows." },
+        { "id": "C", "text": "ΔU = 0; 500 J of net work is done on the gas; 500 J of heat flows out." },
+        { "id": "D", "text": "ΔU = −500 J." }
+      ],
+      "answer": "A",
+      "explanation": "Returning to the initial state gives ΔU = 0. Clockwise means net expansion work by the gas; Q_net = −W_on = 500 J.",
+      "distractors": { "C": "Describes a counterclockwise cycle." }
+    },
+    {
+      "id": "u1-q12", "tier": "Hardest", "type": "mcq", "topic": "The First Law of Thermodynamics",
+      "stem": "A gas goes from state A to state B by two paths. Path 1: isobaric expansion then isochoric pressure drop. Path 2: isochoric pressure drop then isobaric expansion. Which statement is true?",
+      "choices": [
+        { "id": "A", "text": "ΔU is the same for both paths, but the gas does more work along path 1, so more heat is added along path 1." },
+        { "id": "B", "text": "Both paths involve the same work and heat." },
+        { "id": "C", "text": "ΔU is greater for path 1." },
+        { "id": "D", "text": "More work is done along path 2." }
+      ],
+      "answer": "A",
+      "explanation": "U is a state function. Path 1 expands at the higher pressure, so the area under it (work by gas) is larger.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q13", "tier": "Hardest", "type": "mcq", "topic": "Entropy and the Second Law of Thermodynamics",
+      "stem": "A hot block and a cold block are placed in contact inside an insulated box until they reach equilibrium. Which statement is correct?",
+      "choices": [
+        { "id": "A", "text": "The total entropy of the two blocks increases." },
+        { "id": "B", "text": "The total entropy decreases because the system becomes more uniform." },
+        { "id": "C", "text": "The entropy of the hot block increases." },
+        { "id": "D", "text": "Total internal energy increases." }
+      ],
+      "answer": "A",
+      "explanation": "Spontaneous heat flow from hot to cold in an isolated system increases total entropy.",
+      "distractors": { "C": "The hot block loses energy; its entropy decreases (less than the cold block's increase)." }
+    },
+    {
+      "id": "u1-q14", "tier": "Hardest", "type": "mcq", "topic": "The Ideal Gas Law",
+      "stem": "Container X holds gas at pressure P, volume V, temperature T. Container Y holds the same type of gas at pressure 2P, volume V/2, temperature 2T. How does the number of molecules in Y compare with X?",
+      "choices": [
+        { "id": "A", "text": "Y has half as many." },
+        { "id": "B", "text": "Y has the same number." },
+        { "id": "C", "text": "Y has twice as many." },
+        { "id": "D", "text": "Y has four times as many." }
+      ],
+      "answer": "A",
+      "explanation": "N = PV/(k_BT): (2P)(V/2)/(2T) = PV/(2T), half of X's.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-frq1", "tier": "Exam level", "type": "frq", "topic": "The First Law of Thermodynamics", "frqType": "Mathematical Routines (MR)",
+      "prompt": "A sample of ideal gas undergoes a cycle. State A: P = 3.0 × 10⁵ Pa, V = 0.010 m³. The gas expands at constant pressure to state B (V = 0.030 m³), then its pressure drops at constant volume to state C (P = 1.0 × 10⁵ Pa), then it returns to A along a straight line on the PV diagram.",
+      "parts": [
+        { "label": "A", "prompt": "Starting from a fundamental relationship, calculate the work done by the gas from A to B.", "points": 2 },
+        { "label": "B", "prompt": "Determine the ratio T_B/T_A.", "points": 2 },
+        { "label": "C", "prompt": "Identify the state (A, B, or C) with the highest temperature and justify.", "points": 1 },
+        { "label": "D", "prompt": "Calculate the net work done by the gas over one complete cycle, and determine the net heat added to the gas.", "points": 3 },
+        { "label": "E", "prompt": "For process B → C, determine whether heat flows into or out of the gas. Justify using the first law.", "points": 2 }
+      ],
+      "points": 10,
+      "minutes": 22,
+      "rubric": [
+        { "criterion": "A1: Principle", "points": 1, "description": "W_by = PΔV (or W_on = −PΔV) written." },
+        { "criterion": "A2: Answer", "points": 1, "description": "(3.0 × 10⁵)(0.020) = 6,000 J by the gas." },
+        { "criterion": "B1: Ideal gas law", "points": 1, "description": "Uses PV = nRT with n constant, so T ∝ PV." },
+        { "criterion": "B2: Ratio", "points": 1, "description": "T_B/T_A = (3 × 10⁵ × 0.030)/(3 × 10⁵ × 0.010) = 3." },
+        { "criterion": "C", "points": 1, "description": "State B, because PV is largest there (9,000 J vs 3,000 J at A and C)." },
+        { "criterion": "D1: Area", "points": 1, "description": "Net work equals enclosed triangular area." },
+        { "criterion": "D2: Net work", "points": 1, "description": "½(0.020)(2.0 × 10⁵) = 2,000 J by the gas (clockwise cycle)." },
+        { "criterion": "D3: Net heat", "points": 1, "description": "ΔU = 0 for a cycle, so Q_net = 2,000 J into the gas." },
+        { "criterion": "E1: Signs", "points": 1, "description": "W = 0 (constant volume) and T decreases, so ΔU < 0." },
+        { "criterion": "E2: Conclusion", "points": 1, "description": "Q = ΔU < 0: heat flows out of the gas." }
+      ],
+      "sampleResponse": "A. The work done by the gas at constant pressure is W_by = PΔV = (3.0 × 10⁵ Pa)(0.030 − 0.010 m³) = 6,000 J.\n\nB. From PV = nRT with n constant, T is proportional to PV. T_B/T_A = (P_BV_B)/(P_AV_A) = (3.0 × 10⁵)(0.030)/[(3.0 × 10⁵)(0.010)] = 3.\n\nC. State B has the highest temperature, because the product PV is greatest there: 9,000 J compared with 3,000 J at both A and C.\n\nD. The net work over the cycle equals the area enclosed on the PV diagram, a right triangle with base 0.020 m³ and height 2.0 × 10⁵ Pa: ½(0.020)(2.0 × 10⁵) = 2,000 J. Because the cycle is clockwise, this is net work done by the gas. Over a full cycle ΔU = 0, so ΔU = Q + W_on gives Q = −W_on = +2,000 J: 2,000 J of net heat is added to the gas.\n\nE. From B to C the volume is constant, so W = 0. Pressure drops at constant volume, so temperature decreases and ΔU < 0. Since ΔU = Q + W = Q, Q is negative: heat flows out of the gas."
+    }
+  ]
+}

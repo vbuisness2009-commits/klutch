@@ -1,0 +1,267 @@
+{
+  "number": 5,
+  "title": "Geometric Optics",
+  "guide": {
+    "summary": "Geometric optics models light as rays. This unit covers reflection and plane, concave, and convex mirrors; refraction, Snell's law, and total internal reflection; and thin lenses, including ray diagrams, the thin-lens/mirror equation, magnification, and image characteristics.",
+    "sections": [
+      {
+        "heading": "Reflection and mirrors",
+        "body": "Law of reflection: angle of incidence equals angle of reflection, both measured from the normal. A plane mirror forms a virtual, upright image the same size and the same distance behind the mirror. A concave (converging) mirror has a positive focal length f = R/2; it forms real, inverted images for objects beyond f and virtual, upright, magnified images for objects inside f. A convex (diverging) mirror has negative f and always forms virtual, upright, reduced images. Principal rays: parallel to the axis → through (or away from) the focal point; through the focal point → parallel; to the center of the mirror → reflects symmetrically."
+      },
+      {
+        "heading": "Refraction",
+        "body": "Index of refraction n = c/v ≥ 1. Light changes speed and wavelength (not frequency) entering a new medium. Snell's law: n₁ sin θ₁ = n₂ sin θ₂; entering a higher-n medium, light bends toward the normal. Total internal reflection occurs when light travels from higher n to lower n at an angle greater than the critical angle, sin θ_c = n₂/n₁ (fiber optics). Dispersion: n varies slightly with wavelength, separating colors in a prism."
+      },
+      {
+        "heading": "Thin lenses",
+        "body": "Converging (convex) lenses have positive f; diverging (concave) lenses have negative f. Thin-lens equation: 1/s_o + 1/s_i = 1/f. Magnification M = h_i/h_o = −s_i/s_o. Sign conventions: positive s_i means a real image (on the opposite side of a lens, the same side for a mirror), which is inverted (M < 0); negative s_i means a virtual image, upright (M > 0). For converging lenses: object beyond 2f → real, inverted, reduced; between f and 2f → real, inverted, enlarged; at f → no image; inside f → virtual, upright, enlarged (magnifier). Diverging lenses always form virtual, upright, reduced images. A lens's focal length depends on its shape and the index of refraction relative to the surrounding medium; submerging a glass lens in water increases its focal length."
+      }
+    ],
+    "keyTakeaways": [
+      "θ_i = θ_r from the normal.",
+      "n₁ sin θ₁ = n₂ sin θ₂; toward normal in higher n.",
+      "TIR: from higher n to lower n beyond θ_c.",
+      "1/s_o + 1/s_i = 1/f; M = −s_i/s_o.",
+      "Real images inverted; virtual images upright.",
+      "Diverging lenses and convex mirrors: always virtual, upright, smaller."
+    ],
+    "commonMistakes": [
+      "Measuring angles from the surface instead of the normal.",
+      "Thinking frequency changes during refraction.",
+      "Sign errors with diverging lenses (f negative).",
+      "Saying TIR can occur when light enters a denser medium.",
+      "Forgetting that covering half a lens dims the image but doesn't remove half of it."
+    ],
+    "examTips": [
+      "Draw at least two principal rays for every image question.",
+      "State real/virtual, upright/inverted, enlarged/reduced with reasons.",
+      "Snell's law questions often ask for a ratio of speeds or wavelengths.",
+      "Lab FRQs: plot 1/s_i vs. 1/s_o; intercept gives 1/f."
+    ],
+    "cramSheet": "**Reflection:** θ_i = θ_r · plane mirror: virtual, upright, same size\n\n**Mirrors:** concave f > 0 (R/2) · convex f < 0\n\n**Refraction:** n = c/v · n₁ sin θ₁ = n₂ sin θ₂ · f unchanged, λ changes\n\n**TIR:** n₁ > n₂ · sin θ_c = n₂/n₁\n\n**Lenses:** 1/s_o + 1/s_i = 1/f · M = −s_i/s_o · converging f > 0, diverging f < 0\n\n**Images:** s_i > 0 real inverted · s_i < 0 virtual upright\n\n**Converging:** > 2f reduced · f to 2f enlarged · < f virtual magnified"
+  },
+  "vocab": [
+    { "term": "Law of reflection", "definition": "The angle of incidence equals the angle of reflection, measured from the normal." },
+    { "term": "Index of refraction", "definition": "n = c/v, the ratio of light's speed in vacuum to its speed in a medium." },
+    { "term": "Snell's law", "definition": "n₁ sin θ₁ = n₂ sin θ₂ for light crossing a boundary." },
+    { "term": "Critical angle", "definition": "The angle of incidence beyond which total internal reflection occurs: sin θ_c = n₂/n₁." },
+    { "term": "Total internal reflection", "definition": "Complete reflection of light at a boundary when going from higher to lower index beyond the critical angle." },
+    { "term": "Focal length", "definition": "Distance from a lens or mirror to the point where parallel rays converge (or appear to diverge)." },
+    { "term": "Real image", "definition": "An image formed where light rays actually converge; can be projected on a screen." },
+    { "term": "Virtual image", "definition": "An image formed where rays appear to come from; cannot be projected." },
+    { "term": "Magnification", "definition": "M = h_i/h_o = −s_i/s_o." },
+    { "term": "Converging lens", "definition": "A lens thicker in the middle that brings parallel rays to a focus; f > 0." },
+    { "term": "Diverging lens", "definition": "A lens thinner in the middle that spreads parallel rays; f < 0." },
+    { "term": "Dispersion", "definition": "Separation of light into colors because n depends on wavelength." }
+  ],
+  "practice": [
+    {
+      "id": "u5-q01", "tier": "Intro", "type": "mcq", "topic": "Refraction",
+      "stem": "Light travels from air into glass (n = 1.5). Which property of the light stays the same?",
+      "choices": [
+        { "id": "A", "text": "Speed" },
+        { "id": "B", "text": "Wavelength" },
+        { "id": "C", "text": "Frequency" },
+        { "id": "D", "text": "Direction (at nonzero incidence)" }
+      ],
+      "answer": "C",
+      "explanation": "Frequency is set by the source; speed and wavelength decrease.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q02", "tier": "Intro", "type": "mcq", "topic": "Images Formed by Lenses",
+      "stem": "An object is 30 cm from a converging lens with focal length 10 cm. Where is the image?",
+      "choices": [
+        { "id": "A", "text": "15 cm on the opposite side; real and inverted" },
+        { "id": "B", "text": "15 cm on the same side; virtual and upright" },
+        { "id": "C", "text": "7.5 cm on the opposite side" },
+        { "id": "D", "text": "30 cm on the opposite side" }
+      ],
+      "answer": "A",
+      "explanation": "1/s_i = 1/10 − 1/30 = 1/15 → s_i = +15 cm (real, inverted, M = −0.5).",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q03", "tier": "Intro", "type": "mcq", "topic": "Images Formed by Mirrors",
+      "stem": "The image formed by a convex mirror of a real object is always",
+      "choices": [
+        { "id": "A", "text": "real, inverted, and enlarged" },
+        { "id": "B", "text": "virtual, upright, and reduced" },
+        { "id": "C", "text": "virtual, inverted, and enlarged" },
+        { "id": "D", "text": "real, upright, and reduced" }
+      ],
+      "answer": "B",
+      "explanation": "Diverging mirrors spread rays; images appear behind the mirror, small and upright.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q04", "tier": "Intro", "type": "mcq", "topic": "Refraction",
+      "stem": "Light in air hits glass (n = 1.50) at 30° from the normal. What is the angle of refraction?",
+      "choices": [
+        { "id": "A", "text": "19.5°" },
+        { "id": "B", "text": "20.0°" },
+        { "id": "C", "text": "45.0°" },
+        { "id": "D", "text": "48.6°" }
+      ],
+      "answer": "A",
+      "explanation": "sin θ₂ = (1.0)(sin 30°)/1.50 = 0.333 → θ₂ ≈ 19.5°.",
+      "distractors": { "B": "Divides the angle by 1.5." }
+    },
+    {
+      "id": "u5-q05", "tier": "Exam level", "type": "mcq", "topic": "Total Internal Reflection",
+      "stem": "What is the critical angle for light traveling from glass (n = 1.50) into water (n = 1.33)?",
+      "choices": [
+        { "id": "A", "text": "41.8°" },
+        { "id": "B", "text": "48.8°" },
+        { "id": "C", "text": "62.5°" },
+        { "id": "D", "text": "Total internal reflection cannot occur." }
+      ],
+      "answer": "C",
+      "explanation": "sin θ_c = 1.33/1.50 = 0.887 → θ_c ≈ 62.5°.",
+      "distractors": { "A": "Glass-to-air critical angle." }
+    },
+    {
+      "id": "u5-q06", "tier": "Exam level", "type": "mcq", "topic": "Images Formed by Lenses",
+      "stem": "An object is 5.0 cm from a converging lens with f = 10 cm. Which describes the image?",
+      "choices": [
+        { "id": "A", "text": "Real, inverted, at 10 cm" },
+        { "id": "B", "text": "Virtual, upright, magnified 2×, 10 cm on the object's side" },
+        { "id": "C", "text": "Virtual, inverted" },
+        { "id": "D", "text": "No image forms" }
+      ],
+      "answer": "B",
+      "explanation": "1/s_i = 1/10 − 1/5 = −1/10 → s_i = −10 cm; M = −(−10)/5 = +2.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q07", "tier": "Exam level", "type": "mcq", "topic": "Images Formed by Lenses",
+      "stem": "An object is 10 cm from a diverging lens with focal length magnitude 10 cm. What is the magnification?",
+      "choices": [
+        { "id": "A", "text": "+0.5" },
+        { "id": "B", "text": "−0.5" },
+        { "id": "C", "text": "+2.0" },
+        { "id": "D", "text": "Undefined" }
+      ],
+      "answer": "A",
+      "explanation": "1/s_i = −1/10 − 1/10 → s_i = −5 cm; M = −(−5)/10 = +0.5.",
+      "distractors": { "D": "Treats it like a converging lens with the object at f." }
+    },
+    {
+      "id": "u5-q08", "tier": "Exam level", "type": "mcq", "topic": "Refraction",
+      "stem": "What is the speed of light in a material with index of refraction 1.5?",
+      "choices": [
+        { "id": "A", "text": "2.0 × 10⁸ m/s" },
+        { "id": "B", "text": "4.5 × 10⁸ m/s" },
+        { "id": "C", "text": "3.0 × 10⁸ m/s" },
+        { "id": "D", "text": "1.5 × 10⁸ m/s" }
+      ],
+      "answer": "A",
+      "explanation": "v = c/n = 3.0 × 10⁸/1.5.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q09", "tier": "Exam level", "type": "mcq", "topic": "Images Formed by Mirrors",
+      "stem": "An object is placed at the focal point of a concave mirror. Where is the image?",
+      "choices": [
+        { "id": "A", "text": "At the center of curvature" },
+        { "id": "B", "text": "At infinity (no image forms); reflected rays are parallel" },
+        { "id": "C", "text": "At the mirror's surface" },
+        { "id": "D", "text": "Behind the mirror at distance f" }
+      ],
+      "answer": "B",
+      "explanation": "1/s_i = 1/f − 1/f = 0.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q10", "tier": "Exam level", "type": "mcq", "topic": "Images Formed by Lenses",
+      "stem": "The bottom half of a converging lens forming a real image on a screen is covered with black tape. What happens to the image?",
+      "choices": [
+        { "id": "A", "text": "The full image remains but is dimmer." },
+        { "id": "B", "text": "The bottom half of the image disappears." },
+        { "id": "C", "text": "The top half of the image disappears." },
+        { "id": "D", "text": "The image becomes virtual." }
+      ],
+      "answer": "A",
+      "explanation": "Every point of the object still sends rays through the uncovered half; less light reaches each image point.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q11", "tier": "Hardest", "type": "mcq", "topic": "Refraction",
+      "stem": "Light passes from medium 1 into medium 2 and bends away from the normal. Which is true?",
+      "choices": [
+        { "id": "A", "text": "n₁ > n₂, and light's wavelength increases in medium 2." },
+        { "id": "B", "text": "n₁ < n₂, and the wavelength decreases." },
+        { "id": "C", "text": "n₁ > n₂, and frequency increases." },
+        { "id": "D", "text": "n₁ = n₂." }
+      ],
+      "answer": "A",
+      "explanation": "Bending away from the normal means entering a lower-index (faster) medium; λ = v/f increases.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q12", "tier": "Hardest", "type": "mcq", "topic": "Images Formed by Lenses",
+      "stem": "A glass converging lens (n = 1.5) has focal length 20 cm in air. When submerged in water (n = 1.33), its focal length",
+      "choices": [
+        { "id": "A", "text": "increases, because the lens bends light less relative to water" },
+        { "id": "B", "text": "decreases" },
+        { "id": "C", "text": "stays 20 cm" },
+        { "id": "D", "text": "becomes negative" }
+      ],
+      "answer": "A",
+      "explanation": "Refraction depends on the index difference between lens and surroundings; a smaller difference means weaker focusing.",
+      "distractors": { "D": "Only if the surrounding index exceeded the lens's." }
+    },
+    {
+      "id": "u5-q13", "tier": "Hardest", "type": "mcq", "topic": "Images Formed by Lenses",
+      "stem": "As an object moves from far away toward the focal point of a converging lens, the real image",
+      "choices": [
+        { "id": "A", "text": "moves farther from the lens and gets larger" },
+        { "id": "B", "text": "moves closer to the lens and gets smaller" },
+        { "id": "C", "text": "stays at the focal point" },
+        { "id": "D", "text": "becomes virtual immediately" }
+      ],
+      "answer": "A",
+      "explanation": "As s_o decreases toward f, s_i increases toward infinity and |M| = s_i/s_o grows.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q14", "tier": "Hardest", "type": "mcq", "topic": "Total Internal Reflection",
+      "stem": "An optical fiber has a glass core (n = 1.50) surrounded by cladding. To ensure total internal reflection at the core-cladding boundary for the widest range of angles, the cladding should have",
+      "choices": [
+        { "id": "A", "text": "a much lower index than the core" },
+        { "id": "B", "text": "an index slightly greater than 1.50" },
+        { "id": "C", "text": "an index equal to 1.50" },
+        { "id": "D", "text": "any index, because TIR always occurs" }
+      ],
+      "answer": "A",
+      "explanation": "Lower n₂ means smaller critical angle (sin θ_c = n₂/n₁), so more rays exceed it.",
+      "distractors": { "B": "No TIR if n₂ > n₁." }
+    },
+    {
+      "id": "u5-frq1", "tier": "Exam level", "type": "frq", "topic": "Images Formed by Lenses", "frqType": "Mathematical Routines (MR)",
+      "prompt": "A 2.0 cm tall object is placed 18 cm in front of a thin converging lens of focal length 12 cm.",
+      "parts": [
+        { "label": "A", "prompt": "Draw (describe) a ray diagram using at least two principal rays to locate the image.", "points": 2 },
+        { "label": "B", "prompt": "Starting from the thin-lens equation, calculate the image distance.", "points": 2 },
+        { "label": "C", "prompt": "Calculate the image height and state whether the image is upright or inverted.", "points": 2 },
+        { "label": "D", "prompt": "The object is moved to 8.0 cm from the lens. Calculate the new image distance and magnification, and describe the image.", "points": 3 },
+        { "label": "E", "prompt": "Explain why the image in (D) cannot be projected onto a screen.", "points": 1 }
+      ],
+      "points": 10,
+      "minutes": 22,
+      "rubric": [
+        { "criterion": "A1: Rays", "points": 1, "description": "A ray parallel to the axis refracts through the far focal point; a ray through the center continues straight (or a ray through the near focal point exits parallel)." },
+        { "criterion": "A2: Image", "points": 1, "description": "Rays intersect beyond 2f on the far side, below the axis (inverted, enlarged)." },
+        { "criterion": "B1: Equation", "points": 1, "description": "1/s_o + 1/s_i = 1/f written with substitutions." },
+        { "criterion": "B2: Answer", "points": 1, "description": "s_i = +36 cm." },
+        { "criterion": "C1: Magnification", "points": 1, "description": "M = −36/18 = −2; h_i = −4.0 cm." },
+        { "criterion": "C2: Orientation", "points": 1, "description": "Inverted (and real)." },
+        { "criterion": "D1: Distance", "points": 1, "description": "1/s_i = 1/12 − 1/8 → s_i = −24 cm." },
+        { "criterion": "D2: Magnification", "points": 1, "description": "M = −(−24)/8 = +3." },
+        { "criterion": "D3: Description", "points": 1, "description": "Virtual, upright, enlarged (3×), on the same side as the object." },
+        { "criterion": "E", "points": 1, "description": "Light rays only appear to diverge from the virtual image; they don't actually converge there, so no light reaches a screen at that location." }
+      ],
+      "sampleResponse": "A. A ray from the top of the object traveling parallel to the axis refracts through the focal point on the far side. A second ray through the center of the lens continues undeflected. These rays cross on the far side of the lens, farther than 24 cm away and below the axis, forming an inverted, enlarged image.\n\nB. 1/s_o + 1/s_i = 1/f → 1/18 + 1/s_i = 1/12 → 1/s_i = 1/12 − 1/18 = 1/36 → s_i = +36 cm.\n\nC. M = −s_i/s_o = −36/18 = −2. h_i = M h_o = (−2)(2.0 cm) = −4.0 cm. The image is 4.0 cm tall and inverted.\n\nD. 1/s_i = 1/12 − 1/8 = −1/24 → s_i = −24 cm. M = −(−24)/8 = +3. The image is virtual, upright, three times as tall as the object (6.0 cm), and located 24 cm from the lens on the same side as the object.\n\nE. The image is virtual: the refracted rays diverge after the lens and only appear to come from a point on the object's side. No light actually converges at the image location, so it cannot form on a screen."
+    }
+  ]
+}

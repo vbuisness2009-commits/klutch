@@ -1,0 +1,270 @@
+{
+  "number": 7,
+  "title": "Modern Physics",
+  "guide": {
+    "summary": "Modern physics covers phenomena classical physics can't explain: light as photons (photoelectric effect), quantized atomic energy levels and spectra, the wave nature of matter (de Broglie), mass-energy equivalence, and nuclear decay, half-life, fission, and fusion.",
+    "sections": [
+      {
+        "heading": "Photons and the photoelectric effect",
+        "body": "Light comes in quanta (photons) with energy E = hf = hc/λ (hc ≈ 1240 eV·nm). In the photoelectric effect, light ejects electrons from a metal only if each photon's energy exceeds the work function φ: K_max = hf − φ. Below the threshold frequency f₀ = φ/h, no electrons are emitted regardless of intensity. Increasing intensity increases the number of photoelectrons (current) but not their maximum kinetic energy; increasing frequency increases K_max. The stopping potential satisfies eV_stop = K_max. A graph of K_max (or V_stop) vs. f is linear with slope h (or h/e) and horizontal intercept f₀."
+      },
+      {
+        "heading": "Atomic energy levels and spectra",
+        "body": "Electrons in atoms occupy discrete energy levels (negative values relative to ionization at 0). When an electron drops from a higher to a lower level, it emits a photon with energy equal to the difference: hf = E_high − E_low; absorption requires a photon of exactly that energy. Each element has a unique line spectrum. Larger energy gaps correspond to higher-frequency, shorter-wavelength photons. The number of possible emission lines from level n down to the ground state is n(n − 1)/2."
+      },
+      {
+        "heading": "Wave-particle duality",
+        "body": "Particles have a de Broglie wavelength λ = h/p = h/(mv). Electron diffraction confirms matter waves. Heavier or faster particles have shorter wavelengths, which is why wave effects are noticeable only for tiny particles. Light shows both wave behavior (interference) and particle behavior (photoelectric effect)."
+      },
+      {
+        "heading": "Nuclear physics",
+        "body": "Mass-energy equivalence: E = mc² (1 u ≈ 931 MeV). The mass of a nucleus is less than the sum of its nucleons; this mass defect corresponds to binding energy. Fission splits heavy nuclei and fusion combines light nuclei; both release energy because products have greater binding energy per nucleon. Decays conserve charge and nucleon number: alpha decay emits ⁴₂He (A − 4, Z − 2); beta-minus decay converts a neutron into a proton, emitting an electron and antineutrino (Z + 1); beta-plus emits a positron (Z − 1); gamma decay emits a high-energy photon with no change in A or Z. Radioactive decay is random; after n half-lives, (½)ⁿ of the original nuclei remain."
+      }
+    ],
+    "keyTakeaways": [
+      "E = hf = hc/λ; hc ≈ 1240 eV·nm.",
+      "K_max = hf − φ; intensity changes number, not energy.",
+      "Photon energy = difference between atomic levels.",
+      "λ = h/p for matter waves.",
+      "Decays conserve charge and nucleon number.",
+      "(½)ⁿ remains after n half-lives."
+    ],
+    "commonMistakes": [
+      "Claiming brighter light below threshold ejects electrons.",
+      "Using wavelength in meters with hc in eV·nm.",
+      "Treating energy levels as positive values.",
+      "Forgetting that beta-minus decay increases the atomic number.",
+      "Thinking a single nucleus decays at a predictable time."
+    ],
+    "examTips": [
+      "Photoelectric graphs: slope = h (or h/e), intercept = threshold frequency.",
+      "Energy-level diagrams: compute differences, then convert to λ.",
+      "Balance nuclear equations by checking top (A) and bottom (Z) numbers.",
+      "Lab FRQs may graph stopping voltage vs. frequency."
+    ],
+    "cramSheet": "**Photon:** E = hf = hc/λ · 1240 eV·nm\n\n**Photoelectric:** K_max = hf − φ · eV_stop = K_max · f₀ = φ/h · intensity → number\n\n**Atoms:** hf = E_high − E_low · line spectra\n\n**Matter waves:** λ = h/mv\n\n**Nuclear:** E = mc² · 1 u = 931 MeV · α (−4, −2) · β⁻ (0, +1) · β⁺ (0, −1) · γ (0, 0)\n\n**Half-life:** (½)ⁿ"
+  },
+  "vocab": [
+    { "term": "Photon", "definition": "A quantum of electromagnetic energy with E = hf." },
+    { "term": "Work function", "definition": "The minimum energy needed to remove an electron from a metal surface." },
+    { "term": "Threshold frequency", "definition": "The minimum frequency of light that can eject electrons from a given metal." },
+    { "term": "Stopping potential", "definition": "The potential difference needed to stop the most energetic photoelectrons: eV = K_max." },
+    { "term": "Energy level", "definition": "A discrete allowed energy for an electron in an atom." },
+    { "term": "Emission spectrum", "definition": "The set of specific wavelengths emitted by an element's atoms." },
+    { "term": "de Broglie wavelength", "definition": "The wavelength associated with a moving particle: λ = h/p." },
+    { "term": "Mass defect", "definition": "The difference between the mass of separated nucleons and the mass of the nucleus." },
+    { "term": "Binding energy", "definition": "The energy needed to separate a nucleus into its nucleons." },
+    { "term": "Alpha decay", "definition": "Emission of a helium-4 nucleus, reducing A by 4 and Z by 2." },
+    { "term": "Beta-minus decay", "definition": "A neutron becomes a proton, emitting an electron and an antineutrino; Z increases by 1." },
+    { "term": "Half-life", "definition": "The time for half of a radioactive sample's nuclei to decay." }
+  ],
+  "practice": [
+    {
+      "id": "u7-q01", "tier": "Intro", "type": "mcq", "topic": "Photons",
+      "stem": "What is the energy of a photon of wavelength 400 nm? (hc ≈ 1240 eV·nm)",
+      "choices": [
+        { "id": "A", "text": "0.32 eV" },
+        { "id": "B", "text": "3.1 eV" },
+        { "id": "C", "text": "31 eV" },
+        { "id": "D", "text": "496 eV" }
+      ],
+      "answer": "B",
+      "explanation": "1240/400 = 3.1 eV.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q02", "tier": "Intro", "type": "mcq", "topic": "The Photoelectric Effect",
+      "stem": "Light below a metal's threshold frequency shines on it. If the intensity is doubled, then",
+      "choices": [
+        { "id": "A", "text": "twice as many electrons are emitted" },
+        { "id": "B", "text": "electrons are emitted with twice the energy" },
+        { "id": "C", "text": "no electrons are emitted" },
+        { "id": "D", "text": "electrons are emitted after a delay" }
+      ],
+      "answer": "C",
+      "explanation": "Each photon lacks enough energy; more photons don't help.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q03", "tier": "Intro", "type": "mcq", "topic": "Nuclear Decay",
+      "stem": "In beta-minus decay, the daughter nucleus has",
+      "choices": [
+        { "id": "A", "text": "the same mass number and an atomic number one higher" },
+        { "id": "B", "text": "mass number 4 lower and atomic number 2 lower" },
+        { "id": "C", "text": "the same mass number and an atomic number one lower" },
+        { "id": "D", "text": "no change in A or Z" }
+      ],
+      "answer": "A",
+      "explanation": "A neutron becomes a proton.",
+      "distractors": { "B": "Alpha decay.", "C": "Beta-plus.", "D": "Gamma." }
+    },
+    {
+      "id": "u7-q04", "tier": "Intro", "type": "mcq", "topic": "Nuclear Decay",
+      "stem": "A radioactive sample has a half-life of 5 days. What fraction remains after 15 days?",
+      "choices": [
+        { "id": "A", "text": "1/3" },
+        { "id": "B", "text": "1/4" },
+        { "id": "C", "text": "1/8" },
+        { "id": "D", "text": "1/15" }
+      ],
+      "answer": "C",
+      "explanation": "3 half-lives: (½)³ = 1/8.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q05", "tier": "Exam level", "type": "mcq", "topic": "The Photoelectric Effect",
+      "stem": "Light of wavelength 400 nm strikes a metal with work function 2.3 eV. What is the stopping potential?",
+      "choices": [
+        { "id": "A", "text": "0.8 V" },
+        { "id": "B", "text": "2.3 V" },
+        { "id": "C", "text": "3.1 V" },
+        { "id": "D", "text": "5.4 V" }
+      ],
+      "answer": "A",
+      "explanation": "K_max = 3.1 − 2.3 = 0.8 eV; V_stop = 0.8 V.",
+      "distractors": { "D": "Adds the work function." }
+    },
+    {
+      "id": "u7-q06", "tier": "Exam level", "type": "mcq", "topic": "Atomic Energy Levels",
+      "stem": "Hydrogen energy levels are −13.6 eV (n = 1), −3.40 eV (n = 2), and −1.51 eV (n = 3). What wavelength is emitted in a transition from n = 3 to n = 2?",
+      "choices": [
+        { "id": "A", "text": "102 nm" },
+        { "id": "B", "text": "122 nm" },
+        { "id": "C", "text": "365 nm" },
+        { "id": "D", "text": "656 nm" }
+      ],
+      "answer": "D",
+      "explanation": "ΔE = 1.89 eV; λ = 1240/1.89 ≈ 656 nm.",
+      "distractors": { "A": "3 → 1 transition.", "B": "2 → 1 transition." }
+    },
+    {
+      "id": "u7-q07", "tier": "Exam level", "type": "mcq", "topic": "Wave-Particle Duality",
+      "stem": "What is the de Broglie wavelength of an electron (m = 9.11 × 10⁻³¹ kg) moving at 1.0 × 10⁶ m/s? (h = 6.63 × 10⁻³⁴ J·s)",
+      "choices": [
+        { "id": "A", "text": "7.3 × 10⁻¹⁰ m" },
+        { "id": "B", "text": "7.3 × 10⁻⁷ m" },
+        { "id": "C", "text": "1.4 × 10⁹ m" },
+        { "id": "D", "text": "6.0 × 10⁻²⁸ m" }
+      ],
+      "answer": "A",
+      "explanation": "λ = h/(mv) = 6.63 × 10⁻³⁴/(9.11 × 10⁻²⁵) ≈ 7.3 × 10⁻¹⁰ m.",
+      "distractors": { "C": "Inverts the ratio." }
+    },
+    {
+      "id": "u7-q08", "tier": "Exam level", "type": "mcq", "topic": "Nuclear Decay",
+      "stem": "Uranium-238 (Z = 92) undergoes alpha decay. What is the daughter nucleus?",
+      "choices": [
+        { "id": "A", "text": "Thorium-234 (Z = 90)" },
+        { "id": "B", "text": "Protactinium-238 (Z = 91)" },
+        { "id": "C", "text": "Neptunium-238 (Z = 93)" },
+        { "id": "D", "text": "Thorium-236 (Z = 90)" }
+      ],
+      "answer": "A",
+      "explanation": "A − 4 = 234, Z − 2 = 90.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q09", "tier": "Exam level", "type": "mcq", "topic": "The Photoelectric Effect",
+      "stem": "A graph of the maximum kinetic energy of photoelectrons vs. light frequency for a metal is a straight line. Its slope equals",
+      "choices": [
+        { "id": "A", "text": "Planck's constant" },
+        { "id": "B", "text": "the work function" },
+        { "id": "C", "text": "the threshold frequency" },
+        { "id": "D", "text": "the speed of light" }
+      ],
+      "answer": "A",
+      "explanation": "K_max = hf − φ: slope h, vertical intercept −φ, horizontal intercept f₀.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q10", "tier": "Exam level", "type": "mcq", "topic": "Mass-Energy Equivalence",
+      "stem": "In a nuclear reaction, 0.0010 u of mass is converted to energy. About how much energy is released? (1 u = 931 MeV/c²)",
+      "choices": [
+        { "id": "A", "text": "0.93 MeV" },
+        { "id": "B", "text": "9.3 MeV" },
+        { "id": "C", "text": "931 MeV" },
+        { "id": "D", "text": "0.093 MeV" }
+      ],
+      "answer": "A",
+      "explanation": "0.0010 × 931 ≈ 0.93 MeV.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q11", "tier": "Hardest", "type": "mcq", "topic": "Atomic Energy Levels",
+      "stem": "Atoms in a gas are excited to the n = 4 level. How many distinct emission lines are possible as they return to the ground state by any combination of transitions?",
+      "choices": [
+        { "id": "A", "text": "3" },
+        { "id": "B", "text": "4" },
+        { "id": "C", "text": "6" },
+        { "id": "D", "text": "10" }
+      ],
+      "answer": "C",
+      "explanation": "Pairs among 4 levels: 4 × 3/2 = 6.",
+      "distractors": { "A": "Counts only direct transitions to lower adjacent levels." }
+    },
+    {
+      "id": "u7-q12", "tier": "Hardest", "type": "mcq", "topic": "Wave-Particle Duality",
+      "stem": "A proton and an electron have the same de Broglie wavelength. Which is true?",
+      "choices": [
+        { "id": "A", "text": "They have the same momentum, so the electron moves much faster." },
+        { "id": "B", "text": "They have the same speed." },
+        { "id": "C", "text": "They have the same kinetic energy." },
+        { "id": "D", "text": "The proton moves faster." }
+      ],
+      "answer": "A",
+      "explanation": "λ = h/p; equal λ means equal p. The lighter electron needs a higher speed (and has more kinetic energy).",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q13", "tier": "Hardest", "type": "mcq", "topic": "The Photoelectric Effect",
+      "stem": "Light of fixed frequency above threshold shines on a metal. The intensity is doubled. Which graph change is correct?",
+      "choices": [
+        { "id": "A", "text": "The photocurrent doubles; the stopping potential is unchanged." },
+        { "id": "B", "text": "The stopping potential doubles; the current is unchanged." },
+        { "id": "C", "text": "Both double." },
+        { "id": "D", "text": "Neither changes." }
+      ],
+      "answer": "A",
+      "explanation": "More photons eject more electrons, each with the same maximum energy.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q14", "tier": "Hardest", "type": "mcq", "topic": "Mass-Energy Equivalence",
+      "stem": "Why does fusion of light nuclei (like hydrogen into helium) release energy?",
+      "choices": [
+        { "id": "A", "text": "The product nucleus has greater binding energy per nucleon, so total mass decreases and the difference is released as energy." },
+        { "id": "B", "text": "The product has more mass than the reactants." },
+        { "id": "C", "text": "Electrons are destroyed." },
+        { "id": "D", "text": "Fusion splits heavy nuclei." }
+      ],
+      "answer": "A",
+      "explanation": "Binding energy per nucleon increases from hydrogen up to iron.",
+      "distractors": { "D": "That's fission." }
+    },
+    {
+      "id": "u7-frq1", "tier": "Exam level", "type": "frq", "topic": "The Photoelectric Effect", "frqType": "Experimental Design and Analysis (LAB)",
+      "prompt": "Students shine light of several frequencies on a metal plate in a vacuum tube and measure the stopping potential for each frequency.\n\n| Frequency (× 10¹⁴ Hz) | 6.0 | 7.0 | 8.0 | 9.0 | 10.0 |\n|---|---|---|---|---|---|\n| Stopping potential (V) | 0.18 | 0.60 | 1.01 | 1.43 | 1.84 |",
+      "parts": [
+        { "label": "A", "prompt": "Describe how the students could vary the frequency of light and measure the stopping potential, including one way to reduce uncertainty.", "points": 2 },
+        { "label": "B", "prompt": "Describe a graph of stopping potential vs. frequency, including axis labels and a best-fit line.", "points": 3 },
+        { "label": "C", "prompt": "Use your graph to determine a value for Planck's constant. (e = 1.6 × 10⁻¹⁹ C)", "points": 3 },
+        { "label": "D", "prompt": "Use your graph to determine the work function of the metal, in eV.", "points": 2 }
+      ],
+      "points": 10,
+      "minutes": 22,
+      "rubric": [
+        { "criterion": "A1: Method", "points": 1, "description": "Use filters, LEDs, or a monochromator to select frequencies; increase reverse voltage until the photocurrent just reaches zero and record that voltage." },
+        { "criterion": "A2: Uncertainty", "points": 1, "description": "Repeat measurements and average; use many frequencies; shield from stray light." },
+        { "criterion": "B1: Axes", "points": 1, "description": "Stopping potential (V) vs. frequency (Hz) with labels, units, linear scales." },
+        { "criterion": "B2: Points", "points": 1, "description": "Five points plotted correctly." },
+        { "criterion": "B3: Best fit", "points": 1, "description": "Straight best-fit line." },
+        { "criterion": "C1: Slope", "points": 1, "description": "Slope ≈ (1.84 − 0.18)/(4.0 × 10¹⁴) ≈ 4.15 × 10⁻¹⁵ V·s." },
+        { "criterion": "C2: Relation", "points": 1, "description": "eV_stop = hf − φ, so slope = h/e." },
+        { "criterion": "C3: Result", "points": 1, "description": "h = (4.15 × 10⁻¹⁵)(1.6 × 10⁻¹⁹) ≈ 6.6 × 10⁻³⁴ J·s." },
+        { "criterion": "D1: Intercept", "points": 1, "description": "Extend line: V-intercept ≈ −2.3 V (or threshold f₀ ≈ 5.6 × 10¹⁴ Hz)." },
+        { "criterion": "D2: Work function", "points": 1, "description": "φ ≈ 2.3 eV." }
+      ],
+      "sampleResponse": "A. Use a set of LEDs or color filters to produce light of known frequencies. For each frequency, apply a reverse voltage between the plate and the collector and increase it until the photocurrent measured by a sensitive ammeter just drops to zero; that voltage is the stopping potential. Repeat each measurement several times and average, and cover the apparatus to block stray light.\n\nB. Plot stopping potential (V) on the vertical axis and frequency (× 10¹⁴ Hz) on the horizontal axis with linear scales. The points lie on a straight line; draw a best-fit line through them.\n\nC. Slope ≈ (1.84 V − 0.18 V)/(10.0 − 6.0) × 10¹⁴ Hz = 1.66/(4.0 × 10¹⁴) ≈ 4.15 × 10⁻¹⁵ V·s. From eV_stop = hf − φ, V_stop = (h/e)f − φ/e, so slope = h/e. h = (4.15 × 10⁻¹⁵)(1.6 × 10⁻¹⁹) ≈ 6.6 × 10⁻³⁴ J·s.\n\nD. Extending the line to f = 0 gives a vertical intercept of about −2.3 V, so φ/e ≈ 2.3 V and the work function is about 2.3 eV. (Equivalently, the threshold frequency is about 5.6 × 10¹⁴ Hz, and φ = hf₀ ≈ 2.3 eV.)"
+    }
+  ]
+}

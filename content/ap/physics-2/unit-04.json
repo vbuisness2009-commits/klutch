@@ -1,0 +1,263 @@
+{
+  "number": 4,
+  "title": "Magnetism and Electromagnetic Induction",
+  "guide": {
+    "summary": "This unit covers magnetic fields from magnets and currents, the magnetic force on moving charges and current-carrying wires, circular motion of charged particles, forces between parallel currents, magnetic flux, Faraday's law, Lenz's law, and motional emf. Right-hand rules and Lenz's law direction questions are heavily tested.",
+    "sections": [
+      {
+        "heading": "Magnetic fields and forces",
+        "body": "Magnetic fields point from north to south outside a magnet and form closed loops; magnetic dipoles always come in pairs. A long straight current produces circular field lines around it with B = μ₀I/(2πr) (right-hand rule: thumb along current, fingers curl along B). Force on a moving charge: F = |q|vB sin θ, perpendicular to both v and B (right-hand rule; reverse for negative charges). The magnetic force does no work, so it changes direction but not speed. A charge moving perpendicular to a uniform field moves in a circle: qvB = mv²/r → r = mv/(|q|B). Force on a wire: F = IℓB sin θ. Parallel wires with currents in the same direction attract; opposite directions repel."
+      },
+      {
+        "heading": "Magnetic flux and Faraday's law",
+        "body": "Magnetic flux Φ_B = BA cos θ, where θ is the angle between B and the area's normal. A changing flux through a loop induces an emf: ε = −N ΔΦ/Δt (Faraday's law). Flux can change because B changes, the area changes, or the orientation changes. Induced current I = ε/R."
+      },
+      {
+        "heading": "Lenz's law and motional emf",
+        "body": "Lenz's law: the induced current flows in the direction that creates a magnetic field opposing the change in flux (if flux into the page increases, the induced field points out of the page). This is a consequence of energy conservation. A conducting rod of length ℓ moving at speed v perpendicular to B has motional emf ε = Bℓv. If the rod is part of a circuit with resistance R, current I = Bℓv/R flows, and the magnetic force on the rod (IℓB = B²ℓ²v/R) opposes its motion; an external force must do work to keep it moving, and that work becomes thermal energy in the resistor."
+      }
+    ],
+    "keyTakeaways": [
+      "F = qvB sin θ; magnetic force does no work.",
+      "Circular motion: r = mv/(qB).",
+      "Long wire: B = μ₀I/(2πr), circular field lines.",
+      "Same-direction currents attract.",
+      "ε = −NΔΦ/Δt; Lenz's law opposes the change.",
+      "Motional emf ε = Bℓv; retarding force B²ℓ²v/R."
+    ],
+    "commonMistakes": [
+      "Forgetting to reverse the right-hand rule for electrons.",
+      "Saying a magnetic field can speed up a charge.",
+      "Claiming induced current opposes the field itself rather than the change in flux.",
+      "Using θ between B and the plane instead of the normal for flux.",
+      "Thinking a constant, unchanging flux induces an emf."
+    ],
+    "examTips": [
+      "Direction questions: write out the right-hand rule steps and check against Lenz's law.",
+      "For loops entering/exiting a field, identify when flux is changing (only while entering or leaving).",
+      "Derivations: combine ε = Bℓv, I = ε/R, F = IℓB.",
+      "Graph questions: emf is proportional to the slope of the flux-vs-time graph."
+    ],
+    "cramSheet": "**Force:** F = qvB sin θ · ⟂ v and B · no work · F = IℓB sin θ\n\n**Circle:** r = mv/(qB)\n\n**Wire field:** B = μ₀I/(2πr) · same direction attract\n\n**Flux:** Φ = BA cos θ\n\n**Faraday:** ε = −NΔΦ/Δt · I = ε/R\n\n**Lenz:** oppose the change\n\n**Motional:** ε = Bℓv · F_mag = B²ℓ²v/R opposes motion"
+  },
+  "vocab": [
+    { "term": "Magnetic field", "definition": "A vector field produced by moving charges or magnetic materials; measured in tesla." },
+    { "term": "Right-hand rule", "definition": "A method to find the direction of magnetic forces or fields from currents and velocities." },
+    { "term": "Magnetic force on a charge", "definition": "F = qvB sin θ, perpendicular to both velocity and field." },
+    { "term": "Magnetic flux", "definition": "Φ_B = BA cos θ, the amount of magnetic field passing through an area." },
+    { "term": "Faraday's law", "definition": "A changing magnetic flux induces an emf: ε = −NΔΦ/Δt." },
+    { "term": "Lenz's law", "definition": "The induced current produces a field that opposes the change in flux." },
+    { "term": "Motional emf", "definition": "The emf induced in a conductor moving through a magnetic field: ε = Bℓv." },
+    { "term": "Magnetic permeability of free space (μ₀)", "definition": "4π × 10⁻⁷ T·m/A, a constant in magnetic field equations." },
+    { "term": "Solenoid", "definition": "A coil of wire that produces a nearly uniform field inside when carrying current." },
+    { "term": "Magnetic dipole", "definition": "A pair of north and south poles; magnetic poles always occur in pairs." },
+    { "term": "Induced current", "definition": "Current produced in a conductor by a changing magnetic flux." },
+    { "term": "Generator", "definition": "A device that converts mechanical energy to electrical energy using electromagnetic induction." }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01", "tier": "Intro", "type": "mcq", "topic": "Magnetic Forces",
+      "stem": "A proton moves at 2.0 × 10⁶ m/s perpendicular to a 0.50 T magnetic field. What is the magnitude of the magnetic force on it?",
+      "choices": [
+        { "id": "A", "text": "1.6 × 10⁻¹³ N" },
+        { "id": "B", "text": "3.2 × 10⁻¹³ N" },
+        { "id": "C", "text": "6.4 × 10⁻¹³ N" },
+        { "id": "D", "text": "0 N" }
+      ],
+      "answer": "A",
+      "explanation": "F = qvB = (1.6 × 10⁻¹⁹)(2.0 × 10⁶)(0.50) = 1.6 × 10⁻¹³ N.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q02", "tier": "Intro", "type": "mcq", "topic": "Magnetic Forces",
+      "stem": "A charged particle moves in a uniform magnetic field. Which quantity does the magnetic force never change?",
+      "choices": [
+        { "id": "A", "text": "The particle's direction" },
+        { "id": "B", "text": "The particle's speed" },
+        { "id": "C", "text": "The particle's velocity" },
+        { "id": "D", "text": "The particle's momentum vector" }
+      ],
+      "answer": "B",
+      "explanation": "The force is perpendicular to velocity, so it does no work.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q03", "tier": "Intro", "type": "mcq", "topic": "Magnetic Fields of Current-Carrying Wires",
+      "stem": "Two long parallel wires carry currents in the same direction. The wires",
+      "choices": [
+        { "id": "A", "text": "attract each other" },
+        { "id": "B", "text": "repel each other" },
+        { "id": "C", "text": "exert no force on each other" },
+        { "id": "D", "text": "twist perpendicular" }
+      ],
+      "answer": "A",
+      "explanation": "Each wire's field exerts a force on the other's current toward it.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q04", "tier": "Intro", "type": "mcq", "topic": "Electromagnetic Induction",
+      "stem": "A loop of wire sits at rest in a strong, constant magnetic field. The induced current in the loop is",
+      "choices": [
+        { "id": "A", "text": "large, because the field is strong" },
+        { "id": "B", "text": "zero, because the flux isn't changing" },
+        { "id": "C", "text": "alternating" },
+        { "id": "D", "text": "equal to B/R" }
+      ],
+      "answer": "B",
+      "explanation": "Only a changing flux induces an emf.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q05", "tier": "Exam level", "type": "mcq", "topic": "Magnetic Fields of Current-Carrying Wires",
+      "stem": "A long straight wire carries 10 A. What is the magnetic field magnitude 5.0 cm from the wire? (μ₀ = 4π × 10⁻⁷ T·m/A)",
+      "choices": [
+        { "id": "A", "text": "4.0 × 10⁻⁵ T" },
+        { "id": "B", "text": "2.0 × 10⁻⁶ T" },
+        { "id": "C", "text": "1.3 × 10⁻⁴ T" },
+        { "id": "D", "text": "4.0 × 10⁻³ T" }
+      ],
+      "answer": "A",
+      "explanation": "B = μ₀I/(2πr) = (2 × 10⁻⁷)(10)/0.050 = 4.0 × 10⁻⁵ T.",
+      "distractors": { "D": "Uses r in cm." }
+    },
+    {
+      "id": "u4-q06", "tier": "Exam level", "type": "mcq", "topic": "Magnetic Forces",
+      "stem": "An electron moves to the right (+x) through a magnetic field pointing into the page. The magnetic force on the electron is directed",
+      "choices": [
+        { "id": "A", "text": "toward the top of the page (+y)" },
+        { "id": "B", "text": "toward the bottom of the page (−y)" },
+        { "id": "C", "text": "out of the page" },
+        { "id": "D", "text": "to the left" }
+      ],
+      "answer": "B",
+      "explanation": "For a positive charge, v (+x) × B (into page) gives +y; reverse for the electron: −y.",
+      "distractors": { "A": "Correct for a proton." }
+    },
+    {
+      "id": "u4-q07", "tier": "Exam level", "type": "mcq", "topic": "Magnetic Forces",
+      "stem": "A proton and an alpha particle (twice the charge, four times the mass) enter the same uniform magnetic field perpendicular to it at the same speed. The ratio of the alpha particle's path radius to the proton's is",
+      "choices": [
+        { "id": "A", "text": "1/2" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "2" },
+        { "id": "D", "text": "4" }
+      ],
+      "answer": "C",
+      "explanation": "r = mv/(qB): (4m)/(2q) = 2 times the proton's radius.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q08", "tier": "Exam level", "type": "mcq", "topic": "Electromagnetic Induction",
+      "stem": "A 100-turn coil of area 0.020 m² is perpendicular to a 0.50 T field. The field drops to zero in 0.10 s. What is the average induced emf?",
+      "choices": [
+        { "id": "A", "text": "0.10 V" },
+        { "id": "B", "text": "1.0 V" },
+        { "id": "C", "text": "10 V" },
+        { "id": "D", "text": "100 V" }
+      ],
+      "answer": "C",
+      "explanation": "ε = NΔ(BA)/Δt = 100(0.50)(0.020)/0.10 = 10 V.",
+      "distractors": { "A": "Omits N." }
+    },
+    {
+      "id": "u4-q09", "tier": "Exam level", "type": "mcq", "topic": "Electromagnetic Induction",
+      "stem": "The north pole of a bar magnet is pushed toward a loop of wire lying in the plane of the page, from the viewer's side. As seen by the viewer, the induced current in the loop is",
+      "choices": [
+        { "id": "A", "text": "counterclockwise" },
+        { "id": "B", "text": "clockwise" },
+        { "id": "C", "text": "zero" },
+        { "id": "D", "text": "alternating" }
+      ],
+      "answer": "A",
+      "explanation": "Flux into the page (away from viewer) increases; induced field points toward the viewer (out of page): counterclockwise.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q10", "tier": "Exam level", "type": "mcq", "topic": "Electromagnetic Induction",
+      "stem": "A metal rod 0.50 m long moves at 3.0 m/s on rails perpendicular to a 0.40 T field. The circuit has resistance 2.0 Ω. What current flows?",
+      "choices": [
+        { "id": "A", "text": "0.30 A" },
+        { "id": "B", "text": "0.60 A" },
+        { "id": "C", "text": "1.2 A" },
+        { "id": "D", "text": "3.0 A" }
+      ],
+      "answer": "A",
+      "explanation": "ε = Bℓv = 0.60 V; I = 0.60/2.0 = 0.30 A.",
+      "distractors": { "B": "The emf in volts." }
+    },
+    {
+      "id": "u4-q11", "tier": "Hardest", "type": "mcq", "topic": "Electromagnetic Induction",
+      "stem": "A square loop moves at constant velocity from a field-free region, through a region of uniform field, and out the other side. The region is wider than the loop. When is a current induced?",
+      "choices": [
+        { "id": "A", "text": "Only while the loop is entering and while it is leaving the field region, in opposite directions" },
+        { "id": "B", "text": "Throughout the time the loop is inside the field" },
+        { "id": "C", "text": "Only while it is entering" },
+        { "id": "D", "text": "Never, because velocity is constant" }
+      ],
+      "answer": "A",
+      "explanation": "Flux increases on entry and decreases on exit; it's constant when fully inside.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q12", "tier": "Hardest", "type": "mcq", "topic": "Electromagnetic Induction",
+      "stem": "In the rod-on-rails setup (B = 0.40 T, ℓ = 0.50 m, v = 3.0 m/s, R = 2.0 Ω), what external force keeps the rod moving at constant speed, and what power does it supply?",
+      "choices": [
+        { "id": "A", "text": "0.060 N; 0.18 W" },
+        { "id": "B", "text": "0.12 N; 0.36 W" },
+        { "id": "C", "text": "0.060 N; 0.060 W" },
+        { "id": "D", "text": "0 N; 0 W" }
+      ],
+      "answer": "A",
+      "explanation": "F = IℓB = (0.30)(0.50)(0.40) = 0.060 N; P = Fv = 0.18 W = I²R.",
+      "distractors": { "D": "Ignores the magnetic retarding force." }
+    },
+    {
+      "id": "u4-q13", "tier": "Hardest", "type": "mcq", "topic": "Magnetic Forces",
+      "stem": "A charged particle passes undeflected through a region with a uniform electric field E pointing down and a uniform magnetic field B into the page. What must be true?",
+      "choices": [
+        { "id": "A", "text": "Its speed is v = E/B, independent of its charge." },
+        { "id": "B", "text": "Its speed is v = B/E." },
+        { "id": "C", "text": "It must be positive." },
+        { "id": "D", "text": "It must be at rest." }
+      ],
+      "answer": "A",
+      "explanation": "qE = qvB → v = E/B; the forces reverse together for a negative charge.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q14", "tier": "Hardest", "type": "mcq", "topic": "Electromagnetic Induction",
+      "stem": "A graph shows magnetic flux through a coil increasing linearly from 0 to 0.06 Wb over 0.2 s, staying constant for 0.3 s, then decreasing linearly to 0 in 0.1 s. Which describes the induced emf magnitude?",
+      "choices": [
+        { "id": "A", "text": "0.3 V, then 0, then 0.6 V (opposite sign)" },
+        { "id": "B", "text": "0.06 V throughout" },
+        { "id": "C", "text": "0.3 V throughout" },
+        { "id": "D", "text": "Largest when flux is largest" }
+      ],
+      "answer": "A",
+      "explanation": "emf = slope of Φ vs t: 0.06/0.2 = 0.3 V; 0; 0.06/0.1 = 0.6 V with opposite sign.",
+      "distractors": { "D": "Confuses flux with rate of change." }
+    },
+    {
+      "id": "u4-frq1", "tier": "Exam level", "type": "frq", "topic": "Electromagnetic Induction", "frqType": "Qualitative/Quantitative Translation (QQT)",
+      "prompt": "A conducting rod of length ℓ slides without friction along two horizontal rails connected by a resistor of resistance R. A uniform magnetic field B points vertically. An external force pulls the rod at constant speed v.",
+      "parts": [
+        { "label": "A", "prompt": "The resistor is replaced with one of resistance 2R, and the rod is pulled at the same speed v. A student claims the external force needed is now smaller. Without equations, explain whether the claim is correct.", "points": 3 },
+        { "label": "B", "prompt": "Derive an expression for the magnitude of the external force F needed to keep the rod moving at speed v, in terms of B, ℓ, v, and R.", "points": 3 },
+        { "label": "C", "prompt": "Explain how your expression in (B) supports or contradicts your reasoning in (A).", "points": 2 }
+      ],
+      "points": 8,
+      "minutes": 15,
+      "rubric": [
+        { "criterion": "A1: Claim", "points": 1, "description": "The claim is correct: less force is needed." },
+        { "criterion": "A2: Same emf", "points": 1, "description": "The induced emf depends on B, ℓ, and v, which are unchanged." },
+        { "criterion": "A3: Less current, less force", "points": 1, "description": "Greater resistance means less induced current, so the magnetic force opposing the rod's motion is smaller; at constant speed the external force balances it." },
+        { "criterion": "B1: emf and current", "points": 1, "description": "ε = Bℓv and I = Bℓv/R." },
+        { "criterion": "B2: Magnetic force", "points": 1, "description": "F_B = IℓB." },
+        { "criterion": "B3: Result", "points": 1, "description": "Constant velocity → F = F_B = B²ℓ²v/R." },
+        { "criterion": "C1: Functional dependence", "points": 1, "description": "R is in the denominator, so doubling R halves F." },
+        { "criterion": "C2: Consistency", "points": 1, "description": "This agrees with the qualitative argument that more resistance gives less current and less opposing force." }
+      ],
+      "sampleResponse": "A. The claim is correct. The emf induced in the rod depends only on the field, the rod's length, and its speed, which haven't changed. With a larger resistance, that same emf drives a smaller current. The magnetic force on the rod that opposes its motion depends on the current, so it is smaller. Because the rod moves at constant speed, the external force must balance this smaller magnetic force, so less external force is needed.\n\nB. The motional emf is ε = Bℓv, so the current is I = ε/R = Bℓv/R. The magnetic force on the current-carrying rod is F_B = IℓB = (Bℓv/R)ℓB = B²ℓ²v/R. At constant velocity the net force is zero, so F = B²ℓ²v/R.\n\nC. In F = B²ℓ²v/R, the resistance is in the denominator, so doubling R to 2R halves the required force. This supports my reasoning in (A): a larger resistance reduces the current and therefore the opposing magnetic force."
+    }
+  ]
+}

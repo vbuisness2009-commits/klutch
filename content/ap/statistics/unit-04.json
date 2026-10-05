@@ -1,0 +1,594 @@
+{
+  "number": 4,
+  "title": "Probability, Random Variables, and Probability Distributions",
+  "guide": {
+    "summary": "Unit 4 builds the probability tools behind inference: simulation, basic probability rules, conditional probability and independence, discrete random variables (mean and standard deviation), combining and transforming random variables, and the binomial and geometric distributions.",
+    "sections": [
+      {
+        "heading": "Probability rules",
+        "body": "Probability is the long-run relative frequency of an outcome. Simulation estimates probabilities by modeling a chance process many times; a complete description states how random digits or numbers represent outcomes, how many are taken per trial, whether repeats are allowed, and what is recorded. Complement rule: P(Aᶜ) = 1 − P(A). Addition rule: P(A or B) = P(A) + P(B) − P(A and B); for mutually exclusive events, P(A and B) = 0. Conditional probability: P(A | B) = P(A and B)/P(B). Events are independent if P(A | B) = P(A); then P(A and B) = P(A)·P(B). Mutually exclusive events with nonzero probabilities can never be independent. Tree diagrams organize multistage problems, including 'reverse' conditional probabilities such as P(disease | positive test)."
+      },
+      {
+        "heading": "Discrete random variables",
+        "body": "A probability distribution lists the values of X and their probabilities, which sum to 1. Mean (expected value): μ_X = Σx·P(x), the long-run average. Standard deviation: σ_X = √Σ(x − μ)²P(x). Interpret the mean as a long-run average over many repetitions, not a value expected on a single trial."
+      },
+      {
+        "heading": "Transforming and combining",
+        "body": "For Y = a + bX: μ_Y = a + bμ_X and σ_Y = |b|σ_X. For sums and differences: μ_{X±Y} = μ_X ± μ_Y always. If X and Y are independent, variances add: σ²_{X±Y} = σ²_X + σ²_Y (even for differences). For the total of n independent observations of X, σ = √n·σ_X, which differs from multiplying one observation by n (σ = n·σ_X). If X and Y are Normal and independent, X ± Y is Normal."
+      },
+      {
+        "heading": "Binomial and geometric distributions",
+        "body": "Binomial setting (BINS): Binary outcomes, Independent trials, fixed Number of trials n, Same probability p. P(X = k) = C(n,k)pᵏ(1 − p)ⁿ⁻ᵏ; μ = np, σ = √(np(1 − p)). Use binompdf for exactly k and binomcdf for at most k; 'at least one' = 1 − P(none). When sampling without replacement, treat trials as independent if n ≤ 10% of the population. Geometric setting counts trials until the first success: P(X = k) = (1 − p)ᵏ⁻¹p, μ = 1/p, σ = √(1 − p)/p."
+      }
+    ],
+    "keyTakeaways": [
+      "P(A | B) = P(A and B)/P(B).",
+      "Independent: P(A | B) = P(A).",
+      "Means always add; variances add only for independent variables.",
+      "Y = a + bX: mean a + bμ, SD |b|σ.",
+      "Binomial: fixed n; geometric: trials until first success.",
+      "'At least one' = 1 − P(none)."
+    ],
+    "commonMistakes": [
+      "Subtracting variances for X − Y.",
+      "Treating mutually exclusive as independent.",
+      "Adding standard deviations instead of variances.",
+      "Using binomial when the number of trials isn't fixed.",
+      "Confusing P(A | B) with P(B | A)."
+    ],
+    "examTips": [
+      "Define random variables in words and name the distribution with parameters (e.g., 'X ~ Binomial, n = 10, p = 0.3').",
+      "Show the formula or label calculator inputs for every probability.",
+      "Tree diagrams earn credit on conditional-probability FRQs.",
+      "For combining random variables, state that independence is needed for the SD."
+    ],
+    "cramSheet": "**Rules:** P(Aᶜ) = 1 − P(A) · P(A∪B) = P(A) + P(B) − P(A∩B) · P(A|B) = P(A∩B)/P(B)\n\n**Independent:** P(A|B) = P(A) · P(A∩B) = P(A)P(B)\n\n**RV:** μ = Σxp · σ = √Σ(x − μ)²p\n\n**Transform:** a + bX → μ: a + bμ · σ: |b|σ\n\n**Combine:** μ add/subtract · σ² add (independent)\n\n**Binomial:** BINS · C(n,k)pᵏqⁿ⁻ᵏ · np · √(npq)\n\n**Geometric:** qᵏ⁻¹p · 1/p · √q/p"
+  },
+  "vocab": [
+    {
+      "term": "Sample space",
+      "definition": "The set of all possible outcomes of a chance process."
+    },
+    {
+      "term": "Mutually exclusive",
+      "definition": "Events that cannot occur at the same time."
+    },
+    {
+      "term": "Independent events",
+      "definition": "Events for which knowing one occurred does not change the probability of the other."
+    },
+    {
+      "term": "Conditional probability",
+      "definition": "The probability of one event given that another has occurred."
+    },
+    {
+      "term": "Random variable",
+      "definition": "A variable whose numerical value is determined by a chance process."
+    },
+    {
+      "term": "Expected value",
+      "definition": "The long-run average value of a random variable over many repetitions."
+    },
+    {
+      "term": "Probability distribution",
+      "definition": "A list or rule giving the possible values of a random variable and their probabilities."
+    },
+    {
+      "term": "Binomial distribution",
+      "definition": "The distribution of the number of successes in n independent trials with the same success probability."
+    },
+    {
+      "term": "Geometric distribution",
+      "definition": "The distribution of the number of trials needed to get the first success."
+    },
+    {
+      "term": "10% condition",
+      "definition": "When sampling without replacement, trials can be treated as independent if the sample is at most 10% of the population."
+    },
+    {
+      "term": "Simulation",
+      "definition": "Imitating a chance process to estimate probabilities."
+    },
+    {
+      "term": "Law of large numbers",
+      "definition": "As the number of trials increases, the relative frequency approaches the true probability."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.6 Independent Events and Unions of Events",
+      "skill": "3. Using Probability and Simulation",
+      "stem": "P(A) = 0.5, P(B) = 0.4, and P(A and B) = 0.2. What is P(A or B)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.2"
+        },
+        {
+          "id": "B",
+          "text": "0.7"
+        },
+        {
+          "id": "C",
+          "text": "0.9"
+        },
+        {
+          "id": "D",
+          "text": "1.1"
+        }
+      ],
+      "answer": "B",
+      "explanation": "0.5 + 0.4 − 0.2 = 0.7.",
+      "distractors": {
+        "C": "Forgets to subtract the overlap."
+      }
+    },
+    {
+      "id": "u4-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.8 Mean and Standard Deviation of Random Variables",
+      "skill": "3. Using Probability and Simulation",
+      "stimulus": "| x | 0 | 1 | 2 | 3 |\n|---|---|---|---|---|\n| P(x) | 0.1 | 0.3 | 0.4 | 0.2 |",
+      "stem": "What is the expected value of X?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.5"
+        },
+        {
+          "id": "B",
+          "text": "1.7"
+        },
+        {
+          "id": "C",
+          "text": "2.0"
+        },
+        {
+          "id": "D",
+          "text": "0.25"
+        }
+      ],
+      "answer": "B",
+      "explanation": "0(0.1) + 1(0.3) + 2(0.4) + 3(0.2) = 1.7.",
+      "distractors": {
+        "A": "Unweighted average of the values."
+      }
+    },
+    {
+      "id": "u4-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.12 The Geometric Distribution",
+      "skill": "3. Using Probability and Simulation",
+      "stem": "A basketball player makes 20% of her half-court shots, independently. What is the probability her first make occurs on her third attempt?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.008"
+        },
+        {
+          "id": "B",
+          "text": "0.128"
+        },
+        {
+          "id": "C",
+          "text": "0.200"
+        },
+        {
+          "id": "D",
+          "text": "0.488"
+        }
+      ],
+      "answer": "B",
+      "explanation": "(0.8)²(0.2) = 0.128.",
+      "distractors": {
+        "D": "P(first make within 3 attempts)."
+      }
+    },
+    {
+      "id": "u4-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.4 Mutually Exclusive Events",
+      "skill": "3. Using Probability and Simulation",
+      "stem": "Events A and B are mutually exclusive, with P(A) = 0.3 and P(B) = 0.5. Which is true?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A and B are independent."
+        },
+        {
+          "id": "B",
+          "text": "P(A and B) = 0.15."
+        },
+        {
+          "id": "C",
+          "text": "A and B are not independent, because P(A | B) = 0 ≠ P(A)."
+        },
+        {
+          "id": "D",
+          "text": "P(A or B) = 0.65."
+        }
+      ],
+      "answer": "C",
+      "explanation": "If B occurs, A cannot, so knowing B changes A's probability to 0.",
+      "distractors": {
+        "B": "Would be true only if independent."
+      }
+    },
+    {
+      "id": "u4-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.10 Introduction to the Binomial Distribution",
+      "skill": "3. Using Probability and Simulation",
+      "stem": "About 30% of customers at a store use a coupon. In a random sample of 10 customers, what is the probability that exactly 3 use a coupon?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.027"
+        },
+        {
+          "id": "B",
+          "text": "0.267"
+        },
+        {
+          "id": "C",
+          "text": "0.300"
+        },
+        {
+          "id": "D",
+          "text": "0.650"
+        }
+      ],
+      "answer": "B",
+      "explanation": "C(10,3)(0.3)³(0.7)⁷ = 120(0.027)(0.0824) ≈ 0.267.",
+      "distractors": {
+        "A": "Omits the other factors.",
+        "D": "P(X ≤ 3)."
+      }
+    },
+    {
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.9 Combining Random Variables",
+      "skill": "3. Using Probability and Simulation",
+      "stem": "X has mean 10 and SD 3; Y has mean 6 and SD 4; X and Y are independent. What are the mean and SD of X − Y?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Mean 4, SD 1"
+        },
+        {
+          "id": "B",
+          "text": "Mean 4, SD 5"
+        },
+        {
+          "id": "C",
+          "text": "Mean 16, SD 5"
+        },
+        {
+          "id": "D",
+          "text": "Mean 4, SD 7"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Mean: 10 − 6 = 4. Variances add: 9 + 16 = 25 → SD 5.",
+      "distractors": {
+        "A": "Subtracts SDs.",
+        "D": "Adds SDs."
+      }
+    },
+    {
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.5 Conditional Probability",
+      "skill": "3. Using Probability and Simulation",
+      "stimulus": "| | Owns a pet | No pet | Total |\n|---|---|---|---|\n| Apartment | 60 | 140 | 200 |\n| House | 180 | 120 | 300 |\n| Total | 240 | 260 | 500 |",
+      "stem": "For a randomly chosen resident, are owning a pet and living in a house independent?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Yes, because both events have probabilities between 0 and 1"
+        },
+        {
+          "id": "B",
+          "text": "No, because P(pet | house) = 0.60 is not equal to P(pet) = 0.48"
+        },
+        {
+          "id": "C",
+          "text": "Yes, because P(pet and house) = 0.36"
+        },
+        {
+          "id": "D",
+          "text": "No, because the events are mutually exclusive"
+        }
+      ],
+      "answer": "B",
+      "explanation": "180/300 = 0.60 vs. 240/500 = 0.48.",
+      "distractors": {
+        "D": "180 people are in both."
+      }
+    },
+    {
+      "id": "u4-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.8 Mean and Standard Deviation of Random Variables",
+      "skill": "3. Using Probability and Simulation",
+      "stem": "The number of defects X on a circuit board has mean 1.7 and SD 0.9. Each defect costs $3 to repair, plus a fixed $2 inspection fee. What are the mean and SD of the total cost?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Mean $7.10, SD $2.70"
+        },
+        {
+          "id": "B",
+          "text": "Mean $7.10, SD $4.70"
+        },
+        {
+          "id": "C",
+          "text": "Mean $5.10, SD $2.70"
+        },
+        {
+          "id": "D",
+          "text": "Mean $7.10, SD $0.90"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Cost = 2 + 3X: mean 2 + 3(1.7) = 7.10; SD 3(0.9) = 2.70.",
+      "distractors": {
+        "B": "Adds the fixed fee to the SD."
+      }
+    },
+    {
+      "id": "u4-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.11 Parameters for a Binomial Distribution",
+      "skill": "3. Using Probability and Simulation",
+      "stem": "A quiz has 10 independent multiple-choice questions with 4 options each. A student guesses on every question. What is the probability of getting at least one correct?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.056"
+        },
+        {
+          "id": "B",
+          "text": "0.250"
+        },
+        {
+          "id": "C",
+          "text": "0.944"
+        },
+        {
+          "id": "D",
+          "text": "0.750"
+        }
+      ],
+      "answer": "C",
+      "explanation": "1 − (0.75)¹⁰ ≈ 1 − 0.056 = 0.944.",
+      "distractors": {
+        "A": "P(none correct)."
+      }
+    },
+    {
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.2 Estimating Probabilities Using Simulation",
+      "skill": "3. Using Probability and Simulation",
+      "stem": "To simulate whether a 70% free-throw shooter makes a shot, a student uses random digits 0–9. Which assignment is correct?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Digits 0–6 represent a make; 7–9 represent a miss."
+        },
+        {
+          "id": "B",
+          "text": "Digits 0–7 represent a make; 8–9 represent a miss."
+        },
+        {
+          "id": "C",
+          "text": "Digit 7 represents a make; all others a miss."
+        },
+        {
+          "id": "D",
+          "text": "Digits 1–7 represent a make; 0, 8, 9 represent a miss."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Seven of ten equally likely digits (0–6) gives probability 0.7.",
+      "distractors": {
+        "B": "Eight digits: probability 0.8."
+      }
+    },
+    {
+      "id": "u4-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.5 Conditional Probability",
+      "skill": "3. Using Probability and Simulation",
+      "stem": "A disease affects 1% of a population. A test is positive for 95% of people with the disease and for 5% of people without it. If a randomly selected person tests positive, what is the probability they have the disease?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.95"
+        },
+        {
+          "id": "B",
+          "text": "0.50"
+        },
+        {
+          "id": "C",
+          "text": "0.16"
+        },
+        {
+          "id": "D",
+          "text": "0.01"
+        }
+      ],
+      "answer": "C",
+      "explanation": "P(+ and D) = 0.0095; P(+ and no D) = 0.99 × 0.05 = 0.0495. P(D | +) = 0.0095/0.059 ≈ 0.16.",
+      "distractors": {
+        "A": "Confuses P(+ | D) with P(D | +)."
+      }
+    },
+    {
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.9 Combining Random Variables",
+      "skill": "3. Using Probability and Simulation",
+      "stem": "Bags of flour have weights that are Normal with mean 500 g and SD 10 g, independently. A box holds 4 bags. What is the probability that a box's total flour weight is less than 1,970 g?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.0013"
+        },
+        {
+          "id": "B",
+          "text": "0.0668"
+        },
+        {
+          "id": "C",
+          "text": "0.1587"
+        },
+        {
+          "id": "D",
+          "text": "0.2266"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Total: mean 2,000, SD √4 × 10 = 20. z = (1,970 − 2,000)/20 = −1.5; P ≈ 0.0668.",
+      "distractors": {
+        "A": "Uses the SD of one bag (10 g): z = −3.",
+        "D": "Uses SD 4 × 10 = 40 g: z = −0.75."
+      }
+    },
+    {
+      "id": "u4-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.10 Introduction to the Binomial Distribution",
+      "skill": "1. Selecting Statistical Methods",
+      "stem": "Which situation is best modeled by a binomial distribution?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The number of cards drawn from a standard deck until an ace appears"
+        },
+        {
+          "id": "B",
+          "text": "The number of hearts in 5 cards dealt from a standard 52-card deck without replacement"
+        },
+        {
+          "id": "C",
+          "text": "The number of left-handed people in a random sample of 50 from a city of 300,000, where 10% are left-handed"
+        },
+        {
+          "id": "D",
+          "text": "The total weight of 10 randomly chosen apples"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Fixed n = 50, success/failure, p ≈ 0.10, and 50 is far less than 10% of the city, so trials are approximately independent.",
+      "distractors": {
+        "B": "5 cards is about 10% of a 52-card deck, and drawing without replacement noticeably changes p from card to card.",
+        "A": "No fixed number of trials (geometric-type setting)."
+      }
+    },
+    {
+      "id": "u4-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.8 Mean and Standard Deviation of Random Variables",
+      "skill": "4. Statistical Argumentation",
+      "stem": "A raffle ticket costs $5. One ticket in 1,000 wins $2,000, and 10 tickets in 1,000 win $100. Which statement about the buyer's net gain is correct?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The expected net gain is −$2.00, so over many tickets a buyer loses about $2 per ticket on average."
+        },
+        {
+          "id": "B",
+          "text": "The expected net gain is $3.00."
+        },
+        {
+          "id": "C",
+          "text": "The expected net gain is −$5.00, because most tickets lose."
+        },
+        {
+          "id": "D",
+          "text": "Each buyer will lose exactly $2.00."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Expected winnings = 2,000(0.001) + 100(0.010) = $3.00; net = 3 − 5 = −$2.00, a long-run average.",
+      "distractors": {
+        "D": "Expected value describes the long-run average, not each outcome."
+      }
+    },
+    {
+      "id": "u4-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "4.8 Mean and Standard Deviation of Random Variables",
+      "frqType": "Short FRQ (Q1–Q5)",
+      "prompt": "At a school fair, a game costs $2 to play. The player rolls a fair six-sided die. A 6 wins $5, a 4 or 5 wins $1, and 1, 2, or 3 wins nothing. Let X = the player's net gain (winnings minus the $2 cost).",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Construct the probability distribution of X.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Calculate and interpret the expected value of X.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "A player plays 3 games. Calculate the probability of rolling at least one 6.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Let G = the number of games until the player first rolls a 6. Identify the distribution of G and calculate P(G ≤ 4).",
+          "points": 1
+        }
+      ],
+      "points": 4,
+      "minutes": 13,
+      "rubric": [
+        {
+          "criterion": "a: Distribution",
+          "points": 1,
+          "description": "X = 3, −1, −2 with probabilities 1/6, 2/6, 3/6."
+        },
+        {
+          "criterion": "b: Expected value",
+          "points": 1,
+          "description": "E(X) = 3(1/6) − 1(2/6) − 2(3/6) = −5/6 ≈ −$0.83; over many games, a player loses about $0.83 per game on average."
+        },
+        {
+          "criterion": "c: At least one",
+          "points": 1,
+          "description": "1 − (5/6)³ ≈ 0.421."
+        },
+        {
+          "criterion": "d: Geometric",
+          "points": 1,
+          "description": "Geometric with p = 1/6; P(G ≤ 4) = 1 − (5/6)⁴ ≈ 0.518."
+        }
+      ],
+      "sampleResponse": "(a)\n\n| X (net gain, $) | 3 | −1 | −2 |\n|---|---|---|---|\n| P(X) | 1/6 | 2/6 | 3/6 |\n\n(b) E(X) = 3(1/6) + (−1)(2/6) + (−2)(3/6) = (3 − 2 − 6)/6 = −5/6 ≈ −$0.83. If a player plays this game many, many times, the player's net gain will average about −$0.83 per game; that is, they will lose about 83 cents per game in the long run.\n\n(c) Rolls are independent with P(6) = 1/6. P(at least one 6) = 1 − P(no 6 in 3 games) = 1 − (5/6)³ ≈ 0.421.\n\n(d) G follows a geometric distribution with p = 1/6. P(G ≤ 4) = 1 − P(no 6 in the first 4 games) = 1 − (5/6)⁴ ≈ 0.518."
+    }
+  ]
+}

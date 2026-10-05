@@ -1,0 +1,266 @@
+{
+  "number": 2,
+  "title": "Exploring Two-Variable Data",
+  "guide": {
+    "summary": "Unit 2 covers relationships between two variables: two-way tables and conditional distributions for categorical data, and scatterplots, correlation, least-squares regression, residuals, r², influential points, and transformations for quantitative data. Interpretation in context is the core skill.",
+    "sections": [
+      {
+        "heading": "Two categorical variables",
+        "body": "Two-way tables show counts for combinations of two categorical variables. Marginal distributions give totals for one variable; conditional distributions give proportions within one category of the other variable (e.g., the proportion of seniors who prefer online classes). Two variables are associated if the conditional distributions differ meaningfully across categories. Segmented and side-by-side bar charts display conditional distributions."
+      },
+      {
+        "heading": "Scatterplots and correlation",
+        "body": "Describe a scatterplot with direction (positive/negative), form (linear/curved), strength, and unusual features, in context. The correlation r measures the strength and direction of a linear relationship only, ranges from −1 to 1, has no units, and is unchanged by changing units or switching x and y. r is not resistant: outliers can strengthen or weaken it. Correlation does not imply causation."
+      },
+      {
+        "heading": "Least-squares regression",
+        "body": "The LSRL ŷ = a + bx minimizes the sum of squared residuals. b = r(s_y/s_x) and a = ȳ − b·x̄, so the line passes through (x̄, ȳ). Interpret the slope: 'For each additional 1 [x unit], the predicted [y] increases/decreases by b [y units].' Interpret the y-intercept only if x = 0 is meaningful and within the data. Residual = actual − predicted (y − ŷ); positive residuals mean the model underestimates. Extrapolating beyond the range of x is unreliable. r² is the proportion of variation in y explained by the linear model with x; s (residual standard deviation) is the typical prediction error."
+      },
+      {
+        "heading": "Residual plots, influence, and transformations",
+        "body": "A residual plot with no pattern supports a linear model; a curved pattern means a linear model is not appropriate; a fan shape means unequal variability. Outliers in x (high leverage) can be influential, substantially changing the slope, intercept, or r when removed. When data are curved, transform: if log(y) vs. x is linear, the relationship is exponential; if log(y) vs. log(x) is linear, it is a power model. Back-transform predictions (e.g., ŷ = 10^(predicted log y))."
+      }
+    ],
+    "keyTakeaways": [
+      "Association: compare conditional distributions.",
+      "Describe scatterplots: direction, form, strength, unusual features.",
+      "b = r·s_y/s_x; the LSRL passes through (x̄, ȳ).",
+      "Residual = actual − predicted.",
+      "r² = % of variation in y explained by the model.",
+      "Curved residual plot → linear model inappropriate."
+    ],
+    "commonMistakes": [
+      "Interpreting slope as an actual (not predicted) change.",
+      "Saying r measures any relationship, including curved ones.",
+      "Computing residuals as predicted − actual.",
+      "Using marginal instead of conditional proportions to judge association.",
+      "Forgetting to back-transform after a log transformation."
+    ],
+    "examTips": [
+      "Computer regression output is common: identify the slope (coefficient of x), intercept (constant), s, and R-sq.",
+      "Always include 'predicted' or 'on average' in slope interpretations.",
+      "For influential-point questions, consider how the point pulls the line.",
+      "Two-way table questions often ask for a conditional probability with a specific denominator."
+    ],
+    "cramSheet": "**Two-way:** conditional = within a category · association if conditionals differ\n\n**Scatter:** direction, form, strength, unusual · in context\n\n**r:** −1 to 1 · linear only · unitless · not resistant\n\n**LSRL:** ŷ = a + bx · b = r·s_y/s_x · a = ȳ − b·x̄\n\n**Slope:** for each 1 unit ↑ x, predicted y changes by b\n\n**Residual:** y − ŷ · + means underestimate\n\n**r²:** % of variation in y explained by x · **s:** typical error\n\n**Transform:** log y vs x → exponential · log y vs log x → power"
+  },
+  "vocab": [
+    { "term": "Conditional distribution", "definition": "The distribution of one variable among individuals with a specific value of another variable." },
+    { "term": "Marginal distribution", "definition": "The distribution of one variable alone, from the totals of a two-way table." },
+    { "term": "Explanatory variable", "definition": "A variable that may help predict or explain changes in a response variable." },
+    { "term": "Correlation (r)", "definition": "A measure of the direction and strength of a linear relationship between two quantitative variables." },
+    { "term": "Least-squares regression line", "definition": "The line that minimizes the sum of squared residuals." },
+    { "term": "Residual", "definition": "Actual y minus predicted y." },
+    { "term": "Coefficient of determination (r²)", "definition": "The proportion of variation in the response explained by the linear model." },
+    { "term": "Residual standard deviation (s)", "definition": "The typical distance between actual and predicted values." },
+    { "term": "Extrapolation", "definition": "Using a model to predict outside the range of observed x-values." },
+    { "term": "High-leverage point", "definition": "A point with an x-value far from the mean of x." },
+    { "term": "Influential point", "definition": "A point whose removal substantially changes the regression line." },
+    { "term": "Residual plot", "definition": "A plot of residuals against x (or ŷ), used to assess whether a linear model fits." }
+  ],
+  "practice": [
+    {
+      "id": "u2-q01", "tier": "Intro", "type": "mcq", "topic": "2.5 Correlation", "skill": "2. Data Analysis",
+      "stem": "Which statement about the correlation coefficient r is true?",
+      "choices": [
+        { "id": "A", "text": "r changes if height is measured in centimeters instead of inches." },
+        { "id": "B", "text": "r measures the strength of any relationship, linear or curved." },
+        { "id": "C", "text": "r is unchanged if the explanatory and response variables are switched." },
+        { "id": "D", "text": "r = 0.9 means 90% of points lie on the line." }
+      ],
+      "answer": "C",
+      "explanation": "r is symmetric in x and y and has no units.",
+      "distractors": { "B": "r measures linear association only." }
+    },
+    {
+      "id": "u2-q02", "tier": "Intro", "type": "mcq", "topic": "2.7 Residuals", "skill": "2. Data Analysis",
+      "stem": "A model predicts that a house will sell for $310,000, but it sells for $295,000. What is the residual?",
+      "choices": [
+        { "id": "A", "text": "−$15,000" },
+        { "id": "B", "text": "$15,000" },
+        { "id": "C", "text": "$295,000" },
+        { "id": "D", "text": "−$310,000" }
+      ],
+      "answer": "A",
+      "explanation": "Residual = actual − predicted = 295,000 − 310,000 = −15,000. The model overestimated.",
+      "distractors": { "B": "Predicted − actual." }
+    },
+    {
+      "id": "u2-q03", "tier": "Intro", "type": "mcq", "topic": "2.3 Statistics for Two Categorical Variables", "skill": "2. Data Analysis",
+      "stimulus": "| | Prefers online | Prefers in-person | Total |\n|---|---|---|---|\n| Juniors | 45 | 105 | 150 |\n| Seniors | 80 | 70 | 150 |\n| Total | 125 | 175 | 300 |",
+      "stem": "What proportion of seniors prefer online classes?",
+      "choices": [
+        { "id": "A", "text": "0.27" },
+        { "id": "B", "text": "0.42" },
+        { "id": "C", "text": "0.53" },
+        { "id": "D", "text": "0.64" }
+      ],
+      "answer": "C",
+      "explanation": "80/150 ≈ 0.53.",
+      "distractors": { "D": "80/125: proportion of online-preferrers who are seniors.", "A": "80/300." }
+    },
+    {
+      "id": "u2-q04", "tier": "Intro", "type": "mcq", "topic": "2.9 Analyzing Departures from Linearity", "skill": "2. Data Analysis",
+      "stem": "A residual plot for a linear model shows a clear U-shaped curve. What does this indicate?",
+      "choices": [
+        { "id": "A", "text": "The linear model is appropriate." },
+        { "id": "B", "text": "A nonlinear model would better describe the relationship." },
+        { "id": "C", "text": "The correlation is close to 1." },
+        { "id": "D", "text": "There are no outliers." }
+      ],
+      "answer": "B",
+      "explanation": "Systematic patterns in residuals mean the linear form misses curvature.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q05", "tier": "Exam level", "type": "mcq", "topic": "2.8 Least Squares Regression", "skill": "2. Data Analysis",
+      "stem": "For a set of data, x̄ = 5, s_x = 2, ȳ = 40, s_y = 10, and r = 0.8. What is the equation of the least-squares regression line?",
+      "choices": [
+        { "id": "A", "text": "ŷ = 20 + 4x" },
+        { "id": "B", "text": "ŷ = 36 + 0.8x" },
+        { "id": "C", "text": "ŷ = 40 + 4x" },
+        { "id": "D", "text": "ŷ = 20 + 0.16x" }
+      ],
+      "answer": "A",
+      "explanation": "b = 0.8(10/2) = 4; a = 40 − 4(5) = 20.",
+      "distractors": { "D": "Uses s_x/s_y." }
+    },
+    {
+      "id": "u2-q06", "tier": "Exam level", "type": "mcq", "topic": "2.8 Least Squares Regression", "skill": "2. Data Analysis",
+      "stem": "A regression of fuel efficiency (mpg) on vehicle weight (thousands of pounds) gives ŷ = 52.1 − 6.4x. Which is the correct interpretation of the slope?",
+      "choices": [
+        { "id": "A", "text": "For each additional 1,000 pounds of weight, fuel efficiency decreases by exactly 6.4 mpg." },
+        { "id": "B", "text": "For each additional 1,000 pounds of weight, predicted fuel efficiency decreases by 6.4 mpg." },
+        { "id": "C", "text": "A vehicle weighing 0 pounds gets 52.1 mpg." },
+        { "id": "D", "text": "Weight explains 6.4% of the variation in fuel efficiency." }
+      ],
+      "answer": "B",
+      "explanation": "Slopes describe predicted (average) change, not exact change for every vehicle.",
+      "distractors": { "A": "Missing 'predicted'.", "C": "Intercept, and it's extrapolation." }
+    },
+    {
+      "id": "u2-q07", "tier": "Exam level", "type": "mcq", "topic": "2.8 Least Squares Regression", "skill": "2. Data Analysis",
+      "stem": "A regression of exam score on hours studied has r² = 0.49. Which is a correct interpretation?",
+      "choices": [
+        { "id": "A", "text": "About 49% of students' exam scores are predicted correctly." },
+        { "id": "B", "text": "About 49% of the variation in exam scores is explained by the linear relationship with hours studied." },
+        { "id": "C", "text": "The correlation is 0.49." },
+        { "id": "D", "text": "Studying causes 49% of the increase in scores." }
+      ],
+      "answer": "B",
+      "explanation": "r² is the proportion of variation in y accounted for by the linear model.",
+      "distractors": { "C": "r = ±0.7." }
+    },
+    {
+      "id": "u2-q08", "tier": "Exam level", "type": "mcq", "topic": "2.8 Least Squares Regression", "skill": "4. Statistical Argumentation",
+      "stem": "A scatterplot of 30 cities shows a strong positive linear relationship between the number of ice cream shops and the number of drownings. Which conclusion is appropriate?",
+      "choices": [
+        { "id": "A", "text": "Opening ice cream shops causes drownings." },
+        { "id": "B", "text": "The two variables are associated, possibly because both are related to a lurking variable such as population or warm climate." },
+        { "id": "C", "text": "Reducing ice cream shops would reduce drownings." },
+        { "id": "D", "text": "The correlation must be close to zero." }
+      ],
+      "answer": "B",
+      "explanation": "Observational association can't establish causation; city size or climate likely drives both.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q09", "tier": "Exam level", "type": "mcq", "topic": "2.9 Analyzing Departures from Linearity", "skill": "2. Data Analysis",
+      "stem": "A scatterplot shows one point with an x-value far larger than all others, lying well below the trend of the remaining points. If this point is removed, which is most likely?",
+      "choices": [
+        { "id": "A", "text": "The slope increases and r increases." },
+        { "id": "B", "text": "The slope decreases and r decreases." },
+        { "id": "C", "text": "Nothing changes, because one point can't matter." },
+        { "id": "D", "text": "The slope increases and r decreases." }
+      ],
+      "answer": "A",
+      "explanation": "The high-leverage point pulls the line down; removing it steepens the slope and strengthens the linear pattern.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q10", "tier": "Exam level", "type": "mcq", "topic": "2.8 Least Squares Regression", "skill": "4. Statistical Argumentation",
+      "stem": "A regression of children's height on age uses children aged 2 to 10. Using the model to predict the height of a 30-year-old is problematic because",
+      "choices": [
+        { "id": "A", "text": "it is extrapolation; the linear growth pattern doesn't continue beyond the observed ages" },
+        { "id": "B", "text": "the residual would be zero" },
+        { "id": "C", "text": "r² would decrease" },
+        { "id": "D", "text": "age is categorical" }
+      ],
+      "answer": "A",
+      "explanation": "Predictions outside the range of x assume the pattern continues, which it doesn't for height.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q11", "tier": "Hardest", "type": "mcq", "topic": "2.9 Analyzing Departures from Linearity", "skill": "2. Data Analysis",
+      "stem": "A scatterplot of log(y) vs. x is linear, with least-squares line log(ŷ) = 1.2 + 0.3x. What is the predicted value of y when x = 2?",
+      "choices": [
+        { "id": "A", "text": "1.8" },
+        { "id": "B", "text": "6.0" },
+        { "id": "C", "text": "63.1" },
+        { "id": "D", "text": "0.26" }
+      ],
+      "answer": "C",
+      "explanation": "log(ŷ) = 1.2 + 0.6 = 1.8; ŷ = 10^1.8 ≈ 63.1.",
+      "distractors": { "A": "Forgets to back-transform." }
+    },
+    {
+      "id": "u2-q12", "tier": "Hardest", "type": "mcq", "topic": "2.3 Statistics for Two Categorical Variables", "skill": "4. Statistical Argumentation",
+      "stimulus": "Hospital A: 900 of 1,000 patients in good condition survived; 30 of 100 in poor condition survived.\nHospital B: 190 of 200 in good condition survived; 450 of 900 in poor condition survived.",
+      "stem": "Which statement is correct?",
+      "choices": [
+        { "id": "A", "text": "Hospital A has a higher overall survival rate, but Hospital B has a higher survival rate for both good-condition and poor-condition patients." },
+        { "id": "B", "text": "Hospital A is better in every category." },
+        { "id": "C", "text": "Hospital B has a higher overall survival rate and is better in every category." },
+        { "id": "D", "text": "The hospitals have equal survival rates." }
+      ],
+      "answer": "A",
+      "explanation": "Overall: A 930/1100 ≈ 84.5%, B 640/1100 ≈ 58.2%. Good: A 90%, B 95%. Poor: A 30%, B 50%. B treats far more poor-condition patients (Simpson's paradox).",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q13", "tier": "Hardest", "type": "mcq", "topic": "2.8 Least Squares Regression", "skill": "2. Data Analysis",
+      "stem": "A regression of y on x has r = −0.6. If x is 1 standard deviation above x̄, the predicted y is",
+      "choices": [
+        { "id": "A", "text": "0.6 standard deviations below ȳ" },
+        { "id": "B", "text": "1 standard deviation below ȳ" },
+        { "id": "C", "text": "0.6 standard deviations above ȳ" },
+        { "id": "D", "text": "0.36 standard deviations below ȳ" }
+      ],
+      "answer": "A",
+      "explanation": "In standardized units, predicted z_y = r·z_x = −0.6(1).",
+      "distractors": { "D": "Uses r²." }
+    },
+    {
+      "id": "u2-q14", "tier": "Hardest", "type": "mcq", "topic": "2.8 Least Squares Regression", "skill": "2. Data Analysis",
+      "stem": "Regression output predicting monthly electricity bill ($) from house size (ft²) reports s = 18.4. Which is the best interpretation?",
+      "choices": [
+        { "id": "A", "text": "The slope is $18.40 per square foot." },
+        { "id": "B", "text": "Actual monthly bills typically differ from the bills predicted by house size by about $18.40." },
+        { "id": "C", "text": "18.4% of the variation in bills is explained by house size." },
+        { "id": "D", "text": "The average bill is $18.40." }
+      ],
+      "answer": "B",
+      "explanation": "s is the standard deviation of the residuals: the typical prediction error.",
+      "distractors": { "C": "That would be r²." }
+    },
+    {
+      "id": "u2-frq1", "tier": "Exam level", "type": "frq", "topic": "2.8 Least Squares Regression", "frqType": "Short FRQ (Q1–Q5)",
+      "prompt": "A teacher collected the number of hours 40 students studied for a test and their scores (out of 100). Regression output:\n\n| Predictor | Coef | SE Coef |\n|---|---|---|\n| Constant | 52.3 | 3.10 |\n| Hours | 4.1 | 0.62 |\n\ns = 6.2    R-sq = 64.0%\n\nThe residual plot shows no pattern.",
+      "parts": [
+        { "label": "a", "prompt": "Interpret the slope of the least-squares line in context.", "points": 1 },
+        { "label": "b", "prompt": "A student studied 5 hours and scored 70. Calculate and interpret the residual for this student.", "points": 1 },
+        { "label": "c", "prompt": "Find the correlation coefficient and interpret R-sq in context.", "points": 1 },
+        { "label": "d", "prompt": "Interpret s in context, and explain whether the residual from part (b) is unusual.", "points": 1 }
+      ],
+      "points": 4,
+      "minutes": 13,
+      "rubric": [
+        { "criterion": "a: Slope", "points": 1, "description": "For each additional hour studied, the predicted test score increases by 4.1 points (must say 'predicted' or equivalent)." },
+        { "criterion": "b: Residual", "points": 1, "description": "ŷ = 52.3 + 4.1(5) = 72.8; residual = 70 − 72.8 = −2.8; the student scored 2.8 points lower than predicted." },
+        { "criterion": "c: r and R-sq", "points": 1, "description": "r = +√0.64 = 0.8 (positive because slope is positive); 64% of the variation in test scores is explained by the linear relationship with hours studied." },
+        { "criterion": "d: s", "points": 1, "description": "Actual scores typically differ from predicted scores by about 6.2 points; −2.8 is less than one s from 0, so it is not unusual." }
+      ],
+      "sampleResponse": "(a) For each additional hour a student studies, the predicted test score increases by 4.1 points.\n\n(b) Predicted score = 52.3 + 4.1(5) = 72.8. Residual = 70 − 72.8 = −2.8. This student scored 2.8 points lower than the model predicted for someone who studied 5 hours.\n\n(c) r = √0.640 = 0.80, positive because the slope is positive. About 64% of the variation in test scores is explained by the linear relationship between hours studied and test score.\n\n(d) Students' actual test scores typically differ from the scores predicted by hours studied by about 6.2 points. The residual of −2.8 is well within one typical error of zero, so it is not unusual."
+    }
+  ]
+}

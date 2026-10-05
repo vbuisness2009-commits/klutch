@@ -1,0 +1,265 @@
+{
+  "number": 7,
+  "title": "Inference for Quantitative Data: Means",
+  "guide": {
+    "summary": "Unit 7 extends inference to means using t-distributions: confidence intervals and significance tests for one mean, for the mean difference in paired data, and for the difference between two independent means. Choosing between paired and two-sample procedures and checking the Normal/Large Sample condition are frequent exam targets.",
+    "sections": [
+      {
+        "heading": "The t-distributions",
+        "body": "When σ is unknown (almost always), we standardize with s and use a t-distribution with df = n − 1 for one sample. t-distributions are symmetric and centered at 0 but have heavier tails than the standard Normal, so t* > z* for the same confidence; as df increases, t approaches z. Standard error of x̄: s/√n."
+      },
+      {
+        "heading": "One-sample t procedures",
+        "body": "Interval: x̄ ± t*·s/√n. Test: t = (x̄ − μ₀)/(s/√n), df = n − 1. Conditions: Random; 10% (when sampling without replacement); Normal/Large Sample: the population is Normal, or n ≥ 30, or (for small n) a graph of the sample data shows no strong skew or outliers. When n < 30, you must actually look at the data (dotplot, boxplot) and say so. Interpret intervals and P-values exactly as in Unit 6, replacing the proportion with the mean in context."
+      },
+      {
+        "heading": "Paired data",
+        "body": "Data are paired when each observation in one group is naturally linked to one in the other (same subject before/after, twins, matched pairs, two measurements on the same item). Compute the differences, then run a one-sample t procedure on them: parameter μ_diff, x̄_d ± t*·s_d/√n, t = (x̄_d − 0)/(s_d/√n). Check the Normal condition on the differences, not on the original data. Pairing reduces variability from differences among subjects, increasing power."
+      },
+      {
+        "heading": "Two independent samples",
+        "body": "Interval: (x̄₁ − x̄₂) ± t*·√(s₁²/n₁ + s₂²/n₂). Test of H₀: μ₁ − μ₂ = 0: t = (x̄₁ − x̄₂)/√(s₁²/n₁ + s₂²/n₂). Degrees of freedom come from the calculator (Welch) or, conservatively, the smaller of n₁ − 1 and n₂ − 1. Conditions apply to each sample: independent random samples or random assignment, 10% for each, Normal/Large Sample for each. Don't pool variances on the AP exam."
+      }
+    ],
+    "keyTakeaways": [
+      "Use t (not z) for means with unknown σ; df = n − 1.",
+      "Small samples: check a graph for strong skew or outliers.",
+      "Paired data → one-sample t on the differences.",
+      "Two independent groups → two-sample t, unpooled.",
+      "Larger n, lower confidence → narrower interval.",
+      "Conclusions about μ, in context, linked to α."
+    ],
+    "commonMistakes": [
+      "Using a two-sample test on paired data.",
+      "Claiming the Normal condition is met because 'the sample is random.'",
+      "Checking Normality on the original values for paired data.",
+      "Using z* for means.",
+      "Saying 'the sample mean is likely between…' instead of the population mean."
+    ],
+    "examTips": [
+      "Justify paired vs. two-sample explicitly: 'each student measured twice'.",
+      "For small n, the reader expects: 'The dotplot of the sample shows no strong skewness or outliers.'",
+      "State df and show the formula with values substituted.",
+      "Confidence-interval reasoning: is the claimed value inside the interval?"
+    ],
+    "cramSheet": "**One mean:** x̄ ± t*·s/√n · t = (x̄ − μ₀)/(s/√n) · df = n − 1\n\n**Conditions:** Random · 10% · Normal/Large (pop Normal, n ≥ 30, or graph OK)\n\n**Paired:** differences → one-sample t · μ_diff\n\n**Two-sample:** (x̄₁ − x̄₂) ± t*√(s₁²/n₁ + s₂²/n₂) · df from calc or min(n − 1)\n\n**t vs z:** heavier tails · t* > z* · → z as df ↑"
+  },
+  "vocab": [
+    { "term": "t-distribution", "definition": "A symmetric distribution with heavier tails than the Normal, used when σ is estimated by s." },
+    { "term": "Degrees of freedom", "definition": "The parameter of a t-distribution; for one sample, n − 1." },
+    { "term": "Standard error of the mean", "definition": "s/√n, the estimated standard deviation of x̄." },
+    { "term": "One-sample t-interval", "definition": "x̄ ± t*·s/√n, an interval for a population mean." },
+    { "term": "One-sample t-test", "definition": "A test of H₀: μ = μ₀ using t = (x̄ − μ₀)/(s/√n)." },
+    { "term": "Paired data", "definition": "Two measurements linked by subject or matching, analyzed through their differences." },
+    { "term": "Mean difference (μ_diff)", "definition": "The population mean of the paired differences." },
+    { "term": "Two-sample t-test", "definition": "A test comparing the means of two independent groups." },
+    { "term": "Normal/Large Sample condition", "definition": "Population Normal, n ≥ 30, or sample data show no strong skew or outliers." },
+    { "term": "Robust", "definition": "A procedure that gives approximately correct results even when conditions are mildly violated." },
+    { "term": "Critical value (t*)", "definition": "The t value that captures the central C% of a t-distribution with given df." },
+    { "term": "Welch's approximation", "definition": "Formula for df in the unpooled two-sample t procedure, computed by technology." }
+  ],
+  "practice": [
+    {
+      "id": "u7-q01", "tier": "Intro", "type": "mcq", "topic": "7.2 Constructing a Confidence Interval for a Population Mean", "skill": "1. Selecting Statistical Methods",
+      "stem": "Compared with the standard Normal distribution, a t-distribution with 5 degrees of freedom",
+      "choices": [
+        { "id": "A", "text": "has a larger center" },
+        { "id": "B", "text": "has heavier tails" },
+        { "id": "C", "text": "is skewed right" },
+        { "id": "D", "text": "has less spread" }
+      ],
+      "answer": "B",
+      "explanation": "Extra uncertainty from estimating σ spreads more probability into the tails.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q02", "tier": "Intro", "type": "mcq", "topic": "7.2 Constructing a Confidence Interval for a Population Mean", "skill": "3. Using Probability and Simulation",
+      "stem": "A random sample of 25 commute times has mean 42.5 minutes and SD 6 minutes. Which is the 95% confidence interval for the mean commute time? (t* = 2.064 for df = 24)",
+      "choices": [
+        { "id": "A", "text": "(40.1, 44.9)" },
+        { "id": "B", "text": "(40.0, 45.0)" },
+        { "id": "C", "text": "(30.1, 54.9)" },
+        { "id": "D", "text": "(41.3, 43.7)" }
+      ],
+      "answer": "B",
+      "explanation": "42.5 ± 2.064 × 6/5 = 42.5 ± 2.48 → (40.0, 45.0).",
+      "distractors": { "A": "Uses z* = 1.96.", "C": "Forgets to divide s by √n." }
+    },
+    {
+      "id": "u7-q03", "tier": "Intro", "type": "mcq", "topic": "7.6 Confidence Intervals for the Difference of Two Means", "skill": "1. Selecting Statistical Methods",
+      "stem": "Researchers measure the reaction times of 20 drivers before and after drinking coffee. Which procedure is appropriate for comparing the means?",
+      "choices": [
+        { "id": "A", "text": "Two-sample t-test" },
+        { "id": "B", "text": "Paired t-test" },
+        { "id": "C", "text": "One-proportion z-test" },
+        { "id": "D", "text": "Chi-square test" }
+      ],
+      "answer": "B",
+      "explanation": "Each driver is measured twice; analyze the differences.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q04", "tier": "Intro", "type": "mcq", "topic": "7.4 Setting Up a Test for a Population Mean", "skill": "1. Selecting Statistical Methods",
+      "stem": "A random sample of 12 values is used for a one-sample t-test. Which is required to check the Normal condition?",
+      "choices": [
+        { "id": "A", "text": "Nothing, because the sample is random" },
+        { "id": "B", "text": "A graph of the sample data showing no strong skewness or outliers" },
+        { "id": "C", "text": "np ≥ 10" },
+        { "id": "D", "text": "n ≥ 30" }
+      ],
+      "answer": "B",
+      "explanation": "With n < 30 and an unknown population shape, inspect the sample data.",
+      "distractors": { "C": "A proportion condition." }
+    },
+    {
+      "id": "u7-q05", "tier": "Exam level", "type": "mcq", "topic": "7.5 Carrying Out a Test for a Population Mean", "skill": "3. Using Probability and Simulation",
+      "stem": "A machine is supposed to fill bottles with 10.0 oz. A random sample of 16 bottles has mean 10.6 oz and SD 1.2 oz. For H₀: μ = 10 vs. Hₐ: μ > 10, what are t and the P-value?",
+      "choices": [
+        { "id": "A", "text": "t = 0.50, P ≈ 0.31" },
+        { "id": "B", "text": "t = 2.00, P ≈ 0.032" },
+        { "id": "C", "text": "t = 2.00, P ≈ 0.064" },
+        { "id": "D", "text": "t = 2.00, P ≈ 0.023" }
+      ],
+      "answer": "B",
+      "explanation": "t = 0.6/(1.2/4) = 2.00; df = 15, one-sided P ≈ 0.032.",
+      "distractors": { "C": "Two-sided P.", "D": "Uses the Normal distribution." }
+    },
+    {
+      "id": "u7-q06", "tier": "Exam level", "type": "mcq", "topic": "7.3 Justifying a Claim About a Population Mean Based on a Confidence Interval", "skill": "4. Statistical Argumentation",
+      "stem": "A 95% confidence interval for the mean daily screen time of teens is (5.8, 7.1) hours. A report claims the mean is 7.5 hours. Which conclusion is best?",
+      "choices": [
+        { "id": "A", "text": "The claim is plausible because 7.5 is close to the interval." },
+        { "id": "B", "text": "The interval provides convincing evidence against the claim, because 7.5 is not a plausible value." },
+        { "id": "C", "text": "The claim is proven false." },
+        { "id": "D", "text": "No conclusion is possible without a test." }
+      ],
+      "answer": "B",
+      "explanation": "Values outside the interval are not plausible at the 95% level.",
+      "distractors": { "C": "Statistics provides evidence, not proof." }
+    },
+    {
+      "id": "u7-q07", "tier": "Exam level", "type": "mcq", "topic": "7.9 Carrying Out a Test for the Difference of Two Population Means", "skill": "3. Using Probability and Simulation",
+      "stimulus": "Method 1: n = 30, x̄ = 78, s = 8. Method 2: n = 35, x̄ = 73, s = 10. Students were randomly assigned to methods.",
+      "stem": "What is the test statistic for H₀: μ₁ − μ₂ = 0?",
+      "choices": [
+        { "id": "A", "text": "t = 0.50" },
+        { "id": "B", "text": "t = 2.24" },
+        { "id": "C", "text": "t = 5.00" },
+        { "id": "D", "text": "t = 0.28" }
+      ],
+      "answer": "B",
+      "explanation": "SE = √(64/30 + 100/35) = √(2.133 + 2.857) ≈ 2.234; t = 5/2.234 ≈ 2.24.",
+      "distractors": { "D": "Uses √(s₁² + s₂²) without dividing by n." }
+    },
+    {
+      "id": "u7-q08", "tier": "Exam level", "type": "mcq", "topic": "7.5 Carrying Out a Test for a Population Mean", "skill": "3. Using Probability and Simulation",
+      "stem": "Twelve students took a test before and after a study program. The differences (after − before) have mean 2.5 points and SD 3.1 points. What is the test statistic for H₀: μ_diff = 0?",
+      "choices": [
+        { "id": "A", "text": "t = 0.81" },
+        { "id": "B", "text": "t = 2.79" },
+        { "id": "C", "text": "t = 9.68" },
+        { "id": "D", "text": "t = 2.50" }
+      ],
+      "answer": "B",
+      "explanation": "t = 2.5/(3.1/√12) = 2.5/0.895 ≈ 2.79, df = 11.",
+      "distractors": { "A": "Divides by s without √n." }
+    },
+    {
+      "id": "u7-q09", "tier": "Exam level", "type": "mcq", "topic": "7.2 Constructing a Confidence Interval for a Population Mean", "skill": "4. Statistical Argumentation",
+      "stem": "A 95% t-interval for a mean is computed from a sample of 20. If the same data were used to compute a 90% interval, the 90% interval would",
+      "choices": [
+        { "id": "A", "text": "be wider" },
+        { "id": "B", "text": "be narrower, with the same center" },
+        { "id": "C", "text": "have a different center" },
+        { "id": "D", "text": "be identical" }
+      ],
+      "answer": "B",
+      "explanation": "Lower confidence uses a smaller t*; the center (x̄) doesn't change.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q10", "tier": "Exam level", "type": "mcq", "topic": "7.4 Setting Up a Test for a Population Mean", "skill": "1. Selecting Statistical Methods",
+      "stem": "A random sample of 15 house prices from a neighborhood includes one mansion priced far above all others, and a boxplot shows strong right skew. Why is a one-sample t-interval inappropriate?",
+      "choices": [
+        { "id": "A", "text": "The sample isn't random." },
+        { "id": "B", "text": "With n < 30, the strong skew and outlier suggest the population isn't Normal, so the Normal condition fails." },
+        { "id": "C", "text": "The 10% condition fails." },
+        { "id": "D", "text": "t-intervals require σ to be known." }
+      ],
+      "answer": "B",
+      "explanation": "Small samples need roughly symmetric data without outliers.",
+      "distractors": { "D": "t-procedures are for unknown σ." }
+    },
+    {
+      "id": "u7-q11", "tier": "Hardest", "type": "mcq", "topic": "7.8 Setting Up a Test for the Difference of Two Population Means", "skill": "4. Statistical Argumentation",
+      "stem": "To compare two tire brands, researchers put one tire of each brand on the rear wheels of 15 cars (brand assigned to left/right by coin flip) and measure tread wear. An analyst uses a two-sample t-test and finds P = 0.24. A paired t-test on the same data gives P = 0.003. Which explains the difference?",
+      "choices": [
+        { "id": "A", "text": "The paired test is wrong because the samples are independent." },
+        { "id": "B", "text": "Pairing removes car-to-car variability (driving habits, roads), so the paired test detects the brand difference that the two-sample test misses." },
+        { "id": "C", "text": "The two-sample test has more power because it uses more degrees of freedom." },
+        { "id": "D", "text": "The tests use different hypotheses." }
+      ],
+      "answer": "B",
+      "explanation": "The data are paired by car; the two-sample test incorrectly treats car variation as noise.",
+      "distractors": { "C": "Extra df doesn't make up for ignoring pairing." }
+    },
+    {
+      "id": "u7-q12", "tier": "Hardest", "type": "mcq", "topic": "7.7 Justifying a Claim About the Difference of Two Means Based on a Confidence Interval", "skill": "4. Statistical Argumentation",
+      "stem": "A 95% confidence interval for μ_A − μ_B, the difference in mean battery life (hours), is (1.2, 4.8). Which statement is correct?",
+      "choices": [
+        { "id": "A", "text": "There is convincing evidence that brand A's mean battery life exceeds brand B's, by somewhere between 1.2 and 4.8 hours." },
+        { "id": "B", "text": "95% of brand A batteries last 1.2 to 4.8 hours longer than brand B batteries." },
+        { "id": "C", "text": "There is no evidence of a difference." },
+        { "id": "D", "text": "Brand B lasts longer." }
+      ],
+      "answer": "A",
+      "explanation": "The entire interval is positive, so A − B > 0 is supported; the interval estimates the difference in means.",
+      "distractors": { "B": "Describes individual batteries, not means." }
+    },
+    {
+      "id": "u7-q13", "tier": "Hardest", "type": "mcq", "topic": "7.2 Constructing a Confidence Interval for a Population Mean", "skill": "4. Statistical Argumentation",
+      "stem": "A student says, \"Our 95% confidence interval for the mean is (12.3, 15.7), so 95% of the sample values fall in this interval.\" Why is this wrong?",
+      "choices": [
+        { "id": "A", "text": "The interval estimates the population mean, not where individual data values lie; individual values are much more spread out." },
+        { "id": "B", "text": "It should be 95% of population values." },
+        { "id": "C", "text": "It's correct for large samples." },
+        { "id": "D", "text": "Confidence intervals only apply to proportions." }
+      ],
+      "answer": "A",
+      "explanation": "Intervals for μ are based on s/√n, which is much smaller than the spread of individual values.",
+      "distractors": { "B": "Also wrong for the same reason." }
+    },
+    {
+      "id": "u7-q14", "tier": "Hardest", "type": "mcq", "topic": "7.5 Carrying Out a Test for a Population Mean", "skill": "4. Statistical Argumentation",
+      "stem": "A study with n = 4,000 finds that a new teaching method raises mean test scores by 0.4 points on a 100-point scale, with P < 0.001. Which conclusion is most appropriate?",
+      "choices": [
+        { "id": "A", "text": "The method produces a large, important improvement." },
+        { "id": "B", "text": "The difference is statistically significant, but 0.4 points may not be practically important; large samples can detect tiny effects." },
+        { "id": "C", "text": "The result must be a Type I error." },
+        { "id": "D", "text": "The P-value shows that 99.9% of students improved." }
+      ],
+      "answer": "B",
+      "explanation": "Statistical significance doesn't imply practical significance.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-frq1", "tier": "Exam level", "type": "frq", "topic": "7.5 Carrying Out a Test for a Population Mean", "frqType": "Short FRQ (Q1–Q5)",
+      "prompt": "A tutoring center randomly selected 10 of its students who took a practice exam, completed four weeks of tutoring, and then took a second practice exam of similar difficulty. The improvement (second score − first score) for each student was:\n\n3, 5, −1, 4, 6, 2, 0, 7, 3, 5\n\nA dotplot of the improvements shows no strong skewness or outliers.",
+      "parts": [
+        { "label": "a", "prompt": "Explain why a paired t-procedure is appropriate rather than a two-sample t-procedure.", "points": 1 },
+        { "label": "b", "prompt": "State hypotheses for testing whether students at this center improve on average, and check conditions.", "points": 1 },
+        { "label": "c", "prompt": "Calculate the test statistic and P-value, and state a conclusion at α = 0.05.", "points": 1 },
+        { "label": "d", "prompt": "Can the center conclude that tutoring caused the improvement? Explain.", "points": 1 }
+      ],
+      "points": 4,
+      "minutes": 13,
+      "rubric": [
+        { "criterion": "a: Paired", "points": 1, "description": "Each student provides both scores, so the two measurements are linked (dependent); analyze the within-student differences." },
+        { "criterion": "b: Hypotheses and conditions", "points": 1, "description": "H₀: μ_diff = 0; Hₐ: μ_diff > 0, where μ_diff = true mean improvement for all students at the center. Random sample; 10 < 10% of all students (assume the center has more than 100); dotplot of differences shows no strong skew/outliers." },
+        { "criterion": "c: Mechanics and conclusion", "points": 1, "description": "x̄_d = 3.4, s_d ≈ 2.55, t = 3.4/(2.55/√10) ≈ 4.22, df = 9, P ≈ 0.001 < 0.05: reject H₀; convincing evidence of a positive mean improvement." },
+        { "criterion": "d: Causation", "points": 1, "description": "No: there was no control group and no random assignment; improvement could come from practice effects (taking the exam twice), studying on their own, or other factors." }
+      ],
+      "sampleResponse": "(a) Each student took both practice exams, so the two scores for a student are related. The appropriate analysis uses each student's improvement, which removes differences in ability between students; a two-sample procedure would wrongly treat the scores as independent groups.\n\n(b) Let μ_diff be the true mean improvement (second − first) for all students at this center. H₀: μ_diff = 0; Hₐ: μ_diff > 0.\nRandom: the 10 students were randomly selected.\n10%: it is reasonable that the center has more than 100 students.\nNormal: n = 10 is small, but the dotplot of the improvements shows no strong skewness or outliers.\n\n(c) Paired t-test: x̄_d = 3.4, s_d ≈ 2.55, n = 10. t = 3.4/(2.55/√10) ≈ 4.22 with df = 9. P-value ≈ 0.001. Because 0.001 < 0.05, we reject H₀. There is convincing evidence that the true mean improvement for students at this center is greater than 0.\n\n(d) No. This was not an experiment with a control group and random assignment. Students might improve simply from taking a similar exam a second time or from studying on their own, so we cannot attribute the improvement to tutoring."
+    }
+  ]
+}

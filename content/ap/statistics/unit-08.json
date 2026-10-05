@@ -1,0 +1,265 @@
+{
+  "number": 8,
+  "title": "Inference for Categorical Data: Chi-Square",
+  "guide": {
+    "summary": "Unit 8 covers chi-square tests for categorical data: goodness of fit (one variable vs. a claimed distribution), homogeneity (comparing distributions across several populations or treatments), and independence (association between two variables in one population). You must pick the right test, compute expected counts, check conditions, and interpret results.",
+    "sections": [
+      {
+        "heading": "Choosing the test",
+        "body": "Goodness of fit (GOF): one categorical variable from one sample, compared with a hypothesized distribution (e.g., is a die fair?). Homogeneity: one categorical variable measured on samples from two or more populations or treatment groups (separate samples). Independence: two categorical variables measured on a single sample (one sample, classified two ways). The calculations for homogeneity and independence are identical; the difference is in how the data were collected and how hypotheses are stated."
+      },
+      {
+        "heading": "Hypotheses and expected counts",
+        "body": "GOF: H₀: the stated proportions are correct (list them); Hₐ: at least one proportion differs. Homogeneity: H₀: the distribution of [variable] is the same for all populations; Hₐ: the distributions are not all the same. Independence: H₀: there is no association between [var 1] and [var 2] (they are independent); Hₐ: there is an association. Expected counts: GOF: n × hypothesized proportion. Two-way tables: (row total × column total)/grand total. Expected counts need not be whole numbers."
+      },
+      {
+        "heading": "Conditions and calculations",
+        "body": "Conditions: Random (random sample(s) or random assignment); 10% when sampling without replacement; Large Counts: all expected counts ≥ 5. Test statistic: χ² = Σ(observed − expected)²/expected, always using counts, never percentages. df: GOF = number of categories − 1; two-way table = (rows − 1)(columns − 1). χ² distributions are right-skewed; the P-value is the upper-tail area. Larger χ² means larger discrepancy from H₀. To find which categories contributed most, compare individual components (O − E)²/E and say whether observed was above or below expected."
+      },
+      {
+        "heading": "Interpreting results",
+        "body": "If P ≤ α, there is convincing evidence for Hₐ (a different distribution or an association); if P > α, there is not convincing evidence. Chi-square tests never show the direction or strength of an association on their own; follow up by comparing conditional proportions or the largest components. An association in observational data is not causation."
+      }
+    ],
+    "keyTakeaways": [
+      "GOF: one variable, one sample, claimed distribution.",
+      "Homogeneity: several samples; independence: one sample, two variables.",
+      "Expected = row × column / total.",
+      "All expected counts ≥ 5.",
+      "df = categories − 1 or (r − 1)(c − 1).",
+      "Use counts, not percentages."
+    ],
+    "commonMistakes": [
+      "Checking observed counts (not expected) for the ≥ 5 condition.",
+      "Computing χ² from percentages.",
+      "Confusing homogeneity and independence hypotheses.",
+      "Claiming a chi-square test proves causation.",
+      "Using the wrong df."
+    ],
+    "examTips": [
+      "Name the test exactly and justify by describing the sampling design.",
+      "Show at least one expected count calculation.",
+      "Identify the largest contributor and describe its direction.",
+      "MCQs often ask which test fits a scenario or what df is."
+    ],
+    "cramSheet": "**Tests:** GOF (1 var, claimed %) · homogeneity (≥ 2 samples) · independence (1 sample, 2 vars)\n\n**Expected:** GOF n·p · table R·C/N\n\n**Conditions:** Random · 10% · all expected ≥ 5\n\n**χ²:** Σ(O − E)²/E · counts only · right-skewed · upper tail\n\n**df:** k − 1 · (r − 1)(c − 1)\n\n**Follow-up:** biggest (O − E)²/E and direction"
+  },
+  "vocab": [
+    { "term": "Chi-square statistic", "definition": "Σ(observed − expected)²/expected; measures how far observed counts are from expected counts." },
+    { "term": "Goodness-of-fit test", "definition": "Tests whether one categorical variable's distribution matches a hypothesized distribution." },
+    { "term": "Test for homogeneity", "definition": "Tests whether the distribution of a categorical variable is the same across several populations or treatments." },
+    { "term": "Test for independence", "definition": "Tests whether two categorical variables are associated in one population." },
+    { "term": "Expected count", "definition": "The count predicted for a cell if H₀ were true." },
+    { "term": "Observed count", "definition": "The actual count in each category or cell." },
+    { "term": "Degrees of freedom (chi-square)", "definition": "k − 1 for GOF; (rows − 1)(columns − 1) for two-way tables." },
+    { "term": "Component", "definition": "A single term (O − E)²/E of the chi-square statistic." },
+    { "term": "Chi-square distribution", "definition": "A right-skewed distribution used for χ² P-values; shape depends on df." },
+    { "term": "Large Counts (chi-square)", "definition": "All expected counts are at least 5." },
+    { "term": "Two-way table", "definition": "A table of counts classified by two categorical variables." },
+    { "term": "Association", "definition": "A relationship in which knowing one variable's value changes the distribution of the other." }
+  ],
+  "practice": [
+    {
+      "id": "u8-q01", "tier": "Intro", "type": "mcq", "topic": "8.2 Setting Up a Chi-Square Goodness of Fit Test", "skill": "1. Selecting Statistical Methods",
+      "stem": "A candy company claims its bags contain 30% red, 20% green, 25% yellow, and 25% blue candies. Which test checks this claim using one random bag?",
+      "choices": [
+        { "id": "A", "text": "Chi-square goodness-of-fit test" },
+        { "id": "B", "text": "Chi-square test for homogeneity" },
+        { "id": "C", "text": "Chi-square test for independence" },
+        { "id": "D", "text": "Two-sample t-test" }
+      ],
+      "answer": "A",
+      "explanation": "One categorical variable (color) from one sample compared to a claimed distribution.",
+      "distractors": {}
+    },
+    {
+      "id": "u8-q02", "tier": "Intro", "type": "mcq", "topic": "8.4 Expected Counts in Two-Way Tables", "skill": "3. Using Probability and Simulation",
+      "stem": "In a two-way table with 300 total observations, a row total is 120 and a column total is 100. What is the expected count for that cell if the variables are independent?",
+      "choices": [
+        { "id": "A", "text": "33.3" },
+        { "id": "B", "text": "40" },
+        { "id": "C", "text": "50" },
+        { "id": "D", "text": "120" }
+      ],
+      "answer": "B",
+      "explanation": "(120 × 100)/300 = 40.",
+      "distractors": {}
+    },
+    {
+      "id": "u8-q03", "tier": "Intro", "type": "mcq", "topic": "8.5 Setting Up a Chi-Square Test for Homogeneity or Independence", "skill": "3. Using Probability and Simulation",
+      "stem": "What are the degrees of freedom for a chi-square test on a two-way table with 3 rows and 4 columns?",
+      "choices": [
+        { "id": "A", "text": "5" },
+        { "id": "B", "text": "6" },
+        { "id": "C", "text": "11" },
+        { "id": "D", "text": "12" }
+      ],
+      "answer": "B",
+      "explanation": "(3 − 1)(4 − 1) = 6.",
+      "distractors": { "C": "Total cells − 1." }
+    },
+    {
+      "id": "u8-q04", "tier": "Intro", "type": "mcq", "topic": "8.2 Setting Up a Chi-Square Goodness of Fit Test", "skill": "1. Selecting Statistical Methods",
+      "stem": "The Large Counts condition for a chi-square test requires that",
+      "choices": [
+        { "id": "A", "text": "all observed counts are at least 5" },
+        { "id": "B", "text": "all expected counts are at least 5" },
+        { "id": "C", "text": "the sample size is at least 30" },
+        { "id": "D", "text": "np ≥ 10" }
+      ],
+      "answer": "B",
+      "explanation": "The condition concerns expected counts under H₀.",
+      "distractors": { "A": "Common mistake." }
+    },
+    {
+      "id": "u8-q05", "tier": "Exam level", "type": "mcq", "topic": "8.3 Carrying Out a Chi-Square Test for Goodness of Fit", "skill": "3. Using Probability and Simulation",
+      "stimulus": "A die is rolled 120 times. Counts for faces 1–6: 15, 25, 18, 22, 17, 23.",
+      "stem": "What are χ² and the approximate P-value for testing whether the die is fair?",
+      "choices": [
+        { "id": "A", "text": "χ² = 3.8, P ≈ 0.58" },
+        { "id": "B", "text": "χ² = 76, P < 0.001" },
+        { "id": "C", "text": "χ² = 3.8, P ≈ 0.05" },
+        { "id": "D", "text": "χ² = 0.63, P ≈ 0.99" }
+      ],
+      "answer": "A",
+      "explanation": "Expected 20 each. χ² = (25 + 25 + 4 + 4 + 9 + 9)/20 = 3.8, df = 5, P ≈ 0.58.",
+      "distractors": { "B": "Forgets to divide by expected." }
+    },
+    {
+      "id": "u8-q06", "tier": "Exam level", "type": "mcq", "topic": "8.5 Setting Up a Chi-Square Test for Homogeneity or Independence", "skill": "1. Selecting Statistical Methods",
+      "stem": "Researchers take separate random samples of 200 adults from each of three countries and record each person's preferred news source. Which test is appropriate?",
+      "choices": [
+        { "id": "A", "text": "Goodness of fit" },
+        { "id": "B", "text": "Homogeneity" },
+        { "id": "C", "text": "Independence" },
+        { "id": "D", "text": "Two-proportion z-test" }
+      ],
+      "answer": "B",
+      "explanation": "Separate samples from multiple populations, comparing the distribution of one variable.",
+      "distractors": { "C": "Would require one sample classified on two variables." }
+    },
+    {
+      "id": "u8-q07", "tier": "Exam level", "type": "mcq", "topic": "8.6 Carrying Out a Chi-Square Test for Homogeneity or Independence", "skill": "4. Statistical Argumentation",
+      "stem": "A chi-square test for independence between age group and preferred social media platform yields χ² = 11.2 with df = 4. Which conclusion is correct at α = 0.05?",
+      "choices": [
+        { "id": "A", "text": "P ≈ 0.024; there is convincing evidence of an association between age group and preferred platform." },
+        { "id": "B", "text": "P ≈ 0.024; age causes platform preference." },
+        { "id": "C", "text": "P ≈ 0.976; no association." },
+        { "id": "D", "text": "P ≈ 0.12; no convincing evidence of an association." }
+      ],
+      "answer": "A",
+      "explanation": "Upper-tail area for χ² = 11.2, df = 4 is about 0.024 < 0.05.",
+      "distractors": { "B": "Association isn't causation." }
+    },
+    {
+      "id": "u8-q08", "tier": "Exam level", "type": "mcq", "topic": "8.5 Setting Up a Chi-Square Test for Homogeneity or Independence", "skill": "1. Selecting Statistical Methods",
+      "stem": "A random sample of 500 college students is classified by major (STEM, humanities, other) and whether they work part-time. Which null hypothesis is appropriate?",
+      "choices": [
+        { "id": "A", "text": "There is no association between major and part-time work status among college students." },
+        { "id": "B", "text": "The proportion of STEM majors is 1/3." },
+        { "id": "C", "text": "Major causes students to work part-time." },
+        { "id": "D", "text": "All observed counts equal the expected counts." }
+      ],
+      "answer": "A",
+      "explanation": "One sample, two variables: test for independence.",
+      "distractors": { "D": "Describes the sample, not a population claim." }
+    },
+    {
+      "id": "u8-q09", "tier": "Exam level", "type": "mcq", "topic": "8.6 Carrying Out a Chi-Square Test for Homogeneity or Independence", "skill": "2. Data Analysis",
+      "stem": "In a chi-square test, a cell has observed count 40 and expected count 28.8. What is its contribution to χ²?",
+      "choices": [
+        { "id": "A", "text": "0.39" },
+        { "id": "B", "text": "3.14" },
+        { "id": "C", "text": "4.36" },
+        { "id": "D", "text": "11.2" }
+      ],
+      "answer": "C",
+      "explanation": "(40 − 28.8)²/28.8 = 125.44/28.8 ≈ 4.36.",
+      "distractors": { "B": "Divides by the observed count (40)." }
+    },
+    {
+      "id": "u8-q10", "tier": "Exam level", "type": "mcq", "topic": "8.3 Carrying Out a Chi-Square Test for Goodness of Fit", "skill": "3. Using Probability and Simulation",
+      "stem": "Blood types in a region are claimed to be O 45%, A 40%, B 11%, AB 4%. In a random sample of 200 people, the counts are 82, 88, 22, 8. Which is correct?",
+      "choices": [
+        { "id": "A", "text": "χ² ≈ 1.51, df = 3, P ≈ 0.68; no convincing evidence the claim is wrong" },
+        { "id": "B", "text": "χ² ≈ 1.51, df = 4, P ≈ 0.82" },
+        { "id": "C", "text": "χ² ≈ 15.1, df = 3, P ≈ 0.002" },
+        { "id": "D", "text": "The test can't be done because the AB count is small." }
+      ],
+      "answer": "A",
+      "explanation": "Expected: 90, 80, 22, 8 (all ≥ 5). χ² = 64/90 + 64/80 + 0 + 0 ≈ 1.51, df = 3.",
+      "distractors": { "D": "The expected AB count is 8 ≥ 5." }
+    },
+    {
+      "id": "u8-q11", "tier": "Hardest", "type": "mcq", "topic": "8.6 Carrying Out a Chi-Square Test for Homogeneity or Independence", "skill": "4. Statistical Argumentation",
+      "stem": "If every count in a two-way table were doubled (same proportions, twice the sample size), what would happen to χ² and the P-value?",
+      "choices": [
+        { "id": "A", "text": "Both stay the same." },
+        { "id": "B", "text": "χ² doubles and the P-value decreases." },
+        { "id": "C", "text": "χ² is halved and the P-value increases." },
+        { "id": "D", "text": "χ² quadruples and df doubles." }
+      ],
+      "answer": "B",
+      "explanation": "Each (O − E)² quadruples while E doubles, so each component doubles; df is unchanged.",
+      "distractors": {}
+    },
+    {
+      "id": "u8-q12", "tier": "Hardest", "type": "mcq", "topic": "8.3 Carrying Out a Chi-Square Test for Goodness of Fit", "skill": "4. Statistical Argumentation",
+      "stem": "A student runs a chi-square test using percentages (e.g., 34%, 41%, 25%) instead of counts from a sample of 1,000. What is the effect?",
+      "choices": [
+        { "id": "A", "text": "No effect, because proportions are equivalent to counts." },
+        { "id": "B", "text": "χ² is computed on the wrong scale; with n = 1,000, it would be 10 times too small, inflating the P-value." },
+        { "id": "C", "text": "χ² would be too large." },
+        { "id": "D", "text": "The degrees of freedom would change." }
+      ],
+      "answer": "B",
+      "explanation": "Percent values are counts divided by 10 here; χ² scales with counts, so it shrinks by a factor of 10.",
+      "distractors": {}
+    },
+    {
+      "id": "u8-q13", "tier": "Hardest", "type": "mcq", "topic": "8.6 Carrying Out a Chi-Square Test for Homogeneity or Independence", "skill": "4. Statistical Argumentation",
+      "stem": "A chi-square test for homogeneity comparing satisfaction (low/medium/high) across three hospitals gives P = 0.003. The largest component is for Hospital C, 'low' (observed 48, expected 30). Which follow-up statement is best?",
+      "choices": [
+        { "id": "A", "text": "Hospital C had more low-satisfaction patients than expected if the distributions were the same, contributing most to the evidence of a difference." },
+        { "id": "B", "text": "Hospital C caused low satisfaction." },
+        { "id": "C", "text": "All hospitals differ from one another in every category." },
+        { "id": "D", "text": "Hospital C had fewer low-satisfaction patients than expected." }
+      ],
+      "answer": "A",
+      "explanation": "Observed exceeds expected in the largest contributing cell.",
+      "distractors": { "C": "The test says the distributions aren't all the same, not that every pair differs." }
+    },
+    {
+      "id": "u8-q14", "tier": "Hardest", "type": "mcq", "topic": "8.5 Setting Up a Chi-Square Test for Homogeneity or Independence", "skill": "1. Selecting Statistical Methods",
+      "stem": "In a randomized experiment, 300 patients are randomly assigned to three treatments, and each patient's outcome is recorded as improved, unchanged, or worse. Which analysis is appropriate, and what conclusion type is possible?",
+      "choices": [
+        { "id": "A", "text": "Chi-square test for homogeneity; if significant, treatments cause differences in outcome distributions." },
+        { "id": "B", "text": "Chi-square test for independence; only association can be concluded." },
+        { "id": "C", "text": "Goodness of fit; outcomes are compared with 1/3 each." },
+        { "id": "D", "text": "Two-sample t-test on outcomes." }
+      ],
+      "answer": "A",
+      "explanation": "Treatment groups are compared on one categorical response; random assignment supports causation.",
+      "distractors": {}
+    },
+    {
+      "id": "u8-frq1", "tier": "Exam level", "type": "frq", "topic": "8.6 Carrying Out a Chi-Square Test for Homogeneity or Independence", "frqType": "Short FRQ (Q1–Q5)",
+      "prompt": "A random sample of 300 students at a large high school was asked whether they play a varsity sport and which new lunch option they prefer.\n\n| | Option A | Option B | Option C | Total |\n|---|---|---|---|---|\n| Athlete | 50 | 40 | 30 | 120 |\n| Non-athlete | 50 | 70 | 60 | 180 |\n| Total | 100 | 110 | 90 | 300 |",
+      "parts": [
+        { "label": "a", "prompt": "Identify the appropriate test and state the hypotheses.", "points": 1 },
+        { "label": "b", "prompt": "Calculate the expected count for athletes who prefer Option A, and verify the Large Counts condition.", "points": 1 },
+        { "label": "c", "prompt": "The test statistic is χ² ≈ 6.44. Find the P-value and state a conclusion at α = 0.05.", "points": 1 },
+        { "label": "d", "prompt": "Identify the cell that contributes most to χ² and describe what it shows.", "points": 1 }
+      ],
+      "points": 4,
+      "minutes": 13,
+      "rubric": [
+        { "criterion": "a: Test and hypotheses", "points": 1, "description": "Chi-square test for independence (one random sample, two variables). H₀: no association between athlete status and lunch preference among students at the school; Hₐ: there is an association." },
+        { "criterion": "b: Expected count", "points": 1, "description": "(120)(100)/300 = 40; smallest expected count is (120)(90)/300 = 36 ≥ 5, so all are ≥ 5." },
+        { "criterion": "c: P-value and conclusion", "points": 1, "description": "df = (2 − 1)(3 − 1) = 2; P ≈ 0.040 < 0.05: reject H₀; convincing evidence of an association between athlete status and lunch preference." },
+        { "criterion": "d: Largest component", "points": 1, "description": "Athletes, Option A: (50 − 40)²/40 = 2.5; more athletes preferred Option A than expected under independence." }
+      ],
+      "sampleResponse": "(a) Chi-square test for independence, since one random sample of students was classified by two categorical variables.\nH₀: There is no association between being a varsity athlete and lunch preference for students at this school.\nHₐ: There is an association between being a varsity athlete and lunch preference for students at this school.\n\n(b) Expected (athlete, Option A) = (120 × 100)/300 = 40. The smallest expected count is (120 × 90)/300 = 36, so all expected counts are at least 5.\n\n(c) df = (2 − 1)(3 − 1) = 2. P-value = P(χ² ≥ 6.44) ≈ 0.040. Since 0.040 < 0.05, we reject H₀. There is convincing evidence of an association between athlete status and lunch preference among students at this school.\n\n(d) The athlete / Option A cell contributes most: (50 − 40)²/40 = 2.5. Athletes chose Option A more often than would be expected if athlete status and lunch preference were independent."
+    }
+  ]
+}

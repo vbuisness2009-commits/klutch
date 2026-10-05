@@ -1,0 +1,261 @@
+{
+  "number": 9,
+  "title": "Inference for Quantitative Data: Slopes",
+  "guide": {
+    "summary": "Unit 9 applies inference to the slope of a population regression line: confidence intervals and t-tests for β, the conditions for regression inference, and reading computer output. It is a small share of the exam but appears regularly in MCQs and sometimes in FRQs.",
+    "sections": [
+      {
+        "heading": "The regression model",
+        "body": "The population regression line is μ_y = α + βx, where β is the true slope. The sample LSRL ŷ = a + bx estimates it, and b varies from sample to sample. The sampling distribution of b is centered at β with standard error SE_b = s/(s_x√(n − 1)), where s is the residual standard deviation. Inference uses a t-distribution with df = n − 2."
+      },
+      {
+        "heading": "Conditions (LINER)",
+        "body": "Linear: the scatterplot shows a linear pattern and the residual plot has no curved pattern. Independent: observations are independent; check 10% when sampling without replacement. Normal: for each x, responses vary Normally around the line; check a histogram or dotplot of residuals for strong skew or outliers. Equal SD: residual plot shows roughly constant spread (no fan shape). Random: data come from a random sample or randomized experiment."
+      },
+      {
+        "heading": "Intervals and tests for β",
+        "body": "Interval: b ± t*·SE_b, df = n − 2. Interpretation: 'We are C% confident that the interval from __ to __ captures the true slope of the population regression line relating [y] to [x]', or equivalently the true change in mean [y] for each 1-unit increase in [x]. Test: H₀: β = 0 (no linear relationship); Hₐ: β ≠, >, or < 0. t = (b − β₀)/SE_b. Computer output lists the coefficient (b), SE Coef (SE_b), T (t-statistic for H₀: β = 0), and P (usually two-sided); halve P for a one-sided test in the direction of b. A slope interval that does not contain 0 gives convincing evidence of a linear relationship."
+      }
+    ],
+    "keyTakeaways": [
+      "Parameter: β, the true population slope.",
+      "df = n − 2.",
+      "Interval: b ± t*·SE_b; test: t = b/SE_b when β₀ = 0.",
+      "Conditions: Linear, Independent, Normal residuals, Equal SD, Random.",
+      "Output P-values are usually two-sided.",
+      "Interval excluding 0 → evidence of a linear relationship."
+    ],
+    "commonMistakes": [
+      "Using df = n − 1.",
+      "Using s (residual SD) as the SE of the slope.",
+      "Writing hypotheses with b instead of β.",
+      "Forgetting to halve the two-sided P-value for a one-sided test.",
+      "Checking Normality on the original y-values instead of residuals."
+    ],
+    "examTips": [
+      "Locate SE Coef in the row for the explanatory variable, not the constant.",
+      "Conditions usually come from a provided residual plot and histogram of residuals; reference both.",
+      "Interpret the slope interval in context with 'mean' or 'predicted' language.",
+      "Expect MCQs that compute t* × SE from output."
+    ],
+    "cramSheet": "**Model:** μ_y = α + βx · estimate b\n\n**SE_b:** from output (SE Coef) · df = n − 2\n\n**CI:** b ± t*·SE_b\n\n**Test:** H₀: β = 0 · t = b/SE_b · output P is two-sided\n\n**LINER:** Linear · Independent (10%) · Normal residuals · Equal SD · Random"
+  },
+  "vocab": [
+    { "term": "Population regression line", "definition": "μ_y = α + βx, the true linear relationship between x and the mean of y." },
+    { "term": "β (beta)", "definition": "The slope of the population regression line." },
+    { "term": "Sample slope (b)", "definition": "The slope of the least-squares line from a sample; estimates β." },
+    { "term": "Standard error of the slope", "definition": "SE_b, the estimated standard deviation of the sampling distribution of b." },
+    { "term": "t-interval for slope", "definition": "b ± t*·SE_b with df = n − 2." },
+    { "term": "t-test for slope", "definition": "A test of H₀: β = β₀ using t = (b − β₀)/SE_b." },
+    { "term": "Residual plot", "definition": "Used to check linearity and equal spread." },
+    { "term": "Equal SD condition", "definition": "The spread of responses around the line is roughly the same for all x." },
+    { "term": "Normal residuals condition", "definition": "Residuals are approximately Normally distributed." },
+    { "term": "SE Coef", "definition": "The column in computer output giving standard errors of the intercept and slope." },
+    { "term": "Linear relationship", "definition": "A relationship in which the mean of y changes at a constant rate as x increases." },
+    { "term": "Residual standard deviation (s)", "definition": "The typical size of residuals; used to compute SE_b." }
+  ],
+  "practice": [
+    {
+      "id": "u9-q01", "tier": "Intro", "type": "mcq", "topic": "9.2 Confidence Intervals for the Slope of a Regression Model", "skill": "1. Selecting Statistical Methods",
+      "stem": "Regression inference is based on 22 data points. How many degrees of freedom are used?",
+      "choices": [
+        { "id": "A", "text": "20" },
+        { "id": "B", "text": "21" },
+        { "id": "C", "text": "22" },
+        { "id": "D", "text": "44" }
+      ],
+      "answer": "A",
+      "explanation": "df = n − 2 = 20.",
+      "distractors": { "B": "n − 1, for one-sample means." }
+    },
+    {
+      "id": "u9-q02", "tier": "Intro", "type": "mcq", "topic": "9.4 Setting Up a Test for the Slope of a Regression Model", "skill": "1. Selecting Statistical Methods",
+      "stem": "Which null hypothesis tests whether there is a linear relationship between x and y in the population?",
+      "choices": [
+        { "id": "A", "text": "H₀: b = 0" },
+        { "id": "B", "text": "H₀: β = 0" },
+        { "id": "C", "text": "H₀: r = 0" },
+        { "id": "D", "text": "H₀: α = 0" }
+      ],
+      "answer": "B",
+      "explanation": "β is the population slope; β = 0 means no linear relationship.",
+      "distractors": { "A": "b is a sample statistic." }
+    },
+    {
+      "id": "u9-q03", "tier": "Intro", "type": "mcq", "topic": "9.4 Setting Up a Test for the Slope of a Regression Model", "skill": "1. Selecting Statistical Methods",
+      "stem": "A residual plot for a regression shows residuals spreading out more as x increases (a fan shape). Which condition is violated?",
+      "choices": [
+        { "id": "A", "text": "Linear" },
+        { "id": "B", "text": "Equal SD" },
+        { "id": "C", "text": "Random" },
+        { "id": "D", "text": "Independent" }
+      ],
+      "answer": "B",
+      "explanation": "Increasing spread means the SD of y is not constant across x.",
+      "distractors": {}
+    },
+    {
+      "id": "u9-q04", "tier": "Intro", "type": "mcq", "topic": "9.3 Justifying a Claim About the Slope of a Regression Model Based on a Confidence Interval", "skill": "4. Statistical Argumentation",
+      "stem": "A 95% confidence interval for the slope relating study hours to test score is (1.8, 5.2). Which conclusion is appropriate?",
+      "choices": [
+        { "id": "A", "text": "There is convincing evidence of a positive linear relationship, because the interval contains only positive values." },
+        { "id": "B", "text": "There is no evidence of a relationship." },
+        { "id": "C", "text": "Each hour of study raises every student's score by 1.8 to 5.2 points." },
+        { "id": "D", "text": "The correlation is between 1.8 and 5.2." }
+      ],
+      "answer": "A",
+      "explanation": "0 is not a plausible value for β.",
+      "distractors": { "C": "Describes mean change, not every individual." }
+    },
+    {
+      "id": "u9-q05", "tier": "Exam level", "type": "mcq", "topic": "9.2 Confidence Intervals for the Slope of a Regression Model", "skill": "3. Using Probability and Simulation",
+      "stimulus": "Regression output (n = 20):\n\n| Predictor | Coef | SE Coef | T | P |\n|---|---|---|---|---|\n| Constant | 14.20 | 3.85 | 3.69 | 0.002 |\n| Hours | 2.35 | 0.62 | 3.79 | 0.001 |",
+      "stem": "What is a 95% confidence interval for the slope? (t* = 2.101 for df = 18)",
+      "choices": [
+        { "id": "A", "text": "2.35 ± 1.30" },
+        { "id": "B", "text": "2.35 ± 1.22" },
+        { "id": "C", "text": "14.20 ± 8.09" },
+        { "id": "D", "text": "2.35 ± 0.62" }
+      ],
+      "answer": "A",
+      "explanation": "2.101 × 0.62 ≈ 1.30.",
+      "distractors": { "B": "Uses z* = 1.96.", "C": "Uses the intercept row." }
+    },
+    {
+      "id": "u9-q06", "tier": "Exam level", "type": "mcq", "topic": "9.5 Carrying Out a Test for the Slope of a Regression Model", "skill": "4. Statistical Argumentation",
+      "stem": "Using the output above, a researcher tests H₀: β = 0 vs. Hₐ: β > 0. What is the P-value?",
+      "choices": [
+        { "id": "A", "text": "0.001" },
+        { "id": "B", "text": "About 0.0007" },
+        { "id": "C", "text": "0.002" },
+        { "id": "D", "text": "0.999" }
+      ],
+      "answer": "B",
+      "explanation": "Output P values are two-sided; b > 0 is in the direction of Hₐ, so the one-sided P ≈ 0.0013/2 ≈ 0.0007.",
+      "distractors": { "A": "Two-sided P reported in the output (rounded)." }
+    },
+    {
+      "id": "u9-q07", "tier": "Exam level", "type": "mcq", "topic": "9.4 Setting Up a Test for the Slope of a Regression Model", "skill": "1. Selecting Statistical Methods",
+      "stem": "Which plot should be used to check the Normal condition for inference about a regression slope?",
+      "choices": [
+        { "id": "A", "text": "A histogram of the x-values" },
+        { "id": "B", "text": "A histogram or dotplot of the residuals" },
+        { "id": "C", "text": "A boxplot of the y-values" },
+        { "id": "D", "text": "A scatterplot of y vs. x only" }
+      ],
+      "answer": "B",
+      "explanation": "The condition is about how responses vary around the line, shown by residuals.",
+      "distractors": {}
+    },
+    {
+      "id": "u9-q08", "tier": "Exam level", "type": "mcq", "topic": "9.5 Carrying Out a Test for the Slope of a Regression Model", "skill": "3. Using Probability and Simulation",
+      "stem": "A sample of 27 observations gives b = 1.2 and SE_b = 0.5. What are the test statistic and two-sided P-value for H₀: β = 0?",
+      "choices": [
+        { "id": "A", "text": "t = 2.4, P ≈ 0.024" },
+        { "id": "B", "text": "t = 2.4, P ≈ 0.012" },
+        { "id": "C", "text": "t = 0.6, P ≈ 0.55" },
+        { "id": "D", "text": "t = 2.4, P ≈ 0.016" }
+      ],
+      "answer": "A",
+      "explanation": "t = 1.2/0.5 = 2.4, df = 25, two-sided P ≈ 0.024.",
+      "distractors": { "B": "One-sided.", "D": "Uses the Normal distribution." }
+    },
+    {
+      "id": "u9-q09", "tier": "Exam level", "type": "mcq", "topic": "9.3 Justifying a Claim About the Slope of a Regression Model Based on a Confidence Interval", "skill": "4. Statistical Argumentation",
+      "stem": "Which is the correct interpretation of a 95% confidence interval for the slope of (0.8, 1.6) relating fertilizer amount (kg) to crop yield (bushels)?",
+      "choices": [
+        { "id": "A", "text": "We are 95% confident that, for each additional kg of fertilizer, the mean crop yield increases by between 0.8 and 1.6 bushels." },
+        { "id": "B", "text": "95% of fields produce 0.8 to 1.6 more bushels per kg." },
+        { "id": "C", "text": "The sample slope is between 0.8 and 1.6 with probability 0.95." },
+        { "id": "D", "text": "The correlation is 95%." }
+      ],
+      "answer": "A",
+      "explanation": "The interval estimates β, the change in the mean response per unit x.",
+      "distractors": { "C": "b is known exactly." }
+    },
+    {
+      "id": "u9-q10", "tier": "Exam level", "type": "mcq", "topic": "9.4 Setting Up a Test for the Slope of a Regression Model", "skill": "4. Statistical Argumentation",
+      "stem": "A residual plot shows a clear curved pattern. A student still performs a t-test for the slope. What is the main problem?",
+      "choices": [
+        { "id": "A", "text": "The Linear condition is violated, so inference about a linear slope is not valid." },
+        { "id": "B", "text": "The sample size is too large." },
+        { "id": "C", "text": "The test should use z instead of t." },
+        { "id": "D", "text": "There is no problem." }
+      ],
+      "answer": "A",
+      "explanation": "Curvature in residuals means a linear model is inappropriate.",
+      "distractors": {}
+    },
+    {
+      "id": "u9-q11", "tier": "Hardest", "type": "mcq", "topic": "9.2 Confidence Intervals for the Slope of a Regression Model", "skill": "4. Statistical Argumentation",
+      "stem": "Holding all else constant, which change would produce a narrower confidence interval for the slope?",
+      "choices": [
+        { "id": "A", "text": "Choosing x-values that are more spread out" },
+        { "id": "B", "text": "Increasing the residual standard deviation" },
+        { "id": "C", "text": "Using a higher confidence level" },
+        { "id": "D", "text": "Using fewer observations" }
+      ],
+      "answer": "A",
+      "explanation": "SE_b = s/(s_x√(n − 1)); larger s_x decreases SE_b.",
+      "distractors": { "B": "Larger s increases SE_b." }
+    },
+    {
+      "id": "u9-q12", "tier": "Hardest", "type": "mcq", "topic": "9.5 Carrying Out a Test for the Slope of a Regression Model", "skill": "4. Statistical Argumentation",
+      "stem": "A test of H₀: β = 0 for the relationship between city size and number of libraries gives P = 0.0001 using data from all 50 state capitals. Which is the most important caution?",
+      "choices": [
+        { "id": "A", "text": "The data include every state capital, not a random sample, so the inference may not apply beyond these cities; also, association doesn't imply causation." },
+        { "id": "B", "text": "The P-value is too small to be correct." },
+        { "id": "C", "text": "df should be 49." },
+        { "id": "D", "text": "The slope must be negative." }
+      ],
+      "answer": "A",
+      "explanation": "The Random condition isn't met in a meaningful way; results describe these cities.",
+      "distractors": { "C": "df = 48." }
+    },
+    {
+      "id": "u9-q13", "tier": "Hardest", "type": "mcq", "topic": "9.5 Carrying Out a Test for the Slope of a Regression Model", "skill": "3. Using Probability and Simulation",
+      "stem": "A researcher tests H₀: β = 2 vs. Hₐ: β ≠ 2, with b = 2.9, SE_b = 0.4, and n = 30. What is the test statistic?",
+      "choices": [
+        { "id": "A", "text": "t = 7.25" },
+        { "id": "B", "text": "t = 2.25" },
+        { "id": "C", "text": "t = 0.36" },
+        { "id": "D", "text": "t = 2.90" }
+      ],
+      "answer": "B",
+      "explanation": "t = (2.9 − 2)/0.4 = 2.25, df = 28. Output T (7.25) is for β₀ = 0.",
+      "distractors": { "A": "Uses β₀ = 0." }
+    },
+    {
+      "id": "u9-q14", "tier": "Hardest", "type": "mcq", "topic": "9.2 Confidence Intervals for the Slope of a Regression Model", "skill": "4. Statistical Argumentation",
+      "stem": "A 99% confidence interval for β is (−0.15, 0.62). Which statement about a two-sided test of H₀: β = 0 is correct?",
+      "choices": [
+        { "id": "A", "text": "H₀ would be rejected at α = 0.01." },
+        { "id": "B", "text": "H₀ would not be rejected at α = 0.01." },
+        { "id": "C", "text": "H₀ would definitely be rejected at α = 0.05." },
+        { "id": "D", "text": "The slope is definitely 0." }
+      ],
+      "answer": "B",
+      "explanation": "0 is in the 99% interval, so the two-sided P-value exceeds 0.01. At α = 0.05 the result is unknown from this interval alone.",
+      "distractors": { "C": "A 95% interval might or might not contain 0." }
+    },
+    {
+      "id": "u9-frq1", "tier": "Exam level", "type": "frq", "topic": "9.5 Carrying Out a Test for the Slope of a Regression Model", "frqType": "Short FRQ (Q1–Q5)",
+      "prompt": "A café owner randomly selects 15 days and records the high temperature (°F) and the number of hot drinks sold.\n\n| Predictor | Coef | SE Coef |\n|---|---|---|\n| Constant | 182.4 | 21.7 |\n| Temp | −0.84 | 0.31 |\n\ns = 9.6    R-sq = 36.1%\n\nThe residual plot shows no pattern and roughly constant spread; a dotplot of residuals is roughly symmetric with no outliers.",
+      "parts": [
+        { "label": "a", "prompt": "Interpret the slope of the least-squares line in context.", "points": 1 },
+        { "label": "b", "prompt": "State hypotheses for testing whether there is a negative linear relationship between temperature and hot drink sales, and check conditions.", "points": 1 },
+        { "label": "c", "prompt": "Calculate the test statistic and P-value, and state a conclusion at α = 0.05.", "points": 1 },
+        { "label": "d", "prompt": "Construct and interpret a 90% confidence interval for the slope.", "points": 1 }
+      ],
+      "points": 4,
+      "minutes": 13,
+      "rubric": [
+        { "criterion": "a: Slope", "points": 1, "description": "For each 1°F increase in high temperature, the predicted number of hot drinks sold decreases by 0.84." },
+        { "criterion": "b: Hypotheses and conditions", "points": 1, "description": "H₀: β = 0; Hₐ: β < 0, β = true slope relating temperature to hot drinks sold. Linear (no residual pattern), Independent (15 days < 10% of all days), Normal (residual dotplot symmetric, no outliers), Equal SD (constant spread), Random (random days)." },
+        { "criterion": "c: Mechanics and conclusion", "points": 1, "description": "t = −0.84/0.31 ≈ −2.71, df = 13, P ≈ 0.009 < 0.05; reject H₀; convincing evidence of a negative linear relationship." },
+        { "criterion": "d: Interval", "points": 1, "description": "t* = 1.771; −0.84 ± 1.771(0.31) = (−1.39, −0.29). We are 90% confident the true slope (change in mean hot drinks sold per 1°F increase) is between −1.39 and −0.29." }
+      ],
+      "sampleResponse": "(a) For each 1°F increase in the day's high temperature, the predicted number of hot drinks sold decreases by 0.84.\n\n(b) H₀: β = 0; Hₐ: β < 0, where β is the true slope of the population regression line relating high temperature to the number of hot drinks sold.\nLinear: the residual plot shows no curved pattern.\nIndependent: 15 days is less than 10% of all days the café is open.\nNormal: the dotplot of residuals is roughly symmetric with no outliers.\nEqual SD: the residual plot shows roughly constant spread.\nRandom: the days were randomly selected.\n\n(c) t = (−0.84 − 0)/0.31 ≈ −2.71, df = 15 − 2 = 13. P-value = P(t ≤ −2.71) ≈ 0.009. Since 0.009 < 0.05, reject H₀. There is convincing evidence of a negative linear relationship between high temperature and hot drinks sold.\n\n(d) t* for 90% confidence with df = 13 is 1.771. −0.84 ± 1.771(0.31) = −0.84 ± 0.55 = (−1.39, −0.29). We are 90% confident that the interval from −1.39 to −0.29 captures the true slope: for each 1°F increase in high temperature, the mean number of hot drinks sold decreases by between 0.29 and 1.39."
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "number": 5,
+  "title": "Sampling Distributions",
+  "guide": {
+    "summary": "Unit 5 connects probability to inference. A sampling distribution describes how a statistic varies from sample to sample. You need the center, spread, and shape of sampling distributions for sample proportions, sample means, and differences of each; the conditions that justify Normal approximations; the Central Limit Theorem; and the ideas of bias and variability in estimators.",
+    "sections": [
+      {
+        "heading": "Statistics, parameters, and estimators",
+        "body": "A parameter describes a population (p, μ, σ); a statistic describes a sample (p̂, x̄, s). The sampling distribution of a statistic is the distribution of its values across all possible samples of the same size. An estimator is unbiased if the mean of its sampling distribution equals the parameter (p̂ and x̄ are unbiased; the sample maximum is biased low for the population maximum). Variability decreases as sample size increases. Think of a target: bias is aiming off-center; variability is scatter."
+      },
+      {
+        "heading": "Sample proportions",
+        "body": "μ_p̂ = p. σ_p̂ = √(p(1 − p)/n), valid when n ≤ 10% of the population (10% condition). The shape is approximately Normal when np ≥ 10 and n(1 − p) ≥ 10 (Large Counts). Quadrupling n halves the standard deviation. For differences of independent sample proportions: μ = p₁ − p₂ and σ = √(p₁(1 − p₁)/n₁ + p₂(1 − p₂)/n₂), approximately Normal if all four counts are at least 10."
+      },
+      {
+        "heading": "Sample means and the CLT",
+        "body": "μ_x̄ = μ and σ_x̄ = σ/√n (10% condition). If the population is Normal, x̄ is Normal for any n. Central Limit Theorem: for any population shape, the sampling distribution of x̄ becomes approximately Normal as n grows; n ≥ 30 is a common guideline. For small samples from a skewed population, the sampling distribution of x̄ remains skewed (less so than the population). For differences of independent sample means: μ = μ₁ − μ₂ and σ = √(σ₁²/n₁ + σ₂²/n₂)."
+      },
+      {
+        "heading": "Using sampling distributions",
+        "body": "To find the probability of a sample result, check conditions, state the sampling distribution (shape, mean, SD), standardize, and compute. A very small probability for an observed statistic, under an assumed parameter value, is evidence against that assumption: this is the logic of significance tests in Units 6–9."
+      }
+    ],
+    "keyTakeaways": [
+      "p̂: mean p, SD √(p(1 − p)/n).",
+      "x̄: mean μ, SD σ/√n.",
+      "Large Counts: np ≥ 10 and n(1 − p) ≥ 10.",
+      "CLT: x̄ approximately Normal for large n regardless of population shape.",
+      "Larger n → less variability; doesn't fix bias.",
+      "10% condition justifies the SD formula when sampling without replacement."
+    ],
+    "commonMistakes": [
+      "Saying the CLT makes the population (or the sample) Normal.",
+      "Using σ instead of σ/√n for a sample mean.",
+      "Forgetting to check Large Counts before using Normal for p̂.",
+      "Subtracting variances for differences.",
+      "Confusing the distribution of a sample with the sampling distribution."
+    ],
+    "examTips": [
+      "Name the sampling distribution explicitly with shape, mean, and SD before calculating.",
+      "Justify Normal shape with the specific condition and numbers.",
+      "MCQs often test what happens to the SD when n changes.",
+      "Bias questions describe an estimator's simulated sampling distribution; compare its center to the parameter."
+    ],
+    "cramSheet": "**Parameter:** p, μ, σ · **Statistic:** p̂, x̄, s\n\n**p̂:** μ = p · σ = √(p(1 − p)/n) · Normal if np, n(1 − p) ≥ 10\n\n**x̄:** μ = μ · σ = σ/√n · Normal if pop Normal or n ≥ 30 (CLT)\n\n**Differences:** subtract means · add variances\n\n**10%:** n ≤ 0.1N\n\n**Bias:** center ≠ parameter · **Variability:** ↓ with larger n (×4 n → ½ SD)"
+  },
+  "vocab": [
+    { "term": "Parameter", "definition": "A number that describes a population." },
+    { "term": "Statistic", "definition": "A number that describes a sample." },
+    { "term": "Sampling distribution", "definition": "The distribution of values of a statistic across all possible samples of the same size." },
+    { "term": "Unbiased estimator", "definition": "A statistic whose sampling distribution has a mean equal to the parameter it estimates." },
+    { "term": "Variability of a statistic", "definition": "The spread of its sampling distribution, which decreases as sample size increases." },
+    { "term": "Central Limit Theorem", "definition": "For large n, the sampling distribution of x̄ is approximately Normal regardless of the population's shape." },
+    { "term": "Large Counts condition", "definition": "np ≥ 10 and n(1 − p) ≥ 10, so the sampling distribution of p̂ is approximately Normal." },
+    { "term": "10% condition", "definition": "When sampling without replacement, n ≤ 10% of the population, so the SD formula is approximately correct." },
+    { "term": "Standard deviation of p̂", "definition": "√(p(1 − p)/n)." },
+    { "term": "Standard deviation of x̄", "definition": "σ/√n." },
+    { "term": "Point estimate", "definition": "A single statistic used to estimate a parameter." },
+    { "term": "Biased estimator", "definition": "A statistic whose sampling distribution is not centered at the parameter." }
+  ],
+  "practice": [
+    {
+      "id": "u5-q01", "tier": "Intro", "type": "mcq", "topic": "5.5 Sampling Distributions for Sample Proportions", "skill": "3. Using Probability and Simulation",
+      "stem": "In a large city, 60% of adults own a car. For random samples of 100 adults, what is the standard deviation of the sampling distribution of p̂?",
+      "choices": [
+        { "id": "A", "text": "0.0024" },
+        { "id": "B", "text": "0.049" },
+        { "id": "C", "text": "0.24" },
+        { "id": "D", "text": "0.49" }
+      ],
+      "answer": "B",
+      "explanation": "√(0.6 × 0.4/100) = √0.0024 ≈ 0.049.",
+      "distractors": { "A": "Variance, not SD.", "D": "√(p(1 − p)) without dividing by n." }
+    },
+    {
+      "id": "u5-q02", "tier": "Intro", "type": "mcq", "topic": "5.4 Biased and Unbiased Point Estimates", "skill": "1. Selecting Statistical Methods",
+      "stem": "Which statistic is an unbiased estimator of the population mean?",
+      "choices": [
+        { "id": "A", "text": "The sample median from a skewed population" },
+        { "id": "B", "text": "The sample mean" },
+        { "id": "C", "text": "The sample maximum" },
+        { "id": "D", "text": "The sample range" }
+      ],
+      "answer": "B",
+      "explanation": "The sampling distribution of x̄ is centered at μ.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q03", "tier": "Intro", "type": "mcq", "topic": "5.7 Sampling Distributions for Sample Means", "skill": "3. Using Probability and Simulation",
+      "stem": "If the sample size is increased from 25 to 100, the standard deviation of the sampling distribution of x̄ is",
+      "choices": [
+        { "id": "A", "text": "multiplied by 4" },
+        { "id": "B", "text": "multiplied by 2" },
+        { "id": "C", "text": "divided by 2" },
+        { "id": "D", "text": "divided by 4" }
+      ],
+      "answer": "C",
+      "explanation": "σ/√n: √100/√25 = 2, so the SD is halved.",
+      "distractors": { "D": "Forgets the square root." }
+    },
+    {
+      "id": "u5-q04", "tier": "Intro", "type": "mcq", "topic": "5.3 The Central Limit Theorem", "skill": "4. Statistical Argumentation",
+      "stem": "The Central Limit Theorem states that, for large enough sample sizes,",
+      "choices": [
+        { "id": "A", "text": "the population becomes approximately Normal" },
+        { "id": "B", "text": "the sample data become approximately Normal" },
+        { "id": "C", "text": "the sampling distribution of x̄ is approximately Normal" },
+        { "id": "D", "text": "the sample mean equals the population mean" }
+      ],
+      "answer": "C",
+      "explanation": "The CLT is about the distribution of sample means, not the population or individual samples.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q05", "tier": "Exam level", "type": "mcq", "topic": "5.5 Sampling Distributions for Sample Proportions", "skill": "3. Using Probability and Simulation",
+      "stem": "In a large city, 60% of adults own a car. In a random sample of 100 adults, what is the approximate probability that more than 68% own a car?",
+      "choices": [
+        { "id": "A", "text": "0.051" },
+        { "id": "B", "text": "0.320" },
+        { "id": "C", "text": "0.680" },
+        { "id": "D", "text": "0.949" }
+      ],
+      "answer": "A",
+      "explanation": "np = 60, n(1 − p) = 40 ≥ 10. SD = 0.049; z = (0.68 − 0.60)/0.049 ≈ 1.63; P ≈ 0.051.",
+      "distractors": { "D": "P(p̂ < 0.68)." }
+    },
+    {
+      "id": "u5-q06", "tier": "Exam level", "type": "mcq", "topic": "5.7 Sampling Distributions for Sample Means", "skill": "3. Using Probability and Simulation",
+      "stem": "Cholesterol levels in a population are right-skewed with mean 170 and SD 15. For random samples of 36 people, what is the approximate probability that the sample mean exceeds 175?",
+      "choices": [
+        { "id": "A", "text": "0.023" },
+        { "id": "B", "text": "0.370" },
+        { "id": "C", "text": "0.159" },
+        { "id": "D", "text": "It cannot be determined because the population is skewed." }
+      ],
+      "answer": "A",
+      "explanation": "n = 36 ≥ 30, so by the CLT x̄ is approximately Normal with SD 15/6 = 2.5. z = 2; P ≈ 0.023.",
+      "distractors": { "B": "Uses σ = 15 instead of σ/√n.", "D": "The CLT handles the skew." }
+    },
+    {
+      "id": "u5-q07", "tier": "Exam level", "type": "mcq", "topic": "5.4 Biased and Unbiased Point Estimates", "skill": "4. Statistical Argumentation",
+      "stimulus": "Simulated sampling distributions of three estimators of a parameter equal to 50:\nEstimator I: mean 50, SD 8\nEstimator II: mean 55, SD 1\nEstimator III: mean 50, SD 2",
+      "stem": "Which estimator is best, and why?",
+      "choices": [
+        { "id": "A", "text": "I, because it is unbiased" },
+        { "id": "B", "text": "II, because it has the least variability" },
+        { "id": "C", "text": "III, because it is unbiased and has low variability" },
+        { "id": "D", "text": "All are equally good" }
+      ],
+      "answer": "C",
+      "explanation": "III is centered at 50 with small spread; II is biased; I is unbiased but highly variable.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q08", "tier": "Exam level", "type": "mcq", "topic": "5.5 Sampling Distributions for Sample Proportions", "skill": "1. Selecting Statistical Methods",
+      "stem": "About 3% of parts from a machine are defective. Random samples of 100 parts are taken. Why is a Normal model NOT appropriate for the sampling distribution of p̂?",
+      "choices": [
+        { "id": "A", "text": "The 10% condition fails." },
+        { "id": "B", "text": "np = 3 is less than 10, so the sampling distribution is right-skewed." },
+        { "id": "C", "text": "The sample isn't random." },
+        { "id": "D", "text": "A Normal model is appropriate." }
+      ],
+      "answer": "B",
+      "explanation": "Large Counts fails: the expected number of defectives is only 3.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q09", "tier": "Exam level", "type": "mcq", "topic": "5.6 Sampling Distributions for Differences in Sample Proportions", "skill": "3. Using Probability and Simulation",
+      "stem": "In Town 1, 50% of residents support a park bond; in Town 2, 40% do. Independent random samples of 200 are taken from each town. What is the approximate probability that the Town 2 sample proportion is greater than the Town 1 sample proportion?",
+      "choices": [
+        { "id": "A", "text": "0.022" },
+        { "id": "B", "text": "0.10" },
+        { "id": "C", "text": "0.42" },
+        { "id": "D", "text": "0.978" }
+      ],
+      "answer": "A",
+      "explanation": "p̂₁ − p̂₂ has mean 0.10, SD √(0.25/200 + 0.24/200) ≈ 0.0495. P(p̂₁ − p̂₂ < 0): z ≈ −2.02, P ≈ 0.022.",
+      "distractors": { "D": "Probability Town 1 is greater." }
+    },
+    {
+      "id": "u5-q10", "tier": "Exam level", "type": "mcq", "topic": "5.8 Sampling Distributions for Differences in Sample Means", "skill": "3. Using Probability and Simulation",
+      "stem": "Population 1 has SD 8 and Population 2 has SD 6. Independent random samples of 40 and 50 are taken. What is the standard deviation of the sampling distribution of x̄₁ − x̄₂?",
+      "choices": [
+        { "id": "A", "text": "0.42" },
+        { "id": "B", "text": "1.52" },
+        { "id": "C", "text": "2.00" },
+        { "id": "D", "text": "10.0" }
+      ],
+      "answer": "B",
+      "explanation": "√(64/40 + 36/50) = √(1.6 + 0.72) = √2.32 ≈ 1.52.",
+      "distractors": { "D": "√(64 + 36), ignoring sample sizes." }
+    },
+    {
+      "id": "u5-q11", "tier": "Hardest", "type": "mcq", "topic": "5.3 The Central Limit Theorem", "skill": "4. Statistical Argumentation",
+      "stem": "Household water use in a town is strongly right-skewed. Many random samples of size 5 are taken and x̄ is computed for each. The sampling distribution of x̄ is most likely",
+      "choices": [
+        { "id": "A", "text": "approximately Normal, because of the CLT" },
+        { "id": "B", "text": "right-skewed, but less skewed than the population" },
+        { "id": "C", "text": "left-skewed" },
+        { "id": "D", "text": "exactly the same shape as the population" }
+      ],
+      "answer": "B",
+      "explanation": "With n = 5, the CLT hasn't taken full effect, but averaging reduces skew.",
+      "distractors": { "A": "Sample is too small for a strongly skewed population." }
+    },
+    {
+      "id": "u5-q12", "tier": "Hardest", "type": "mcq", "topic": "5.4 Biased and Unbiased Point Estimates", "skill": "4. Statistical Argumentation",
+      "stem": "A researcher uses the largest value in a random sample of 10 to estimate the largest value in a population. This estimator is",
+      "choices": [
+        { "id": "A", "text": "unbiased, because samples are random" },
+        { "id": "B", "text": "biased low, because the sample maximum can never exceed the population maximum and is usually smaller" },
+        { "id": "C", "text": "biased high" },
+        { "id": "D", "text": "unbiased if the sample size is increased to 30" }
+      ],
+      "answer": "B",
+      "explanation": "The sampling distribution of the sample max lies at or below the parameter, so its mean is below it.",
+      "distractors": { "D": "Bias decreases but remains." }
+    },
+    {
+      "id": "u5-q13", "tier": "Hardest", "type": "mcq", "topic": "5.5 Sampling Distributions for Sample Proportions", "skill": "4. Statistical Argumentation",
+      "stem": "A student samples 300 of the 1,200 students at a school without replacement and uses √(p(1 − p)/n) for the SD of p̂. Which is true?",
+      "choices": [
+        { "id": "A", "text": "The formula is accurate because the sample is random." },
+        { "id": "B", "text": "The formula overstates the true variability, because the sample is more than 10% of the population." },
+        { "id": "C", "text": "The formula understates the true variability." },
+        { "id": "D", "text": "The sample proportion will be biased." }
+      ],
+      "answer": "B",
+      "explanation": "Sampling a large fraction without replacement reduces variability below the formula's value.",
+      "distractors": { "D": "p̂ remains unbiased." }
+    },
+    {
+      "id": "u5-q14", "tier": "Hardest", "type": "mcq", "topic": "5.7 Sampling Distributions for Sample Means", "skill": "3. Using Probability and Simulation",
+      "stem": "A population is Normal with mean μ and standard deviation σ. For random samples of size 4, what is P(x̄ > μ + σ/2)?",
+      "choices": [
+        { "id": "A", "text": "0.025" },
+        { "id": "B", "text": "0.159" },
+        { "id": "C", "text": "0.309" },
+        { "id": "D", "text": "0.500" }
+      ],
+      "answer": "B",
+      "explanation": "σ_x̄ = σ/2. (σ/2)/(σ/2) = 1, so P(Z > 1) ≈ 0.159.",
+      "distractors": { "C": "Uses σ instead of σ/√4: P(Z > 0.5)." }
+    },
+    {
+      "id": "u5-frq1", "tier": "Exam level", "type": "frq", "topic": "5.5 Sampling Distributions for Sample Proportions", "frqType": "Short FRQ (Q1–Q5)",
+      "prompt": "A city council member claims that 40% of the city's voters support a new transit tax. A polling firm will take a random sample of 150 voters from the city's 220,000 registered voters.",
+      "parts": [
+        { "label": "a", "prompt": "Assuming the claim is true, describe the sampling distribution of p̂, the sample proportion who support the tax (shape, center, variability), and justify the shape.", "points": 1 },
+        { "label": "b", "prompt": "Justify the formula you used for the standard deviation.", "points": 1 },
+        { "label": "c", "prompt": "Assuming the claim is true, find the probability that 50% or more of the sample supports the tax.", "points": 1 },
+        { "label": "d", "prompt": "The poll finds that 75 of the 150 voters (50%) support the tax. Does this give convincing evidence that the council member's claim is too low? Explain using your answer to (c).", "points": 1 }
+      ],
+      "points": 4,
+      "minutes": 13,
+      "rubric": [
+        { "criterion": "a: Sampling distribution", "points": 1, "description": "Approximately Normal (150(0.4) = 60 ≥ 10 and 150(0.6) = 90 ≥ 10), mean 0.40, SD √(0.4·0.6/150) = 0.040." },
+        { "criterion": "b: 10% condition", "points": 1, "description": "150 is less than 10% of 220,000 voters, so sampling without replacement is approximately independent." },
+        { "criterion": "c: Probability", "points": 1, "description": "z = (0.50 − 0.40)/0.040 = 2.5; P(p̂ ≥ 0.50) ≈ 0.0062 (with labeled work)." },
+        { "criterion": "d: Conclusion", "points": 1, "description": "Yes; if the true proportion were 0.40, a sample proportion of 0.50 or higher would occur only about 0.6% of the time, so the result is convincing evidence that more than 40% support the tax." }
+      ],
+      "sampleResponse": "(a) The sampling distribution of p̂ is approximately Normal because np = 150(0.40) = 60 and n(1 − p) = 150(0.60) = 90 are both at least 10. Its mean is p = 0.40, and its standard deviation is √(0.40 × 0.60/150) = 0.040.\n\n(b) The sample of 150 is less than 10% of the 220,000 registered voters, so even though sampling is without replacement, the observations are approximately independent and the formula is valid.\n\n(c) z = (0.50 − 0.40)/0.040 = 2.5. P(p̂ ≥ 0.50) = P(Z ≥ 2.5) ≈ 0.0062.\n\n(d) Yes. If 40% of voters truly supported the tax, a random sample of 150 would give 50% or more support only about 0.62% of the time. Because this outcome is so unlikely under the claim, the poll provides convincing evidence that the true proportion of supporters is greater than 40%."
+    }
+  ]
+}

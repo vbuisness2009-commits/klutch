@@ -1,0 +1,87 @@
+{
+ "slug": "statistics",
+ "name": "AP Statistics",
+ "lastVerified": "2026-10",
+ "overview": "AP Statistics is a non-calculus introductory college statistics course built on four themes: exploring data, planning studies, using probability to model random behavior, and drawing statistical inferences. The exam rewards precise communication in context: describing distributions with shape, center, variability, and unusual features; naming the correct inference procedure and checking its conditions; interpreting intervals, P-values, and regression output; and explaining why conclusions follow (or don't) from how data were collected.",
+ "examMode": "Hybrid digital: multiple-choice is taken in the Bluebook app; free-response questions are viewed in Bluebook and answers are handwritten in a paper booklet (confirm the current format on AP Central).",
+ "totalMinutes": 180,
+ "sections": [
+  {
+   "name": "Section I",
+   "questionType": "Multiple choice",
+   "count": 40,
+   "minutes": 90,
+   "weight": "50%",
+   "calculator": "Graphing calculator required",
+   "notes": "Many questions are built on computer output, graphs, tables, or study descriptions. A formula sheet and tables (standard normal, t, chi-square) are provided."
+  },
+  {
+   "name": "Section II",
+   "questionType": "Free response: 5 short questions + 1 investigative task",
+   "count": 6,
+   "minutes": 90,
+   "weight": "50%",
+   "calculator": "Graphing calculator required",
+   "notes": "Q1–Q5 take about 13 minutes each; Q6, the investigative task, takes about 25 minutes and applies skills in a new way. Q1–Q5 count 75% of the section and Q6 counts 25%."
+  }
+ ],
+ "units": [
+  { "number": 1, "title": "Exploring One-Variable Data", "weight": "15–23%" },
+  { "number": 2, "title": "Exploring Two-Variable Data", "weight": "5–7%" },
+  { "number": 3, "title": "Collecting Data", "weight": "12–15%" },
+  { "number": 4, "title": "Probability, Random Variables, and Probability Distributions", "weight": "10–20%" },
+  { "number": 5, "title": "Sampling Distributions", "weight": "7–12%" },
+  { "number": 6, "title": "Inference for Categorical Data: Proportions", "weight": "12–15%" },
+  { "number": 7, "title": "Inference for Quantitative Data: Means", "weight": "10–18%" },
+  { "number": 8, "title": "Inference for Categorical Data: Chi-Square", "weight": "2–5%" },
+  { "number": 9, "title": "Inference for Quantitative Data: Slopes", "weight": "2–5%" }
+ ],
+ "skills": [
+  { "name": "1. Selecting Statistical Methods", "description": "Choose appropriate methods for collecting, analyzing, and drawing conclusions from data, including the correct inference procedure." },
+  { "name": "2. Data Analysis", "description": "Describe patterns, trends, associations, and relationships in data, in context." },
+  { "name": "3. Using Probability and Simulation", "description": "Explore random phenomena with probability models, simulation, and distributions." },
+  { "name": "4. Statistical Argumentation", "description": "Develop explanations or justify conclusions using evidence from data, definitions, or inference." }
+ ],
+ "scoring": {
+  "summary": "Section I (40 MCQ, no guessing penalty) and Section II are each 50% of the composite. Each FRQ is scored holistically 0–4 (E = essentially correct, P = partially correct, I = incorrect on each part, combined into a score). Context and communication count: a correct number with no context or a missing condition check usually drops a part from E to P.",
+  "approxCutoffs": [
+   { "score": 5, "minPercent": 70 },
+   { "score": 4, "minPercent": 57 },
+   { "score": 3, "minPercent": 44 },
+   { "score": 2, "minPercent": 32 }
+  ]
+ },
+ "frqTypes": [
+  { "name": "Short FRQ (Q1–Q5)", "points": 4, "howScored": "Holistic 0–4 built from E/P/I on each part. Typical focuses: Q1 exploring data, Q2 collecting data (sampling or experimental design), Q3 probability and sampling distributions, Q4 inference, Q5 a combination of topics." },
+  { "name": "Investigative Task (Q6)", "points": 4, "howScored": "Holistic 0–4; extends familiar skills to an unfamiliar method or setting, often defining a new statistic or procedure in the question. Worth 25% of the free-response section." }
+ ],
+ "strategy": [
+  "Always answer in context: name the variable, the units, and the population.",
+  "For any inference question, use the four steps: State (parameter and hypotheses or confidence level), Plan (name the procedure and check Random, Independence/10%, and Normal/Large Counts), Do (test statistic, df, P-value or interval), Conclude (in context, linked to α or the interval).",
+  "Describe distributions with SOCS: Shape, Outliers/unusual features, Center, Spread, using numbers and comparative language when comparing groups.",
+  "Interpret a confidence interval: 'We are C% confident that the interval from __ to __ captures the true [parameter in context].' Interpret the level: in repeated samples, about C% of intervals capture the parameter.",
+  "Never 'accept' H₀. Say 'there is not convincing evidence that…'.",
+  "Identify random sampling (→ generalize to the population) separately from random assignment (→ cause-and-effect).",
+  "Show the formula with numbers substituted, or name the calculator function with all inputs labeled; bare calculator answers lose credit.",
+  "On Q6, read every part before starting; later parts often depend on a new statistic defined in early parts."
+ ],
+ "pitfalls": [
+  "Interpreting a P-value as the probability that H₀ is true.",
+  "Writing hypotheses in terms of statistics (p̂, x̄) instead of parameters (p, μ).",
+  "Saying a large sample makes the population Normal; the CLT is about the sampling distribution.",
+  "Claiming causation from an observational study.",
+  "Using a two-sample procedure on paired data, or vice versa.",
+  "Interpreting r² or the slope without context, or the y-intercept when x = 0 is outside the data.",
+  "Treating 'not significant' as proof of no effect.",
+  "Confusing Type I (rejecting a true H₀) and Type II (failing to reject a false H₀) errors and their consequences."
+ ],
+ "referenceSheet": "Provided in both sections: descriptive statistics (x̄, s, ŷ = a + bx, b = r·s_y/s_x, a = ȳ − b·x̄); probability (P(A ∪ B), P(A | B), mean and SD of discrete random variables, binomial P(X = x) = C(n,x)pˣ(1 − p)ⁿ⁻ˣ with μ = np and σ = √(np(1 − p)), geometric P(X = x) = (1 − p)ˣ⁻¹p with μ = 1/p and σ = √(1 − p)/p); sampling distributions and inference (statistic ± (critical value)(SE), standardized test statistic = (statistic − parameter)/SE, chi-square = Σ(observed − expected)²/expected, and the standard error for every procedure: one and two proportions, one and two means, slope); tables for standard normal probabilities, t critical values, and chi-square critical values.",
+ "sources": [
+  { "title": "AP Statistics Exam (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-statistics/exam" },
+  { "title": "AP Statistics Course and Exam Description", "url": "https://apcentral.collegeboard.org/media/pdf/ap-statistics-course-and-exam-description.pdf" }
+ ],
+ "caveats": [
+  "Exam format details (number of MCQ answer options, digital vs. handwritten FRQs) have changed during the move to Bluebook; confirm the current year on AP Central.",
+  "Cutoffs are estimates; College Board does not publish exact cut scores."
+ ]
+}

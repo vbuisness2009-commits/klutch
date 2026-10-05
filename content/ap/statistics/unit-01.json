@@ -1,0 +1,265 @@
+{
+  "number": 1,
+  "title": "Exploring One-Variable Data",
+  "guide": {
+    "summary": "Unit 1 is the most heavily weighted unit. It covers classifying variables, displaying categorical and quantitative data, describing distributions (shape, outliers, center, spread), computing and interpreting summary statistics, boxplots and the 1.5·IQR rule, comparing distributions, linear transformations, z-scores, and Normal distribution calculations.",
+    "sections": [
+      {
+        "heading": "Variables and displays",
+        "body": "Categorical variables place individuals into groups (eye color, zip code); quantitative variables take numerical values for which arithmetic makes sense (height, time). Categorical data are displayed with frequency tables, bar charts, and pie charts. Quantitative data use dotplots, stemplots, histograms, and boxplots. Histograms show shape but hide individual values; boxplots show the five-number summary and outliers but hide shape details such as bimodality."
+      },
+      {
+        "heading": "Describing a distribution",
+        "body": "Always address four features in context: Shape (symmetric, skewed left/right, unimodal/bimodal), Outliers and other unusual features (gaps, clusters), Center (mean or median), and Spread (SD, IQR, or range). In a right-skewed distribution the mean is pulled toward the tail, so mean > median. The median and IQR are resistant to outliers; the mean, SD, and range are not. Use median and IQR for skewed data or data with outliers. When comparing distributions, use comparative words ('greater than', 'more variable') and give numbers for both groups."
+      },
+      {
+        "heading": "Summary statistics and outliers",
+        "body": "Five-number summary: min, Q1, median, Q3, max. IQR = Q3 − Q1. Outlier rule: below Q1 − 1.5·IQR or above Q3 + 1.5·IQR (alternatively, more than 2 SD from the mean). The standard deviation measures the typical distance of values from the mean. Adding a constant to every value shifts measures of center and location but leaves spread unchanged; multiplying by a constant multiplies center, location, and spread (SD, IQR) by that constant."
+      },
+      {
+        "heading": "z-scores and Normal distributions",
+        "body": "z = (x − mean)/SD tells how many standard deviations a value is from the mean and allows comparison across distributions. A Normal model is symmetric and bell-shaped. Empirical rule: about 68%, 95%, and 99.7% of values fall within 1, 2, and 3 SDs of the mean. For Normal calculations, draw and shade a curve, standardize, and use a table or normalcdf; for percentiles, use invNorm then x = mean + z·SD. To find an unknown SD, solve z = (x − mean)/SD with the z for the given percentile."
+      }
+    ],
+    "keyTakeaways": [
+      "Describe distributions with shape, outliers, center, spread, in context.",
+      "Skew pulls the mean toward the tail.",
+      "Median and IQR are resistant; mean and SD are not.",
+      "Outliers: beyond 1.5·IQR from the quartiles.",
+      "Adding shifts center only; multiplying scales center and spread.",
+      "z = (x − μ)/σ; 68–95–99.7 rule."
+    ],
+    "commonMistakes": [
+      "Describing a distribution without context or without numbers.",
+      "Saying 'the data is Normal' about any symmetric distribution.",
+      "Changing SD when adding a constant.",
+      "Reading a boxplot as showing the number of observations.",
+      "Using calculator syntax alone ('normalcdf(…)') without labeled inputs."
+    ],
+    "examTips": [
+      "Comparison questions need all four features for both groups with comparative language.",
+      "Normal calculations earn credit only with labeled distribution, mean, SD, and boundary.",
+      "Boxplot comparisons: check what the quartiles imply about percentages (e.g., 'at least 75%').",
+      "Transformations show up often in MCQs: track center and spread separately."
+    ],
+    "cramSheet": "**Describe:** shape · outliers · center · spread · CONTEXT\n\n**Skew:** right → mean > median · left → mean < median\n\n**Resistant:** median, IQR · not: mean, SD, range\n\n**Outlier fences:** Q1 − 1.5·IQR, Q3 + 1.5·IQR\n\n**Transform:** +c shifts center · ×c scales center and spread\n\n**z:** (x − μ)/σ · 68/95/99.7\n\n**Normal:** shade, standardize, normalcdf / invNorm · x = μ + zσ"
+  },
+  "vocab": [
+    { "term": "Categorical variable", "definition": "A variable that places individuals into groups or categories." },
+    { "term": "Quantitative variable", "definition": "A variable with numerical values for which arithmetic operations make sense." },
+    { "term": "Distribution", "definition": "The values a variable takes and how often it takes them." },
+    { "term": "Skewed right", "definition": "A distribution with a longer tail toward larger values." },
+    { "term": "Resistant statistic", "definition": "A measure not strongly affected by extreme values, such as the median or IQR." },
+    { "term": "Interquartile range (IQR)", "definition": "Q3 − Q1; the range of the middle 50% of the data." },
+    { "term": "Standard deviation", "definition": "The typical distance of observations from the mean." },
+    { "term": "Five-number summary", "definition": "Minimum, Q1, median, Q3, maximum." },
+    { "term": "Outlier", "definition": "A value that falls far outside the overall pattern; often beyond 1.5·IQR from the quartiles." },
+    { "term": "z-score", "definition": "Number of standard deviations a value is from the mean." },
+    { "term": "Percentile", "definition": "The percent of values less than or equal to a given value." },
+    { "term": "Normal distribution", "definition": "A symmetric, single-peaked, bell-shaped distribution described by its mean and standard deviation." }
+  ],
+  "practice": [
+    {
+      "id": "u1-q01", "tier": "Intro", "type": "mcq", "topic": "1.2 The Language of Variation: Variables", "skill": "2. Data Analysis",
+      "stem": "A survey records each respondent's age (years), zip code, number of pets, and favorite streaming service. Which variables are categorical?",
+      "choices": [
+        { "id": "A", "text": "Age and number of pets" },
+        { "id": "B", "text": "Zip code and favorite streaming service" },
+        { "id": "C", "text": "Zip code only" },
+        { "id": "D", "text": "All four variables" }
+      ],
+      "answer": "B",
+      "explanation": "Zip codes are labels; averaging them makes no sense. Streaming service is a category.",
+      "distractors": { "C": "Forgets streaming service." }
+    },
+    {
+      "id": "u1-q02", "tier": "Intro", "type": "mcq", "topic": "1.6 Describing the Distribution of a Quantitative Variable", "skill": "2. Data Analysis",
+      "stem": "The distribution of annual incomes in a town is strongly skewed to the right. Which is most likely true?",
+      "choices": [
+        { "id": "A", "text": "The mean is greater than the median." },
+        { "id": "B", "text": "The mean is less than the median." },
+        { "id": "C", "text": "The mean equals the median." },
+        { "id": "D", "text": "The IQR is greater than the range." }
+      ],
+      "answer": "A",
+      "explanation": "A few very high incomes pull the mean toward the right tail.",
+      "distractors": { "D": "IQR can never exceed the range." }
+    },
+    {
+      "id": "u1-q03", "tier": "Intro", "type": "mcq", "topic": "1.10 The Normal Distribution", "skill": "2. Data Analysis",
+      "stem": "Exam scores have mean 70 and standard deviation 8. What is the z-score of a score of 82?",
+      "choices": [
+        { "id": "A", "text": "−1.5" },
+        { "id": "B", "text": "1.2" },
+        { "id": "C", "text": "1.5" },
+        { "id": "D", "text": "12" }
+      ],
+      "answer": "C",
+      "explanation": "(82 − 70)/8 = 1.5: the score is 1.5 SDs above the mean.",
+      "distractors": { "D": "Difference without dividing by SD." }
+    },
+    {
+      "id": "u1-q04", "tier": "Intro", "type": "mcq", "topic": "1.8 Graphical Representations of Summary Statistics", "skill": "2. Data Analysis",
+      "stem": "A data set has Q1 = 20 and Q3 = 30. Using the 1.5·IQR rule, which value would be an outlier?",
+      "choices": [
+        { "id": "A", "text": "6" },
+        { "id": "B", "text": "40" },
+        { "id": "C", "text": "44" },
+        { "id": "D", "text": "46" }
+      ],
+      "answer": "D",
+      "explanation": "IQR = 10; fences are 20 − 15 = 5 and 30 + 15 = 45. Only 46 lies outside.",
+      "distractors": { "A": "6 is above the lower fence of 5." }
+    },
+    {
+      "id": "u1-q05", "tier": "Exam level", "type": "mcq", "topic": "1.10 The Normal Distribution", "skill": "3. Using Probability and Simulation",
+      "stem": "Heights of adult women in a region are approximately Normal with mean 64 inches and SD 2.5 inches. About what proportion are taller than 68 inches?",
+      "choices": [
+        { "id": "A", "text": "0.055" },
+        { "id": "B", "text": "0.160" },
+        { "id": "C", "text": "0.840" },
+        { "id": "D", "text": "0.945" }
+      ],
+      "answer": "A",
+      "explanation": "z = (68 − 64)/2.5 = 1.6; P(Z > 1.6) ≈ 0.055.",
+      "distractors": { "D": "Proportion shorter than 68 inches." }
+    },
+    {
+      "id": "u1-q06", "tier": "Exam level", "type": "mcq", "topic": "1.7 Summary Statistics for a Quantitative Variable", "skill": "2. Data Analysis",
+      "stem": "A data set has mean 10 and standard deviation 3. Each value is increased by 5 and then multiplied by 2. What are the new mean and standard deviation?",
+      "choices": [
+        { "id": "A", "text": "Mean 30, SD 6" },
+        { "id": "B", "text": "Mean 30, SD 16" },
+        { "id": "C", "text": "Mean 25, SD 6" },
+        { "id": "D", "text": "Mean 20, SD 3" }
+      ],
+      "answer": "A",
+      "explanation": "Mean: (10 + 5) × 2 = 30. SD: adding doesn't change it; multiplying doubles it to 6.",
+      "distractors": { "B": "Adds 5 to the SD before doubling.", "C": "Multiplies before adding." }
+    },
+    {
+      "id": "u1-q07", "tier": "Exam level", "type": "mcq", "topic": "1.7 Summary Statistics for a Quantitative Variable", "skill": "2. Data Analysis",
+      "stem": "A data entry error changes the largest value in a data set from 85 to 850. Which pair of statistics will be unchanged?",
+      "choices": [
+        { "id": "A", "text": "Mean and standard deviation" },
+        { "id": "B", "text": "Median and IQR" },
+        { "id": "C", "text": "Mean and median" },
+        { "id": "D", "text": "Range and IQR" }
+      ],
+      "answer": "B",
+      "explanation": "The median and quartiles depend on positions, not the size of the maximum.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q08", "tier": "Exam level", "type": "mcq", "topic": "1.9 Comparing Distributions of a Quantitative Variable", "skill": "2. Data Analysis",
+      "stimulus": "Five-number summaries of quiz scores:\nClass A: 52, 70, 78, 85, 98\nClass B: 60, 66, 72, 76, 90",
+      "stem": "Which statement is supported by the summaries?",
+      "choices": [
+        { "id": "A", "text": "At least half of Class A scored higher than three-fourths of Class B." },
+        { "id": "B", "text": "Class B has the larger IQR." },
+        { "id": "C", "text": "Class A has more students." },
+        { "id": "D", "text": "The mean of Class A is 78." }
+      ],
+      "answer": "A",
+      "explanation": "Class A's median (78) exceeds Class B's Q3 (76), so at least 50% of A is above at least 75% of B.",
+      "distractors": { "B": "A's IQR is 15, B's is 10.", "C": "Summaries don't show sample size.", "D": "78 is the median." }
+    },
+    {
+      "id": "u1-q09", "tier": "Exam level", "type": "mcq", "topic": "1.10 The Normal Distribution", "skill": "3. Using Probability and Simulation",
+      "stem": "Scores on a placement test are approximately Normal with mean 500 and SD 100. What score is at the 90th percentile?",
+      "choices": [
+        { "id": "A", "text": "590" },
+        { "id": "B", "text": "628" },
+        { "id": "C", "text": "690" },
+        { "id": "D", "text": "372" }
+      ],
+      "answer": "B",
+      "explanation": "z for the 90th percentile ≈ 1.28; 500 + 1.28(100) ≈ 628.",
+      "distractors": { "D": "10th percentile." }
+    },
+    {
+      "id": "u1-q10", "tier": "Exam level", "type": "mcq", "topic": "1.6 Describing the Distribution of a Quantitative Variable", "skill": "2. Data Analysis",
+      "stem": "A histogram of the weights of all dogs at a boarding facility shows two distinct peaks, one near 10 lb and one near 65 lb. Which is the most reasonable explanation?",
+      "choices": [
+        { "id": "A", "text": "The data were recorded incorrectly." },
+        { "id": "B", "text": "The facility houses two distinct groups, such as small breeds and large breeds." },
+        { "id": "C", "text": "The distribution is approximately Normal." },
+        { "id": "D", "text": "The mean must equal the median." }
+      ],
+      "answer": "B",
+      "explanation": "Bimodal distributions often indicate a mixture of two subpopulations.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q11", "tier": "Hardest", "type": "mcq", "topic": "1.10 The Normal Distribution", "skill": "3. Using Probability and Simulation",
+      "stem": "A machine fills bags with a mean of 16.4 oz; fill weights are approximately Normal. If 10% of bags contain less than 16.0 oz, what is the standard deviation of fill weights?",
+      "choices": [
+        { "id": "A", "text": "0.13 oz" },
+        { "id": "B", "text": "0.31 oz" },
+        { "id": "C", "text": "0.40 oz" },
+        { "id": "D", "text": "0.51 oz" }
+      ],
+      "answer": "B",
+      "explanation": "z for the 10th percentile ≈ −1.28. −1.28 = (16.0 − 16.4)/σ → σ = 0.4/1.28 ≈ 0.31 oz.",
+      "distractors": { "C": "Uses z = −1." }
+    },
+    {
+      "id": "u1-q12", "tier": "Hardest", "type": "mcq", "topic": "1.7 Summary Statistics for a Quantitative Variable", "skill": "2. Data Analysis",
+      "stem": "A data set of 20 values has mean 50 and standard deviation 10. A 21st value of exactly 50 is added. Which describes the change?",
+      "choices": [
+        { "id": "A", "text": "The mean stays 50 and the standard deviation decreases slightly." },
+        { "id": "B", "text": "The mean stays 50 and the standard deviation stays 10." },
+        { "id": "C", "text": "The mean increases and the standard deviation increases." },
+        { "id": "D", "text": "The mean stays 50 and the standard deviation increases slightly." }
+      ],
+      "answer": "A",
+      "explanation": "The new value adds 0 to the sum of squared deviations while n − 1 grows, so s shrinks.",
+      "distractors": { "B": "Ignores the larger denominator." }
+    },
+    {
+      "id": "u1-q13", "tier": "Hardest", "type": "mcq", "topic": "1.10 The Normal Distribution", "skill": "4. Statistical Argumentation",
+      "stem": "Student A scored 30 on a test with mean 21 and SD 5. Student B scored 1350 on a different test with mean 1050 and SD 200. Which statement is correct?",
+      "choices": [
+        { "id": "A", "text": "Student B performed better relative to peers, because 1350 > 30." },
+        { "id": "B", "text": "Student A performed better relative to peers, because A's z-score (1.8) exceeds B's (1.5)." },
+        { "id": "C", "text": "They performed equally well." },
+        { "id": "D", "text": "The scores cannot be compared because the tests differ." }
+      ],
+      "answer": "B",
+      "explanation": "z_A = 9/5 = 1.8; z_B = 300/200 = 1.5. Standardizing puts both on the same scale.",
+      "distractors": { "D": "z-scores allow comparison across distributions." }
+    },
+    {
+      "id": "u1-q14", "tier": "Hardest", "type": "mcq", "topic": "1.10 The Normal Distribution", "skill": "3. Using Probability and Simulation",
+      "stem": "Battery lifetimes are approximately Normal with mean 40 hours and SD 5 hours. Of batteries that last longer than 40 hours, about what proportion last longer than 50 hours?",
+      "choices": [
+        { "id": "A", "text": "0.023" },
+        { "id": "B", "text": "0.046" },
+        { "id": "C", "text": "0.477" },
+        { "id": "D", "text": "0.500" }
+      ],
+      "answer": "B",
+      "explanation": "P(X > 50) = P(Z > 2) ≈ 0.023; P(X > 40) = 0.5. Conditional proportion = 0.023/0.5 ≈ 0.046.",
+      "distractors": { "A": "Unconditional proportion." }
+    },
+    {
+      "id": "u1-frq1", "tier": "Exam level", "type": "frq", "topic": "1.9 Comparing Distributions of a Quantitative Variable", "frqType": "Short FRQ (Q1–Q5)",
+      "prompt": "A delivery driver recorded the time (minutes) for 25 trips on each of two routes.\n\n| Route | Min | Q1 | Median | Q3 | Max |\n|---|---|---|---|---|---|\n| A | 18 | 22 | 24 | 27 | 41 |\n| B | 15 | 19 | 25 | 31 | 36 |",
+      "parts": [
+        { "label": "a", "prompt": "Compare the distributions of trip times for the two routes.", "points": 1 },
+        { "label": "b", "prompt": "Is the maximum time for Route A an outlier? Justify using the 1.5·IQR rule.", "points": 1 },
+        { "label": "c", "prompt": "The driver must arrive within 30 minutes. Which route should the driver choose? Justify using the summaries.", "points": 1 },
+        { "label": "d", "prompt": "The 41-minute trip is found to be a recording error and is changed to 34 minutes. Explain how this change affects the median and the mean of Route A.", "points": 1 }
+      ],
+      "points": 4,
+      "minutes": 13,
+      "rubric": [
+        { "criterion": "a: Comparison", "points": 1, "description": "E: compares center (medians 24 vs 25, similar) AND variability (A's IQR 5 < B's IQR 12; A less variable) in context, using comparative language. P: only one feature or no context." },
+        { "criterion": "b: Outlier", "points": 1, "description": "IQR = 5; upper fence = 27 + 7.5 = 34.5; 41 > 34.5, so yes." },
+        { "criterion": "c: Decision", "points": 1, "description": "Route A: at least 75% of A's trips take ≤ 27 min, while more than 25% of B's trips take ≥ 31 min (exceeding 30). Must reference specific summary values." },
+        { "criterion": "d: Effect", "points": 1, "description": "Median unchanged (24) because the middle value is unaffected; mean decreases by 7/25 = 0.28 min." }
+      ],
+      "sampleResponse": "(a) The median trip time for Route A (24 min) is slightly less than for Route B (25 min), so the routes have similar centers. Route A is much less variable: its IQR is 27 − 22 = 5 min compared with 31 − 19 = 12 min for Route B, and its range excluding the high maximum is also narrower. Route A has a possible high outlier at 41 minutes, while Route B's values appear roughly symmetric.\n\n(b) IQR = 27 − 22 = 5. Upper fence = 27 + 1.5(5) = 34.5 minutes. Since 41 > 34.5, the 41-minute trip is an outlier.\n\n(c) Route A. Its Q3 is 27 minutes, so at least 75% of Route A trips took 27 minutes or less. For Route B, Q3 is 31 minutes, so at least 25% of trips took 31 minutes or more, exceeding the 30-minute limit.\n\n(d) The median stays 24 minutes because changing the largest value does not change the middle (13th) value. The mean decreases by (41 − 34)/25 = 0.28 minute because the sum of the times decreases by 7."
+    }
+  ]
+}

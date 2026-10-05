@@ -1,0 +1,268 @@
+{
+  "number": 2,
+  "title": "Economic Indicators and the Business Cycle",
+  "guide": {
+    "summary": "Unit 2 covers how macroeconomic performance is measured: the circular flow and GDP, what GDP includes and leaves out, unemployment (types and the natural rate), price indices and inflation (and who is helped or hurt), real versus nominal values, and the business cycle.",
+    "sections": [
+      {
+        "heading": "Circular flow and GDP",
+        "body": "In the circular flow, households sell factors of production to firms in factor markets and buy goods and services in product markets; government and foreign sectors add taxes, spending, and trade. GDP is the market value of all final goods and services produced within a country in a given period. Expenditure approach: GDP = C + I + G + Xn (exports − imports). Investment means business spending on capital, new residential construction, and changes in inventories, not stocks or bonds. Excluded: intermediate goods (to avoid double counting), used goods, purely financial transactions, transfer payments (Social Security, unemployment benefits), and nonmarket or underground activity. Limitations: GDP ignores household production, the underground economy, leisure, environmental quality, and income distribution."
+      },
+      {
+        "heading": "Unemployment",
+        "body": "Labor force = employed + unemployed (people actively seeking work). Unemployment rate = unemployed ÷ labor force × 100. Labor force participation rate = labor force ÷ working-age population. Discouraged workers stop searching and leave the labor force, lowering the measured rate and understating joblessness; underemployed workers are counted as employed. Types: frictional (between jobs, new entrants), structural (skills or location mismatch, often from technology), cyclical (due to recessions). The natural rate of unemployment = frictional + structural; at full employment, cyclical unemployment is zero."
+      },
+      {
+        "heading": "Price indices and inflation",
+        "body": "CPI = (cost of market basket in current year ÷ cost in base year) × 100. Inflation rate = (CPI₂ − CPI₁)/CPI₁ × 100. The GDP deflator = (nominal GDP ÷ real GDP) × 100. CPI tends to overstate inflation (substitution bias, quality improvements, new products). Real GDP = nominal GDP ÷ (deflator/100); real values remove the effects of price changes. Real income growth ≈ nominal income growth − inflation. Unanticipated inflation hurts lenders, savers, and people on fixed incomes, and helps borrowers with fixed-rate loans; anticipated inflation is built into contracts. Inflation also imposes menu costs and shoe-leather costs. Deflation increases the real burden of debt."
+      },
+      {
+        "heading": "Business cycles",
+        "body": "Business cycles are short-run fluctuations in real GDP around its long-run trend: expansion, peak, contraction (recession), and trough. During expansions, unemployment falls and inflation tends to rise; during recessions, cyclical unemployment rises. Potential (full-employment) output is the output when unemployment equals the natural rate. A negative output gap (recessionary) means actual < potential; a positive gap (inflationary) means actual > potential."
+      }
+    ],
+    "keyTakeaways": [
+      "GDP = C + I + G + Xn; only final, new, domestic production.",
+      "Transfer payments and financial transactions aren't GDP.",
+      "Unemployment rate uses the labor force, not the population.",
+      "Natural rate = frictional + structural.",
+      "Real = nominal ÷ (price index/100).",
+      "Unanticipated inflation hurts lenders and helps borrowers."
+    ],
+    "commonMistakes": [
+      "Counting stock purchases as investment.",
+      "Including people not looking for work as unemployed.",
+      "Calling cyclical unemployment part of the natural rate.",
+      "Confusing a rising price level with a rising inflation rate.",
+      "Including imports in GDP rather than subtracting them."
+    ],
+    "examTips": [
+      "MCQs often list transactions; decide whether each counts in GDP.",
+      "Show the formula for every CPI, inflation, and real GDP calculation.",
+      "Identify unemployment type from the cause described.",
+      "Who is hurt by inflation depends on whether it was anticipated."
+    ],
+    "cramSheet": "**GDP:** C + I + G + Xn · final, new, domestic · no transfers, used goods, stocks\n\n**Unemployment:** U ÷ LF × 100 · LF = E + U · discouraged workers ↓ measured rate\n\n**Types:** frictional · structural · cyclical · natural = F + S\n\n**CPI:** basket now ÷ basket base × 100 · inflation = ΔCPI/CPI₁ × 100\n\n**Real:** nominal ÷ (index/100) · real income ≈ nominal % − inflation %\n\n**Inflation:** hurts lenders, savers, fixed incomes · helps borrowers\n\n**Cycle:** expansion → peak → contraction → trough"
+  },
+  "vocab": [
+    { "term": "Gross domestic product", "definition": "The market value of all final goods and services produced within a country in a period." },
+    { "term": "Transfer payment", "definition": "A government payment for which no good or service is exchanged (e.g., Social Security)." },
+    { "term": "Investment (macro)", "definition": "Spending on capital goods, new residential construction, and inventory changes." },
+    { "term": "Labor force", "definition": "People who are employed plus those actively seeking work." },
+    { "term": "Frictional unemployment", "definition": "Short-term unemployment from people between jobs or entering the labor force." },
+    { "term": "Structural unemployment", "definition": "Unemployment from a mismatch between workers' skills or locations and available jobs." },
+    { "term": "Cyclical unemployment", "definition": "Unemployment caused by economic downturns." },
+    { "term": "Natural rate of unemployment", "definition": "The sum of frictional and structural unemployment, when cyclical unemployment is zero." },
+    { "term": "Consumer price index", "definition": "A measure of the cost of a fixed basket of consumer goods relative to a base year." },
+    { "term": "GDP deflator", "definition": "Nominal GDP divided by real GDP, times 100; a broad price index." },
+    { "term": "Real GDP", "definition": "GDP adjusted for changes in the price level." },
+    { "term": "Discouraged worker", "definition": "A person who wants a job but has stopped searching and is not counted in the labor force." }
+  ],
+  "practice": [
+    {
+      "id": "u2-q01", "tier": "Intro", "type": "mcq", "topic": "2.1 The Circular Flow and GDP", "skill": "1. Principles and Models",
+      "stem": "Which would be counted in this year's U.S. GDP?",
+      "choices": [
+        { "id": "A", "text": "A government Social Security payment" },
+        { "id": "B", "text": "The purchase of shares of stock" },
+        { "id": "C", "text": "A newly built house purchased by a family" },
+        { "id": "D", "text": "The sale of a used car" }
+      ],
+      "answer": "C",
+      "explanation": "New residential construction counts as investment.",
+      "distractors": { "A": "Transfer payment.", "B": "Financial transaction." }
+    },
+    {
+      "id": "u2-q02", "tier": "Intro", "type": "mcq", "topic": "2.3 Unemployment", "skill": "3. Manipulation",
+      "stem": "A country has 150 million people in the labor force, of whom 141 million are employed. What is the unemployment rate?",
+      "choices": [
+        { "id": "A", "text": "4.5%" },
+        { "id": "B", "text": "6%" },
+        { "id": "C", "text": "9%" },
+        { "id": "D", "text": "94%" }
+      ],
+      "answer": "B",
+      "explanation": "9 million ÷ 150 million = 6%.",
+      "distractors": { "D": "Employment rate within the labor force." }
+    },
+    {
+      "id": "u2-q03", "tier": "Intro", "type": "mcq", "topic": "2.3 Unemployment", "skill": "2. Interpretation",
+      "stem": "A factory worker loses her job when her plant installs robots that do her tasks, and she lacks the skills for available jobs. This is",
+      "choices": [
+        { "id": "A", "text": "frictional unemployment" },
+        { "id": "B", "text": "structural unemployment" },
+        { "id": "C", "text": "cyclical unemployment" },
+        { "id": "D", "text": "seasonal unemployment" }
+      ],
+      "answer": "B",
+      "explanation": "Technological change created a skills mismatch.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q04", "tier": "Intro", "type": "mcq", "topic": "2.4 Price Indices and Inflation", "skill": "3. Manipulation",
+      "stem": "A market basket costs $200 in the base year and $230 this year. What is this year's CPI?",
+      "choices": [
+        { "id": "A", "text": "30" },
+        { "id": "B", "text": "87" },
+        { "id": "C", "text": "115" },
+        { "id": "D", "text": "130" }
+      ],
+      "answer": "C",
+      "explanation": "(230/200) × 100 = 115.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q05", "tier": "Exam level", "type": "mcq", "topic": "2.1 The Circular Flow and GDP", "skill": "3. Manipulation",
+      "stimulus": "Consumption $600 billion; gross private investment $150 billion; government purchases $200 billion; transfer payments $90 billion; exports $80 billion; imports $100 billion.",
+      "stem": "What is GDP?",
+      "choices": [
+        { "id": "A", "text": "$930 billion" },
+        { "id": "B", "text": "$1,020 billion" },
+        { "id": "C", "text": "$1,130 billion" },
+        { "id": "D", "text": "$1,040 billion" }
+      ],
+      "answer": "A",
+      "explanation": "600 + 150 + 200 + (80 − 100) = 930. Transfers are excluded.",
+      "distractors": { "B": "Includes transfer payments.", "C": "Adds imports." }
+    },
+    {
+      "id": "u2-q06", "tier": "Exam level", "type": "mcq", "topic": "2.6 Real v. Nominal GDP", "skill": "3. Manipulation",
+      "stem": "Nominal GDP is $12 trillion and the GDP deflator is 120. What is real GDP?",
+      "choices": [
+        { "id": "A", "text": "$8 trillion" },
+        { "id": "B", "text": "$10 trillion" },
+        { "id": "C", "text": "$14.4 trillion" },
+        { "id": "D", "text": "$12 trillion" }
+      ],
+      "answer": "B",
+      "explanation": "12 ÷ 1.20 = $10 trillion.",
+      "distractors": { "C": "Multiplies instead of dividing." }
+    },
+    {
+      "id": "u2-q07", "tier": "Exam level", "type": "mcq", "topic": "2.5 Costs of Inflation", "skill": "2. Interpretation",
+      "stem": "A bank made a 30-year fixed-rate mortgage expecting 2% annual inflation, but inflation turns out to be 6%. Who benefits?",
+      "choices": [
+        { "id": "A", "text": "The bank, because it receives more dollars" },
+        { "id": "B", "text": "The borrower, because the real value of the repayments falls" },
+        { "id": "C", "text": "Neither, because the interest rate is fixed" },
+        { "id": "D", "text": "Savers with fixed-rate deposits" }
+      ],
+      "answer": "B",
+      "explanation": "Unanticipated inflation reduces the real burden of fixed nominal debt.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q08", "tier": "Exam level", "type": "mcq", "topic": "2.3 Unemployment", "skill": "2. Interpretation",
+      "stem": "During a long recession, many unemployed workers stop looking for work. All else equal, the measured unemployment rate",
+      "choices": [
+        { "id": "A", "text": "rises, because more people are jobless" },
+        { "id": "B", "text": "falls, because discouraged workers are no longer counted in the labor force" },
+        { "id": "C", "text": "stays the same" },
+        { "id": "D", "text": "rises, because the labor force increases" }
+      ],
+      "answer": "B",
+      "explanation": "Removing people from both the unemployed count and the labor force lowers the rate.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q09", "tier": "Exam level", "type": "mcq", "topic": "2.7 Business Cycles", "skill": "2. Interpretation",
+      "stem": "At the trough of a business cycle, which is most likely?",
+      "choices": [
+        { "id": "A", "text": "Real GDP is at its highest point and unemployment is low." },
+        { "id": "B", "text": "Real GDP is at its lowest point and cyclical unemployment is high." },
+        { "id": "C", "text": "Inflation is accelerating rapidly." },
+        { "id": "D", "text": "The economy is at full employment." }
+      ],
+      "answer": "B",
+      "explanation": "The trough ends the contraction, when output is lowest relative to trend.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q10", "tier": "Exam level", "type": "mcq", "topic": "2.4 Price Indices and Inflation", "skill": "3. Manipulation",
+      "stem": "The CPI rises from 125 to 135 over a year. What is the inflation rate?",
+      "choices": [
+        { "id": "A", "text": "8%" },
+        { "id": "B", "text": "10%" },
+        { "id": "C", "text": "35%" },
+        { "id": "D", "text": "7.4%" }
+      ],
+      "answer": "A",
+      "explanation": "(135 − 125)/125 × 100 = 8%.",
+      "distractors": { "B": "Difference in index points.", "D": "Divides by 135." }
+    },
+    {
+      "id": "u2-q11", "tier": "Hardest", "type": "mcq", "topic": "2.5 Costs of Inflation", "skill": "3. Manipulation",
+      "stem": "A worker's nominal wage rises 4% in a year when the price level rises 6%. Which is correct?",
+      "choices": [
+        { "id": "A", "text": "Her real wage rose about 10%." },
+        { "id": "B", "text": "Her real wage fell about 2%." },
+        { "id": "C", "text": "Her real wage rose about 2%." },
+        { "id": "D", "text": "Her purchasing power was unchanged." }
+      ],
+      "answer": "B",
+      "explanation": "Real wage growth ≈ 4% − 6% = −2%.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q12", "tier": "Hardest", "type": "mcq", "topic": "2.4 Price Indices and Inflation", "skill": "2. Interpretation",
+      "stem": "When the price of beef rises, consumers buy more chicken instead, but the CPI basket still includes the original amount of beef. As a result, the CPI",
+      "choices": [
+        { "id": "A", "text": "understates the increase in the cost of living" },
+        { "id": "B", "text": "overstates the increase in the cost of living" },
+        { "id": "C", "text": "measures the cost of living exactly" },
+        { "id": "D", "text": "measures real GDP" }
+      ],
+      "answer": "B",
+      "explanation": "Substitution bias: a fixed basket ignores consumers' switching to cheaper goods.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q13", "tier": "Hardest", "type": "mcq", "topic": "2.1 The Circular Flow and GDP", "skill": "1. Principles and Models",
+      "stem": "A car manufacturer produces 1,000 cars this year but sells only 800, keeping 200 in inventory. How do the 200 unsold cars affect this year's GDP?",
+      "choices": [
+        { "id": "A", "text": "They are not counted until sold." },
+        { "id": "B", "text": "They are counted as investment (an increase in inventories) this year." },
+        { "id": "C", "text": "They are counted as consumption." },
+        { "id": "D", "text": "They are subtracted from GDP." }
+      ],
+      "answer": "B",
+      "explanation": "GDP measures production; unsold output is recorded as inventory investment.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q14", "tier": "Hardest", "type": "mcq", "topic": "2.6 Real v. Nominal GDP", "skill": "3. Manipulation",
+      "stimulus": "Year 1: nominal GDP $500 billion, GDP deflator 100. Year 2: nominal GDP $550 billion, GDP deflator 105.",
+      "stem": "What was the approximate growth rate of real GDP?",
+      "choices": [
+        { "id": "A", "text": "10%" },
+        { "id": "B", "text": "5%" },
+        { "id": "C", "text": "4.8%" },
+        { "id": "D", "text": "15%" }
+      ],
+      "answer": "C",
+      "explanation": "Real GDP year 2 = 550/1.05 ≈ 523.8; growth = 23.8/500 ≈ 4.8%.",
+      "distractors": { "A": "Nominal growth.", "B": "10% − 5% approximation (close but less precise)." }
+    },
+    {
+      "id": "u2-frq1", "tier": "Exam level", "type": "frq", "topic": "2.3–2.6 Unemployment, Inflation, and Real GDP", "frqType": "Short FRQ",
+      "prompt": "The country of Calvia reports the following data.\n\n| | Year 1 | Year 2 |\n|---|---|---|\n| Employed (millions) | 95 | 94 |\n| Unemployed (millions) | 5 | 8 |\n| Nominal GDP ($ billions) | 2,000 | 2,100 |\n| Price index | 100 | 110 |",
+      "parts": [
+        { "label": "a", "prompt": "Calculate the unemployment rate in Year 2. Show your work.", "points": 1 },
+        { "label": "b", "prompt": "Calculate real GDP in Year 2 using Year 1 as the base. Show your work.", "points": 1 },
+        { "label": "c", "prompt": "Did real GDP increase, decrease, or stay the same from Year 1 to Year 2? Explain.", "points": 1 },
+        { "label": "d", "prompt": "Based on your answers, identify the phase of the business cycle Calvia is most likely in during Year 2.", "points": 1 },
+        { "label": "e", "prompt": "Identify the type of unemployment most likely responsible for the increase in unemployment.", "points": 1 }
+      ],
+      "points": 5,
+      "minutes": 10,
+      "rubric": [
+        { "criterion": "a", "points": 1, "description": "8/(94 + 8) × 100 ≈ 7.8%." },
+        { "criterion": "b", "points": 1, "description": "2,100 ÷ 1.10 ≈ $1,909 billion." },
+        { "criterion": "c", "points": 1, "description": "Decreased, from $2,000 billion to about $1,909 billion, because the price level rose more than nominal GDP." },
+        { "criterion": "d", "points": 1, "description": "Contraction (recession): falling real GDP and rising unemployment." },
+        { "criterion": "e", "points": 1, "description": "Cyclical unemployment." }
+      ],
+      "sampleResponse": "(a) Labor force = 94 + 8 = 102 million. Unemployment rate = 8/102 × 100 ≈ 7.8%.\n\n(b) Real GDP = 2,100 ÷ (110/100) ≈ $1,909 billion.\n\n(c) Real GDP decreased, from $2,000 billion to about $1,909 billion. Nominal GDP rose 5%, but prices rose 10%, so the quantity of output actually fell.\n\n(d) Contraction (recession): real GDP is falling and unemployment is rising.\n\n(e) Cyclical unemployment."
+    }
+  ]
+}

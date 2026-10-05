@@ -1,0 +1,265 @@
+{
+  "number": 1,
+  "title": "Basic Economic Concepts",
+  "guide": {
+    "summary": "Unit 1 introduces scarcity and choice, opportunity cost and the production possibilities curve (PPC), comparative advantage and gains from trade, and the supply-and-demand model. Comparative advantage and PPC questions appear frequently; supply and demand underpin later macro models.",
+    "sections": [
+      {
+        "heading": "Scarcity, opportunity cost, and the PPC",
+        "body": "Scarcity means unlimited wants exceed limited resources (land, labor, capital, entrepreneurship), forcing choices. Opportunity cost is the value of the next-best alternative given up. The PPC shows maximum combinations of two goods an economy can produce with full, efficient use of resources. Points on the curve are efficient; inside are inefficient (unemployment or underused resources); outside are unattainable now. A bowed-out (concave) PPC reflects increasing opportunity costs because resources aren't equally suited to both goods; a straight-line PPC means constant opportunity cost. Economic growth (more resources, better technology, more human capital) shifts the PPC outward; a disaster shifts it inward. Producing more capital goods today shifts the PPC farther out in the future."
+      },
+      {
+        "heading": "Comparative advantage and trade",
+        "body": "Absolute advantage: producing more of a good with the same resources. Comparative advantage: producing a good at a lower opportunity cost. Specialization by comparative advantage and trade allow both parties to consume beyond their own PPCs. For output data (how much each can produce), opportunity cost of X = units of Y given up ÷ units of X gained ('other over'). For input data (time or resources needed per unit), use 'input: over' carefully: opportunity cost of X = time for X ÷ time for Y. Mutually beneficial terms of trade lie between the two parties' opportunity costs."
+      },
+      {
+        "heading": "Supply, demand, and equilibrium",
+        "body": "The law of demand: as price rises, quantity demanded falls (income and substitution effects). Demand shifters: tastes, number of buyers, income (normal vs. inferior goods), prices of related goods (substitutes, complements), expectations. The law of supply: as price rises, quantity supplied rises. Supply shifters: input prices, technology, number of sellers, taxes and subsidies, expectations, prices of other goods produced. Equilibrium is where quantity demanded equals quantity supplied. A shortage (price below equilibrium) pushes price up; a surplus pushes price down. When both curves shift, one variable's change is determinate and the other is indeterminate unless magnitudes are known."
+      }
+    ],
+    "keyTakeaways": [
+      "Opportunity cost = next-best alternative forgone.",
+      "Bowed-out PPC = increasing opportunity cost.",
+      "Growth shifts the PPC outward; unemployment puts the economy inside it.",
+      "Specialize by comparative advantage, not absolute advantage.",
+      "Terms of trade must fall between the two opportunity costs.",
+      "Change in demand shifts the curve; change in price moves along it."
+    ],
+    "commonMistakes": [
+      "Specializing based on absolute advantage.",
+      "Reversing the opportunity-cost ratio for input problems.",
+      "Saying unemployment shifts the PPC inward (it moves the point inside).",
+      "Shifting demand when the good's own price changes.",
+      "Assuming both price and quantity are determinate when both curves shift."
+    ],
+    "examTips": [
+      "Set up a two-row opportunity-cost table for every comparative advantage question.",
+      "For PPC questions, decide whether the change moves the point or shifts the curve.",
+      "Double-shift questions: identify the determinate variable first.",
+      "Use precise language: 'demand increases' vs. 'quantity demanded increases'."
+    ],
+    "cramSheet": "**Scarcity:** land, labor, capital, entrepreneurship\n\n**PPC:** on = efficient · inside = unemployment · outside = unattainable · bowed out = increasing OC · growth → shift out\n\n**Trade:** OC of X = Y given up / X gained (output) · specialize by lower OC · terms between OCs\n\n**Demand shifters:** tastes, buyers, income, related prices, expectations\n\n**Supply shifters:** input costs, tech, sellers, taxes/subsidies, expectations\n\n**Equilibrium:** shortage → P ↑ · surplus → P ↓ · double shift → one indeterminate"
+  },
+  "vocab": [
+    { "term": "Scarcity", "definition": "The condition in which wants exceed the resources available to satisfy them." },
+    { "term": "Opportunity cost", "definition": "The value of the next-best alternative given up when making a choice." },
+    { "term": "Production possibilities curve", "definition": "A graph showing the maximum combinations of two goods an economy can produce with its resources and technology." },
+    { "term": "Increasing opportunity cost", "definition": "Each additional unit of a good requires giving up increasing amounts of the other good, producing a bowed-out PPC." },
+    { "term": "Absolute advantage", "definition": "The ability to produce more of a good with the same resources." },
+    { "term": "Comparative advantage", "definition": "The ability to produce a good at a lower opportunity cost than another producer." },
+    { "term": "Terms of trade", "definition": "The rate at which one good is exchanged for another." },
+    { "term": "Normal good", "definition": "A good for which demand increases as income increases." },
+    { "term": "Inferior good", "definition": "A good for which demand decreases as income increases." },
+    { "term": "Complements", "definition": "Goods used together; a price rise of one decreases demand for the other." },
+    { "term": "Market equilibrium", "definition": "The price and quantity at which quantity demanded equals quantity supplied." },
+    { "term": "Shortage", "definition": "Quantity demanded exceeds quantity supplied at the current price." }
+  ],
+  "practice": [
+    {
+      "id": "u1-q01", "tier": "Intro", "type": "mcq", "topic": "1.2 Opportunity Cost and the Production Possibilities Curve", "skill": "1. Principles and Models",
+      "stem": "An economy is producing at a point inside its production possibilities curve. This indicates",
+      "choices": [
+        { "id": "A", "text": "economic growth" },
+        { "id": "B", "text": "unemployment or inefficient use of resources" },
+        { "id": "C", "text": "a combination that is unattainable" },
+        { "id": "D", "text": "increasing opportunity costs" }
+      ],
+      "answer": "B",
+      "explanation": "The economy could produce more of both goods with full employment.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q02", "tier": "Intro", "type": "mcq", "topic": "1.2 Opportunity Cost and the Production Possibilities Curve", "skill": "1. Principles and Models",
+      "stem": "A production possibilities curve that is bowed outward from the origin illustrates",
+      "choices": [
+        { "id": "A", "text": "constant opportunity costs" },
+        { "id": "B", "text": "increasing opportunity costs" },
+        { "id": "C", "text": "decreasing opportunity costs" },
+        { "id": "D", "text": "no opportunity costs" }
+      ],
+      "answer": "B",
+      "explanation": "Resources are not equally suited to both goods, so each extra unit costs more.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q03", "tier": "Intro", "type": "mcq", "topic": "1.6 Market Equilibrium, Disequilibrium, and Changes in Equilibrium", "skill": "2. Interpretation",
+      "stem": "If the price of a good is set below the equilibrium price, the result is",
+      "choices": [
+        { "id": "A", "text": "a surplus" },
+        { "id": "B", "text": "a shortage" },
+        { "id": "C", "text": "an increase in supply" },
+        { "id": "D", "text": "a decrease in demand" }
+      ],
+      "answer": "B",
+      "explanation": "At a low price, quantity demanded exceeds quantity supplied.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q04", "tier": "Intro", "type": "mcq", "topic": "1.4 Demand", "skill": "2. Interpretation",
+      "stem": "If incomes rise and demand for bus rides decreases, bus rides are",
+      "choices": [
+        { "id": "A", "text": "a normal good" },
+        { "id": "B", "text": "an inferior good" },
+        { "id": "C", "text": "a complement" },
+        { "id": "D", "text": "a public good" }
+      ],
+      "answer": "B",
+      "explanation": "Demand for inferior goods falls as income rises.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q05", "tier": "Exam level", "type": "mcq", "topic": "1.3 Comparative Advantage and Gains from Trade", "skill": "3. Manipulation",
+      "stimulus": "Using the same resources:\n\n| | Cars | Wheat (tons) |\n|---|---|---|\n| Country A | 10 | 20 |\n| Country B | 4 | 16 |",
+      "stem": "Which statement is correct?",
+      "choices": [
+        { "id": "A", "text": "Country A has a comparative advantage in both goods." },
+        { "id": "B", "text": "Country A has a comparative advantage in cars; Country B has a comparative advantage in wheat." },
+        { "id": "C", "text": "Country B has a comparative advantage in cars." },
+        { "id": "D", "text": "Neither country gains from trade." }
+      ],
+      "answer": "B",
+      "explanation": "OC of 1 car: A = 2 wheat, B = 4 wheat. OC of 1 wheat: A = 0.5 car, B = 0.25 car.",
+      "distractors": { "A": "A has an absolute advantage in both, not comparative." }
+    },
+    {
+      "id": "u1-q06", "tier": "Exam level", "type": "mcq", "topic": "1.3 Comparative Advantage and Gains from Trade", "skill": "3. Manipulation",
+      "stem": "Using the table above, which terms of trade would benefit both countries?",
+      "choices": [
+        { "id": "A", "text": "1 car for 1 ton of wheat" },
+        { "id": "B", "text": "1 car for 3 tons of wheat" },
+        { "id": "C", "text": "1 car for 5 tons of wheat" },
+        { "id": "D", "text": "1 car for 2 tons of wheat" }
+      ],
+      "stimulus": "Country A: 10 cars or 20 tons of wheat. Country B: 4 cars or 16 tons of wheat.",
+      "answer": "B",
+      "explanation": "Mutually beneficial terms lie strictly between A's OC (2 wheat per car) and B's OC (4 wheat per car).",
+      "distractors": { "D": "A gains nothing at its own opportunity cost." }
+    },
+    {
+      "id": "u1-q07", "tier": "Exam level", "type": "mcq", "topic": "1.6 Market Equilibrium, Disequilibrium, and Changes in Equilibrium", "skill": "2. Interpretation",
+      "stem": "A new technology lowers the cost of producing solar panels at the same time that consumer interest in solar panels rises. What happens in the solar panel market?",
+      "choices": [
+        { "id": "A", "text": "Price rises; quantity is indeterminate." },
+        { "id": "B", "text": "Quantity rises; price is indeterminate." },
+        { "id": "C", "text": "Price and quantity both rise." },
+        { "id": "D", "text": "Price falls; quantity falls." }
+      ],
+      "answer": "B",
+      "explanation": "Supply and demand both increase: each raises quantity, but they push price in opposite directions.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q08", "tier": "Exam level", "type": "mcq", "topic": "1.2 Opportunity Cost and the Production Possibilities Curve", "skill": "2. Interpretation",
+      "stem": "Which event would shift a country's production possibilities curve outward?",
+      "choices": [
+        { "id": "A", "text": "A decrease in the unemployment rate" },
+        { "id": "B", "text": "An improvement in production technology" },
+        { "id": "C", "text": "A shift in production from consumer goods to capital goods today, with no change in resources" },
+        { "id": "D", "text": "A natural disaster that destroys factories" }
+      ],
+      "answer": "B",
+      "explanation": "Technology increases maximum output with the same resources.",
+      "distractors": { "A": "Moves the point toward the curve.", "C": "Moves along the current curve (it shifts future PPC)." }
+    },
+    {
+      "id": "u1-q09", "tier": "Exam level", "type": "mcq", "topic": "1.4 Demand", "skill": "2. Interpretation",
+      "stem": "The price of peanut butter rises sharply. Assuming peanut butter and jelly are complements, what happens in the jelly market?",
+      "choices": [
+        { "id": "A", "text": "Demand for jelly increases; price and quantity rise." },
+        { "id": "B", "text": "Demand for jelly decreases; price and quantity fall." },
+        { "id": "C", "text": "Supply of jelly decreases." },
+        { "id": "D", "text": "Quantity demanded of jelly increases along the same curve." }
+      ],
+      "answer": "B",
+      "explanation": "Less peanut butter consumed means less jelly demanded at every price.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q10", "tier": "Exam level", "type": "mcq", "topic": "1.3 Comparative Advantage and Gains from Trade", "skill": "3. Manipulation",
+      "stimulus": "Hours needed to produce one unit:\n\n| | Shirt | Hat |\n|---|---|---|\n| Ana | 4 | 2 |\n| Ben | 6 | 2 |",
+      "stem": "Which is correct?",
+      "choices": [
+        { "id": "A", "text": "Ana has a comparative advantage in shirts; Ben has a comparative advantage in hats." },
+        { "id": "B", "text": "Ben has a comparative advantage in shirts." },
+        { "id": "C", "text": "Ana has a comparative advantage in both." },
+        { "id": "D", "text": "Neither has a comparative advantage." }
+      ],
+      "answer": "A",
+      "explanation": "OC of a shirt: Ana 4/2 = 2 hats, Ben 6/2 = 3 hats. OC of a hat: Ana 0.5 shirt, Ben 0.33 shirt.",
+      "distractors": { "B": "Inverts the input ratio." }
+    },
+    {
+      "id": "u1-q11", "tier": "Hardest", "type": "mcq", "topic": "1.2 Opportunity Cost and the Production Possibilities Curve", "skill": "2. Interpretation",
+      "stem": "Country X devotes a larger share of current production to capital goods than Country Y, which focuses on consumer goods. Assuming they are otherwise identical, which outcome is most likely in 20 years?",
+      "choices": [
+        { "id": "A", "text": "Country X's PPC will have shifted outward more than Country Y's." },
+        { "id": "B", "text": "Country Y's PPC will have shifted outward more." },
+        { "id": "C", "text": "Both PPCs will be unchanged." },
+        { "id": "D", "text": "Country X will be operating inside its PPC." }
+      ],
+      "answer": "A",
+      "explanation": "Investment in capital increases future productive capacity, at the cost of current consumption.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q12", "tier": "Hardest", "type": "mcq", "topic": "1.6 Market Equilibrium, Disequilibrium, and Changes in Equilibrium", "skill": "2. Interpretation",
+      "stem": "In the market for coffee, a drought destroys part of the bean harvest while a medical study reports health benefits from coffee. Which is the certain effect?",
+      "choices": [
+        { "id": "A", "text": "Equilibrium price increases." },
+        { "id": "B", "text": "Equilibrium quantity increases." },
+        { "id": "C", "text": "Equilibrium quantity decreases." },
+        { "id": "D", "text": "Equilibrium price decreases." }
+      ],
+      "answer": "A",
+      "explanation": "Supply decreases and demand increases: both raise price; quantity is indeterminate.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q13", "tier": "Hardest", "type": "mcq", "topic": "1.3 Comparative Advantage and Gains from Trade", "skill": "3. Manipulation",
+      "stem": "Two countries each have straight-line PPCs. Country P can produce 60 laptops or 30 phones; Country Q can produce 40 laptops or 40 phones. If they specialize by comparative advantage and trade 1 phone for 1.5 laptops, which statement is true?",
+      "choices": [
+        { "id": "A", "text": "P specializes in laptops, Q in phones, and both gain because 1.5 laptops per phone lies between their opportunity costs (P: 2 laptops per phone; Q: 1 laptop per phone)." },
+        { "id": "B", "text": "P specializes in phones; Q in laptops." },
+        { "id": "C", "text": "Only Q gains." },
+        { "id": "D", "text": "Neither gains because P has an absolute advantage in laptops." }
+      ],
+      "answer": "A",
+      "explanation": "P's OC of 1 phone = 2 laptops; Q's = 1 laptop. Q specializes in phones; a price of 1.5 laptops per phone benefits both.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q14", "tier": "Hardest", "type": "mcq", "topic": "1.5 Supply", "skill": "2. Interpretation",
+      "stem": "Oil producers expect oil prices to rise sharply next year. What is the most likely effect on the current market for oil?",
+      "choices": [
+        { "id": "A", "text": "Current supply decreases as producers hold oil to sell later, raising the current price." },
+        { "id": "B", "text": "Current supply increases, lowering the current price." },
+        { "id": "C", "text": "Current demand decreases." },
+        { "id": "D", "text": "No change, because expectations don't affect markets." }
+      ],
+      "answer": "A",
+      "explanation": "Sellers shift supply from the present to the future when they expect higher prices.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-frq1", "tier": "Exam level", "type": "frq", "topic": "1.3 Comparative Advantage and Gains from Trade", "frqType": "Short FRQ",
+      "prompt": "With the same resources, Country Alpha can produce either 60 units of rice or 30 units of steel, and Country Beta can produce either 40 units of rice or 40 units of steel. Assume constant opportunity costs.",
+      "parts": [
+        { "label": "a", "prompt": "Which country has an absolute advantage in rice? Explain.", "points": 1 },
+        { "label": "b", "prompt": "Calculate Country Alpha's opportunity cost of producing one unit of steel.", "points": 1 },
+        { "label": "c", "prompt": "Which country has a comparative advantage in steel? Explain using opportunity costs.", "points": 1 },
+        { "label": "d", "prompt": "If the countries specialize and trade, would terms of trade of 1 unit of steel for 1.5 units of rice benefit both countries? Explain.", "points": 1 },
+        { "label": "e", "prompt": "Suppose Country Beta develops a new technology that doubles its rice production but doesn't change its steel production. How does Beta's opportunity cost of producing steel change?", "points": 1 }
+      ],
+      "points": 5,
+      "minutes": 10,
+      "rubric": [
+        { "criterion": "a", "points": 1, "description": "Alpha, because it can produce more rice (60 > 40) with the same resources." },
+        { "criterion": "b", "points": 1, "description": "60/30 = 2 units of rice per unit of steel." },
+        { "criterion": "c", "points": 1, "description": "Beta: its OC of steel is 1 rice, lower than Alpha's 2 rice." },
+        { "criterion": "d", "points": 1, "description": "Yes: 1.5 rice per steel lies between Beta's OC (1) and Alpha's OC (2); Beta gets more rice per steel than it could produce itself, Alpha pays less rice than its own cost." },
+        { "criterion": "e", "points": 1, "description": "Increases: Beta's OC of 1 steel rises from 1 to 2 units of rice (80/40)." }
+      ],
+      "sampleResponse": "(a) Country Alpha has the absolute advantage in rice because it can produce 60 units compared with Beta's 40 units using the same resources.\n\n(b) Alpha's opportunity cost of one unit of steel = 60 rice ÷ 30 steel = 2 units of rice.\n\n(c) Country Beta. Beta's opportunity cost of one unit of steel is 40 ÷ 40 = 1 unit of rice, which is lower than Alpha's 2 units of rice.\n\n(d) Yes. The terms of trade (1.5 rice per steel) lie between the two opportunity costs. Beta, which specializes in steel, gets 1.5 rice for each steel, more than the 1 rice it would sacrifice to make it. Alpha, which specializes in rice, pays only 1.5 rice per steel instead of the 2 rice it would give up to produce steel itself.\n\n(e) Beta's opportunity cost of producing steel increases, from 1 unit of rice to 2 units of rice (80 rice ÷ 40 steel), because each unit of steel now requires giving up more rice."
+    }
+  ]
+}

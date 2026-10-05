@@ -1,0 +1,84 @@
+{
+ "slug": "macroeconomics",
+ "name": "AP Macroeconomics",
+ "lastVerified": "2026-10",
+ "overview": "AP Macroeconomics is an introductory college course on the economy as a whole: measuring output, unemployment, and inflation; the aggregate demand–aggregate supply model; the financial sector and monetary policy; fiscal policy and its long-run effects; economic growth; and open-economy topics such as the balance of payments and exchange rates. The exam is built on cause-and-effect chains and graphs: you must trace how a policy or shock moves through the money market, loanable funds, AD-AS, and foreign exchange markets, and calculate multipliers, real values, and money creation.",
+ "examMode": "Hybrid digital: multiple-choice in Bluebook; free-response viewed in Bluebook and answered (including graphs) by hand in a paper booklet. Confirm the current format on AP Central.",
+ "totalMinutes": 130,
+ "sections": [
+  {
+   "name": "Section I",
+   "questionType": "Multiple choice",
+   "count": 60,
+   "minutes": 70,
+   "weight": "66.7%",
+   "calculator": "Not allowed",
+   "notes": "Many questions require reasoning through a graph or a chain of effects. Arithmetic is designed to be done by hand."
+  },
+  {
+   "name": "Section II",
+   "questionType": "Free response: 1 long + 2 short",
+   "count": 3,
+   "minutes": 60,
+   "weight": "33.3%",
+   "calculator": "Not allowed",
+   "notes": "Includes a 10-minute reading period. The long question is worth half of the section score; each short question is worth a quarter. Correctly labeled graphs are required."
+  }
+ ],
+ "units": [
+  { "number": 1, "title": "Basic Economic Concepts", "weight": "5–10%" },
+  { "number": 2, "title": "Economic Indicators and the Business Cycle", "weight": "12–17%" },
+  { "number": 3, "title": "National Income and Price Determination", "weight": "17–27%" },
+  { "number": 4, "title": "Financial Sector", "weight": "18–23%" },
+  { "number": 5, "title": "Long-Run Consequences of Stabilization Policies", "weight": "20–30%" },
+  { "number": 6, "title": "Open Economy: International Trade and Finance", "weight": "10–13%" }
+ ],
+ "skills": [
+  { "name": "1. Principles and Models", "description": "Define, explain, and apply economic principles and models." },
+  { "name": "2. Interpretation", "description": "Interpret an economic situation and predict or explain outcomes." },
+  { "name": "3. Manipulation", "description": "Determine the outcome of an economic situation using economic models and calculations." },
+  { "name": "4. Graphing and Visuals", "description": "Create and use correctly labeled graphs and visual representations to explain economic outcomes." }
+ ],
+ "scoring": {
+  "summary": "Section I (60 MCQ) is two-thirds of the composite and Section II one-third, converted to 1–5 using cut points set each year. FRQ points are awarded per element: correct labels, correct shifts and new equilibria, correct direction of change, and explanations. Points can be earned for consistent follow-through on an earlier error.",
+  "approxCutoffs": [
+   { "score": 5, "minPercent": 75 },
+   { "score": 4, "minPercent": 62 },
+   { "score": 3, "minPercent": 49 },
+   { "score": 2, "minPercent": 38 }
+  ]
+ },
+ "frqTypes": [
+  { "name": "Long FRQ", "points": 10, "howScored": "Multi-part scenario usually requiring an AD-AS graph and at least one other graph (money market, loanable funds, Phillips curve, or foreign exchange). Points for labeled axes and curves, correct shifts, equilibrium changes, policy identification, and explanations." },
+  { "name": "Short FRQ", "points": 5, "howScored": "Focused on one model or calculation (money multiplier, balance of payments, PPC, Phillips curve). Points for each correct graph element, calculation with work, or explanation." }
+ ],
+ "strategy": [
+  "Label every graph completely: axes, curves, equilibrium points, and shifts with arrows or new labels (AD₁, Pl₁).",
+  "Follow the chain one step at a time: policy → interest rate → investment → AD → output and price level → unemployment.",
+  "When asked to 'explain,' state the economic mechanism, not just the direction.",
+  "Know which graph uses nominal vs. real interest rates: money market (nominal), loanable funds (real).",
+  "Answer exactly the variable asked (real GDP vs. nominal GDP, price level vs. inflation rate).",
+  "Show work for calculations; the arithmetic is simple by design.",
+  "Use the 10-minute reading period to sketch graphs and plan chains of effects.",
+  "Don't contradict yourself; a correct answer followed by a wrong one may lose the point."
+ ],
+ "pitfalls": [
+  "Confusing a change in demand (curve shift) with a change in quantity demanded (movement along).",
+  "Saying the Fed controls the federal funds rate directly instead of using tools such as interest on reserves or open-market operations.",
+  "Mixing up the spending multiplier (1/MPS) with the tax multiplier (−MPC/MPS).",
+  "Shifting LRAS in response to demand shocks.",
+  "Confusing currency appreciation with depreciation and their effect on net exports.",
+  "Putting the nominal interest rate on the loanable funds graph.",
+  "Saying expansionary fiscal policy decreases the deficit.",
+  "Forgetting that the short-run Phillips curve shifts with inflation expectations."
+ ],
+ "referenceSheet": "No formula sheet. Know: GDP = C + I + G + Xn; spending multiplier = 1/MPS = 1/(1 − MPC); tax multiplier = −MPC/MPS; real GDP = nominal GDP ÷ (price index/100); inflation = (CPI₂ − CPI₁)/CPI₁ × 100; unemployment rate = unemployed ÷ labor force × 100; real interest rate = nominal − expected inflation; money multiplier = 1/reserve requirement; quantity theory MV = PY.",
+ "sources": [
+  { "title": "AP Macroeconomics Exam (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-macroeconomics/exam" },
+  { "title": "AP Macroeconomics Course and Exam Description", "url": "https://apcentral.collegeboard.org/media/pdf/ap-macroeconomics-course-and-exam-description.pdf" }
+ ],
+ "caveats": [
+  "The Federal Reserve now operates with ample reserves, and the CED emphasizes administered rates (interest on reserves) as the main policy tool; older materials emphasize open-market operations and the reserve requirement.",
+  "Cutoffs are estimates; College Board does not publish exact cut scores."
+ ]
+}

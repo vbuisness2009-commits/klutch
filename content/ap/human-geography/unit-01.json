@@ -1,0 +1,270 @@
+{
+  "number": 1,
+  "title": "Thinking Geographically",
+  "guide": {
+    "summary": "Unit 1 provides the toolkit for the whole course: map types and projections, sources of geographic data, spatial concepts such as location, distance decay, and time-space compression, human-environment interaction, scales of analysis, and types of regions. Expect these ideas to appear inside questions from every other unit.",
+    "sections": [
+      {
+        "heading": "Maps and projections",
+        "body": "Reference maps show locations (political, physical, road maps); thematic maps show the spatial pattern of a variable. Thematic types: choropleth (shades by area, best for rates or densities), dot distribution (each dot = a number of occurrences), graduated symbol (symbol size = quantity), isoline (lines connecting equal values, such as elevation or temperature), and cartogram (area distorted to represent a variable such as population). Every projection distorts shape, area, distance, or direction: Mercator preserves direction and shape locally but exaggerates area near the poles; equal-area projections (e.g., Peters, Goode's homolosine) preserve area but distort shape; Robinson compromises. Maps reflect choices by their makers and can carry political messages."
+      },
+      {
+        "heading": "Geographic data and spatial concepts",
+        "body": "Data come from fieldwork, interviews, census data, satellite imagery and remote sensing, GPS (precise location), and GIS (layered digital maps used for analysis). Absolute location uses coordinates; relative location describes a place relative to others. Site is a place's physical characteristics; situation is its connections to other places. Distance decay: interaction declines as distance increases. Time-space compression: technology (transport, internet) reduces the effective distance between places. Patterns can be clustered, dispersed, or linear; density measures frequency per area."
+      },
+      {
+        "heading": "Human-environment interaction",
+        "body": "Environmental determinism (now rejected) claimed the physical environment dictates human culture and development. Possibilism argues that the environment sets limits but humans make choices and adapt (e.g., terracing hillsides). Sustainability means using resources so future generations can meet their needs. Land use, natural hazards, and resource availability all reflect this interaction."
+      },
+      {
+        "heading": "Scale and regions",
+        "body": "Scale of analysis is the level at which data are aggregated (global, regional, national, local). Patterns can look very different at different scales: a country may appear wealthy at the national scale while having deep regional inequality. Map scale is the ratio between map distance and ground distance; a large-scale map shows a small area in great detail. Regions: formal (uniform) regions share a measurable trait (e.g., a language region); functional (nodal) regions are organized around a node (e.g., a metro area or a newspaper's circulation area); perceptual (vernacular) regions reflect people's feelings and attitudes (e.g., 'the South'). Region boundaries are often contested."
+      }
+    ],
+    "keyTakeaways": [
+      "Choropleth for rates; dot map for counts; isoline for continuous values.",
+      "Every projection distorts something.",
+      "Site = physical characteristics; situation = connections.",
+      "Distance decay and time-space compression shape interaction.",
+      "Possibilism has replaced environmental determinism.",
+      "Formal, functional, and perceptual regions."
+    ],
+    "commonMistakes": [
+      "Calling a large-scale map one that shows a large area (it shows a small area in detail).",
+      "Confusing site with situation.",
+      "Using a choropleth map for raw totals instead of rates.",
+      "Saying environmental determinism is an accepted theory.",
+      "Mixing up functional and formal regions."
+    ],
+    "examTips": [
+      "Map-identification MCQs are common; know which map type fits which data.",
+      "Explain why patterns change across scales with a concrete example.",
+      "FRQs often ask for a limitation of a data source or map type.",
+      "Use the vocabulary precisely, then explain it in the context given."
+    ],
+    "cramSheet": "**Maps:** reference vs thematic · choropleth (rates) · dot · graduated symbol · isoline · cartogram\n\n**Projections:** Mercator (direction, big poles) · equal-area (Peters, Goode) · Robinson (compromise)\n\n**Data:** GPS · GIS · remote sensing · census · fieldwork\n\n**Concepts:** absolute/relative location · site vs situation · distance decay · time-space compression\n\n**H-E:** determinism ✗ · possibilism ✓ · sustainability\n\n**Scale:** global → local · large-scale map = small area\n\n**Regions:** formal · functional (node) · perceptual"
+  },
+  "vocab": [
+    { "term": "Choropleth map", "definition": "A thematic map that shades areas according to the value of a variable, best used for rates or ratios." },
+    { "term": "Map projection", "definition": "A method of transferring Earth's curved surface to a flat map, always with some distortion." },
+    { "term": "Geographic information system (GIS)", "definition": "Computer system that stores, layers, and analyzes spatial data." },
+    { "term": "Remote sensing", "definition": "Gathering information about Earth's surface from a distance, such as satellites or aircraft." },
+    { "term": "Site", "definition": "The physical characteristics of a place." },
+    { "term": "Situation", "definition": "The location of a place relative to other places and its connections." },
+    { "term": "Distance decay", "definition": "The decline in interaction between places as distance between them increases." },
+    { "term": "Time-space compression", "definition": "The reduction in the time it takes for something to reach another place, due to technology." },
+    { "term": "Possibilism", "definition": "The view that the environment sets limits, but people choose how to respond." },
+    { "term": "Functional region", "definition": "A region organized around a central node and defined by connections to it." },
+    { "term": "Perceptual region", "definition": "A region defined by people's feelings and attitudes about an area." },
+    { "term": "Scale of analysis", "definition": "The level (local, national, global, etc.) at which a phenomenon is studied." }
+  ],
+  "practice": [
+    {
+      "id": "u1-q01", "tier": "Intro", "type": "mcq", "topic": "1.1 Introduction to Maps", "skill": "4. Source Analysis",
+      "stem": "Which type of map would best show the percentage of each county's population over age 65?",
+      "choices": [
+        { "id": "A", "text": "Isoline map" },
+        { "id": "B", "text": "Choropleth map" },
+        { "id": "C", "text": "Reference map" },
+        { "id": "D", "text": "Topographic map" }
+      ],
+      "answer": "B",
+      "explanation": "Choropleth maps shade defined areas by a rate or percentage.",
+      "distractors": { "A": "Used for continuous values like temperature." }
+    },
+    {
+      "id": "u1-q02", "tier": "Intro", "type": "mcq", "topic": "1.4 Spatial Concepts", "skill": "1. Concepts and Processes",
+      "stem": "A city's location on a deep natural harbor with fresh water is an example of its",
+      "choices": [
+        { "id": "A", "text": "situation" },
+        { "id": "B", "text": "site" },
+        { "id": "C", "text": "relative location" },
+        { "id": "D", "text": "functional region" }
+      ],
+      "answer": "B",
+      "explanation": "Site describes the physical characteristics of the place itself.",
+      "distractors": { "A": "Situation describes connections to other places." }
+    },
+    {
+      "id": "u1-q03", "tier": "Intro", "type": "mcq", "topic": "1.7 Regional Analysis", "skill": "1. Concepts and Processes",
+      "stem": "The delivery area served by a single regional hospital is best described as a",
+      "choices": [
+        { "id": "A", "text": "formal region" },
+        { "id": "B", "text": "functional region" },
+        { "id": "C", "text": "perceptual region" },
+        { "id": "D", "text": "vernacular region" }
+      ],
+      "answer": "B",
+      "explanation": "It is organized around a central node (the hospital).",
+      "distractors": { "D": "Another name for perceptual." }
+    },
+    {
+      "id": "u1-q04", "tier": "Intro", "type": "mcq", "topic": "1.5 Humans and the Environment", "skill": "1. Concepts and Processes",
+      "stem": "Farmers in a mountainous region build terraces to grow rice on steep slopes. This best illustrates",
+      "choices": [
+        { "id": "A", "text": "environmental determinism" },
+        { "id": "B", "text": "possibilism" },
+        { "id": "C", "text": "distance decay" },
+        { "id": "D", "text": "time-space compression" }
+      ],
+      "answer": "B",
+      "explanation": "People adapt to environmental limits through their own choices and technology.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q05", "tier": "Exam level", "type": "mcq", "topic": "1.1 Introduction to Maps", "skill": "4. Source Analysis",
+      "stem": "On a Mercator projection, Greenland appears roughly as large as Africa, although Africa is about 14 times larger. Which statement best explains this?",
+      "choices": [
+        { "id": "A", "text": "The Mercator projection preserves area but distorts direction." },
+        { "id": "B", "text": "The Mercator projection preserves direction for navigation but greatly exaggerates area at high latitudes." },
+        { "id": "C", "text": "Greenland's ice sheet is included in its area." },
+        { "id": "D", "text": "The map uses a large scale near the equator." }
+      ],
+      "answer": "B",
+      "explanation": "Lines of longitude are drawn parallel, stretching areas increasingly toward the poles.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q06", "tier": "Exam level", "type": "mcq", "topic": "1.4 Spatial Concepts", "skill": "2. Spatial Relationships",
+      "stem": "A survey shows that most customers of a suburban grocery store live within 3 km, and very few live more than 10 km away. This pattern best illustrates",
+      "choices": [
+        { "id": "A", "text": "time-space compression" },
+        { "id": "B", "text": "distance decay" },
+        { "id": "C", "text": "environmental determinism" },
+        { "id": "D", "text": "a perceptual region" }
+      ],
+      "answer": "B",
+      "explanation": "Interaction declines as distance from the store increases.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q07", "tier": "Exam level", "type": "mcq", "topic": "1.6 Scales of Analysis", "skill": "5. Scale Analysis",
+      "stem": "National data show that a country's average income has risen steadily, but county-level data show that rural counties' incomes have fallen. This example best illustrates that",
+      "choices": [
+        { "id": "A", "text": "data at one scale can hide patterns visible at another scale" },
+        { "id": "B", "text": "national data are always inaccurate" },
+        { "id": "C", "text": "rural areas are perceptual regions" },
+        { "id": "D", "text": "distance decay affects incomes" }
+      ],
+      "answer": "A",
+      "explanation": "Aggregating to the national scale masks regional differences.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q08", "tier": "Exam level", "type": "mcq", "topic": "1.2 Geographic Data", "skill": "1. Concepts and Processes",
+      "stem": "City planners overlay maps of flood zones, population density, and hospital locations to decide where to build an emergency shelter. Which technology are they most likely using?",
+      "choices": [
+        { "id": "A", "text": "GPS" },
+        { "id": "B", "text": "GIS" },
+        { "id": "C", "text": "A census questionnaire" },
+        { "id": "D", "text": "A cartogram" }
+      ],
+      "answer": "B",
+      "explanation": "GIS layers multiple spatial datasets for analysis.",
+      "distractors": { "A": "GPS determines precise location but doesn't layer data." }
+    },
+    {
+      "id": "u1-q09", "tier": "Exam level", "type": "mcq", "topic": "1.4 Spatial Concepts", "skill": "1. Concepts and Processes",
+      "stem": "Video calls and same-day air freight allow a company in Chicago to manage a factory in Vietnam closely. This best illustrates",
+      "choices": [
+        { "id": "A", "text": "time-space compression" },
+        { "id": "B", "text": "distance decay" },
+        { "id": "C", "text": "a formal region" },
+        { "id": "D", "text": "possibilism" }
+      ],
+      "answer": "A",
+      "explanation": "Technology reduces the effective distance between places.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q10", "tier": "Exam level", "type": "mcq", "topic": "1.1 Introduction to Maps", "skill": "4. Source Analysis",
+      "stem": "A map resizes each country according to its population, so India and China appear huge and Russia appears small. This is a",
+      "choices": [
+        { "id": "A", "text": "cartogram" },
+        { "id": "B", "text": "dot distribution map" },
+        { "id": "C", "text": "isoline map" },
+        { "id": "D", "text": "reference map" }
+      ],
+      "answer": "A",
+      "explanation": "Cartograms distort area to represent a variable.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q11", "tier": "Hardest", "type": "mcq", "topic": "1.1 Introduction to Maps", "skill": "4. Source Analysis",
+      "stem": "A choropleth map shows the total number of COVID-19 cases by U.S. state, and the most populous states appear darkest. What is the main limitation of this map?",
+      "choices": [
+        { "id": "A", "text": "Choropleth maps cannot show data by state." },
+        { "id": "B", "text": "Totals largely reflect population size; a rate per 100,000 people would better show where infection was more common." },
+        { "id": "C", "text": "The map should use the Mercator projection." },
+        { "id": "D", "text": "Isoline maps cannot be used for health data." }
+      ],
+      "answer": "B",
+      "explanation": "Choropleths of raw totals mislead because larger areas or populations naturally have more cases.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q12", "tier": "Hardest", "type": "mcq", "topic": "1.7 Regional Analysis", "skill": "2. Spatial Relationships",
+      "stem": "Residents disagree about whether a particular state belongs to 'the Midwest,' and different surveys draw its boundary differently. This is because the Midwest is primarily a",
+      "choices": [
+        { "id": "A", "text": "formal region with precise borders" },
+        { "id": "B", "text": "functional region organized around Chicago" },
+        { "id": "C", "text": "perceptual region based on people's attitudes and identity" },
+        { "id": "D", "text": "physical region defined by climate" }
+      ],
+      "answer": "C",
+      "explanation": "Perceptual regions vary by who is asked; their boundaries are fuzzy.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q13", "tier": "Hardest", "type": "mcq", "topic": "1.6 Scales of Analysis", "skill": "5. Scale Analysis",
+      "stem": "Which statement about map scale is correct?",
+      "choices": [
+        { "id": "A", "text": "A 1:24,000 map is a larger-scale map than a 1:1,000,000 map and shows a smaller area in more detail." },
+        { "id": "B", "text": "A 1:1,000,000 map shows more detail than a 1:24,000 map." },
+        { "id": "C", "text": "Large-scale maps show large areas such as continents." },
+        { "id": "D", "text": "Map scale only applies to thematic maps." }
+      ],
+      "answer": "A",
+      "explanation": "Larger representative fraction (1/24,000 > 1/1,000,000) = larger scale = more detail.",
+      "distractors": { "C": "Common misconception." }
+    },
+    {
+      "id": "u1-q14", "tier": "Hardest", "type": "mcq", "topic": "1.3 The Power of Geographic Data", "skill": "4. Source Analysis",
+      "stem": "A government's census undercounts residents of informal settlements around its capital. Which consequence is most likely?",
+      "choices": [
+        { "id": "A", "text": "Those neighborhoods receive less funding for schools, water, and representation than their actual population warrants." },
+        { "id": "B", "text": "Those neighborhoods receive more services than needed." },
+        { "id": "C", "text": "The country's map projection becomes inaccurate." },
+        { "id": "D", "text": "No effect, because census data are not used for policy." }
+      ],
+      "answer": "A",
+      "explanation": "Census counts drive allocation of resources and political representation.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-frq1", "tier": "Exam level", "type": "frq", "topic": "1.4–1.7 Spatial Concepts, Scale, and Regions", "frqType": "FRQ (no stimulus)",
+      "prompt": "Geographers use spatial concepts, data, and regions to understand how places are connected.",
+      "parts": [
+        { "label": "A", "prompt": "Define distance decay.", "points": 1 },
+        { "label": "B", "prompt": "Explain how time-space compression has weakened the effect of distance decay for one specific type of interaction.", "points": 1 },
+        { "label": "C", "prompt": "Describe the difference between a city's site and its situation.", "points": 1 },
+        { "label": "D", "prompt": "Explain why a city's situation can become more important than its site over time.", "points": 1 },
+        { "label": "E", "prompt": "Describe one characteristic of a functional region, using an example.", "points": 1 },
+        { "label": "F", "prompt": "Explain how a pattern may appear different when analyzed at the national scale versus the local scale.", "points": 1 },
+        { "label": "G", "prompt": "Explain one limitation of using remote sensing to study human activity.", "points": 1 }
+      ],
+      "points": 7,
+      "minutes": 25,
+      "rubric": [
+        { "criterion": "A", "points": 1, "description": "Interaction between two places declines as the distance between them increases." },
+        { "criterion": "B", "points": 1, "description": "E.g., the internet lets people communicate instantly with friends or businesses far away, so distant interaction no longer falls off as sharply." },
+        { "criterion": "C", "points": 1, "description": "Site: physical characteristics of the location (terrain, water, harbor). Situation: location relative to other places and networks." },
+        { "criterion": "D", "points": 1, "description": "E.g., as transportation and trade networks develop, access to markets and routes (situation) drives growth even if the original physical advantage (e.g., a defensive hilltop) no longer matters." },
+        { "criterion": "E", "points": 1, "description": "Organized around a node with connections that weaken with distance; e.g., a TV station's broadcast area or a metropolitan commuting area." },
+        { "criterion": "F", "points": 1, "description": "E.g., national data may show a country is mostly one ethnic group, while local data reveal neighborhoods where a minority group is the majority; aggregation hides variation." },
+        { "criterion": "G", "points": 1, "description": "E.g., satellite imagery shows land use but not people's motivations, income, or culture; cloud cover; cost; needs ground verification." }
+      ],
+      "sampleResponse": "A. Distance decay is the idea that interaction between places decreases as the distance between them increases.\n\nB. Online shopping lets a customer in a small town buy from a retailer across the country and receive goods in two days. Because communication and shipping are fast, distance no longer reduces this interaction as much as it once did.\n\nC. A city's site is its physical setting, such as a river crossing or a natural harbor. Its situation is its location relative to other places, such as being at the junction of major highways or near large markets.\n\nD. A city founded on a defensible hill may later grow because it lies at the center of a rail and highway network. As trade becomes more important, its connections to other places matter more than its original physical features.\n\nE. A functional region is organized around a central node, and connections weaken farther from it. For example, the area from which commuters travel into Atlanta each day forms a functional region centered on downtown Atlanta.\n\nF. At the national scale, a country may appear to have a moderate average income. At the local scale, data may show some neighborhoods with very high incomes next to neighborhoods in deep poverty, a pattern hidden when data are averaged nationally.\n\nG. Satellite images can show where buildings and farms are, but they cannot show people's beliefs, incomes, or why they use land a certain way, so they must be combined with fieldwork or census data."
+    }
+  ]
+}

@@ -1,0 +1,276 @@
+{
+  "number": 2,
+  "title": "Population and Migration Patterns and Processes",
+  "guide": {
+    "summary": "Unit 2 covers where people live and why, how populations grow and change (birth, death, fertility, age structure), models and theories of population change (demographic transition, epidemiological transition, Malthus), population policies, and migration: its causes, types, and consequences.",
+    "sections": [
+      {
+        "heading": "Distribution and density",
+        "body": "People cluster where physical factors (climate, water, fertile land, coasts) and human factors (economic opportunity, history) are favorable. Arithmetic density = people per total land area. Physiological density = people per unit of arable land; a high value signals pressure on farmland (e.g., Egypt). Agricultural density = farmers per unit of arable land; a high value suggests less mechanized agriculture. Population distribution affects political power, the provision of services, and environmental pressure."
+      },
+      {
+        "heading": "Measuring population change",
+        "body": "Crude birth rate (CBR) and crude death rate (CDR) are per 1,000 people. Rate of natural increase (RNI) = (CBR − CDR)/10, as a percent; it excludes migration. Doubling time ≈ 70/RNI. Total fertility rate (TFR) is the average number of children per woman; replacement level is about 2.1. Infant mortality rate (IMR) is deaths under age 1 per 1,000 live births, a strong indicator of development. Population pyramids show age-sex structure: a wide base means high fertility; a narrow base means low fertility and aging. The dependency ratio compares people under 15 and over 64 to working-age people."
+      },
+      {
+        "heading": "Models and theories",
+        "body": "The demographic transition model (DTM): Stage 1 high CBR and CDR; Stage 2 CDR falls (sanitation, medicine, food), rapid growth; Stage 3 CBR falls (urbanization, women's education, contraception); Stage 4 both low; Stage 5 (some countries) CBR below CDR and decline. The epidemiological transition describes changing causes of death: from infectious disease and famine to chronic, degenerative diseases (heart disease, cancer). Malthus argued population grows geometrically while food grows arithmetically, leading to famine; critics note technology (the Green Revolution) increased food supply, and neo-Malthusians emphasize resource limits beyond food. Limitations of the DTM: based on European experience, doesn't account for migration or government policy."
+      },
+      {
+        "heading": "Policies and aging",
+        "body": "Antinatalist policies aim to reduce births (China's former one-child policy; family-planning campaigns). Pronatalist policies encourage births (paid parental leave, child subsidies in many European countries, Japan, South Korea). Immigration policies also shape population. Expanding women's education and employment strongly lowers TFR. Aging populations face higher dependency ratios, labor shortages, pension and health-care strain, and may rely on immigration or automation."
+      },
+      {
+        "heading": "Migration",
+        "body": "Push factors drive people out (conflict, poverty, disaster); pull factors attract them (jobs, safety, family). Intervening obstacles (borders, distance, cost) and opportunities affect moves. Ravenstein's laws: most migrants move short distances; long-distance migrants tend to go to major cities; migration often occurs in steps; each flow creates a counterflow. Voluntary migration includes economic migration and chain migration (following family). Forced migration includes refugees (crossed an international border fleeing persecution), internally displaced persons (fleeing within their own country), and asylum seekers (seeking refugee status). Transnational migrants maintain ties to home. Effects: remittances support sending communities; brain drain removes skilled workers; receiving areas gain labor and cultural diversity but may see tension. Guest workers fill temporary labor needs."
+      }
+    ],
+    "keyTakeaways": [
+      "Physiological density reveals pressure on farmland.",
+      "RNI excludes migration; growth = RNI + net migration.",
+      "DTM: deaths fall (Stage 2) before births fall (Stage 3).",
+      "Women's education is a key driver of falling TFR.",
+      "Refugees cross borders; IDPs don't.",
+      "Remittances and brain drain affect sending countries."
+    ],
+    "commonMistakes": [
+      "Confusing physiological and agricultural density.",
+      "Using CBR when the question asks about TFR.",
+      "Saying Stage 2 growth comes from rising birth rates.",
+      "Calling all migrants refugees.",
+      "Forgetting migration when explaining total population change."
+    ],
+    "examTips": [
+      "Population pyramid stimuli are common; read the base, middle, and top.",
+      "When asked for a DTM limitation, cite its European basis or neglect of migration and policy.",
+      "Be ready to explain a pronatalist or antinatalist policy with a specific example.",
+      "Migration FRQs: pair a push or pull factor with the type of migration."
+    ],
+    "cramSheet": "**Density:** arithmetic (total land) · physiological (arable, people) · agricultural (arable, farmers)\n\n**Rates:** CBR, CDR per 1,000 · RNI = (CBR − CDR)/10 · TFR ≈ 2.1 replacement · IMR per 1,000 births\n\n**DTM:** 1 high/high · 2 CDR ↓ · 3 CBR ↓ · 4 low/low · 5 decline\n\n**Epidemiological:** infectious → chronic\n\n**Malthus:** food arithmetic, population geometric · critics: technology\n\n**Policies:** antinatalist (China) · pronatalist (Europe, East Asia)\n\n**Migration:** push/pull · Ravenstein · chain · refugee vs IDP vs asylum · remittances · brain drain"
+  },
+  "vocab": [
+    { "term": "Physiological density", "definition": "Number of people per unit of arable land." },
+    { "term": "Agricultural density", "definition": "Number of farmers per unit of arable land." },
+    { "term": "Rate of natural increase (RNI)", "definition": "The percentage growth of a population from births minus deaths, excluding migration." },
+    { "term": "Total fertility rate (TFR)", "definition": "Average number of children a woman will have in her lifetime." },
+    { "term": "Infant mortality rate (IMR)", "definition": "Annual deaths of infants under age 1 per 1,000 live births." },
+    { "term": "Dependency ratio", "definition": "Ratio of people under 15 and over 64 to people of working age." },
+    { "term": "Demographic transition model", "definition": "A model describing changes in birth and death rates as a country develops." },
+    { "term": "Epidemiological transition", "definition": "The shift in leading causes of death from infectious diseases to chronic diseases." },
+    { "term": "Pronatalist policy", "definition": "A government policy that encourages people to have more children." },
+    { "term": "Chain migration", "definition": "Migration of people to a place where relatives or people from the same community previously migrated." },
+    { "term": "Internally displaced person (IDP)", "definition": "A person forced to flee home who remains within their country's borders." },
+    { "term": "Remittances", "definition": "Money sent by migrants to family or communities in their home country." }
+  ],
+  "practice": [
+    {
+      "id": "u2-q01", "tier": "Intro", "type": "mcq", "topic": "2.1 Population Distribution", "skill": "1. Concepts and Processes",
+      "stem": "Egypt's population is concentrated along the Nile, and its population per unit of arable land is extremely high. This measure is called",
+      "choices": [
+        { "id": "A", "text": "arithmetic density" },
+        { "id": "B", "text": "physiological density" },
+        { "id": "C", "text": "agricultural density" },
+        { "id": "D", "text": "dependency ratio" }
+      ],
+      "answer": "B",
+      "explanation": "Physiological density divides total population by arable land.",
+      "distractors": { "C": "Counts only farmers." }
+    },
+    {
+      "id": "u2-q02", "tier": "Intro", "type": "mcq", "topic": "2.4 Population Dynamics", "skill": "3. Data Analysis",
+      "stem": "A country has a crude birth rate of 32 and a crude death rate of 12. What is its rate of natural increase?",
+      "choices": [
+        { "id": "A", "text": "0.2%" },
+        { "id": "B", "text": "2.0%" },
+        { "id": "C", "text": "20%" },
+        { "id": "D", "text": "4.4%" }
+      ],
+      "answer": "B",
+      "explanation": "(32 − 12)/10 = 2.0%.",
+      "distractors": { "C": "Forgets that rates are per 1,000." }
+    },
+    {
+      "id": "u2-q03", "tier": "Intro", "type": "mcq", "topic": "2.11 Forced and Voluntary Migration", "skill": "1. Concepts and Processes",
+      "stem": "People who flee fighting in their region but remain within their own country's borders are",
+      "choices": [
+        { "id": "A", "text": "refugees" },
+        { "id": "B", "text": "internally displaced persons" },
+        { "id": "C", "text": "guest workers" },
+        { "id": "D", "text": "transnational migrants" }
+      ],
+      "answer": "B",
+      "explanation": "Refugees cross an international border; IDPs do not.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q04", "tier": "Intro", "type": "mcq", "topic": "2.5 The Demographic Transition Model", "skill": "1. Concepts and Processes",
+      "stem": "In Stage 2 of the demographic transition model, population grows rapidly mainly because",
+      "choices": [
+        { "id": "A", "text": "birth rates rise sharply" },
+        { "id": "B", "text": "death rates fall due to improved sanitation, medicine, and food supply while birth rates remain high" },
+        { "id": "C", "text": "immigration increases" },
+        { "id": "D", "text": "both birth and death rates fall" }
+      ],
+      "answer": "B",
+      "explanation": "The gap between high births and falling deaths drives growth.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q05", "tier": "Exam level", "type": "mcq", "topic": "2.3 Population Composition", "skill": "3. Data Analysis",
+      "stimulus": "A population pyramid has a narrow base, a wide middle section for ages 40–64, and large bars for ages 65+, with more women than men in the oldest groups.",
+      "stem": "Which country profile best matches this pyramid?",
+      "choices": [
+        { "id": "A", "text": "A country with high fertility and rapid growth" },
+        { "id": "B", "text": "A country with low fertility, long life expectancy, and an aging population" },
+        { "id": "C", "text": "A country with high infant mortality" },
+        { "id": "D", "text": "A country with large numbers of young male migrant workers" }
+      ],
+      "answer": "B",
+      "explanation": "Few children and many elderly indicate late DTM stages; women outlive men.",
+      "distractors": { "D": "Would bulge in young adult male bars." }
+    },
+    {
+      "id": "u2-q06", "tier": "Exam level", "type": "mcq", "topic": "2.8 Women and Demographic Change", "skill": "2. Spatial Relationships",
+      "stem": "Which change is most strongly associated with a decline in a country's total fertility rate?",
+      "choices": [
+        { "id": "A", "text": "Increased access to secondary education for girls" },
+        { "id": "B", "text": "Lower urbanization" },
+        { "id": "C", "text": "Higher infant mortality" },
+        { "id": "D", "text": "Greater reliance on subsistence farming" }
+      ],
+      "answer": "A",
+      "explanation": "Education delays marriage, increases job opportunities, and improves access to family planning.",
+      "distractors": { "C": "High IMR tends to raise fertility." }
+    },
+    {
+      "id": "u2-q07", "tier": "Exam level", "type": "mcq", "topic": "2.7 Population Policies", "skill": "1. Concepts and Processes",
+      "stem": "A government offers monthly cash payments for each child, extended paid parental leave, and subsidized childcare. This is",
+      "choices": [
+        { "id": "A", "text": "an antinatalist policy" },
+        { "id": "B", "text": "a pronatalist policy" },
+        { "id": "C", "text": "an immigration policy" },
+        { "id": "D", "text": "a Malthusian policy" }
+      ],
+      "answer": "B",
+      "explanation": "Incentives to have children aim to raise fertility, often in aging countries.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q08", "tier": "Exam level", "type": "mcq", "topic": "2.12 Effects of Migration", "skill": "2. Spatial Relationships",
+      "stem": "Which is a likely economic effect of large-scale emigration of workers from a developing country to wealthier countries?",
+      "choices": [
+        { "id": "A", "text": "Increased remittances sent home, supporting household incomes" },
+        { "id": "B", "text": "An increase in the sending country's labor force" },
+        { "id": "C", "text": "Higher birth rates in receiving countries only" },
+        { "id": "D", "text": "Elimination of brain drain" }
+      ],
+      "answer": "A",
+      "explanation": "Remittances are a major income source in many sending countries.",
+      "distractors": { "D": "Emigration of skilled workers causes brain drain." }
+    },
+    {
+      "id": "u2-q09", "tier": "Exam level", "type": "mcq", "topic": "2.6 Malthusian Theory", "skill": "1. Concepts and Processes",
+      "stem": "Which development is most often cited as evidence against Malthus's prediction of widespread famine?",
+      "choices": [
+        { "id": "A", "text": "The Green Revolution's large increases in crop yields" },
+        { "id": "B", "text": "Rising birth rates in Europe" },
+        { "id": "C", "text": "The spread of epidemics" },
+        { "id": "D", "text": "Declining agricultural technology" }
+      ],
+      "answer": "A",
+      "explanation": "Technology increased food production faster than Malthus assumed.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q10", "tier": "Exam level", "type": "mcq", "topic": "2.10 Causes of Migration", "skill": "1. Concepts and Processes",
+      "stem": "Most migrants from a rural village move first to a nearby town, then later to the national capital. This pattern is best described as",
+      "choices": [
+        { "id": "A", "text": "step migration" },
+        { "id": "B", "text": "forced migration" },
+        { "id": "C", "text": "counterurbanization" },
+        { "id": "D", "text": "transhumance" }
+      ],
+      "answer": "A",
+      "explanation": "Ravenstein observed that migration often occurs in stages.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q11", "tier": "Hardest", "type": "mcq", "topic": "2.5 The Demographic Transition Model", "skill": "1. Concepts and Processes",
+      "stem": "Which is the strongest criticism of using the demographic transition model to predict population change in today's developing countries?",
+      "choices": [
+        { "id": "A", "text": "It was based on the historical experience of European countries and doesn't account for factors such as migration, government policies, or rapid imported medical technology." },
+        { "id": "B", "text": "It has too many stages." },
+        { "id": "C", "text": "It only applies to countries in the Southern Hemisphere." },
+        { "id": "D", "text": "It assumes death rates rise over time." }
+      ],
+      "answer": "A",
+      "explanation": "Developing countries experienced faster death-rate declines from imported medicine, and policy and migration reshape trajectories.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q12", "tier": "Hardest", "type": "mcq", "topic": "2.9 Aging Populations", "skill": "2. Spatial Relationships",
+      "stem": "A country with a TFR of 1.2 and a rising share of residents over 65 is most likely to adopt which strategy to address labor shortages?",
+      "choices": [
+        { "id": "A", "text": "Antinatalist policies limiting family size" },
+        { "id": "B", "text": "Expanded immigration programs or guest-worker visas" },
+        { "id": "C", "text": "Lowering the retirement age" },
+        { "id": "D", "text": "Reducing investment in automation" }
+      ],
+      "answer": "B",
+      "explanation": "Immigration adds working-age people immediately; lowering retirement age would worsen shortages.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q13", "tier": "Hardest", "type": "mcq", "topic": "2.1 Population Distribution", "skill": "3. Data Analysis",
+      "stimulus": "Country X: arithmetic density 50/km², physiological density 1,500/km², agricultural density 20 farmers/km² of arable land.\nCountry Y: arithmetic density 50/km², physiological density 400/km², agricultural density 400 farmers/km² of arable land.",
+      "stem": "Which conclusion is best supported?",
+      "choices": [
+        { "id": "A", "text": "Country X has little arable land and highly mechanized farming; Country Y relies on labor-intensive farming." },
+        { "id": "B", "text": "Country Y has less arable land than Country X." },
+        { "id": "C", "text": "Both countries have the same agricultural systems." },
+        { "id": "D", "text": "Country X has more farmers per unit of farmland." }
+      ],
+      "answer": "A",
+      "explanation": "X's high physiological density means scarce arable land; its low agricultural density means few farmers (mechanization). Y has many farmers per arable km².",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q14", "tier": "Hardest", "type": "mcq", "topic": "2.11 Forced and Voluntary Migration", "skill": "2. Spatial Relationships",
+      "stem": "A family leaves a region where repeated droughts have destroyed their crops and moves to a city in a neighboring country in search of work. How is this migration best classified?",
+      "choices": [
+        { "id": "A", "text": "It has both environmental push factors and economic pull factors, blurring the line between forced and voluntary migration." },
+        { "id": "B", "text": "It is purely forced migration because of political persecution." },
+        { "id": "C", "text": "It is internal migration." },
+        { "id": "D", "text": "It is a counterflow." }
+      ],
+      "answer": "A",
+      "explanation": "Environmental stress pushes, while jobs pull; such migrants often don't qualify as refugees under international law.",
+      "distractors": { "C": "They crossed an international border." }
+    },
+    {
+      "id": "u2-frq1", "tier": "Exam level", "type": "frq", "topic": "2.3–2.9 Population Composition and Change", "frqType": "FRQ (one stimulus)",
+      "prompt": "The table summarizes two countries' populations (percent of total population by age group).\n\n| | Ages 0–14 | Ages 15–64 | Ages 65+ | TFR | IMR (per 1,000) |\n|---|---|---|---|---|---|\n| Country A | 42% | 55% | 3% | 4.8 | 48 |\n| Country B | 13% | 58% | 29% | 1.3 | 2 |",
+      "parts": [
+        { "label": "A", "prompt": "Identify the stage of the demographic transition model that best fits Country A.", "points": 1 },
+        { "label": "B", "prompt": "Describe the shape of Country B's population pyramid.", "points": 1 },
+        { "label": "C", "prompt": "Explain one reason Country A's total fertility rate is high.", "points": 1 },
+        { "label": "D", "prompt": "Explain how Country A's age structure will affect its population growth even if its TFR falls quickly.", "points": 1 },
+        { "label": "E", "prompt": "Describe one economic challenge Country B faces because of its age structure.", "points": 1 },
+        { "label": "F", "prompt": "Explain one policy Country B could adopt to address that challenge.", "points": 1 },
+        { "label": "G", "prompt": "Explain one limitation of using the demographic transition model to predict Country A's future population.", "points": 1 }
+      ],
+      "points": 7,
+      "minutes": 25,
+      "rubric": [
+        { "criterion": "A", "points": 1, "description": "Stage 2 (accept late Stage 2 / early Stage 3 with reasoning from high TFR and youthful population)." },
+        { "criterion": "B", "points": 1, "description": "Narrow base, wider middle and top (inverted or column-like), showing an aging population." },
+        { "criterion": "C", "points": 1, "description": "E.g., high infant mortality (48) encourages more births; children provide farm labor or old-age support; limited access to contraception or education for women." },
+        { "criterion": "D", "points": 1, "description": "Population momentum: 42% under 15 means a large cohort will enter reproductive age, so births remain high and the population keeps growing for decades." },
+        { "criterion": "E", "points": 1, "description": "E.g., high elderly dependency ratio; shrinking workforce; rising pension and health-care costs; labor shortages." },
+        { "criterion": "F", "points": 1, "description": "E.g., pronatalist incentives; increased immigration; raising the retirement age; automation; must explain how it addresses the challenge." },
+        { "criterion": "G", "points": 1, "description": "E.g., the model is based on European experience; doesn't account for migration, government policy, cultural or religious factors, or epidemics." }
+      ],
+      "sampleResponse": "A. Stage 2.\n\nB. Country B's pyramid has a narrow base and wide bars in the middle and upper age groups, giving it an inverted or top-heavy shape.\n\nC. Country A's infant mortality rate is high (48 per 1,000), so families may have more children to ensure that some survive to adulthood.\n\nD. Because 42% of Country A's population is under 15, a very large cohort will soon reach childbearing age. Even if each woman has fewer children, the large number of parents means total births will remain high, so the population will keep growing (population momentum).\n\nE. With 29% of its population over 65, Country B has a high elderly dependency ratio: fewer workers must pay taxes to support pensions and health care for many retirees.\n\nF. Country B could expand immigration visas for working-age people. Immigrants would increase the size of the workforce and the number of taxpayers supporting the pension system.\n\nG. The demographic transition model is based on the history of European countries and does not account for government policies or international migration, which could change Country A's birth and death rates in ways the model does not predict."
+    }
+  ]
+}

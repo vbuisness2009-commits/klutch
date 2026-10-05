@@ -1,0 +1,276 @@
+{
+  "number": 7,
+  "title": "Industrial and Economic Development Patterns and Processes",
+  "guide": {
+    "summary": "Unit 7 covers how industrialization spread, how economic activity is organized by sector and location, how development is measured, theories that explain uneven development (Rostow, Wallerstein, dependency), the role of women, global trade and its institutions, the reorganization of manufacturing through outsourcing and special economic zones, and sustainable development.",
+    "sections": [
+      {
+        "heading": "Industrialization and economic sectors",
+        "body": "The Industrial Revolution began in Great Britain in the late 1700s (coal, iron, steam power, textiles) and diffused to Western Europe, North America, Japan, and later worldwide, creating demand for raw materials that fueled colonialism. Economic sectors: primary (extracting resources: farming, mining, fishing), secondary (manufacturing and processing), tertiary (services such as retail and transportation), quaternary (information and knowledge: research, finance, IT), and quinary (top-level decision making). As countries develop, employment shifts from primary to secondary to tertiary and beyond."
+      },
+      {
+        "heading": "Industrial location",
+        "body": "Weber's least-cost theory explains factory location by minimizing transport, labor, and agglomeration costs. Bulk-reducing (weight-losing) industries, such as copper smelting, locate near raw materials; bulk-gaining industries, such as beverage bottling, locate near markets. Break-of-bulk points (ports, rail hubs) are where goods transfer between modes. Agglomeration economies: firms cluster to share suppliers, skilled labor, and infrastructure (Silicon Valley). Fordism (mass production, assembly lines) has given way to post-Fordist flexible production, just-in-time delivery, and global supply chains."
+      },
+      {
+        "heading": "Measuring development",
+        "body": "GDP is the value of goods and services produced within a country; GNP/GNI adds income earned abroad by citizens and firms; per capita values allow comparison. Other indicators: sectoral employment structure, income distribution (Gini), fertility and infant mortality, literacy, access to health care, and the size of the informal economy (unregulated, untaxed work). The Human Development Index combines life expectancy, education, and income per capita. The Gender Inequality Index measures reproductive health, empowerment, and labor-market participation. Women's education and employment boost development; microloans help women start businesses, though they face criticism for high interest rates and small scale."
+      },
+      {
+        "heading": "Theories of development",
+        "body": "Rostow's stages of growth (modernization model): traditional society, preconditions for takeoff, takeoff, drive to maturity, and high mass consumption; criticized for assuming all countries follow the Western path and ignoring colonial history and global power. Wallerstein's world-systems theory divides the world into core (high-skill, high-wage, capital-intensive), semi-periphery (mix of characteristics, industrializing), and periphery (low-wage, raw materials) countries linked by unequal exchange; countries can move between tiers. Dependency theory argues former colonies remain dependent on core countries through debt and commodity exports. Commodity dependence makes economies vulnerable to price changes."
+      },
+      {
+        "heading": "Trade and the global economy",
+        "body": "Complementarity (one place has what another needs) and comparative advantage (producing at lower opportunity cost) drive trade. Neoliberal policies (free trade, privatization, deregulation), often promoted by the IMF and World Bank through structural adjustment, expanded globalization but drew criticism for social costs. Trade agreements (USMCA, EU single market) and the WTO lower barriers. Outsourcing and offshoring move production to lower-cost locations, contributing to deindustrialization in former manufacturing regions (the U.S. Rust Belt) and growth in newly industrialized countries. Special economic zones (e.g., Shenzhen), export processing zones, free-trade zones, and maquiladoras (Mexican assembly plants near the U.S. border) attract foreign investment with tax breaks and lower tariffs. Sustainable development aims to meet present needs without compromising future generations, including ecotourism and the UN Sustainable Development Goals."
+      }
+    ],
+    "keyTakeaways": [
+      "Primary → secondary → tertiary → quaternary → quinary as development increases.",
+      "Bulk-reducing near resources; bulk-gaining near markets.",
+      "HDI combines health, education, and income.",
+      "Rostow: linear stages; Wallerstein: core/semi-periphery/periphery.",
+      "Outsourcing → deindustrialization in core, growth in NICs.",
+      "SEZs and maquiladoras attract foreign investment."
+    ],
+    "commonMistakes": [
+      "Confusing tertiary (services) with quaternary (information/knowledge).",
+      "Treating GDP per capita as a complete measure of well-being.",
+      "Describing world-systems theory as a sequence of stages.",
+      "Placing bulk-gaining industries near raw materials.",
+      "Assuming globalization benefits all regions equally."
+    ],
+    "examTips": [
+      "Development data tables are common; compare indicators across countries.",
+      "When asked for a model's limitation, give the assumption and a real counterexample.",
+      "Explain both benefits and costs of SEZs, outsourcing, or microloans.",
+      "Use specific places (Shenzhen, Rust Belt, maquiladoras) as evidence."
+    ],
+    "cramSheet": "**Sectors:** primary (extract) · secondary (make) · tertiary (services) · quaternary (info) · quinary (decisions)\n\n**Location:** Weber least-cost · bulk-reducing → resources · bulk-gaining → markets · break-of-bulk · agglomeration\n\n**Measures:** GDP · GNI per capita · HDI · GII · informal economy · Gini\n\n**Theories:** Rostow (5 stages) · Wallerstein (core, semi-periphery, periphery) · dependency\n\n**Trade:** complementarity · comparative advantage · neoliberalism · IMF, World Bank, WTO\n\n**Change:** outsourcing · deindustrialization · SEZ · EPZ · maquiladora · post-Fordism\n\n**Sustainable:** SDGs · ecotourism"
+  },
+  "vocab": [
+    { "term": "Primary sector", "definition": "Economic activity that extracts natural resources." },
+    { "term": "Quaternary sector", "definition": "Economic activity involving information, research, and knowledge." },
+    { "term": "Least-cost theory", "definition": "Weber's model locating industry to minimize transport, labor, and agglomeration costs." },
+    { "term": "Agglomeration", "definition": "Clustering of firms to benefit from shared resources and labor." },
+    { "term": "Break-of-bulk point", "definition": "A location where goods transfer from one mode of transport to another." },
+    { "term": "Human Development Index (HDI)", "definition": "A composite measure of life expectancy, education, and income." },
+    { "term": "Informal economy", "definition": "Economic activity that is not taxed or regulated by government." },
+    { "term": "World-systems theory", "definition": "Wallerstein's theory of a global economy divided into core, semi-periphery, and periphery." },
+    { "term": "Comparative advantage", "definition": "The ability to produce a good at a lower opportunity cost than another place." },
+    { "term": "Deindustrialization", "definition": "Decline of manufacturing employment in a region." },
+    { "term": "Special economic zone", "definition": "An area with business and trade laws designed to attract foreign investment." },
+    { "term": "Maquiladora", "definition": "A factory in Mexico, often near the U.S. border, that assembles imported parts for export." }
+  ],
+  "practice": [
+    {
+      "id": "u7-q01", "tier": "Intro", "type": "mcq", "topic": "7.2 Economic Sectors and Patterns", "skill": "1. Concepts and Processes",
+      "stem": "A software engineer developing data-analysis tools works in which economic sector?",
+      "choices": [
+        { "id": "A", "text": "Primary" },
+        { "id": "B", "text": "Secondary" },
+        { "id": "C", "text": "Tertiary" },
+        { "id": "D", "text": "Quaternary" }
+      ],
+      "answer": "D",
+      "explanation": "The quaternary sector involves information and knowledge work.",
+      "distractors": { "C": "General services such as retail." }
+    },
+    {
+      "id": "u7-q02", "tier": "Intro", "type": "mcq", "topic": "7.3 Measures of Development", "skill": "1. Concepts and Processes",
+      "stem": "Which three dimensions are combined in the Human Development Index?",
+      "choices": [
+        { "id": "A", "text": "Health, education, and income" },
+        { "id": "B", "text": "Population, area, and density" },
+        { "id": "C", "text": "Exports, imports, and debt" },
+        { "id": "D", "text": "Gender, age, and ethnicity" }
+      ],
+      "answer": "A",
+      "explanation": "HDI uses life expectancy, schooling, and GNI per capita.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q03", "tier": "Intro", "type": "mcq", "topic": "7.5 Theories of Development", "skill": "1. Concepts and Processes",
+      "stem": "In Wallerstein's world-systems theory, countries with high wages, advanced technology, and capital-intensive production are",
+      "choices": [
+        { "id": "A", "text": "core" },
+        { "id": "B", "text": "semi-periphery" },
+        { "id": "C", "text": "periphery" },
+        { "id": "D", "text": "in the takeoff stage" }
+      ],
+      "answer": "A",
+      "explanation": "Core countries dominate high-value production and global finance.",
+      "distractors": { "D": "A Rostow term." }
+    },
+    {
+      "id": "u7-q04", "tier": "Intro", "type": "mcq", "topic": "7.7 Changes as a Result of the World Economy", "skill": "1. Concepts and Processes",
+      "stem": "Factories in northern Mexico that assemble imported components into products for export to the United States are called",
+      "choices": [
+        { "id": "A", "text": "maquiladoras" },
+        { "id": "B", "text": "break-of-bulk points" },
+        { "id": "C", "text": "edge cities" },
+        { "id": "D", "text": "cottage industries" }
+      ],
+      "answer": "A",
+      "explanation": "Maquiladoras use low tariffs and lower labor costs near the border.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q05", "tier": "Exam level", "type": "mcq", "topic": "7.2 Economic Sectors and Patterns", "skill": "2. Spatial Relationships",
+      "stem": "A copper company builds its smelter near the mine rather than near its customers. Which best explains this decision?",
+      "choices": [
+        { "id": "A", "text": "Smelting is bulk-reducing; removing waste rock before shipping lowers transport costs." },
+        { "id": "B", "text": "Smelting is bulk-gaining." },
+        { "id": "C", "text": "Customers prefer raw ore." },
+        { "id": "D", "text": "Agglomeration requires locating near other mines." }
+      ],
+      "answer": "A",
+      "explanation": "The final product weighs much less than the inputs, so processing near the source is cheaper.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q06", "tier": "Exam level", "type": "mcq", "topic": "7.3 Measures of Development", "skill": "3. Data Analysis",
+      "stimulus": "Country X: 55% of workers in agriculture, 12% in industry, 33% in services.\nCountry Y: 2% in agriculture, 20% in industry, 78% in services.",
+      "stem": "Which conclusion is best supported?",
+      "choices": [
+        { "id": "A", "text": "Country X is likely less developed than Country Y." },
+        { "id": "B", "text": "Country X has a higher GNI per capita." },
+        { "id": "C", "text": "Country Y is in an early stage of industrialization." },
+        { "id": "D", "text": "Both have similar levels of development." }
+      ],
+      "answer": "A",
+      "explanation": "A large primary-sector share signals lower development; service dominance signals higher development.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q07", "tier": "Exam level", "type": "mcq", "topic": "7.5 Theories of Development", "skill": "1. Concepts and Processes",
+      "stem": "Which is the most common criticism of Rostow's stages of economic growth?",
+      "choices": [
+        { "id": "A", "text": "It assumes all countries can follow the same path as Western industrialized nations, ignoring colonial history and global inequalities." },
+        { "id": "B", "text": "It divides the world into core and periphery." },
+        { "id": "C", "text": "It focuses only on agriculture." },
+        { "id": "D", "text": "It predicts that all countries will remain poor." }
+      ],
+      "answer": "A",
+      "explanation": "Critics argue it is Eurocentric and ignores structural barriers.",
+      "distractors": { "B": "That's Wallerstein." }
+    },
+    {
+      "id": "u7-q08", "tier": "Exam level", "type": "mcq", "topic": "7.7 Changes as a Result of the World Economy", "skill": "2. Spatial Relationships",
+      "stem": "From the 1970s onward, many steel and auto plants in the U.S. Great Lakes region closed as production moved abroad. This process is best described as",
+      "choices": [
+        { "id": "A", "text": "deindustrialization" },
+        { "id": "B", "text": "agglomeration" },
+        { "id": "C", "text": "the takeoff stage" },
+        { "id": "D", "text": "import substitution" }
+      ],
+      "answer": "A",
+      "explanation": "Loss of manufacturing jobs in a former industrial core region.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q09", "tier": "Exam level", "type": "mcq", "topic": "7.4 Women and Economic Development", "skill": "2. Spatial Relationships",
+      "stem": "Which is the main goal of microloan (microcredit) programs in developing countries?",
+      "choices": [
+        { "id": "A", "text": "Providing small loans to people, often women, without collateral so they can start small businesses" },
+        { "id": "B", "text": "Funding large infrastructure projects" },
+        { "id": "C", "text": "Lending to multinational corporations" },
+        { "id": "D", "text": "Forgiving national debts" }
+      ],
+      "answer": "A",
+      "explanation": "Microcredit targets entrepreneurs excluded from traditional banking.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q10", "tier": "Exam level", "type": "mcq", "topic": "7.6 Trade and the World Economy", "skill": "1. Concepts and Processes",
+      "stem": "Country A can produce both cloth and wine, but it gives up less wine for each unit of cloth than Country B does. According to comparative advantage, Country A should",
+      "choices": [
+        { "id": "A", "text": "specialize in cloth and trade for wine" },
+        { "id": "B", "text": "specialize in wine" },
+        { "id": "C", "text": "produce both and avoid trade" },
+        { "id": "D", "text": "import both goods" }
+      ],
+      "answer": "A",
+      "explanation": "Its opportunity cost of cloth is lower, so it specializes there.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q11", "tier": "Hardest", "type": "mcq", "topic": "7.5 Theories of Development", "skill": "2. Spatial Relationships",
+      "stem": "Over 40 years, South Korea shifted from exporting low-cost textiles to designing and exporting semiconductors and cars. In world-systems terms, this best illustrates",
+      "choices": [
+        { "id": "A", "text": "movement from the periphery or semi-periphery toward the core" },
+        { "id": "B", "text": "movement from the core to the periphery" },
+        { "id": "C", "text": "deindustrialization" },
+        { "id": "D", "text": "dependency on a single commodity" }
+      ],
+      "answer": "A",
+      "explanation": "Shifting to high-value, capital- and knowledge-intensive production is upward mobility in the system.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q12", "tier": "Hardest", "type": "mcq", "topic": "7.3 Measures of Development", "skill": "3. Data Analysis",
+      "stimulus": "Country M: GNI per capita $22,000, HDI 0.71. Country N: GNI per capita $15,000, HDI 0.82.",
+      "stem": "Which explanation best accounts for Country N's higher HDI despite lower income?",
+      "choices": [
+        { "id": "A", "text": "Country N has higher life expectancy and educational attainment, perhaps from investment in public health and schools." },
+        { "id": "B", "text": "HDI is based only on income." },
+        { "id": "C", "text": "Country M has a larger population." },
+        { "id": "D", "text": "Country N's GNI is miscalculated." }
+      ],
+      "answer": "A",
+      "explanation": "HDI includes health and education; resource-rich countries with unequal distribution can score lower than income suggests.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q13", "tier": "Hardest", "type": "mcq", "topic": "7.7 Changes as a Result of the World Economy", "skill": "2. Spatial Relationships",
+      "stem": "China established special economic zones such as Shenzhen in the late 1970s and 1980s. Which was the primary purpose?",
+      "choices": [
+        { "id": "A", "text": "To attract foreign investment and technology with tax incentives and relaxed regulations while maintaining overall state control" },
+        { "id": "B", "text": "To restrict all foreign trade" },
+        { "id": "C", "text": "To promote subsistence agriculture" },
+        { "id": "D", "text": "To relocate the capital" }
+      ],
+      "answer": "A",
+      "explanation": "SEZs served as controlled experiments in market economics and export-led growth.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q14", "tier": "Hardest", "type": "mcq", "topic": "7.2 Economic Sectors and Patterns", "skill": "2. Spatial Relationships",
+      "stem": "Which best explains why many technology companies remain concentrated in Silicon Valley despite high land and labor costs?",
+      "choices": [
+        { "id": "A", "text": "Agglomeration economies: access to specialized workers, venture capital, research universities, and knowledge spillovers outweigh higher costs." },
+        { "id": "B", "text": "Silicon Valley is a break-of-bulk point for raw materials." },
+        { "id": "C", "text": "Weber's model says firms must locate near raw materials." },
+        { "id": "D", "text": "Land is cheapest there." }
+      ],
+      "answer": "A",
+      "explanation": "Clustering benefits can outweigh higher input costs for knowledge industries.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-frq1", "tier": "Exam level", "type": "frq", "topic": "7.3–7.7 Development and the Global Economy", "frqType": "FRQ (one stimulus)",
+      "prompt": "The table shows development data for three countries.\n\n| Country | GNI per capita (USD) | % workforce in agriculture | % workforce in manufacturing | Life expectancy | Mean years of schooling |\n|---|---|---|---|---|---|\n| R | 1,900 | 62 | 8 | 62 | 4.5 |\n| S | 11,000 | 18 | 30 | 74 | 9.0 |\n| T | 52,000 | 2 | 15 | 82 | 13.2 |",
+      "parts": [
+        { "label": "A", "prompt": "Identify which country is most likely part of the semi-periphery in world-systems theory.", "points": 1 },
+        { "label": "B", "prompt": "Using the data, explain why Country T's manufacturing share is lower than Country S's despite T's higher income.", "points": 1 },
+        { "label": "C", "prompt": "Describe one limitation of using GNI per capita alone to measure development.", "points": 1 },
+        { "label": "D", "prompt": "Explain how increasing women's educational attainment could contribute to development in Country R.", "points": 1 },
+        { "label": "E", "prompt": "Explain why a multinational company might choose to locate a factory in Country S rather than Country T.", "points": 1 },
+        { "label": "F", "prompt": "Explain one negative consequence for Country T if many of its manufacturing jobs move to Country S.", "points": 1 },
+        { "label": "G", "prompt": "Explain the degree to which Rostow's model can explain Country R's level of development.", "points": 1 }
+      ],
+      "points": 7,
+      "minutes": 25,
+      "rubric": [
+        { "criterion": "A", "points": 1, "description": "Country S." },
+        { "criterion": "B", "points": 1, "description": "T has shifted to a service and knowledge (tertiary/quaternary) economy; manufacturing has been outsourced or automated (deindustrialization)." },
+        { "criterion": "C", "points": 1, "description": "E.g., it hides income inequality, ignores the informal economy, and doesn't measure health, education, or environmental quality." },
+        { "criterion": "D", "points": 1, "description": "E.g., education raises women's labor-force participation and productivity, lowers fertility and infant mortality, and increases household income and investment in children." },
+        { "criterion": "E", "points": 1, "description": "Lower labor costs in S (lower GNI per capita) with an existing industrial workforce and moderate education levels; possibly SEZ incentives." },
+        { "criterion": "F", "points": 1, "description": "E.g., unemployment in manufacturing regions, declining tax base, urban decay in former industrial cities (Rust Belt)." },
+        { "criterion": "G", "points": 1, "description": "Takes a position with reasoning; e.g., partially: R resembles Rostow's traditional or preconditions stage, but the model ignores colonial history, dependency on commodity exports, and global power that may block 'takeoff.'" }
+      ],
+      "sampleResponse": "A. Country S.\n\nB. Country T has a very small agricultural share and a large service economy, typical of a core country where manufacturing has been automated or moved to lower-wage countries and many workers are employed in tertiary and quaternary jobs.\n\nC. GNI per capita is an average and does not show how income is distributed; a few very wealthy people can raise the average while most people remain poor.\n\nD. If more women in Country R complete school, they tend to marry later and have fewer children, and they are more likely to work in paid jobs, raising household incomes and allowing families to invest more in each child's health and education.\n\nE. Wages in Country S are much lower than in Country T (GNI per capita of $11,000 vs. $52,000), but S already has a large manufacturing workforce with an average of nine years of schooling, so a company can reduce labor costs while still finding trained workers.\n\nF. Cities in Country T that relied on factories would lose jobs, leading to unemployment and a shrinking tax base for local governments, as happened in the U.S. Rust Belt.\n\nG. Rostow's model explains Country R only to a limited degree. Country R resembles the traditional stage, with most workers in agriculture, but the model assumes every country can follow the same path as Western nations. It ignores R's possible colonial history and dependence on exporting raw materials to core countries, which may make takeoff much harder."
+    }
+  ]
+}

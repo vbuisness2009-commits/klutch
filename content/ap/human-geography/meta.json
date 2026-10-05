@@ -1,0 +1,84 @@
+{
+ "slug": "human-geography",
+ "name": "AP Human Geography",
+ "lastVerified": "2026-10",
+ "overview": "AP Human Geography is an introductory college course in human geography: how people organize space, why patterns of population, culture, politics, agriculture, cities, and economic development look the way they do, and how places are connected. The exam rewards applying named models and concepts (demographic transition, von Thünen, Rostow, Wallerstein, bid-rent, gravity model) to unfamiliar maps, graphs, and scenarios, explaining their limitations, and reasoning across scales from local to global.",
+ "examMode": "Fully digital in the Bluebook app (confirm the current format on AP Central).",
+ "totalMinutes": 135,
+ "sections": [
+  {
+   "name": "Section I",
+   "questionType": "Multiple choice",
+   "count": 60,
+   "minutes": 60,
+   "weight": "50%",
+   "notes": "Individual questions and sets based on maps, graphs, tables, images, and text excerpts. About one minute per question."
+  },
+  {
+   "name": "Section II",
+   "questionType": "Free response: 3 questions (7 points each)",
+   "count": 3,
+   "minutes": 75,
+   "weight": "50%",
+   "notes": "One question with no stimulus, one with one stimulus (map, graph, table, image), and one with two stimuli. About 25 minutes each."
+  }
+ ],
+ "units": [
+  { "number": 1, "title": "Thinking Geographically", "weight": "8–10%" },
+  { "number": 2, "title": "Population and Migration Patterns and Processes", "weight": "12–17%" },
+  { "number": 3, "title": "Cultural Patterns and Processes", "weight": "12–17%" },
+  { "number": 4, "title": "Political Patterns and Processes", "weight": "12–17%" },
+  { "number": 5, "title": "Agriculture and Rural Land-Use Patterns and Processes", "weight": "12–17%" },
+  { "number": 6, "title": "Cities and Urban Land-Use Patterns and Processes", "weight": "12–17%" },
+  { "number": 7, "title": "Industrial and Economic Development Patterns and Processes", "weight": "12–17%" }
+ ],
+ "skills": [
+  { "name": "1. Concepts and Processes", "description": "Analyze geographic theories, approaches, concepts, processes, and models in theoretical and applied contexts." },
+  { "name": "2. Spatial Relationships", "description": "Analyze geographic patterns, relationships, and outcomes in applied contexts." },
+  { "name": "3. Data Analysis", "description": "Analyze and interpret quantitative geographic data represented in maps, tables, charts, graphs, and infographics." },
+  { "name": "4. Source Analysis", "description": "Analyze and interpret qualitative geographic information in maps, images, and landscapes." },
+  { "name": "5. Scale Analysis", "description": "Analyze geographic theories, concepts, processes, and data across geographic scales." }
+ ],
+ "scoring": {
+  "summary": "Section I (60 MCQ, no guessing penalty) and Section II (21 raw points) are each 50% of the composite, converted to 1–5 using cut points set each year. FRQ points are awarded per part; each part asks for one specific task (identify, define, describe, explain, compare, or evaluate) and is scored independently.",
+  "approxCutoffs": [
+   { "score": 5, "minPercent": 72 },
+   { "score": 4, "minPercent": 59 },
+   { "score": 3, "minPercent": 46 },
+   { "score": 2, "minPercent": 33 }
+  ]
+ },
+ "frqTypes": [
+  { "name": "FRQ (no stimulus)", "points": 7, "howScored": "Seven parts (A–G), one point each. Tasks range from identify/define to explain and evaluate a concept, model, or scale relationship." },
+  { "name": "FRQ (one stimulus)", "points": 7, "howScored": "Seven one-point parts built around one map, graph, table, or image. Some parts require reading the stimulus; others apply related concepts." },
+  { "name": "FRQ (two stimuli)", "points": 7, "howScored": "Seven one-point parts that require using and comparing two sources, often at different scales." }
+ ],
+ "strategy": [
+  "Match the task verb: identify = name it; describe = give characteristics; explain = how or why (cause and effect); compare = similarities or differences between two things.",
+  "Write one clear answer per part; extra answers aren't scored, and contradictions can cost the point.",
+  "Use precise vocabulary (e.g., 'relocation diffusion', 'centrifugal force', 'agglomeration') and then explain it in context.",
+  "When a part asks about a limitation of a model, name the model's assumption and why reality differs.",
+  "Pay attention to scale in questions: local, national, regional, global answers can differ.",
+  "On data stimuli, cite specific values from the map, graph, or table.",
+  "Budget about one minute per MCQ; flag and return to long stimulus sets.",
+  "For 'explain the degree to which' parts, take a position and support it with a specific example."
+ ],
+ "pitfalls": [
+  "Confusing crude birth rate with total fertility rate, or rate of natural increase with population growth (migration matters too).",
+  "Mixing up relocation and expansion (contagious, hierarchical, stimulus) diffusion.",
+  "Treating nation and state as synonyms.",
+  "Describing von Thünen without the key assumption (transport cost and distance to market).",
+  "Calling all agriculture in developing countries 'subsistence'.",
+  "Confusing the primary, secondary, tertiary, quaternary, and quinary sectors.",
+  "Giving a definition when the question asks for an explanation.",
+  "Forgetting to tie an example to the specific concept the question names."
+ ],
+ "sources": [
+  { "title": "AP Human Geography Exam (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-human-geography/exam" },
+  { "title": "AP Human Geography Course and Exam Description", "url": "https://apcentral.collegeboard.org/media/pdf/ap-human-geography-course-and-exam-description.pdf" }
+ ],
+ "caveats": [
+  "Exam format (number of MCQ answer options, digital delivery details) has changed during the move to Bluebook; confirm the current year on AP Central.",
+  "Cutoffs are estimates; College Board does not publish exact cut scores."
+ ]
+}

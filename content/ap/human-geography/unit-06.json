@@ -1,0 +1,275 @@
+{
+  "number": 6,
+  "title": "Cities and Urban Land-Use Patterns and Processes",
+  "guide": {
+    "summary": "Unit 6 explains why cities grow where they do, how they are connected in a global hierarchy, how urban systems are distributed (rank-size, primate cities, central place theory, gravity model), how land is organized inside cities (urban models), and the social, economic, and environmental challenges of urban change, including sprawl, gentrification, informal settlements, and sustainable design.",
+    "sections": [
+      {
+        "heading": "Urbanization and global cities",
+        "body": "Cities originated with agricultural surpluses and grew where site (water, defense) and situation (trade routes) were favorable; transport innovations (railroads, streetcars, automobiles) shaped expansion. Urbanization is fastest today in developing countries, producing megacities (over 10 million) and metacities (over 20 million). Suburbanization, driven by highways, cars, and cheaper land, produced edge cities (suburban nodes of offices and retail) and boomburbs. World cities (London, New York, Tokyo) are top-tier command centers of finance, corporations, and culture in a global urban hierarchy."
+      },
+      {
+        "heading": "Urban systems",
+        "body": "The rank-size rule says the nth-largest city has 1/n the population of the largest (the third-largest is one-third the size). A primate city is disproportionately larger than the next city and dominates the country (e.g., Bangkok, Lima, Paris). Central place theory (Christaller) explains the size and spacing of settlements providing goods and services: threshold is the minimum number of customers needed to sustain a service; range is the maximum distance people will travel for it. Higher-order services (hospitals, stadiums) have larger thresholds and ranges and locate in fewer, larger places; markets form hexagonal service areas. The gravity model predicts interaction between two places as proportional to the product of their populations and inversely proportional to the square of the distance between them."
+      },
+      {
+        "heading": "Internal structure models",
+        "body": "Burgess concentric zone model: CBD surrounded by rings (zone in transition, working-class, middle-class, commuter zone). Hoyt sector model: sectors along transportation routes, with high-income sectors extending outward. Harris-Ullman multiple nuclei model: several centers of activity (airports, universities, industrial parks). Galactic city (peripheral) model: a central city surrounded by suburbs and edge cities linked by a beltway. Latin American (Griffin-Ford) model: a CBD and a commercial spine with elite residences, a zone of maturity, zone of in situ accretion, and peripheral squatter settlements (periférico), with wealth declining outward. African city model: multiple CBDs (colonial, traditional, market) and peripheral informal settlements. Southeast Asian (McGee) model: the port as the focal point, with commercial zones, and mixed agricultural and industrial zones at the edge. Bid-rent theory: land values and density are highest at the center, so commercial uses outbid residential uses there."
+      },
+      {
+        "heading": "Urban challenges",
+        "body": "Redlining (refusing loans in certain, often minority, neighborhoods), blockbusting (realtors stoking fears to buy homes cheaply), and racial steering shaped segregation in U.S. cities. Filtering is the process by which housing passes down to lower-income residents as it ages. Gentrification is the renovation of lower-income neighborhoods by higher-income residents, raising property values and displacing longtime residents. Informal (squatter) settlements lack legal title and services. Urban renewal and public housing projects had mixed results. Sprawl increases car dependence, emissions, and loss of farmland and habitat."
+      },
+      {
+        "heading": "Sustainability and data",
+        "body": "Smart growth and new urbanism promote compact, walkable, mixed-use development with public transit. Greenbelts limit sprawl; urban growth boundaries (e.g., Portland, Oregon) restrict development beyond a line. Other strategies: brownfield redevelopment, green roofs, farmland protection, and transit-oriented development. Urban data (census tracts, surveys, satellite images) reveal patterns such as residential segregation and commuting; quantitative and qualitative data are both used to plan."
+      }
+    ],
+    "keyTakeaways": [
+      "Rank-size: nth city ≈ 1/n of the largest.",
+      "Primate city dominates its country.",
+      "Threshold = minimum customers; range = maximum travel distance.",
+      "Gravity: interaction ∝ P₁P₂/d².",
+      "Know each urban model's structure and where it applies.",
+      "Gentrification raises values and can displace residents."
+    ],
+    "commonMistakes": [
+      "Mixing up threshold and range.",
+      "Saying the Latin American model has wealthy suburbs on the periphery (the periphery has squatter settlements).",
+      "Confusing redlining with blockbusting.",
+      "Assuming all countries follow the rank-size rule.",
+      "Describing gentrification only positively or only negatively."
+    ],
+    "examTips": [
+      "Urban model questions often show a diagram; identify the model by its zones.",
+      "For a model's limitation, mention its time and place of origin (e.g., Burgess from 1920s Chicago).",
+      "Explain both benefits and drawbacks of smart-growth policies.",
+      "Know the role of transportation in each stage of urban growth."
+    ],
+    "cramSheet": "**Growth:** site/situation · transport eras · suburbanization · edge cities · megacities\n\n**Hierarchy:** world cities · rank-size (1/n) · primate city\n\n**Central place:** threshold · range · hexagons · higher-order = fewer, larger places\n\n**Gravity:** P₁P₂/d²\n\n**Models:** Burgess rings · Hoyt sectors · multiple nuclei · galactic · Latin American (spine, periférico) · African (3 CBDs) · SE Asian (port)\n\n**Bid-rent:** highest at center\n\n**Challenges:** redlining · blockbusting · filtering · gentrification · squatter settlements · sprawl\n\n**Solutions:** smart growth · new urbanism · greenbelts · UGBs · mixed use · transit"
+  },
+  "vocab": [
+    { "term": "Primate city", "definition": "A city that is disproportionately larger and more important than any other city in its country." },
+    { "term": "Rank-size rule", "definition": "The nth-largest city in a country is about 1/n the size of the largest city." },
+    { "term": "Central place theory", "definition": "A theory explaining the size and spacing of settlements based on the goods and services they provide." },
+    { "term": "Threshold", "definition": "The minimum number of people needed to support a service." },
+    { "term": "Range", "definition": "The maximum distance people will travel to obtain a good or service." },
+    { "term": "Gravity model", "definition": "Predicts interaction between places based on population size and distance." },
+    { "term": "Bid-rent theory", "definition": "Land value and rent decrease with distance from the central business district." },
+    { "term": "Edge city", "definition": "A suburban concentration of offices, retail, and entertainment outside the traditional downtown." },
+    { "term": "Gentrification", "definition": "Renovation of a lower-income neighborhood by higher-income residents, often displacing original residents." },
+    { "term": "Redlining", "definition": "Refusal by banks to lend in certain neighborhoods, historically based on race." },
+    { "term": "Smart growth", "definition": "Planning that promotes compact, walkable, mixed-use, transit-oriented development." },
+    { "term": "Squatter settlement", "definition": "An informal residential area built without legal land rights, often lacking services." }
+  ],
+  "practice": [
+    {
+      "id": "u6-q01", "tier": "Intro", "type": "mcq", "topic": "6.4 The Size and Distribution of Cities", "skill": "3. Data Analysis",
+      "stem": "In a country that follows the rank-size rule, the largest city has 6 million people. About how many people live in the third-largest city?",
+      "choices": [
+        { "id": "A", "text": "3 million" },
+        { "id": "B", "text": "2 million" },
+        { "id": "C", "text": "1.5 million" },
+        { "id": "D", "text": "18 million" }
+      ],
+      "answer": "B",
+      "explanation": "6 million × 1/3 = 2 million.",
+      "distractors": { "A": "Second-largest city." }
+    },
+    {
+      "id": "u6-q02", "tier": "Intro", "type": "mcq", "topic": "6.4 The Size and Distribution of Cities", "skill": "1. Concepts and Processes",
+      "stem": "In central place theory, the minimum number of customers required to support a business is its",
+      "choices": [
+        { "id": "A", "text": "range" },
+        { "id": "B", "text": "threshold" },
+        { "id": "C", "text": "hinterland" },
+        { "id": "D", "text": "bid rent" }
+      ],
+      "answer": "B",
+      "explanation": "Threshold is the minimum market size.",
+      "distractors": { "A": "Maximum distance customers will travel." }
+    },
+    {
+      "id": "u6-q03", "tier": "Intro", "type": "mcq", "topic": "6.5 The Internal Structure of Cities", "skill": "1. Concepts and Processes",
+      "stem": "Which urban model describes a city as a series of rings around the central business district?",
+      "choices": [
+        { "id": "A", "text": "Hoyt sector model" },
+        { "id": "B", "text": "Burgess concentric zone model" },
+        { "id": "C", "text": "Harris-Ullman multiple nuclei model" },
+        { "id": "D", "text": "Galactic city model" }
+      ],
+      "answer": "B",
+      "explanation": "Burgess proposed concentric zones based on 1920s Chicago.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q04", "tier": "Intro", "type": "mcq", "topic": "6.10 Challenges of Urban Changes", "skill": "1. Concepts and Processes",
+      "stem": "Higher-income residents renovate older homes in a lower-income neighborhood, rents rise, and longtime residents move out. This process is",
+      "choices": [
+        { "id": "A", "text": "filtering" },
+        { "id": "B", "text": "gentrification" },
+        { "id": "C", "text": "redlining" },
+        { "id": "D", "text": "suburbanization" }
+      ],
+      "answer": "B",
+      "explanation": "Gentrification raises property values and can displace residents.",
+      "distractors": { "A": "Housing passing down to lower-income groups." }
+    },
+    {
+      "id": "u6-q05", "tier": "Exam level", "type": "mcq", "topic": "6.4 The Size and Distribution of Cities", "skill": "3. Data Analysis",
+      "stimulus": "Country P's largest city has 9.5 million people; its second-largest has 0.9 million; its third-largest has 0.7 million.",
+      "stem": "Which statement best describes Country P's urban system?",
+      "choices": [
+        { "id": "A", "text": "It follows the rank-size rule." },
+        { "id": "B", "text": "It has a primate city that dominates economically and politically." },
+        { "id": "C", "text": "It has no cities larger than one million." },
+        { "id": "D", "text": "Its cities are evenly spaced according to central place theory." }
+      ],
+      "answer": "B",
+      "explanation": "The largest city is about ten times the second, far exceeding the rank-size expectation of twice.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q06", "tier": "Exam level", "type": "mcq", "topic": "6.5 The Internal Structure of Cities", "skill": "2. Spatial Relationships",
+      "stem": "In the Latin American city model, the urban periphery is most likely to contain",
+      "choices": [
+        { "id": "A", "text": "the wealthiest residents in gated estates" },
+        { "id": "B", "text": "squatter settlements lacking infrastructure" },
+        { "id": "C", "text": "the central business district" },
+        { "id": "D", "text": "the commercial spine" }
+      ],
+      "answer": "B",
+      "explanation": "Wealth is concentrated along the spine near the CBD; the periphery houses recent, poor migrants.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q07", "tier": "Exam level", "type": "mcq", "topic": "6.4 The Size and Distribution of Cities", "skill": "1. Concepts and Processes",
+      "stem": "Why are specialized hospitals typically located only in large cities, while convenience stores appear in small towns?",
+      "choices": [
+        { "id": "A", "text": "Specialized hospitals have a high threshold and a large range." },
+        { "id": "B", "text": "Convenience stores have a larger range than hospitals." },
+        { "id": "C", "text": "Hospitals have a low threshold." },
+        { "id": "D", "text": "Small towns have higher bid rents." }
+      ],
+      "answer": "A",
+      "explanation": "High-order services need many customers and people will travel far for them.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q08", "tier": "Exam level", "type": "mcq", "topic": "6.10 Challenges of Urban Changes", "skill": "2. Spatial Relationships",
+      "stem": "In mid-20th-century U.S. cities, banks marked some largely Black neighborhoods as high-risk and denied mortgages there. This practice, called redlining, most directly resulted in",
+      "choices": [
+        { "id": "A", "text": "disinvestment, declining property values, and long-term segregation in those neighborhoods" },
+        { "id": "B", "text": "rapid gentrification of those neighborhoods" },
+        { "id": "C", "text": "increased suburban development in those neighborhoods" },
+        { "id": "D", "text": "lower urban density" }
+      ],
+      "answer": "A",
+      "explanation": "Lack of credit prevented home buying and improvement, entrenching inequality.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q09", "tier": "Exam level", "type": "mcq", "topic": "6.8 Urban Sustainability", "skill": "2. Spatial Relationships",
+      "stem": "A city rezones land near a new light-rail station to allow apartments above ground-floor shops and offices. This policy is an example of",
+      "choices": [
+        { "id": "A", "text": "urban sprawl" },
+        { "id": "B", "text": "transit-oriented, mixed-use development associated with smart growth" },
+        { "id": "C", "text": "redlining" },
+        { "id": "D", "text": "blockbusting" }
+      ],
+      "answer": "B",
+      "explanation": "Compact, mixed uses near transit reduce car dependence.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q10", "tier": "Exam level", "type": "mcq", "topic": "6.2 Cities Across the World", "skill": "2. Spatial Relationships",
+      "stem": "Which factor most contributed to the growth of edge cities in the United States after 1950?",
+      "choices": [
+        { "id": "A", "text": "The interstate highway system and widespread automobile ownership" },
+        { "id": "B", "text": "Streetcar lines radiating from downtown" },
+        { "id": "C", "text": "Declining suburban populations" },
+        { "id": "D", "text": "Restrictions on highway construction" }
+      ],
+      "answer": "A",
+      "explanation": "Highways made suburban office and retail hubs accessible.",
+      "distractors": { "B": "Shaped earlier streetcar suburbs." }
+    },
+    {
+      "id": "u6-q11", "tier": "Hardest", "type": "mcq", "topic": "6.4 The Size and Distribution of Cities", "skill": "3. Data Analysis",
+      "stem": "Using the gravity model, city pair X (populations 2 million and 1 million, 100 km apart) is compared with pair Y (populations 4 million and 1 million, 200 km apart). How does predicted interaction compare?",
+      "choices": [
+        { "id": "A", "text": "Pair X has twice the interaction of pair Y." },
+        { "id": "B", "text": "Pair Y has twice the interaction of pair X." },
+        { "id": "C", "text": "They are equal." },
+        { "id": "D", "text": "Pair Y has four times the interaction of pair X." }
+      ],
+      "answer": "A",
+      "explanation": "X: (2 × 1)/100² = 2/10,000. Y: (4 × 1)/200² = 4/40,000 = 1/10,000. X is twice Y.",
+      "distractors": { "C": "Uses distance instead of distance squared." }
+    },
+    {
+      "id": "u6-q12", "tier": "Hardest", "type": "mcq", "topic": "6.5 The Internal Structure of Cities", "skill": "1. Concepts and Processes",
+      "stem": "Which is the most significant limitation of the Burgess concentric zone model for analyzing modern North American cities?",
+      "choices": [
+        { "id": "A", "text": "It was based on 1920s Chicago and doesn't reflect automobile-driven suburbanization, edge cities, and multiple centers of activity." },
+        { "id": "B", "text": "It includes too many zones." },
+        { "id": "C", "text": "It ignores the central business district." },
+        { "id": "D", "text": "It applies only to Latin American cities." }
+      ],
+      "answer": "A",
+      "explanation": "Cars and highways created polycentric metropolitan areas the model can't capture.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q13", "tier": "Hardest", "type": "mcq", "topic": "6.11 Challenges of Urban Sustainability", "skill": "2. Spatial Relationships",
+      "stem": "A metropolitan area adopts an urban growth boundary prohibiting most development beyond a line. Which is a likely trade-off?",
+      "choices": [
+        { "id": "A", "text": "It protects farmland and reduces sprawl, but can raise housing prices inside the boundary." },
+        { "id": "B", "text": "It increases car dependence and sprawl." },
+        { "id": "C", "text": "It lowers population density inside the city." },
+        { "id": "D", "text": "It has no effect on land values." }
+      ],
+      "answer": "A",
+      "explanation": "Limiting land supply concentrates demand, increasing prices and affordability concerns.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q14", "tier": "Hardest", "type": "mcq", "topic": "6.6 Density and Land Use", "skill": "2. Spatial Relationships",
+      "stem": "According to bid-rent theory, why are tall office buildings concentrated in the central business district?",
+      "choices": [
+        { "id": "A", "text": "Land is most expensive at the center because it is most accessible, so users build vertically to maximize the value of each parcel." },
+        { "id": "B", "text": "Zoning forbids offices elsewhere." },
+        { "id": "C", "text": "Land is cheapest at the center." },
+        { "id": "D", "text": "Residential users outbid commercial users downtown." }
+      ],
+      "answer": "A",
+      "explanation": "High accessibility makes central land costly; intensive vertical use offsets cost.",
+      "distractors": { "D": "Commercial users typically outbid residential ones at the center." }
+    },
+    {
+      "id": "u6-frq1", "tier": "Exam level", "type": "frq", "topic": "6.5–6.11 Urban Structure and Change", "frqType": "FRQ (two stimuli)",
+      "prompt": "Source 1: A graph shows median home values (in thousands of dollars) in a city neighborhood: 2005: 140; 2010: 150; 2015: 230; 2020: 390. Over the same period, the share of residents who had lived there more than ten years fell from 68% to 31%.\n\nSource 2: A description of a city plan: the city will build a new light-rail line from the suburbs to downtown, rezone land around stations for mid-rise apartments with ground-floor shops, and require that 20% of new units be affordable housing.",
+      "parts": [
+        { "label": "A", "prompt": "Using Source 1, describe the trend in median home values from 2005 to 2020.", "points": 1 },
+        { "label": "B", "prompt": "Identify the urban process most likely shown in Source 1.", "points": 1 },
+        { "label": "C", "prompt": "Explain one negative consequence of the process in Source 1 for longtime residents.", "points": 1 },
+        { "label": "D", "prompt": "Explain one positive consequence of the process in Source 1 for the city.", "points": 1 },
+        { "label": "E", "prompt": "Using Source 2, explain how the plan reflects principles of smart growth.", "points": 1 },
+        { "label": "F", "prompt": "Explain how the affordable-housing requirement in Source 2 could reduce the effects of the process in Source 1.", "points": 1 },
+        { "label": "G", "prompt": "Explain one limitation of the plan in Source 2 for reducing car dependence.", "points": 1 }
+      ],
+      "points": 7,
+      "minutes": 25,
+      "rubric": [
+        { "criterion": "A", "points": 1, "description": "Values rose slowly 2005–2010, then sharply, nearly tripling from 140 to 390 thousand by 2020." },
+        { "criterion": "B", "points": 1, "description": "Gentrification." },
+        { "criterion": "C", "points": 1, "description": "E.g., rising rents and property taxes displace longtime, often lower-income residents; loss of community and cultural identity." },
+        { "criterion": "D", "points": 1, "description": "E.g., increased tax revenue, renovated housing, new businesses, reduced vacancy and crime." },
+        { "criterion": "E", "points": 1, "description": "Compact, mixed-use, transit-oriented development around stations reduces sprawl and car use." },
+        { "criterion": "F", "points": 1, "description": "Guarantees some units remain affordable to lower-income residents, allowing them to stay or move in despite rising prices." },
+        { "criterion": "G", "points": 1, "description": "E.g., the single line may not serve all destinations; suburban low density makes walking to stations hard; cultural preference for cars; last-mile problems." }
+      ],
+      "sampleResponse": "A. Median home values rose slowly from $140,000 in 2005 to $150,000 in 2010, then increased sharply to $390,000 by 2020, nearly tripling.\n\nB. Gentrification.\n\nC. As home values rise, rents and property taxes increase, so longtime lower-income residents may be forced to move out of the neighborhood, as shown by the falling share of long-term residents.\n\nD. Renovated homes and new businesses increase property values and the city's tax revenue, which can fund services.\n\nE. The plan concentrates apartments and shops around light-rail stations, creating compact, mixed-use, transit-oriented development so people can live, shop, and commute without driving, a key smart-growth principle.\n\nF. Requiring that 20% of new units be affordable ensures that some housing remains within reach of lower-income residents, reducing displacement even as market prices rise.\n\nG. A single light-rail line serves only people who live or work near its stations. In low-density suburbs, many residents would still need to drive to reach a station, limiting the reduction in car dependence."
+    }
+  ]
+}

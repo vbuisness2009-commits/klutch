@@ -1,0 +1,276 @@
+{
+  "number": 5,
+  "title": "Land and Water Use",
+  "guide": {
+    "summary": "Unit 5 covers how humans use land and water to produce food, timber, minerals, and living space, and the consequences: the tragedy of the commons, forestry practices, the Green Revolution, agricultural impacts, irrigation, pest control, meat production, fishing, mining, urbanization, ecological footprints, and sustainable alternatives. Expect solution-and-trade-off questions and water-use calculations.",
+    "sections": [
+      {
+        "heading": "Commons, forestry, and agriculture",
+        "body": "The tragedy of the commons occurs when individuals overuse a shared, unregulated resource (open-ocean fisheries, groundwater, air) because each gains the full benefit of use while costs are shared. Clearcutting removes all trees at once: cheap and efficient but increases erosion, raises stream temperatures, and destroys habitat; selective cutting and shelterwood cutting are more sustainable. The Green Revolution raised yields with high-yield crop varieties, synthetic fertilizers, pesticides, irrigation, and mechanization, but increased fossil-fuel use, monocultures with low genetic diversity, and nutrient runoff. Tilling increases erosion; slash-and-burn clears land quickly but depletes nutrients; synthetic fertilizer runoff causes eutrophication."
+      },
+      {
+        "heading": "Irrigation and pest control",
+        "body": "Agriculture is the largest human use of fresh water. Furrow and flood irrigation are cheap but lose much water to evaporation and runoff; spray systems are moderately efficient; drip irrigation delivers water to roots and is the most efficient (over 90%) but is costly. Overwatering in arid regions causes waterlogging, and evaporation leaves salts behind (salinization). Pumping groundwater faster than recharge lowers the water table and can cause cones of depression and land subsidence; along coasts it can draw in salt water. Pesticides can kill nontarget species and select for resistant pests (the pesticide treadmill). Integrated pest management (IPM) combines biological controls, crop rotation, intercropping, and limited targeted chemical use."
+      },
+      {
+        "heading": "Meat, fishing, and mining",
+        "body": "Concentrated animal feeding operations (CAFOs) produce meat efficiently on little land but concentrate manure that can contaminate water with nitrates and pathogens, and require antibiotics and grain feed. Free-range grazing spreads manure naturally but uses more land and can cause overgrazing and desertification. Overfishing reduces fish size and can collapse fisheries; bottom trawling destroys seafloor habitat and causes bycatch. Aquaculture uses little space and fuel but can spread disease and waste to wild populations. Surface mining removes overburden and destroys habitat; mine tailings and exposed sulfides produce acid mine drainage that carries heavy metals into streams. Subsurface mining is more dangerous for workers and more costly but disturbs less land."
+      },
+      {
+        "heading": "Urbanization and sustainability",
+        "body": "Urbanization increases impervious surfaces, which increases runoff and flooding and reduces groundwater recharge; it also creates heat islands and can increase sprawl. Urban runoff can be reduced with permeable pavement, rain gardens, green roofs, and public transit that slows sprawl. An ecological footprint measures the land and water area needed to supply a population's resources and absorb its wastes; a carbon footprint measures greenhouse gas emissions. Sustainable practices include contour plowing, terracing, windbreaks, perennial crops, no-till agriculture, cover crops, rotational grazing, and sustainable forestry (reforestation, selective cutting, using fire management)."
+      }
+    ],
+    "keyTakeaways": [
+      "Shared, unregulated resources tend to be overused.",
+      "Drip irrigation is most efficient; flood and furrow lose the most water.",
+      "Irrigation in arid areas causes salinization.",
+      "IPM reduces pesticide use and resistance.",
+      "Impervious surfaces increase runoff and flooding.",
+      "Every solution has a trade-off; name both sides."
+    ],
+    "commonMistakes": [
+      "Saying the tragedy of the commons applies to privately owned land.",
+      "Confusing salinization (salt buildup) with waterlogging.",
+      "Claiming aquaculture has no environmental impacts.",
+      "Forgetting that pesticides select for resistance rather than causing mutations.",
+      "Giving vague solutions like 'farm sustainably' without a specific practice."
+    ],
+    "examTips": [
+      "Solutions questions want a specific practice plus how it works.",
+      "Know at least one advantage and one disadvantage for each farming, fishing, and mining method.",
+      "Water-use calculations often compare irrigation efficiencies; set up as volume needed ÷ efficiency.",
+      "Footprint questions compare per-capita demand to available biocapacity."
+    ],
+    "cramSheet": "**Commons:** shared + unregulated → overuse · fix: quotas, permits, ownership\n\n**Forestry:** clearcut cheap, erosion, warmer streams · selective/shelterwood better\n\n**Green Revolution:** HYVs, fertilizer, pesticides, irrigation, machines · monoculture, runoff\n\n**Irrigation:** drip > spray > flood/furrow · salinization · aquifer depletion\n\n**Pests:** treadmill · IPM: biocontrol, rotation, intercropping\n\n**Meat:** CAFO efficient land use, concentrated waste · free range more land\n\n**Fish:** overfishing, bycatch, trawling · aquaculture: disease, waste\n\n**Mining:** overburden · acid mine drainage\n\n**Urban:** impervious → runoff · permeable pavement, rain gardens, green roofs"
+  },
+  "vocab": [
+    { "term": "Tragedy of the commons", "definition": "Overuse of a shared resource because individuals act in their own interest." },
+    { "term": "Clearcutting", "definition": "Removing all trees in an area at once." },
+    { "term": "Green Revolution", "definition": "Mid-20th-century shift to high-yield crops, synthetic fertilizers, pesticides, irrigation, and mechanization." },
+    { "term": "Monoculture", "definition": "Growing a single crop over a large area." },
+    { "term": "Salinization", "definition": "Buildup of salts in soil from irrigation water evaporating in arid areas." },
+    { "term": "Drip irrigation", "definition": "Delivery of water directly to plant roots through perforated tubing; highly efficient." },
+    { "term": "Integrated pest management (IPM)", "definition": "A combination of biological, physical, and limited chemical methods to control pests." },
+    { "term": "CAFO", "definition": "Concentrated animal feeding operation: large numbers of animals raised in confined spaces." },
+    { "term": "Bycatch", "definition": "Unintended species caught during fishing." },
+    { "term": "Overburden", "definition": "Soil and rock removed to reach a mineral deposit in surface mining." },
+    { "term": "Impervious surface", "definition": "A surface such as pavement that water cannot penetrate." },
+    { "term": "Ecological footprint", "definition": "Area of land and water needed to supply resources and absorb wastes for a person or population." }
+  ],
+  "practice": [
+    {
+      "id": "u5-q01", "tier": "Intro", "type": "mcq", "topic": "5.1 The Tragedy of the Commons", "skill": "1. Concept Explanation",
+      "stem": "Which situation best illustrates the tragedy of the commons?",
+      "choices": [
+        { "id": "A", "text": "A farmer rotates crops on her own land to maintain soil fertility." },
+        { "id": "B", "text": "Many fishing fleets harvest an unregulated international fish stock until it collapses." },
+        { "id": "C", "text": "A city builds a reservoir for its residents." },
+        { "id": "D", "text": "A company replants trees on land it owns after harvesting." }
+      ],
+      "answer": "B",
+      "explanation": "Each fleet gains by catching more, while the cost of depletion is shared by all.",
+      "distractors": { "A": "Private land with incentive to conserve." }
+    },
+    {
+      "id": "u5-q02", "tier": "Intro", "type": "mcq", "topic": "5.5 Irrigation Methods", "skill": "7. Environmental Solutions",
+      "stem": "Which irrigation method delivers the highest percentage of applied water to plant roots?",
+      "choices": [
+        { "id": "A", "text": "Flood irrigation" },
+        { "id": "B", "text": "Furrow irrigation" },
+        { "id": "C", "text": "Spray irrigation" },
+        { "id": "D", "text": "Drip irrigation" }
+      ],
+      "answer": "D",
+      "explanation": "Drip systems release water slowly at the root zone, minimizing evaporation and runoff.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q03", "tier": "Intro", "type": "mcq", "topic": "5.14 Integrated Pest Management", "skill": "7. Environmental Solutions",
+      "stem": "Which practice is part of integrated pest management?",
+      "choices": [
+        { "id": "A", "text": "Spraying broad-spectrum insecticide on a fixed weekly schedule" },
+        { "id": "B", "text": "Releasing ladybugs to eat aphids and rotating crops each year" },
+        { "id": "C", "text": "Planting one crop variety across the entire farm" },
+        { "id": "D", "text": "Doubling pesticide doses when pests return" }
+      ],
+      "answer": "B",
+      "explanation": "IPM relies on biological control and cultural practices, using chemicals only when needed.",
+      "distractors": { "D": "Accelerates the pesticide treadmill." }
+    },
+    {
+      "id": "u5-q04", "tier": "Intro", "type": "mcq", "topic": "5.3 The Green Revolution", "skill": "1. Concept Explanation",
+      "stem": "Which was a major disadvantage of the Green Revolution?",
+      "choices": [
+        { "id": "A", "text": "Crop yields decreased worldwide." },
+        { "id": "B", "text": "It increased dependence on fossil fuels for fertilizer, pesticides, and machinery." },
+        { "id": "C", "text": "It increased crop genetic diversity." },
+        { "id": "D", "text": "It reduced irrigation use." }
+      ],
+      "answer": "B",
+      "explanation": "Synthetic nitrogen fertilizer production and mechanization depend heavily on fossil fuels.",
+      "distractors": { "C": "Monocultures reduced genetic diversity." }
+    },
+    {
+      "id": "u5-q05", "tier": "Exam level", "type": "mcq", "topic": "5.5 Irrigation Methods", "skill": "6. Mathematical Routines",
+      "stem": "A field's crops need 600,000 L of water to reach their roots. Furrow irrigation is 65% efficient and drip irrigation is 95% efficient. Approximately how much water would switching from furrow to drip save?",
+      "choices": [
+        { "id": "A", "text": "180,000 L" },
+        { "id": "B", "text": "290,000 L" },
+        { "id": "C", "text": "390,000 L" },
+        { "id": "D", "text": "920,000 L" }
+      ],
+      "answer": "B",
+      "explanation": "Furrow: 600,000/0.65 ≈ 923,000 L. Drip: 600,000/0.95 ≈ 632,000 L. Savings ≈ 290,000 L.",
+      "distractors": { "A": "Multiplies 600,000 by the 30% efficiency difference.", "D": "Furrow total only." }
+    },
+    {
+      "id": "u5-q06", "tier": "Exam level", "type": "mcq", "topic": "5.4 Impacts of Agricultural Practices", "skill": "1. Concept Explanation",
+      "stem": "In a hot, arid valley irrigated for decades, crop yields are falling and white crusts appear on the soil surface. The most likely cause is",
+      "choices": [
+        { "id": "A", "text": "salinization from evaporation of irrigation water that leaves dissolved salts behind" },
+        { "id": "B", "text": "acid deposition from nearby power plants" },
+        { "id": "C", "text": "nitrogen fixation by crops" },
+        { "id": "D", "text": "an increase in soil organic matter" }
+      ],
+      "answer": "A",
+      "explanation": "Irrigation water contains small amounts of salt; high evaporation concentrates it at the surface.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q07", "tier": "Exam level", "type": "mcq", "topic": "5.13 Methods to Reduce Urban Runoff", "skill": "7. Environmental Solutions",
+      "stem": "Which change to a city parking lot would most reduce storm-water runoff?",
+      "choices": [
+        { "id": "A", "text": "Resurfacing it with new asphalt" },
+        { "id": "B", "text": "Replacing it with permeable pavement and adding a vegetated rain garden at its low edge" },
+        { "id": "C", "text": "Adding more storm drains that lead to a river" },
+        { "id": "D", "text": "Painting it white to reduce heat" }
+      ],
+      "answer": "B",
+      "explanation": "Permeable surfaces and rain gardens let water infiltrate instead of running off.",
+      "distractors": { "C": "Moves runoff faster rather than reducing it." }
+    },
+    {
+      "id": "u5-q08", "tier": "Exam level", "type": "mcq", "topic": "5.2 Clearcutting", "skill": "7. Environmental Solutions",
+      "stem": "Clearcutting a forest along a trout stream is most likely to harm the trout by",
+      "choices": [
+        { "id": "A", "text": "increasing shade and lowering water temperature" },
+        { "id": "B", "text": "removing shade, warming the water, and increasing sediment that covers spawning gravel" },
+        { "id": "C", "text": "adding dissolved oxygen to the stream" },
+        { "id": "D", "text": "reducing the amount of rain reaching the stream" }
+      ],
+      "answer": "B",
+      "explanation": "Warmer water holds less oxygen, and eroded sediment smothers eggs.",
+      "distractors": { "C": "Warming lowers dissolved oxygen." }
+    },
+    {
+      "id": "u5-q09", "tier": "Exam level", "type": "mcq", "topic": "5.8 Impacts of Overfishing", "skill": "5. Data Analysis",
+      "stimulus": "Over 40 years, the average length of cod caught in a fishery fell from 90 cm to 50 cm, and the age at which cod first reproduce fell from 6 years to 4 years, while total catch steadily declined.",
+      "stem": "Which interpretation is best supported?",
+      "choices": [
+        { "id": "A", "text": "Heavy fishing removed the largest, oldest fish, shifting the population toward smaller, earlier-maturing individuals and signaling overfishing." },
+        { "id": "B", "text": "The fish population is healthier because cod reproduce earlier." },
+        { "id": "C", "text": "Warmer water caused cod to grow larger." },
+        { "id": "D", "text": "The fishery is sustainable because cod are still being caught." }
+      ],
+      "answer": "A",
+      "explanation": "Size-selective harvest removes large fish; declining catch and size both indicate an overexploited stock.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q10", "tier": "Exam level", "type": "mcq", "topic": "5.16 Aquaculture", "skill": "7. Environmental Solutions",
+      "stem": "Which is a disadvantage of raising salmon in open-net pens along a coast?",
+      "choices": [
+        { "id": "A", "text": "It requires more fuel than catching wild salmon." },
+        { "id": "B", "text": "Waste, parasites, and disease from crowded pens can spread to wild fish nearby." },
+        { "id": "C", "text": "It needs more land than wild fishing." },
+        { "id": "D", "text": "It increases bycatch of dolphins." }
+      ],
+      "answer": "B",
+      "explanation": "High densities concentrate waste and pathogens such as sea lice, which escape into surrounding water.",
+      "distractors": { "A": "Aquaculture typically uses less fuel." }
+    },
+    {
+      "id": "u5-q11", "tier": "Hardest", "type": "mcq", "topic": "5.9 Mining", "skill": "1. Concept Explanation",
+      "stem": "Streams below an abandoned coal mine have a pH of 3.5 and orange deposits. Which process most likely explains this?",
+      "choices": [
+        { "id": "A", "text": "Exposed sulfide minerals react with water and oxygen to form sulfuric acid, which dissolves metals such as iron." },
+        { "id": "B", "text": "Coal dust neutralizes the stream." },
+        { "id": "C", "text": "Fertilizer runoff from nearby farms lowered the pH." },
+        { "id": "D", "text": "Thermal pollution from the mine raised water temperature." }
+      ],
+      "answer": "A",
+      "explanation": "Acid mine drainage forms when sulfides oxidize; dissolved iron precipitates as orange iron hydroxides.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q12", "tier": "Hardest", "type": "mcq", "topic": "5.6 Pest Control Methods", "skill": "5. Data Analysis",
+      "stimulus": "A farm applied the same insecticide each season. In year 1, it killed 95% of a beetle pest; by year 6, it killed 40%.",
+      "stem": "Which explanation is best supported?",
+      "choices": [
+        { "id": "A", "text": "Beetles that survived because of heritable resistance reproduced, so resistance became more common each generation." },
+        { "id": "B", "text": "Individual beetles developed immunity after being sprayed." },
+        { "id": "C", "text": "The insecticide was mutated by sunlight." },
+        { "id": "D", "text": "The beetles migrated away from the farm." }
+      ],
+      "answer": "A",
+      "explanation": "Pesticides select for existing resistant individuals; resistance increases through natural selection.",
+      "distractors": { "B": "Individuals don't acquire heritable resistance by exposure." }
+    },
+    {
+      "id": "u5-q13", "tier": "Hardest", "type": "mcq", "topic": "5.11 Ecological Footprints", "skill": "6. Mathematical Routines",
+      "stimulus": "Country Q has 20 million people, an average ecological footprint of 5.0 global hectares (gha) per person, and total biocapacity of 40 million gha.",
+      "stem": "Which statement is correct?",
+      "choices": [
+        { "id": "A", "text": "Country Q uses 2.5 times its biocapacity, an ecological deficit of 60 million gha." },
+        { "id": "B", "text": "Country Q has an ecological reserve of 60 million gha." },
+        { "id": "C", "text": "Country Q's footprint equals its biocapacity." },
+        { "id": "D", "text": "Country Q uses 40% of its biocapacity." }
+      ],
+      "answer": "A",
+      "explanation": "Footprint = 20 million × 5.0 = 100 million gha; 100/40 = 2.5; deficit = 60 million gha.",
+      "distractors": { "D": "Inverts the ratio." }
+    },
+    {
+      "id": "u5-q14", "tier": "Hardest", "type": "mcq", "topic": "5.7 Meat Production Methods", "skill": "7. Environmental Solutions",
+      "stem": "Which pairing correctly gives an advantage and a disadvantage of CAFOs compared with free-range grazing?",
+      "choices": [
+        { "id": "A", "text": "Advantage: less land per unit of meat; disadvantage: concentrated manure that can contaminate water with nitrates and pathogens" },
+        { "id": "B", "text": "Advantage: no antibiotics needed; disadvantage: more land per unit of meat" },
+        { "id": "C", "text": "Advantage: manure is spread naturally; disadvantage: overgrazing" },
+        { "id": "D", "text": "Advantage: no grain feed required; disadvantage: higher prices" }
+      ],
+      "answer": "A",
+      "explanation": "Confinement saves land but concentrates waste in lagoons that can leak or overflow.",
+      "distractors": { "C": "Describes free-range grazing." }
+    },
+    {
+      "id": "u5-frq1", "tier": "Exam level", "type": "frq", "topic": "5.5 Irrigation Methods", "frqType": "Q2 Analyze an Environmental Problem and Propose a Solution",
+      "prompt": "In a semi-arid farming region, center-pivot sprinklers pump water from an aquifer to grow corn and cotton. Over 50 years, the water table has dropped 30 meters, several shallow wells have gone dry, and some fields near the edge of the region show declining yields and white salt deposits. Average annual recharge of the aquifer is far smaller than the annual withdrawal.",
+      "parts": [
+        { "label": "a", "prompt": "Explain how the data show that the aquifer is being used unsustainably.", "points": 1 },
+        { "label": "b", "prompt": "Explain how the tragedy of the commons applies to this aquifer.", "points": 2 },
+        { "label": "c", "prompt": "Explain how irrigation causes the white salt deposits and declining yields.", "points": 2 },
+        { "label": "d", "prompt": "Describe one consequence, other than dry wells, of continued groundwater overdraft.", "points": 1 },
+        { "label": "e", "prompt": "Propose one solution that would reduce aquifer depletion, and explain how it reduces withdrawal.", "points": 2 },
+        { "label": "f", "prompt": "Describe one economic disadvantage of your solution for farmers.", "points": 1 },
+        { "label": "g", "prompt": "Identify one crop choice change that would reduce water demand and explain why.", "points": 1 }
+      ],
+      "points": 10,
+      "minutes": 23,
+      "rubric": [
+        { "criterion": "a: Unsustainable", "points": 1, "description": "Withdrawal exceeds recharge, shown by the 30 m drop in the water table." },
+        { "criterion": "b1: Shared resource", "points": 1, "description": "Many farmers draw from one aquifer that no individual owns or controls." },
+        { "criterion": "b2: Incentive", "points": 1, "description": "Each farmer benefits from pumping more, while the cost (a lower water table) is shared by all, so total use exceeds sustainable levels." },
+        { "criterion": "c1: Evaporation", "points": 1, "description": "Irrigation water contains dissolved salts; in hot, dry conditions water evaporates and salts remain in the soil." },
+        { "criterion": "c2: Effect on crops", "points": 1, "description": "Salt buildup makes it harder for roots to absorb water (osmotic stress), reducing yields." },
+        { "criterion": "d: Consequence", "points": 1, "description": "E.g., land subsidence, higher pumping costs and energy use, reduced stream base flow, wetland loss." },
+        { "criterion": "e1: Solution", "points": 1, "description": "E.g., convert to drip irrigation, install meters with pumping limits or water pricing, schedule irrigation using soil-moisture sensors." },
+        { "criterion": "e2: Mechanism", "points": 1, "description": "Explains how the solution delivers needed water with less loss or caps total withdrawal below recharge." },
+        { "criterion": "f: Economic disadvantage", "points": 1, "description": "E.g., high installation cost of drip systems; reduced income from smaller irrigated area; cost of meters or water fees." },
+        { "criterion": "g: Crop choice", "points": 1, "description": "E.g., switch to drought-tolerant crops such as sorghum or wheat, which need less water than corn or cotton." }
+      ],
+      "sampleResponse": "(a) The water table has dropped 30 meters because withdrawals far exceed natural recharge, so water is being removed faster than it is replaced.\n\n(b) The aquifer is a shared resource that no single farmer controls. Each farmer gains the full benefit of pumping more water, while the cost of the falling water table is spread among everyone, so all farmers over-pump and the aquifer is depleted.\n\n(c) Irrigation water carries small amounts of dissolved salt. In the hot, semi-arid climate, water evaporates from the soil surface and leaves the salts behind. Over time the salt concentration rises, making it harder for roots to take up water, so crop yields fall.\n\n(d) As water is removed, sediments in the aquifer compact, causing land subsidence that can damage roads and buildings.\n\n(e) Convert from center-pivot sprinklers to drip irrigation. Drip lines deliver water directly to roots, so far less water is lost to evaporation and wind drift, and farmers can grow the same crop while pumping less groundwater.\n\n(f) Drip systems are expensive to buy and install, which may be difficult for small farms to afford.\n\n(g) Switch from corn to sorghum, which is drought-tolerant and needs considerably less water per growing season."
+    }
+  ]
+}

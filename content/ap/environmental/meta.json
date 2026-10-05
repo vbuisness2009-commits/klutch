@@ -1,0 +1,91 @@
+{
+ "slug": "environmental",
+ "name": "AP Environmental Science",
+ "lastVerified": "2026-10",
+ "overview": "AP Environmental Science is an interdisciplinary lab-and-field science course covering ecology, Earth systems, population dynamics, resource use, energy, pollution, and global change. The exam rewards explaining how human activities disrupt natural systems, interpreting graphs and data tables, doing unit-conversion calculations without shortcuts, and proposing realistic solutions with their trade-offs. Many questions are short, but distractors are designed around common misconceptions (ozone depletion vs. climate change, eutrophication sequence, which pollutants are primary vs. secondary).",
+ "examMode": "Digital in the Bluebook app (check AP Central for whether free-response answers are typed or handwritten in your exam year).",
+ "totalMinutes": 160,
+ "sections": [
+  {
+   "name": "Section I",
+   "questionType": "Multiple choice (4 options, A–D)",
+   "count": 80,
+   "minutes": 90,
+   "weight": "60%",
+   "calculator": "Allowed",
+   "notes": "Individual questions plus sets built on graphs, maps, data tables, diagrams, and short text passages."
+  },
+  {
+   "name": "Section II",
+   "questionType": "Free response: 3 questions (10 points each)",
+   "count": 3,
+   "minutes": 70,
+   "weight": "40%",
+   "calculator": "Allowed",
+   "notes": "Q1 Design an Investigation; Q2 Analyze an Environmental Problem and Propose a Solution; Q3 Analyze an Environmental Problem and Propose a Solution Doing Calculations. About 23 minutes each."
+  }
+ ],
+ "units": [
+  { "number": 1, "title": "The Living World: Ecosystems", "weight": "6–8%" },
+  { "number": 2, "title": "The Living World: Biodiversity", "weight": "6–8%" },
+  { "number": 3, "title": "Populations", "weight": "10–15%" },
+  { "number": 4, "title": "Earth Systems and Resources", "weight": "10–15%" },
+  { "number": 5, "title": "Land and Water Use", "weight": "10–15%" },
+  { "number": 6, "title": "Energy Resources and Consumption", "weight": "10–15%" },
+  { "number": 7, "title": "Atmospheric Pollution", "weight": "7–10%" },
+  { "number": 8, "title": "Aquatic and Terrestrial Pollution", "weight": "7–10%" },
+  { "number": 9, "title": "Global Change", "weight": "15–20%" }
+ ],
+ "skills": [
+  { "name": "1. Concept Explanation", "description": "Describe and explain environmental concepts, processes, and models, including in applied contexts." },
+  { "name": "2. Visual Representations", "description": "Analyze diagrams, graphs, maps, and models and connect them to broader environmental issues." },
+  { "name": "3. Text Analysis", "description": "Identify an author's claim, perspective, assumptions, and use of evidence in a short passage." },
+  { "name": "4. Scientific Experiments", "description": "Identify testable hypotheses, research methods, variables, and controls, and explain how changing a procedure alters results." },
+  { "name": "5. Data Analysis", "description": "Describe and explain patterns and trends in data and interpret results in relation to a hypothesis." },
+  { "name": "6. Mathematical Routines", "description": "Choose an approach, apply dimensional analysis with work shown, and calculate answers with units." },
+  { "name": "7. Environmental Solutions", "description": "Describe environmental problems and solutions, their advantages and disadvantages, and support a solution with data." }
+ ],
+ "scoring": {
+  "summary": "Section I (80 MCQ, no guessing penalty) is 60% and Section II (30 raw points) is 40% of a weighted composite converted to 1–5 using cut points set each year. FRQ points are awarded per correct, specific statement, and only the first answer is scored when a fixed number is requested.",
+  "approxCutoffs": [
+   { "score": 5, "minPercent": 72 },
+   { "score": 4, "minPercent": 59 },
+   { "score": 3, "minPercent": 47 },
+   { "score": 2, "minPercent": 35 }
+  ]
+ },
+ "frqTypes": [
+  { "name": "Q1 Design an Investigation", "points": 10, "howScored": "Built on a scenario with a model or data. Points for identifying a testable hypothesis or question, independent/dependent variables, a control, describing a method, interpreting data, explaining environmental concepts, and describing a solution or consequence." },
+  { "name": "Q2 Analyze an Environmental Problem and Propose a Solution", "points": 10, "howScored": "Points for describing and explaining the problem, identifying causes and effects, proposing a specific solution, and giving an advantage or disadvantage of that solution, often tied to a passage, map, or graph." },
+  { "name": "Q3 Analyze an Environmental Problem and Propose a Solution Doing Calculations", "points": 10, "howScored": "Like Q2 but with 2–4 calculation points; each calculation earns credit only with work shown (setup and units) and a correct answer." }
+ ],
+ "strategy": [
+  "Budget about 65 seconds per MCQ; long data sets are worth skipping and returning to.",
+  "Show every calculation step with units; FRQ calculation points require the setup, not just the answer.",
+  "Be specific: name the pollutant, the organism, the process (\"nitrogen runoff causes algal bloom, decomposition of dead algae consumes dissolved oxygen\"), never just \"it harms the environment\".",
+  "When asked for one answer, give one. Only the first response is scored.",
+  "Hypotheses must be testable and directional: \"If X increases, then Y will decrease.\"",
+  "For solutions questions, pair the solution with a concrete mechanism and a realistic drawback.",
+  "Practice calculations without a calculator mindset: scientific notation and percent change appear constantly.",
+  "Read graph axes and units before reading the line; many wrong answers come from misread units."
+ ],
+ "pitfalls": [
+  "Confusing stratospheric ozone depletion (UV, CFCs) with the greenhouse effect (infrared, CO₂, CH₄).",
+  "Treating ground-level ozone as a primary pollutant (it is secondary, formed from NOx and VOCs in sunlight).",
+  "Getting the eutrophication sequence wrong: the oxygen crash comes from decomposers, not the algae themselves.",
+  "Mixing up biomagnification (up the food chain) with bioaccumulation (within one organism over time).",
+  "Using 'energy is lost' in food chains without noting it is lost as heat from metabolism.",
+  "Calling natural gas or nuclear power renewable.",
+  "Forgetting that a K-selected species recovers slowly from population declines.",
+  "Vague solutions like 'pass a law' without saying what the law requires."
+ ],
+ "referenceSheet": "No formula sheet is provided. Know: percent change = (new − old)/old × 100; rule of 70 (doubling time ≈ 70/growth rate %); growth rate = (birth rate − death rate)/10 when rates are per 1000; 10% rule for energy transfer; LD50; metric prefixes (kilo-, mega-, giga-) and unit conversions (kWh, BTU, J) given in the question.",
+ "sources": [
+  { "title": "AP Environmental Science Exam (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-environmental-science/exam" },
+  { "title": "AP Environmental Science Course and Exam Description", "url": "https://apcentral.collegeboard.org/media/pdf/ap-environmental-science-course-and-exam-description.pdf" }
+ ],
+ "caveats": [
+  "Exam delivery format (fully digital vs. hybrid) has changed in recent years; confirm on AP Central.",
+  "Cutoffs are estimates; College Board does not publish exact cut scores."
+ ]
+}

@@ -1,0 +1,277 @@
+{
+  "number": 4,
+  "title": "Earth Systems and Resources",
+  "guide": {
+    "summary": "Unit 4 covers the physical Earth systems that set the stage for life and human resource use: plate tectonics, soil formation and properties, the structure of the atmosphere, global wind and climate patterns, watersheds, solar radiation and seasons, rain shadows, and El Niño–Southern Oscillation.",
+    "sections": [
+      {
+        "heading": "Plate tectonics",
+        "body": "Convergent boundaries: oceanic–continental and oceanic–oceanic collisions cause subduction, deep trenches, volcanoes, and earthquakes; continental–continental collisions build mountains (Himalayas). Divergent boundaries create new crust at mid-ocean ridges and rift valleys. Transform boundaries slide past each other and produce earthquakes with little volcanism (San Andreas Fault). The Ring of Fire around the Pacific marks subduction zones."
+      },
+      {
+        "heading": "Soil",
+        "body": "Soil forms from weathering of parent material over long periods, influenced by climate, organisms, topography, and time. Horizons: O (organic litter), A (topsoil: humus mixed with minerals), E (leached zone, in some soils), B (subsoil, where leached minerals accumulate), C (weathered parent material), R (bedrock). Texture is the percent sand, silt, and clay, read on a soil texture triangle; loam (roughly 40% sand, 40% silt, 20% clay) is ideal for agriculture. Sand has large pores and high permeability but holds little water; clay has tiny pores, holds water and nutrients, but drains slowly and can waterlog. Erosion by wind and water is accelerated by tilling, overgrazing, and deforestation."
+      },
+      {
+        "heading": "Atmosphere, wind, and climate",
+        "body": "Layers by temperature: troposphere (weather; most of the air's mass), stratosphere (ozone layer absorbs UV, temperature rises with altitude), mesosphere, thermosphere. The atmosphere is about 78% N₂, 21% O₂, ~0.9% Ar, and ~0.04% CO₂. Unequal heating drives circulation: air rises at the equator (rain, rainforests), descends near 30° latitude (dry, deserts), and rises again near 60°. The Coriolis effect deflects winds, producing trade winds and westerlies. The equator receives more solar energy per unit area because sunlight strikes more directly; seasons result from Earth's 23.5° axial tilt, not distance from the Sun. A rain shadow forms when moist air rises over mountains, cools, and drops precipitation on the windward side; descending air warms and dries the leeward side."
+      },
+      {
+        "heading": "Watersheds and ENSO",
+        "body": "A watershed is all the land that drains into a particular body of water. Land use anywhere in a watershed (deforestation, paving, agriculture) affects water quality and flooding downstream. In normal years, trade winds push warm surface water west across the Pacific, causing upwelling of cold, nutrient-rich water off South America. During El Niño, trade winds weaken, warm water shifts east, upwelling decreases (hurting Peruvian fisheries), and rainfall patterns change (wetter western South America, drier Indonesia and Australia). La Niña intensifies normal conditions: stronger trade winds and stronger upwelling."
+      }
+    ],
+    "keyTakeaways": [
+      "Subduction → trenches, volcanoes, earthquakes; transform → earthquakes.",
+      "Sand drains fast; clay holds water; loam is ideal.",
+      "Weather happens in the troposphere; the ozone layer is in the stratosphere.",
+      "Deserts at ~30° latitude from descending dry air.",
+      "Seasons come from axial tilt.",
+      "El Niño weakens trade winds and upwelling."
+    ],
+    "commonMistakes": [
+      "Attributing seasons to Earth's distance from the Sun.",
+      "Putting the rain shadow on the windward side.",
+      "Saying clay soils have high permeability.",
+      "Confusing El Niño (weak trade winds) with La Niña (strong trade winds).",
+      "Placing the ozone layer in the troposphere."
+    ],
+    "examTips": [
+      "Soil texture triangle questions require reading three axes; practice tracing the lines.",
+      "Expect a diagram of a mountain range with wind direction for rain shadows.",
+      "ENSO questions focus on upwelling, fisheries, and rainfall shifts.",
+      "Investigations often measure infiltration rate or soil water-holding capacity."
+    ],
+    "cramSheet": "**Plates:** convergent (subduction: trench, volcano) · divergent (ridge, rift) · transform (quakes)\n\n**Soil:** O A E B C R · sand drains · clay holds · loam 40/40/20\n\n**Air:** 78% N₂ · 21% O₂ · troposphere weather · stratosphere ozone\n\n**Circulation:** rise at 0° (wet) · sink at 30° (deserts) · Coriolis\n\n**Seasons:** tilt 23.5° · direct sun at equator\n\n**Rain shadow:** windward wet · leeward dry\n\n**ENSO:** El Niño weak trades, less upwelling · La Niña stronger"
+  },
+  "vocab": [
+    { "term": "Subduction", "definition": "One tectonic plate sinking beneath another at a convergent boundary." },
+    { "term": "Transform boundary", "definition": "A boundary where plates slide horizontally past one another." },
+    { "term": "Soil horizon", "definition": "A distinct layer of soil with characteristic properties." },
+    { "term": "Humus", "definition": "Decomposed organic matter in topsoil that holds water and nutrients." },
+    { "term": "Permeability", "definition": "How easily water moves through soil." },
+    { "term": "Loam", "definition": "Soil with a balanced mix of sand, silt, and clay, ideal for agriculture." },
+    { "term": "Troposphere", "definition": "The lowest atmospheric layer, where weather occurs." },
+    { "term": "Coriolis effect", "definition": "Deflection of moving air or water caused by Earth's rotation." },
+    { "term": "Rain shadow", "definition": "A dry area on the leeward side of a mountain range." },
+    { "term": "Watershed", "definition": "All the land that drains into a particular body of water." },
+    { "term": "Upwelling", "definition": "Rise of cold, nutrient-rich deep water to the surface." },
+    { "term": "El Niño", "definition": "A periodic weakening of Pacific trade winds that warms the eastern Pacific and reduces upwelling." }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01", "tier": "Intro", "type": "mcq", "topic": "4.1 Plate Tectonics", "skill": "1. Concept Explanation",
+      "stem": "Which features are most associated with an oceanic plate subducting beneath a continental plate?",
+      "choices": [
+        { "id": "A", "text": "A deep trench and a chain of volcanoes" },
+        { "id": "B", "text": "A mid-ocean ridge and new crust" },
+        { "id": "C", "text": "Two plates sliding past each other with no volcanoes" },
+        { "id": "D", "text": "A rift valley and lava plains" }
+      ],
+      "answer": "A",
+      "explanation": "Subduction forms a trench; the descending plate melts, feeding volcanoes on the overriding plate.",
+      "distractors": { "B": "Divergent boundary.", "C": "Transform boundary." }
+    },
+    {
+      "id": "u4-q02", "tier": "Intro", "type": "mcq", "topic": "4.4 Earth's Atmosphere", "skill": "1. Concept Explanation",
+      "stem": "In which layer of the atmosphere do nearly all weather events occur?",
+      "choices": [
+        { "id": "A", "text": "Troposphere" },
+        { "id": "B", "text": "Stratosphere" },
+        { "id": "C", "text": "Mesosphere" },
+        { "id": "D", "text": "Thermosphere" }
+      ],
+      "answer": "A",
+      "explanation": "The troposphere contains most of the atmosphere's mass and water vapor.",
+      "distractors": { "B": "Contains the ozone layer." }
+    },
+    {
+      "id": "u4-q03", "tier": "Intro", "type": "mcq", "topic": "4.3 Soil Composition and Properties", "skill": "1. Concept Explanation",
+      "stem": "Compared with clay soil, sandy soil has",
+      "choices": [
+        { "id": "A", "text": "higher permeability and lower water-holding capacity" },
+        { "id": "B", "text": "lower permeability and higher water-holding capacity" },
+        { "id": "C", "text": "higher nutrient-holding capacity" },
+        { "id": "D", "text": "smaller particles" }
+      ],
+      "answer": "A",
+      "explanation": "Large sand particles leave large pores, so water drains quickly and little is retained.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q04", "tier": "Intro", "type": "mcq", "topic": "4.7 Solar Radiation and Earth's Seasons", "skill": "1. Concept Explanation",
+      "stem": "Earth's seasons are caused primarily by",
+      "choices": [
+        { "id": "A", "text": "changes in Earth's distance from the Sun" },
+        { "id": "B", "text": "the tilt of Earth's axis relative to its orbit" },
+        { "id": "C", "text": "changes in the Sun's energy output" },
+        { "id": "D", "text": "ocean currents" }
+      ],
+      "answer": "B",
+      "explanation": "The 23.5° tilt changes the angle of sunlight and day length through the year.",
+      "distractors": { "A": "Earth is actually closest to the Sun in the Northern Hemisphere's winter." }
+    },
+    {
+      "id": "u4-q05", "tier": "Exam level", "type": "mcq", "topic": "4.8 Earth's Geography and Climate", "skill": "2. Visual Representations",
+      "stimulus": "Moist air from the ocean moves east across a coastal mountain range. City W lies on the west slope; City E lies in the valley east of the mountains.",
+      "stem": "Which statement best describes the two cities' climates?",
+      "choices": [
+        { "id": "A", "text": "City W is wetter, because rising air cools and condenses; City E is drier, because descending air warms and absorbs moisture." },
+        { "id": "B", "text": "City E is wetter, because air collects moisture as it crosses the mountains." },
+        { "id": "C", "text": "Both receive equal rainfall." },
+        { "id": "D", "text": "City W is drier because it faces the ocean wind directly." }
+      ],
+      "answer": "A",
+      "explanation": "Orographic lift drops precipitation on the windward side; the leeward side lies in a rain shadow.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q06", "tier": "Exam level", "type": "mcq", "topic": "4.3 Soil Composition and Properties", "skill": "2. Visual Representations",
+      "stem": "A soil sample contains 40% sand, 40% silt, and 20% clay. On a soil texture triangle, it is classified as",
+      "choices": [
+        { "id": "A", "text": "sand" },
+        { "id": "B", "text": "clay" },
+        { "id": "C", "text": "loam" },
+        { "id": "D", "text": "silt" }
+      ],
+      "answer": "C",
+      "explanation": "A balanced mixture near 40/40/20 falls in the loam region.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q07", "tier": "Exam level", "type": "mcq", "topic": "4.5 Global Wind Patterns", "skill": "1. Concept Explanation",
+      "stem": "Many of the world's large deserts lie near 30° N and 30° S latitude because",
+      "choices": [
+        { "id": "A", "text": "warm, moist air rises there, producing heavy rain" },
+        { "id": "B", "text": "dry air that lost its moisture near the equator descends and warms there" },
+        { "id": "C", "text": "those latitudes receive the most direct sunlight" },
+        { "id": "D", "text": "ocean currents are coldest there" }
+      ],
+      "answer": "B",
+      "explanation": "Hadley cell air rises at the equator, rains out, then sinks near 30°, warming and drying.",
+      "distractors": { "A": "Describes the equator." }
+    },
+    {
+      "id": "u4-q08", "tier": "Exam level", "type": "mcq", "topic": "4.9 El Niño and La Niña", "skill": "7. Environmental Solutions",
+      "stem": "During an El Niño event, anchovy catches off Peru typically decline because",
+      "choices": [
+        { "id": "A", "text": "stronger trade winds increase upwelling, cooling the water too much" },
+        { "id": "B", "text": "weaker trade winds reduce upwelling of cold, nutrient-rich water, lowering plankton productivity" },
+        { "id": "C", "text": "increased rainfall makes the ocean too fresh for fish" },
+        { "id": "D", "text": "El Niño increases ocean salinity" }
+      ],
+      "answer": "B",
+      "explanation": "Less upwelling means fewer nutrients, fewer phytoplankton, and less food for anchovies.",
+      "distractors": { "A": "Describes La Niña (and it would help fisheries)." }
+    },
+    {
+      "id": "u4-q09", "tier": "Exam level", "type": "mcq", "topic": "4.6 Watersheds", "skill": "1. Concept Explanation",
+      "stem": "Clearing forests in the upper portion of a watershed is most likely to cause which effect downstream?",
+      "choices": [
+        { "id": "A", "text": "Increased sediment in rivers and more frequent flooding" },
+        { "id": "B", "text": "Lower river turbidity" },
+        { "id": "C", "text": "Increased groundwater recharge downstream" },
+        { "id": "D", "text": "No effect, because watersheds are separate systems" }
+      ],
+      "answer": "A",
+      "explanation": "Without vegetation to slow runoff and hold soil, water and sediment move quickly downstream.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q10", "tier": "Exam level", "type": "mcq", "topic": "4.2 Soil Formation and Erosion", "skill": "1. Concept Explanation",
+      "stem": "In a forest soil profile, dissolved minerals such as iron and aluminum compounds carried downward by water would most likely accumulate in the",
+      "choices": [
+        { "id": "A", "text": "O horizon" },
+        { "id": "B", "text": "A horizon" },
+        { "id": "C", "text": "B horizon" },
+        { "id": "D", "text": "R horizon" }
+      ],
+      "answer": "C",
+      "explanation": "Leaching moves minerals out of upper horizons; they accumulate in the subsoil (B horizon).",
+      "distractors": { "D": "Bedrock." }
+    },
+    {
+      "id": "u4-q11", "tier": "Hardest", "type": "mcq", "topic": "4.7 Solar Radiation and Earth's Seasons", "skill": "1. Concept Explanation",
+      "stem": "Which statement best explains why a square meter of ground at the equator receives more solar energy per year than a square meter near the poles?",
+      "choices": [
+        { "id": "A", "text": "The equator is closer to the Sun." },
+        { "id": "B", "text": "Sunlight strikes the equator more directly, so the same energy is concentrated on a smaller area and passes through less atmosphere." },
+        { "id": "C", "text": "The equator has more cloud cover, which traps sunlight." },
+        { "id": "D", "text": "The poles reflect sunlight back to the equator." }
+      ],
+      "answer": "B",
+      "explanation": "At low sun angles, the same beam spreads over more ground and travels through more atmosphere.",
+      "distractors": { "A": "Distance differences are negligible." }
+    },
+    {
+      "id": "u4-q12", "tier": "Hardest", "type": "mcq", "topic": "4.3 Soil Composition and Properties", "skill": "4. Scientific Experiments",
+      "stimulus": "Students pour 100 mL of water through equal volumes of three soils.\n\n| Soil | Time to drain (s) | Water retained (mL) |\n|---|---|---|\n| X | 35 | 12 |\n| Y | 410 | 58 |\n| Z | 120 | 34 |",
+      "stem": "Which conclusion is best supported?",
+      "choices": [
+        { "id": "A", "text": "Soil X has the highest clay content and is most prone to waterlogging." },
+        { "id": "B", "text": "Soil Y has the highest clay content and would most need drainage for crops sensitive to waterlogging." },
+        { "id": "C", "text": "Soil Z is pure sand." },
+        { "id": "D", "text": "All three soils have the same texture." }
+      ],
+      "answer": "B",
+      "explanation": "Slow drainage and high retention indicate small pores: high clay content.",
+      "distractors": { "A": "Soil X drains fastest and retains least: sandy." }
+    },
+    {
+      "id": "u4-q13", "tier": "Hardest", "type": "mcq", "topic": "4.1 Plate Tectonics", "skill": "2. Visual Representations",
+      "stem": "A region experiences frequent shallow earthquakes but has no active volcanoes. Its most likely tectonic setting is",
+      "choices": [
+        { "id": "A", "text": "an oceanic–oceanic convergent boundary" },
+        { "id": "B", "text": "a transform boundary" },
+        { "id": "C", "text": "a hot spot" },
+        { "id": "D", "text": "an oceanic–continental subduction zone" }
+      ],
+      "answer": "B",
+      "explanation": "Transform boundaries grind past each other without subduction or magma generation.",
+      "distractors": { "A": "Would produce volcanic island arcs.", "C": "Hot spots are volcanic." }
+    },
+    {
+      "id": "u4-q14", "tier": "Hardest", "type": "mcq", "topic": "4.9 El Niño and La Niña", "skill": "2. Visual Representations",
+      "stimulus": "Sea-surface temperature maps show the eastern equatorial Pacific 1.5 °C cooler than average and the western Pacific warmer than average. Trade winds are stronger than normal.",
+      "stem": "Which conditions are most likely occurring?",
+      "choices": [
+        { "id": "A", "text": "El Niño, with reduced upwelling off South America" },
+        { "id": "B", "text": "La Niña, with enhanced upwelling off South America and heavier rainfall in Indonesia" },
+        { "id": "C", "text": "La Niña, with weaker upwelling and drought in Indonesia" },
+        { "id": "D", "text": "Normal conditions" }
+      ],
+      "answer": "B",
+      "explanation": "Stronger trade winds push more warm water west, intensifying upwelling in the east and rainfall in the west.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-frq1", "tier": "Exam level", "type": "frq", "topic": "4.2 Soil Formation and Erosion", "frqType": "Q1 Design an Investigation",
+      "prompt": "Students want to know how land use affects how quickly rainwater soaks into soil. They push a metal ring 5 cm into the ground at three sites (an old forest, a pasture grazed by cattle, and a plowed cornfield), pour 500 mL of water into the ring, and time how long it takes to soak in. They repeat this five times at each site.\n\n| Site | Mean infiltration time (s) |\n|---|---|\n| Forest | 48 |\n| Grazed pasture | 310 |\n| Plowed field | 95 |",
+      "parts": [
+        { "label": "a", "prompt": "Identify the independent variable.", "points": 1 },
+        { "label": "b", "prompt": "Identify one variable that should be held constant.", "points": 1 },
+        { "label": "c", "prompt": "Explain why the students repeated the measurement five times at each site.", "points": 1 },
+        { "label": "d", "prompt": "State a testable hypothesis for this investigation.", "points": 1 },
+        { "label": "e", "prompt": "Explain the most likely reason infiltration is slowest in the grazed pasture.", "points": 1 },
+        { "label": "f", "prompt": "Explain why the forest soil absorbs water fastest.", "points": 1 },
+        { "label": "g", "prompt": "Describe one environmental consequence of slow infiltration during heavy rain.", "points": 2 },
+        { "label": "h", "prompt": "Propose one practice that would improve infiltration in the cornfield, and explain how it works.", "points": 2 }
+      ],
+      "points": 10,
+      "minutes": 23,
+      "rubric": [
+        { "criterion": "a: IV", "points": 1, "description": "Land use (type of site)." },
+        { "criterion": "b: Constant", "points": 1, "description": "E.g., volume of water, ring depth or size, initial soil moisture (no recent rain), same soil type or slope." },
+        { "criterion": "c: Repetition", "points": 1, "description": "Repeated trials reduce the effect of random variation or local differences and make results more reliable." },
+        { "criterion": "d: Hypothesis", "points": 1, "description": "Testable and directional, e.g., 'If soil is compacted by grazing, then infiltration time will be longer than in forest soil.'" },
+        { "criterion": "e: Compaction", "points": 1, "description": "Cattle trampling compacts soil, reducing pore space so water enters slowly." },
+        { "criterion": "f: Forest soil", "points": 1, "description": "Abundant organic matter (humus) and root channels create porous, well-structured soil." },
+        { "criterion": "g1: Consequence", "points": 1, "description": "More surface runoff." },
+        { "criterion": "g2: Effect", "points": 1, "description": "Runoff causes erosion and carries sediment, fertilizer, or manure into streams (or increases flooding, reduces groundwater recharge)." },
+        { "criterion": "h1: Practice", "points": 1, "description": "E.g., no-till farming, cover crops, adding compost, contour plowing." },
+        { "criterion": "h2: Mechanism", "points": 1, "description": "E.g., cover-crop roots and residue add organic matter and channels that increase porosity and slow runoff." }
+      ],
+      "sampleResponse": "(a) The land use at each site (forest, pasture, plowed field).\n\n(b) The volume of water poured (500 mL).\n\n(c) Repeating trials reduces the effect of random variation, such as a single rock or root, making the mean more reliable.\n\n(d) If soil has been compacted by cattle grazing, then water will take longer to infiltrate than in forest soil.\n\n(e) Cattle trample the pasture, compacting the soil and collapsing pore spaces, so water moves into it slowly.\n\n(f) Forest soil has a thick layer of humus and many root channels, creating large pores that let water soak in quickly.\n\n(g) Water that cannot infiltrate runs off the surface, eroding topsoil and carrying sediment and manure into nearby streams, which increases turbidity.\n\n(h) Plant cover crops between corn seasons. Their roots create channels and add organic matter, increasing soil porosity, and their cover slows runoff so water has time to soak in."
+    }
+  ]
+}

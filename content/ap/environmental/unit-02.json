@@ -1,0 +1,277 @@
+{
+  "number": 2,
+  "title": "The Living World: Biodiversity",
+  "guide": {
+    "summary": "Unit 2 explains why biodiversity matters and how it changes: genetic, species, and ecosystem diversity; the services ecosystems provide; island biogeography; ecological tolerance; natural disruptions; adaptation; and ecological succession. Many questions ask you to predict how a population or community responds to a disturbance.",
+    "sections": [
+      {
+        "heading": "Levels of biodiversity",
+        "body": "Genetic diversity (variation within a population) lets populations adapt and resist disease; small populations that pass through a bottleneck lose it and become vulnerable. Species diversity has two parts: richness (number of species) and evenness (how evenly individuals are spread among species). A community with the same richness but one dominant species is less diverse. Ecosystem diversity is the variety of habitats in a region. Higher diversity generally means greater resilience after disturbance."
+      },
+      {
+        "heading": "Ecosystem services",
+        "body": "Provisioning services are goods people harvest (food, timber, medicine, fresh water). Regulating services keep conditions stable (climate regulation through carbon storage, flood control, water purification by wetlands, erosion control). Supporting services underlie the others (nutrient cycling, soil formation, pollination, primary productivity). Cultural services are nonmaterial benefits (recreation, ecotourism, spiritual and scientific value). Human disruptions often carry economic costs: replacing a wetland's water filtration with a treatment plant is expensive."
+      },
+      {
+        "heading": "Island biogeography and tolerance",
+        "body": "Island biogeography predicts that larger islands support more species (more habitat and lower extinction rates) and islands closer to the mainland support more species (higher immigration). The theory also applies to habitat 'islands' such as forest fragments. Island species often evolve specialized traits and are especially vulnerable to invasive species. Ecological tolerance is the range of conditions an organism can survive; near the edges (zones of physiological stress) organisms survive but reproduce poorly, and outside the range they die."
+      },
+      {
+        "heading": "Disruptions, adaptation, and succession",
+        "body": "Natural disruptions can be periodic, episodic, or random, and they vary in scale (fires, hurricanes, volcanic eruptions, sea-level change). Populations adapt through natural selection; species with short generation times and high genetic diversity adapt fastest. Primary succession begins on bare rock with no soil (pioneers: lichens and mosses that weather rock and begin soil formation). Secondary succession follows a disturbance that leaves soil intact (fire, abandoned farmland) and proceeds faster, from grasses to shrubs to trees. Early species are typically r-selected; later species are K-selected. Each stage modifies conditions (soil depth, shade, moisture) in ways that favor the next."
+      }
+    ],
+    "keyTakeaways": [
+      "Diversity = richness + evenness.",
+      "Low genetic diversity increases extinction risk.",
+      "Larger, closer islands hold more species.",
+      "Ecosystem services: provisioning, regulating, supporting, cultural.",
+      "Primary succession starts without soil; secondary has soil.",
+      "Each successional stage changes conditions for the next."
+    ],
+    "commonMistakes": [
+      "Equating species richness with total diversity, ignoring evenness.",
+      "Confusing primary and secondary succession.",
+      "Saying organisms 'choose' to adapt.",
+      "Forgetting that island biogeography applies to habitat fragments.",
+      "Classifying ecotourism as a provisioning service."
+    ],
+    "examTips": [
+      "Compare two communities by both richness and evenness.",
+      "Island biogeography questions use island size and distance; reason with immigration and extinction.",
+      "For ecosystem service questions, name the service and its economic consequence.",
+      "Succession questions often include data on soil depth, species type, or biomass over time."
+    ],
+    "cramSheet": "**Diversity:** genetic · species (richness + evenness) · ecosystem · bottleneck ↓ genetic\n\n**Services:** provisioning (goods) · regulating (climate, flood, water) · supporting (nutrients, soil, pollination) · cultural (recreation)\n\n**Islands:** bigger + closer = more species · fragments act like islands\n\n**Tolerance:** optimal range → stress zone → death\n\n**Succession:** primary (no soil, lichens) · secondary (soil, grasses) · r → K species"
+  },
+  "vocab": [
+    { "term": "Species richness", "definition": "The number of different species in an area." },
+    { "term": "Species evenness", "definition": "How evenly individuals are distributed among the species present." },
+    { "term": "Genetic bottleneck", "definition": "A sharp reduction in population size that reduces genetic diversity." },
+    { "term": "Ecosystem services", "definition": "Benefits people obtain from ecosystems." },
+    { "term": "Provisioning services", "definition": "Goods taken directly from ecosystems, such as food, timber, and water." },
+    { "term": "Regulating services", "definition": "Benefits from regulation of natural processes, such as flood control and climate regulation." },
+    { "term": "Island biogeography", "definition": "Theory explaining species richness on islands by size and distance from a source." },
+    { "term": "Ecological tolerance", "definition": "The range of conditions an organism can survive and reproduce in." },
+    { "term": "Primary succession", "definition": "Community development beginning on bare rock or newly exposed surfaces with no soil." },
+    { "term": "Secondary succession", "definition": "Community development after a disturbance that leaves soil intact." },
+    { "term": "Pioneer species", "definition": "The first organisms to colonize a disturbed or barren area." },
+    { "term": "Habitat fragmentation", "definition": "Breaking a large habitat into smaller, isolated patches." }
+  ],
+  "practice": [
+    {
+      "id": "u2-q01", "tier": "Intro", "type": "mcq", "topic": "2.1 Introduction to Biodiversity", "skill": "1. Concept Explanation",
+      "stimulus": "Meadow X: 5 plant species with 20 individuals each. Meadow Y: the same 5 species, with 92 individuals of one species and 2 of each of the others.",
+      "stem": "Which statement is correct?",
+      "choices": [
+        { "id": "A", "text": "The meadows have equal richness, but meadow X has greater evenness and greater diversity." },
+        { "id": "B", "text": "Meadow Y has greater richness." },
+        { "id": "C", "text": "The meadows have equal diversity." },
+        { "id": "D", "text": "Meadow Y has greater evenness." }
+      ],
+      "answer": "A",
+      "explanation": "Both have 5 species and 100 individuals; X's even distribution gives higher diversity.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q02", "tier": "Intro", "type": "mcq", "topic": "2.2 Ecosystem Services", "skill": "1. Concept Explanation",
+      "stem": "Revenue from tourists who travel to watch whales migrate is an example of which type of ecosystem service?",
+      "choices": [
+        { "id": "A", "text": "Provisioning" },
+        { "id": "B", "text": "Regulating" },
+        { "id": "C", "text": "Supporting" },
+        { "id": "D", "text": "Cultural" }
+      ],
+      "answer": "D",
+      "explanation": "Recreation and ecotourism are nonmaterial cultural benefits.",
+      "distractors": { "A": "Would require harvesting the whales." }
+    },
+    {
+      "id": "u2-q03", "tier": "Intro", "type": "mcq", "topic": "2.3 Island Biogeography", "skill": "1. Concept Explanation",
+      "stem": "According to the theory of island biogeography, which island would be expected to have the most species?",
+      "choices": [
+        { "id": "A", "text": "A small island far from the mainland" },
+        { "id": "B", "text": "A small island near the mainland" },
+        { "id": "C", "text": "A large island far from the mainland" },
+        { "id": "D", "text": "A large island near the mainland" }
+      ],
+      "answer": "D",
+      "explanation": "Large size lowers extinction rates; closeness raises immigration rates.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q04", "tier": "Intro", "type": "mcq", "topic": "2.7 Ecological Succession", "skill": "1. Concept Explanation",
+      "stem": "Which organisms are most likely to be the first to colonize a fresh lava flow?",
+      "choices": [
+        { "id": "A", "text": "Grasses" },
+        { "id": "B", "text": "Lichens" },
+        { "id": "C", "text": "Pine trees" },
+        { "id": "D", "text": "Shrubs" }
+      ],
+      "answer": "B",
+      "explanation": "Primary succession on bare rock begins with lichens and mosses, which help break down rock into soil.",
+      "distractors": { "A": "Need soil; typical pioneers of secondary succession." }
+    },
+    {
+      "id": "u2-q05", "tier": "Exam level", "type": "mcq", "topic": "2.1 Introduction to Biodiversity", "skill": "1. Concept Explanation",
+      "stem": "A population of wild cats declined to about 50 individuals before recovering to 2,000. Which is the greatest long-term threat to this population?",
+      "choices": [
+        { "id": "A", "text": "Low genetic diversity, making the population vulnerable to disease and environmental change" },
+        { "id": "B", "text": "Too much genetic diversity, causing hybrid offspring" },
+        { "id": "C", "text": "Rapid overpopulation, because the population is now large" },
+        { "id": "D", "text": "Increased evenness among prey species" }
+      ],
+      "answer": "A",
+      "explanation": "A bottleneck removes alleles; even a recovered population carries little variation for natural selection to act on.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q06", "tier": "Exam level", "type": "mcq", "topic": "2.4 Ecological Tolerance", "skill": "1. Concept Explanation",
+      "stem": "A trout species survives in streams from 4 °C to 20 °C but reproduces successfully only between 8 °C and 15 °C. At 18 °C, the trout would most likely",
+      "choices": [
+        { "id": "A", "text": "die immediately" },
+        { "id": "B", "text": "survive but show physiological stress and reduced reproduction" },
+        { "id": "C", "text": "reproduce at its maximum rate" },
+        { "id": "D", "text": "adapt within its lifetime to tolerate 25 °C" }
+      ],
+      "answer": "B",
+      "explanation": "18 °C is within the survival range but outside the optimal range: a zone of physiological stress.",
+      "distractors": { "D": "Individuals don't evolve; populations do, over generations." }
+    },
+    {
+      "id": "u2-q07", "tier": "Exam level", "type": "mcq", "topic": "2.7 Ecological Succession", "skill": "1. Concept Explanation",
+      "stem": "Why does secondary succession after a forest fire typically proceed faster than primary succession on a new volcanic island?",
+      "choices": [
+        { "id": "A", "text": "Soil, seeds, and roots remain after the fire." },
+        { "id": "B", "text": "Fire adds nitrogen gas to the atmosphere." },
+        { "id": "C", "text": "Volcanic islands receive more sunlight." },
+        { "id": "D", "text": "Fires kill all decomposers." }
+      ],
+      "answer": "A",
+      "explanation": "Secondary succession starts with soil and a seed bank, skipping centuries of soil formation.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q08", "tier": "Exam level", "type": "mcq", "topic": "2.3 Island Biogeography", "skill": "7. Environmental Solutions",
+      "stem": "A planner can protect either one 1,000-hectare forest reserve or ten separate 100-hectare reserves. Based on island biogeography, which choice better preserves forest-interior species, and why?",
+      "choices": [
+        { "id": "A", "text": "Ten small reserves, because they contain more edge habitat" },
+        { "id": "B", "text": "One large reserve, because larger areas have lower extinction rates and more interior habitat" },
+        { "id": "C", "text": "Ten small reserves, because more reserves mean more immigration" },
+        { "id": "D", "text": "Either, because the total area is the same" }
+      ],
+      "answer": "B",
+      "explanation": "Fragments behave like small islands: higher extinction and more edge effects. Interior species need large contiguous habitat.",
+      "distractors": { "A": "Edge habitat favors generalists, not interior species." }
+    },
+    {
+      "id": "u2-q09", "tier": "Exam level", "type": "mcq", "topic": "2.2 Ecosystem Services", "skill": "7. Environmental Solutions",
+      "stimulus": "A city could build a water filtration plant costing $6 billion, or pay $1.5 billion to protect the forested watershed that naturally filters its water supply.",
+      "stem": "The watershed's filtration is an example of which service, and what does the comparison illustrate?",
+      "choices": [
+        { "id": "A", "text": "A regulating service with substantial economic value that would be costly to replace" },
+        { "id": "B", "text": "A cultural service with no measurable economic value" },
+        { "id": "C", "text": "A provisioning service that only benefits timber companies" },
+        { "id": "D", "text": "A supporting service that is cheaper to replace with technology" }
+      ],
+      "answer": "A",
+      "explanation": "Water purification is a regulating service; protecting it costs a quarter of the engineered replacement.",
+      "distractors": { "D": "Data shows the opposite." }
+    },
+    {
+      "id": "u2-q10", "tier": "Exam level", "type": "mcq", "topic": "2.6 Adaptations", "skill": "1. Concept Explanation",
+      "stem": "Which species is most likely to adapt successfully to a rapidly warming climate?",
+      "choices": [
+        { "id": "A", "text": "A large mammal with one offspring every three years and low genetic diversity" },
+        { "id": "B", "text": "An insect with many generations per year and high genetic diversity" },
+        { "id": "C", "text": "A long-lived tree restricted to a single mountaintop" },
+        { "id": "D", "text": "A specialist bird that feeds on one plant species" }
+      ],
+      "answer": "B",
+      "explanation": "Short generation times and high genetic variation allow natural selection to act quickly.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q11", "tier": "Hardest", "type": "mcq", "topic": "2.7 Ecological Succession", "skill": "5. Data Analysis",
+      "stimulus": "| Years after farm abandonment | Soil depth (cm) | Dominant vegetation | Shade at ground level |\n|---|---|---|---|\n| 1 | 10 | Annual weeds | Low |\n| 15 | 12 | Shrubs, pine seedlings | Moderate |\n| 60 | 15 | Pine | High |\n| 150 | 18 | Oak and hickory | Very high |",
+      "stem": "Which conclusion is best supported by the data?",
+      "choices": [
+        { "id": "A", "text": "Pines replace oaks because pines tolerate shade better." },
+        { "id": "B", "text": "Shade created by pines favors shade-tolerant hardwood seedlings, so hardwoods eventually replace pines." },
+        { "id": "C", "text": "Soil depth decreases over time, limiting tree growth." },
+        { "id": "D", "text": "This is primary succession because the farm had no soil." }
+      ],
+      "answer": "B",
+      "explanation": "Rising shade under pines inhibits sun-loving pine seedlings while hardwood seedlings tolerate it, so the community shifts.",
+      "distractors": { "D": "Soil was present from year 1; this is secondary succession." }
+    },
+    {
+      "id": "u2-q12", "tier": "Hardest", "type": "mcq", "topic": "2.3 Island Biogeography", "skill": "1. Concept Explanation",
+      "stem": "Two islands of equal size and habitat lie 5 km and 400 km from the mainland. Which best explains why the near island has more species at equilibrium?",
+      "choices": [
+        { "id": "A", "text": "Its extinction rate is higher." },
+        { "id": "B", "text": "Its immigration rate is higher, so colonization balances extinction at a larger number of species." },
+        { "id": "C", "text": "It has more habitat." },
+        { "id": "D", "text": "Its species have evolved faster." }
+      ],
+      "answer": "B",
+      "explanation": "Equilibrium richness is where immigration equals extinction; higher immigration shifts that point upward.",
+      "distractors": { "C": "Islands are equal in size and habitat." }
+    },
+    {
+      "id": "u2-q13", "tier": "Hardest", "type": "mcq", "topic": "2.4 Ecological Tolerance", "skill": "7. Environmental Solutions",
+      "stem": "Reef-building corals live close to the upper limit of their thermal tolerance. Which outcome is most likely if ocean temperatures rise 1–2 °C above the summer maximum for several weeks?",
+      "choices": [
+        { "id": "A", "text": "Corals expel their symbiotic algae, lose their main food source, and may die if the heat persists." },
+        { "id": "B", "text": "Coral growth increases because warmer water raises photosynthesis." },
+        { "id": "C", "text": "Corals migrate quickly to cooler water." },
+        { "id": "D", "text": "No change, because a 1–2 °C change is within normal daily variation for corals." }
+      ],
+      "answer": "A",
+      "explanation": "Heat stress causes bleaching; corals depend on zooxanthellae for most of their energy.",
+      "distractors": { "C": "Adult corals are sessile." }
+    },
+    {
+      "id": "u2-q14", "tier": "Hardest", "type": "mcq", "topic": "2.5 Natural Disruptions to Ecosystems", "skill": "5. Data Analysis",
+      "stimulus": "Lake sediment cores from a forest show charcoal layers at roughly 60-year intervals for 2,000 years, with pollen of fire-adapted pines rebounding after each layer. Charcoal layers stop appearing about 100 years ago, when fire suppression began; since then, pine pollen has declined and pollen of fire-intolerant fir trees has increased.",
+      "stem": "Which interpretation is best supported?",
+      "choices": [
+        { "id": "A", "text": "Fire was a periodic natural disruption that maintained the pine forest; suppressing it is allowing a shift toward fir and may increase fuel buildup." },
+        { "id": "B", "text": "Fires were random and had no effect on forest composition." },
+        { "id": "C", "text": "Fir trees caused the fires to stop." },
+        { "id": "D", "text": "Fire suppression has increased the abundance of fire-adapted species." }
+      ],
+      "answer": "A",
+      "explanation": "Regular fire favored pines; removing it changes composition and lets fuel accumulate.",
+      "distractors": { "D": "Opposite of the pollen trend." }
+    },
+    {
+      "id": "u2-frq1", "tier": "Exam level", "type": "frq", "topic": "2.3 Island Biogeography", "frqType": "Q2 Analyze an Environmental Problem and Propose a Solution",
+      "prompt": "A new four-lane highway is proposed through a 5,000-hectare old-growth forest that is home to a ground-dwelling salamander, a wide-ranging bobcat population, and many migratory songbirds. The highway would divide the forest into two fragments of about 2,600 and 2,300 hectares and add a 200-meter cleared corridor.",
+      "parts": [
+        { "label": "a", "prompt": "Describe how the theory of island biogeography applies to the forest fragments.", "points": 1 },
+        { "label": "b", "prompt": "Explain how the highway would likely affect genetic diversity of the salamander population over many generations.", "points": 2 },
+        { "label": "c", "prompt": "Describe one edge effect that the cleared corridor would create.", "points": 1 },
+        { "label": "d", "prompt": "Identify one ecosystem service provided by the old-growth forest, and classify it.", "points": 2 },
+        { "label": "e", "prompt": "Propose one design change to the highway that would reduce its impact on wildlife, and explain how it works.", "points": 2 },
+        { "label": "f", "prompt": "Describe one disadvantage of your proposed solution.", "points": 1 },
+        { "label": "g", "prompt": "Explain why the bobcat population is likely to be more affected by fragmentation than an insect species of the same forest.", "points": 1 }
+      ],
+      "points": 10,
+      "minutes": 23,
+      "rubric": [
+        { "criterion": "a: Island concept", "points": 1, "description": "Fragments act as habitat islands: smaller, isolated areas support fewer species and have higher extinction rates." },
+        { "criterion": "b1: Isolation", "points": 1, "description": "Salamanders can't cross the highway, so the population splits into two smaller, isolated populations with no gene flow." },
+        { "criterion": "b2: Consequence", "points": 1, "description": "Inbreeding and genetic drift reduce genetic diversity, making each group less able to adapt to disease or change." },
+        { "criterion": "c: Edge effect", "points": 1, "description": "E.g., more light, wind, and drying near the edge; more invasive species; more nest predators and brood parasites (cowbirds)." },
+        { "criterion": "d1: Service", "points": 1, "description": "E.g., carbon storage, water filtration, flood control, timber, recreation." },
+        { "criterion": "d2: Classification", "points": 1, "description": "Correctly classified (carbon storage → regulating; timber → provisioning; recreation → cultural; soil formation → supporting)." },
+        { "criterion": "e1: Solution", "points": 1, "description": "E.g., wildlife overpasses or underpasses, culverts with fencing, elevated roadway sections." },
+        { "criterion": "e2: Mechanism", "points": 1, "description": "Explains that the crossing reconnects fragments, allowing movement and gene flow and reducing roadkill." },
+        { "criterion": "f: Disadvantage", "points": 1, "description": "E.g., high construction cost; some species won't use crossings; predators may ambush prey at crossings." },
+        { "criterion": "g: Range size", "points": 1, "description": "Bobcats need large home ranges and have small populations and slow reproduction (K-selected), so fragments may be too small; insects need little area and reproduce quickly." }
+      ],
+      "sampleResponse": "(a) The fragments act like islands surrounded by unsuitable habitat. Each is smaller than the original forest, so each will support fewer species and have higher extinction rates, and isolation reduces recolonization.\n\n(b) Salamanders move slowly and cannot cross a wide road, so the population is divided into two isolated groups. Without gene flow, inbreeding and genetic drift will reduce genetic diversity over generations, making each group more vulnerable to disease.\n\n(c) The cleared corridor lets in more sunlight and wind, drying the forest floor near the edge and making it unsuitable for moisture-dependent salamanders.\n\n(d) The forest stores large amounts of carbon in its trees and soil. This is a regulating service, because it helps regulate climate.\n\n(e) Build several wildlife overpasses planted with native vegetation, combined with fencing that funnels animals toward them. This reconnects the fragments so animals can move and breed between them and reduces roadkill.\n\n(f) Overpasses are expensive, adding millions of dollars to the project.\n\n(g) Bobcats need large home ranges and have few, slowly reproducing individuals, so a fragment may not contain enough territory for a viable population. Insects need very little area and reproduce quickly, so they can persist in smaller fragments."
+    }
+  ]
+}

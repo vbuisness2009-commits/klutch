@@ -1,0 +1,273 @@
+{
+  "number": 6,
+  "title": "Energy Resources and Consumption",
+  "guide": {
+    "summary": "Unit 6 compares energy sources: how fossil fuels, nuclear power, biomass, solar, hydroelectric, geothermal, hydrogen, and wind produce usable energy, where they are found, and their environmental trade-offs. Energy calculations (kWh, cost, efficiency, fuel required, half-life) are among the most frequently tested skills on the exam.",
+    "sections": [
+      {
+        "heading": "Energy use and fossil fuels",
+        "body": "Nonrenewable sources (coal, oil, natural gas, uranium) form or exist in finite amounts; renewable sources (solar, wind, hydro, geothermal, biomass if harvested sustainably) are replenished on human timescales. Developed nations use far more energy per capita; global use is dominated by fossil fuels. Coal forms from ancient plant matter buried in swamps under heat and pressure (peat → lignite → bituminous → anthracite, increasing carbon content and energy). Oil and natural gas form from marine organisms. In a power plant, fuel's chemical energy becomes heat, which boils water to steam that turns a turbine connected to a generator; typical efficiency is about 30–40%, with the rest lost as heat. Natural gas emits roughly half the CO₂ of coal per unit of electricity, but methane leaks offset some of that benefit. Hydraulic fracturing (fracking) unlocks gas in shale but can contaminate groundwater, uses large volumes of water, and wastewater injection can trigger earthquakes. Tar sands and oil spills cause habitat destruction."
+      },
+      {
+        "heading": "Nuclear and biomass",
+        "body": "Nuclear fission of U-235 releases heat to make steam; it emits no CO₂ during operation but produces radioactive waste with long half-lives, thermal pollution, and risk of accidents (meltdowns). Mining uranium also disturbs land. After n half-lives, (½)ⁿ of a radioactive sample remains. Biomass (wood, crop waste, ethanol, biodiesel) can be renewable but releases particulates and CO₂; corn ethanol is not carbon-neutral because fossil fuels are used to grow and process it, and it competes with food crops and drives land-use change."
+      },
+      {
+        "heading": "Renewables and storage",
+        "body": "Solar photovoltaic cells convert sunlight directly to electricity; active and passive solar heating capture heat. Solar is intermittent and needs storage or backup, and panels require mining of metals. Hydroelectric dams provide steady, controllable power but block fish migration, trap sediment, flood habitat, and can release methane from decaying flooded vegetation. Geothermal uses Earth's internal heat and is most practical near plate boundaries and hot spots. Hydrogen fuel cells combine H₂ and O₂ to produce electricity with water as the only exhaust, but most hydrogen is currently made from natural gas and is costly to store. Wind turbines produce no emissions during operation; power increases with the cube of wind speed, so siting matters; drawbacks include intermittency, bird and bat mortality, and visual impact."
+      },
+      {
+        "heading": "Conservation and calculations",
+        "body": "Conservation includes LED lighting, efficient appliances, insulation, passive solar design, public transit, carpooling, and higher fuel-efficiency standards. Key units: power in watts (W) or kilowatts (kW); energy = power × time, in kilowatt-hours (kWh). Cost = kWh × price per kWh. Efficiency = useful output ÷ input. To find fuel required: energy needed ÷ efficiency ÷ energy content per unit of fuel. Always carry units through each step."
+      }
+    ],
+    "keyTakeaways": [
+      "Fossil fuel plants: chemical → thermal → mechanical → electrical; ~30–40% efficient.",
+      "Natural gas emits less CO₂ than coal, but methane leaks matter.",
+      "Nuclear: no operational CO₂; long-lived waste.",
+      "Dams: steady power but block fish and trap sediment.",
+      "Wind power ∝ (speed)³.",
+      "Energy (kWh) = power (kW) × time (h)."
+    ],
+    "commonMistakes": [
+      "Calling nuclear power renewable.",
+      "Confusing power (kW) and energy (kWh).",
+      "Forgetting to divide by efficiency when calculating fuel input.",
+      "Saying hydrogen fuel cells emit CO₂ at the tailpipe.",
+      "Assuming biofuels are automatically carbon-neutral."
+    ],
+    "examTips": [
+      "FRQ calculations need every step with units; dimensional analysis earns points.",
+      "Know one specific advantage and disadvantage for every energy source.",
+      "Watch for questions about where a resource is located (geothermal near plate boundaries, hydro needs elevation drop).",
+      "For half-life problems, count the number of half-lives first."
+    ],
+    "cramSheet": "**Fossil:** coal (plants) · oil/gas (marine) · plant: fuel → heat → steam → turbine → generator\n\n**Gas vs coal:** ~½ CO₂ · fracking: water, quakes, methane\n\n**Nuclear:** fission U-235 · no CO₂ · waste, thermal pollution · (½)ⁿ\n\n**Biomass:** not always carbon-neutral · particulates\n\n**Solar:** intermittent · **Hydro:** fish, sediment · **Geo:** plate boundaries · **H₂:** water exhaust · **Wind:** P ∝ v³\n\n**Math:** kWh = kW × h · cost = kWh × $ · input = output ÷ efficiency"
+  },
+  "vocab": [
+    { "term": "Nonrenewable resource", "definition": "A resource that exists in a finite amount or forms far more slowly than it is used." },
+    { "term": "Turbine", "definition": "A device turned by steam, water, or wind that drives a generator." },
+    { "term": "Hydraulic fracturing", "definition": "Injecting pressurized water, sand, and chemicals into shale to release natural gas or oil." },
+    { "term": "Nuclear fission", "definition": "Splitting a heavy nucleus (U-235) into smaller nuclei, releasing energy." },
+    { "term": "Half-life", "definition": "Time for half of a radioactive sample to decay." },
+    { "term": "Photovoltaic cell", "definition": "A device that converts sunlight directly into electricity." },
+    { "term": "Passive solar", "definition": "Building design that captures and stores solar heat without mechanical systems." },
+    { "term": "Geothermal energy", "definition": "Energy from heat within Earth." },
+    { "term": "Fuel cell", "definition": "A device that combines hydrogen and oxygen to produce electricity and water." },
+    { "term": "Kilowatt-hour (kWh)", "definition": "Energy used by a 1 kW device running for one hour." },
+    { "term": "Energy efficiency", "definition": "Ratio of useful energy output to total energy input." },
+    { "term": "Intermittent source", "definition": "An energy source that is not continuously available, such as solar or wind." }
+  ],
+  "practice": [
+    {
+      "id": "u6-q01", "tier": "Intro", "type": "mcq", "topic": "6.1 Renewable and Nonrenewable Resources", "skill": "1. Concept Explanation",
+      "stem": "Which energy source is nonrenewable?",
+      "choices": [
+        { "id": "A", "text": "Wind" },
+        { "id": "B", "text": "Geothermal" },
+        { "id": "C", "text": "Uranium for nuclear fission" },
+        { "id": "D", "text": "Hydroelectric" }
+      ],
+      "answer": "C",
+      "explanation": "Uranium ore is mined from finite deposits.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q02", "tier": "Intro", "type": "mcq", "topic": "6.5 Fossil Fuels", "skill": "1. Concept Explanation",
+      "stem": "In a coal-fired power plant, which sequence of energy conversions is correct?",
+      "choices": [
+        { "id": "A", "text": "Chemical → thermal → mechanical → electrical" },
+        { "id": "B", "text": "Electrical → mechanical → thermal → chemical" },
+        { "id": "C", "text": "Nuclear → thermal → electrical" },
+        { "id": "D", "text": "Chemical → electrical → thermal" }
+      ],
+      "answer": "A",
+      "explanation": "Burning coal releases heat, which makes steam that spins a turbine, which drives a generator.",
+      "distractors": { "C": "Describes nuclear plants." }
+    },
+    {
+      "id": "u6-q03", "tier": "Intro", "type": "mcq", "topic": "6.11 Hydrogen Fuel Cell", "skill": "1. Concept Explanation",
+      "stem": "The only exhaust produced by a vehicle powered by a hydrogen fuel cell is",
+      "choices": [
+        { "id": "A", "text": "carbon dioxide" },
+        { "id": "B", "text": "water" },
+        { "id": "C", "text": "methane" },
+        { "id": "D", "text": "nitrogen oxides" }
+      ],
+      "answer": "B",
+      "explanation": "2H₂ + O₂ → 2H₂O.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q04", "tier": "Intro", "type": "mcq", "topic": "6.10 Geothermal Energy", "skill": "1. Concept Explanation",
+      "stem": "Geothermal power plants are most practical in which location?",
+      "choices": [
+        { "id": "A", "text": "The middle of a stable continental plate" },
+        { "id": "B", "text": "Near tectonic plate boundaries or volcanic hot spots" },
+        { "id": "C", "text": "Coastal plains with strong winds" },
+        { "id": "D", "text": "Desert regions with intense sunlight" }
+      ],
+      "answer": "B",
+      "explanation": "Magma close to the surface heats groundwater to usable temperatures.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q05", "tier": "Exam level", "type": "mcq", "topic": "6.13 Energy Conservation", "skill": "6. Mathematical Routines",
+      "stem": "A 60 W incandescent bulb is replaced with a 10 W LED that gives the same light. The bulb is used 5 hours per day for 365 days, and electricity costs $0.12 per kWh. How much money does the switch save per year?",
+      "choices": [
+        { "id": "A", "text": "$2.19" },
+        { "id": "B", "text": "$10.95" },
+        { "id": "C", "text": "$13.14" },
+        { "id": "D", "text": "$109.50" }
+      ],
+      "answer": "B",
+      "explanation": "50 W × 5 h × 365 = 91,250 Wh = 91.25 kWh × $0.12 = $10.95.",
+      "distractors": { "C": "Cost of running the 60 W bulb.", "A": "Cost of running the LED." }
+    },
+    {
+      "id": "u6-q06", "tier": "Exam level", "type": "mcq", "topic": "6.6 Nuclear Power", "skill": "6. Mathematical Routines",
+      "stem": "A radioactive isotope in nuclear waste has a half-life of 30 years. What fraction of the original sample remains after 120 years?",
+      "choices": [
+        { "id": "A", "text": "1/4" },
+        { "id": "B", "text": "1/8" },
+        { "id": "C", "text": "1/16" },
+        { "id": "D", "text": "1/120" }
+      ],
+      "answer": "C",
+      "explanation": "120/30 = 4 half-lives; (½)⁴ = 1/16.",
+      "distractors": { "A": "Uses 4 as the denominator instead of 2⁴." }
+    },
+    {
+      "id": "u6-q07", "tier": "Exam level", "type": "mcq", "topic": "6.9 Hydroelectric Power", "skill": "7. Environmental Solutions",
+      "stem": "Which is an environmental disadvantage of a large hydroelectric dam?",
+      "choices": [
+        { "id": "A", "text": "It emits large amounts of sulfur dioxide during operation." },
+        { "id": "B", "text": "It blocks fish migration and traps sediment that would otherwise replenish downstream habitats." },
+        { "id": "C", "text": "It produces radioactive waste." },
+        { "id": "D", "text": "It cannot adjust output to meet demand." }
+      ],
+      "answer": "B",
+      "explanation": "Dams fragment rivers and starve downstream deltas and floodplains of sediment.",
+      "distractors": { "D": "Dams can adjust output quickly; that is an advantage." }
+    },
+    {
+      "id": "u6-q08", "tier": "Exam level", "type": "mcq", "topic": "6.5 Fossil Fuels", "skill": "7. Environmental Solutions",
+      "stem": "Residents near a hydraulic fracturing site report small earthquakes. These are most likely linked to",
+      "choices": [
+        { "id": "A", "text": "the injection of large volumes of wastewater into deep disposal wells" },
+        { "id": "B", "text": "methane burning at the surface" },
+        { "id": "C", "text": "the removal of overburden" },
+        { "id": "D", "text": "trucks transporting sand" }
+      ],
+      "answer": "A",
+      "explanation": "High-pressure wastewater injection can lubricate and stress existing faults.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q09", "tier": "Exam level", "type": "mcq", "topic": "6.8 Solar Energy", "skill": "7. Environmental Solutions",
+      "stem": "Which is the most significant challenge to using solar photovoltaic panels as a city's only source of electricity?",
+      "choices": [
+        { "id": "A", "text": "Panels emit CO₂ while operating." },
+        { "id": "B", "text": "Output varies with time of day and weather, so energy storage or backup is required." },
+        { "id": "C", "text": "Panels require water for cooling." },
+        { "id": "D", "text": "Solar energy is nonrenewable." }
+      ],
+      "answer": "B",
+      "explanation": "Solar is intermittent; demand continues at night and on cloudy days.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q10", "tier": "Exam level", "type": "mcq", "topic": "6.7 Energy from Biomass", "skill": "7. Environmental Solutions",
+      "stem": "Which statement best explains why corn-based ethanol is not fully carbon-neutral?",
+      "choices": [
+        { "id": "A", "text": "Burning ethanol releases more CO₂ than the corn absorbed while growing." },
+        { "id": "B", "text": "Fossil fuels are used to make fertilizer, run farm machinery, and distill the ethanol." },
+        { "id": "C", "text": "Ethanol contains no carbon." },
+        { "id": "D", "text": "Corn does not perform photosynthesis." }
+      ],
+      "answer": "B",
+      "explanation": "Even if combustion CO₂ equals what the crop absorbed, the production chain adds fossil emissions.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q11", "tier": "Hardest", "type": "mcq", "topic": "6.5 Fossil Fuels", "skill": "6. Mathematical Routines",
+      "stem": "A 500 MW coal-fired power plant operates continuously at 35% efficiency. Coal releases 24 MJ/kg when burned. Approximately how much coal does it burn per day? (1 day = 86,400 s)",
+      "choices": [
+        { "id": "A", "text": "1,800 metric tons" },
+        { "id": "B", "text": "5,100 metric tons" },
+        { "id": "C", "text": "14,700 metric tons" },
+        { "id": "D", "text": "51,000 metric tons" }
+      ],
+      "answer": "B",
+      "explanation": "Output = 500 × 10⁶ W × 86,400 s = 4.32 × 10¹³ J. Input = 4.32 × 10¹³ / 0.35 = 1.23 × 10¹⁴ J. Coal = 1.23 × 10¹⁴ / 2.4 × 10⁷ ≈ 5.1 × 10⁶ kg ≈ 5,100 t.",
+      "distractors": { "A": "Forgets to divide by efficiency." }
+    },
+    {
+      "id": "u6-q12", "tier": "Hardest", "type": "mcq", "topic": "6.3 Fuel Types and Uses", "skill": "7. Environmental Solutions",
+      "stem": "A utility replaces a coal plant with a natural gas plant producing the same electricity. Which outcome is most accurate?",
+      "choices": [
+        { "id": "A", "text": "CO₂, SO₂, and particulate emissions fall, but methane leaking during gas extraction and transport reduces the climate benefit." },
+        { "id": "B", "text": "All greenhouse gas emissions are eliminated." },
+        { "id": "C", "text": "SO₂ emissions increase because natural gas is high in sulfur." },
+        { "id": "D", "text": "CO₂ emissions double." }
+      ],
+      "answer": "A",
+      "explanation": "Gas emits roughly half the CO₂ of coal and very little SO₂ or particulates, but methane is a potent greenhouse gas.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q13", "tier": "Hardest", "type": "mcq", "topic": "6.12 Wind Energy", "skill": "6. Mathematical Routines",
+      "stem": "The power available from wind is proportional to the cube of wind speed. If average wind speed at Site B is twice that at Site A, a turbine at Site B could generate about how much more power?",
+      "choices": [
+        { "id": "A", "text": "2 times" },
+        { "id": "B", "text": "4 times" },
+        { "id": "C", "text": "6 times" },
+        { "id": "D", "text": "8 times" }
+      ],
+      "answer": "D",
+      "explanation": "2³ = 8.",
+      "distractors": { "B": "Squares instead of cubes." }
+    },
+    {
+      "id": "u6-q14", "tier": "Hardest", "type": "mcq", "topic": "6.6 Nuclear Power", "skill": "7. Environmental Solutions",
+      "stem": "A nuclear power plant draws water from a river for cooling and returns it 8 °C warmer. Which effect on the river is most likely?",
+      "choices": [
+        { "id": "A", "text": "Increased dissolved oxygen and more trout" },
+        { "id": "B", "text": "Lower dissolved oxygen and thermal shock to aquatic organisms near the outflow" },
+        { "id": "C", "text": "Radioactive contamination of all fish downstream" },
+        { "id": "D", "text": "Acidification from CO₂ emitted by the plant" }
+      ],
+      "answer": "B",
+      "explanation": "Warm water holds less oxygen and raises metabolic demand; sudden temperature changes stress organisms.",
+      "distractors": { "C": "Cooling water does not contact the reactor core." }
+    },
+    {
+      "id": "u6-frq1", "tier": "Hardest", "type": "frq", "topic": "6.8 Solar Energy", "frqType": "Q3 Analyze an Environmental Problem and Propose a Solution Doing Calculations",
+      "prompt": "A family uses 900 kWh of electricity per month, all from a grid powered mostly by coal and natural gas. They are considering a 5.0 kW rooftop solar photovoltaic system. Their location averages the equivalent of 5.0 hours of full sun per day. The system costs $15,000, and a 30% tax credit reduces that cost. Electricity costs $0.15 per kWh, and the grid emits an average of 0.40 kg of CO₂ per kWh. Assume 30 days per month.",
+      "parts": [
+        { "label": "a", "prompt": "Calculate the electricity, in kWh, the system will produce per month. Show your work.", "points": 1 },
+        { "label": "b", "prompt": "Calculate the family's annual savings on electricity bills, assuming all solar electricity replaces grid electricity. Show your work.", "points": 1 },
+        { "label": "c", "prompt": "Calculate the payback period, in years, after the tax credit. Show your work.", "points": 2 },
+        { "label": "d", "prompt": "Calculate the mass of CO₂ the system prevents each year. Show your work.", "points": 2 },
+        { "label": "e", "prompt": "Describe one environmental disadvantage of producing or disposing of solar panels.", "points": 1 },
+        { "label": "f", "prompt": "Propose one energy conservation measure the family could adopt and explain how it reduces electricity use.", "points": 2 },
+        { "label": "g", "prompt": "Identify one renewable energy source that could supply the family at night, and explain why.", "points": 1 }
+      ],
+      "points": 10,
+      "minutes": 23,
+      "rubric": [
+        { "criterion": "a: Monthly production", "points": 1, "description": "5.0 kW × 5.0 h/day × 30 days = 750 kWh/month." },
+        { "criterion": "b: Annual savings", "points": 1, "description": "750 kWh × 12 × $0.15 = $1,350/year." },
+        { "criterion": "c1: Net cost", "points": 1, "description": "$15,000 × 0.70 = $10,500." },
+        { "criterion": "c2: Payback", "points": 1, "description": "$10,500 ÷ $1,350/yr ≈ 7.8 years." },
+        { "criterion": "d1: Annual kWh", "points": 1, "description": "750 × 12 = 9,000 kWh/yr." },
+        { "criterion": "d2: CO₂", "points": 1, "description": "9,000 kWh × 0.40 kg/kWh = 3,600 kg CO₂/yr." },
+        { "criterion": "e: Disadvantage", "points": 1, "description": "E.g., mining metals (silicon, silver, rare metals) disturbs habitat; manufacturing uses energy; panels contain toxic materials (e.g., cadmium, lead) that can leach from landfills." },
+        { "criterion": "f1: Measure", "points": 1, "description": "E.g., LED lighting, Energy Star appliances, added insulation, programmable thermostat, line-drying clothes." },
+        { "criterion": "f2: Mechanism", "points": 1, "description": "Explains how the measure delivers the same service with less electricity (e.g., LEDs convert more electricity to light and less to heat)." },
+        { "criterion": "g: Night source", "points": 1, "description": "E.g., wind (blows at night), geothermal or hydroelectric from the grid (continuous), or battery storage charged by solar (must explain availability)." }
+      ],
+      "sampleResponse": "(a) 5.0 kW × 5.0 h/day × 30 days = 750 kWh per month.\n\n(b) 750 kWh/month × 12 months = 9,000 kWh/yr × $0.15/kWh = $1,350 per year.\n\n(c) Net cost = $15,000 × (1 − 0.30) = $10,500. Payback = $10,500 ÷ $1,350/yr ≈ 7.8 years.\n\n(d) 9,000 kWh/yr × 0.40 kg CO₂/kWh = 3,600 kg CO₂ avoided per year.\n\n(e) Manufacturing panels requires mining metals such as silver and silicon, which disturbs habitat and generates mine waste.\n\n(f) Replace incandescent bulbs with LEDs. LEDs convert a much larger share of electricity into light instead of heat, so they use about one-sixth the electricity for the same brightness.\n\n(g) Wind energy, because wind often blows at night, when solar panels produce nothing."
+    }
+  ]
+}

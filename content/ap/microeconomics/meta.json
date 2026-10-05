@@ -1,0 +1,146 @@
+{
+ "slug": "microeconomics",
+ "name": "AP Microeconomics",
+ "lastVerified": "2026-10",
+ "overview": "AP Microeconomics is an introductory college course on the choices of individual consumers, firms, and markets: opportunity cost and marginal analysis, supply and demand with elasticity and surplus, production and cost, perfect competition, monopoly, monopolistic competition, oligopoly and game theory, factor markets, and market failures with the role of government. The exam rewards precise graph work (cost curves, MR = MC, deadweight loss areas) and marginal reasoning.",
+ "examMode": "Hybrid digital: multiple-choice in Bluebook; free-response viewed in Bluebook and answered (including graphs) by hand in a paper booklet. Confirm the current format on AP Central.",
+ "totalMinutes": 130,
+ "sections": [
+  {
+   "name": "Section I",
+   "questionType": "Multiple choice",
+   "count": 60,
+   "minutes": 70,
+   "weight": "66.7%",
+   "calculator": "Not allowed",
+   "notes": "Many questions use graphs, cost tables, or payoff matrices. Arithmetic is designed to be done by hand."
+  },
+  {
+   "name": "Section II",
+   "questionType": "Free response: 1 long + 2 short",
+   "count": 3,
+   "minutes": 60,
+   "weight": "33.3%",
+   "calculator": "Not allowed",
+   "notes": "Includes a 10-minute reading period. The long question is worth half of the section score; each short question is worth a quarter. Correctly labeled graphs are required."
+  }
+ ],
+ "units": [
+  {
+   "number": 1,
+   "title": "Basic Economic Concepts",
+   "weight": "12–15%"
+  },
+  {
+   "number": 2,
+   "title": "Supply and Demand",
+   "weight": "20–25%"
+  },
+  {
+   "number": 3,
+   "title": "Production, Cost, and the Perfect Competition Model",
+   "weight": "22–25%"
+  },
+  {
+   "number": 4,
+   "title": "Imperfect Competition",
+   "weight": "15–22%"
+  },
+  {
+   "number": 5,
+   "title": "Factor Markets",
+   "weight": "10–13%"
+  },
+  {
+   "number": 6,
+   "title": "Market Failure and the Role of Government",
+   "weight": "8–13%"
+  }
+ ],
+ "skills": [
+  {
+   "name": "1. Principles and Models",
+   "description": "Define, explain, and apply economic principles and models."
+  },
+  {
+   "name": "2. Interpretation",
+   "description": "Interpret an economic situation and predict or explain outcomes."
+  },
+  {
+   "name": "3. Manipulation",
+   "description": "Determine the outcome of an economic situation using economic models and calculations."
+  },
+  {
+   "name": "4. Graphing and Visuals",
+   "description": "Create and use correctly labeled graphs and visual representations to explain economic outcomes."
+  }
+ ],
+ "scoring": {
+  "summary": "Section I (60 MCQ) is two-thirds of the composite and Section II one-third, converted to 1–5 using cut points set each year. FRQ points are awarded per element: correct labels, profit-maximizing quantity and price, correct shaded areas, and explanations. Consistent follow-through on an earlier error can still earn points.",
+  "approxCutoffs": [
+   {
+    "score": 5,
+    "minPercent": 76
+   },
+   {
+    "score": 4,
+    "minPercent": 63
+   },
+   {
+    "score": 3,
+    "minPercent": 51
+   },
+   {
+    "score": 2,
+    "minPercent": 40
+   }
+  ]
+ },
+ "frqTypes": [
+  {
+   "name": "Long FRQ",
+   "points": 10,
+   "howScored": "Usually a firm or market structure scenario (perfect competition, monopoly, or a factor market) requiring a correctly labeled side-by-side or single-firm graph with MR, MC, ATC, demand; points for profit-maximizing quantity and price, profit or loss areas, efficiency, deadweight loss, and long-run adjustment."
+  },
+  {
+   "name": "Short FRQ",
+   "points": 5,
+   "howScored": "Focused on one model: game theory payoff matrix, externality graph, elasticity or tax incidence, or a factor-market calculation. Points for each correct element with explanation or work."
+  }
+ ],
+ "strategy": [
+  "Profit maximization is always MR = MC; read the price from the demand curve (or MR = P for perfect competition).",
+  "Label graphs fully: axes, curves (D, MR, MC, ATC, AVC), quantities and prices, shaded areas.",
+  "For game theory, check each player's best response to each choice of the other; a Nash equilibrium is where both are best-responding.",
+  "Use 'marginal' language in explanations: the last unit's benefit vs. cost.",
+  "For taxes and subsidies, identify who bears the incidence based on relative elasticity.",
+  "Know the shutdown rule: shut down in the short run if P < minimum AVC.",
+  "Deadweight loss is the triangle between the efficient quantity and the actual quantity, bounded by demand (or MSB) and supply (or MSC).",
+  "Show calculations from tables step by step (marginal product, marginal cost, MRP)."
+ ],
+ "pitfalls": [
+  "Using P = MC as the profit-maximizing rule for a monopoly.",
+  "Confusing accounting profit with economic profit.",
+  "Saying a firm should shut down whenever it earns a loss.",
+  "Shading profit using MC rather than ATC.",
+  "Confusing elastic and inelastic for the total revenue test.",
+  "Claiming a monopoly charges 'the highest possible price' rather than the price on demand at MR = MC.",
+  "Putting the deadweight loss triangle on the wrong side of the efficient quantity.",
+  "Forgetting that in the long run perfectly competitive firms earn zero economic profit."
+ ],
+ "referenceSheet": "No formula sheet. Know: elasticity = %ΔQd ÷ %ΔP (midpoint method); TR = P × Q; MC = ΔTC/ΔQ; ATC = TC/Q; AVC = TVC/Q; profit = (P − ATC) × Q; MP = ΔQ/ΔL; MRP = MP × MR (= MP × P in competitive output markets); MRC = ΔTC/ΔL; hire where MRP = MRC; MU per dollar equalization (MU_x/P_x = MU_y/P_y).",
+ "sources": [
+  {
+   "title": "AP Microeconomics Exam (AP Central)",
+   "url": "https://apcentral.collegeboard.org/courses/ap-microeconomics/exam"
+  },
+  {
+   "title": "AP Microeconomics Course and Exam Description",
+   "url": "https://apcentral.collegeboard.org/media/pdf/ap-microeconomics-course-and-exam-description.pdf"
+  }
+ ],
+ "caveats": [
+  "Cutoffs are estimates; College Board does not publish exact cut scores.",
+  "Confirm the current exam delivery format on AP Central."
+ ]
+}

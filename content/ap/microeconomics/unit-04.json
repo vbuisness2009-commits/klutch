@@ -1,0 +1,272 @@
+{
+  "number": 4,
+  "title": "Imperfect Competition",
+  "guide": {
+    "summary": "Unit 4 covers markets where firms have price-setting power: monopoly (including natural monopoly and regulation), price discrimination, monopolistic competition, and oligopoly analyzed with game theory. The key skills are graphing a monopolist's MR, MC, ATC, and demand; finding profit, consumer surplus, and deadweight loss; and solving payoff matrices.",
+    "sections": [
+      {
+        "heading": "Monopoly",
+        "body": "A monopoly is a single seller of a product with no close substitutes, protected by barriers to entry (control of resources, patents, government licenses, economies of scale). The monopolist faces the downward-sloping market demand curve, so to sell more it must lower price on all units: MR lies below demand (for linear demand, MR has twice the slope). It produces where MR = MC and charges the price on the demand curve at that quantity. Because P > MC, output is below the allocatively efficient level, creating deadweight loss, and P > minimum ATC, so it isn't productively efficient. A monopolist always produces on the elastic portion of demand (where MR > 0). It can earn economic profit in the long run because of barriers to entry."
+      },
+      {
+        "heading": "Natural monopoly and regulation",
+        "body": "A natural monopoly occurs when economies of scale are so large that one firm can supply the whole market at lower cost than several firms (utilities). Regulators may set the socially optimal price (P = MC), which is allocatively efficient but may cause losses requiring a subsidy (since ATC > MC when ATC is falling), or a fair-return price (P = ATC), which yields zero economic profit with some deadweight loss. A price ceiling on a monopolist set at the competitive level can increase output."
+      },
+      {
+        "heading": "Price discrimination",
+        "body": "Price discrimination means charging different prices to different consumers for the same good, not based on cost differences. Requirements: market power, ability to separate customers by willingness to pay, and prevention of resale. Perfect (first-degree) price discrimination charges each customer their maximum willingness to pay: MR equals demand, output reaches the efficient level, there is no deadweight loss, and the firm captures all consumer surplus."
+      },
+      {
+        "heading": "Monopolistic competition",
+        "body": "Many firms sell differentiated products with low barriers to entry (restaurants, clothing). Each faces a downward-sloping demand, sets MR = MC, and may earn short-run profits. Entry shifts each firm's demand left until it is tangent to ATC: zero economic profit in the long run, with P > MC (not allocatively efficient) and output below minimum ATC (excess capacity, not productively efficient). Firms use advertising and product differentiation."
+      },
+      {
+        "heading": "Oligopoly and game theory",
+        "body": "An oligopoly has a few interdependent firms with high barriers to entry. Game theory models strategic interaction. A dominant strategy is best regardless of the other player's choice. A Nash equilibrium is an outcome where each player's strategy is a best response to the other's; no one can gain by changing alone. The prisoners' dilemma shows that individually rational choices can produce an outcome worse for both than cooperation. Collusion and cartels raise joint profits but are illegal in many countries and unstable because each member has an incentive to cheat. To solve a payoff matrix, compare each player's payoffs for each of the other's choices, then look for mutual best responses."
+      }
+    ],
+    "keyTakeaways": [
+      "Monopoly: MR < D; produce MR = MC; price from demand.",
+      "Monopoly creates DWL because P > MC.",
+      "Perfect price discrimination: MR = D, no DWL, no CS.",
+      "Monopolistic competition: zero LR profit, excess capacity.",
+      "Nash equilibrium: mutual best responses.",
+      "Prisoners' dilemma: dominant strategies lead to a worse joint outcome."
+    ],
+    "commonMistakes": [
+      "Setting price where MR = MC on the MR curve instead of on demand.",
+      "Saying monopolies charge the highest price possible.",
+      "Assuming monopolistic competitors earn long-run profit.",
+      "Reading the wrong payoff (each cell lists row player first).",
+      "Confusing the socially optimal price (P = MC) with the fair-return price (P = ATC)."
+    ],
+    "examTips": [
+      "Monopoly FRQs: label MR, D, MC, ATC; mark Q_m, P_m, profit rectangle, CS triangle, DWL triangle.",
+      "Game theory FRQs: show the comparison for each player, then name the Nash equilibrium.",
+      "For a lump-sum tax on a monopolist, output and price don't change; profit falls.",
+      "Know which market structures are allocatively and productively efficient."
+    ],
+    "cramSheet": "**Monopoly:** MR < D · Q at MR = MC · P from D · P > MC → DWL · elastic portion\n\n**Natural monopoly:** socially optimal P = MC (loss) · fair return P = ATC\n\n**Price discrimination:** power + separation + no resale · perfect: MR = D, no DWL, no CS\n\n**Monopolistic competition:** differentiated · LR tangent to ATC · zero profit · excess capacity · P > MC\n\n**Oligopoly:** interdependent · dominant strategy · Nash = mutual best response · prisoners' dilemma · cartels unstable"
+  },
+  "vocab": [
+    { "term": "Monopoly", "definition": "A market with a single seller of a product with no close substitutes." },
+    { "term": "Barrier to entry", "definition": "Anything that prevents new firms from entering a market." },
+    { "term": "Natural monopoly", "definition": "A market where one firm can supply the entire market at a lower ATC than multiple firms." },
+    { "term": "Socially optimal price", "definition": "A regulated price where P = MC, achieving allocative efficiency." },
+    { "term": "Fair-return price", "definition": "A regulated price where P = ATC, giving zero economic profit." },
+    { "term": "Price discrimination", "definition": "Charging different customers different prices for the same good based on willingness to pay." },
+    { "term": "Monopolistic competition", "definition": "Many firms selling differentiated products with low barriers to entry." },
+    { "term": "Excess capacity", "definition": "Producing less than the output at minimum ATC, typical of monopolistic competition." },
+    { "term": "Oligopoly", "definition": "A market with a few interdependent firms and high barriers to entry." },
+    { "term": "Dominant strategy", "definition": "A strategy that gives the highest payoff regardless of the other player's choice." },
+    { "term": "Nash equilibrium", "definition": "An outcome where no player can improve by changing strategy alone." },
+    { "term": "Cartel", "definition": "A group of firms that coordinate output and prices to act like a monopoly." }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01", "tier": "Intro", "type": "mcq", "topic": "4.2 Monopoly", "skill": "1. Principles and Models",
+      "stem": "For a single-price monopolist, marginal revenue is less than price because",
+      "choices": [
+        { "id": "A", "text": "to sell an additional unit, it must lower the price on all units sold" },
+        { "id": "B", "text": "marginal cost is rising" },
+        { "id": "C", "text": "the demand curve is horizontal" },
+        { "id": "D", "text": "the government taxes monopolies" }
+      ],
+      "answer": "A",
+      "explanation": "The price cut on previous units offsets part of the revenue from the extra unit.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q02", "tier": "Intro", "type": "mcq", "topic": "4.4 Monopolistic Competition", "skill": "1. Principles and Models",
+      "stem": "In long-run equilibrium, a firm in monopolistic competition",
+      "choices": [
+        { "id": "A", "text": "earns positive economic profit" },
+        { "id": "B", "text": "earns zero economic profit and produces with excess capacity" },
+        { "id": "C", "text": "produces at minimum ATC" },
+        { "id": "D", "text": "is allocatively efficient" }
+      ],
+      "answer": "B",
+      "explanation": "Entry drives demand down to tangency with ATC on its downward-sloping portion.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q03", "tier": "Intro", "type": "mcq", "topic": "4.5 Oligopoly and Game Theory", "skill": "1. Principles and Models",
+      "stem": "A Nash equilibrium is an outcome in which",
+      "choices": [
+        { "id": "A", "text": "both players earn the highest possible joint payoff" },
+        { "id": "B", "text": "each player's strategy is the best response to the other's strategy" },
+        { "id": "C", "text": "one player always wins" },
+        { "id": "D", "text": "players collude" }
+      ],
+      "answer": "B",
+      "explanation": "No player can gain by changing strategy unilaterally.",
+      "distractors": { "A": "Nash outcomes can be jointly inferior (prisoners' dilemma)." }
+    },
+    {
+      "id": "u4-q04", "tier": "Intro", "type": "mcq", "topic": "4.3 Price Discrimination", "skill": "1. Principles and Models",
+      "stem": "Which is a necessary condition for price discrimination?",
+      "choices": [
+        { "id": "A", "text": "The firm must be a price taker." },
+        { "id": "B", "text": "The firm must be able to prevent resale between customer groups." },
+        { "id": "C", "text": "All customers must have the same willingness to pay." },
+        { "id": "D", "text": "The product must be undifferentiated with many sellers." }
+      ],
+      "answer": "B",
+      "explanation": "Otherwise low-price buyers would resell to high-price buyers.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q05", "tier": "Exam level", "type": "mcq", "topic": "4.2 Monopoly", "skill": "3. Manipulation",
+      "stem": "A monopolist faces demand P = 100 − 2Q, so MR = 100 − 4Q. Marginal cost is constant at $20. What are its profit-maximizing quantity and price?",
+      "choices": [
+        { "id": "A", "text": "Q = 20, P = $60" },
+        { "id": "B", "text": "Q = 40, P = $20" },
+        { "id": "C", "text": "Q = 20, P = $20" },
+        { "id": "D", "text": "Q = 25, P = $50" }
+      ],
+      "answer": "A",
+      "explanation": "MR = MC: 100 − 4Q = 20 → Q = 20; P = 100 − 40 = $60.",
+      "distractors": { "B": "Competitive outcome (P = MC).", "C": "Reads price from MR or MC." }
+    },
+    {
+      "id": "u4-q06", "tier": "Exam level", "type": "mcq", "topic": "4.2 Monopoly", "skill": "3. Manipulation",
+      "stem": "Using the previous monopoly (demand P = 100 − 2Q, MC = $20, monopoly Q = 20, P = $60), what is the deadweight loss?",
+      "choices": [
+        { "id": "A", "text": "$200" },
+        { "id": "B", "text": "$400" },
+        { "id": "C", "text": "$800" },
+        { "id": "D", "text": "$1,600" }
+      ],
+      "answer": "B",
+      "explanation": "Efficient Q = 40. DWL = ½ × (60 − 20) × (40 − 20) = $400.",
+      "distractors": { "C": "Forgets the ½." }
+    },
+    {
+      "id": "u4-q07", "tier": "Exam level", "type": "mcq", "topic": "4.5 Oligopoly and Game Theory", "skill": "3. Manipulation",
+      "stimulus": "Payoffs (Firm A, Firm B) in $ millions:\n\n| | B: High price | B: Low price |\n|---|---|---|\n| A: High price | (10, 10) | (2, 14) |\n| A: Low price | (14, 2) | (5, 5) |",
+      "stem": "What is the Nash equilibrium?",
+      "choices": [
+        { "id": "A", "text": "Both choose High price." },
+        { "id": "B", "text": "Both choose Low price." },
+        { "id": "C", "text": "A High, B Low" },
+        { "id": "D", "text": "There is no Nash equilibrium." }
+      ],
+      "answer": "B",
+      "explanation": "Low is a dominant strategy for both (14 > 10 and 5 > 2), so both choose Low, a prisoners' dilemma.",
+      "distractors": { "A": "Jointly best, but each has an incentive to deviate." }
+    },
+    {
+      "id": "u4-q08", "tier": "Exam level", "type": "mcq", "topic": "4.2 Monopoly", "skill": "2. Interpretation",
+      "stem": "A monopolist is producing where demand is inelastic. To increase profit, it should",
+      "choices": [
+        { "id": "A", "text": "raise price and reduce output" },
+        { "id": "B", "text": "lower price and increase output" },
+        { "id": "C", "text": "keep output constant" },
+        { "id": "D", "text": "shut down" }
+      ],
+      "answer": "A",
+      "explanation": "In the inelastic range MR < 0, so cutting output raises revenue and lowers cost.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q09", "tier": "Exam level", "type": "mcq", "topic": "4.2 Monopoly", "skill": "2. Interpretation",
+      "stem": "A government regulator sets a natural monopoly's price where P = MC. At that output, ATC is above price. Which outcome follows?",
+      "choices": [
+        { "id": "A", "text": "The outcome is allocatively efficient, but the firm incurs a loss and may need a subsidy." },
+        { "id": "B", "text": "The firm earns economic profit." },
+        { "id": "C", "text": "Output falls below the unregulated monopoly level." },
+        { "id": "D", "text": "Deadweight loss increases." }
+      ],
+      "answer": "A",
+      "explanation": "With falling ATC, MC lies below ATC, so P = MC < ATC.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q10", "tier": "Exam level", "type": "mcq", "topic": "4.3 Price Discrimination", "skill": "2. Interpretation",
+      "stem": "Compared with a single-price monopolist, a perfectly price-discriminating monopolist",
+      "choices": [
+        { "id": "A", "text": "produces less and creates more deadweight loss" },
+        { "id": "B", "text": "produces the allocatively efficient quantity, eliminates deadweight loss, and captures all consumer surplus" },
+        { "id": "C", "text": "charges everyone the same price" },
+        { "id": "D", "text": "increases consumer surplus" }
+      ],
+      "answer": "B",
+      "explanation": "MR equals demand, so it produces until P = MC on the last unit.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q11", "tier": "Hardest", "type": "mcq", "topic": "4.2 Monopoly", "skill": "2. Interpretation",
+      "stem": "A profit-maximizing monopolist faces a lump-sum tax. Compared with before the tax, the monopolist will",
+      "choices": [
+        { "id": "A", "text": "produce the same quantity at the same price, with lower profit" },
+        { "id": "B", "text": "raise price and reduce output" },
+        { "id": "C", "text": "lower price and increase output" },
+        { "id": "D", "text": "shut down immediately" }
+      ],
+      "answer": "A",
+      "explanation": "A lump-sum tax is a fixed cost; MR and MC are unchanged.",
+      "distractors": { "B": "Effect of a per-unit tax." }
+    },
+    {
+      "id": "u4-q12", "tier": "Hardest", "type": "mcq", "topic": "4.5 Oligopoly and Game Theory", "skill": "3. Manipulation",
+      "stimulus": "Payoffs (Firm X, Firm Y):\n\n| | Y: Expand | Y: Hold |\n|---|---|---|\n| X: Expand | (4, 3) | (9, 5) |\n| X: Hold | (6, 8) | (7, 2) |",
+      "stem": "Which statement is correct?",
+      "choices": [
+        { "id": "A", "text": "X has a dominant strategy; Y does not. The Nash equilibrium is (Expand, Hold)." },
+        { "id": "B", "text": "Neither has a dominant strategy; there are two Nash equilibria: (Expand, Hold) and (Hold, Expand)." },
+        { "id": "C", "text": "Both have dominant strategies to Expand." },
+        { "id": "D", "text": "The only Nash equilibrium is (Hold, Hold)." }
+      ],
+      "answer": "B",
+      "explanation": "X: if Y Expands, Hold (6 > 4); if Y Holds, Expand (9 > 7), so no dominant strategy. Y: if X Expands, Hold (5 > 3); if X Holds, Expand (8 > 2), so no dominant strategy. Mutual best responses: (Expand, Hold) and (Hold, Expand).",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q13", "tier": "Hardest", "type": "mcq", "topic": "4.4 Monopolistic Competition", "skill": "2. Interpretation",
+      "stem": "A monopolistically competitive restaurant is earning short-run economic profit. In the long run, which change occurs?",
+      "choices": [
+        { "id": "A", "text": "New restaurants enter, the firm's demand shifts left and becomes more elastic, and profit falls to zero." },
+        { "id": "B", "text": "The firm's demand shifts right." },
+        { "id": "C", "text": "The firm becomes a price taker." },
+        { "id": "D", "text": "The firm's MC shifts down until profit is zero." }
+      ],
+      "answer": "A",
+      "explanation": "Entry adds close substitutes, reducing and flattening each firm's demand.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q14", "tier": "Hardest", "type": "mcq", "topic": "4.5 Oligopoly and Game Theory", "skill": "2. Interpretation",
+      "stem": "Why are cartel agreements among oligopolists often unstable?",
+      "choices": [
+        { "id": "A", "text": "Each member can increase its own profit by secretly producing more than its quota at the high cartel price." },
+        { "id": "B", "text": "Cartels always lose money." },
+        { "id": "C", "text": "Demand is perfectly elastic for cartel products." },
+        { "id": "D", "text": "Members have identical costs." }
+      ],
+      "answer": "A",
+      "explanation": "The incentive to cheat mirrors the prisoners' dilemma.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-frq1", "tier": "Exam level", "type": "frq", "topic": "4.5 Oligopoly and Game Theory", "frqType": "Short FRQ",
+      "prompt": "Two firms, Xeno and Yarra, each decide simultaneously whether to advertise. Payoffs are profits in millions (Xeno, Yarra); both know the matrix.\n\n| | Yarra: Advertise | Yarra: Don't advertise |\n|---|---|---|\n| Xeno: Advertise | (8, 6) | (12, 4) |\n| Xeno: Don't advertise | (6, 9) | (10, 7) |",
+      "parts": [
+        { "label": "a", "prompt": "Does Xeno have a dominant strategy? Explain using the payoffs.", "points": 1 },
+        { "label": "b", "prompt": "Identify the Nash equilibrium.", "points": 1 },
+        { "label": "c", "prompt": "Is the Nash equilibrium the outcome that maximizes the firms' combined profit? Explain.", "points": 1 },
+        { "label": "d", "prompt": "Suppose the government imposes a $3 million tax on Yarra whenever Yarra advertises. Identify Yarra's dominant strategy, if any, after the tax.", "points": 1 },
+        { "label": "e", "prompt": "Identify the new Nash equilibrium after the tax.", "points": 1 }
+      ],
+      "points": 5,
+      "minutes": 10,
+      "rubric": [
+        { "criterion": "a", "points": 1, "description": "Yes, Advertise: if Yarra advertises, 8 > 6; if Yarra doesn't, 12 > 10." },
+        { "criterion": "b", "points": 1, "description": "Both advertise: (8, 6)." },
+        { "criterion": "c", "points": 1, "description": "No; combined profit is 14 at (Advertise, Advertise) but 17 at (Don't, Don't)." },
+        { "criterion": "d", "points": 1, "description": "Don't advertise: Yarra's advertise payoffs become 3 and 6; if Xeno advertises, 4 > 3; if Xeno doesn't, 7 > 6." },
+        { "criterion": "e", "points": 1, "description": "Xeno advertises, Yarra doesn't: (12, 4)." }
+      ],
+      "sampleResponse": "(a) Yes. Xeno's dominant strategy is to advertise. If Yarra advertises, Xeno earns 8 by advertising versus 6 by not; if Yarra doesn't advertise, Xeno earns 12 versus 10.\n\n(b) Yarra also has a dominant strategy to advertise (6 > 4 and 9 > 7), so the Nash equilibrium is both firms advertise, with payoffs (8, 6).\n\n(c) No. At the Nash equilibrium, combined profit is 8 + 6 = 14. If neither advertised, combined profit would be 10 + 7 = 17.\n\n(d) After the tax, Yarra's payoffs from advertising fall to 3 (if Xeno advertises) and 6 (if Xeno doesn't). Yarra now earns more by not advertising in both cases (4 > 3 and 7 > 6), so its dominant strategy is to not advertise.\n\n(e) Xeno still advertises (12 > 10 when Yarra doesn't), so the new Nash equilibrium is Xeno advertises and Yarra doesn't advertise, with payoffs (12, 4)."
+    }
+  ]
+}

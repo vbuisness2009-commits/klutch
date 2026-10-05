@@ -1,0 +1,268 @@
+{
+  "number": 3,
+  "title": "Electric Circuits",
+  "guide": {
+    "summary": "This unit covers current and its microscopic origin (drift velocity, current density), resistance and resistivity, power, Kirchhoff's rules for multi-loop circuits, and RC circuits analyzed with differential equations: charging and discharging, time constants, and energy.",
+    "sections": [
+      {
+        "heading": "Current and resistance",
+        "body": "Current I = dQ/dt. Microscopically, I = nqAv_d, where n is charge-carrier density and v_d the drift speed (typically tiny, ~10⁻⁴ m/s, even though signals travel near light speed). Current density J = I/A = nqv_d = σE (σ = 1/ρ). Resistance R = ρℓ/A; resistivity of metals increases with temperature. Power dissipated: P = IΔV = I²R = ΔV²/R. A real battery has emf ε and internal resistance r: terminal voltage ε − Ir."
+      },
+      {
+        "heading": "Kirchhoff's rules",
+        "body": "Junction rule: ΣI_in = ΣI_out (charge conservation). Loop rule: ΣΔV = 0 around any closed loop (energy conservation). Assign current directions (a negative answer means the current actually flows the other way), write one junction equation and enough independent loop equations, and solve. Crossing a resistor in the direction of current: −IR; crossing a battery from − to +: +ε."
+      },
+      {
+        "heading": "RC circuits",
+        "body": "Charging (switch closed at t = 0, capacitor initially uncharged): loop rule ε − IR − q/C = 0 with I = dq/dt gives q(t) = Cε(1 − e^(−t/RC)), I(t) = (ε/R)e^(−t/RC), V_C(t) = ε(1 − e^(−t/RC)). Discharging: q(t) = Q₀e^(−t/RC), I(t) = (Q₀/RC)e^(−t/RC). The time constant τ = RC is the time to reach about 63% of the final charge (or decay to 37%). Half-life of discharge: τ ln 2. Initially an uncharged capacitor acts like a wire; at steady state it acts like an open circuit. While charging from a battery, the energy dissipated in the resistor equals the energy finally stored, ½Cε²."
+      }
+    ],
+    "keyTakeaways": [
+      "I = nqAv_d; J = σE.",
+      "R = ρℓ/A; P = I²R.",
+      "Junction rule: charge; loop rule: energy.",
+      "Charging: q = Cε(1 − e^(−t/RC)).",
+      "Discharging: q = Q₀e^(−t/RC).",
+      "τ = RC; 63% after τ."
+    ],
+    "commonMistakes": [
+      "Sign errors in loop equations.",
+      "Assuming electrons drift at signal speed.",
+      "Using τ = R/C.",
+      "Treating a capacitor as an open circuit at t = 0.",
+      "Assuming all energy from the battery ends up in the capacitor."
+    ],
+    "examTips": [
+      "Derive RC behavior from the loop rule as a differential equation.",
+      "For exponential data, plot ln(V) vs. t; slope = −1/RC.",
+      "Check circuit limits: t = 0 and t → ∞.",
+      "Multi-loop circuits: node-voltage method can be faster than loop equations."
+    ],
+    "cramSheet": "**Current:** I = dQ/dt = nqAv_d · J = σE\n\n**Resistance:** R = ρℓ/A · P = IΔV = I²R\n\n**Kirchhoff:** junction ΣI = 0 · loop ΣΔV = 0\n\n**Charging:** q = Cε(1 − e^(−t/τ)) · I = (ε/R)e^(−t/τ)\n\n**Discharging:** q = Q₀e^(−t/τ)\n\n**τ = RC** · 63% at τ · t_½ = τ ln 2\n\n**Limits:** t = 0 C = wire · t → ∞ C = open"
+  },
+  "vocab": [
+    { "term": "Drift velocity", "definition": "The average velocity of charge carriers in a conductor due to an electric field." },
+    { "term": "Current density", "definition": "Current per unit cross-sectional area: J = I/A." },
+    { "term": "Conductivity", "definition": "σ = 1/ρ; relates current density to field: J = σE." },
+    { "term": "Resistivity", "definition": "Material property in R = ρℓ/A." },
+    { "term": "Kirchhoff's loop rule", "definition": "The sum of potential changes around any closed loop is zero." },
+    { "term": "Kirchhoff's junction rule", "definition": "Total current into a junction equals total current out." },
+    { "term": "Time constant (RC)", "definition": "τ = RC, the time for a charging capacitor to reach ~63% of its final charge." },
+    { "term": "Exponential decay", "definition": "Decrease proportional to the current value: q = Q₀e^(−t/τ)." },
+    { "term": "Steady state", "definition": "Long-time condition with no change in circuit quantities." },
+    { "term": "Internal resistance", "definition": "Resistance inside a battery." },
+    { "term": "Terminal voltage", "definition": "Voltage across a battery's terminals: ε − Ir." },
+    { "term": "Joule heating", "definition": "Thermal energy produced by current in a resistor, P = I²R." }
+  ],
+  "practice": [
+    {
+      "id": "u3-q01", "tier": "Intro", "type": "mcq", "topic": "RC Circuits",
+      "stem": "A 2.0 kΩ resistor and a 500 μF capacitor are in series. What is the time constant?",
+      "choices": [
+        { "id": "A", "text": "0.25 s" },
+        { "id": "B", "text": "1.0 s" },
+        { "id": "C", "text": "4.0 s" },
+        { "id": "D", "text": "1,000 s" }
+      ],
+      "answer": "B",
+      "explanation": "τ = RC = (2,000)(5.0 × 10⁻⁴) = 1.0 s.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q02", "tier": "Intro", "type": "mcq", "topic": "Current and Resistance",
+      "stem": "A copper wire (n = 8.5 × 10²⁸ electrons/m³) with cross-section 1.0 mm² carries 1.0 A. What is the drift speed?",
+      "choices": [
+        { "id": "A", "text": "7.4 × 10⁻⁵ m/s" },
+        { "id": "B", "text": "7.4 × 10⁻² m/s" },
+        { "id": "C", "text": "3.0 × 10⁸ m/s" },
+        { "id": "D", "text": "1.0 m/s" }
+      ],
+      "answer": "A",
+      "explanation": "v_d = I/(nqA) = 1/(8.5 × 10²⁸ × 1.6 × 10⁻¹⁹ × 10⁻⁶) ≈ 7.4 × 10⁻⁵ m/s.",
+      "distractors": { "B": "Uses A in cm²." }
+    },
+    {
+      "id": "u3-q03", "tier": "Intro", "type": "mcq", "topic": "RC Circuits",
+      "stem": "Immediately after a switch closes in a series circuit of a battery, a resistor R, and an uncharged capacitor, the current is",
+      "choices": [
+        { "id": "A", "text": "zero" },
+        { "id": "B", "text": "ε/R" },
+        { "id": "C", "text": "ε/(RC)" },
+        { "id": "D", "text": "Cε" }
+      ],
+      "answer": "B",
+      "explanation": "The uncharged capacitor has no voltage across it, so the full emf is across R.",
+      "distractors": { "A": "Steady-state value." }
+    },
+    {
+      "id": "u3-q04", "tier": "Intro", "type": "mcq", "topic": "RC Circuits",
+      "stem": "After one time constant, a capacitor charging from an uncharged state in an RC circuit has reached what fraction of its final charge?",
+      "choices": [
+        { "id": "A", "text": "37%" },
+        { "id": "B", "text": "50%" },
+        { "id": "C", "text": "63%" },
+        { "id": "D", "text": "100%" }
+      ],
+      "answer": "C",
+      "explanation": "1 − e⁻¹ ≈ 0.63.",
+      "distractors": { "A": "Fraction remaining during discharge." }
+    },
+    {
+      "id": "u3-q05", "tier": "Exam level", "type": "mcq", "topic": "RC Circuits",
+      "stem": "A 12 V battery charges an initially uncharged capacitor through a resistor with τ = 1.0 s. What is the capacitor's voltage at t = 1.0 s?",
+      "choices": [
+        { "id": "A", "text": "4.4 V" },
+        { "id": "B", "text": "6.0 V" },
+        { "id": "C", "text": "7.6 V" },
+        { "id": "D", "text": "12 V" }
+      ],
+      "answer": "C",
+      "explanation": "V = 12(1 − e⁻¹) ≈ 7.6 V.",
+      "distractors": { "A": "Voltage across the resistor." }
+    },
+    {
+      "id": "u3-q06", "tier": "Exam level", "type": "mcq", "topic": "Kirchhoff's Rules",
+      "stimulus": "A 12 V battery in series with a 2.0 Ω resistor forms the left branch; a 4.0 Ω resistor forms the middle branch; a 6.0 V battery in series with a 2.0 Ω resistor forms the right branch. All three branches connect the same top node to the same bottom node, and both batteries have their positive terminals toward the top node.",
+      "stem": "What is the current in the 4.0 Ω resistor?",
+      "choices": [
+        { "id": "A", "text": "1.5 A" },
+        { "id": "B", "text": "1.8 A" },
+        { "id": "C", "text": "2.4 A" },
+        { "id": "D", "text": "3.0 A" }
+      ],
+      "answer": "B",
+      "explanation": "Node voltage V: (12 − V)/2 + (6 − V)/2 = V/4 → V = 7.2 V. I = 7.2/4 = 1.8 A.",
+      "distractors": { "C": "Current in the 12 V branch." }
+    },
+    {
+      "id": "u3-q07", "tier": "Exam level", "type": "mcq", "topic": "Kirchhoff's Rules",
+      "stem": "In the three-branch circuit above, what is the current through the 6.0 V battery?",
+      "stimulus": "Node voltage at the top is 7.2 V relative to the bottom.",
+      "choices": [
+        { "id": "A", "text": "0.60 A, flowing into its positive terminal (the battery is being charged)" },
+        { "id": "B", "text": "0.60 A, flowing out of its positive terminal" },
+        { "id": "C", "text": "3.0 A" },
+        { "id": "D", "text": "0" }
+      ],
+      "answer": "A",
+      "explanation": "(6 − 7.2)/2 = −0.60 A: the current is opposite to the assumed direction.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q08", "tier": "Exam level", "type": "mcq", "topic": "RC Circuits",
+      "stem": "A charged capacitor discharges through a resistor. How long does it take for its charge to fall to half its initial value?",
+      "choices": [
+        { "id": "A", "text": "RC/2" },
+        { "id": "B", "text": "RC ln 2" },
+        { "id": "C", "text": "RC" },
+        { "id": "D", "text": "2RC" }
+      ],
+      "answer": "B",
+      "explanation": "e^(−t/RC) = ½ → t = RC ln 2 ≈ 0.69RC.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q09", "tier": "Exam level", "type": "mcq", "topic": "Current and Resistance",
+      "stem": "A wire is stretched uniformly to twice its original length (volume unchanged). Its resistance becomes",
+      "choices": [
+        { "id": "A", "text": "2 times" },
+        { "id": "B", "text": "4 times" },
+        { "id": "C", "text": "1/2" },
+        { "id": "D", "text": "unchanged" }
+      ],
+      "answer": "B",
+      "explanation": "ℓ doubles and A halves (constant volume): R ∝ ℓ/A → ×4.",
+      "distractors": { "A": "Ignores the area change." }
+    },
+    {
+      "id": "u3-q10", "tier": "Exam level", "type": "mcq", "topic": "RC Circuits",
+      "stem": "A battery of emf ε charges a capacitor C through a resistor R until fully charged. How much energy is dissipated in the resistor?",
+      "choices": [
+        { "id": "A", "text": "½Cε², equal to the energy stored" },
+        { "id": "B", "text": "Cε²" },
+        { "id": "C", "text": "0" },
+        { "id": "D", "text": "It depends on R." }
+      ],
+      "answer": "A",
+      "explanation": "Battery supplies Qε = Cε²; capacitor stores ½Cε²; resistor dissipates the other half, independent of R.",
+      "distractors": { "D": "R affects time, not total energy." }
+    },
+    {
+      "id": "u3-q11", "tier": "Hardest", "type": "mcq", "topic": "RC Circuits",
+      "stem": "Starting from Kirchhoff's loop rule for a discharging RC circuit, which differential equation describes the charge q on the capacitor?",
+      "choices": [
+        { "id": "A", "text": "dq/dt = −q/(RC)" },
+        { "id": "B", "text": "dq/dt = q/(RC)" },
+        { "id": "C", "text": "dq/dt = −RCq" },
+        { "id": "D", "text": "d²q/dt² = −q/(RC)" }
+      ],
+      "answer": "A",
+      "explanation": "q/C − IR = 0 with I = −dq/dt (charge decreasing): dq/dt = −q/(RC).",
+      "distractors": { "D": "LC-type oscillation." }
+    },
+    {
+      "id": "u3-q12", "tier": "Hardest", "type": "mcq", "topic": "RC Circuits",
+      "stem": "A capacitor C is in parallel with resistor R₂, and that combination is in series with R₁ and a battery ε. Long after the switch closes, what is the charge on the capacitor?",
+      "choices": [
+        { "id": "A", "text": "Cε" },
+        { "id": "B", "text": "CεR₂/(R₁ + R₂)" },
+        { "id": "C", "text": "CεR₁/(R₁ + R₂)" },
+        { "id": "D", "text": "0" }
+      ],
+      "answer": "B",
+      "explanation": "At steady state, current ε/(R₁ + R₂) flows through R₁ and R₂; the capacitor has R₂'s voltage.",
+      "distractors": { "A": "Ignores voltage division." }
+    },
+    {
+      "id": "u3-q13", "tier": "Hardest", "type": "mcq", "topic": "Current and Resistance",
+      "stem": "A battery with emf ε and internal resistance r is connected to a variable load R. For what value of R is the power delivered to the load maximum?",
+      "choices": [
+        { "id": "A", "text": "R = r" },
+        { "id": "B", "text": "R = 0" },
+        { "id": "C", "text": "R = 2r" },
+        { "id": "D", "text": "R → ∞" }
+      ],
+      "answer": "A",
+      "explanation": "P = ε²R/(R + r)²; dP/dR = 0 at R = r.",
+      "distractors": { "B": "Maximizes current, not power to the load." }
+    },
+    {
+      "id": "u3-q14", "tier": "Hardest", "type": "mcq", "topic": "RC Circuits",
+      "stem": "In a charging RC circuit, at what time is the energy stored in the capacitor one-fourth of its final value?",
+      "choices": [
+        { "id": "A", "text": "τ ln 2" },
+        { "id": "B", "text": "τ/4" },
+        { "id": "C", "text": "τ ln 4" },
+        { "id": "D", "text": "τ" }
+      ],
+      "answer": "A",
+      "explanation": "U ∝ q²; U = ¼U_f when q = ½Q_f → 1 − e^(−t/τ) = ½ → t = τ ln 2.",
+      "distractors": { "C": "Sets the charge (not energy) ratio incorrectly." }
+    },
+    {
+      "id": "u3-frq1", "tier": "Exam level", "type": "frq", "topic": "RC Circuits", "frqType": "Experimental Design and Analysis (LAB)",
+      "prompt": "Students determine the capacitance of an unknown capacitor. They charge it to 9.0 V, then disconnect the battery and let it discharge through a 10 kΩ resistor while recording the capacitor voltage.\n\n| t (s) | 0 | 0.50 | 1.00 | 1.50 | 2.00 |\n|---|---|---|---|---|---|\n| V (V) | 9.00 | 5.46 | 3.31 | 2.01 | 1.22 |",
+      "parts": [
+        { "label": "A", "prompt": "Describe how to measure the capacitor's voltage over time, and one way to reduce uncertainty.", "points": 2 },
+        { "label": "B", "prompt": "Starting from the expression for discharge, identify quantities to graph to obtain a straight line, and state how the slope relates to C.", "points": 2 },
+        { "label": "C", "prompt": "Describe the graph with labels and a best-fit line, and determine the slope.", "points": 3 },
+        { "label": "D", "prompt": "Calculate C.", "points": 2 },
+        { "label": "E", "prompt": "If the voltmeter had a resistance comparable to 10 kΩ, would the calculated C be too large or too small? Explain.", "points": 1 }
+      ],
+      "points": 10,
+      "minutes": 22,
+      "rubric": [
+        { "criterion": "A1: Method", "points": 1, "description": "Connect a voltmeter (or voltage probe with data logger) in parallel with the capacitor and record V at regular time intervals." },
+        { "criterion": "A2: Uncertainty", "points": 1, "description": "Use a data logger for many readings, repeat trials, or use a high-resistance voltmeter." },
+        { "criterion": "B1: Linearization", "points": 1, "description": "V = V₀e^(−t/RC) → ln V = ln V₀ − t/(RC); graph ln V vs. t." },
+        { "criterion": "B2: Slope", "points": 1, "description": "Slope = −1/(RC)." },
+        { "criterion": "C1: Values", "points": 1, "description": "ln V: 2.20, 1.70, 1.20, 0.70, 0.20." },
+        { "criterion": "C2: Graph", "points": 1, "description": "ln V vs t (s) with labels and linear scales; straight best-fit line." },
+        { "criterion": "C3: Slope", "points": 1, "description": "≈ −1.0 s⁻¹." },
+        { "criterion": "D", "points": 2, "description": "C = 1/(R|slope|) = 1/(10⁴ × 1.0) = 1.0 × 10⁻⁴ F = 100 μF (1 pt relation, 1 pt value)." },
+        { "criterion": "E", "points": 1, "description": "Too small: the voltmeter in parallel lowers the effective resistance, speeding discharge (steeper slope), so C = 1/(R|slope|) with R = 10 kΩ underestimates C." }
+      ],
+      "sampleResponse": "A. Connect a voltage probe across the capacitor and record its voltage every 0.1 s with a data logger as it discharges through the resistor. Repeat the discharge several times and average the readings at each time.\n\nB. During discharge, V = V₀e^(−t/RC). Taking the natural log: ln V = ln V₀ − t/(RC). A graph of ln V vs. t is a straight line with slope −1/(RC).\n\nC. ln V values: 2.20, 1.70, 1.20, 0.70, 0.20. Plot ln V (unitless) on the vertical axis vs. t (s) on the horizontal axis; the points lie on a straight line with slope ≈ (0.20 − 2.20)/(2.00 − 0) = −1.0 s⁻¹.\n\nD. −1/(RC) = −1.0 s⁻¹ → C = 1/(R × 1.0) = 1/(1.0 × 10⁴ Ω × 1.0 s⁻¹) = 1.0 × 10⁻⁴ F = 100 μF.\n\nE. Too small. A voltmeter with resistance comparable to 10 kΩ is in parallel with the resistor, so the capacitor discharges through a smaller effective resistance and the voltage drops faster. The measured slope is steeper, and dividing by the larger magnitude with R = 10 kΩ gives a value of C that is too small."
+    }
+  ]
+}

@@ -1,0 +1,573 @@
+{
+  "number": 4,
+  "title": "Magnetic Fields",
+  "guide": {
+    "summary": "This unit covers magnetic forces on moving charges and currents, motion of charges in magnetic fields, torque on current loops, and calculating magnetic fields with the Biot–Savart law and Ampère's law for wires, loops, solenoids, toroids, and thick conductors.",
+    "sections": [
+      {
+        "heading": "Magnetic forces",
+        "body": "Force on a moving charge: F = qv × B, perpendicular to both v and B, so it does no work. A charge moving perpendicular to uniform B moves in a circle: r = mv/(|q|B), with period T = 2πm/(|q|B) independent of speed (cyclotron frequency). Velocity components parallel to B are unaffected, producing helical paths. Force on a current-carrying wire: F = ∫I dℓ × B; for a straight wire in uniform field, F = IℓB sin θ. Parallel currents attract with force per length μ₀I₁I₂/(2πd). A current loop has magnetic dipole moment μ = NIA (direction by right-hand rule) and experiences torque τ = μ × B, which tends to align μ with B; its potential energy is U = −μ·B."
+      },
+      {
+        "heading": "Biot–Savart law",
+        "body": "dB = (μ₀/4π) I dℓ × r̂/r². Integrate over the current, using symmetry. Results: center of a circular loop, B = μ₀I/(2R); center of an arc subtending angle φ, B = μ₀Iφ/(4πR) (semicircle: μ₀I/(4R)); on the axis of a loop, B = μ₀IR²/[2(R² + x²)^(3/2)]; infinite straight wire, B = μ₀I/(2πr); straight segments contribute nothing at points along their own line."
+      },
+      {
+        "heading": "Ampère's law",
+        "body": "∮B·dℓ = μ₀I_enc around any closed loop; useful for calculating B with high symmetry. Long straight wire: B = μ₀I/(2πr). Inside a thick wire of radius R with uniform current density: B = μ₀Ir/(2πR²) (∝ r). Ideal solenoid: B = μ₀nI inside (n = turns per length), uniform, and approximately zero outside. Toroid: B = μ₀NI/(2πr) inside, zero outside. Coaxial cable with equal and opposite currents: B = 0 outside."
+      }
+    ],
+    "keyTakeaways": [
+      "F = qv × B; no work done.",
+      "r = mv/qB; period independent of speed.",
+      "Loop center: μ₀I/2R; long wire: μ₀I/2πr.",
+      "Ampère: ∮B·dℓ = μ₀I_enc.",
+      "Solenoid: μ₀nI inside.",
+      "Torque on loop: τ = μ × B, μ = NIA."
+    ],
+    "commonMistakes": [
+      "Using Ampère's law where symmetry doesn't make B constant along the loop.",
+      "Forgetting the vector cross product direction (and the sign for negative charges).",
+      "Using total current instead of enclosed current inside a thick wire.",
+      "Thinking the magnetic force changes a particle's speed.",
+      "Including contributions from straight segments collinear with the field point."
+    ],
+    "examTips": [
+      "Biot–Savart setups: write dℓ, r̂, and the angle explicitly before integrating.",
+      "B(r) graphs for thick wires: linear inside, 1/r outside, continuous at R.",
+      "Superpose fields from multiple wires as vectors.",
+      "For a loop in a field, state the torque direction and the equilibrium orientation."
+    ],
+    "cramSheet": "**Force:** F = qv × B · F = Iℓ × B · parallel wires μ₀I₁I₂/(2πd) per length (same direction attract)\n\n**Motion:** r = mv/qB · T = 2πm/qB\n\n**Dipole:** μ = NIA · τ = μ × B · U = −μ·B\n\n**Biot–Savart:** loop center μ₀I/2R · arc μ₀Iφ/4πR · long wire μ₀I/2πr\n\n**Ampère:** ∮B·dℓ = μ₀I_enc · thick wire inside μ₀Ir/2πR² · solenoid μ₀nI · toroid μ₀NI/2πr"
+  },
+  "vocab": [
+    {
+      "term": "Magnetic force on a charge",
+      "definition": "F = qv × B."
+    },
+    {
+      "term": "Cyclotron period",
+      "definition": "T = 2πm/(qB), the period of circular motion in a uniform magnetic field."
+    },
+    {
+      "term": "Magnetic dipole moment",
+      "definition": "μ = NIA for a current loop, directed by the right-hand rule."
+    },
+    {
+      "term": "Biot–Savart law",
+      "definition": "dB = (μ₀/4π) I dℓ × r̂/r², the field from a current element."
+    },
+    {
+      "term": "Ampère's law",
+      "definition": "∮B·dℓ = μ₀I_enc for any closed path."
+    },
+    {
+      "term": "Amperian loop",
+      "definition": "A closed path chosen to exploit symmetry with Ampère's law."
+    },
+    {
+      "term": "Solenoid",
+      "definition": "A long coil of wire producing a nearly uniform internal field μ₀nI."
+    },
+    {
+      "term": "Toroid",
+      "definition": "A doughnut-shaped coil whose field is confined to its interior."
+    },
+    {
+      "term": "Permeability of free space",
+      "definition": "μ₀ = 4π × 10⁻⁷ T·m/A."
+    },
+    {
+      "term": "Helical motion",
+      "definition": "Spiral path of a charge with velocity components both parallel and perpendicular to B."
+    },
+    {
+      "term": "Hall effect",
+      "definition": "A transverse voltage across a current-carrying conductor in a magnetic field."
+    },
+    {
+      "term": "Turns per unit length",
+      "definition": "n = N/ℓ for a solenoid."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Biot–Savart Law",
+      "stem": "A circular loop of radius 0.10 m carries 5.0 A. What is the magnetic field at its center? (μ₀ = 4π × 10⁻⁷ T·m/A)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.0 × 10⁻⁵ T"
+        },
+        {
+          "id": "B",
+          "text": "3.1 × 10⁻⁵ T"
+        },
+        {
+          "id": "C",
+          "text": "6.3 × 10⁻⁵ T"
+        },
+        {
+          "id": "D",
+          "text": "1.0 × 10⁻⁴ T"
+        }
+      ],
+      "answer": "B",
+      "explanation": "B = μ₀I/(2R) = (4π × 10⁻⁷)(5)/0.20 ≈ 3.1 × 10⁻⁵ T.",
+      "distractors": {
+        "A": "Long straight wire formula."
+      }
+    },
+    {
+      "id": "u4-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Ampère's Law",
+      "stem": "A long solenoid has 1,000 turns per meter and carries 2.0 A. What is the field inside?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2.5 × 10⁻³ T"
+        },
+        {
+          "id": "B",
+          "text": "1.3 × 10⁻³ T"
+        },
+        {
+          "id": "C",
+          "text": "2.5 × 10⁻⁶ T"
+        },
+        {
+          "id": "D",
+          "text": "4.0 × 10⁻⁴ T"
+        }
+      ],
+      "answer": "A",
+      "explanation": "B = μ₀nI = (4π × 10⁻⁷)(1,000)(2.0) ≈ 2.5 × 10⁻³ T.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Magnetic Forces",
+      "stem": "A proton moves in a circle perpendicular to a uniform magnetic field. If its speed doubles, its period of revolution",
+      "choices": [
+        {
+          "id": "A",
+          "text": "doubles"
+        },
+        {
+          "id": "B",
+          "text": "halves"
+        },
+        {
+          "id": "C",
+          "text": "is unchanged"
+        },
+        {
+          "id": "D",
+          "text": "quadruples"
+        }
+      ],
+      "answer": "C",
+      "explanation": "T = 2πm/(qB); radius doubles but so does speed.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Magnetic Forces",
+      "stem": "Two long parallel wires 5.0 cm apart each carry 10 A in the same direction. What is the force per unit length between them?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4.0 × 10⁻⁴ N/m, attractive"
+        },
+        {
+          "id": "B",
+          "text": "4.0 × 10⁻⁴ N/m, repulsive"
+        },
+        {
+          "id": "C",
+          "text": "2.0 × 10⁻⁵ N/m, attractive"
+        },
+        {
+          "id": "D",
+          "text": "8.0 × 10⁻³ N/m, attractive"
+        }
+      ],
+      "answer": "A",
+      "explanation": "F/ℓ = μ₀I₁I₂/(2πd) = (2 × 10⁻⁷)(100)/0.050 = 4.0 × 10⁻⁴ N/m; same-direction currents attract.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Ampère's Law",
+      "stem": "A long solid cylindrical wire of radius R carries current I uniformly distributed over its cross-section. What is B at r = R/2?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "μ₀I/(4πR)"
+        },
+        {
+          "id": "B",
+          "text": "μ₀I/(πR)"
+        },
+        {
+          "id": "C",
+          "text": "μ₀I/(2πR)"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "answer": "A",
+      "explanation": "B = μ₀Ir/(2πR²) = μ₀I(R/2)/(2πR²) = μ₀I/(4πR).",
+      "distractors": {
+        "B": "Uses total current at r = R/2."
+      }
+    },
+    {
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Torque on Current Loops",
+      "stem": "A 50-turn rectangular coil of area 0.010 m² carries 2.0 A in a 0.50 T field. What is the maximum torque on it?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0.010 N·m"
+        },
+        {
+          "id": "B",
+          "text": "0.50 N·m"
+        },
+        {
+          "id": "C",
+          "text": "1.0 N·m"
+        },
+        {
+          "id": "D",
+          "text": "50 N·m"
+        }
+      ],
+      "answer": "B",
+      "explanation": "τ_max = NIAB = 50(2.0)(0.010)(0.50) = 0.50 N·m.",
+      "distractors": {
+        "A": "Omits N."
+      }
+    },
+    {
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Biot–Savart Law",
+      "stem": "A wire carrying current I consists of a semicircle of radius R connected to two long straight leads that lie along lines passing through the semicircle's center. What is the magnetic field at the center?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "μ₀I/(4R)"
+        },
+        {
+          "id": "B",
+          "text": "μ₀I/(2R)"
+        },
+        {
+          "id": "C",
+          "text": "μ₀I/(2πR)"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Radial leads contribute nothing (dℓ ∥ r̂). The semicircle gives half of a full loop's μ₀I/2R.",
+      "distractors": {
+        "B": "Full loop."
+      }
+    },
+    {
+      "id": "u4-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Magnetic Forces",
+      "stem": "An electron enters a uniform magnetic field with velocity at 30° to the field direction. Its path is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "a helix around the field direction"
+        },
+        {
+          "id": "B",
+          "text": "a circle"
+        },
+        {
+          "id": "C",
+          "text": "a straight line"
+        },
+        {
+          "id": "D",
+          "text": "a parabola"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The parallel component is unchanged while the perpendicular component produces circular motion.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Ampère's Law",
+      "stem": "A coaxial cable has current I in the inner conductor and current I in the opposite direction in the outer conductor. What is the magnetic field outside the cable?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "μ₀I/(2πr)"
+        },
+        {
+          "id": "B",
+          "text": "μ₀I/(πr)"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "μ₀nI"
+        }
+      ],
+      "answer": "C",
+      "explanation": "An Amperian loop outside encloses zero net current.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Torque on Current Loops",
+      "stem": "A current loop is free to rotate in a uniform magnetic field. In which orientation is it in stable equilibrium?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Its magnetic moment is parallel to B."
+        },
+        {
+          "id": "B",
+          "text": "Its magnetic moment is antiparallel to B."
+        },
+        {
+          "id": "C",
+          "text": "Its plane is parallel to B."
+        },
+        {
+          "id": "D",
+          "text": "Any orientation."
+        }
+      ],
+      "answer": "A",
+      "explanation": "U = −μ·B is minimum when μ ∥ B.",
+      "distractors": {
+        "B": "Unstable equilibrium (maximum U)."
+      }
+    },
+    {
+      "id": "u4-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Biot–Savart Law",
+      "stem": "What is the magnetic field on the axis of a circular loop (radius R, current I) at distance x from its center, for x ≫ R?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "μ₀IR²/(2x³)"
+        },
+        {
+          "id": "B",
+          "text": "μ₀I/(2πx)"
+        },
+        {
+          "id": "C",
+          "text": "μ₀IR/(2x²)"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "answer": "A",
+      "explanation": "B = μ₀IR²/[2(R² + x²)^(3/2)] → μ₀IR²/(2x³), a dipole field ∝ 1/x³.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Ampère's Law",
+      "stem": "A long hollow conducting cylinder with inner radius a and outer radius b carries current I uniformly through its cross-section. What is B at radius r with a < r < b?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "μ₀I(r² − a²)/[2πr(b² − a²)]"
+        },
+        {
+          "id": "B",
+          "text": "μ₀I/(2πr)"
+        },
+        {
+          "id": "C",
+          "text": "μ₀Ir/(2πb²)"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "answer": "A",
+      "explanation": "I_enc = I(r² − a²)/(b² − a²); B(2πr) = μ₀I_enc.",
+      "distractors": {
+        "B": "Field outside (r > b)."
+      }
+    },
+    {
+      "id": "u4-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Magnetic Forces",
+      "stem": "A rigid wire shaped as a semicircle of radius R lies in a plane perpendicular to a uniform field B, with its ends on a straight line, and carries current I. What is the magnitude of the net magnetic force on the semicircle?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2IRB"
+        },
+        {
+          "id": "B",
+          "text": "πIRB"
+        },
+        {
+          "id": "C",
+          "text": "IRB"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "answer": "A",
+      "explanation": "In a uniform field, the net force on any wire equals that on a straight wire joining its ends (length 2R).",
+      "distractors": {
+        "B": "Uses arc length without vector cancellation."
+      }
+    },
+    {
+      "id": "u4-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Ampère's Law",
+      "stem": "A toroid has N turns, inner radius a, and outer radius b, carrying current I. How does the field inside its core vary with r?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "B = μ₀NI/(2πr), decreasing with r"
+        },
+        {
+          "id": "B",
+          "text": "B = μ₀nI, uniform"
+        },
+        {
+          "id": "C",
+          "text": "B ∝ r"
+        },
+        {
+          "id": "D",
+          "text": "B = 0"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A circular Amperian loop of radius r inside encloses NI.",
+      "distractors": {
+        "B": "Approximation for a solenoid."
+      }
+    },
+    {
+      "id": "u4-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Ampère's Law",
+      "frqType": "Qualitative/Quantitative Translation (QQT)",
+      "prompt": "A long, straight, solid cylindrical wire of radius R carries a current I uniformly distributed across its cross-section.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "A student claims the magnetic field is greatest at the center of the wire because that is where the current is 'most concentrated.' Without equations, explain whether the field is greatest at the center, at the surface, or far outside.",
+          "points": 3
+        },
+        {
+          "label": "B",
+          "prompt": "Using Ampère's law, derive expressions for B inside (r < R) and outside (r > R) the wire.",
+          "points": 3
+        },
+        {
+          "label": "C",
+          "prompt": "Explain how your expressions support or contradict your reasoning in (A).",
+          "points": 2
+        }
+      ],
+      "points": 8,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "A1: Claim",
+          "points": 1,
+          "description": "The field is greatest at the surface; it is zero at the center."
+        },
+        {
+          "criterion": "A2: Inside reasoning",
+          "points": 1,
+          "description": "At the center, contributions from current on all sides cancel by symmetry (no current enclosed); moving outward, more current is enclosed."
+        },
+        {
+          "criterion": "A3: Outside reasoning",
+          "points": 1,
+          "description": "Outside, enclosed current is fixed while the distance grows, so the field weakens."
+        },
+        {
+          "criterion": "B1: Inside",
+          "points": 1,
+          "description": "I_enc = I r²/R²; B(2πr) = μ₀I r²/R² → B = μ₀Ir/(2πR²)."
+        },
+        {
+          "criterion": "B2: Outside",
+          "points": 1,
+          "description": "B(2πr) = μ₀I → B = μ₀I/(2πr)."
+        },
+        {
+          "criterion": "B3: Ampère setup",
+          "points": 1,
+          "description": "States circular Amperian loop with B tangent and constant by symmetry."
+        },
+        {
+          "criterion": "C1: Dependence",
+          "points": 1,
+          "description": "Inside B ∝ r (zero at center, increasing); outside B ∝ 1/r (decreasing)."
+        },
+        {
+          "criterion": "C2: Consistency",
+          "points": 1,
+          "description": "Both give μ₀I/(2πR) at r = R, the maximum, supporting (A) and contradicting the student."
+        }
+      ],
+      "sampleResponse": "A. The field is greatest at the surface, not the center. At the center, current flows symmetrically on all sides, and the contributions cancel; an Amperian loop of zero radius encloses no current. Moving outward, a loop encloses more and more current, so the field grows. Outside the wire, the loop always encloses the full current, but the loop's circumference grows with r, so the field decreases. The maximum occurs at the surface.\n\nB. By symmetry, B is tangent to circles centered on the wire and has constant magnitude on each. Ampère's law: B(2πr) = μ₀I_enc.\nInside: I_enc = I(πr²/πR²) = Ir²/R², so B = μ₀Ir/(2πR²).\nOutside: I_enc = I, so B = μ₀I/(2πr).\n\nC. Inside, B is proportional to r, starting at zero at the center and increasing; outside, B is proportional to 1/r, decreasing. Both expressions equal μ₀I/(2πR) at r = R, so the field peaks at the surface. This supports my reasoning in (A) and contradicts the student's claim."
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+ "slug": "physics-c-em",
+ "name": "AP Physics C: Electricity and Magnetism",
+ "lastVerified": "2026-10",
+ "overview": "AP Physics C: Electricity and Magnetism is a calculus-based college course covering electrostatics (Coulomb's law, fields from continuous charge distributions, Gauss's law, electric potential), conductors, capacitors, and dielectrics, DC and RC circuits, magnetic fields (Biot–Savart and Ampère's law), and electromagnetic induction including inductors and RL and LC circuits. The exam expects integral setups, symmetry arguments, differential equations for circuits, and experimental analysis.",
+ "examMode": "Hybrid digital: multiple choice is answered in the Bluebook app; free-response questions are viewed in Bluebook and handwritten in a paper booklet.",
+ "totalMinutes": 180,
+ "sections": [
+  {
+   "name": "Section I",
+   "questionType": "Multiple choice (single-select, 4 choices)",
+   "count": 42,
+   "minutes": 85,
+   "weight": "50%",
+   "calculator": "Allowed",
+   "notes": "Discrete questions and short question sets built around a stimulus or data. Starting with the May 2027 exam this section has 42 questions in 85 minutes (it was 40 questions in 80 minutes in 2025 and 2026). No penalty for guessing."
+  },
+  {
+   "name": "Section II",
+   "questionType": "Free response",
+   "count": 4,
+   "minutes": 95,
+   "weight": "50%",
+   "calculator": "Allowed",
+   "notes": "One each of Mathematical Routines (10 pts), Translation Between Representations (12 pts), Experimental Design and Analysis (10 pts), and Qualitative/Quantitative Translation (8 pts). Starting May 2027 the section is 95 minutes (was 100)."
+  }
+ ],
+ "units": [
+  {
+   "number": 1,
+   "title": "Electrostatics"
+  },
+  {
+   "number": 2,
+   "title": "Conductors, Capacitors, and Dielectrics"
+  },
+  {
+   "number": 3,
+   "title": "Electric Circuits"
+  },
+  {
+   "number": 4,
+   "title": "Magnetic Fields"
+  },
+  {
+   "number": 5,
+   "title": "Electromagnetism"
+  }
+ ],
+ "skills": [
+  {
+   "name": "Creating Representations",
+   "description": "Create and use diagrams, tables, graphs, and sketches (free-body diagrams, energy bar charts, motion graphs) that describe a physical situation or relationship."
+  },
+  {
+   "name": "Mathematical Routines",
+   "description": "Derive symbolic expressions from fundamental principles, calculate unknown quantities with units, compare physical quantities, and predict how a quantity changes when another changes (functional dependence)."
+  },
+  {
+   "name": "Scientific Questioning and Argumentation",
+   "description": "Design experimental procedures, choose what to measure and graph, analyze data (especially linearized graphs and slopes), and make and justify claims using physical laws and evidence."
+  }
+ ],
+ "scoring": {
+  "summary": "Section I (multiple choice) and Section II (4 FRQs: Mathematical Routines, Translation Between Representations, Experimental Design and Analysis, Qualitative/Quantitative Translation) are each 50% of the composite, converted to 1–5 using cut points set each year.",
+  "approxCutoffs": [
+   {
+    "score": 5,
+    "minPercent": 62
+   },
+   {
+    "score": 4,
+    "minPercent": 48
+   },
+   {
+    "score": 3,
+    "minPercent": 36
+   },
+   {
+    "score": 2,
+    "minPercent": 25
+   }
+  ]
+ },
+ "frqTypes": [
+  {
+   "name": "Mathematical Routines (MR)",
+   "points": 10,
+   "howScored": "Points for a correct sketch or diagram element, for a multistep derivation that begins from a fundamental principle or reference equation, for correct substitutions, for a correct final expression or value, and for a justified claim. A correct, isolated final expression often earns some but not all derivation points; the 'begin with a fundamental principle' point requires the starting equation to be written."
+  },
+  {
+   "name": "Translation Between Representations (TBR)",
+   "points": 12,
+   "howScored": "Typically four linked parts: draw a representation (free-body diagram or energy bar chart, with only the appropriate forces or energies and correct relative sizes), derive an equation from a principle, sketch a graph whose features (start point, shape, slope sign) are each scored separately, and then justify whether/how the representations are consistent. Later parts are scored for consistency with your own earlier work."
+  },
+  {
+   "name": "Experimental Design and Analysis (LAB)",
+   "points": 10,
+   "howScored": "Procedure points (measure the right quantities with the right equipment; a method to reduce uncertainty such as repeated trials or many values of the independent variable), a point for choosing quantities to graph and a point for relating the slope to the target quantity, graphing points (axis label with units and linear scale, correctly plotted points, best-fit line), and analysis points (slope relation, numerical result within an accepted range)."
+  },
+  {
+   "name": "Qualitative/Quantitative Translation (QQT)",
+   "points": 8,
+   "howScored": "A claim plus a qualitative justification in terms of physical quantities (not just equations), a derivation from Newton's laws or a conservation law, and a final part that checks whether the derived expression is consistent with the qualitative claim using functional-dependence language (proportional, increases as, in the numerator)."
+  }
+ ],
+ "strategy": [
+  "Use symmetry first: choose a Gaussian surface (sphere, cylinder, pillbox) or Amperian loop on which the field is constant or zero.",
+  "For continuous charge distributions, write dq = λ dx (or σ dA), express dE or dV, use symmetry to cancel components, then integrate.",
+  "Get potential from field with V = −∫E·dr, and field from potential with E = −dV/dr.",
+  "For RC and RL circuits, write Kirchhoff's loop rule as a differential equation and identify the time constant (RC or L/R).",
+  "At t = 0: capacitors act as wires (uncharged) and inductors as open switches; at t → ∞, the reverse.",
+  "Lenz's law gives direction; Faraday's law (ε = −dΦ/dt) gives magnitude; always find the flux first.",
+  "Show the integral with limits explicitly; FRQ derivation points require it.",
+  "In lab FRQs, linearize exponential data with a natural log (ln V vs. t)."
+ ],
+ "pitfalls": [
+  "Applying Gauss's law to a surface without enough symmetry to pull E out of the integral.",
+  "Forgetting that the field inside a conductor in equilibrium is zero.",
+  "Mixing up the enclosed charge for a nonuniform charge density (must integrate ρ dV).",
+  "Sign errors in V = −∫E·dr.",
+  "Treating an inductor as a wire at t = 0.",
+  "Using the field of an infinite wire for a finite segment.",
+  "Forgetting that a dielectric's effect depends on whether the capacitor stays connected to the battery.",
+  "Confusing the time constants RC and L/R."
+ ],
+ "referenceSheet": "The Physics C: E&M reference information includes constants (e, k = 1/4πε₀, ε₀, μ₀), prefixes, geometry and calculus formulas, and equations: F = qE, E = kq/r², ∮E·dA = Q_enc/ε₀, E = −dV/dr, V = −∫E·dr, V = kq/r, U_E = qV, C = Q/ΔV = κε₀A/d, U_C = ½QΔV = ½CΔV², capacitors in series and parallel, I = dQ/dt, R = ρℓ/A, ΔV = IR, P = IΔV, resistors in series and parallel, τ = RC, F = qv × B, F = ∫I dℓ × B, dB = (μ₀/4π) I dℓ × r̂/r², ∮B·dℓ = μ₀I_enc, B_solenoid = μ₀nI, Φ_B = ∫B·dA, ε = −dΦ_B/dt, ε = −L dI/dt, U_L = ½LI², τ = L/R. This summary is written from the published sheet; use the official PDF in practice.",
+ "sources": [
+  {
+   "title": "AP Physics C: Electricity and Magnetism Exam (AP Central)",
+   "url": "https://apcentral.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism/exam"
+  },
+  {
+   "title": "AP Physics C: Electricity and Magnetism Course and Exam Description",
+   "url": "https://apcentral.collegeboard.org/courses/ap-physics-c-electricity-and-magnetism/course"
+  }
+ ],
+ "caveats": [
+  "Section timing, question counts, and FRQ point values follow the revised (2025+) format shared with the algebra-based exams; confirm the current year on AP Central.",
+  "Cutoffs are estimates; Physics C cut scores are historically lower than other exams.",
+  "Unit weightings are omitted here; see the current CED."
+ ]
+}

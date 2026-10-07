@@ -1,0 +1,264 @@
+{
+  "number": 1,
+  "title": "Political Systems, Regimes, and Governments",
+  "guide": {
+    "summary": "Unit 1 introduces the building blocks of comparison: states, nations, regimes, and governments; democratic and authoritarian systems; sources of legitimacy and stability; sovereignty and the distribution of power (unitary vs. federal); and democratization, applied to the UK, Mexico, Russia, Iran, China, and Nigeria.",
+    "sections": [
+      {
+        "heading": "Key distinctions",
+        "body": "A state is a political organization with a defined territory, population, and sovereignty (supreme authority within its borders). A nation is a group sharing identity (language, culture, history); multinational states such as Nigeria and the UK contain several. A regime is the set of rules and institutions that determine how power is exercised and endures beyond individual leaders; a government is the people currently in power. Power is the ability to make others act; authority is the right to use power. Legitimacy is the belief that a government's rule is rightful. Max Weber's sources: traditional (custom, monarchy), charismatic (personal appeal), and rational-legal (laws and procedures). Governments also gain legitimacy through economic performance, nationalism, religion, and elections."
+      },
+      {
+        "heading": "Democracy and authoritarianism",
+        "body": "Democracies feature competitive, free, and fair elections, civil liberties, rule of law, an independent judiciary, and civilian control of the military. Illiberal (hybrid) democracies hold elections but restrict media, opposition, and courts. Authoritarian regimes concentrate power, limit participation, and restrict rights; types include one-party states (China), theocracies (Iran), military regimes, and personalist rule. Rule of law means leaders are bound by law; rule by law means leaders use law as a tool of control. Course examples: the UK and Mexico are democracies; Nigeria is a developing (hybrid) democracy; Russia is authoritarian with democratic forms; Iran is a theocratic republic with limited elections; China is a one-party authoritarian state."
+      },
+      {
+        "heading": "Distribution of power",
+        "body": "Unitary systems concentrate power in the central government (UK, China, Iran), though they may devolve powers (the UK created devolved Scottish, Welsh, and Northern Irish assemblies in 1998–1999). Federal systems constitutionally divide power between national and subnational governments (Mexico, Nigeria, Russia). In practice, federalism can be weak when the center dominates (Russia appoints/approves regional governors and controls resources). Devolution aims to increase legitimacy and responsiveness, while centralization aims to increase control."
+      },
+      {
+        "heading": "Democratization",
+        "body": "Democratization involves competitive elections, peaceful transfers of power, expanded rights, and stronger institutions. Mexico's PRI ruled for 71 years until the PAN's Vicente Fox won the presidency in 2000. Nigeria returned to civilian rule in 1999, and in 2015 an opposition candidate (Muhammadu Buhari) defeated an incumbent president for the first time. Democratic backsliding includes restricting media, weakening courts, and manipulating elections (Russia under Putin). Stability can come from performance (China's economic growth) or coercion."
+      }
+    ],
+    "keyTakeaways": [
+      "State ≠ nation ≠ regime ≠ government.",
+      "Legitimacy: traditional, charismatic, rational-legal (plus performance, religion, nationalism).",
+      "Unitary: UK, China, Iran. Federal: Mexico, Nigeria, Russia.",
+      "Rule of law vs rule by law.",
+      "Mexico 2000 and Nigeria 2015 are key democratization moments.",
+      "Hybrid regimes hold elections without full liberties."
+    ],
+    "commonMistakes": [
+      "Calling the UK federal because of devolution.",
+      "Assuming federal systems always decentralize power in practice.",
+      "Equating any election with democracy.",
+      "Confusing regime change with a change of government.",
+      "Saying Iran has no elections (it does, but they're constrained)."
+    ],
+    "examTips": [
+      "Define the concept, then apply it with a specific country example.",
+      "Use precise dates and parties: PRI, PAN, 2000; APC, PDP, 2015.",
+      "In comparisons, explicitly say 'whereas' or 'similarly'.",
+      "Distinguish formal institutions from how power works in practice."
+    ],
+    "cramSheet": "**Terms:** state · nation · regime · government · sovereignty · power vs authority · legitimacy\n\n**Weber:** traditional · charismatic · rational-legal\n\n**Regimes:** UK, Mexico democracy · Nigeria hybrid/developing · Russia authoritarian (democratic forms) · Iran theocracy · China one-party\n\n**Power:** unitary (UK, China, Iran) · federal (Mexico, Nigeria, Russia) · UK devolution 1998–99\n\n**Democratization:** Mexico 2000 (PAN Fox) · Nigeria 1999 civilian rule, 2015 turnover · backsliding (Russia)"
+  },
+  "vocab": [
+    { "term": "State", "definition": "A political entity with territory, population, government, and sovereignty." },
+    { "term": "Nation", "definition": "A group of people with a shared identity, culture, or history." },
+    { "term": "Regime", "definition": "The fundamental rules and institutions governing how power is exercised." },
+    { "term": "Legitimacy", "definition": "The belief that a government has the right to rule." },
+    { "term": "Sovereignty", "definition": "Supreme authority over a territory, free from outside control." },
+    { "term": "Rational-legal authority", "definition": "Legitimacy based on laws, procedures, and institutions." },
+    { "term": "Unitary system", "definition": "A system where the central government holds most power." },
+    { "term": "Federal system", "definition": "A system that constitutionally divides power between national and subnational governments." },
+    { "term": "Devolution", "definition": "The transfer of powers from a central government to regional governments." },
+    { "term": "Rule of law", "definition": "The principle that all, including leaders, are subject to the law." },
+    { "term": "Illiberal democracy", "definition": "A regime with elections but restricted civil liberties and weak checks on power." },
+    { "term": "Democratization", "definition": "The process of becoming more democratic through competitive elections and expanded rights." }
+  ],
+  "practice": [
+    {
+      "id": "u1-q01", "tier": "Intro", "type": "mcq", "topic": "Systems of Government",
+      "stem": "Which course country has a federal system?",
+      "choices": [
+        { "id": "A", "text": "Mexico" },
+        { "id": "B", "text": "United Kingdom" },
+        { "id": "C", "text": "China" },
+        { "id": "D", "text": "Iran" }
+      ],
+      "answer": "A",
+      "explanation": "Mexico divides power between the national government and 31 states plus Mexico City.",
+      "distractors": { "B": "Unitary with devolution." }
+    },
+    {
+      "id": "u1-q02", "tier": "Intro", "type": "mcq", "topic": "Sources of Legitimacy",
+      "stem": "A government whose authority rests on a written constitution and established legal procedures relies on which type of legitimacy?",
+      "choices": [
+        { "id": "A", "text": "Rational-legal" },
+        { "id": "B", "text": "Traditional" },
+        { "id": "C", "text": "Charismatic" },
+        { "id": "D", "text": "Theocratic" }
+      ],
+      "answer": "A",
+      "explanation": "Weber's rational-legal authority comes from laws and institutions.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q03", "tier": "Intro", "type": "mcq", "topic": "Regimes",
+      "stem": "Which pair correctly distinguishes a regime from a government?",
+      "choices": [
+        { "id": "A", "text": "A regime is the set of rules and institutions that endure; a government is the leaders currently in power." },
+        { "id": "B", "text": "A regime is a political party; a government is the constitution." },
+        { "id": "C", "text": "They are identical terms." },
+        { "id": "D", "text": "A government lasts longer than a regime." }
+      ],
+      "answer": "A",
+      "explanation": "Governments change through elections; regime change alters the rules themselves.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q04", "tier": "Intro", "type": "mcq", "topic": "Democratization",
+      "stem": "In 2000, Mexico experienced",
+      "choices": [
+        { "id": "A", "text": "the first presidential victory by an opposition party, ending 71 years of PRI rule" },
+        { "id": "B", "text": "a military coup" },
+        { "id": "C", "text": "the adoption of a unitary system" },
+        { "id": "D", "text": "the creation of a theocracy" }
+      ],
+      "answer": "A",
+      "explanation": "Vicente Fox of the PAN won the presidency.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q05", "tier": "Exam level", "type": "mcq", "topic": "Distribution of Power",
+      "stem": "The creation of the Scottish Parliament in 1999 is best described as an example of",
+      "choices": [
+        { "id": "A", "text": "devolution within a unitary state" },
+        { "id": "B", "text": "the UK becoming a federal state" },
+        { "id": "C", "text": "Scottish independence" },
+        { "id": "D", "text": "centralization" }
+      ],
+      "answer": "A",
+      "explanation": "Parliament granted powers that it could, in principle, revoke; sovereignty remains at Westminster.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q06", "tier": "Exam level", "type": "mcq", "topic": "Rule of Law",
+      "stem": "Which situation best illustrates 'rule by law' rather than 'rule of law'?",
+      "choices": [
+        { "id": "A", "text": "A government passes vague laws against 'extremism' and uses them to prosecute opposition activists." },
+        { "id": "B", "text": "An independent court overturns a government action as unconstitutional." },
+        { "id": "C", "text": "A prime minister resigns after losing a vote of no confidence." },
+        { "id": "D", "text": "A president leaves office after losing an election." }
+      ],
+      "answer": "A",
+      "explanation": "Law is used as a tool to control opponents while leaders remain unconstrained.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q07", "tier": "Exam level", "type": "mcq", "topic": "Legitimacy",
+      "stem": "The Chinese Communist Party has sought to maintain legitimacy since the 1980s primarily through",
+      "choices": [
+        { "id": "A", "text": "rapid economic growth and appeals to nationalism" },
+        { "id": "B", "text": "competitive multiparty elections" },
+        { "id": "C", "text": "religious authority" },
+        { "id": "D", "text": "an independent judiciary" }
+      ],
+      "answer": "A",
+      "explanation": "Performance legitimacy and nationalism substitute for electoral legitimacy.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q08", "tier": "Exam level", "type": "mcq", "topic": "Regimes",
+      "stem": "Iran's regime is best described as",
+      "choices": [
+        { "id": "A", "text": "a theocratic republic in which elected institutions are subordinate to unelected religious authorities" },
+        { "id": "B", "text": "a liberal democracy" },
+        { "id": "C", "text": "a one-party communist state" },
+        { "id": "D", "text": "a constitutional monarchy" }
+      ],
+      "answer": "A",
+      "explanation": "The Supreme Leader and Guardian Council constrain the elected president and Majles.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q09", "tier": "Exam level", "type": "mcq", "topic": "Democratization",
+      "stem": "Nigeria's 2015 presidential election was significant because",
+      "choices": [
+        { "id": "A", "text": "an opposition candidate defeated an incumbent president, the first such peaceful transfer since independence" },
+        { "id": "B", "text": "it ended British colonial rule" },
+        { "id": "C", "text": "it restored military government" },
+        { "id": "D", "text": "it abolished federalism" }
+      ],
+      "answer": "A",
+      "explanation": "Muhammadu Buhari (APC) defeated Goodluck Jonathan (PDP).",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q10", "tier": "Exam level", "type": "mcq", "topic": "Distribution of Power",
+      "stem": "Although Russia's constitution establishes a federal system, power is highly centralized because",
+      "choices": [
+        { "id": "A", "text": "the president controls key appointments, resources, and regional politics, limiting regional autonomy" },
+        { "id": "B", "text": "regions have more power than the national government" },
+        { "id": "C", "text": "Russia has no regional governments" },
+        { "id": "D", "text": "the Constitutional Court decentralized power" }
+      ],
+      "answer": "A",
+      "explanation": "Putin's reforms strengthened central control over federal subjects.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q11", "tier": "Hardest", "type": "mcq", "topic": "Nation and State",
+      "stem": "Which statement best explains why Nigeria faces challenges to national identity?",
+      "choices": [
+        { "id": "A", "text": "It is a multinational state with hundreds of ethnic groups and a major north–south religious divide, with borders drawn by colonial rule." },
+        { "id": "B", "text": "It is ethnically homogeneous." },
+        { "id": "C", "text": "It has a unitary government." },
+        { "id": "D", "text": "It lacks sovereignty." }
+      ],
+      "answer": "A",
+      "explanation": "Cleavages among Hausa-Fulani, Yoruba, Igbo, and others, and between a mostly Muslim north and mostly Christian south, complicate national unity.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q12", "tier": "Hardest", "type": "mcq", "topic": "Regimes",
+      "stem": "Which feature most clearly distinguishes Russia's regime from a liberal democracy despite regular elections?",
+      "choices": [
+        { "id": "A", "text": "State control of major media, restrictions on opposition parties and candidates, and a judiciary that doesn't check executive power" },
+        { "id": "B", "text": "The existence of a legislature" },
+        { "id": "C", "text": "A written constitution" },
+        { "id": "D", "text": "A directly elected president" }
+      ],
+      "answer": "A",
+      "explanation": "Elections occur but aren't free and fair; institutions don't constrain the executive.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q13", "tier": "Hardest", "type": "mcq", "topic": "Legitimacy",
+      "stem": "A government's legitimacy would most likely decline if",
+      "choices": [
+        { "id": "A", "text": "widespread election fraud were revealed and courts failed to address it" },
+        { "id": "B", "text": "the economy grew rapidly" },
+        { "id": "C", "text": "a peaceful transfer of power occurred" },
+        { "id": "D", "text": "corruption prosecutions increased" }
+      ],
+      "answer": "A",
+      "explanation": "Fraud undermines belief in the rightfulness of rule.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q14", "tier": "Hardest", "type": "mcq", "topic": "Sovereignty",
+      "stem": "The United Kingdom's withdrawal from the European Union is best explained as an effort to",
+      "choices": [
+        { "id": "A", "text": "restore national sovereignty over laws, borders, and trade from a supranational organization" },
+        { "id": "B", "text": "create a federal UK" },
+        { "id": "C", "text": "abolish Parliament" },
+        { "id": "D", "text": "join a theocratic alliance" }
+      ],
+      "answer": "A",
+      "explanation": "Supporters argued EU membership limited British sovereignty.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-frq1", "tier": "Exam level", "type": "frq", "topic": "Federalism", "frqType": "Q3 Comparative Analysis",
+      "prompt": "Answer A, B, and C.",
+      "parts": [
+        { "label": "A", "prompt": "Define federalism.", "points": 1 },
+        { "label": "B", "prompt": "Describe how federalism is structured in two different course countries (Mexico, Nigeria, or Russia), giving one specific feature of each.", "points": 2 },
+        { "label": "C", "prompt": "Explain why the central government in each of the two countries you described in part B has either strengthened or limited the power of subnational governments.", "points": 2 }
+      ],
+      "points": 5,
+      "minutes": 20,
+      "rubric": [
+        { "criterion": "A", "points": 1, "description": "A system in which power is constitutionally divided between a national government and subnational governments (states, regions)." },
+        { "criterion": "B1", "points": 1, "description": "Accurate feature for country 1, e.g., Mexico has 31 states with elected governors and legislatures; Nigeria has 36 states and the federal character principle; Russia has many federal subjects represented in the Federation Council." },
+        { "criterion": "B2", "points": 1, "description": "Accurate feature for country 2." },
+        { "criterion": "C1", "points": 1, "description": "Explanation for country 1, e.g., Russia's center tightened control over governors to strengthen the 'power vertical' and reduce separatism; Nigeria's center controls oil revenue distribution to hold the federation together." },
+        { "criterion": "C2", "points": 1, "description": "Explanation for country 2, e.g., Mexico's democratization strengthened governors as PRI dominance ended." }
+      ],
+      "sampleResponse": "A. Federalism is a system in which a constitution divides power between a national government and subnational governments, such as states or regions, each with its own authority.\n\nB. In Nigeria, the federation consists of 36 states, each with an elected governor and legislature, and the federal character principle requires government appointments to reflect the country's diversity. In Russia, the federation is made up of many regions called federal subjects, each represented in the Federation Council, the upper house of the legislature.\n\nC. Nigeria's central government controls most revenue from oil, which it distributes to the states; this keeps states dependent on the center and helps hold together a diverse country with a history of civil war. In Russia, Putin strengthened central control over regional governors and regional politics to build a 'power vertical,' reducing the risk of separatism such as in Chechnya and ensuring regional leaders support the Kremlin."
+    }
+  ]
+}

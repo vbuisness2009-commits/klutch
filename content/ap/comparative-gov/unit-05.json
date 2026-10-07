@@ -1,0 +1,258 @@
+{
+  "number": 5,
+  "title": "Political and Economic Changes and Development",
+  "guide": {
+    "summary": "Unit 5 examines how political and economic change interact: globalization and its effects, economic liberalization and privatization, resource dependence, social and demographic policy, and how governments in the course countries have responded to pressures for reform.",
+    "sections": [
+      {
+        "heading": "Economic models and liberalization",
+        "body": "Economic systems range from state-directed (command economies) to market-based. Many states adopted neoliberal reforms from the 1980s: privatization, deregulation, trade liberalization, reduced subsidies, often encouraged by the IMF and World Bank through structural adjustment. UK: Thatcher privatized state industries in the 1980s. Mexico: after import substitution industrialization (ISI) and the 1982 debt crisis, Mexico privatized firms, joined NAFTA (1994, replaced by USMCA in 2020), and in 2013 opened its energy sector to private investment; later governments moved to strengthen state firms like Pemex. China: Deng Xiaoping's reforms from 1978 introduced markets, special economic zones, and foreign investment while keeping one-party rule; China joined the WTO in 2001; the Belt and Road Initiative (2013) extends its influence abroad. Russia: rapid 1990s privatization ('shock therapy') created powerful oligarchs; Putin reasserted state control over strategic sectors such as energy."
+      },
+      {
+        "heading": "Resources and globalization",
+        "body": "Rentier states depend on revenue from natural resources rather than taxation, which can reduce accountability. The resource curse links resource wealth to corruption, weak institutions, and conflict. Nigeria depends heavily on oil for government revenue and exports; oil price swings cause fiscal crises and the Niger Delta has seen conflict. Iran and Russia also rely on energy exports and face international sanctions. Globalization brings investment, trade, and growth but also inequality, loss of sovereignty, and backlash: Brexit (referendum 2016, exit 2020) reflected concerns about sovereignty and immigration. Supranational organizations (EU, WTO) require states to share some sovereignty."
+      },
+      {
+        "heading": "Social and demographic policy",
+        "body": "Governments respond to demographic change. China's one-child policy (1980–2015) slowed population growth but contributed to aging and a gender imbalance; China moved to two children (2016) and three (2021). Russia faces population decline and offers 'maternity capital' payments for children. Iran promoted family planning in the late 1980s–1990s, then shifted toward pronatalist policies. Mexico's conditional cash transfer program (Progresa/Oportunidades/Prospera) paid poor families for school attendance and health visits; it was replaced in 2019 by direct transfers and scholarships. Nigeria's 2023 removal of the fuel subsidy saved revenue but raised prices sharply. Environmental policy: the UK's legally binding net zero target (2050) vs China's role as the largest emitter and largest producer of solar panels."
+      }
+    ],
+    "keyTakeaways": [
+      "Neoliberal reforms: privatization, deregulation, free trade.",
+      "China combined market reform with authoritarian rule.",
+      "Rentier states and the resource curse: Nigeria, Iran, Russia.",
+      "Globalization brings growth and backlash (Brexit).",
+      "Demographic policies: one-child, maternity capital, cash transfers.",
+      "Reforms can be reversed (Mexico energy)."
+    ],
+    "commonMistakes": [
+      "Assuming economic liberalization always causes democratization (China).",
+      "Confusing privatization with nationalization.",
+      "Forgetting that NAFTA became USMCA in 2020.",
+      "Treating the resource curse as inevitable.",
+      "Ignoring the political motives behind economic policies."
+    ],
+    "examTips": [
+      "Link economic policy to legitimacy (performance legitimacy in China).",
+      "Name a specific policy and year.",
+      "Explain both benefits and costs of globalization.",
+      "Compare policy responses across countries for Q3."
+    ],
+    "cramSheet": "**Liberalization:** UK Thatcher privatization · Mexico post-1982, NAFTA 1994/USMCA 2020, 2013 energy reform · China 1978 Deng, SEZs, WTO 2001, BRI 2013 · Russia 1990s shock therapy, oligarchs\n\n**Resources:** rentier state · resource curse · Nigeria oil · Iran/Russia sanctions\n\n**Globalization:** EU · WTO · Brexit 2016/2020\n\n**Social policy:** China one-child → three-child · Russia maternity capital · Mexico Prospera (to 2019) · Nigeria fuel subsidy removal 2023 · UK net zero 2050"
+  },
+  "vocab": [
+    { "term": "Globalization", "definition": "The increasing integration of economies, cultures, and politics across borders." },
+    { "term": "Privatization", "definition": "Transferring state-owned enterprises to private ownership." },
+    { "term": "Nationalization", "definition": "Bringing private enterprises under state ownership." },
+    { "term": "Import substitution industrialization", "definition": "A strategy of protecting domestic industries with tariffs to replace imports." },
+    { "term": "Structural adjustment", "definition": "Market-oriented reforms required as conditions for IMF or World Bank loans." },
+    { "term": "Rentier state", "definition": "A state that relies on revenue from natural resources rather than taxation." },
+    { "term": "Resource curse", "definition": "The tendency of resource-rich states to suffer corruption, weak institutions, and slow development." },
+    { "term": "Special economic zone", "definition": "An area with market-friendly rules to attract foreign investment, as in China." },
+    { "term": "Supranational organization", "definition": "A body to which states transfer some sovereignty, such as the EU." },
+    { "term": "Conditional cash transfer", "definition": "Payments to poor households that meet requirements such as school attendance." },
+    { "term": "Performance legitimacy", "definition": "Legitimacy based on a regime's delivery of growth and stability." },
+    { "term": "Shock therapy", "definition": "Rapid transition from a command to a market economy, as in 1990s Russia." }
+  ],
+  "practice": [
+    {
+      "id": "u5-q01", "tier": "Intro", "type": "mcq", "topic": "Economic Policy",
+      "stem": "Selling state-owned industries to private investors is called",
+      "choices": [
+        { "id": "A", "text": "privatization" },
+        { "id": "B", "text": "nationalization" },
+        { "id": "C", "text": "devolution" },
+        { "id": "D", "text": "co-optation" }
+      ],
+      "answer": "A",
+      "explanation": "Privatization moves ownership from the state to private hands.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q02", "tier": "Intro", "type": "mcq", "topic": "Economic Policy",
+      "stem": "China's economic reforms beginning in 1978 were led by",
+      "choices": [
+        { "id": "A", "text": "Deng Xiaoping" },
+        { "id": "B", "text": "Mao Zedong" },
+        { "id": "C", "text": "Xi Jinping" },
+        { "id": "D", "text": "Sun Yat-sen" }
+      ],
+      "answer": "A",
+      "explanation": "Deng introduced markets and opened China to investment.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q03", "tier": "Intro", "type": "mcq", "topic": "Resources",
+      "stem": "A state that depends mainly on oil revenue rather than taxes is a",
+      "choices": [
+        { "id": "A", "text": "rentier state" },
+        { "id": "B", "text": "unitary state" },
+        { "id": "C", "text": "welfare state" },
+        { "id": "D", "text": "federal state" }
+      ],
+      "answer": "A",
+      "explanation": "Rents from resources replace tax revenue.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q04", "tier": "Intro", "type": "mcq", "topic": "Globalization",
+      "stem": "NAFTA was replaced in 2020 by",
+      "choices": [
+        { "id": "A", "text": "the United States–Mexico–Canada Agreement (USMCA)" },
+        { "id": "B", "text": "the European Union" },
+        { "id": "C", "text": "the Belt and Road Initiative" },
+        { "id": "D", "text": "Mercosur" }
+      ],
+      "answer": "A",
+      "explanation": "USMCA updated the trade agreement.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q05", "tier": "Exam level", "type": "mcq", "topic": "Economic Policy",
+      "stem": "Russia's rapid 1990s privatization most directly resulted in",
+      "choices": [
+        { "id": "A", "text": "a small group of oligarchs gaining control of major industries" },
+        { "id": "B", "text": "stronger independent labor unions" },
+        { "id": "C", "text": "a return to central planning" },
+        { "id": "D", "text": "EU membership" }
+      ],
+      "answer": "A",
+      "explanation": "Insiders acquired assets cheaply; Putin later reasserted state control.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q06", "tier": "Exam level", "type": "mcq", "topic": "Demographic Policy",
+      "stem": "China shifted from a one-child policy to allowing three children (2021) mainly because of",
+      "choices": [
+        { "id": "A", "text": "an aging population and shrinking workforce" },
+        { "id": "B", "text": "overpopulation in rural areas" },
+        { "id": "C", "text": "pressure from the WTO" },
+        { "id": "D", "text": "a constitutional amendment requiring larger families" }
+      ],
+      "answer": "A",
+      "explanation": "Low fertility threatened growth and elder care.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q07", "tier": "Exam level", "type": "mcq", "topic": "Resources",
+      "stem": "Nigeria's dependence on oil revenue is most likely to produce which political effect?",
+      "choices": [
+        { "id": "A", "text": "Reduced government accountability to citizens because the state relies less on taxation" },
+        { "id": "B", "text": "Guaranteed economic diversification" },
+        { "id": "C", "text": "Elimination of corruption" },
+        { "id": "D", "text": "A unitary system" }
+      ],
+      "answer": "A",
+      "explanation": "Rentier dynamics weaken the tax–accountability link.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q08", "tier": "Exam level", "type": "mcq", "topic": "Globalization",
+      "stem": "The UK's 2016 Brexit vote is best explained as a reaction to",
+      "choices": [
+        { "id": "A", "text": "concerns about sovereignty and immigration linked to EU membership" },
+        { "id": "B", "text": "Scotland's demand to leave the EU" },
+        { "id": "C", "text": "a Supreme Court ruling" },
+        { "id": "D", "text": "privatization of the NHS" }
+      ],
+      "answer": "A",
+      "explanation": "Leave campaigners emphasized 'taking back control.'",
+      "distractors": { "B": "Scotland voted to remain." }
+    },
+    {
+      "id": "u5-q09", "tier": "Exam level", "type": "mcq", "topic": "Social Policy",
+      "stem": "Mexico's Progresa/Oportunidades program is an example of",
+      "choices": [
+        { "id": "A", "text": "a conditional cash transfer tied to school attendance and health checkups" },
+        { "id": "B", "text": "import substitution" },
+        { "id": "C", "text": "nationalization of oil" },
+        { "id": "D", "text": "a free trade agreement" }
+      ],
+      "answer": "A",
+      "explanation": "Payments were conditioned on behaviors that build human capital.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q10", "tier": "Exam level", "type": "mcq", "topic": "Economic Policy",
+      "stem": "Nigeria's 2023 removal of the fuel subsidy illustrates a common dilemma because",
+      "choices": [
+        { "id": "A", "text": "it saved government revenue but raised living costs, risking public discontent" },
+        { "id": "B", "text": "it nationalized the oil industry" },
+        { "id": "C", "text": "it was required by the EU" },
+        { "id": "D", "text": "it lowered fuel prices" }
+      ],
+      "answer": "A",
+      "explanation": "Economic reforms often create short-term political costs.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q11", "tier": "Hardest", "type": "mcq", "topic": "Political Change",
+      "stem": "China's experience challenges modernization theory's prediction that economic growth leads to democracy because",
+      "choices": [
+        { "id": "A", "text": "the CCP has presided over rapid growth and a large middle class while maintaining one-party rule" },
+        { "id": "B", "text": "China has not grown economically" },
+        { "id": "C", "text": "China held competitive elections in the 1990s" },
+        { "id": "D", "text": "China adopted federalism" }
+      ],
+      "answer": "A",
+      "explanation": "Performance legitimacy and repression have sustained authoritarianism.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q12", "tier": "Hardest", "type": "mcq", "topic": "Economic Policy",
+      "stem": "Which pair correctly matches a country with a reversal of earlier market reforms?",
+      "choices": [
+        { "id": "A", "text": "Mexico — moves after 2018 to strengthen state energy firms after the 2013 energy opening" },
+        { "id": "B", "text": "UK — renationalization of all industries privatized under Thatcher" },
+        { "id": "C", "text": "China — return to collective farming" },
+        { "id": "D", "text": "Nigeria — reintroduction of colonial rule" }
+      ],
+      "answer": "A",
+      "explanation": "López Obrador prioritized Pemex and the CFE.",
+      "distractors": { "B": "Overstated; most remain private." }
+    },
+    {
+      "id": "u5-q13", "tier": "Hardest", "type": "mcq", "topic": "Globalization",
+      "stem": "Which argument best explains why joining a supranational organization can create domestic political conflict?",
+      "choices": [
+        { "id": "A", "text": "Transferring authority over areas like trade or migration reduces national control, which some voters see as a loss of sovereignty." },
+        { "id": "B", "text": "Supranational organizations abolish national legislatures." },
+        { "id": "C", "text": "Membership always lowers economic growth." },
+        { "id": "D", "text": "Membership requires adopting a presidential system." }
+      ],
+      "answer": "A",
+      "explanation": "The sovereignty trade-off fuels backlash such as Brexit.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q14", "tier": "Hardest", "type": "mcq", "topic": "Resources",
+      "stem": "Iran and Russia both face international sanctions. Which shared vulnerability makes sanctions especially damaging to them?",
+      "choices": [
+        { "id": "A", "text": "Heavy dependence on oil and gas export revenue" },
+        { "id": "B", "text": "Lack of any natural resources" },
+        { "id": "C", "text": "Membership in the EU" },
+        { "id": "D", "text": "Federal systems that ban trade" }
+      ],
+      "answer": "A",
+      "explanation": "Restricting energy exports cuts state revenue.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-frq1", "tier": "Exam level", "type": "frq", "topic": "Economic Policy", "frqType": "Q3 Comparative Analysis",
+      "prompt": "Compare how two different AP Comparative Government course countries have pursued economic liberalization. In your response, do the following: A. Define economic liberalization. B. Describe a specific liberalizing policy in each of two course countries. C. Explain how each policy affected the government's legitimacy or political stability.",
+      "parts": [
+        { "label": "A", "prompt": "Define economic liberalization.", "points": 1 },
+        { "label": "B", "prompt": "Describe a liberalizing policy in each of two course countries.", "points": 2 },
+        { "label": "C", "prompt": "Explain how each policy affected legitimacy or stability.", "points": 2 }
+      ],
+      "points": 5,
+      "minutes": 20,
+      "rubric": [
+        { "criterion": "A", "points": 1, "description": "Reducing state control of the economy through privatization, deregulation, trade opening, or reduced subsidies." },
+        { "criterion": "B", "points": 2, "description": "1 point per accurate country policy (e.g., China SEZs/1978 reforms; Mexico NAFTA/privatization/2013 energy reform; Russia 1990s privatization; UK Thatcher privatization; Nigeria fuel subsidy removal)." },
+        { "criterion": "C", "points": 2, "description": "1 point per explanation linking the policy to legitimacy or stability for that country." }
+      ],
+      "sampleResponse": "A. Economic liberalization means reducing the state's role in the economy, for example by privatizing state firms, lowering trade barriers, and removing price controls or subsidies.\n\nB. China, beginning in 1978 under Deng Xiaoping, created special economic zones that welcomed foreign investment and allowed private enterprise. Russia in the early 1990s carried out rapid 'shock therapy' privatization of state-owned industries.\n\nC. In China, decades of rapid growth from market reforms gave the Communist Party performance legitimacy, helping it maintain one-party rule without democratization. In Russia, rushed privatization concentrated wealth in a few oligarchs, contributed to economic collapse and inflation, and undermined trust in the new democratic institutions, which helped Putin later gain support by promising order and reasserting state control."
+    }
+  ]
+}

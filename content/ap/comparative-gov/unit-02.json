@@ -1,0 +1,255 @@
+{
+  "number": 2,
+  "title": "Political Institutions",
+  "guide": {
+    "summary": "Unit 2, the most heavily weighted, compares executives, legislatures, and judiciaries across the six course countries: parliamentary, presidential, and semi-presidential systems; heads of state and government; term limits; legislative structure and power; judicial independence and review; and how institutions check or fail to check power.",
+    "sections": [
+      {
+        "heading": "Executive systems",
+        "body": "In a parliamentary system (UK), the head of government (prime minister) comes from and depends on the confidence of the legislature; a vote of no confidence can bring down the government; the head of state (the monarch) is ceremonial. In a presidential system (Mexico, Nigeria), a directly elected president is both head of state and government, with a fixed term and separation of powers. In a semi-presidential system (Russia), a powerful elected president coexists with a prime minister who manages government and needs legislative approval. Term limits: Mexico's president serves one six-year term (sexenio) with no reelection; Nigeria's president serves up to two four-year terms; Russia's president serves six-year terms, and 2020 constitutional amendments reset Putin's term count. Iran's Supreme Leader (head of state, chosen by the Assembly of Experts) outranks the elected president. In China, the CCP General Secretary holds real power, also serving as state president and military commission chair; presidential term limits were removed in 2018; the premier heads the State Council."
+      },
+      {
+        "heading": "Legislatures",
+        "body": "UK: bicameral Parliament; the elected House of Commons is dominant; the appointed/hereditary House of Lords can delay but not block most legislation. Parliamentary sovereignty means Parliament's acts are supreme. Mexico: bicameral Congress (Chamber of Deputies and Senate) that has become more assertive since the end of PRI dominance. Russia: bicameral Federal Assembly; the State Duma is elected, and the Federation Council represents regions; both rarely challenge the president. Iran: unicameral Majles (Islamic Consultative Assembly), whose laws must be approved by the Guardian Council for conformity with Islam and the constitution; the Expediency Council resolves disputes. China: the unicameral National People's Congress (about 3,000 delegates) formally holds supreme power but largely approves party decisions; its Standing Committee acts between sessions. Nigeria: bicameral National Assembly (Senate and House of Representatives)."
+      },
+      {
+        "heading": "Judiciaries",
+        "body": "An independent judiciary with judicial review can check other branches. The UK Supreme Court (established 2009) can rule on legality but can't overturn acts of Parliament (it can issue declarations of incompatibility with human-rights law). Mexico's Supreme Court has judicial review; a 2024 reform introduced popular election of judges, raising debates about independence. Nigeria's Supreme Court has judicial review and has ruled on election disputes. Russia's Constitutional Court has judicial review in theory but rarely challenges the president. Iran's judiciary is headed by an official appointed by the Supreme Leader and applies Islamic law. China's courts operate under party leadership and lack independence."
+      }
+    ],
+    "keyTakeaways": [
+      "Parliamentary: PM depends on legislature (UK). Presidential: fixed term, separation (Mexico, Nigeria). Semi-presidential: Russia.",
+      "Mexico: one six-year term; Nigeria: two four-year terms.",
+      "Iran: Supreme Leader > president; Guardian Council vets laws and candidates.",
+      "China: party leadership controls state institutions; term limits removed 2018.",
+      "UK: parliamentary sovereignty; no judicial review over acts of Parliament.",
+      "Judicial independence is strongest in UK, Mexico, Nigeria; weak in Russia, Iran, China."
+    ],
+    "commonMistakes": [
+      "Saying the UK monarch makes policy.",
+      "Thinking the House of Lords can permanently veto legislation.",
+      "Confusing the Guardian Council with the Assembly of Experts.",
+      "Calling China's NPC an independent legislature.",
+      "Assuming Russia's prime minister is the most powerful official."
+    ],
+    "examTips": [
+      "Use institutional names precisely: Duma, Majles, NPC, House of Commons.",
+      "Explain how institutions check (or don't check) executives in each country.",
+      "Compare term limits and their changes (Russia 2020, China 2018).",
+      "Distinguish formal powers from actual practice."
+    ],
+    "cramSheet": "**UK:** parliamentary · monarch (state) · PM (government) · Commons dominant · Lords delay · no-confidence · Supreme Court 2009, no judicial review of Acts\n\n**Mexico:** presidential · one 6-yr term · bicameral Congress · Supreme Court review · 2024 judicial reform\n\n**Nigeria:** presidential · two 4-yr terms · Senate + House · Supreme Court review\n\n**Russia:** semi-presidential · 6-yr terms · 2020 amendments · Duma + Federation Council · weak courts\n\n**Iran:** Supreme Leader · president · Majles · Guardian Council · Assembly of Experts · Expediency Council\n\n**China:** General Secretary/President · Premier · NPC + Standing Committee · term limits removed 2018 · party-led courts"
+  },
+  "vocab": [
+    { "term": "Parliamentary system", "definition": "A system where the executive is drawn from and accountable to the legislature." },
+    { "term": "Presidential system", "definition": "A system with a separately elected president who serves a fixed term." },
+    { "term": "Semi-presidential system", "definition": "A system with both an elected president and a prime minister accountable to the legislature." },
+    { "term": "Head of state", "definition": "The symbolic representative of the state." },
+    { "term": "Head of government", "definition": "The official who directs the government's day-to-day operations." },
+    { "term": "Vote of no confidence", "definition": "A legislative vote that can force a parliamentary government to resign." },
+    { "term": "Parliamentary sovereignty", "definition": "The principle that the legislature's laws are supreme and can't be overturned by courts." },
+    { "term": "Judicial review", "definition": "A court's power to invalidate laws or actions as unconstitutional." },
+    { "term": "Judicial independence", "definition": "Courts' freedom from control by other branches or parties." },
+    { "term": "Guardian Council", "definition": "Iran's body that vets legislation and candidates for conformity with Islam and the constitution." },
+    { "term": "National People's Congress", "definition": "China's unicameral legislature, which largely ratifies party decisions." },
+    { "term": "Term limits", "definition": "Legal restrictions on how long an official may serve." }
+  ],
+  "practice": [
+    {
+      "id": "u2-q01", "tier": "Intro", "type": "mcq", "topic": "Executives",
+      "stem": "In the United Kingdom, the head of government is the",
+      "choices": [
+        { "id": "A", "text": "prime minister" },
+        { "id": "B", "text": "monarch" },
+        { "id": "C", "text": "Speaker of the House of Commons" },
+        { "id": "D", "text": "Lord Chancellor" }
+      ],
+      "answer": "A",
+      "explanation": "The monarch is head of state; the PM leads the government.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q02", "tier": "Intro", "type": "mcq", "topic": "Executives",
+      "stem": "Mexico's president may serve",
+      "choices": [
+        { "id": "A", "text": "one six-year term" },
+        { "id": "B", "text": "two four-year terms" },
+        { "id": "C", "text": "unlimited five-year terms" },
+        { "id": "D", "text": "two six-year terms" }
+      ],
+      "answer": "A",
+      "explanation": "The sexenio bars reelection.",
+      "distractors": { "B": "Nigeria." }
+    },
+    {
+      "id": "u2-q03", "tier": "Intro", "type": "mcq", "topic": "Legislatures",
+      "stem": "Which body in Iran must approve laws passed by the Majles?",
+      "choices": [
+        { "id": "A", "text": "The Guardian Council" },
+        { "id": "B", "text": "The Assembly of Experts" },
+        { "id": "C", "text": "The National People's Congress" },
+        { "id": "D", "text": "The Federation Council" }
+      ],
+      "answer": "A",
+      "explanation": "It reviews legislation for conformity with Islamic law and the constitution.",
+      "distractors": { "B": "Selects and oversees the Supreme Leader." }
+    },
+    {
+      "id": "u2-q04", "tier": "Intro", "type": "mcq", "topic": "Judiciaries",
+      "stem": "Which course country's highest court cannot strike down acts of the national legislature?",
+      "choices": [
+        { "id": "A", "text": "United Kingdom" },
+        { "id": "B", "text": "Mexico" },
+        { "id": "C", "text": "Nigeria" },
+        { "id": "D", "text": "Russia" }
+      ],
+      "answer": "A",
+      "explanation": "Parliamentary sovereignty prevents the UK Supreme Court from overturning acts of Parliament.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q05", "tier": "Exam level", "type": "mcq", "topic": "Executive Systems",
+      "stem": "Which feature distinguishes a parliamentary system from a presidential system?",
+      "choices": [
+        { "id": "A", "text": "The executive can be removed by a legislative vote of no confidence." },
+        { "id": "B", "text": "The legislature is bicameral." },
+        { "id": "C", "text": "There is a written constitution." },
+        { "id": "D", "text": "Elections are held." }
+      ],
+      "answer": "A",
+      "explanation": "The fusion of executive and legislature makes the government dependent on parliamentary confidence.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q06", "tier": "Exam level", "type": "mcq", "topic": "Executives",
+      "stem": "Russia's 2020 constitutional amendments are significant because they",
+      "choices": [
+        { "id": "A", "text": "allowed Vladimir Putin to run for two more presidential terms" },
+        { "id": "B", "text": "created a parliamentary system" },
+        { "id": "C", "text": "abolished the State Duma" },
+        { "id": "D", "text": "established judicial independence" }
+      ],
+      "answer": "A",
+      "explanation": "The amendments reset his term count, potentially extending rule to 2036.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q07", "tier": "Exam level", "type": "mcq", "topic": "Legislatures",
+      "stem": "The House of Lords in the United Kingdom can",
+      "choices": [
+        { "id": "A", "text": "delay most legislation passed by the Commons but not permanently block it" },
+        { "id": "B", "text": "remove the prime minister" },
+        { "id": "C", "text": "veto all legislation permanently" },
+        { "id": "D", "text": "strike down laws as unconstitutional" }
+      ],
+      "answer": "A",
+      "explanation": "The Parliament Acts limit the Lords to delaying powers.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q08", "tier": "Exam level", "type": "mcq", "topic": "Executives",
+      "stem": "The 2018 removal of presidential term limits in China most directly",
+      "choices": [
+        { "id": "A", "text": "allowed Xi Jinping to remain president indefinitely, strengthening personal power within the party" },
+        { "id": "B", "text": "created multiparty elections" },
+        { "id": "C", "text": "reduced the power of the CCP" },
+        { "id": "D", "text": "established an independent judiciary" }
+      ],
+      "answer": "A",
+      "explanation": "It reversed the norm of collective leadership and orderly succession.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q09", "tier": "Exam level", "type": "mcq", "topic": "Executives",
+      "stem": "In Iran, the Supreme Leader is selected by",
+      "choices": [
+        { "id": "A", "text": "the Assembly of Experts" },
+        { "id": "B", "text": "direct popular election" },
+        { "id": "C", "text": "the Majles" },
+        { "id": "D", "text": "the president" }
+      ],
+      "answer": "A",
+      "explanation": "The elected clerical body chooses and can in theory remove the Supreme Leader.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q10", "tier": "Exam level", "type": "mcq", "topic": "Judiciaries",
+      "stem": "Which course country's judiciary is most clearly subordinate to a ruling party?",
+      "choices": [
+        { "id": "A", "text": "China" },
+        { "id": "B", "text": "United Kingdom" },
+        { "id": "C", "text": "Mexico" },
+        { "id": "D", "text": "Nigeria" }
+      ],
+      "answer": "A",
+      "explanation": "Chinese courts operate under CCP leadership.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q11", "tier": "Hardest", "type": "mcq", "topic": "Executive-Legislative Relations",
+      "stem": "Which statement best compares executive–legislative relations in the UK and Mexico?",
+      "choices": [
+        { "id": "A", "text": "The UK prime minister usually controls a parliamentary majority through party discipline, while Mexico's president may face divided government because the legislature is elected separately." },
+        { "id": "B", "text": "Both executives are chosen by the legislature." },
+        { "id": "C", "text": "Mexico's president can be removed by a vote of no confidence." },
+        { "id": "D", "text": "The UK has a fixed-term president." }
+      ],
+      "answer": "A",
+      "explanation": "Fused powers vs separated powers produce different dynamics.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q12", "tier": "Hardest", "type": "mcq", "topic": "Legislatures",
+      "stem": "The Guardian Council's power to vet candidates for the Majles and presidency most directly limits",
+      "choices": [
+        { "id": "A", "text": "electoral competition, since reformist or secular candidates can be disqualified before voters choose" },
+        { "id": "B", "text": "the Supreme Leader's authority" },
+        { "id": "C", "text": "Iran's federal structure" },
+        { "id": "D", "text": "the judiciary's independence from clerics" }
+      ],
+      "answer": "A",
+      "explanation": "Pre-election vetting narrows voters' choices.",
+      "distractors": { "C": "Iran is unitary." }
+    },
+    {
+      "id": "u2-q13", "tier": "Hardest", "type": "mcq", "topic": "Judiciaries",
+      "stem": "A court that rules a national election invalid and orders a rerun would most clearly demonstrate",
+      "choices": [
+        { "id": "A", "text": "judicial independence and a check on electoral authorities" },
+        { "id": "B", "text": "parliamentary sovereignty" },
+        { "id": "C", "text": "rule by law" },
+        { "id": "D", "text": "a unitary system" }
+      ],
+      "answer": "A",
+      "explanation": "Courts willing to overturn powerful actors show independence.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q14", "tier": "Hardest", "type": "mcq", "topic": "Executive Systems",
+      "stem": "In Russia's semi-presidential system, which is true in practice?",
+      "choices": [
+        { "id": "A", "text": "The president dominates, appointing the prime minister (with Duma approval) and directing key policy." },
+        { "id": "B", "text": "The prime minister is head of state." },
+        { "id": "C", "text": "The Duma regularly removes presidents." },
+        { "id": "D", "text": "The Federation Council chooses the president." }
+      ],
+      "answer": "A",
+      "explanation": "Formal power sharing exists, but the presidency is supreme.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-frq1", "tier": "Exam level", "type": "frq", "topic": "Executive Power", "frqType": "Q4 Argument Essay",
+      "prompt": "Develop an argument that explains whether presidential or parliamentary systems are more effective in holding executives accountable.\n\nUse one or more of the following course concepts in your response: separation of powers, vote of no confidence, term limits, judicial independence.\n\nIn your response, do the following:\n- Respond with a thesis that establishes a line of reasoning.\n- Support your claim with at least TWO pieces of specific and relevant evidence from one or more course countries.\n- Use reasoning to explain why your evidence supports your claim.\n- Respond to an opposing or alternative perspective using refutation, concession, or rebuttal.",
+      "parts": [],
+      "points": 5,
+      "minutes": 40,
+      "rubric": [
+        { "criterion": "Thesis", "points": 1, "description": "Defensible claim with a line of reasoning." },
+        { "criterion": "Evidence", "points": 2, "description": "1: one piece of specific, relevant evidence. 2: two pieces from course countries supporting the claim (e.g., UK votes of no confidence and PM resignations; Mexico's single-term limit; Nigeria's courts and 2015 turnover)." },
+        { "criterion": "Reasoning", "points": 1, "description": "Explains how the evidence supports the thesis." },
+        { "criterion": "Alternative perspective", "points": 1, "description": "Responds to an opposing perspective with refutation, concession, or rebuttal." }
+      ],
+      "sampleResponse": "Parliamentary systems are more effective in holding executives accountable because the executive must keep the continuous confidence of the legislature and can be removed quickly without waiting for an election.\n\nIn the United Kingdom, the prime minister depends on the support of a majority in the House of Commons. If that support erodes, the governing party can replace its leader or the Commons can pass a vote of no confidence. British prime ministers have been forced from office mid-term when they lost the confidence of their own party, showing that accountability is ongoing rather than limited to election day.\n\nBy contrast, presidents with fixed terms can be difficult to remove. In Russia's semi-presidential system, the president dominates; the Duma rarely challenges him, and 2020 constitutional amendments reset presidential term limits, allowing Putin to remain in office far longer. Fixed terms and weak legislative checks let executives escape accountability.\n\nSome argue presidential systems hold executives accountable through separation of powers and term limits, as in Mexico, where the president serves a single six-year term. It's true that Mexico's no-reelection rule prevents any president from entrenching himself. However, term limits only guarantee accountability at fixed intervals; during the term, removal requires impeachment, which is rare. A parliamentary executive faces constant scrutiny and can be replaced as soon as it loses support, making accountability more continuous and effective."
+    }
+  ]
+}

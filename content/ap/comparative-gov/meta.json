@@ -1,0 +1,69 @@
+{
+ "slug": "comparative-gov",
+ "name": "AP Comparative Government and Politics",
+ "lastVerified": "2026-10",
+ "overview": "AP Comparative Government and Politics introduces political concepts, institutions, and processes by comparing six course countries: the United Kingdom, Mexico, Russia, Iran, China, and Nigeria. The exam asks you to apply concepts (legitimacy, sovereignty, democratization, federalism, electoral systems, civil society) to specific countries, interpret quantitative data, compare countries precisely, and write evidence-based arguments.",
+ "examMode": "Fully digital in Bluebook (confirm the current format on AP Central).",
+ "totalMinutes": 150,
+ "sections": [
+  { "name": "Section I", "questionType": "Multiple choice", "count": 55, "minutes": 60, "weight": "50%", "notes": "Standalone questions and sets based on quantitative data, text passages, and visuals (maps, cartoons, infographics)." },
+  { "name": "Section II", "questionType": "Free response", "count": 4, "minutes": 90, "weight": "50%", "notes": "Q1 Conceptual Analysis, Q2 Quantitative Analysis, Q3 Comparative Analysis, Q4 Argument Essay; each worth 12.5% of the exam." }
+ ],
+ "units": [
+  { "number": 1, "title": "Political Systems, Regimes, and Governments", "weight": "18–27%" },
+  { "number": 2, "title": "Political Institutions", "weight": "22–33%" },
+  { "number": 3, "title": "Political Culture and Participation", "weight": "11–18%" },
+  { "number": 4, "title": "Party and Electoral Systems and Citizen Organizations", "weight": "13–18%" },
+  { "number": 5, "title": "Political and Economic Changes and Development", "weight": "16–24%" }
+ ],
+ "skills": [
+  { "name": "1. Concept Application", "description": "Apply political concepts and processes in authentic contexts." },
+  { "name": "2. Country Comparison", "description": "Compare political concepts and processes among the course countries." },
+  { "name": "3. Data Analysis", "description": "Analyze and interpret quantitative data represented in tables, charts, graphs, maps, and infographics." },
+  { "name": "4. Source Analysis", "description": "Read, analyze, and interpret text-based sources." },
+  { "name": "5. Argumentation", "description": "Develop an argument in essay format." }
+ ],
+ "scoring": {
+  "summary": "Section I (55 MCQ) and Section II (four FRQs, equally weighted) are each 50% of the composite, converted to 1–5 using cut points set each year.",
+  "approxCutoffs": [
+   { "score": 5, "minPercent": 72 },
+   { "score": 4, "minPercent": 59 },
+   { "score": 3, "minPercent": 45 },
+   { "score": 2, "minPercent": 32 }
+  ]
+ },
+ "frqTypes": [
+  { "name": "Q1 Conceptual Analysis", "points": 4, "howScored": "Define or describe a concept, explain it, and explain how it relates to a political process or another concept; no country examples required unless asked." },
+  { "name": "Q2 Quantitative Analysis", "points": 5, "howScored": "Identify or describe data, describe a pattern or trend, draw a conclusion, and explain how the data relate to a concept, often with a course-country example." },
+  { "name": "Q3 Comparative Analysis", "points": 5, "howScored": "Define a concept, then describe and explain how it applies in two of the six countries, comparing them." },
+  { "name": "Q4 Argument Essay", "points": 5, "howScored": "Defensible thesis with a line of reasoning (1); two pieces of specific evidence from course countries (up to 2); reasoning explaining how evidence supports the thesis (1); responding to an alternative perspective with refutation, concession, or rebuttal (1)." }
+ ],
+ "strategy": [
+  "Know each country's regime type, executive, legislature, judiciary, electoral system, and key reforms cold.",
+  "Use precise, country-specific evidence: 'Russia's Duma elections use a mixed system' beats 'some countries mix systems.'",
+  "When comparing, state both countries' features and the similarity or difference explicitly.",
+  "Read data stimuli carefully: units, years, and what the data does and does not show.",
+  "For the argument essay, choose a side you can support with two specific country examples and address a counterargument.",
+  "Define concepts in your own words before applying them.",
+  "Watch absolute words in MCQ choices ('always,' 'never').",
+  "Budget roughly 1 minute per MCQ and ~20 minutes per FRQ (more for the argument essay)."
+ ],
+ "pitfalls": [
+  "Calling Russia or Iran fully democratic or China multiparty-competitive.",
+  "Mixing up head of state and head of government.",
+  "Confusing federal (Mexico, Nigeria, Russia) with unitary (UK, China, Iran) systems.",
+  "Confusing legitimacy with sovereignty or authority.",
+  "Assuming FPTP (single-member districts) produces many parties.",
+  "Forgetting that the UK Supreme Court can't strike down acts of Parliament.",
+  "Treating rule by law as the same as rule of law.",
+  "Using U.S. examples instead of course countries."
+ ],
+ "sources": [
+  { "title": "AP Comparative Government and Politics Exam (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-comparative-government-and-politics/exam" },
+  { "title": "AP Comparative Government and Politics Course and Exam Description", "url": "https://apcentral.collegeboard.org/courses/ap-comparative-government-and-politics/course" }
+ ],
+ "caveats": [
+  "Country facts change (elections, constitutional amendments); verify current officeholders and recent reforms before the exam.",
+  "Cutoffs are estimates; College Board does not publish cut scores."
+ ]
+}

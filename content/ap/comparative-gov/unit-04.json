@@ -1,0 +1,262 @@
+{
+  "number": 4,
+  "title": "Party and Electoral Systems and Citizen Organizations",
+  "guide": {
+    "summary": "Unit 4 covers how electoral rules shape party systems, how elections work in each course country, the difference between competitive and noncompetitive elections, and how interest groups and social movements relate to the state (pluralism vs corporatism).",
+    "sections": [
+      {
+        "heading": "Electoral systems",
+        "body": "Single-member district plurality (SMD, 'first past the post'): one winner per district, the candidate with the most votes wins. It tends to produce two large parties (Duverger's law), single-party majorities, and underrepresentation of small parties whose votes are spread out. Proportional representation (PR): seats are allocated in proportion to party vote share, often from party lists, sometimes with a minimum threshold. It tends to produce multiparty systems and coalition governments. Mixed systems combine both. Two-round (runoff) systems require a majority to win the presidency. Course examples: UK House of Commons uses SMD (650 seats); the Scottish Parliament and Welsh Senedd have used mixed or proportional systems, and Northern Ireland uses single transferable vote. Mexico's Chamber of Deputies is mixed (300 SMD, 200 PR); the president wins by plurality for one 6-year term. Russia's State Duma is mixed (225 PR, 225 SMD); the president needs a majority, with a runoff if necessary. Nigeria's legislature uses SMD; a presidential winner needs a plurality nationally plus at least 25% of the vote in at least two-thirds of the states and the capital, encouraging cross-regional appeal. Iran's president needs a majority (runoff otherwise); the Guardian Council vets all candidates. China's NPC is indirectly elected; only the lowest-level people's congresses are directly elected."
+      },
+      {
+        "heading": "Parties and competitiveness",
+        "body": "Party systems can be one-party (China: the CCP, with small allied parties that don't compete for power), dominant-party (Russia's United Russia; Mexico's PRI before 2000; South Africa's ANC historically), two-party, or multiparty. UK: Labour and Conservatives dominate Commons, but Liberal Democrats, the SNP, and Reform UK win significant votes. Mexico: competitive since 2000 (PAN), then PRI return (2012), then Morena dominance since 2018. Nigeria: APC defeated PDP in 2015, the first opposition presidential win; Labour Party surged in 2023. Russia distinguishes 'systemic' opposition (Communists, LDPR) tolerated in the Duma from 'nonsystemic' opposition (Navalny's movement) excluded or repressed. Iran has factions (conservatives/principlists, reformists) rather than strong parties. Elections in authoritarian states provide legitimacy, information about public mood, and a way to co-opt elites, without allowing real alternation."
+      },
+      {
+        "heading": "Interest groups and movements",
+        "body": "Pluralism: many independent groups compete to influence policy (UK). Corporatism: the state recognizes a limited number of official groups for each sector and bargains with them; state corporatism is when the state creates and controls these groups (China's All-China Federation of Trade Unions; Mexico's PRI-era CTM labor and CNC peasant confederations). Social movements are broader, less formal efforts for change, such as Mexico's movements over disappeared students (Ayotzinapa, 2014) or Nigeria's #EndSARS. Patron-clientelism exchanges benefits for support and remains important in Nigeria and Mexico."
+      }
+    ],
+    "keyTakeaways": [
+      "SMD → fewer parties, majorities; PR → more parties, coalitions.",
+      "Know each country's legislative electoral system.",
+      "Nigeria's 25%-in-two-thirds rule promotes national appeal.",
+      "Authoritarian elections serve legitimacy and information goals.",
+      "Pluralism vs corporatism vs state corporatism.",
+      "Systemic vs nonsystemic opposition in Russia."
+    ],
+    "commonMistakes": [
+      "Saying Mexico's legislature is purely SMD; it is mixed.",
+      "Treating China's minor parties as competitive opposition.",
+      "Assuming PR always produces instability.",
+      "Confusing a dominant-party system with a one-party state.",
+      "Confusing interest groups (narrow interests) with parties (seek office)."
+    ],
+    "examTips": [
+      "On vote–seat tables, compare vote share to seat share and name the electoral system that explains the gap.",
+      "Explain why small parties with concentrated support (SNP) do better under SMD than parties with dispersed support.",
+      "Mention vetting (Guardian Council) for Iran's noncompetitive elections."
+    ],
+    "cramSheet": "**SMD:** UK Commons · Nigeria legislature → two-party tendency, disproportionality\n\n**Mixed:** Mexico Chamber (300/200) · Russia Duma (225/225)\n\n**Presidency:** Mexico plurality, 1 × 6 yrs · Russia majority + runoff · Nigeria plurality + 25% in 2/3 of states · Iran majority + runoff, Guardian Council vetting\n\n**Party systems:** China one-party · Russia dominant (United Russia) · Mexico competitive (PAN 2000, Morena 2018) · Nigeria APC/PDP, 2015 turnover\n\n**Groups:** pluralism (UK) · state corporatism (China ACFTU, PRI-era Mexico) · clientelism"
+  },
+  "vocab": [
+    { "term": "Single-member district plurality", "definition": "An electoral system in which each district elects one representative, the candidate with the most votes." },
+    { "term": "Proportional representation", "definition": "An electoral system that allocates seats according to parties' shares of the vote." },
+    { "term": "Mixed electoral system", "definition": "A system combining SMD seats and PR seats." },
+    { "term": "Electoral threshold", "definition": "The minimum vote share a party needs to win PR seats." },
+    { "term": "Duverger's law", "definition": "The tendency of SMD plurality systems to produce two-party systems." },
+    { "term": "Dominant-party system", "definition": "A system in which multiple parties exist but one wins consistently, often aided by state resources." },
+    { "term": "Coalition government", "definition": "A government formed by two or more parties sharing executive power." },
+    { "term": "Pluralism", "definition": "A system in which many independent interest groups compete to influence policy." },
+    { "term": "State corporatism", "definition": "A system in which the state creates and controls official groups representing sectors of society." },
+    { "term": "Patron-clientelism", "definition": "Exchanging material benefits for political support." },
+    { "term": "Candidate vetting", "definition": "Screening candidates before elections, as by Iran's Guardian Council." },
+    { "term": "Social movement", "definition": "A broad, often informal effort by citizens to achieve political or social change." }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01", "tier": "Intro", "type": "mcq", "topic": "Electoral Systems",
+      "stem": "Which electoral system is used for the UK House of Commons?",
+      "choices": [
+        { "id": "A", "text": "Single-member district plurality" },
+        { "id": "B", "text": "Pure national list proportional representation" },
+        { "id": "C", "text": "Two-round majority" },
+        { "id": "D", "text": "Indirect election by regional assemblies" }
+      ],
+      "answer": "A",
+      "explanation": "Each of 650 constituencies elects one MP by plurality.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q02", "tier": "Intro", "type": "mcq", "topic": "Electoral Systems",
+      "stem": "Proportional representation systems are most likely to produce",
+      "choices": [
+        { "id": "A", "text": "multiparty legislatures and coalition governments" },
+        { "id": "B", "text": "only two parties" },
+        { "id": "C", "text": "no parties" },
+        { "id": "D", "text": "single-party majorities in every election" }
+      ],
+      "answer": "A",
+      "explanation": "Small parties win seats roughly matching their vote shares.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q03", "tier": "Intro", "type": "mcq", "topic": "Interest Groups",
+      "stem": "A system in which many independent interest groups compete to influence policy is",
+      "choices": [
+        { "id": "A", "text": "pluralism" },
+        { "id": "B", "text": "state corporatism" },
+        { "id": "C", "text": "theocracy" },
+        { "id": "D", "text": "patron-clientelism" }
+      ],
+      "answer": "A",
+      "explanation": "Pluralism features open competition among groups.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q04", "tier": "Intro", "type": "mcq", "topic": "Elections",
+      "stem": "In Iran, which body vets candidates for president and the Majles?",
+      "choices": [
+        { "id": "A", "text": "The Guardian Council" },
+        { "id": "B", "text": "The Assembly of Experts" },
+        { "id": "C", "text": "The Expediency Council only" },
+        { "id": "D", "text": "The Supreme Court" }
+      ],
+      "answer": "A",
+      "explanation": "Vetting limits competition to approved candidates.",
+      "distractors": { "B": "Selects and oversees the Supreme Leader." }
+    },
+    {
+      "id": "u4-q05", "tier": "Exam level", "type": "mcq", "topic": "Electoral Systems",
+      "stem": "Mexico's Chamber of Deputies is elected using",
+      "choices": [
+        { "id": "A", "text": "a mixed system with 300 single-member district seats and 200 proportional representation seats" },
+        { "id": "B", "text": "only single-member districts" },
+        { "id": "C", "text": "only proportional representation" },
+        { "id": "D", "text": "appointment by the president" }
+      ],
+      "answer": "A",
+      "explanation": "The 500-seat chamber combines both methods.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q06", "tier": "Exam level", "type": "mcq", "topic": "Elections",
+      "stem": "Nigeria requires a winning presidential candidate to receive at least 25% of the vote in at least two-thirds of the states (and the capital) primarily to",
+      "choices": [
+        { "id": "A", "text": "ensure the president has support across regions rather than only from one ethnic or regional base" },
+        { "id": "B", "text": "guarantee a runoff in every election" },
+        { "id": "C", "text": "prevent parties from forming" },
+        { "id": "D", "text": "give the military a role in elections" }
+      ],
+      "answer": "A",
+      "explanation": "The rule addresses Nigeria's regional and ethnic cleavages.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q07", "tier": "Exam level", "type": "mcq", "topic": "Parties",
+      "stem": "Russia's Communist Party and LDPR are best described as",
+      "choices": [
+        { "id": "A", "text": "'systemic' opposition parties that hold Duma seats but rarely challenge the Kremlin on core issues" },
+        { "id": "B", "text": "banned parties" },
+        { "id": "C", "text": "the ruling coalition's senior partner" },
+        { "id": "D", "text": "nonsystemic opposition led by Navalny" }
+      ],
+      "answer": "A",
+      "explanation": "Tolerated parties give an appearance of pluralism.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q08", "tier": "Exam level", "type": "mcq", "topic": "Interest Groups",
+      "stem": "China's All-China Federation of Trade Unions illustrates",
+      "choices": [
+        { "id": "A", "text": "state corporatism, because it is the only legal union federation and operates under party leadership" },
+        { "id": "B", "text": "pluralism" },
+        { "id": "C", "text": "an independent social movement" },
+        { "id": "D", "text": "a federal system" }
+      ],
+      "answer": "A",
+      "explanation": "Independent unions are not permitted.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q09", "tier": "Exam level", "type": "mcq", "topic": "Parties",
+      "stem": "Which event marked the first time an opposition candidate defeated an incumbent party for Nigeria's presidency?",
+      "choices": [
+        { "id": "A", "text": "The 2015 election won by the APC's Muhammadu Buhari" },
+        { "id": "B", "text": "The 1999 transition to civilian rule" },
+        { "id": "C", "text": "The 2000 election won by Vicente Fox" },
+        { "id": "D", "text": "The 2023 election won by Peter Obi" }
+      ],
+      "answer": "A",
+      "explanation": "Buhari defeated PDP incumbent Goodluck Jonathan. Fox is Mexico; Tinubu (APC), not Obi, won in 2023.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q10", "tier": "Exam level", "type": "mcq", "topic": "Elections",
+      "stem": "Authoritarian regimes such as Russia and Iran hold elections mainly because elections",
+      "choices": [
+        { "id": "A", "text": "provide legitimacy and information about public opinion while managed rules limit the risk of losing power" },
+        { "id": "B", "text": "are required by the United Nations" },
+        { "id": "C", "text": "always lead to alternation in power" },
+        { "id": "D", "text": "eliminate the need for security forces" }
+      ],
+      "answer": "A",
+      "explanation": "Managed elections bolster the regime without real uncertainty.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q11", "tier": "Hardest", "type": "mcq", "topic": "Electoral Systems",
+      "stem": "Under single-member district plurality, a regional party such as the SNP can win many seats with a modest national vote share, while a party with similar national support spread evenly wins few seats. This is because",
+      "choices": [
+        { "id": "A", "text": "seats are won district by district, so geographically concentrated support translates into plurality wins" },
+        { "id": "B", "text": "regional parties receive bonus PR seats" },
+        { "id": "C", "text": "SMD systems allocate seats by national vote share" },
+        { "id": "D", "text": "the House of Lords allocates extra seats to Scotland" }
+      ],
+      "answer": "A",
+      "explanation": "Concentration matters more than total votes under SMD.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q12", "tier": "Hardest", "type": "mcq", "topic": "Electoral Systems",
+      "stem": "A country switches its legislature from pure PR with a 2% threshold to SMD plurality. Which outcome is most likely?",
+      "choices": [
+        { "id": "A", "text": "Fewer parties win seats and single-party majorities become more common." },
+        { "id": "B", "text": "More small parties win seats." },
+        { "id": "C", "text": "Seat shares become more proportional to vote shares." },
+        { "id": "D", "text": "Coalition governments become more common." }
+      ],
+      "answer": "A",
+      "explanation": "SMD's mechanical and psychological effects reduce the number of parties.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q13", "tier": "Hardest", "type": "mcq", "topic": "Electoral Systems",
+      "stimulus": "UK general election, 2024 (approximate)\n\nParty | Vote share | Seats (of 650)\nLabour | 33.7% | 411\nConservative | 23.7% | 121\nReform UK | 14.3% | 5\nLiberal Democrat | 12.2% | 72",
+      "stem": "Which conclusion is best supported by the data?",
+      "choices": [
+        { "id": "A", "text": "Liberal Democrat support was more geographically concentrated than Reform UK's, allowing more district wins with a smaller vote share." },
+        { "id": "B", "text": "Reform UK won a seat share roughly equal to its vote share." },
+        { "id": "C", "text": "Labour won a majority of the popular vote." },
+        { "id": "D", "text": "The UK uses proportional representation." }
+      ],
+      "answer": "A",
+      "explanation": "72 seats on 12.2% vs 5 seats on 14.3% reflects concentration under SMD. Labour won 63% of seats with about a third of votes.",
+      "distractors": { "C": "33.7% is not a majority of votes." }
+    },
+    {
+      "id": "u4-q14", "tier": "Hardest", "type": "mcq", "topic": "Interest Groups",
+      "stem": "Under PRI rule (before 2000), Mexican labor and peasant confederations were incorporated into the party. This arrangement most directly",
+      "choices": [
+        { "id": "A", "text": "gave the regime a way to deliver benefits and control mobilization, sustaining dominant-party rule" },
+        { "id": "B", "text": "created a pluralist system of independent groups" },
+        { "id": "C", "text": "produced proportional representation" },
+        { "id": "D", "text": "weakened the presidency" }
+      ],
+      "answer": "A",
+      "explanation": "Corporatist incorporation combined with clientelism helped the PRI hold power for 71 years.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-frq1", "tier": "Exam level", "type": "frq", "topic": "Electoral Systems", "frqType": "Q2 Quantitative Analysis",
+      "prompt": "UK general election, 2024 (approximate)\n\nParty | Vote share | Seats won (of 650) | Seat share\nLabour | 33.7% | 411 | 63.2%\nConservative | 23.7% | 121 | 18.6%\nReform UK | 14.3% | 5 | 0.8%\nLiberal Democrat | 12.2% | 72 | 11.1%\nGreen | 6.7% | 4 | 0.6%\n\nUse the table to answer A through E.",
+      "parts": [
+        { "label": "A", "prompt": "Identify the party whose seat share most exceeded its vote share.", "points": 1 },
+        { "label": "B", "prompt": "Describe the relationship between vote share and seat share for Reform UK and the Liberal Democrats.", "points": 1 },
+        { "label": "C", "prompt": "Draw a conclusion about how the UK's electoral system affects smaller parties, based on the data.", "points": 1 },
+        { "label": "D", "prompt": "Explain how the electoral system used for the House of Commons produces the pattern in the data.", "points": 1 },
+        { "label": "E", "prompt": "Explain how the pattern in the data affects the formation of the UK government.", "points": 1 }
+      ],
+      "points": 5,
+      "minutes": 20,
+      "rubric": [
+        { "criterion": "A", "points": 1, "description": "Labour (63.2% of seats vs 33.7% of votes)." },
+        { "criterion": "B", "points": 1, "description": "Reform won more votes than the Lib Dems but far fewer seats (5 vs 72); vote share and seat share are not proportional." },
+        { "criterion": "C", "points": 1, "description": "Small parties with dispersed support are underrepresented, while those with concentrated support fare better." },
+        { "criterion": "D", "points": 1, "description": "SMD plurality: one winner per district; votes for losing candidates win nothing, so parties need to finish first in specific districts." },
+        { "criterion": "E", "points": 1, "description": "The largest party usually wins a Commons majority alone, so a single-party government forms without coalition; the PM controls the agenda." }
+      ],
+      "sampleResponse": "A. Labour's seat share (63.2%) most exceeded its vote share (33.7%).\n\nB. Reform UK won a larger vote share than the Liberal Democrats (14.3% vs 12.2%) but won only 5 seats compared with 72, so vote share did not translate proportionally into seats.\n\nC. The UK system disadvantages smaller parties unless their support is concentrated in particular areas.\n\nD. The House of Commons uses single-member district plurality, so each constituency elects only the candidate with the most votes. A party that finishes second in many districts, like Reform, wins few seats, while a party whose voters are clustered, like the Liberal Democrats, can win many districts.\n\nE. Because the system turned about a third of the vote into a large majority of seats, Labour could form a single-party majority government without a coalition, allowing the prime minister to pass the party's program through Parliament."
+    }
+  ]
+}

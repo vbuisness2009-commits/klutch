@@ -19,6 +19,38 @@
       {
         "heading": "Safe computing",
         "body": "Personally identifiable information (PII) such as name, address, birthdate, and Social Security number can identify an individual; data collected by apps, websites (cookies), and devices (location) can be aggregated to reveal much more than expected. Authentication protects accounts: strong passwords, and multifactor authentication (something you know, have, and are). Encryption encodes data so only authorized parties can read it: symmetric encryption uses one shared key; public-key encryption uses a public key to encrypt and a private key to decrypt. Certificate authorities issue digital certificates to verify a site's identity. Threats include malware and viruses (malicious programs that can copy themselves), phishing (tricking users into revealing information), keylogging (recording keystrokes), and rogue access points (unauthorized wireless networks that intercept traffic). Keeping software updated patches vulnerabilities."
+      },
+      {
+        "heading": "Worked example: evaluating an innovation",
+        "body": "Consider a facial recognition system for unlocking phones. Benefits include convenience and security. Harms include privacy risks if biometric data is stolen and bias if the system performs worse for some groups because of unrepresentative training data. The same technology used for public surveillance raises further concerns about civil liberties. Exam questions ask you to identify both beneficial and harmful effects, including unintended consequences, and to consider who is affected."
+      },
+      {
+        "heading": "Safe computing practices",
+        "body": "Protect personal information with strong, unique passwords and multifactor authentication. Recognize phishing attempts, which trick users into revealing information, and avoid suspicious links and attachments. Encryption protects data: symmetric encryption uses one shared key, while public key encryption uses a public key to encrypt and a private key to decrypt. Malware, including viruses and ransomware, can damage systems or hold data hostage. Keep software updated to fix security vulnerabilities."
+      },
+      {
+        "heading": "Legal and ethical issues",
+        "body": "Intellectual property laws protect creators. Creative Commons licenses let creators specify how others may use their work, and open source software allows anyone to view and modify code. The digital divide, unequal access to computing and the internet based on income, location, or other factors, affects education and economic opportunity."
+      },
+      {
+        "heading": "Exam tip",
+        "body": "For impact questions, name a specific effect and explain who benefits or is harmed."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know digital divide, bias, crowdsourcing, citizen science, intellectual property, Creative Commons, open source, PII, phishing, malware, encryption, and multifactor authentication."
+      },
+      {
+        "heading": "Practice routine",
+        "body": "For any new app or device you encounter, list one benefit, one harm, and one group that might be affected unequally. Review your own online security practices, such as passwords and multifactor authentication, and be ready to explain how encryption protects data in transit."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Impact questions reward balanced, specific analysis of benefits and harms."
+      },
+      {
+        "heading": "Final tip",
+        "body": "Always consider who benefits and who might be harmed."
       }
     ],
     "keyTakeaways": [

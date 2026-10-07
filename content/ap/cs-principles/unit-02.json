@@ -19,6 +19,30 @@
       {
         "heading": "Extracting information from data",
         "body": "Programs can filter, sort, combine, and visualize data to find patterns that would be impractical manually; processing scales with tools like spreadsheets and databases. Metadata is data about data (a photo's date, location, camera); it helps organize and find data and can reveal private information. Data must often be cleaned: fixing inconsistent formats, removing duplicates, and handling missing or incorrect values. Biased or incomplete data leads to biased conclusions. Correlation in data doesn't establish causation. Some questions can't be answered with the available data."
+      },
+      {
+        "heading": "Worked example: binary and bits",
+        "body": "The binary number 10110 equals 1·16 + 0·8 + 1·4 + 1·2 + 0·1 = 22 in decimal. To convert 37 to binary, subtract powers of 2: 37 = 32 + 4 + 1, so 37 is 100101. With n bits you can represent 2ⁿ different values, so 8 bits represent 256 values (0 to 255). Adding one more bit doubles the number of values. Representing 1,000 distinct values requires at least 10 bits, since 2⁹ = 512 is too few and 2¹⁰ = 1,024 is enough."
+      },
+      {
+        "heading": "Compression in practice",
+        "body": "Lossless compression, such as run-length encoding or ZIP files, reduces file size without losing information, so the original can be perfectly reconstructed, which is essential for text and code. Lossy compression, such as JPEG images or MP3 audio, removes some data to achieve much smaller files, acceptable when small quality losses are unnoticeable. Choose lossless when exact reconstruction matters and lossy when reducing size matters more."
+      },
+      {
+        "heading": "Working with data",
+        "body": "Data sets can reveal trends and correlations, but correlation does not imply causation. Cleaning data, such as removing duplicates and standardizing formats, improves accuracy. Metadata, data about data such as a photo's date and location, helps organize and find information but can raise privacy concerns. Bias in how data is collected can lead to biased conclusions."
+      },
+      {
+        "heading": "Exam tip",
+        "body": "On data questions, decide what information the data can and cannot answer before choosing a response."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know bit, byte, binary, overflow, round-off error, analog and digital data, sampling, lossless and lossy compression, metadata, and data cleaning. Analog data, such as sound waves, must be sampled to be represented digitally."
+      },
+      {
+        "heading": "Practice routine",
+        "body": "Practice converting between binary and decimal until it is quick and automatic, and estimate how many bits are needed to represent a given number of values. When working with data sets, ask what questions the data can answer and what bias might exist in how it was collected."
       }
     ],
     "keyTakeaways": [

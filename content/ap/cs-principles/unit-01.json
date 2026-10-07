@@ -15,6 +15,42 @@
       {
         "heading": "Errors and testing",
         "body": "Syntax errors break the language rules and prevent the program from running. Runtime errors occur during execution (e.g., an index out of range or division by zero). Logic errors make the program run but produce incorrect results. Overflow errors occur when a number exceeds the representable range. Find errors with test cases (including boundary and edge cases), hand tracing, visualizations, debuggers, and adding output statements. Good tests compare actual output to expected output for a range of inputs."
+      },
+      {
+        "heading": "Worked example: iterative development",
+        "body": "A team builds an app that helps students track volunteer hours. They begin by interviewing classmates to identify needs, then sketch screens and write user stories. Their first prototype lets users log hours but crashes when a field is empty. They test with sample inputs, including edge cases like zero and very large numbers, find the bug, and add input validation. Feedback reveals that users want reminders, so they add a notification feature in the next iteration. This process of planning, building, testing, and revising based on feedback is iterative development, and documenting it supports the Create performance task."
+      },
+      {
+        "heading": "Types of errors",
+        "body": "Syntax errors break language rules and prevent the program from running. Runtime errors occur while the program runs, such as dividing by zero or accessing an invalid list index. Logic errors produce incorrect results without crashing, such as using > instead of >=. Overflow errors occur when a number exceeds the range a fixed number of bits can represent. Debugging strategies include adding print statements, tracing code by hand, testing with varied inputs, and using a debugger to step through code."
+      },
+      {
+        "heading": "Collaboration and documentation",
+        "body": "Effective collaboration brings diverse perspectives that help avoid bias and improve programs. Pair programming, in which one person writes code while another reviews it, catches errors early. Comments and documentation explain the purpose of code segments and procedures, helping collaborators and future maintainers. Acknowledge code written by others, including code from libraries or online sources, in your program and performance task."
+      },
+      {
+        "heading": "Exam tip",
+        "body": "Multiple-choice questions often describe a program's behavior and ask which type of error occurred or which test case would reveal a bug. Think about edge cases first."
+      },
+      {
+        "heading": "The Create performance task",
+        "body": "In the Create performance task, you develop a program, submit its code, a video of it running, and a Personalized Project Reference showing a procedure and a list. On exam day, written-response questions ask about your program's design, a procedure, a list, and testing. Choose a program with a clear purpose, a list that manages complexity, and a student-developed procedure with a parameter that uses sequencing, selection, and iteration. Keep notes on how you tested and revised your program so you can answer questions about errors and development."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know program purpose, function, input, output, event, iterative and incremental development, syntax, runtime, logic, and overflow errors, and test cases."
+      },
+      {
+        "heading": "Practice routine",
+        "body": "Practice by writing small programs and deliberately testing edge cases."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Be ready to explain how you tested your Create program and fixed an error."
+      },
+      {
+        "heading": "Final tip",
+        "body": "Document every change you make to your program and why."
       }
     ],
     "keyTakeaways": [

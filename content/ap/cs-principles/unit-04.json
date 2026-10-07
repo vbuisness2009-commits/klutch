@@ -15,6 +15,34 @@
       {
         "heading": "Parallel and distributed computing",
         "body": "Sequential computing runs operations one at a time; its time is the sum of all steps. Parallel computing splits a program into parts that run simultaneously on multiple processors; its time is the time of the sequential portion plus the longest parallel portion. Speedup = sequential time ÷ parallel time. Speedup is limited by parts that must run sequentially and by dependencies between tasks; adding more processors eventually gives diminishing returns. Distributed computing uses multiple devices across a network to solve problems too large for one computer (storage or processing)."
+      },
+      {
+        "heading": "Worked example: routing and redundancy",
+        "body": "Data sent over the internet is broken into packets, each traveling independently and possibly along different routes, then reassembled at the destination. If one router fails, packets can be rerouted through other paths, an example of fault tolerance through redundancy. In a network diagram, count the minimum number of connections that must fail to disconnect two devices; more redundant paths mean greater fault tolerance."
+      },
+      {
+        "heading": "Protocols and the internet",
+        "body": "The internet is a network of networks that relies on open protocols: IP addresses and routes packets, TCP ensures reliable delivery by reordering packets and requesting missing ones, UDP sends data faster without guarantees, HTTP and HTTPS transfer web pages, and DNS translates domain names into IP addresses. The World Wide Web is a system of linked pages that runs on the internet but is not the same thing as the internet."
+      },
+      {
+        "heading": "Exam tip",
+        "body": "For parallel computing questions, add sequential steps to the longest parallel branch to find total time."
+      },
+      {
+        "heading": "Worked example: calculating parallel time",
+        "body": "Suppose a task has three parts that must run in order: A takes 10 seconds, then B and C can run in parallel taking 30 and 20 seconds, then D takes 5 seconds. Sequential execution takes 10 + 30 + 20 + 5 = 65 seconds. With two processors, B and C run at the same time, so the total is 10 + 30 + 5 = 45 seconds. The speedup is 65/45 ≈ 1.44."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know packet, protocol, IP, TCP, UDP, DNS, HTTP, bandwidth, latency, router, redundancy, fault tolerance, scalability, sequential, parallel, and distributed computing, and speedup."
+      },
+      {
+        "heading": "Practice routine",
+        "body": "Draw network diagrams and identify how many connections could fail before two devices lose contact. Calculate sequential and parallel run times for sample tasks, and explain in your own words how TCP, IP, and DNS work together when you load a web page."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Questions about the internet often test the difference between the internet and the web, the role of protocols, and why open standards and redundancy matter. Be ready to explain how packets can take different routes and arrive out of order."
       }
     ],
     "keyTakeaways": [

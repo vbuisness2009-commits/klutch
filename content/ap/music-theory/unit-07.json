@@ -15,6 +15,38 @@
       {
         "heading": "Modulation",
         "body": "Tonicization is brief; modulation establishes a new key, usually confirmed by a cadence. Closely related keys differ from the home key by at most one accidental: for C major, G major, F major, A minor, E minor, and D minor. A common pivot-chord modulation uses a chord diatonic to both keys (e.g., A minor = vi in C = ii in G), followed by the new key's dominant and a cadence. Direct (phrase) modulation shifts keys without a pivot, often at a phrase boundary."
+      },
+      {
+        "heading": "Worked example: identifying secondary dominants",
+        "body": "When you see an accidental in a progression, ask whose dominant it could be. In C major, an F♯ often signals V/V (D–F♯–A) or vii°7/V (F♯–A–C–E♭), resolving to G. A C♯ suggests V/ii (A–C♯–E) resolving to D minor. A G♯ suggests V/vi (E–G♯–B) resolving to A minor. A B♭ often signals V7/IV (C–E–G–B♭) resolving to F. The chromatic note usually acts as a temporary leading tone resolving up by half step, or as a lowered seventh resolving down."
+      },
+      {
+        "heading": "Modulation in practice",
+        "body": "To recognize a modulation, look for consistent accidentals and a cadence in the new key. A pivot chord belongs to both keys; for example, in a modulation from C to G, the A minor chord is vi in C and ii in G. After the pivot, the new key's dominant usually appears, followed by a cadence confirming the new tonic."
+      },
+      {
+        "heading": "Part writing with secondary chords",
+        "body": "Resolve the chromatic leading tone up, do not double it, and resolve any chordal seventh down by step. Avoid cross relations, where a note and its chromatic alteration appear in different voices in consecutive chords."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students forget to resolve chromatic tones and confuse tonicization with modulation."
+      },
+      {
+        "heading": "Worked example: a tonicization in context",
+        "body": "A progression in C major such as I–vi–V7/V–V–I uses V7/V (D–F♯–A–C) to intensify the motion to V. The F♯ rises to G, and the C, the chordal seventh, falls to B. Because the music returns to C major without a cadence in G, this is a tonicization, not a modulation. If the passage continued with a cadence in G and stayed there, it would be a modulation to the dominant."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know secondary dominant, secondary leading-tone chord, tonicization, modulation, pivot chord, direct modulation, closely related keys, and cross relation."
+      },
+      {
+        "heading": "Practice routine",
+        "body": "Play secondary dominants and their resolutions in several keys to learn their sound, and practice spotting accidentals in scores and naming the chords they create. Listen for brief tonicizations in classical pieces and compare them with full modulations confirmed by cadences. Writing a short progression with one secondary dominant each day builds fluency for the part-writing questions."
+      },
+      {
+        "heading": "Free-response connection",
+        "body": "Part-writing questions may include secondary dominants such as V/V or V7/V. Spell the chord with its chromatic note, resolve that note correctly, and avoid doubling it. Harmonic dictation may include a secondary dominant before V; listen for a raised fourth scale degree in the bass or an upper voice."
       }
     ],
     "keyTakeaways": [

@@ -19,6 +19,38 @@
       {
         "heading": "Searching and efficiency",
         "body": "Linear search checks elements in order and works on unsorted lists. Binary search requires a sorted list and halves the search range each step: at most about log₂ n + 1 checks, far fewer than linear search for large lists. Algorithms that run in polynomial time are reasonable; exponential or factorial time is unreasonable for large inputs. Heuristics find approximate solutions when exact ones take too long (e.g., route planning). Some problems are undecidable: no algorithm can solve every instance (e.g., determining whether any program halts)."
+      },
+      {
+        "heading": "Worked example: tracing AP pseudocode",
+        "body": "Consider: x ← 3; REPEAT 4 TIMES { x ← x * 2 }; DISPLAY(x). The loop doubles x four times, so x becomes 48. In AP pseudocode, lists start at index 1, so for nums ← [5, 8, 2], nums[1] is 5 and LENGTH(nums) is 3. A procedure that returns a value uses RETURN, and calling it with arguments substitutes them for parameters. Tracing code carefully, writing each variable's value after each line, is the most reliable way to answer program-tracing questions."
+      },
+      {
+        "heading": "Algorithms and efficiency",
+        "body": "Algorithms can be expressed with sequencing, selection, and iteration. Linear search checks each element and works on unsorted lists; binary search halves a sorted list each step and is much faster for large data. Reasonable-time algorithms grow polynomially with input size; unreasonable-time algorithms, such as checking every possible route in a large traveling-salesperson problem, grow exponentially. When exact solutions are impractical, heuristics provide good-enough answers. Some problems are undecidable, meaning no algorithm can solve them for all inputs."
+      },
+      {
+        "heading": "Simulations",
+        "body": "Simulations model real-world processes, such as disease spread or traffic, often using random numbers. They allow experimentation that would be costly or dangerous in reality but depend on simplifying assumptions, so results may not perfectly match reality."
+      },
+      {
+        "heading": "Exam tip",
+        "body": "Remember that AP pseudocode lists are 1-indexed, unlike most programming languages."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know variable, assignment, list, index, procedure, parameter, argument, return value, library, API, and simulation."
+      },
+      {
+        "heading": "Practice routine",
+        "body": "Trace short pseudocode segments daily, writing each variable's value after every line."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Expect many questions that trace loops and lists."
+      },
+      {
+        "heading": "Final tip",
+        "body": "Check whether loops run the intended number of times."
       }
     ],
     "keyTakeaways": [

@@ -1,0 +1,89 @@
+{
+  "slug": "seminar",
+  "name": "AP Seminar",
+  "lastVerified": "2026-10",
+  "overview": "AP Seminar is the first course in the AP Capstone program. Students investigate real-world issues from multiple perspectives, analyze arguments and evidence, synthesize sources into their own arguments, and communicate through essays and presentations. Skills are organized by the QUEST framework: Question and Explore, Understand and Analyze, Evaluate Multiple Perspectives, Synthesize Ideas, and Team, Transform, and Transmit.",
+  "examMode": "End-of-course exam is fully digital in Bluebook; performance tasks are submitted through the AP Digital Portfolio",
+  "totalMinutes": 120,
+  "sections": [
+    {
+      "name": "Performance Task 1",
+      "questionType": "Team project and presentation",
+      "count": 1,
+      "minutes": 0,
+      "weight": "20%",
+      "notes": "Completed during the year with a team: research on a problem, then a team multimedia presentation with individual oral defense questions."
+    },
+    {
+      "name": "Performance Task 2",
+      "questionType": "Individual research-based essay and presentation",
+      "count": 1,
+      "minutes": 0,
+      "weight": "35%",
+      "notes": "Completed during the year from College Board stimulus materials: an individual written argument, a multimedia presentation, and an oral defense."
+    },
+    {
+      "name": "End-of-course exam, Part A",
+      "questionType": "Short answer on one source",
+      "count": 3,
+      "minutes": 30,
+      "weight": "45% (whole exam)",
+      "notes": "Read one argument and answer three questions: identify the author's argument or main idea, explain the line of reasoning, and evaluate the evidence. Part A is about 30% of the exam score."
+    },
+    {
+      "name": "End-of-course exam, Part B",
+      "questionType": "Argument essay from four sources",
+      "count": 1,
+      "minutes": 90,
+      "weight": "45% (whole exam)",
+      "notes": "Read four sources on a theme, identify a research question or issue, and write an evidence-based argument using at least two of the sources. Part B is about 70% of the exam score."
+    }
+  ],
+  "units": [
+    { "number": 1, "title": "Question and Explore" },
+    { "number": 2, "title": "Understand and Analyze" },
+    { "number": 3, "title": "Evaluate Multiple Perspectives" },
+    { "number": 4, "title": "Synthesize Ideas" },
+    { "number": 5, "title": "Team, Transform, and Transmit" }
+  ],
+  "skills": [
+    { "name": "Question and Explore", "description": "Ask focused questions, choose lenses, and find and evaluate sources." },
+    { "name": "Understand and Analyze", "description": "Identify an argument's claims, line of reasoning, and evidence, and judge how well they work." },
+    { "name": "Evaluate Multiple Perspectives", "description": "Compare perspectives, find where they agree and differ, and judge their strengths and limits." },
+    { "name": "Synthesize Ideas", "description": "Combine evidence into your own argument, address other views, and cite sources properly." },
+    { "name": "Team, Transform, and Transmit", "description": "Collaborate, adapt communication to an audience, and reflect on the process." }
+  ],
+  "scoring": {
+    "summary": "Team project and presentation 20%, individual essay and presentation 35%, end-of-course exam 45%. On the exam, Part A (three short answers) is about 30% and Part B (the argument essay) about 70%. Responses are scored with analytic rubric rows. Klutch's practice tasks use simplified point scales, not the official ones."
+  },
+  "frqTypes": [
+    { "name": "Part A Q1: Identify the argument", "points": 3, "howScored": "Klutch practice scale: the main claim, the key supporting reasons, and an accurate paraphrase that doesn't distort the author's position." },
+    { "name": "Part A Q2: Explain the line of reasoning", "points": 6, "howScored": "Klutch practice scale: identifies the claims, explains how they connect logically toward the conclusion, and does so accurately and in order." },
+    { "name": "Part A Q3: Evaluate the evidence", "points": 6, "howScored": "Klutch practice scale: names specific evidence, judges its relevance and credibility, and explains how its strengths and limits affect the argument." },
+    { "name": "Part B: Argument essay", "points": 12, "howScored": "Klutch practice scale: a clear argument (3), evidence from at least two sources (3), engagement with other perspectives (2), a logical line of reasoning (2), and clear writing with attribution (2)." },
+    { "name": "Skill task", "points": 6, "howScored": "Unit-specific practice tasks (research questions, source evaluation, oral defense) scored by the rubric shown with each task." }
+  ],
+  "strategy": [
+    "In Part A, spend the first minutes mapping the passage: the main claim, each reason, and the evidence for each.",
+    "Answer Part A Q1 in two or three sentences; it rewards accuracy, not length.",
+    "For Part A Q3, judge evidence by relevance, credibility, and sufficiency, and say how each strength or weakness affects the argument.",
+    "In Part B, write a research question you can actually argue about, then build the argument from at least two sources (three is safer), using their ideas, not just quotes.",
+    "Address an opposing or alternative perspective and respond to it; this is what separates high Part B scores.",
+    "Attribute every source in the text ('According to the economist in Source C...')."
+  ],
+  "pitfalls": [
+    "Summarizing sources in Part B instead of making your own argument.",
+    "Calling evidence 'credible' without explaining why (author expertise, publication, method, date).",
+    "Picking a Part B question so broad that the essay becomes a list of facts.",
+    "Agreeing with every source; synthesis means showing how ideas relate, including tensions.",
+    "In presentations, reading slides aloud instead of speaking to the audience."
+  ],
+  "sources": [
+    { "title": "AP Seminar Assessment Overview (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-seminar/exam" }
+  ],
+  "caveats": [
+    "Performance-task components and rubrics are revised periodically; check AP Central for the current task directions.",
+    "Point values on Klutch's practice tasks are simplified practice scales, not College Board's rubric rows.",
+    "All practice passages and sources are written by Klutch; authors and data in them are fictional unless stated otherwise."
+  ]
+}

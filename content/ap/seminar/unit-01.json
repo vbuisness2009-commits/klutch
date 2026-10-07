@@ -1,0 +1,412 @@
+{
+  "number": 1,
+  "title": "Question and Explore",
+  "guide": {
+    "summary": "Question and Explore is the starting point of inquiry: noticing a problem, writing focused research questions, looking at issues through different lenses, and finding and judging sources.",
+    "sections": [
+      {
+        "heading": "Questions and lenses",
+        "body": "Good research questions are open-ended, focused, researchable, and arguable: they can't be answered with a fact lookup, they're narrow enough to cover in the assignment's length, and reasonable people could disagree. Broad topics ('social media') become questions by adding a population, place, time, or mechanism ('How does nightly phone use affect sleep among U.S. high school students?'). Lenses are disciplinary angles on an issue: cultural and social, economic, environmental, ethical, futuristic, historical, political, scientific, and artistic or philosophical. Applying two or three lenses to the same topic reveals different stakeholders and kinds of evidence: an economic lens on a four-day school week asks about cost savings and parents' childcare costs, an ethical lens about fairness to students without supervision on the fifth day, and a scientific lens about learning and fatigue."
+      },
+      {
+        "heading": "Finding sources",
+        "body": "Primary sources are original material (data sets, interviews, speeches, experiments); secondary sources interpret or summarize them. Scholarly sources are written by experts, cite their evidence, and often go through peer review; popular sources (news, magazines, blogs) are timelier and more accessible but vary in rigor. Search strategies include choosing precise keywords and synonyms, using Boolean operators (AND narrows, OR broadens, NOT excludes), searching databases such as JSTOR or Google Scholar, and mining a strong source's reference list. Keep a research log and an annotated bibliography that records each source's argument, method, and usefulness."
+      },
+      {
+        "heading": "Judging credibility",
+        "body": "Evaluate each source on several dimensions: the author's expertise and possible bias or conflicts of interest; the publisher and whether there is editorial or peer review; the date and whether the field has changed since; the method (sample size, how data were collected, whether claims match what the evidence can show); and corroboration by other credible sources. A source can be credible and still limited, for example a well-designed study of rural districts may not apply to cities. Bias is not automatically disqualifying: an advocacy group's report may still contain accurate data, but you should check it against independent evidence and acknowledge the perspective."
+      }
+    ],
+    "keyTakeaways": [
+      "Turn topics into focused, arguable questions.",
+      "Use lenses to uncover different stakeholders and evidence.",
+      "Know primary vs secondary and scholarly vs popular.",
+      "Judge credibility by author, publisher, date, method, and corroboration.",
+      "Credible does not mean unlimited; note scope."
+    ],
+    "commonMistakes": [
+      "Writing yes/no or fact-lookup questions.",
+      "Equating 'published online' with credible or not credible.",
+      "Ignoring sample size and who was surveyed.",
+      "Treating any bias as automatic disqualification.",
+      "Choosing a question too broad to answer well."
+    ],
+    "examTips": [
+      "In Part B, frame a research question from the sources' shared theme before you outline.",
+      "When evaluating evidence, name the specific weakness (small sample, self-selected, outdated).",
+      "Use lenses to find an angle other students will miss."
+    ],
+    "cramSheet": "**Good RQ:** open · focused · researchable · arguable\n\n**Lenses:** cultural/social · economic · environmental · ethical · futuristic · historical · political · scientific · artistic/philosophical\n\n**Sources:** primary vs secondary · scholarly vs popular · peer review\n\n**Search:** keywords · AND/OR/NOT · databases · reference lists\n\n**Credibility:** author · publisher · date · method · corroboration · bias"
+  },
+  "vocab": [
+    {
+      "term": "Research question",
+      "definition": "An open-ended, focused question that guides an inquiry and can be answered through argument."
+    },
+    {
+      "term": "Lens",
+      "definition": "A disciplinary perspective, such as economic or ethical, used to examine an issue."
+    },
+    {
+      "term": "Stakeholder",
+      "definition": "A person or group affected by or invested in an issue."
+    },
+    {
+      "term": "Primary source",
+      "definition": "Original material, such as data, interviews, or speeches."
+    },
+    {
+      "term": "Secondary source",
+      "definition": "A work that interprets or analyzes primary sources."
+    },
+    {
+      "term": "Peer review",
+      "definition": "Evaluation of scholarly work by experts before publication."
+    },
+    {
+      "term": "Scholarly source",
+      "definition": "A work by experts that cites evidence, usually in academic journals or books."
+    },
+    {
+      "term": "Popular source",
+      "definition": "A work for a general audience, such as news articles or blogs."
+    },
+    {
+      "term": "Credibility",
+      "definition": "How trustworthy a source is, based on author, method, publisher, and corroboration."
+    },
+    {
+      "term": "Boolean operators",
+      "definition": "Search terms (AND, OR, NOT) that narrow or broaden database searches."
+    },
+    {
+      "term": "Annotated bibliography",
+      "definition": "A list of sources with notes summarizing and evaluating each."
+    },
+    {
+      "term": "Scope",
+      "definition": "The limits of what a source or question covers, such as population, place, or time."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u1-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Research Questions",
+      "stem": "Which is the strongest research question for an AP Seminar inquiry?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To what extent do later school start times improve sleep and attendance among U.S. high school students?"
+        },
+        {
+          "id": "B",
+          "text": "What time do most U.S. high schools start?"
+        },
+        {
+          "id": "C",
+          "text": "Is sleep important?"
+        },
+        {
+          "id": "D",
+          "text": "Schools and sleep"
+        }
+      ],
+      "answer": "A",
+      "explanation": "It is focused, researchable, and arguable. B is a fact lookup, C is a yes/no question with an obvious answer, and D is a topic, not a question.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Lenses",
+      "stem": "A student asks whether a city should ban gas-powered leaf blowers. Which question applies an ethical lens?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Is it fair to impose replacement costs on small landscaping businesses run by low-income owners?"
+        },
+        {
+          "id": "B",
+          "text": "How much noise do leaf blowers produce in decibels?"
+        },
+        {
+          "id": "C",
+          "text": "How have leaf blower sales changed since 1990?"
+        },
+        {
+          "id": "D",
+          "text": "What emissions do two-stroke engines produce?"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Ethical lenses ask about fairness and obligations. B and D are scientific, C historical/economic.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q03",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Credibility",
+      "stimulus": "Practice passage (written by Klutch; the author and data are fictional)\n\n**The Case for a Four-Day School Week** — an education columnist, writing in a regional newspaper\n\nDistricts across the country are struggling to hire and keep teachers, and budgets are tighter every year. A four-day school week addresses both problems. When a rural district in our state switched to a four-day week, it reported saving about 2 percent of its annual budget on transportation, utilities, and substitute teachers. More important, teachers want it: in a survey I conducted of teachers at three schools in my own district, 80 percent said they would prefer a four-day schedule, and several told me they would turn down higher-paying jobs elsewhere to keep it.\n\nCritics worry that students will learn less. But a study of rural districts that adopted the schedule found only small differences in test scores, and some districts saw attendance rise because families scheduled appointments on the fifth day. Longer school days make up for the lost time. The evidence is clear: every district should adopt the four-day week.",
+      "stem": "Which detail most weakens the 80 percent statistic in the passage?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It comes from an informal survey the author conducted at three schools in the author's own district."
+        },
+        {
+          "id": "B",
+          "text": "It is expressed as a percentage."
+        },
+        {
+          "id": "C",
+          "text": "It concerns teachers rather than students."
+        },
+        {
+          "id": "D",
+          "text": "It appears in the first paragraph."
+        }
+      ],
+      "answer": "A",
+      "explanation": "A small, informal, nonrandom sample run by an advocate can't be generalized to all teachers.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q04",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Sources",
+      "stem": "Which would be a primary source for research on four-day school weeks?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A district's attendance records before and after switching schedules"
+        },
+        {
+          "id": "B",
+          "text": "A magazine article summarizing several studies"
+        },
+        {
+          "id": "C",
+          "text": "A textbook chapter on school reform"
+        },
+        {
+          "id": "D",
+          "text": "A literature review in an education journal"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Raw records are original data; the others interpret existing work.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q05",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Scope",
+      "stimulus": "Practice passage (written by Klutch; the author and data are fictional)\n\n**The Case for a Four-Day School Week** — an education columnist, writing in a regional newspaper\n\nDistricts across the country are struggling to hire and keep teachers, and budgets are tighter every year. A four-day school week addresses both problems. When a rural district in our state switched to a four-day week, it reported saving about 2 percent of its annual budget on transportation, utilities, and substitute teachers. More important, teachers want it: in a survey I conducted of teachers at three schools in my own district, 80 percent said they would prefer a four-day schedule, and several told me they would turn down higher-paying jobs elsewhere to keep it.\n\nCritics worry that students will learn less. But a study of rural districts that adopted the schedule found only small differences in test scores, and some districts saw attendance rise because families scheduled appointments on the fifth day. Longer school days make up for the lost time. The evidence is clear: every district should adopt the four-day week.",
+      "stem": "The author cites a study of rural districts to answer critics. The most significant limitation of using it to support the conclusion is that",
+      "choices": [
+        {
+          "id": "A",
+          "text": "the conclusion applies to every district, but the study examined only rural districts, which may differ from urban or suburban ones"
+        },
+        {
+          "id": "B",
+          "text": "studies of test scores are never useful"
+        },
+        {
+          "id": "C",
+          "text": "rural districts don't have teachers"
+        },
+        {
+          "id": "D",
+          "text": "the study found test score differences were large"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The evidence's scope is narrower than the claim's scope.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q06",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Search Strategy",
+      "stem": "A student searching a database gets 40,000 results for 'school schedule.' Which revision best narrows the search to relevant scholarly work?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "\"four-day school week\" AND (achievement OR attendance)"
+        },
+        {
+          "id": "B",
+          "text": "school OR schedule"
+        },
+        {
+          "id": "C",
+          "text": "school NOT education"
+        },
+        {
+          "id": "D",
+          "text": "schedule"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A quoted phrase plus AND narrows; OR inside parentheses keeps related outcomes.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-t01",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Research Questions",
+      "frqType": "Skill task",
+      "stimulus": "Practice passage (written by Klutch; the author and data are fictional)\n\n**The Case for a Four-Day School Week** — an education columnist, writing in a regional newspaper\n\nDistricts across the country are struggling to hire and keep teachers, and budgets are tighter every year. A four-day school week addresses both problems. When a rural district in our state switched to a four-day week, it reported saving about 2 percent of its annual budget on transportation, utilities, and substitute teachers. More important, teachers want it: in a survey I conducted of teachers at three schools in my own district, 80 percent said they would prefer a four-day schedule, and several told me they would turn down higher-paying jobs elsewhere to keep it.\n\nCritics worry that students will learn less. But a study of rural districts that adopted the schedule found only small differences in test scores, and some districts saw attendance rise because families scheduled appointments on the fifth day. Longer school days make up for the lost time. The evidence is clear: every district should adopt the four-day week.",
+      "prompt": "A district is considering adopting the four-day school week described in the passage.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Write three research questions about this issue, each from a different lens. Label each lens.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Make sure each question clearly reflects its lens.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "For one question, identify a key stakeholder and a specific type of evidence you would look for.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "A",
+          "points": 2,
+          "description": "Each question focused, open-ended, and arguable (1 point for two strong questions, 2 for three)."
+        },
+        {
+          "criterion": "B",
+          "points": 2,
+          "description": "Each question clearly reflects its labeled lens."
+        },
+        {
+          "criterion": "C",
+          "points": 2,
+          "description": "Explains a specific stakeholder and a type of evidence relevant to the chosen question."
+        }
+      ],
+      "sampleResponse": "A/B. Economic lens: To what extent do four-day school weeks reduce costs for districts while increasing childcare costs for working families? Ethical lens: Does a four-day week fairly serve students who depend on school for meals and supervision? Scientific lens: How do longer school days affect student attention and learning compared with five shorter days?\n\nC. For the ethical question, low-income families are a key stakeholder; I would look for data on how many students use school meal programs and survey results from families about fifth-day supervision."
+    },
+    {
+      "id": "u1-t02",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Argument",
+      "frqType": "Part A Q1: Identify the argument",
+      "stimulus": "Practice passage (written by Klutch; the author and data are fictional)\n\n**The Case for a Four-Day School Week** — an education columnist, writing in a regional newspaper\n\nDistricts across the country are struggling to hire and keep teachers, and budgets are tighter every year. A four-day school week addresses both problems. When a rural district in our state switched to a four-day week, it reported saving about 2 percent of its annual budget on transportation, utilities, and substitute teachers. More important, teachers want it: in a survey I conducted of teachers at three schools in my own district, 80 percent said they would prefer a four-day schedule, and several told me they would turn down higher-paying jobs elsewhere to keep it.\n\nCritics worry that students will learn less. But a study of rural districts that adopted the schedule found only small differences in test scores, and some districts saw attendance rise because families scheduled appointments on the fifth day. Longer school days make up for the lost time. The evidence is clear: every district should adopt the four-day week.",
+      "prompt": "Identify the author's argument, main idea, or thesis.",
+      "points": 3,
+      "minutes": 8,
+      "rubric": [
+        {
+          "criterion": "Main claim",
+          "points": 1,
+          "description": "Every district should adopt a four-day school week."
+        },
+        {
+          "criterion": "Supporting reasons",
+          "points": 1,
+          "description": "It saves money, helps recruit and keep teachers, and does not significantly harm learning."
+        },
+        {
+          "criterion": "Accuracy",
+          "points": 1,
+          "description": "Paraphrases accurately without adding claims the author didn't make."
+        }
+      ],
+      "sampleResponse": "The author argues that all school districts should adopt a four-day school week because it saves money, makes it easier to hire and keep teachers, and, according to the author, does not meaningfully reduce student learning since longer days make up for lost time."
+    },
+    {
+      "id": "u1-t03",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Credibility",
+      "frqType": "Part A Q3: Evaluate the evidence",
+      "stimulus": "Practice passage (written by Klutch; the author and data are fictional)\n\n**The Case for a Four-Day School Week** — an education columnist, writing in a regional newspaper\n\nDistricts across the country are struggling to hire and keep teachers, and budgets are tighter every year. A four-day school week addresses both problems. When a rural district in our state switched to a four-day week, it reported saving about 2 percent of its annual budget on transportation, utilities, and substitute teachers. More important, teachers want it: in a survey I conducted of teachers at three schools in my own district, 80 percent said they would prefer a four-day schedule, and several told me they would turn down higher-paying jobs elsewhere to keep it.\n\nCritics worry that students will learn less. But a study of rural districts that adopted the schedule found only small differences in test scores, and some districts saw attendance rise because families scheduled appointments on the fifth day. Longer school days make up for the lost time. The evidence is clear: every district should adopt the four-day week.",
+      "prompt": "Evaluate the effectiveness of the evidence the author uses to support the argument.",
+      "points": 6,
+      "minutes": 12,
+      "rubric": [
+        {
+          "criterion": "Specific evidence",
+          "points": 2,
+          "description": "Discusses at least two specific pieces of evidence (2% savings, 80% survey, rural study, attendance)."
+        },
+        {
+          "criterion": "Relevance and credibility",
+          "points": 2,
+          "description": "Judges relevance and credibility, e.g., small self-run survey, single district, rural scope."
+        },
+        {
+          "criterion": "Effect on argument",
+          "points": 2,
+          "description": "Explains how the limits weaken the claim that every district should switch."
+        }
+      ],
+      "sampleResponse": "The author's evidence is relevant but too limited to support the sweeping conclusion. The 2 percent budget savings from one rural district is concrete and relevant to cost, but it comes from a single district and is modest, so it doesn't show savings everywhere or that they are large. The 80 percent teacher preference statistic is the weakest evidence: the author ran the survey personally at only three schools in the author's own district, so the sample is small, possibly biased by how he asked, and not representative. The study on test scores is the most credible-sounding evidence because it is a study, but it examined only rural districts, while the author concludes that every district should adopt the policy. Finally, the claim that longer days 'make up' for lost time is asserted without evidence. Because the evidence covers narrow settings and relies on unrepresentative samples, it supports a cautious claim that four-day weeks can work in some rural districts, not that every district should adopt them."
+    },
+    {
+      "id": "u1-t04",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Credibility",
+      "frqType": "Skill task",
+      "prompt": "A student finds four sources on four-day school weeks.\n\nSource W: a peer-reviewed economics study (2021) of 300 districts.\nSource X: a 2015 blog post by a parent who opposes the policy.\nSource Y: a press release from a company that sells scheduling software for four-day weeks.\nSource Z: a national news investigation that interviewed teachers and administrators in five states.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Rank the sources from most to least credible.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Justify your ranking using specific credibility criteria.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Explain how one of the less credible sources could still be useful in your research.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 12,
+      "rubric": [
+        {
+          "criterion": "Ranking",
+          "points": 2,
+          "description": "Reasonable ranking with W most credible; Y and X least, with any defensible order."
+        },
+        {
+          "criterion": "Reasons",
+          "points": 2,
+          "description": "Uses specific credibility criteria (peer review, sample, conflict of interest, date)."
+        },
+        {
+          "criterion": "Use of weak source",
+          "points": 2,
+          "description": "Explains how a less credible source could still be used responsibly (e.g., X for parent perspective)."
+        }
+      ],
+      "sampleResponse": "A. Most to least credible: W, Z, X, Y.\n\nB. W is peer reviewed, recent, and studies 300 districts, so it has a strong method and large sample. Z is a professional news investigation with multiple interviews across five states, but it's not peer reviewed and interviews may not be representative. X is one parent's opinion and is old. Y has a direct financial conflict of interest because the company profits if districts adopt the schedule.\n\nC. I could use X to represent the perspective of parents worried about childcare, as long as I present it as one stakeholder's view and not as evidence of the policy's overall effects."
+    }
+  ]
+}

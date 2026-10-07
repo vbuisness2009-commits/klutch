@@ -1,0 +1,400 @@
+{
+  "number": 2,
+  "title": "Understand and Analyze",
+  "guide": {
+    "summary": "Understand and Analyze is about reading arguments closely: finding the main claim, mapping the line of reasoning, identifying types of evidence, and judging whether the evidence and reasoning actually support the conclusion.",
+    "sections": [
+      {
+        "heading": "Anatomy of an argument",
+        "body": "An argument has a main claim (thesis), supporting claims (reasons), evidence for those reasons, and reasoning that links them. The line of reasoning is the logical path from the first claims to the conclusion; it can be built through cause and effect, comparison, problem and solution, or refutation of an opposing view. In the practice passage, the author's path is: the case against social media relies on correlational studies (claim 1), so causation is unproven; better studies show small effects (claim 2); averages hide teens who benefit (claim 3); other causes are plausible (claim 4); therefore a ban is too blunt, and more targeted regulation is better (conclusion). Concessions ('None of this means social media is harmless') show the author recognizes complexity and make the qualified conclusion more persuasive."
+      },
+      {
+        "heading": "Evidence and reasoning",
+        "body": "Evidence types include statistics, studies, expert testimony, examples, anecdotes, and analogies. Strong evidence is relevant to the specific claim, credible, sufficient (enough of it, from representative samples), and current. Watch for gaps between evidence and claim: correlation presented as causation, a single example generalized to a group, or a study's narrow scope stretched to a broad conclusion. Common reasoning flaws include hasty generalization, false cause (post hoc), false dilemma, slippery slope, appeals to emotion in place of evidence, straw man (misrepresenting opponents), and ad hominem attacks. Identifying an implication (what follows if the argument is right) and a limitation (what the argument does not show) are core analytical moves."
+      },
+      {
+        "heading": "Analyzing for the exam",
+        "body": "Part A Q1 asks you to state the author's argument or main idea accurately in your own words. Q2 asks how the author develops the line of reasoning: name the claims in order and explain how each one connects to the next and to the conclusion, using transition logic ('because the studies are correlational, the author argues...'). Q3 asks you to evaluate evidence: pick specific pieces, judge their relevance and credibility, and explain how their strengths and weaknesses affect the argument's persuasiveness. Avoid summarizing; analysis explains how and how well the argument works. The author's credentials, publication venue, and audience also matter: a researcher writing on a university blog may have expertise but less editorial review than a peer-reviewed article."
+      }
+    ],
+    "keyTakeaways": [
+      "Map claim → reasons → evidence → conclusion.",
+      "Explain how claims connect, not just what they are.",
+      "Judge evidence by relevance, credibility, sufficiency, and currency.",
+      "Correlation is not causation.",
+      "Concessions and qualifications strengthen careful arguments."
+    ],
+    "commonMistakes": [
+      "Summarizing paragraphs instead of explaining the reasoning.",
+      "Calling evidence weak without saying why.",
+      "Missing the author's qualifications and concessions.",
+      "Confusing the author's view with views the author refutes.",
+      "Naming fallacies that are not actually present."
+    ],
+    "examTips": [
+      "Underline the conclusion and number the reasons as you read.",
+      "Use verbs like 'establishes,' 'builds on,' 'qualifies,' and 'refutes' in Q2.",
+      "In Q3, discuss at least two specific pieces of evidence."
+    ],
+    "cramSheet": "**Parts:** main claim · reasons · evidence · reasoning · conclusion\n\n**Structures:** cause/effect · comparison · problem/solution · refutation\n\n**Evidence:** statistics · studies · expert testimony · examples · anecdotes · analogies\n\n**Test:** relevant · credible · sufficient · current\n\n**Flaws:** hasty generalization · false cause · false dilemma · slippery slope · straw man · ad hominem\n\n**Exam:** Q1 identify · Q2 line of reasoning · Q3 evaluate evidence"
+  },
+  "vocab": [
+    {
+      "term": "Claim",
+      "definition": "An arguable statement the author asks readers to accept."
+    },
+    {
+      "term": "Line of reasoning",
+      "definition": "The logical sequence of claims that leads to a conclusion."
+    },
+    {
+      "term": "Evidence",
+      "definition": "Information used to support a claim, such as data, examples, or testimony."
+    },
+    {
+      "term": "Correlation",
+      "definition": "A relationship in which two variables change together, without proof that one causes the other."
+    },
+    {
+      "term": "Causation",
+      "definition": "A relationship in which one factor produces a change in another."
+    },
+    {
+      "term": "Concession",
+      "definition": "Acknowledging a valid point from an opposing view."
+    },
+    {
+      "term": "Rebuttal",
+      "definition": "A response showing why an opposing claim is wrong or limited."
+    },
+    {
+      "term": "Qualifier",
+      "definition": "A word or phrase that limits a claim's scope, such as 'often' or 'in most cases.'"
+    },
+    {
+      "term": "Implication",
+      "definition": "A consequence that follows if an argument is correct."
+    },
+    {
+      "term": "Limitation",
+      "definition": "What an argument or study cannot show."
+    },
+    {
+      "term": "Hasty generalization",
+      "definition": "Drawing a broad conclusion from too little or unrepresentative evidence."
+    },
+    {
+      "term": "Straw man",
+      "definition": "Misrepresenting an opposing argument to make it easier to attack."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u2-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Argument",
+      "stimulus": "Practice passage (written by Klutch; the author and data are fictional)\n\n**Logging Off Won't Save Us** — a commentary by a psychology researcher, published on a university blog\n\nMany parents and politicians claim that social media is the main cause of rising anxiety and depression among teenagers, and some states have proposed banning accounts for anyone under sixteen. This conclusion moves too quickly. The studies most often cited are correlational: they show that teens who spend more time on social media report more symptoms, but they cannot show which comes first. A teen who is already anxious may withdraw into her phone.\n\nLarge studies that do measure effects over time tend to find small average associations, about the same size as the association between well-being and eating potatoes, as one widely discussed analysis put it. Averages also hide differences: some teens, particularly LGBTQ youth in unsupportive communities, report that online groups are a lifeline. Meanwhile, teens face other pressures that rose during the same years, including academic competition and reduced unstructured time with friends.\n\nNone of this means social media is harmless. Platforms should be required to share data with independent researchers and to offer young users strong default privacy settings. But a blanket ban treats a complex problem as a simple one, and it risks cutting off the teens who benefit most.",
+      "stem": "Which best states the author's main claim?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A blanket ban on social media for teens is an overly simple response; targeted regulation is better."
+        },
+        {
+          "id": "B",
+          "text": "Social media is harmless for teenagers."
+        },
+        {
+          "id": "C",
+          "text": "Social media is the main cause of teen depression."
+        },
+        {
+          "id": "D",
+          "text": "Parents should take phones away from teens."
+        }
+      ],
+      "answer": "A",
+      "explanation": "The author argues against a ban while calling for data access and privacy defaults.",
+      "distractors": {
+        "B": "The author explicitly says social media is not harmless."
+      }
+    },
+    {
+      "id": "u2-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Evidence",
+      "stimulus": "Practice passage (written by Klutch; the author and data are fictional)\n\n**Logging Off Won't Save Us** — a commentary by a psychology researcher, published on a university blog\n\nMany parents and politicians claim that social media is the main cause of rising anxiety and depression among teenagers, and some states have proposed banning accounts for anyone under sixteen. This conclusion moves too quickly. The studies most often cited are correlational: they show that teens who spend more time on social media report more symptoms, but they cannot show which comes first. A teen who is already anxious may withdraw into her phone.\n\nLarge studies that do measure effects over time tend to find small average associations, about the same size as the association between well-being and eating potatoes, as one widely discussed analysis put it. Averages also hide differences: some teens, particularly LGBTQ youth in unsupportive communities, report that online groups are a lifeline. Meanwhile, teens face other pressures that rose during the same years, including academic competition and reduced unstructured time with friends.\n\nNone of this means social media is harmless. Platforms should be required to share data with independent researchers and to offer young users strong default privacy settings. But a blanket ban treats a complex problem as a simple one, and it risks cutting off the teens who benefit most.",
+      "stem": "The author's point about correlational studies is primarily used to",
+      "choices": [
+        {
+          "id": "A",
+          "text": "argue that the studies cannot show whether social media causes symptoms or symptoms lead to more use"
+        },
+        {
+          "id": "B",
+          "text": "prove social media improves mental health"
+        },
+        {
+          "id": "C",
+          "text": "attack the character of the researchers"
+        },
+        {
+          "id": "D",
+          "text": "show that teens use social media less than adults"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The author raises the possibility of reverse causation.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q03",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Line of Reasoning",
+      "stimulus": "Practice passage (written by Klutch; the author and data are fictional)\n\n**Logging Off Won't Save Us** — a commentary by a psychology researcher, published on a university blog\n\nMany parents and politicians claim that social media is the main cause of rising anxiety and depression among teenagers, and some states have proposed banning accounts for anyone under sixteen. This conclusion moves too quickly. The studies most often cited are correlational: they show that teens who spend more time on social media report more symptoms, but they cannot show which comes first. A teen who is already anxious may withdraw into her phone.\n\nLarge studies that do measure effects over time tend to find small average associations, about the same size as the association between well-being and eating potatoes, as one widely discussed analysis put it. Averages also hide differences: some teens, particularly LGBTQ youth in unsupportive communities, report that online groups are a lifeline. Meanwhile, teens face other pressures that rose during the same years, including academic competition and reduced unstructured time with friends.\n\nNone of this means social media is harmless. Platforms should be required to share data with independent researchers and to offer young users strong default privacy settings. But a blanket ban treats a complex problem as a simple one, and it risks cutting off the teens who benefit most.",
+      "stem": "How does the sentence 'None of this means social media is harmless' function in the line of reasoning?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It concedes a point to opponents and shifts toward the author's proposed alternative policies."
+        },
+        {
+          "id": "B",
+          "text": "It reverses the author's position entirely."
+        },
+        {
+          "id": "C",
+          "text": "It introduces a new piece of statistical evidence."
+        },
+        {
+          "id": "D",
+          "text": "It is an ad hominem attack."
+        }
+      ],
+      "answer": "A",
+      "explanation": "The concession qualifies the argument before the proposed solutions.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q04",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Reasoning Flaws",
+      "stem": "A speaker argues: 'Either we ban phones in schools completely, or students will never learn to focus again.' This is an example of",
+      "choices": [
+        {
+          "id": "A",
+          "text": "a false dilemma"
+        },
+        {
+          "id": "B",
+          "text": "an analogy"
+        },
+        {
+          "id": "C",
+          "text": "a concession"
+        },
+        {
+          "id": "D",
+          "text": "a qualifier"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Only two extreme options are presented.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q05",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Evidence",
+      "stimulus": "Practice passage (written by Klutch; the author and data are fictional)\n\n**Logging Off Won't Save Us** — a commentary by a psychology researcher, published on a university blog\n\nMany parents and politicians claim that social media is the main cause of rising anxiety and depression among teenagers, and some states have proposed banning accounts for anyone under sixteen. This conclusion moves too quickly. The studies most often cited are correlational: they show that teens who spend more time on social media report more symptoms, but they cannot show which comes first. A teen who is already anxious may withdraw into her phone.\n\nLarge studies that do measure effects over time tend to find small average associations, about the same size as the association between well-being and eating potatoes, as one widely discussed analysis put it. Averages also hide differences: some teens, particularly LGBTQ youth in unsupportive communities, report that online groups are a lifeline. Meanwhile, teens face other pressures that rose during the same years, including academic competition and reduced unstructured time with friends.\n\nNone of this means social media is harmless. Platforms should be required to share data with independent researchers and to offer young users strong default privacy settings. But a blanket ban treats a complex problem as a simple one, and it risks cutting off the teens who benefit most.",
+      "stem": "Which additional evidence would most strengthen the author's claim that a ban 'risks cutting off the teens who benefit most'?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Survey data from a large, representative sample of LGBTQ teens showing how often they rely on online support communities"
+        },
+        {
+          "id": "B",
+          "text": "A quote from a celebrity who dislikes social media"
+        },
+        {
+          "id": "C",
+          "text": "Data showing adults use social media more than teens"
+        },
+        {
+          "id": "D",
+          "text": "A history of the first social media platforms"
+        }
+      ],
+      "answer": "A",
+      "explanation": "It directly and credibly supports the specific claim about who benefits.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q06",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Credibility",
+      "stimulus": "Practice passage (written by Klutch; the author and data are fictional)\n\n**Logging Off Won't Save Us** — a commentary by a psychology researcher, published on a university blog\n\nMany parents and politicians claim that social media is the main cause of rising anxiety and depression among teenagers, and some states have proposed banning accounts for anyone under sixteen. This conclusion moves too quickly. The studies most often cited are correlational: they show that teens who spend more time on social media report more symptoms, but they cannot show which comes first. A teen who is already anxious may withdraw into her phone.\n\nLarge studies that do measure effects over time tend to find small average associations, about the same size as the association between well-being and eating potatoes, as one widely discussed analysis put it. Averages also hide differences: some teens, particularly LGBTQ youth in unsupportive communities, report that online groups are a lifeline. Meanwhile, teens face other pressures that rose during the same years, including academic competition and reduced unstructured time with friends.\n\nNone of this means social media is harmless. Platforms should be required to share data with independent researchers and to offer young users strong default privacy settings. But a blanket ban treats a complex problem as a simple one, and it risks cutting off the teens who benefit most.",
+      "stem": "Which consideration about the source is most relevant to judging its credibility?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The author is a psychology researcher, but the piece appears on a blog rather than in a peer-reviewed journal and doesn't cite specific studies by name."
+        },
+        {
+          "id": "B",
+          "text": "The piece mentions potatoes."
+        },
+        {
+          "id": "C",
+          "text": "The piece is written in the first person."
+        },
+        {
+          "id": "D",
+          "text": "The piece is about teenagers."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Expertise supports credibility, while venue and lack of specific citations limit verification.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-t01",
+      "tier": "Intro",
+      "type": "frq",
+      "topic": "Argument",
+      "frqType": "Part A Q1: Identify the argument",
+      "stimulus": "Practice passage (written by Klutch; the author and data are fictional)\n\n**Logging Off Won't Save Us** — a commentary by a psychology researcher, published on a university blog\n\nMany parents and politicians claim that social media is the main cause of rising anxiety and depression among teenagers, and some states have proposed banning accounts for anyone under sixteen. This conclusion moves too quickly. The studies most often cited are correlational: they show that teens who spend more time on social media report more symptoms, but they cannot show which comes first. A teen who is already anxious may withdraw into her phone.\n\nLarge studies that do measure effects over time tend to find small average associations, about the same size as the association between well-being and eating potatoes, as one widely discussed analysis put it. Averages also hide differences: some teens, particularly LGBTQ youth in unsupportive communities, report that online groups are a lifeline. Meanwhile, teens face other pressures that rose during the same years, including academic competition and reduced unstructured time with friends.\n\nNone of this means social media is harmless. Platforms should be required to share data with independent researchers and to offer young users strong default privacy settings. But a blanket ban treats a complex problem as a simple one, and it risks cutting off the teens who benefit most.",
+      "prompt": "Identify the author's argument, main idea, or thesis.",
+      "points": 3,
+      "minutes": 8,
+      "rubric": [
+        {
+          "criterion": "Main claim",
+          "points": 1,
+          "description": "A blanket under-16 ban is an oversimplified response to teen mental health problems."
+        },
+        {
+          "criterion": "Supporting reasons",
+          "points": 1,
+          "description": "Evidence linking social media to harm is mostly correlational and shows small effects; some teens benefit; other causes exist."
+        },
+        {
+          "criterion": "Accuracy",
+          "points": 1,
+          "description": "Includes the author's proposed alternative (data sharing, privacy defaults) or the qualification that social media isn't harmless, without distortion."
+        }
+      ],
+      "sampleResponse": "The author argues that banning social media for teens under sixteen is the wrong response because the evidence that social media causes teen anxiety and depression is weak, mostly correlational and showing small average effects, and because some teens benefit from online communities. Instead, the author supports targeted rules, such as requiring platforms to share data with researchers and set strong privacy defaults."
+    },
+    {
+      "id": "u2-t02",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Line of Reasoning",
+      "frqType": "Part A Q2: Explain the line of reasoning",
+      "stimulus": "Practice passage (written by Klutch; the author and data are fictional)\n\n**Logging Off Won't Save Us** — a commentary by a psychology researcher, published on a university blog\n\nMany parents and politicians claim that social media is the main cause of rising anxiety and depression among teenagers, and some states have proposed banning accounts for anyone under sixteen. This conclusion moves too quickly. The studies most often cited are correlational: they show that teens who spend more time on social media report more symptoms, but they cannot show which comes first. A teen who is already anxious may withdraw into her phone.\n\nLarge studies that do measure effects over time tend to find small average associations, about the same size as the association between well-being and eating potatoes, as one widely discussed analysis put it. Averages also hide differences: some teens, particularly LGBTQ youth in unsupportive communities, report that online groups are a lifeline. Meanwhile, teens face other pressures that rose during the same years, including academic competition and reduced unstructured time with friends.\n\nNone of this means social media is harmless. Platforms should be required to share data with independent researchers and to offer young users strong default privacy settings. But a blanket ban treats a complex problem as a simple one, and it risks cutting off the teens who benefit most.",
+      "prompt": "Explain the author's line of reasoning by identifying the claims used to build the argument and the connections between them.",
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Identifies claims",
+          "points": 2,
+          "description": "Identifies at least three claims (correlational evidence; small effects; benefits for some teens; other causes; concession; policy alternative)."
+        },
+        {
+          "criterion": "Explains connections",
+          "points": 2,
+          "description": "Explains how each claim builds toward the conclusion, e.g., undermining causation leads to doubting the ban's premise."
+        },
+        {
+          "criterion": "Accuracy and order",
+          "points": 2,
+          "description": "Presents the claims in a logical order that matches the passage without misrepresenting them."
+        }
+      ],
+      "sampleResponse": "The author begins by describing the opposing view, that social media causes teen mental health problems and should be banned for under-sixteens, and then attacks its foundation. First, the author claims the most cited studies are correlational, so they cannot establish that social media causes symptoms; this opens the possibility of reverse causation. Building on this, the author claims that stronger long-term studies find only small average effects, which further weakens the case that social media is the main cause. The author then complicates the picture by arguing that averages hide teens, such as LGBTQ youth, who benefit from online communities, and that other pressures rose at the same time, offering alternative explanations. Having weakened the case for a ban, the author concedes that social media is not harmless, which keeps the argument from seeming one-sided, and proposes alternatives: data sharing and strong privacy defaults. The conclusion, that a blanket ban is too blunt and could hurt the teens who benefit most, follows from both the weak evidence of causation and the evidence of benefits."
+    },
+    {
+      "id": "u2-t03",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Evidence",
+      "frqType": "Part A Q3: Evaluate the evidence",
+      "stimulus": "Practice passage (written by Klutch; the author and data are fictional)\n\n**Logging Off Won't Save Us** — a commentary by a psychology researcher, published on a university blog\n\nMany parents and politicians claim that social media is the main cause of rising anxiety and depression among teenagers, and some states have proposed banning accounts for anyone under sixteen. This conclusion moves too quickly. The studies most often cited are correlational: they show that teens who spend more time on social media report more symptoms, but they cannot show which comes first. A teen who is already anxious may withdraw into her phone.\n\nLarge studies that do measure effects over time tend to find small average associations, about the same size as the association between well-being and eating potatoes, as one widely discussed analysis put it. Averages also hide differences: some teens, particularly LGBTQ youth in unsupportive communities, report that online groups are a lifeline. Meanwhile, teens face other pressures that rose during the same years, including academic competition and reduced unstructured time with friends.\n\nNone of this means social media is harmless. Platforms should be required to share data with independent researchers and to offer young users strong default privacy settings. But a blanket ban treats a complex problem as a simple one, and it risks cutting off the teens who benefit most.",
+      "prompt": "Evaluate the effectiveness of the evidence the author uses to support the argument.",
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Specific evidence",
+          "points": 2,
+          "description": "Discusses at least two specific pieces of evidence (correlational studies, small effect sizes/potato comparison, LGBTQ youth reports, rising academic pressure)."
+        },
+        {
+          "criterion": "Relevance and credibility",
+          "points": 2,
+          "description": "Judges relevance and credibility, e.g., the potato comparison is vivid but secondhand; LGBTQ evidence is relevant but vague; no citations."
+        },
+        {
+          "criterion": "Effect on argument",
+          "points": 2,
+          "description": "Explains the overall effect: evidence effectively raises doubt but is thin for proving alternative causes or benefits."
+        }
+      ],
+      "sampleResponse": "The author's evidence is effective at casting doubt on the claim that social media is the main cause of teen distress, but less effective at supporting the author's own alternative explanations. The point that the commonly cited studies are correlational is relevant and logically strong, since correlation cannot establish causation; however, the author doesn't name the studies, so readers cannot verify them. The comparison of social media's effect to eating potatoes is memorable and suggests the effect is tiny, but it is attributed to an unnamed 'widely discussed analysis,' which makes it hard to judge its method. The claim that LGBTQ youth find online communities to be a lifeline is relevant to the argument against a ban, but it relies on teens' reports without any data on how many teens or how much they benefit. The list of other pressures, academic competition and less time with friends, is offered without evidence that these rose or caused distress. Overall, the evidence is sufficient to show that the case for a ban is uncertain, which is the author's main purpose, but because it is uncited and general, it would not persuade a skeptical reader that a ban would actually cause harm."
+    },
+    {
+      "id": "u2-t04",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Reasoning Flaws",
+      "frqType": "Skill task",
+      "prompt": "Read the following short argument (written by Klutch).\n\n'Our town opened a new skate park last spring, and over the summer, vandalism downtown went up 15 percent. Clearly, the skate park attracted troublemakers. If we don't close it now, our town will soon be overrun by crime. Anyone who defends the park obviously doesn't care about local businesses.'",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Identify three reasoning flaws in the argument.",
+          "points": 3
+        },
+        {
+          "label": "B",
+          "prompt": "Explain how the flaws weaken the argument.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Describe evidence that would better test the claim that the skate park increased vandalism.",
+          "points": 1
+        }
+      ],
+      "points": 6,
+      "minutes": 12,
+      "rubric": [
+        {
+          "criterion": "Flaws",
+          "points": 3,
+          "description": "Identifies three flaws: false cause/post hoc, slippery slope, ad hominem (or hasty generalization)."
+        },
+        {
+          "criterion": "Explanation",
+          "points": 2,
+          "description": "Explains why each identified flaw weakens the argument."
+        },
+        {
+          "criterion": "Revision",
+          "points": 1,
+          "description": "Proposes evidence that would better test the claim (e.g., data on who committed vandalism, comparison towns, prior trends)."
+        }
+      ],
+      "sampleResponse": "A. The argument commits three flaws. First, false cause: it assumes the skate park caused the vandalism increase simply because it came first. Second, slippery slope: it claims keeping the park will lead to the town being 'overrun by crime' without evidence of that chain of events. Third, ad hominem: it dismisses defenders as uncaring instead of answering their arguments.\n\nB. These flaws mean the argument provides no real evidence that the park caused the increase; summer vandalism might rise every year, or other factors could explain it.\n\nC. Better evidence would include vandalism data from previous summers, records showing where incidents occurred and who was arrested, and comparisons with similar towns without skate parks."
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "number": 3,
+  "title": "Evaluate Multiple Perspectives",
+  "guide": {
+    "summary": "Evaluate Multiple Perspectives asks you to identify the different positions on an issue, compare their assumptions, values, and evidence, and judge their strengths and limits fairly, a skill used in every part of the exam and both performance tasks.",
+    "sections": [
+      {
+        "heading": "What counts as a perspective",
+        "body": "A perspective is a point of view on an issue shaped by a person's position, values, discipline, and experiences. Perspectives are not simply 'for' or 'against'; they can agree on goals but disagree on methods, or focus on different dimensions of a problem. In the cultivated-meat sources, the food scientist emphasizes environmental and animal-welfare benefits and is optimistic about innovation; the economist shares concern for emissions but doubts the evidence and prefers proven measures; the rancher focuses on livelihoods, community, and land stewardship. Each reflects a different lens (scientific, economic, cultural/social) and different stakes."
+      },
+      {
+        "heading": "Comparing perspectives",
+        "body": "To compare perspectives, look for: points of agreement (both the scientist and economist care about emissions); points of disagreement and their source (factual disagreement about energy use vs value disagreement about whether to prioritize innovation or proven policies); assumptions (the scientist assumes renewable energy and falling costs, like solar; the rancher assumes cultivated meat will displace ranching); and evidence quality (life-cycle estimates vs personal experience). Ask what each perspective leaves out: the scientist doesn't address rural jobs; the rancher doesn't address emissions. Understanding why people disagree often reveals that a question has a factual part (which evidence can answer) and a values part (which requires judgment)."
+      },
+      {
+        "heading": "Evaluating fairly and using perspectives in your argument",
+        "body": "Evaluate perspectives on their reasoning and evidence, not on whether you agree. Steelman opposing views: present them in their strongest form before responding. Stakeholder interests can affect credibility (a rancher has a financial stake, a researcher may have funding interests), but self-interest does not make a claim false. In your own writing, use other perspectives to strengthen your argument: concede valid points, qualify your claim, and rebut weaker ones with evidence. Synthesizing perspectives can also produce a middle position, for example supporting research funding for cultivated meat while investing in proven measures and transition support for ranchers."
+      }
+    ],
+    "keyTakeaways": [
+      "Perspectives differ in values, assumptions, evidence, and stakes.",
+      "Separate factual disagreements from value disagreements.",
+      "Identify what each perspective leaves out.",
+      "Steelman before you rebut.",
+      "Stakes can affect credibility but don't make a claim false."
+    ],
+    "commonMistakes": [
+      "Reducing perspectives to pro vs con.",
+      "Dismissing a view because the author has a stake.",
+      "Ignoring points of agreement.",
+      "Treating opinion and evidence as equivalent.",
+      "Including counterarguments without responding to them."
+    ],
+    "examTips": [
+      "In Part B, explicitly name at least one opposing or alternative perspective and respond to it.",
+      "Use phrases like 'While Source B emphasizes..., Source C reveals...' to compare.",
+      "Point out the assumption that drives a disagreement."
+    ],
+    "cramSheet": "**Perspective:** position + values + discipline + stakes\n\n**Compare:** agreement · disagreement (fact vs value) · assumptions · evidence · omissions\n\n**Evaluate:** reasoning & evidence, not agreement · steelman · stakes ≠ false\n\n**Use:** concede · qualify · rebut · synthesize middle ground"
+  },
+  "vocab": [
+    {
+      "term": "Perspective",
+      "definition": "A point of view on an issue shaped by values, experience, and position."
+    },
+    {
+      "term": "Assumption",
+      "definition": "An unstated belief that an argument depends on."
+    },
+    {
+      "term": "Value disagreement",
+      "definition": "A disagreement about priorities or what matters, which evidence alone can't settle."
+    },
+    {
+      "term": "Factual disagreement",
+      "definition": "A disagreement about what is true, which evidence can help resolve."
+    },
+    {
+      "term": "Bias",
+      "definition": "A preference or interest that may affect how someone presents information."
+    },
+    {
+      "term": "Steelmanning",
+      "definition": "Presenting an opposing argument in its strongest form."
+    },
+    {
+      "term": "Counterargument",
+      "definition": "An argument opposing your own position."
+    },
+    {
+      "term": "Qualify",
+      "definition": "To limit a claim so it is more accurate."
+    },
+    {
+      "term": "Life-cycle analysis",
+      "definition": "An assessment of a product's environmental impact from production to disposal."
+    },
+    {
+      "term": "Vested interest",
+      "definition": "A personal stake in an outcome."
+    },
+    {
+      "term": "Common ground",
+      "definition": "Points on which differing perspectives agree."
+    },
+    {
+      "term": "Omission",
+      "definition": "Something important that a source or perspective leaves out."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Perspectives",
+      "stimulus": "Practice sources (written by Klutch; the authors and data are fictional)\n\n**Perspective 1 — a food scientist, in a science magazine interview:** Cultivated meat, grown from animal cells in bioreactors, could cut the land used for meat production dramatically and end the slaughter of billions of animals. Early life-cycle analyses suggest its emissions could fall below beef's if production runs on renewable energy. The technology is young, but so was solar power once. Governments should fund open research to bring costs down.\n\n**Perspective 2 — an economist who studies agriculture, in a policy journal:** Cultivated meat's climate benefit depends on assumptions that do not yet hold. Current facilities use energy-intensive processes and expensive pharmaceutical-grade growth media, and if powered by today's average grid, some estimates put its emissions above those of conventional beef. Public money would be better spent on proven measures, such as reducing food waste and improving grazing practices.\n\n**Perspective 3 — a rancher, in a regional newspaper op-ed:** Families like mine have managed this land for generations. Grazing can maintain grasslands that would otherwise be lost to development. Lab-grown products threaten rural jobs and communities, and consumers deserve clear labels so they know what they are buying.",
+      "stem": "Which perspective focuses mainly on economic and community effects on rural areas?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Perspective 3"
+        },
+        {
+          "id": "B",
+          "text": "Perspective 1"
+        },
+        {
+          "id": "C",
+          "text": "Perspective 2"
+        },
+        {
+          "id": "D",
+          "text": "None of them"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The rancher emphasizes jobs and communities.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Common Ground",
+      "stimulus": "Practice sources (written by Klutch; the authors and data are fictional)\n\n**Perspective 1 — a food scientist, in a science magazine interview:** Cultivated meat, grown from animal cells in bioreactors, could cut the land used for meat production dramatically and end the slaughter of billions of animals. Early life-cycle analyses suggest its emissions could fall below beef's if production runs on renewable energy. The technology is young, but so was solar power once. Governments should fund open research to bring costs down.\n\n**Perspective 2 — an economist who studies agriculture, in a policy journal:** Cultivated meat's climate benefit depends on assumptions that do not yet hold. Current facilities use energy-intensive processes and expensive pharmaceutical-grade growth media, and if powered by today's average grid, some estimates put its emissions above those of conventional beef. Public money would be better spent on proven measures, such as reducing food waste and improving grazing practices.\n\n**Perspective 3 — a rancher, in a regional newspaper op-ed:** Families like mine have managed this land for generations. Grazing can maintain grasslands that would otherwise be lost to development. Lab-grown products threaten rural jobs and communities, and consumers deserve clear labels so they know what they are buying.",
+      "stem": "On which point do Perspectives 1 and 2 most clearly agree?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Reducing greenhouse gas emissions from meat production is an important goal."
+        },
+        {
+          "id": "B",
+          "text": "Cultivated meat already has lower emissions than beef."
+        },
+        {
+          "id": "C",
+          "text": "Public money should fund cultivated meat research."
+        },
+        {
+          "id": "D",
+          "text": "Grazing should be expanded."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Both treat emissions as the key measure; they disagree about whether cultivated meat achieves it.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q03",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Assumptions",
+      "stimulus": "Practice sources (written by Klutch; the authors and data are fictional)\n\n**Perspective 1 — a food scientist, in a science magazine interview:** Cultivated meat, grown from animal cells in bioreactors, could cut the land used for meat production dramatically and end the slaughter of billions of animals. Early life-cycle analyses suggest its emissions could fall below beef's if production runs on renewable energy. The technology is young, but so was solar power once. Governments should fund open research to bring costs down.\n\n**Perspective 2 — an economist who studies agriculture, in a policy journal:** Cultivated meat's climate benefit depends on assumptions that do not yet hold. Current facilities use energy-intensive processes and expensive pharmaceutical-grade growth media, and if powered by today's average grid, some estimates put its emissions above those of conventional beef. Public money would be better spent on proven measures, such as reducing food waste and improving grazing practices.\n\n**Perspective 3 — a rancher, in a regional newspaper op-ed:** Families like mine have managed this land for generations. Grazing can maintain grasslands that would otherwise be lost to development. Lab-grown products threaten rural jobs and communities, and consumers deserve clear labels so they know what they are buying.",
+      "stem": "Perspective 1's argument most depends on which assumption?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Cultivated meat production will run on renewable energy and its costs will fall as solar power's did."
+        },
+        {
+          "id": "B",
+          "text": "Ranchers will support cultivated meat."
+        },
+        {
+          "id": "C",
+          "text": "Consumers will refuse to buy cultivated meat."
+        },
+        {
+          "id": "D",
+          "text": "Food waste is the main cause of emissions."
+        }
+      ],
+      "answer": "A",
+      "explanation": "The emissions benefit is conditional on clean energy; the solar analogy assumes falling costs.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q04",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Disagreement",
+      "stimulus": "Practice sources (written by Klutch; the authors and data are fictional)\n\n**Perspective 1 — a food scientist, in a science magazine interview:** Cultivated meat, grown from animal cells in bioreactors, could cut the land used for meat production dramatically and end the slaughter of billions of animals. Early life-cycle analyses suggest its emissions could fall below beef's if production runs on renewable energy. The technology is young, but so was solar power once. Governments should fund open research to bring costs down.\n\n**Perspective 2 — an economist who studies agriculture, in a policy journal:** Cultivated meat's climate benefit depends on assumptions that do not yet hold. Current facilities use energy-intensive processes and expensive pharmaceutical-grade growth media, and if powered by today's average grid, some estimates put its emissions above those of conventional beef. Public money would be better spent on proven measures, such as reducing food waste and improving grazing practices.\n\n**Perspective 3 — a rancher, in a regional newspaper op-ed:** Families like mine have managed this land for generations. Grazing can maintain grasslands that would otherwise be lost to development. Lab-grown products threaten rural jobs and communities, and consumers deserve clear labels so they know what they are buying.",
+      "stem": "The disagreement between Perspectives 1 and 2 about emissions is best described as primarily",
+      "choices": [
+        {
+          "id": "A",
+          "text": "factual, because it depends on measurable energy use and grid conditions"
+        },
+        {
+          "id": "B",
+          "text": "purely about values with no factual element"
+        },
+        {
+          "id": "C",
+          "text": "a disagreement about labeling"
+        },
+        {
+          "id": "D",
+          "text": "a disagreement over whether animals matter"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Life-cycle data can help settle it.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q05",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Evaluation",
+      "stimulus": "Practice sources (written by Klutch; the authors and data are fictional)\n\n**Perspective 1 — a food scientist, in a science magazine interview:** Cultivated meat, grown from animal cells in bioreactors, could cut the land used for meat production dramatically and end the slaughter of billions of animals. Early life-cycle analyses suggest its emissions could fall below beef's if production runs on renewable energy. The technology is young, but so was solar power once. Governments should fund open research to bring costs down.\n\n**Perspective 2 — an economist who studies agriculture, in a policy journal:** Cultivated meat's climate benefit depends on assumptions that do not yet hold. Current facilities use energy-intensive processes and expensive pharmaceutical-grade growth media, and if powered by today's average grid, some estimates put its emissions above those of conventional beef. Public money would be better spent on proven measures, such as reducing food waste and improving grazing practices.\n\n**Perspective 3 — a rancher, in a regional newspaper op-ed:** Families like mine have managed this land for generations. Grazing can maintain grasslands that would otherwise be lost to development. Lab-grown products threaten rural jobs and communities, and consumers deserve clear labels so they know what they are buying.",
+      "stem": "Which is the most fair evaluation of Perspective 3?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The rancher's financial stake is worth noting, but the concerns about rural jobs and grassland management are legitimate and need evidence rather than dismissal."
+        },
+        {
+          "id": "B",
+          "text": "The rancher's view should be ignored because ranchers have a financial interest."
+        },
+        {
+          "id": "C",
+          "text": "The rancher's view is the most credible because it is based on personal experience."
+        },
+        {
+          "id": "D",
+          "text": "The rancher's view is irrelevant because it doesn't mention emissions."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Stakes affect how we weigh claims but don't make them false.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q06",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Synthesis",
+      "stimulus": "Practice sources (written by Klutch; the authors and data are fictional)\n\n**Perspective 1 — a food scientist, in a science magazine interview:** Cultivated meat, grown from animal cells in bioreactors, could cut the land used for meat production dramatically and end the slaughter of billions of animals. Early life-cycle analyses suggest its emissions could fall below beef's if production runs on renewable energy. The technology is young, but so was solar power once. Governments should fund open research to bring costs down.\n\n**Perspective 2 — an economist who studies agriculture, in a policy journal:** Cultivated meat's climate benefit depends on assumptions that do not yet hold. Current facilities use energy-intensive processes and expensive pharmaceutical-grade growth media, and if powered by today's average grid, some estimates put its emissions above those of conventional beef. Public money would be better spent on proven measures, such as reducing food waste and improving grazing practices.\n\n**Perspective 3 — a rancher, in a regional newspaper op-ed:** Families like mine have managed this land for generations. Grazing can maintain grasslands that would otherwise be lost to development. Lab-grown products threaten rural jobs and communities, and consumers deserve clear labels so they know what they are buying.",
+      "stem": "Which position best synthesizes all three perspectives?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Fund cultivated-meat research tied to clean-energy requirements while also investing in proven emissions cuts, sustainable grazing, and support for affected rural communities."
+        },
+        {
+          "id": "B",
+          "text": "Ban cultivated meat to protect ranchers."
+        },
+        {
+          "id": "C",
+          "text": "Replace all ranching with cultivated meat immediately."
+        },
+        {
+          "id": "D",
+          "text": "Do nothing until the technology is perfect."
+        }
+      ],
+      "answer": "A",
+      "explanation": "It responds to each perspective's strongest concern.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-t01",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Perspectives",
+      "frqType": "Skill task",
+      "stimulus": "Practice sources (written by Klutch; the authors and data are fictional)\n\n**Perspective 1 — a food scientist, in a science magazine interview:** Cultivated meat, grown from animal cells in bioreactors, could cut the land used for meat production dramatically and end the slaughter of billions of animals. Early life-cycle analyses suggest its emissions could fall below beef's if production runs on renewable energy. The technology is young, but so was solar power once. Governments should fund open research to bring costs down.\n\n**Perspective 2 — an economist who studies agriculture, in a policy journal:** Cultivated meat's climate benefit depends on assumptions that do not yet hold. Current facilities use energy-intensive processes and expensive pharmaceutical-grade growth media, and if powered by today's average grid, some estimates put its emissions above those of conventional beef. Public money would be better spent on proven measures, such as reducing food waste and improving grazing practices.\n\n**Perspective 3 — a rancher, in a regional newspaper op-ed:** Families like mine have managed this land for generations. Grazing can maintain grasslands that would otherwise be lost to development. Lab-grown products threaten rural jobs and communities, and consumers deserve clear labels so they know what they are buying.",
+      "prompt": "Use the three perspectives above.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Compare Perspectives 1 and 2, identifying a point of agreement and a point of disagreement.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Explain an assumption or value that drives their disagreement.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Identify something important that one perspective leaves out and explain why it matters.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Comparison",
+          "points": 2,
+          "description": "Accurately compares two perspectives, noting agreement and disagreement."
+        },
+        {
+          "criterion": "Assumptions/values",
+          "points": 2,
+          "description": "Identifies an assumption or value driving a disagreement."
+        },
+        {
+          "criterion": "Omission",
+          "points": 2,
+          "description": "Identifies a significant omission in one perspective and explains why it matters."
+        }
+      ],
+      "sampleResponse": "A. Perspectives 1 and 2 agree that cutting emissions from meat is the goal, but disagree over whether cultivated meat does so: the scientist cites analyses showing lower emissions, while the economist cites estimates showing higher emissions on today's grid.\n\nB. The disagreement rests on an assumption about energy: the scientist assumes renewable energy and falling costs, while the economist evaluates current conditions. They also differ in values about risk: the scientist favors betting on innovation, while the economist prefers proven measures.\n\nC. Perspective 1 omits the effect on ranchers and rural communities, which matters because policies that ignore them may face political resistance, as Perspective 3's call for labeling shows."
+    },
+    {
+      "id": "u3-t02",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Argument",
+      "frqType": "Part A Q1: Identify the argument",
+      "stimulus": "Practice sources (written by Klutch; the authors and data are fictional)\n\n**Perspective 1 — a food scientist, in a science magazine interview:** Cultivated meat, grown from animal cells in bioreactors, could cut the land used for meat production dramatically and end the slaughter of billions of animals. Early life-cycle analyses suggest its emissions could fall below beef's if production runs on renewable energy. The technology is young, but so was solar power once. Governments should fund open research to bring costs down.\n\n**Perspective 2 — an economist who studies agriculture, in a policy journal:** Cultivated meat's climate benefit depends on assumptions that do not yet hold. Current facilities use energy-intensive processes and expensive pharmaceutical-grade growth media, and if powered by today's average grid, some estimates put its emissions above those of conventional beef. Public money would be better spent on proven measures, such as reducing food waste and improving grazing practices.\n\n**Perspective 3 — a rancher, in a regional newspaper op-ed:** Families like mine have managed this land for generations. Grazing can maintain grasslands that would otherwise be lost to development. Lab-grown products threaten rural jobs and communities, and consumers deserve clear labels so they know what they are buying.",
+      "prompt": "Identify the argument or main idea of Perspective 2.",
+      "points": 3,
+      "minutes": 6,
+      "rubric": [
+        {
+          "criterion": "Main claim",
+          "points": 1,
+          "description": "Cultivated meat's climate benefit is not established, so public funds should go elsewhere."
+        },
+        {
+          "criterion": "Supporting reasons",
+          "points": 1,
+          "description": "Current production is energy-intensive and uses expensive inputs; on today's grid emissions may exceed beef's."
+        },
+        {
+          "criterion": "Accuracy",
+          "points": 1,
+          "description": "Accurate paraphrase, including the preference for proven measures."
+        }
+      ],
+      "sampleResponse": "The economist argues that cultivated meat's supposed climate benefits are unproven, since current production is energy-intensive and could produce more emissions than beef on today's grid, so public money should go instead to proven measures like reducing food waste and improving grazing."
+    },
+    {
+      "id": "u3-t03",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Evidence",
+      "frqType": "Part A Q3: Evaluate the evidence",
+      "stimulus": "Practice sources (written by Klutch; the authors and data are fictional)\n\n**Perspective 1 — a food scientist, in a science magazine interview:** Cultivated meat, grown from animal cells in bioreactors, could cut the land used for meat production dramatically and end the slaughter of billions of animals. Early life-cycle analyses suggest its emissions could fall below beef's if production runs on renewable energy. The technology is young, but so was solar power once. Governments should fund open research to bring costs down.\n\n**Perspective 2 — an economist who studies agriculture, in a policy journal:** Cultivated meat's climate benefit depends on assumptions that do not yet hold. Current facilities use energy-intensive processes and expensive pharmaceutical-grade growth media, and if powered by today's average grid, some estimates put its emissions above those of conventional beef. Public money would be better spent on proven measures, such as reducing food waste and improving grazing practices.\n\n**Perspective 3 — a rancher, in a regional newspaper op-ed:** Families like mine have managed this land for generations. Grazing can maintain grasslands that would otherwise be lost to development. Lab-grown products threaten rural jobs and communities, and consumers deserve clear labels so they know what they are buying.",
+      "prompt": "Evaluate the effectiveness of the evidence in Perspectives 1 and 2 on the question of emissions.",
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Specific evidence",
+          "points": 2,
+          "description": "Identifies specific evidence from each (early life-cycle analyses; solar analogy; energy-intensive processes; some estimates above beef)."
+        },
+        {
+          "criterion": "Relevance and credibility",
+          "points": 2,
+          "description": "Evaluates relevance and credibility, e.g., both cite unnamed estimates; 'early' analyses; analogy is not evidence."
+        },
+        {
+          "criterion": "Effect on argument",
+          "points": 2,
+          "description": "Explains the effect: neither settles the question; the economist's conditional evidence about current grids is more directly relevant to present policy, the scientist's to the future."
+        }
+      ],
+      "sampleResponse": "Both perspectives rely on relevant but incomplete evidence. The scientist cites 'early life-cycle analyses' suggesting lower emissions, which is the right kind of evidence for a climate claim, but the word 'early' and the condition 'if production runs on renewable energy' show the evidence depends on future conditions. The comparison to solar power is an analogy rather than evidence: it suggests costs might fall but doesn't show they will. The economist's evidence, that facilities are energy-intensive and that 'some estimates' put emissions above beef on today's grid, is more directly relevant to current policy decisions, but it is also vague about which estimates and how many. Because neither source names its studies, a reader can't judge methods. Overall, the evidence shows the outcome depends on energy sources, which actually supports a qualified position: cultivated meat may help only if paired with clean energy."
+    },
+    {
+      "id": "u3-t04",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Counterargument",
+      "frqType": "Skill task",
+      "stimulus": "Practice sources (written by Klutch; the authors and data are fictional)\n\n**Perspective 1 — a food scientist, in a science magazine interview:** Cultivated meat, grown from animal cells in bioreactors, could cut the land used for meat production dramatically and end the slaughter of billions of animals. Early life-cycle analyses suggest its emissions could fall below beef's if production runs on renewable energy. The technology is young, but so was solar power once. Governments should fund open research to bring costs down.\n\n**Perspective 2 — an economist who studies agriculture, in a policy journal:** Cultivated meat's climate benefit depends on assumptions that do not yet hold. Current facilities use energy-intensive processes and expensive pharmaceutical-grade growth media, and if powered by today's average grid, some estimates put its emissions above those of conventional beef. Public money would be better spent on proven measures, such as reducing food waste and improving grazing practices.\n\n**Perspective 3 — a rancher, in a regional newspaper op-ed:** Families like mine have managed this land for generations. Grazing can maintain grasslands that would otherwise be lost to development. Lab-grown products threaten rural jobs and communities, and consumers deserve clear labels so they know what they are buying.",
+      "prompt": "Suppose you are writing an argument that governments should fund cultivated-meat research.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "State the strongest counterargument from the sources in its strongest form.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Respond to it, conceding any valid points.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Write a qualified version of your claim that accounts for the counterargument.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Steelman",
+          "points": 2,
+          "description": "States the strongest opposing argument accurately (e.g., Perspective 2's energy and opportunity-cost points)."
+        },
+        {
+          "criterion": "Response",
+          "points": 2,
+          "description": "Responds with reasoning or evidence, conceding where appropriate."
+        },
+        {
+          "criterion": "Qualified claim",
+          "points": 2,
+          "description": "Revises the claim to account for the counterargument."
+        }
+      ],
+      "sampleResponse": "A. The strongest counterargument is the economist's: on today's grid, cultivated meat may produce more emissions than beef, and every dollar spent on an unproven technology is a dollar not spent on proven measures like reducing food waste.\n\nB. This point has merit, so I would concede that funding alone won't cut emissions. However, early research funding is what lowered costs for technologies like solar and batteries, and the grid is getting cleaner over time. Research can also target the energy-intensive steps the economist identifies.\n\nC. Revised claim: Governments should fund cultivated-meat research focused on cutting energy use and costs, as a modest part of a climate strategy that prioritizes proven measures such as reducing food waste."
+    }
+  ]
+}

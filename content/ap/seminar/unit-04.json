@@ -1,0 +1,430 @@
+{
+  "number": 4,
+  "title": "Synthesize Ideas",
+  "guide": {
+    "summary": "Synthesize Ideas is where inquiry becomes your own argument: connecting evidence from multiple sources, developing a line of reasoning, addressing other perspectives, and attributing ideas correctly. It is the heart of Part B and the Individual Written Argument.",
+    "sections": [
+      {
+        "heading": "From sources to argument",
+        "body": "Synthesis means using sources to build an argument that none of them makes alone, not summarizing them one by one. Start by identifying the theme that connects the sources, then write a research question that requires judgment, for example 'To what extent should employers make remote work permanent?' Draft a thesis that answers it with a claim and reasons, often qualified: 'Employers should offer hybrid arrangements because remote work keeps productivity steady while improving retention and access for disabled workers, but they need deliberate in-person time for mentoring new employees.' Then plan a line of reasoning in which each paragraph advances one claim, supported by evidence from at least two sources, and explains how the evidence supports the claim."
+      },
+      {
+        "heading": "Connecting evidence",
+        "body": "Strong synthesis puts sources in conversation: one source's data can support another's claim (Source A's retention finding supports Source D's case for keeping remote options), or one can complicate another (Source C's mentoring concerns qualify Source A's productivity results, since A measured output, not long-term skill growth). Explain gaps: Source A studied one company, so its findings may not generalize. You can also bring in outside knowledge or examples. Commentary is essential: after each piece of evidence, explain how it supports your claim and why it matters. A common structure is claim → evidence → explanation → connection to the next claim."
+      },
+      {
+        "heading": "Perspectives, attribution, and conclusions",
+        "body": "Address at least one opposing or alternative perspective and respond to it by conceding, qualifying, or rebutting with evidence. Attribute every borrowed idea in the text ('According to a labor economist's randomized study (Source A)...') and in a citation format if required; using ideas without attribution is plagiarism even when paraphrased. Conclusions should go beyond restating the thesis: discuss implications, limitations, or a solution, such as companies scheduling in-person mentoring days or cities converting empty offices to housing. Effective writing uses precise word choice, clear transitions, and few errors."
+      }
+    ],
+    "keyTakeaways": [
+      "Synthesis builds your own argument from multiple sources.",
+      "Start from a focused, arguable research question.",
+      "Put sources in conversation: support, extend, complicate.",
+      "Commentary explains how evidence supports claims.",
+      "Address and respond to opposing views.",
+      "Attribute every source."
+    ],
+    "commonMistakes": [
+      "Writing one paragraph per source (summary).",
+      "Using only one source.",
+      "Quoting without commentary.",
+      "Forgetting a counterargument or leaving it unanswered.",
+      "Ending with a restatement instead of implications."
+    ],
+    "examTips": [
+      "In Part B, spend 15–20 minutes reading and planning before writing.",
+      "Use at least two sources; three or more strengthens synthesis.",
+      "Mention sources' limits to show critical use of evidence.",
+      "Use outside examples to extend beyond the provided sources."
+    ],
+    "cramSheet": "**Process:** theme → research question → qualified thesis → line of reasoning → evidence from 2+ sources → commentary → counterargument → implications\n\n**Synthesis moves:** support · extend · complicate · explain gaps\n\n**Paragraph:** claim → evidence → explanation → link\n\n**Attribution:** in-text signal phrases · citations · no unattributed paraphrase"
+  },
+  "vocab": [
+    {
+      "term": "Synthesis",
+      "definition": "Combining ideas from multiple sources to create a new argument."
+    },
+    {
+      "term": "Thesis",
+      "definition": "The main claim of your argument."
+    },
+    {
+      "term": "Commentary",
+      "definition": "Explanation of how evidence supports a claim."
+    },
+    {
+      "term": "Signal phrase",
+      "definition": "A phrase introducing a source, such as 'According to the economist...'"
+    },
+    {
+      "term": "Paraphrase",
+      "definition": "Restating a source's idea in your own words, still requiring attribution."
+    },
+    {
+      "term": "Plagiarism",
+      "definition": "Presenting another's words or ideas as your own."
+    },
+    {
+      "term": "Attribution",
+      "definition": "Crediting the source of information or ideas."
+    },
+    {
+      "term": "Generalizability",
+      "definition": "How well findings from one setting apply to others."
+    },
+    {
+      "term": "Randomized study",
+      "definition": "A study that randomly assigns participants to groups to test causation."
+    },
+    {
+      "term": "Implication",
+      "definition": "A consequence or significance of an argument."
+    },
+    {
+      "term": "Resolution",
+      "definition": "A proposed solution or course of action that follows from an argument."
+    },
+    {
+      "term": "Transition",
+      "definition": "A word or phrase that shows the logical relationship between ideas."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Synthesis",
+      "stimulus": "Practice sources for Part B (written by Klutch; the authors and data are fictional)\n\n**Source A — a labor economist's working paper:** In a study of 1,600 employees at a travel company randomly assigned to work from home four days a week or stay in the office, productivity was about the same in both groups, but remote workers were 30 percent less likely to quit.\n\n**Source B — a city planner's essay:** Downtown office vacancy in mid-sized cities has climbed sharply. Restaurants and transit systems that depended on commuters are losing revenue. Cities may need to convert offices to housing and rethink downtowns as places to live, not just work.\n\n**Source C — a manager's survey report:** In a survey of 500 managers, 64 percent said remote work made it harder to mentor junior employees, and many said new hires learned company norms more slowly.\n\n**Source D — a disability rights advocate's op-ed:** For many disabled workers, remote work removed barriers such as inaccessible commutes and offices. Employment among people with disabilities rose to record levels after remote options expanded. Rolling those options back would undo hard-won gains.",
+      "stem": "Which research question would best support a Part B argument using these sources?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To what extent should employers keep remote work options permanently?"
+        },
+        {
+          "id": "B",
+          "text": "What is remote work?"
+        },
+        {
+          "id": "C",
+          "text": "How many people work from home?"
+        },
+        {
+          "id": "D",
+          "text": "Remote work and cities"
+        }
+      ],
+      "answer": "A",
+      "explanation": "It is arguable and connects all four sources.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Attribution",
+      "stem": "A student writes Source D's idea in their own words without naming the source. This is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "plagiarism, because paraphrased ideas still require attribution"
+        },
+        {
+          "id": "B",
+          "text": "acceptable, because it was paraphrased"
+        },
+        {
+          "id": "C",
+          "text": "a counterargument"
+        },
+        {
+          "id": "D",
+          "text": "synthesis"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Ideas, not just words, must be credited.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q03",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Connecting Evidence",
+      "stimulus": "Practice sources for Part B (written by Klutch; the authors and data are fictional)\n\n**Source A — a labor economist's working paper:** In a study of 1,600 employees at a travel company randomly assigned to work from home four days a week or stay in the office, productivity was about the same in both groups, but remote workers were 30 percent less likely to quit.\n\n**Source B — a city planner's essay:** Downtown office vacancy in mid-sized cities has climbed sharply. Restaurants and transit systems that depended on commuters are losing revenue. Cities may need to convert offices to housing and rethink downtowns as places to live, not just work.\n\n**Source C — a manager's survey report:** In a survey of 500 managers, 64 percent said remote work made it harder to mentor junior employees, and many said new hires learned company norms more slowly.\n\n**Source D — a disability rights advocate's op-ed:** For many disabled workers, remote work removed barriers such as inaccessible commutes and offices. Employment among people with disabilities rose to record levels after remote options expanded. Rolling those options back would undo hard-won gains.",
+      "stem": "How does Source C most directly complicate Source A?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Source A measured short-term productivity and retention, while Source C suggests remote work may slow mentoring and learning, which A did not measure."
+        },
+        {
+          "id": "B",
+          "text": "Source C proves Source A's data were fabricated."
+        },
+        {
+          "id": "C",
+          "text": "Source C shows productivity fell sharply."
+        },
+        {
+          "id": "D",
+          "text": "Source C agrees completely with Source A."
+        }
+      ],
+      "answer": "A",
+      "explanation": "C points to an outcome outside A's measures.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q04",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Connecting Evidence",
+      "stimulus": "Practice sources for Part B (written by Klutch; the authors and data are fictional)\n\n**Source A — a labor economist's working paper:** In a study of 1,600 employees at a travel company randomly assigned to work from home four days a week or stay in the office, productivity was about the same in both groups, but remote workers were 30 percent less likely to quit.\n\n**Source B — a city planner's essay:** Downtown office vacancy in mid-sized cities has climbed sharply. Restaurants and transit systems that depended on commuters are losing revenue. Cities may need to convert offices to housing and rethink downtowns as places to live, not just work.\n\n**Source C — a manager's survey report:** In a survey of 500 managers, 64 percent said remote work made it harder to mentor junior employees, and many said new hires learned company norms more slowly.\n\n**Source D — a disability rights advocate's op-ed:** For many disabled workers, remote work removed barriers such as inaccessible commutes and offices. Employment among people with disabilities rose to record levels after remote options expanded. Rolling those options back would undo hard-won gains.",
+      "stem": "Which pairing best supports a claim that remote options help companies keep workers?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Source A's lower quit rate and Source D's rise in employment among disabled workers"
+        },
+        {
+          "id": "B",
+          "text": "Source B's vacancy data and Source C's survey"
+        },
+        {
+          "id": "C",
+          "text": "Source B alone"
+        },
+        {
+          "id": "D",
+          "text": "Source C alone"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Both show remote work expanding or retaining the workforce.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q05",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Evidence",
+      "stimulus": "Practice sources for Part B (written by Klutch; the authors and data are fictional)\n\n**Source A — a labor economist's working paper:** In a study of 1,600 employees at a travel company randomly assigned to work from home four days a week or stay in the office, productivity was about the same in both groups, but remote workers were 30 percent less likely to quit.\n\n**Source B — a city planner's essay:** Downtown office vacancy in mid-sized cities has climbed sharply. Restaurants and transit systems that depended on commuters are losing revenue. Cities may need to convert offices to housing and rethink downtowns as places to live, not just work.\n\n**Source C — a manager's survey report:** In a survey of 500 managers, 64 percent said remote work made it harder to mentor junior employees, and many said new hires learned company norms more slowly.\n\n**Source D — a disability rights advocate's op-ed:** For many disabled workers, remote work removed barriers such as inaccessible commutes and offices. Employment among people with disabilities rose to record levels after remote options expanded. Rolling those options back would undo hard-won gains.",
+      "stem": "What is the most important limitation of Source A for a claim about all employers?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It studied one travel company, so the results may not generalize to jobs that require in-person work or different industries."
+        },
+        {
+          "id": "B",
+          "text": "It was randomized."
+        },
+        {
+          "id": "C",
+          "text": "It measured productivity."
+        },
+        {
+          "id": "D",
+          "text": "It included 1,600 employees."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Randomization strengthens causal claims, but a single company limits generalizability.",
+      "distractors": {
+        "B": "Randomization is a strength."
+      }
+    },
+    {
+      "id": "u4-q06",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Argument",
+      "stimulus": "Practice sources for Part B (written by Klutch; the authors and data are fictional)\n\n**Source A — a labor economist's working paper:** In a study of 1,600 employees at a travel company randomly assigned to work from home four days a week or stay in the office, productivity was about the same in both groups, but remote workers were 30 percent less likely to quit.\n\n**Source B — a city planner's essay:** Downtown office vacancy in mid-sized cities has climbed sharply. Restaurants and transit systems that depended on commuters are losing revenue. Cities may need to convert offices to housing and rethink downtowns as places to live, not just work.\n\n**Source C — a manager's survey report:** In a survey of 500 managers, 64 percent said remote work made it harder to mentor junior employees, and many said new hires learned company norms more slowly.\n\n**Source D — a disability rights advocate's op-ed:** For many disabled workers, remote work removed barriers such as inaccessible commutes and offices. Employment among people with disabilities rose to record levels after remote options expanded. Rolling those options back would undo hard-won gains.",
+      "stem": "Which thesis best demonstrates synthesis?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Employers should adopt hybrid schedules, keeping remote work's retention and accessibility benefits while scheduling in-person time for mentoring, and cities should adapt downtowns to the change."
+        },
+        {
+          "id": "B",
+          "text": "Source A says productivity stayed the same."
+        },
+        {
+          "id": "C",
+          "text": "Remote work is good."
+        },
+        {
+          "id": "D",
+          "text": "There are many opinions about remote work."
+        }
+      ],
+      "answer": "A",
+      "explanation": "It takes a qualified position integrating several sources.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-t01",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Argument Essay",
+      "frqType": "Part B: Argument essay",
+      "stimulus": "Practice sources for Part B (written by Klutch; the authors and data are fictional)\n\n**Source A — a labor economist's working paper:** In a study of 1,600 employees at a travel company randomly assigned to work from home four days a week or stay in the office, productivity was about the same in both groups, but remote workers were 30 percent less likely to quit.\n\n**Source B — a city planner's essay:** Downtown office vacancy in mid-sized cities has climbed sharply. Restaurants and transit systems that depended on commuters are losing revenue. Cities may need to convert offices to housing and rethink downtowns as places to live, not just work.\n\n**Source C — a manager's survey report:** In a survey of 500 managers, 64 percent said remote work made it harder to mentor junior employees, and many said new hires learned company norms more slowly.\n\n**Source D — a disability rights advocate's op-ed:** For many disabled workers, remote work removed barriers such as inaccessible commutes and offices. Employment among people with disabilities rose to record levels after remote options expanded. Rolling those options back would undo hard-won gains.",
+      "prompt": "Read the four sources. Identify a research question prompted by the sources and write a logically organized, well-reasoned argument that presents your own perspective. Use at least two of the sources and address at least one opposing or alternative perspective.",
+      "points": 12,
+      "minutes": 90,
+      "rubric": [
+        {
+          "criterion": "Argument",
+          "points": 3,
+          "description": "A clear, specific, defensible thesis that answers a focused research question."
+        },
+        {
+          "criterion": "Evidence",
+          "points": 3,
+          "description": "Uses evidence from at least two sources (three for full credit) relevant to each claim, with commentary."
+        },
+        {
+          "criterion": "Perspectives",
+          "points": 2,
+          "description": "Addresses an opposing or alternative view and responds to it."
+        },
+        {
+          "criterion": "Line of reasoning",
+          "points": 2,
+          "description": "Claims build logically toward the conclusion; includes implications or limitations."
+        },
+        {
+          "criterion": "Writing and attribution",
+          "points": 2,
+          "description": "Clear prose; every source idea is attributed."
+        }
+      ],
+      "sampleResponse": "Research question: To what extent should employers make remote work a permanent option?\n\nWhen offices emptied in 2020, many assumed workers would return once it was safe. Instead, remote work has become a lasting debate. Employers should make hybrid work permanent because remote options maintain productivity, improve retention, and open jobs to disabled workers, but they should require regular in-person time so that new employees are not left behind.\n\nThe strongest evidence that remote work need not hurt performance comes from a labor economist's randomized study of 1,600 employees at a travel company (Source A). Workers assigned to remote work four days a week were just as productive as office workers and were 30 percent less likely to quit. Because employees were assigned randomly, the study can show that remote work itself, not differences between workers, explains the results. Lower turnover also saves companies the costs of hiring and training replacements.\n\nRemote options also make work more accessible. A disability rights advocate (Source D) notes that employment among disabled people reached record levels after remote options expanded, since workers no longer faced inaccessible commutes and offices. Together, Sources A and D show that remote work can expand and stabilize the workforce, benefiting both employers and workers who were previously excluded.\n\nHowever, a fully remote model has real costs. In a survey of 500 managers, 64 percent said remote work made mentoring junior employees harder (Source C). This concern matters because Source A measured productivity and quitting, not how quickly new employees develop skills. Rather than undermining remote work entirely, this evidence suggests that companies should schedule in-person days focused on training and collaboration. A hybrid model can keep the retention benefits from Source A while addressing the learning gap in Source C, and companies should keep fully remote options for workers who need them as an accommodation, as Source D urges.\n\nCritics might also point to the harm to downtown economies. A city planner (Source B) reports rising office vacancies and losses for restaurants and transit. Yet this is an argument for adapting cities, not forcing workers back: as Source B suggests, converting offices to housing could bring residents, and customers, downtown around the clock.\n\nEach source has limits: Source A studied one company, and Source C reports managers' perceptions rather than measured outcomes. More research across industries is needed. Still, the evidence supports hybrid work as a permanent default, designed deliberately so that its benefits reach everyone, including new employees."
+    },
+    {
+      "id": "u4-t02",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Planning",
+      "frqType": "Skill task",
+      "stimulus": "Practice sources for Part B (written by Klutch; the authors and data are fictional)\n\n**Source A — a labor economist's working paper:** In a study of 1,600 employees at a travel company randomly assigned to work from home four days a week or stay in the office, productivity was about the same in both groups, but remote workers were 30 percent less likely to quit.\n\n**Source B — a city planner's essay:** Downtown office vacancy in mid-sized cities has climbed sharply. Restaurants and transit systems that depended on commuters are losing revenue. Cities may need to convert offices to housing and rethink downtowns as places to live, not just work.\n\n**Source C — a manager's survey report:** In a survey of 500 managers, 64 percent said remote work made it harder to mentor junior employees, and many said new hires learned company norms more slowly.\n\n**Source D — a disability rights advocate's op-ed:** For many disabled workers, remote work removed barriers such as inaccessible commutes and offices. Employment among people with disabilities rose to record levels after remote options expanded. Rolling those options back would undo hard-won gains.",
+      "prompt": "Before writing the Part B essay, plan your argument.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Write a research question and a qualified thesis.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Outline three body claims, naming the sources you will use for each.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Identify a counterargument and how you will respond.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Question and thesis",
+          "points": 2,
+          "description": "A focused research question and a qualified thesis."
+        },
+        {
+          "criterion": "Outline",
+          "points": 2,
+          "description": "At least three body claims, each matched to evidence from specific sources."
+        },
+        {
+          "criterion": "Counterargument",
+          "points": 2,
+          "description": "Identifies an opposing view and the planned response."
+        }
+      ],
+      "sampleResponse": "A. RQ: Should cities use public money to convert empty offices into housing? Thesis: Cities should support office-to-housing conversions because remote work has permanently reduced office demand and conversions can revive downtown businesses, though costs mean they should target buildings best suited for conversion.\n\nB. Claim 1: Office demand is lower for the long term (Source A shows remote work keeps productivity steady and is popular with workers; Source D shows it widens access). Claim 2: Empty offices hurt downtown economies (Source B). Claim 3: Housing would bring residents who support local businesses (Source B, plus outside example of conversions in other cities).\n\nC. Counterargument: Remote work may decline as managers worry about mentoring (Source C). Response: Even a hybrid model reduces daily office use, so some space will remain unneeded."
+    },
+    {
+      "id": "u4-t03",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Commentary",
+      "frqType": "Skill task",
+      "stimulus": "Practice sources for Part B (written by Klutch; the authors and data are fictional)\n\n**Source A — a labor economist's working paper:** In a study of 1,600 employees at a travel company randomly assigned to work from home four days a week or stay in the office, productivity was about the same in both groups, but remote workers were 30 percent less likely to quit.\n\n**Source B — a city planner's essay:** Downtown office vacancy in mid-sized cities has climbed sharply. Restaurants and transit systems that depended on commuters are losing revenue. Cities may need to convert offices to housing and rethink downtowns as places to live, not just work.\n\n**Source C — a manager's survey report:** In a survey of 500 managers, 64 percent said remote work made it harder to mentor junior employees, and many said new hires learned company norms more slowly.\n\n**Source D — a disability rights advocate's op-ed:** For many disabled workers, remote work removed barriers such as inaccessible commutes and offices. Employment among people with disabilities rose to record levels after remote options expanded. Rolling those options back would undo hard-won gains.",
+      "prompt": "A student wrote this body paragraph:\n\n'Remote work is good for companies. Source A says remote workers were 30 percent less likely to quit. Source D says disabled employment rose. Source C says mentoring is harder.'",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Identify two problems with the paragraph.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Rewrite it with a clear claim, evidence, and commentary, and respond to Source C.",
+          "points": 3
+        },
+        {
+          "label": "C",
+          "prompt": "Attribute each source with a signal phrase.",
+          "points": 1
+        }
+      ],
+      "points": 6,
+      "minutes": 12,
+      "rubric": [
+        {
+          "criterion": "Diagnosis",
+          "points": 2,
+          "description": "Identifies the main problems: no commentary, list structure, unaddressed contradiction from C."
+        },
+        {
+          "criterion": "Revision",
+          "points": 3,
+          "description": "Rewrites the paragraph with a specific claim, integrated evidence, explanation, and handling of C."
+        },
+        {
+          "criterion": "Attribution",
+          "points": 1,
+          "description": "Uses signal phrases that identify sources' authors or types."
+        }
+      ],
+      "sampleResponse": "A. The paragraph lists evidence without explaining it, the claim is vague, and it mentions Source C's mentoring problem, which cuts against the claim, without responding.\n\nB/C. Revised: Remote options help companies keep valuable employees. In a randomized study of 1,600 workers, a labor economist found that employees allowed to work from home were 30 percent less likely to quit (Source A), which saves companies the costs of replacing and retraining staff. Remote work also widens the pool of workers companies can keep; a disability rights advocate reports that employment among disabled people reached record highs as remote options expanded (Source D). Although managers report that mentoring new hires is harder remotely (Source C), this suggests companies should add structured in-person training, not abandon remote options that clearly improve retention."
+    },
+    {
+      "id": "u4-t04",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Evidence",
+      "frqType": "Part A Q3: Evaluate the evidence",
+      "stimulus": "Practice sources for Part B (written by Klutch; the authors and data are fictional)\n\n**Source A — a labor economist's working paper:** In a study of 1,600 employees at a travel company randomly assigned to work from home four days a week or stay in the office, productivity was about the same in both groups, but remote workers were 30 percent less likely to quit.\n\n**Source B — a city planner's essay:** Downtown office vacancy in mid-sized cities has climbed sharply. Restaurants and transit systems that depended on commuters are losing revenue. Cities may need to convert offices to housing and rethink downtowns as places to live, not just work.\n\n**Source C — a manager's survey report:** In a survey of 500 managers, 64 percent said remote work made it harder to mentor junior employees, and many said new hires learned company norms more slowly.\n\n**Source D — a disability rights advocate's op-ed:** For many disabled workers, remote work removed barriers such as inaccessible commutes and offices. Employment among people with disabilities rose to record levels after remote options expanded. Rolling those options back would undo hard-won gains.",
+      "prompt": "Evaluate the effectiveness of Source C as evidence for the claim that remote work harms employees' professional development.",
+      "points": 6,
+      "minutes": 12,
+      "rubric": [
+        {
+          "criterion": "Specific evidence",
+          "points": 2,
+          "description": "References specific evidence: 500 managers, 64 percent, slower learning of norms."
+        },
+        {
+          "criterion": "Relevance and credibility",
+          "points": 2,
+          "description": "Judges credibility: managers' perceptions, not measured outcomes; possible bias toward in-office preferences; sample unclear."
+        },
+        {
+          "criterion": "Effect on argument",
+          "points": 2,
+          "description": "Explains effect: suggests a real concern but insufficient to prove harm; needs outcome data."
+        }
+      ],
+      "sampleResponse": "Source C offers relevant but limited evidence. The survey of 500 managers is a reasonable sample, and the 64 percent figure shows that a majority perceive mentoring as harder, which is relevant to professional development. However, the evidence measures managers' perceptions, not employees' actual skill growth, promotions, or performance, so it shows a concern rather than proven harm. Managers may also be biased toward in-person work, which is easier for them to supervise, and the source doesn't say how managers were chosen. As a result, Source C is useful for identifying a risk that a hybrid policy should address, but it cannot by itself establish that remote work harms development; outcome data on junior employees would be needed."
+    }
+  ]
+}

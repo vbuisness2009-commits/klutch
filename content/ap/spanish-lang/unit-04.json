@@ -1,0 +1,552 @@
+{
+  "number": 4,
+  "title": "Science and Technology",
+  "guide": {
+    "summary": "This theme examines how science and technology affect daily life, the environment, and society in Spanish-speaking countries: astronomy in Chile, low-tech innovations like fog catchers, digital life and screen time, health, and the ethical questions technology raises.",
+    "sections": [
+      {
+        "heading": "Cultural content",
+        "body": "Chile's Atacama Desert, among the driest places on Earth, hosts major international observatories because of dry air, altitude, and clear skies; light pollution from cities and mining threatens them, prompting lighting regulations and 'astroturismo'. In coastal Chile and Peru, fog catchers (atrapanieblas) collect water from the camanchaca fog for small communities. Other topics: Spain's high-speed rail (AVE) and leadership in organ donation and transplants, solar and wind energy growth in Latin America, digital payments and connectivity, telemedicine in rural areas, and debates about screen time and social media among youth."
+      },
+      {
+        "heading": "Language focus",
+        "body": "Use the conditional and future to discuss consequences ('La tecnología cambiará...', 'Sería útil que...'). Use 'para que' + subjunctive for purpose ('para que las comunidades tengan agua'). Use 'aunque' + indicative (fact) or subjunctive (hypothetical). Vocabulary: el avance, el desarrollo, la investigación, el/la investigador/a, la contaminación lumínica, la malla, el reto/el desafío, la herramienta, la pantalla, el ocio, la brecha digital, sostenible. Read charts: 'el promedio', 'la mayor/menor cantidad', 'aumenta/disminuye con la edad'. Note decimal commas (2,5 h) used in many Spanish-speaking countries."
+      },
+      {
+        "heading": "Exam skills",
+        "body": "Chart questions test precise reading: compare categories, identify the largest or smallest value, and avoid conclusions the data don't support (a chart showing hours doesn't show causes). Science articles often follow a structure: advantage → application → problem → solution; questions ask about each. In essays on technology, weigh benefits and risks and cite data from chart sources accurately."
+      }
+    ],
+    "keyTakeaways": [
+      "Atacama: ideal for astronomy; light pollution is a threat.",
+      "Atrapanieblas: low-cost water for small communities.",
+      "Read charts precisely; don't infer causes.",
+      "Para que + subjunctive; conditional for consequences.",
+      "Decimal comma in numbers."
+    ],
+    "commonMistakes": [
+      "Reading 2,5 as two thousand five hundred.",
+      "Inferring causation from a descriptive chart.",
+      "Using indicative after 'para que'.",
+      "Overgeneralizing local solutions to whole cities."
+    ],
+    "examTips": [
+      "For charts, check row and column labels before answering.",
+      "Look for 'sin embargo' to find the problem in science articles.",
+      "Use specific numbers from chart sources in essays."
+    ],
+    "cramSheet": "**Vocab:** avance · investigación · contaminación lumínica · atrapanieblas · malla · reto/desafío · pantalla · ocio · brecha digital · sostenible\n\n**Grammar:** para que + subj. · aunque + ind./subj. · futuro/condicional\n\n**Culture:** Atacama observatories · astroturismo · camanchaca · AVE · organ donation (Spain) · renewables"
+  },
+  "vocab": [
+    {
+      "term": "el avance",
+      "definition": "Advance; progress."
+    },
+    {
+      "term": "la investigación",
+      "definition": "Research."
+    },
+    {
+      "term": "la contaminación lumínica",
+      "definition": "Light pollution."
+    },
+    {
+      "term": "el atrapanieblas",
+      "definition": "Fog catcher."
+    },
+    {
+      "term": "la malla",
+      "definition": "Mesh; net."
+    },
+    {
+      "term": "el reto / el desafío",
+      "definition": "Challenge."
+    },
+    {
+      "term": "la pantalla",
+      "definition": "Screen."
+    },
+    {
+      "term": "el ocio",
+      "definition": "Leisure; free time."
+    },
+    {
+      "term": "la brecha digital",
+      "definition": "Digital divide."
+    },
+    {
+      "term": "sostenible",
+      "definition": "Sustainable."
+    },
+    {
+      "term": "albergar",
+      "definition": "To house; to host."
+    },
+    {
+      "term": "despejado/a",
+      "definition": "Clear (sky)."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Reading",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fuente: artículo de divulgación científica** (Texto original escrito por Klutch; personas y datos ficticios.)\n\n**Mirando el universo desde el desierto**\n\nEl desierto de Atacama, en el norte de Chile, es uno de los lugares más secos del planeta. En algunas zonas casi nunca llueve. Lo que para la agricultura es un obstáculo, para la astronomía es una ventaja: el aire seco, la gran altura y los cielos despejados casi todo el año ofrecen condiciones ideales para observar el universo.\n\nPor eso, Chile alberga algunos de los observatorios más avanzados del mundo, construidos mediante acuerdos internacionales. Gracias a ellos, astrónomos de muchos países han estudiado la formación de estrellas y planetas con un detalle antes imposible.\n\nSin embargo, la astronomía enfrenta una amenaza creciente: la contaminación lumínica. Las luces de las ciudades y de las minas cercanas iluminan el cielo nocturno y dificultan las observaciones. Chile ha aprobado normas para regular el alumbrado, y algunas comunidades promueven el \"astroturismo\", que atrae visitantes interesados en contemplar cielos oscuros y crea empleos locales.",
+      "stem": "¿Por qué el desierto de Atacama es ideal para la astronomía?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Por su aire seco, su altura y sus cielos despejados"
+        },
+        {
+          "id": "B",
+          "text": "Porque tiene muchas ciudades"
+        },
+        {
+          "id": "C",
+          "text": "Porque llueve con frecuencia"
+        },
+        {
+          "id": "D",
+          "text": "Porque está cerca del mar"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Stated in the first paragraph.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q02",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Reading",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fuente: artículo de divulgación científica** (Texto original escrito por Klutch; personas y datos ficticios.)\n\n**Mirando el universo desde el desierto**\n\nEl desierto de Atacama, en el norte de Chile, es uno de los lugares más secos del planeta. En algunas zonas casi nunca llueve. Lo que para la agricultura es un obstáculo, para la astronomía es una ventaja: el aire seco, la gran altura y los cielos despejados casi todo el año ofrecen condiciones ideales para observar el universo.\n\nPor eso, Chile alberga algunos de los observatorios más avanzados del mundo, construidos mediante acuerdos internacionales. Gracias a ellos, astrónomos de muchos países han estudiado la formación de estrellas y planetas con un detalle antes imposible.\n\nSin embargo, la astronomía enfrenta una amenaza creciente: la contaminación lumínica. Las luces de las ciudades y de las minas cercanas iluminan el cielo nocturno y dificultan las observaciones. Chile ha aprobado normas para regular el alumbrado, y algunas comunidades promueven el \"astroturismo\", que atrae visitantes interesados en contemplar cielos oscuros y crea empleos locales.",
+      "stem": "La frase «Lo que para la agricultura es un obstáculo, para la astronomía es una ventaja» se refiere a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "la falta de lluvia"
+        },
+        {
+          "id": "B",
+          "text": "la contaminación lumínica"
+        },
+        {
+          "id": "C",
+          "text": "el astroturismo"
+        },
+        {
+          "id": "D",
+          "text": "las minas"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Dryness hurts farming but helps observation.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q03",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Reading",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fuente: artículo de divulgación científica** (Texto original escrito por Klutch; personas y datos ficticios.)\n\n**Mirando el universo desde el desierto**\n\nEl desierto de Atacama, en el norte de Chile, es uno de los lugares más secos del planeta. En algunas zonas casi nunca llueve. Lo que para la agricultura es un obstáculo, para la astronomía es una ventaja: el aire seco, la gran altura y los cielos despejados casi todo el año ofrecen condiciones ideales para observar el universo.\n\nPor eso, Chile alberga algunos de los observatorios más avanzados del mundo, construidos mediante acuerdos internacionales. Gracias a ellos, astrónomos de muchos países han estudiado la formación de estrellas y planetas con un detalle antes imposible.\n\nSin embargo, la astronomía enfrenta una amenaza creciente: la contaminación lumínica. Las luces de las ciudades y de las minas cercanas iluminan el cielo nocturno y dificultan las observaciones. Chile ha aprobado normas para regular el alumbrado, y algunas comunidades promueven el \"astroturismo\", que atrae visitantes interesados en contemplar cielos oscuros y crea empleos locales.",
+      "stem": "¿Qué amenaza enfrenta la astronomía en la región?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "La luz artificial de ciudades y minas"
+        },
+        {
+          "id": "B",
+          "text": "La falta de científicos"
+        },
+        {
+          "id": "C",
+          "text": "Los terremotos"
+        },
+        {
+          "id": "D",
+          "text": "El exceso de turistas"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Light pollution.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q04",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Reading",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fuente: artículo de divulgación científica** (Texto original escrito por Klutch; personas y datos ficticios.)\n\n**Mirando el universo desde el desierto**\n\nEl desierto de Atacama, en el norte de Chile, es uno de los lugares más secos del planeta. En algunas zonas casi nunca llueve. Lo que para la agricultura es un obstáculo, para la astronomía es una ventaja: el aire seco, la gran altura y los cielos despejados casi todo el año ofrecen condiciones ideales para observar el universo.\n\nPor eso, Chile alberga algunos de los observatorios más avanzados del mundo, construidos mediante acuerdos internacionales. Gracias a ellos, astrónomos de muchos países han estudiado la formación de estrellas y planetas con un detalle antes imposible.\n\nSin embargo, la astronomía enfrenta una amenaza creciente: la contaminación lumínica. Las luces de las ciudades y de las minas cercanas iluminan el cielo nocturno y dificultan las observaciones. Chile ha aprobado normas para regular el alumbrado, y algunas comunidades promueven el \"astroturismo\", que atrae visitantes interesados en contemplar cielos oscuros y crea empleos locales.",
+      "stem": "Según el artículo, el astroturismo",
+      "choices": [
+        {
+          "id": "A",
+          "text": "protege los cielos oscuros y beneficia la economía local"
+        },
+        {
+          "id": "B",
+          "text": "aumenta la contaminación lumínica"
+        },
+        {
+          "id": "C",
+          "text": "reemplaza a los observatorios"
+        },
+        {
+          "id": "D",
+          "text": "está prohibido en Chile"
+        }
+      ],
+      "answer": "A",
+      "explanation": "It attracts visitors to dark skies and creates jobs.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q05",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Listening",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fuente auditiva (transcripción): reportaje** (Texto original escrito por Klutch; personas y datos ficticios.)\n\nNARRADORA: En la costa del norte de Chile y del Perú, casi no llueve, pero muchas mañanas una densa neblina llamada camanchaca cubre los cerros. Desde hace años, algunas comunidades usan \"atrapanieblas\", grandes mallas que capturan las gotitas de agua de la niebla.\nINGENIERO (Tomás Vera): El principio es sencillo. La niebla atraviesa la malla, las gotitas se quedan pegadas, se juntan y caen a un canal que las lleva a un tanque. En un buen día, una malla grande puede recoger cientos de litros.\nNARRADORA: Con esa agua, algunas comunidades riegan huertos y hasta producen cerveza artesanal.\nINGENIERO: No es una solución para una ciudad entera, pero para pueblos pequeños y aislados puede cambiar la vida. Además, es barata y no consume energía. El reto es mantener las mallas, porque el viento las daña.",
+      "stem": "¿Qué es la camanchaca?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Una neblina densa que cubre los cerros de la costa"
+        },
+        {
+          "id": "B",
+          "text": "Un tipo de malla"
+        },
+        {
+          "id": "C",
+          "text": "Una cerveza artesanal"
+        },
+        {
+          "id": "D",
+          "text": "Un canal de riego"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Defined by the narrator.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Listening",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fuente auditiva (transcripción): reportaje** (Texto original escrito por Klutch; personas y datos ficticios.)\n\nNARRADORA: En la costa del norte de Chile y del Perú, casi no llueve, pero muchas mañanas una densa neblina llamada camanchaca cubre los cerros. Desde hace años, algunas comunidades usan \"atrapanieblas\", grandes mallas que capturan las gotitas de agua de la niebla.\nINGENIERO (Tomás Vera): El principio es sencillo. La niebla atraviesa la malla, las gotitas se quedan pegadas, se juntan y caen a un canal que las lleva a un tanque. En un buen día, una malla grande puede recoger cientos de litros.\nNARRADORA: Con esa agua, algunas comunidades riegan huertos y hasta producen cerveza artesanal.\nINGENIERO: No es una solución para una ciudad entera, pero para pueblos pequeños y aislados puede cambiar la vida. Además, es barata y no consume energía. El reto es mantener las mallas, porque el viento las daña.",
+      "stem": "Según el ingeniero, ¿cómo funcionan los atrapanieblas?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Las gotitas de la niebla se quedan en la malla, se juntan y caen a un canal"
+        },
+        {
+          "id": "B",
+          "text": "Bombean agua del mar"
+        },
+        {
+          "id": "C",
+          "text": "Usan paneles solares para producir lluvia"
+        },
+        {
+          "id": "D",
+          "text": "Filtran el agua de los ríos"
+        }
+      ],
+      "answer": "A",
+      "explanation": "He explains the process step by step.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Listening",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fuente auditiva (transcripción): reportaje** (Texto original escrito por Klutch; personas y datos ficticios.)\n\nNARRADORA: En la costa del norte de Chile y del Perú, casi no llueve, pero muchas mañanas una densa neblina llamada camanchaca cubre los cerros. Desde hace años, algunas comunidades usan \"atrapanieblas\", grandes mallas que capturan las gotitas de agua de la niebla.\nINGENIERO (Tomás Vera): El principio es sencillo. La niebla atraviesa la malla, las gotitas se quedan pegadas, se juntan y caen a un canal que las lleva a un tanque. En un buen día, una malla grande puede recoger cientos de litros.\nNARRADORA: Con esa agua, algunas comunidades riegan huertos y hasta producen cerveza artesanal.\nINGENIERO: No es una solución para una ciudad entera, pero para pueblos pequeños y aislados puede cambiar la vida. Además, es barata y no consume energía. El reto es mantener las mallas, porque el viento las daña.",
+      "stem": "¿Para qué usan el agua algunas comunidades?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Para regar huertos y producir cerveza artesanal"
+        },
+        {
+          "id": "B",
+          "text": "Para abastecer a grandes ciudades"
+        },
+        {
+          "id": "C",
+          "text": "Para generar electricidad"
+        },
+        {
+          "id": "D",
+          "text": "Para limpiar las minas"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Narrator's examples.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q08",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Listening",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fuente auditiva (transcripción): reportaje** (Texto original escrito por Klutch; personas y datos ficticios.)\n\nNARRADORA: En la costa del norte de Chile y del Perú, casi no llueve, pero muchas mañanas una densa neblina llamada camanchaca cubre los cerros. Desde hace años, algunas comunidades usan \"atrapanieblas\", grandes mallas que capturan las gotitas de agua de la niebla.\nINGENIERO (Tomás Vera): El principio es sencillo. La niebla atraviesa la malla, las gotitas se quedan pegadas, se juntan y caen a un canal que las lleva a un tanque. En un buen día, una malla grande puede recoger cientos de litros.\nNARRADORA: Con esa agua, algunas comunidades riegan huertos y hasta producen cerveza artesanal.\nINGENIERO: No es una solución para una ciudad entera, pero para pueblos pequeños y aislados puede cambiar la vida. Además, es barata y no consume energía. El reto es mantener las mallas, porque el viento las daña.",
+      "stem": "¿Qué limitación reconoce el ingeniero?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "No sirven para abastecer una ciudad entera y requieren mantenimiento"
+        },
+        {
+          "id": "B",
+          "text": "Consumen mucha energía"
+        },
+        {
+          "id": "C",
+          "text": "Son muy caros"
+        },
+        {
+          "id": "D",
+          "text": "Contaminan el agua"
+        }
+      ],
+      "answer": "A",
+      "explanation": "He names both limits.",
+      "distractors": {
+        "B": "He says they use no energy.",
+        "C": "He says they are cheap."
+      }
+    },
+    {
+      "id": "u4-q09",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Chart",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fuente: gráfico (datos ficticios)** (Texto original escrito por Klutch; personas y datos ficticios.)\n\n**Horas diarias promedio frente a una pantalla, por edad (país X)**\n\n| Edad | Estudio/trabajo | Ocio | Total |\n|---|---|---|---|\n| 13–17 años | 2,5 h | 5,0 h | 7,5 h |\n| 18–29 años | 4,0 h | 4,0 h | 8,0 h |\n| 30–49 años | 5,5 h | 2,5 h | 8,0 h |\n| 50 años o más | 2,0 h | 3,0 h | 5,0 h |",
+      "stem": "Según el gráfico, ¿qué grupo pasa más horas de ocio frente a una pantalla?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "13–17 años"
+        },
+        {
+          "id": "B",
+          "text": "18–29 años"
+        },
+        {
+          "id": "C",
+          "text": "30–49 años"
+        },
+        {
+          "id": "D",
+          "text": "50 años o más"
+        }
+      ],
+      "answer": "A",
+      "explanation": "5,0 h is the highest leisure value.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Chart",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fuente: gráfico (datos ficticios)** (Texto original escrito por Klutch; personas y datos ficticios.)\n\n**Horas diarias promedio frente a una pantalla, por edad (país X)**\n\n| Edad | Estudio/trabajo | Ocio | Total |\n|---|---|---|---|\n| 13–17 años | 2,5 h | 5,0 h | 7,5 h |\n| 18–29 años | 4,0 h | 4,0 h | 8,0 h |\n| 30–49 años | 5,5 h | 2,5 h | 8,0 h |\n| 50 años o más | 2,0 h | 3,0 h | 5,0 h |",
+      "stem": "¿Qué afirmación es correcta según el gráfico?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "El grupo de 30–49 años usa más horas de pantalla para estudio o trabajo que para ocio"
+        },
+        {
+          "id": "B",
+          "text": "Los mayores de 50 años pasan más tiempo total frente a una pantalla"
+        },
+        {
+          "id": "C",
+          "text": "El tiempo de ocio aumenta con la edad en todos los grupos"
+        },
+        {
+          "id": "D",
+          "text": "Los jóvenes de 13–17 años estudian 5 horas frente a la pantalla"
+        }
+      ],
+      "answer": "A",
+      "explanation": "5,5 h vs 2,5 h.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q11",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Chart",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fuente: gráfico (datos ficticios)** (Texto original escrito por Klutch; personas y datos ficticios.)\n\n**Horas diarias promedio frente a una pantalla, por edad (país X)**\n\n| Edad | Estudio/trabajo | Ocio | Total |\n|---|---|---|---|\n| 13–17 años | 2,5 h | 5,0 h | 7,5 h |\n| 18–29 años | 4,0 h | 4,0 h | 8,0 h |\n| 30–49 años | 5,5 h | 2,5 h | 8,0 h |\n| 50 años o más | 2,0 h | 3,0 h | 5,0 h |",
+      "stem": "¿Qué dos grupos tienen el mismo total de horas?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "18–29 y 30–49 años"
+        },
+        {
+          "id": "B",
+          "text": "13–17 y 18–29 años"
+        },
+        {
+          "id": "C",
+          "text": "13–17 y 50 años o más"
+        },
+        {
+          "id": "D",
+          "text": "30–49 y 50 años o más"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Both total 8,0 h.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Chart",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fuente: gráfico (datos ficticios)** (Texto original escrito por Klutch; personas y datos ficticios.)\n\n**Horas diarias promedio frente a una pantalla, por edad (país X)**\n\n| Edad | Estudio/trabajo | Ocio | Total |\n|---|---|---|---|\n| 13–17 años | 2,5 h | 5,0 h | 7,5 h |\n| 18–29 años | 4,0 h | 4,0 h | 8,0 h |\n| 30–49 años | 5,5 h | 2,5 h | 8,0 h |\n| 50 años o más | 2,0 h | 3,0 h | 5,0 h |",
+      "stem": "¿Qué conclusión NO se puede sacar del gráfico?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Que las pantallas causan problemas de sueño en los adolescentes"
+        },
+        {
+          "id": "B",
+          "text": "Que los adolescentes dedican más tiempo al ocio que al estudio frente a la pantalla"
+        },
+        {
+          "id": "C",
+          "text": "Que el grupo de 50 años o más tiene el menor total"
+        },
+        {
+          "id": "D",
+          "text": "Que el tiempo de estudio/trabajo es mayor en el grupo de 30–49 años"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The chart shows hours, not health effects.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Grammar in Context",
+      "skill": "Presentational communication",
+      "stem": "Completa: «Chile aprobó normas para que las ciudades ___ menos luz hacia el cielo.»",
+      "choices": [
+        {
+          "id": "A",
+          "text": "emitan"
+        },
+        {
+          "id": "B",
+          "text": "emiten"
+        },
+        {
+          "id": "C",
+          "text": "emitirán"
+        },
+        {
+          "id": "D",
+          "text": "emitieron"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Para que + present subjunctive.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q14",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Cultural Comparison",
+      "skill": "Cultural comparison",
+      "stimulus": "**Fuente: artículo de divulgación científica** (Texto original escrito por Klutch; personas y datos ficticios.)\n\n**Mirando el universo desde el desierto**\n\nEl desierto de Atacama, en el norte de Chile, es uno de los lugares más secos del planeta. En algunas zonas casi nunca llueve. Lo que para la agricultura es un obstáculo, para la astronomía es una ventaja: el aire seco, la gran altura y los cielos despejados casi todo el año ofrecen condiciones ideales para observar el universo.\n\nPor eso, Chile alberga algunos de los observatorios más avanzados del mundo, construidos mediante acuerdos internacionales. Gracias a ellos, astrónomos de muchos países han estudiado la formación de estrellas y planetas con un detalle antes imposible.\n\nSin embargo, la astronomía enfrenta una amenaza creciente: la contaminación lumínica. Las luces de las ciudades y de las minas cercanas iluminan el cielo nocturno y dificultan las observaciones. Chile ha aprobado normas para regular el alumbrado, y algunas comunidades promueven el \"astroturismo\", que atrae visitantes interesados en contemplar cielos oscuros y crea empleos locales.\n\n---\n\n**Fuente auditiva (transcripción): reportaje** (Texto original escrito por Klutch; personas y datos ficticios.)\n\nNARRADORA: En la costa del norte de Chile y del Perú, casi no llueve, pero muchas mañanas una densa neblina llamada camanchaca cubre los cerros. Desde hace años, algunas comunidades usan \"atrapanieblas\", grandes mallas que capturan las gotitas de agua de la niebla.\nINGENIERO (Tomás Vera): El principio es sencillo. La niebla atraviesa la malla, las gotitas se quedan pegadas, se juntan y caen a un canal que las lleva a un tanque. En un buen día, una malla grande puede recoger cientos de litros.\nNARRADORA: Con esa agua, algunas comunidades riegan huertos y hasta producen cerveza artesanal.\nINGENIERO: No es una solución para una ciudad entera, pero para pueblos pequeños y aislados puede cambiar la vida. Además, es barata y no consume energía. El reto es mantener las mallas, porque el viento las daña.",
+      "stem": "¿Qué tienen en común el artículo sobre Atacama y el reportaje sobre los atrapanieblas?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Ambos muestran cómo las condiciones del desierto se aprovechan con tecnología"
+        },
+        {
+          "id": "B",
+          "text": "Ambos tratan sobre la contaminación del agua"
+        },
+        {
+          "id": "C",
+          "text": "Ambos describen grandes ciudades"
+        },
+        {
+          "id": "D",
+          "text": "Ambos critican la ciencia"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Both adapt to desert conditions.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-frq1",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Argumentative Essay",
+      "frqType": "Argumentative essay",
+      "prompt": "**Tema: ¿Deben prohibirse los teléfonos celulares en las escuelas secundarias?**\n\nEscribe un ensayo argumentativo usando las tres fuentes. Presenta tu punto de vista, apóyalo con información de todas las fuentes, identifica cada fuente y considera otros puntos de vista.\n\n**Fuente 1 (resumen de un artículo):** Varios países y regiones han restringido los celulares en las escuelas. Algunos docentes informan de menos distracciones y más conversación en los recreos.\n\n**Fuente 2 (gráfico, datos ficticios):** Los adolescentes de 13–17 años pasan en promedio 7,5 horas diarias frente a una pantalla: 2,5 horas de estudio y 5 de ocio.\n\n**Fuente 3 (audio, resumen):** Una madre explica que el celular le permite comunicarse con su hija en emergencias, y un profesor señala que lo usa en clase para buscar información y practicar idiomas.",
+      "points": 5,
+      "minutes": 55,
+      "rubric": [
+        {
+          "criterion": "Thesis and task",
+          "points": 1,
+          "description": "Takes a clear position that answers the question."
+        },
+        {
+          "criterion": "Use of sources",
+          "points": 1,
+          "description": "Uses and cites all sources accurately to support the argument."
+        },
+        {
+          "criterion": "Development",
+          "points": 1,
+          "description": "Develops reasons with explanation and examples; addresses another viewpoint."
+        },
+        {
+          "criterion": "Organization",
+          "points": 1,
+          "description": "Organized paragraphs with effective transitions."
+        },
+        {
+          "criterion": "Language",
+          "points": 1,
+          "description": "Accurate, varied grammar and vocabulary in an appropriate formal register."
+        }
+      ],
+      "sampleResponse": "Hoy en día, los teléfonos celulares forman parte de la vida de casi todos los adolescentes. Sin embargo, no creo que la solución sea prohibirlos por completo en las escuelas; en cambio, las escuelas deberían limitar su uso a momentos específicos y con fines educativos.\n\nPor un lado, es evidente que el uso excesivo de pantallas es un problema. Según la Fuente 2, los adolescentes pasan un promedio de 7,5 horas diarias frente a una pantalla, y la mayor parte, 5 horas, se dedica al ocio. Además, la Fuente 1 indica que, donde se han restringido los celulares, los docentes observan menos distracciones y más conversación en los recreos. Estos datos muestran que es necesario que las escuelas establezcan límites.\n\nPor otro lado, una prohibición total tendría desventajas. En la Fuente 3, una madre explica que el celular le permite comunicarse con su hija en caso de emergencia, y un profesor lo usa para buscar información y practicar idiomas en clase. Si se prohibieran por completo, los estudiantes perderían una herramienta útil para aprender.\n\nAlgunos dirán que cualquier excepción hará que los estudiantes usen el teléfono todo el tiempo. Aunque es un riesgo, una política clara, por ejemplo guardar los celulares durante las clases salvo cuando el profesor lo pida, puede reducir las distracciones sin eliminar los beneficios.\n\nEn conclusión, para que los estudiantes aprendan a usar la tecnología de manera responsable, las escuelas deben regular el uso del celular, no prohibirlo totalmente."
+    }
+  ]
+}

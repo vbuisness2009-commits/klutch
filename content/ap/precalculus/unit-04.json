@@ -43,6 +43,10 @@
       {
         "heading": "Practice habit",
         "body": "Draw vectors and transformations on grid paper to check your algebraic results visually."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Matrix multiplication is not commutative: AB usually differs from BA, so apply transformations in the correct order."
       }
     ],
     "keyTakeaways": [

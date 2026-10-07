@@ -1,0 +1,548 @@
+{
+  "number": 4,
+  "title": "Science and Technology",
+  "guide": {
+    "summary": "This theme covers science and technology in German-speaking countries: the Energiewende, transport and cycling cities, digital media use, innovation and engineering, and the social questions they raise.",
+    "sections": [
+      {
+        "heading": "Cultural content",
+        "body": "Germany's Energiewende (energy transition) aims to replace fossil fuels and nuclear power with renewables; the last three nuclear plants were shut down in April 2023, and wind and solar now supply a large share of electricity. Debates focus on electricity prices, intermittency, and the need for new power lines from the windy north to the industrial south. Cities like Münster promote cycling with infrastructure such as bike lanes and bike parking garages. Other topics: the German automobile industry and electric cars, Swiss precision engineering and research (CERN near Geneva), Austrian hydropower, data protection (Datenschutz) as a strong cultural value, and digital media habits."
+      },
+      {
+        "heading": "Language focus",
+        "body": "Pros and cons: 'Befürworter betonen, dass...', 'Kritiker weisen darauf hin, dass...', 'einerseits... andererseits', 'außerdem', 'trotzdem'. Passive: 'Die Atomkraftwerke wurden abgeschaltet'. 'Um... zu' for purpose. Reading tables: 'die Mehrheit', 'etwa ein Drittel', 'nur', 'doppelt so viele'. Vocabulary: die Energiewende, erneuerbare Energien, das Atomkraftwerk, die Stromleitung, der Strompreis, der Radweg, der Verkehr, die Umgebung, der Datenschutz, soziale Netzwerke."
+      },
+      {
+        "heading": "Exam skills",
+        "body": "Science articles typically present a policy, supporters, critics, and a broader question. Tables require careful distinctions ('täglich' vs 'manchmal'); avoid causal conclusions. In essays on technology, weigh benefits and risks and cite data precisely."
+      }
+    ],
+    "keyTakeaways": [
+      "Energiewende: nuclear exit April 2023, renewables.",
+      "Power-line bottleneck north → south.",
+      "Münster: cycling culture.",
+      "Datenschutz as a value.",
+      "Read tables carefully."
+    ],
+    "commonMistakes": [
+      "Assuming Germany still runs nuclear plants.",
+      "Drawing causal conclusions from tables.",
+      "Forgetting 'zu' with 'um... zu'."
+    ],
+    "examTips": [
+      "Underline Befürworter/Kritiker statements.",
+      "Use exact percentages.",
+      "Compare transport in your town with Münster."
+    ],
+    "cramSheet": "**Vocab:** Energiewende · erneuerbare Energien · Atomkraftwerk · Stromleitung · Strompreis · Radweg · Verkehr · Datenschutz\n\n**Grammar:** Passiv · um … zu · einerseits … andererseits\n\n**Culture:** Atomausstieg (April 2023) · Windkraft im Norden · Münster · CERN · Datenschutz"
+  },
+  "vocab": [
+    {
+      "term": "die Energiewende",
+      "definition": "Energy transition."
+    },
+    {
+      "term": "erneuerbare Energien",
+      "definition": "Renewable energy."
+    },
+    {
+      "term": "das Atomkraftwerk",
+      "definition": "Nuclear power plant."
+    },
+    {
+      "term": "abschalten",
+      "definition": "To shut down."
+    },
+    {
+      "term": "die Stromleitung",
+      "definition": "Power line."
+    },
+    {
+      "term": "der Befürworter",
+      "definition": "Supporter."
+    },
+    {
+      "term": "der Radweg",
+      "definition": "Bike lane."
+    },
+    {
+      "term": "der Verkehr",
+      "definition": "Traffic; transport."
+    },
+    {
+      "term": "das Umland",
+      "definition": "Surrounding area."
+    },
+    {
+      "term": "der Datenschutz",
+      "definition": "Data protection."
+    },
+    {
+      "term": "bewirken",
+      "definition": "To bring about."
+    },
+    {
+      "term": "die Umgebung",
+      "definition": "Surroundings."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Lesen",
+      "skill": "Interpretive communication",
+      "stimulus": "**Quelle: populärwissenschaftlicher Artikel** (Originaltext von Klutch; Personen und Daten sind fiktiv.)\n\n**Die Energiewende: Ein Land stellt um**\n\nKaum ein Land hat sich beim Umbau seiner Energieversorgung so viel vorgenommen wie Deutschland. Unter dem Stichwort „Energiewende“ sollen fossile Energieträger und Atomkraft schrittweise durch erneuerbare Energien ersetzt werden. Im April 2023 wurden die letzten drei Atomkraftwerke abgeschaltet, und heute stammt ein großer Teil des Stroms aus Wind- und Solaranlagen.\n\nBefürworter betonen, dass die Energiewende das Klima schützt, neue Arbeitsplätze schafft und das Land unabhängiger von Importen macht. Kritiker weisen auf hohe Strompreise hin und darauf, dass der Wind nicht immer weht und die Sonne nicht immer scheint. Außerdem fehlen Stromleitungen, um den Windstrom aus dem Norden in die Industriegebiete im Süden zu transportieren.\n\nDie Energiewende ist also nicht nur eine technische Aufgabe, sondern auch eine gesellschaftliche: Wer soll die Kosten tragen, und wie viel Veränderung in ihrer Umgebung sind die Menschen bereit zu akzeptieren?",
+      "stem": "Was ist das Ziel der Energiewende?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Fossile Energie und Atomkraft durch erneuerbare Energien zu ersetzen"
+        },
+        {
+          "id": "B",
+          "text": "Mehr Kohle zu verbrennen"
+        },
+        {
+          "id": "C",
+          "text": "Strom aus Frankreich zu importieren"
+        },
+        {
+          "id": "D",
+          "text": "Neue Atomkraftwerke zu bauen"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Stated.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q02",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Lesen",
+      "skill": "Interpretive communication",
+      "stimulus": "**Quelle: populärwissenschaftlicher Artikel** (Originaltext von Klutch; Personen und Daten sind fiktiv.)\n\n**Die Energiewende: Ein Land stellt um**\n\nKaum ein Land hat sich beim Umbau seiner Energieversorgung so viel vorgenommen wie Deutschland. Unter dem Stichwort „Energiewende“ sollen fossile Energieträger und Atomkraft schrittweise durch erneuerbare Energien ersetzt werden. Im April 2023 wurden die letzten drei Atomkraftwerke abgeschaltet, und heute stammt ein großer Teil des Stroms aus Wind- und Solaranlagen.\n\nBefürworter betonen, dass die Energiewende das Klima schützt, neue Arbeitsplätze schafft und das Land unabhängiger von Importen macht. Kritiker weisen auf hohe Strompreise hin und darauf, dass der Wind nicht immer weht und die Sonne nicht immer scheint. Außerdem fehlen Stromleitungen, um den Windstrom aus dem Norden in die Industriegebiete im Süden zu transportieren.\n\nDie Energiewende ist also nicht nur eine technische Aufgabe, sondern auch eine gesellschaftliche: Wer soll die Kosten tragen, und wie viel Veränderung in ihrer Umgebung sind die Menschen bereit zu akzeptieren?",
+      "stem": "Was geschah im April 2023?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Die letzten drei Atomkraftwerke wurden abgeschaltet"
+        },
+        {
+          "id": "B",
+          "text": "Die Energiewende wurde beendet"
+        },
+        {
+          "id": "C",
+          "text": "Neue Kohlekraftwerke wurden eröffnet"
+        },
+        {
+          "id": "D",
+          "text": "Der Strompreis sank auf null"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Stated.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q03",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Lesen",
+      "skill": "Interpretive communication",
+      "stimulus": "**Quelle: populärwissenschaftlicher Artikel** (Originaltext von Klutch; Personen und Daten sind fiktiv.)\n\n**Die Energiewende: Ein Land stellt um**\n\nKaum ein Land hat sich beim Umbau seiner Energieversorgung so viel vorgenommen wie Deutschland. Unter dem Stichwort „Energiewende“ sollen fossile Energieträger und Atomkraft schrittweise durch erneuerbare Energien ersetzt werden. Im April 2023 wurden die letzten drei Atomkraftwerke abgeschaltet, und heute stammt ein großer Teil des Stroms aus Wind- und Solaranlagen.\n\nBefürworter betonen, dass die Energiewende das Klima schützt, neue Arbeitsplätze schafft und das Land unabhängiger von Importen macht. Kritiker weisen auf hohe Strompreise hin und darauf, dass der Wind nicht immer weht und die Sonne nicht immer scheint. Außerdem fehlen Stromleitungen, um den Windstrom aus dem Norden in die Industriegebiete im Süden zu transportieren.\n\nDie Energiewende ist also nicht nur eine technische Aufgabe, sondern auch eine gesellschaftliche: Wer soll die Kosten tragen, und wie viel Veränderung in ihrer Umgebung sind die Menschen bereit zu akzeptieren?",
+      "stem": "Welches technische Problem nennen die Kritiker?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Es fehlen Stromleitungen vom Norden in den Süden"
+        },
+        {
+          "id": "B",
+          "text": "Es gibt zu viel Sonne"
+        },
+        {
+          "id": "C",
+          "text": "Windräder sind verboten"
+        },
+        {
+          "id": "D",
+          "text": "Es gibt keine Industrie im Süden"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Transmission gap.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q04",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Lesen",
+      "skill": "Interpretive communication",
+      "stimulus": "**Quelle: populärwissenschaftlicher Artikel** (Originaltext von Klutch; Personen und Daten sind fiktiv.)\n\n**Die Energiewende: Ein Land stellt um**\n\nKaum ein Land hat sich beim Umbau seiner Energieversorgung so viel vorgenommen wie Deutschland. Unter dem Stichwort „Energiewende“ sollen fossile Energieträger und Atomkraft schrittweise durch erneuerbare Energien ersetzt werden. Im April 2023 wurden die letzten drei Atomkraftwerke abgeschaltet, und heute stammt ein großer Teil des Stroms aus Wind- und Solaranlagen.\n\nBefürworter betonen, dass die Energiewende das Klima schützt, neue Arbeitsplätze schafft und das Land unabhängiger von Importen macht. Kritiker weisen auf hohe Strompreise hin und darauf, dass der Wind nicht immer weht und die Sonne nicht immer scheint. Außerdem fehlen Stromleitungen, um den Windstrom aus dem Norden in die Industriegebiete im Süden zu transportieren.\n\nDie Energiewende ist also nicht nur eine technische Aufgabe, sondern auch eine gesellschaftliche: Wer soll die Kosten tragen, und wie viel Veränderung in ihrer Umgebung sind die Menschen bereit zu akzeptieren?",
+      "stem": "Wie beschreibt der Autor die Energiewende am Ende?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Als gesellschaftliche Aufgabe, die Fragen der Kosten und der Akzeptanz aufwirft"
+        },
+        {
+          "id": "B",
+          "text": "Als abgeschlossenes Projekt"
+        },
+        {
+          "id": "C",
+          "text": "Als rein technisches Problem"
+        },
+        {
+          "id": "D",
+          "text": "Als gescheitert"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Final paragraph.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q05",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Hören",
+      "skill": "Interpretive communication",
+      "stimulus": "**Hörtext (Transkript): Radiobeitrag** (Originaltext von Klutch; Personen und Daten sind fiktiv.)\n\nREPORTER: Münster gilt als eine der fahrradfreundlichsten Städte Deutschlands. Frau Schulte, Sie arbeiten in der Verkehrsplanung. Was macht Münster anders?\nFRAU SCHULTE: Wir haben früh angefangen, Radwege zu bauen, und das Rad ist hier einfach Teil der Kultur. Studierende, Familien, ältere Menschen – alle fahren Rad. Am Bahnhof gibt es ein großes Fahrradparkhaus.\nREPORTER: Gibt es auch Probleme?\nFRAU SCHULTE: Natürlich. Auf manchen Wegen ist es zu voll, und es gibt Konflikte zwischen Radfahrern, Fußgängern und Autofahrern. Außerdem wohnen viele Menschen im Umland und brauchen trotzdem ein Auto oder gute Busverbindungen.\nREPORTER: Was können andere Städte lernen?\nFRAU SCHULTE: Dass sichere Radwege mehr bewirken als Werbekampagnen. Wenn Menschen sich sicher fühlen, steigen sie aufs Rad.",
+      "stem": "Warum gilt Münster als fahrradfreundlich?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Die Stadt hat früh Radwege gebaut, und Radfahren gehört zur Kultur"
+        },
+        {
+          "id": "B",
+          "text": "Autos sind dort verboten"
+        },
+        {
+          "id": "C",
+          "text": "Es gibt keine Busse"
+        },
+        {
+          "id": "D",
+          "text": "Die Stadt ist sehr hügelig"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Stated.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Hören",
+      "skill": "Interpretive communication",
+      "stimulus": "**Hörtext (Transkript): Radiobeitrag** (Originaltext von Klutch; Personen und Daten sind fiktiv.)\n\nREPORTER: Münster gilt als eine der fahrradfreundlichsten Städte Deutschlands. Frau Schulte, Sie arbeiten in der Verkehrsplanung. Was macht Münster anders?\nFRAU SCHULTE: Wir haben früh angefangen, Radwege zu bauen, und das Rad ist hier einfach Teil der Kultur. Studierende, Familien, ältere Menschen – alle fahren Rad. Am Bahnhof gibt es ein großes Fahrradparkhaus.\nREPORTER: Gibt es auch Probleme?\nFRAU SCHULTE: Natürlich. Auf manchen Wegen ist es zu voll, und es gibt Konflikte zwischen Radfahrern, Fußgängern und Autofahrern. Außerdem wohnen viele Menschen im Umland und brauchen trotzdem ein Auto oder gute Busverbindungen.\nREPORTER: Was können andere Städte lernen?\nFRAU SCHULTE: Dass sichere Radwege mehr bewirken als Werbekampagnen. Wenn Menschen sich sicher fühlen, steigen sie aufs Rad.",
+      "stem": "Welche Probleme nennt Frau Schulte?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Volle Radwege, Konflikte zwischen Verkehrsteilnehmern und Menschen im Umland, die ein Auto brauchen"
+        },
+        {
+          "id": "B",
+          "text": "Zu wenige Radfahrer"
+        },
+        {
+          "id": "C",
+          "text": "Zu viele Fahrradparkhäuser"
+        },
+        {
+          "id": "D",
+          "text": "Schlechtes Wetter das ganze Jahr"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Her list.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Hören",
+      "skill": "Interpretive communication",
+      "stimulus": "**Hörtext (Transkript): Radiobeitrag** (Originaltext von Klutch; Personen und Daten sind fiktiv.)\n\nREPORTER: Münster gilt als eine der fahrradfreundlichsten Städte Deutschlands. Frau Schulte, Sie arbeiten in der Verkehrsplanung. Was macht Münster anders?\nFRAU SCHULTE: Wir haben früh angefangen, Radwege zu bauen, und das Rad ist hier einfach Teil der Kultur. Studierende, Familien, ältere Menschen – alle fahren Rad. Am Bahnhof gibt es ein großes Fahrradparkhaus.\nREPORTER: Gibt es auch Probleme?\nFRAU SCHULTE: Natürlich. Auf manchen Wegen ist es zu voll, und es gibt Konflikte zwischen Radfahrern, Fußgängern und Autofahrern. Außerdem wohnen viele Menschen im Umland und brauchen trotzdem ein Auto oder gute Busverbindungen.\nREPORTER: Was können andere Städte lernen?\nFRAU SCHULTE: Dass sichere Radwege mehr bewirken als Werbekampagnen. Wenn Menschen sich sicher fühlen, steigen sie aufs Rad.",
+      "stem": "Was ist laut Frau Schulte wichtiger als Werbekampagnen?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Sichere Radwege"
+        },
+        {
+          "id": "B",
+          "text": "Billige Fahrräder"
+        },
+        {
+          "id": "C",
+          "text": "Mehr Parkplätze für Autos"
+        },
+        {
+          "id": "D",
+          "text": "Fahrradrennen"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Her advice.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q08",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Hören",
+      "skill": "Interpretive communication",
+      "stimulus": "**Hörtext (Transkript): Radiobeitrag** (Originaltext von Klutch; Personen und Daten sind fiktiv.)\n\nREPORTER: Münster gilt als eine der fahrradfreundlichsten Städte Deutschlands. Frau Schulte, Sie arbeiten in der Verkehrsplanung. Was macht Münster anders?\nFRAU SCHULTE: Wir haben früh angefangen, Radwege zu bauen, und das Rad ist hier einfach Teil der Kultur. Studierende, Familien, ältere Menschen – alle fahren Rad. Am Bahnhof gibt es ein großes Fahrradparkhaus.\nREPORTER: Gibt es auch Probleme?\nFRAU SCHULTE: Natürlich. Auf manchen Wegen ist es zu voll, und es gibt Konflikte zwischen Radfahrern, Fußgängern und Autofahrern. Außerdem wohnen viele Menschen im Umland und brauchen trotzdem ein Auto oder gute Busverbindungen.\nREPORTER: Was können andere Städte lernen?\nFRAU SCHULTE: Dass sichere Radwege mehr bewirken als Werbekampagnen. Wenn Menschen sich sicher fühlen, steigen sie aufs Rad.",
+      "stem": "Welche Haltung zeigt Frau Schulte?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Stolz auf die Erfolge, aber ehrlich über die Grenzen"
+        },
+        {
+          "id": "B",
+          "text": "Völlig kritisch gegenüber Münster"
+        },
+        {
+          "id": "C",
+          "text": "Gleichgültig"
+        },
+        {
+          "id": "D",
+          "text": "Unrealistisch optimistisch"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Balanced.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q09",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Tabelle",
+      "skill": "Interpretive communication",
+      "stimulus": "**Quelle: Tabelle (fiktive Daten)** (Originaltext von Klutch; Personen und Daten sind fiktiv.)\n\n**Wie oft nutzen 16- bis 25-Jährige folgende Medien? (Land X, in %)**\n\n| Medium | Täglich | Manchmal | Nie |\n|---|---|---|---|\n| Soziale Netzwerke | 85 % | 12 % | 3 % |\n| Streaming-Dienste | 60 % | 35 % | 5 % |\n| Online-Nachrichten | 35 % | 50 % | 15 % |\n| Gedruckte Zeitungen | 5 % | 30 % | 65 % |",
+      "stem": "Welches Medium nutzen die meisten jungen Leute täglich?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Soziale Netzwerke"
+        },
+        {
+          "id": "B",
+          "text": "Streaming-Dienste"
+        },
+        {
+          "id": "C",
+          "text": "Online-Nachrichten"
+        },
+        {
+          "id": "D",
+          "text": "Gedruckte Zeitungen"
+        }
+      ],
+      "answer": "A",
+      "explanation": "85 %.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Tabelle",
+      "skill": "Interpretive communication",
+      "stimulus": "**Quelle: Tabelle (fiktive Daten)** (Originaltext von Klutch; Personen und Daten sind fiktiv.)\n\n**Wie oft nutzen 16- bis 25-Jährige folgende Medien? (Land X, in %)**\n\n| Medium | Täglich | Manchmal | Nie |\n|---|---|---|---|\n| Soziale Netzwerke | 85 % | 12 % | 3 % |\n| Streaming-Dienste | 60 % | 35 % | 5 % |\n| Online-Nachrichten | 35 % | 50 % | 15 % |\n| Gedruckte Zeitungen | 5 % | 30 % | 65 % |",
+      "stem": "Welche Aussage stimmt?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Fast zwei Drittel lesen nie gedruckte Zeitungen"
+        },
+        {
+          "id": "B",
+          "text": "Die Mehrheit liest täglich Online-Nachrichten"
+        },
+        {
+          "id": "C",
+          "text": "Niemand nutzt Streaming-Dienste"
+        },
+        {
+          "id": "D",
+          "text": "Gedruckte Zeitungen werden täglich von 30 % gelesen"
+        }
+      ],
+      "answer": "A",
+      "explanation": "65 % nie.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q11",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Tabelle",
+      "skill": "Interpretive communication",
+      "stimulus": "**Quelle: Tabelle (fiktive Daten)** (Originaltext von Klutch; Personen und Daten sind fiktiv.)\n\n**Wie oft nutzen 16- bis 25-Jährige folgende Medien? (Land X, in %)**\n\n| Medium | Täglich | Manchmal | Nie |\n|---|---|---|---|\n| Soziale Netzwerke | 85 % | 12 % | 3 % |\n| Streaming-Dienste | 60 % | 35 % | 5 % |\n| Online-Nachrichten | 35 % | 50 % | 15 % |\n| Gedruckte Zeitungen | 5 % | 30 % | 65 % |",
+      "stem": "Etwa wie viele junge Leute lesen täglich Online-Nachrichten?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Etwa ein Drittel"
+        },
+        {
+          "id": "B",
+          "text": "Etwa drei Viertel"
+        },
+        {
+          "id": "C",
+          "text": "Fast alle"
+        },
+        {
+          "id": "D",
+          "text": "Niemand"
+        }
+      ],
+      "answer": "A",
+      "explanation": "35 %.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Tabelle",
+      "skill": "Interpretive communication",
+      "stimulus": "**Quelle: Tabelle (fiktive Daten)** (Originaltext von Klutch; Personen und Daten sind fiktiv.)\n\n**Wie oft nutzen 16- bis 25-Jährige folgende Medien? (Land X, in %)**\n\n| Medium | Täglich | Manchmal | Nie |\n|---|---|---|---|\n| Soziale Netzwerke | 85 % | 12 % | 3 % |\n| Streaming-Dienste | 60 % | 35 % | 5 % |\n| Online-Nachrichten | 35 % | 50 % | 15 % |\n| Gedruckte Zeitungen | 5 % | 30 % | 65 % |",
+      "stem": "Welche Schlussfolgerung lässt sich NICHT aus der Tabelle ziehen?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Soziale Netzwerke machen junge Leute unglücklich"
+        },
+        {
+          "id": "B",
+          "text": "Gedruckte Zeitungen werden von jungen Leuten wenig genutzt"
+        },
+        {
+          "id": "C",
+          "text": "Streaming-Dienste werden von der Mehrheit täglich genutzt"
+        },
+        {
+          "id": "D",
+          "text": "Nur wenige nutzen nie soziale Netzwerke"
+        }
+      ],
+      "answer": "A",
+      "explanation": "No data on happiness.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q13",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Vergleich",
+      "skill": "Cultural comparison",
+      "stimulus": "**Quelle: populärwissenschaftlicher Artikel** (Originaltext von Klutch; Personen und Daten sind fiktiv.)\n\n**Die Energiewende: Ein Land stellt um**\n\nKaum ein Land hat sich beim Umbau seiner Energieversorgung so viel vorgenommen wie Deutschland. Unter dem Stichwort „Energiewende“ sollen fossile Energieträger und Atomkraft schrittweise durch erneuerbare Energien ersetzt werden. Im April 2023 wurden die letzten drei Atomkraftwerke abgeschaltet, und heute stammt ein großer Teil des Stroms aus Wind- und Solaranlagen.\n\nBefürworter betonen, dass die Energiewende das Klima schützt, neue Arbeitsplätze schafft und das Land unabhängiger von Importen macht. Kritiker weisen auf hohe Strompreise hin und darauf, dass der Wind nicht immer weht und die Sonne nicht immer scheint. Außerdem fehlen Stromleitungen, um den Windstrom aus dem Norden in die Industriegebiete im Süden zu transportieren.\n\nDie Energiewende ist also nicht nur eine technische Aufgabe, sondern auch eine gesellschaftliche: Wer soll die Kosten tragen, und wie viel Veränderung in ihrer Umgebung sind die Menschen bereit zu akzeptieren?\n\n---\n\n**Hörtext (Transkript): Radiobeitrag** (Originaltext von Klutch; Personen und Daten sind fiktiv.)\n\nREPORTER: Münster gilt als eine der fahrradfreundlichsten Städte Deutschlands. Frau Schulte, Sie arbeiten in der Verkehrsplanung. Was macht Münster anders?\nFRAU SCHULTE: Wir haben früh angefangen, Radwege zu bauen, und das Rad ist hier einfach Teil der Kultur. Studierende, Familien, ältere Menschen – alle fahren Rad. Am Bahnhof gibt es ein großes Fahrradparkhaus.\nREPORTER: Gibt es auch Probleme?\nFRAU SCHULTE: Natürlich. Auf manchen Wegen ist es zu voll, und es gibt Konflikte zwischen Radfahrern, Fußgängern und Autofahrern. Außerdem wohnen viele Menschen im Umland und brauchen trotzdem ein Auto oder gute Busverbindungen.\nREPORTER: Was können andere Städte lernen?\nFRAU SCHULTE: Dass sichere Radwege mehr bewirken als Werbekampagnen. Wenn Menschen sich sicher fühlen, steigen sie aufs Rad.",
+      "stem": "Welches gemeinsame Thema haben der Artikel und der Radiobeitrag?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Den Wandel hin zu umweltfreundlicheren Lösungen"
+        },
+        {
+          "id": "B",
+          "text": "Die Geschichte der Berliner Mauer"
+        },
+        {
+          "id": "C",
+          "text": "Soziale Netzwerke"
+        },
+        {
+          "id": "D",
+          "text": "Mode"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Sustainability transitions.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Grammatik",
+      "skill": "Presentational communication",
+      "stem": "Ergänze: „Es fehlen Leitungen, ___ den Windstrom in den Süden zu transportieren.“",
+      "choices": [
+        {
+          "id": "A",
+          "text": "um"
+        },
+        {
+          "id": "B",
+          "text": "damit"
+        },
+        {
+          "id": "C",
+          "text": "weil"
+        },
+        {
+          "id": "D",
+          "text": "dass"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Um … zu + infinitive.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-frq1",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Aufsatz",
+      "frqType": "Argumentative essay",
+      "prompt": "**Thema: Sollten Handys an Schulen verboten werden?**\n\nSchreibe einen argumentativen Aufsatz und benutze alle drei Quellen. Vertritt einen klaren Standpunkt, stütze ihn mit Informationen aus allen Quellen, nenne jede Quelle und berücksichtige andere Sichtweisen.\n\n**Quelle 1 (Zusammenfassung eines Artikels):** Einige Länder haben Handys an Schulen eingeschränkt; Lehrkräfte berichten von weniger Ablenkung und mehr Gesprächen in den Pausen.\n\n**Quelle 2 (Tabelle, fiktive Daten):** 85 % der 16- bis 25-Jährigen nutzen täglich soziale Netzwerke, aber nur 35 % lesen täglich Online-Nachrichten.\n\n**Quelle 3 (Hörtext, Zusammenfassung):** Eine Mutter erklärt, dass sie ihre Tochter im Notfall erreichen will; ein Lehrer nutzt Handys im Unterricht für Recherchen und Vokabelübungen.",
+      "points": 5,
+      "minutes": 55,
+      "rubric": [
+        {
+          "criterion": "Thesis and task",
+          "points": 1,
+          "description": "Takes a clear position that answers the question."
+        },
+        {
+          "criterion": "Use of sources",
+          "points": 1,
+          "description": "Uses and cites all sources accurately to support the argument."
+        },
+        {
+          "criterion": "Development",
+          "points": 1,
+          "description": "Develops reasons with explanation and examples; addresses another viewpoint."
+        },
+        {
+          "criterion": "Organization",
+          "points": 1,
+          "description": "Organized paragraphs with effective transitions."
+        },
+        {
+          "criterion": "Language",
+          "points": 1,
+          "description": "Accurate, varied grammar and vocabulary in an appropriate formal register."
+        }
+      ],
+      "sampleResponse": "Handys gehören heute zum Alltag fast aller Jugendlichen. Meiner Meinung nach sollten Schulen Handys nicht komplett verbieten, sondern ihre Nutzung klar regeln.\n\nEinerseits gibt es gute Gründe für Einschränkungen. Laut Quelle 2 nutzen 85 % der jungen Leute täglich soziale Netzwerke, aber nur 35 % lesen täglich Online-Nachrichten. Das zeigt, dass das Handy vor allem zur Unterhaltung dient. Außerdem berichten Lehrkräfte in Quelle 1, dass es dort, wo Handys eingeschränkt wurden, weniger Ablenkung und mehr Gespräche in den Pausen gibt.\n\nAndererseits hätte ein komplettes Verbot Nachteile. In Quelle 3 erklärt eine Mutter, dass sie ihre Tochter im Notfall erreichen möchte. Ein Lehrer nutzt das Handy sogar im Unterricht für Recherchen und Vokabelübungen. Ein Verbot würde also auch sinnvolle Nutzungen verhindern.\n\nKritiker könnten sagen, dass flexible Regeln schwer durchzusetzen sind. Das stimmt teilweise. Trotzdem kann eine klare Regel, zum Beispiel Handys während des Unterrichts in der Tasche zu lassen, außer wenn die Lehrkraft es erlaubt, Ablenkung verringern und gleichzeitig nützliche Anwendungen erhalten.\n\nZusammenfassend sollten Schulen die Handynutzung regeln, statt sie zu verbieten, damit Jugendliche lernen, verantwortungsvoll mit Technik umzugehen."
+    }
+  ]
+}

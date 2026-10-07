@@ -19,6 +19,26 @@
       {
         "heading": "Equations, models, and semi-log plots",
         "body": "Solve exponential equations by taking logs of both sides; solve logarithmic equations by combining logs and exponentiating, then check for extraneous solutions (arguments must be positive). Logarithmic models fit data that increase quickly then level off in rate. On a semi-log plot (log y vs. x), exponential data appear linear: if ln y = mx + c, then y = e^c · (e^m)ˣ. Validate models by examining residuals and context (e.g., an exponential model for population can't grow forever)."
+      },
+      {
+        "heading": "Worked example: exponential models",
+        "body": "A population of 500 bacteria doubles every 3 hours, so P(t) = 500·2^(t/3). After 9 hours, P = 500·2³ = 4000. To find when the population reaches 10,000, solve 2^(t/3) = 20, so t/3 = log₂20 = ln 20/ln 2 ≈ 4.32, and t ≈ 13.0 hours. In general, exponential functions have a constant ratio over equal-length intervals, while linear functions have a constant difference. An arithmetic sequence adds a common difference (aₙ = a₀ + dn); a geometric sequence multiplies by a common ratio (gₙ = g₀rⁿ)."
+      },
+      {
+        "heading": "Log properties",
+        "body": "log_b(xy) = log_b x + log_b y, log_b(x/y) = log_b x − log_b y, and log_b(xⁿ) = n log_b x. The logarithm is the inverse of the exponential function, so log_b(b^x) = x. On a semi-log plot (log of y against x), exponential data appear linear, which is how analysts test whether a model is exponential."
+      },
+      {
+        "heading": "Exponential and logarithmic equations",
+        "body": "To solve 3^(2x) = 81, rewrite 81 as 3⁴, so 2x = 4 and x = 2. When bases can't be matched, take a logarithm of both sides: 5^x = 12 gives x = ln 12 / ln 5 ≈ 1.54. To solve log₂(x + 3) = 5, rewrite in exponential form: x + 3 = 2⁵ = 32, so x = 29. Always check that solutions keep the argument of every logarithm positive. Compound interest problems use A = P(1 + r/n)^(nt), and continuous growth uses A = Pe^(rt)."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know common difference, common ratio, growth and decay factors, inverse function, logarithm, natural log, semi-log plot, and residuals for checking a model's fit."
+      },
+      {
+        "heading": "Practice habit",
+        "body": "Check exponential and logarithmic solutions by substituting them back into the original equation."
       }
     ],
     "keyTakeaways": [

@@ -15,6 +15,34 @@
       {
         "heading": "Static members and design",
         "body": "Static variables belong to the class and are shared by all instances (e.g., a counter of objects created). Static methods can't access instance variables or call instance methods without an object, and can't use this. Preconditions state what must be true before a method is called; postconditions state what is true after. Good design decomposes problems into smaller methods. Programs have ethical and social consequences, including privacy, bias in data and algorithms, and intellectual property."
+      },
+      {
+        "heading": "Worked example: writing a class",
+        "body": "A free-response class-design question might ask for a class representing a bank account. Declare private instance variables (private String owner; private double balance;), a constructor that initializes them (public BankAccount(String o, double b) { owner = o; balance = b; }), accessor methods (public double getBalance() { return balance; }), and mutator methods that enforce rules (public void withdraw(double amt) { if (amt <= balance) { balance -= amt; } }). Use this.balance when a parameter has the same name as an instance variable. Methods should be public unless they are helper methods; instance variables should always be private to support encapsulation."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students lose points by declaring local variables that shadow instance variables, forgetting return statements, returning the wrong type, or modifying parameters they should only read. A constructor has no return type, not even void. Static methods cannot use instance variables directly because they belong to the class rather than to any object. Always check whether a method should change the object's state or just report on it."
+      },
+      {
+        "heading": "Exam tip",
+        "body": "Write method headers exactly as specified in the question, including the parameter types and return type."
+      },
+      {
+        "heading": "Inheritance, toString, and equals",
+        "body": "In the revised course, class design focuses on writing your own classes. Override toString to return a readable description of an object, which println uses automatically. An equals method compares the contents of two objects rather than their references. Class-level design questions often ask you to decide which data should be instance variables and which values should be computed by methods, and to make sure the constructor initializes every instance variable. Documenting preconditions and postconditions in comments clarifies what a method expects and guarantees."
+      },
+      {
+        "heading": "Designing a class from a specification",
+        "body": "Read the specification carefully and list the nouns (likely instance variables) and verbs (likely methods). Decide the type of each piece of data and which methods change state. Then write the class header, the private instance variables, the constructor that sets all of them, and the methods in the order given. Test your class mentally by constructing an object and calling each method with simple values, checking the returned results against the examples in the question."
+      },
+      {
+        "heading": "Practice habit",
+        "body": "Write two or three full classes from past free-response prompts under timed conditions, then check every header against the specification."
+      },
+      {
+        "heading": "Core vocabulary",
+        "body": "Know encapsulation, constructor, accessor, mutator, instance variable, local variable, scope, static, this, and the difference between a class and an object."
       }
     ],
     "keyTakeaways": [

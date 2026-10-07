@@ -19,6 +19,22 @@
       {
         "heading": "Polar coordinates and functions",
         "body": "A point (r, θ) in polar form has rectangular coordinates x = r cos θ, y = r sin θ; r² = x² + y², tan θ = y/x. Polar graphs: r = a cos θ or a sin θ are circles; r = a + b cos θ gives limaçons (a cardioid when a = b); r = a cos(nθ) gives roses. In polar functions, if r is positive and increasing, the point moves away from the origin; if r is positive and decreasing, toward the origin. If r is negative, the point lies in the opposite direction of θ. Average rate of change of r with respect to θ = Δr/Δθ."
+      },
+      {
+        "heading": "Worked example: sinusoidal model",
+        "body": "The height of a Ferris wheel car is modeled by h(t) = 30 − 25cos(πt/5), in meters, with t in minutes. The midline is h = 30, the amplitude is 25 (the car ranges from 5 to 55 meters), and the period is 2π/(π/5) = 10 minutes. At t = 0 the car is at its lowest point, 5 m, because −cos starts at its minimum. To find when the car first reaches 42.5 m, solve −25cos(πt/5) = 12.5, so cos(πt/5) = −0.5, giving πt/5 = 2π/3 and t ≈ 3.33 minutes."
+      },
+      {
+        "heading": "Polar functions",
+        "body": "Polar coordinates (r, θ) locate a point by distance from the origin and angle. Converting: x = r cos θ, y = r sin θ, and r² = x² + y². The graph of r = 2 sin θ is a circle; r = cos(3θ) is a three-petal rose; and r = 1 + cos θ is a cardioid. The rate of change of r with respect to θ tells whether points are moving away from or toward the origin."
+      },
+      {
+        "heading": "Exam tip",
+        "body": "For sinusoidal models, find the midline, amplitude, period, and phase shift from the context before writing the equation."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know radian measure, amplitude, period, midline, phase shift, and inverse trig functions."
       }
     ],
     "keyTakeaways": [

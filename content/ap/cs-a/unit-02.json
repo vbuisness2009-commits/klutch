@@ -15,6 +15,30 @@
       {
         "heading": "String traversal and nested loops",
         "body": "Traverse a String with for (int i = 0; i < str.length(); i++) and access one-character substrings with str.substring(i, i + 1). To reverse, loop from str.length() − 1 down to 0. For substrings of length k, loop i from 0 to str.length() − k. Nested loops repeat the inner loop fully for each outer iteration; total executions multiply (or sum, if the inner bound depends on the outer variable, e.g., 4 + 3 + 2 + 1)."
+      },
+      {
+        "heading": "Worked example: tracing a loop",
+        "body": "Consider int sum = 0; for (int i = 1; i <= 10; i += 3) { sum += i; }. The loop runs for i = 1, 4, 7, and 10, so sum is 22. A while loop with a condition that never becomes false is an infinite loop. Off-by-one errors come from using < instead of <= or starting at 1 instead of 0. In String traversal, for (int i = 0; i < s.length(); i++) visits each character with s.substring(i, i + 1); using i <= s.length() causes a StringIndexOutOfBoundsException."
+      },
+      {
+        "heading": "Boolean logic",
+        "body": "De Morgan's laws state that !(a && b) is equivalent to !a || !b, and !(a || b) is equivalent to !a && !b. Short-circuit evaluation means that in a && b, b is not evaluated if a is false, which can prevent errors such as dividing by zero: (x != 0 && y / x > 2). Nested conditionals and else-if chains test conditions in order, so place the most specific condition first."
+      },
+      {
+        "heading": "Common loop algorithms",
+        "body": "Standard patterns include counting matches (increment a counter inside an if), finding a maximum or minimum (initialize with the first value, then compare), summing and averaging, checking whether any or all elements meet a condition (return early when found), and reversing a String by building it backward. Nested loops repeat an inner loop for each pass of the outer loop, so a loop of n inside a loop of m runs n × m times. Free-response questions reward correct loop bounds and correct handling of the first and last elements, so test your loop mentally with a small example such as a String of length 3."
+      },
+      {
+        "heading": "Exam tip",
+        "body": "Before writing a loop on the free response, decide the start, end, and step, and whether the loop should stop early."
+      },
+      {
+        "heading": "Practice habit",
+        "body": "Rewrite for loops as while loops and vice versa to build fluency; both forms appear on the exam."
+      },
+      {
+        "heading": "Core vocabulary",
+        "body": "Know that a for loop's header holds initialization, condition, and update, and that each part can be traced separately when debugging a loop that runs too many or too few times."
       }
     ],
     "keyTakeaways": [

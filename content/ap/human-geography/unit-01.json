@@ -19,6 +19,26 @@
       {
         "heading": "Scale and regions",
         "body": "Scale of analysis is the level at which data are aggregated (global, regional, national, local). Patterns can look very different at different scales: a country may appear wealthy at the national scale while having deep regional inequality. Map scale is the ratio between map distance and ground distance; a large-scale map shows a small area in great detail. Regions: formal (uniform) regions share a measurable trait (e.g., a language region); functional (nodal) regions are organized around a node (e.g., a metro area or a newspaper's circulation area); perceptual (vernacular) regions reflect people's feelings and attitudes (e.g., 'the South'). Region boundaries are often contested."
+      },
+      {
+        "heading": "Applying the concepts",
+        "body": "Exam questions frequently present a map or data and ask you to apply a concept. For example, a map of COVID-19 cases by county illustrates scale: national patterns look different from local clusters. A choropleth map shades areas by data value, a dot map shows distribution, a proportional symbol map scales symbols by quantity, and an isoline map connects points of equal value, such as elevation. Remember distance decay (interaction decreases with distance) and time-space compression (technology reduces the effect of distance). Absolute location uses coordinates, while relative location describes a place in relation to others. Site is a place's physical characteristics; situation is its location relative to other places and connections."
+      },
+      {
+        "heading": "Types of data and regions",
+        "body": "Quantitative data include numbers such as population counts, while qualitative data include interviews and field observations. Formal regions share a measurable trait (a language), functional regions are organized around a node (a newspaper's circulation area), and perceptual or vernacular regions reflect people's feelings (the 'South')."
+      },
+      {
+        "heading": "Geospatial technologies",
+        "body": "Geographic Information Systems (GIS) layer spatial data for analysis, such as overlaying flood zones with housing locations; GPS identifies exact locations using satellites; remote sensing collects data from satellites or aircraft, such as tracking deforestation. Mental maps are personal internal maps that reflect how individuals perceive space. Every map projection distorts shape, area, distance, or direction: the Mercator projection preserves direction for navigation but greatly enlarges areas near the poles, while equal-area projections such as Gall-Peters preserve relative size but distort shape."
+      },
+      {
+        "heading": "Exam tip",
+        "body": "In FRQs, always define the concept you use and then apply it to the specific map, place, or data shown."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know scale of analysis, spatial association, distance decay, and sustainability."
       }
     ],
     "keyTakeaways": [

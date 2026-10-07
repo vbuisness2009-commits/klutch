@@ -15,6 +15,34 @@
       {
         "heading": "Matrices and transformations",
         "body": "Matrix multiplication combines rows with columns; it is not commutative. For a 2 × 2 matrix [[a, b], [c, d]], the determinant is ad − bc, and the inverse is (1/det)[[d, −b], [−c, a]], which exists only if det ≠ 0. A 2 × 2 matrix represents a linear transformation of the plane: rotation by θ is [[cos θ, −sin θ], [sin θ, cos θ]]; |det| gives the area scale factor. Composition of transformations corresponds to matrix multiplication. Transition matrices model systems moving between states (Markov chains); multiplying the state vector by the matrix gives the next state, and repeated multiplication can approach a steady state."
+      },
+      {
+        "heading": "Worked example: parametric motion",
+        "body": "A particle moves with x(t) = 2t and y(t) = t² − 4 for t ≥ 0. Eliminating the parameter gives t = x/2 and y = x²/4 − 4, a parabola, but only the right half is traced because x ≥ 0. At t = 1, the position is (2, −3), and the average rate of change of y with respect to x from t = 0 to t = 2 is (0 − (−4))/(4 − 0) = 1."
+      },
+      {
+        "heading": "Worked example: vectors and matrices",
+        "body": "For u = ⟨3, 4⟩, the magnitude is √(3² + 4²) = 5 and a unit vector in the same direction is ⟨0.6, 0.8⟩. The dot product of u and v = ⟨4, −3⟩ is 12 − 12 = 0, so the vectors are perpendicular. A 2×2 matrix A = [[a, b], [c, d]] has determinant ad − bc; if the determinant is nonzero, A has an inverse, (1/(ad − bc))[[d, −b], [−c, a]]. A rotation matrix [[cos θ, −sin θ], [sin θ, cos θ]] rotates vectors counterclockwise by θ, and the absolute value of the determinant gives the area scale factor of a linear transformation."
+      },
+      {
+        "heading": "Exam note",
+        "body": "Remember that Unit 4 content is not assessed on the AP exam, but it supports later coursework in calculus and linear algebra."
+      },
+      {
+        "heading": "Linear transformations",
+        "body": "Matrices represent linear transformations: multiplying a vector by a matrix maps it to a new vector. Composition of transformations corresponds to matrix multiplication, applied right to left. A transition matrix can model change between states, such as the proportion of customers switching between two companies each year, and repeated multiplication predicts long-run behavior."
+      },
+      {
+        "heading": "Exam tip",
+        "body": "Even though Unit 4 isn't tested on the AP exam, practicing it builds skills for calculus courses that use parametric and vector functions."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know parameter, vector, magnitude, unit vector, dot product, determinant, inverse matrix, and transition matrix."
+      },
+      {
+        "heading": "Practice habit",
+        "body": "Draw vectors and transformations on grid paper to check your algebraic results visually."
       }
     ],
     "keyTakeaways": [

@@ -19,6 +19,26 @@
       {
         "heading": "Transformations, equivalent forms, and models",
         "body": "g(x) = af(b(x − h)) + k: vertical dilation by a (reflect if a < 0), horizontal dilation by 1/b, shift right h and up k. Equivalent forms reveal different features: factored form shows zeros, standard form shows end behavior; polynomial long division rewrites rational expressions; the binomial theorem expands (a + b)ⁿ using combinations. Choose a model by examining rates of change and context (linear: constant rate; quadratic: linearly changing rate; cubic or higher for more complex behavior), and consider domain restrictions and assumptions."
+      },
+      {
+        "heading": "Worked example: rational functions",
+        "body": "For f(x) = (x² − 4)/(x² − x − 2) = ((x − 2)(x + 2))/((x − 2)(x + 1)), the common factor (x − 2) creates a hole at x = 2, where f would equal (2 + 2)/(2 + 1) = 4/3. The remaining factor (x + 1) in the denominator creates a vertical asymptote at x = −1. Because the numerator and denominator have the same degree with leading coefficients 1 and 1, the horizontal asymptote is y = 1. Zeros occur where the simplified numerator is zero: x = −2."
+      },
+      {
+        "heading": "Modeling with functions",
+        "body": "Choose a model from the pattern of the data: constant first differences suggest linear, constant second differences suggest quadratic, and a constant ratio suggests exponential. Piecewise functions model situations that change rules, such as shipping costs. Interpret parameters in context: in a quadratic model of a ball's height, the vertex gives the maximum height and the time it occurs. Watch the domain: a model may only be valid over a limited interval, and predictions outside the data (extrapolation) are less reliable."
+      },
+      {
+        "heading": "Exam tip",
+        "body": "When asked for end behavior, use limit notation: as x → ∞, f(x) → ∞, for example. For rational functions, compare the degrees of numerator and denominator to find horizontal or slant asymptotes."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know average rate of change, concavity, point of inflection, end behavior, multiplicity, hole, vertical and horizontal asymptotes, and transformations (shifts, stretches, reflections). A zero with even multiplicity touches the x-axis without crossing it."
+      },
+      {
+        "heading": "Practice habit",
+        "body": "Sketch every function before analyzing it; a quick graph catches sign and asymptote errors early."
       }
     ],
     "keyTakeaways": [

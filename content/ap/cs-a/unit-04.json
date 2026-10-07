@@ -23,6 +23,18 @@
       {
         "heading": "Data sets and files",
         "body": "Programs often read data from text files (e.g., with a Scanner wrapping a File), parse lines with split, and store values in arrays or ArrayLists of objects for analysis. Data can contain errors, missing values, or bias; how data are collected and used raises privacy and fairness concerns."
+      },
+      {
+        "heading": "Worked example: ArrayList removal",
+        "body": "Removing elements while traversing an ArrayList forward skips elements, because later elements shift left. To remove all negative numbers safely, traverse backward: for (int i = list.size() - 1; i >= 0; i--) { if (list.get(i) < 0) { list.remove(i); } }. Alternatively, traverse forward and only increment i when nothing is removed. Remember that list.remove(int index) removes by position and returns the removed element, while list.size() changes as elements are added or removed. For 2D arrays, arr.length is the number of rows and arr[0].length the number of columns; row-major traversal uses an outer loop over rows and an inner loop over columns."
+      },
+      {
+        "heading": "Searching and sorting",
+        "body": "Linear search checks each element in order and works on any list. Binary search repeatedly halves a sorted list, comparing the target to the middle element, so it needs about log₂ n comparisons. Selection sort repeatedly selects the smallest remaining element and swaps it into place; insertion sort builds a sorted portion by inserting each new element into its correct position. Recursion solves a problem by calling the method on a smaller version of the same problem and must include a base case to stop."
+      },
+      {
+        "heading": "Exam tip",
+        "body": "On 2D array questions, confirm whether you need row-major or column-major order before writing the loops."
       }
     ],
     "keyTakeaways": [

@@ -19,6 +19,26 @@
       {
         "heading": "Math and wrapper classes",
         "body": "Math.abs, Math.pow (returns double), Math.sqrt (double), Math.random() (a double in [0.0, 1.0)). A random int from a to b inclusive: (int) (Math.random() * (b − a + 1)) + a. Integer and Double wrap primitives so they can be stored in collections; Java autoboxes and unboxes automatically. Integer.parseInt converts a String to an int."
+      },
+      {
+        "heading": "Worked example: tracing expressions",
+        "body": "Java evaluates int division by truncating, so 7 / 2 is 3 and 7 % 2 is 1, while 7 / 2.0 is 3.5 because one operand is a double. Casting (int) 3.99 truncates to 3, and (int) (3.99 + 0.5) rounds to 4. Compound assignment like x += 3 adds 3 to x. Strings are immutable: calling s.toUpperCase() returns a new String and does not change s unless you assign the result. For s = \"computer\", s.substring(2, 5) returns \"mpu\" (indexes 2 to 4), s.indexOf(\"u\") returns 4, and s.length() returns 8. Comparing Strings with == checks whether two references point to the same object; use equals to compare contents."
+      },
+      {
+        "heading": "Exam tip",
+        "body": "Many multiple-choice questions show a short code segment and ask for its output. Trace carefully on paper, writing each variable's value after every line."
+      },
+      {
+        "heading": "Calling methods and using objects",
+        "body": "Objects are created with new, which calls a constructor: Scanner in = new Scanner(System.in) or String s = new String(\"hi\"). A reference variable stores the address of an object; null means it refers to nothing, and calling a method on null throws a NullPointerException. Methods have a signature (name and parameter types); overloaded methods share a name but differ in parameters. A void method performs an action and returns nothing; a non-void method returns a value that you should store or use. The Math class provides static methods like Math.abs, Math.pow, Math.sqrt, and Math.random, which returns a double in [0.0, 1.0); (int)(Math.random() * 6) + 1 simulates a die roll."
+      },
+      {
+        "heading": "Practice habit",
+        "body": "Before the exam, practice predicting outputs of short String and arithmetic expressions until you can do them quickly and accurately."
+      },
+      {
+        "heading": "Core vocabulary",
+        "body": "Know the difference between primitive types (int, double, boolean), which store values, and reference types (String and objects), which store addresses of objects in memory."
       }
     ],
     "keyTakeaways": [

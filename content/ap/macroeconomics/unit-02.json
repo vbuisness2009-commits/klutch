@@ -19,6 +19,18 @@
       {
         "heading": "Business cycles",
         "body": "Business cycles are short-run fluctuations in real GDP around its long-run trend: expansion, peak, contraction (recession), and trough. During expansions, unemployment falls and inflation tends to rise; during recessions, cyclical unemployment rises. Potential (full-employment) output is the output when unemployment equals the natural rate. A negative output gap (recessionary) means actual < potential; a positive gap (inflationary) means actual > potential."
+      },
+      {
+        "heading": "Worked example: calculating indicators",
+        "body": "If a country has 200 million people in the labor force and 12 million unemployed, the unemployment rate is 12/200 = 6%. A discouraged worker who stops looking for work leaves the labor force, which lowers the measured unemployment rate even though the economy has not improved. If a market basket costs $500 in the base year and $540 this year, the CPI is (540/500) × 100 = 108, so prices rose 8% since the base year. Real GDP adjusts nominal GDP for price changes: real GDP = (nominal GDP / GDP deflator) × 100. If nominal GDP rose 6% while prices rose 4%, real GDP grew about 2%. Real interest rates equal nominal rates minus inflation, so unexpected inflation helps borrowers and hurts lenders and people on fixed incomes."
+      },
+      {
+        "heading": "What GDP leaves out",
+        "body": "GDP counts the market value of final goods and services produced within a country in a year. It excludes intermediate goods, used goods, financial transactions such as buying stocks, transfer payments, and nonmarket activities such as household work. It also ignores the underground economy, leisure, environmental damage, and income distribution, so it is an imperfect measure of well-being. The expenditures approach adds consumption, investment, government purchases, and net exports: GDP = C + I + G + Xn."
+      },
+      {
+        "heading": "Types of unemployment",
+        "body": "Frictional unemployment comes from people between jobs or entering the labor force; structural unemployment comes from a mismatch between workers' skills or locations and available jobs, often due to technology; cyclical unemployment comes from recessions. The natural rate of unemployment equals frictional plus structural unemployment, and full employment means only natural unemployment exists, not zero unemployment."
       }
     ],
     "keyTakeaways": [

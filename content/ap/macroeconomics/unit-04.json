@@ -23,6 +23,14 @@
       {
         "heading": "Loanable funds",
         "body": "The loanable funds market sets the real interest rate. Supply comes from saving (households, government surpluses, foreign capital inflows); demand comes from borrowing (business investment, government deficits). Increased government borrowing raises demand for loanable funds, raising the real interest rate and reducing private investment (crowding out). Increased private saving lowers the real rate and encourages investment. Expectations of higher inflation do not affect real rates on this graph, but they raise nominal rates."
+      },
+      {
+        "heading": "Worked example: money creation",
+        "body": "If the reserve requirement is 10%, the money multiplier is 1/0.10 = 10. When a customer deposits $1,000 in cash, the bank must hold $100 in required reserves and can lend $900 in excess reserves. The maximum change in the money supply from that deposit is $900 × 10 = $9,000 in new loans, though the total money supply rises by $9,000 because the $1,000 cash deposit only changes the form of money already counted. If the Fed buys $1,000 in bonds from a bank, the bank's excess reserves rise by the full $1,000, so the money supply can rise by up to $10,000. Open-market purchases are expansionary; sales are contractionary."
+      },
+      {
+        "heading": "Graph checklist",
+        "body": "In the money market, draw a vertical money supply curve and a downward-sloping money demand curve with the nominal interest rate on the vertical axis. An open-market purchase shifts money supply right and lowers the interest rate, which increases investment and aggregate demand. In the loanable funds market, the real interest rate is on the vertical axis; government borrowing shifts demand right."
       }
     ],
     "keyTakeaways": [

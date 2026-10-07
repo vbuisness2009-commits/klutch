@@ -1,0 +1,548 @@
+{
+  "number": 4,
+  "title": "Science and Technology",
+  "guide": {
+    "summary": "This theme covers science and technology in Japan: the Shinkansen, robots in elderly care in an aging society, smartphone use, and the social issues technology raises.",
+    "sections": [
+      {
+        "heading": "Cultural content",
+        "body": "The Tōkaidō Shinkansen opened in 1964 just before the Tokyo Olympics, connecting Tokyo and Osaka and supporting Japan's postwar growth; the network now runs from Hokkaido to Kyushu and is famous for safety and punctuality, though new lines are costly and can reduce local train service. Japan's aging society and care-worker shortage have spurred care robots, such as powered suits that protect workers' backs and conversational robots, while caregivers stress that human contact remains essential. Other topics: earthquake engineering and early-warning systems, Japan's space program (JAXA, Hayabusa asteroid missions), convenience-store technology, and smartphone use among youth."
+      },
+      {
+        "heading": "Language focus",
+        "body": "Benefits and problems: ～だけでなく, しかし, また, ～場合もある. Requests for help: ～てもらう (ロボットに手伝ってもらう). Limitation: ～しかできない. Change: ずいぶん楽になりました, ～ようになった. Vocabulary: 開業, 結ぶ, 大幅に, 経済成長, 安全性, 正確さ, 事故, 費用, 赤字, 在来線, 高齢化, 介護, 介護士, 施設, 腰, 役割分担, 任せる, 向き合う."
+      },
+      {
+        "heading": "Exam skills",
+        "body": "Science articles often present history, strengths, and problems (しかし、課題もあります); questions target each. Interviews highlight balance (ただ…). Tables require distinguishing 毎日 from ときどき; avoid causal conclusions."
+      }
+    ],
+    "keyTakeaways": [
+      "Shinkansen 1964; safety and punctuality.",
+      "Costs and local impacts of new lines.",
+      "Care robots in an aging society; human touch remains vital.",
+      "～てもらう; ～しかできない.",
+      "Read tables precisely."
+    ],
+    "commonMistakes": [
+      "Drawing causal claims from tables.",
+      "Confusing ～てもらう and ～てあげる.",
+      "Missing ただ signaling a limitation."
+    ],
+    "examTips": [
+      "Look for しかし and ただ to find limits.",
+      "Use exact percentages.",
+      "Compare transportation or elder care with your community."
+    ],
+    "cramSheet": "**Vocab:** 開業 · 経済成長 · 安全性 · 正確さ · 費用 · 赤字 · 在来線 · 高齢化 · 介護 · 介護士 · 施設 · 役割分担 · 向き合う\n\n**Grammar:** ～だけでなく · ～てもらう · ～しかできない · ～場合もある\n\n**Culture:** 東海道新幹線 (1964) · 介護ロボット · 地震対策 · JAXA/はやぶさ"
+  },
+  "vocab": [
+    {
+      "term": "開業（かいぎょう）",
+      "definition": "Opening (of a business/line)."
+    },
+    {
+      "term": "経済成長（けいざいせいちょう）",
+      "definition": "Economic growth."
+    },
+    {
+      "term": "安全性（あんぜんせい）",
+      "definition": "Safety."
+    },
+    {
+      "term": "正確さ（せいかくさ）",
+      "definition": "Accuracy; punctuality."
+    },
+    {
+      "term": "費用（ひよう）",
+      "definition": "Cost."
+    },
+    {
+      "term": "赤字（あかじ）",
+      "definition": "Deficit; loss."
+    },
+    {
+      "term": "在来線（ざいらいせん）",
+      "definition": "Conventional rail line."
+    },
+    {
+      "term": "高齢化（こうれいか）",
+      "definition": "Population aging."
+    },
+    {
+      "term": "介護（かいご）",
+      "definition": "Elder care; nursing care."
+    },
+    {
+      "term": "施設（しせつ）",
+      "definition": "Facility."
+    },
+    {
+      "term": "役割分担（やくわりぶんたん）",
+      "definition": "Division of roles."
+    },
+    {
+      "term": "向き合う（むきあう）",
+      "definition": "To face; to engage with."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "読解",
+      "skill": "Interpretive communication",
+      "stimulus": "**資料：科学の記事** （Klutch によるオリジナルの練習用文章です。人物やデータは架空のものです。）\n\n**新幹線が変えた日本**\n\n1964年、東京オリンピックの直前に、東京と大阪を結ぶ東海道新幹線が開業しました。それまで半日以上かかっていた移動が大幅に短くなり、日本の経済成長を支えました。今では新幹線は北海道から九州まで延びています。\n\n新幹線は、速さだけでなく、安全性と時間の正確さでも知られています。開業以来、乗客が死亡する大きな事故はほとんど起きておらず、平均の遅れも非常に短いと言われています。\n\nしかし、課題もあります。新しい路線を作るには巨額の費用がかかり、利用者が少ない地域では赤字になることもあります。また、新幹線が通ると在来線が第三セクターに移管されたり、本数が減ったりして、地元の人の生活が不便になる場合もあります。",
+      "stem": "東海道新幹線はいつ開業しましたか。",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1964年、東京オリンピックの直前"
+        },
+        {
+          "id": "B",
+          "text": "1945年"
+        },
+        {
+          "id": "C",
+          "text": "2000年"
+        },
+        {
+          "id": "D",
+          "text": "2020年の東京オリンピックの後"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Stated.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q02",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "読解",
+      "skill": "Interpretive communication",
+      "stimulus": "**資料：科学の記事** （Klutch によるオリジナルの練習用文章です。人物やデータは架空のものです。）\n\n**新幹線が変えた日本**\n\n1964年、東京オリンピックの直前に、東京と大阪を結ぶ東海道新幹線が開業しました。それまで半日以上かかっていた移動が大幅に短くなり、日本の経済成長を支えました。今では新幹線は北海道から九州まで延びています。\n\n新幹線は、速さだけでなく、安全性と時間の正確さでも知られています。開業以来、乗客が死亡する大きな事故はほとんど起きておらず、平均の遅れも非常に短いと言われています。\n\nしかし、課題もあります。新しい路線を作るには巨額の費用がかかり、利用者が少ない地域では赤字になることもあります。また、新幹線が通ると在来線が第三セクターに移管されたり、本数が減ったりして、地元の人の生活が不便になる場合もあります。",
+      "stem": "新幹線は速さのほかに何で知られていますか。",
+      "choices": [
+        {
+          "id": "A",
+          "text": "安全性と時間の正確さ"
+        },
+        {
+          "id": "B",
+          "text": "安い運賃"
+        },
+        {
+          "id": "C",
+          "text": "大きな窓"
+        },
+        {
+          "id": "D",
+          "text": "静かな駅"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Stated.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q03",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "読解",
+      "skill": "Interpretive communication",
+      "stimulus": "**資料：科学の記事** （Klutch によるオリジナルの練習用文章です。人物やデータは架空のものです。）\n\n**新幹線が変えた日本**\n\n1964年、東京オリンピックの直前に、東京と大阪を結ぶ東海道新幹線が開業しました。それまで半日以上かかっていた移動が大幅に短くなり、日本の経済成長を支えました。今では新幹線は北海道から九州まで延びています。\n\n新幹線は、速さだけでなく、安全性と時間の正確さでも知られています。開業以来、乗客が死亡する大きな事故はほとんど起きておらず、平均の遅れも非常に短いと言われています。\n\nしかし、課題もあります。新しい路線を作るには巨額の費用がかかり、利用者が少ない地域では赤字になることもあります。また、新幹線が通ると在来線が第三セクターに移管されたり、本数が減ったりして、地元の人の生活が不便になる場合もあります。",
+      "stem": "新幹線の課題として正しいものはどれですか。",
+      "choices": [
+        {
+          "id": "A",
+          "text": "建設費用が大きく、地元の在来線が不便になることがある"
+        },
+        {
+          "id": "B",
+          "text": "スピードが遅い"
+        },
+        {
+          "id": "C",
+          "text": "事故が多い"
+        },
+        {
+          "id": "D",
+          "text": "どこにも行けない"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Paragraph 3.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q04",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "読解",
+      "skill": "Interpretive communication",
+      "stimulus": "**資料：科学の記事** （Klutch によるオリジナルの練習用文章です。人物やデータは架空のものです。）\n\n**新幹線が変えた日本**\n\n1964年、東京オリンピックの直前に、東京と大阪を結ぶ東海道新幹線が開業しました。それまで半日以上かかっていた移動が大幅に短くなり、日本の経済成長を支えました。今では新幹線は北海道から九州まで延びています。\n\n新幹線は、速さだけでなく、安全性と時間の正確さでも知られています。開業以来、乗客が死亡する大きな事故はほとんど起きておらず、平均の遅れも非常に短いと言われています。\n\nしかし、課題もあります。新しい路線を作るには巨額の費用がかかり、利用者が少ない地域では赤字になることもあります。また、新幹線が通ると在来線が第三セクターに移管されたり、本数が減ったりして、地元の人の生活が不便になる場合もあります。",
+      "stem": "この記事の筆者の書き方として最も適切なものはどれですか。",
+      "choices": [
+        {
+          "id": "A",
+          "text": "新幹線の成果と問題点の両方を紹介している"
+        },
+        {
+          "id": "B",
+          "text": "新幹線を全面的に批判している"
+        },
+        {
+          "id": "C",
+          "text": "新幹線の歴史だけを書いている"
+        },
+        {
+          "id": "D",
+          "text": "新幹線の料金を比較している"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Balanced.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q05",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "聴解",
+      "skill": "Interpretive communication",
+      "stimulus": "**聴解資料（スクリプト）：ラジオのニュース** （Klutch によるオリジナルの練習用文章です。人物やデータは架空のものです。）\n\nアナウンサー：高齢化が進む日本では、介護の現場で働く人が足りません。そこで注目されているのが「介護ロボット」です。今日は老人ホームで働く介護士の田中さんにお話を伺います。\n田中さん：私たちの施設では、お年寄りをベッドから車いすに移すときに、腰を守るロボットスーツを使っています。以前は腰を痛めてやめる職員もいましたが、今はずいぶん楽になりました。\nアナウンサー：お年寄りの反応はどうですか。\n田中さん：話しかけると答えるロボットもあって、それを楽しみにしている方もいます。ただ、ロボットにすべてを任せることはできません。手を握ったり、目を見て話したりすることは、人にしかできませんから。\nアナウンサー：これからの介護に必要なことは何でしょうか。\n田中さん：ロボットに力仕事を手伝ってもらって、私たちはお年寄りと向き合う時間を増やす。そういう役割分担が大切だと思います。",
+      "stem": "なぜ介護ロボットが注目されているのですか。",
+      "choices": [
+        {
+          "id": "A",
+          "text": "介護の現場で働く人が足りないから"
+        },
+        {
+          "id": "B",
+          "text": "ロボットが安いから"
+        },
+        {
+          "id": "C",
+          "text": "お年寄りが少ないから"
+        },
+        {
+          "id": "D",
+          "text": "法律で決まったから"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Stated.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "聴解",
+      "skill": "Interpretive communication",
+      "stimulus": "**聴解資料（スクリプト）：ラジオのニュース** （Klutch によるオリジナルの練習用文章です。人物やデータは架空のものです。）\n\nアナウンサー：高齢化が進む日本では、介護の現場で働く人が足りません。そこで注目されているのが「介護ロボット」です。今日は老人ホームで働く介護士の田中さんにお話を伺います。\n田中さん：私たちの施設では、お年寄りをベッドから車いすに移すときに、腰を守るロボットスーツを使っています。以前は腰を痛めてやめる職員もいましたが、今はずいぶん楽になりました。\nアナウンサー：お年寄りの反応はどうですか。\n田中さん：話しかけると答えるロボットもあって、それを楽しみにしている方もいます。ただ、ロボットにすべてを任せることはできません。手を握ったり、目を見て話したりすることは、人にしかできませんから。\nアナウンサー：これからの介護に必要なことは何でしょうか。\n田中さん：ロボットに力仕事を手伝ってもらって、私たちはお年寄りと向き合う時間を増やす。そういう役割分担が大切だと思います。",
+      "stem": "田中さんの施設では、ロボットスーツを何のために使っていますか。",
+      "choices": [
+        {
+          "id": "A",
+          "text": "お年寄りを移すときに職員の腰を守るため"
+        },
+        {
+          "id": "B",
+          "text": "料理を作るため"
+        },
+        {
+          "id": "C",
+          "text": "掃除をするため"
+        },
+        {
+          "id": "D",
+          "text": "お年寄りを運動させるため"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Stated.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "聴解",
+      "skill": "Interpretive communication",
+      "stimulus": "**聴解資料（スクリプト）：ラジオのニュース** （Klutch によるオリジナルの練習用文章です。人物やデータは架空のものです。）\n\nアナウンサー：高齢化が進む日本では、介護の現場で働く人が足りません。そこで注目されているのが「介護ロボット」です。今日は老人ホームで働く介護士の田中さんにお話を伺います。\n田中さん：私たちの施設では、お年寄りをベッドから車いすに移すときに、腰を守るロボットスーツを使っています。以前は腰を痛めてやめる職員もいましたが、今はずいぶん楽になりました。\nアナウンサー：お年寄りの反応はどうですか。\n田中さん：話しかけると答えるロボットもあって、それを楽しみにしている方もいます。ただ、ロボットにすべてを任せることはできません。手を握ったり、目を見て話したりすることは、人にしかできませんから。\nアナウンサー：これからの介護に必要なことは何でしょうか。\n田中さん：ロボットに力仕事を手伝ってもらって、私たちはお年寄りと向き合う時間を増やす。そういう役割分担が大切だと思います。",
+      "stem": "田中さんによると、人にしかできないことは何ですか。",
+      "choices": [
+        {
+          "id": "A",
+          "text": "手を握ったり、目を見て話したりすること"
+        },
+        {
+          "id": "B",
+          "text": "重いものを運ぶこと"
+        },
+        {
+          "id": "C",
+          "text": "記録をつけること"
+        },
+        {
+          "id": "D",
+          "text": "ベッドを動かすこと"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Human touch.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q08",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "聴解",
+      "skill": "Interpretive communication",
+      "stimulus": "**聴解資料（スクリプト）：ラジオのニュース** （Klutch によるオリジナルの練習用文章です。人物やデータは架空のものです。）\n\nアナウンサー：高齢化が進む日本では、介護の現場で働く人が足りません。そこで注目されているのが「介護ロボット」です。今日は老人ホームで働く介護士の田中さんにお話を伺います。\n田中さん：私たちの施設では、お年寄りをベッドから車いすに移すときに、腰を守るロボットスーツを使っています。以前は腰を痛めてやめる職員もいましたが、今はずいぶん楽になりました。\nアナウンサー：お年寄りの反応はどうですか。\n田中さん：話しかけると答えるロボットもあって、それを楽しみにしている方もいます。ただ、ロボットにすべてを任せることはできません。手を握ったり、目を見て話したりすることは、人にしかできませんから。\nアナウンサー：これからの介護に必要なことは何でしょうか。\n田中さん：ロボットに力仕事を手伝ってもらって、私たちはお年寄りと向き合う時間を増やす。そういう役割分担が大切だと思います。",
+      "stem": "田中さんが考えるこれからの介護の姿はどれですか。",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ロボットが力仕事を手伝い、人はお年寄りと向き合う時間を増やす"
+        },
+        {
+          "id": "B",
+          "text": "すべての介護をロボットに任せる"
+        },
+        {
+          "id": "C",
+          "text": "ロボットを使わない"
+        },
+        {
+          "id": "D",
+          "text": "介護士の数を減らす"
+        }
+      ],
+      "answer": "A",
+      "explanation": "役割分担.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q09",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "表",
+      "skill": "Interpretive communication",
+      "stimulus": "**資料：表（架空のデータ）** （Klutch によるオリジナルの練習用文章です。人物やデータは架空のものです。）\n\n**ある市の15〜24歳がスマートフォンを使う目的（％）**\n\n| 目的 | 毎日 | ときどき | 使わない |\n|---|---|---|---|\n| SNS | 86% | 11% | 3% |\n| 動画を見る | 72% | 24% | 4% |\n| 勉強 | 38% | 50% | 12% |\n| ニュースを読む | 28% | 54% | 18% |",
+      "stem": "毎日スマートフォンを使う目的で最も多いのはどれですか。",
+      "choices": [
+        {
+          "id": "A",
+          "text": "SNS"
+        },
+        {
+          "id": "B",
+          "text": "動画を見る"
+        },
+        {
+          "id": "C",
+          "text": "勉強"
+        },
+        {
+          "id": "D",
+          "text": "ニュースを読む"
+        }
+      ],
+      "answer": "A",
+      "explanation": "86%.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "表",
+      "skill": "Interpretive communication",
+      "stimulus": "**資料：表（架空のデータ）** （Klutch によるオリジナルの練習用文章です。人物やデータは架空のものです。）\n\n**ある市の15〜24歳がスマートフォンを使う目的（％）**\n\n| 目的 | 毎日 | ときどき | 使わない |\n|---|---|---|---|\n| SNS | 86% | 11% | 3% |\n| 動画を見る | 72% | 24% | 4% |\n| 勉強 | 38% | 50% | 12% |\n| ニュースを読む | 28% | 54% | 18% |",
+      "stem": "表の内容として正しいものはどれですか。",
+      "choices": [
+        {
+          "id": "A",
+          "text": "毎日勉強に使う人は、毎日ニュースを読む人より多い"
+        },
+        {
+          "id": "B",
+          "text": "半分以上が毎日ニュースを読む"
+        },
+        {
+          "id": "C",
+          "text": "動画を見ない人はいない"
+        },
+        {
+          "id": "D",
+          "text": "SNSを毎日使う人は半分以下だ"
+        }
+      ],
+      "answer": "A",
+      "explanation": "38% > 28%.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q11",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "表",
+      "skill": "Interpretive communication",
+      "stimulus": "**資料：表（架空のデータ）** （Klutch によるオリジナルの練習用文章です。人物やデータは架空のものです。）\n\n**ある市の15〜24歳がスマートフォンを使う目的（％）**\n\n| 目的 | 毎日 | ときどき | 使わない |\n|---|---|---|---|\n| SNS | 86% | 11% | 3% |\n| 動画を見る | 72% | 24% | 4% |\n| 勉強 | 38% | 50% | 12% |\n| ニュースを読む | 28% | 54% | 18% |",
+      "stem": "毎日ニュースを読む若者は、およそどのくらいですか。",
+      "choices": [
+        {
+          "id": "A",
+          "text": "約3割"
+        },
+        {
+          "id": "B",
+          "text": "約9割"
+        },
+        {
+          "id": "C",
+          "text": "約半分"
+        },
+        {
+          "id": "D",
+          "text": "ほとんどいない"
+        }
+      ],
+      "answer": "A",
+      "explanation": "28%.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "表",
+      "skill": "Interpretive communication",
+      "stimulus": "**資料：表（架空のデータ）** （Klutch によるオリジナルの練習用文章です。人物やデータは架空のものです。）\n\n**ある市の15〜24歳がスマートフォンを使う目的（％）**\n\n| 目的 | 毎日 | ときどき | 使わない |\n|---|---|---|---|\n| SNS | 86% | 11% | 3% |\n| 動画を見る | 72% | 24% | 4% |\n| 勉強 | 38% | 50% | 12% |\n| ニュースを読む | 28% | 54% | 18% |",
+      "stem": "この表から言えないことはどれですか。",
+      "choices": [
+        {
+          "id": "A",
+          "text": "SNSを使うと成績が下がる"
+        },
+        {
+          "id": "B",
+          "text": "SNSは最もよく使われている"
+        },
+        {
+          "id": "C",
+          "text": "ニュースを読まない人は2割弱いる"
+        },
+        {
+          "id": "D",
+          "text": "勉強に毎日使う人は4割近くいる"
+        }
+      ],
+      "answer": "A",
+      "explanation": "No grade data.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q13",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "比較",
+      "skill": "Cultural comparison",
+      "stimulus": "**資料：科学の記事** （Klutch によるオリジナルの練習用文章です。人物やデータは架空のものです。）\n\n**新幹線が変えた日本**\n\n1964年、東京オリンピックの直前に、東京と大阪を結ぶ東海道新幹線が開業しました。それまで半日以上かかっていた移動が大幅に短くなり、日本の経済成長を支えました。今では新幹線は北海道から九州まで延びています。\n\n新幹線は、速さだけでなく、安全性と時間の正確さでも知られています。開業以来、乗客が死亡する大きな事故はほとんど起きておらず、平均の遅れも非常に短いと言われています。\n\nしかし、課題もあります。新しい路線を作るには巨額の費用がかかり、利用者が少ない地域では赤字になることもあります。また、新幹線が通ると在来線が第三セクターに移管されたり、本数が減ったりして、地元の人の生活が不便になる場合もあります。\n\n---\n\n**聴解資料（スクリプト）：ラジオのニュース** （Klutch によるオリジナルの練習用文章です。人物やデータは架空のものです。）\n\nアナウンサー：高齢化が進む日本では、介護の現場で働く人が足りません。そこで注目されているのが「介護ロボット」です。今日は老人ホームで働く介護士の田中さんにお話を伺います。\n田中さん：私たちの施設では、お年寄りをベッドから車いすに移すときに、腰を守るロボットスーツを使っています。以前は腰を痛めてやめる職員もいましたが、今はずいぶん楽になりました。\nアナウンサー：お年寄りの反応はどうですか。\n田中さん：話しかけると答えるロボットもあって、それを楽しみにしている方もいます。ただ、ロボットにすべてを任せることはできません。手を握ったり、目を見て話したりすることは、人にしかできませんから。\nアナウンサー：これからの介護に必要なことは何でしょうか。\n田中さん：ロボットに力仕事を手伝ってもらって、私たちはお年寄りと向き合う時間を増やす。そういう役割分担が大切だと思います。",
+      "stem": "新幹線の記事と介護ロボットのニュースに共通するテーマは何ですか。",
+      "choices": [
+        {
+          "id": "A",
+          "text": "技術が社会を支えるが、課題や限界もある"
+        },
+        {
+          "id": "B",
+          "text": "伝統工芸"
+        },
+        {
+          "id": "C",
+          "text": "家族の行事"
+        },
+        {
+          "id": "D",
+          "text": "外国語の勉強"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Tech with limits.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "文法",
+      "skill": "Presentational communication",
+      "stem": "正しい文はどれですか。",
+      "choices": [
+        {
+          "id": "A",
+          "text": "力仕事はロボットに手伝ってもらいます。"
+        },
+        {
+          "id": "B",
+          "text": "力仕事はロボットを手伝ってもらいます。"
+        },
+        {
+          "id": "C",
+          "text": "力仕事はロボットに手伝ってあげてもらいます。"
+        },
+        {
+          "id": "D",
+          "text": "力仕事はロボットが手伝ってもらいます。"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Nに～てもらう.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "絵を見て話を書く",
+      "frqType": "Story narration",
+      "prompt": "次の四つの絵（文字で説明します）を見て、話を書いてください。\n\n**絵1：** おばあさんがスーパーのセルフレジの前で困っている。後ろに人が並んでいる。\n**絵2：** 夜、孫の高校生がおばあさんの家でスマートフォンの画面を見せながら、使い方を説明している。\n**絵3：** おばあさんが公民館のスマホ教室で、ほかのお年寄りと一緒に練習している。\n**絵4：** 数日後、おばあさんがセルフレジで上手に支払いをして、店員と笑っている。",
+      "points": 5,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Task completion",
+          "points": 1,
+          "description": "Narrates a complete story covering all four pictures."
+        },
+        {
+          "criterion": "Logic and transitions",
+          "points": 1,
+          "description": "Events are connected with transitions (まず, それから, ところが, 結局)."
+        },
+        {
+          "criterion": "Detail",
+          "points": 1,
+          "description": "Adds details (feelings, reasons, descriptions) beyond the pictures."
+        },
+        {
+          "criterion": "Language variety",
+          "points": 1,
+          "description": "Varied structures (～ので, ～ても, passive, causative)."
+        },
+        {
+          "criterion": "Accuracy",
+          "points": 1,
+          "description": "Accurate kana, kanji, particles, and verb forms."
+        }
+      ],
+      "sampleResponse": "ある土曜日、山本さんのおばあさんはスーパーに買い物に行きました。ところが、レジがセルフレジに変わっていて、使い方が全然わかりませんでした。後ろには人が並んでいて、おばあさんはとても恥ずかしくなりました。\n\nその夜、高校生の孫の健太くんがおばあさんの家に来ました。話を聞いた健太くんは、スマートフォンの画面を見せながら、セルフレジやキャッシュレス決済の使い方をていねいに説明しました。おばあさんはなかなか覚えられませんでしたが、健太くんは何度も教えてくれました。\n\nもっと上手になりたいと思ったおばあさんは、次の週、公民館のスマホ教室に参加しました。ほかのお年寄りと一緒に練習したので、楽しく覚えることができました。\n\n数日後、おばあさんはまたあのスーパーに行きました。今度は一人でセルフレジを使って、上手に支払いをすることができました。店員さんに「お上手ですね」と言われて、おばあさんはにっこり笑いました。新しいことに挑戦してよかったと思いました。"
+    }
+  ]
+}

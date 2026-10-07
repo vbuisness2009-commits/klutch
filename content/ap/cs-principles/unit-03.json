@@ -1,0 +1,567 @@
+{
+  "number": 3,
+  "title": "Algorithms and Programming",
+  "guide": {
+    "summary": "Big Idea 3 is the largest part of the exam (30–35%). It covers variables and assignment, data abstraction with lists, expressions and the MOD operator, Boolean logic, selection, iteration, list traversal, developing and comparing algorithms, binary search, procedures with parameters and return values, libraries, random values and simulations, algorithmic efficiency, heuristics, and undecidable problems.",
+    "sections": [
+      {
+        "heading": "Variables, expressions, and lists",
+        "body": "a ← expression evaluates the right side and stores it in a; a variable holds only its most recent value, and assigning b ← a copies the value at that moment. Arithmetic includes MOD (remainder): 17 MOD 5 is 2. Lists are ordered and 1-indexed in AP pseudocode: list[1] is the first element; accessing an index less than 1 or greater than LENGTH(list) causes an error. INSERT(list, i, value) shifts later elements right; APPEND adds to the end; REMOVE(list, i) shifts later elements left. Lists are a data abstraction: one name manages many values, so code doesn't depend on how many items there are."
+      },
+      {
+        "heading": "Selection and iteration",
+        "body": "IF/ELSE chooses between paths based on a Boolean expression; nested conditionals handle multiple cases. Boolean operators: NOT, AND, OR. REPEAT n TIMES runs a fixed number of times; REPEAT UNTIL(condition) checks the condition before each iteration and stops when it becomes true (it may run zero times or forever). FOR EACH item IN list visits every element. Common algorithms: sum, average, max/min, count, filter, and check whether a condition holds for any or all elements. When removing elements during traversal, only advance the index if nothing was removed."
+      },
+      {
+        "heading": "Procedures, libraries, and simulations",
+        "body": "Procedures (functions) are named groups of instructions that can take parameters and RETURN values; they provide procedural abstraction, letting programmers use a procedure knowing what it does, not how, and change its implementation without affecting callers. Parameters generalize a procedure for different inputs. Libraries and APIs provide prewritten procedures. RANDOM(a, b) returns a random integer from a to b inclusive; simulations use random values to model real-world events, trading accuracy for simplicity, and may be repeated many times."
+      },
+      {
+        "heading": "Searching and efficiency",
+        "body": "Linear search checks elements in order and works on unsorted lists. Binary search requires a sorted list and halves the search range each step: at most about log₂ n + 1 checks, far fewer than linear search for large lists. Algorithms that run in polynomial time are reasonable; exponential or factorial time is unreasonable for large inputs. Heuristics find approximate solutions when exact ones take too long (e.g., route planning). Some problems are undecidable: no algorithm can solve every instance (e.g., determining whether any program halts)."
+      }
+    ],
+    "keyTakeaways": [
+      "Lists are 1-indexed in AP pseudocode.",
+      "REPEAT UNTIL checks before each pass.",
+      "Procedural abstraction hides implementation details.",
+      "RANDOM(a, b) is inclusive.",
+      "Binary search requires sorted data.",
+      "Reasonable = polynomial; heuristics for hard problems; some problems are undecidable."
+    ],
+    "commonMistakes": [
+      "Using 0-based indexing.",
+      "Thinking REPEAT UNTIL runs while the condition is true.",
+      "Assuming b changes when a is reassigned after b ← a.",
+      "Applying binary search to unsorted data.",
+      "Confusing unreasonable time with undecidable."
+    ],
+    "examTips": [
+      "Trace with a table of variables and list contents after each line.",
+      "For 'which code segment works' questions, test with a small example including edge cases.",
+      "Simulations: check that random ranges match the intended probabilities.",
+      "Count binary-search steps by repeated halving."
+    ],
+    "cramSheet": "**Assign:** a ← expr · copies value · MOD remainder\n\n**Lists:** 1-indexed · INSERT shifts right · REMOVE shifts left · APPEND end · LENGTH\n\n**Control:** IF/ELSE · REPEAT n TIMES · REPEAT UNTIL (stop when true) · FOR EACH\n\n**Procedures:** parameters · RETURN · abstraction · libraries/APIs\n\n**Random:** RANDOM(a, b) inclusive · simulations\n\n**Search:** linear (any) · binary (sorted, log₂ n)\n\n**Efficiency:** polynomial reasonable · exponential unreasonable · heuristics · undecidable"
+  },
+  "vocab": [
+    {
+      "term": "Variable",
+      "definition": "An abstraction that holds a value which can change."
+    },
+    {
+      "term": "List",
+      "definition": "An ordered sequence of elements, 1-indexed in AP pseudocode."
+    },
+    {
+      "term": "Data abstraction",
+      "definition": "Managing complexity by giving a collection of data a single name."
+    },
+    {
+      "term": "Selection",
+      "definition": "Choosing which code to run based on a condition."
+    },
+    {
+      "term": "Iteration",
+      "definition": "Repeating a set of instructions."
+    },
+    {
+      "term": "Procedure",
+      "definition": "A named group of instructions that may take parameters and return a value."
+    },
+    {
+      "term": "Procedural abstraction",
+      "definition": "Using a procedure based on what it does without knowing how it works."
+    },
+    {
+      "term": "API",
+      "definition": "A specification for how procedures in a library behave and can be used."
+    },
+    {
+      "term": "Simulation",
+      "definition": "A program that models a real-world process, often using random values."
+    },
+    {
+      "term": "Binary search",
+      "definition": "Searching a sorted list by repeatedly halving the range."
+    },
+    {
+      "term": "Heuristic",
+      "definition": "An approach that finds a good-enough solution when an optimal one is impractical."
+    },
+    {
+      "term": "Undecidable problem",
+      "definition": "A problem for which no algorithm can always give a correct yes-or-no answer."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Variables and Assignments",
+      "stem": "What is displayed?\n```\na ← 5\nb ← a\na ← 10\nDISPLAY(b)\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "10"
+        },
+        {
+          "id": "C",
+          "text": "15"
+        },
+        {
+          "id": "D",
+          "text": "a"
+        }
+      ],
+      "answer": "A",
+      "explanation": "b receives a's value (5) at the time of assignment.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Mathematical Expressions",
+      "stem": "What is the value of 17 MOD 5?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "3.4"
+        },
+        {
+          "id": "D",
+          "text": "12"
+        }
+      ],
+      "answer": "A",
+      "explanation": "17 = 3 × 5 + 2.",
+      "distractors": {
+        "B": "Quotient, not remainder."
+      }
+    },
+    {
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Lists",
+      "stem": "What is displayed?\n```\nlist ← [10, 20, 30]\nINSERT(list, 2, 15)\nREMOVE(list, 4)\nDISPLAY(list[3])\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "20"
+        },
+        {
+          "id": "B",
+          "text": "30"
+        },
+        {
+          "id": "C",
+          "text": "15"
+        },
+        {
+          "id": "D",
+          "text": "An error occurs."
+        }
+      ],
+      "answer": "A",
+      "explanation": "[10, 15, 20, 30] → remove index 4 → [10, 15, 20]; list[3] = 20.",
+      "distractors": {
+        "B": "Uses 0-based indexing."
+      }
+    },
+    {
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Iteration",
+      "stem": "What is displayed?\n```\nx ← 1\nREPEAT 3 TIMES\n{\n   x ← x * 2\n}\nDISPLAY(x)\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "8"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "3"
+        }
+      ],
+      "answer": "B",
+      "explanation": "1 → 2 → 4 → 8.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Developing Procedures",
+      "stem": "Given the procedure below, what is displayed by DISPLAY(f(3) + f(2))?\n```\nPROCEDURE f(n)\n{\n   RETURN(n * n - 1)\n}\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "11"
+        },
+        {
+          "id": "B",
+          "text": "13"
+        },
+        {
+          "id": "C",
+          "text": "12"
+        },
+        {
+          "id": "D",
+          "text": "24"
+        }
+      ],
+      "answer": "A",
+      "explanation": "f(3) = 8, f(2) = 3.",
+      "distractors": {
+        "B": "Forgets to subtract 1."
+      }
+    },
+    {
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Simulations",
+      "stem": "A simulation should model an event that happens 30% of the time. Which condition is true with probability 0.3?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "RANDOM(1, 10) ≤ 3"
+        },
+        {
+          "id": "B",
+          "text": "RANDOM(1, 10) < 3"
+        },
+        {
+          "id": "C",
+          "text": "RANDOM(0, 10) ≤ 3"
+        },
+        {
+          "id": "D",
+          "text": "RANDOM(1, 3) = 1"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Values 1, 2, 3 out of 10 equally likely values.",
+      "distractors": {
+        "B": "Probability 0.2.",
+        "C": "4 out of 11."
+      }
+    },
+    {
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Binary Search",
+      "stem": "Which requirement must be met for binary search to work on a list?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The list must be sorted."
+        },
+        {
+          "id": "B",
+          "text": "The list must have an even number of elements."
+        },
+        {
+          "id": "C",
+          "text": "The list must contain only unique values."
+        },
+        {
+          "id": "D",
+          "text": "The list must contain numbers, not words."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Halving relies on order.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Boolean Expressions",
+      "stem": "If x = 5 and y = 2, which expression evaluates to true?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "(x > 3) AND NOT (y = 2)"
+        },
+        {
+          "id": "B",
+          "text": "(x < 3) OR (y > 2)"
+        },
+        {
+          "id": "C",
+          "text": "NOT ((x < 3) OR (y > 2))"
+        },
+        {
+          "id": "D",
+          "text": "(x = y) OR (y > x)"
+        }
+      ],
+      "answer": "C",
+      "explanation": "(x < 3) OR (y > 2) is false; its NOT is true.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Algorithmic Efficiency",
+      "stem": "A delivery company must find the shortest route visiting 60 locations. Checking every possible order would take far too long. What is the best approach?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Use a heuristic that finds a good route quickly, even if it isn't guaranteed optimal."
+        },
+        {
+          "id": "B",
+          "text": "Use binary search."
+        },
+        {
+          "id": "C",
+          "text": "Conclude that the problem is undecidable."
+        },
+        {
+          "id": "D",
+          "text": "Use lossless compression."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Brute force runs in unreasonable time; heuristics give approximate solutions.",
+      "distractors": {
+        "C": "The problem is solvable, just slowly."
+      }
+    },
+    {
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Developing Procedures",
+      "stem": "Which best explains how procedural abstraction helps a programmer?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A procedure can be used without knowing how it is implemented, and its implementation can change without affecting the code that calls it."
+        },
+        {
+          "id": "B",
+          "text": "It makes the program run faster."
+        },
+        {
+          "id": "C",
+          "text": "It removes the need for parameters."
+        },
+        {
+          "id": "D",
+          "text": "It guarantees the program has no errors."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Abstraction separates what from how.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Lists",
+      "stem": "What is displayed?\n```\nlist ← [3, 8, 2, 7]\ni ← 1\nREPEAT UNTIL (i > LENGTH(list))\n{\n   IF (list[i] MOD 2 = 0)\n   {\n      REMOVE(list, i)\n   }\n   ELSE\n   {\n      i ← i + 1\n   }\n}\nDISPLAY(list)\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "[3, 7]"
+        },
+        {
+          "id": "B",
+          "text": "[3, 2, 7]"
+        },
+        {
+          "id": "C",
+          "text": "[8, 2]"
+        },
+        {
+          "id": "D",
+          "text": "The loop never ends."
+        }
+      ],
+      "answer": "A",
+      "explanation": "The index advances only when nothing is removed, so consecutive evens are both removed.",
+      "distractors": {
+        "B": "Would happen if i always advanced."
+      }
+    },
+    {
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Binary Search",
+      "stem": "What is the maximum number of list elements binary search examines in a sorted list of 128 elements?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "7"
+        },
+        {
+          "id": "B",
+          "text": "8"
+        },
+        {
+          "id": "C",
+          "text": "64"
+        },
+        {
+          "id": "D",
+          "text": "128"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Ranges 128, 64, 32, 16, 8, 4, 2, 1 → up to 8 checks.",
+      "distractors": {
+        "A": "log₂ 128 without the final check.",
+        "D": "Linear search."
+      }
+    },
+    {
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Undecidable Problems",
+      "stem": "Which statement about undecidable problems is true?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "No algorithm can correctly answer every instance of the problem, though some instances may be solvable."
+        },
+        {
+          "id": "B",
+          "text": "They can be solved, but only with very fast computers."
+        },
+        {
+          "id": "C",
+          "text": "They are problems that take exponential time."
+        },
+        {
+          "id": "D",
+          "text": "They are problems with no input."
+        }
+      ],
+      "answer": "A",
+      "explanation": "The halting problem is the classic example.",
+      "distractors": {
+        "C": "That's unreasonable time."
+      }
+    },
+    {
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Developing Algorithms",
+      "stem": "The procedure below is intended to return true if every number in nums is positive. Which replacement for <MISSING> works?\n```\nPROCEDURE allPositive(nums)\n{\n   FOR EACH n IN nums\n   {\n      <MISSING>\n   }\n   RETURN(true)\n}\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "IF (n ≤ 0) { RETURN(false) }"
+        },
+        {
+          "id": "B",
+          "text": "IF (n > 0) { RETURN(true) }"
+        },
+        {
+          "id": "C",
+          "text": "IF (n > 0) { RETURN(true) } ELSE { RETURN(false) }"
+        },
+        {
+          "id": "D",
+          "text": "IF (n < 0) { RETURN(false) }"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Return false as soon as a non-positive value is found; otherwise all are positive.",
+      "distractors": {
+        "B": "Returns after checking only the first element.",
+        "D": "Treats 0 as positive."
+      }
+    },
+    {
+      "id": "u3-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Developing Procedures",
+      "frqType": "Create Written Response",
+      "prompt": "A student's quiz game uses the list questions (question text) and the list answers (correct answers), and the procedure below. responses is a list of the player's answers.\n```\nPROCEDURE score(answers, responses, penalty)\n{\n   points ← 0\n   i ← 1\n   REPEAT LENGTH(answers) TIMES\n   {\n      IF (responses[i] = answers[i])\n      {\n         points ← points + 10\n      }\n      ELSE\n      {\n         points ← points - penalty\n      }\n      i ← i + 1\n   }\n   RETURN(points)\n}\n```",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Describe the purpose of the penalty parameter and how a call with penalty 0 differs from a call with penalty 5.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Explain the role of the selection statement in the procedure.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "If answers = [\"A\", \"C\", \"B\"] and responses = [\"A\", \"B\", \"B\"], what does score(answers, responses, 5) return? Show how you determined it.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Identify a condition that would cause an error, and describe how to modify the code to prevent it.",
+          "points": 1
+        }
+      ],
+      "points": 4,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "a",
+          "points": 1,
+          "description": "penalty is the number of points subtracted for each wrong answer; penalty 0 never subtracts, while penalty 5 lowers the score by 5 for every miss."
+        },
+        {
+          "criterion": "b",
+          "points": 1,
+          "description": "The IF compares each response to the correct answer to decide whether to add 10 points or subtract the penalty."
+        },
+        {
+          "criterion": "c",
+          "points": 1,
+          "description": "15: +10 (A), −5 (B vs C), +10 (B) = 15."
+        },
+        {
+          "criterion": "d",
+          "points": 1,
+          "description": "If responses is shorter than answers, responses[i] is out of range. Fix: before comparing, check IF (i ≤ LENGTH(responses)) and only then compare responses[i] (treat missing responses as wrong)."
+        }
+      ],
+      "sampleResponse": "a. penalty controls how many points are taken away for each incorrect answer. With score(answers, responses, 0), wrong answers simply earn nothing; with penalty 5, each wrong answer reduces the total by 5, so the same responses earn a lower score.\n\nb. The IF/ELSE compares the player's response to the correct answer at the same position. If they match, 10 points are added; otherwise the penalty is subtracted. This determines how each question affects the total.\n\nc. Question 1: \"A\" = \"A\", +10 (points = 10). Question 2: \"B\" ≠ \"C\", −5 (points = 5). Question 3: \"B\" = \"B\", +10 (points = 15). The procedure returns 15.\n\nd. If the player skips the last question so responses has fewer elements than answers, responses[i] will be accessed with an index larger than LENGTH(responses), causing an error. I could wrap the comparison in an outer IF (i ≤ LENGTH(responses)) and subtract the penalty in its ELSE branch, so missing responses count as incorrect without accessing an invalid index."
+    }
+  ]
+}

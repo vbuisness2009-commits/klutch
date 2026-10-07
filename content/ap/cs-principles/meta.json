@@ -1,0 +1,69 @@
+{
+ "slug": "cs-principles",
+ "name": "AP Computer Science Principles",
+ "lastVerified": "2026-10",
+ "overview": "AP Computer Science Principles is a broad introduction to computing organized around five big ideas: creative development, data, algorithms and programming, computer systems and networks, and the impact of computing. The exam uses language-independent pseudocode (and block equivalents) and tests tracing algorithms, reasoning about data and abstraction, how the internet and parallel/distributed computing work, and the beneficial and harmful effects of computing innovations. A through-course Create performance task assesses program development, with written responses about that program on exam day.",
+ "examMode": "Fully digital in the Bluebook app: multiple-choice and the written-response section are taken in Bluebook; the Create performance task's program, video, and Personalized Project Reference are submitted beforehand.",
+ "totalMinutes": 180,
+ "sections": [
+  { "name": "Section I", "questionType": "Multiple choice (single-select, reading-passage, and multiple-select)", "count": 70, "minutes": 120, "weight": "70%", "notes": "Includes a set of questions based on a short reading passage about a computing innovation and several questions where two answers must be selected. The exam reference sheet defines the pseudocode." },
+  { "name": "Create performance task", "questionType": "Through-course program + exam-day written responses", "count": 2, "minutes": 60, "weight": "30%", "notes": "Students submit program code, a video of the program running, and a Personalized Project Reference (screenshots of a list and a procedure) in advance; on exam day they answer written-response questions about their own program using the PPR." }
+ ],
+ "units": [
+  { "number": 1, "title": "Creative Development", "weight": "10–13%" },
+  { "number": 2, "title": "Data", "weight": "17–22%" },
+  { "number": 3, "title": "Algorithms and Programming", "weight": "30–35%" },
+  { "number": 4, "title": "Computer Systems and Networks", "weight": "11–15%" },
+  { "number": 5, "title": "Impact of Computing", "weight": "21–26%" }
+ ],
+ "skills": [
+  { "name": "1. Computational Solution Design", "description": "Design and evaluate computational solutions for a purpose." },
+  { "name": "2. Algorithms and Program Development", "description": "Develop and implement algorithms." },
+  { "name": "3. Abstraction in Program Development", "description": "Develop programs that incorporate abstractions." },
+  { "name": "4. Code Analysis", "description": "Evaluate and test algorithms and programs." },
+  { "name": "5. Computing Innovations", "description": "Investigate computing innovations and their effects." },
+  { "name": "6. Responsible Computing", "description": "Contribute to an inclusive, safe, collaborative, and ethical computing culture." }
+ ],
+ "scoring": {
+  "summary": "The multiple-choice section is 70% and the Create performance task (including exam-day written responses) is 30% of the score, converted to 1–5 using cut points set each year.",
+  "approxCutoffs": [
+   { "score": 5, "minPercent": 76 },
+   { "score": 4, "minPercent": 63 },
+   { "score": 3, "minPercent": 48 },
+   { "score": 2, "minPercent": 35 }
+  ]
+ },
+ "frqTypes": [
+  { "name": "Create Written Response", "points": 4, "howScored": "Exam-day questions ask you to explain parts of your own program shown in your Personalized Project Reference: how a procedure's parameter changes its behavior, how a list manages complexity, what a selection or iteration statement does, and how you would test or modify the code. Points require responses specific to your code, not generic definitions." }
+ ],
+ "strategy": [
+  "Memorize the reference-sheet pseudocode: lists are 1-indexed, ← assigns, REPEAT UNTIL checks before each iteration.",
+  "Trace pseudocode with a variable table, especially loops that modify lists.",
+  "For multiple-select questions, evaluate each option independently; exactly two are correct.",
+  "For data questions, decide what information the data can and can't reveal (metadata vs content, correlation vs causation).",
+  "Know the internet's layered protocols at a conceptual level: IP addresses, packets, routing, TCP, HTTP, DNS, fault tolerance.",
+  "For impact questions, separate beneficial from harmful effects and identify who is affected.",
+  "On written responses, reference your exact list, procedure, and parameter names from your PPR.",
+  "Use process of elimination on 'which can NOT be determined' questions."
+ ],
+ "pitfalls": [
+  "Using 0-based indexing on AP pseudocode lists.",
+  "Confusing lossless and lossy compression.",
+  "Thinking more bits always means faster processing (bits limit the range of representable values).",
+  "Treating symmetric and public-key encryption as the same.",
+  "Assuming a heuristic always finds the optimal solution.",
+  "Confusing an undecidable problem with an unreasonable-time problem.",
+  "Equating the internet with the World Wide Web.",
+  "Assuming correlation in data proves causation."
+ ],
+ "referenceSheet": "The Exam Reference Sheet defines pseudocode: assignment a ← expression; DISPLAY(expression); INPUT(); arithmetic including a MOD b; RANDOM(a, b) inclusive; relational and Boolean operators (=, ≠, <, ≤, >, ≥, NOT, AND, OR); IF/ELSE; REPEAT n TIMES; REPEAT UNTIL(condition); list operations (aList ← [value1, value2, ...], aList[i] with 1-based indexes, INSERT(aList, i, value), APPEND(aList, value), REMOVE(aList, i), LENGTH(aList), FOR EACH item IN aList); PROCEDURE definitions with RETURN; and robot commands (MOVE_FORWARD(), ROTATE_LEFT(), ROTATE_RIGHT(), CAN_MOVE(direction)).",
+ "sources": [
+  { "title": "AP Computer Science Principles Exam (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-computer-science-principles/exam" },
+  { "title": "AP Computer Science Principles Course and Exam Description", "url": "https://apcentral.collegeboard.org/courses/ap-computer-science-principles/course" }
+ ],
+ "caveats": [
+  "Create task scoring and written-response details have changed in recent years; confirm the current guidelines on AP Central.",
+  "The written-response practice here uses sample programs because the real questions refer to your own code.",
+  "Cutoffs are estimates; College Board does not publish cut scores."
+ ]
+}

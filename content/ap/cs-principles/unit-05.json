@@ -1,0 +1,264 @@
+{
+  "number": 5,
+  "title": "Impact of Computing",
+  "guide": {
+    "summary": "Big Idea 5 examines how computing affects people and society: beneficial and harmful effects of innovations, the digital divide, bias in computing, crowdsourcing and citizen science, intellectual property and licensing, and safe computing (personal data, authentication, encryption, malware, and phishing).",
+    "sections": [
+      {
+        "heading": "Effects of computing innovations",
+        "body": "Computing innovations can have both beneficial and harmful effects, including effects their creators didn't intend; an effect can be beneficial for some people and harmful for others. Innovations can spread rapidly and affect society, the economy, and culture. The digital divide is unequal access to computing devices and the internet, influenced by income, geography, and infrastructure; it can widen social and economic inequality. Bias can enter computing systems through biased training data, design decisions, or developers' assumptions; reducing it requires diverse data and testing across groups."
+      },
+      {
+        "heading": "Crowdsourcing and collaboration",
+        "body": "The internet enables crowdsourcing (obtaining input, ideas, or funding from many people online) and citizen science (members of the public contributing data or analysis, such as classifying galaxies or reporting bird sightings). Large-scale collaboration lets problems be solved that no single group could solve, though data quality can vary."
+      },
+      {
+        "heading": "Legal and ethical concerns",
+        "body": "Creators own intellectual property in their work. Material created by others should be used with permission and attribution. Creative Commons licenses let creators grant specific permissions; open-source software makes code freely available to use and modify under a license; open access makes research freely available. Digital content can be copied and distributed easily, raising concerns about piracy and plagiarism."
+      },
+      {
+        "heading": "Safe computing",
+        "body": "Personally identifiable information (PII) such as name, address, birthdate, and Social Security number can identify an individual; data collected by apps, websites (cookies), and devices (location) can be aggregated to reveal much more than expected. Authentication protects accounts: strong passwords, and multifactor authentication (something you know, have, and are). Encryption encodes data so only authorized parties can read it: symmetric encryption uses one shared key; public-key encryption uses a public key to encrypt and a private key to decrypt. Certificate authorities issue digital certificates to verify a site's identity. Threats include malware and viruses (malicious programs that can copy themselves), phishing (tricking users into revealing information), keylogging (recording keystrokes), and rogue access points (unauthorized wireless networks that intercept traffic). Keeping software updated patches vulnerabilities."
+      }
+    ],
+    "keyTakeaways": [
+      "Innovations have intended and unintended, beneficial and harmful effects.",
+      "Digital divide = unequal access to technology.",
+      "Bias often comes from training data.",
+      "Creative Commons and open source grant permissions.",
+      "Public-key: encrypt with public key, decrypt with private key.",
+      "MFA combines multiple types of evidence."
+    ],
+    "commonMistakes": [
+      "Assuming an effect is purely beneficial or harmful for everyone.",
+      "Confusing symmetric and public-key encryption.",
+      "Thinking deleting data online removes all copies.",
+      "Treating any publicly posted content as free to reuse.",
+      "Confusing phishing with malware."
+    ],
+    "examTips": [
+      "Reading-passage questions: identify a specific beneficial or harmful effect described.",
+      "Security questions: match the attack to the defense (phishing → verify sender; rogue access point → encrypted connections).",
+      "Bias questions: look for unrepresentative training data.",
+      "Licensing questions: check which permissions the license grants."
+    ],
+    "cramSheet": "**Effects:** beneficial + harmful · unintended · varies by group\n\n**Equity:** digital divide · computing bias (data, design)\n\n**Collaboration:** crowdsourcing · citizen science\n\n**IP:** permission + attribution · Creative Commons · open source · open access\n\n**Security:** PII · cookies · strong passwords · MFA · symmetric (one key) · public-key (public encrypts, private decrypts) · certificates · malware · phishing · keylogging · rogue access points"
+  },
+  "vocab": [
+    { "term": "Digital divide", "definition": "Unequal access to computing devices and the internet." },
+    { "term": "Computing bias", "definition": "Unfair outcomes from a computing system, often due to biased data or design." },
+    { "term": "Crowdsourcing", "definition": "Obtaining input or resources from a large number of people online." },
+    { "term": "Citizen science", "definition": "Scientific research using data collected or analyzed by members of the public." },
+    { "term": "Creative Commons", "definition": "Licenses that let creators specify how others may use their work." },
+    { "term": "Open source", "definition": "Software whose code is freely available to use and modify." },
+    { "term": "Personally identifiable information (PII)", "definition": "Information that can identify a specific person." },
+    { "term": "Multifactor authentication", "definition": "Verifying identity with two or more types of evidence." },
+    { "term": "Symmetric encryption", "definition": "Encryption that uses the same key to encrypt and decrypt." },
+    { "term": "Public-key encryption", "definition": "Encryption with a public key to encrypt and a private key to decrypt." },
+    { "term": "Phishing", "definition": "A technique that tricks users into revealing personal information." },
+    { "term": "Rogue access point", "definition": "An unauthorized wireless access point that can intercept data." }
+  ],
+  "practice": [
+    {
+      "id": "u5-q01", "tier": "Intro", "type": "mcq", "topic": "The Digital Divide",
+      "stem": "Which situation best illustrates the digital divide?",
+      "choices": [
+        { "id": "A", "text": "Students in a rural area lack reliable broadband, making online homework difficult." },
+        { "id": "B", "text": "Two friends prefer different smartphone brands." },
+        { "id": "C", "text": "A company switches from one cloud provider to another." },
+        { "id": "D", "text": "A website loads slowly at peak times." }
+      ],
+      "answer": "A",
+      "explanation": "The digital divide is unequal access to technology.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q02", "tier": "Intro", "type": "mcq", "topic": "Safe Computing",
+      "stem": "In public-key encryption, a sender encrypts a message using",
+      "choices": [
+        { "id": "A", "text": "the recipient's public key, so only the recipient's private key can decrypt it" },
+        { "id": "B", "text": "the sender's private key, so anyone with the recipient's public key can decrypt it" },
+        { "id": "C", "text": "a shared secret key both parties already know" },
+        { "id": "D", "text": "no key at all" }
+      ],
+      "answer": "A",
+      "explanation": "The public key is shared openly; only the private key holder can decrypt.",
+      "distractors": { "C": "Symmetric encryption." }
+    },
+    {
+      "id": "u5-q03", "tier": "Intro", "type": "mcq", "topic": "Safe Computing",
+      "stem": "An email claiming to be from a bank asks the user to click a link and enter their password to 'verify' their account. This is",
+      "choices": [
+        { "id": "A", "text": "phishing" },
+        { "id": "B", "text": "a rogue access point" },
+        { "id": "C", "text": "lossless compression" },
+        { "id": "D", "text": "crowdsourcing" }
+      ],
+      "answer": "A",
+      "explanation": "Phishing tricks users into revealing information.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q04", "tier": "Intro", "type": "mcq", "topic": "Crowdsourcing",
+      "stem": "Thousands of volunteers classify galaxy images online to help astronomers. This is an example of",
+      "choices": [
+        { "id": "A", "text": "citizen science" },
+        { "id": "B", "text": "phishing" },
+        { "id": "C", "text": "the digital divide" },
+        { "id": "D", "text": "symmetric encryption" }
+      ],
+      "answer": "A",
+      "explanation": "Members of the public contribute to scientific research.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q05", "tier": "Exam level", "type": "mcq", "topic": "Computing Bias",
+      "stem": "A facial recognition system is much less accurate for people with darker skin tones. Which is the most likely cause?",
+      "choices": [
+        { "id": "A", "text": "The training data included far fewer images of people with darker skin tones." },
+        { "id": "B", "text": "The system used too much encryption." },
+        { "id": "C", "text": "The images were compressed losslessly." },
+        { "id": "D", "text": "The system ran in parallel." }
+      ],
+      "answer": "A",
+      "explanation": "Unrepresentative training data produces biased results.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q06", "tier": "Exam level", "type": "mcq", "topic": "Safe Computing",
+      "stem": "A login requires a password and a code sent to the user's phone. Which statement best explains why this is more secure than a password alone?",
+      "choices": [
+        { "id": "A", "text": "An attacker who steals the password still needs the user's phone, which is a different type of evidence." },
+        { "id": "B", "text": "It encrypts the password twice." },
+        { "id": "C", "text": "It prevents all malware." },
+        { "id": "D", "text": "It makes the password longer." }
+      ],
+      "answer": "A",
+      "explanation": "Multifactor authentication combines something you know and something you have.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q07", "tier": "Exam level", "type": "mcq", "topic": "Legal and Ethical Concerns",
+      "stem": "A student wants to use a photo licensed under a Creative Commons Attribution license in a class website. What must the student do?",
+      "choices": [
+        { "id": "A", "text": "Give credit to the photographer as the license specifies." },
+        { "id": "B", "text": "Pay the photographer a fee." },
+        { "id": "C", "text": "Nothing; all online images are free to use." },
+        { "id": "D", "text": "Get written permission from the government." }
+      ],
+      "answer": "A",
+      "explanation": "Attribution licenses permit use with credit.",
+      "distractors": { "C": "Online availability doesn't remove copyright." }
+    },
+    {
+      "id": "u5-q08", "tier": "Exam level", "type": "mcq", "topic": "Safe Computing",
+      "stem": "A traveler connects to free Wi-Fi named \"Airport_Free\" set up by an attacker who records all traffic. This threat is a",
+      "choices": [
+        { "id": "A", "text": "rogue access point" },
+        { "id": "B", "text": "keylogger" },
+        { "id": "C", "text": "virus" },
+        { "id": "D", "text": "certificate authority" }
+      ],
+      "answer": "A",
+      "explanation": "An unauthorized wireless network can intercept data.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q09", "tier": "Exam level", "type": "mcq", "topic": "Beneficial and Harmful Effects",
+      "stem": "A ride-sharing app makes it easier to get rides in cities. Which is a possible harmful effect that its designers may not have intended?",
+      "choices": [
+        { "id": "A", "text": "Increased traffic congestion as more cars circulate waiting for riders" },
+        { "id": "B", "text": "Shorter wait times for riders" },
+        { "id": "C", "text": "More income opportunities for drivers" },
+        { "id": "D", "text": "Easier payment" }
+      ],
+      "answer": "A",
+      "explanation": "Innovations can have unintended negative consequences.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q10", "tier": "Exam level", "type": "mcq", "topic": "Safe Computing",
+      "stem": "Which information is the clearest example of personally identifiable information?",
+      "choices": [
+        { "id": "A", "text": "A person's Social Security number" },
+        { "id": "B", "text": "The average temperature in a city" },
+        { "id": "C", "text": "The number of users of an app" },
+        { "id": "D", "text": "A list of popular songs" }
+      ],
+      "answer": "A",
+      "explanation": "It uniquely identifies an individual.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q11", "tier": "Hardest", "type": "mcq", "topic": "Safe Computing",
+      "stem": "Individually harmless data points (a person's zip code, birth date, and gender) are combined from different public sources. Which risk does this illustrate?",
+      "choices": [
+        { "id": "A", "text": "Aggregated data can identify a specific person even if no single item does." },
+        { "id": "B", "text": "Data can only be harmful if encrypted." },
+        { "id": "C", "text": "Combining data always anonymizes it." },
+        { "id": "D", "text": "Public data can't affect privacy." }
+      ],
+      "answer": "A",
+      "explanation": "Combining data enables re-identification.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q12", "tier": "Hardest", "type": "mcq", "topic": "Safe Computing",
+      "stem": "Why do browsers check a website's digital certificate before establishing a secure connection?",
+      "choices": [
+        { "id": "A", "text": "A trusted certificate authority has verified that the public key belongs to the claimed site, preventing impersonation." },
+        { "id": "B", "text": "Certificates make pages load faster." },
+        { "id": "C", "text": "Certificates compress the page." },
+        { "id": "D", "text": "Certificates prevent all malware downloads." }
+      ],
+      "answer": "A",
+      "explanation": "Certificates bind a public key to an identity.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q13", "tier": "Hardest", "type": "mcq", "topic": "Beneficial and Harmful Effects",
+      "stem": "A city uses an algorithm trained on past arrest records to decide where to send police patrols. Which concern is most significant?",
+      "choices": [
+        { "id": "A", "text": "If past enforcement was concentrated in certain neighborhoods, the algorithm may send more patrols there, generating more arrests and reinforcing the original bias." },
+        { "id": "B", "text": "The algorithm will require too much storage." },
+        { "id": "C", "text": "The algorithm can't run on parallel processors." },
+        { "id": "D", "text": "Arrest data is always lossless." }
+      ],
+      "answer": "A",
+      "explanation": "Feedback loops can amplify bias in historical data.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q14", "tier": "Hardest", "type": "mcq", "topic": "Legal and Ethical Concerns",
+      "stem": "Which statement about open-source software is most accurate?",
+      "choices": [
+        { "id": "A", "text": "Its code is publicly available and can be used and modified under the terms of its license, which may still impose requirements such as attribution." },
+        { "id": "B", "text": "It has no license and no rules." },
+        { "id": "C", "text": "It can't be used commercially." },
+        { "id": "D", "text": "It is always less secure than proprietary software." }
+      ],
+      "answer": "A",
+      "explanation": "Open-source licenses grant permissions with conditions.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-frq1", "tier": "Exam level", "type": "frq", "topic": "Beneficial and Harmful Effects", "frqType": "Create Written Response",
+      "prompt": "A school district introduces an app that uses students' location data to send parents an alert when their child arrives at school. The app stores each student's name, home address, and location history on a cloud server.",
+      "parts": [
+        { "label": "a", "prompt": "Describe one beneficial effect of this app.", "points": 1 },
+        { "label": "b", "prompt": "Describe one harmful effect or risk of collecting this data.", "points": 1 },
+        { "label": "c", "prompt": "Describe one security measure the district could use to protect the stored data, and explain how it helps.", "points": 1 },
+        { "label": "d", "prompt": "Explain how the digital divide could affect the app's usefulness for some families.", "points": 1 }
+      ],
+      "points": 4,
+      "minutes": 15,
+      "rubric": [
+        { "criterion": "a", "points": 1, "description": "E.g., parents know their child arrived safely; reduces staff time on attendance calls." },
+        { "criterion": "b", "points": 1, "description": "E.g., a data breach could expose students' addresses and movement patterns (PII), enabling stalking; data could be used for unintended purposes." },
+        { "criterion": "c", "points": 1, "description": "E.g., encrypting data so stolen files are unreadable; multifactor authentication for staff accounts; limiting how long location history is kept." },
+        { "criterion": "d", "points": 1, "description": "Families without smartphones or reliable internet won't receive alerts, so the benefits go mainly to families with access." }
+      ],
+      "sampleResponse": "a. Parents receive an immediate alert when their child arrives, giving them peace of mind and letting the school identify absent students quickly.\n\nb. The server stores names, home addresses, and location histories together. If it were breached, attackers could learn where specific children live and when they travel, which could put students in danger.\n\nc. The district could encrypt the stored data. Even if an attacker accessed the server, the information would be unreadable without the decryption key.\n\nd. Families who don't have smartphones or reliable internet access can't receive the alerts, so they gain none of the safety benefits. This widens the gap between families with and without access to technology."
+    }
+  ]
+}

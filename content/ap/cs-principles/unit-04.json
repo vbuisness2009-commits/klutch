@@ -1,0 +1,262 @@
+{
+  "number": 4,
+  "title": "Computer Systems and Networks",
+  "guide": {
+    "summary": "Big Idea 4 covers how computers communicate and share work: the internet as a network of networks, packets, routing, protocols (IP, TCP, UDP, HTTP, DNS), addresses, bandwidth, fault tolerance through redundancy, and sequential, parallel, and distributed computing with speedup calculations.",
+    "sections": [
+      {
+        "heading": "The internet",
+        "body": "A computing device sends data over a computer network, a group of interconnected devices; the internet is a network of networks using open (nonproprietary) protocols, which allows devices from many manufacturers to communicate and lets the internet scale. Data is broken into packets that travel independently and may take different paths and arrive out of order; they are reassembled at the destination. Routing finds a path between sender and receiver. IP addresses identify devices (IPv4 uses 32 bits; IPv6 uses 128 bits, giving vastly more addresses). TCP ensures reliable, ordered delivery; UDP is faster but doesn't guarantee delivery. The World Wide Web is a system of linked pages accessed with HTTP over the internet, not the internet itself. DNS translates domain names into IP addresses. Bandwidth is the maximum data sent per unit time (bits per second)."
+      },
+      {
+        "heading": "Fault tolerance",
+        "body": "The internet was designed to be fault tolerant: redundancy (multiple paths between devices) means communication can continue even if some connections or devices fail. Redundancy costs more but improves reliability. To analyze a network diagram, find whether removing one connection or device leaves any pair unable to communicate."
+      },
+      {
+        "heading": "Parallel and distributed computing",
+        "body": "Sequential computing runs operations one at a time; its time is the sum of all steps. Parallel computing splits a program into parts that run simultaneously on multiple processors; its time is the time of the sequential portion plus the longest parallel portion. Speedup = sequential time ÷ parallel time. Speedup is limited by parts that must run sequentially and by dependencies between tasks; adding more processors eventually gives diminishing returns. Distributed computing uses multiple devices across a network to solve problems too large for one computer (storage or processing)."
+      }
+    ],
+    "keyTakeaways": [
+      "Packets travel independently and are reassembled.",
+      "Open protocols allow the internet to scale.",
+      "IPv6 has far more addresses than IPv4.",
+      "Redundancy provides fault tolerance.",
+      "Parallel time = sequential part + longest parallel part.",
+      "Speedup = sequential time ÷ parallel time."
+    ],
+    "commonMistakes": [
+      "Treating the internet and the Web as the same thing.",
+      "Assuming packets always arrive in order.",
+      "Adding parallel task times instead of taking the maximum.",
+      "Assuming more processors always speed things up proportionally.",
+      "Confusing bandwidth with latency."
+    ],
+    "examTips": [
+      "Network-diagram questions: test each removal to see if a pair is cut off.",
+      "Parallel scheduling: assign tasks to balance processors, then take the maximum.",
+      "Protocol questions: match each protocol to its role.",
+      "Know why open standards matter."
+    ],
+    "cramSheet": "**Internet:** network of networks · open protocols · packets · routing\n\n**Protocols:** IP (addressing) · TCP (reliable, ordered) · UDP (fast) · HTTP (web) · DNS (names → IPs)\n\n**Addresses:** IPv4 32 bits · IPv6 128 bits\n\n**Fault tolerance:** redundancy, multiple paths\n\n**Parallel:** time = sequential + max(parallel) · speedup = seq/parallel · limits\n\n**Distributed:** many networked devices"
+  },
+  "vocab": [
+    { "term": "Computer network", "definition": "A group of interconnected computing devices that can send and receive data." },
+    { "term": "Packet", "definition": "A chunk of data with metadata used to route it to its destination." },
+    { "term": "Routing", "definition": "Finding a path from sender to receiver in a network." },
+    { "term": "Protocol", "definition": "An agreed-upon set of rules for how data is transmitted." },
+    { "term": "Internet Protocol (IP)", "definition": "Protocol responsible for addressing and routing packets." },
+    { "term": "TCP", "definition": "Protocol that ensures packets are delivered reliably and reassembled in order." },
+    { "term": "DNS", "definition": "System that translates domain names into IP addresses." },
+    { "term": "Bandwidth", "definition": "The maximum amount of data that can be sent in a fixed time." },
+    { "term": "Fault tolerance", "definition": "The ability of a system to continue operating when components fail." },
+    { "term": "Redundancy", "definition": "Extra components or paths that provide backup in case of failure." },
+    { "term": "Parallel computing", "definition": "Running multiple parts of a program at the same time on multiple processors." },
+    { "term": "Speedup", "definition": "Sequential time divided by parallel time." }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01", "tier": "Intro", "type": "mcq", "topic": "The Internet",
+      "stem": "Which statement about data sent over the internet is true?",
+      "choices": [
+        { "id": "A", "text": "Data is broken into packets that may take different paths and arrive out of order." },
+        { "id": "B", "text": "All packets always travel the same path." },
+        { "id": "C", "text": "Data is sent as one continuous message." },
+        { "id": "D", "text": "Packets are never lost." }
+      ],
+      "answer": "A",
+      "explanation": "Packet switching allows flexible routing; TCP reassembles them.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q02", "tier": "Intro", "type": "mcq", "topic": "The Internet",
+      "stem": "What is the main role of the Domain Name System (DNS)?",
+      "choices": [
+        { "id": "A", "text": "Translating domain names such as example.com into IP addresses" },
+        { "id": "B", "text": "Encrypting web traffic" },
+        { "id": "C", "text": "Reassembling packets in order" },
+        { "id": "D", "text": "Compressing images" }
+      ],
+      "answer": "A",
+      "explanation": "DNS maps human-readable names to numerical addresses.",
+      "distractors": { "C": "TCP's role." }
+    },
+    {
+      "id": "u4-q03", "tier": "Intro", "type": "mcq", "topic": "Fault Tolerance",
+      "stem": "Why does having multiple paths between devices make a network fault tolerant?",
+      "choices": [
+        { "id": "A", "text": "If one connection fails, data can be routed through another path." },
+        { "id": "B", "text": "It makes each connection faster." },
+        { "id": "C", "text": "It prevents all errors." },
+        { "id": "D", "text": "It reduces the number of devices needed." }
+      ],
+      "answer": "A",
+      "explanation": "Redundancy allows communication to continue.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q04", "tier": "Intro", "type": "mcq", "topic": "The Internet",
+      "stem": "Which describes the relationship between the internet and the World Wide Web?",
+      "choices": [
+        { "id": "A", "text": "The Web is a system of linked pages that uses the internet, which is the underlying network of networks." },
+        { "id": "B", "text": "They are two names for the same thing." },
+        { "id": "C", "text": "The internet runs on top of the Web." },
+        { "id": "D", "text": "The Web is the hardware; the internet is the software." }
+      ],
+      "answer": "A",
+      "explanation": "The Web is one application of the internet (others include email).",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q05", "tier": "Exam level", "type": "mcq", "topic": "Parallel and Distributed Computing",
+      "stem": "A program consists of three independent tasks taking 30, 20, and 50 seconds. How long does it take on two processors running in parallel with the best assignment, and what is the speedup over one processor?",
+      "choices": [
+        { "id": "A", "text": "50 seconds; speedup 2" },
+        { "id": "B", "text": "100 seconds; speedup 1" },
+        { "id": "C", "text": "50 seconds; speedup 0.5" },
+        { "id": "D", "text": "33 seconds; speedup 3" }
+      ],
+      "answer": "A",
+      "explanation": "One processor runs 50; the other runs 30 + 20 = 50. Speedup = 100/50 = 2.",
+      "distractors": { "D": "Assumes three processors." }
+    },
+    {
+      "id": "u4-q06", "tier": "Exam level", "type": "mcq", "topic": "Parallel and Distributed Computing",
+      "stem": "A program has a 20-second sequential part that must finish before two independent parts of 40 seconds and 30 seconds can run. With two processors, what is the minimum total time?",
+      "choices": [
+        { "id": "A", "text": "60 seconds" },
+        { "id": "B", "text": "90 seconds" },
+        { "id": "C", "text": "40 seconds" },
+        { "id": "D", "text": "70 seconds" }
+      ],
+      "answer": "A",
+      "explanation": "20 (sequential) + max(40, 30) = 60 seconds.",
+      "distractors": { "B": "Fully sequential time." }
+    },
+    {
+      "id": "u4-q07", "tier": "Exam level", "type": "mcq", "topic": "The Internet",
+      "stem": "IPv4 addresses use 32 bits; IPv6 addresses use 128 bits. How many times as many addresses does IPv6 provide?",
+      "choices": [
+        { "id": "A", "text": "2⁹⁶" },
+        { "id": "B", "text": "4" },
+        { "id": "C", "text": "96" },
+        { "id": "D", "text": "2⁴" }
+      ],
+      "answer": "A",
+      "explanation": "2¹²⁸ / 2³² = 2⁹⁶.",
+      "distractors": { "B": "Compares bit counts, not values." }
+    },
+    {
+      "id": "u4-q08", "tier": "Exam level", "type": "mcq", "topic": "Fault Tolerance",
+      "stimulus": "A network has devices A, B, C, D, and E with these direct connections: A–B, A–C, B–C, C–D, D–E.",
+      "stem": "Which single connection, if broken, would prevent A from communicating with E?",
+      "choices": [
+        { "id": "A", "text": "C–D" },
+        { "id": "B", "text": "A–B" },
+        { "id": "C", "text": "B–C" },
+        { "id": "D", "text": "A–C" }
+      ],
+      "answer": "A",
+      "explanation": "All paths to E pass through C–D and D–E. Breaking A–B, B–C, or A–C leaves another route to C.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q09", "tier": "Exam level", "type": "mcq", "topic": "The Internet",
+      "stem": "Why have open, nonproprietary protocols been important to the growth of the internet?",
+      "choices": [
+        { "id": "A", "text": "Any manufacturer can build devices that communicate with all others, allowing the network to scale." },
+        { "id": "B", "text": "They make the internet more secure by hiding how it works." },
+        { "id": "C", "text": "They let a single company control the internet." },
+        { "id": "D", "text": "They eliminate the need for routing." }
+      ],
+      "answer": "A",
+      "explanation": "Openness enables interoperability and growth.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q10", "tier": "Exam level", "type": "mcq", "topic": "Parallel and Distributed Computing",
+      "stem": "Which problem is best suited to distributed computing?",
+      "choices": [
+        { "id": "A", "text": "Analyzing petabytes of telescope data too large for any single computer to store or process" },
+        { "id": "B", "text": "Adding two numbers" },
+        { "id": "C", "text": "Displaying a single web page" },
+        { "id": "D", "text": "Sorting a list of 10 names" }
+      ],
+      "answer": "A",
+      "explanation": "Distributed computing pools storage and processing across many devices.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q11", "tier": "Hardest", "type": "mcq", "topic": "Parallel and Distributed Computing",
+      "stem": "Four independent tasks take 40, 30, 20, and 10 seconds. What is the minimum time on two processors?",
+      "choices": [
+        { "id": "A", "text": "50 seconds" },
+        { "id": "B", "text": "60 seconds" },
+        { "id": "C", "text": "40 seconds" },
+        { "id": "D", "text": "100 seconds" }
+      ],
+      "answer": "A",
+      "explanation": "Pair 40 + 10 and 30 + 20: both 50 seconds.",
+      "distractors": { "B": "Pairs 40 + 20 and 30 + 10 (60 seconds max)." }
+    },
+    {
+      "id": "u4-q12", "tier": "Hardest", "type": "mcq", "topic": "Parallel and Distributed Computing",
+      "stem": "A task has a 30-second part that must run sequentially and a 60-second part that can be split evenly among any number of processors. What happens as processors are added?",
+      "choices": [
+        { "id": "A", "text": "Total time approaches 30 seconds but never goes below it, so the speedup approaches 3." },
+        { "id": "B", "text": "Total time approaches zero." },
+        { "id": "C", "text": "Speedup doubles with each processor added." },
+        { "id": "D", "text": "Total time stays 90 seconds." }
+      ],
+      "answer": "A",
+      "explanation": "The sequential part limits speedup: 90/30 = 3 at most.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q13", "tier": "Hardest", "type": "mcq", "topic": "The Internet",
+      "stem": "A video-call application uses a protocol that doesn't retransmit lost packets. Which is the most likely reason?",
+      "choices": [
+        { "id": "A", "text": "For real-time communication, waiting to resend old packets would cause delays; a brief glitch is preferable." },
+        { "id": "B", "text": "Lost packets never occur in video calls." },
+        { "id": "C", "text": "Retransmission is impossible on the internet." },
+        { "id": "D", "text": "It improves video quality." }
+      ],
+      "answer": "A",
+      "explanation": "UDP trades reliability for lower latency.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q14", "tier": "Hardest", "type": "mcq", "topic": "Fault Tolerance",
+      "stimulus": "Network: P–Q, Q–R, R–S, S–P, P–R.",
+      "stem": "What is the minimum number of connections that must fail before some device is unable to reach every other device?",
+      "choices": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "1" },
+        { "id": "C", "text": "3" },
+        { "id": "D", "text": "4" }
+      ],
+      "answer": "A",
+      "explanation": "Q has connections only to P and R; removing both P–Q and Q–R isolates Q. No single removal disconnects the network.",
+      "distractors": { "B": "Every device has at least two connections." }
+    },
+    {
+      "id": "u4-frq1", "tier": "Exam level", "type": "frq", "topic": "Parallel and Distributed Computing", "frqType": "Create Written Response",
+      "prompt": "A student's photo-editing program applies three independent filters to each image. Filter X takes 6 seconds, filter Y takes 4 seconds, and filter Z takes 2 seconds. A final step that combines the results takes 3 seconds and can only start after all filters finish.",
+      "parts": [
+        { "label": "a", "prompt": "Calculate the total time if the program runs sequentially on one processor.", "points": 1 },
+        { "label": "b", "prompt": "Calculate the minimum total time with two processors, and describe how the filters should be assigned.", "points": 1 },
+        { "label": "c", "prompt": "Calculate the speedup for part (b).", "points": 1 },
+        { "label": "d", "prompt": "Explain why adding a third processor would not reduce the time below 9 seconds.", "points": 1 }
+      ],
+      "points": 4,
+      "minutes": 15,
+      "rubric": [
+        { "criterion": "a", "points": 1, "description": "6 + 4 + 2 + 3 = 15 seconds." },
+        { "criterion": "b", "points": 1, "description": "Processor 1 runs X (6 s); processor 2 runs Y and Z (6 s); then combine (3 s): 9 seconds." },
+        { "criterion": "c", "points": 1, "description": "15 ÷ 9 ≈ 1.67." },
+        { "criterion": "d", "points": 1, "description": "Filter X alone takes 6 seconds and the combine step must wait for it and then run sequentially for 3 seconds, so 6 + 3 = 9 is the minimum regardless of processors." }
+      ],
+      "sampleResponse": "a. Sequentially: 6 + 4 + 2 + 3 = 15 seconds.\n\nb. Processor 1 runs filter X (6 seconds) while processor 2 runs filters Y and Z one after the other (4 + 2 = 6 seconds). Both finish at 6 seconds; then the combine step takes 3 seconds, for a total of 9 seconds.\n\nc. Speedup = 15 / 9 ≈ 1.67.\n\nd. Filter X is a single task that takes 6 seconds and can't be split, and the combine step can't start until it finishes and then takes 3 more seconds. Even with a third processor, the total can't go below 6 + 3 = 9 seconds."
+    }
+  ]
+}

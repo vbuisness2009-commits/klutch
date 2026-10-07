@@ -1,0 +1,265 @@
+{
+  "number": 2,
+  "title": "Data",
+  "guide": {
+    "summary": "Big Idea 2 covers how data is represented and used: bits and binary numbers, the limits of fixed-size representations (overflow and rounding), lossless and lossy compression, extracting information from data, metadata, data cleaning, and using programs to process large data sets.",
+    "sections": [
+      {
+        "heading": "Binary representation",
+        "body": "All data in a computer is stored as bits (0s and 1s). A byte is 8 bits. With n bits you can represent 2ⁿ different values; adding one bit doubles the number of values. Binary is base 2: each place value is a power of 2 (…, 8, 4, 2, 1), so 1011₂ = 8 + 2 + 1 = 11. Convert decimal to binary by finding the largest powers of 2 that fit. The same bit sequence can represent a number, a character, a color, or an instruction depending on context. Analog data (continuous) is approximated digitally by sampling."
+      },
+      {
+        "heading": "Limits of representation",
+        "body": "Fixed numbers of bits limit the range of integers, causing overflow errors when a value exceeds the maximum. Real numbers are approximated, causing roundoff errors (e.g., 0.1 + 0.2 may not exactly equal 0.3). Some programming languages allow arbitrarily large integers, limited only by memory."
+      },
+      {
+        "heading": "Compression",
+        "body": "Compression reduces the number of bits needed to store or transmit data. Lossless compression (e.g., run-length encoding, ZIP) allows the original to be reconstructed exactly; it's required for text, code, and data where every bit matters. Lossy compression (e.g., JPEG, MP3) discards some information for much smaller files; the original can't be fully reconstructed. The choice depends on whether exact reconstruction or minimal size matters more."
+      },
+      {
+        "heading": "Extracting information from data",
+        "body": "Programs can filter, sort, combine, and visualize data to find patterns that would be impractical manually; processing scales with tools like spreadsheets and databases. Metadata is data about data (a photo's date, location, camera); it helps organize and find data and can reveal private information. Data must often be cleaned: fixing inconsistent formats, removing duplicates, and handling missing or incorrect values. Biased or incomplete data leads to biased conclusions. Correlation in data doesn't establish causation. Some questions can't be answered with the available data."
+      }
+    ],
+    "keyTakeaways": [
+      "n bits → 2ⁿ values; +1 bit doubles values.",
+      "Binary place values are powers of 2.",
+      "Overflow: too large; rounding: imprecise reals.",
+      "Lossless = exact reconstruction; lossy = smaller, approximate.",
+      "Metadata describes data and can reveal private details.",
+      "Correlation ≠ causation; clean data before analysis."
+    ],
+    "commonMistakes": [
+      "Thinking n bits represent n² or 2n values.",
+      "Choosing lossy compression for text files.",
+      "Confusing data with metadata.",
+      "Assuming larger data sets automatically remove bias.",
+      "Claiming a data set answers a question it lacks the columns for."
+    ],
+    "examTips": [
+      "Binary conversion questions: write out place values 128, 64, 32, 16, 8, 4, 2, 1.",
+      "'Which question cannot be answered' questions: check exactly which fields exist.",
+      "Compression questions: decide whether exact reconstruction is required.",
+      "Watch for how many more bits are needed when the number of items grows."
+    ],
+    "cramSheet": "**Bits:** n bits → 2ⁿ values · byte = 8 bits\n\n**Binary:** places 128 64 32 16 8 4 2 1 · 1011 = 11\n\n**Limits:** overflow (range) · roundoff (precision)\n\n**Compression:** lossless (exact: text, code) · lossy (smaller: photos, audio)\n\n**Data:** metadata · cleaning · filtering · visualization · bias · correlation ≠ causation"
+  },
+  "vocab": [
+    { "term": "Bit", "definition": "A binary digit, 0 or 1." },
+    { "term": "Byte", "definition": "A group of 8 bits." },
+    { "term": "Binary", "definition": "The base-2 number system using digits 0 and 1." },
+    { "term": "Overflow error", "definition": "An error when a number exceeds the range representable with a fixed number of bits." },
+    { "term": "Roundoff error", "definition": "An error from approximating real numbers with limited precision." },
+    { "term": "Analog data", "definition": "Data with continuous values, approximated digitally by sampling." },
+    { "term": "Lossless compression", "definition": "Compression that allows exact reconstruction of the original data." },
+    { "term": "Lossy compression", "definition": "Compression that discards some data to reduce size significantly." },
+    { "term": "Metadata", "definition": "Data that describes other data." },
+    { "term": "Data cleaning", "definition": "Making data uniform and correcting errors without changing its meaning." },
+    { "term": "Correlation", "definition": "A relationship between two variables, which doesn't by itself imply causation." },
+    { "term": "Scalability", "definition": "The ability of a system to handle increasing amounts of data or users." }
+  ],
+  "practice": [
+    {
+      "id": "u2-q01", "tier": "Intro", "type": "mcq", "topic": "Binary Numbers",
+      "stem": "What is the decimal value of the binary number 1011?",
+      "choices": [
+        { "id": "A", "text": "11" },
+        { "id": "B", "text": "13" },
+        { "id": "C", "text": "1011" },
+        { "id": "D", "text": "7" }
+      ],
+      "answer": "A",
+      "explanation": "8 + 0 + 2 + 1 = 11.",
+      "distractors": { "B": "Reads the bits in reverse order." }
+    },
+    {
+      "id": "u2-q02", "tier": "Intro", "type": "mcq", "topic": "Binary Numbers",
+      "stem": "How many different values can be represented with 8 bits?",
+      "choices": [
+        { "id": "A", "text": "8" },
+        { "id": "B", "text": "16" },
+        { "id": "C", "text": "64" },
+        { "id": "D", "text": "256" }
+      ],
+      "answer": "D",
+      "explanation": "2⁸ = 256.",
+      "distractors": { "C": "8²." }
+    },
+    {
+      "id": "u2-q03", "tier": "Intro", "type": "mcq", "topic": "Data Compression",
+      "stem": "Which type of file most requires lossless compression?",
+      "choices": [
+        { "id": "A", "text": "A program's source code" },
+        { "id": "B", "text": "A vacation photo for social media" },
+        { "id": "C", "text": "A streaming music track" },
+        { "id": "D", "text": "A video call" }
+      ],
+      "answer": "A",
+      "explanation": "Any lost character could break the code; exact reconstruction is required.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q04", "tier": "Intro", "type": "mcq", "topic": "Extracting Information from Data",
+      "stem": "A digital photo file includes the date it was taken and the GPS location. This information is",
+      "choices": [
+        { "id": "A", "text": "metadata" },
+        { "id": "B", "text": "lossy data" },
+        { "id": "C", "text": "an overflow error" },
+        { "id": "D", "text": "encryption" }
+      ],
+      "answer": "A",
+      "explanation": "Metadata is data about the photo, not the image itself.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q05", "tier": "Exam level", "type": "mcq", "topic": "Binary Numbers",
+      "stem": "What is the binary representation of the decimal number 45?",
+      "choices": [
+        { "id": "A", "text": "101101" },
+        { "id": "B", "text": "110101" },
+        { "id": "C", "text": "101011" },
+        { "id": "D", "text": "100101" }
+      ],
+      "answer": "A",
+      "explanation": "45 = 32 + 8 + 4 + 1 → 101101.",
+      "distractors": { "D": "37." }
+    },
+    {
+      "id": "u2-q06", "tier": "Exam level", "type": "mcq", "topic": "Binary Numbers",
+      "stem": "A school assigns each student a unique ID using a fixed number of bits. Enrollment grows from 500 to 1,500 students. What is the minimum number of bits now needed?",
+      "choices": [
+        { "id": "A", "text": "9" },
+        { "id": "B", "text": "10" },
+        { "id": "C", "text": "11" },
+        { "id": "D", "text": "1,500" }
+      ],
+      "answer": "C",
+      "explanation": "2¹⁰ = 1,024 < 1,500 ≤ 2¹¹ = 2,048.",
+      "distractors": { "B": "Enough for only 1,024 IDs." }
+    },
+    {
+      "id": "u2-q07", "tier": "Exam level", "type": "mcq", "topic": "Data Compression",
+      "stem": "Using run-length encoding where each run is written as a count followed by the character, how is \"AAAABBBCCD\" encoded?",
+      "choices": [
+        { "id": "A", "text": "4A3B2C1D" },
+        { "id": "B", "text": "A4B3C2D1" },
+        { "id": "C", "text": "4A3B2CD" },
+        { "id": "D", "text": "ABCD" }
+      ],
+      "answer": "A",
+      "explanation": "Four A's, three B's, two C's, one D.",
+      "distractors": { "D": "Loses information." }
+    },
+    {
+      "id": "u2-q08", "tier": "Exam level", "type": "mcq", "topic": "Using Programs with Data",
+      "stem": "A survey data set lists states as \"NY\", \"New York\", and \"N.Y.\" in different rows. Before counting responses by state, the analyst should",
+      "choices": [
+        { "id": "A", "text": "clean the data so each state is represented consistently" },
+        { "id": "B", "text": "compress the data with lossy compression" },
+        { "id": "C", "text": "delete all New York rows" },
+        { "id": "D", "text": "encrypt the data" }
+      ],
+      "answer": "A",
+      "explanation": "Cleaning makes the data uniform without changing its meaning.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q09", "tier": "Exam level", "type": "mcq", "topic": "Extracting Information from Data",
+      "stimulus": "A city data set records, for each ride on its bike-share system: start station, end station, start time, end time, and whether the rider is a member.",
+      "stem": "Which question can NOT be answered using only this data set?",
+      "choices": [
+        { "id": "A", "text": "What is the average age of members?" },
+        { "id": "B", "text": "Which station has the most ride starts?" },
+        { "id": "C", "text": "What is the average ride duration?" },
+        { "id": "D", "text": "Do members take more rides on weekends than nonmembers?" }
+      ],
+      "answer": "A",
+      "explanation": "Age isn't recorded.",
+      "distractors": { "D": "Day of week can be derived from start time." }
+    },
+    {
+      "id": "u2-q10", "tier": "Exam level", "type": "mcq", "topic": "Data Representation Limits",
+      "stem": "A program adds 0.1 to a variable 10 times starting from 0 and checks whether the result equals 1.0. The check returns false. The most likely reason is",
+      "choices": [
+        { "id": "A", "text": "a roundoff error, because 0.1 cannot be represented exactly in binary" },
+        { "id": "B", "text": "an overflow error" },
+        { "id": "C", "text": "a syntax error" },
+        { "id": "D", "text": "lossless compression" }
+      ],
+      "answer": "A",
+      "explanation": "Limited precision makes the sum slightly different from 1.0.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q11", "tier": "Hardest", "type": "mcq", "topic": "Binary Numbers",
+      "stem": "A system increases the number of bits used to represent each value from 6 to 8. How does the number of representable values change?",
+      "choices": [
+        { "id": "A", "text": "It becomes 4 times as large." },
+        { "id": "B", "text": "It increases by 2." },
+        { "id": "C", "text": "It doubles." },
+        { "id": "D", "text": "It increases by about 33%." }
+      ],
+      "answer": "A",
+      "explanation": "2⁸/2⁶ = 2² = 4.",
+      "distractors": { "D": "Compares bit counts instead of values." }
+    },
+    {
+      "id": "u2-q12", "tier": "Hardest", "type": "mcq", "topic": "Binary Numbers",
+      "stem": "Which list is in increasing numerical order?",
+      "choices": [
+        { "id": "A", "text": "binary 1010, decimal 11, binary 1101" },
+        { "id": "B", "text": "binary 1101, decimal 11, binary 1010" },
+        { "id": "C", "text": "decimal 11, binary 1010, binary 1101" },
+        { "id": "D", "text": "binary 1010, binary 1101, decimal 11" }
+      ],
+      "answer": "A",
+      "explanation": "1010 = 10, then 11, then 1101 = 13.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q13", "tier": "Hardest", "type": "mcq", "topic": "Extracting Information from Data",
+      "stem": "Data show that neighborhoods with more coffee shops have higher average home prices. Which conclusion is best supported?",
+      "choices": [
+        { "id": "A", "text": "The variables are correlated, but the data don't show that coffee shops cause higher prices." },
+        { "id": "B", "text": "Opening coffee shops will raise home prices." },
+        { "id": "C", "text": "High home prices cause coffee shops to close." },
+        { "id": "D", "text": "The data must contain errors." }
+      ],
+      "answer": "A",
+      "explanation": "Both may relate to other factors such as income or density.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q14", "tier": "Hardest", "type": "mcq", "topic": "Data Compression",
+      "stem": "A photographer wants to send many high-resolution photos over a slow connection, and minor loss of detail is acceptable. A software developer wants to archive source code. Which compression choices are most appropriate?",
+      "choices": [
+        { "id": "A", "text": "Photographer: lossy; developer: lossless" },
+        { "id": "B", "text": "Photographer: lossless; developer: lossy" },
+        { "id": "C", "text": "Both lossy" },
+        { "id": "D", "text": "Both should avoid compression" }
+      ],
+      "answer": "A",
+      "explanation": "Lossy greatly reduces image size; code must be reconstructed exactly.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-frq1", "tier": "Exam level", "type": "frq", "topic": "Using Programs with Data", "frqType": "Create Written Response",
+      "prompt": "A student's weather app stores daily high temperatures in a list named temps and uses this procedure:\n```\nPROCEDURE countAbove(temps, limit)\n{\n   count ← 0\n   FOR EACH t IN temps\n   {\n      IF (t > limit)\n      {\n         count ← count + 1\n      }\n   }\n   RETURN(count)\n}\n```",
+      "parts": [
+        { "label": "a", "prompt": "Describe what data the list temps represents and how the program uses it.", "points": 1 },
+        { "label": "b", "prompt": "Explain how the procedure would need to change if temperatures were stored in 31 separate variables instead of a list.", "points": 1 },
+        { "label": "c", "prompt": "Describe two calls to countAbove with different arguments for limit that would produce different results for the same list, and explain why.", "points": 1 },
+        { "label": "d", "prompt": "The data contain an obviously incorrect value of 999 from a broken sensor. Describe how you could modify the procedure to ignore such values.", "points": 1 }
+      ],
+      "points": 4,
+      "minutes": 15,
+      "rubric": [
+        { "criterion": "a", "points": 1, "description": "temps holds one high temperature per day; the procedure traverses it to count days hotter than a limit." },
+        { "criterion": "b", "points": 1, "description": "Each variable would need its own IF statement (31 copies); the code couldn't loop and would have to change if the number of days changed." },
+        { "criterion": "c", "points": 1, "description": "E.g., countAbove(temps, 90) vs countAbove(temps, 70); the lower limit counts more days because more temperatures exceed it." },
+        { "criterion": "d", "points": 1, "description": "E.g., add a condition (t > limit AND t < 150) so implausible readings aren't counted." }
+      ],
+      "sampleResponse": "a. temps contains the daily high temperature for each day of the month. countAbove traverses the list and counts how many days had a high above the given limit, which the app displays as the number of hot days.\n\nb. Without the list, I would need 31 separate IF statements, one for each variable, each with its own comparison and counter update. The code would be much longer, and if the month had a different number of days, I'd have to rewrite it.\n\nc. countAbove(temps, 90) counts only very hot days, while countAbove(temps, 70) counts every day above 70. Because 70 is lower, more temperatures exceed it, so the second call returns a larger number for the same list.\n\nd. I would change the condition to IF (t > limit AND t < 150) so that values like 999, which are impossible air temperatures, are not counted."
+    }
+  ]
+}

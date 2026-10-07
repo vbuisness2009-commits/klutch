@@ -15,6 +15,26 @@
       {
         "heading": "RC circuits",
         "body": "Charging (switch closed at t = 0, capacitor initially uncharged): loop rule ε − IR − q/C = 0 with I = dq/dt gives q(t) = Cε(1 − e^(−t/RC)), I(t) = (ε/R)e^(−t/RC), V_C(t) = ε(1 − e^(−t/RC)). Discharging: q(t) = Q₀e^(−t/RC), I(t) = (Q₀/RC)e^(−t/RC). The time constant τ = RC is the time to reach about 63% of the final charge (or decay to 37%). Half-life of discharge: τ ln 2. Initially an uncharged capacitor acts like a wire; at steady state it acts like an open circuit. While charging from a battery, the energy dissipated in the resistor equals the energy finally stored, ½Cε²."
+      },
+      {
+        "heading": "Worked example: RC charging",
+        "body": "A 10 μF capacitor is charged through a 100 kΩ resistor by a 9 V battery. The time constant is τ = RC = 1.0 s. The charge grows as Q(t) = Cε(1 − e^(−t/τ)), so after one time constant the capacitor holds about 63% of its final charge of 90 μC, and the current has fallen to 37% of its initial value of ε/R = 90 μA. After about five time constants the capacitor is essentially fully charged and the current is nearly zero. Initially an uncharged capacitor acts like a wire; after a long time it acts like a break in the circuit, which is the key to many circuit questions."
+      },
+      {
+        "heading": "Worked example: Kirchhoff's rules",
+        "body": "For a circuit with two loops, assign a current to each branch with a guessed direction, apply the junction rule at a node (currents in equal currents out), and apply the loop rule around each independent loop (the sum of potential changes is zero). A resistor traversed in the direction of current gives a drop of IR, and a battery traversed from negative to positive gives a rise of ε. Solve the resulting equations; a negative answer simply means the current flows opposite to your guess."
+      },
+      {
+        "heading": "Resistivity and power",
+        "body": "Resistance depends on the material and geometry: R = ρL/A. Power dissipated in a resistor is P = IV = I²R = V²/R. In a circuit with resistors in series, the largest resistor dissipates the most power because the current is the same; in parallel, the smallest resistor dissipates the most because the voltage is the same."
+      },
+      {
+        "heading": "Going deeper",
+        "body": "Experimental questions often ask you to linearize data. For a discharging capacitor, V = V₀e^(−t/RC), so a graph of ln V versus t is a straight line with slope −1/RC. From the slope, you can calculate R or C. Meters also matter: an ideal ammeter has zero resistance and is placed in series, while an ideal voltmeter has infinite resistance and is placed in parallel. Real meters slightly change the circuit they measure."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know current, current density, drift velocity, resistivity, emf, internal resistance, time constant, and Kirchhoff's junction and loop rules. A battery's terminal voltage is ε − Ir when current flows, so it is less than the emf."
       }
     ],
     "keyTakeaways": [

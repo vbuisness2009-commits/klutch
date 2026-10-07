@@ -15,6 +15,26 @@
       {
         "heading": "Potential and potential energy",
         "body": "Potential difference ΔV = −∫E·dr along any path. For a point charge, V = kq/r (zero at infinity). For continuous distributions, V = ∫k dq/r (a scalar integral, often easier than E). Ring on its axis: V = kQ/√(x² + a²). Field from potential: E_x = −dV/dx; the field points toward decreasing potential and is perpendicular to equipotential surfaces. Electric potential energy of a charge q: U = qV; the work by the field is −qΔV. For a system of point charges, U = Σkq_iq_j/r_ij."
+      },
+      {
+        "heading": "Worked example: field of a charged rod",
+        "body": "A rod of length L carries uniform charge Q along the x-axis from x = 0 to x = L. To find the field at a point P on the axis at x = L + d, divide the rod into elements dq = (Q/L)dx at position x. Each element is a distance L + d − x from P and contributes dE = k dq/(L + d − x)², all pointing in the same direction. Integrating from 0 to L gives E = (kQ/L)[1/d − 1/(L + d)] = kQ/(d(L + d)). As d becomes much larger than L, this approaches kQ/d², the field of a point charge, which is a useful check on any continuous-charge result."
+      },
+      {
+        "heading": "Worked example: Gauss's law for a sphere",
+        "body": "A solid nonconducting sphere of radius R has uniform charge density ρ and total charge Q. For a Gaussian sphere of radius r < R, the enclosed charge is Q(r/R)³, so E(4πr²) = Q(r³/R³)/ε₀ and E = Qr/(4πε₀R³), growing linearly with r. For r > R, the enclosed charge is Q, so E = Q/(4πε₀r²). The field is continuous at r = R. Gauss's law is useful only when symmetry (spherical, cylindrical, or planar) makes E constant and perpendicular over the Gaussian surface."
+      },
+      {
+        "heading": "Potential from field",
+        "body": "Electric potential difference is ΔV = −∫E·dr, so the field points in the direction of decreasing potential and E = −dV/dr. For the solid sphere, the potential outside is kQ/r, and inside it can be found by integrating the field from infinity to r. Equipotential surfaces are always perpendicular to field lines, and no work is done moving a charge along an equipotential."
+      },
+      {
+        "heading": "Going deeper",
+        "body": "Common errors in electrostatics include forgetting that electric field is a vector, so components must be added rather than magnitudes; mixing up potential (a scalar) with field; and applying Gauss's law without enough symmetry. When adding fields from several charges, use symmetry to cancel components first. When computing potential, add contributions algebraically, using signs for positive and negative charges, and remember that potential is zero only by choice of reference, usually at infinity."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know charge density, flux, Gaussian surface, and equipotential."
       }
     ],
     "keyTakeaways": [

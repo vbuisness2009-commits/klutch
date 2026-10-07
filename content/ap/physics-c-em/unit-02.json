@@ -15,6 +15,30 @@
       {
         "heading": "Energy and dielectrics",
         "body": "Stored energy U = ½QΔV = ½CΔV² = Q²/(2C). The energy is stored in the field with energy density u = ½ε₀E². A dielectric of constant κ inserted between plates multiplies capacitance by κ. If the capacitor remains connected to a battery (ΔV constant), Q and U increase by κ. If isolated (Q constant), ΔV and E decrease by κ, and U decreases by κ (the field does work pulling the dielectric in). Separating the plates of an isolated capacitor increases ΔV and U (external work is done)."
+      },
+      {
+        "heading": "Worked example: capacitors in combination",
+        "body": "Two capacitors, C₁ = 2 μF and C₂ = 4 μF, are connected in series to a 12 V battery. The equivalent capacitance is (1/2 + 1/4)⁻¹ = 4/3 μF, so the charge on each is Q = (4/3 μF)(12 V) = 16 μC. The voltages are 16/2 = 8 V and 16/4 = 4 V, adding to 12 V. In parallel, the equivalent capacitance is 6 μF, each capacitor has 12 V across it, and the charges are 24 μC and 48 μC. Series capacitors share the same charge; parallel capacitors share the same voltage."
+      },
+      {
+        "heading": "Worked example: inserting a dielectric",
+        "body": "A parallel-plate capacitor is charged and then disconnected from the battery, so its charge Q stays constant. Inserting a dielectric with constant κ increases the capacitance to κC₀, so the voltage drops to V₀/κ and the stored energy U = Q²/(2C) drops to U₀/κ. If instead the capacitor stays connected to the battery, the voltage stays constant, the charge increases to κQ₀, and the stored energy increases to κU₀. Deciding whether Q or V is constant is the first step in any dielectric problem."
+      },
+      {
+        "heading": "Conductors in practice",
+        "body": "In electrostatic equilibrium, the electric field inside a conductor is zero, any excess charge resides on the surface, and the surface is an equipotential. A charge placed inside a hollow conducting shell induces an equal and opposite charge on the inner surface, which is why shielding works."
+      },
+      {
+        "heading": "Going deeper",
+        "body": "For a capacitor with a dielectric slab filling only part of the gap or part of the area, treat the arrangement as capacitors in series (layers stacked between plates) or in parallel (side by side). Energy density in an electric field is u = ½ε₀E², which shows that energy is stored in the field itself. Derivations on free-response questions often ask you to start from Gauss's law to find E between plates, then V = Ed, then C = Q/V = ε₀A/d."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know capacitance, dielectric constant, energy density, and electrostatic equilibrium. A capacitor's capacitance depends only on geometry and material, not on the charge it holds or the voltage across it."
+      },
+      {
+        "heading": "Exam tip",
+        "body": "Always decide first whether charge or voltage stays constant."
       }
     ],
     "keyTakeaways": [

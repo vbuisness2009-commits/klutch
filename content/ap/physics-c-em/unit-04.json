@@ -15,6 +15,26 @@
       {
         "heading": "Ampère's law",
         "body": "∮B·dℓ = μ₀I_enc around any closed loop; useful for calculating B with high symmetry. Long straight wire: B = μ₀I/(2πr). Inside a thick wire of radius R with uniform current density: B = μ₀Ir/(2πR²) (∝ r). Ideal solenoid: B = μ₀nI inside (n = turns per length), uniform, and approximately zero outside. Toroid: B = μ₀NI/(2πr) inside, zero outside. Coaxial cable with equal and opposite currents: B = 0 outside."
+      },
+      {
+        "heading": "Worked example: force on a moving charge",
+        "body": "A proton moving at 2.0 × 10⁶ m/s enters a uniform 0.10 T magnetic field perpendicular to its velocity. The magnetic force qvB provides centripetal force, so the radius of its circular path is r = mv/(qB) = (1.67 × 10⁻²⁷)(2.0 × 10⁶)/((1.6 × 10⁻¹⁹)(0.10)) ≈ 0.21 m. The magnetic force does no work because it is always perpendicular to velocity, so the proton's speed stays constant. Use the right-hand rule for positive charges and reverse the direction for negative charges."
+      },
+      {
+        "heading": "Worked example: Ampère's law",
+        "body": "For a long straight wire carrying current I, choose a circular Amperian loop of radius r centered on the wire. By symmetry, B is constant and tangent to the loop, so B(2πr) = μ₀I and B = μ₀I/(2πr). Inside a long solenoid with n turns per meter, a rectangular loop gives B = μ₀nI, uniform inside and nearly zero outside. Ampère's law works when symmetry makes B constant along the path; otherwise, use the Biot–Savart law, as for the field at the center of a circular loop, B = μ₀I/(2R)."
+      },
+      {
+        "heading": "Forces between currents",
+        "body": "Parallel wires carrying current in the same direction attract, and wires carrying current in opposite directions repel. The force per unit length is μ₀I₁I₂/(2πd). A current loop in a magnetic field experiences a torque τ = μ × B, where μ = NIA, which is the principle behind electric motors."
+      },
+      {
+        "heading": "Going deeper",
+        "body": "The Biot–Savart law, dB = (μ₀/4π)(I dl × r̂)/r², finds fields from arbitrary current shapes. For a circular loop of radius R at a point on its axis a distance x from the center, B = μ₀IR²/(2(R² + x²)^(3/2)), which reduces to μ₀I/(2R) at the center. Free-response questions may ask you to set up the integral, use symmetry to cancel components, and evaluate it."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know magnetic force, the right-hand rule, cyclotron radius, Biot–Savart law, Ampère's law, solenoid, magnetic dipole moment, and torque on a current loop. A charged particle moving parallel to a magnetic field feels no magnetic force, while one moving at an angle follows a helical path. The velocity selector uses crossed electric and magnetic fields so that only particles with v = E/B pass undeflected."
       }
     ],
     "keyTakeaways": [

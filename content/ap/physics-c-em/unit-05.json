@@ -19,6 +19,26 @@
       {
         "heading": "Maxwell's equations",
         "body": "Gauss's law for E (charges create diverging E fields), Gauss's law for B (no magnetic monopoles: ∮B·dA = 0), Faraday's law (changing B creates circulating E), and the Ampère–Maxwell law (currents and changing E create circulating B). Together they predict electromagnetic waves traveling at c = 1/√(μ₀ε₀)."
+      },
+      {
+        "heading": "Worked example: motional emf",
+        "body": "A conducting rod of length 0.50 m slides at 4.0 m/s along rails in a 0.20 T magnetic field perpendicular to the rails. The emf induced is ε = BLv = (0.20)(0.50)(4.0) = 0.40 V. If the circuit's resistance is 2.0 Ω, the current is 0.20 A, and the magnetic force on the rod is ILB = (0.20)(0.50)(0.20) = 0.020 N, opposing the motion as Lenz's law requires. To keep the rod moving at constant speed, an external force must supply power Fv = 0.080 W, equal to the power dissipated in the resistor, I²R = 0.080 W."
+      },
+      {
+        "heading": "Worked example: RL circuit",
+        "body": "An inductor L = 2.0 H and a resistor R = 10 Ω are connected to a 20 V battery. The time constant is τ = L/R = 0.20 s. The current grows as I(t) = (ε/R)(1 − e^(−t/τ)), approaching 2.0 A. At the instant the switch closes, the inductor opposes the change and acts like an open circuit, so the current is zero; after a long time, it acts like a wire. The energy stored when the current is 2.0 A is ½LI² = 4.0 J."
+      },
+      {
+        "heading": "Exam tip",
+        "body": "On free-response questions, derive expressions from fundamental laws (Faraday's law, Kirchhoff's rules) and check limiting cases, such as t = 0 and t → ∞, to verify your answers."
+      },
+      {
+        "heading": "Going deeper",
+        "body": "Faraday's law states that the induced emf equals the negative rate of change of magnetic flux, ε = −dΦ_B/dt, where Φ_B = ∫B·dA. Flux can change because the field changes, the area changes, or the orientation changes, as in a rotating generator coil, where ε = NBAω sin(ωt). Lenz's law gives the direction: the induced current creates a magnetic field opposing the change in flux. Use it to predict whether a loop is attracted to or repelled by a moving magnet."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know flux, induced emf, Lenz's law, and inductance."
       }
     ],
     "keyTakeaways": [

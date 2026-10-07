@@ -1,0 +1,598 @@
+{
+  "number": 1,
+  "title": "Teacher's Choice: Latin Prose",
+  "guide": {
+    "summary": "Unit 1 builds the reading skills the whole course depends on: reading Latin prose at sight, recognizing forms quickly, and identifying the constructions AP tests most often, such as ablative absolutes, indirect statement, subjunctive clauses, and gerundives.",
+    "sections": [
+      {
+        "heading": "Reading strategy",
+        "body": "Read the whole sentence before translating. Find the main verb and its subject, then attach clauses and phrases. Latin word order is flexible, so endings, not position, show function. Group words that agree (noun–adjective, noun–participle) and bracket subordinate clauses introduced by cum, ut, ne, qui, quod, dum, or si. Context and vocabulary help, but every choice must fit the grammar."
+      },
+      {
+        "heading": "Core constructions",
+        "body": "Ablative absolute: a noun and participle in the ablative, grammatically independent of the main clause (Nautis convocatis, 'after the sailors had been called together'). Indirect statement: a verb of saying or thinking plus accusative subject and infinitive (dixit merces iaciendas esse, 'he said that the goods had to be thrown'). Purpose and indirect command with ut/ne + subjunctive (oravit ut navem servarent). Result clauses after tantus, tam, ita, sic (tanta tempestas ut... desperarent). Cum clauses (circumstantial, causal, concessive) with the subjunctive. The passive periphrastic (gerundive + esse) expresses obligation. Place constructions: names of cities take the accusative without a preposition for motion toward (Athenas), the ablative for motion from, and the locative for location (Romae, Athenis)."
+      },
+      {
+        "heading": "Translating for the exam",
+        "body": "AP translation scoring checks that every word is accounted for and that tenses, voices, moods, and constructions are rendered literally. A pluperfect subjunctive in a cum clause becomes 'when he had loaded'; a future active infinitive in indirect statement becomes 'would perish' after a past verb. Natural English is welcome only when it keeps the grammar visible. In multiple choice on sight passages, test each answer against the endings; distractors often swap subject and object or misread tense."
+      }
+    ],
+    "keyTakeaways": [
+      "Endings, not word order, show function.",
+      "Ablative absolute = independent noun + participle.",
+      "Indirect statement = accusative + infinitive.",
+      "ut/ne + subjunctive: purpose, result, indirect command.",
+      "Gerundive + esse = obligation.",
+      "City names: no preposition for place to/from."
+    ],
+    "commonMistakes": [
+      "Translating an ablative absolute as the subject.",
+      "Missing the tense relationship of infinitives in indirect statement.",
+      "Confusing purpose and result clauses.",
+      "Adding prepositions to city names."
+    ],
+    "examTips": [
+      "Underline every verb first.",
+      "Check sequence of tenses for subjunctives.",
+      "Translate literally; don't smooth away grammar."
+    ],
+    "cramSheet": "**Ablative absolute:** noun + participle (abl.) · **Indirect statement:** acc. + inf. · **Subjunctive:** purpose (ut/ne) · result (tantus…ut) · indirect command · cum clauses · indirect question\n\n**Gerundive:** obligation (-ndus + esse) · **Place:** Athenas (to), Athenis (from/locative) · **Infinitives:** pres. (same time), perf. (before), fut. (after)"
+  },
+  "vocab": [
+    {
+      "term": "ablative absolute",
+      "definition": "Noun/pronoun + participle in the ablative, independent of the main clause."
+    },
+    {
+      "term": "indirect statement",
+      "definition": "Accusative subject + infinitive after verbs of saying, thinking, perceiving."
+    },
+    {
+      "term": "indirect command",
+      "definition": "ut/ne + subjunctive after verbs of ordering or asking."
+    },
+    {
+      "term": "result clause",
+      "definition": "ut/ut non + subjunctive after tantus, tam, ita, sic."
+    },
+    {
+      "term": "purpose clause",
+      "definition": "ut/ne + subjunctive expressing intent."
+    },
+    {
+      "term": "cum clause",
+      "definition": "cum + subjunctive meaning when, since, or although."
+    },
+    {
+      "term": "passive periphrastic",
+      "definition": "Gerundive + esse expressing obligation."
+    },
+    {
+      "term": "locative",
+      "definition": "Case showing location for cities and small islands."
+    },
+    {
+      "term": "sequence of tenses",
+      "definition": "Rule matching subjunctive tense to the main verb's time."
+    },
+    {
+      "term": "deponent verb",
+      "definition": "Passive in form, active in meaning (e.g., sequor)."
+    },
+    {
+      "term": "merx, mercis",
+      "definition": "Goods; merchandise."
+    },
+    {
+      "term": "gubernator, -oris",
+      "definition": "Helmsman."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u1-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Sight Reading",
+      "skill": "Reading and translation",
+      "stimulus": "**Sight passage** (Original Latin composed by Klutch for sight-reading practice.)\n\nMercator quidam, cum navem onerasset, Athenas navigare constituit. Nautis convocatis, \"Ventis secundis,\" inquit, \"celeriter perveniemus.\" Sed tertio die tanta tempestas orta est ut nautae de salute desperarent. Mercator, qui merces amittere nolebat, deos oravit ut navem servarent. Tum gubernator, vir prudens, dixit merces in mare iaciendas esse; aliter omnes perituros. Mercator invitus paruit, et navis, onere levata, in portum incolumis pervenit.",
+      "stem": "In line 1, cum navem onerasset is best translated",
+      "choices": [
+        {
+          "id": "A",
+          "text": "when he had loaded the ship"
+        },
+        {
+          "id": "B",
+          "text": "with the loaded ship"
+        },
+        {
+          "id": "C",
+          "text": "although he loads the ship"
+        },
+        {
+          "id": "D",
+          "text": "so that he might load the ship"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Circumstantial cum + pluperfect subjunctive.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Sight Reading",
+      "skill": "Grammar and syntax",
+      "stimulus": "**Sight passage** (Original Latin composed by Klutch for sight-reading practice.)\n\nMercator quidam, cum navem onerasset, Athenas navigare constituit. Nautis convocatis, \"Ventis secundis,\" inquit, \"celeriter perveniemus.\" Sed tertio die tanta tempestas orta est ut nautae de salute desperarent. Mercator, qui merces amittere nolebat, deos oravit ut navem servarent. Tum gubernator, vir prudens, dixit merces in mare iaciendas esse; aliter omnes perituros. Mercator invitus paruit, et navis, onere levata, in portum incolumis pervenit.",
+      "stem": "The case of Athenas is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "accusative of place to which"
+        },
+        {
+          "id": "B",
+          "text": "ablative of place where"
+        },
+        {
+          "id": "C",
+          "text": "genitive of possession"
+        },
+        {
+          "id": "D",
+          "text": "locative"
+        }
+      ],
+      "answer": "A",
+      "explanation": "City names take the accusative without a preposition for motion toward.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q03",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Sight Reading",
+      "skill": "Reading and translation",
+      "stimulus": "**Sight passage** (Original Latin composed by Klutch for sight-reading practice.)\n\nMercator quidam, cum navem onerasset, Athenas navigare constituit. Nautis convocatis, \"Ventis secundis,\" inquit, \"celeriter perveniemus.\" Sed tertio die tanta tempestas orta est ut nautae de salute desperarent. Mercator, qui merces amittere nolebat, deos oravit ut navem servarent. Tum gubernator, vir prudens, dixit merces in mare iaciendas esse; aliter omnes perituros. Mercator invitus paruit, et navis, onere levata, in portum incolumis pervenit.",
+      "stem": "Nautis convocatis is best translated",
+      "choices": [
+        {
+          "id": "A",
+          "text": "after the sailors had been called together"
+        },
+        {
+          "id": "B",
+          "text": "to the sailors calling together"
+        },
+        {
+          "id": "C",
+          "text": "the sailors called together the merchant"
+        },
+        {
+          "id": "D",
+          "text": "by calling the sailors"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Ablative absolute with perfect passive participle.",
+      "distractors": {
+        "D": "Treats it as a gerund of means."
+      }
+    },
+    {
+      "id": "u1-q04",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Sight Reading",
+      "skill": "Grammar and syntax",
+      "stimulus": "**Sight passage** (Original Latin composed by Klutch for sight-reading practice.)\n\nMercator quidam, cum navem onerasset, Athenas navigare constituit. Nautis convocatis, \"Ventis secundis,\" inquit, \"celeriter perveniemus.\" Sed tertio die tanta tempestas orta est ut nautae de salute desperarent. Mercator, qui merces amittere nolebat, deos oravit ut navem servarent. Tum gubernator, vir prudens, dixit merces in mare iaciendas esse; aliter omnes perituros. Mercator invitus paruit, et navis, onere levata, in portum incolumis pervenit.",
+      "stem": "The construction ut nautae de salute desperarent is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "a result clause"
+        },
+        {
+          "id": "B",
+          "text": "a purpose clause"
+        },
+        {
+          "id": "C",
+          "text": "an indirect question"
+        },
+        {
+          "id": "D",
+          "text": "a fear clause"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Signaled by tanta.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Sight Reading",
+      "skill": "Reading and translation",
+      "stimulus": "**Sight passage** (Original Latin composed by Klutch for sight-reading practice.)\n\nMercator quidam, cum navem onerasset, Athenas navigare constituit. Nautis convocatis, \"Ventis secundis,\" inquit, \"celeriter perveniemus.\" Sed tertio die tanta tempestas orta est ut nautae de salute desperarent. Mercator, qui merces amittere nolebat, deos oravit ut navem servarent. Tum gubernator, vir prudens, dixit merces in mare iaciendas esse; aliter omnes perituros. Mercator invitus paruit, et navis, onere levata, in portum incolumis pervenit.",
+      "stem": "deos oravit ut navem servarent means",
+      "choices": [
+        {
+          "id": "A",
+          "text": "he begged the gods to save the ship"
+        },
+        {
+          "id": "B",
+          "text": "he prayed to the gods as they saved the ship"
+        },
+        {
+          "id": "C",
+          "text": "the gods begged him to save the ship"
+        },
+        {
+          "id": "D",
+          "text": "he prayed so that he might save the ship"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Indirect command; subject of servarent is deos.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Sight Reading",
+      "skill": "Reading and translation",
+      "stimulus": "**Sight passage** (Original Latin composed by Klutch for sight-reading practice.)\n\nMercator quidam, cum navem onerasset, Athenas navigare constituit. Nautis convocatis, \"Ventis secundis,\" inquit, \"celeriter perveniemus.\" Sed tertio die tanta tempestas orta est ut nautae de salute desperarent. Mercator, qui merces amittere nolebat, deos oravit ut navem servarent. Tum gubernator, vir prudens, dixit merces in mare iaciendas esse; aliter omnes perituros. Mercator invitus paruit, et navis, onere levata, in portum incolumis pervenit.",
+      "stem": "merces in mare iaciendas esse is best translated",
+      "choices": [
+        {
+          "id": "A",
+          "text": "that the goods had to be thrown into the sea"
+        },
+        {
+          "id": "B",
+          "text": "that the goods were thrown into the sea"
+        },
+        {
+          "id": "C",
+          "text": "that the goods will throw into the sea"
+        },
+        {
+          "id": "D",
+          "text": "to throw the goods into the sea"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Passive periphrastic in indirect statement.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q07",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Sight Reading",
+      "skill": "Reading and translation",
+      "stimulus": "**Sight passage** (Original Latin composed by Klutch for sight-reading practice.)\n\nMercator quidam, cum navem onerasset, Athenas navigare constituit. Nautis convocatis, \"Ventis secundis,\" inquit, \"celeriter perveniemus.\" Sed tertio die tanta tempestas orta est ut nautae de salute desperarent. Mercator, qui merces amittere nolebat, deos oravit ut navem servarent. Tum gubernator, vir prudens, dixit merces in mare iaciendas esse; aliter omnes perituros. Mercator invitus paruit, et navis, onere levata, in portum incolumis pervenit.",
+      "stem": "aliter omnes perituros is best translated",
+      "choices": [
+        {
+          "id": "A",
+          "text": "otherwise all would perish"
+        },
+        {
+          "id": "B",
+          "text": "otherwise all had perished"
+        },
+        {
+          "id": "C",
+          "text": "all others perishing"
+        },
+        {
+          "id": "D",
+          "text": "otherwise all are perishing"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Future active infinitive (esse understood) after a past verb.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q08",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Sight Reading",
+      "skill": "Reading and translation",
+      "stimulus": "**Sight passage** (Original Latin composed by Klutch for sight-reading practice.)\n\nMercator quidam, cum navem onerasset, Athenas navigare constituit. Nautis convocatis, \"Ventis secundis,\" inquit, \"celeriter perveniemus.\" Sed tertio die tanta tempestas orta est ut nautae de salute desperarent. Mercator, qui merces amittere nolebat, deos oravit ut navem servarent. Tum gubernator, vir prudens, dixit merces in mare iaciendas esse; aliter omnes perituros. Mercator invitus paruit, et navis, onere levata, in portum incolumis pervenit.",
+      "stem": "onere levata most nearly means",
+      "choices": [
+        {
+          "id": "A",
+          "text": "relieved of its cargo"
+        },
+        {
+          "id": "B",
+          "text": "lifted by the burden"
+        },
+        {
+          "id": "C",
+          "text": "with the light cargo"
+        },
+        {
+          "id": "D",
+          "text": "carrying a burden"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Ablative of separation with levare.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q09",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Sight Reading",
+      "skill": "Textual analysis",
+      "stimulus": "**Sight passage** (Original Latin composed by Klutch for sight-reading practice.)\n\nMercator quidam, cum navem onerasset, Athenas navigare constituit. Nautis convocatis, \"Ventis secundis,\" inquit, \"celeriter perveniemus.\" Sed tertio die tanta tempestas orta est ut nautae de salute desperarent. Mercator, qui merces amittere nolebat, deos oravit ut navem servarent. Tum gubernator, vir prudens, dixit merces in mare iaciendas esse; aliter omnes perituros. Mercator invitus paruit, et navis, onere levata, in portum incolumis pervenit.",
+      "stem": "What does the passage suggest about the merchant?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "He reluctantly learned to value lives over property"
+        },
+        {
+          "id": "B",
+          "text": "He refused to obey the helmsman"
+        },
+        {
+          "id": "C",
+          "text": "He threw the sailors overboard"
+        },
+        {
+          "id": "D",
+          "text": "He never prayed"
+        }
+      ],
+      "answer": "A",
+      "explanation": "invitus paruit; the ship arrived safely.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q10",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Grammar",
+      "skill": "Grammar and syntax",
+      "stem": "In Romae habitabat, Romae is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "locative"
+        },
+        {
+          "id": "B",
+          "text": "genitive"
+        },
+        {
+          "id": "C",
+          "text": "dative"
+        },
+        {
+          "id": "D",
+          "text": "nominative plural"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Locative of a first-declension city name.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q11",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Grammar",
+      "skill": "Grammar and syntax",
+      "stem": "Which verb is deponent?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "sequor"
+        },
+        {
+          "id": "B",
+          "text": "duco"
+        },
+        {
+          "id": "C",
+          "text": "amo"
+        },
+        {
+          "id": "D",
+          "text": "capio"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Passive forms, active meaning.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q12",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Grammar",
+      "skill": "Reading and translation",
+      "stem": "dixit se venturum esse means",
+      "choices": [
+        {
+          "id": "A",
+          "text": "he said that he would come"
+        },
+        {
+          "id": "B",
+          "text": "he said that he had come"
+        },
+        {
+          "id": "C",
+          "text": "he said that he comes"
+        },
+        {
+          "id": "D",
+          "text": "he said to come"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Future infinitive after a past verb.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q13",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Grammar",
+      "skill": "Grammar and syntax",
+      "stem": "milites missi sunt qui urbem defenderent contains",
+      "choices": [
+        {
+          "id": "A",
+          "text": "a relative clause of purpose"
+        },
+        {
+          "id": "B",
+          "text": "a result clause"
+        },
+        {
+          "id": "C",
+          "text": "an ablative absolute"
+        },
+        {
+          "id": "D",
+          "text": "an indirect statement"
+        }
+      ],
+      "answer": "A",
+      "explanation": "qui + subjunctive expressing purpose.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Grammar",
+      "skill": "Grammar and syntax",
+      "stem": "In nescio cur venerit, venerit is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "perfect subjunctive in an indirect question"
+        },
+        {
+          "id": "B",
+          "text": "future perfect indicative"
+        },
+        {
+          "id": "C",
+          "text": "perfect subjunctive in a purpose clause"
+        },
+        {
+          "id": "D",
+          "text": "pluperfect subjunctive"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Indirect question after nescio, primary sequence, prior time.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Translation",
+      "frqType": "Translation",
+      "prompt": "Translate the passage below as literally as possible.\n\nMercator, qui merces amittere nolebat, deos oravit ut navem servarent. Tum gubernator, vir prudens, dixit merces in mare iaciendas esse; aliter omnes perituros. Mercator invitus paruit, et navis, onere levata, in portum incolumis pervenit.",
+      "points": 15,
+      "minutes": 20,
+      "rubric": [
+        {
+          "criterion": "Segment 1",
+          "points": 1,
+          "description": "Mercator → the merchant"
+        },
+        {
+          "criterion": "Segment 2",
+          "points": 1,
+          "description": "qui ... nolebat → who was unwilling / did not want"
+        },
+        {
+          "criterion": "Segment 3",
+          "points": 1,
+          "description": "merces amittere → to lose (his) goods"
+        },
+        {
+          "criterion": "Segment 4",
+          "points": 1,
+          "description": "deos oravit → begged/prayed to the gods"
+        },
+        {
+          "criterion": "Segment 5",
+          "points": 1,
+          "description": "ut navem servarent → to save the ship / that they save the ship"
+        },
+        {
+          "criterion": "Segment 6",
+          "points": 1,
+          "description": "Tum gubernator → then the helmsman"
+        },
+        {
+          "criterion": "Segment 7",
+          "points": 1,
+          "description": "vir prudens → a sensible/wise man"
+        },
+        {
+          "criterion": "Segment 8",
+          "points": 1,
+          "description": "dixit → said"
+        },
+        {
+          "criterion": "Segment 9",
+          "points": 1,
+          "description": "merces ... iaciendas esse → that the goods had to be thrown"
+        },
+        {
+          "criterion": "Segment 10",
+          "points": 1,
+          "description": "in mare → into the sea"
+        },
+        {
+          "criterion": "Segment 11",
+          "points": 1,
+          "description": "aliter omnes perituros → otherwise all would perish"
+        },
+        {
+          "criterion": "Segment 12",
+          "points": 1,
+          "description": "Mercator invitus paruit → the merchant unwillingly obeyed"
+        },
+        {
+          "criterion": "Segment 13",
+          "points": 1,
+          "description": "et navis → and the ship"
+        },
+        {
+          "criterion": "Segment 14",
+          "points": 1,
+          "description": "onere levata → relieved of its load"
+        },
+        {
+          "criterion": "Segment 15",
+          "points": 1,
+          "description": "in portum incolumis pervenit → arrived safe into the harbor"
+        }
+      ],
+      "sampleResponse": "The merchant, who did not want to lose his goods, begged the gods to save the ship. Then the helmsman, a sensible man, said that the goods had to be thrown into the sea; otherwise all would perish. The merchant unwillingly obeyed, and the ship, relieved of its load, arrived safe in the harbor."
+    }
+  ]
+}

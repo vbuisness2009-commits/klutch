@@ -1,0 +1,64 @@
+{
+  "slug": "latin",
+  "name": "AP Latin",
+  "lastVerified": "2026-10",
+  "overview": "AP Latin develops the ability to read, translate, and analyze Latin prose and poetry. The course was revised in 2025: required readings are now selections from Pliny the Younger's Letters (the eruption of Vesuvius, ghosts, and letters to Trajan and Calpurnia) and Vergil's Aeneid (Books 1, 2, 4, 6, 7, 11, and 12), plus teacher-chosen prose and poetry and a course project. Students read at sight, translate literally, scan dactylic hexameter, and write short analytical essays supported by Latin evidence.",
+  "examMode": "Digital in Bluebook from May 2027",
+  "totalMinutes": 180,
+  "sections": [
+    { "name": "Section I", "questionType": "Multiple choice", "count": 52, "minutes": 65, "weight": "50%", "notes": "20 discrete questions and 6 short-set questions on sight passages; 6 short-set and 20 long-set questions on syllabus passages." },
+    { "name": "Section II, Question 1", "questionType": "Short answer", "count": 1, "minutes": 0, "weight": "Part of 50%", "notes": "6–8 subquestions on a passage (grammar, meaning, context, style). Section II totals 1 hour 55 minutes." },
+    { "name": "Section II, Question 2", "questionType": "Translation", "count": 1, "minutes": 0, "weight": "Part of 50%", "notes": "Literal translation of a syllabus passage, scored by 15 segments." },
+    { "name": "Section II, Question 3", "questionType": "Short essay", "count": 1, "minutes": 0, "weight": "Part of 50%", "notes": "Two subquestions; analysis supported by Latin from the passage." },
+    { "name": "Section II, Questions 4–5", "questionType": "Project passage short essays", "count": 2, "minutes": 0, "weight": "Part of 50%", "notes": "Short essays (two subquestions each) on a prose passage and a poetry passage connected to the course project." },
+    { "name": "Course project", "questionType": "In-class project", "count": 1, "minutes": 0, "weight": "2%", "notes": "Two in-class checkpoints: a written draft summary and an interpretive product supported by textual evidence." }
+  ],
+  "units": [
+    { "number": 1, "title": "Teacher's Choice: Latin Prose" },
+    { "number": 2, "title": "Pliny's Letters: Eruption of Mt. Vesuvius" },
+    { "number": 3, "title": "Pliny's Letters: Ghosts and Apparitions, Letters to Trajan and Calpurnia" },
+    { "number": 4, "title": "Vergil's Aeneid: Books 1 and 2" },
+    { "number": 5, "title": "Vergil's Aeneid: Books 4, 6, 7, 11, and 12" },
+    { "number": 6, "title": "Course Project and Teacher's Choice: Latin Poetry" }
+  ],
+  "skills": [
+    { "name": "Reading and translation", "description": "Read Latin accurately and translate it literally, showing grammar and syntax." },
+    { "name": "Grammar and syntax", "description": "Identify forms and constructions such as ablative absolutes, indirect statement, subjunctive clauses, and gerundives." },
+    { "name": "Contextualization", "description": "Connect passages to their literary, historical, and cultural contexts." },
+    { "name": "Textual analysis", "description": "Analyze style, figures of speech, meter, and themes, supported by Latin evidence." },
+    { "name": "Argumentation", "description": "Write short essays that make claims and support them with specific Latin." }
+  ],
+  "scoring": {
+    "summary": "Multiple choice is 50% of the score; the five free-response questions together are about 48%, and the course project 2%. Translations are scored by segments; essays reward claims supported by accurately cited and translated Latin. Klutch's practice tasks use simplified practice scales."
+  },
+  "frqTypes": [
+    { "name": "Short answer", "points": 6, "howScored": "Klutch practice scale: 1 point per subquestion (forms, syntax, meaning, context, style)." },
+    { "name": "Translation", "points": 15, "howScored": "15 segments, 1 point each; a segment earns credit only if every word is translated accurately with correct grammar." },
+    { "name": "Short essay", "points": 4, "howScored": "Klutch practice scale: 2 points per subquestion for a clear claim supported by accurately cited and translated or paraphrased Latin." },
+    { "name": "Project passage essay", "points": 4, "howScored": "Klutch practice scale: 2 points per subquestion connecting the passage to the theme with Latin evidence." }
+  ],
+  "strategy": [
+    "Read the whole sentence before translating; find the main verb and its subject first.",
+    "Translate literally on the exam: keep tenses, voices, moods, and cases visible in your English.",
+    "Mark participles and their nouns; ablative absolutes and indirect statements are tested constantly.",
+    "When citing Latin in essays, quote the exact words and translate or closely paraphrase them, and explain how they support your claim.",
+    "Know the context of every syllabus passage: who is speaking, to whom, and what happens before and after.",
+    "Practice scanning dactylic hexameter so you can identify elisions and spondaic lines quickly."
+  ],
+  "pitfalls": [
+    "Paraphrasing instead of translating in the translation question.",
+    "Ignoring the subjunctive's function (purpose, result, cum clause, indirect question).",
+    "Citing Latin without translating it or explaining it.",
+    "Confusing similar forms (e.g., -is as dative/ablative plural vs genitive singular).",
+    "Forgetting that Pliny writes letters with an audience and self-image in mind."
+  ],
+  "sources": [
+    { "title": "AP Latin Exam (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-latin/exam" },
+    { "title": "AP Latin Course (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-latin/course" }
+  ],
+  "caveats": [
+    "The course was revised in 2025 (Pliny replaced Caesar); confirm line ranges of the required readings in the current Course and Exam Description.",
+    "Sight passages in Klutch practice are original Latin composed for practice; syllabus quotations are limited to short, well-known lines.",
+    "Point values on practice tasks other than translation are Klutch practice scales."
+  ]
+}

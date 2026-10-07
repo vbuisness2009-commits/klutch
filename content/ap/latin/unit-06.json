@@ -1,0 +1,549 @@
+{
+  "number": 6,
+  "title": "Course Project and Teacher's Choice: Latin Poetry",
+  "guide": {
+    "summary": "Unit 6 develops the tools for reading Latin poetry closely, scansion of dactylic hexameter and figures of speech, and applies them in the course project, where students interpret project passages and support claims with textual evidence.",
+    "sections": [
+      {
+        "heading": "Dactylic hexameter",
+        "body": "Each line has six feet; feet 1–4 may be dactyls (long–short–short) or spondees (long–long), the fifth is usually a dactyl, and the sixth has two syllables (long plus long or short). A syllable is long by nature (long vowel or diphthong) or by position (a short vowel followed by two consonants, which may be in the next word; x and z count as double). Elision drops a final vowel, or vowel + m, before a word starting with a vowel or h (atqu(e) altae). A main pause (caesura) usually falls in the third foot. Spondaic lines feel slow and heavy; dactylic lines feel quick."
+      },
+      {
+        "heading": "Figures of speech",
+        "body": "Common figures: alliteration (magno misceri murmure, imitating the roar of the sea), assonance, anaphora (repetition at the start of clauses), apostrophe (addressing someone absent: o patria), asyndeton (no conjunctions), polysyndeton (many conjunctions), chiasmus (ABBA arrangement), hyperbaton (separation of words that belong together), synchysis or interlocked word order, the golden line (two adjectives, verb, two nouns: aurea purpuream subnectit fibula vestem), hendiadys (one idea through two nouns), litotes (understatement by double negative), metonymy, synecdoche, personification, simile, tricolon (three-part structure), and enjambment. Always explain the effect: how the device reinforces meaning, emotion, or emphasis."
+      },
+      {
+        "heading": "Course project",
+        "body": "The course project includes in-class checkpoints: a written draft summary and an interpretive product supported by textual evidence, based on project passages chosen by the teacher. On the exam, Questions 4 and 5 ask short essay questions on a prose passage and a poetry passage connected to the project. Success depends on the same skills as the rest of the course: accurate reading, a clear claim, and specific Latin evidence that is cited, translated or paraphrased, and explained."
+      }
+    ],
+    "keyTakeaways": [
+      "Six feet; fifth usually dactyl.",
+      "Long by nature or position; elision.",
+      "Name the figure and explain its effect.",
+      "Golden line, chiasmus, apostrophe, alliteration.",
+      "Project essays need Latin evidence."
+    ],
+    "commonMistakes": [
+      "Forgetting elision before h- or with -m.",
+      "Naming a figure without explaining its effect.",
+      "Counting qu as two consonants.",
+      "Citing Latin without translating."
+    ],
+    "examTips": [
+      "Mark elisions before scanning.",
+      "Scan the end of the line first (feet 5–6).",
+      "Pair each device with its effect on meaning."
+    ],
+    "cramSheet": "**Hexameter:** 6 feet · D/S in 1–4 · 5th usually D · elision (vowel/-m + vowel/h) · caesura\n\n**Figures:** alliteration · anaphora · apostrophe · asyndeton · chiasmus · hyperbaton · synchysis · golden line · hendiadys · litotes · metonymy · simile · tricolon · enjambment\n\n**Project:** draft summary · interpretive product · Q4 prose · Q5 poetry"
+  },
+  "vocab": [
+    {
+      "term": "dactyl",
+      "definition": "A foot of one long and two short syllables."
+    },
+    {
+      "term": "spondee",
+      "definition": "A foot of two long syllables."
+    },
+    {
+      "term": "elision",
+      "definition": "Dropping a final vowel or vowel + m before a vowel or h."
+    },
+    {
+      "term": "caesura",
+      "definition": "A pause within a foot, often in the third."
+    },
+    {
+      "term": "apostrophe",
+      "definition": "Addressing someone or something absent."
+    },
+    {
+      "term": "chiasmus",
+      "definition": "ABBA arrangement of words or ideas."
+    },
+    {
+      "term": "golden line",
+      "definition": "Two adjectives, a verb, then two nouns."
+    },
+    {
+      "term": "hendiadys",
+      "definition": "One idea expressed by two nouns joined by 'and'."
+    },
+    {
+      "term": "litotes",
+      "definition": "Understatement through a double negative."
+    },
+    {
+      "term": "synchysis",
+      "definition": "Interlocked word order (ABAB)."
+    },
+    {
+      "term": "tricolon",
+      "definition": "A three-part sequence, often building in intensity."
+    },
+    {
+      "term": "enjambment",
+      "definition": "A sentence running over the line end."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u6-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Figures",
+      "skill": "Textual analysis",
+      "stimulus": "**Lines for analysis**\n\n(a) o patria, o divum domus Ilium et incluta bello / moenia Dardanidum! (Aeneid 2.241–242)\n(b) aurea purpuream subnectit fibula vestem (Aeneid 4.139)\n(c) magno misceri murmure pontum (Aeneid 1.124)\n(d) Albanique patres, atque altae moenia Romae (Aeneid 1.7)",
+      "stem": "Line (a), o patria, o divum domus Ilium, is an example of",
+      "choices": [
+        {
+          "id": "A",
+          "text": "apostrophe"
+        },
+        {
+          "id": "B",
+          "text": "litotes"
+        },
+        {
+          "id": "C",
+          "text": "hendiadys"
+        },
+        {
+          "id": "D",
+          "text": "chiasmus"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Address to the absent homeland.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Figures",
+      "skill": "Textual analysis",
+      "stimulus": "**Lines for analysis**\n\n(a) o patria, o divum domus Ilium et incluta bello / moenia Dardanidum! (Aeneid 2.241–242)\n(b) aurea purpuream subnectit fibula vestem (Aeneid 4.139)\n(c) magno misceri murmure pontum (Aeneid 1.124)\n(d) Albanique patres, atque altae moenia Romae (Aeneid 1.7)",
+      "stem": "Line (b) is a famous example of",
+      "choices": [
+        {
+          "id": "A",
+          "text": "a golden line"
+        },
+        {
+          "id": "B",
+          "text": "an apostrophe"
+        },
+        {
+          "id": "C",
+          "text": "litotes"
+        },
+        {
+          "id": "D",
+          "text": "asyndeton"
+        }
+      ],
+      "answer": "A",
+      "explanation": "adj–adj–verb–noun–noun.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q03",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Figures",
+      "skill": "Grammar and syntax",
+      "stimulus": "**Lines for analysis**\n\n(a) o patria, o divum domus Ilium et incluta bello / moenia Dardanidum! (Aeneid 2.241–242)\n(b) aurea purpuream subnectit fibula vestem (Aeneid 4.139)\n(c) magno misceri murmure pontum (Aeneid 1.124)\n(d) Albanique patres, atque altae moenia Romae (Aeneid 1.7)",
+      "stem": "In line (b), aurea modifies",
+      "choices": [
+        {
+          "id": "A",
+          "text": "fibula"
+        },
+        {
+          "id": "B",
+          "text": "vestem"
+        },
+        {
+          "id": "C",
+          "text": "purpuream"
+        },
+        {
+          "id": "D",
+          "text": "subnectit"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Golden brooch; purple garment.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q04",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Figures",
+      "skill": "Textual analysis",
+      "stimulus": "**Lines for analysis**\n\n(a) o patria, o divum domus Ilium et incluta bello / moenia Dardanidum! (Aeneid 2.241–242)\n(b) aurea purpuream subnectit fibula vestem (Aeneid 4.139)\n(c) magno misceri murmure pontum (Aeneid 1.124)\n(d) Albanique patres, atque altae moenia Romae (Aeneid 1.7)",
+      "stem": "The repeated m sounds in line (c) most likely",
+      "choices": [
+        {
+          "id": "A",
+          "text": "imitate the low roar of the churning sea"
+        },
+        {
+          "id": "B",
+          "text": "show Juno's joy"
+        },
+        {
+          "id": "C",
+          "text": "slow the line to describe a calm"
+        },
+        {
+          "id": "D",
+          "text": "signal a change of speaker"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Alliteration with sound effect.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q05",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Meter",
+      "skill": "Textual analysis",
+      "stimulus": "**Lines for analysis**\n\n(a) o patria, o divum domus Ilium et incluta bello / moenia Dardanidum! (Aeneid 2.241–242)\n(b) aurea purpuream subnectit fibula vestem (Aeneid 4.139)\n(c) magno misceri murmure pontum (Aeneid 1.124)\n(d) Albanique patres, atque altae moenia Romae (Aeneid 1.7)",
+      "stem": "In line (d), which word is elided?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "atque"
+        },
+        {
+          "id": "B",
+          "text": "Albani"
+        },
+        {
+          "id": "C",
+          "text": "patres"
+        },
+        {
+          "id": "D",
+          "text": "moenia"
+        }
+      ],
+      "answer": "A",
+      "explanation": "atqu(e) altae.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q06",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Meter",
+      "skill": "Textual analysis",
+      "stimulus": "**Lines for analysis**\n\n(a) o patria, o divum domus Ilium et incluta bello / moenia Dardanidum! (Aeneid 2.241–242)\n(b) aurea purpuream subnectit fibula vestem (Aeneid 4.139)\n(c) magno misceri murmure pontum (Aeneid 1.124)\n(d) Albanique patres, atque altae moenia Romae (Aeneid 1.7)",
+      "stem": "The scansion of line (d) is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "spondee, dactyl, spondee, spondee, dactyl, spondee"
+        },
+        {
+          "id": "B",
+          "text": "dactyl, dactyl, dactyl, dactyl, dactyl, spondee"
+        },
+        {
+          "id": "C",
+          "text": "spondee, spondee, spondee, spondee, spondee, spondee"
+        },
+        {
+          "id": "D",
+          "text": "dactyl, spondee, dactyl, spondee, dactyl, spondee"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Ālbā | nīquĕ pă | trēs āt | qu(e) āltāe | moenĭă | Rōmāe.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q07",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Meter",
+      "skill": "Textual analysis",
+      "stem": "A syllable with a short vowel followed by two consonants is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "long by position"
+        },
+        {
+          "id": "B",
+          "text": "always short"
+        },
+        {
+          "id": "C",
+          "text": "elided"
+        },
+        {
+          "id": "D",
+          "text": "a caesura"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Position rule.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Meter",
+      "skill": "Textual analysis",
+      "stem": "Which foot of the hexameter is usually a dactyl?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The fifth"
+        },
+        {
+          "id": "B",
+          "text": "The first"
+        },
+        {
+          "id": "C",
+          "text": "The sixth"
+        },
+        {
+          "id": "D",
+          "text": "The fourth"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Standard pattern.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Figures",
+      "skill": "Textual analysis",
+      "stem": "Fortes vincunt, timidi pereunt arranges contrasting ideas as",
+      "choices": [
+        {
+          "id": "A",
+          "text": "antithesis"
+        },
+        {
+          "id": "B",
+          "text": "hendiadys"
+        },
+        {
+          "id": "C",
+          "text": "litotes"
+        },
+        {
+          "id": "D",
+          "text": "apostrophe"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Opposed ideas side by side.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Figures",
+      "skill": "Textual analysis",
+      "stem": "pateris libamus et auro ('we pour from bowls and gold') meaning 'golden bowls' is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "hendiadys"
+        },
+        {
+          "id": "B",
+          "text": "chiasmus"
+        },
+        {
+          "id": "C",
+          "text": "tricolon"
+        },
+        {
+          "id": "D",
+          "text": "metonymy"
+        }
+      ],
+      "answer": "A",
+      "explanation": "One idea through two nouns.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q11",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Figures",
+      "skill": "Textual analysis",
+      "stem": "veni, vidi, vici combines",
+      "choices": [
+        {
+          "id": "A",
+          "text": "tricolon and asyndeton"
+        },
+        {
+          "id": "B",
+          "text": "chiasmus and litotes"
+        },
+        {
+          "id": "C",
+          "text": "apostrophe and simile"
+        },
+        {
+          "id": "D",
+          "text": "hyperbaton and hendiadys"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Three parts, no conjunctions.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Analysis",
+      "skill": "Textual analysis",
+      "stem": "Which is the strongest analysis of a figure of speech?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The interlocked word order of the golden line wraps the brooch around the garment, mirroring the action of fastening"
+        },
+        {
+          "id": "B",
+          "text": "The line has a golden line"
+        },
+        {
+          "id": "C",
+          "text": "The line is long"
+        },
+        {
+          "id": "D",
+          "text": "The line contains adjectives"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Device + effect.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q13",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Analysis",
+      "skill": "Textual analysis",
+      "stem": "In a short essay, Latin evidence earns credit when it is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "cited accurately and translated or paraphrased, then explained"
+        },
+        {
+          "id": "B",
+          "text": "copied in large blocks without comment"
+        },
+        {
+          "id": "C",
+          "text": "summarized in English only"
+        },
+        {
+          "id": "D",
+          "text": "described as 'good imagery'"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Exam expectations.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Meter",
+      "skill": "Textual analysis",
+      "stem": "A line with many spondees often creates an effect of",
+      "choices": [
+        {
+          "id": "A",
+          "text": "slowness, weight, or solemnity"
+        },
+        {
+          "id": "B",
+          "text": "speed and excitement"
+        },
+        {
+          "id": "C",
+          "text": "comedy"
+        },
+        {
+          "id": "D",
+          "text": "a change of speaker"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Rhythm reinforcing meaning.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Course Project",
+      "frqType": "Project passage essay",
+      "prompt": "Read Aeneid 6.851–853 (Unit 5) and answer both parts, supporting your claims with Latin from the lines.\n\ntu regere imperio populos, Romane, memento\n(hae tibi erunt artes), pacique imponere morem,\nparcere subiectis et debellare superbos.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "How do the grammar and form of the passage reinforce Anchises' message?",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Identify a figure of speech in line 853 and explain its effect.",
+          "points": 2
+        }
+      ],
+      "points": 4,
+      "minutes": 20,
+      "rubric": [
+        {
+          "criterion": "A claim",
+          "points": 1,
+          "description": "Identifies how the passage's form (imperative, apostrophe, parallel infinitives) shapes its message."
+        },
+        {
+          "criterion": "A evidence",
+          "points": 1,
+          "description": "Cites and explains specific Latin (Romane, memento, the infinitives)."
+        },
+        {
+          "criterion": "B claim",
+          "points": 1,
+          "description": "Explains a figure in line 853 and its effect."
+        },
+        {
+          "criterion": "B evidence",
+          "points": 1,
+          "description": "Cites parcere subiectis et debellare superbos and explains the antithesis/parallelism."
+        }
+      ],
+      "sampleResponse": "A. Anchises addresses the future Roman directly with the vocative Romane and the imperative memento, 'remember', turning prophecy into a command. The infinitives regere, imponere, parcere, and debellare all depend on memento, creating a list of duties that defines the Roman character as one of rule and order. The parenthesis hae tibi erunt artes, 'these will be your arts', contrasts Rome's 'arts' of government with the arts of other peoples.\n\nB. Line 853, parcere subiectis et debellare superbos, uses parallel structure and antithesis: two infinitives each with a dative or accusative object, balancing mercy toward the conquered (subiectis) with force against the proud (superbos). The balance mirrors the ideal of measured power, which is why readers measure Aeneas' final killing of Turnus against it."
+    }
+  ]
+}

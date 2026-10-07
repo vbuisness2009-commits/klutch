@@ -1,0 +1,103 @@
+{
+  "slug": "studio-art-2d",
+  "name": "AP 2-D Art and Design",
+  "lastVerified": "2026-10",
+  "overview": "AP 2-D Art and Design is a portfolio course with no sit-down exam. Students develop a body of work through an inquiry-guided Sustained Investigation and present Selected Works that demonstrate 2-D design skills: using elements (line, shape, color, value, texture, space) and principles (unity, variety, rhythm, movement, proportion, scale, balance, emphasis, contrast, repetition, figure–ground relationship, connection, juxtaposition, hierarchy) to organize a composition. Students may work in many media, including graphic design, photography, collage, printmaking, digital illustration, fashion illustration, painting, and mixed media.",
+  "examMode": "Portfolio submitted through the AP Digital Portfolio (no sit-down exam)",
+  "totalMinutes": 0,
+  "sections": [
+    {
+      "name": "Section 1",
+      "questionType": "Sustained Investigation",
+      "count": 15,
+      "minutes": 0,
+      "weight": "60%",
+      "notes": "15 digital images (some may be details or process images) with typed responses describing the questions that guided the investigation and how the work shows practice, experimentation, and revision; each image is identified with materials, processes, and size."
+    },
+    {
+      "name": "Section 2",
+      "questionType": "Selected Works",
+      "count": 5,
+      "minutes": 0,
+      "weight": "40%",
+      "notes": "Digital images of 5 works, each identified with the ideas, materials, and processes used. Works may also appear in the Sustained Investigation."
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Sustained Investigation"
+    },
+    {
+      "number": 2,
+      "title": "Selected Works"
+    },
+    {
+      "number": 3,
+      "title": "Written Evidence"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Inquiry",
+      "description": "Ask questions that guide a sustained investigation of materials, processes, and ideas."
+    },
+    {
+      "name": "Practice, experimentation, and revision",
+      "description": "Develop work over time, try alternatives, and revise based on reflection and feedback."
+    },
+    {
+      "name": "Materials, processes, and ideas",
+      "description": "Make intentional choices of media and techniques to communicate ideas."
+    },
+    {
+      "name": "Skill synthesis",
+      "description": "Demonstrate 2-D design skills with control and purpose."
+    },
+    {
+      "name": "Written evidence",
+      "description": "Describe inquiry, process, and choices clearly and concisely."
+    }
+  ],
+  "scoring": {
+    "summary": "Trained AP readers score the portfolio with rubrics. The Sustained Investigation (60%) is evaluated on the inquiry, evidence of practice, experimentation, and revision, synthesis of materials, processes, and ideas, and skill. Selected Works (40%) is evaluated on skill and on how materials, processes, and ideas are used and described. Klutch's practice tasks use simplified 4-point scales."
+  },
+  "frqTypes": [
+    {
+      "name": "Written evidence task",
+      "points": 4,
+      "howScored": "Klutch practice scale: specificity, connection to the inquiry, evidence of process, and clarity within the character limits."
+    },
+    {
+      "name": "Portfolio planning task",
+      "points": 4,
+      "howScored": "Klutch practice scale: specific steps, connection to the inquiry, evidence of experimentation and revision, and realistic scope."
+    }
+  ],
+  "strategy": [
+    "Start with a question you genuinely care about, specific enough to guide choices but open enough to sustain 15 images.",
+    "Document process as you go: photograph sketches, experiments, and revisions, not just finished pieces.",
+    "Let each work respond to what you learned from the previous one; show the investigation evolving.",
+    "Write concrete statements: name techniques, materials, and decisions instead of vague words like 'explore' and 'express'.",
+    "Choose Selected Works that show your strongest skill and the clearest relationship among materials, processes, and ideas.",
+    "Photograph work in even light, crop cleanly, and include details that reveal technique."
+  ],
+  "pitfalls": [
+    "A sustained investigation that is really a collection of unrelated works.",
+    "Statements that describe the subject but not the inquiry or the process.",
+    "No visible experimentation or revision.",
+    "Poor photographs that hide the quality of the work.",
+    "Using references or tools in ways that break AP policy; transform references significantly and follow the current AI policy."
+  ],
+  "sources": [
+    {
+      "title": "AP 2-D Art and Design Portfolio (AP Central)",
+      "url": "https://apcentral.collegeboard.org/courses/ap-2-d-art-and-design/portfolio"
+    }
+  ],
+  "caveats": [
+    "A new artificial intelligence policy applies to 2026-27 portfolios; read the current AP Art and Design guidelines on AP Central before using any AI tools or digital references.",
+    "Check the current character limits for each written response in the AP Digital Portfolio; historically, Sustained Investigation responses have allowed up to 600 characters each and identifying information up to 100 characters per field.",
+    "Point values on Klutch practice tasks are Klutch practice scales, not the official rubric."
+  ]
+}

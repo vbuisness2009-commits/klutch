@@ -1,0 +1,580 @@
+{
+  "number": 1,
+  "title": "Using Objects and Methods",
+  "guide": {
+    "summary": "Unit 1 covers Java fundamentals: primitive types and expressions, integer and floating-point arithmetic, casting, compound assignment, calling methods, creating and using objects, references and null, the String class, the Math class, and wrapper classes.",
+    "sections": [
+      {
+        "heading": "Primitive types and expressions",
+        "body": "The tested primitives are int, double, and boolean. Integer division truncates toward zero (7 / 2 is 3; −7 / 2 is −3); % gives the remainder (7 % 3 is 1). If either operand is a double, the result is a double. Casting: (int) 3.9 is 3 (truncation); (double) 7 / 2 is 3.5, but (double) (7 / 2) is 3.0. To round a positive double: (int) (x + 0.5). Compound operators (+=, −=, *=, /=, %=) and ++/−− update a variable. int values range from Integer.MIN_VALUE to Integer.MAX_VALUE; exceeding the range causes overflow (wraps around)."
+      },
+      {
+        "heading": "Objects, references, and methods",
+        "body": "A class is a blueprint; an object is an instance created with new, which calls a constructor. Object variables store references; assigning one reference to another makes both refer to the same object (aliasing), so changes through one are visible through the other. A reference can be null; calling a method on null throws a NullPointerException. Methods have signatures (name and parameter list); void methods return nothing, non-void methods return a value of their declared type. Static methods are called on the class (Math.sqrt(x)); instance methods are called on an object."
+      },
+      {
+        "heading": "Strings",
+        "body": "Strings are immutable objects; methods return new Strings. Key methods: length(); substring(a, b) returns characters from index a up to but not including b; substring(a) goes to the end; indexOf(str) returns the first index or −1; equals(other) compares content; compareTo(other) returns a negative, zero, or positive int by lexicographic order. The + operator concatenates; evaluation is left to right, so 1 + 2 + \"x\" is \"3x\" but \"x\" + 1 + 2 is \"x12\". Indices run from 0 to length() − 1; out-of-range indices throw StringIndexOutOfBoundsException."
+      },
+      {
+        "heading": "Math and wrapper classes",
+        "body": "Math.abs, Math.pow (returns double), Math.sqrt (double), Math.random() (a double in [0.0, 1.0)). A random int from a to b inclusive: (int) (Math.random() * (b − a + 1)) + a. Integer and Double wrap primitives so they can be stored in collections; Java autoboxes and unboxes automatically. Integer.parseInt converts a String to an int."
+      }
+    ],
+    "keyTakeaways": [
+      "int / int truncates; % gives the remainder.",
+      "Cast before dividing to get a double result.",
+      "Object variables hold references; aliasing shares one object.",
+      "substring end index is exclusive.",
+      "Use equals, not ==, for String content.",
+      "Random int in [a, b]: (int) (Math.random() * (b − a + 1)) + a."
+    ],
+    "commonMistakes": [
+      "Casting after integer division: (double) (7 / 2) is 3.0.",
+      "Off-by-one with substring end indices.",
+      "Expecting a String method to change the original String.",
+      "Comparing Strings with ==.",
+      "Forgetting Math.pow returns a double."
+    ],
+    "examTips": [
+      "Trace expressions left to right, respecting precedence.",
+      "For String questions, write out the indices under each character.",
+      "Watch for NullPointerException and index-out-of-bounds traps in MCQs.",
+      "Know exactly which methods are on the Java Quick Reference."
+    ],
+    "cramSheet": "**Arithmetic:** int / int truncates · % remainder · double if either operand double\n\n**Cast:** (int) truncates · (double) a / b vs (double) (a / b) · round: (int) (x + 0.5)\n\n**Objects:** new → constructor · reference aliasing · null → NPE\n\n**Strings:** immutable · substring(a, b) excludes b · indexOf → −1 if missing · equals · compareTo\n\n**Concatenation:** left to right · \"x\" + 1 + 2 = \"x12\" · 1 + 2 + \"x\" = \"3x\"\n\n**Math:** abs · pow, sqrt → double · random [0, 1)"
+  },
+  "vocab": [
+    {
+      "term": "Primitive type",
+      "definition": "A basic data type such as int, double, or boolean that stores a value directly."
+    },
+    {
+      "term": "Integer division",
+      "definition": "Division of two ints that discards the fractional part."
+    },
+    {
+      "term": "Casting",
+      "definition": "Converting a value from one type to another, e.g., (int) 3.7."
+    },
+    {
+      "term": "Object",
+      "definition": "An instance of a class with state and behavior."
+    },
+    {
+      "term": "Reference",
+      "definition": "A value that refers to an object's location in memory."
+    },
+    {
+      "term": "Aliasing",
+      "definition": "Two reference variables referring to the same object."
+    },
+    {
+      "term": "null",
+      "definition": "A reference that doesn't refer to any object."
+    },
+    {
+      "term": "Constructor",
+      "definition": "A special method that initializes a new object."
+    },
+    {
+      "term": "Immutable",
+      "definition": "Cannot be changed after creation (e.g., String)."
+    },
+    {
+      "term": "Method signature",
+      "definition": "A method's name and parameter types."
+    },
+    {
+      "term": "Static method",
+      "definition": "A method that belongs to a class and is called without an object."
+    },
+    {
+      "term": "Autoboxing",
+      "definition": "Automatic conversion between a primitive and its wrapper class."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u1-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Expressions and Output",
+      "stem": "What is the value of x after `int x = 17 / 5 * 2;` executes?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "6.8"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "7"
+        }
+      ],
+      "answer": "A",
+      "explanation": "17 / 5 is 3 (integer division), then 3 * 2 = 6.",
+      "distractors": {
+        "B": "Uses decimal division.",
+        "C": "Evaluates 5 * 2 first."
+      }
+    },
+    {
+      "id": "u1-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Casting and Range of Variables",
+      "stem": "What is printed by `System.out.println((double) (7 / 2));`?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3.5"
+        },
+        {
+          "id": "B",
+          "text": "3.0"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "4.0"
+        }
+      ],
+      "answer": "B",
+      "explanation": "7 / 2 is evaluated first as integer division (3), then cast to 3.0.",
+      "distractors": {
+        "A": "Would require (double) 7 / 2."
+      }
+    },
+    {
+      "id": "u1-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "String Methods",
+      "stem": "What is returned by `\"computer\".substring(3, 6)`?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "\"put\""
+        },
+        {
+          "id": "B",
+          "text": "\"pute\""
+        },
+        {
+          "id": "C",
+          "text": "\"mpu\""
+        },
+        {
+          "id": "D",
+          "text": "\"pu\""
+        }
+      ],
+      "answer": "A",
+      "explanation": "Indices 3, 4, 5 are 'p', 'u', 't'; index 6 is excluded.",
+      "distractors": {
+        "B": "Includes the end index."
+      }
+    },
+    {
+      "id": "u1-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Assignment Statements and Input",
+      "stem": "What is the value of a after this code executes?\n\n```java\nint a = 10;\na += 3;\na *= 2;\na %= 7;\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "5"
+        },
+        {
+          "id": "B",
+          "text": "6"
+        },
+        {
+          "id": "C",
+          "text": "26"
+        },
+        {
+          "id": "D",
+          "text": "3"
+        }
+      ],
+      "answer": "A",
+      "explanation": "13, then 26, then 26 % 7 = 5.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Math Class",
+      "stem": "Which expression produces a random integer from 5 to 12, inclusive?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "(int) (Math.random() * 8) + 5"
+        },
+        {
+          "id": "B",
+          "text": "(int) (Math.random() * 12) + 5"
+        },
+        {
+          "id": "C",
+          "text": "(int) (Math.random() * 7) + 5"
+        },
+        {
+          "id": "D",
+          "text": "(int) Math.random() * 8 + 5"
+        }
+      ],
+      "answer": "A",
+      "explanation": "There are 12 − 5 + 1 = 8 possible values; Math.random() * 8 gives [0, 8), cast gives 0–7, +5 gives 5–12.",
+      "distractors": {
+        "C": "Range 5–11.",
+        "D": "Casts Math.random() to 0 first, always 5."
+      }
+    },
+    {
+      "id": "u1-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "String Methods",
+      "stem": "What is printed?\n\n```java\nString s = \"banana\";\nSystem.out.println(s.indexOf(\"an\") + s.indexOf(\"x\"));\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "−1"
+        }
+      ],
+      "answer": "A",
+      "explanation": "indexOf(\"an\") is 1; indexOf(\"x\") is −1; 1 + (−1) = 0.",
+      "distractors": {
+        "B": "Ignores the −1."
+      }
+    },
+    {
+      "id": "u1-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "String Methods",
+      "stem": "What is printed by `System.out.println(1 + 2 + \"A\" + 1 + 2);`?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3A3"
+        },
+        {
+          "id": "B",
+          "text": "3A12"
+        },
+        {
+          "id": "C",
+          "text": "12A12"
+        },
+        {
+          "id": "D",
+          "text": "6A"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Left to right: 1 + 2 = 3 (int), then \"3A\", then \"3A1\", then \"3A12\".",
+      "distractors": {
+        "A": "Adds 1 + 2 after the String."
+      }
+    },
+    {
+      "id": "u1-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "String Methods",
+      "stem": "What does `\"apple\".compareTo(\"banana\")` return?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A negative integer"
+        },
+        {
+          "id": "B",
+          "text": "Zero"
+        },
+        {
+          "id": "C",
+          "text": "A positive integer"
+        },
+        {
+          "id": "D",
+          "text": "false"
+        }
+      ],
+      "answer": "A",
+      "explanation": "\"apple\" comes before \"banana\" lexicographically.",
+      "distractors": {
+        "D": "compareTo returns an int."
+      }
+    },
+    {
+      "id": "u1-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Calling Instance Methods",
+      "stem": "What is printed?\n\n```java\nString s = \"cat\";\ns.substring(1);\nSystem.out.println(s);\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "cat"
+        },
+        {
+          "id": "B",
+          "text": "at"
+        },
+        {
+          "id": "C",
+          "text": "c"
+        },
+        {
+          "id": "D",
+          "text": "Nothing; an error occurs"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Strings are immutable; the returned substring is discarded.",
+      "distractors": {
+        "B": "Assumes the method modifies s."
+      }
+    },
+    {
+      "id": "u1-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Math Class",
+      "stem": "What is printed by `System.out.println(Math.abs(-4) + Math.pow(2, 3));`?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "12"
+        },
+        {
+          "id": "B",
+          "text": "12.0"
+        },
+        {
+          "id": "C",
+          "text": "4.08.0"
+        },
+        {
+          "id": "D",
+          "text": "10.0"
+        }
+      ],
+      "answer": "B",
+      "explanation": "4 + 8.0 = 12.0 (Math.pow returns a double).",
+      "distractors": {
+        "A": "Ignores the double result."
+      }
+    },
+    {
+      "id": "u1-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Objects: Instances of Classes",
+      "stimulus": "```java\npublic class Counter {\n    private int count;\n    public Counter() { count = 0; }\n    public void increment() { count++; }\n    public int getCount() { return count; }\n}\n```",
+      "stem": "What is printed?\n\n```java\nCounter a = new Counter();\nCounter b = a;\na.increment();\nb.increment();\nb = new Counter();\nb.increment();\nSystem.out.println(a.getCount() + \" \" + b.getCount());\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2 1"
+        },
+        {
+          "id": "B",
+          "text": "1 2"
+        },
+        {
+          "id": "C",
+          "text": "3 1"
+        },
+        {
+          "id": "D",
+          "text": "1 1"
+        }
+      ],
+      "answer": "A",
+      "explanation": "a and b alias one object, incremented twice (2). Then b refers to a new Counter, incremented once (1).",
+      "distractors": {
+        "C": "Thinks the last increment affects a."
+      }
+    },
+    {
+      "id": "u1-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Casting and Range of Variables",
+      "stem": "What is printed?\n\n```java\nint big = Integer.MAX_VALUE;\nbig++;\nSystem.out.println(big == Integer.MIN_VALUE);\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "true"
+        },
+        {
+          "id": "B",
+          "text": "false"
+        },
+        {
+          "id": "C",
+          "text": "An ArithmeticException is thrown."
+        },
+        {
+          "id": "D",
+          "text": "The code doesn't compile."
+        }
+      ],
+      "answer": "A",
+      "explanation": "int overflow wraps around to the minimum value.",
+      "distractors": {
+        "C": "Java doesn't throw on int overflow."
+      }
+    },
+    {
+      "id": "u1-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "String Methods",
+      "stem": "What is printed?\n\n```java\nString date = \"2026-10-06\";\nString rest = date.substring(date.indexOf(\"-\") + 1);\nSystem.out.println(rest.substring(0, rest.indexOf(\"-\")));\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "10-"
+        },
+        {
+          "id": "C",
+          "text": "2026"
+        },
+        {
+          "id": "D",
+          "text": "06"
+        }
+      ],
+      "answer": "A",
+      "explanation": "rest is \"10-06\"; its first \"-\" is at index 2, so substring(0, 2) is \"10\".",
+      "distractors": {
+        "B": "Includes the end index."
+      }
+    },
+    {
+      "id": "u1-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Casting and Range of Variables",
+      "stem": "Which expression correctly computes the average of int variables a and b as a double, keeping the fractional part?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "(a + b) / 2.0"
+        },
+        {
+          "id": "B",
+          "text": "(double) ((a + b) / 2)"
+        },
+        {
+          "id": "C",
+          "text": "(a + b) / 2"
+        },
+        {
+          "id": "D",
+          "text": "(int) (a + b) / 2.0 / 1"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Dividing by a double literal forces floating-point division.",
+      "distractors": {
+        "B": "Integer division happens before the cast."
+      }
+    },
+    {
+      "id": "u1-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "String Methods",
+      "frqType": "Q1 Methods and Control Structures",
+      "prompt": "Write two static methods in a class StringTools.\n\n(a) `countOccurrences(String str, String target)` returns the number of non-overlapping occurrences of target in str. For example, countOccurrences(\"banana\", \"an\") returns 2, and countOccurrences(\"aaaa\", \"aa\") returns 2. Assume target has length at least 1.\n\n(b) `removeFirst(String str, String target)` returns str with the first occurrence of target removed. If target does not occur, it returns str unchanged. For example, removeFirst(\"banana\", \"an\") returns \"bana\".",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Write countOccurrences.",
+          "points": 4
+        },
+        {
+          "label": "b",
+          "prompt": "Write removeFirst.",
+          "points": 3
+        }
+      ],
+      "points": 7,
+      "minutes": 22,
+      "rubric": [
+        {
+          "criterion": "a1: Search",
+          "points": 1,
+          "description": "Uses indexOf (or a loop with substring/equals) to locate target."
+        },
+        {
+          "criterion": "a2: Advance past match",
+          "points": 1,
+          "description": "After a match, continues searching after the matched text (non-overlapping), e.g., str = str.substring(index + target.length())."
+        },
+        {
+          "criterion": "a3: Count",
+          "points": 1,
+          "description": "Increments a counter for each match and stops when no more are found (no infinite loop)."
+        },
+        {
+          "criterion": "a4: Return",
+          "points": 1,
+          "description": "Returns the count."
+        },
+        {
+          "criterion": "b1: Find",
+          "points": 1,
+          "description": "Finds the index of the first occurrence; handles −1 by returning str."
+        },
+        {
+          "criterion": "b2: Build",
+          "points": 1,
+          "description": "Concatenates the portion before the match with the portion after it: str.substring(0, i) + str.substring(i + target.length())."
+        },
+        {
+          "criterion": "b3: Return",
+          "points": 1,
+          "description": "Returns the new String without modifying the parameter incorrectly."
+        }
+      ],
+      "sampleResponse": "```java\npublic static int countOccurrences(String str, String target) {\n    int count = 0;\n    int index = str.indexOf(target);\n    while (index != -1) {\n        count++;\n        str = str.substring(index + target.length());\n        index = str.indexOf(target);\n    }\n    return count;\n}\n\npublic static String removeFirst(String str, String target) {\n    int i = str.indexOf(target);\n    if (i == -1) {\n        return str;\n    }\n    return str.substring(0, i) + str.substring(i + target.length());\n}\n```\n\nIn part (a), each time target is found, the search continues in the part of str after the match, so occurrences don't overlap (\"aaaa\" with \"aa\" gives 2). The loop ends when indexOf returns −1. In part (b), the result joins the text before the match with the text after it."
+    }
+  ]
+}

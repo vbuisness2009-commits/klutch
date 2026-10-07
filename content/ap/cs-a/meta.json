@@ -1,0 +1,69 @@
+{
+ "slug": "cs-a",
+ "name": "AP Computer Science A",
+ "lastVerified": "2026-10",
+ "overview": "AP Computer Science A is an introductory college programming course in Java. The revised course (effective 2025–26) is organized into four units: using objects and methods, selection and iteration, class creation, and data collections (arrays, ArrayLists, 2D arrays, and data sets). The exam tests tracing code precisely, predicting output and side effects, writing correct methods and classes, and implementing standard algorithms (searching, sorting, accumulating, filtering) on collections.",
+ "examMode": "Fully digital in the Bluebook app; free-response code is typed (confirm the current format on AP Central).",
+ "totalMinutes": 180,
+ "sections": [
+  { "name": "Section I", "questionType": "Multiple choice (4 options)", "count": 42, "minutes": 90, "weight": "55%", "notes": "Code tracing, output prediction, error identification, and choosing code segments that meet a specification. The Java Quick Reference is available." },
+  { "name": "Section II", "questionType": "Free response (write Java code)", "count": 4, "minutes": 90, "weight": "45%", "notes": "Q1 Methods and Control Structures; Q2 Class Design; Q3 Data Analysis with ArrayList; Q4 2D Array." }
+ ],
+ "units": [
+  { "number": 1, "title": "Using Objects and Methods", "weight": "15–25%" },
+  { "number": 2, "title": "Selection and Iteration", "weight": "25–35%" },
+  { "number": 3, "title": "Class Creation", "weight": "10–18%" },
+  { "number": 4, "title": "Data Collections", "weight": "30–40%" }
+ ],
+ "skills": [
+  { "name": "1. Program Design and Algorithm Development", "description": "Determine required code segments to produce a given output or behavior." },
+  { "name": "2. Code Logic", "description": "Determine the output, value, or result of given program code." },
+  { "name": "3. Code Implementation", "description": "Write and implement program code." },
+  { "name": "4. Code Testing", "description": "Analyze program code for correctness, equivalence, and errors." }
+ ],
+ "scoring": {
+  "summary": "Section I (42 MCQ) is 55% and Section II (4 FRQs) is 45% of the composite. FRQs are scored with point-based rubrics: points for correct algorithm components (loop bounds, conditions, method calls, accumulation, return), with standard penalties for some errors (e.g., using array syntax on an ArrayList) applied once per question.",
+  "approxCutoffs": [
+   { "score": 5, "minPercent": 72 },
+   { "score": 4, "minPercent": 60 },
+   { "score": 3, "minPercent": 47 },
+   { "score": 2, "minPercent": 35 }
+  ]
+ },
+ "frqTypes": [
+  { "name": "Q1 Methods and Control Structures", "points": 7, "howScored": "Two parts writing methods that use loops, conditionals, String methods, and calls to provided methods. Points for correct traversal, conditions, method calls, and return values." },
+  { "name": "Q2 Class Design", "points": 7, "howScored": "Write a complete class from a specification: private instance variables, constructor, accessor and mutator methods, and a method implementing required behavior." },
+  { "name": "Q3 Data Analysis with ArrayList", "points": 5, "howScored": "Traverse an ArrayList of objects to compute, filter, or modify data; points for correct traversal, access with get, conditions, and removal or accumulation without skipping elements." },
+  { "name": "Q4 2D Array", "points": 6, "howScored": "Traverse a 2D array (row-major or column-major) to analyze or modify elements; points for correct nested loop bounds, element access, and algorithm logic." }
+ ],
+ "strategy": [
+  "Trace code with a variable table; update values line by line instead of guessing.",
+  "Watch integer division and the % operator; 7 / 2 is 3 and 7 % 2 is 1.",
+  "Check loop bounds carefully: off-by-one errors are the most common trap.",
+  "Know which String methods return new strings (Strings are immutable).",
+  "Use == only for primitives and null checks; use equals for object content.",
+  "When removing from an ArrayList in a forward loop, decrement the index or loop backward.",
+  "Read the whole FRQ, including provided methods and examples; use the helper methods you're given.",
+  "On FRQs, write method headers exactly as specified and return the correct type."
+ ],
+ "pitfalls": [
+  "Confusing array length (arr.length), String length (s.length()), and ArrayList size (list.size()).",
+  "Off-by-one errors with substring(start, end) (end is exclusive).",
+  "Short-circuit evaluation: in a && b, b isn't evaluated if a is false.",
+  "Integer overflow and casting: (double) (a / b) vs. (double) a / b.",
+  "Modifying a collection inside an enhanced for loop.",
+  "Shadowing instance variables with parameters of the same name without using this.",
+  "Forgetting that 2D arrays are arrays of rows: arr[row][col], arr.length rows, arr[0].length columns.",
+  "Comparing Strings with == instead of equals."
+ ],
+ "referenceSheet": "The Java Quick Reference lists the testable methods: String (length, substring, indexOf, equals, compareTo, split), Integer and Double wrappers (MIN_VALUE, MAX_VALUE, intValue, doubleValue, parseInt), Math (abs, pow, sqrt, random), ArrayList (size, add, get, set, remove), and Object (equals, toString).",
+ "sources": [
+  { "title": "AP Computer Science A Exam (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-computer-science-a/exam" },
+  { "title": "AP Computer Science A Course and Exam Description", "url": "https://apcentral.collegeboard.org/courses/ap-computer-science-a/course" }
+ ],
+ "caveats": [
+  "The course was revised for 2025–26 (four units instead of ten); older review materials use the previous unit structure.",
+  "FRQ point values listed are based on the revised format; confirm on AP Central.",
+  "Cutoffs are estimates; College Board does not publish cut scores."
+ ]
+}

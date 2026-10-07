@@ -1,0 +1,569 @@
+{
+  "number": 2,
+  "title": "Selection and Iteration",
+  "guide": {
+    "summary": "Unit 2 covers decision making and repetition: boolean expressions, relational and logical operators, if/else-if/else, nested conditionals, De Morgan's laws and equivalent expressions, comparing objects, while and for loops, String traversal, nested loops, standard loop algorithms, and counting loop iterations.",
+    "sections": [
+      {
+        "heading": "Boolean expressions and conditionals",
+        "body": "Relational operators (==, !=, <, <=, >, >=) produce booleans; logical operators combine them: && (and), || (or), ! (not). Java short-circuits: in a && b, b isn't evaluated if a is false; in a || b, b isn't evaluated if a is true (useful for guarding against division by zero or null). De Morgan's laws: !(a && b) is !a || !b; !(a || b) is !a && !b. The negation of x > 5 is x <= 5. In an if/else-if chain, only the first true branch runs. Compare object content with equals; == compares references."
+      },
+      {
+        "heading": "Loops",
+        "body": "A while loop repeats while its condition is true; make sure the condition eventually becomes false to avoid infinite loops. A for loop has initialization, condition, and update: for (int i = 0; i < n; i++) runs n times. A loop that changes i by a factor (i *= 2) runs about log₂ n times. Off-by-one errors come from using <= vs. < incorrectly. Standard algorithms: sum or average, count items meeting a condition, find max/min (initialize with the first value or Integer.MIN_VALUE), check whether any/all items meet a condition, process digits with % 10 and / 10, and determine primes or divisors."
+      },
+      {
+        "heading": "String traversal and nested loops",
+        "body": "Traverse a String with for (int i = 0; i < str.length(); i++) and access one-character substrings with str.substring(i, i + 1). To reverse, loop from str.length() − 1 down to 0. For substrings of length k, loop i from 0 to str.length() − k. Nested loops repeat the inner loop fully for each outer iteration; total executions multiply (or sum, if the inner bound depends on the outer variable, e.g., 4 + 3 + 2 + 1)."
+      }
+    ],
+    "keyTakeaways": [
+      "Short-circuit evaluation can prevent runtime errors.",
+      "De Morgan: flip operators and negate each part.",
+      "for (i = 0; i < n; i++) → n iterations.",
+      "Digit processing: n % 10 and n / 10.",
+      "Nested loops: count inner executions carefully.",
+      "Only the first true branch of an else-if chain runs."
+    ],
+    "commonMistakes": [
+      "Negating x > 5 as x < 5 (should be x <= 5).",
+      "Off-by-one with str.length() as an index.",
+      "Using = instead of == in conditions.",
+      "Forgetting to update the loop variable in a while loop.",
+      "Using == to compare Strings."
+    ],
+    "examTips": [
+      "Count iterations with a small table of loop variable values.",
+      "For equivalence questions, test with a few sample values, including boundaries.",
+      "In FRQs, initialize accumulators before loops and return after them.",
+      "Check that your loop works for empty or single-character Strings."
+    ],
+    "cramSheet": "**Booleans:** && || ! · short-circuit · De Morgan !(a && b) = !a || !b\n\n**Conditionals:** first true branch only · equals for objects\n\n**Loops:** for n times · while until false · i *= 2 → log n\n\n**Algorithms:** sum, count, max/min, any/all, digits (% 10, / 10)\n\n**Strings:** substring(i, i + 1) · reverse from length() − 1 · windows to length() − k\n\n**Nested:** multiply (or sum if dependent)"
+  },
+  "vocab": [
+    {
+      "term": "Boolean expression",
+      "definition": "An expression that evaluates to true or false."
+    },
+    {
+      "term": "Short-circuit evaluation",
+      "definition": "Stopping evaluation of a logical expression once its result is determined."
+    },
+    {
+      "term": "De Morgan's laws",
+      "definition": "!(a && b) ≡ !a || !b and !(a || b) ≡ !a && !b."
+    },
+    {
+      "term": "Nested conditional",
+      "definition": "An if statement inside another if statement."
+    },
+    {
+      "term": "while loop",
+      "definition": "A loop that repeats while a condition is true."
+    },
+    {
+      "term": "for loop",
+      "definition": "A loop with initialization, condition, and update in its header."
+    },
+    {
+      "term": "Infinite loop",
+      "definition": "A loop whose condition never becomes false."
+    },
+    {
+      "term": "Off-by-one error",
+      "definition": "A loop that runs one time too many or too few."
+    },
+    {
+      "term": "Accumulator",
+      "definition": "A variable that collects a running total or count."
+    },
+    {
+      "term": "Nested loop",
+      "definition": "A loop inside another loop."
+    },
+    {
+      "term": "Traversal",
+      "definition": "Visiting each element of a String or collection in order."
+    },
+    {
+      "term": "Statement execution count",
+      "definition": "How many times a statement runs, used for informal run-time analysis."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u2-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Compound Boolean Expressions",
+      "stem": "Which expression is equivalent to !(a && b)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "!a && !b"
+        },
+        {
+          "id": "B",
+          "text": "!a || !b"
+        },
+        {
+          "id": "C",
+          "text": "a || b"
+        },
+        {
+          "id": "D",
+          "text": "!a && b"
+        }
+      ],
+      "answer": "B",
+      "explanation": "De Morgan's law.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "for Loops",
+      "stem": "How many times does the loop body execute?\n\n```java\nfor (int i = 0; i < 10; i += 3) {\n    // body\n}\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "10"
+        },
+        {
+          "id": "D",
+          "text": "11"
+        }
+      ],
+      "answer": "B",
+      "explanation": "i = 0, 3, 6, 9.",
+      "distractors": {
+        "A": "Misses i = 0."
+      }
+    },
+    {
+      "id": "u2-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "while Loops",
+      "stem": "What is printed?\n\n```java\nint sum = 0;\nint k = 1;\nwhile (k <= 5) {\n    sum += k;\n    k += 2;\n}\nSystem.out.println(sum);\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "9"
+        },
+        {
+          "id": "B",
+          "text": "15"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "16"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Adds 1, 3, 5.",
+      "distractors": {
+        "B": "Sums 1 through 5."
+      }
+    },
+    {
+      "id": "u2-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "if Statements",
+      "stem": "What is printed when x is 15?\n\n```java\nif (x > 10) {\n    System.out.print(\"A\");\n} else if (x > 5) {\n    System.out.print(\"B\");\n} else {\n    System.out.print(\"C\");\n}\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "AB"
+        },
+        {
+          "id": "C",
+          "text": "B"
+        },
+        {
+          "id": "D",
+          "text": "ABC"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Only the first true branch executes.",
+      "distractors": {
+        "B": "Treats else-if as independent ifs."
+      }
+    },
+    {
+      "id": "u2-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Compound Boolean Expressions",
+      "stem": "If x is 0, what happens when this executes?\n\n```java\nif (x != 0 && 10 / x > 2) {\n    System.out.println(\"big\");\n} else {\n    System.out.println(\"small\");\n}\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "\"small\" is printed."
+        },
+        {
+          "id": "B",
+          "text": "\"big\" is printed."
+        },
+        {
+          "id": "C",
+          "text": "An ArithmeticException is thrown."
+        },
+        {
+          "id": "D",
+          "text": "Nothing is printed."
+        }
+      ],
+      "answer": "A",
+      "explanation": "x != 0 is false, so 10 / x is never evaluated (short-circuit).",
+      "distractors": {
+        "C": "Would occur if the operands were swapped."
+      }
+    },
+    {
+      "id": "u2-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Nested Iteration",
+      "stem": "How many times is \"*\" printed?\n\n```java\nfor (int i = 0; i < 4; i++) {\n    for (int j = i; j < 4; j++) {\n        System.out.print(\"*\");\n    }\n}\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "16"
+        },
+        {
+          "id": "B",
+          "text": "10"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "4"
+        }
+      ],
+      "answer": "B",
+      "explanation": "4 + 3 + 2 + 1 = 10.",
+      "distractors": {
+        "A": "Ignores that j starts at i."
+      }
+    },
+    {
+      "id": "u2-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "String Algorithms",
+      "stem": "What does this method return for countE(\"excellence\")?\n\n```java\npublic static int countE(String s) {\n    int c = 0;\n    for (int i = 0; i < s.length(); i++) {\n        if (s.substring(i, i + 1).equals(\"e\")) {\n            c++;\n        }\n    }\n    return c;\n}\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "A StringIndexOutOfBoundsException is thrown."
+        }
+      ],
+      "answer": "B",
+      "explanation": "'e' appears at indices 0, 3, 6, and 9.",
+      "distractors": {
+        "D": "substring(i, i + 1) is valid for i up to length() − 1."
+      }
+    },
+    {
+      "id": "u2-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "String Algorithms",
+      "stem": "What is printed?\n\n```java\nString w = \"planet\";\nString r = \"\";\nfor (int i = w.length() - 1; i >= 0; i -= 2) {\n    r += w.substring(i, i + 1);\n}\nSystem.out.println(r);\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "tnl"
+        },
+        {
+          "id": "B",
+          "text": "teap"
+        },
+        {
+          "id": "C",
+          "text": "eap"
+        },
+        {
+          "id": "D",
+          "text": "tenalp"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Indices 5, 3, 1: 't', 'n', 'l'.",
+      "distractors": {
+        "D": "Steps by 1."
+      }
+    },
+    {
+      "id": "u2-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Equivalent Boolean Expressions",
+      "stem": "Which expression is true exactly when (x > 5 || x < 2) is false?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "x >= 2 && x <= 5"
+        },
+        {
+          "id": "B",
+          "text": "x < 5 && x > 2"
+        },
+        {
+          "id": "C",
+          "text": "x <= 5 || x >= 2"
+        },
+        {
+          "id": "D",
+          "text": "x > 2 || x < 5"
+        }
+      ],
+      "answer": "A",
+      "explanation": "!(x > 5 || x < 2) = x <= 5 && x >= 2.",
+      "distractors": {
+        "B": "Excludes boundary values 2 and 5."
+      }
+    },
+    {
+      "id": "u2-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Developing Algorithms Using Iteration",
+      "stem": "What is printed?\n\n```java\nint n = 1234;\nint s = 0;\nwhile (n > 0) {\n    s += n % 10;\n    n /= 10;\n}\nSystem.out.println(s);\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "4321"
+        },
+        {
+          "id": "C",
+          "text": "1234"
+        },
+        {
+          "id": "D",
+          "text": "4"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Adds digits 4 + 3 + 2 + 1.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Developing Algorithms Using Iteration",
+      "stem": "What is printed?\n\n```java\nint n = 6;\nint steps = 0;\nwhile (n != 1) {\n    if (n % 2 == 0) {\n        n /= 2;\n    } else {\n        n = 3 * n + 1;\n    }\n    steps++;\n}\nSystem.out.println(steps);\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "8"
+        },
+        {
+          "id": "C",
+          "text": "9"
+        },
+        {
+          "id": "D",
+          "text": "The loop never ends."
+        }
+      ],
+      "answer": "B",
+      "explanation": "6 → 3 → 10 → 5 → 16 → 8 → 4 → 2 → 1: 8 steps.",
+      "distractors": {
+        "C": "Counts the starting value as a step."
+      }
+    },
+    {
+      "id": "u2-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Informal Code Analysis",
+      "stem": "For n = 64, how many times is count incremented?\n\n```java\nint count = 0;\nfor (int i = 1; i < n; i *= 2) {\n    for (int j = 0; j < 3; j++) {\n        count++;\n    }\n}\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "18"
+        },
+        {
+          "id": "B",
+          "text": "21"
+        },
+        {
+          "id": "C",
+          "text": "192"
+        },
+        {
+          "id": "D",
+          "text": "6"
+        }
+      ],
+      "answer": "A",
+      "explanation": "i = 1, 2, 4, 8, 16, 32 (6 values, since 64 < 64 is false); 6 × 3 = 18.",
+      "distractors": {
+        "B": "Includes i = 64."
+      }
+    },
+    {
+      "id": "u2-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Developing Algorithms Using Iteration",
+      "stem": "This method is intended to return true if n (n ≥ 2) is prime. For which input does it give the wrong answer?\n\n```java\npublic static boolean isPrime(int n) {\n    for (int d = 2; d < n / 2; d++) {\n        if (n % d == 0) {\n            return false;\n        }\n    }\n    return true;\n}\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4"
+        },
+        {
+          "id": "B",
+          "text": "9"
+        },
+        {
+          "id": "C",
+          "text": "7"
+        },
+        {
+          "id": "D",
+          "text": "15"
+        }
+      ],
+      "answer": "A",
+      "explanation": "For n = 4, n / 2 = 2, so the loop never runs and the method returns true. For 9, d = 2, 3 runs (9 / 2 = 4); 15 checks 3; 7 is correctly prime.",
+      "distractors": {
+        "B": "d = 3 is checked since 3 < 4."
+      }
+    },
+    {
+      "id": "u2-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Comparing Objects",
+      "stem": "What is printed?\n\n```java\nString a = new String(\"hi\");\nString b = new String(\"hi\");\nString c = a;\nSystem.out.println((a == b) + \" \" + a.equals(b) + \" \" + (a == c));\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "false true true"
+        },
+        {
+          "id": "B",
+          "text": "true true true"
+        },
+        {
+          "id": "C",
+          "text": "false false true"
+        },
+        {
+          "id": "D",
+          "text": "false true false"
+        }
+      ],
+      "answer": "A",
+      "explanation": "a and b are different objects with equal content; c aliases a.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Developing Algorithms Using Iteration",
+      "frqType": "Q1 Methods and Control Structures",
+      "prompt": "Write two static methods in a class NumberTools.\n\n(a) `digitalRoot(int n)` returns the result of repeatedly summing the digits of n until a single digit remains. For example, digitalRoot(9875) returns 2 (9 + 8 + 7 + 5 = 29, 2 + 9 = 11, 1 + 1 = 2). Assume n ≥ 0.\n\n(b) `longestRun(String str)` returns the length of the longest run of consecutive identical characters in str. For example, longestRun(\"aabbbcc\") returns 3 and longestRun(\"abc\") returns 1. Assume str has length at least 1.",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Write digitalRoot.",
+          "points": 3
+        },
+        {
+          "label": "b",
+          "prompt": "Write longestRun.",
+          "points": 4
+        }
+      ],
+      "points": 7,
+      "minutes": 22,
+      "rubric": [
+        {
+          "criterion": "a1: Outer loop",
+          "points": 1,
+          "description": "Repeats while n ≥ 10."
+        },
+        {
+          "criterion": "a2: Digit sum",
+          "points": 1,
+          "description": "Correctly sums digits using % 10 and / 10 in an inner loop."
+        },
+        {
+          "criterion": "a3: Return",
+          "points": 1,
+          "description": "Updates n to the digit sum each pass and returns the single digit."
+        },
+        {
+          "criterion": "b1: Traversal",
+          "points": 1,
+          "description": "Compares each character with the previous one without going out of bounds."
+        },
+        {
+          "criterion": "b2: Current run",
+          "points": 1,
+          "description": "Increments the current run when characters match; resets to 1 otherwise."
+        },
+        {
+          "criterion": "b3: Max",
+          "points": 1,
+          "description": "Tracks the maximum run length, including a run at the end of the String."
+        },
+        {
+          "criterion": "b4: Return",
+          "points": 1,
+          "description": "Returns the maximum."
+        }
+      ],
+      "sampleResponse": "```java\npublic static int digitalRoot(int n) {\n    while (n >= 10) {\n        int sum = 0;\n        while (n > 0) {\n            sum += n % 10;\n            n /= 10;\n        }\n        n = sum;\n    }\n    return n;\n}\n\npublic static int longestRun(String str) {\n    int best = 1;\n    int current = 1;\n    for (int i = 1; i < str.length(); i++) {\n        if (str.substring(i, i + 1).equals(str.substring(i - 1, i))) {\n            current++;\n            if (current > best) {\n                best = current;\n            }\n        } else {\n            current = 1;\n        }\n    }\n    return best;\n}\n```\n\nIn (a), the inner loop sums the digits and the outer loop repeats until one digit remains. In (b), updating best inside the matching branch ensures a run that ends at the last character is still counted."
+    }
+  ]
+}

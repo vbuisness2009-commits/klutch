@@ -1,0 +1,569 @@
+{
+  "number": 4,
+  "title": "Data Collections",
+  "guide": {
+    "summary": "The most heavily weighted unit (30–40%). It covers one-dimensional arrays, ArrayLists, two-dimensional arrays, standard traversal algorithms, searching (linear and binary) and sorting (selection, insertion, merge), recursion tracing, working with data sets and text files, and the ethics of data collection.",
+    "sections": [
+      {
+        "heading": "Arrays",
+        "body": "Arrays have fixed length (arr.length, no parentheses). new int[n] fills with 0, new double[n] with 0.0, new boolean[n] with false, and object arrays with null. An initializer list creates and fills an array: int[] a = {3, 8, 1}. Valid indices are 0 to length − 1; others throw ArrayIndexOutOfBoundsException. An enhanced for loop (for (int x : arr)) reads each element but assigning to x doesn't change the array. Standard algorithms: sum/average, min/max and their index, count matches, check for duplicates (nested loops), shift or rotate elements, reverse (swap from both ends), and determine if elements are in order."
+      },
+      {
+        "heading": "ArrayList",
+        "body": "ArrayList<E> holds objects (wrapper types for primitives) and resizes dynamically. Methods: size(), add(obj), add(index, obj) (shifts later elements right), get(index), set(index, obj) (returns old value), remove(index) (shifts later elements left and returns the removed element). When removing during a forward index loop, decrement i after removal or traverse backward; otherwise the next element is skipped. Don't add or remove inside an enhanced for loop (ConcurrentModificationException)."
+      },
+      {
+        "heading": "2D arrays",
+        "body": "A 2D array is an array of rows: int[][] g = new int[rows][cols]; g.length is the number of rows and g[0].length the number of columns; access g[r][c]. Row-major traversal: outer loop over rows, inner over columns. Column-major traversal: outer over columns, inner over rows. Enhanced for over a 2D array gives each row (an int[]). Neighbor checks must stay in bounds (0 ≤ r < rows, 0 ≤ c < cols)."
+      },
+      {
+        "heading": "Searching, sorting, and recursion",
+        "body": "Linear search checks each element: up to n comparisons. Binary search requires sorted data and halves the search range each step: about log₂ n + 1 comparisons at most. Selection sort repeatedly selects the minimum of the unsorted portion and swaps it into place; after k passes, the first k elements are the k smallest in order. Insertion sort inserts each next element into its correct place in the sorted portion on the left. Merge sort recursively splits, sorts halves, and merges; it is faster for large data. A recursive method calls itself with a smaller input and must have a base case; trace it by writing each call and combining results on the way back."
+      },
+      {
+        "heading": "Data sets and files",
+        "body": "Programs often read data from text files (e.g., with a Scanner wrapping a File), parse lines with split, and store values in arrays or ArrayLists of objects for analysis. Data can contain errors, missing values, or bias; how data are collected and used raises privacy and fairness concerns."
+      }
+    ],
+    "keyTakeaways": [
+      "arr.length · str.length() · list.size().",
+      "Enhanced for can't modify array elements.",
+      "Removing in a forward loop skips elements unless you adjust i.",
+      "g.length rows; g[0].length columns.",
+      "Binary search needs sorted data: ~log₂ n steps.",
+      "Recursion needs a base case."
+    ],
+    "commonMistakes": [
+      "Using arr.length() or list.length.",
+      "Loop bound i <= arr.length causing out-of-bounds.",
+      "Using array brackets with ArrayLists (list[i]).",
+      "Swapping without a temporary variable.",
+      "Mixing up rows and columns in 2D loops."
+    ],
+    "examTips": [
+      "Q3 (ArrayList) FRQs often require removing or filtering; handle index shifts.",
+      "Q4 (2D array) FRQs: write explicit nested loops with correct bounds and stay in bounds for neighbors.",
+      "Sorting MCQs: trace the array state after each pass.",
+      "Recursion MCQs: write the call stack and evaluate bottom-up."
+    ],
+    "cramSheet": "**Array:** fixed length · defaults 0/0.0/false/null · arr.length · enhanced for = read-only\n\n**ArrayList:** size · add · add(i, x) · get · set · remove(i) shifts left · remove → i−− or go backward\n\n**2D:** g[r][c] · g.length rows · g[0].length cols · row-major vs column-major\n\n**Search:** linear n · binary log₂ n (sorted)\n\n**Sort:** selection (min to front) · insertion (insert left) · merge (split, merge)\n\n**Recursion:** base case + smaller call · trace the stack"
+  },
+  "vocab": [
+    {
+      "term": "Array",
+      "definition": "A fixed-length, indexed collection of elements of one type."
+    },
+    {
+      "term": "ArrayList",
+      "definition": "A resizable list of objects with methods such as add, get, set, and remove."
+    },
+    {
+      "term": "Enhanced for loop",
+      "definition": "A loop that visits each element of a collection without using indices."
+    },
+    {
+      "term": "2D array",
+      "definition": "An array of arrays, accessed with two indices [row][col]."
+    },
+    {
+      "term": "Row-major order",
+      "definition": "Traversing a 2D array row by row."
+    },
+    {
+      "term": "Column-major order",
+      "definition": "Traversing a 2D array column by column."
+    },
+    {
+      "term": "Linear search",
+      "definition": "Checking elements one at a time until the target is found."
+    },
+    {
+      "term": "Binary search",
+      "definition": "Repeatedly halving a sorted range to find a target."
+    },
+    {
+      "term": "Selection sort",
+      "definition": "Sorting by repeatedly selecting the smallest remaining element."
+    },
+    {
+      "term": "Insertion sort",
+      "definition": "Sorting by inserting each element into the sorted portion."
+    },
+    {
+      "term": "Merge sort",
+      "definition": "A recursive sort that divides, sorts halves, and merges."
+    },
+    {
+      "term": "Base case",
+      "definition": "The condition in a recursive method that stops recursion."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Array Creation and Access",
+      "stem": "What is printed?\n\n```java\nString[] names = new String[3];\nint[] nums = new int[3];\nSystem.out.println(names[1] + \" \" + nums[1]);\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "null 0"
+        },
+        {
+          "id": "B",
+          "text": "  0"
+        },
+        {
+          "id": "C",
+          "text": "An exception is thrown."
+        },
+        {
+          "id": "D",
+          "text": "null null"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Object arrays default to null; int arrays default to 0.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2D Arrays",
+      "stem": "For int[][] m = {{1, 2, 3}, {4, 5, 6}}, what are m.length and m[0].length?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2 and 3"
+        },
+        {
+          "id": "B",
+          "text": "3 and 2"
+        },
+        {
+          "id": "C",
+          "text": "6 and 3"
+        },
+        {
+          "id": "D",
+          "text": "2 and 6"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Two rows; each row has three elements.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Traversing Arrays",
+      "stem": "What are the contents of arr after this code?\n\n```java\nint[] arr = {1, 2, 3};\nfor (int x : arr) {\n    x *= 2;\n}\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "{1, 2, 3}"
+        },
+        {
+          "id": "B",
+          "text": "{2, 4, 6}"
+        },
+        {
+          "id": "C",
+          "text": "{2, 2, 3}"
+        },
+        {
+          "id": "D",
+          "text": "An error occurs."
+        }
+      ],
+      "answer": "A",
+      "explanation": "x is a copy of each element; changing it doesn't change the array.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "ArrayList Methods",
+      "stem": "What is printed?\n\n```java\nArrayList<String> list = new ArrayList<String>();\nlist.add(\"a\");\nlist.add(\"b\");\nlist.add(0, \"c\");\nlist.set(1, \"d\");\nSystem.out.println(list);\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "[c, d, b]"
+        },
+        {
+          "id": "B",
+          "text": "[a, d, b]"
+        },
+        {
+          "id": "C",
+          "text": "[c, a, d]"
+        },
+        {
+          "id": "D",
+          "text": "[d, a, b]"
+        }
+      ],
+      "answer": "A",
+      "explanation": "[a, b] → [c, a, b] → set index 1 to d → [c, d, b].",
+      "distractors": {
+        "B": "Ignores the insertion shift."
+      }
+    },
+    {
+      "id": "u4-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "ArrayList Algorithms",
+      "stem": "What does list contain after this code if it starts as [2, 4, 4, 5, 4]?\n\n```java\nfor (int i = 0; i < list.size(); i++) {\n    if (list.get(i) % 2 == 0) {\n        list.remove(i);\n    }\n}\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "[5]"
+        },
+        {
+          "id": "B",
+          "text": "[4, 5]"
+        },
+        {
+          "id": "C",
+          "text": "[4, 5, 4]"
+        },
+        {
+          "id": "D",
+          "text": "[4, 4, 5]"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Each removal shifts the next element into index i, which is then skipped by i++.",
+      "distractors": {
+        "A": "Intended result; requires i-- after remove or a backward loop."
+      }
+    },
+    {
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Developing Algorithms Using Arrays",
+      "stem": "What is in arr after this code?\n\n```java\nint[] arr = {3, 8, 1, 9, 4};\nfor (int i = 0; i < arr.length - 1; i++) {\n    arr[i] = arr[i + 1];\n}\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "{8, 1, 9, 4, 4}"
+        },
+        {
+          "id": "B",
+          "text": "{8, 1, 9, 4, 3}"
+        },
+        {
+          "id": "C",
+          "text": "{3, 3, 3, 3, 3}"
+        },
+        {
+          "id": "D",
+          "text": "An ArrayIndexOutOfBoundsException is thrown."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Each element shifts left; the last element is unchanged.",
+      "distractors": {
+        "B": "That's a rotation, which requires saving arr[0]."
+      }
+    },
+    {
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2D Array Traversal",
+      "stem": "What is printed?\n\n```java\nint[][] m = {{1, 2, 3}, {4, 5, 6}};\nfor (int c = 0; c < m[0].length; c++) {\n    for (int r = 0; r < m.length; r++) {\n        System.out.print(m[r][c] + \" \");\n    }\n}\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1 4 2 5 3 6"
+        },
+        {
+          "id": "B",
+          "text": "1 2 3 4 5 6"
+        },
+        {
+          "id": "C",
+          "text": "6 5 4 3 2 1"
+        },
+        {
+          "id": "D",
+          "text": "1 2 4 5 3 6"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Column-major order.",
+      "distractors": {
+        "B": "Row-major order."
+      }
+    },
+    {
+      "id": "u4-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Sorting",
+      "stem": "Selection sort (ascending, swapping the minimum into place) is applied to {5, 3, 8, 1, 9, 2}. What is the array after the second pass?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "{1, 2, 8, 5, 9, 3}"
+        },
+        {
+          "id": "B",
+          "text": "{1, 3, 8, 5, 9, 2}"
+        },
+        {
+          "id": "C",
+          "text": "{1, 2, 3, 5, 8, 9}"
+        },
+        {
+          "id": "D",
+          "text": "{3, 5, 8, 1, 9, 2}"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Pass 1 swaps 1 with 5: {1, 3, 8, 5, 9, 2}. Pass 2 swaps 2 with 3: {1, 2, 8, 5, 9, 3}.",
+      "distractors": {
+        "B": "After one pass.",
+        "D": "Insertion sort after one pass."
+      }
+    },
+    {
+      "id": "u4-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Searching",
+      "stem": "A sorted array has 1,000 elements. What is the maximum number of elements a binary search examines?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "100"
+        },
+        {
+          "id": "C",
+          "text": "500"
+        },
+        {
+          "id": "D",
+          "text": "1,000"
+        }
+      ],
+      "answer": "A",
+      "explanation": "2¹⁰ = 1,024 ≥ 1,000; about 10 halvings.",
+      "distractors": {
+        "D": "Linear search worst case."
+      }
+    },
+    {
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Recursion",
+      "stem": "What does mystery(10) return?\n\n```java\npublic static int mystery(int n) {\n    if (n <= 1) {\n        return 1;\n    }\n    return n + mystery(n / 2);\n}\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "18"
+        },
+        {
+          "id": "B",
+          "text": "17"
+        },
+        {
+          "id": "C",
+          "text": "55"
+        },
+        {
+          "id": "D",
+          "text": "15"
+        }
+      ],
+      "answer": "A",
+      "explanation": "10 + mystery(5) = 10 + 5 + mystery(2) = 10 + 5 + 2 + mystery(1) = 18.",
+      "distractors": {
+        "B": "Omits the base-case 1."
+      }
+    },
+    {
+      "id": "u4-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Developing Algorithms Using Arrays",
+      "stem": "This method is intended to return true if arr contains any duplicate values. Which replacement for /* condition */ makes it work?\n\n```java\npublic static boolean hasDup(int[] arr) {\n    for (int i = 0; i < arr.length; i++) {\n        for (int j = /* start */; j < arr.length; j++) {\n            if (/* condition */) {\n                return true;\n            }\n        }\n    }\n    return false;\n}\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "start: i + 1; condition: arr[i] == arr[j]"
+        },
+        {
+          "id": "B",
+          "text": "start: 0; condition: arr[i] == arr[j]"
+        },
+        {
+          "id": "C",
+          "text": "start: i; condition: arr[i] == arr[j]"
+        },
+        {
+          "id": "D",
+          "text": "start: i + 1; condition: i == j"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Starting at i + 1 avoids comparing an element with itself and repeats.",
+      "distractors": {
+        "B": "Compares each element with itself, always true.",
+        "C": "j = i also compares with itself."
+      }
+    },
+    {
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "ArrayList Algorithms",
+      "stem": "Which code correctly removes every String of length less than 3 from an ArrayList<String> words?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "for (int i = words.size() - 1; i >= 0; i--) { if (words.get(i).length() < 3) { words.remove(i); } }"
+        },
+        {
+          "id": "B",
+          "text": "for (String w : words) { if (w.length() < 3) { words.remove(w); } }"
+        },
+        {
+          "id": "C",
+          "text": "for (int i = 0; i < words.size(); i++) { if (words.get(i).length() < 3) { words.remove(i); } }"
+        },
+        {
+          "id": "D",
+          "text": "for (int i = 0; i <= words.size(); i++) { if (words.get(i).length() < 3) { words.remove(i); i--; } }"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Traversing backward means removals don't shift unvisited elements.",
+      "distractors": {
+        "B": "Modifying during an enhanced for throws an exception.",
+        "C": "Skips elements after removals.",
+        "D": "i <= size() goes out of bounds."
+      }
+    },
+    {
+      "id": "u4-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2D Array Traversal",
+      "stem": "What is printed?\n\n```java\nint[][] g = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};\nint sum = 0;\nfor (int i = 0; i < g.length; i++) {\n    sum += g[i][g.length - 1 - i];\n}\nSystem.out.println(sum);\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "15"
+        },
+        {
+          "id": "B",
+          "text": "12"
+        },
+        {
+          "id": "C",
+          "text": "45"
+        },
+        {
+          "id": "D",
+          "text": "18"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Anti-diagonal: 3 + 5 + 7 = 15.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Searching",
+      "stem": "Binary search is applied to {2, 5, 8, 12, 16, 23, 38, 56, 72, 91} for the target 23, using mid = (low + high) / 2 with low = 0 and high = 9 initially. Which sequence of values is compared with the target?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "16, 56, 23"
+        },
+        {
+          "id": "B",
+          "text": "16, 23"
+        },
+        {
+          "id": "C",
+          "text": "23"
+        },
+        {
+          "id": "D",
+          "text": "16, 38, 23"
+        }
+      ],
+      "answer": "A",
+      "explanation": "low 0, high 9 → mid 4 (16 < 23) → low 5. mid (5 + 9)/2 = 7 (56 > 23) → high 6. mid (5 + 6)/2 = 5 (23): found.",
+      "distractors": {
+        "D": "Uses index 6 instead of 7 for the second midpoint."
+      }
+    },
+    {
+      "id": "u4-frq1",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "2D Array Traversal",
+      "frqType": "Q4 2D Array",
+      "prompt": "A terrain map is stored in an int[][] grid of elevations. A cell is a local peak if its value is strictly greater than every orthogonally adjacent cell (up, down, left, right) that exists. Cells on edges and corners have fewer neighbors.\n\nWrite the static method `countPeaks(int[][] grid)` that returns the number of local peaks. For example, for {{1, 5, 2}, {3, 9, 4}, {8, 2, 7}}, the peaks are 9, 8, and 7, so the method returns 3. Assume grid has at least one row and one column.",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Write countPeaks.",
+          "points": 6
+        }
+      ],
+      "points": 6,
+      "minutes": 22,
+      "rubric": [
+        {
+          "criterion": "1: Traversal",
+          "points": 1,
+          "description": "Nested loops visit every cell with correct bounds (grid.length and grid[0].length or grid[r].length)."
+        },
+        {
+          "criterion": "2: Up/down checks",
+          "points": 1,
+          "description": "Compares with the cell above and below only when those rows exist."
+        },
+        {
+          "criterion": "3: Left/right checks",
+          "points": 1,
+          "description": "Compares with the cell left and right only when those columns exist."
+        },
+        {
+          "criterion": "4: Strict comparison",
+          "points": 1,
+          "description": "Uses strict greater-than for all existing neighbors."
+        },
+        {
+          "criterion": "5: Count",
+          "points": 1,
+          "description": "Increments a counter only when all existing neighbors are smaller."
+        },
+        {
+          "criterion": "6: Return",
+          "points": 1,
+          "description": "Initializes the counter before the loops and returns it."
+        }
+      ],
+      "sampleResponse": "```java\npublic static int countPeaks(int[][] grid) {\n    int count = 0;\n    for (int r = 0; r < grid.length; r++) {\n        for (int c = 0; c < grid[r].length; c++) {\n            int v = grid[r][c];\n            boolean peak = true;\n            if (r > 0 && grid[r - 1][c] >= v) {\n                peak = false;\n            }\n            if (r < grid.length - 1 && grid[r + 1][c] >= v) {\n                peak = false;\n            }\n            if (c > 0 && grid[r][c - 1] >= v) {\n                peak = false;\n            }\n            if (c < grid[r].length - 1 && grid[r][c + 1] >= v) {\n                peak = false;\n            }\n            if (peak) {\n                count++;\n            }\n        }\n    }\n    return count;\n}\n```\n\nEach neighbor check is guarded by a bounds test, and short-circuit evaluation ensures the out-of-range index is never accessed. A cell counts as a peak only if no existing neighbor is greater than or equal to it."
+    }
+  ]
+}

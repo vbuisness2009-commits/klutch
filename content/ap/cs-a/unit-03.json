@@ -1,0 +1,567 @@
+{
+  "number": 3,
+  "title": "Class Creation",
+  "guide": {
+    "summary": "Unit 3 covers designing and writing classes: encapsulation with private instance variables, constructors, accessor and mutator methods, toString, methods with parameters and return values, the this keyword, static variables and methods, variable scope, how parameters are passed, preconditions and postconditions, and the ethical and social implications of programs.",
+    "sections": [
+      {
+        "heading": "Anatomy of a class",
+        "body": "A class declares instance variables (attributes) and methods (behaviors). Instance variables should be private to enforce encapsulation; access them through public methods. A constructor has the class's name and no return type; it initializes instance variables. If no constructor is written, Java supplies a default no-argument constructor. Accessor (getter) methods return values of instance variables; mutator (setter) methods change them, often with validation. A toString method returns a String representation used by System.out.println."
+      },
+      {
+        "heading": "Methods, this, and scope",
+        "body": "A method header lists access, return type, name, and parameters. Local variables and parameters exist only within their method or block. When a parameter has the same name as an instance variable, the parameter shadows it; use this.name to refer to the instance variable. Java passes copies of values: modifying a primitive parameter doesn't affect the caller, but a reference parameter refers to the same object, so mutating that object is visible to the caller (reassigning the parameter is not)."
+      },
+      {
+        "heading": "Static members and design",
+        "body": "Static variables belong to the class and are shared by all instances (e.g., a counter of objects created). Static methods can't access instance variables or call instance methods without an object, and can't use this. Preconditions state what must be true before a method is called; postconditions state what is true after. Good design decomposes problems into smaller methods. Programs have ethical and social consequences, including privacy, bias in data and algorithms, and intellectual property."
+      }
+    ],
+    "keyTakeaways": [
+      "Instance variables private; methods public as needed.",
+      "Constructors initialize state and have no return type.",
+      "this.x refers to the instance variable when shadowed.",
+      "Primitives are passed by value; object references are copied.",
+      "Static variables are shared across all objects.",
+      "Static methods can't use instance variables directly."
+    ],
+    "commonMistakes": [
+      "Writing a return type on a constructor (it becomes a regular method).",
+      "Assigning a parameter to itself (x = x) instead of this.x = x.",
+      "Declaring a local variable that shadows an instance variable in the constructor.",
+      "Accessing private variables of another class directly.",
+      "Calling an instance method from a static method without an object."
+    ],
+    "examTips": [
+      "FRQ Q2: match the specified method names, parameter types, and return types exactly.",
+      "Trace object state after each method call in MCQs.",
+      "Watch for constructors that accidentally declare local variables.",
+      "For static counters, remember every constructor call updates the shared value."
+    ],
+    "cramSheet": "**Class:** private fields · public constructor · accessors · mutators · toString\n\n**Constructor:** same name, no return type · initializes fields\n\n**this:** this.x = x for shadowed names\n\n**Passing:** primitives copied · references copied (object shared)\n\n**Static:** shared by class · static methods: no this, no instance fields\n\n**Design:** pre/postconditions · decomposition · ethics (privacy, bias)"
+  },
+  "vocab": [
+    {
+      "term": "Encapsulation",
+      "definition": "Hiding an object's data with private access and exposing it through methods."
+    },
+    {
+      "term": "Instance variable",
+      "definition": "A variable that belongs to each object of a class."
+    },
+    {
+      "term": "Constructor",
+      "definition": "Code that runs when an object is created to initialize it."
+    },
+    {
+      "term": "Accessor method",
+      "definition": "A method that returns the value of an instance variable."
+    },
+    {
+      "term": "Mutator method",
+      "definition": "A method that changes the value of an instance variable."
+    },
+    {
+      "term": "this",
+      "definition": "A reference to the current object."
+    },
+    {
+      "term": "Shadowing",
+      "definition": "A local variable or parameter hiding an instance variable with the same name."
+    },
+    {
+      "term": "Static variable",
+      "definition": "A variable shared by all instances of a class."
+    },
+    {
+      "term": "Scope",
+      "definition": "The region of code where a variable can be used."
+    },
+    {
+      "term": "Precondition",
+      "definition": "A condition that must be true before a method is called."
+    },
+    {
+      "term": "Postcondition",
+      "definition": "A condition guaranteed to be true after a method executes."
+    },
+    {
+      "term": "Pass by value",
+      "definition": "Java copies argument values into parameters; for objects, the reference is copied."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Anatomy of a Class",
+      "stem": "Which is the best reason to make instance variables private?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "To prevent other classes from directly changing an object's state, enforcing encapsulation"
+        },
+        {
+          "id": "B",
+          "text": "To make the program run faster"
+        },
+        {
+          "id": "C",
+          "text": "To allow static methods to use them"
+        },
+        {
+          "id": "D",
+          "text": "Because constructors require it"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Private access ensures changes go through methods that can validate them.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Constructors",
+      "stimulus": "```java\npublic class Dog {\n    private String name;\n    public Dog(String name) {\n        name = name;\n    }\n    public String getName() { return name; }\n}\n```",
+      "stem": "What is printed by `System.out.println(new Dog(\"Rex\").getName());`?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Rex"
+        },
+        {
+          "id": "B",
+          "text": "null"
+        },
+        {
+          "id": "C",
+          "text": "An empty line"
+        },
+        {
+          "id": "D",
+          "text": "The code doesn't compile."
+        }
+      ],
+      "answer": "B",
+      "explanation": "name = name assigns the parameter to itself; the instance variable keeps its default value null. It should be this.name = name.",
+      "distractors": {
+        "A": "Assumes the assignment reaches the instance variable."
+      }
+    },
+    {
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Static Variables and Methods",
+      "stimulus": "```java\npublic class Ticket {\n    private static int count = 0;\n    private int id;\n    public Ticket() {\n        count++;\n        id = count;\n    }\n    public int getId() { return id; }\n}\n```",
+      "stem": "After `Ticket a = new Ticket(); Ticket b = new Ticket(); Ticket c = new Ticket();`, what does b.getId() return?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "answer": "B",
+      "explanation": "count is shared; b is the second ticket created.",
+      "distractors": {
+        "C": "Thinks id updates with count."
+      }
+    },
+    {
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Methods: Passing and Returning References",
+      "stem": "Which statement about a constructor is true?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It has the same name as the class and no return type."
+        },
+        {
+          "id": "B",
+          "text": "It must return the new object with a return statement."
+        },
+        {
+          "id": "C",
+          "text": "It must be static."
+        },
+        {
+          "id": "D",
+          "text": "Each class can have only one constructor."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Constructors have no return type; classes can overload constructors.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Methods: Passing and Returning References",
+      "stem": "What is printed?\n\n```java\npublic static void change(int x) {\n    x = x + 5;\n}\n// in main:\nint n = 10;\nchange(n);\nSystem.out.println(n);\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10"
+        },
+        {
+          "id": "B",
+          "text": "15"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "The code doesn't compile."
+        }
+      ],
+      "answer": "A",
+      "explanation": "The method receives a copy of n; changing x doesn't affect n.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Methods: Passing and Returning References",
+      "stimulus": "```java\npublic class Box {\n    private int value;\n    public Box(int v) { value = v; }\n    public void setValue(int v) { value = v; }\n    public int getValue() { return value; }\n}\n\npublic static void modify(Box b) {\n    b.setValue(99);\n    b = new Box(7);\n    b.setValue(42);\n}\n```",
+      "stem": "What is printed by `Box x = new Box(1); modify(x); System.out.println(x.getValue());`?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "99"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "42"
+        },
+        {
+          "id": "D",
+          "text": "7"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The method mutates x's object to 99, then reassigns its local copy of the reference to a new Box; x still refers to the original.",
+      "distractors": {
+        "C": "Thinks reassigning the parameter changes x."
+      }
+    },
+    {
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Static Variables and Methods",
+      "stimulus": "```java\npublic class Account {\n    private double balance;\n    private static double rate = 0.02;\n    public static double getRate() { return balance * rate; }\n}\n```",
+      "stem": "Why does this class fail to compile?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A static method cannot access the instance variable balance."
+        },
+        {
+          "id": "B",
+          "text": "Static variables must be public."
+        },
+        {
+          "id": "C",
+          "text": "rate must be an int."
+        },
+        {
+          "id": "D",
+          "text": "The class has no constructor."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Static methods have no object, so instance variables aren't available.",
+      "distractors": {
+        "D": "A default constructor is supplied automatically."
+      }
+    },
+    {
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Scope and Access",
+      "stimulus": "```java\npublic class Point {\n    private int x;\n    public Point(int startX) {\n        int x = startX;\n    }\n    public int getX() { return x; }\n}\n```",
+      "stem": "What does new Point(5).getX() return?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "5"
+        },
+        {
+          "id": "C",
+          "text": "null"
+        },
+        {
+          "id": "D",
+          "text": "The code doesn't compile."
+        }
+      ],
+      "answer": "A",
+      "explanation": "The constructor declares a local x that shadows the instance variable; the field stays at its default 0.",
+      "distractors": {
+        "B": "Misses the local declaration."
+      }
+    },
+    {
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Mutator Methods",
+      "stimulus": "```java\npublic class Thermostat {\n    private int temp;\n    public Thermostat() { temp = 68; }\n    public void adjust(int delta) {\n        if (temp + delta >= 60 && temp + delta <= 80) {\n            temp += delta;\n        }\n    }\n    public int getTemp() { return temp; }\n}\n```",
+      "stem": "What is printed?\n\n```java\nThermostat t = new Thermostat();\nt.adjust(10);\nt.adjust(5);\nt.adjust(-20);\nSystem.out.println(t.getTemp());\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "63"
+        },
+        {
+          "id": "B",
+          "text": "58"
+        },
+        {
+          "id": "C",
+          "text": "78"
+        },
+        {
+          "id": "D",
+          "text": "60"
+        }
+      ],
+      "answer": "C",
+      "explanation": "68 → 78; +5 would be 83 (rejected); −20 would be 58 (rejected). Remains 78.",
+      "distractors": {
+        "A": "Applies all changes."
+      }
+    },
+    {
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Writing Methods",
+      "stem": "A class Student has a private int field credits. Which method correctly adds earned credits only when the argument is positive?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "public void addCredits(int c) { if (c > 0) { credits += c; } }"
+        },
+        {
+          "id": "B",
+          "text": "public int addCredits(int c) { credits + c; }"
+        },
+        {
+          "id": "C",
+          "text": "private void addCredits(int c) { credits = c; }"
+        },
+        {
+          "id": "D",
+          "text": "public static void addCredits(int c) { credits += c; }"
+        }
+      ],
+      "answer": "A",
+      "explanation": "B doesn't compile (no assignment or return), C replaces instead of adding and is private, D is static and can't access credits.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "this Keyword",
+      "stimulus": "```java\npublic class Pair {\n    private int a;\n    private int b;\n    public Pair(int a, int b) {\n        this.a = b;\n        b = a;\n    }\n    public String toString() { return a + \",\" + b; }\n}\n```",
+      "stem": "What is printed by `System.out.println(new Pair(3, 8));`?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "8,0"
+        },
+        {
+          "id": "B",
+          "text": "8,3"
+        },
+        {
+          "id": "C",
+          "text": "3,8"
+        },
+        {
+          "id": "D",
+          "text": "0,0"
+        }
+      ],
+      "answer": "A",
+      "explanation": "this.a = b sets the field a to 8. b = a assigns the parameter b the value of parameter a (3); the field b stays 0.",
+      "distractors": {
+        "B": "Thinks b = a sets the field."
+      }
+    },
+    {
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Static Variables and Methods",
+      "stimulus": "```java\npublic class Light {\n    private static int onCount = 0;\n    private boolean on;\n    public void toggle() {\n        on = !on;\n        if (on) { onCount++; } else { onCount--; }\n    }\n    public static int getOnCount() { return onCount; }\n}\n```",
+      "stem": "What is printed?\n\n```java\nLight p = new Light();\nLight q = new Light();\np.toggle();\nq.toggle();\np.toggle();\nq.toggle();\nq.toggle();\nSystem.out.println(Light.getOnCount());\n```",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "answer": "A",
+      "explanation": "p: on (+1), off (−1). q: on (+1), off (−1), on (+1). Net 1.",
+      "distractors": {
+        "C": "Counts each toggle to 'on' without decrements."
+      }
+    },
+    {
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Writing Methods",
+      "stimulus": "```java\npublic class Fraction {\n    private int num;\n    private int den;\n    public Fraction(int n, int d) { num = n; den = d; }\n    public Fraction times(Fraction other) {\n        return new Fraction(num * other.num, den * other.den);\n    }\n    public String toString() { return num + \"/\" + den; }\n}\n```",
+      "stem": "Which is true about the times method?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It compiles, because a method can access private fields of another object of the same class."
+        },
+        {
+          "id": "B",
+          "text": "It doesn't compile, because other.num is private."
+        },
+        {
+          "id": "C",
+          "text": "It modifies the calling object."
+        },
+        {
+          "id": "D",
+          "text": "It must be static to create a new Fraction."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Private access is per class, not per object.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Ethical and Social Implications of Computing",
+      "stem": "A loan-approval program is trained on historical data in which certain neighborhoods were denied loans unfairly. Which concern is most directly raised?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The program may reproduce past bias, unfairly denying loans to applicants from those neighborhoods."
+        },
+        {
+          "id": "B",
+          "text": "The program will run too slowly."
+        },
+        {
+          "id": "C",
+          "text": "The program violates encapsulation."
+        },
+        {
+          "id": "D",
+          "text": "The program cannot be written in Java."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Algorithms trained on biased data can perpetuate discrimination.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Writing Classes",
+      "frqType": "Q2 Class Design",
+      "prompt": "Write the complete class `GymMembership`. A membership has a member name and a number of visits remaining.\n\n- The constructor takes the member's name and an initial number of visits.\n- `getName()` returns the name.\n- `getVisitsLeft()` returns the visits remaining.\n- `checkIn()` returns true and decreases visits by 1 if at least one visit remains; otherwise it returns false and changes nothing.\n- `addVisits(int n)` adds n visits if n is positive. In addition, every time the total visits purchased through addVisits reaches a new multiple of 10 (10, 20, 30, …), the member receives 1 bonus visit.\n\nExample: a membership created with 2 visits; addVisits(6) → 8 visits left (6 purchased total); addVisits(5) → 11 purchased total, crossing 10, so 8 + 5 + 1 = 14 visits left.",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Write the GymMembership class.",
+          "points": 7
+        }
+      ],
+      "points": 7,
+      "minutes": 22,
+      "rubric": [
+        {
+          "criterion": "1: Header and fields",
+          "points": 1,
+          "description": "public class GymMembership with private instance variables for name, visits left, and total purchased."
+        },
+        {
+          "criterion": "2: Constructor",
+          "points": 1,
+          "description": "Constructor with String and int parameters initializes name and visits (and purchased to 0)."
+        },
+        {
+          "criterion": "3: Accessors",
+          "points": 1,
+          "description": "getName and getVisitsLeft return the correct fields."
+        },
+        {
+          "criterion": "4: checkIn condition",
+          "points": 1,
+          "description": "Checks visits > 0 before decrementing."
+        },
+        {
+          "criterion": "5: checkIn result",
+          "points": 1,
+          "description": "Decrements and returns true; otherwise returns false without change."
+        },
+        {
+          "criterion": "6: addVisits",
+          "points": 1,
+          "description": "Adds n to visits and to the purchased total only when n > 0."
+        },
+        {
+          "criterion": "7: Bonus",
+          "points": 1,
+          "description": "Awards one bonus visit for each new multiple of 10 crossed (e.g., compares purchased / 10 before and after)."
+        }
+      ],
+      "sampleResponse": "```java\npublic class GymMembership {\n    private String name;\n    private int visitsLeft;\n    private int purchased;\n\n    public GymMembership(String name, int visits) {\n        this.name = name;\n        visitsLeft = visits;\n        purchased = 0;\n    }\n\n    public String getName() {\n        return name;\n    }\n\n    public int getVisitsLeft() {\n        return visitsLeft;\n    }\n\n    public boolean checkIn() {\n        if (visitsLeft > 0) {\n            visitsLeft--;\n            return true;\n        }\n        return false;\n    }\n\n    public void addVisits(int n) {\n        if (n > 0) {\n            int before = purchased / 10;\n            purchased += n;\n            int after = purchased / 10;\n            visitsLeft += n + (after - before);\n        }\n    }\n}\n```\n\nThe bonus counts how many new multiples of 10 the purchased total crosses: integer division gives the number of complete tens before and after the purchase. In the example, 6 / 10 = 0 and 11 / 10 = 1, so one bonus visit is added."
+    }
+  ]
+}

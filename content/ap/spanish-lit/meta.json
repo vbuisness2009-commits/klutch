@@ -1,0 +1,63 @@
+{
+  "slug": "spanish-lit",
+  "name": "AP Spanish Literature and Culture",
+  "lastVerified": "2026-10",
+  "overview": "AP Spanish Literature and Culture is a college-level introduction to literature written in Spanish, from medieval Spain to contemporary U.S. Latino and Spanish writers. Students read a required list of works across genres, periods, and regions, analyze them in their cultural and historical contexts, and write literary arguments in Spanish. The course is taught and tested entirely in Spanish.",
+  "examMode": "Fully digital in Bluebook from May 2027, with no change to exam structure",
+  "totalMinutes": 180,
+  "sections": [
+    { "name": "Section I, Part A", "questionType": "Multiple choice: audio texts", "count": 15, "minutes": 20, "weight": "10%", "notes": "Three sets based on audio: an interview with an author, a recited poem not on the required list (played twice), and a presentation on a literary topic." },
+    { "name": "Section I, Part B", "questionType": "Multiple choice: reading", "count": 50, "minutes": 60, "weight": "40%", "notes": "Six sets of 7–10 questions on texts from different genres, periods, and regions, including required works, non-required texts, a passage of literary criticism, and one paired set." },
+    { "name": "Section II", "questionType": "Free response", "count": 4, "minutes": 100, "weight": "50%", "notes": "Two short-answer questions (about 15 minutes each): Text Explanation and Text and Art Comparison. Two essays (about 35 minutes each): Single Text Analysis and Text Comparison (one required and one non-required excerpt)." }
+  ],
+  "units": [
+    { "number": 1, "title": "La época medieval" },
+    { "number": 2, "title": "El siglo XVI" },
+    { "number": 3, "title": "El siglo XVII" },
+    { "number": 4, "title": "La literatura romántica, realista y naturalista" },
+    { "number": 5, "title": "La Generación del 98 y el Modernismo" },
+    { "number": 6, "title": "Teatro y poesía del siglo XX" },
+    { "number": 7, "title": "El Boom latinoamericano" },
+    { "number": 8, "title": "Escritores contemporáneos de Estados Unidos y España" }
+  ],
+  "skills": [
+    { "name": "Interpretive reading and listening", "description": "Understand literary and critical texts and audio in Spanish." },
+    { "name": "Literary analysis", "description": "Explain how literary devices, structure, and genre features create meaning." },
+    { "name": "Contextual analysis", "description": "Connect texts to their historical, social, and cultural contexts." },
+    { "name": "Comparison", "description": "Compare texts, and texts with art, on theme and technique." },
+    { "name": "Argumentation in Spanish", "description": "Write organized literary arguments with textual evidence in Spanish." }
+  ],
+  "scoring": {
+    "summary": "Multiple choice is 50% (audio 10%, reading 40%); the four free responses are 50%. Short answers are scored on a small holistic scale and essays on a larger one, rewarding a clear thesis, textual evidence, analysis of devices and context, and accurate Spanish. Klutch's practice tasks use 3-point (short answer) and 5-point (essay) practice scales."
+  },
+  "frqTypes": [
+    { "name": "Text Explanation", "points": 3, "howScored": "Klutch practice scale: identifies the work and author, explains how the excerpt develops the theme, and connects it to the work as a whole and its context, in accurate Spanish." },
+    { "name": "Text and Art Comparison", "points": 3, "howScored": "Klutch practice scale: compares how the text and the artwork represent a theme, with specific details from both and a connection to a literary or artistic context." },
+    { "name": "Single Text Analysis", "points": 5, "howScored": "Klutch practice scale: a clear thesis, analysis of how genre features and devices develop meaning, relevant historical/cultural context, specific textual evidence, and organized, accurate Spanish." },
+    { "name": "Text Comparison", "points": 5, "howScored": "Klutch practice scale: a comparative thesis, analysis of devices in both texts, specific evidence from each, and organized, accurate Spanish." }
+  ],
+  "strategy": [
+    "Know every required work's author, period, genre, region, and main themes; many questions start from recognizing a passage.",
+    "Learn literary terms in Spanish (hipérbaton, encabalgamiento, anáfora, narrador omnisciente, realismo mágico) and use them precisely.",
+    "In essays, state a thesis in the first paragraph that answers the prompt, then support each paragraph with specific references.",
+    "Always connect a device to its effect on meaning; naming a device earns little by itself.",
+    "For the art comparison, describe concrete visual details (color, composition, figures) and tie them to the theme.",
+    "Pace yourself: about 15 minutes per short answer and 35 per essay."
+  ],
+  "pitfalls": [
+    "Retelling the plot instead of analyzing.",
+    "Mixing up works with similar themes (e.g., carpe diem sonnets by Garcilaso and Góngora).",
+    "Ignoring historical context, such as the Mexican Revolution in Rulfo or the Rosas dictatorship in Echeverría.",
+    "Writing in English or switching languages.",
+    "Comparing only similarities in Text Comparison."
+  ],
+  "sources": [
+    { "title": "AP Spanish Literature and Culture Exam (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-spanish-literature-and-culture/exam" },
+    { "title": "AP Spanish Literature and Culture Course (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-spanish-literature-and-culture/course" }
+  ],
+  "caveats": [
+    "Klutch does not reproduce copyrighted literary texts. Practice passages are original writing in the style of each period, and required works are summarized rather than quoted.",
+    "Check the official required reading list in the Course and Exam Description; Klutch's unit placement of works follows the CED's chronological units but may differ slightly from your teacher's.",
+    "Point values on practice tasks are Klutch practice scales."
+  ]
+}

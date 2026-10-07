@@ -1,0 +1,85 @@
+{
+  "slug": "african-american-studies",
+  "name": "AP African American Studies",
+  "lastVerified": "2026-10",
+  "overview": "AP African American Studies is an interdisciplinary course drawing on history, literature, the arts, political science, and geography. It traces the African diaspora from early African societies through enslavement, resistance, emancipation, and the movements and debates that shaped Black life in the United States, with heavy emphasis on analyzing primary and secondary sources, images, and data.",
+  "examMode": "Fully digital in Bluebook (all answers typed in the app)",
+  "totalMinutes": 165,
+  "sections": [
+    {
+      "name": "Section I",
+      "questionType": "Multiple choice",
+      "count": 60,
+      "minutes": 70,
+      "weight": "60%",
+      "notes": "Mostly sets of 3–4 questions tied to one or two sources (texts, images, maps, data). Four answer choices (A–D)."
+    },
+    {
+      "name": "Section I, Part B",
+      "questionType": "Individual Student Project validation",
+      "count": 1,
+      "minutes": 10,
+      "weight": "1.5%",
+      "notes": "One written question about the research project you completed during the course, scored on a 2-point rubric."
+    },
+    {
+      "name": "Section II",
+      "questionType": "Free response",
+      "count": 4,
+      "minutes": 85,
+      "weight": "30%",
+      "notes": "Three short-answer questions (4, 3, and 3 points) and one document-based question (7 points)."
+    },
+    {
+      "name": "Individual Student Project",
+      "questionType": "Course project",
+      "count": 1,
+      "minutes": 0,
+      "weight": "8.5%",
+      "notes": "A research project completed during the year and scored before exam day."
+    }
+  ],
+  "units": [
+    { "number": 1, "title": "Origins of the African Diaspora" },
+    { "number": 2, "title": "Freedom, Enslavement, and Resistance" },
+    { "number": 3, "title": "The Practice of Freedom" },
+    { "number": 4, "title": "Movements and Debates" }
+  ],
+  "skills": [
+    { "name": "Applying Disciplinary Knowledge", "description": "Explain course concepts, developments, and processes, and connect them to context." },
+    { "name": "Written Source Analysis", "description": "Evaluate written sources, including their claims, perspective, purpose, context, and audience." },
+    { "name": "Data and Visual Analysis", "description": "Interpret images, maps, artworks, and data, and explain what they show about African American experiences." },
+    { "name": "Argumentation", "description": "Develop a claim and support it with evidence from sources and outside knowledge." }
+  ],
+  "scoring": {
+    "summary": "Multiple choice is 60% of the score, the four free-response questions 30%, and the Individual Student Project 10% (8.5% for the project itself plus 1.5% for the exam-day validation question). There is no penalty for wrong answers. College Board converts the weighted composite to a 1–5 score using cut points it does not publish."
+  },
+  "frqTypes": [
+    { "name": "Short-answer question (4 points)", "points": 4, "howScored": "Four parts, 1 point each, usually anchored in a source. Each part asks you to identify, describe, or explain; one or two precise sentences with specific evidence earns the point." },
+    { "name": "Short-answer question (3 points)", "points": 3, "howScored": "Three parts, 1 point each, earned independently. Answer the task verb directly and add one specific piece of evidence." },
+    { "name": "Document-based question (DBQ)", "points": 7, "howScored": "An argument essay built from a set of sources plus outside knowledge. Points go to a defensible claim, use of the documents as evidence, outside evidence, explaining how evidence supports the claim, and analyzing sources' perspective or context. Check the current rubric on AP Central for the exact point breakdown." }
+  ],
+  "strategy": [
+    "Read each source's attribution (author, date, genre, audience) first; many questions turn on why a source was created when it was.",
+    "Know the major debates: Washington vs. Du Bois, integration vs. Black nationalism, nonviolence vs. self-defense, and how Black feminist writers widened them.",
+    "For image questions, describe what is literally shown before interpreting it, then tie it to a specific development.",
+    "On SAQs, answer each part in its own labeled paragraph with a named person, event, text, or date.",
+    "In the DBQ, group the documents by argument rather than summarizing them in order, and add at least one specific piece of outside evidence.",
+    "Budget about 12–15 minutes per SAQ and 40 minutes for the DBQ."
+  ],
+  "pitfalls": [
+    "Treating African history as starting with the slave trade; Unit 1 covers powerful early states and societies.",
+    "Describing enslaved people only as victims and ignoring the many forms of resistance, from everyday acts to revolts and escape.",
+    "Collapsing distinct thinkers into one 'civil rights' view.",
+    "Confusing similar laws and decisions (Plessy vs. Brown; the Civil Rights Act of 1964 vs. the Voting Rights Act of 1965).",
+    "Quoting sources without explaining them."
+  ],
+  "sources": [
+    { "title": "AP African American Studies Exam (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-african-american-studies/exam" },
+    { "title": "AP African American Studies (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-african-american-studies" }
+  ],
+  "caveats": [
+    "The course is new (first full exam in May 2025), and its framework and rubrics have been revised. Klutch has not verified unit weightings, so none are listed.",
+    "The 7-point DBQ rubric breakdown is summarized, not reproduced; check AP Central for the exact rubric."
+  ]
+}

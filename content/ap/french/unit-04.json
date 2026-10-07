@@ -1,0 +1,548 @@
+{
+  "number": 4,
+  "title": "Science and Technology",
+  "guide": {
+    "summary": "This theme explores how science and technology shape francophone societies: energy choices in France, environmental projects in the Sahel, digital life among young people, health innovations, and the ethical debates they raise.",
+    "sections": [
+      {
+        "heading": "Cultural content",
+        "body": "France produces most of its electricity from nuclear power, a choice made after the 1973 oil shock to reduce dependence on imported oil; debates weigh low carbon emissions and stable supply against accident risk and radioactive waste. The Great Green Wall (Grande Muraille verte), launched by the African Union in 2007, aims to restore degraded land across the Sahel from Senegal to Djibouti; results are uneven, and local participation is key. Other topics: Ariane rockets and the European Space Agency launch site in Kourou (French Guiana), the Pasteur Institute, the Minitel as an early French network, Québec's hydroelectric power, mobile money in West Africa, and debates on screen time and digital well-being."
+      },
+      {
+        "heading": "Language focus",
+        "body": "Expressing pros and cons: 'les partisans soulignent que...', 'ses opposants rappellent que...', 'contrairement à', 'en revanche'. Cause and consequence: 'après', 'faute de', 'grâce à', 'c'est pourquoi'. The subjunctive after 'à condition que' and 'pour que'. Reading tables: 'la majorité', 'près de la moitié', 'un tiers', 'seulement', 'deux fois plus'. Vocabulary: la centrale, le réacteur, les déchets, les gaz à effet de serre, l'énergie renouvelable, l'éolien, le solaire, la désertification, le plant, le numérique, les réseaux sociaux."
+      },
+      {
+        "heading": "Exam skills",
+        "body": "Science articles often end with a broader question; identify the author's framing. In tables, distinguish 'tous les jours' from 'parfois', and don't infer causes. In essays on technology, weigh benefits and risks and cite data precisely."
+      }
+    ],
+    "keyTakeaways": [
+      "France: nuclear-heavy electricity since the 1970s.",
+      "Great Green Wall: Sahel restoration, uneven results.",
+      "Read tables precisely.",
+      "Partisans vs opposants structure.",
+      "Faute de / grâce à."
+    ],
+    "commonMistakes": [
+      "Confusing 'faute de' (for lack of) with 'grâce à' (thanks to).",
+      "Overreading tables.",
+      "Assuming the Great Green Wall is a literal wall."
+    ],
+    "examTips": [
+      "Underline numbers and qualifiers.",
+      "Summarize both sides before choosing.",
+      "Use 'en revanche' to contrast."
+    ],
+    "cramSheet": "**Vocab:** centrale · réacteur · déchets · gaz à effet de serre · éolien · solaire · désertification · numérique · réseaux sociaux\n\n**Grammar:** faute de · grâce à · à condition que + subj. · en revanche\n\n**Culture:** nucléaire français (1973) · Grande Muraille verte (2007) · Kourou · Pasteur · mobile money"
+  },
+  "vocab": [
+    {
+      "term": "la centrale nucléaire",
+      "definition": "Nuclear power plant."
+    },
+    {
+      "term": "les déchets (m.)",
+      "definition": "Waste."
+    },
+    {
+      "term": "les gaz à effet de serre",
+      "definition": "Greenhouse gases."
+    },
+    {
+      "term": "l'éolien (m.)",
+      "definition": "Wind power."
+    },
+    {
+      "term": "le solaire",
+      "definition": "Solar power."
+    },
+    {
+      "term": "la désertification",
+      "definition": "Desertification."
+    },
+    {
+      "term": "le plant",
+      "definition": "Seedling."
+    },
+    {
+      "term": "le pâturage",
+      "definition": "Pasture."
+    },
+    {
+      "term": "le numérique",
+      "definition": "Digital technology."
+    },
+    {
+      "term": "faute de",
+      "definition": "For lack of."
+    },
+    {
+      "term": "grâce à",
+      "definition": "Thanks to."
+    },
+    {
+      "term": "le partisan",
+      "definition": "Supporter."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Lecture",
+      "skill": "Interpretive communication",
+      "stimulus": "**Source : article de vulgarisation scientifique** (Texte original écrit par Klutch ; personnes et données fictives.)\n\n**Le nucléaire à la française**\n\nLa France occupe une place à part en Europe : la majorité de son électricité est produite par des centrales nucléaires. Ce choix remonte aux années 1970. Après le choc pétrolier de 1973, le gouvernement a décidé de réduire la dépendance du pays au pétrole importé et a lancé un vaste programme de construction de réacteurs.\n\nLes partisans de cette énergie soulignent qu'elle émet très peu de gaz à effet de serre et qu'elle garantit une production stable, contrairement au vent ou au soleil. Ses opposants rappellent les risques d'accident, illustrés par les catastrophes de Tchernobyl et de Fukushima, ainsi que le problème des déchets radioactifs, qui restent dangereux pendant des milliers d'années.\n\nAujourd'hui, la France cherche un équilibre : prolonger certaines centrales, en construire de nouvelles et développer en même temps l'éolien et le solaire. Le débat, technique en apparence, pose en réalité une question de société : quels risques sommes-nous prêts à accepter pour notre confort et pour le climat ?",
+      "stem": "Pourquoi la France a-t-elle développé le nucléaire dans les années 1970 ?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Pour réduire sa dépendance au pétrole importé après le choc pétrolier"
+        },
+        {
+          "id": "B",
+          "text": "Parce que le charbon était interdit"
+        },
+        {
+          "id": "C",
+          "text": "Pour exporter des réacteurs en Afrique"
+        },
+        {
+          "id": "D",
+          "text": "Parce que le solaire était trop développé"
+        }
+      ],
+      "answer": "A",
+      "explanation": "1973 oil shock.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q02",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Lecture",
+      "skill": "Interpretive communication",
+      "stimulus": "**Source : article de vulgarisation scientifique** (Texte original écrit par Klutch ; personnes et données fictives.)\n\n**Le nucléaire à la française**\n\nLa France occupe une place à part en Europe : la majorité de son électricité est produite par des centrales nucléaires. Ce choix remonte aux années 1970. Après le choc pétrolier de 1973, le gouvernement a décidé de réduire la dépendance du pays au pétrole importé et a lancé un vaste programme de construction de réacteurs.\n\nLes partisans de cette énergie soulignent qu'elle émet très peu de gaz à effet de serre et qu'elle garantit une production stable, contrairement au vent ou au soleil. Ses opposants rappellent les risques d'accident, illustrés par les catastrophes de Tchernobyl et de Fukushima, ainsi que le problème des déchets radioactifs, qui restent dangereux pendant des milliers d'années.\n\nAujourd'hui, la France cherche un équilibre : prolonger certaines centrales, en construire de nouvelles et développer en même temps l'éolien et le solaire. Le débat, technique en apparence, pose en réalité une question de société : quels risques sommes-nous prêts à accepter pour notre confort et pour le climat ?",
+      "stem": "Quel avantage du nucléaire mettent en avant ses partisans ?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Il émet peu de gaz à effet de serre et produit de façon stable"
+        },
+        {
+          "id": "B",
+          "text": "Il ne produit aucun déchet"
+        },
+        {
+          "id": "C",
+          "text": "Il est sans aucun risque"
+        },
+        {
+          "id": "D",
+          "text": "Il dépend du vent"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Low emissions, stability.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q03",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Lecture",
+      "skill": "Interpretive communication",
+      "stimulus": "**Source : article de vulgarisation scientifique** (Texte original écrit par Klutch ; personnes et données fictives.)\n\n**Le nucléaire à la française**\n\nLa France occupe une place à part en Europe : la majorité de son électricité est produite par des centrales nucléaires. Ce choix remonte aux années 1970. Après le choc pétrolier de 1973, le gouvernement a décidé de réduire la dépendance du pays au pétrole importé et a lancé un vaste programme de construction de réacteurs.\n\nLes partisans de cette énergie soulignent qu'elle émet très peu de gaz à effet de serre et qu'elle garantit une production stable, contrairement au vent ou au soleil. Ses opposants rappellent les risques d'accident, illustrés par les catastrophes de Tchernobyl et de Fukushima, ainsi que le problème des déchets radioactifs, qui restent dangereux pendant des milliers d'années.\n\nAujourd'hui, la France cherche un équilibre : prolonger certaines centrales, en construire de nouvelles et développer en même temps l'éolien et le solaire. Le débat, technique en apparence, pose en réalité une question de société : quels risques sommes-nous prêts à accepter pour notre confort et pour le climat ?",
+      "stem": "Quels inconvénients les opposants soulignent-ils ?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Les risques d'accident et les déchets radioactifs durables"
+        },
+        {
+          "id": "B",
+          "text": "Le coût du pétrole"
+        },
+        {
+          "id": "C",
+          "text": "Le manque de vent"
+        },
+        {
+          "id": "D",
+          "text": "La pollution des rivières par les éoliennes"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Accidents and waste.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q04",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Lecture",
+      "skill": "Interpretive communication",
+      "stimulus": "**Source : article de vulgarisation scientifique** (Texte original écrit par Klutch ; personnes et données fictives.)\n\n**Le nucléaire à la française**\n\nLa France occupe une place à part en Europe : la majorité de son électricité est produite par des centrales nucléaires. Ce choix remonte aux années 1970. Après le choc pétrolier de 1973, le gouvernement a décidé de réduire la dépendance du pays au pétrole importé et a lancé un vaste programme de construction de réacteurs.\n\nLes partisans de cette énergie soulignent qu'elle émet très peu de gaz à effet de serre et qu'elle garantit une production stable, contrairement au vent ou au soleil. Ses opposants rappellent les risques d'accident, illustrés par les catastrophes de Tchernobyl et de Fukushima, ainsi que le problème des déchets radioactifs, qui restent dangereux pendant des milliers d'années.\n\nAujourd'hui, la France cherche un équilibre : prolonger certaines centrales, en construire de nouvelles et développer en même temps l'éolien et le solaire. Le débat, technique en apparence, pose en réalité une question de société : quels risques sommes-nous prêts à accepter pour notre confort et pour le climat ?",
+      "stem": "Comment l'auteur présente-t-il le débat dans la conclusion ?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Comme une question de société sur les risques acceptables, et pas seulement technique"
+        },
+        {
+          "id": "B",
+          "text": "Comme un débat déjà résolu"
+        },
+        {
+          "id": "C",
+          "text": "Comme un sujet sans importance"
+        },
+        {
+          "id": "D",
+          "text": "Comme une question uniquement économique"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Final sentence.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q05",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Écoute",
+      "skill": "Interpretive communication",
+      "stimulus": "**Source audio (transcription) : reportage** (Texte original écrit par Klutch ; personnes et données fictives.)\n\nJOURNALISTE : Au Sénégal, nous sommes sur le tracé de la Grande Muraille verte, un projet lancé par l'Union africaine pour freiner l'avancée du désert dans le Sahel. Ousmane Diallo, vous êtes agronome. En quoi consiste ce projet ?\nOUSMANE DIALLO : L'idée de départ était de planter une bande d'arbres d'un bout à l'autre du continent, du Sénégal à Djibouti. Aujourd'hui, on parle plutôt d'une mosaïque : des forêts, mais aussi des jardins, des puits, des pâturages restaurés.\nJOURNALISTE : Les résultats sont-ils à la hauteur ?\nOUSMANE DIALLO : Ils sont inégaux. Dans certaines zones, les arbres ont bien poussé et les femmes cultivent des légumes qu'elles vendent au marché. Ailleurs, faute d'eau ou de suivi, beaucoup de jeunes plants sont morts. Le plus important, c'est d'impliquer les habitants : un arbre que personne ne protège ne survit pas.",
+      "stem": "Quel est l'objectif de la Grande Muraille verte ?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Freiner l'avancée du désert dans le Sahel"
+        },
+        {
+          "id": "B",
+          "text": "Construire un mur de béton entre les pays"
+        },
+        {
+          "id": "C",
+          "text": "Créer une autoroute"
+        },
+        {
+          "id": "D",
+          "text": "Protéger les côtes contre la mer"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Stated.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Écoute",
+      "skill": "Interpretive communication",
+      "stimulus": "**Source audio (transcription) : reportage** (Texte original écrit par Klutch ; personnes et données fictives.)\n\nJOURNALISTE : Au Sénégal, nous sommes sur le tracé de la Grande Muraille verte, un projet lancé par l'Union africaine pour freiner l'avancée du désert dans le Sahel. Ousmane Diallo, vous êtes agronome. En quoi consiste ce projet ?\nOUSMANE DIALLO : L'idée de départ était de planter une bande d'arbres d'un bout à l'autre du continent, du Sénégal à Djibouti. Aujourd'hui, on parle plutôt d'une mosaïque : des forêts, mais aussi des jardins, des puits, des pâturages restaurés.\nJOURNALISTE : Les résultats sont-ils à la hauteur ?\nOUSMANE DIALLO : Ils sont inégaux. Dans certaines zones, les arbres ont bien poussé et les femmes cultivent des légumes qu'elles vendent au marché. Ailleurs, faute d'eau ou de suivi, beaucoup de jeunes plants sont morts. Le plus important, c'est d'impliquer les habitants : un arbre que personne ne protège ne survit pas.",
+      "stem": "Comment le projet a-t-il évolué, selon M. Diallo ?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "D'une simple bande d'arbres vers une mosaïque de forêts, jardins, puits et pâturages"
+        },
+        {
+          "id": "B",
+          "text": "Il a été abandonné"
+        },
+        {
+          "id": "C",
+          "text": "Il se limite maintenant au Sénégal"
+        },
+        {
+          "id": "D",
+          "text": "Il est devenu un projet minier"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Mosaic approach.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Écoute",
+      "skill": "Interpretive communication",
+      "stimulus": "**Source audio (transcription) : reportage** (Texte original écrit par Klutch ; personnes et données fictives.)\n\nJOURNALISTE : Au Sénégal, nous sommes sur le tracé de la Grande Muraille verte, un projet lancé par l'Union africaine pour freiner l'avancée du désert dans le Sahel. Ousmane Diallo, vous êtes agronome. En quoi consiste ce projet ?\nOUSMANE DIALLO : L'idée de départ était de planter une bande d'arbres d'un bout à l'autre du continent, du Sénégal à Djibouti. Aujourd'hui, on parle plutôt d'une mosaïque : des forêts, mais aussi des jardins, des puits, des pâturages restaurés.\nJOURNALISTE : Les résultats sont-ils à la hauteur ?\nOUSMANE DIALLO : Ils sont inégaux. Dans certaines zones, les arbres ont bien poussé et les femmes cultivent des légumes qu'elles vendent au marché. Ailleurs, faute d'eau ou de suivi, beaucoup de jeunes plants sont morts. Le plus important, c'est d'impliquer les habitants : un arbre que personne ne protège ne survit pas.",
+      "stem": "Pourquoi beaucoup de jeunes plants sont-ils morts dans certaines zones ?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Faute d'eau ou de suivi"
+        },
+        {
+          "id": "B",
+          "text": "À cause des inondations"
+        },
+        {
+          "id": "C",
+          "text": "Parce que les habitants les ont vendus"
+        },
+        {
+          "id": "D",
+          "text": "À cause du froid"
+        }
+      ],
+      "answer": "A",
+      "explanation": "'Faute d'eau ou de suivi.'",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q08",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Écoute",
+      "skill": "Interpretive communication",
+      "stimulus": "**Source audio (transcription) : reportage** (Texte original écrit par Klutch ; personnes et données fictives.)\n\nJOURNALISTE : Au Sénégal, nous sommes sur le tracé de la Grande Muraille verte, un projet lancé par l'Union africaine pour freiner l'avancée du désert dans le Sahel. Ousmane Diallo, vous êtes agronome. En quoi consiste ce projet ?\nOUSMANE DIALLO : L'idée de départ était de planter une bande d'arbres d'un bout à l'autre du continent, du Sénégal à Djibouti. Aujourd'hui, on parle plutôt d'une mosaïque : des forêts, mais aussi des jardins, des puits, des pâturages restaurés.\nJOURNALISTE : Les résultats sont-ils à la hauteur ?\nOUSMANE DIALLO : Ils sont inégaux. Dans certaines zones, les arbres ont bien poussé et les femmes cultivent des légumes qu'elles vendent au marché. Ailleurs, faute d'eau ou de suivi, beaucoup de jeunes plants sont morts. Le plus important, c'est d'impliquer les habitants : un arbre que personne ne protège ne survit pas.",
+      "stem": "Quelle est la condition principale du succès, selon l'agronome ?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "L'implication des habitants"
+        },
+        {
+          "id": "B",
+          "text": "L'importation d'arbres européens"
+        },
+        {
+          "id": "C",
+          "text": "L'intervention de l'armée"
+        },
+        {
+          "id": "D",
+          "text": "La construction de barrages"
+        }
+      ],
+      "answer": "A",
+      "explanation": "'Un arbre que personne ne protège...'",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q09",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Tableau",
+      "skill": "Interpretive communication",
+      "stimulus": "**Source : tableau (données fictives)** (Texte original écrit par Klutch ; personnes et données fictives.)\n\n**Usages quotidiens du numérique chez les 15–24 ans (pays X, en % des répondants)**\n\n| Activité | Tous les jours | Parfois | Jamais |\n|---|---|---|---|\n| Réseaux sociaux | 82 % | 15 % | 3 % |\n| Recherches pour les études | 46 % | 48 % | 6 % |\n| Lecture d'actualités en ligne | 31 % | 52 % | 17 % |\n| Création de contenus (vidéos, blogs) | 12 % | 38 % | 50 % |",
+      "stem": "Quelle activité est pratiquée tous les jours par la plus grande proportion des jeunes ?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Les réseaux sociaux"
+        },
+        {
+          "id": "B",
+          "text": "Les recherches pour les études"
+        },
+        {
+          "id": "C",
+          "text": "La lecture d'actualités"
+        },
+        {
+          "id": "D",
+          "text": "La création de contenus"
+        }
+      ],
+      "answer": "A",
+      "explanation": "82 %.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Tableau",
+      "skill": "Interpretive communication",
+      "stimulus": "**Source : tableau (données fictives)** (Texte original écrit par Klutch ; personnes et données fictives.)\n\n**Usages quotidiens du numérique chez les 15–24 ans (pays X, en % des répondants)**\n\n| Activité | Tous les jours | Parfois | Jamais |\n|---|---|---|---|\n| Réseaux sociaux | 82 % | 15 % | 3 % |\n| Recherches pour les études | 46 % | 48 % | 6 % |\n| Lecture d'actualités en ligne | 31 % | 52 % | 17 % |\n| Création de contenus (vidéos, blogs) | 12 % | 38 % | 50 % |",
+      "stem": "Quelle affirmation est correcte ?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "La moitié des répondants ne crée jamais de contenus"
+        },
+        {
+          "id": "B",
+          "text": "La majorité lit les actualités tous les jours"
+        },
+        {
+          "id": "C",
+          "text": "Personne n'utilise jamais les réseaux sociaux"
+        },
+        {
+          "id": "D",
+          "text": "Les recherches pour les études sont quotidiennes pour 82 %"
+        }
+      ],
+      "answer": "A",
+      "explanation": "50 % jamais.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q11",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Tableau",
+      "skill": "Interpretive communication",
+      "stimulus": "**Source : tableau (données fictives)** (Texte original écrit par Klutch ; personnes et données fictives.)\n\n**Usages quotidiens du numérique chez les 15–24 ans (pays X, en % des répondants)**\n\n| Activité | Tous les jours | Parfois | Jamais |\n|---|---|---|---|\n| Réseaux sociaux | 82 % | 15 % | 3 % |\n| Recherches pour les études | 46 % | 48 % | 6 % |\n| Lecture d'actualités en ligne | 31 % | 52 % | 17 % |\n| Création de contenus (vidéos, blogs) | 12 % | 38 % | 50 % |",
+      "stem": "Environ quelle proportion des jeunes fait des recherches pour les études tous les jours ?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Près de la moitié"
+        },
+        {
+          "id": "B",
+          "text": "Plus des trois quarts"
+        },
+        {
+          "id": "C",
+          "text": "Un dixième"
+        },
+        {
+          "id": "D",
+          "text": "La totalité"
+        }
+      ],
+      "answer": "A",
+      "explanation": "46 %.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Tableau",
+      "skill": "Interpretive communication",
+      "stimulus": "**Source : tableau (données fictives)** (Texte original écrit par Klutch ; personnes et données fictives.)\n\n**Usages quotidiens du numérique chez les 15–24 ans (pays X, en % des répondants)**\n\n| Activité | Tous les jours | Parfois | Jamais |\n|---|---|---|---|\n| Réseaux sociaux | 82 % | 15 % | 3 % |\n| Recherches pour les études | 46 % | 48 % | 6 % |\n| Lecture d'actualités en ligne | 31 % | 52 % | 17 % |\n| Création de contenus (vidéos, blogs) | 12 % | 38 % | 50 % |",
+      "stem": "Quelle conclusion ne peut PAS être tirée du tableau ?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Les réseaux sociaux nuisent aux résultats scolaires"
+        },
+        {
+          "id": "B",
+          "text": "Les jeunes utilisent plus souvent les réseaux sociaux qu'ils ne créent de contenus"
+        },
+        {
+          "id": "C",
+          "text": "Une minorité lit les actualités chaque jour"
+        },
+        {
+          "id": "D",
+          "text": "Très peu de jeunes n'utilisent jamais les réseaux sociaux"
+        }
+      ],
+      "answer": "A",
+      "explanation": "No data on grades.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q13",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Comparaison",
+      "skill": "Cultural comparison",
+      "stimulus": "**Source : article de vulgarisation scientifique** (Texte original écrit par Klutch ; personnes et données fictives.)\n\n**Le nucléaire à la française**\n\nLa France occupe une place à part en Europe : la majorité de son électricité est produite par des centrales nucléaires. Ce choix remonte aux années 1970. Après le choc pétrolier de 1973, le gouvernement a décidé de réduire la dépendance du pays au pétrole importé et a lancé un vaste programme de construction de réacteurs.\n\nLes partisans de cette énergie soulignent qu'elle émet très peu de gaz à effet de serre et qu'elle garantit une production stable, contrairement au vent ou au soleil. Ses opposants rappellent les risques d'accident, illustrés par les catastrophes de Tchernobyl et de Fukushima, ainsi que le problème des déchets radioactifs, qui restent dangereux pendant des milliers d'années.\n\nAujourd'hui, la France cherche un équilibre : prolonger certaines centrales, en construire de nouvelles et développer en même temps l'éolien et le solaire. Le débat, technique en apparence, pose en réalité une question de société : quels risques sommes-nous prêts à accepter pour notre confort et pour le climat ?\n\n---\n\n**Source audio (transcription) : reportage** (Texte original écrit par Klutch ; personnes et données fictives.)\n\nJOURNALISTE : Au Sénégal, nous sommes sur le tracé de la Grande Muraille verte, un projet lancé par l'Union africaine pour freiner l'avancée du désert dans le Sahel. Ousmane Diallo, vous êtes agronome. En quoi consiste ce projet ?\nOUSMANE DIALLO : L'idée de départ était de planter une bande d'arbres d'un bout à l'autre du continent, du Sénégal à Djibouti. Aujourd'hui, on parle plutôt d'une mosaïque : des forêts, mais aussi des jardins, des puits, des pâturages restaurés.\nJOURNALISTE : Les résultats sont-ils à la hauteur ?\nOUSMANE DIALLO : Ils sont inégaux. Dans certaines zones, les arbres ont bien poussé et les femmes cultivent des légumes qu'elles vendent au marché. Ailleurs, faute d'eau ou de suivi, beaucoup de jeunes plants sont morts. Le plus important, c'est d'impliquer les habitants : un arbre que personne ne protège ne survit pas.",
+      "stem": "Quel thème commun relie l'article sur le nucléaire et le reportage sur le Sahel ?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "La recherche de solutions face aux défis environnementaux"
+        },
+        {
+          "id": "B",
+          "text": "L'exploration spatiale"
+        },
+        {
+          "id": "C",
+          "text": "Les réseaux sociaux"
+        },
+        {
+          "id": "D",
+          "text": "La mode"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Both address environmental challenges.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Grammaire",
+      "skill": "Presentational communication",
+      "stem": "Complète : « Les arbres survivront à condition que les habitants les ___. »",
+      "choices": [
+        {
+          "id": "A",
+          "text": "protègent"
+        },
+        {
+          "id": "B",
+          "text": "protègeront"
+        },
+        {
+          "id": "C",
+          "text": "protégeaient"
+        },
+        {
+          "id": "D",
+          "text": "ont protégés"
+        }
+      ],
+      "answer": "A",
+      "explanation": "À condition que + subjunctive.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-frq1",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Essai",
+      "frqType": "Argumentative essay",
+      "prompt": "**Sujet : Faut-il limiter l'usage des téléphones portables au lycée ?**\n\nÉcris un essai argumentatif en utilisant les trois sources. Présente ton point de vue, appuie-le sur toutes les sources, identifie chaque source et tiens compte d'autres points de vue.\n\n**Source 1 (résumé d'article) :** Plusieurs pays ont restreint l'usage des portables dans les établissements scolaires ; des enseignants constatent moins de distractions et plus d'échanges entre élèves pendant les pauses.\n\n**Source 2 (tableau, données fictives) :** 82 % des 15–24 ans utilisent les réseaux sociaux tous les jours, mais seulement 46 % font quotidiennement des recherches pour leurs études.\n\n**Source 3 (audio, résumé) :** Une mère explique que le portable lui permet de joindre sa fille en cas d'urgence ; un professeur l'utilise en classe pour des recherches et des exercices de langue.",
+      "points": 5,
+      "minutes": 55,
+      "rubric": [
+        {
+          "criterion": "Thesis and task",
+          "points": 1,
+          "description": "Takes a clear position that answers the question."
+        },
+        {
+          "criterion": "Use of sources",
+          "points": 1,
+          "description": "Uses and cites all sources accurately to support the argument."
+        },
+        {
+          "criterion": "Development",
+          "points": 1,
+          "description": "Develops reasons with explanation and examples; addresses another viewpoint."
+        },
+        {
+          "criterion": "Organization",
+          "points": 1,
+          "description": "Organized paragraphs with effective transitions."
+        },
+        {
+          "criterion": "Language",
+          "points": 1,
+          "description": "Accurate, varied grammar and vocabulary in an appropriate formal register."
+        }
+      ],
+      "sampleResponse": "Le téléphone portable fait partie de la vie quotidienne des lycéens, pour le meilleur et pour le pire. À mon avis, il ne faut pas l'interdire complètement, mais il est nécessaire d'en limiter l'usage à des moments précis et à des fins pédagogiques.\n\nD'une part, l'usage excessif pose un vrai problème. Selon le tableau de la source 2, 82 % des jeunes utilisent les réseaux sociaux tous les jours, alors que moins de la moitié font quotidiennement des recherches pour leurs études. Le portable sert donc surtout au divertissement. De plus, la source 1 indique que, là où les portables ont été restreints, les enseignants observent moins de distractions et davantage d'échanges entre élèves.\n\nD'autre part, une interdiction totale aurait des inconvénients. Dans la source 3, une mère explique que le téléphone lui permet de joindre sa fille en cas d'urgence, et un professeur l'utilise en classe pour faire des recherches et des exercices de langue. Supprimer cet outil priverait les élèves d'une ressource utile.\n\nCertains diront qu'une règle souple est impossible à faire respecter. C'est un risque, mais une règle claire, par exemple ranger les téléphones pendant les cours sauf si le professeur le demande, peut réduire les distractions tout en préservant les usages utiles.\n\nEn conclusion, pour que les élèves apprennent à utiliser la technologie de manière responsable, le lycée doit encadrer le portable plutôt que l'interdire totalement."
+    }
+  ]
+}

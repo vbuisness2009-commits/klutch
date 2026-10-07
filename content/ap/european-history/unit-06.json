@@ -1,0 +1,262 @@
+{
+  "number": 6,
+  "title": "Industrialization and Its Effects",
+  "guide": {
+    "summary": "Unit 6 (c. 1815–c. 1914) covers why industrialization began in Britain, its spread to the Continent, the Second Industrial Revolution, effects on social classes, cities, families, and working conditions, and the responses that followed: liberal reform, Chartism, labor organizing, socialism and Marxism, and public-health measures.",
+    "sections": [
+      {
+        "heading": "Origins and spread",
+        "body": "Britain industrialized first thanks to abundant coal and iron, capital from commerce, colonial markets and raw materials (cotton), an agricultural revolution that increased food and freed labor, a stable government that protected property, and navigable rivers and canals. Innovations in textiles (spinning jenny, water frame, power loom) moved production into factories; James Watt's improved steam engine powered mills, mines, and later railways (Liverpool–Manchester line, 1830). The Continent followed, with Belgium early; German states formed the Zollverein customs union (1834) and later surged. Governments in some states, such as Germany, actively promoted industry. Eastern and southern Europe industrialized later. The Second Industrial Revolution (from about 1870) brought steel (Bessemer process), chemicals, electricity, oil, and new communications (telegraph, telephone), with Germany and the United States becoming leaders."
+      },
+      {
+        "heading": "Social effects",
+        "body": "Rapid urbanization produced overcrowding, pollution, and disease (cholera). Factory work imposed long hours, strict discipline, and dangerous conditions, with heavy use of women's and children's labor. A growing industrial working class and an expanding middle class reshaped society; the middle class embraced respectability, self-help, and the ideal of separate spheres, with men in public work and women in the home (the cult of domesticity). Over the century, real wages and living standards eventually rose for many. Agricultural crises, notably the Irish Famine (1845–1849), caused mass death and emigration."
+      },
+      {
+        "heading": "Responses and reforms",
+        "body": "Luddites destroyed machines they blamed for unemployment. Britain's Factory Act of 1833 limited child labor; further acts restricted women's and children's hours. Public-health reforms (inspired by reformers like Edwin Chadwick) built sewers and clean water systems; Paris was rebuilt under Haussmann. The Chartists demanded universal male suffrage and other democratic reforms. The repeal of the Corn Laws (1846) reflected the influence of free-trade liberals. Labor unions grew, especially later in the century. Classical economists such as Malthus (population pressure) and Ricardo (the 'iron law of wages') offered pessimistic views of workers' prospects."
+      },
+      {
+        "heading": "Socialism and Marxism",
+        "body": "Utopian socialists (Robert Owen, Charles Fourier, Henri de Saint-Simon) proposed cooperative communities and planned societies. Karl Marx and Friedrich Engels (The Communist Manifesto, 1848) argued that history is driven by class struggle, that the proletariat would overthrow the bourgeoisie, and that a classless communist society would follow. Later, revisionist socialists such as Eduard Bernstein argued for achieving socialism gradually through elections and reform, and mass socialist parties grew (e.g., Germany's Social Democratic Party). Anarchists rejected the state altogether."
+      }
+    ],
+    "keyTakeaways": [
+      "Britain's advantages: coal, iron, capital, colonies, agriculture, stability.",
+      "Textiles and steam power led the First Industrial Revolution.",
+      "Second Industrial Revolution: steel, chemicals, electricity, oil.",
+      "Urbanization brought crowding and disease, prompting public-health reform.",
+      "Middle-class ideal of separate spheres.",
+      "Responses ranged from reform and unions to Marxist revolution."
+    ],
+    "commonMistakes": [
+      "Treating industrialization as simultaneous across Europe.",
+      "Equating utopian socialism with Marxism.",
+      "Ignoring government roles in continental industrialization.",
+      "Assuming conditions only worsened throughout the century.",
+      "Confusing Chartism (political reform) with Luddism (machine breaking)."
+    ],
+    "examTips": [
+      "Explain causation for Britain's lead with multiple factors.",
+      "Compare British and German industrialization.",
+      "Use specific reforms (Factory Act 1833, Corn Laws repeal 1846) as evidence.",
+      "Distinguish Marx's revolutionary theory from revisionism."
+    ],
+    "cramSheet": "**Why Britain:** coal, iron, capital, colonies, agriculture, rivers/canals, stable government\n\n**Tech:** jenny · water frame · power loom · Watt steam engine · railways 1830\n\n**Spread:** Belgium · Zollverein 1834 · Germany & U.S. lead 2nd IR (steel, chemicals, electricity, oil)\n\n**Society:** urbanization · cholera · factory discipline · working & middle classes · separate spheres · Irish Famine 1845–49\n\n**Responses:** Luddites · Factory Act 1833 · Chadwick · Haussmann · Chartists · Corn Laws repeal 1846 · unions\n\n**Ideas:** Malthus · Ricardo · utopian socialists · Marx & Engels 1848 · Bernstein revisionism · anarchism"
+  },
+  "vocab": [
+    { "term": "Factory system", "definition": "Production in large workshops using machines, wage labor, and time discipline." },
+    { "term": "Zollverein", "definition": "The German customs union (1834) that lowered internal trade barriers." },
+    { "term": "Second Industrial Revolution", "definition": "Late-19th-century industrial growth based on steel, chemicals, electricity, and oil." },
+    { "term": "Proletariat", "definition": "Marx's term for the industrial working class." },
+    { "term": "Bourgeoisie", "definition": "The middle class that owned capital and means of production." },
+    { "term": "Separate spheres", "definition": "The ideology assigning men to public work and women to the home." },
+    { "term": "Luddites", "definition": "English workers who destroyed machinery they blamed for job losses." },
+    { "term": "Chartism", "definition": "A British working-class movement demanding universal male suffrage and political reform." },
+    { "term": "Corn Laws", "definition": "British tariffs on imported grain, repealed in 1846." },
+    { "term": "Utopian socialism", "definition": "Early socialist plans for cooperative, harmonious communities." },
+    { "term": "Revisionism", "definition": "The view that socialism could be achieved gradually through democratic reform." },
+    { "term": "Iron law of wages", "definition": "Ricardo's theory that wages tend toward subsistence level." }
+  ],
+  "practice": [
+    {
+      "id": "u6-q01", "tier": "Intro", "type": "mcq", "topic": "Origins of Industrialization",
+      "stem": "Which factor contributed most to Britain's early industrialization?",
+      "choices": [
+        { "id": "A", "text": "Abundant coal and iron deposits and capital from overseas trade" },
+        { "id": "B", "text": "A large serf population tied to the land" },
+        { "id": "C", "text": "Strict government control of all industry" },
+        { "id": "D", "text": "Lack of colonial markets" }
+      ],
+      "answer": "A",
+      "explanation": "Natural resources and commercial wealth fueled investment and production.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q02", "tier": "Intro", "type": "mcq", "topic": "Socialism",
+      "stem": "Marx and Engels argued that history is driven primarily by",
+      "choices": [
+        { "id": "A", "text": "class struggle over the means of production" },
+        { "id": "B", "text": "the will of great leaders" },
+        { "id": "C", "text": "religious conflict" },
+        { "id": "D", "text": "national rivalries" }
+      ],
+      "answer": "A",
+      "explanation": "The Communist Manifesto (1848) frames history as class conflict.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q03", "tier": "Intro", "type": "mcq", "topic": "Reforms",
+      "stem": "Britain's Factory Act of 1833 primarily",
+      "choices": [
+        { "id": "A", "text": "restricted child labor in textile factories" },
+        { "id": "B", "text": "established universal male suffrage" },
+        { "id": "C", "text": "repealed the Corn Laws" },
+        { "id": "D", "text": "nationalized the railways" }
+      ],
+      "answer": "A",
+      "explanation": "It limited working hours for children and created inspectors.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q04", "tier": "Intro", "type": "mcq", "topic": "Social Effects",
+      "stem": "The middle-class ideology of 'separate spheres' held that",
+      "choices": [
+        { "id": "A", "text": "men belonged in public work and politics while women belonged in the home" },
+        { "id": "B", "text": "men and women should share factory work equally" },
+        { "id": "C", "text": "the classes should live in separate cities" },
+        { "id": "D", "text": "church and state should be separated" }
+      ],
+      "answer": "A",
+      "explanation": "Also called the cult of domesticity.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q05", "tier": "Exam level", "type": "mcq", "topic": "Spread of Industrialization",
+      "stem": "Compared with Britain, industrialization in the German states differed in that it",
+      "choices": [
+        { "id": "A", "text": "relied more heavily on state support, banks, and tariff unions like the Zollverein" },
+        { "id": "B", "text": "began earlier" },
+        { "id": "C", "text": "was based on cottage industry alone" },
+        { "id": "D", "text": "avoided railways" }
+      ],
+      "answer": "A",
+      "explanation": "Later industrializers used government and investment banks to catch up.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q06", "tier": "Exam level", "type": "mcq", "topic": "Responses",
+      "stem": "The Chartists in 1830s–1840s Britain primarily demanded",
+      "choices": [
+        { "id": "A", "text": "democratic political reforms such as universal male suffrage and the secret ballot" },
+        { "id": "B", "text": "the destruction of machinery" },
+        { "id": "C", "text": "the restoration of absolute monarchy" },
+        { "id": "D", "text": "a communist revolution" }
+      ],
+      "answer": "A",
+      "explanation": "The People's Charter sought political representation for workers.",
+      "distractors": { "B": "Luddites." }
+    },
+    {
+      "id": "u6-q07", "tier": "Exam level", "type": "mcq", "topic": "Urbanization",
+      "stem": "Which development most directly addressed cholera outbreaks in industrial cities?",
+      "choices": [
+        { "id": "A", "text": "Construction of sewers and clean water systems" },
+        { "id": "B", "text": "Repeal of the Corn Laws" },
+        { "id": "C", "text": "The Zollverein" },
+        { "id": "D", "text": "The spinning jenny" }
+      ],
+      "answer": "A",
+      "explanation": "Sanitation reforms reduced waterborne disease.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q08", "tier": "Exam level", "type": "mcq", "topic": "Liberal Economics",
+      "stem": "The repeal of the Corn Laws in 1846 represented a victory for",
+      "choices": [
+        { "id": "A", "text": "industrial and free-trade interests over landed aristocrats" },
+        { "id": "B", "text": "protectionist landowners" },
+        { "id": "C", "text": "Marxist revolutionaries" },
+        { "id": "D", "text": "the Chartists' suffrage demands" }
+      ],
+      "answer": "A",
+      "explanation": "Cheaper grain benefited manufacturers and workers, not landlords.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q09", "tier": "Exam level", "type": "mcq", "topic": "Second Industrial Revolution",
+      "stem": "Which innovation is most closely associated with the Second Industrial Revolution?",
+      "choices": [
+        { "id": "A", "text": "Mass production of steel through the Bessemer process" },
+        { "id": "B", "text": "The spinning jenny" },
+        { "id": "C", "text": "The water frame" },
+        { "id": "D", "text": "The caravel" }
+      ],
+      "answer": "A",
+      "explanation": "Cheap steel transformed construction, railways, and machinery after 1850s–1870s.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q10", "tier": "Exam level", "type": "mcq", "topic": "Social Effects",
+      "stem": "The Irish Famine (1845–1849) resulted most directly in",
+      "choices": [
+        { "id": "A", "text": "mass death and large-scale emigration, especially to Britain and the United States" },
+        { "id": "B", "text": "Irish independence" },
+        { "id": "C", "text": "rapid Irish industrialization" },
+        { "id": "D", "text": "the end of British rule in India" }
+      ],
+      "answer": "A",
+      "explanation": "Potato blight and British policy contributed to about a million deaths and huge emigration.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q11", "tier": "Hardest", "type": "mcq", "topic": "Socialism",
+      "stem": "Eduard Bernstein's revisionism differed from orthodox Marxism by arguing that",
+      "choices": [
+        { "id": "A", "text": "socialism could be achieved gradually through democratic politics and reform rather than violent revolution" },
+        { "id": "B", "text": "capitalism would never change" },
+        { "id": "C", "text": "the state should be abolished immediately" },
+        { "id": "D", "text": "workers should support absolute monarchy" }
+      ],
+      "answer": "A",
+      "explanation": "Revisionists worked through parliaments and unions.",
+      "distractors": { "C": "Anarchism." }
+    },
+    {
+      "id": "u6-q12", "tier": "Hardest", "type": "mcq", "topic": "Responses",
+      "stem": "Malthus and Ricardo's economic ideas were often used in the early 19th century to argue that",
+      "choices": [
+        { "id": "A", "text": "efforts to raise workers' wages would ultimately fail because of population growth and market forces" },
+        { "id": "B", "text": "governments should guarantee high wages" },
+        { "id": "C", "text": "industrialization would end poverty quickly" },
+        { "id": "D", "text": "agriculture should be collectivized" }
+      ],
+      "answer": "A",
+      "explanation": "Their pessimism supported opposition to poor relief and wage regulation.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q13", "tier": "Hardest", "type": "mcq", "topic": "Social Effects",
+      "stem": "Which statement best describes a change in family life brought about by industrialization in the 19th century?",
+      "choices": [
+        { "id": "A", "text": "Work increasingly moved outside the home, separating household and workplace and reshaping gender roles." },
+        { "id": "B", "text": "Families stopped participating in wage labor." },
+        { "id": "C", "text": "Industrialization ended child labor immediately." },
+        { "id": "D", "text": "Family size increased steadily throughout the century among the middle class." }
+      ],
+      "answer": "A",
+      "explanation": "Factory work separated home and work, reinforcing separate-spheres ideals.",
+      "distractors": { "D": "Middle-class family size declined later in the century." }
+    },
+    {
+      "id": "u6-q14", "tier": "Hardest", "type": "mcq", "topic": "Origins of Industrialization",
+      "stem": "Which change in the 18th century most directly provided a labor force for early factories?",
+      "choices": [
+        { "id": "A", "text": "Enclosure and agricultural improvements that increased food supply and pushed rural people toward wage work" },
+        { "id": "B", "text": "The Congress of Vienna" },
+        { "id": "C", "text": "The Peace of Westphalia" },
+        { "id": "D", "text": "The Continental System" }
+      ],
+      "answer": "A",
+      "explanation": "Population growth and displacement from the land created available workers.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-frq1", "tier": "Exam level", "type": "frq", "topic": "Responses to Industrialization", "frqType": "Short-answer question (SAQ)",
+      "prompt": "Answer (a), (b), and (c).",
+      "parts": [
+        { "label": "a", "prompt": "Describe ONE effect of industrialization on European working-class living conditions in the period 1815–1870.", "points": 1 },
+        { "label": "b", "prompt": "Explain ONE way governments responded to the problems created by industrialization in the period 1815–1914.", "points": 1 },
+        { "label": "c", "prompt": "Explain ONE way an intellectual movement responded to industrialization in the period 1815–1914.", "points": 1 }
+      ],
+      "points": 3,
+      "minutes": 13,
+      "rubric": [
+        { "criterion": "(a)", "points": 1, "description": "E.g., overcrowded housing, cholera epidemics, pollution, long hours, child labor." },
+        { "criterion": "(b)", "points": 1, "description": "E.g., Factory Acts, public-health legislation and sewer construction, Haussmann's Paris, Bismarck's social insurance, expanded suffrage." },
+        { "criterion": "(c)", "points": 1, "description": "E.g., Marxism, utopian socialism, revisionism, Romanticism's critique of industrial society, classical liberal economics." }
+      ],
+      "sampleResponse": "(a) Workers crowded into poorly built housing in rapidly growing cities like Manchester, where lack of sewers and clean water led to deadly cholera outbreaks.\n\n(b) The British government passed the Factory Act of 1833, which limited the working hours of children in textile mills and created inspectors to enforce the rules.\n\n(c) Marx and Engels responded with The Communist Manifesto (1848), arguing that industrial capitalism exploited workers and that the proletariat would eventually overthrow the bourgeoisie and create a classless society."
+    }
+  ]
+}

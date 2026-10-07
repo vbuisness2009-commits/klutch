@@ -1,0 +1,263 @@
+{
+  "number": 2,
+  "title": "Age of Reformation",
+  "guide": {
+    "summary": "Unit 2 (c. 1450–c. 1648) covers the Protestant Reformation (Luther, Calvin, the Radical Reformation, the English Reformation), the Catholic Reformation, the political consequences of religious division, the wars of religion culminating in the Thirty Years' War and the Peace of Westphalia, and social and cultural changes tied to religion.",
+    "sections": [
+      {
+        "heading": "Origins and the Lutheran Reformation",
+        "body": "Long-standing criticism of church abuses (simony, absenteeism, the sale of indulgences) combined with humanist textual scholarship and the printing press. In 1517 Martin Luther posted the Ninety-Five Theses against indulgence sales. Luther taught salvation by faith alone, the authority of Scripture alone, and the priesthood of all believers; he reduced sacraments to baptism and the Eucharist. Excommunicated and declared an outlaw at the Diet of Worms (1521), he was protected by Frederick the Wise of Saxony. German princes adopted Lutheranism partly to gain control over church lands and independence from the emperor. Luther condemned the Peasants' War (1524–25). The Peace of Augsburg (1555) let each prince choose Lutheranism or Catholicism for his territory (cuius regio, eius religio)."
+      },
+      {
+        "heading": "Calvinism, radicals, and England",
+        "body": "John Calvin in Geneva emphasized God's sovereignty and predestination and created a disciplined church community; Calvinism spread to France (Huguenots), the Netherlands, Scotland (Presbyterians under Knox), and among English Puritans. Anabaptists rejected infant baptism and favored separation of church and state; they were persecuted by Catholics and Protestants alike. In England, Henry VIII broke with Rome for dynastic and political reasons; the Act of Supremacy (1534) made the monarch head of the Church of England, and monastery lands were seized. Elizabeth I's settlement established a moderate Protestant church."
+      },
+      {
+        "heading": "The Catholic Reformation",
+        "body": "The Catholic Church responded with internal reform and renewed spirituality. The Council of Trent (1545–1563) reaffirmed traditional doctrine (faith and good works, seven sacraments, transubstantiation, authority of tradition and the pope) while addressing abuses and requiring seminaries to train priests. The Jesuits (founded by Ignatius of Loyola, approved 1540) emphasized education, missionary work, and loyalty to the pope. The Index of Prohibited Books and the Roman Inquisition combated heresy. Baroque art projected Catholic grandeur and emotion."
+      },
+      {
+        "heading": "Wars of religion",
+        "body": "Religion intertwined with dynastic and political rivalry. In France, Catholic–Huguenot conflict included the St. Bartholomew's Day Massacre (1572); Henry IV converted to Catholicism and issued the Edict of Nantes (1598), granting Huguenots limited toleration. Philip II of Spain fought the Dutch Revolt and launched the failed Spanish Armada (1588) against England. The Thirty Years' War (1618–1648) began as a religious conflict in the Holy Roman Empire and became a power struggle in which Catholic France supported Protestants against the Habsburgs. The Peace of Westphalia (1648) recognized Calvinism, confirmed Dutch independence, weakened the Holy Roman Emperor, and helped establish a system of sovereign states. Politiques argued that political stability should come before religious unity."
+      }
+    ],
+    "keyTakeaways": [
+      "Luther: faith alone, Scripture alone, priesthood of all believers.",
+      "Princes adopted Protestantism for political and economic reasons too.",
+      "Peace of Augsburg (1555): ruler chooses Lutheran or Catholic.",
+      "Council of Trent reaffirmed doctrine and reformed abuses.",
+      "Edict of Nantes (1598) gave Huguenots limited toleration.",
+      "Westphalia (1648) recognized Calvinism and state sovereignty."
+    ],
+    "commonMistakes": [
+      "Saying the Peace of Augsburg included Calvinism (it didn't; Westphalia did).",
+      "Treating Henry VIII's break as primarily theological.",
+      "Assuming the Thirty Years' War stayed purely religious.",
+      "Confusing the Catholic Reformation with the Counter-Reformation's purely repressive aspects.",
+      "Thinking Luther supported the peasants' revolt."
+    ],
+    "examTips": [
+      "Explain multiple causes of the Reformation: religious, political, economic, technological.",
+      "Compare Lutheran, Calvinist, Anglican, and Catholic positions.",
+      "Use France and the Holy Roman Empire to show religion's political consequences.",
+      "Remember the dates 1517, 1521, 1534, 1545, 1555, 1572, 1598, 1618, 1648."
+    ],
+    "cramSheet": "**Luther:** 1517 · faith alone · Scripture · Diet of Worms 1521 · princes' support · Peasants' War\n\n**Augsburg 1555:** cuius regio, eius religio (Lutheran/Catholic only)\n\n**Calvin:** predestination · Geneva · Huguenots, Dutch, Scots, Puritans\n\n**Radicals:** Anabaptists (adult baptism)\n\n**England:** Henry VIII · Act of Supremacy 1534 · Elizabethan settlement\n\n**Catholic Reformation:** Trent 1545–63 · Jesuits 1540 · Index · Baroque\n\n**Wars:** St. Bartholomew 1572 · Nantes 1598 · Armada 1588 · Thirty Years' War 1618–48 · Westphalia 1648"
+  },
+  "vocab": [
+    { "term": "Indulgence", "definition": "A remission of punishment for sin granted by the Church, sometimes sold." },
+    { "term": "Justification by faith", "definition": "Luther's doctrine that salvation comes through faith alone, not good works." },
+    { "term": "Priesthood of all believers", "definition": "Luther's idea that all Christians have direct access to God without clerical mediation." },
+    { "term": "Predestination", "definition": "Calvin's doctrine that God has already determined who will be saved." },
+    { "term": "Anabaptists", "definition": "Radical reformers who practiced adult baptism and sought separation from the state." },
+    { "term": "Act of Supremacy", "definition": "The 1534 law making the English monarch head of the Church of England." },
+    { "term": "Council of Trent", "definition": "The Catholic council (1545–1563) that reaffirmed doctrine and reformed abuses." },
+    { "term": "Jesuits", "definition": "The Society of Jesus, a Catholic order focused on education and missions." },
+    { "term": "Huguenots", "definition": "French Calvinists." },
+    { "term": "Politiques", "definition": "Those who placed political stability above religious uniformity." },
+    { "term": "Edict of Nantes", "definition": "Henry IV's 1598 decree granting Huguenots limited religious toleration." },
+    { "term": "Peace of Westphalia", "definition": "The 1648 treaties ending the Thirty Years' War." }
+  ],
+  "practice": [
+    {
+      "id": "u2-q01", "tier": "Intro", "type": "mcq", "topic": "Lutheran Reformation",
+      "stem": "Which belief was central to Martin Luther's theology?",
+      "choices": [
+        { "id": "A", "text": "Salvation comes through faith alone." },
+        { "id": "B", "text": "The pope is infallible in matters of doctrine." },
+        { "id": "C", "text": "Seven sacraments are necessary for salvation." },
+        { "id": "D", "text": "Good works earn salvation." }
+      ],
+      "answer": "A",
+      "explanation": "Justification by faith was Luther's core teaching.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q02", "tier": "Intro", "type": "mcq", "topic": "Peace of Augsburg",
+      "stem": "The Peace of Augsburg (1555) established that",
+      "choices": [
+        { "id": "A", "text": "each German prince could choose Lutheranism or Catholicism for his territory" },
+        { "id": "B", "text": "all religions were tolerated in the Holy Roman Empire" },
+        { "id": "C", "text": "Calvinism was legally recognized" },
+        { "id": "D", "text": "the pope controlled German churches" }
+      ],
+      "answer": "A",
+      "explanation": "Cuius regio, eius religio applied only to Lutheranism and Catholicism.",
+      "distractors": { "C": "Calvinism was recognized only at Westphalia in 1648." }
+    },
+    {
+      "id": "u2-q03", "tier": "Intro", "type": "mcq", "topic": "Catholic Reformation",
+      "stem": "The Jesuits contributed to the Catholic Reformation primarily through",
+      "choices": [
+        { "id": "A", "text": "education, missionary work, and loyalty to the pope" },
+        { "id": "B", "text": "promoting predestination" },
+        { "id": "C", "text": "supporting the Anabaptists" },
+        { "id": "D", "text": "ending the Inquisition" }
+      ],
+      "answer": "A",
+      "explanation": "The Society of Jesus founded schools and sent missionaries worldwide.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q04", "tier": "Intro", "type": "mcq", "topic": "English Reformation",
+      "stem": "Henry VIII's break with the Roman Catholic Church was motivated most directly by",
+      "choices": [
+        { "id": "A", "text": "his desire to annul his marriage and secure a male heir" },
+        { "id": "B", "text": "his acceptance of Calvinist theology" },
+        { "id": "C", "text": "pressure from the Council of Trent" },
+        { "id": "D", "text": "the Peace of Westphalia" }
+      ],
+      "answer": "A",
+      "explanation": "The pope's refusal to annul his marriage led to the Act of Supremacy (1534).",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q05", "tier": "Exam level", "type": "mcq", "topic": "Lutheran Reformation",
+      "stimulus": "A German prince in the 1520s explains to his advisers that adopting the reformed faith will allow him to take control of monastery lands within his territory and to resist the emperor's demands on church appointments.",
+      "stem": "This reasoning best illustrates which factor in the spread of Protestantism?",
+      "choices": [
+        { "id": "A", "text": "Political and economic motives of rulers seeking independence and wealth" },
+        { "id": "B", "text": "Purely theological debates about the Eucharist" },
+        { "id": "C", "text": "The influence of the Jesuits" },
+        { "id": "D", "text": "Peasant demands for social equality" }
+      ],
+      "answer": "A",
+      "explanation": "Princes gained church property and autonomy from Habsburg authority.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q06", "tier": "Exam level", "type": "mcq", "topic": "Council of Trent",
+      "stem": "Which outcome of the Council of Trent (1545–1563) best shows that the Catholic Church combined reform with reaffirmation of doctrine?",
+      "choices": [
+        { "id": "A", "text": "It required seminaries to train priests while reaffirming the seven sacraments and the role of good works." },
+        { "id": "B", "text": "It accepted salvation by faith alone." },
+        { "id": "C", "text": "It abolished the papacy." },
+        { "id": "D", "text": "It allowed clergy to marry." }
+      ],
+      "answer": "A",
+      "explanation": "Trent addressed clerical ignorance and abuses but rejected Protestant doctrine.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q07", "tier": "Exam level", "type": "mcq", "topic": "French Wars of Religion",
+      "stem": "Henry IV's Edict of Nantes (1598) is best understood as an example of",
+      "choices": [
+        { "id": "A", "text": "a politique approach that prioritized peace and royal authority over religious uniformity" },
+        { "id": "B", "text": "the triumph of Calvinism in France" },
+        { "id": "C", "text": "papal control over French politics" },
+        { "id": "D", "text": "the end of the Bourbon dynasty" }
+      ],
+      "answer": "A",
+      "explanation": "Henry IV, a convert to Catholicism, granted limited toleration to restore order.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q08", "tier": "Exam level", "type": "mcq", "topic": "Thirty Years' War",
+      "stem": "France's intervention on the Protestant side in the Thirty Years' War best demonstrates that",
+      "choices": [
+        { "id": "A", "text": "dynastic and state interests, especially opposition to the Habsburgs, could outweigh religious loyalties" },
+        { "id": "B", "text": "France had become Protestant" },
+        { "id": "C", "text": "the war was purely religious" },
+        { "id": "D", "text": "the pope ordered France to fight" }
+      ],
+      "answer": "A",
+      "explanation": "Catholic France under Richelieu sought to weaken Habsburg power.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q09", "tier": "Exam level", "type": "mcq", "topic": "Radical Reformation",
+      "stem": "Anabaptists were persecuted by both Catholic and Protestant authorities mainly because they",
+      "choices": [
+        { "id": "A", "text": "rejected infant baptism and challenged the union of church and state" },
+        { "id": "B", "text": "supported the pope" },
+        { "id": "C", "text": "demanded absolute monarchy" },
+        { "id": "D", "text": "promoted the sale of indulgences" }
+      ],
+      "answer": "A",
+      "explanation": "Their separation from state churches was seen as subversive.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q10", "tier": "Exam level", "type": "mcq", "topic": "Peace of Westphalia",
+      "stem": "Which was a consequence of the Peace of Westphalia (1648)?",
+      "choices": [
+        { "id": "A", "text": "Calvinism was recognized, Dutch independence was confirmed, and the Holy Roman Emperor's authority was weakened." },
+        { "id": "B", "text": "The Holy Roman Empire became a centralized monarchy." },
+        { "id": "C", "text": "Spain gained control of the Netherlands." },
+        { "id": "D", "text": "Religious toleration was granted to all faiths across Europe." }
+      ],
+      "answer": "A",
+      "explanation": "Westphalia strengthened German princes and the principle of state sovereignty.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q11", "tier": "Hardest", "type": "mcq", "topic": "Lutheran Reformation",
+      "stem": "Luther's response to the German Peasants' War (1524–1525) best illustrates which aspect of the Lutheran Reformation?",
+      "choices": [
+        { "id": "A", "text": "Luther's dependence on princes led him to condemn the revolt, linking Lutheranism to established political authority." },
+        { "id": "B", "text": "Luther led the peasants against the princes." },
+        { "id": "C", "text": "Lutheranism advocated abolishing private property." },
+        { "id": "D", "text": "The peasants rejected Luther's ideas entirely." }
+      ],
+      "answer": "A",
+      "explanation": "Peasants drew on Luther's ideas, but he urged princes to suppress them.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q12", "tier": "Hardest", "type": "mcq", "topic": "Calvinism",
+      "stem": "Calvinism spread more widely across international borders than Lutheranism primarily because",
+      "choices": [
+        { "id": "A", "text": "it trained ministers in Geneva and organized churches independently of princes, appealing to groups in opposition to their rulers" },
+        { "id": "B", "text": "it was supported by the pope" },
+        { "id": "C", "text": "it rejected predestination" },
+        { "id": "D", "text": "the Peace of Augsburg protected it" }
+      ],
+      "answer": "A",
+      "explanation": "Calvinist church structures (consistories, presbyteries) let it survive under hostile rulers, as in France and Scotland.",
+      "distractors": { "D": "Augsburg excluded Calvinism." }
+    },
+    {
+      "id": "u2-q13", "tier": "Hardest", "type": "mcq", "topic": "Wars of Religion",
+      "stem": "Which pair of events best illustrates how religious division intensified political conflict in late-16th-century Europe?",
+      "choices": [
+        { "id": "A", "text": "The St. Bartholomew's Day Massacre and the Spanish Armada" },
+        { "id": "B", "text": "The Diet of Worms and the printing press" },
+        { "id": "C", "text": "The Treaty of Tordesillas and the Reconquista" },
+        { "id": "D", "text": "The Congress of Vienna and the Revolutions of 1848" }
+      ],
+      "answer": "A",
+      "explanation": "Both (1572, 1588) fused religious and dynastic struggles.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q14", "tier": "Hardest", "type": "mcq", "topic": "Catholic Reformation",
+      "stem": "Baroque art of the late 16th and 17th centuries, with its dramatic emotion and grandeur, served the Catholic Reformation by",
+      "choices": [
+        { "id": "A", "text": "inspiring religious devotion and affirming the Church's power and doctrines" },
+        { "id": "B", "text": "promoting Protestant iconoclasm" },
+        { "id": "C", "text": "rejecting religious subjects" },
+        { "id": "D", "text": "imitating Northern Renaissance realism of everyday life" }
+      ],
+      "answer": "A",
+      "explanation": "Emotional, monumental art engaged worshippers and contrasted with Protestant plainness.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-frq1", "tier": "Exam level", "type": "frq", "topic": "Causes of the Reformation", "frqType": "Short-answer question (SAQ)",
+      "prompt": "Historian A argues that the Protestant Reformation spread primarily because of genuine religious conviction and the appeal of Luther's message of salvation by faith. Historian B argues that it spread primarily because rulers saw political and economic advantages in breaking with Rome.\n\nAnswer (a), (b), and (c).",
+      "parts": [
+        { "label": "a", "prompt": "Describe ONE piece of evidence that supports Historian A's argument.", "points": 1 },
+        { "label": "b", "prompt": "Describe ONE piece of evidence that supports Historian B's argument.", "points": 1 },
+        { "label": "c", "prompt": "Explain ONE way a development in the period 1450–1520 contributed to the spread of the Reformation.", "points": 1 }
+      ],
+      "points": 3,
+      "minutes": 13,
+      "rubric": [
+        { "criterion": "(a)", "points": 1, "description": "E.g., widespread popular demand for vernacular Bibles; Anabaptists embraced persecution for belief; peasants and townspeople adopted Lutheran ideas through sermons and pamphlets." },
+        { "criterion": "(b)", "points": 1, "description": "E.g., German princes seized church lands and gained independence from Charles V; Henry VIII's Act of Supremacy and dissolution of the monasteries; Peace of Augsburg giving princes religious choice." },
+        { "criterion": "(c)", "points": 1, "description": "E.g., printing press spread Luther's ideas; Christian humanism (Erasmus) encouraged criticism of abuses; resentment of indulgence sales." }
+      ],
+      "sampleResponse": "(a) Anabaptists continued to practice adult baptism even though both Catholic and Lutheran authorities persecuted and executed them, showing that many converts were driven by sincere religious conviction rather than material gain.\n\n(b) In England, Henry VIII's Act of Supremacy (1534) made him head of the church, and he dissolved the monasteries and took their lands, showing that political and financial advantages motivated rulers to break with Rome.\n\n(c) The printing press, developed in the 1450s, allowed Luther's pamphlets and German Bible translation to circulate quickly and cheaply, spreading his ideas far faster than church authorities could suppress them."
+    }
+  ]
+}

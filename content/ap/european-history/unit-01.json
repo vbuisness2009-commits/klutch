@@ -1,0 +1,260 @@
+{
+  "number": 1,
+  "title": "Renaissance and Exploration",
+  "guide": {
+    "summary": "Unit 1 (c. 1450–c. 1648) covers the Italian and Northern Renaissance, humanism, the printing press, the rise of the 'new monarchies,' European exploration and colonization, the Columbian Exchange, and the commercial revolution, along with changes in social structure and family life.",
+    "sections": [
+      {
+        "heading": "The Renaissance and humanism",
+        "body": "The Italian Renaissance grew in wealthy, urban city-states such as Florence and Venice, where merchant elites like the Medici patronized art and learning. Humanism revived the study of classical Greek and Roman texts, emphasizing rhetoric, history, and moral philosophy (the studia humanitatis) and the potential of individuals; civic humanism stressed active participation in public life. Textual criticism, such as Lorenzo Valla's demonstration that the Donation of Constantine was a forgery, showed humanist methods. Machiavelli's The Prince (1513) analyzed power pragmatically, separating politics from traditional Christian morality. Renaissance art used linear perspective, naturalism, and classical themes (Leonardo, Michelangelo, Raphael). North of the Alps, Christian humanists such as Erasmus applied humanist scholarship to Scripture and called for church reform; Northern artists (van Eyck, Dürer, Bruegel) emphasized detailed realism and everyday life."
+      },
+      {
+        "heading": "Printing and new monarchies",
+        "body": "Gutenberg's movable-type printing press (c. 1450s) made books cheaper and more numerous, spreading humanist ideas, standardizing vernacular languages, increasing literacy, and later enabling the rapid spread of Protestant ideas. 'New monarchs' centralized power by limiting nobles, building bureaucracies and standing armies, and raising revenue: Henry VII in England (Star Chamber), Louis XI in France, and Ferdinand and Isabella in Spain (who completed the Reconquista in 1492 and used the Inquisition to enforce religious uniformity). The Holy Roman Empire remained decentralized."
+      },
+      {
+        "heading": "Exploration and the Columbian Exchange",
+        "body": "Motives were 'God, gold, and glory': spreading Christianity, accessing Asian trade without Ottoman and Venetian middlemen, and royal prestige. Technology (the caravel, magnetic compass, astrolabe, improved maps) made long voyages possible. Portugal explored the African coast (Dias rounded the Cape of Good Hope in 1488; da Gama reached India in 1498) and built a trading-post empire. Spain sponsored Columbus (1492) and conquered the Aztec and Inca empires; the Treaty of Tordesillas (1494) divided claims with Portugal. The Columbian Exchange transferred crops (potatoes and maize to Europe), animals, and diseases (smallpox devastated Indigenous populations). The Atlantic slave trade expanded to supply plantation labor. American silver fueled inflation (the price revolution)."
+      },
+      {
+        "heading": "Commercial revolution and society",
+        "body": "Joint-stock companies (Dutch East India Company, 1602) pooled capital and spread risk; banking and the Antwerp and Amsterdam exchanges grew; mercantilism treated trade as a competition for bullion. Commercial wealth shifted Europe's economic center from the Mediterranean to the Atlantic. Most Europeans remained rural peasants; in Western Europe serfdom declined while in Eastern Europe it intensified. Family life was patriarchal, with late marriage typical in northwestern Europe. Periods of economic and religious stress contributed to witchcraft persecutions, which peaked in the late 1500s and early 1600s."
+      }
+    ],
+    "keyTakeaways": [
+      "Humanism revived classical learning and emphasized human potential.",
+      "Northern humanists focused on religious reform.",
+      "The printing press accelerated the spread of ideas.",
+      "New monarchs centralized power and revenue.",
+      "Exploration was driven by religion, wealth, and prestige, enabled by technology.",
+      "The Columbian Exchange and silver transformed Europe's economy."
+    ],
+    "commonMistakes": [
+      "Treating the Renaissance as a sudden break with the Middle Ages.",
+      "Saying Machiavelli advocated cruelty for its own sake.",
+      "Confusing Italian civic humanism with Northern Christian humanism.",
+      "Ignoring the catastrophic demographic effects of disease in the Americas.",
+      "Assuming all of Europe followed the same path on serfdom."
+    ],
+    "examTips": [
+      "Stimulus questions often use art or treatises; tie them to humanist values.",
+      "Explain causation: printing → Reformation; silver → inflation.",
+      "Compare Portuguese trading posts with Spanish territorial conquest.",
+      "Use specific dates: 1450s press, 1492, 1494, 1513."
+    ],
+    "cramSheet": "**Italian Renaissance:** city-states · Medici patronage · humanism · Valla · Machiavelli (1513) · perspective\n\n**Northern:** Erasmus · Christian humanism · realism (van Eyck, Dürer)\n\n**Printing:** Gutenberg c. 1450s → literacy, vernaculars, Reformation\n\n**New monarchs:** Henry VII · Louis XI · Ferdinand & Isabella (1492, Inquisition)\n\n**Exploration:** caravel, compass · Dias 1488 · da Gama 1498 · Columbus 1492 · Tordesillas 1494\n\n**Effects:** Columbian Exchange · disease · slave trade · price revolution · joint-stock companies · mercantilism"
+  },
+  "vocab": [
+    { "term": "Humanism", "definition": "A Renaissance intellectual movement centered on studying classical texts and human potential." },
+    { "term": "Civic humanism", "definition": "The idea that educated citizens should participate actively in public life." },
+    { "term": "Christian humanism", "definition": "Northern humanism that applied classical scholarship to Christian texts and reform." },
+    { "term": "Patronage", "definition": "Financial support of artists and scholars by wealthy individuals or institutions." },
+    { "term": "Linear perspective", "definition": "An artistic technique creating the illusion of depth on a flat surface." },
+    { "term": "New monarchs", "definition": "Late-15th-century rulers who centralized royal power over nobles and churches." },
+    { "term": "Reconquista", "definition": "The Christian reconquest of the Iberian Peninsula, completed in 1492." },
+    { "term": "Columbian Exchange", "definition": "The transfer of plants, animals, people, and diseases between the hemispheres after 1492." },
+    { "term": "Price revolution", "definition": "Long-term inflation in 16th-century Europe, fueled partly by American silver." },
+    { "term": "Joint-stock company", "definition": "A business owned by investors who share profits and risks." },
+    { "term": "Mercantilism", "definition": "An economic policy seeking national wealth through favorable trade balances and bullion." },
+    { "term": "Treaty of Tordesillas", "definition": "The 1494 agreement dividing newly encountered lands between Spain and Portugal." }
+  ],
+  "practice": [
+    {
+      "id": "u1-q01", "tier": "Intro", "type": "mcq", "topic": "Italian Renaissance",
+      "stem": "Which development most directly contributed to the emergence of the Renaissance in Italian city-states?",
+      "choices": [
+        { "id": "A", "text": "Wealth from Mediterranean trade and banking that funded patronage of the arts and learning" },
+        { "id": "B", "text": "The discovery of the Americas" },
+        { "id": "C", "text": "The Protestant Reformation" },
+        { "id": "D", "text": "The Scientific Revolution" }
+      ],
+      "answer": "A",
+      "explanation": "Commercial wealth in Florence, Venice, and other cities supported patrons such as the Medici.",
+      "distractors": { "C": "The Reformation began after the Italian Renaissance was well underway." }
+    },
+    {
+      "id": "u1-q02", "tier": "Intro", "type": "mcq", "topic": "Printing Press",
+      "stem": "The most significant short-term effect of the printing press in Europe was",
+      "choices": [
+        { "id": "A", "text": "the faster and cheaper spread of texts and ideas" },
+        { "id": "B", "text": "the end of the Catholic Church's influence" },
+        { "id": "C", "text": "the immediate establishment of universal literacy" },
+        { "id": "D", "text": "the decline of vernacular languages" }
+      ],
+      "answer": "A",
+      "explanation": "Printing made books more numerous and affordable.",
+      "distractors": { "D": "Printing helped standardize vernaculars." }
+    },
+    {
+      "id": "u1-q03", "tier": "Intro", "type": "mcq", "topic": "Northern Renaissance",
+      "stem": "Northern humanists such as Erasmus differed from many Italian humanists by focusing more on",
+      "choices": [
+        { "id": "A", "text": "applying humanist scholarship to Christian texts and church reform" },
+        { "id": "B", "text": "secular politics and power" },
+        { "id": "C", "text": "abandoning religion altogether" },
+        { "id": "D", "text": "promoting absolute monarchy" }
+      ],
+      "answer": "A",
+      "explanation": "Christian humanism sought to purify religious practice through scholarship.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q04", "tier": "Intro", "type": "mcq", "topic": "Exploration",
+      "stem": "Which technology most directly enabled long-distance Portuguese voyages along the African coast?",
+      "choices": [
+        { "id": "A", "text": "The caravel, combining square and triangular sails for maneuverability" },
+        { "id": "B", "text": "The steam engine" },
+        { "id": "C", "text": "The telescope" },
+        { "id": "D", "text": "The printing press" }
+      ],
+      "answer": "A",
+      "explanation": "Caravels could sail against the wind and navigate coastal waters.",
+      "distractors": { "B": "19th century." }
+    },
+    {
+      "id": "u1-q05", "tier": "Exam level", "type": "mcq", "topic": "Italian Renaissance",
+      "stimulus": "A treatise written for an Italian ruler in the early 1500s advises that a prince who wishes to keep power must learn when not to be good, should prefer being feared to being loved if he cannot be both, and must appear virtuous while acting as necessity requires.",
+      "stem": "The ideas described most clearly reflect which Renaissance development?",
+      "choices": [
+        { "id": "A", "text": "A secular, pragmatic approach to politics that separated statecraft from traditional Christian morality" },
+        { "id": "B", "text": "The Christian humanist call for moral reform of the clergy" },
+        { "id": "C", "text": "Divine-right theories of kingship" },
+        { "id": "D", "text": "Enlightenment ideas of natural rights" }
+      ],
+      "answer": "A",
+      "explanation": "These are the central themes of Machiavelli's The Prince (1513).",
+      "distractors": { "D": "Natural-rights theory belongs to the 17th–18th centuries." }
+    },
+    {
+      "id": "u1-q06", "tier": "Exam level", "type": "mcq", "topic": "New Monarchies",
+      "stem": "Ferdinand and Isabella strengthened royal authority in Spain primarily by",
+      "choices": [
+        { "id": "A", "text": "promoting religious uniformity through the Inquisition and the expulsion of Jews and Muslims" },
+        { "id": "B", "text": "establishing a parliament with power over taxation" },
+        { "id": "C", "text": "converting to Protestantism" },
+        { "id": "D", "text": "granting nobles independent armies" }
+      ],
+      "answer": "A",
+      "explanation": "Religious unity was used as a tool of political consolidation after 1492.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q07", "tier": "Exam level", "type": "mcq", "topic": "Columbian Exchange",
+      "stem": "Which was the most significant demographic consequence of the Columbian Exchange in the Americas?",
+      "choices": [
+        { "id": "A", "text": "A catastrophic decline of Indigenous populations from diseases such as smallpox" },
+        { "id": "B", "text": "Rapid population growth due to European crops" },
+        { "id": "C", "text": "The migration of most Europeans to the Americas" },
+        { "id": "D", "text": "The end of the Atlantic slave trade" }
+      ],
+      "answer": "A",
+      "explanation": "Indigenous peoples lacked immunity to Old World diseases.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q08", "tier": "Exam level", "type": "mcq", "topic": "Commercial Revolution",
+      "stem": "The large influx of American silver into Spain in the 16th century contributed most directly to",
+      "choices": [
+        { "id": "A", "text": "widespread inflation across Europe" },
+        { "id": "B", "text": "lasting Spanish industrial dominance" },
+        { "id": "C", "text": "the decline of global trade" },
+        { "id": "D", "text": "the abolition of mercantilism" }
+      ],
+      "answer": "A",
+      "explanation": "More bullion chasing limited goods contributed to the price revolution.",
+      "distractors": { "B": "Spain largely spent its silver on wars and imports." }
+    },
+    {
+      "id": "u1-q09", "tier": "Exam level", "type": "mcq", "topic": "Commercial Revolution",
+      "stem": "Joint-stock companies such as the Dutch East India Company were significant because they",
+      "choices": [
+        { "id": "A", "text": "allowed many investors to pool capital and share the risks of long-distance trade" },
+        { "id": "B", "text": "were controlled entirely by monarchs" },
+        { "id": "C", "text": "ended colonial competition" },
+        { "id": "D", "text": "prohibited trade with Asia" }
+      ],
+      "answer": "A",
+      "explanation": "Shared investment made expensive, risky ventures feasible.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q10", "tier": "Exam level", "type": "mcq", "topic": "Social Change",
+      "stem": "In contrast to Western Europe, where serfdom declined after 1450, landowners in much of Eastern Europe",
+      "choices": [
+        { "id": "A", "text": "tightened serfdom to produce grain for export to Western markets" },
+        { "id": "B", "text": "freed their serfs to work in factories" },
+        { "id": "C", "text": "abandoned agriculture for trade" },
+        { "id": "D", "text": "adopted joint-stock farming" }
+      ],
+      "answer": "A",
+      "explanation": "Growing Western demand for grain encouraged the 'second serfdom' in the East.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q11", "tier": "Hardest", "type": "mcq", "topic": "Italian Renaissance",
+      "stem": "Lorenzo Valla's demonstration that the Donation of Constantine was a forgery best illustrates which feature of humanism?",
+      "choices": [
+        { "id": "A", "text": "Critical analysis of texts using historical and linguistic evidence, which could challenge established authorities" },
+        { "id": "B", "text": "Rejection of all classical sources" },
+        { "id": "C", "text": "Support for papal political supremacy" },
+        { "id": "D", "text": "Reliance on scientific experimentation" }
+      ],
+      "answer": "A",
+      "explanation": "Valla used Latin philology to show the document couldn't date from Constantine's era, undermining papal claims.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q12", "tier": "Hardest", "type": "mcq", "topic": "Exploration",
+      "stem": "Which statement best compares Portuguese and Spanish overseas expansion in the 16th century?",
+      "choices": [
+        { "id": "A", "text": "Portugal primarily built fortified trading posts in Africa and Asia, while Spain conquered large territories and populations in the Americas." },
+        { "id": "B", "text": "Both focused only on Asian spice trade." },
+        { "id": "C", "text": "Spain built trading posts; Portugal conquered vast empires." },
+        { "id": "D", "text": "Neither engaged in the slave trade." }
+      ],
+      "answer": "A",
+      "explanation": "Portugal's maritime empire relied on coastal forts; Spain's on territorial conquest and extraction.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q13", "tier": "Hardest", "type": "mcq", "topic": "Printing Press",
+      "stem": "Which development is the best example of the printing press's long-term political significance?",
+      "choices": [
+        { "id": "A", "text": "Reformers spread criticism of the Church through pamphlets faster than authorities could suppress it." },
+        { "id": "B", "text": "Monarchs abolished all censorship." },
+        { "id": "C", "text": "Latin became the language of everyday speech." },
+        { "id": "D", "text": "Feudalism was immediately restored." }
+      ],
+      "answer": "A",
+      "explanation": "Print enabled the rapid diffusion of Protestant ideas after 1517.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q14", "tier": "Hardest", "type": "mcq", "topic": "Social Change",
+      "stem": "Historians often link the peak of European witch persecutions (c. 1560–1650) to which combination of factors?",
+      "choices": [
+        { "id": "A", "text": "Religious conflict, economic hardship, and social anxieties that made communities seek scapegoats, often older or marginalized women" },
+        { "id": "B", "text": "The Enlightenment's emphasis on reason" },
+        { "id": "C", "text": "Industrialization and urban factory life" },
+        { "id": "D", "text": "The decline of religious belief" }
+      ],
+      "answer": "A",
+      "explanation": "Upheaval from the Reformation, wars, and price inflation coincided with the persecutions.",
+      "distractors": { "B": "Enlightenment skepticism helped end them." }
+    },
+    {
+      "id": "u1-frq1", "tier": "Exam level", "type": "frq", "topic": "Exploration and Its Effects", "frqType": "Long essay question (LEQ)",
+      "prompt": "In the period 1450–1650, European states expanded their reach overseas.\n\nEvaluate the most significant effect of European overseas expansion on European economies in the period 1450–1650.",
+      "parts": [],
+      "points": 6,
+      "minutes": 40,
+      "rubric": [
+        { "criterion": "Thesis", "points": 1, "description": "Historically defensible claim with a line of reasoning about the most significant economic effect." },
+        { "criterion": "Contextualization", "points": 1, "description": "Describes broader context, e.g., Ottoman control of eastern trade routes, Renaissance commercial growth, new monarchs' search for revenue." },
+        { "criterion": "Evidence", "points": 2, "description": "1: two specific examples (e.g., American silver, price revolution, Dutch East India Company, Antwerp/Amsterdam exchanges, Atlantic slave trade). 2: uses them to support the argument." },
+        { "criterion": "Analysis and reasoning", "points": 2, "description": "1: uses causation to frame the argument. 2: complex understanding, e.g., weighing silver-driven inflation against the rise of new financial institutions, or contrasting Spain's decline with Dutch growth." }
+      ],
+      "sampleResponse": "The most significant economic effect of overseas expansion was the shift of Europe's commercial center from the Mediterranean to the Atlantic, driven by new trade routes and new financial institutions, although the flood of American silver also produced inflation that weakened Spain itself.\n\nBefore 1450, Venetian and Genoese merchants dominated the trade in Asian goods, which reached Europe through Ottoman-controlled routes. New monarchs in Portugal and Spain, eager for revenue, sponsored voyages to bypass these middlemen. Portugal's da Gama reached India in 1498, and Columbus's 1492 voyage opened the Americas to Spain.\n\nAmerican silver from mines such as Potosí poured into Spain, but rather than building lasting prosperity, it flowed outward to pay for wars and imported goods, contributing to a long rise in prices across Europe, the price revolution. This inflation hurt people on fixed incomes and helped merchants who borrowed and traded.\n\nAt the same time, Atlantic ports grew. Antwerp and later Amsterdam became financial centers, and the Dutch East India Company, founded in 1602, pooled the capital of many investors and spread the risks of long voyages. These institutions made the Netherlands, not Spain, the commercial leader of the early 1600s.\n\nThus the shift to the Atlantic was the most significant effect. Silver mattered, but its benefits were short-lived for Spain, whereas the joint-stock companies and exchanges of the Low Countries reshaped how Europeans organized trade and finance for centuries."
+    }
+  ]
+}

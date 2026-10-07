@@ -19,6 +19,30 @@
       {
         "heading": "Residual plots, influence, and transformations",
         "body": "A residual plot with no pattern supports a linear model; a curved pattern means a linear model is not appropriate; a fan shape means unequal variability. Outliers in x (high leverage) can be influential, substantially changing the slope, intercept, or r when removed. When data are curved, transform: if log(y) vs. x is linear, the relationship is exponential; if log(y) vs. log(x) is linear, it is a power model. Back-transform predictions (e.g., ŷ = 10^(predicted log y))."
+      },
+      {
+        "heading": "Worked example: interpreting regression",
+        "body": "A least-squares regression line predicts the price of used cars from mileage: predicted price = 22,000 − 0.08(miles). The slope means that for each additional mile driven, the predicted price decreases by $0.08, or $80 per 1,000 miles. The y-intercept means a car with 0 miles is predicted to cost $22,000, which may or may not be meaningful. If r² = 0.72, then 72% of the variation in price is accounted for by the linear relationship with mileage. If a car with 50,000 miles costs $16,500, its predicted price is $18,000, so the residual is 16,500 − 18,000 = −$1,500: the car costs $1,500 less than predicted."
+      },
+      {
+        "heading": "Worked example: a two-way table",
+        "body": "In a survey of 200 students, 60 of 120 juniors and 50 of 80 seniors prefer online classes. The conditional proportions are 0.50 for juniors and 0.625 for seniors. Because these differ, there appears to be an association between grade level and preference in this sample. Marginal distributions describe each variable alone; conditional distributions compare one variable across categories of the other."
+      },
+      {
+        "heading": "Residual plots and influence",
+        "body": "A residual plot with no pattern supports a linear model; a curved pattern suggests a nonlinear relationship. Influential points, often far from the other points in the x-direction, can change the slope substantially when removed. Outliers in y have large residuals. Transformations such as taking logarithms can straighten curved relationships."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students interpret slope without context or units, claim causation from correlation, and confuse r with r². Correlation only measures the strength of linear relationships."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know explanatory and response variables, scatterplot, correlation, regression line, slope, y-intercept, residual, r², extrapolation, influential point, and conditional distribution."
+      },
+      {
+        "heading": "Free-response connection",
+        "body": "Free-response questions often give computer regression output and ask you to write the equation, interpret the slope and r², calculate a residual, and assess whether a linear model is appropriate using the residual plot. Use the variable names from the context instead of x and y."
       }
     ],
     "keyTakeaways": [

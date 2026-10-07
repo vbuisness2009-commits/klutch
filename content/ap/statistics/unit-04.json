@@ -19,6 +19,30 @@
       {
         "heading": "Binomial and geometric distributions",
         "body": "Binomial setting (BINS): Binary outcomes, Independent trials, fixed Number of trials n, Same probability p. P(X = k) = C(n,k)pᵏ(1 − p)ⁿ⁻ᵏ; μ = np, σ = √(np(1 − p)). Use binompdf for exactly k and binomcdf for at most k; 'at least one' = 1 − P(none). When sampling without replacement, treat trials as independent if n ≤ 10% of the population. Geometric setting counts trials until the first success: P(X = k) = (1 − p)ᵏ⁻¹p, μ = 1/p, σ = √(1 − p)/p."
+      },
+      {
+        "heading": "Worked example: binomial probability",
+        "body": "A basketball player makes 70% of free throws. If she shoots 10, the number made X follows a binomial distribution with n = 10 and p = 0.7, assuming independent shots. P(X = 8) = C(10, 8)(0.7)⁸(0.3)² ≈ 0.233. The mean is np = 7 made shots and the standard deviation is √(np(1 − p)) = √2.1 ≈ 1.45. P(X ≥ 9) = P(9) + P(10) ≈ 0.121 + 0.028 = 0.149."
+      },
+      {
+        "heading": "Worked example: combining random variables",
+        "body": "If X has mean 50 and standard deviation 6 and Y has mean 30 and standard deviation 8, and X and Y are independent, then X + Y has mean 80 and standard deviation √(36 + 64) = 10. X − Y has mean 20 and also standard deviation 10, because variances add for both sums and differences of independent variables. Multiplying a variable by a constant multiplies its mean and standard deviation by that constant."
+      },
+      {
+        "heading": "Probability rules in practice",
+        "body": "P(A or B) = P(A) + P(B) − P(A and B). Events are mutually exclusive if they cannot occur together, and independent if P(A | B) = P(A). Conditional probability P(A | B) = P(A and B)/P(B). Tree diagrams and two-way tables organize multistep probability problems."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students add standard deviations instead of variances, confuse independent and mutually exclusive events, and use binomial models when trials are not independent or the number of trials is not fixed."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know sample space, event, complement, independence, conditional probability, random variable, expected value, binomial and geometric distributions."
+      },
+      {
+        "heading": "Free-response connection",
+        "body": "Probability questions often combine several ideas: a conditional probability from a tree diagram, then a binomial calculation based on that probability. Define the random variable, state the distribution and its parameters, and show the calculation, including the formula or calculator command with labeled inputs."
       }
     ],
     "keyTakeaways": [

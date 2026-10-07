@@ -15,6 +15,34 @@
       {
         "heading": "Intervals and tests for β",
         "body": "Interval: b ± t*·SE_b, df = n − 2. Interpretation: 'We are C% confident that the interval from __ to __ captures the true slope of the population regression line relating [y] to [x]', or equivalently the true change in mean [y] for each 1-unit increase in [x]. Test: H₀: β = 0 (no linear relationship); Hₐ: β ≠, >, or < 0. t = (b − β₀)/SE_b. Computer output lists the coefficient (b), SE Coef (SE_b), T (t-statistic for H₀: β = 0), and P (usually two-sided); halve P for a one-sided test in the direction of b. A slope interval that does not contain 0 gives convincing evidence of a linear relationship."
+      },
+      {
+        "heading": "Worked example: interpreting computer output",
+        "body": "Regression output for predicting exam score from hours studied shows a slope of 3.2 with standard error 0.8, from a random sample of 27 students. A 95% confidence interval for the slope uses t* ≈ 2.060 with 25 degrees of freedom: 3.2 ± 2.060(0.8) = 3.2 ± 1.65, or (1.55, 4.85). We are 95% confident that, for each additional hour studied, the true mean exam score increases by between 1.55 and 4.85 points. Because the interval does not include 0, there is convincing evidence of a positive linear relationship."
+      },
+      {
+        "heading": "Worked example: a test for slope",
+        "body": "To test H₀: β = 0 against Hₐ: β > 0 with the same output, t = 3.2/0.8 = 4.0 with 25 degrees of freedom, giving a P-value well below 0.001. Reject H₀: there is convincing evidence that study hours and exam scores have a positive linear relationship in the population of students. Computer output often reports a two-sided P-value; divide by 2 for a one-sided test if the slope is in the hypothesized direction."
+      },
+      {
+        "heading": "Checking conditions with LINER",
+        "body": "Linear: the scatterplot and residual plot show no curvature. Independent: random sample, and n is less than 10% of the population. Normal: residuals are approximately Normal in a histogram or dotplot. Equal variance: the residual plot shows roughly constant spread. Random: data come from a random sample or randomized experiment."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students confuse the standard error of the slope with the standard deviation of the residuals, use n − 1 instead of n − 2 for degrees of freedom, and interpret the slope interval without context."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know population regression line, β, standard error of the slope, t interval and test for slope, residual standard deviation s, and LINER conditions."
+      },
+      {
+        "heading": "Free-response connection",
+        "body": "Slope inference questions usually provide computer output with the coefficient, its standard error, t statistic, and P-value. Identify the correct values, use n − 2 degrees of freedom, check the LINER conditions with the provided plots, and interpret the interval or test in context, referring to the true slope of the population regression line."
+      },
+      {
+        "heading": "Final tip",
+        "body": "Remember that a significant slope does not prove causation unless the data come from a randomized experiment."
       }
     ],
     "keyTakeaways": [

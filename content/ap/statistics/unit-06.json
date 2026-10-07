@@ -19,6 +19,22 @@
       {
         "heading": "Two proportions",
         "body": "Interval: (p̂₁ − p̂₂) ± z*·√(p̂₁(1 − p̂₁)/n₁ + p̂₂(1 − p̂₂)/n₂). Test of H₀: p₁ − p₂ = 0 uses the pooled proportion p̂_c = (x₁ + x₂)/(n₁ + n₂) in the SE: √(p̂_c(1 − p̂_c)(1/n₁ + 1/n₂)). Conditions apply to both samples (independent random samples or random assignment; Large Counts for all four counts). If an interval for p₁ − p₂ contains 0, there is no convincing evidence of a difference; if entirely positive, convincing evidence that p₁ > p₂."
+      },
+      {
+        "heading": "Worked example: a confidence interval",
+        "body": "In a random sample of 500 adults, 285 say they exercise regularly, so p̂ = 0.57. A 95% confidence interval is 0.57 ± 1.96√(0.57 × 0.43/500) = 0.57 ± 0.043, or (0.527, 0.613). Interpretation: we are 95% confident that the interval from 52.7% to 61.3% captures the true proportion of all adults who exercise regularly. The confidence level means that about 95% of intervals constructed this way from repeated samples would capture the true proportion."
+      },
+      {
+        "heading": "Worked example: a significance test",
+        "body": "A company claims 80% of customers are satisfied. In a random sample of 150 customers, 111 are satisfied (p̂ = 0.74). Test H₀: p = 0.80 versus Hₐ: p < 0.80. The test statistic is z = (0.74 − 0.80)/√(0.80 × 0.20/150) ≈ −1.84, and the P-value is about 0.033. At α = 0.05, reject H₀: there is convincing evidence that fewer than 80% of customers are satisfied. Use p₀, not p̂, in the standard deviation for tests."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students interpret confidence levels as probabilities that the parameter is in a specific interval, forget to state conclusions in context, and accept the null hypothesis instead of failing to reject it."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know confidence interval, margin of error, confidence level, null and alternative hypotheses, test statistic, P-value, significance level, Type I and II errors, and power."
       }
     ],
     "keyTakeaways": [

@@ -19,6 +19,26 @@
       {
         "heading": "z-scores and Normal distributions",
         "body": "z = (x − mean)/SD tells how many standard deviations a value is from the mean and allows comparison across distributions. A Normal model is symmetric and bell-shaped. Empirical rule: about 68%, 95%, and 99.7% of values fall within 1, 2, and 3 SDs of the mean. For Normal calculations, draw and shade a curve, standardize, and use a table or normalcdf; for percentiles, use invNorm then x = mean + z·SD. To find an unknown SD, solve z = (x − mean)/SD with the z for the given percentile."
+      },
+      {
+        "heading": "Worked example: describing a distribution",
+        "body": "A data set of 20 quiz scores has a minimum of 52, Q1 of 70, median of 78, Q3 of 85, and maximum of 98. The IQR is 85 − 70 = 15, so the outlier fences are 70 − 1.5(15) = 47.5 and 85 + 1.5(15) = 107.5; no values are outliers. A complete description addresses shape, center, spread, and unusual features in context: 'The distribution of quiz scores is roughly symmetric with a median of 78 points and an IQR of 15 points, ranging from 52 to 98, with no outliers.' Always include units and context, and use the median and IQR for skewed distributions or those with outliers, and the mean and standard deviation for roughly symmetric ones."
+      },
+      {
+        "heading": "Worked example: z-scores and Normal calculations",
+        "body": "SAT math scores are approximately Normal with mean 520 and standard deviation 115. A score of 680 has z = (680 − 520)/115 ≈ 1.39, meaning it is 1.39 standard deviations above the mean. The proportion of scores above 680 is about 0.082, using technology or a table. To find the score at the 90th percentile, use z ≈ 1.28: 520 + 1.28(115) ≈ 667. The empirical rule says about 68%, 95%, and 99.7% of values fall within 1, 2, and 3 standard deviations of the mean."
+      },
+      {
+        "heading": "Comparing distributions",
+        "body": "When comparing two groups, address shape, center, spread, and outliers for both, using comparative language: 'The median commute time for Group A (25 minutes) is greater than for Group B (18 minutes), and Group A's times are more variable (IQR of 15 vs 8 minutes).' Simply listing statistics without comparison earns little credit."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students forget context, describe shape without naming center and spread, confuse histograms with bar graphs, and use the mean and standard deviation for strongly skewed data."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know categorical and quantitative variables, distribution, shape, center, spread, outlier, IQR, standard deviation, percentile, z-score, and Normal distribution."
       }
     ],
     "keyTakeaways": [

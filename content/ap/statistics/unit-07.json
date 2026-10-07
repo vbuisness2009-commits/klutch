@@ -19,6 +19,34 @@
       {
         "heading": "Two independent samples",
         "body": "Interval: (x̄₁ − x̄₂) ± t*·√(s₁²/n₁ + s₂²/n₂). Test of H₀: μ₁ − μ₂ = 0: t = (x̄₁ − x̄₂)/√(s₁²/n₁ + s₂²/n₂). Degrees of freedom come from the calculator (Welch) or, conservatively, the smaller of n₁ − 1 and n₂ − 1. Conditions apply to each sample: independent random samples or random assignment, 10% for each, Normal/Large Sample for each. Don't pool variances on the AP exam."
+      },
+      {
+        "heading": "Worked example: one-sample t interval",
+        "body": "A random sample of 25 batteries has a mean life of 48.2 hours with a standard deviation of 4.5 hours. With 24 degrees of freedom, t* ≈ 2.064 for 95% confidence. The interval is 48.2 ± 2.064(4.5/√25) = 48.2 ± 1.86, or (46.34, 50.06) hours. Conditions: the sample is random, 25 is less than 10% of all batteries, and the sample size is under 30, so the data should show no strong skewness or outliers in a graph."
+      },
+      {
+        "heading": "Worked example: paired t test",
+        "body": "Eight students take a test before and after tutoring. Analyze the differences (after − before), not the two separate samples. If the mean difference is 5.0 points with a standard deviation of 4.0, then t = 5.0/(4.0/√8) ≈ 3.54 with 7 degrees of freedom, giving a one-sided P-value of about 0.005. This provides convincing evidence that tutoring improves scores for students like these, assuming the conditions are met."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students use z instead of t for means with unknown σ, treat paired data as two independent samples, and fail to check Normality for small samples."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know t-distribution, degrees of freedom, standard error, one-sample, paired, and two-sample t procedures, and robustness."
+      },
+      {
+        "heading": "Comparing two means",
+        "body": "For two independent samples, such as test scores from two randomly assigned teaching methods, the standard error is √(s₁²/n₁ + s₂²/n₂), and technology calculates degrees of freedom. If the 95% interval for μ₁ − μ₂ contains 0, there is no convincing evidence of a difference. Use two-sample procedures only when the samples are independent; if each subject is measured twice or subjects are matched, use paired procedures on the differences instead."
+      },
+      {
+        "heading": "Free-response connection",
+        "body": "Inference questions are scored on four components: identifying the correct procedure and parameters, checking conditions, performing calculations, and stating a conclusion in context. Name the procedure (one-sample t interval for μ), define the parameter in context, check random, 10%, and Normal/large sample conditions, show the formula with values, and interpret the result. Missing any component lowers the score even when the arithmetic is correct."
+      },
+      {
+        "heading": "Final tip",
+        "body": "Always check the Normal condition for small samples."
       }
     ],
     "keyTakeaways": [

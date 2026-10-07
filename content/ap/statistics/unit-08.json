@@ -19,6 +19,34 @@
       {
         "heading": "Interpreting results",
         "body": "If P ≤ α, there is convincing evidence for Hₐ (a different distribution or an association); if P > α, there is not convincing evidence. Chi-square tests never show the direction or strength of an association on their own; follow up by comparing conditional proportions or the largest components. An association in observational data is not causation."
+      },
+      {
+        "heading": "Worked example: goodness of fit",
+        "body": "A candy company claims its bags contain 30% red, 20% green, 20% yellow, and 30% blue candies. A random bag of 200 has 50 red, 45 green, 40 yellow, and 65 blue. Expected counts are 60, 40, 40, and 60. The chi-square statistic is (50 − 60)²/60 + (45 − 40)²/40 + (40 − 40)²/40 + (65 − 60)²/60 ≈ 1.667 + 0.625 + 0 + 0.417 = 2.71, with 3 degrees of freedom. The P-value is about 0.44, so there is not convincing evidence that the distribution differs from the claim."
+      },
+      {
+        "heading": "Worked example: independence",
+        "body": "In a two-way table of 300 students classified by grade level and preferred lunch option, the expected count for each cell is (row total × column total)/grand total. The degrees of freedom are (rows − 1)(columns − 1). A large chi-square statistic and small P-value indicate convincing evidence of an association between the variables in the population."
+      },
+      {
+        "heading": "Choosing the right test",
+        "body": "Use goodness of fit for one categorical variable compared with a claimed distribution, homogeneity for comparing the distribution of one categorical variable across several populations or treatments, and independence for testing an association between two categorical variables in one population. All require random sampling or assignment and expected counts of at least 5."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students use observed counts instead of expected counts to check conditions, calculate degrees of freedom incorrectly, and state conclusions about specific categories without follow-up analysis."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know chi-square statistic, expected count, degrees of freedom, goodness of fit, homogeneity, and independence."
+      },
+      {
+        "heading": "Free-response connection",
+        "body": "Chi-square questions are scored like other inference questions: state hypotheses in words, identify the test, check that expected counts are at least 5, calculate the statistic and P-value, and conclude in context. When asked which category contributed most, point to the largest component (O − E)²/E and explain its direction."
+      },
+      {
+        "heading": "Final tip",
+        "body": "Expected counts come from the null hypothesis, never from the observed data alone."
       }
     ],
     "keyTakeaways": [

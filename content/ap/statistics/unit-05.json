@@ -19,6 +19,34 @@
       {
         "heading": "Using sampling distributions",
         "body": "To find the probability of a sample result, check conditions, state the sampling distribution (shape, mean, SD), standardize, and compute. A very small probability for an observed statistic, under an assumed parameter value, is evidence against that assumption: this is the logic of significance tests in Units 6–9."
+      },
+      {
+        "heading": "Worked example: sampling distribution of a proportion",
+        "body": "Suppose 40% of a city's voters support a ballot measure. For random samples of 200 voters, the sampling distribution of the sample proportion p̂ has mean 0.40 and standard deviation √(0.40 × 0.60/200) ≈ 0.0346. Since np = 80 and n(1 − p) = 120 are both at least 10, the distribution is approximately Normal. The probability that a sample shows 45% or more support is P(Z ≥ (0.45 − 0.40)/0.0346) = P(Z ≥ 1.44) ≈ 0.075."
+      },
+      {
+        "heading": "Worked example: the Central Limit Theorem",
+        "body": "Household incomes in a town are strongly right-skewed with mean $60,000 and standard deviation $30,000. For random samples of 100 households, the sample mean x̄ has mean $60,000 and standard deviation 30,000/√100 = $3,000. Because n is large, the Central Limit Theorem says the sampling distribution of x̄ is approximately Normal even though the population is skewed. The probability that x̄ exceeds $65,000 is P(Z ≥ 1.67) ≈ 0.048."
+      },
+      {
+        "heading": "Bias and variability",
+        "body": "An unbiased estimator has a sampling distribution centered on the true parameter. Larger samples reduce variability: quadrupling the sample size halves the standard deviation of the sampling distribution. The 10% condition (n ≤ 10% of the population) ensures that observations are approximately independent when sampling without replacement."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students confuse the population distribution, the distribution of one sample, and the sampling distribution, and they forget to check the Normal and 10% conditions."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know parameter, statistic, sampling distribution, unbiased estimator, standard deviation of a statistic, Central Limit Theorem, and the 10% and large counts conditions."
+      },
+      {
+        "heading": "Free-response connection",
+        "body": "Sampling distribution questions ask you to describe the shape, center, and spread of the sampling distribution, justify Normality with the large counts condition or the Central Limit Theorem, and calculate a probability. A simulation dotplot may be provided; use it to judge whether an observed result is unusual."
+      },
+      {
+        "heading": "Final tip",
+        "body": "Draw and label the sampling distribution before calculating any probability. Mark the mean and the value of interest, shade the region you need, and write the z-score calculation with the correct standard deviation for the statistic, not the population standard deviation."
       }
     ],
     "keyTakeaways": [

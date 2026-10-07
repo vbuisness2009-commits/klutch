@@ -19,6 +19,30 @@
       {
         "heading": "Experimental design",
         "body": "Components: experimental units (or subjects), treatments, explanatory and response variables. Principles: comparison of two or more treatments (often including a control group or placebo), random assignment to create roughly equivalent groups, control of other variables, and replication (enough units per treatment). Blinding (single or double) reduces bias from expectations; placebos address the placebo effect. Designs: completely randomized; randomized block (split units into blocks that are similar on a variable likely to affect the response, then randomly assign treatments within each block, which reduces variability); matched pairs (each subject receives both treatments in random order, or similar pairs are split). A result is statistically significant when it is unlikely to occur by chance alone from random assignment."
+      },
+      {
+        "heading": "Worked example: designing an experiment",
+        "body": "To test whether a new fertilizer increases tomato yield, a researcher has 40 plants. A completely randomized design assigns 20 plants at random to the new fertilizer and 20 to the standard fertilizer, perhaps by numbering plants 1–40 and using a random number generator to select 20. If plants differ in sunlight exposure, a randomized block design groups plants by location and randomizes treatments within each block, reducing variability. The response variable is yield in pounds, and comparing average yields lets the researcher conclude whether the fertilizer causes a difference."
+      },
+      {
+        "heading": "Scope of inference",
+        "body": "Random sampling allows generalization to the population sampled; random assignment allows cause-and-effect conclusions. A study with both supports causal conclusions about the population. An observational study cannot establish causation because of possible confounding variables, even if it uses a random sample."
+      },
+      {
+        "heading": "Sources of bias in practice",
+        "body": "Undercoverage occurs when some groups are left out of the sampling frame, such as households without phones. Nonresponse occurs when selected individuals do not respond. Response bias arises from question wording or interviewer effects. Voluntary response and convenience samples typically overrepresent people with strong opinions or easy access."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students confuse random sampling with random assignment, describe randomization vaguely, and forget to name the response variable and treatments."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know population, sample, census, simple random sample, stratified and cluster samples, bias, observational study, experiment, confounding, control group, placebo, blinding, blocking, and matched pairs."
+      },
+      {
+        "heading": "Free-response connection",
+        "body": "Experimental design questions ask you to describe a randomization method in enough detail that someone could carry it out, explain the purpose of a control group or blocking, and identify the scope of inference."
       }
     ],
     "keyTakeaways": [

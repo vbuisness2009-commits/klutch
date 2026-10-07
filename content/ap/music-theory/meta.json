@@ -1,0 +1,61 @@
+{
+  "slug": "music-theory",
+  "name": "AP Music Theory",
+  "lastVerified": "2026-10",
+  "overview": "AP Music Theory develops the ability to recognize, understand, and describe the basic materials and processes of tonal music through listening, reading, writing, and singing. Students study pitch, rhythm, scales, intervals, chords, voice leading, harmonic progression, non-chord tones, secondary function, modes, and form, and practice dictation and sight-singing.",
+  "examMode": "Hybrid digital from May 2027: audio and multiple choice in Bluebook, written free responses in paper booklets, sight-singing recorded",
+  "totalMinutes": 160,
+  "sections": [
+    { "name": "Section I", "questionType": "Multiple choice", "count": 75, "minutes": 80, "weight": "45%", "notes": "About 13 sets of 4–6 questions plus 10–12 individual items; many are based on recorded music (aural) and some on printed scores." },
+    { "name": "Section II, Part A", "questionType": "Written free response", "count": 7, "minutes": 70, "weight": "45%", "notes": "Two melodic dictations, two harmonic dictations, part writing from figured bass, part writing from Roman numerals, and a bass line composition or melody harmonization." },
+    { "name": "Section II, Part B", "questionType": "Sight-singing", "count": 2, "minutes": 10, "weight": "10%", "notes": "Sing and record two brief, mainly diatonic melodies of about 4–8 bars." }
+  ],
+  "units": [
+    { "number": 1, "title": "Music Fundamentals I: Pitch, Major Scales and Key Signatures, Rhythm, Meter" },
+    { "number": 2, "title": "Music Fundamentals II: Minor Scales and Key Signatures, Melody, Timbre, Texture" },
+    { "number": 3, "title": "Music Fundamentals III: Triads and Seventh Chords" },
+    { "number": 4, "title": "Harmony and Voice Leading I: Chord Function, Cadence, and Phrase" },
+    { "number": 5, "title": "Harmony and Voice Leading II: Chord Progressions and Predominant Function" },
+    { "number": 6, "title": "Harmony and Voice Leading III: Embellishments, Motives, and Melodic Devices" },
+    { "number": 7, "title": "Harmony and Voice Leading IV: Secondary Function" },
+    { "number": 8, "title": "Modes and Form" }
+  ],
+  "skills": [
+    { "name": "Aural skills", "description": "Identify pitch, rhythm, chords, cadences, and form by ear; take melodic and harmonic dictation." },
+    { "name": "Notational skills", "description": "Read and write pitches, rhythms, scales, key signatures, intervals, and chords." },
+    { "name": "Harmonic analysis", "description": "Label chords with Roman numerals and figures and explain function." },
+    { "name": "Part writing", "description": "Realize figured bass and Roman numerals in four voices following common-practice voice leading." },
+    { "name": "Sight-singing", "description": "Sing melodies accurately in pitch and rhythm at sight." }
+  ],
+  "scoring": {
+    "summary": "Multiple choice is 45%, the seven written free responses 45%, and sight-singing 10%. Dictation is scored by accurate pitches and rhythms; part writing by correct chord spelling and voice leading; sight-singing by accurate pitch and rhythm segments. Klutch's practice tasks use simplified point scales."
+  },
+  "frqTypes": [
+    { "name": "Fundamentals short response", "points": 6, "howScored": "Klutch practice scale: 1 point per correct item (scales, key signatures, intervals, meter)." },
+    { "name": "Part writing", "points": 8, "howScored": "Klutch practice scale: chord spelling and doubling for each chord plus correct voice leading for each connection, without parallel fifths or octaves, with tendency tones resolved." },
+    { "name": "Harmonization / bass line", "points": 6, "howScored": "Klutch practice scale: appropriate chord for each melody note, good bass-line voice leading with the melody, and a correct cadence." },
+    { "name": "Analysis", "points": 6, "howScored": "Klutch practice scale: 1 point per correct identification (non-chord tones, modes, forms)." }
+  ],
+  "strategy": [
+    "On aural questions, listen first for the bass line and cadences; they reveal the harmony.",
+    "In dictation, write the rhythm first, then fill in pitches using scale degrees.",
+    "In part writing, check each connection for parallel fifths and octaves between every pair of voices.",
+    "Resolve the leading tone up and chordal sevenths down by step.",
+    "Double the root in root-position triads and never double the leading tone.",
+    "For sight-singing, establish the key and tempo, then use solfège or numbers and keep a steady beat."
+  ],
+  "pitfalls": [
+    "Forgetting the raised leading tone in minor (harmonic minor V and vii°).",
+    "Confusing relative and parallel keys.",
+    "Spacing more than an octave between soprano–alto or alto–tenor.",
+    "Mislabeling inversion figures (6, 6/4, 6/5, 4/3, 4/2).",
+    "Rushing through rhythms in dictation and sight-singing."
+  ],
+  "sources": [
+    { "title": "AP Music Theory Exam (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-music-theory/exam" }
+  ],
+  "caveats": [
+    "Klutch cannot play audio or display notation; practice uses written pitch names (C4 = middle C), Roman numerals, and verbal descriptions. Practice aural skills, dictation, and sight-singing with recordings.",
+    "Point values on practice tasks are Klutch practice scales, not the official rubrics."
+  ]
+}

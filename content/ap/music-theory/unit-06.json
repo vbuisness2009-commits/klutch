@@ -1,0 +1,574 @@
+{
+  "number": 6,
+  "title": "Harmony and Voice Leading III: Embellishments, Motives, and Melodic Devices",
+  "guide": {
+    "summary": "Unit 6 covers embellishing tones (non-chord tones), motives and their transformations, and melodic devices composers use to create unity and variety.",
+    "sections": [
+      {
+        "heading": "Non-chord tones",
+        "body": "Passing tone: approached and left by step in the same direction, filling in a third (accented or unaccented). Neighbor tone: step away and back to the same chord tone (upper or lower). Suspension: a note held over from the previous chord (preparation), dissonant on a strong beat (suspension), resolving down by step (resolution); named by intervals above the bass: 4–3, 7–6, 9–8, and 2–3 in the bass. Retardation: like a suspension but resolving up. Appoggiatura: approached by leap, left by step (usually in the opposite direction), typically accented. Escape tone: approached by step, left by leap in the opposite direction. Anticipation: a note of the next chord arriving early. Pedal point: a sustained (often bass) note held against changing harmonies."
+      },
+      {
+        "heading": "Motives and transformations",
+        "body": "A motive is a short, recognizable musical idea. Composers develop motives by repetition, sequence (repetition at a different pitch level), inversion (intervals turned upside down), retrograde (backward), augmentation (longer note values), diminution (shorter values), and fragmentation (using part of the motive). Real sequences preserve exact intervals; tonal sequences adjust to the key."
+      },
+      {
+        "heading": "Melodic analysis",
+        "body": "Identify chord tones first, then classify each remaining note by how it is approached and left. Consider metric placement: accented dissonances (suspensions, appoggiaturas, accented passing tones) create expressive tension. In dictation and aural questions, listen for characteristic shapes: the step-step of passing tones, the step-back of neighbors, and the held-then-falling suspension."
+      }
+    ],
+    "keyTakeaways": [
+      "Classify NCTs by approach and departure.",
+      "Suspension: preparation – suspension – resolution (down).",
+      "Retardation resolves up.",
+      "Appoggiatura: leap in, step out.",
+      "Escape tone: step in, leap out.",
+      "Motive transformations."
+    ],
+    "commonMistakes": [
+      "Calling a retardation a suspension.",
+      "Mixing up appoggiatura and escape tone.",
+      "Labeling suspensions by intervals above the soprano instead of the bass.",
+      "Forgetting to identify chord tones first."
+    ],
+    "examTips": [
+      "Draw arrows for approach and departure.",
+      "Measure suspension intervals from the bass.",
+      "Check metric placement."
+    ],
+    "cramSheet": "**NCTs:** passing (step–step, same direction) · neighbor (step–step back) · suspension (held → down step) · retardation (held → up step) · appoggiatura (leap–step) · escape (step–leap) · anticipation (early) · pedal (sustained)\n\n**Suspensions:** 4–3 · 7–6 · 9–8 · 2–3 (bass)\n\n**Motive:** sequence · inversion · retrograde · augmentation · diminution · fragmentation"
+  },
+  "vocab": [
+    {
+      "term": "passing tone",
+      "definition": "Step–step in one direction between chord tones."
+    },
+    {
+      "term": "neighbor tone",
+      "definition": "Step away and back."
+    },
+    {
+      "term": "suspension",
+      "definition": "Held note dissonant on a strong beat, resolving down by step."
+    },
+    {
+      "term": "retardation",
+      "definition": "Held note resolving up by step."
+    },
+    {
+      "term": "appoggiatura",
+      "definition": "Leap to a dissonance, step away."
+    },
+    {
+      "term": "escape tone",
+      "definition": "Step to a dissonance, leap away in the opposite direction."
+    },
+    {
+      "term": "anticipation",
+      "definition": "Note of the next chord arriving early."
+    },
+    {
+      "term": "pedal point",
+      "definition": "Sustained note against changing harmonies."
+    },
+    {
+      "term": "motive",
+      "definition": "Short recognizable musical idea."
+    },
+    {
+      "term": "sequence",
+      "definition": "Repetition of a pattern at a different pitch."
+    },
+    {
+      "term": "augmentation",
+      "definition": "Motive in longer note values."
+    },
+    {
+      "term": "inversion (melodic)",
+      "definition": "Intervals turned upside down."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u6-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Non-Chord Tones",
+      "skill": "Notational skills",
+      "stem": "Over a C major chord, the melody moves C–D–E stepwise. D is a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "passing tone"
+        },
+        {
+          "id": "B",
+          "text": "neighbor tone"
+        },
+        {
+          "id": "C",
+          "text": "suspension"
+        },
+        {
+          "id": "D",
+          "text": "escape tone"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Step–step, same direction.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Non-Chord Tones",
+      "skill": "Notational skills",
+      "stem": "Over a G major chord, the melody moves G–A–G. A is a(n)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "upper neighbor"
+        },
+        {
+          "id": "B",
+          "text": "lower neighbor"
+        },
+        {
+          "id": "C",
+          "text": "passing tone"
+        },
+        {
+          "id": "D",
+          "text": "anticipation"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Step away and back.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Non-Chord Tones",
+      "skill": "Notational skills",
+      "stem": "A note held over from the previous chord that resolves down by step is a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "suspension"
+        },
+        {
+          "id": "B",
+          "text": "retardation"
+        },
+        {
+          "id": "C",
+          "text": "anticipation"
+        },
+        {
+          "id": "D",
+          "text": "appoggiatura"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Definition.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Motives",
+      "skill": "Notational skills",
+      "stem": "Repeating a melodic pattern at a different pitch level is a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "sequence"
+        },
+        {
+          "id": "B",
+          "text": "retrograde"
+        },
+        {
+          "id": "C",
+          "text": "pedal point"
+        },
+        {
+          "id": "D",
+          "text": "cadence"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Definition.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Suspensions",
+      "skill": "Notational skills",
+      "stem": "Over a bass C, the alto holds F from the previous chord, then moves to E. This is a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4–3 suspension"
+        },
+        {
+          "id": "B",
+          "text": "7–6 suspension"
+        },
+        {
+          "id": "C",
+          "text": "9–8 suspension"
+        },
+        {
+          "id": "D",
+          "text": "2–3 suspension"
+        }
+      ],
+      "answer": "A",
+      "explanation": "F is a 4th, E a 3rd above C.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Non-Chord Tones",
+      "skill": "Notational skills",
+      "stem": "A dissonance approached by leap and resolved by step is a(n)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "appoggiatura"
+        },
+        {
+          "id": "B",
+          "text": "escape tone"
+        },
+        {
+          "id": "C",
+          "text": "passing tone"
+        },
+        {
+          "id": "D",
+          "text": "neighbor tone"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Leap in, step out.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Non-Chord Tones",
+      "skill": "Notational skills",
+      "stem": "A dissonance approached by step and left by leap in the opposite direction is a(n)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "escape tone"
+        },
+        {
+          "id": "B",
+          "text": "appoggiatura"
+        },
+        {
+          "id": "C",
+          "text": "suspension"
+        },
+        {
+          "id": "D",
+          "text": "pedal point"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Échappée.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Non-Chord Tones",
+      "skill": "Notational skills",
+      "stem": "In a V–I cadence, the soprano reaches the tonic C on the last eighth note of the V chord. That early C is a(n)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "anticipation"
+        },
+        {
+          "id": "B",
+          "text": "suspension"
+        },
+        {
+          "id": "C",
+          "text": "retardation"
+        },
+        {
+          "id": "D",
+          "text": "neighbor tone"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Arrives early.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Motives",
+      "skill": "Notational skills",
+      "stem": "A motive played with all note values doubled is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "augmentation"
+        },
+        {
+          "id": "B",
+          "text": "diminution"
+        },
+        {
+          "id": "C",
+          "text": "inversion"
+        },
+        {
+          "id": "D",
+          "text": "fragmentation"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Longer values.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Non-Chord Tones",
+      "skill": "Notational skills",
+      "stem": "A sustained bass note under changing harmonies is a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "pedal point"
+        },
+        {
+          "id": "B",
+          "text": "passing tone"
+        },
+        {
+          "id": "C",
+          "text": "suspension"
+        },
+        {
+          "id": "D",
+          "text": "retardation"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Definition.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Suspensions",
+      "skill": "Notational skills",
+      "stem": "A held note that resolves UP by step on a weak beat is a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "retardation"
+        },
+        {
+          "id": "B",
+          "text": "suspension"
+        },
+        {
+          "id": "C",
+          "text": "appoggiatura"
+        },
+        {
+          "id": "D",
+          "text": "escape tone"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Upward resolution.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Suspensions",
+      "skill": "Notational skills",
+      "stem": "Over bass E (first-inversion C major), the soprano holds D from a G chord and resolves to C. Measured above the bass, this is a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "7–6 suspension"
+        },
+        {
+          "id": "B",
+          "text": "4–3 suspension"
+        },
+        {
+          "id": "C",
+          "text": "9–8 suspension"
+        },
+        {
+          "id": "D",
+          "text": "2–3 suspension"
+        }
+      ],
+      "answer": "A",
+      "explanation": "D is a 7th above E; C a 6th.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Motives",
+      "skill": "Notational skills",
+      "stem": "A motive C–D–E presented as C–B–A is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "melodic inversion"
+        },
+        {
+          "id": "B",
+          "text": "retrograde"
+        },
+        {
+          "id": "C",
+          "text": "augmentation"
+        },
+        {
+          "id": "D",
+          "text": "sequence"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Intervals upside down.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Non-Chord Tones",
+      "skill": "Notational skills",
+      "stem": "An accented passing tone differs from an unaccented one because it",
+      "choices": [
+        {
+          "id": "A",
+          "text": "falls on a strong beat, creating stronger dissonance"
+        },
+        {
+          "id": "B",
+          "text": "is approached by leap"
+        },
+        {
+          "id": "C",
+          "text": "resolves up"
+        },
+        {
+          "id": "D",
+          "text": "is held from the previous chord"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Metric placement.",
+      "distractors": {}
+    },
+    {
+      "id": "u6-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Non-Chord Tones",
+      "frqType": "Analysis",
+      "prompt": "Identify each non-chord tone (C major):\n(a) Over I, the soprano moves C5–D5–E5 in eighth notes.\n(b) Over V, the soprano moves G4–A4–G4.\n(c) The alto holds F4 from a IV chord into a I chord (bass C3), then moves to E4.\n(d) In V–I, the soprano's C5 sounds on the last eighth of the V chord before I arrives.\n(e) Over V, the soprano leaps up to C5 on the downbeat and then steps down to B4.\n(f) Over I (bass C3), the soprano holds B4 from a V chord and resolves up to C5.",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Identify the NCT.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Identify the NCT.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Identify the NCT.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Identify the NCT.",
+          "points": 1
+        },
+        {
+          "label": "e",
+          "prompt": "Identify the NCT.",
+          "points": 1
+        },
+        {
+          "label": "f",
+          "prompt": "Identify the NCT.",
+          "points": 1
+        }
+      ],
+      "points": 6,
+      "minutes": 10,
+      "rubric": [
+        {
+          "criterion": "a",
+          "points": 1,
+          "description": "Passing tone (D5)."
+        },
+        {
+          "criterion": "b",
+          "points": 1,
+          "description": "Upper neighbor (A4)."
+        },
+        {
+          "criterion": "c",
+          "points": 1,
+          "description": "4–3 suspension (F4 over C)."
+        },
+        {
+          "criterion": "d",
+          "points": 1,
+          "description": "Anticipation (C5)."
+        },
+        {
+          "criterion": "e",
+          "points": 1,
+          "description": "Appoggiatura (C5 over V)."
+        },
+        {
+          "criterion": "f",
+          "points": 1,
+          "description": "Retardation (B4 resolving up)."
+        }
+      ],
+      "sampleResponse": "a. D5 is a passing tone between chord tones C and E.\nb. A4 is an upper neighbor tone returning to G.\nc. F4 is a 4–3 suspension: prepared in IV, dissonant (a 4th above C) over I, resolving down to E (a 3rd).\nd. The early C5 is an anticipation of the tonic chord.\ne. C5 is an appoggiatura: approached by leap, accented, and resolved by step down to B4, a chord tone of V.\nf. B4 is a retardation: held from V and resolving up by step to C5."
+    }
+  ]
+}

@@ -1,0 +1,573 @@
+{
+  "number": 2,
+  "title": "Music Fundamentals II: Minor Scales and Key Signatures, Melody, Timbre, Texture",
+  "guide": {
+    "summary": "Unit 2 covers minor scales and keys, intervals and their inversions, melodic features, transposition, timbre and instrument families, and musical texture.",
+    "sections": [
+      {
+        "heading": "Minor scales and keys",
+        "body": "Natural minor follows W–H–W–W–H–W–W (scale degrees 1 2 ♭3 4 5 ♭6 ♭7). Harmonic minor raises 7 to create a leading tone (A harmonic minor: G♯), producing an augmented second between 6 and 7. Melodic minor raises 6 and 7 ascending (A B C D E F♯ G♯ A) and uses natural minor descending. Relative keys share a key signature (C major / A minor; the relative minor is a minor third below). Parallel keys share a tonic (C major / C minor). In minor, the raised 7 is written as an accidental, not in the key signature."
+      },
+      {
+        "heading": "Intervals",
+        "body": "Intervals have a number (count letter names) and a quality: perfect (unisons, 4ths, 5ths, octaves), major or minor (2nds, 3rds, 6ths, 7ths), augmented or diminished. In a major scale, intervals above the tonic are major or perfect. Inversions: numbers sum to nine (3rd ↔ 6th), major ↔ minor, augmented ↔ diminished, perfect stays perfect. The tritone (augmented 4th or diminished 5th) spans three whole steps. Consonances: perfect unison, octave, fifth, and major/minor thirds and sixths; the perfect fourth is dissonant above the bass in common-practice harmony."
+      },
+      {
+        "heading": "Melody, transposition, timbre, texture",
+        "body": "Melodies may be conjunct (stepwise) or disjunct (leaps); they have range, contour, and climax, and are built from motives and sequences. Transposing instruments sound at a different pitch than written: B♭ clarinet and B♭ trumpet sound a major second lower; F horn sounds a perfect fifth lower; E♭ alto saxophone sounds a major sixth lower. Timbre is tone color (instrument families: strings, woodwinds, brass, percussion). Texture: monophony (single line), homophony (melody with accompaniment or chordal), polyphony (independent lines, e.g., imitation in a fugue), heterophony (simultaneous variants of one melody)."
+      }
+    ],
+    "keyTakeaways": [
+      "Natural, harmonic (raised 7), melodic (raised 6, 7 ascending) minor.",
+      "Relative = same signature; parallel = same tonic.",
+      "Interval inversions sum to 9; M↔m, A↔d.",
+      "B♭ instruments sound M2 lower; F horn P5 lower.",
+      "Textures: mono, homo, poly, hetero."
+    ],
+    "commonMistakes": [
+      "Putting G♯ in the A minor key signature.",
+      "Counting half steps but mislabeling interval numbers.",
+      "Confusing relative and parallel keys.",
+      "Transposing in the wrong direction."
+    ],
+    "examTips": [
+      "Count letter names first, then quality.",
+      "Listen for the raised leading tone in minor.",
+      "Identify texture by counting independent lines."
+    ],
+    "cramSheet": "**Minor:** natural W H W W H W W · harmonic ↑7 · melodic ↑6 ↑7 ascending\n\n**Keys:** relative (m3 below) · parallel (same tonic)\n\n**Intervals:** P (1 4 5 8) · M/m (2 3 6 7) · inversion sums to 9 · tritone = A4/d5\n\n**Transposition:** B♭ = M2 lower · F horn = P5 lower · E♭ alto sax = M6 lower\n\n**Texture:** monophony · homophony · polyphony · heterophony"
+  },
+  "vocab": [
+    {
+      "term": "harmonic minor",
+      "definition": "Natural minor with raised 7."
+    },
+    {
+      "term": "melodic minor",
+      "definition": "Raised 6 and 7 ascending; natural descending."
+    },
+    {
+      "term": "relative key",
+      "definition": "Key sharing the same signature."
+    },
+    {
+      "term": "parallel key",
+      "definition": "Key sharing the same tonic."
+    },
+    {
+      "term": "interval inversion",
+      "definition": "Flipping an interval; numbers sum to nine."
+    },
+    {
+      "term": "tritone",
+      "definition": "Augmented fourth or diminished fifth."
+    },
+    {
+      "term": "conjunct",
+      "definition": "Moving by step."
+    },
+    {
+      "term": "disjunct",
+      "definition": "Moving by leap."
+    },
+    {
+      "term": "transposing instrument",
+      "definition": "Instrument that sounds a different pitch than written."
+    },
+    {
+      "term": "timbre",
+      "definition": "Tone color."
+    },
+    {
+      "term": "homophony",
+      "definition": "Melody with chordal accompaniment."
+    },
+    {
+      "term": "polyphony",
+      "definition": "Multiple independent melodic lines."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u2-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Minor Scales",
+      "skill": "Notational skills",
+      "stem": "Which pitch is raised in A harmonic minor?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "G to G♯"
+        },
+        {
+          "id": "B",
+          "text": "F to F♯"
+        },
+        {
+          "id": "C",
+          "text": "C to C♯"
+        },
+        {
+          "id": "D",
+          "text": "D to D♯"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Raised 7th.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Keys",
+      "skill": "Notational skills",
+      "stem": "The parallel minor of G major is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "G minor"
+        },
+        {
+          "id": "B",
+          "text": "E minor"
+        },
+        {
+          "id": "C",
+          "text": "B minor"
+        },
+        {
+          "id": "D",
+          "text": "D minor"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Same tonic.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Keys",
+      "skill": "Notational skills",
+      "stem": "The relative minor of E♭ major is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "C minor"
+        },
+        {
+          "id": "B",
+          "text": "E♭ minor"
+        },
+        {
+          "id": "C",
+          "text": "G minor"
+        },
+        {
+          "id": "D",
+          "text": "F minor"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A minor third below.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Intervals",
+      "skill": "Notational skills",
+      "stem": "The interval from C up to A♭ is a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "minor sixth"
+        },
+        {
+          "id": "B",
+          "text": "major sixth"
+        },
+        {
+          "id": "C",
+          "text": "augmented fifth"
+        },
+        {
+          "id": "D",
+          "text": "minor seventh"
+        }
+      ],
+      "answer": "A",
+      "explanation": "C–A is a 6th; lowered = minor.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Intervals",
+      "skill": "Notational skills",
+      "stem": "The inversion of a major third is a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "minor sixth"
+        },
+        {
+          "id": "B",
+          "text": "major sixth"
+        },
+        {
+          "id": "C",
+          "text": "perfect fifth"
+        },
+        {
+          "id": "D",
+          "text": "minor third"
+        }
+      ],
+      "answer": "A",
+      "explanation": "3 + 6 = 9; major → minor.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Intervals",
+      "skill": "Notational skills",
+      "stem": "C up to F♯ is a(n)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "augmented fourth"
+        },
+        {
+          "id": "B",
+          "text": "perfect fourth"
+        },
+        {
+          "id": "C",
+          "text": "diminished fifth"
+        },
+        {
+          "id": "D",
+          "text": "minor fifth"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Tritone spelled as a 4th.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Minor Scales",
+      "skill": "Notational skills",
+      "stem": "D melodic minor ascending contains",
+      "choices": [
+        {
+          "id": "A",
+          "text": "B♮ and C♯"
+        },
+        {
+          "id": "B",
+          "text": "B♭ and C"
+        },
+        {
+          "id": "C",
+          "text": "B♭ and C♯"
+        },
+        {
+          "id": "D",
+          "text": "B♮ and C♮"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Raised 6 and 7.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Transposition",
+      "skill": "Notational skills",
+      "stem": "A B♭ clarinet plays a written D. The concert pitch is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "C"
+        },
+        {
+          "id": "B",
+          "text": "E"
+        },
+        {
+          "id": "C",
+          "text": "B♭"
+        },
+        {
+          "id": "D",
+          "text": "F"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Sounds a major second lower.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Texture",
+      "skill": "Notational skills",
+      "stem": "A fugue, with several independent imitative lines, has which texture?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Polyphonic"
+        },
+        {
+          "id": "B",
+          "text": "Monophonic"
+        },
+        {
+          "id": "C",
+          "text": "Homophonic"
+        },
+        {
+          "id": "D",
+          "text": "Heterophonic"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Independent lines.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Transposition",
+      "skill": "Notational skills",
+      "stem": "A horn in F plays a written C5. The sounding pitch is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "F4"
+        },
+        {
+          "id": "B",
+          "text": "G5"
+        },
+        {
+          "id": "C",
+          "text": "C5"
+        },
+        {
+          "id": "D",
+          "text": "B♭4"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Sounds a perfect fifth lower.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Minor Scales",
+      "skill": "Notational skills",
+      "stem": "In harmonic minor, the interval between scale degrees 6 and 7 is a(n)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "augmented second"
+        },
+        {
+          "id": "B",
+          "text": "major second"
+        },
+        {
+          "id": "C",
+          "text": "minor second"
+        },
+        {
+          "id": "D",
+          "text": "minor third"
+        }
+      ],
+      "answer": "A",
+      "explanation": "e.g., F–G♯ in A minor.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Intervals",
+      "skill": "Notational skills",
+      "stem": "The inversion of an augmented fourth is a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "diminished fifth"
+        },
+        {
+          "id": "B",
+          "text": "perfect fifth"
+        },
+        {
+          "id": "C",
+          "text": "augmented fifth"
+        },
+        {
+          "id": "D",
+          "text": "diminished fourth"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Augmented ↔ diminished.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Intervals",
+      "skill": "Notational skills",
+      "stem": "E♭ up to C is a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "major sixth"
+        },
+        {
+          "id": "B",
+          "text": "minor sixth"
+        },
+        {
+          "id": "C",
+          "text": "major seventh"
+        },
+        {
+          "id": "D",
+          "text": "augmented fifth"
+        }
+      ],
+      "answer": "A",
+      "explanation": "C is in E♭ major; sixth above the tonic.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Texture",
+      "skill": "Notational skills",
+      "stem": "Two performers play slightly different ornamented versions of the same melody at once. The texture is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "heterophony"
+        },
+        {
+          "id": "B",
+          "text": "homophony"
+        },
+        {
+          "id": "C",
+          "text": "monophony"
+        },
+        {
+          "id": "D",
+          "text": "imitative polyphony"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Simultaneous variants.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Fundamentals",
+      "frqType": "Fundamentals short response",
+      "prompt": "Answer each item.",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Spell G harmonic minor.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Spell D melodic minor ascending.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Name the interval E♭ up to C.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Name its inversion.",
+          "points": 1
+        },
+        {
+          "label": "e",
+          "prompt": "A B♭ trumpet plays written D. What concert pitch sounds?",
+          "points": 1
+        },
+        {
+          "label": "f",
+          "prompt": "Define homophony and give an example.",
+          "points": 1
+        }
+      ],
+      "points": 6,
+      "minutes": 10,
+      "rubric": [
+        {
+          "criterion": "a",
+          "points": 1,
+          "description": "G A B♭ C D E♭ F♯ G."
+        },
+        {
+          "criterion": "b",
+          "points": 1,
+          "description": "D E F G A B C♯ D."
+        },
+        {
+          "criterion": "c",
+          "points": 1,
+          "description": "Major sixth."
+        },
+        {
+          "criterion": "d",
+          "points": 1,
+          "description": "Minor third."
+        },
+        {
+          "criterion": "e",
+          "points": 1,
+          "description": "Concert C (M2 lower)."
+        },
+        {
+          "criterion": "f",
+          "points": 1,
+          "description": "Homophony: a melody with chordal accompaniment, e.g., a hymn or a pop song with chords."
+        }
+      ],
+      "sampleResponse": "a. G harmonic minor: G A B♭ C D E♭ F♯ G.\nb. D melodic minor ascending: D E F G A B C♯ D.\nc. E♭ up to C is a major sixth.\nd. Its inversion is a minor third.\ne. A written D on B♭ trumpet sounds concert C.\nf. Homophony is a melody supported by chords, as in a hymn or a singer accompanied by guitar chords."
+    }
+  ]
+}

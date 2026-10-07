@@ -1,0 +1,574 @@
+{
+  "number": 8,
+  "title": "Modes and Form",
+  "guide": {
+    "summary": "Unit 8 covers modes and other scales, and the formal structures of common-practice and popular music, from binary and ternary forms to sonata form and the twelve-bar blues.",
+    "sections": [
+      {
+        "heading": "Modes and other scales",
+        "body": "The church modes can be heard on the white keys: Ionian (C, major), Dorian (D: natural minor with raised 6), Phrygian (E: natural minor with lowered 2), Lydian (F: major with raised 4), Mixolydian (G: major with lowered 7), Aeolian (A, natural minor), and Locrian (B, diminished tonic triad, rarely used). Other scales include the major pentatonic (1 2 3 5 6), minor pentatonic, the whole-tone scale (six notes, all whole steps, no perfect fifths), the chromatic scale, and the blues scale. To identify a mode, compare it with the major or natural minor scale on the same tonic."
+      },
+      {
+        "heading": "Small forms",
+        "body": "Binary form (AB, each section usually repeated) often has a first section ending away from tonic (e.g., in the dominant). Rounded binary returns part of A at the end of the second section (A B A'). Ternary form (ABA) has a contrasting, self-contained middle section and a full return. Strophic songs repeat the same music for each verse; through-composed songs set each verse to new music. Theme and variations alters a theme in melody, rhythm, harmony, or texture."
+      },
+      {
+        "heading": "Larger and popular forms",
+        "body": "Rondo alternates a recurring refrain with contrasting episodes (ABACA or ABACABA). Sonata form has an exposition (first theme in tonic, transition, second theme in the dominant or relative major, closing), a development that fragments and modulates, and a recapitulation that returns themes in the tonic, sometimes with a coda. The twelve-bar blues follows I I I I | IV IV I I | V IV I I (with variants), and popular songs use verse–chorus structures."
+      }
+    ],
+    "keyTakeaways": [
+      "Dorian = minor ↑6; Phrygian = minor ↓2.",
+      "Lydian = major ↑4; Mixolydian = major ↓7.",
+      "Whole-tone: all whole steps.",
+      "Binary vs rounded binary vs ternary.",
+      "Sonata: exposition, development, recapitulation.",
+      "Twelve-bar blues pattern."
+    ],
+    "commonMistakes": [
+      "Confusing Dorian and Aeolian.",
+      "Calling rounded binary 'ternary' when the return is partial and within section 2.",
+      "Placing the second theme of the recapitulation in the dominant.",
+      "Mislabeling strophic vs through-composed."
+    ],
+    "examTips": [
+      "Compare modes to major/minor on the same tonic.",
+      "Listen for returns of opening material.",
+      "Track key areas in sonata form."
+    ],
+    "cramSheet": "**Modes:** Ionian · Dorian (m ↑6) · Phrygian (m ↓2) · Lydian (M ↑4) · Mixolydian (M ↓7) · Aeolian · Locrian\n\n**Scales:** pentatonic · whole-tone · chromatic · blues\n\n**Forms:** binary · rounded binary · ternary · strophic · through-composed · variations · rondo · sonata · 12-bar blues"
+  },
+  "vocab": [
+    {
+      "term": "Dorian",
+      "definition": "Minor mode with raised 6."
+    },
+    {
+      "term": "Phrygian",
+      "definition": "Minor mode with lowered 2."
+    },
+    {
+      "term": "Lydian",
+      "definition": "Major mode with raised 4."
+    },
+    {
+      "term": "Mixolydian",
+      "definition": "Major mode with lowered 7."
+    },
+    {
+      "term": "whole-tone scale",
+      "definition": "Six-note scale of whole steps."
+    },
+    {
+      "term": "pentatonic scale",
+      "definition": "Five-note scale (major: 1 2 3 5 6)."
+    },
+    {
+      "term": "binary form",
+      "definition": "Two-part form (AB)."
+    },
+    {
+      "term": "rounded binary",
+      "definition": "AB with partial return of A in the second section."
+    },
+    {
+      "term": "ternary form",
+      "definition": "ABA with a complete return."
+    },
+    {
+      "term": "strophic",
+      "definition": "Same music for each verse."
+    },
+    {
+      "term": "rondo",
+      "definition": "Refrain alternating with episodes (ABACA)."
+    },
+    {
+      "term": "sonata form",
+      "definition": "Exposition, development, recapitulation."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u8-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Modes",
+      "skill": "Harmonic analysis",
+      "stem": "A scale on D using only white keys is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Dorian"
+        },
+        {
+          "id": "B",
+          "text": "Phrygian"
+        },
+        {
+          "id": "C",
+          "text": "Lydian"
+        },
+        {
+          "id": "D",
+          "text": "Mixolydian"
+        }
+      ],
+      "answer": "A",
+      "explanation": "D to D.",
+      "distractors": {}
+    },
+    {
+      "id": "u8-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Modes",
+      "skill": "Harmonic analysis",
+      "stem": "Which mode is a major scale with a lowered seventh?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Mixolydian"
+        },
+        {
+          "id": "B",
+          "text": "Lydian"
+        },
+        {
+          "id": "C",
+          "text": "Dorian"
+        },
+        {
+          "id": "D",
+          "text": "Aeolian"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Definition.",
+      "distractors": {}
+    },
+    {
+      "id": "u8-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Forms",
+      "skill": "Harmonic analysis",
+      "stem": "ABA with a complete return of A is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ternary form"
+        },
+        {
+          "id": "B",
+          "text": "binary form"
+        },
+        {
+          "id": "C",
+          "text": "strophic form"
+        },
+        {
+          "id": "D",
+          "text": "through-composed form"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Definition.",
+      "distractors": {}
+    },
+    {
+      "id": "u8-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Scales",
+      "skill": "Harmonic analysis",
+      "stem": "A scale made entirely of whole steps is the",
+      "choices": [
+        {
+          "id": "A",
+          "text": "whole-tone scale"
+        },
+        {
+          "id": "B",
+          "text": "chromatic scale"
+        },
+        {
+          "id": "C",
+          "text": "pentatonic scale"
+        },
+        {
+          "id": "D",
+          "text": "blues scale"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Six notes.",
+      "distractors": {}
+    },
+    {
+      "id": "u8-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Modes",
+      "skill": "Harmonic analysis",
+      "stem": "E F G A B C D E is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Phrygian"
+        },
+        {
+          "id": "B",
+          "text": "Dorian"
+        },
+        {
+          "id": "C",
+          "text": "Aeolian"
+        },
+        {
+          "id": "D",
+          "text": "Locrian"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Minor with lowered 2.",
+      "distractors": {}
+    },
+    {
+      "id": "u8-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Modes",
+      "skill": "Harmonic analysis",
+      "stem": "F G A B C D E F differs from F major by",
+      "choices": [
+        {
+          "id": "A",
+          "text": "a raised fourth (B instead of B♭): Lydian"
+        },
+        {
+          "id": "B",
+          "text": "a lowered seventh: Mixolydian"
+        },
+        {
+          "id": "C",
+          "text": "a lowered third: Dorian"
+        },
+        {
+          "id": "D",
+          "text": "a lowered second: Phrygian"
+        }
+      ],
+      "answer": "A",
+      "explanation": "B♮.",
+      "distractors": {}
+    },
+    {
+      "id": "u8-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Forms",
+      "skill": "Harmonic analysis",
+      "stem": "A song with the same music for every verse is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "strophic"
+        },
+        {
+          "id": "B",
+          "text": "through-composed"
+        },
+        {
+          "id": "C",
+          "text": "rondo"
+        },
+        {
+          "id": "D",
+          "text": "sonata form"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Definition.",
+      "distractors": {}
+    },
+    {
+      "id": "u8-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Forms",
+      "skill": "Harmonic analysis",
+      "stem": "The pattern ABACA is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "rondo"
+        },
+        {
+          "id": "B",
+          "text": "ternary"
+        },
+        {
+          "id": "C",
+          "text": "binary"
+        },
+        {
+          "id": "D",
+          "text": "theme and variations"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Recurring refrain.",
+      "distractors": {}
+    },
+    {
+      "id": "u8-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Forms",
+      "skill": "Harmonic analysis",
+      "stem": "In a major-key sonata-form exposition, the second theme is usually in the",
+      "choices": [
+        {
+          "id": "A",
+          "text": "dominant"
+        },
+        {
+          "id": "B",
+          "text": "subdominant"
+        },
+        {
+          "id": "C",
+          "text": "parallel minor"
+        },
+        {
+          "id": "D",
+          "text": "tonic"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Contrasting key area.",
+      "distractors": {}
+    },
+    {
+      "id": "u8-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Forms",
+      "skill": "Harmonic analysis",
+      "stem": "A binary form whose second section ends by bringing back the opening material of A is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "rounded binary"
+        },
+        {
+          "id": "B",
+          "text": "ternary"
+        },
+        {
+          "id": "C",
+          "text": "strophic"
+        },
+        {
+          "id": "D",
+          "text": "rondo"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A B A'.",
+      "distractors": {}
+    },
+    {
+      "id": "u8-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Forms",
+      "skill": "Harmonic analysis",
+      "stem": "In the recapitulation of sonata form, the second theme normally returns in the",
+      "choices": [
+        {
+          "id": "A",
+          "text": "tonic"
+        },
+        {
+          "id": "B",
+          "text": "dominant"
+        },
+        {
+          "id": "C",
+          "text": "relative minor"
+        },
+        {
+          "id": "D",
+          "text": "subdominant"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Resolution of key conflict.",
+      "distractors": {}
+    },
+    {
+      "id": "u8-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Forms",
+      "skill": "Harmonic analysis",
+      "stem": "Which is the standard twelve-bar blues progression?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "I I I I | IV IV I I | V IV I I"
+        },
+        {
+          "id": "B",
+          "text": "I IV V I | I IV V I | I IV V I"
+        },
+        {
+          "id": "C",
+          "text": "I V vi IV ×3"
+        },
+        {
+          "id": "D",
+          "text": "ii V I I ×3"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Standard pattern.",
+      "distractors": {}
+    },
+    {
+      "id": "u8-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Modes",
+      "skill": "Harmonic analysis",
+      "stem": "A minor (natural) with F♯ instead of F is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A Dorian"
+        },
+        {
+          "id": "B",
+          "text": "A Phrygian"
+        },
+        {
+          "id": "C",
+          "text": "A Lydian"
+        },
+        {
+          "id": "D",
+          "text": "A Mixolydian"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Raised 6.",
+      "distractors": {}
+    },
+    {
+      "id": "u8-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Scales",
+      "skill": "Harmonic analysis",
+      "stem": "Why does the whole-tone scale sound tonally ambiguous?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "It lacks half steps and perfect fifths, so no leading tone or clear tonic triad exists"
+        },
+        {
+          "id": "B",
+          "text": "It has too many notes"
+        },
+        {
+          "id": "C",
+          "text": "It is always in minor"
+        },
+        {
+          "id": "D",
+          "text": "It uses only black keys"
+        }
+      ],
+      "answer": "A",
+      "explanation": "No leading tone.",
+      "distractors": {}
+    },
+    {
+      "id": "u8-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Modes and Form",
+      "frqType": "Analysis",
+      "prompt": "Answer each item.",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "Name the mode: D E F G A B C D.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Name the mode: G A B C D E F G.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Name the mode: E F G A B C D E, and its distinctive interval.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Name the form ||: A :||: B A' :||.",
+          "points": 1
+        },
+        {
+          "label": "e",
+          "prompt": "Name the form ABACA.",
+          "points": 1
+        },
+        {
+          "label": "f",
+          "prompt": "Which section of sonata form fragments themes and modulates?",
+          "points": 1
+        }
+      ],
+      "points": 6,
+      "minutes": 10,
+      "rubric": [
+        {
+          "criterion": "a",
+          "points": 1,
+          "description": "Dorian."
+        },
+        {
+          "criterion": "b",
+          "points": 1,
+          "description": "Mixolydian."
+        },
+        {
+          "criterion": "c",
+          "points": 1,
+          "description": "Phrygian (F♮ = lowered 2)."
+        },
+        {
+          "criterion": "d",
+          "points": 1,
+          "description": "Rounded binary."
+        },
+        {
+          "criterion": "e",
+          "points": 1,
+          "description": "Rondo."
+        },
+        {
+          "criterion": "f",
+          "points": 1,
+          "description": "Development (fragments themes and modulates)."
+        }
+      ],
+      "sampleResponse": "a. D E F G A B C D is D Dorian (natural minor with a raised sixth, B♮).\nb. G A B C D E F G is G Mixolydian (major with a lowered seventh, F♮).\nc. E F G A B C D E is E Phrygian, identified by the half step from E to F (lowered second).\nd. A form of ||: A :||: B A' :|| is rounded binary.\ne. A refrain alternating with contrasting episodes (ABACA) is a rondo.\nf. The development section fragments themes and moves through several keys."
+    }
+  ]
+}

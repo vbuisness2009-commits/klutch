@@ -1,0 +1,551 @@
+{
+  "number": 7,
+  "title": "Harmony and Voice Leading IV: Secondary Function",
+  "guide": {
+    "summary": "Unit 7 covers secondary (applied) dominants and leading-tone chords, tonicization, and modulation to closely related keys.",
+    "sections": [
+      {
+        "heading": "Secondary dominants",
+        "body": "A secondary dominant is the V or V7 of a chord other than tonic, temporarily treating that chord as a tonic (tonicization). It is labeled V/x or V7/x. In C major: V/V = D F♯ A, V7/V = D F♯ A C, V/ii = A C♯ E, V/vi = E G♯ B, V7/IV = C E G B♭. The chromatic note usually acts as a temporary leading tone resolving up to the root of the target (F♯ → G in V/V → V), and a chordal seventh resolves down. Diminished triads (vii° in major, ii° in minor) cannot be tonicized because they aren't stable chords."
+      },
+      {
+        "heading": "Secondary leading-tone chords",
+        "body": "vii°/x, vii°7/x, and viiø7/x are leading-tone chords built a half step below the target root. In C major, vii°7/V = F♯ A C E♭, resolving to G. Like secondary dominants, they intensify motion to the target chord."
+      },
+      {
+        "heading": "Modulation",
+        "body": "Tonicization is brief; modulation establishes a new key, usually confirmed by a cadence. Closely related keys differ from the home key by at most one accidental: for C major, G major, F major, A minor, E minor, and D minor. A common pivot-chord modulation uses a chord diatonic to both keys (e.g., A minor = vi in C = ii in G), followed by the new key's dominant and a cadence. Direct (phrase) modulation shifts keys without a pivot, often at a phrase boundary."
+      }
+    ],
+    "keyTakeaways": [
+      "V/x and V7/x tonicize non-tonic chords.",
+      "Chromatic leading tones resolve up.",
+      "vii°7/x: a half step below the target.",
+      "Closely related keys: ±1 accidental.",
+      "Pivot chords are diatonic in both keys."
+    ],
+    "commonMistakes": [
+      "Forgetting the chromatic alteration (F♯ in V/V).",
+      "Tonicizing a diminished triad.",
+      "Calling every tonicization a modulation.",
+      "Doubling the temporary leading tone."
+    ],
+    "examTips": [
+      "Spot accidentals to find secondary chords.",
+      "Ask: whose dominant is this?",
+      "Look for a cadence to confirm modulation."
+    ],
+    "cramSheet": "**In C:** V/V D F♯ A · V7/V D F♯ A C · V/ii A C♯ E · V/vi E G♯ B · V7/IV C E G B♭ · vii°7/V F♯ A C E♭\n\n**Rules:** temporary LT up · 7th down · don't tonicize vii°/ii°\n\n**Closely related (C):** G · F · a · e · d · **Pivot:** vi in C = ii in G"
+  },
+  "vocab": [
+    {
+      "term": "secondary dominant",
+      "definition": "V or V7 of a non-tonic chord."
+    },
+    {
+      "term": "tonicization",
+      "definition": "Brief emphasis of a non-tonic chord as a temporary tonic."
+    },
+    {
+      "term": "modulation",
+      "definition": "Establishing a new key."
+    },
+    {
+      "term": "closely related key",
+      "definition": "Key differing by at most one accidental."
+    },
+    {
+      "term": "pivot chord",
+      "definition": "Chord diatonic in both the old and new keys."
+    },
+    {
+      "term": "direct modulation",
+      "definition": "Key change without a pivot chord."
+    },
+    {
+      "term": "V/V",
+      "definition": "Dominant of the dominant."
+    },
+    {
+      "term": "vii°7/V",
+      "definition": "Leading-tone seventh of the dominant."
+    },
+    {
+      "term": "applied chord",
+      "definition": "Another name for a secondary chord."
+    },
+    {
+      "term": "chromaticism",
+      "definition": "Use of notes outside the key."
+    },
+    {
+      "term": "cross-relation",
+      "definition": "Conflicting chromatic forms in different voices."
+    },
+    {
+      "term": "temporary leading tone",
+      "definition": "Chromatic note resolving up to a tonicized root."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u7-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Secondary Dominants",
+      "skill": "Harmonic analysis",
+      "stem": "In C major, V/V is spelled",
+      "choices": [
+        {
+          "id": "A",
+          "text": "D F♯ A"
+        },
+        {
+          "id": "B",
+          "text": "D F A"
+        },
+        {
+          "id": "C",
+          "text": "G B D"
+        },
+        {
+          "id": "D",
+          "text": "A C♯ E"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Dominant of G.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Secondary Dominants",
+      "skill": "Harmonic analysis",
+      "stem": "Secondary dominants are identified most easily by",
+      "choices": [
+        {
+          "id": "A",
+          "text": "accidentals not in the key signature"
+        },
+        {
+          "id": "B",
+          "text": "their position in the measure"
+        },
+        {
+          "id": "C",
+          "text": "their dynamics"
+        },
+        {
+          "id": "D",
+          "text": "the key signature"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Chromatic notes.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Modulation",
+      "skill": "Harmonic analysis",
+      "stem": "Which key is closely related to C major?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "G major"
+        },
+        {
+          "id": "B",
+          "text": "D major"
+        },
+        {
+          "id": "C",
+          "text": "E♭ major"
+        },
+        {
+          "id": "D",
+          "text": "B major"
+        }
+      ],
+      "answer": "A",
+      "explanation": "One accidental.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Tonicization",
+      "skill": "Harmonic analysis",
+      "stem": "A brief emphasis on a chord other than tonic is called",
+      "choices": [
+        {
+          "id": "A",
+          "text": "tonicization"
+        },
+        {
+          "id": "B",
+          "text": "modulation"
+        },
+        {
+          "id": "C",
+          "text": "transposition"
+        },
+        {
+          "id": "D",
+          "text": "inversion"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Definition.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Secondary Dominants",
+      "skill": "Harmonic analysis",
+      "stem": "In C major, E G♯ B is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "V/vi"
+        },
+        {
+          "id": "B",
+          "text": "V/iii"
+        },
+        {
+          "id": "C",
+          "text": "iii"
+        },
+        {
+          "id": "D",
+          "text": "V/V"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Dominant of A minor.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Secondary Dominants",
+      "skill": "Harmonic analysis",
+      "stem": "In C major, C E G B♭ is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "V7/IV"
+        },
+        {
+          "id": "B",
+          "text": "I7"
+        },
+        {
+          "id": "C",
+          "text": "V7/V"
+        },
+        {
+          "id": "D",
+          "text": "IV7"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Dominant seventh of F.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Leading-Tone Chords",
+      "skill": "Harmonic analysis",
+      "stem": "In C major, F♯ A C E♭ is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "vii°7/V"
+        },
+        {
+          "id": "B",
+          "text": "V7/V"
+        },
+        {
+          "id": "C",
+          "text": "viiø7"
+        },
+        {
+          "id": "D",
+          "text": "ii°7"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Half step below G.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Voice Leading",
+      "skill": "Harmonic analysis",
+      "stem": "In V/V → V in C major, F♯ should",
+      "choices": [
+        {
+          "id": "A",
+          "text": "resolve up to G"
+        },
+        {
+          "id": "B",
+          "text": "resolve down to F"
+        },
+        {
+          "id": "C",
+          "text": "be doubled"
+        },
+        {
+          "id": "D",
+          "text": "leap to D"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Temporary leading tone.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Modulation",
+      "skill": "Harmonic analysis",
+      "stem": "In a modulation from C major to G major, A C E could serve as a pivot because it is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "vi in C and ii in G"
+        },
+        {
+          "id": "B",
+          "text": "V in both keys"
+        },
+        {
+          "id": "C",
+          "text": "I in both keys"
+        },
+        {
+          "id": "D",
+          "text": "iii in C and vi in G"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Diatonic in both.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Secondary Dominants",
+      "skill": "Harmonic analysis",
+      "stem": "In G major, V/V is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A C♯ E"
+        },
+        {
+          "id": "B",
+          "text": "D F♯ A"
+        },
+        {
+          "id": "C",
+          "text": "A C E"
+        },
+        {
+          "id": "D",
+          "text": "E G♯ B"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Dominant of D.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Secondary Dominants",
+      "skill": "Harmonic analysis",
+      "stem": "Why is V/vii° not used in major keys?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A diminished triad is unstable and cannot act as a temporary tonic"
+        },
+        {
+          "id": "B",
+          "text": "It requires too many sharps"
+        },
+        {
+          "id": "C",
+          "text": "It creates parallel fifths"
+        },
+        {
+          "id": "D",
+          "text": "vii° doesn't exist in major"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Only major/minor triads can be tonicized.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Modulation",
+      "skill": "Harmonic analysis",
+      "stem": "Which list gives all keys closely related to D major?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A major, G major, B minor, F♯ minor, E minor"
+        },
+        {
+          "id": "B",
+          "text": "A major, E major, B minor, C♯ minor, F♯ minor"
+        },
+        {
+          "id": "C",
+          "text": "G major, C major, E minor, A minor, B minor"
+        },
+        {
+          "id": "D",
+          "text": "A major, G major, D minor, B♭ major, F minor"
+        }
+      ],
+      "answer": "A",
+      "explanation": "±1 accidental from 2 sharps.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Secondary Dominants",
+      "skill": "Harmonic analysis",
+      "stem": "In A minor, V/III is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "G B D"
+        },
+        {
+          "id": "B",
+          "text": "E G♯ B"
+        },
+        {
+          "id": "C",
+          "text": "C E G"
+        },
+        {
+          "id": "D",
+          "text": "D F♯ A"
+        }
+      ],
+      "answer": "A",
+      "explanation": "III = C major; its dominant is G.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Modulation",
+      "skill": "Harmonic analysis",
+      "stem": "What best confirms that a passage has modulated rather than tonicized?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A cadence in the new key"
+        },
+        {
+          "id": "B",
+          "text": "A single accidental"
+        },
+        {
+          "id": "C",
+          "text": "A change in dynamics"
+        },
+        {
+          "id": "D",
+          "text": "A secondary dominant"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Cadential confirmation.",
+      "distractors": {}
+    },
+    {
+      "id": "u7-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Secondary Function",
+      "frqType": "Part writing",
+      "prompt": "In C major, realize I – V/V – V – I in four voices (all root position). Use the soprano line E4 – D4 – D4 – E4. Give each voice's pitch and resolve all tendency tones.",
+      "points": 8,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Chord 1",
+          "points": 1,
+          "description": "I: S E4, A C4, T G3, B C3."
+        },
+        {
+          "criterion": "Chord 2",
+          "points": 1,
+          "description": "V/V: D F♯ A, e.g., S D4, A A3, T F♯3, B D3 (F♯ not doubled)."
+        },
+        {
+          "criterion": "Chord 3",
+          "points": 1,
+          "description": "V: e.g., S D4, A B3, T G3, B G2."
+        },
+        {
+          "criterion": "Chord 4",
+          "points": 1,
+          "description": "I: e.g., S E4, A C4, T G3, B C3."
+        },
+        {
+          "criterion": "F♯ resolution",
+          "points": 1,
+          "description": "F♯ resolves up to G."
+        },
+        {
+          "criterion": "Leading tone",
+          "points": 1,
+          "description": "B resolves up to C."
+        },
+        {
+          "criterion": "No parallels",
+          "points": 1,
+          "description": "No parallel fifths/octaves (e.g., avoid moving C–G to D–A in parallel)."
+        },
+        {
+          "criterion": "Cadence",
+          "points": 1,
+          "description": "Identifies the V–I as an IAC (soprano on 3)."
+        }
+      ],
+      "sampleResponse": "Chord 1 (I): S E4, A C4, T G3, B C3.\nChord 2 (V/V): S D4, A A3, T F♯3, B D3.\nChord 3 (V): S D4, A B3, T G3, B G2.\nChord 4 (I): S E4, A C4, T G3, B C3.\nThe tenor's F♯ (the temporary leading tone of G) resolves up to G, and the alto's B resolves up to C in the final chord. Moving the tenor from G down to F♯ while the bass rises avoids the parallel fifths that would occur if bass and tenor moved C–G to D–A. Because the soprano ends on E, the V–I cadence is an imperfect authentic cadence."
+    }
+  ]
+}

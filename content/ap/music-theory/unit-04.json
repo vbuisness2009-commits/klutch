@@ -1,0 +1,551 @@
+{
+  "number": 4,
+  "title": "Harmony and Voice Leading I: Chord Function, Cadence, and Phrase",
+  "guide": {
+    "summary": "Unit 4 introduces harmonic function, cadences, phrases and periods, and the rules of four-part (SATB) voice leading in common-practice style.",
+    "sections": [
+      {
+        "heading": "Function and cadences",
+        "body": "Chords group into functions: tonic (I, vi), predominant (IV, ii), and dominant (V, vii°). The basic phrase model moves T → PD → D → T. Cadences end phrases: perfect authentic (PAC: V–I, both root position, soprano ending on 1), imperfect authentic (IAC: V–I with soprano on 3 or 5, or an inverted chord), half cadence (HC: ends on V), plagal (IV–I), and deceptive (V–vi). A cadential 6/4 (I6/4 resolving to V) decorates the dominant; it functions as part of V."
+      },
+      {
+        "heading": "Phrases and periods",
+        "body": "A phrase is a musical thought ending with a cadence. A period pairs an antecedent phrase (usually ending with a weaker cadence such as HC) with a consequent ending more strongly (PAC). A parallel period's phrases begin alike; a contrasting period's do not. Phrases can be extended by repetition or a deceptive cadence."
+      },
+      {
+        "heading": "Voice leading",
+        "body": "Ranges: soprano C4–G5, alto G3–D5, tenor C3–G4, bass E2–C4. Keep no more than an octave between soprano–alto and alto–tenor. Avoid parallel (consecutive) perfect fifths and octaves between any two voices, and direct fifths/octaves in outer voices unless the soprano moves by step. Avoid voice crossing and overlap. In root-position triads, double the root; never double the leading tone. Resolve the leading tone up to tonic when in an outer voice and chordal sevenths down by step. Prefer common tones and stepwise motion in upper voices; contrary motion between bass and soprano is strongest."
+      }
+    ],
+    "keyTakeaways": [
+      "T → PD → D → T.",
+      "PAC, IAC, HC, plagal, deceptive.",
+      "Antecedent + consequent = period.",
+      "No parallel 5ths/8ves.",
+      "Double the root; don't double the leading tone."
+    ],
+    "commonMistakes": [
+      "Calling any V–I a PAC (check inversions and soprano).",
+      "Parallel fifths between inner voices.",
+      "Spacing over an octave between upper voices.",
+      "Doubling the leading tone in V."
+    ],
+    "examTips": [
+      "Check every pair of voices for parallels.",
+      "Identify the soprano's last note for cadence type.",
+      "Use common tones to keep voices smooth."
+    ],
+    "cramSheet": "**Functions:** T (I, vi) · PD (IV, ii) · D (V, vii°)\n\n**Cadences:** PAC · IAC · HC · plagal · deceptive (V–vi)\n\n**Period:** antecedent + consequent · parallel/contrasting\n\n**Rules:** ranges · spacing ≤ 8ve (S–A, A–T) · no ∥5/∥8 · double root · LT up · 7th down"
+  },
+  "vocab": [
+    {
+      "term": "perfect authentic cadence",
+      "definition": "V–I, root position, soprano ends on tonic."
+    },
+    {
+      "term": "imperfect authentic cadence",
+      "definition": "V–I lacking PAC conditions."
+    },
+    {
+      "term": "half cadence",
+      "definition": "Phrase ending on V."
+    },
+    {
+      "term": "plagal cadence",
+      "definition": "IV–I."
+    },
+    {
+      "term": "deceptive cadence",
+      "definition": "V–vi."
+    },
+    {
+      "term": "cadential 6/4",
+      "definition": "I6/4 resolving to V, part of dominant function."
+    },
+    {
+      "term": "phrase",
+      "definition": "A musical unit ending with a cadence."
+    },
+    {
+      "term": "period",
+      "definition": "Antecedent and consequent phrases."
+    },
+    {
+      "term": "parallel fifths",
+      "definition": "Two voices moving in perfect fifths in the same direction; avoided."
+    },
+    {
+      "term": "doubling",
+      "definition": "Assigning one chord member to two voices."
+    },
+    {
+      "term": "predominant",
+      "definition": "Function leading to dominant (ii, IV)."
+    },
+    {
+      "term": "contrary motion",
+      "definition": "Voices moving in opposite directions."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Cadences",
+      "skill": "Harmonic analysis",
+      "stem": "A phrase ending on V is a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "half cadence"
+        },
+        {
+          "id": "B",
+          "text": "perfect authentic cadence"
+        },
+        {
+          "id": "C",
+          "text": "plagal cadence"
+        },
+        {
+          "id": "D",
+          "text": "deceptive cadence"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Ends on dominant.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Cadences",
+      "skill": "Harmonic analysis",
+      "stem": "V–vi at a cadence is a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "deceptive cadence"
+        },
+        {
+          "id": "B",
+          "text": "plagal cadence"
+        },
+        {
+          "id": "C",
+          "text": "half cadence"
+        },
+        {
+          "id": "D",
+          "text": "PAC"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Expected I replaced.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Function",
+      "skill": "Harmonic analysis",
+      "stem": "Which chords have predominant function?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ii and IV"
+        },
+        {
+          "id": "B",
+          "text": "V and vii°"
+        },
+        {
+          "id": "C",
+          "text": "I and vi"
+        },
+        {
+          "id": "D",
+          "text": "iii only"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Phrase model.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Voice Leading",
+      "skill": "Part writing",
+      "stem": "Which voice-leading error should be avoided?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Parallel perfect fifths"
+        },
+        {
+          "id": "B",
+          "text": "Contrary motion"
+        },
+        {
+          "id": "C",
+          "text": "Common tones held"
+        },
+        {
+          "id": "D",
+          "text": "Stepwise motion"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Basic rule.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Cadences",
+      "skill": "Harmonic analysis",
+      "stem": "V–I, both in root position, with the soprano ending on scale degree 3, is a(n)",
+      "choices": [
+        {
+          "id": "A",
+          "text": "imperfect authentic cadence"
+        },
+        {
+          "id": "B",
+          "text": "perfect authentic cadence"
+        },
+        {
+          "id": "C",
+          "text": "half cadence"
+        },
+        {
+          "id": "D",
+          "text": "plagal cadence"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Soprano not on tonic.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Cadences",
+      "skill": "Harmonic analysis",
+      "stem": "The cadential 6/4 functions as",
+      "choices": [
+        {
+          "id": "A",
+          "text": "an embellishment of the dominant"
+        },
+        {
+          "id": "B",
+          "text": "a tonic chord"
+        },
+        {
+          "id": "C",
+          "text": "a predominant chord"
+        },
+        {
+          "id": "D",
+          "text": "a deceptive resolution"
+        }
+      ],
+      "answer": "A",
+      "explanation": "I6/4 resolves to V.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Voice Leading",
+      "skill": "Part writing",
+      "stem": "In a root-position V chord, which note should NOT be doubled?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The leading tone"
+        },
+        {
+          "id": "B",
+          "text": "The root"
+        },
+        {
+          "id": "C",
+          "text": "The fifth"
+        },
+        {
+          "id": "D",
+          "text": "Any note may be doubled"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Tendency tone.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Phrases",
+      "skill": "Harmonic analysis",
+      "stem": "An antecedent ending with a HC followed by a consequent ending with a PAC, both starting with the same melody, form a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "parallel period"
+        },
+        {
+          "id": "B",
+          "text": "contrasting period"
+        },
+        {
+          "id": "C",
+          "text": "phrase group"
+        },
+        {
+          "id": "D",
+          "text": "double period"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Same beginning.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Voice Leading",
+      "skill": "Part writing",
+      "stem": "The maximum normal distance between soprano and alto is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "an octave"
+        },
+        {
+          "id": "B",
+          "text": "a fifth"
+        },
+        {
+          "id": "C",
+          "text": "two octaves"
+        },
+        {
+          "id": "D",
+          "text": "a tenth"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Spacing rule.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Voice Leading",
+      "skill": "Part writing",
+      "stem": "The tenor's normal range is approximately",
+      "choices": [
+        {
+          "id": "A",
+          "text": "C3 to G4"
+        },
+        {
+          "id": "B",
+          "text": "C4 to G5"
+        },
+        {
+          "id": "C",
+          "text": "E2 to C4"
+        },
+        {
+          "id": "D",
+          "text": "G3 to D5"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Tenor range.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Voice Leading",
+      "skill": "Part writing",
+      "stem": "Bass moves C3→D3 while tenor moves G3→A3. This creates",
+      "choices": [
+        {
+          "id": "A",
+          "text": "parallel fifths"
+        },
+        {
+          "id": "B",
+          "text": "parallel octaves"
+        },
+        {
+          "id": "C",
+          "text": "contrary motion"
+        },
+        {
+          "id": "D",
+          "text": "a voice crossing"
+        }
+      ],
+      "answer": "A",
+      "explanation": "C–G to D–A.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Voice Leading",
+      "skill": "Part writing",
+      "stem": "Bass G3→C3 and soprano B4→C5 is acceptable because",
+      "choices": [
+        {
+          "id": "A",
+          "text": "the leading tone resolves up and the outer voices create no parallel perfect intervals"
+        },
+        {
+          "id": "B",
+          "text": "the bass doubles the leading tone"
+        },
+        {
+          "id": "C",
+          "text": "both move by leap"
+        },
+        {
+          "id": "D",
+          "text": "the soprano moves down"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Standard PAC motion.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Cadences",
+      "skill": "Harmonic analysis",
+      "stem": "IV–I at the end of a hymn ('Amen') is a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "plagal cadence"
+        },
+        {
+          "id": "B",
+          "text": "half cadence"
+        },
+        {
+          "id": "C",
+          "text": "deceptive cadence"
+        },
+        {
+          "id": "D",
+          "text": "PAC"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Amen cadence.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Function",
+      "skill": "Harmonic analysis",
+      "stem": "Which progression best follows the phrase model?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "I – ii6 – V – I"
+        },
+        {
+          "id": "B",
+          "text": "I – V – IV – I"
+        },
+        {
+          "id": "C",
+          "text": "V – ii – I – IV"
+        },
+        {
+          "id": "D",
+          "text": "I – vi – V – ii"
+        }
+      ],
+      "answer": "A",
+      "explanation": "T – PD – D – T.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Roman Numerals",
+      "frqType": "Part writing",
+      "prompt": "In C major, realize the progression I – IV – V – I in four voices (SATB), all chords in root position. Give each voice's pitch, avoid parallel fifths and octaves, and name the cadence.",
+      "points": 8,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Chord 1",
+          "points": 1,
+          "description": "I: e.g., S C5, A G4, T E4, B C3."
+        },
+        {
+          "criterion": "Chord 2",
+          "points": 1,
+          "description": "IV: e.g., S C5, A A4, T F4, B F3."
+        },
+        {
+          "criterion": "Chord 3",
+          "points": 1,
+          "description": "V: e.g., S B4, A G4, T D4, B G3 (leading tone not doubled)."
+        },
+        {
+          "criterion": "Chord 4",
+          "points": 1,
+          "description": "I: e.g., S C5, A G4, T E4, B C3."
+        },
+        {
+          "criterion": "Connection 1",
+          "points": 1,
+          "description": "I→IV smooth, common tone C held, no parallels."
+        },
+        {
+          "criterion": "Connection 2",
+          "points": 1,
+          "description": "IV→V upper voices move contrary to the bass, no parallels."
+        },
+        {
+          "criterion": "Connection 3",
+          "points": 1,
+          "description": "V→I leading tone B up to C, no parallels."
+        },
+        {
+          "criterion": "Cadence",
+          "points": 1,
+          "description": "PAC: V–I root position, soprano ends on tonic."
+        }
+      ],
+      "sampleResponse": "Chord 1 (I): S C5, A G4, T E4, B C3.\nChord 2 (IV): S C5, A A4, T F4, B F3.\nChord 3 (V): S B4, A G4, T D4, B G3.\nChord 4 (I): S C5, A G4, T E4, B C3.\nThe soprano holds C over the I–IV connection, then the upper voices move down by step against the rising bass from IV to V (contrary motion avoids parallels). In V–I, the leading tone B rises to C in the soprano while the bass falls a fifth. Every chord doubles its root, and the leading tone is not doubled. The cadence is a perfect authentic cadence."
+    }
+  ]
+}

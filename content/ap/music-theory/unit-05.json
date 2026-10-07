@@ -1,0 +1,541 @@
+{
+  "number": 5,
+  "title": "Harmony and Voice Leading II: Chord Progressions and Predominant Function",
+  "guide": {
+    "summary": "Unit 5 expands harmonic vocabulary: predominant chords and their voice leading, root motion by fifths, six-four chord types, other diatonic progressions, and harmonic rhythm.",
+    "sections": [
+      {
+        "heading": "Progressions and root motion",
+        "body": "Strong progressions often move by descending fifths (vi–ii–V–I) or descending thirds (I–vi–IV–ii). Predominant chords (IV, ii, ii6, ii7, ii6/5) lead to dominant (V, V7, vii°6). ii6 is especially common because its bass, scale degree 4, moves up by step to 5. Retrogressions (e.g., V–IV) are generally avoided in common-practice style. The iii chord is rare and often appears in descending-bass patterns. Harmonic rhythm is the rate at which chords change; it often speeds up approaching a cadence."
+      },
+      {
+        "heading": "Six-four chords and other expansions",
+        "body": "Second-inversion triads appear in specific patterns: the cadential 6/4 (I6/4–V, the 6 and 4 resolving down to 5 and 3), the passing 6/4 (bass moves stepwise, e.g., I – V6/4 – I6 or IV – I6/4 – IV6), the pedal or neighbor 6/4 (I – IV6/4 – I over a sustained bass), and the arpeggiated 6/4 (bass arpeggiates a sustained harmony). Tonic expansion often uses V6/4, V4/3, or vii°6 as passing chords between I and I6. In minor keys, raise the leading tone in V and vii°."
+      },
+      {
+        "heading": "Harmonizing a melody",
+        "body": "To harmonize a melody or compose a bass line, first identify the key and cadence points, then choose chords that contain each melody note and follow the phrase model (T–PD–D–T). Aim for contrary motion between soprano and bass, avoid parallel perfect intervals between outer voices, and end with an appropriate cadence. Use inversions (I6, ii6, V6) to create a smoother, more melodic bass."
+      }
+    ],
+    "keyTakeaways": [
+      "Descending fifths: vi–ii–V–I.",
+      "ii6 is a favorite predominant.",
+      "Four types of 6/4: cadential, passing, pedal, arpeggiated.",
+      "Avoid retrogression V–IV.",
+      "Harmonic rhythm accelerates toward cadences."
+    ],
+    "commonMistakes": [
+      "Using a 6/4 chord outside standard patterns.",
+      "Parallel octaves between outer voices when harmonizing.",
+      "Forgetting the raised leading tone in minor.",
+      "Choosing chords that don't contain the melody note."
+    ],
+    "examTips": [
+      "Plan the cadence first when harmonizing.",
+      "Label 6/4 types by bass motion.",
+      "Use inversions for stepwise bass lines."
+    ],
+    "cramSheet": "**Root motion:** desc. 5ths (vi ii V I) · desc. 3rds\n\n**PD:** IV · ii · ii6 · ii7 · ii6/5 → V\n\n**6/4 types:** cadential (I6/4–V) · passing (I–V6/4–I6) · pedal (I–IV6/4–I) · arpeggiated\n\n**Tonic expansion:** I – V4/3 (or vii°6) – I6"
+  },
+  "vocab": [
+    {
+      "term": "predominant",
+      "definition": "Chord leading to dominant (IV, ii)."
+    },
+    {
+      "term": "descending fifths",
+      "definition": "Root motion down by fifth (vi–ii–V–I)."
+    },
+    {
+      "term": "retrogression",
+      "definition": "Progression against normal function (e.g., V–IV)."
+    },
+    {
+      "term": "harmonic rhythm",
+      "definition": "Rate of chord change."
+    },
+    {
+      "term": "cadential 6/4",
+      "definition": "I6/4–V, embellishing the dominant."
+    },
+    {
+      "term": "passing 6/4",
+      "definition": "Second-inversion chord over stepwise bass."
+    },
+    {
+      "term": "pedal 6/4",
+      "definition": "Neighbor 6/4 over a sustained bass."
+    },
+    {
+      "term": "arpeggiated 6/4",
+      "definition": "6/4 created by an arpeggiating bass."
+    },
+    {
+      "term": "ii6",
+      "definition": "Supertonic in first inversion; bass on 4."
+    },
+    {
+      "term": "tonic expansion",
+      "definition": "Prolonging tonic with passing chords."
+    },
+    {
+      "term": "harmonization",
+      "definition": "Choosing chords for a melody."
+    },
+    {
+      "term": "bass line",
+      "definition": "The lowest voice, defining inversions."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u5-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Progressions",
+      "skill": "Harmonic analysis",
+      "stem": "Which progression moves by descending fifths?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "vi – ii – V – I"
+        },
+        {
+          "id": "B",
+          "text": "I – IV – V – I"
+        },
+        {
+          "id": "C",
+          "text": "I – iii – IV – V"
+        },
+        {
+          "id": "D",
+          "text": "V – IV – I – vi"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A–D–G–C in C.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Predominants",
+      "skill": "Harmonic analysis",
+      "stem": "Which chord most commonly precedes V as a predominant?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ii6"
+        },
+        {
+          "id": "B",
+          "text": "iii"
+        },
+        {
+          "id": "C",
+          "text": "vi6/4"
+        },
+        {
+          "id": "D",
+          "text": "I6/4 (as a tonic chord)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Bass 4 → 5.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Harmonic Rhythm",
+      "skill": "Harmonic analysis",
+      "stem": "Harmonic rhythm refers to",
+      "choices": [
+        {
+          "id": "A",
+          "text": "how often chords change"
+        },
+        {
+          "id": "B",
+          "text": "the melody's rhythm"
+        },
+        {
+          "id": "C",
+          "text": "the tempo marking"
+        },
+        {
+          "id": "D",
+          "text": "the meter signature"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Definition.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6/4 Chords",
+      "skill": "Harmonic analysis",
+      "stem": "I6/4 – V at a cadence is a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "cadential 6/4"
+        },
+        {
+          "id": "B",
+          "text": "passing 6/4"
+        },
+        {
+          "id": "C",
+          "text": "pedal 6/4"
+        },
+        {
+          "id": "D",
+          "text": "arpeggiated 6/4"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Embellishes V.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6/4 Chords",
+      "skill": "Harmonic analysis",
+      "stem": "I – V6/4 – I6, with the bass moving C–D–E in C major, uses a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "passing 6/4"
+        },
+        {
+          "id": "B",
+          "text": "cadential 6/4"
+        },
+        {
+          "id": "C",
+          "text": "pedal 6/4"
+        },
+        {
+          "id": "D",
+          "text": "deceptive 6/4"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Stepwise bass.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6/4 Chords",
+      "skill": "Harmonic analysis",
+      "stem": "I – IV6/4 – I over a sustained tonic bass uses a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "pedal (neighbor) 6/4"
+        },
+        {
+          "id": "B",
+          "text": "cadential 6/4"
+        },
+        {
+          "id": "C",
+          "text": "passing 6/4"
+        },
+        {
+          "id": "D",
+          "text": "arpeggiated 6/4"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Bass stays.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Progressions",
+      "skill": "Harmonic analysis",
+      "stem": "Which progression is a retrogression in common-practice style?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "V – IV"
+        },
+        {
+          "id": "B",
+          "text": "IV – V"
+        },
+        {
+          "id": "C",
+          "text": "ii – V"
+        },
+        {
+          "id": "D",
+          "text": "vi – ii"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Dominant to predominant.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Tonic Expansion",
+      "skill": "Harmonic analysis",
+      "stem": "Which chord often passes between I and I6?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "V4/3"
+        },
+        {
+          "id": "B",
+          "text": "IV6/4 as a cadence"
+        },
+        {
+          "id": "C",
+          "text": "iii"
+        },
+        {
+          "id": "D",
+          "text": "V/V"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Bass 1–2–3.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Harmonization",
+      "skill": "Harmonic analysis",
+      "stem": "Melody note F in C major at a predominant moment is best harmonized with",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ii6 or IV"
+        },
+        {
+          "id": "B",
+          "text": "V"
+        },
+        {
+          "id": "C",
+          "text": "I"
+        },
+        {
+          "id": "D",
+          "text": "iii"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Chords containing F with PD function.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Minor Keys",
+      "skill": "Harmonic analysis",
+      "stem": "In A minor, the dominant seventh chord is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "E G♯ B D"
+        },
+        {
+          "id": "B",
+          "text": "E G B D"
+        },
+        {
+          "id": "C",
+          "text": "E G♯ B D♯"
+        },
+        {
+          "id": "D",
+          "text": "E G B♭ D"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Raised leading tone.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Progressions",
+      "skill": "Harmonic analysis",
+      "stem": "In C major, D F A C followed by G B D F followed by C E G is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ii7 – V7 – I"
+        },
+        {
+          "id": "B",
+          "text": "IV – V7 – I"
+        },
+        {
+          "id": "C",
+          "text": "ii – vii°7 – I"
+        },
+        {
+          "id": "D",
+          "text": "vi7 – V7 – I"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Predominant seventh to dominant seventh.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6/4 Chords",
+      "skill": "Harmonic analysis",
+      "stem": "In a cadential 6/4, the sixth and fourth above the bass normally",
+      "choices": [
+        {
+          "id": "A",
+          "text": "resolve down by step to the fifth and third"
+        },
+        {
+          "id": "B",
+          "text": "resolve up by step"
+        },
+        {
+          "id": "C",
+          "text": "remain stationary"
+        },
+        {
+          "id": "D",
+          "text": "leap to the root"
+        }
+      ],
+      "answer": "A",
+      "explanation": "6→5, 4→3.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Harmonization",
+      "skill": "Part writing",
+      "stem": "Soprano C5 over bass C3 moving to soprano B4 over bass G3 is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "acceptable: an octave to a third by contrary motion"
+        },
+        {
+          "id": "B",
+          "text": "parallel octaves"
+        },
+        {
+          "id": "C",
+          "text": "parallel fifths"
+        },
+        {
+          "id": "D",
+          "text": "a direct fifth"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Bass up, soprano down.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Progressions",
+      "skill": "Harmonic analysis",
+      "stem": "Which progression best fits T – PD – D – T in D major?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "D – Em/G (ii6) – A – D"
+        },
+        {
+          "id": "B",
+          "text": "D – A – G – D"
+        },
+        {
+          "id": "C",
+          "text": "A – D – Em – G"
+        },
+        {
+          "id": "D",
+          "text": "D – F♯m – Bm – A"
+        }
+      ],
+      "answer": "A",
+      "explanation": "I – ii6 – V – I.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Harmonization",
+      "frqType": "Harmonization / bass line",
+      "prompt": "Harmonize the soprano melody E4 – F4 – D4 – C4 in C major. Give a Roman numeral for each note and compose a bass line (pitches), ending with a perfect authentic cadence.",
+      "points": 6,
+      "minutes": 12,
+      "rubric": [
+        {
+          "criterion": "Chord 1",
+          "points": 1,
+          "description": "I (bass C3)."
+        },
+        {
+          "criterion": "Chord 2",
+          "points": 1,
+          "description": "ii6 or IV (bass F2 or F3)."
+        },
+        {
+          "criterion": "Chord 3",
+          "points": 1,
+          "description": "V (bass G2)."
+        },
+        {
+          "criterion": "Chord 4",
+          "points": 1,
+          "description": "I (bass C3)."
+        },
+        {
+          "criterion": "Outer voices",
+          "points": 1,
+          "description": "No parallel fifths/octaves with the soprano; ideally contrary motion."
+        },
+        {
+          "criterion": "Cadence",
+          "points": 1,
+          "description": "V–I root position with soprano on tonic = PAC."
+        }
+      ],
+      "sampleResponse": "Roman numerals: I – ii6 – V – I.\nBass: C3 – F2 – G2 – C3.\nI (C3 under E4) moves to ii6 (F2 under F4): the bass falls while the soprano rises (contrary motion), avoiding a direct octave. ii6 (bass F, scale degree 4) rises by step to V (G2 under D4), again in contrary motion with the soprano, and V moves to I (C3 under C4). The final V–I with both chords in root position and the soprano on the tonic is a perfect authentic cadence. IV could replace ii6 for chord 2."
+    }
+  ]
+}

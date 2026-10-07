@@ -1,0 +1,573 @@
+{
+  "number": 1,
+  "title": "Music Fundamentals I: Pitch, Major Scales and Key Signatures, Rhythm, Meter",
+  "guide": {
+    "summary": "Unit 1 covers the building blocks of notation: pitch and clefs, major scales and key signatures, the circle of fifths, scale-degree names, rhythm, simple and compound meter, and basic expressive terms.",
+    "sections": [
+      {
+        "heading": "Pitch and clefs",
+        "body": "Pitches are named A–G and labeled by octave (C4 = middle C). The treble clef circles G4; the bass clef's dots surround F3; the alto clef centers middle C on the middle line (viola), and the tenor clef places middle C on the fourth line (cello, bassoon, trombone in high registers). Accidentals raise or lower pitches by a half step (sharp, flat) or cancel (natural). Enharmonic equivalents sound the same but are spelled differently (F♯ = G♭)."
+      },
+      {
+        "heading": "Major scales and keys",
+        "body": "A major scale follows whole and half steps W–W–H–W–W–W–H. Scale-degree names: 1 tonic, 2 supertonic, 3 mediant, 4 subdominant, 5 dominant, 6 submediant, 7 leading tone (a half step below the tonic). Sharps appear in the order F C G D A E B, flats in the order B E A D G C F. With sharps, the major key is a half step above the last sharp; with flats, it is the next-to-last flat (F major has one flat). The circle of fifths arranges keys by adding one sharp per fifth up and one flat per fifth down; keys a fifth apart share all but one pitch."
+      },
+      {
+        "heading": "Rhythm and meter",
+        "body": "In simple meters, the beat divides into two (2/4, 3/4, 4/4, 2/2); in compound meters, the beat is a dotted note that divides into three (6/8 = two dotted-quarter beats, 9/8 = three, 12/8 = four). Meters are duple, triple, or quadruple by beats per measure. Syncopation stresses weak beats or offbeats; hemiola temporarily regroups beats, for example two bars of 3/4 heard as three groups of two. Ties extend durations across beats; dots add half the note's value. Expressive terms include tempo markings (largo, adagio, andante, moderato, allegro, presto), dynamics (pp to ff, crescendo, decrescendo), and articulations (staccato, legato, accent)."
+      }
+    ],
+    "keyTakeaways": [
+      "Major scale: W–W–H–W–W–W–H.",
+      "Order of sharps FCGDAEB; flats BEADGCF.",
+      "Simple beats divide in 2; compound in 3.",
+      "6/8 = compound duple.",
+      "Enharmonic spellings differ in function."
+    ],
+    "commonMistakes": [
+      "Calling 6/8 a triple meter.",
+      "Forgetting the last sharp rule (key is a half step above).",
+      "Misreading alto clef as treble.",
+      "Confusing leading tone and subtonic (in natural minor)."
+    ],
+    "examTips": [
+      "Memorize the circle of fifths.",
+      "Count beats, not just notes, in compound meter.",
+      "Use scale-degree numbers in dictation."
+    ],
+    "cramSheet": "**Scale:** W W H W W W H · **Degrees:** tonic, supertonic, mediant, subdominant, dominant, submediant, leading tone\n\n**Sharps:** F C G D A E B · **Flats:** B E A D G C F\n\n**Meter:** simple (beat ÷ 2) vs compound (dotted beat ÷ 3) · duple/triple/quadruple\n\n**Clefs:** treble G4 · bass F3 · alto C4 middle line · tenor C4 4th line\n\n**Tempo:** largo < adagio < andante < moderato < allegro < presto"
+  },
+  "vocab": [
+    {
+      "term": "enharmonic",
+      "definition": "Same pitch, different spelling (F♯/G♭)."
+    },
+    {
+      "term": "tonic",
+      "definition": "Scale degree 1; the home pitch."
+    },
+    {
+      "term": "leading tone",
+      "definition": "Scale degree 7, a half step below the tonic."
+    },
+    {
+      "term": "key signature",
+      "definition": "Sharps or flats at the start of a staff."
+    },
+    {
+      "term": "circle of fifths",
+      "definition": "Keys arranged by perfect fifths."
+    },
+    {
+      "term": "simple meter",
+      "definition": "Beat divides into two."
+    },
+    {
+      "term": "compound meter",
+      "definition": "Dotted beat divides into three."
+    },
+    {
+      "term": "syncopation",
+      "definition": "Accent on a weak beat or offbeat."
+    },
+    {
+      "term": "hemiola",
+      "definition": "Temporary regrouping, e.g., two bars of 3/4 felt as three groups of two."
+    },
+    {
+      "term": "alto clef",
+      "definition": "C clef with middle C on the middle line."
+    },
+    {
+      "term": "dynamics",
+      "definition": "Loudness markings."
+    },
+    {
+      "term": "tempo",
+      "definition": "Speed of the beat."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u1-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Key Signatures",
+      "skill": "Notational skills",
+      "stem": "Which major key has four sharps?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "E major"
+        },
+        {
+          "id": "B",
+          "text": "A major"
+        },
+        {
+          "id": "C",
+          "text": "B major"
+        },
+        {
+          "id": "D",
+          "text": "D major"
+        }
+      ],
+      "answer": "A",
+      "explanation": "F♯ C♯ G♯ D♯; key is a half step above D♯.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Key Signatures",
+      "skill": "Notational skills",
+      "stem": "Which major key has three flats?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "E♭ major"
+        },
+        {
+          "id": "B",
+          "text": "B♭ major"
+        },
+        {
+          "id": "C",
+          "text": "A♭ major"
+        },
+        {
+          "id": "D",
+          "text": "F major"
+        }
+      ],
+      "answer": "A",
+      "explanation": "B♭ E♭ A♭; next-to-last flat is E♭.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Meter",
+      "skill": "Notational skills",
+      "stem": "6/8 time is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "compound duple"
+        },
+        {
+          "id": "B",
+          "text": "simple triple"
+        },
+        {
+          "id": "C",
+          "text": "compound triple"
+        },
+        {
+          "id": "D",
+          "text": "simple duple"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Two dotted-quarter beats.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Pitch",
+      "skill": "Notational skills",
+      "stem": "The enharmonic equivalent of F♯ is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "G♭"
+        },
+        {
+          "id": "B",
+          "text": "E♯"
+        },
+        {
+          "id": "C",
+          "text": "F♭"
+        },
+        {
+          "id": "D",
+          "text": "G♯"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Same pitch.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Scales",
+      "skill": "Notational skills",
+      "stem": "What is scale degree 6 in D major?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "B"
+        },
+        {
+          "id": "B",
+          "text": "A"
+        },
+        {
+          "id": "C",
+          "text": "C♯"
+        },
+        {
+          "id": "D",
+          "text": "G"
+        }
+      ],
+      "answer": "A",
+      "explanation": "D E F♯ G A B C♯.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Scales",
+      "skill": "Notational skills",
+      "stem": "The leading tone of A major is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "G♯"
+        },
+        {
+          "id": "B",
+          "text": "G"
+        },
+        {
+          "id": "C",
+          "text": "B"
+        },
+        {
+          "id": "D",
+          "text": "E"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Half step below A.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Clefs",
+      "skill": "Notational skills",
+      "stem": "In the alto clef, the middle line is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "middle C (C4)"
+        },
+        {
+          "id": "B",
+          "text": "G4"
+        },
+        {
+          "id": "C",
+          "text": "F3"
+        },
+        {
+          "id": "D",
+          "text": "A3"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Viola clef.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Meter",
+      "skill": "Notational skills",
+      "stem": "In 9/8, how many beats are in each measure?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Three dotted-quarter beats"
+        },
+        {
+          "id": "B",
+          "text": "Nine quarter beats"
+        },
+        {
+          "id": "C",
+          "text": "Three quarter beats"
+        },
+        {
+          "id": "D",
+          "text": "Two dotted-half beats"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Compound triple.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Tempo",
+      "skill": "Notational skills",
+      "stem": "Which tempo marking is the slowest?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Largo"
+        },
+        {
+          "id": "B",
+          "text": "Andante"
+        },
+        {
+          "id": "C",
+          "text": "Allegro"
+        },
+        {
+          "id": "D",
+          "text": "Moderato"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Largo is very slow.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Key Signatures",
+      "skill": "Notational skills",
+      "stem": "Which major key has five flats?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "D♭ major"
+        },
+        {
+          "id": "B",
+          "text": "G♭ major"
+        },
+        {
+          "id": "C",
+          "text": "A♭ major"
+        },
+        {
+          "id": "D",
+          "text": "C♭ major"
+        }
+      ],
+      "answer": "A",
+      "explanation": "B♭ E♭ A♭ D♭ G♭; next-to-last is D♭.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Rhythm",
+      "skill": "Notational skills",
+      "stem": "Two measures of 3/4 performed as if they were one measure of 3/2 is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "hemiola"
+        },
+        {
+          "id": "B",
+          "text": "syncopation"
+        },
+        {
+          "id": "C",
+          "text": "augmentation"
+        },
+        {
+          "id": "D",
+          "text": "rubato"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Metric regrouping.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Scales",
+      "skill": "Notational skills",
+      "stem": "Which pair of keys is a perfect fifth apart and differs by exactly one accidental?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "G major and D major"
+        },
+        {
+          "id": "B",
+          "text": "C major and E major"
+        },
+        {
+          "id": "C",
+          "text": "F major and A major"
+        },
+        {
+          "id": "D",
+          "text": "B♭ major and D major"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Adjacent on the circle of fifths.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Rhythm",
+      "skill": "Notational skills",
+      "stem": "In 6/8, a dotted quarter note receives",
+      "choices": [
+        {
+          "id": "A",
+          "text": "one beat"
+        },
+        {
+          "id": "B",
+          "text": "three beats"
+        },
+        {
+          "id": "C",
+          "text": "half a beat"
+        },
+        {
+          "id": "D",
+          "text": "two beats"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The dotted quarter is the beat.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Pitch",
+      "skill": "Notational skills",
+      "stem": "Which spelling of the subdominant in F♯ major is correct?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "B"
+        },
+        {
+          "id": "B",
+          "text": "C♭"
+        },
+        {
+          "id": "C",
+          "text": "A♯♯"
+        },
+        {
+          "id": "D",
+          "text": "B♯"
+        }
+      ],
+      "answer": "A",
+      "explanation": "F♯ G♯ A♯ B; scale degree 4 is B.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Fundamentals",
+      "frqType": "Fundamentals short response",
+      "prompt": "Answer each item.",
+      "parts": [
+        {
+          "label": "a",
+          "prompt": "List the sharps in the key signature of A major, in order.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Name the relative minor of A major.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Spell the E♭ major scale.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Classify 9/8 meter.",
+          "points": 1
+        },
+        {
+          "label": "e",
+          "prompt": "Give the enharmonic equivalent of C♯.",
+          "points": 1
+        },
+        {
+          "label": "f",
+          "prompt": "Name the leading tone of B♭ major.",
+          "points": 1
+        }
+      ],
+      "points": 6,
+      "minutes": 10,
+      "rubric": [
+        {
+          "criterion": "a",
+          "points": 1,
+          "description": "F♯, C♯, G♯."
+        },
+        {
+          "criterion": "b",
+          "points": 1,
+          "description": "F♯ minor."
+        },
+        {
+          "criterion": "c",
+          "points": 1,
+          "description": "E♭ F G A♭ B♭ C D E♭."
+        },
+        {
+          "criterion": "d",
+          "points": 1,
+          "description": "Compound triple."
+        },
+        {
+          "criterion": "e",
+          "points": 1,
+          "description": "D♭."
+        },
+        {
+          "criterion": "f",
+          "points": 1,
+          "description": "A."
+        }
+      ],
+      "sampleResponse": "a. A major: F♯, C♯, G♯.\nb. The relative minor of A major is F♯ minor.\nc. E♭ major: E♭ F G A♭ B♭ C D E♭.\nd. 9/8 is compound triple: three dotted-quarter beats, each dividing into three eighths.\ne. C♯ is enharmonic with D♭.\nf. The leading tone of B♭ major is A."
+    }
+  ]
+}

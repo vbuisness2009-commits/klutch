@@ -1,0 +1,551 @@
+{
+  "number": 3,
+  "title": "Music Fundamentals III: Triads and Seventh Chords",
+  "guide": {
+    "summary": "Unit 3 covers triads and seventh chords: qualities, inversions, figured-bass symbols, and diatonic chords in major and minor keys with Roman numerals.",
+    "sections": [
+      {
+        "heading": "Triads",
+        "body": "Triads stack thirds: major (M3 + m3), minor (m3 + M3), diminished (m3 + m3), augmented (M3 + M3). Inversion depends on the bass: root position (5/3, no figure needed), first inversion (6/3, written 6, third in the bass), second inversion (6/4, fifth in the bass). In major keys, diatonic triads are I ii iii IV V vi vii°; in minor (with raised leading tone for V and vii°), i ii° III iv V VI vii°. Uppercase numerals indicate major, lowercase minor, ° diminished, + augmented."
+      },
+      {
+        "heading": "Seventh chords",
+        "body": "Seventh chords add a seventh above the root. Qualities: major seventh (MM7: major triad + M7), dominant seventh (Mm7: major triad + m7), minor seventh (mm7), half-diminished seventh (ø7: diminished triad + m7), fully diminished seventh (°7: diminished triad + d7). Inversion figures: root position 7, first inversion 6/5, second inversion 4/3, third inversion 4/2 (or 2, seventh in the bass). In major: IM7 ii7 iii7 IVM7 V7 vi7 viiø7; in harmonic minor: V7 and vii°7."
+      },
+      {
+        "heading": "Figured bass",
+        "body": "Figured bass shows intervals above the bass, in the key signature unless altered. An accidental alone (e.g., ♯) refers to the third above the bass; a slash or plus through a number means raise it. Realizing figured bass means choosing the upper voices that complete the indicated chord. In part writing from figured bass, first identify each chord's root and quality, then follow voice-leading rules."
+      }
+    ],
+    "keyTakeaways": [
+      "Triad qualities by stacked thirds.",
+      "Figures: 5/3, 6, 6/4; 7, 6/5, 4/3, 4/2.",
+      "Diatonic chords in major and minor.",
+      "V and vii° in minor use the raised 7.",
+      "Five seventh-chord qualities."
+    ],
+    "commonMistakes": [
+      "Labeling inversions by the top note rather than the bass.",
+      "Forgetting to raise 7 in minor V.",
+      "Confusing half- and fully diminished sevenths.",
+      "Mixing up 6/5 and 4/3."
+    ],
+    "examTips": [
+      "Find the root by stacking the notes in thirds.",
+      "Check the bass for inversion.",
+      "Memorize the qualities of diatonic chords."
+    ],
+    "cramSheet": "**Triads:** M (M3+m3) · m (m3+M3) · ° (m3+m3) · + (M3+M3)\n\n**Inversions:** 5/3 · 6 · 6/4 · 7 · 6/5 · 4/3 · 4/2\n\n**Major:** I ii iii IV V vi vii° · **Minor:** i ii° III iv V VI vii°\n\n**7ths:** MM7 · Mm7 (V7) · mm7 · ø7 (viiø7 major) · °7 (vii°7 minor)"
+  },
+  "vocab": [
+    {
+      "term": "triad",
+      "definition": "Three-note chord built in thirds."
+    },
+    {
+      "term": "root position",
+      "definition": "Root in the bass (5/3)."
+    },
+    {
+      "term": "first inversion",
+      "definition": "Third in the bass (6)."
+    },
+    {
+      "term": "second inversion",
+      "definition": "Fifth in the bass (6/4)."
+    },
+    {
+      "term": "dominant seventh",
+      "definition": "Major triad + minor seventh (Mm7)."
+    },
+    {
+      "term": "half-diminished seventh",
+      "definition": "Diminished triad + minor seventh (ø7)."
+    },
+    {
+      "term": "fully diminished seventh",
+      "definition": "Diminished triad + diminished seventh (°7)."
+    },
+    {
+      "term": "figured bass",
+      "definition": "Numbers showing intervals above a bass."
+    },
+    {
+      "term": "6/5",
+      "definition": "First-inversion seventh chord."
+    },
+    {
+      "term": "4/3",
+      "definition": "Second-inversion seventh chord."
+    },
+    {
+      "term": "4/2",
+      "definition": "Third-inversion seventh chord (seventh in bass)."
+    },
+    {
+      "term": "Roman numeral analysis",
+      "definition": "Labeling chords by scale degree and quality."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Triads",
+      "skill": "Notational skills",
+      "stem": "A triad with a major third and a perfect fifth above the root is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "major"
+        },
+        {
+          "id": "B",
+          "text": "minor"
+        },
+        {
+          "id": "C",
+          "text": "diminished"
+        },
+        {
+          "id": "D",
+          "text": "augmented"
+        }
+      ],
+      "answer": "A",
+      "explanation": "M3 + m3.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Triads",
+      "skill": "Notational skills",
+      "stem": "The vii° triad in a major key is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "diminished"
+        },
+        {
+          "id": "B",
+          "text": "minor"
+        },
+        {
+          "id": "C",
+          "text": "major"
+        },
+        {
+          "id": "D",
+          "text": "augmented"
+        }
+      ],
+      "answer": "A",
+      "explanation": "e.g., B D F in C.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Inversions",
+      "skill": "Notational skills",
+      "stem": "A triad with its third in the bass is labeled",
+      "choices": [
+        {
+          "id": "A",
+          "text": "6 (first inversion)"
+        },
+        {
+          "id": "B",
+          "text": "6/4"
+        },
+        {
+          "id": "C",
+          "text": "5/3"
+        },
+        {
+          "id": "D",
+          "text": "4/2"
+        }
+      ],
+      "answer": "A",
+      "explanation": "6/3 abbreviated 6.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Seventh Chords",
+      "skill": "Notational skills",
+      "stem": "G–B–D–F is a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "dominant seventh (Mm7)"
+        },
+        {
+          "id": "B",
+          "text": "major seventh"
+        },
+        {
+          "id": "C",
+          "text": "minor seventh"
+        },
+        {
+          "id": "D",
+          "text": "half-diminished seventh"
+        }
+      ],
+      "answer": "A",
+      "explanation": "V7 in C.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Seventh Chords",
+      "skill": "Notational skills",
+      "stem": "B–D–F–A is a",
+      "choices": [
+        {
+          "id": "A",
+          "text": "half-diminished seventh"
+        },
+        {
+          "id": "B",
+          "text": "fully diminished seventh"
+        },
+        {
+          "id": "C",
+          "text": "dominant seventh"
+        },
+        {
+          "id": "D",
+          "text": "minor seventh"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Diminished triad + m7: viiø7 in C.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Inversions",
+      "skill": "Notational skills",
+      "stem": "The figure 6/5 indicates",
+      "choices": [
+        {
+          "id": "A",
+          "text": "a seventh chord in first inversion"
+        },
+        {
+          "id": "B",
+          "text": "a triad in second inversion"
+        },
+        {
+          "id": "C",
+          "text": "a seventh chord in third inversion"
+        },
+        {
+          "id": "D",
+          "text": "a root-position seventh chord"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Third in the bass.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Minor Keys",
+      "skill": "Notational skills",
+      "stem": "In C minor, the V chord (with raised leading tone) is spelled",
+      "choices": [
+        {
+          "id": "A",
+          "text": "G B D"
+        },
+        {
+          "id": "B",
+          "text": "G B♭ D"
+        },
+        {
+          "id": "C",
+          "text": "G B D♭"
+        },
+        {
+          "id": "D",
+          "text": "G B♭ D♭"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Raised 7th.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Diatonic Chords",
+      "skill": "Notational skills",
+      "stem": "The quality of III in a minor key (natural 7) is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "major"
+        },
+        {
+          "id": "B",
+          "text": "minor"
+        },
+        {
+          "id": "C",
+          "text": "diminished"
+        },
+        {
+          "id": "D",
+          "text": "augmented"
+        }
+      ],
+      "answer": "A",
+      "explanation": "e.g., E♭ G B♭ in C minor.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Inversions",
+      "skill": "Notational skills",
+      "stem": "E–G–C with E in the bass is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "C major in first inversion"
+        },
+        {
+          "id": "B",
+          "text": "E minor in root position"
+        },
+        {
+          "id": "C",
+          "text": "C major in second inversion"
+        },
+        {
+          "id": "D",
+          "text": "A minor in first inversion"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Root C, third in bass.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Seventh Chords",
+      "skill": "Notational skills",
+      "stem": "In A minor, vii°7 is spelled",
+      "choices": [
+        {
+          "id": "A",
+          "text": "G♯ B D F"
+        },
+        {
+          "id": "B",
+          "text": "G B D F"
+        },
+        {
+          "id": "C",
+          "text": "G♯ B D F♯"
+        },
+        {
+          "id": "D",
+          "text": "B D F A"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Fully diminished on raised 7.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Inversions",
+      "skill": "Notational skills",
+      "stem": "A seventh chord with the seventh in the bass is figured",
+      "choices": [
+        {
+          "id": "A",
+          "text": "4/2"
+        },
+        {
+          "id": "B",
+          "text": "6/5"
+        },
+        {
+          "id": "C",
+          "text": "4/3"
+        },
+        {
+          "id": "D",
+          "text": "7"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Third inversion.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Figured Bass",
+      "skill": "Notational skills",
+      "stem": "A bass note D in C major is figured 6/5. The chord is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "B D F A (viiø6/5)"
+        },
+        {
+          "id": "B",
+          "text": "D F A C (ii7)"
+        },
+        {
+          "id": "C",
+          "text": "G B D F (V6/5)"
+        },
+        {
+          "id": "D",
+          "text": "F A C E"
+        }
+      ],
+      "answer": "A",
+      "explanation": "D is the third of B–D–F–A.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Figured Bass",
+      "skill": "Harmonic analysis",
+      "stem": "A bass note B in C major is figured 6/5. The chord is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "V6/5 (G B D F)"
+        },
+        {
+          "id": "B",
+          "text": "viiø7"
+        },
+        {
+          "id": "C",
+          "text": "iii7"
+        },
+        {
+          "id": "D",
+          "text": "ii6/5"
+        }
+      ],
+      "answer": "A",
+      "explanation": "B is the third of G7.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Triads",
+      "skill": "Notational skills",
+      "stem": "Which triad is augmented?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "C E G♯"
+        },
+        {
+          "id": "B",
+          "text": "C E♭ G"
+        },
+        {
+          "id": "C",
+          "text": "C E G"
+        },
+        {
+          "id": "D",
+          "text": "C E♭ G♭"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Two major thirds.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Figured Bass",
+      "frqType": "Part writing",
+      "prompt": "Realize this figured bass in four voices (SATB) in C major. Bass: C3 (no figure) – F2 (no figure) – G2 (7) – C3 (no figure). Give the soprano, alto, and tenor pitch for each chord, label each with a Roman numeral, and avoid parallel fifths and octaves.",
+      "points": 8,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Chord 1",
+          "points": 1,
+          "description": "I: e.g., S E4, A C4, T G3, B C3."
+        },
+        {
+          "criterion": "Chord 2",
+          "points": 1,
+          "description": "IV: e.g., S F4, A C4, T A3, B F2 (root doubled)."
+        },
+        {
+          "criterion": "Chord 3",
+          "points": 1,
+          "description": "V7: e.g., S F4 (prepared seventh), A B3, T G3, B G2 (incomplete V7, root doubled)."
+        },
+        {
+          "criterion": "Chord 4",
+          "points": 1,
+          "description": "I: e.g., S E4, A C4, T G3, B C3 (complete)."
+        },
+        {
+          "criterion": "Seventh resolution",
+          "points": 1,
+          "description": "Chordal seventh F resolves down by step to E."
+        },
+        {
+          "criterion": "Leading tone",
+          "points": 1,
+          "description": "B resolves up to C."
+        },
+        {
+          "criterion": "No parallels",
+          "points": 1,
+          "description": "No parallel fifths or octaves in any connection."
+        },
+        {
+          "criterion": "Spacing and ranges",
+          "points": 1,
+          "description": "Upper voices within an octave of each other; voices in range."
+        }
+      ],
+      "sampleResponse": "Roman numerals: I – IV – V7 – I.\nChord 1 (I): S E4, A C4, T G3, B C3.\nChord 2 (IV): S F4, A C4, T A3, B F2.\nChord 3 (V7): S F4, A B3, T G3, B G2. The F in the soprano is the chordal seventh, prepared by the common tone from IV; the chord omits its fifth (D) and doubles the root.\nChord 4 (I): S E4, A C4, T G3, B C3.\nThe seventh (F) resolves down to E, the leading tone (B) resolves up to C, and the incomplete V7 resolves to a complete I. Bass and soprano move in contrary motion from I to IV and from V7 to I, avoiding parallel fifths and octaves."
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "slug": "italian",
+  "name": "AP Italian Language and Culture",
+  "lastVerified": "2026-10",
+  "overview": "AP Italian Language and Culture develops interpretive, interpersonal, and presentational communication in Italian at roughly an intermediate-to-advanced level, organized around six themes and the cultures of Italy and Italian-speaking communities, including Switzerland and the Italian diaspora. The course and exam were revised for 2026-27: students complete a research project during the year that feeds into the spoken part of the exam.",
+  "examMode": "Fully digital in Bluebook from May 2027 (spoken responses recorded in the app)",
+  "totalMinutes": 150,
+  "sections": [
+    {
+      "name": "Section I, Question 1",
+      "questionType": "Project presentation",
+      "count": 1,
+      "minutes": 6,
+      "weight": "20%",
+      "notes": "3 minutes to prepare and 3 minutes to present findings from the research project completed during the course."
+    },
+    {
+      "name": "Section I, Question 2",
+      "questionType": "Project Q&A",
+      "count": 4,
+      "minutes": 4,
+      "weight": "15%",
+      "notes": "Four pre-recorded questions about your project; 40 seconds to answer each."
+    },
+    {
+      "name": "Section I, Question 3",
+      "questionType": "Argumentative essay",
+      "count": 1,
+      "minutes": 55,
+      "weight": "15%",
+      "notes": "Written argument using sources that present multiple viewpoints, including an audio source played twice."
+    },
+    {
+      "name": "Section II, Part A",
+      "questionType": "Multiple choice: listening",
+      "count": 25,
+      "minutes": 40,
+      "weight": "25%",
+      "notes": "Questions on audio sources such as conversations, interviews, podcasts, and reports."
+    },
+    {
+      "name": "Section II, Part B",
+      "questionType": "Multiple choice: reading",
+      "count": 30,
+      "minutes": 40,
+      "weight": "25%",
+      "notes": "Questions on print texts such as articles, letters, ads, literary excerpts, and charts."
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Families and Communities"
+    },
+    {
+      "number": 2,
+      "title": "Language and Culture"
+    },
+    {
+      "number": 3,
+      "title": "Art and Creativity"
+    },
+    {
+      "number": 4,
+      "title": "Science and Technology"
+    },
+    {
+      "number": 5,
+      "title": "Contemporary Life"
+    },
+    {
+      "number": 6,
+      "title": "Global Contexts"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Interpretive communication",
+      "description": "Understand main ideas, details, purpose, and audience in written and audio texts."
+    },
+    {
+      "name": "Interpersonal communication",
+      "description": "Respond spontaneously and appropriately to questions."
+    },
+    {
+      "name": "Presentational communication",
+      "description": "Present information and arguments in organized speech and writing."
+    },
+    {
+      "name": "Cultural comparison",
+      "description": "Connect products, practices, and perspectives of Italian-speaking communities to your own."
+    }
+  ],
+  "scoring": {
+    "summary": "Multiple choice (listening 25%, reading 25%) is half the score; the project presentation (20%), project Q&A (15%), and argumentative essay (15%) make up the other half. Free responses are scored holistically on task completion, development, organization, language control, and vocabulary. Klutch's practice tasks use a 5-point holistic scale modeled on that approach."
+  },
+  "frqTypes": [
+    {
+      "name": "Argumentative essay",
+      "points": 5,
+      "howScored": "Klutch practice scale (holistic, 0–5): a clear thesis answering the question, effective use and citation of all sources, organized paragraphs with transitions, and accurate, varied grammar and vocabulary."
+    },
+    {
+      "name": "Project presentation",
+      "points": 5,
+      "howScored": "Klutch practice scale (holistic, 0–5): a clear organized presentation of research findings with cultural content and comparison, fluent delivery, and accurate language."
+    },
+    {
+      "name": "Project Q&A",
+      "points": 4,
+      "howScored": "Klutch practice scale (1 point per answer): each answer responds directly to the question, elaborates with detail, and uses appropriate register and accurate language."
+    }
+  ],
+  "strategy": [
+    "Read the questions before each passage or audio so you know what to listen and look for.",
+    "Questions usually follow the order of the text; the last question often asks about purpose or audience.",
+    "In the essay, cite each source ('Secondo la fonte 1...') and state a clear position in the introduction.",
+    "Use connectors (tuttavia, inoltre, quindi, invece, benché + congiuntivo) and a range of tenses.",
+    "For the Q&A, answer the question in the first sentence, then add a reason and an example; fill the 40 seconds.",
+    "Rehearse your project presentation so you can deliver it from your outline without reading."
+  ],
+  "pitfalls": [
+    "Choosing an answer because it repeats words from the text; the correct answer usually paraphrases.",
+    "Mixing up passato prossimo and imperfetto, or essere/avere as auxiliaries.",
+    "Using tu instead of Lei in formal situations.",
+    "Summarizing sources without taking a position in the essay.",
+    "Ignoring regional diversity within Italy."
+  ],
+  "sources": [
+    {
+      "title": "AP Italian Language and Culture Exam (AP Central)",
+      "url": "https://apcentral.collegeboard.org/courses/ap-italian-language-and-culture/exam"
+    },
+    {
+      "title": "AP Italian Language and Culture Course (AP Central)",
+      "url": "https://apcentral.collegeboard.org/courses/ap-italian-language-and-culture/course"
+    }
+  ],
+  "caveats": [
+    "The course and exam were revised for 2026-27; details of the project and scoring guidelines may still be updated. Check AP Central.",
+    "Klutch cannot play audio; listening practice uses written transcripts labeled as audio sources.",
+    "All passages and transcripts are original and written by Klutch."
+  ]
+}

@@ -1,0 +1,548 @@
+{
+  "number": 4,
+  "title": "Science and Technology",
+  "guide": {
+    "summary": "This theme covers science and technology in Italy: protecting Venice with the MOSE barriers, agrivoltaics and renewable energy in farming, digital media use, and the social and ethical debates technology raises.",
+    "sections": [
+      {
+        "heading": "Cultural content",
+        "body": "Venice faces increasingly frequent acqua alta (high water) linked to rising sea levels; after the exceptional flood of November 2019, the MOSE system of mobile flood barriers at the lagoon inlets began operating in 2020 and has prevented several floods, though it was costly, delayed, marked by corruption scandals, and raises ecological concerns for the lagoon. Agrivoltaics combines elevated solar panels with crops, providing energy and shade amid hotter summers. Other topics: Italian scientific heritage (Galileo, Volta, Marconi, Fermi), the Italian Space Agency, renewable energy and geothermal power in Tuscany (Larderello), and Italian automotive design."
+      },
+      {
+        "heading": "Language focus",
+        "body": "Passive with essere/venire: 'è stato costruito', 'le paratoie vengono sollevate'. Hypothetical with 'se dovesse...' + conditional: 'se dovesse essere usato troppo spesso, potrebbe danneggiare'. Past conditional for counterfactuals: 'senza gli incentivi non ce l'avremmo fatta'. Pros and cons: 'tuttavia', 'inoltre', 'però', 'da un lato... dall'altro'. Vocabulary: l'acqua alta, la marea, la laguna, l'innalzamento del livello del mare, le paratoie, l'inondazione, il pannello solare, la coltivazione, l'incentivo, l'investimento, i social network."
+      },
+      {
+        "heading": "Exam skills",
+        "body": "Science articles present a problem, a solution, and remaining controversy; questions target each. In tables, distinguish 'ogni giorno' from 'a volte' and avoid causal conclusions. In essays, weigh benefits and risks with precise data."
+      }
+    ],
+    "keyTakeaways": [
+      "Acqua alta and the 2019 flood.",
+      "MOSE operational since 2020; costly and debated.",
+      "Agrivoltaics: food and energy together.",
+      "Se + congiuntivo imperfetto → condizionale.",
+      "Read tables precisely."
+    ],
+    "commonMistakes": [
+      "Calling MOSE a permanent wall.",
+      "Using conditional after 'se' instead of congiuntivo.",
+      "Drawing causal conclusions from tables."
+    ],
+    "examTips": [
+      "Underline 'tuttavia' to find criticism.",
+      "Use exact percentages.",
+      "Compare an environmental technology with one in your region."
+    ],
+    "cramSheet": "**Vocab:** acqua alta · marea · laguna · paratoie · inondazione · pannello solare · coltivazione · incentivo · investimento\n\n**Grammar:** passivo · se + cong. imperfetto → condizionale · condizionale passato\n\n**Culture:** Venezia, MOSE (2020) · agrivoltaico · Galileo, Volta, Marconi · Larderello"
+  },
+  "vocab": [
+    {
+      "term": "l'acqua alta",
+      "definition": "High water (Venice flooding)."
+    },
+    {
+      "term": "la marea",
+      "definition": "Tide."
+    },
+    {
+      "term": "la laguna",
+      "definition": "Lagoon."
+    },
+    {
+      "term": "le paratoie",
+      "definition": "Floodgates."
+    },
+    {
+      "term": "l'inondazione",
+      "definition": "Flood."
+    },
+    {
+      "term": "l'innalzamento",
+      "definition": "Rise."
+    },
+    {
+      "term": "il pannello solare",
+      "definition": "Solar panel."
+    },
+    {
+      "term": "la coltivazione",
+      "definition": "Crop; cultivation."
+    },
+    {
+      "term": "l'incentivo",
+      "definition": "Incentive; subsidy."
+    },
+    {
+      "term": "l'investimento",
+      "definition": "Investment."
+    },
+    {
+      "term": "allagare",
+      "definition": "To flood."
+    },
+    {
+      "term": "i media cartacei",
+      "definition": "Print media."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Lettura",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fonte: articolo di divulgazione scientifica** (Testo originale scritto da Klutch; persone e dati sono fittizi.)\n\n**Venezia contro l'acqua alta**\n\nPer secoli Venezia ha convissuto con l'acqua alta, il fenomeno per cui la marea della laguna sale e allaga calli e piazze. Negli ultimi decenni, però, le inondazioni sono diventate più frequenti, anche a causa dell'innalzamento del livello del mare. Nel novembre 2019 un'acqua alta eccezionale ha causato danni enormi, anche alla Basilica di San Marco.\n\nPer difendere la città è stato costruito il MOSE, un sistema di paratoie mobili installate alle bocche di porto della laguna. Quando è prevista una marea pericolosa, le paratoie si sollevano e separano temporaneamente la laguna dal mare. Dal 2020 il sistema è entrato in funzione e ha evitato diverse inondazioni.\n\nIl progetto resta tuttavia discusso: è costato molto più del previsto, è stato segnato da scandali di corruzione e, se dovesse essere usato troppo spesso, potrebbe danneggiare l'equilibrio ecologico della laguna, che ha bisogno dello scambio d'acqua con il mare.",
+      "stem": "Che cos'è l'acqua alta?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Il fenomeno per cui la marea sale e allaga la città"
+        },
+        {
+          "id": "B",
+          "text": "Una festa veneziana"
+        },
+        {
+          "id": "C",
+          "text": "Un tipo di barca"
+        },
+        {
+          "id": "D",
+          "text": "Una sorgente di montagna"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Defined.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q02",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Lettura",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fonte: articolo di divulgazione scientifica** (Testo originale scritto da Klutch; persone e dati sono fittizi.)\n\n**Venezia contro l'acqua alta**\n\nPer secoli Venezia ha convissuto con l'acqua alta, il fenomeno per cui la marea della laguna sale e allaga calli e piazze. Negli ultimi decenni, però, le inondazioni sono diventate più frequenti, anche a causa dell'innalzamento del livello del mare. Nel novembre 2019 un'acqua alta eccezionale ha causato danni enormi, anche alla Basilica di San Marco.\n\nPer difendere la città è stato costruito il MOSE, un sistema di paratoie mobili installate alle bocche di porto della laguna. Quando è prevista una marea pericolosa, le paratoie si sollevano e separano temporaneamente la laguna dal mare. Dal 2020 il sistema è entrato in funzione e ha evitato diverse inondazioni.\n\nIl progetto resta tuttavia discusso: è costato molto più del previsto, è stato segnato da scandali di corruzione e, se dovesse essere usato troppo spesso, potrebbe danneggiare l'equilibrio ecologico della laguna, che ha bisogno dello scambio d'acqua con il mare.",
+      "stem": "Come funziona il MOSE?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Paratoie mobili si sollevano e separano temporaneamente la laguna dal mare"
+        },
+        {
+          "id": "B",
+          "text": "Un muro fisso circonda la città"
+        },
+        {
+          "id": "C",
+          "text": "Pompe svuotano la laguna ogni giorno"
+        },
+        {
+          "id": "D",
+          "text": "Le case vengono alzate"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Mobile barriers.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q03",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Lettura",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fonte: articolo di divulgazione scientifica** (Testo originale scritto da Klutch; persone e dati sono fittizi.)\n\n**Venezia contro l'acqua alta**\n\nPer secoli Venezia ha convissuto con l'acqua alta, il fenomeno per cui la marea della laguna sale e allaga calli e piazze. Negli ultimi decenni, però, le inondazioni sono diventate più frequenti, anche a causa dell'innalzamento del livello del mare. Nel novembre 2019 un'acqua alta eccezionale ha causato danni enormi, anche alla Basilica di San Marco.\n\nPer difendere la città è stato costruito il MOSE, un sistema di paratoie mobili installate alle bocche di porto della laguna. Quando è prevista una marea pericolosa, le paratoie si sollevano e separano temporaneamente la laguna dal mare. Dal 2020 il sistema è entrato in funzione e ha evitato diverse inondazioni.\n\nIl progetto resta tuttavia discusso: è costato molto più del previsto, è stato segnato da scandali di corruzione e, se dovesse essere usato troppo spesso, potrebbe danneggiare l'equilibrio ecologico della laguna, che ha bisogno dello scambio d'acqua con il mare.",
+      "stem": "Da quando il MOSE è in funzione?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Dal 2020"
+        },
+        {
+          "id": "B",
+          "text": "Dal 1966"
+        },
+        {
+          "id": "C",
+          "text": "Dal 2019"
+        },
+        {
+          "id": "D",
+          "text": "Non è ancora in funzione"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Stated.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q04",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Lettura",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fonte: articolo di divulgazione scientifica** (Testo originale scritto da Klutch; persone e dati sono fittizi.)\n\n**Venezia contro l'acqua alta**\n\nPer secoli Venezia ha convissuto con l'acqua alta, il fenomeno per cui la marea della laguna sale e allaga calli e piazze. Negli ultimi decenni, però, le inondazioni sono diventate più frequenti, anche a causa dell'innalzamento del livello del mare. Nel novembre 2019 un'acqua alta eccezionale ha causato danni enormi, anche alla Basilica di San Marco.\n\nPer difendere la città è stato costruito il MOSE, un sistema di paratoie mobili installate alle bocche di porto della laguna. Quando è prevista una marea pericolosa, le paratoie si sollevano e separano temporaneamente la laguna dal mare. Dal 2020 il sistema è entrato in funzione e ha evitato diverse inondazioni.\n\nIl progetto resta tuttavia discusso: è costato molto più del previsto, è stato segnato da scandali di corruzione e, se dovesse essere usato troppo spesso, potrebbe danneggiare l'equilibrio ecologico della laguna, che ha bisogno dello scambio d'acqua con il mare.",
+      "stem": "Quale rischio ecologico viene menzionato?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Un uso troppo frequente potrebbe danneggiare la laguna, che ha bisogno di scambio d'acqua con il mare"
+        },
+        {
+          "id": "B",
+          "text": "Il MOSE inquina l'aria"
+        },
+        {
+          "id": "C",
+          "text": "Il MOSE distrugge la Basilica"
+        },
+        {
+          "id": "D",
+          "text": "Il MOSE alza il livello del mare"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Ecological balance.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q05",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Ascolto",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fonte audio (trascrizione): servizio radiofonico** (Testo originale scritto da Klutch; persone e dati sono fittizi.)\n\nGIORNALISTA: Siamo nelle campagne vicino a Ferrara, dove Luca Ferri coltiva pomodori con un sistema chiamato agrivoltaico. Luca, di che cosa si tratta?\nLUCA FERRI: Sopra le coltivazioni abbiamo installato pannelli solari sollevati da terra. Producono energia, ma fanno anche un po' d'ombra. Con le estati sempre più calde, le piante soffrono meno e abbiamo bisogno di meno acqua.\nGIORNALISTA: Ci sono degli svantaggi?\nLUCA FERRI: L'investimento iniziale è alto, e senza gli incentivi pubblici non ce l'avremmo fatta. Inoltre bisogna studiare bene ogni coltura: non tutte le piante amano l'ombra.\nGIORNALISTA: Che cosa consiglierebbe ad altri agricoltori?\nLUCA FERRI: Di informarsi e di non avere paura. Per me il futuro dell'agricoltura è questo: produrre cibo ed energia sulla stessa terra, senza consumarne altra.",
+      "stem": "Che cos'è l'agrivoltaico?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Pannelli solari sollevati sopra le coltivazioni"
+        },
+        {
+          "id": "B",
+          "text": "Un trattore elettrico"
+        },
+        {
+          "id": "C",
+          "text": "Una centrale nucleare in campagna"
+        },
+        {
+          "id": "D",
+          "text": "Una serra di vetro"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Defined.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Ascolto",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fonte audio (trascrizione): servizio radiofonico** (Testo originale scritto da Klutch; persone e dati sono fittizi.)\n\nGIORNALISTA: Siamo nelle campagne vicino a Ferrara, dove Luca Ferri coltiva pomodori con un sistema chiamato agrivoltaico. Luca, di che cosa si tratta?\nLUCA FERRI: Sopra le coltivazioni abbiamo installato pannelli solari sollevati da terra. Producono energia, ma fanno anche un po' d'ombra. Con le estati sempre più calde, le piante soffrono meno e abbiamo bisogno di meno acqua.\nGIORNALISTA: Ci sono degli svantaggi?\nLUCA FERRI: L'investimento iniziale è alto, e senza gli incentivi pubblici non ce l'avremmo fatta. Inoltre bisogna studiare bene ogni coltura: non tutte le piante amano l'ombra.\nGIORNALISTA: Che cosa consiglierebbe ad altri agricoltori?\nLUCA FERRI: Di informarsi e di non avere paura. Per me il futuro dell'agricoltura è questo: produrre cibo ed energia sulla stessa terra, senza consumarne altra.",
+      "stem": "Quali vantaggi descrive Luca Ferri?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Produzione di energia e ombra che riduce il bisogno d'acqua"
+        },
+        {
+          "id": "B",
+          "text": "Pomodori più grandi senza sole"
+        },
+        {
+          "id": "C",
+          "text": "Nessun costo iniziale"
+        },
+        {
+          "id": "D",
+          "text": "Più terra coltivabile"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Two benefits.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Ascolto",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fonte audio (trascrizione): servizio radiofonico** (Testo originale scritto da Klutch; persone e dati sono fittizi.)\n\nGIORNALISTA: Siamo nelle campagne vicino a Ferrara, dove Luca Ferri coltiva pomodori con un sistema chiamato agrivoltaico. Luca, di che cosa si tratta?\nLUCA FERRI: Sopra le coltivazioni abbiamo installato pannelli solari sollevati da terra. Producono energia, ma fanno anche un po' d'ombra. Con le estati sempre più calde, le piante soffrono meno e abbiamo bisogno di meno acqua.\nGIORNALISTA: Ci sono degli svantaggi?\nLUCA FERRI: L'investimento iniziale è alto, e senza gli incentivi pubblici non ce l'avremmo fatta. Inoltre bisogna studiare bene ogni coltura: non tutte le piante amano l'ombra.\nGIORNALISTA: Che cosa consiglierebbe ad altri agricoltori?\nLUCA FERRI: Di informarsi e di non avere paura. Per me il futuro dell'agricoltura è questo: produrre cibo ed energia sulla stessa terra, senza consumarne altra.",
+      "stem": "Quale svantaggio menziona?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "L'investimento iniziale è alto"
+        },
+        {
+          "id": "B",
+          "text": "I pannelli rovinano tutte le piante"
+        },
+        {
+          "id": "C",
+          "text": "È vietato in Italia"
+        },
+        {
+          "id": "D",
+          "text": "Non produce energia"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Cost.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q08",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Ascolto",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fonte audio (trascrizione): servizio radiofonico** (Testo originale scritto da Klutch; persone e dati sono fittizi.)\n\nGIORNALISTA: Siamo nelle campagne vicino a Ferrara, dove Luca Ferri coltiva pomodori con un sistema chiamato agrivoltaico. Luca, di che cosa si tratta?\nLUCA FERRI: Sopra le coltivazioni abbiamo installato pannelli solari sollevati da terra. Producono energia, ma fanno anche un po' d'ombra. Con le estati sempre più calde, le piante soffrono meno e abbiamo bisogno di meno acqua.\nGIORNALISTA: Ci sono degli svantaggi?\nLUCA FERRI: L'investimento iniziale è alto, e senza gli incentivi pubblici non ce l'avremmo fatta. Inoltre bisogna studiare bene ogni coltura: non tutte le piante amano l'ombra.\nGIORNALISTA: Che cosa consiglierebbe ad altri agricoltori?\nLUCA FERRI: Di informarsi e di non avere paura. Per me il futuro dell'agricoltura è questo: produrre cibo ed energia sulla stessa terra, senza consumarne altra.",
+      "stem": "Che cosa significa «senza gli incentivi pubblici non ce l'avremmo fatta»?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Senza aiuti pubblici il progetto non sarebbe stato possibile"
+        },
+        {
+          "id": "B",
+          "text": "Non hanno ricevuto incentivi"
+        },
+        {
+          "id": "C",
+          "text": "Gli incentivi erano inutili"
+        },
+        {
+          "id": "D",
+          "text": "Hanno rifiutato gli incentivi"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Counterfactual.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q09",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Tabella",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fonte: tabella (dati fittizi)** (Testo originale scritto da Klutch; persone e dati sono fittizi.)\n\n**Con quale frequenza i giovani di 15–24 anni usano i seguenti media? (Paese X, in %)**\n\n| Media | Ogni giorno | A volte | Mai |\n|---|---|---|---|\n| Social network | 84 % | 13 % | 3 % |\n| Piattaforme di streaming | 58 % | 36 % | 6 % |\n| Notizie online | 33 % | 51 % | 16 % |\n| Giornali cartacei | 4 % | 28 % | 68 % |",
+      "stem": "Quale media usano ogni giorno più giovani?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "I social network"
+        },
+        {
+          "id": "B",
+          "text": "Le piattaforme di streaming"
+        },
+        {
+          "id": "C",
+          "text": "Le notizie online"
+        },
+        {
+          "id": "D",
+          "text": "I giornali cartacei"
+        }
+      ],
+      "answer": "A",
+      "explanation": "84 %.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Tabella",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fonte: tabella (dati fittizi)** (Testo originale scritto da Klutch; persone e dati sono fittizi.)\n\n**Con quale frequenza i giovani di 15–24 anni usano i seguenti media? (Paese X, in %)**\n\n| Media | Ogni giorno | A volte | Mai |\n|---|---|---|---|\n| Social network | 84 % | 13 % | 3 % |\n| Piattaforme di streaming | 58 % | 36 % | 6 % |\n| Notizie online | 33 % | 51 % | 16 % |\n| Giornali cartacei | 4 % | 28 % | 68 % |",
+      "stem": "Quale affermazione è corretta?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Più di due terzi non leggono mai giornali cartacei"
+        },
+        {
+          "id": "B",
+          "text": "La maggioranza legge notizie online ogni giorno"
+        },
+        {
+          "id": "C",
+          "text": "Nessuno usa lo streaming"
+        },
+        {
+          "id": "D",
+          "text": "I giornali cartacei sono letti ogni giorno dal 28 %"
+        }
+      ],
+      "answer": "A",
+      "explanation": "68 %.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q11",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Tabella",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fonte: tabella (dati fittizi)** (Testo originale scritto da Klutch; persone e dati sono fittizi.)\n\n**Con quale frequenza i giovani di 15–24 anni usano i seguenti media? (Paese X, in %)**\n\n| Media | Ogni giorno | A volte | Mai |\n|---|---|---|---|\n| Social network | 84 % | 13 % | 3 % |\n| Piattaforme di streaming | 58 % | 36 % | 6 % |\n| Notizie online | 33 % | 51 % | 16 % |\n| Giornali cartacei | 4 % | 28 % | 68 % |",
+      "stem": "Circa quanti giovani leggono notizie online ogni giorno?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Circa un terzo"
+        },
+        {
+          "id": "B",
+          "text": "Circa tre quarti"
+        },
+        {
+          "id": "C",
+          "text": "Quasi tutti"
+        },
+        {
+          "id": "D",
+          "text": "Nessuno"
+        }
+      ],
+      "answer": "A",
+      "explanation": "33 %.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Tabella",
+      "skill": "Interpretive communication",
+      "stimulus": "**Fonte: tabella (dati fittizi)** (Testo originale scritto da Klutch; persone e dati sono fittizi.)\n\n**Con quale frequenza i giovani di 15–24 anni usano i seguenti media? (Paese X, in %)**\n\n| Media | Ogni giorno | A volte | Mai |\n|---|---|---|---|\n| Social network | 84 % | 13 % | 3 % |\n| Piattaforme di streaming | 58 % | 36 % | 6 % |\n| Notizie online | 33 % | 51 % | 16 % |\n| Giornali cartacei | 4 % | 28 % | 68 % |",
+      "stem": "Quale conclusione NON si può trarre dalla tabella?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "I social network peggiorano il rendimento scolastico"
+        },
+        {
+          "id": "B",
+          "text": "I giornali cartacei sono poco usati dai giovani"
+        },
+        {
+          "id": "C",
+          "text": "Lo streaming è usato ogni giorno dalla maggioranza"
+        },
+        {
+          "id": "D",
+          "text": "Pochissimi non usano mai i social network"
+        }
+      ],
+      "answer": "A",
+      "explanation": "No school data.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q13",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Confronto",
+      "skill": "Cultural comparison",
+      "stimulus": "**Fonte: articolo di divulgazione scientifica** (Testo originale scritto da Klutch; persone e dati sono fittizi.)\n\n**Venezia contro l'acqua alta**\n\nPer secoli Venezia ha convissuto con l'acqua alta, il fenomeno per cui la marea della laguna sale e allaga calli e piazze. Negli ultimi decenni, però, le inondazioni sono diventate più frequenti, anche a causa dell'innalzamento del livello del mare. Nel novembre 2019 un'acqua alta eccezionale ha causato danni enormi, anche alla Basilica di San Marco.\n\nPer difendere la città è stato costruito il MOSE, un sistema di paratoie mobili installate alle bocche di porto della laguna. Quando è prevista una marea pericolosa, le paratoie si sollevano e separano temporaneamente la laguna dal mare. Dal 2020 il sistema è entrato in funzione e ha evitato diverse inondazioni.\n\nIl progetto resta tuttavia discusso: è costato molto più del previsto, è stato segnato da scandali di corruzione e, se dovesse essere usato troppo spesso, potrebbe danneggiare l'equilibrio ecologico della laguna, che ha bisogno dello scambio d'acqua con il mare.\n\n---\n\n**Fonte audio (trascrizione): servizio radiofonico** (Testo originale scritto da Klutch; persone e dati sono fittizi.)\n\nGIORNALISTA: Siamo nelle campagne vicino a Ferrara, dove Luca Ferri coltiva pomodori con un sistema chiamato agrivoltaico. Luca, di che cosa si tratta?\nLUCA FERRI: Sopra le coltivazioni abbiamo installato pannelli solari sollevati da terra. Producono energia, ma fanno anche un po' d'ombra. Con le estati sempre più calde, le piante soffrono meno e abbiamo bisogno di meno acqua.\nGIORNALISTA: Ci sono degli svantaggi?\nLUCA FERRI: L'investimento iniziale è alto, e senza gli incentivi pubblici non ce l'avremmo fatta. Inoltre bisogna studiare bene ogni coltura: non tutte le piante amano l'ombra.\nGIORNALISTA: Che cosa consiglierebbe ad altri agricoltori?\nLUCA FERRI: Di informarsi e di non avere paura. Per me il futuro dell'agricoltura è questo: produrre cibo ed energia sulla stessa terra, senza consumarne altra.",
+      "stem": "Quale tema accomuna l'articolo su Venezia e il servizio sull'agrivoltaico?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "L'uso della tecnologia per affrontare gli effetti del cambiamento climatico"
+        },
+        {
+          "id": "B",
+          "text": "La moda italiana"
+        },
+        {
+          "id": "C",
+          "text": "I social network"
+        },
+        {
+          "id": "D",
+          "text": "La musica lirica"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Climate adaptation.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Grammatica",
+      "skill": "Presentational communication",
+      "stem": "Completa: «Se il MOSE ___ usato troppo spesso, potrebbe danneggiare la laguna.»",
+      "choices": [
+        {
+          "id": "A",
+          "text": "venisse"
+        },
+        {
+          "id": "B",
+          "text": "viene"
+        },
+        {
+          "id": "C",
+          "text": "verrà"
+        },
+        {
+          "id": "D",
+          "text": "veniva"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Se + congiuntivo imperfetto → condizionale.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-frq1",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Saggio",
+      "frqType": "Argumentative essay",
+      "prompt": "**Tema: Bisognerebbe vietare i cellulari a scuola?**\n\nScrivi un saggio argomentativo usando tutte e tre le fonti. Presenta il tuo punto di vista, sostienilo con informazioni tratte da tutte le fonti, cita ciascuna fonte e considera altri punti di vista.\n\n**Fonte 1 (riassunto di un articolo):** Alcuni Paesi hanno limitato i cellulari a scuola; molti insegnanti notano meno distrazioni e più conversazioni durante la ricreazione.\n\n**Fonte 2 (tabella, dati fittizi):** L'84 % dei giovani di 15–24 anni usa ogni giorno i social network, ma solo il 33 % legge ogni giorno notizie online.\n\n**Fonte 3 (audio, riassunto):** Una madre spiega che vuole poter contattare la figlia in caso di emergenza; un professore usa il cellulare in classe per ricerche ed esercizi di lingua.",
+      "points": 5,
+      "minutes": 55,
+      "rubric": [
+        {
+          "criterion": "Thesis and task",
+          "points": 1,
+          "description": "Takes a clear position that answers the question."
+        },
+        {
+          "criterion": "Use of sources",
+          "points": 1,
+          "description": "Uses and cites all sources accurately to support the argument."
+        },
+        {
+          "criterion": "Development",
+          "points": 1,
+          "description": "Develops reasons with explanation and examples; addresses another viewpoint."
+        },
+        {
+          "criterion": "Organization",
+          "points": 1,
+          "description": "Organized paragraphs with effective transitions."
+        },
+        {
+          "criterion": "Language",
+          "points": 1,
+          "description": "Accurate, varied grammar and vocabulary in an appropriate formal register."
+        }
+      ],
+      "sampleResponse": "Il cellulare fa parte della vita quotidiana di quasi tutti i ragazzi. Secondo me, la scuola non dovrebbe vietarlo completamente, ma regolarne l'uso in modo chiaro.\n\nDa un lato, ci sono buone ragioni per limitarlo. Secondo la fonte 2, l'84 % dei giovani usa i social network ogni giorno, mentre solo il 33 % legge notizie online: il cellulare serve soprattutto per divertirsi. Inoltre, la fonte 1 riferisce che dove i cellulari sono stati limitati, gli insegnanti notano meno distrazioni e più conversazioni tra studenti.\n\nDall'altro lato, un divieto totale avrebbe degli svantaggi. Nella fonte 3, una madre spiega che vuole poter contattare la figlia in caso di emergenza, e un professore usa il cellulare in classe per ricerche ed esercizi di lingua. Vietarlo significherebbe rinunciare a uno strumento utile.\n\nAlcuni potrebbero obiettare che regole flessibili sono difficili da far rispettare. È vero in parte, ma una regola chiara, per esempio tenere il telefono nello zaino durante le lezioni tranne quando l'insegnante lo permette, può ridurre le distrazioni senza eliminare gli usi didattici.\n\nIn conclusione, è meglio regolare l'uso del cellulare piuttosto che vietarlo, affinché gli studenti imparino a usare la tecnologia in modo responsabile."
+    }
+  ]
+}

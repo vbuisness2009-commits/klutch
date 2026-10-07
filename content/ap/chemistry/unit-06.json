@@ -15,6 +15,34 @@
       {
         "heading": "Enthalpy calculations",
         "body": "Bond enthalpies: ΔH ≈ Σ(bonds broken) − Σ(bonds formed). Enthalpies of formation: ΔH° = ΣnΔH°f(products) − ΣnΔH°f(reactants); elements in standard states have ΔH°f = 0. Hess's law: if you reverse a reaction, change the sign of ΔH; if you multiply it, multiply ΔH. ΔH scales with the amount reacted, so heat released = (moles of limiting reactant ÷ coefficient) × |ΔH|."
+      },
+      {
+        "heading": "Worked example: calorimetry",
+        "body": "When 50.0 g of a metal at 100.0 °C is placed in 100.0 g of water at 22.0 °C, the final temperature is 25.0 °C. The water gains q = mcΔT = (100.0)(4.18)(3.0) = 1254 J. Assuming no heat loss, the metal loses 1254 J, so its specific heat is c = q/(mΔT) = 1254/((50.0)(75.0)) ≈ 0.334 J/g·°C. In calorimetry problems, heat lost by the hot object equals heat gained by the cold object, and signs indicate direction: negative q means the system releases energy."
+      },
+      {
+        "heading": "Worked example: Hess's law",
+        "body": "Given (1) C + O₂ → CO₂, ΔH = −394 kJ and (2) CO + ½O₂ → CO₂, ΔH = −283 kJ, find ΔH for C + ½O₂ → CO. Keep reaction 1 and reverse reaction 2 (CO₂ → CO + ½O₂, ΔH = +283 kJ). Adding gives C + ½O₂ → CO with ΔH = −394 + 283 = −111 kJ. When multiplying a reaction by a factor, multiply its ΔH by the same factor; when reversing, change the sign."
+      },
+      {
+        "heading": "Worked example: bond enthalpies and formation",
+        "body": "ΔH can be estimated as the sum of bond energies broken minus the sum of bond energies formed. Breaking bonds requires energy (positive), and forming bonds releases energy (negative). Standard enthalpies of formation give ΔH°rxn = ΣΔH°f(products) − ΣΔH°f(reactants), where elements in their standard states have ΔH°f = 0. Bond-energy estimates differ slightly from formation-enthalpy values because bond energies are averages."
+      },
+      {
+        "heading": "Energy diagrams and phase changes",
+        "body": "In an exothermic reaction, products are lower in energy than reactants, and energy is released to the surroundings, raising their temperature. During phase changes, temperature stays constant as energy breaks or forms intermolecular attractions: q = nΔH for melting or vaporization. Heating curves show flat segments during phase changes and sloped segments when temperature changes."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know system and surroundings, endothermic, exothermic, specific heat capacity, calorimetry, enthalpy, Hess's law, bond enthalpy, enthalpy of formation, and heat of fusion and vaporization."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students often mix up the sign of q, forget that the mass in q = mcΔT is usually the mass of the solution, and fail to convert units between J and kJ. When scaling Hess's law reactions, they sometimes forget to scale ΔH. In bond energy calculations, the most common mistake is reversing the order: it is bonds broken minus bonds formed."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Laboratory-based questions ask you to calculate ΔH from calorimetry data, then explain how errors such as heat loss to the surroundings would affect the calculated value. Heat loss usually makes the measured magnitude of ΔH smaller than the true value."
       }
     ],
     "keyTakeaways": [

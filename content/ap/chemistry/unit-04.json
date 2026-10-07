@@ -19,6 +19,30 @@
       {
         "heading": "Reaction types and oxidation numbers",
         "body": "Precipitation: two soluble ionic solutions form an insoluble solid. Acid–base (Brønsted–Lowry): proton transfer from acid to base. Redox: electron transfer, shown by changes in oxidation number. Oxidation is loss of electrons (oxidation number increases); reduction is gain. Rules: elements = 0; monatomic ions = charge; O usually −2; H usually +1 with nonmetals; sum equals the overall charge. Example: in Cr₂O₇²⁻, 2x + 7(−2) = −2, so Cr = +6."
+      },
+      {
+        "heading": "Worked example: limiting reactant",
+        "body": "Consider 2 H₂ + O₂ → 2 H₂O with 4.0 g H₂ and 16.0 g O₂. Moles: 4.0/2.016 ≈ 1.98 mol H₂ and 16.0/32.00 = 0.500 mol O₂. The ratio requires 2 mol H₂ per mol O₂, so 0.500 mol O₂ needs 1.00 mol H₂; hydrogen is in excess and oxygen is limiting. The maximum water formed is 2 × 0.500 = 1.00 mol, or 18.0 g. The excess hydrogen remaining is 1.98 − 1.00 ≈ 0.98 mol. Always convert to moles, use the mole ratio, and identify the limiting reactant before calculating products."
+      },
+      {
+        "heading": "Worked example: titration",
+        "body": "If 25.0 mL of HCl is titrated to the equivalence point by 20.0 mL of 0.100 M NaOH, moles of NaOH = 0.0200 L × 0.100 M = 0.00200 mol. Since HCl and NaOH react 1:1, moles of HCl = 0.00200 mol, and its concentration = 0.00200 mol / 0.0250 L = 0.0800 M. For acids or bases with other ratios, such as H₂SO₄ with NaOH (1:2), adjust using the balanced equation."
+      },
+      {
+        "heading": "Net ionic equations and redox",
+        "body": "To write a net ionic equation, write soluble strong electrolytes as ions, keep solids, liquids, gases, and weak electrolytes as molecules, and cancel spectator ions. For AgNO₃(aq) + NaCl(aq), the net ionic equation is Ag⁺(aq) + Cl⁻(aq) → AgCl(s). In redox reactions, track oxidation numbers: the species whose oxidation number increases is oxidized and acts as the reducing agent."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know balanced equation, mole ratio, limiting reactant, percent yield, molarity, titration, equivalence point, precipitation, acid–base, and redox reactions, and spectator ions."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students often forget to convert grams to moles before using mole ratios, use the wrong ratio from an unbalanced equation, or write strong electrolytes as molecules in net ionic equations. In titration problems, they sometimes use total solution volume instead of the volume of the titrated sample. Always balance first, track units, and check that answers are reasonable."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Free-response questions often combine stoichiometry with laboratory data, such as finding the percent yield of a precipitate or the concentration of an unknown from a titration. Show the setup with units at each step, because partial credit depends on visible reasoning."
       }
     ],
     "keyTakeaways": [

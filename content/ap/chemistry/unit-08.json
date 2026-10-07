@@ -23,6 +23,30 @@
       {
         "heading": "Acid strength and structure",
         "body": "Stronger acids have more stable conjugate bases. Binary acids down a group (HF < HCl < HBr < HI): the H–X bond gets longer and weaker. Oxyacids: more electronegative central atom or more O atoms pulls electron density from the O–H bond and delocalizes the negative charge of the conjugate base (HClO < HClO₂ < HClO₃ < HClO₄). Carboxylic acids are acidic because the carboxylate ion is resonance-stabilized."
+      },
+      {
+        "heading": "Worked example: weak acid pH",
+        "body": "For 0.10 M acetic acid with Ka = 1.8 × 10⁻⁵, set up the equilibrium: x²/(0.10 − x) ≈ x²/0.10 = 1.8 × 10⁻⁵, so x = [H₃O⁺] ≈ 1.3 × 10⁻³ M and pH ≈ 2.87. The approximation is valid because x is less than 5% of 0.10. Percent ionization is (1.3 × 10⁻³/0.10) × 100 ≈ 1.3%. For a strong acid at the same concentration, pH = 1.00, showing how much less a weak acid ionizes."
+      },
+      {
+        "heading": "Worked example: buffer pH",
+        "body": "A buffer contains 0.20 M acetic acid and 0.30 M sodium acetate. By the Henderson–Hasselbalch equation, pH = pKa + log([A⁻]/[HA]) = 4.74 + log(1.5) ≈ 4.92. Adding a small amount of strong base converts some HA to A⁻, raising pH slightly; adding strong acid converts some A⁻ to HA. Buffer capacity is greatest when [HA] and [A⁻] are large and similar, and pH equals pKa when they are equal, at the half-equivalence point of a titration."
+      },
+      {
+        "heading": "Titration curves",
+        "body": "In a weak acid–strong base titration, the equivalence point pH is above 7 because the conjugate base is basic. The half-equivalence point gives pH = pKa, a common exam question. Indicators should change color near the equivalence point pH."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know Arrhenius and Brønsted–Lowry acids and bases, conjugate pairs, Ka, Kb, pKa, pH, pOH, Kw, percent ionization, buffer, Henderson–Hasselbalch equation, equivalence point, and indicator."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students sometimes treat weak acids as fully ionized or forget the 5% check on approximations."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Titration curve questions ask you to identify the equivalence and half-equivalence points, determine pKa, choose an indicator, and explain why the equivalence-point pH is above or below 7. Buffer questions ask how added acid or base affects pH, explained with the reaction of the added species with the buffer components."
       }
     ],
     "keyTakeaways": [

@@ -23,6 +23,22 @@
       {
         "heading": "Light and spectroscopy",
         "body": "E = hν and c = λν. Microwave radiation changes molecular rotation, infrared changes vibrations, and UV/visible light changes electronic transitions. Beer–Lambert law: A = εbc, so absorbance is proportional to concentration; spectrophotometry uses a calibration curve at the wavelength of maximum absorbance. Errors: fingerprints or a wet cuvette change absorbance; using the wrong wavelength reduces sensitivity."
+      },
+      {
+        "heading": "Worked example: ideal gas law",
+        "body": "What volume does 0.500 mol of gas occupy at 25 °C and 1.00 atm? Convert temperature to kelvin: 298 K. Then V = nRT/P = (0.500)(0.08206)(298)/1.00 ≈ 12.2 L. Gases deviate from ideal behavior at high pressure (molecules' volumes matter) and low temperature (attractions matter), and molecules with stronger intermolecular forces deviate more. Dalton's law gives the partial pressure of each gas as its mole fraction times the total pressure."
+      },
+      {
+        "heading": "Worked example: explaining boiling points",
+        "body": "Why does ethanol (CH₃CH₂OH) boil at 78 °C while dimethyl ether (CH₃OCH₃), with the same molar mass, boils at −24 °C? Ethanol molecules can hydrogen bond to each other through their O–H groups, while dimethyl ether has no O–H bond and relies on weaker dipole–dipole and London forces. More energy is required to overcome ethanol's stronger intermolecular forces, so its boiling point is higher. Always compare the specific types and strengths of intermolecular forces, and remember that London dispersion forces increase with the number of electrons and polarizability."
+      },
+      {
+        "heading": "Solutions and spectroscopy",
+        "body": "Molarity is moles of solute per liter of solution. Like dissolves like: polar solvents dissolve polar and ionic solutes. Chromatography separates substances by differing attractions to the stationary and mobile phases, and distillation separates by boiling point. Beer's law, A = εbc, relates absorbance to concentration, so a calibration curve of absorbance versus known concentrations lets you find an unknown concentration."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know intermolecular forces (London, dipole–dipole, hydrogen bonding, ion–dipole), vapor pressure, ideal gas law, partial pressure, molarity, chromatography, distillation, and Beer's law."
       }
     ],
     "keyTakeaways": [

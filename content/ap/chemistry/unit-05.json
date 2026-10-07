@@ -19,6 +19,30 @@
       {
         "heading": "Collision theory, energy profiles, and catalysts",
         "body": "Reactions require collisions with sufficient energy (≥ Ea) and correct orientation. Raising temperature increases collision frequency slightly, but mainly increases the fraction of collisions with energy ≥ Ea (seen in the Maxwell–Boltzmann distribution), so k increases. A reaction energy profile shows reactants, transition state(s), intermediates (valleys), and products; ΔH = products − reactants. Catalysts provide a new pathway with lower Ea; they speed forward and reverse reactions equally and do not change ΔH or K."
+      },
+      {
+        "heading": "Worked example: method of initial rates",
+        "body": "For A + B → C, experiments show: doubling [A] with [B] constant doubles the rate, and doubling [B] with [A] constant quadruples the rate. So the reaction is first order in A and second order in B, and the rate law is rate = k[A][B]², third order overall. To find k, substitute values from one experiment: if rate = 0.024 M/s when [A] = 0.10 M and [B] = 0.20 M, then k = 0.024/(0.10 × 0.040) = 6.0 M⁻²s⁻¹. Units of k depend on the overall order."
+      },
+      {
+        "heading": "Worked example: integrated rate laws",
+        "body": "For a first-order reaction with k = 0.0693 min⁻¹, the half-life is t½ = 0.693/k = 10.0 min, constant regardless of concentration. After 30 minutes (three half-lives), 1/8 of the reactant remains. To determine order from data, graph [A], ln[A], and 1/[A] against time: whichever is linear identifies the order (zero, first, or second). The slope gives −k for zero and first order and +k for second order."
+      },
+      {
+        "heading": "Mechanisms and catalysts",
+        "body": "A proposed mechanism must add up to the overall reaction and agree with the experimental rate law, which is determined by the slow (rate-determining) step. Intermediates are produced in one step and consumed in a later step; catalysts are consumed early and regenerated. A catalyst lowers activation energy by providing an alternative pathway, increasing the rate without changing ΔH or the equilibrium position."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know rate, rate law, order, rate constant, half-life, integrated rate law, elementary step, molecularity, rate-determining step, intermediate, catalyst, activation energy, and collision theory."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students often confuse the rate law with the equilibrium expression, use coefficients from the overall equation as orders (only valid for elementary steps), and mix up intermediates with catalysts. They also forget that the rate constant changes with temperature but not with concentration."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Free-response questions frequently provide data tables of concentration versus time or initial rates and ask for the order, the rate law, the value and units of k, and whether a proposed mechanism is consistent. Connect each answer to specific data in the table."
       }
     ],
     "keyTakeaways": [

@@ -19,6 +19,30 @@
       {
         "heading": "Galvanic and electrolytic cells",
         "body": "Galvanic cells convert chemical energy to electrical (E° > 0). Oxidation at the anode, reduction at the cathode; electrons flow through the wire from anode to cathode. In the salt bridge, anions migrate toward the anode and cations toward the cathode to maintain neutrality. E°cell = E°(cathode) − E°(anode) using reduction potentials; do not multiply E° by coefficients. Electrolytic cells use an external source to drive a nonspontaneous reaction. Faraday: q = It; mol e⁻ = q/F; mol metal = mol e⁻ ÷ (charge of ion)."
+      },
+      {
+        "heading": "Worked example: Gibbs free energy",
+        "body": "For a reaction with ΔH° = −92 kJ/mol and ΔS° = −199 J/(mol·K), ΔG° at 298 K is −92 − (298)(−0.199) ≈ −92 + 59.3 = −32.7 kJ/mol, so the reaction is thermodynamically favorable at 298 K. Because both ΔH and ΔS are negative, the reaction becomes unfavorable at high temperatures: ΔG° = 0 when T = ΔH/ΔS ≈ 92/0.199 ≈ 462 K. Remember to convert ΔS from J to kJ before combining with ΔH."
+      },
+      {
+        "heading": "Worked example: galvanic cells",
+        "body": "In a cell with Zn and Cu electrodes, the reduction potentials are E°(Cu²⁺/Cu) = +0.34 V and E°(Zn²⁺/Zn) = −0.76 V. Copper is reduced at the cathode and zinc is oxidized at the anode, so E°cell = 0.34 − (−0.76) = +1.10 V. A positive E°cell means a thermodynamically favorable reaction, and ΔG° = −nFE° = −(2)(96,485)(1.10) ≈ −212 kJ/mol. Electrons flow from anode to cathode through the wire, and ions in the salt bridge maintain charge balance."
+      },
+      {
+        "heading": "Connecting ΔG°, K, and E°",
+        "body": "These quantities are linked: a negative ΔG° corresponds to K > 1 and a positive E°. The relationship ΔG° = −RT ln K connects thermodynamics to equilibrium. Thermodynamic favorability says nothing about rate: a favorable reaction can be extremely slow if its activation energy is high, which is called kinetic control."
+      },
+      {
+        "heading": "Key terms",
+        "body": "Know entropy, Gibbs free energy, thermodynamic favorability, kinetic control, coupled reactions, galvanic and electrolytic cells, anode, cathode, salt bridge, standard reduction potential, and Faraday's constant."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students often confuse thermodynamic favorability with speed, forget to convert ΔS units, and mislabel the anode and cathode. In electrolytic cells, an external source forces a nonspontaneous reaction, so E°cell is negative and electrons are pushed in the opposite direction."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Free-response questions often ask you to calculate E°cell from reduction potentials, determine ΔG°, and predict how changing concentrations affects cell potential."
       }
     ],
     "keyTakeaways": [

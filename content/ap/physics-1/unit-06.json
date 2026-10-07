@@ -19,6 +19,18 @@
       {
         "heading": "Conservation of angular momentum",
         "body": "If the net external torque on a system is zero, its angular momentum is constant:\n\nI₁ω₁ = I₂ω₂\n\nA skater pulling in her arms halves I from 4 to 2 kg·m², so ω doubles from 3 to 6 rad/s.\n\nKinetic energy is **not** necessarily conserved. In the skater's case K_rot = L²/(2I) increases when I decreases; her muscles do work pulling her arms in. When objects stick together rotationally (a child jumping onto a merry-go-round, clay dropped on a spinning disk), kinetic energy decreases, like a perfectly inelastic collision.\n\nMerry-go-round: I = 200 kg·m² at 1 rad/s. A 50 kg child steps on at r = 2 m from a standstill, adding 50 × 4 = 200 kg·m². New ω = 200/400 = 0.5 rad/s. K drops from 100 J to 50 J.\n\nWhen a projectile strikes a rod on a pivot, **angular momentum about the pivot** is conserved (the pivot force has no torque about itself), but linear momentum isn't, because the pivot exerts an external force."
+      },
+      {
+        "heading": "Worked example: rolling down a ramp",
+        "body": "A solid cylinder (I = ½MR²) rolls without slipping from rest down a ramp of height h. Energy conservation gives Mgh = ½Mv² + ½Iω², and with ω = v/R, Mgh = ½Mv² + ¼Mv² = ¾Mv², so v = √(4gh/3). A hoop (I = MR²) gives v = √(gh), slower, because more of its kinetic energy is rotational. A sliding block with no friction would reach √(2gh), the fastest. This ranking (block, solid sphere, solid cylinder, hoop) is a common exam question, and it does not depend on mass or radius."
+      },
+      {
+        "heading": "Worked example: angular momentum",
+        "body": "A skater spinning at 2.0 rev/s pulls her arms in, reducing her rotational inertia from 4.0 to 2.0 kg·m². With no external torque, angular momentum is conserved: I₁ω₁ = I₂ω₂, so ω₂ = 4.0 rev/s. Her rotational kinetic energy doubles, because ½Iω² = ½Lω increases as ω increases with L fixed; the extra energy comes from the work her muscles do pulling her arms inward."
+      },
+      {
+        "heading": "Exam tip",
+        "body": "Always state the system and whether external torques act before applying conservation of angular momentum."
       }
     ],
     "keyTakeaways": [

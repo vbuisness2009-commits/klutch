@@ -23,6 +23,10 @@
       {
         "heading": "Disks and washers",
         "body": "Revolving a region around a horizontal line gives circular cross sections.\n\n**Disk** (region touches the axis): V = π∫ₐᵇ [R(x)]² dx\n\n**Washer** (gap between region and axis): V = π∫ₐᵇ ([R(x)]² − [r(x)]²) dx\n\nR is the outer radius and r the inner, measured from the **axis of rotation**. Square each radius separately; π∫(R − r)² is wrong.\n\nFor an axis other than the x-axis, subtract: revolving about y = −1, a curve y = f(x) above the axis has radius f(x) − (−1) = f(x) + 1. Revolving about y = 4 with the curve below it, the radius is 4 − f(x).\n\nThe same ideas work for vertical axes with everything written in y."
+      },
+      {
+        "heading": "Exam walkthrough: setting up integrals",
+        "body": "Most errors in this unit come from the setup, not the integration. For area between curves, sketch, find intersections, and integrate top minus bottom (or right minus left in y). For volumes with cross sections, write the area of one slice in terms of x, for example a square with side f(x) − g(x) has area (f(x) − g(x))², then integrate along the axis. For washers about a horizontal line y = k, the outer and inner radii are distances from y = k, not the function values themselves. Calculator questions only require the setup and the numerical answer to three decimal places, so show the integral clearly before evaluating."
       }
     ],
     "keyTakeaways": [

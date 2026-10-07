@@ -23,6 +23,10 @@
       {
         "heading": "Mutations and biotechnology",
         "body": "| Mutation | Effect |\n| --- | --- |\n| Silent | codon changes but amino acid doesn't |\n| Missense | one amino acid changes |\n| Nonsense | creates an early stop codon |\n| Frameshift (insert/delete not a multiple of 3) | every codon after it changes |\n\nA frameshift near the start of the coding sequence is usually the most damaging.\n\n**Tools:** PCR copies a DNA region many times; **gel electrophoresis** separates DNA fragments by size (DNA is negatively charged and moves toward the positive electrode; smaller fragments move farther); restriction enzymes cut at specific sequences; plasmids carry genes into bacteria; sequencing reads base order; CRISPR edits specific sites."
+      },
+      {
+        "heading": "How it shows up on the exam",
+        "body": "Gene expression questions usually give a scenario rather than ask for a definition: a mutation in a promoter, a drug that blocks a splicing enzyme, or a bacterium grown with and without lactose. Work through the flow of information (DNA → RNA → protein → phenotype) and ask at which step the change acts. A promoter mutation reduces transcription, so less mRNA and less protein are made; a mutation in an intron usually has no effect unless it disrupts a splice site. In the lac operon, lactose (as allolactose) binds the repressor so it releases the operator and transcription increases; in the trp operon, tryptophan activates the repressor so transcription decreases. For data questions, compare treatment to control and state the direction and size of the change before explaining the mechanism."
       }
     ],
     "keyTakeaways": [

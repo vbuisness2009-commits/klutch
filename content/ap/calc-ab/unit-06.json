@@ -23,6 +23,10 @@
       {
         "heading": "Antiderivatives and u-substitution",
         "body": "| Integrand | Antiderivative |\n| --- | --- |\n| xⁿ (n ≠ −1) | xⁿ⁺¹/(n + 1) + C |\n| 1/x | ln|x| + C |\n| eˣ | eˣ + C |\n| sin x | −cos x + C |\n| cos x | sin x + C |\n| sec²x | tan x + C |\n| 1/(1 + x²) | arctan x + C |\n\n**u-substitution** reverses the chain rule. Look for an inner function whose derivative also appears:\n\n∫ 2x(x² + 1)³ dx: let u = x² + 1, du = 2x dx. The integral becomes ∫ u³ du = u⁴/4 + C = (x² + 1)⁴/4 + C.\n\nFor definite integrals, either change the bounds to u-values or substitute back before evaluating. Mixing the two is a common error."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students lose points by forgetting the constant of integration in indefinite integrals, mishandling limits after a u-substitution (change the limits or substitute back), and treating the integral of a rate as a final amount without adding the initial value. Remember that the integral of a rate gives net change, not position."
       }
     ],
     "keyTakeaways": [

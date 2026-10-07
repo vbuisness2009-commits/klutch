@@ -19,6 +19,18 @@
       {
         "heading": "Energy in SHM",
         "body": "For a mass-spring system with no friction, total energy is constant:\n\nE = ½kA² = ½kx² + ½mv²\n\nAt the extremes, all energy is potential; at equilibrium, all is kinetic: ½mv_max² = ½kA². With k = 100 N/m, A = 0.1 m, and m = 1 kg, v_max = A√(k/m) = 1 m/s.\n\nAt x = A/2, potential energy is ½k(A/2)² = ¼ of the total, so kinetic energy is ¾ and v = (√3/2)v_max ≈ 0.87v_max. Halfway out is not half the energy.\n\nWith friction or drag, amplitude decreases over time (damping), but the period stays nearly the same."
+      },
+      {
+        "heading": "Worked example: a mass on a spring",
+        "body": "A 0.50 kg block on a spring with k = 200 N/m is pulled 0.10 m from equilibrium and released. The period is T = 2π√(m/k) = 2π√(0.0025) ≈ 0.31 s, independent of amplitude. The total energy is ½kA² = ½(200)(0.10)² = 1.0 J, so the maximum speed at equilibrium is v = √(2E/m) = 2.0 m/s. At x = 0.05 m, the potential energy is 0.25 J and the kinetic energy is 0.75 J. A pendulum's period, T = 2π√(L/g), depends only on length and gravitational field, so doubling the mass changes nothing, but taking the pendulum to the Moon (smaller g) lengthens the period."
+      },
+      {
+        "heading": "How it's tested",
+        "body": "Expect position, velocity, and acceleration graphs: acceleration is always opposite to displacement and greatest at the turning points, while velocity is greatest at equilibrium. Experimental questions ask you to linearize data, for example graphing T² against m for a spring, where the slope equals 4π²/k."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students often think a heavier pendulum bob swings faster or that a larger amplitude changes the period. For small angles, neither matters. Doubling a spring's mass increases its period by a factor of √2, and doubling k decreases it by the same factor."
       }
     ],
     "keyTakeaways": [

@@ -23,6 +23,10 @@
       {
         "heading": "L'Hôpital's rule",
         "body": "If a limit has the indeterminate form 0/0 or ∞/∞, then\n\nlim f(x)/g(x) = lim f′(x)/g′(x)\n\nprovided the right-hand limit exists. Differentiate numerator and denominator **separately**; this is not the quotient rule.\n\nOn FRQs you must state that the limit is indeterminate before applying the rule: for example, \"since lim f(x) = 0 and lim g(x) = 0.\" Without that, the L'Hôpital point is lost.\n\nYou can apply it repeatedly: lim(x→0) (eˣ − 1 − x)/x² → (eˣ − 1)/(2x) → eˣ/2 = 1/2.\n\nProducts like x·ln x (0·∞) must first be rewritten as a quotient: ln x / (1/x)."
+      },
+      {
+        "heading": "Exam walkthrough: answering in context",
+        "body": "Free-response questions reward a complete sentence that includes units and the meaning of the sign. If W(t) is the gallons of water in a tank and W′(4) = −3, write: 'At t = 4 minutes, the amount of water in the tank is decreasing at a rate of 3 gallons per minute.' For motion, speed increases when velocity and acceleration have the same sign and decreases when they have opposite signs. For linear approximation, state whether the estimate is an over- or underestimate using concavity: if f″ < 0 (concave down), the tangent line lies above the curve, so the approximation overestimates."
       }
     ],
     "keyTakeaways": [

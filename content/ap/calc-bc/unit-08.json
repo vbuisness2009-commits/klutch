@@ -27,6 +27,10 @@
       {
         "heading": "BC only: arc length",
         "body": "The length of a smooth curve y = f(x) from a to b is\n\nL = ∫ₐᵇ √(1 + [f′(x)]²) dx\n\nFor y = (2/3)x^(3/2) on [0, 3]: f′ = √x, so L = ∫₀³ √(1 + x) dx = (2/3)(4^(3/2) − 1) = 14/3. Many arc-length integrals can't be done by hand; on calculator questions, set up and evaluate numerically. For parametric curves (Unit 9): L = ∫√((dx/dt)² + (dy/dt)²) dt."
+      },
+      {
+        "heading": "Arc length reminder",
+        "body": "For y = f(x) on [a, b], arc length is ∫ √(1 + (f′(x))²) dx. For parametric curves, use ∫ √((dx/dt)² + (dy/dt)²) dt, which is also total distance traveled."
       }
     ],
     "keyTakeaways": [

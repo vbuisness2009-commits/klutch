@@ -23,6 +23,14 @@
       {
         "heading": "Experimental work",
         "body": "Momentum labs typically use carts on a low-friction track with motion sensors or photogates. To test conservation, measure masses with a balance and velocities before and after, then compare total momentum. Plotting p_after versus p_before for many trials gives a line whose slope should be close to 1. Friction on the track is a small external force, so p_after is usually slightly less than p_before."
+      },
+      {
+        "heading": "Worked example: a perfectly inelastic collision",
+        "body": "A 2.0 kg cart moving at 3.0 m/s collides and sticks to a 1.0 kg cart at rest. Momentum before is (2.0)(3.0) = 6.0 kg·m/s, so the final speed is 6.0/3.0 = 2.0 m/s. Kinetic energy drops from ½(2.0)(3.0)² = 9.0 J to ½(3.0)(2.0)² = 6.0 J; the missing 3.0 J becomes thermal energy and deformation. Momentum is conserved because no net external horizontal force acts during the brief collision, even though kinetic energy is not. For impulse problems, use the area under a force-versus-time graph, and remember that a longer collision time reduces the average force for the same change in momentum, which is why airbags work."
+      },
+      {
+        "heading": "Exam tip",
+        "body": "In elastic collisions both momentum and kinetic energy are conserved; in all collisions, momentum alone is conserved if the system is isolated."
       }
     ],
     "keyTakeaways": [

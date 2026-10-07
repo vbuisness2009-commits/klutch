@@ -27,6 +27,10 @@
       {
         "heading": "Higher-order derivatives",
         "body": "f″ is the derivative of f′. Notation: f″(x), y″, d²y/dx². For y = sin(3x): y′ = 3cos(3x) and y″ = −9 sin(3x). Each chain-rule step multiplies by the inner derivative again.\n\nSecond derivatives become central in Units 4 and 5 (acceleration, concavity), so fluency here pays off later."
+      },
+      {
+        "heading": "Worked example: chain rule with implicit differentiation",
+        "body": "Find dy/dx for x² + xy + y³ = 7 at the point (2, 1). First check that the point is on the curve: 4 + 2 + 1 = 7, so it is; on the exam, always verify. Differentiate every term with respect to x, treating y as a function of x: 2x + (y + x·dy/dx) + 3y²·dy/dx = 0. Collect the dy/dx terms: dy/dx(x + 3y²) = −2x − y, so dy/dx = (−2x − y)/(x + 3y²). At (2, 1), dy/dx = (−4 − 1)/(2 + 3) = −1. The product rule on xy and the chain rule on y³ are the steps students most often miss. For an inverse function, if f(3) = 5 and f′(3) = 2, then (f⁻¹)′(5) = 1/f′(3) = 1/2: the input of the inverse's derivative is the output of f."
       }
     ],
     "keyTakeaways": [

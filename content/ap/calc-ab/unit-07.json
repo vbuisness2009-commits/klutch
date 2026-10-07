@@ -27,6 +27,10 @@
       {
         "heading": "Second derivatives from a differential equation",
         "body": "To find d²y/dx², differentiate dy/dx implicitly with respect to x, then substitute dy/dx back in. For dy/dx = x + y:\n\nd²y/dx² = 1 + dy/dx = 1 + x + y\n\nThis tells you concavity of the solution curve at any point, which is how the exam asks whether a tangent-line approximation is an over- or underestimate."
+      },
+      {
+        "heading": "Exam walkthrough",
+        "body": "Separable equations are worth many points: separate, integrate, add the constant, use the initial condition, then solve for y. Skipping the constant or applying the initial condition too late typically caps the score. If dy/dx = xy and y(0) = 3, then dy/y = x dx, ln|y| = x²/2 + C, and y = 3e^(x²/2)."
       }
     ],
     "keyTakeaways": [

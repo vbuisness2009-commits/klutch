@@ -19,6 +19,18 @@
       {
         "heading": "Bernoulli's equation",
         "body": "Bernoulli's equation is conservation of energy per unit volume for flowing fluid:\n\nP₁ + ½ρv₁² + ρgy₁ = P₂ + ½ρv₂² + ρgy₂\n\nIn a horizontal pipe, faster flow means lower pressure. With water entering at 2.0 × 10⁵ Pa and 2 m/s and leaving a narrower section at 8 m/s:\n\nP₂ = P₁ + ½ρ(v₁² − v₂²) = 2.0 × 10⁵ + 500(4 − 64) = 1.7 × 10⁵ Pa\n\nWind blowing over a roof lowers the pressure above it while the air inside stays still, so the roof can be pushed upward.\n\n**Torricelli's result:** water leaving a hole a depth h below the open surface of a large tank exits at v = √(2gh), the same speed as an object falling from that height. At 5 m depth, v = 10 m/s."
+      },
+      {
+        "heading": "Worked example: buoyancy",
+        "body": "A 0.20 m³ block of wood with density 600 kg/m³ floats in water (1000 kg/m³). At equilibrium, buoyant force equals weight: ρ_water·V_submerged·g = ρ_wood·V·g, so V_submerged/V = 600/1000 = 0.60, meaning 60% of the block is below the surface. If pushed fully underwater, the buoyant force is (1000)(0.20)(9.8) ≈ 1960 N while its weight is about 1176 N, so it accelerates upward when released."
+      },
+      {
+        "heading": "Exam tip",
+        "body": "Bernoulli questions often ask why pressure drops where fluid speeds up; justify with energy conservation per unit volume."
+      },
+      {
+        "heading": "Continuity in practice",
+        "body": "Because A₁v₁ = A₂v₂, water speeds up where a hose is pinched; Bernoulli's equation then predicts lower pressure there."
       }
     ],
     "keyTakeaways": [

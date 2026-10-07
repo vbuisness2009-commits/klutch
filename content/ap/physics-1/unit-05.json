@@ -23,6 +23,14 @@
       {
         "heading": "Static equilibrium",
         "body": "An object is in static equilibrium when\n\nΣF = 0 and Στ = 0 (about **any** axis)\n\nChoose the axis through an unknown force to eliminate it. For a uniform 4 m, 100 N beam on supports at both ends with a 200 N person 1 m from the left end, take torques about the left support:\n\nR(4) = 100(2) + 200(1) = 400, so R = 100 N. Then ΣF = 0 gives L = 300 − 100 = 200 N.\n\nThe weight of a uniform object acts at its center. On a seesaw, balance means m₁r₁ = m₂r₂: a 30 kg child 2 m from the pivot balances a 40 kg child 1.5 m on the other side.\n\nZero net torque doesn't mean no rotation: it means constant angular velocity."
+      },
+      {
+        "heading": "Exam tip",
+        "body": "For static equilibrium problems, choose the pivot at the location of an unknown force so its torque drops out, then write both ΣF = 0 and Στ = 0."
+      },
+      {
+        "heading": "Connecting linear and rotational",
+        "body": "Each linear quantity has a rotational partner: displacement and angle, velocity and angular velocity, mass and rotational inertia, force and torque. Newton's second law becomes Στ = Iα."
       }
     ],
     "keyTakeaways": [

@@ -19,6 +19,14 @@
       {
         "heading": "Power series",
         "body": "Memorize these Maclaurin series:\n\n| Function | Series | Interval |\n| --- | --- | --- |\n| eˣ | Σ xⁿ/n! | all x |\n| sin x | x − x³/3! + x⁵/5! − ... | all x |\n| cos x | 1 − x²/2! + x⁴/4! − ... | all x |\n| 1/(1 − x) | Σ xⁿ | −1 < x < 1 |\n\nBuild new series by substituting (replace x with −x², for instance), multiplying by powers of x, differentiating, or integrating term by term. Integrating 1/(1 + x²) = Σ(−1)ⁿx²ⁿ gives arctan x = Σ(−1)ⁿx²ⁿ⁺¹/(2n + 1).\n\n**Radius of convergence:** use the ratio test on the general term with x included. Then **test each endpoint separately**, since behavior there can differ. Σ(x − 3)ⁿ/n has R = 1; at x = 4 it's harmonic (diverges); at x = 2 it's alternating harmonic (converges). Interval: [2, 4)."
+      },
+      {
+        "heading": "Worked example: Taylor polynomial and error",
+        "body": "To approximate e^0.2 with the third-degree Maclaurin polynomial: 1 + 0.2 + 0.04/2 + 0.008/6 ≈ 1.22133. Because this series does not alternate, use the Lagrange error bound: the error is at most max|f⁗(c)|·(0.2)⁴/4!, and since f⁗(x) = eˣ ≤ e^0.2 < 2 on [0, 0.2], the error is less than 2(0.0016)/24 ≈ 0.000133. For an alternating series whose terms decrease to zero, the error is less than the first omitted term instead. When finding an interval of convergence, use the ratio test for the radius, then test each endpoint separately with another test (p-series, alternating series test, or nth-term test), since the ratio test is inconclusive there."
+      },
+      {
+        "heading": "Choosing a convergence test",
+        "body": "Start with the nth-term test: if terms don't approach zero, the series diverges. Geometric and p-series have quick rules. Compare complicated terms to simpler ones with the direct or limit comparison test, use the integral test when the terms come from an easily integrated function, use the ratio test for factorials and exponentials, and use the alternating series test when signs alternate."
       }
     ],
     "keyTakeaways": [

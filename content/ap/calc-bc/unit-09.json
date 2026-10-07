@@ -19,6 +19,18 @@
       {
         "heading": "Common exam patterns",
         "body": "FRQs often give a particle's velocity components (sometimes from a table or as functions needing a calculator) and ask for speed, position, slope of the path, and total distance. Polar FRQs ask for area of a region, the rate at which distance from the origin changes (dr/dθ), and slope at a point. Always label vectors with angle brackets and include both components."
+      },
+      {
+        "heading": "Worked example: parametric motion",
+        "body": "A particle moves with x(t) = t² − 4t and y(t) = 2t³ − 6t for 0 ≤ t ≤ 3. The velocity vector is ⟨2t − 4, 6t² − 6⟩. At t = 1, velocity is ⟨−2, 0⟩, so the particle moves left and the speed is 2. The slope of the path is dy/dx = (6t² − 6)/(2t − 4), which equals 0 at t = 1, a horizontal tangent; vertical tangents occur where dx/dt = 0 and dy/dt ≠ 0, here at t = 2. The second derivative of a parametric curve is d²y/dx² = [d/dt(dy/dx)] / (dx/dt), a step students often skip. Total distance from t = 0 to t = 3 is ∫₀³ √((2t − 4)² + (6t² − 6)²) dt, evaluated with a calculator."
+      },
+      {
+        "heading": "Worked example: polar area",
+        "body": "For r = 2 + 2cos θ (a cardioid), the area enclosed is (1/2)∫₀^{2π} (2 + 2cos θ)² dθ = 6π. For the area inside one curve and outside another, find the angles of intersection and integrate (1/2)(r_outer² − r_inner²). In polar, dy/dx = (dr/dθ · sin θ + r cos θ)/(dr/dθ · cos θ − r sin θ), and dr/dθ tells whether the point is moving away from (positive) or toward (negative) the origin."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students often divide dy/dt by dx/dt in the wrong order, forget that speed is the magnitude of the velocity vector rather than one component, and use the wrong bounds for polar area. When a polar curve traces itself twice, integrate over only one full trace."
       }
     ],
     "keyTakeaways": [

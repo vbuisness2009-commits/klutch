@@ -19,6 +19,34 @@
       {
         "heading": "Capacitors in circuits",
         "body": "Capacitors in parallel: C_eq = C₁ + C₂; in series: 1/C_eq = 1/C₁ + 1/C₂. In an RC circuit, an uncharged capacitor initially acts like a wire (full current flows); as it charges, current decreases exponentially; at steady state no current flows through the capacitor branch (it acts like an open switch), and the capacitor's voltage equals the voltage across the branch it's connected in parallel with. The time constant τ = RC sets how fast charging occurs."
+      },
+      {
+        "heading": "Worked example: series and parallel",
+        "body": "A 6.0 Ω resistor is in series with a parallel combination of 3.0 Ω and 6.0 Ω resistors, connected to a 12 V ideal battery. The parallel combination is (1/3 + 1/6)⁻¹ = 2.0 Ω, so the total resistance is 8.0 Ω and the current from the battery is 1.5 A. The voltage across the 6.0 Ω series resistor is 9.0 V, leaving 3.0 V across the parallel pair. The current is 1.0 A through the 3.0 Ω resistor and 0.50 A through the 6.0 Ω parallel resistor, which adds to 1.5 A as required by the junction rule."
+      },
+      {
+        "heading": "Worked example: bulb brightness",
+        "body": "Bulb brightness depends on power. If a third identical bulb is added in parallel to two bulbs already in parallel across an ideal battery, each bulb keeps the same voltage, so each stays equally bright, but the battery supplies more total current. If a bulb is added in series, the total resistance increases, the current decreases, and all bulbs dim. These qualitative reasoning questions are common on the exam."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students often assume current is used up in a resistor, misapply series and parallel rules, and ignore internal resistance when the question specifies a real battery."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Free-response questions ask you to rank currents, voltages, or brightness, design circuits to meet a goal, and analyze RC circuits immediately after a switch closes and after a long time."
+      },
+      {
+        "heading": "Laboratory and experimental design",
+        "body": "To determine a battery's internal resistance, measure terminal voltage and current for several load resistances. A graph of terminal voltage versus current is linear with slope −r and y-intercept equal to the emf. Ammeters go in series and voltmeters in parallel."
+      },
+      {
+        "heading": "Key equations",
+        "body": "ΔV = IR; P = IΔV = I²R; R = ρL/A; series R = R₁ + R₂; parallel 1/R = 1/R₁ + 1/R₂; terminal voltage = ε − Ir."
+      },
+      {
+        "heading": "Qualitative reasoning",
+        "body": "Explain changes using current paths."
       }
     ],
     "keyTakeaways": [

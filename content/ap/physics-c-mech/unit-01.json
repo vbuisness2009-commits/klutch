@@ -15,6 +15,42 @@
       {
         "heading": "Two dimensions and projectiles",
         "body": "Treat x and y motion independently with vectors r(t), v(t) = dr/dt, a(t) = dv/dt. For a projectile (no air resistance), a_x = 0 and a_y = −g. Launch at speed v₀ and angle θ from level ground: time of flight 2v₀ sin θ/g, maximum height (v₀ sin θ)²/2g, range v₀² sin 2θ/g (maximum at 45°). Relative velocity: v_A/C = v_A/B + v_B/C."
+      },
+      {
+        "heading": "Worked example: calculus kinematics",
+        "body": "A particle moves with velocity v(t) = 3t² − 12t + 9 m/s. Its acceleration is a(t) = 6t − 12, and it is momentarily at rest when v = 0, at t = 1 s and t = 3 s. If x(0) = 2 m, position is x(t) = t³ − 6t² + 9t + 2. Displacement from t = 0 to 3 s is x(3) − x(0) = 0, but distance traveled is |x(1) − x(0)| + |x(3) − x(1)| = 4 + 4 = 8 m, because the particle reverses direction at t = 1 s. Distance requires splitting the integral of speed where velocity changes sign."
+      },
+      {
+        "heading": "Worked example: projectile motion",
+        "body": "A ball is launched at 20 m/s at 30° above horizontal from level ground. The components are vx = 20 cos 30° ≈ 17.3 m/s and vy = 10 m/s. Using g = 9.8 m/s², time to the peak is 10/9.8 ≈ 1.02 s, total flight time about 2.04 s, maximum height (10)²/(2 × 9.8) ≈ 5.1 m, and range about 17.3 × 2.04 ≈ 35.3 m. Horizontal velocity is constant, and vertical acceleration is −g throughout the flight."
+      },
+      {
+        "heading": "Worked example: variable acceleration",
+        "body": "If acceleration depends on velocity, such as a = −kv, separate variables: dv/v = −k dt, giving v(t) = v₀e^(−kt). Integrating again gives position x(t) = (v₀/k)(1 − e^(−kt)), which approaches v₀/k as t → ∞. This approach also appears in resistive force problems in Unit 2."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students confuse displacement with distance, forget initial conditions when integrating, and treat acceleration as constant when it varies. Always check whether constant-acceleration equations apply before using them."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Free-response questions ask you to derive expressions, sketch graphs of position, velocity, and acceleration, and connect slopes and areas of graphs to physical quantities."
+      },
+      {
+        "heading": "Laboratory and experimental design",
+        "body": "To measure acceleration, use a motion sensor or video analysis to record position versus time, then fit a quadratic curve or graph velocity versus time and find the slope. Linearizing data, for example graphing displacement against t² for an object starting from rest, gives a line with slope a/2. Report uncertainty and discuss sources of error such as friction and timing."
+      },
+      {
+        "heading": "Key equations",
+        "body": "v = dx/dt; a = dv/dt; x = ∫v dt; v = ∫a dt; constant acceleration: v = v₀ + at, x = x₀ + v₀t + ½at², v² = v₀² + 2aΔx."
+      },
+      {
+        "heading": "Derivation tips",
+        "body": "Start derivations from definitions, not memorized formulas."
+      },
+      {
+        "heading": "Graph skills",
+        "body": "Slopes and areas of motion graphs carry meaning."
       }
     ],
     "keyTakeaways": [

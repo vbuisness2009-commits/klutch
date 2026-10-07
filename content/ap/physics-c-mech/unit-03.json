@@ -15,6 +15,42 @@
       {
         "heading": "Energy conservation and power",
         "body": "If only conservative forces do work, mechanical energy K + U is conserved. Nonconservative forces such as friction change mechanical energy: ΔK + ΔU = W_nc (friction makes W_nc negative and converts energy to thermal energy). Escape speed from a planet's surface: v_esc = √(2GM/R). Power is the rate of energy transfer: P = dW/dt = F·v; average power = W/Δt."
+      },
+      {
+        "heading": "Worked example: work by a variable force",
+        "body": "A force F(x) = 6x² N acts on an object moving from x = 1 m to x = 3 m. The work done is ∫₁³ 6x² dx = 2x³ from 1 to 3 = 54 − 2 = 52 J. For a spring, F = −kx, and the work done by the spring when it is stretched from 0 to x is −½kx², so the spring's potential energy is U = ½kx². Work equals the area under a force-versus-displacement graph."
+      },
+      {
+        "heading": "Worked example: potential energy and force",
+        "body": "If a potential energy function is U(x) = 4x² − x⁴, the force is F = −dU/dx = −8x + 4x³. Equilibrium points occur where F = 0: x = 0 and x = ±√2. At x = 0, U has a minimum (stable equilibrium); at x = ±√2, U has maxima (unstable equilibrium). Graphs of U versus x let you predict motion: a particle with total energy E moves only where E ≥ U."
+      },
+      {
+        "heading": "Worked example: power",
+        "body": "A 1200 kg car accelerates from rest to 20 m/s in 8.0 s on level ground. Its kinetic energy increases by ½(1200)(20)² = 240,000 J, so the average power delivered is 240,000/8.0 = 30,000 W, or 30 kW, ignoring friction. Instantaneous power is P = F·v."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students confuse work done by a force with work done on an object, forget negative work by friction, and use U = mgh far from Earth's surface, where U = −GMm/r applies."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Questions ask you to derive speeds using energy conservation, interpret potential energy graphs, and compare energy methods with force methods."
+      },
+      {
+        "heading": "Laboratory and experimental design",
+        "body": "To determine a spring constant, hang known masses from a spring and measure the extension. A graph of force versus extension is linear with slope k, and the area under it gives stored energy. Energy conservation experiments compare a cart's kinetic energy at the bottom of a ramp to its initial gravitational potential energy, attributing differences to friction."
+      },
+      {
+        "heading": "Key equations",
+        "body": "W = ∫F·dx; ΔK = W_net; U_s = ½kx²; U_g = mgh near Earth; U_g = −GMm/r generally; F = −dU/dx; P = dW/dt = F·v."
+      },
+      {
+        "heading": "Derivation tips",
+        "body": "When deriving speeds or heights, define the system and the initial and final states, list all energy forms, and include work by nonconservative forces. Check answers with limiting cases and units, and compare with a force approach when possible."
+      },
+      {
+        "heading": "Graph skills",
+        "body": "On a force-versus-position graph, the area gives work. On a potential energy graph, the slope gives the negative of force, minima are stable equilibria, and turning points occur where total energy equals potential energy."
       }
     ],
     "keyTakeaways": [

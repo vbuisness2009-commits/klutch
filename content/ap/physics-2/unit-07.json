@@ -19,6 +19,34 @@
       {
         "heading": "Nuclear physics",
         "body": "Mass-energy equivalence: E = mc² (1 u ≈ 931 MeV). The mass of a nucleus is less than the sum of its nucleons; this mass defect corresponds to binding energy. Fission splits heavy nuclei and fusion combines light nuclei; both release energy because products have greater binding energy per nucleon. Decays conserve charge and nucleon number: alpha decay emits ⁴₂He (A − 4, Z − 2); beta-minus decay converts a neutron into a proton, emitting an electron and antineutrino (Z + 1); beta-plus emits a positron (Z − 1); gamma decay emits a high-energy photon with no change in A or Z. Radioactive decay is random; after n half-lives, (½)ⁿ of the original nuclei remain."
+      },
+      {
+        "heading": "Worked example: photoelectric effect",
+        "body": "Light with photon energy 4.5 eV strikes a metal with work function 2.3 eV. The maximum kinetic energy of ejected electrons is 4.5 − 2.3 = 2.2 eV. Increasing intensity increases the number of electrons but not their maximum kinetic energy; increasing frequency increases maximum kinetic energy. Light below the threshold frequency ejects no electrons, no matter how intense, which wave theory cannot explain."
+      },
+      {
+        "heading": "Worked example: energy levels",
+        "body": "An electron in a hydrogen atom drops from the n = 3 level (−1.51 eV) to n = 2 (−3.40 eV), emitting a photon of energy 1.89 eV. Its wavelength is λ = hc/E ≈ 1240 eV·nm / 1.89 eV ≈ 656 nm, red light in the visible spectrum. Absorption spectra show dark lines at the same wavelengths because atoms absorb photons that match energy differences."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students often think brighter light gives electrons more energy, confuse emission and absorption, and forget to conserve nucleon number and charge in nuclear reactions."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Expect energy-level diagrams, graphs of maximum kinetic energy versus frequency (slope = Planck's constant, x-intercept = threshold frequency), and nuclear decay equations."
+      },
+      {
+        "heading": "Laboratory and experimental design",
+        "body": "To determine Planck's constant, measure the stopping voltage for several light frequencies in a photoelectric experiment. A graph of maximum kinetic energy (eV_stop) versus frequency is linear with slope h and x-intercept at the threshold frequency."
+      },
+      {
+        "heading": "Key equations",
+        "body": "E = hf = hc/λ; K_max = hf − φ; λ = h/p; ΔE = hf between levels; E = mc²; nucleon number and charge conserved in reactions."
+      },
+      {
+        "heading": "Qualitative reasoning",
+        "body": "Qualitative questions ask why classical wave theory fails to explain the photoelectric effect or why atoms produce discrete spectra. Explain using photon energy quanta and discrete energy levels."
       }
     ],
     "keyTakeaways": [

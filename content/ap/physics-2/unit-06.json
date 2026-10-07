@@ -19,6 +19,38 @@
       {
         "heading": "Thin films",
         "body": "Light reflecting from the top and bottom of a thin film interferes. A reflection from a medium of higher index causes a half-wavelength phase shift; from lower index, none. With one phase shift (e.g., soap film in air), constructive reflection occurs when 2nt = (m + ½)λ and destructive when 2nt = mλ; with zero or two shifts, the conditions swap. Anti-reflective coatings use destructive interference."
+      },
+      {
+        "heading": "Worked example: standing waves",
+        "body": "A string 1.2 m long, fixed at both ends, vibrates in its third harmonic. The wavelength is 2L/3 = 0.80 m. If the wave speed is 240 m/s, the frequency is v/λ = 300 Hz, and the fundamental frequency is 100 Hz. A pipe open at both ends has the same harmonic series, while a pipe closed at one end supports only odd harmonics, with fundamental wavelength 4L."
+      },
+      {
+        "heading": "Worked example: double slit",
+        "body": "Light of wavelength 600 nm passes through two slits 0.20 mm apart onto a screen 2.0 m away. Bright fringes occur where d sin θ = mλ, and for small angles the spacing is λL/d = (600 × 10⁻⁹)(2.0)/(0.20 × 10⁻³) = 6.0 mm. Increasing the wavelength or screen distance spreads the fringes; increasing slit separation brings them closer."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students confuse frequency with speed, forget that wave speed depends on the medium, and miscount nodes and antinodes in standing waves."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Questions ask you to explain interference patterns, predict how changes affect fringe spacing, and analyze thin films where a half-wavelength phase shift may occur on reflection from a higher-index medium."
+      },
+      {
+        "heading": "Laboratory and experimental design",
+        "body": "To find the speed of sound, use a resonance tube closed at one end and adjust the water level until resonance occurs with a tuning fork. The first resonance occurs at a length of about λ/4, and successive resonances are λ/2 apart, so v = fλ can be calculated."
+      },
+      {
+        "heading": "Key equations",
+        "body": "v = fλ; strings and open pipes: λₙ = 2L/n; closed pipes: λₙ = 4L/n (odd n); d sin θ = mλ; fringe spacing ≈ λL/d."
+      },
+      {
+        "heading": "Qualitative reasoning",
+        "body": "Qualitative questions ask how changing tension, length, or medium affects frequency and wavelength. Tension and linear density set wave speed on a string; the boundary conditions set allowed wavelengths. In interference questions, explain path difference in wavelengths to justify bright and dark fringes."
+      },
+      {
+        "heading": "Graph skills",
+        "body": "Sketch displacement graphs carefully."
       }
     ],
     "keyTakeaways": [

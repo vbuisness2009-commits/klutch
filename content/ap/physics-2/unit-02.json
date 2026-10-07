@@ -19,6 +19,30 @@
       {
         "heading": "Capacitors",
         "body": "A parallel-plate capacitor stores charge ±Q with C = Q/ΔV = κε₀A/d. Energy stored: U_C = ½QΔV = ½C(ΔV)². Increasing plate area or inserting a dielectric (κ > 1) increases C; increasing separation decreases C. If the capacitor stays connected to a battery, ΔV is constant, so Q changes with C. If it's isolated, Q is constant, so ΔV changes inversely with C."
+      },
+      {
+        "heading": "Worked example: field from two charges",
+        "body": "Two charges, +2.0 μC at x = 0 and −2.0 μC at x = 0.20 m, create an electric field at the midpoint x = 0.10 m. Each charge produces E = kq/r² = (9.0 × 10⁹)(2.0 × 10⁻⁶)/(0.10)² = 1.8 × 10⁶ N/C. The field from the positive charge points away from it (+x), and the field from the negative charge points toward it (+x), so they add to 3.6 × 10⁶ N/C in the +x direction. The potential at the midpoint is zero because the contributions kq/r are equal and opposite, illustrating that field and potential are different quantities."
+      },
+      {
+        "heading": "Worked example: energy of a moving charge",
+        "body": "A proton accelerates from rest through a potential difference of 500 V. The work done by the field converts electric potential energy to kinetic energy: ½mv² = qΔV = (1.6 × 10⁻¹⁹)(500) = 8.0 × 10⁻¹⁷ J, so v = √(2 × 8.0 × 10⁻¹⁷/1.67 × 10⁻²⁷) ≈ 3.1 × 10⁵ m/s. Positive charges accelerate toward lower potential, while negative charges accelerate toward higher potential."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students often add field magnitudes without considering direction, confuse electric potential with potential energy, and forget that field lines point from positive to negative charges."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Expect questions with field-line diagrams, equipotential maps, and charge configurations. You may need to draw field vectors, rank potentials, or explain how a capacitor's charge and voltage change when plate separation changes."
+      },
+      {
+        "heading": "Laboratory and experimental design",
+        "body": "To map an electric field, use a voltmeter probe on conductive paper with electrodes to trace equipotential lines, then sketch field lines perpendicular to them. Fields point from high to low potential and are strongest where equipotentials are closest together."
+      },
+      {
+        "heading": "Key equations",
+        "body": "F = kq₁q₂/r²; E = F/q; V = kq/r; ΔU = qΔV; C = Q/ΔV = κε₀A/d; U_C = ½QΔV."
       }
     ],
     "keyTakeaways": [

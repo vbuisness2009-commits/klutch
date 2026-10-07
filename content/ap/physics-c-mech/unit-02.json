@@ -19,6 +19,38 @@
       {
         "heading": "Circular motion and gravitation",
         "body": "Uniform circular motion requires a net centripetal force ΣF_c = mv²/r toward the center, provided by real forces (tension, friction, gravity, normal force). On a flat curve, v_max = √(μ_sgr). At the top of a vertical loop, the minimum speed is √(gr). Newton's law of gravitation: F = Gm₁m₂/r². The gravitational field g = GM/r² decreases with the square of distance from the center. Circular orbits: v = √(GM/r), T² = (4π²/GM)r³. Inside a uniform sphere, g increases linearly with r."
+      },
+      {
+        "heading": "Worked example: Atwood machine",
+        "body": "Masses of 3.0 kg and 5.0 kg hang from a light rope over a frictionless pulley. Treat the system: the net force is (5.0 − 3.0)(9.8) = 19.6 N acting on a total mass of 8.0 kg, so a = 2.45 m/s². For the 3.0 kg mass, T − (3.0)(9.8) = (3.0)(2.45), so T = 36.75 N. Writing Newton's second law for each object separately and for the system provides a useful check."
+      },
+      {
+        "heading": "Worked example: terminal velocity",
+        "body": "An object falling with drag force bv satisfies m dv/dt = mg − bv. Terminal velocity occurs when acceleration is zero: v_T = mg/b. Solving the differential equation gives v(t) = v_T(1 − e^(−bt/m)), approaching terminal velocity exponentially with time constant m/b. Graphs of v versus t start with slope g and level off at v_T."
+      },
+      {
+        "heading": "Worked example: orbits",
+        "body": "For a satellite in a circular orbit, gravity provides the centripetal force: GMm/r² = mv²/r, so v = √(GM/r). The period T = 2πr/v gives Kepler's third law, T² = (4π²/GM)r³. Higher orbits have lower speeds and longer periods."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students forget to include all forces on free-body diagrams, treat centripetal force as a separate force, and confuse mass with weight."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Expect free-body diagrams, derivations involving friction, inclines, and drag, and experimental questions that linearize data to find coefficients."
+      },
+      {
+        "heading": "Laboratory and experimental design",
+        "body": "To measure the coefficient of kinetic friction, pull a block at constant velocity with a force sensor for several added masses. A graph of friction force versus normal force is linear with slope μk. To study drag, record the velocity of a falling object and find its terminal speed."
+      },
+      {
+        "heading": "Key equations",
+        "body": "ΣF = ma; f ≤ μN; F_drag = bv or cv²; a_c = v²/r; F_g = GMm/r²; v_orbit = √(GM/r)."
+      },
+      {
+        "heading": "Derivation tips",
+        "body": "Begin every dynamics derivation with a labeled free-body diagram, choose axes aligned with acceleration, and write Newton's second law for each direction and each object. Solve symbolically before substituting numbers, and check units and limiting cases, such as what happens when friction or angle goes to zero."
       }
     ],
     "keyTakeaways": [

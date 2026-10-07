@@ -15,6 +15,34 @@
       {
         "heading": "Thin lenses",
         "body": "Converging (convex) lenses have positive f; diverging (concave) lenses have negative f. Thin-lens equation: 1/s_o + 1/s_i = 1/f. Magnification M = h_i/h_o = −s_i/s_o. Sign conventions: positive s_i means a real image (on the opposite side of a lens, the same side for a mirror), which is inverted (M < 0); negative s_i means a virtual image, upright (M > 0). For converging lenses: object beyond 2f → real, inverted, reduced; between f and 2f → real, inverted, enlarged; at f → no image; inside f → virtual, upright, enlarged (magnifier). Diverging lenses always form virtual, upright, reduced images. A lens's focal length depends on its shape and the index of refraction relative to the surrounding medium; submerging a glass lens in water increases its focal length."
+      },
+      {
+        "heading": "Worked example: a converging lens",
+        "body": "An object 30 cm from a converging lens with focal length 10 cm forms an image at 1/dᵢ = 1/10 − 1/30 = 2/30, so dᵢ = 15 cm. The magnification is −dᵢ/d₀ = −0.5, so the image is real, inverted, and half the object's size. If the object is moved to 5 cm, inside the focal length, 1/dᵢ = 1/10 − 1/5 = −1/10, so dᵢ = −10 cm: a virtual, upright, magnified image, as in a magnifying glass."
+      },
+      {
+        "heading": "Worked example: refraction",
+        "body": "Light passes from air (n = 1.00) into glass (n = 1.50) at 30° from the normal. By Snell's law, sin θ₂ = (1.00/1.50) sin 30° = 0.333, so θ₂ ≈ 19.5°, bending toward the normal. Going from glass to air, total internal reflection occurs if the angle exceeds the critical angle, sin θc = 1.00/1.50, so θc ≈ 41.8°."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students often mix up sign conventions for virtual images and diverging lenses, forget that light bends toward the normal when entering a slower medium, and draw ray diagrams without the standard principal rays."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Expect ray diagrams for mirrors and lenses, questions on image characteristics, and experimental design questions such as finding a lens's focal length by graphing 1/dᵢ against 1/d₀."
+      },
+      {
+        "heading": "Laboratory and experimental design",
+        "body": "To find a converging lens's focal length, measure image distances for several object distances, then graph 1/dᵢ versus 1/d₀. The graph is linear with slope −1 and y-intercept 1/f. Alternatively, focus a distant object, whose image forms at the focal point."
+      },
+      {
+        "heading": "Key equations",
+        "body": "n = c/v; n₁ sin θ₁ = n₂ sin θ₂; sin θc = n₂/n₁; 1/f = 1/d₀ + 1/dᵢ; M = −dᵢ/d₀; f = R/2 for spherical mirrors."
+      },
+      {
+        "heading": "Qualitative reasoning",
+        "body": "Qualitative questions ask how an image changes as an object moves, or how replacing air with water around a lens affects its focal length. A lens in water bends light less, so its focal length increases."
       }
     ],
     "keyTakeaways": [

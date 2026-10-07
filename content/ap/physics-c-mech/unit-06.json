@@ -15,6 +15,38 @@
       {
         "heading": "Conservation of angular momentum",
         "body": "If the net external torque on a system is zero, total angular momentum is conserved: I₁ω₁ = I₂ω₂. A spinning skater pulling in her arms decreases I and increases ω; her kinetic energy increases because she does work pulling her arms in. When a particle collides with and sticks to a rotating or pivoted object, angular momentum about the pivot is conserved (the pivot force exerts no torque about the pivot), but kinetic energy is not, and linear momentum is generally not conserved because the pivot exerts an external force. For orbits, gravity exerts no torque about the planet's center, so the satellite's angular momentum is conserved (Kepler's second law: it moves faster closer in)."
+      },
+      {
+        "heading": "Worked example: rolling down an incline",
+        "body": "A solid sphere (I = (2/5)MR²) rolls without slipping down an incline of height h. Energy conservation gives Mgh = ½Mv² + ½(2/5)MR²(v/R)² = (7/10)Mv², so v = √(10gh/7). The acceleration along an incline of angle θ is a = (5/7)g sin θ. Static friction provides the torque for rolling but does no work, because the contact point is momentarily at rest."
+      },
+      {
+        "heading": "Worked example: a collision with rotation",
+        "body": "A 0.10 kg ball moving at 10 m/s strikes and sticks to the end of a 2.0 kg rod of length 1.0 m pivoted at its other end. Angular momentum about the pivot is conserved: (0.10)(10)(1.0) = I_total ω, where I_total = (1/3)(2.0)(1.0)² + (0.10)(1.0)² ≈ 0.767 kg·m², so ω ≈ 1.30 rad/s. Linear momentum is not conserved because the pivot exerts an external force."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students forget to include rotational kinetic energy, use linear momentum conservation when a pivot exerts force, and confuse rolling with slipping."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Expect questions comparing objects rolling down inclines, collisions with rotating rods, and angular momentum of particles moving in straight lines relative to a point."
+      },
+      {
+        "heading": "Laboratory and experimental design",
+        "body": "To compare rolling objects, release a hoop, a disk, and a sphere from the same height on an incline and time their descent. The sphere arrives first, then the disk, then the hoop, regardless of mass and radius, because a smaller fraction of each one's kinetic energy is rotational."
+      },
+      {
+        "heading": "Key equations",
+        "body": "K_rot = ½Iω²; rolling: v = ωR; L = Iω; L = r × p for particles; τ_net = dL/dt; L conserved when external torque is zero."
+      },
+      {
+        "heading": "Derivation tips",
+        "body": "When deriving rolling results, include both translational and rotational kinetic energy and use the rolling condition v = ωR. For collisions with pivots, use angular momentum about the pivot, since the pivot force exerts no torque about that point."
+      },
+      {
+        "heading": "Graph skills",
+        "body": "On an angular momentum-versus-time graph, the slope equals the net external torque, so a horizontal line means zero net torque. Graphs of rotational and translational kinetic energy for rolling objects show how energy divides between the two forms depending on rotational inertia."
       }
     ],
     "keyTakeaways": [

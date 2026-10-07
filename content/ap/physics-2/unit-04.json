@@ -15,6 +15,34 @@
       {
         "heading": "Lenz's law and motional emf",
         "body": "Lenz's law: the induced current flows in the direction that creates a magnetic field opposing the change in flux (if flux into the page increases, the induced field points out of the page). This is a consequence of energy conservation. A conducting rod of length ℓ moving at speed v perpendicular to B has motional emf ε = Bℓv. If the rod is part of a circuit with resistance R, current I = Bℓv/R flows, and the magnetic force on the rod (IℓB = B²ℓ²v/R) opposes its motion; an external force must do work to keep it moving, and that work becomes thermal energy in the resistor."
+      },
+      {
+        "heading": "Worked example: force on a wire",
+        "body": "A 0.50 m wire carrying 4.0 A is placed perpendicular to a 0.20 T magnetic field. The force on the wire is F = ILB = (4.0)(0.50)(0.20) = 0.40 N, directed by the right-hand rule perpendicular to both the current and the field. If the wire is parallel to the field, the force is zero. A long straight wire creates a magnetic field B = μ₀I/(2πr) that circles the wire, so two parallel wires with currents in the same direction attract."
+      },
+      {
+        "heading": "Worked example: induced current",
+        "body": "A square loop of side 0.10 m is in a 0.50 T field perpendicular to it. If the field decreases to zero in 0.20 s, the change in flux is (0.50)(0.010) = 0.0050 Wb, and the average induced emf is 0.0050/0.20 = 0.025 V. If the loop's resistance is 0.50 Ω, the current is 0.050 A. By Lenz's law, the induced current creates a magnetic field in the same direction as the original field, opposing its decrease."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students often think a constant magnetic field induces current, confuse the directions of magnetic and electric forces, and forget that magnetic forces do no work on moving charges."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Questions often ask for the direction of induced current as a magnet moves toward or away from a coil, or as a loop enters or leaves a field region. Justify directions with Lenz's law and flux changes, and sketch graphs of emf versus time."
+      },
+      {
+        "heading": "Laboratory and experimental design",
+        "body": "To measure a magnetic field, hang a current-carrying wire segment in the field on a balance and measure the force as current changes. A graph of force versus current is linear with slope equal to LB, from which the field strength can be found."
+      },
+      {
+        "heading": "Key equations",
+        "body": "F = qvB sin θ; F = ILB sin θ; B = μ₀I/(2πr); Φ = BA cos θ; ε = −NΔΦ/Δt; ε = BLv."
+      },
+      {
+        "heading": "Qualitative reasoning",
+        "body": "Many questions are qualitative: predict whether a loop is attracted or repelled, how bulb brightness changes as a magnet moves, or how forces act on wires. Reason step by step: identify the flux change, apply Lenz's law, then use the right-hand rule."
       }
     ],
     "keyTakeaways": [

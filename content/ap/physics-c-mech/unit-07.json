@@ -15,6 +15,46 @@
       {
         "heading": "Springs and pendulums",
         "body": "Mass on a spring: T = 2π√(m/k). A vertical spring oscillates about its new stretched equilibrium with the same period. Springs in parallel: k_eq = k₁ + k₂ (stiffer); in series: 1/k_eq = 1/k₁ + 1/k₂ (softer). Simple pendulum (small angles): T = 2π√(L/g), independent of mass. Physical pendulum (rigid object pivoted at distance d from its center of mass): T = 2π√(I/mgd), from the torque equation τ = −mgd sin θ ≈ −mgdθ."
+      },
+      {
+        "heading": "Worked example: deriving SHM",
+        "body": "For a mass on a spring, Newton's second law gives m d²x/dt² = −kx, so d²x/dt² = −(k/m)x. The solution is x(t) = A cos(ωt + φ) with ω = √(k/m). For a pendulum at small angles, the torque equation gives d²θ/dt² = −(g/L)θ, so ω = √(g/L). For a physical pendulum, ω = √(mgd/I), where d is the distance from the pivot to the center of mass."
+      },
+      {
+        "heading": "Worked example: using the equation",
+        "body": "A 0.50 kg mass on a spring (k = 50 N/m) is displaced 0.20 m and released. Then ω = 10 rad/s, the period is 2π/10 ≈ 0.63 s, the maximum speed is Aω = 2.0 m/s, and the maximum acceleration is Aω² = 20 m/s². Position is x(t) = 0.20 cos(10t), velocity is v(t) = −2.0 sin(10t), and acceleration is a(t) = −20 cos(10t)."
+      },
+      {
+        "heading": "Worked example: energy",
+        "body": "The total energy is ½kA² = ½(50)(0.20)² = 1.0 J. At x = 0.10 m, the potential energy is 0.25 J, so the kinetic energy is 0.75 J and the speed is √(2 × 0.75/0.50) ≈ 1.7 m/s."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students confuse ω (angular frequency) with frequency, forget that period is independent of amplitude for SHM, and apply the small-angle pendulum formula to large angles."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Expect derivations of periods for different systems, graphs of position, velocity, and acceleration, and experiments that linearize data, such as graphing T² versus L to find g."
+      },
+      {
+        "heading": "Laboratory and experimental design",
+        "body": "To find g with a pendulum, measure the period for several string lengths, then graph T² versus L. The graph is linear with slope 4π²/g. Timing many oscillations and dividing reduces timing uncertainty, and small amplitudes keep the small-angle approximation valid."
+      },
+      {
+        "heading": "Key equations",
+        "body": "x(t) = A cos(ωt + φ); ω = 2πf = 2π/T; spring ω = √(k/m); pendulum ω = √(g/L); physical pendulum ω = √(mgd/I); E = ½kA²."
+      },
+      {
+        "heading": "Derivation tips",
+        "body": "Derive the period of any oscillating system by writing Newton's second law (or the torque equation) and rearranging into the form d²x/dt² = −ω²x. Identify ω, then T = 2π/ω. This method works for springs, pendulums, physical pendulums, and objects floating in fluids."
+      },
+      {
+        "heading": "Graph skills",
+        "body": "Position, velocity, and acceleration graphs for SHM are sinusoids shifted by a quarter period: velocity leads position by 90°, and acceleration is opposite position. Kinetic and potential energy graphs oscillate at twice the frequency of position, always summing to the constant total energy. Damped oscillations show amplitude decreasing exponentially over time."
+      },
+      {
+        "heading": "Final tip",
+        "body": "Check that your period has units of seconds and behaves sensibly as mass or length changes."
       }
     ],
     "keyTakeaways": [

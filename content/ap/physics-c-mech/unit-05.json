@@ -15,6 +15,42 @@
       {
         "heading": "Equilibrium and connected systems",
         "body": "Static equilibrium requires ΣF = 0 and Στ = 0 about any point; choose the pivot to eliminate unknown forces. For a pulley with mass, the tension differs on each side: (T₂ − T₁)R = Iα, with a = αR if the string doesn't slip. For an Atwood machine with a disk pulley of mass M: a = (m₂ − m₁)g/(m₁ + m₂ + M/2). A rod pivoted at one end and released from horizontal has α = 3g/2L initially, so its free end accelerates at 3g/2, faster than free fall."
+      },
+      {
+        "heading": "Worked example: rotational inertia by integration",
+        "body": "For a thin rod of mass M and length L rotating about one end, I = ∫r² dm = ∫₀ᴸ x²(M/L) dx = ML²/3. About its center, I = ML²/12. The parallel-axis theorem connects them: I_end = I_cm + M(L/2)² = ML²/12 + ML²/4 = ML²/3. Rotational inertia depends on how mass is distributed relative to the axis."
+      },
+      {
+        "heading": "Worked example: a pulley with mass",
+        "body": "A 2.0 kg block hangs from a rope wrapped around a solid disk pulley (mass 4.0 kg, radius 0.10 m). For the block, mg − T = ma. For the pulley, TR = Iα = (½MR²)(a/R), so T = ½Ma = 2.0a. Combining, (2.0)(9.8) = (2.0 + 2.0)a, so a = 4.9 m/s² and T = 9.8 N. The massive pulley reduces the block's acceleration compared with a massless pulley."
+      },
+      {
+        "heading": "Worked example: static equilibrium",
+        "body": "A uniform 4.0 m beam of weight 200 N is supported by a hinge at the wall and a cable at the far end making 30° with the beam. Taking torques about the hinge: T sin 30° × 4.0 = 200 × 2.0, so T = 200 N. Then horizontal and vertical force balance give the hinge forces."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students forget the lever arm's perpendicular component, mix up torque directions, and use the wrong rotational inertia formula."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Questions ask you to derive rotational inertia, analyze connected systems with pulleys, and solve equilibrium problems with ladders and beams."
+      },
+      {
+        "heading": "Laboratory and experimental design",
+        "body": "To measure rotational inertia, wrap a string around a rotating platform's axle, attach a hanging mass, and measure the mass's acceleration. Using τ = Iα and the relation a = αr, calculate I. Graphs of applied torque versus angular acceleration have slope I."
+      },
+      {
+        "heading": "Key equations",
+        "body": "θ, ω = dθ/dt, α = dω/dt; τ = r × F = rF sin θ; Στ = Iα; I = Σmr² = ∫r² dm; I = I_cm + Md²; v = ωr, a_t = αr."
+      },
+      {
+        "heading": "Derivation tips",
+        "body": "When deriving rotational results, choose the axis carefully, write torque equations with signs for direction, and connect linear and angular quantities with a = αr when strings do not slip. Use the parallel-axis theorem instead of re-integrating when the axis is shifted."
+      },
+      {
+        "heading": "Graph skills",
+        "body": "On an angular velocity-versus-time graph, the slope gives angular acceleration and the area gives angular displacement. A graph of torque versus angular acceleration is linear with slope equal to rotational inertia."
       }
     ],
     "keyTakeaways": [

@@ -15,6 +15,42 @@
       {
         "heading": "Collisions",
         "body": "In all collisions, momentum is conserved. In elastic collisions, kinetic energy is also conserved; in one dimension with m₂ initially at rest: v₁' = (m₁ − m₂)v₁/(m₁ + m₂), v₂' = 2m₁v₁/(m₁ + m₂). Equal masses exchange velocities. In inelastic collisions, kinetic energy decreases; in perfectly inelastic collisions the objects stick together and the maximum possible kinetic energy is lost (consistent with momentum conservation). Combined problems (ballistic pendulum) use momentum conservation during the collision and energy conservation afterward. In two dimensions, conserve x- and y-momentum separately."
+      },
+      {
+        "heading": "Worked example: impulse from a graph",
+        "body": "A force on a 2.0 kg object varies with time as a triangle peaking at 40 N at t = 0.10 s and returning to zero at t = 0.20 s. The impulse is the area under the curve: ½(0.20)(40) = 4.0 N·s, so the change in velocity is 4.0/2.0 = 2.0 m/s. Impulse equals the integral of force over time and equals the change in momentum."
+      },
+      {
+        "heading": "Worked example: elastic collision",
+        "body": "A 1.0 kg cart moving at 6.0 m/s collides elastically with a 2.0 kg cart at rest. Using conservation of momentum and kinetic energy, the final velocities are v₁ = (m₁ − m₂)v/(m₁ + m₂) = −2.0 m/s and v₂ = 2m₁v/(m₁ + m₂) = 4.0 m/s. Check: momentum before = 6.0, after = −2.0 + 8.0 = 6.0 kg·m/s; kinetic energy before = 18 J, after = 2.0 + 16 = 18 J."
+      },
+      {
+        "heading": "Worked example: center of mass",
+        "body": "For two particles, 2.0 kg at x = 0 and 6.0 kg at x = 4.0 m, the center of mass is (2.0 × 0 + 6.0 × 4.0)/8.0 = 3.0 m. For continuous objects, x_cm = (1/M)∫x dm. If no external force acts, the center of mass moves at constant velocity, even during explosions."
+      },
+      {
+        "heading": "Common errors",
+        "body": "Students forget that momentum is a vector, ignore direction signs, and assume kinetic energy is conserved in all collisions."
+      },
+      {
+        "heading": "Exam connection",
+        "body": "Expect questions combining momentum conservation with energy, such as a ballistic pendulum, where momentum is conserved during the collision and mechanical energy afterward."
+      },
+      {
+        "heading": "Laboratory and experimental design",
+        "body": "To test momentum conservation, collide carts on a low-friction track and record velocities with motion sensors or video before and after collisions. Compare total momentum before and after, and compare kinetic energies to classify the collision as elastic or inelastic."
+      },
+      {
+        "heading": "Key equations",
+        "body": "p = mv; J = ∫F dt = Δp; Σp_i = Σp_f for isolated systems; x_cm = Σmx/Σm or (1/M)∫x dm; v_cm = Σmv/Σm."
+      },
+      {
+        "heading": "Derivation tips",
+        "body": "When deriving collision results, write momentum conservation for each direction separately, then add energy conservation only if the collision is elastic. For explosions, total momentum is zero if the system starts at rest. Check answers by confirming that total momentum before and after matches."
+      },
+      {
+        "heading": "Graph skills",
+        "body": "On a force-versus-time graph, the area gives impulse. On momentum-versus-time graphs for colliding objects, the total stays constant while individual momenta exchange, and the slopes are equal and opposite, showing Newton's third law during the collision."
       }
     ],
     "keyTakeaways": [

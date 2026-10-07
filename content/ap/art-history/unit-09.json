@@ -43,232 +43,546 @@
     "cramSheet": "**Micronesia:** Nan Madol (basalt) · Nukuoro female deity · Marshall Islands navigation chart\n\n**Polynesia:** moai on ahu (face inland) · 'ahu 'ula feather cape (Hawai'i, mana) · Rarotonga staff god (bark cloth, missionaries) · hiapo (Niue) · Tamati Waka Nene (Lindauer, moko) · Fijian mats/tapa to Elizabeth II (1953)\n\n**Melanesia:** malagan (New Ireland, ephemeral) · Buk mask (Torres Strait, turtle shell)"
   },
   "vocab": [
-    { "term": "Mana", "definition": "Spiritual power or prestige in Polynesian cultures, often associated with chiefs and sacred objects." },
-    { "term": "Moai", "definition": "Monolithic ancestral figures on Rapa Nui (Easter Island)." },
-    { "term": "Ahu", "definition": "A stone platform supporting moai." },
-    { "term": "'Ahu 'ula", "definition": "A Hawaiian feather cape worn by high-ranking men." },
-    { "term": "Tapa", "definition": "Bark cloth made by beating the inner bark of trees, usually by women." },
-    { "term": "Hiapo", "definition": "Bark cloth from Niue, often with fine freehand designs." },
-    { "term": "Malagan", "definition": "New Ireland funerary ceremonies and the carvings made for them." },
-    { "term": "Moko", "definition": "Māori facial tattooing indicating identity and status." },
-    { "term": "Stick chart", "definition": "A Marshall Islands navigation model of ocean swells and islands." },
-    { "term": "Basalt", "definition": "Volcanic rock, used in columnar form at Nan Madol." },
-    { "term": "Ephemeral art", "definition": "Art intended to last only briefly or be destroyed after use." },
-    { "term": "Exchange", "definition": "Ceremonial giving that creates relationships and obligations." }
+    {
+      "term": "Mana",
+      "definition": "Spiritual power or prestige in Polynesian cultures, often associated with chiefs and sacred objects."
+    },
+    {
+      "term": "Moai",
+      "definition": "Monolithic ancestral figures on Rapa Nui (Easter Island)."
+    },
+    {
+      "term": "Ahu",
+      "definition": "A stone platform supporting moai."
+    },
+    {
+      "term": "'Ahu 'ula",
+      "definition": "A Hawaiian feather cape worn by high-ranking men."
+    },
+    {
+      "term": "Tapa",
+      "definition": "Bark cloth made by beating the inner bark of trees, usually by women."
+    },
+    {
+      "term": "Hiapo",
+      "definition": "Bark cloth from Niue, often with fine freehand designs."
+    },
+    {
+      "term": "Malagan",
+      "definition": "New Ireland funerary ceremonies and the carvings made for them."
+    },
+    {
+      "term": "Moko",
+      "definition": "Māori facial tattooing indicating identity and status."
+    },
+    {
+      "term": "Stick chart",
+      "definition": "A Marshall Islands navigation model of ocean swells and islands."
+    },
+    {
+      "term": "Basalt",
+      "definition": "Volcanic rock, used in columnar form at Nan Madol."
+    },
+    {
+      "term": "Ephemeral art",
+      "definition": "Art intended to last only briefly or be destroyed after use."
+    },
+    {
+      "term": "Exchange",
+      "definition": "Ceremonial giving that creates relationships and obligations."
+    }
   ],
   "practice": [
     {
-      "id": "u9-q01", "tier": "Intro", "type": "mcq", "topic": "Rapa Nui",
+      "id": "u9-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Rapa Nui",
       "stimulus": "Massive stone figures with elongated heads stand on stone platforms on Rapa Nui. Most face inland, toward villages.",
       "stem": "The figures' orientation most likely reflects their role as",
       "choices": [
-        { "id": "A", "text": "deified ancestors watching over and protecting their communities" },
-        { "id": "B", "text": "lighthouses guiding ships" },
-        { "id": "C", "text": "decorations for European visitors" },
-        { "id": "D", "text": "boundary markers facing rival islands" }
+        {
+          "id": "A",
+          "text": "lighthouses guiding ships"
+        },
+        {
+          "id": "B",
+          "text": "deified ancestors watching over and protecting their communities"
+        },
+        {
+          "id": "C",
+          "text": "decorations for European visitors"
+        },
+        {
+          "id": "D",
+          "text": "boundary markers facing rival islands"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Moai on ahu face their descendants' settlements, concentrating ancestral mana there.",
-      "distractors": { "B": "They face away from the sea." }
+      "distractors": {
+        "A": "They face away from the sea."
+      }
     },
     {
-      "id": "u9-q02", "tier": "Intro", "type": "mcq", "topic": "Hawai'i",
+      "id": "u9-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Hawai'i",
       "stimulus": "A semicircular cape is made from thousands of red and yellow bird feathers attached to a net of plant fiber. It was worn by high-ranking men.",
       "stem": "The cape primarily signified",
       "choices": [
-        { "id": "A", "text": "the wearer's chiefly rank and mana" },
-        { "id": "B", "text": "membership in a missionary church" },
-        { "id": "C", "text": "everyday protection from rain" },
-        { "id": "D", "text": "a fisherman's trade" }
+        {
+          "id": "A",
+          "text": "everyday protection from rain"
+        },
+        {
+          "id": "B",
+          "text": "membership in a missionary church"
+        },
+        {
+          "id": "C",
+          "text": "the wearer's chiefly rank and mana"
+        },
+        {
+          "id": "D",
+          "text": "a fisherman's trade"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "'Ahu 'ula required immense labor and rare feathers, marking sacred status.",
-      "distractors": { "C": "It was ceremonial, not everyday." }
+      "distractors": {
+        "A": "It was ceremonial, not everyday."
+      }
     },
     {
-      "id": "u9-q03", "tier": "Intro", "type": "mcq", "topic": "Marshall Islands",
+      "id": "u9-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Marshall Islands",
       "stimulus": "A lattice of sticks lashed together, with small shells attached at intersections, represents patterns of ocean swells and the locations of islands.",
       "stem": "How was this object used?",
       "choices": [
-        { "id": "A", "text": "Navigators studied and memorized it on land to understand how swells bend around islands." },
-        { "id": "B", "text": "Sailors held it at sea like a printed map." },
-        { "id": "C", "text": "It was worn as a mask in ceremonies." },
-        { "id": "D", "text": "It was a decorative wall hanging for tourists." }
+        {
+          "id": "A",
+          "text": "It was a decorative wall hanging for tourists."
+        },
+        {
+          "id": "B",
+          "text": "Sailors held it at sea like a printed map."
+        },
+        {
+          "id": "C",
+          "text": "It was worn as a mask in ceremonies."
+        },
+        {
+          "id": "D",
+          "text": "Navigators studied and memorized it on land to understand how swells bend around islands."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The navigation chart was a teaching tool; navigators relied on memory and the feel of the swells at sea.",
-      "distractors": { "B": "Charts were usually left on shore." }
+      "distractors": {
+        "B": "Charts were usually left on shore."
+      }
     },
     {
-      "id": "u9-q04", "tier": "Intro", "type": "mcq", "topic": "Tapa",
+      "id": "u9-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Tapa",
       "stem": "In many Pacific cultures, bark cloth (tapa) was",
       "choices": [
-        { "id": "A", "text": "made by women and highly valued in ceremonial exchange" },
-        { "id": "B", "text": "imported from China" },
-        { "id": "C", "text": "made only by European missionaries" },
-        { "id": "D", "text": "used only for everyday clothing with no status" }
+        {
+          "id": "A",
+          "text": "made by women and highly valued in ceremonial exchange"
+        },
+        {
+          "id": "B",
+          "text": "imported from China"
+        },
+        {
+          "id": "C",
+          "text": "made only by European missionaries"
+        },
+        {
+          "id": "D",
+          "text": "used only for everyday clothing with no status"
+        }
       ],
       "answer": "A",
       "explanation": "Women beat and decorated bark into cloth that carried wealth and social meaning.",
-      "distractors": { "D": "Tapa often carried high status." }
+      "distractors": {
+        "D": "Tapa often carried high status."
+      }
     },
     {
-      "id": "u9-q05", "tier": "Exam level", "type": "mcq", "topic": "New Ireland",
+      "id": "u9-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "New Ireland",
       "stimulus": "Elaborate carved and painted wooden figures and masks are made for funerary ceremonies honoring the dead in New Ireland. After the ceremonies, the objects are often destroyed, left to decay, or sold.",
       "stem": "This practice suggests that the objects' value lies primarily in",
       "choices": [
-        { "id": "A", "text": "their role in the ceremony, after which their purpose is complete" },
-        { "id": "B", "text": "their permanence as museum pieces" },
-        { "id": "C", "text": "their resale value to collectors" },
-        { "id": "D", "text": "their use as everyday furniture" }
+        {
+          "id": "A",
+          "text": "their resale value to collectors"
+        },
+        {
+          "id": "B",
+          "text": "their permanence as museum pieces"
+        },
+        {
+          "id": "C",
+          "text": "their role in the ceremony, after which their purpose is complete"
+        },
+        {
+          "id": "D",
+          "text": "their use as everyday furniture"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Malagan carvings fulfill their function in commemoration; preserving them isn't the goal.",
-      "distractors": { "C": "Some were sold, but that came after their ritual purpose." }
+      "distractors": {
+        "A": "Some were sold, but that came after their ritual purpose."
+      }
     },
     {
-      "id": "u9-q06", "tier": "Exam level", "type": "mcq", "topic": "Cook Islands / colonial contact",
+      "id": "u9-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Cook Islands / colonial contact",
       "stimulus": "A carved wooden staff from Rarotonga was once wrapped in layers of bark cloth that concealed its core. Many such wrappings were stripped and destroyed by missionaries in the 1800s, and some carved cores were sent to Europe.",
       "stem": "Which statement best interprets the staff's history?",
       "choices": [
-        { "id": "A", "text": "Missionaries' removal of wrappings eliminated what made the staff sacred, reflecting the impact of conversion on Indigenous religious art." },
-        { "id": "B", "text": "The wrappings were added by museums for protection." },
-        { "id": "C", "text": "The staff was made for missionaries as a souvenir." },
-        { "id": "D", "text": "The staff was used to navigate canoes." }
+        {
+          "id": "A",
+          "text": "The wrappings were added by museums for protection."
+        },
+        {
+          "id": "B",
+          "text": "Missionaries' removal of wrappings eliminated what made the staff sacred, reflecting the impact of conversion on Indigenous religious art."
+        },
+        {
+          "id": "C",
+          "text": "The staff was made for missionaries as a souvenir."
+        },
+        {
+          "id": "D",
+          "text": "The staff was used to navigate canoes."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The staff god's concealed, wrapped form held its sacred power; stripping it was an act of religious suppression.",
-      "distractors": { "B": "The wrappings were original and integral." }
+      "distractors": {
+        "A": "The wrappings were original and integral."
+      }
     },
     {
-      "id": "u9-q07", "tier": "Exam level", "type": "mcq", "topic": "Micronesia",
+      "id": "u9-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Micronesia",
       "stimulus": "On Pohnpei, a complex of nearly 100 artificial islets was built from stacked basalt columns, laid in alternating directions like logs, in shallow water near the coast.",
       "stem": "The complex is best understood as",
       "choices": [
-        { "id": "A", "text": "a ceremonial and political center for a ruling dynasty" },
-        { "id": "B", "text": "a European colonial fort" },
-        { "id": "C", "text": "a temporary fishing camp" },
-        { "id": "D", "text": "a Buddhist monastery" }
+        {
+          "id": "A",
+          "text": "a Buddhist monastery"
+        },
+        {
+          "id": "B",
+          "text": "a European colonial fort"
+        },
+        {
+          "id": "C",
+          "text": "a temporary fishing camp"
+        },
+        {
+          "id": "D",
+          "text": "a ceremonial and political center for a ruling dynasty"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Nan Madol served the Saudeleur rulers, with residential, mortuary, and ritual areas.",
-      "distractors": { "B": "It long predates European contact." }
+      "distractors": {
+        "B": "It long predates European contact."
+      }
     },
     {
-      "id": "u9-q08", "tier": "Exam level", "type": "mcq", "topic": "Māori / colonial portraiture",
+      "id": "u9-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Māori / colonial portraiture",
       "stimulus": "An 1890 oil portrait by a European-born painter living in New Zealand shows a Māori chief with full facial tattoo, wearing a cloak and holding a carved weapon. It was painted from a photograph after the chief's death.",
       "stem": "The portrait best reflects",
       "choices": [
-        { "id": "A", "text": "the meeting of Māori markers of status with European portrait conventions in a colonial context" },
-        { "id": "B", "text": "a traditional Māori carving technique" },
-        { "id": "C", "text": "an abstract modernist experiment" },
-        { "id": "D", "text": "a Buddhist devotional image" }
+        {
+          "id": "A",
+          "text": "the meeting of Māori markers of status with European portrait conventions in a colonial context"
+        },
+        {
+          "id": "B",
+          "text": "a traditional Māori carving technique"
+        },
+        {
+          "id": "C",
+          "text": "an abstract modernist experiment"
+        },
+        {
+          "id": "D",
+          "text": "a Buddhist devotional image"
+        }
       ],
       "answer": "A",
       "explanation": "Lindauer's Tamati Waka Nene records moko and regalia in Western oil portraiture; such portraits could be valued by Māori as ancestral images.",
-      "distractors": { "B": "It's an oil painting by a European artist." }
+      "distractors": {
+        "B": "It's an oil painting by a European artist."
+      }
     },
     {
-      "id": "u9-q09", "tier": "Exam level", "type": "mcq", "topic": "Fiji / exchange",
+      "id": "u9-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Fiji / exchange",
       "stimulus": "During Queen Elizabeth II's 1953 visit to Fiji, women carried long rolls of mats and decorated bark cloth in procession and presented them to her, accompanied by speeches and ritual.",
       "stem": "The event is best understood as",
       "choices": [
-        { "id": "A", "text": "a ceremonial performance of exchange that established relationships and obligations" },
-        { "id": "B", "text": "a sale of textiles to the British government" },
-        { "id": "C", "text": "a protest against colonial rule" },
-        { "id": "D", "text": "a fashion show" }
+        {
+          "id": "A",
+          "text": "a sale of textiles to the British government"
+        },
+        {
+          "id": "B",
+          "text": "a ceremonial performance of exchange that established relationships and obligations"
+        },
+        {
+          "id": "C",
+          "text": "a protest against colonial rule"
+        },
+        {
+          "id": "D",
+          "text": "a fashion show"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The presentation itself is the work: textiles and ceremony enacted Fijian protocols of honor and reciprocity.",
-      "distractors": { "B": "No sale took place." }
+      "distractors": {
+        "A": "No sale took place."
+      }
     },
     {
-      "id": "u9-q10", "tier": "Exam level", "type": "mcq", "topic": "Torres Strait",
+      "id": "u9-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Torres Strait",
       "stimulus": "A mask from the Torres Strait is made from plates of turtle shell, combining a human face with a bird form above, and decorated with feathers and shells.",
       "stem": "Masks like this were primarily used in",
       "choices": [
-        { "id": "A", "text": "funerary and initiation ceremonies involving performance" },
-        { "id": "B", "text": "church services" },
-        { "id": "C", "text": "trade fairs with Europeans" },
-        { "id": "D", "text": "sporting competitions" }
+        {
+          "id": "A",
+          "text": "trade fairs with Europeans"
+        },
+        {
+          "id": "B",
+          "text": "church services"
+        },
+        {
+          "id": "C",
+          "text": "funerary and initiation ceremonies involving performance"
+        },
+        {
+          "id": "D",
+          "text": "sporting competitions"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The Buk mask's composite imagery connects human and animal realms in ritual.",
-      "distractors": { "B": "It predates and is distinct from Christian worship." }
+      "distractors": {
+        "B": "It predates and is distinct from Christian worship."
+      }
     },
     {
-      "id": "u9-q11", "tier": "Hardest", "type": "mcq", "topic": "Museums and Pacific art",
+      "id": "u9-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Museums and Pacific art",
       "stem": "Which challenge do works like malagan carvings, tapa, and the 1953 Fijian presentation pose to traditional museum display?",
       "choices": [
-        { "id": "A", "text": "Their meanings depend on performance, exchange, and impermanence, which a static display can't fully convey." },
-        { "id": "B", "text": "They are too small to see." },
-        { "id": "C", "text": "They were all made for museums originally." },
-        { "id": "D", "text": "They are copies of European works." }
+        {
+          "id": "A",
+          "text": "They are copies of European works."
+        },
+        {
+          "id": "B",
+          "text": "They are too small to see."
+        },
+        {
+          "id": "C",
+          "text": "They were all made for museums originally."
+        },
+        {
+          "id": "D",
+          "text": "Their meanings depend on performance, exchange, and impermanence, which a static display can't fully convey."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Ceremony and relationship are central; museums preserve objects but often lose the actions that gave them meaning.",
-      "distractors": { "C": "Most were made for ceremony or exchange." }
+      "distractors": {
+        "C": "Most were made for ceremony or exchange."
+      }
     },
     {
-      "id": "u9-q12", "tier": "Hardest", "type": "mcq", "topic": "Hawai'i / colonial collecting",
+      "id": "u9-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Hawai'i / colonial collecting",
       "stimulus": "Several Hawaiian feather capes were given to Captain James Cook and his crew in 1778–1779 and are now in European museums.",
       "stem": "From a Hawaiian perspective, presenting these capes was most likely",
       "choices": [
-        { "id": "A", "text": "a high-status diplomatic act establishing relationships with powerful visitors" },
-        { "id": "B", "text": "a sale of surplus goods" },
-        { "id": "C", "text": "a sign that the capes had lost their value" },
-        { "id": "D", "text": "a punishment" }
+        {
+          "id": "A",
+          "text": "a high-status diplomatic act establishing relationships with powerful visitors"
+        },
+        {
+          "id": "B",
+          "text": "a sale of surplus goods"
+        },
+        {
+          "id": "C",
+          "text": "a sign that the capes had lost their value"
+        },
+        {
+          "id": "D",
+          "text": "a punishment"
+        }
       ],
       "answer": "A",
       "explanation": "Giving objects charged with mana honored visitors and created reciprocal obligations, a meaning lost when they became museum specimens.",
-      "distractors": { "C": "The capes were among the most valuable objects Hawaiians made." }
+      "distractors": {
+        "C": "The capes were among the most valuable objects Hawaiians made."
+      }
     },
     {
-      "id": "u9-q13", "tier": "Hardest", "type": "mcq", "topic": "Micronesia / modernism",
+      "id": "u9-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Micronesia / modernism",
       "stimulus": "A wooden figure from the Micronesian atoll of Nukuoro is smooth and highly simplified, with an egg-shaped head lacking facial features.",
       "stem": "Which statement best describes how such figures have been interpreted in different contexts?",
       "choices": [
-        { "id": "A", "text": "Locally they represented deities and were used in ritual; in Europe, modernists admired their abstraction as aesthetic form." },
-        { "id": "B", "text": "They were made in imitation of European modernist sculpture." },
-        { "id": "C", "text": "They were portraits of European explorers." },
-        { "id": "D", "text": "They were toys for children." }
+        {
+          "id": "A",
+          "text": "They were toys for children."
+        },
+        {
+          "id": "B",
+          "text": "They were made in imitation of European modernist sculpture."
+        },
+        {
+          "id": "C",
+          "text": "They were portraits of European explorers."
+        },
+        {
+          "id": "D",
+          "text": "Locally they represented deities and were used in ritual; in Europe, modernists admired their abstraction as aesthetic form."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The female deity from Nukuoro's simplicity was religious in origin but read as formalist abstraction by Western artists.",
-      "distractors": { "B": "The figures predate European modernism." }
+      "distractors": {
+        "B": "The figures predate European modernism."
+      }
     },
     {
-      "id": "u9-q14", "tier": "Hardest", "type": "mcq", "topic": "Niue",
+      "id": "u9-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Niue",
       "stimulus": "A large piece of Niuean bark cloth (hiapo) from around 1850–1900 is decorated with fine freehand geometric designs and, in some examples, small naturalistic figures influenced by contact with missionaries and traders.",
       "stem": "The hiapo's designs best illustrate",
       "choices": [
-        { "id": "A", "text": "both continuity in Indigenous bark cloth traditions and change through new outside influences" },
-        { "id": "B", "text": "a complete break with earlier traditions" },
-        { "id": "C", "text": "industrial textile production" },
-        { "id": "D", "text": "an imitation of Chinese porcelain" }
+        {
+          "id": "A",
+          "text": "a complete break with earlier traditions"
+        },
+        {
+          "id": "B",
+          "text": "both continuity in Indigenous bark cloth traditions and change through new outside influences"
+        },
+        {
+          "id": "C",
+          "text": "industrial textile production"
+        },
+        {
+          "id": "D",
+          "text": "an imitation of Chinese porcelain"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The medium and making stayed traditional while some imagery responded to contact.",
-      "distractors": { "B": "The tradition continued." }
+      "distractors": {
+        "A": "The tradition continued."
+      }
     },
     {
-      "id": "u9-frq1", "tier": "Exam level", "type": "frq", "topic": "Malagan", "frqType": "Q4 Contextual Analysis",
+      "id": "u9-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Malagan",
+      "frqType": "Q4 Contextual Analysis",
       "stimulus": "The work is a malagan display and mask, New Ireland Province, Papua New Guinea, c. twentieth century, wood, pigment, fiber, and shell.",
       "prompt": "Answer (a)–(d).",
       "parts": [
-        { "label": "a", "prompt": "Describe the purpose of malagan ceremonies.", "points": 1 },
-        { "label": "b", "prompt": "Explain what typically happens to malagan objects after the ceremonies and why.", "points": 2 },
-        { "label": "c", "prompt": "Describe one visual characteristic of malagan carvings and how it relates to their function.", "points": 1 },
-        { "label": "d", "prompt": "Explain how museum collection of malagan objects relates to their intended life cycle.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Describe the purpose of malagan ceremonies.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Explain what typically happens to malagan objects after the ceremonies and why.",
+          "points": 2
+        },
+        {
+          "label": "c",
+          "prompt": "Describe one visual characteristic of malagan carvings and how it relates to their function.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Explain how museum collection of malagan objects relates to their intended life cycle.",
+          "points": 1
+        }
       ],
       "points": 5,
       "minutes": 15,
       "rubric": [
-        { "criterion": "(a)", "points": 1, "description": "Commemorating and honoring the dead, settling obligations, and marking the end of mourning." },
-        { "criterion": "(b) What happens", "points": 1, "description": "Objects are destroyed, left to decay, or sold (often to outsiders)." },
-        { "criterion": "(b) Why", "points": 1, "description": "Once the ceremony is complete, the objects have fulfilled their purpose; their value lay in the event and in the right to make them, not in preservation." },
-        { "criterion": "(c)", "points": 1, "description": "E.g., intricate openwork carving and bright painted patterns create visual drama during brief display; or layered imagery of ancestors and animals connects the dead to clan identity." },
-        { "criterion": "(d)", "points": 1, "description": "Sale to collectors after use was a permitted end for many objects, so museum holdings partly reflect local practice, but display preserves what was meant to be temporary and separates it from ceremony." }
+        {
+          "criterion": "(a)",
+          "points": 1,
+          "description": "Commemorating and honoring the dead, settling obligations, and marking the end of mourning."
+        },
+        {
+          "criterion": "(b) What happens",
+          "points": 1,
+          "description": "Objects are destroyed, left to decay, or sold (often to outsiders)."
+        },
+        {
+          "criterion": "(b) Why",
+          "points": 1,
+          "description": "Once the ceremony is complete, the objects have fulfilled their purpose; their value lay in the event and in the right to make them, not in preservation."
+        },
+        {
+          "criterion": "(c)",
+          "points": 1,
+          "description": "E.g., intricate openwork carving and bright painted patterns create visual drama during brief display; or layered imagery of ancestors and animals connects the dead to clan identity."
+        },
+        {
+          "criterion": "(d)",
+          "points": 1,
+          "description": "Sale to collectors after use was a permitted end for many objects, so museum holdings partly reflect local practice, but display preserves what was meant to be temporary and separates it from ceremony."
+        }
       ],
       "sampleResponse": "(a) Malagan ceremonies honor and commemorate the dead, complete the process of mourning, and reaffirm clan relationships and obligations through feasts and exchange.\n\n(b) After the ceremonies, malagan carvings are usually destroyed, left to decay, or sold. This is because their purpose was to be seen during the ceremony; once the dead have been honored, the objects are spent. What endures is the right to make a malagan design, not the object itself.\n\n(c) Malagan carvings are often intricate openwork structures painted in bright red, black, white, and yellow. These dramatic forms are designed to impress the community during a brief, spectacular unveiling.\n\n(d) Because selling used malagan objects was an accepted outcome, many museum examples left New Ireland legitimately after ceremonies. Yet museum display preserves something meant to be temporary, presenting it as permanent art rather than as the finished remains of a completed ritual."
     }

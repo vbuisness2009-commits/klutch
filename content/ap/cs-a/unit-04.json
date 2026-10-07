@@ -108,7 +108,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "null 0"
+          "text": "An exception is thrown."
         },
         {
           "id": "B",
@@ -116,14 +116,14 @@
         },
         {
           "id": "C",
-          "text": "An exception is thrown."
+          "text": "null 0"
         },
         {
           "id": "D",
           "text": "null null"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Object arrays default to null; int arrays default to 0.",
       "distractors": {}
     },
@@ -136,11 +136,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "2 and 3"
+          "text": "3 and 2"
         },
         {
           "id": "B",
-          "text": "3 and 2"
+          "text": "2 and 3"
         },
         {
           "id": "C",
@@ -151,7 +151,7 @@
           "text": "2 and 6"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Two rows; each row has three elements.",
       "distractors": {}
     },
@@ -164,11 +164,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "{1, 2, 3}"
+          "text": "{2, 4, 6}"
         },
         {
           "id": "B",
-          "text": "{2, 4, 6}"
+          "text": "{1, 2, 3}"
         },
         {
           "id": "C",
@@ -179,7 +179,7 @@
           "text": "An error occurs."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "x is a copy of each element; changing it doesn't change the array.",
       "distractors": {}
     },
@@ -226,7 +226,7 @@
         },
         {
           "id": "B",
-          "text": "[4, 5]"
+          "text": "[4, 4, 5]"
         },
         {
           "id": "C",
@@ -234,10 +234,10 @@
         },
         {
           "id": "D",
-          "text": "[4, 4, 5]"
+          "text": "[4, 5]"
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Each removal shifts the next element into index i, which is then skipped by i++.",
       "distractors": {
         "A": "Intended result; requires i-- after remove or a backward loop."
@@ -252,7 +252,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "{8, 1, 9, 4, 4}"
+          "text": "{3, 3, 3, 3, 3}"
         },
         {
           "id": "B",
@@ -260,14 +260,14 @@
         },
         {
           "id": "C",
-          "text": "{3, 3, 3, 3, 3}"
+          "text": "{8, 1, 9, 4, 4}"
         },
         {
           "id": "D",
           "text": "An ArrayIndexOutOfBoundsException is thrown."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Each element shifts left; the last element is unchanged.",
       "distractors": {
         "B": "That's a rotation, which requires saving arr[0]."
@@ -282,11 +282,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "1 4 2 5 3 6"
+          "text": "1 2 3 4 5 6"
         },
         {
           "id": "B",
-          "text": "1 2 3 4 5 6"
+          "text": "1 4 2 5 3 6"
         },
         {
           "id": "C",
@@ -297,10 +297,10 @@
           "text": "1 2 4 5 3 6"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Column-major order.",
       "distractors": {
-        "B": "Row-major order."
+        "A": "Row-major order."
       }
     },
     {
@@ -312,7 +312,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "{1, 2, 8, 5, 9, 3}"
+          "text": "{1, 2, 3, 5, 8, 9}"
         },
         {
           "id": "B",
@@ -320,14 +320,14 @@
         },
         {
           "id": "C",
-          "text": "{1, 2, 3, 5, 8, 9}"
+          "text": "{1, 2, 8, 5, 9, 3}"
         },
         {
           "id": "D",
           "text": "{3, 5, 8, 1, 9, 2}"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Pass 1 swaps 1 with 5: {1, 3, 8, 5, 9, 2}. Pass 2 swaps 2 with 3: {1, 2, 8, 5, 9, 3}.",
       "distractors": {
         "B": "After one pass.",
@@ -373,7 +373,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "18"
+          "text": "15"
         },
         {
           "id": "B",
@@ -385,10 +385,10 @@
         },
         {
           "id": "D",
-          "text": "15"
+          "text": "18"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "10 + mystery(5) = 10 + 5 + mystery(2) = 10 + 5 + 2 + mystery(1) = 18.",
       "distractors": {
         "B": "Omits the base-case 1."
@@ -403,7 +403,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "start: i + 1; condition: arr[i] == arr[j]"
+          "text": "start: i + 1; condition: i == j"
         },
         {
           "id": "B",
@@ -415,10 +415,10 @@
         },
         {
           "id": "D",
-          "text": "start: i + 1; condition: i == j"
+          "text": "start: i + 1; condition: arr[i] == arr[j]"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Starting at i + 1 avoids comparing an element with itself and repeats.",
       "distractors": {
         "B": "Compares each element with itself, always true.",
@@ -434,7 +434,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "for (int i = words.size() - 1; i >= 0; i--) { if (words.get(i).length() < 3) { words.remove(i); } }"
+          "text": "for (int i = 0; i < words.size(); i++) { if (words.get(i).length() < 3) { words.remove(i); } }"
         },
         {
           "id": "B",
@@ -442,19 +442,19 @@
         },
         {
           "id": "C",
-          "text": "for (int i = 0; i < words.size(); i++) { if (words.get(i).length() < 3) { words.remove(i); } }"
+          "text": "for (int i = words.size() - 1; i >= 0; i--) { if (words.get(i).length() < 3) { words.remove(i); } }"
         },
         {
           "id": "D",
           "text": "for (int i = 0; i <= words.size(); i++) { if (words.get(i).length() < 3) { words.remove(i); i--; } }"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Traversing backward means removals don't shift unvisited elements.",
       "distractors": {
         "B": "Modifying during an enhanced for throws an exception.",
-        "C": "Skips elements after removals.",
-        "D": "i <= size() goes out of bounds."
+        "D": "i <= size() goes out of bounds.",
+        "A": "Skips elements after removals."
       }
     },
     {
@@ -494,11 +494,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "16, 56, 23"
+          "text": "16, 23"
         },
         {
           "id": "B",
-          "text": "16, 23"
+          "text": "16, 56, 23"
         },
         {
           "id": "C",
@@ -509,7 +509,7 @@
           "text": "16, 38, 23"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "low 0, high 9 → mid 4 (16 < 23) → low 5. mid (5 + 9)/2 = 7 (56 > 23) → high 6. mid (5 + 6)/2 = 5 (23): found.",
       "distractors": {
         "D": "Uses index 6 instead of 7 for the second midpoint."

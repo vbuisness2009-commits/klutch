@@ -41,224 +41,548 @@
     "cramSheet": "**SHM:** d²x/dt² = −ω²x · x = A cos(ωt + φ)\n\n**Spring:** ω = √(k/m) · T = 2π√(m/k)\n\n**Pendulum:** T = 2π√(L/g) · physical T = 2π√(I/mgd)\n\n**Max values:** v_max = Aω · a_max = Aω² · v = ω√(A² − x²)\n\n**Energy:** E = ½kA² = ½mv² + ½kx²\n\n**Springs:** parallel k₁ + k₂ · series (1/k₁ + 1/k₂)⁻¹"
   },
   "vocab": [
-    { "term": "Simple harmonic motion", "definition": "Periodic motion with a restoring force proportional to displacement." },
-    { "term": "Amplitude", "definition": "Maximum displacement from equilibrium." },
-    { "term": "Period", "definition": "Time for one complete oscillation." },
-    { "term": "Angular frequency", "definition": "ω = 2πf, in rad/s." },
-    { "term": "Phase constant", "definition": "φ in x = A cos(ωt + φ), set by initial conditions." },
-    { "term": "Restoring force", "definition": "A force directed toward equilibrium." },
-    { "term": "Simple pendulum", "definition": "A point mass on a massless string, oscillating with small angles." },
-    { "term": "Physical pendulum", "definition": "A rigid object oscillating about a pivot not at its center of mass." },
-    { "term": "Equilibrium position", "definition": "The position where the net force is zero." },
-    { "term": "Effective spring constant", "definition": "The single k equivalent to a combination of springs." },
-    { "term": "Small-angle approximation", "definition": "sin θ ≈ θ (radians) for small angles, which makes pendulum motion SHM." },
-    { "term": "Frequency", "definition": "Number of oscillations per second, f = 1/T." }
+    {
+      "term": "Simple harmonic motion",
+      "definition": "Periodic motion with a restoring force proportional to displacement."
+    },
+    {
+      "term": "Amplitude",
+      "definition": "Maximum displacement from equilibrium."
+    },
+    {
+      "term": "Period",
+      "definition": "Time for one complete oscillation."
+    },
+    {
+      "term": "Angular frequency",
+      "definition": "ω = 2πf, in rad/s."
+    },
+    {
+      "term": "Phase constant",
+      "definition": "φ in x = A cos(ωt + φ), set by initial conditions."
+    },
+    {
+      "term": "Restoring force",
+      "definition": "A force directed toward equilibrium."
+    },
+    {
+      "term": "Simple pendulum",
+      "definition": "A point mass on a massless string, oscillating with small angles."
+    },
+    {
+      "term": "Physical pendulum",
+      "definition": "A rigid object oscillating about a pivot not at its center of mass."
+    },
+    {
+      "term": "Equilibrium position",
+      "definition": "The position where the net force is zero."
+    },
+    {
+      "term": "Effective spring constant",
+      "definition": "The single k equivalent to a combination of springs."
+    },
+    {
+      "term": "Small-angle approximation",
+      "definition": "sin θ ≈ θ (radians) for small angles, which makes pendulum motion SHM."
+    },
+    {
+      "term": "Frequency",
+      "definition": "Number of oscillations per second, f = 1/T."
+    }
   ],
   "practice": [
     {
-      "id": "u7-q01", "tier": "Intro", "type": "mcq", "topic": "Simple Harmonic Motion",
+      "id": "u7-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Simple Harmonic Motion",
       "stem": "A 0.50 kg mass on a spring with k = 200 N/m oscillates with amplitude 0.050 m. What is its maximum speed?",
       "choices": [
-        { "id": "A", "text": "0.25 m/s" },
-        { "id": "B", "text": "1.0 m/s" },
-        { "id": "C", "text": "10 m/s" },
-        { "id": "D", "text": "20 m/s" }
+        {
+          "id": "A",
+          "text": "0.25 m/s"
+        },
+        {
+          "id": "B",
+          "text": "1.0 m/s"
+        },
+        {
+          "id": "C",
+          "text": "10 m/s"
+        },
+        {
+          "id": "D",
+          "text": "20 m/s"
+        }
       ],
       "answer": "B",
       "explanation": "ω = √(200/0.5) = 20 rad/s; v_max = Aω = 1.0 m/s.",
-      "distractors": { "D": "That's ω." }
+      "distractors": {
+        "D": "That's ω."
+      }
     },
     {
-      "id": "u7-q02", "tier": "Intro", "type": "mcq", "topic": "Simple Harmonic Motion",
+      "id": "u7-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Simple Harmonic Motion",
       "stem": "The amplitude of a mass-spring oscillator is doubled. Its period",
       "choices": [
-        { "id": "A", "text": "doubles" },
-        { "id": "B", "text": "is unchanged" },
-        { "id": "C", "text": "increases by √2" },
-        { "id": "D", "text": "halves" }
+        {
+          "id": "A",
+          "text": "doubles"
+        },
+        {
+          "id": "B",
+          "text": "increases by √2"
+        },
+        {
+          "id": "C",
+          "text": "is unchanged"
+        },
+        {
+          "id": "D",
+          "text": "halves"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "T = 2π√(m/k), independent of amplitude.",
       "distractors": {}
     },
     {
-      "id": "u7-q03", "tier": "Intro", "type": "mcq", "topic": "Pendulums",
+      "id": "u7-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Pendulums",
       "stem": "A simple pendulum has a period of about 2.0 s on Earth. What is its approximate length?",
       "choices": [
-        { "id": "A", "text": "0.25 m" },
-        { "id": "B", "text": "0.50 m" },
-        { "id": "C", "text": "1.0 m" },
-        { "id": "D", "text": "2.0 m" }
+        {
+          "id": "A",
+          "text": "0.25 m"
+        },
+        {
+          "id": "B",
+          "text": "0.50 m"
+        },
+        {
+          "id": "C",
+          "text": "1.0 m"
+        },
+        {
+          "id": "D",
+          "text": "2.0 m"
+        }
       ],
       "answer": "C",
       "explanation": "L = gT²/4π² = 9.8(4)/39.5 ≈ 0.99 m.",
       "distractors": {}
     },
     {
-      "id": "u7-q04", "tier": "Intro", "type": "mcq", "topic": "Energy in Simple Harmonic Motion",
+      "id": "u7-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Energy in Simple Harmonic Motion",
       "stem": "At what position is the kinetic energy of a mass-spring oscillator maximum?",
       "choices": [
-        { "id": "A", "text": "At x = ±A" },
-        { "id": "B", "text": "At x = 0" },
-        { "id": "C", "text": "At x = A/2" },
-        { "id": "D", "text": "It is constant" }
+        {
+          "id": "A",
+          "text": "At x = 0"
+        },
+        {
+          "id": "B",
+          "text": "At x = ±A"
+        },
+        {
+          "id": "C",
+          "text": "At x = A/2"
+        },
+        {
+          "id": "D",
+          "text": "It is constant"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "All energy is kinetic at equilibrium.",
       "distractors": {}
     },
     {
-      "id": "u7-q05", "tier": "Exam level", "type": "mcq", "topic": "Simple Harmonic Motion",
+      "id": "u7-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Simple Harmonic Motion",
       "stem": "An object moves according to x(t) = 0.10 cos(4t) (m, s). What is its speed when x = 0.050 m?",
       "choices": [
-        { "id": "A", "text": "0.20 m/s" },
-        { "id": "B", "text": "0.35 m/s" },
-        { "id": "C", "text": "0.40 m/s" },
-        { "id": "D", "text": "0.10 m/s" }
+        {
+          "id": "A",
+          "text": "0.20 m/s"
+        },
+        {
+          "id": "B",
+          "text": "0.10 m/s"
+        },
+        {
+          "id": "C",
+          "text": "0.40 m/s"
+        },
+        {
+          "id": "D",
+          "text": "0.35 m/s"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "v = ω√(A² − x²) = 4√(0.010 − 0.0025) ≈ 0.35 m/s.",
-      "distractors": { "C": "Maximum speed." }
+      "distractors": {
+        "C": "Maximum speed."
+      }
     },
     {
-      "id": "u7-q06", "tier": "Exam level", "type": "mcq", "topic": "Spring Systems",
+      "id": "u7-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Spring Systems",
       "stem": "Two identical springs (each with constant k) are connected end to end (in series) and support mass m. What is the period?",
       "choices": [
-        { "id": "A", "text": "2π√(m/2k)" },
-        { "id": "B", "text": "2π√(2m/k)" },
-        { "id": "C", "text": "2π√(m/k)" },
-        { "id": "D", "text": "4π√(m/k)" }
+        {
+          "id": "A",
+          "text": "2π√(m/2k)"
+        },
+        {
+          "id": "B",
+          "text": "2π√(2m/k)"
+        },
+        {
+          "id": "C",
+          "text": "2π√(m/k)"
+        },
+        {
+          "id": "D",
+          "text": "4π√(m/k)"
+        }
       ],
       "answer": "B",
       "explanation": "Series: k_eq = k/2; T = 2π√(m/(k/2)).",
-      "distractors": { "A": "Parallel springs." }
+      "distractors": {
+        "A": "Parallel springs."
+      }
     },
     {
-      "id": "u7-q07", "tier": "Exam level", "type": "mcq", "topic": "Pendulums",
+      "id": "u7-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Pendulums",
       "stem": "A uniform rod of length 1.5 m is pivoted at one end and swings with small amplitude. What is its period? (I_end = ML²/3, g = 9.8 m/s²)",
       "choices": [
-        { "id": "A", "text": "1.6 s" },
-        { "id": "B", "text": "2.0 s" },
-        { "id": "C", "text": "2.5 s" },
-        { "id": "D", "text": "1.4 s" }
+        {
+          "id": "A",
+          "text": "1.6 s"
+        },
+        {
+          "id": "B",
+          "text": "1.4 s"
+        },
+        {
+          "id": "C",
+          "text": "2.5 s"
+        },
+        {
+          "id": "D",
+          "text": "2.0 s"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "T = 2π√(I/Mgd) = 2π√((ML²/3)/(Mg L/2)) = 2π√(2L/3g) = 2π√(1.0/9.8) ≈ 2.0 s.",
-      "distractors": { "C": "Simple pendulum of length 1.5 m." }
+      "distractors": {
+        "C": "Simple pendulum of length 1.5 m."
+      }
     },
     {
-      "id": "u7-q08", "tier": "Exam level", "type": "mcq", "topic": "Energy in Simple Harmonic Motion",
+      "id": "u7-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Energy in Simple Harmonic Motion",
       "stem": "At what displacement are kinetic and potential energy equal in SHM with amplitude A?",
       "choices": [
-        { "id": "A", "text": "A/2" },
-        { "id": "B", "text": "A/√2" },
-        { "id": "C", "text": "A/4" },
-        { "id": "D", "text": "A√2" }
+        {
+          "id": "A",
+          "text": "A/√2"
+        },
+        {
+          "id": "B",
+          "text": "A/2"
+        },
+        {
+          "id": "C",
+          "text": "A/4"
+        },
+        {
+          "id": "D",
+          "text": "A√2"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "½kx² = ½(½kA²) → x = A/√2.",
       "distractors": {}
     },
     {
-      "id": "u7-q09", "tier": "Exam level", "type": "mcq", "topic": "Simple Harmonic Motion",
+      "id": "u7-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Simple Harmonic Motion",
       "stem": "A mass on a spring is pulled to x = +A and released at t = 0. Which function describes its velocity?",
       "choices": [
-        { "id": "A", "text": "v = −Aω sin(ωt)" },
-        { "id": "B", "text": "v = Aω cos(ωt)" },
-        { "id": "C", "text": "v = Aω sin(ωt)" },
-        { "id": "D", "text": "v = −Aω cos(ωt)" }
+        {
+          "id": "A",
+          "text": "v = −Aω sin(ωt)"
+        },
+        {
+          "id": "B",
+          "text": "v = Aω cos(ωt)"
+        },
+        {
+          "id": "C",
+          "text": "v = Aω sin(ωt)"
+        },
+        {
+          "id": "D",
+          "text": "v = −Aω cos(ωt)"
+        }
       ],
       "answer": "A",
       "explanation": "x = A cos(ωt) → v = dx/dt = −Aω sin(ωt); it starts at rest and moves in −x.",
-      "distractors": { "B": "Starts at maximum speed." }
+      "distractors": {
+        "B": "Starts at maximum speed."
+      }
     },
     {
-      "id": "u7-q10", "tier": "Exam level", "type": "mcq", "topic": "Spring Systems",
+      "id": "u7-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Spring Systems",
       "stem": "A block hangs from a vertical spring, stretching it 0.098 m at equilibrium. If pulled down and released, what is its period of oscillation? (g = 9.8 m/s²)",
       "choices": [
-        { "id": "A", "text": "0.20 s" },
-        { "id": "B", "text": "0.63 s" },
-        { "id": "C", "text": "1.0 s" },
-        { "id": "D", "text": "It depends on the mass, which isn't given." }
+        {
+          "id": "A",
+          "text": "0.20 s"
+        },
+        {
+          "id": "B",
+          "text": "1.0 s"
+        },
+        {
+          "id": "C",
+          "text": "0.63 s"
+        },
+        {
+          "id": "D",
+          "text": "It depends on the mass, which isn't given."
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "k/m = g/Δx = 100 s⁻², ω = 10 rad/s, T = 2π/10 ≈ 0.63 s.",
-      "distractors": { "D": "The stretch gives k/m directly." }
+      "distractors": {
+        "D": "The stretch gives k/m directly."
+      }
     },
     {
-      "id": "u7-q11", "tier": "Hardest", "type": "mcq", "topic": "Simple Harmonic Motion",
+      "id": "u7-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Simple Harmonic Motion",
       "stem": "A particle obeys d²x/dt² + 16x = 0 (SI units). What is its period?",
       "choices": [
-        { "id": "A", "text": "π/2 s" },
-        { "id": "B", "text": "π/8 s" },
-        { "id": "C", "text": "2π s" },
-        { "id": "D", "text": "16 s" }
-      ],
-      "answer": "A",
-      "explanation": "ω² = 16 → ω = 4 rad/s; T = 2π/4 = π/2 s.",
-      "distractors": { "B": "Uses ω = 16." }
-    },
-    {
-      "id": "u7-q12", "tier": "Hardest", "type": "mcq", "topic": "Pendulums",
-      "stem": "A simple pendulum hangs in an elevator accelerating upward at g/2. How does its period compare with its period at rest?",
-      "choices": [
-        { "id": "A", "text": "Larger by √(3/2)" },
-        { "id": "B", "text": "Smaller by a factor of √(2/3)" },
-        { "id": "C", "text": "Unchanged" },
-        { "id": "D", "text": "Smaller by a factor of 1/2" }
+        {
+          "id": "A",
+          "text": "π/8 s"
+        },
+        {
+          "id": "B",
+          "text": "π/2 s"
+        },
+        {
+          "id": "C",
+          "text": "2π s"
+        },
+        {
+          "id": "D",
+          "text": "16 s"
+        }
       ],
       "answer": "B",
+      "explanation": "ω² = 16 → ω = 4 rad/s; T = 2π/4 = π/2 s.",
+      "distractors": {
+        "A": "Uses ω = 16."
+      }
+    },
+    {
+      "id": "u7-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Pendulums",
+      "stem": "A simple pendulum hangs in an elevator accelerating upward at g/2. How does its period compare with its period at rest?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Larger by √(3/2)"
+        },
+        {
+          "id": "B",
+          "text": "Smaller by a factor of 1/2"
+        },
+        {
+          "id": "C",
+          "text": "Unchanged"
+        },
+        {
+          "id": "D",
+          "text": "Smaller by a factor of √(2/3)"
+        }
+      ],
+      "answer": "D",
       "explanation": "Effective g = 3g/2; T ∝ 1/√g_eff, so T_new = T√(2/3).",
       "distractors": {}
     },
     {
-      "id": "u7-q13", "tier": "Hardest", "type": "mcq", "topic": "Energy in Simple Harmonic Motion",
+      "id": "u7-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Energy in Simple Harmonic Motion",
       "stem": "A block on a spring oscillates on a frictionless surface with amplitude A. At the moment it passes through equilibrium, a second identical block is dropped onto it and sticks. What is the new amplitude?",
       "choices": [
-        { "id": "A", "text": "A" },
-        { "id": "B", "text": "A/√2" },
-        { "id": "C", "text": "A/2" },
-        { "id": "D", "text": "√2 A" }
+        {
+          "id": "A",
+          "text": "A"
+        },
+        {
+          "id": "B",
+          "text": "A/√2"
+        },
+        {
+          "id": "C",
+          "text": "A/2"
+        },
+        {
+          "id": "D",
+          "text": "√2 A"
+        }
       ],
       "answer": "B",
       "explanation": "Momentum: v → v/2. KE becomes ½(2m)(v/2)² = ¼mv², half the original; E = ½kA'² → A' = A/√2.",
-      "distractors": { "C": "Assumes energy halves twice." }
+      "distractors": {
+        "C": "Assumes energy halves twice."
+      }
     },
     {
-      "id": "u7-q14", "tier": "Hardest", "type": "mcq", "topic": "Pendulums",
+      "id": "u7-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Pendulums",
       "stem": "A thin hoop of radius R hangs on a nail and oscillates in its own plane with small amplitude. Its period is (I_cm = MR²)",
       "choices": [
-        { "id": "A", "text": "2π√(R/g)" },
-        { "id": "B", "text": "2π√(2R/g)" },
-        { "id": "C", "text": "2π√(R/2g)" },
-        { "id": "D", "text": "2π√(3R/2g)" }
+        {
+          "id": "A",
+          "text": "2π√(R/g)"
+        },
+        {
+          "id": "B",
+          "text": "2π√(2R/g)"
+        },
+        {
+          "id": "C",
+          "text": "2π√(R/2g)"
+        },
+        {
+          "id": "D",
+          "text": "2π√(3R/2g)"
+        }
       ],
       "answer": "B",
       "explanation": "I_pivot = MR² + MR² = 2MR²; d = R; T = 2π√(2MR²/MgR) = 2π√(2R/g).",
-      "distractors": { "A": "Ignores the parallel-axis term." }
+      "distractors": {
+        "A": "Ignores the parallel-axis term."
+      }
     },
     {
-      "id": "u7-frq1", "tier": "Exam level", "type": "frq", "topic": "Pendulums", "frqType": "Experimental Design and Analysis (LAB)",
+      "id": "u7-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Pendulums",
+      "frqType": "Experimental Design and Analysis (LAB)",
       "prompt": "Students use a simple pendulum to measure the gravitational acceleration g. They measure the period T for several lengths L.\n\n| L (m) | 0.20 | 0.40 | 0.60 | 0.80 | 1.00 |\n|---|---|---|---|---|---|\n| T (s) | 0.90 | 1.27 | 1.55 | 1.80 | 2.01 |",
       "parts": [
-        { "label": "A", "prompt": "Describe how to measure the period accurately, including one technique to reduce uncertainty and one condition required for the small-angle formula.", "points": 2 },
-        { "label": "B", "prompt": "Starting from T = 2π√(L/g), identify quantities to graph that yield a straight line, and state how the slope relates to g.", "points": 2 },
-        { "label": "C", "prompt": "Describe the graph with labels and best-fit line, and calculate its slope.", "points": 3 },
-        { "label": "D", "prompt": "Calculate g from the slope.", "points": 2 },
-        { "label": "E", "prompt": "If students measured L from the pivot to the top of the bob instead of to its center, how would the calculated g be affected? Explain.", "points": 1 }
+        {
+          "label": "A",
+          "prompt": "Describe how to measure the period accurately, including one technique to reduce uncertainty and one condition required for the small-angle formula.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Starting from T = 2π√(L/g), identify quantities to graph that yield a straight line, and state how the slope relates to g.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Describe the graph with labels and best-fit line, and calculate its slope.",
+          "points": 3
+        },
+        {
+          "label": "D",
+          "prompt": "Calculate g from the slope.",
+          "points": 2
+        },
+        {
+          "label": "E",
+          "prompt": "If students measured L from the pivot to the top of the bob instead of to its center, how would the calculated g be affected? Explain.",
+          "points": 1
+        }
       ],
       "points": 10,
       "minutes": 22,
       "rubric": [
-        { "criterion": "A1: Timing", "points": 1, "description": "Time many (e.g., 10–20) oscillations and divide; repeat trials." },
-        { "criterion": "A2: Small angle", "points": 1, "description": "Release at a small angle (under about 10–15°)." },
-        { "criterion": "B1: Variables", "points": 1, "description": "Graph T² vs. L." },
-        { "criterion": "B2: Slope relation", "points": 1, "description": "T² = (4π²/g)L, so slope = 4π²/g." },
-        { "criterion": "C1: Data", "points": 1, "description": "Computes T² values: 0.81, 1.61, 2.40, 3.24, 4.04 s²." },
-        { "criterion": "C2: Graph", "points": 1, "description": "T² (s²) vs. L (m), labeled, linear scales, best-fit line." },
-        { "criterion": "C3: Slope", "points": 1, "description": "≈ 4.0 s²/m (accept 3.9–4.1)." },
-        { "criterion": "D", "points": 2, "description": "g = 4π²/slope ≈ 39.5/4.04 ≈ 9.8 m/s² (1 point for relation, 1 for value consistent with slope)." },
-        { "criterion": "E", "points": 1, "description": "Each L is too short by the same amount; the slope of T² vs L is unchanged (only the intercept shifts), so g from the slope is unaffected. (Accept: g too small if computed from individual points.)" }
+        {
+          "criterion": "A1: Timing",
+          "points": 1,
+          "description": "Time many (e.g., 10–20) oscillations and divide; repeat trials."
+        },
+        {
+          "criterion": "A2: Small angle",
+          "points": 1,
+          "description": "Release at a small angle (under about 10–15°)."
+        },
+        {
+          "criterion": "B1: Variables",
+          "points": 1,
+          "description": "Graph T² vs. L."
+        },
+        {
+          "criterion": "B2: Slope relation",
+          "points": 1,
+          "description": "T² = (4π²/g)L, so slope = 4π²/g."
+        },
+        {
+          "criterion": "C1: Data",
+          "points": 1,
+          "description": "Computes T² values: 0.81, 1.61, 2.40, 3.24, 4.04 s²."
+        },
+        {
+          "criterion": "C2: Graph",
+          "points": 1,
+          "description": "T² (s²) vs. L (m), labeled, linear scales, best-fit line."
+        },
+        {
+          "criterion": "C3: Slope",
+          "points": 1,
+          "description": "≈ 4.0 s²/m (accept 3.9–4.1)."
+        },
+        {
+          "criterion": "D",
+          "points": 2,
+          "description": "g = 4π²/slope ≈ 39.5/4.04 ≈ 9.8 m/s² (1 point for relation, 1 for value consistent with slope)."
+        },
+        {
+          "criterion": "E",
+          "points": 1,
+          "description": "Each L is too short by the same amount; the slope of T² vs L is unchanged (only the intercept shifts), so g from the slope is unaffected. (Accept: g too small if computed from individual points.)"
+        }
       ],
       "sampleResponse": "A. Release the pendulum from a small angle (less than about 10°) and use a stopwatch to time 20 complete oscillations, then divide by 20. Repeat three times and average.\n\nB. Squaring both sides gives T² = (4π²/g)L, so a graph of T² vs. L is a straight line through the origin with slope 4π²/g.\n\nC. T² values: 0.81, 1.61, 2.40, 3.24, 4.04 s². Plot T² (s²) on the vertical axis vs. L (m) on the horizontal axis with linear scales; the points fall on a straight line. Slope ≈ (4.04 − 0.81)/(1.00 − 0.20) ≈ 4.0 s²/m.\n\nD. g = 4π²/slope = 39.5/4.04 ≈ 9.8 m/s².\n\nE. Measuring to the top of the bob makes every length shorter by the same constant (the bob's radius). This shifts the graph horizontally but doesn't change its slope, so the value of g found from the slope is unaffected."
     }

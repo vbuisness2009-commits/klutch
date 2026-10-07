@@ -41,232 +41,598 @@
     "cramSheet": "**Interactions:** predation · competition → resource partitioning · mutualism · commensalism · parasitism\n\n**Biomes:** T + precip → plants · rainforest poor soil · tundra permafrost · desert < 25 cm\n\n**C:** rock/ocean long-term · photosynthesis/respiration fast · fossil fuels → atmosphere\n\n**N:** fixation → nitrification → assimilation → ammonification → denitrification\n\n**P:** no gas · weathering · limiting in fresh water\n\n**Productivity:** NPP = GPP − R · light bottle = NPP · dark bottle = R\n\n**10% rule:** ÷10 per level · rest lost as heat"
   },
   "vocab": [
-    { "term": "Resource partitioning", "definition": "Different species using the same resource in different ways, times, or places, reducing competition." },
-    { "term": "Biome", "definition": "A large region defined by its climate and dominant vegetation." },
-    { "term": "Nitrogen fixation", "definition": "Conversion of atmospheric N₂ into ammonia (NH₃) or ammonium (NH₄⁺) by bacteria or lightning." },
-    { "term": "Nitrification", "definition": "Bacterial conversion of ammonium to nitrite and then nitrate." },
-    { "term": "Denitrification", "definition": "Conversion of nitrate back to N₂ gas by bacteria in low-oxygen conditions." },
-    { "term": "Limiting nutrient", "definition": "The nutrient in shortest supply relative to need, which controls growth." },
-    { "term": "Gross primary productivity (GPP)", "definition": "Total rate at which producers capture energy by photosynthesis." },
-    { "term": "Net primary productivity (NPP)", "definition": "GPP minus energy used by producers in respiration; energy available to consumers." },
-    { "term": "Trophic level", "definition": "A feeding position in a food chain (producer, primary consumer, etc.)." },
-    { "term": "10% rule", "definition": "About 10% of energy at one trophic level is passed to the next." },
-    { "term": "Transpiration", "definition": "Release of water vapor from plant leaves." },
-    { "term": "Reservoir (sink)", "definition": "A place where a substance is stored in a biogeochemical cycle." }
+    {
+      "term": "Resource partitioning",
+      "definition": "Different species using the same resource in different ways, times, or places, reducing competition."
+    },
+    {
+      "term": "Biome",
+      "definition": "A large region defined by its climate and dominant vegetation."
+    },
+    {
+      "term": "Nitrogen fixation",
+      "definition": "Conversion of atmospheric N₂ into ammonia (NH₃) or ammonium (NH₄⁺) by bacteria or lightning."
+    },
+    {
+      "term": "Nitrification",
+      "definition": "Bacterial conversion of ammonium to nitrite and then nitrate."
+    },
+    {
+      "term": "Denitrification",
+      "definition": "Conversion of nitrate back to N₂ gas by bacteria in low-oxygen conditions."
+    },
+    {
+      "term": "Limiting nutrient",
+      "definition": "The nutrient in shortest supply relative to need, which controls growth."
+    },
+    {
+      "term": "Gross primary productivity (GPP)",
+      "definition": "Total rate at which producers capture energy by photosynthesis."
+    },
+    {
+      "term": "Net primary productivity (NPP)",
+      "definition": "GPP minus energy used by producers in respiration; energy available to consumers."
+    },
+    {
+      "term": "Trophic level",
+      "definition": "A feeding position in a food chain (producer, primary consumer, etc.)."
+    },
+    {
+      "term": "10% rule",
+      "definition": "About 10% of energy at one trophic level is passed to the next."
+    },
+    {
+      "term": "Transpiration",
+      "definition": "Release of water vapor from plant leaves."
+    },
+    {
+      "term": "Reservoir (sink)",
+      "definition": "A place where a substance is stored in a biogeochemical cycle."
+    }
   ],
   "practice": [
     {
-      "id": "u1-q01", "tier": "Intro", "type": "mcq", "topic": "1.5 The Nitrogen Cycle", "skill": "1. Concept Explanation",
+      "id": "u1-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "1.5 The Nitrogen Cycle",
+      "skill": "1. Concept Explanation",
       "stem": "Which process converts atmospheric N₂ into a form that plants can absorb?",
       "choices": [
-        { "id": "A", "text": "Denitrification" },
-        { "id": "B", "text": "Nitrogen fixation" },
-        { "id": "C", "text": "Ammonification" },
-        { "id": "D", "text": "Assimilation" }
+        {
+          "id": "A",
+          "text": "Denitrification"
+        },
+        {
+          "id": "B",
+          "text": "Assimilation"
+        },
+        {
+          "id": "C",
+          "text": "Ammonification"
+        },
+        {
+          "id": "D",
+          "text": "Nitrogen fixation"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Fixation by bacteria (or lightning) converts N₂ into ammonia/ammonium.",
-      "distractors": { "A": "Does the reverse: returns N₂ to the air.", "C": "Converts organic waste to ammonium, not N₂." }
+      "distractors": {
+        "A": "Does the reverse: returns N₂ to the air.",
+        "C": "Converts organic waste to ammonium, not N₂."
+      }
     },
     {
-      "id": "u1-q02", "tier": "Intro", "type": "mcq", "topic": "1.6 The Phosphorus Cycle", "skill": "1. Concept Explanation",
+      "id": "u1-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "1.6 The Phosphorus Cycle",
+      "skill": "1. Concept Explanation",
       "stem": "Phosphorus is often the limiting nutrient in freshwater lakes primarily because",
       "choices": [
-        { "id": "A", "text": "it has no significant gaseous phase and is released slowly from rock by weathering" },
-        { "id": "B", "text": "it is rapidly removed from water by denitrifying bacteria" },
-        { "id": "C", "text": "most phosphorus is stored in the atmosphere" },
-        { "id": "D", "text": "plants cannot absorb phosphorus from water" }
+        {
+          "id": "A",
+          "text": "most phosphorus is stored in the atmosphere"
+        },
+        {
+          "id": "B",
+          "text": "it is rapidly removed from water by denitrifying bacteria"
+        },
+        {
+          "id": "C",
+          "text": "it has no significant gaseous phase and is released slowly from rock by weathering"
+        },
+        {
+          "id": "D",
+          "text": "plants cannot absorb phosphorus from water"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "With no atmospheric reservoir, phosphorus enters ecosystems slowly through weathering, keeping supplies low.",
-      "distractors": { "B": "Denitrification affects nitrogen." }
+      "distractors": {
+        "B": "Denitrification affects nitrogen."
+      }
     },
     {
-      "id": "u1-q03", "tier": "Intro", "type": "mcq", "topic": "1.2 Terrestrial Biomes", "skill": "1. Concept Explanation",
+      "id": "u1-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "1.2 Terrestrial Biomes",
+      "skill": "1. Concept Explanation",
       "stem": "A biome has permanently frozen subsoil, a growing season of about two months, and vegetation of mosses, lichens, and low shrubs. It is",
       "choices": [
-        { "id": "A", "text": "boreal forest" },
-        { "id": "B", "text": "tundra" },
-        { "id": "C", "text": "temperate grassland" },
-        { "id": "D", "text": "cold desert" }
+        {
+          "id": "A",
+          "text": "boreal forest"
+        },
+        {
+          "id": "B",
+          "text": "tundra"
+        },
+        {
+          "id": "C",
+          "text": "temperate grassland"
+        },
+        {
+          "id": "D",
+          "text": "cold desert"
+        }
       ],
       "answer": "B",
       "explanation": "Permafrost and a very short growing season define tundra.",
-      "distractors": { "A": "Boreal forest supports conifers and lacks continuous permafrost near the surface in most areas." }
+      "distractors": {
+        "A": "Boreal forest supports conifers and lacks continuous permafrost near the surface in most areas."
+      }
     },
     {
-      "id": "u1-q04", "tier": "Intro", "type": "mcq", "topic": "1.1 Introduction to Ecosystems", "skill": "1. Concept Explanation",
+      "id": "u1-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "1.1 Introduction to Ecosystems",
+      "skill": "1. Concept Explanation",
       "stimulus": "Two bat species eat moths in the same forest. One forages just above the canopy at dusk; the other hunts close to the forest floor after midnight.",
       "stem": "This pattern is best described as",
       "choices": [
-        { "id": "A", "text": "mutualism" },
-        { "id": "B", "text": "resource partitioning" },
-        { "id": "C", "text": "commensalism" },
-        { "id": "D", "text": "competitive exclusion" }
-      ],
-      "answer": "B",
-      "explanation": "The species divide the prey resource by location and time, reducing direct competition.",
-      "distractors": { "D": "Exclusion would mean one species eliminates the other." }
-    },
-    {
-      "id": "u1-q05", "tier": "Exam level", "type": "mcq", "topic": "1.8 Primary Productivity", "skill": "6. Mathematical Routines",
-      "stem": "A grassland has a gross primary productivity of 2,400 g C/m²/yr, and its plants use 1,500 g C/m²/yr in cellular respiration. What is its net primary productivity?",
-      "choices": [
-        { "id": "A", "text": "900 g C/m²/yr" },
-        { "id": "B", "text": "1,500 g C/m²/yr" },
-        { "id": "C", "text": "3,900 g C/m²/yr" },
-        { "id": "D", "text": "0.63 g C/m²/yr" }
+        {
+          "id": "A",
+          "text": "resource partitioning"
+        },
+        {
+          "id": "B",
+          "text": "mutualism"
+        },
+        {
+          "id": "C",
+          "text": "commensalism"
+        },
+        {
+          "id": "D",
+          "text": "competitive exclusion"
+        }
       ],
       "answer": "A",
-      "explanation": "NPP = GPP − R = 2,400 − 1,500 = 900 g C/m²/yr.",
-      "distractors": { "C": "Adds instead of subtracting." }
+      "explanation": "The species divide the prey resource by location and time, reducing direct competition.",
+      "distractors": {
+        "D": "Exclusion would mean one species eliminates the other."
+      }
     },
     {
-      "id": "u1-q06", "tier": "Exam level", "type": "mcq", "topic": "1.10 Energy Flow and the 10% Rule", "skill": "6. Mathematical Routines",
+      "id": "u1-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "1.8 Primary Productivity",
+      "skill": "6. Mathematical Routines",
+      "stem": "A grassland has a gross primary productivity of 2,400 g C/m²/yr, and its plants use 1,500 g C/m²/yr in cellular respiration. What is its net primary productivity?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1,500 g C/m²/yr"
+        },
+        {
+          "id": "B",
+          "text": "900 g C/m²/yr"
+        },
+        {
+          "id": "C",
+          "text": "3,900 g C/m²/yr"
+        },
+        {
+          "id": "D",
+          "text": "0.63 g C/m²/yr"
+        }
+      ],
+      "answer": "B",
+      "explanation": "NPP = GPP − R = 2,400 − 1,500 = 900 g C/m²/yr.",
+      "distractors": {
+        "C": "Adds instead of subtracting."
+      }
+    },
+    {
+      "id": "u1-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "1.10 Energy Flow and the 10% Rule",
+      "skill": "6. Mathematical Routines",
       "stem": "Producers in a lake capture 25,000 kcal/m²/yr. Using the 10% rule, how much energy is available to secondary consumers?",
       "choices": [
-        { "id": "A", "text": "2,500 kcal/m²/yr" },
-        { "id": "B", "text": "250 kcal/m²/yr" },
-        { "id": "C", "text": "25 kcal/m²/yr" },
-        { "id": "D", "text": "2.5 kcal/m²/yr" }
+        {
+          "id": "A",
+          "text": "2,500 kcal/m²/yr"
+        },
+        {
+          "id": "B",
+          "text": "250 kcal/m²/yr"
+        },
+        {
+          "id": "C",
+          "text": "25 kcal/m²/yr"
+        },
+        {
+          "id": "D",
+          "text": "2.5 kcal/m²/yr"
+        }
       ],
       "answer": "B",
       "explanation": "Producers → primary consumers (2,500) → secondary consumers (250).",
-      "distractors": { "A": "Primary consumers.", "C": "Tertiary consumers." }
+      "distractors": {
+        "A": "Primary consumers.",
+        "C": "Tertiary consumers."
+      }
     },
     {
-      "id": "u1-q07", "tier": "Exam level", "type": "mcq", "topic": "1.4 The Carbon Cycle", "skill": "1. Concept Explanation",
+      "id": "u1-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "1.4 The Carbon Cycle",
+      "skill": "1. Concept Explanation",
       "stem": "Which statement best explains why burning fossil fuels increases atmospheric CO₂ over time?",
       "choices": [
-        { "id": "A", "text": "It moves carbon from a long-term reservoir into the atmosphere faster than natural processes return it to long-term storage." },
-        { "id": "B", "text": "It converts atmospheric oxygen directly into carbon dioxide without using any carbon." },
-        { "id": "C", "text": "It decreases the rate of photosynthesis worldwide." },
-        { "id": "D", "text": "It releases carbon that was originally stored in the stratosphere." }
+        {
+          "id": "A",
+          "text": "It decreases the rate of photosynthesis worldwide."
+        },
+        {
+          "id": "B",
+          "text": "It converts atmospheric oxygen directly into carbon dioxide without using any carbon."
+        },
+        {
+          "id": "C",
+          "text": "It moves carbon from a long-term reservoir into the atmosphere faster than natural processes return it to long-term storage."
+        },
+        {
+          "id": "D",
+          "text": "It releases carbon that was originally stored in the stratosphere."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Fossil carbon accumulated over millions of years is released in decades; sinks (oceans, photosynthesis) cannot absorb it all.",
-      "distractors": { "D": "Fossil fuel carbon comes from ancient organisms in sedimentary rock." }
+      "distractors": {
+        "D": "Fossil fuel carbon comes from ancient organisms in sedimentary rock."
+      }
     },
     {
-      "id": "u1-q08", "tier": "Exam level", "type": "mcq", "topic": "1.3 Aquatic Biomes", "skill": "1. Concept Explanation",
+      "id": "u1-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "1.3 Aquatic Biomes",
+      "skill": "1. Concept Explanation",
       "stem": "Estuaries are among the most productive ecosystems on Earth primarily because",
       "choices": [
-        { "id": "A", "text": "their constant salinity allows a few species to dominate" },
-        { "id": "B", "text": "rivers and tides continually deliver nutrients to shallow, sunlit water" },
-        { "id": "C", "text": "they are deep enough to avoid temperature changes" },
-        { "id": "D", "text": "they receive no sediment, so the water is clear" }
+        {
+          "id": "A",
+          "text": "their constant salinity allows a few species to dominate"
+        },
+        {
+          "id": "B",
+          "text": "they receive no sediment, so the water is clear"
+        },
+        {
+          "id": "C",
+          "text": "they are deep enough to avoid temperature changes"
+        },
+        {
+          "id": "D",
+          "text": "rivers and tides continually deliver nutrients to shallow, sunlit water"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Nutrient-rich river water mixes with tidal water in shallow areas where light reaches producers.",
-      "distractors": { "A": "Estuary salinity varies widely." }
+      "distractors": {
+        "A": "Estuary salinity varies widely."
+      }
     },
     {
-      "id": "u1-q09", "tier": "Exam level", "type": "mcq", "topic": "1.5 The Nitrogen Cycle", "skill": "1. Concept Explanation",
+      "id": "u1-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "1.5 The Nitrogen Cycle",
+      "skill": "1. Concept Explanation",
       "stem": "Farmers notice that heavily waterlogged fields lose more applied nitrate fertilizer than well-drained fields, even with no runoff. Which process most likely explains this?",
       "choices": [
-        { "id": "A", "text": "Nitrogen fixation, because waterlogged soils hold more N₂" },
-        { "id": "B", "text": "Denitrification, because anaerobic bacteria in saturated soils convert nitrate to N₂ gas" },
-        { "id": "C", "text": "Nitrification, because waterlogged soils have more oxygen" },
-        { "id": "D", "text": "Assimilation, because crops absorb more nitrate in wet soil" }
+        {
+          "id": "A",
+          "text": "Denitrification, because anaerobic bacteria in saturated soils convert nitrate to N₂ gas"
+        },
+        {
+          "id": "B",
+          "text": "Nitrogen fixation, because waterlogged soils hold more N₂"
+        },
+        {
+          "id": "C",
+          "text": "Nitrification, because waterlogged soils have more oxygen"
+        },
+        {
+          "id": "D",
+          "text": "Assimilation, because crops absorb more nitrate in wet soil"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Saturated soils lack oxygen, favoring denitrifying bacteria that release N₂ (and N₂O) to the air.",
-      "distractors": { "C": "Nitrification requires oxygen; waterlogged soils have less." }
+      "distractors": {
+        "C": "Nitrification requires oxygen; waterlogged soils have less."
+      }
     },
     {
-      "id": "u1-q10", "tier": "Exam level", "type": "mcq", "topic": "1.8 Primary Productivity", "skill": "5. Data Analysis",
+      "id": "u1-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "1.8 Primary Productivity",
+      "skill": "5. Data Analysis",
       "stimulus": "Lake water starts with 8.0 mg/L dissolved oxygen. After 24 hours, a clear (light) bottle has 9.5 mg/L and an opaque (dark) bottle has 6.8 mg/L.",
       "stem": "What is the gross primary productivity, in mg O₂/L/day?",
       "choices": [
-        { "id": "A", "text": "1.2" },
-        { "id": "B", "text": "1.5" },
-        { "id": "C", "text": "2.7" },
-        { "id": "D", "text": "9.5" }
+        {
+          "id": "A",
+          "text": "1.2"
+        },
+        {
+          "id": "B",
+          "text": "1.5"
+        },
+        {
+          "id": "C",
+          "text": "2.7"
+        },
+        {
+          "id": "D",
+          "text": "9.5"
+        }
       ],
       "answer": "C",
       "explanation": "NPP = 9.5 − 8.0 = 1.5; respiration = 8.0 − 6.8 = 1.2; GPP = 1.5 + 1.2 = 2.7.",
-      "distractors": { "B": "NPP only.", "A": "Respiration only." }
+      "distractors": {
+        "B": "NPP only.",
+        "A": "Respiration only."
+      }
     },
     {
-      "id": "u1-q11", "tier": "Hardest", "type": "mcq", "topic": "1.11 Food Chains and Food Webs", "skill": "1. Concept Explanation",
+      "id": "u1-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "1.11 Food Chains and Food Webs",
+      "skill": "1. Concept Explanation",
       "stimulus": "In a kelp forest food web, sea otters eat sea urchins, and sea urchins graze on kelp. Many fish species shelter in kelp.",
       "stem": "If sea otters were removed, which sequence is most likely?",
       "choices": [
-        { "id": "A", "text": "Urchins increase, kelp declines, fish that depend on kelp habitat decline" },
-        { "id": "B", "text": "Urchins decrease, kelp increases, fish increase" },
-        { "id": "C", "text": "Urchins increase, kelp increases, fish increase" },
-        { "id": "D", "text": "No change, because otters are a small part of the food web" }
+        {
+          "id": "A",
+          "text": "Urchins increase, kelp declines, fish that depend on kelp habitat decline"
+        },
+        {
+          "id": "B",
+          "text": "Urchins decrease, kelp increases, fish increase"
+        },
+        {
+          "id": "C",
+          "text": "Urchins increase, kelp increases, fish increase"
+        },
+        {
+          "id": "D",
+          "text": "No change, because otters are a small part of the food web"
+        }
       ],
       "answer": "A",
       "explanation": "Removing a top predator causes a trophic cascade: released herbivores overgraze producers, removing habitat for other species.",
       "distractors": {}
     },
     {
-      "id": "u1-q12", "tier": "Hardest", "type": "mcq", "topic": "1.7 The Hydrologic (Water) Cycle", "skill": "7. Environmental Solutions",
+      "id": "u1-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "1.7 The Hydrologic (Water) Cycle",
+      "skill": "7. Environmental Solutions",
       "stem": "Large-scale clearing of a tropical rainforest for pasture is most likely to cause which change in the local water cycle?",
       "choices": [
-        { "id": "A", "text": "More transpiration and more local rainfall" },
-        { "id": "B", "text": "Less transpiration, less local rainfall, and more surface runoff and erosion" },
-        { "id": "C", "text": "More groundwater recharge because soil is exposed" },
-        { "id": "D", "text": "No change, because rainfall comes only from the ocean" }
+        {
+          "id": "A",
+          "text": "More transpiration and more local rainfall"
+        },
+        {
+          "id": "B",
+          "text": "No change, because rainfall comes only from the ocean"
+        },
+        {
+          "id": "C",
+          "text": "More groundwater recharge because soil is exposed"
+        },
+        {
+          "id": "D",
+          "text": "Less transpiration, less local rainfall, and more surface runoff and erosion"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Trees return much of the region's rainfall through transpiration. Without them, less water recycles to the air and more runs off compacted, exposed soil.",
-      "distractors": { "C": "Bare, compacted soil reduces infiltration." }
+      "distractors": {
+        "C": "Bare, compacted soil reduces infiltration."
+      }
     },
     {
-      "id": "u1-q13", "tier": "Hardest", "type": "mcq", "topic": "1.2 Terrestrial Biomes", "skill": "2. Visual Representations",
+      "id": "u1-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "1.2 Terrestrial Biomes",
+      "skill": "2. Visual Representations",
       "stimulus": "A climatograph shows monthly mean temperatures between 24 °C and 29 °C all year. Total annual precipitation is about 90 cm, almost all of it falling in six consecutive months; the other six months receive nearly none.",
       "stem": "Which biome best matches this climatograph?",
       "choices": [
-        { "id": "A", "text": "Tropical rainforest" },
-        { "id": "B", "text": "Savanna" },
-        { "id": "C", "text": "Hot desert" },
-        { "id": "D", "text": "Temperate deciduous forest" }
+        {
+          "id": "A",
+          "text": "Tropical rainforest"
+        },
+        {
+          "id": "B",
+          "text": "Hot desert"
+        },
+        {
+          "id": "C",
+          "text": "Savanna"
+        },
+        {
+          "id": "D",
+          "text": "Temperate deciduous forest"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Warm year-round with a long dry season and moderate total rainfall fits savanna.",
-      "distractors": { "A": "Rainforest is wet all year and receives far more than 90 cm.", "C": "Deserts receive under ~25 cm." }
+      "distractors": {
+        "A": "Rainforest is wet all year and receives far more than 90 cm.",
+        "B": "Deserts receive under ~25 cm."
+      }
     },
     {
-      "id": "u1-q14", "tier": "Hardest", "type": "mcq", "topic": "1.9 Trophic Levels", "skill": "1. Concept Explanation",
+      "id": "u1-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "1.9 Trophic Levels",
+      "skill": "1. Concept Explanation",
       "stem": "Which explanation best accounts for why a hectare of cropland can feed more people if they eat grain than if they eat grain-fed beef?",
       "choices": [
-        { "id": "A", "text": "Cattle convert most of the energy in grain to heat during metabolism, so eating one trophic level lower makes about ten times more energy available." },
-        { "id": "B", "text": "Grain contains more protein than beef." },
-        { "id": "C", "text": "Cattle recycle energy back into the soil." },
-        { "id": "D", "text": "Beef has fewer calories per kilogram than grain." }
+        {
+          "id": "A",
+          "text": "Cattle convert most of the energy in grain to heat during metabolism, so eating one trophic level lower makes about ten times more energy available."
+        },
+        {
+          "id": "B",
+          "text": "Grain contains more protein than beef."
+        },
+        {
+          "id": "C",
+          "text": "Cattle recycle energy back into the soil."
+        },
+        {
+          "id": "D",
+          "text": "Beef has fewer calories per kilogram than grain."
+        }
       ],
       "answer": "A",
       "explanation": "Each trophic transfer loses roughly 90% of energy, mostly as metabolic heat.",
-      "distractors": { "C": "Energy is not recycled." }
+      "distractors": {
+        "C": "Energy is not recycled."
+      }
     },
     {
-      "id": "u1-frq1", "tier": "Exam level", "type": "frq", "topic": "1.8 Primary Productivity", "frqType": "Q1 Design an Investigation",
+      "id": "u1-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "1.8 Primary Productivity",
+      "frqType": "Q1 Design an Investigation",
       "prompt": "Students investigate how primary productivity changes with depth in a lake. At each depth they fill a clear bottle and an opaque bottle with lake water, measure initial dissolved oxygen (DO), suspend the bottles at the depth where the water was collected, and measure DO again after 24 hours.\n\n| Depth (m) | Initial DO (mg/L) | Clear bottle DO (mg/L) | Opaque bottle DO (mg/L) |\n|---|---|---|---|\n| 1 | 8.0 | 10.4 | 7.1 |\n| 5 | 8.0 | 8.6 | 7.2 |\n| 10 | 8.0 | 7.5 | 7.3 |",
       "parts": [
-        { "label": "a", "prompt": "Identify the independent variable in this investigation.", "points": 1 },
-        { "label": "b", "prompt": "Identify the dependent variable.", "points": 1 },
-        { "label": "c", "prompt": "Identify one variable that should be held constant across depths.", "points": 1 },
-        { "label": "d", "prompt": "State a testable hypothesis for this investigation.", "points": 1 },
-        { "label": "e", "prompt": "Calculate the gross primary productivity at 1 m. Show your work.", "points": 2 },
-        { "label": "f", "prompt": "Explain why the clear bottle at 10 m ended with less oxygen than it started with.", "points": 1 },
-        { "label": "g", "prompt": "Fertilizer runoff enters the lake. Explain how this would likely change productivity at 1 m in the short term.", "points": 1 },
-        { "label": "h", "prompt": "Describe one human activity that increases turbidity in lakes, and propose one practice that would reduce it.", "points": 2 }
+        {
+          "label": "a",
+          "prompt": "Identify the independent variable in this investigation.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Identify the dependent variable.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Identify one variable that should be held constant across depths.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "State a testable hypothesis for this investigation.",
+          "points": 1
+        },
+        {
+          "label": "e",
+          "prompt": "Calculate the gross primary productivity at 1 m. Show your work.",
+          "points": 2
+        },
+        {
+          "label": "f",
+          "prompt": "Explain why the clear bottle at 10 m ended with less oxygen than it started with.",
+          "points": 1
+        },
+        {
+          "label": "g",
+          "prompt": "Fertilizer runoff enters the lake. Explain how this would likely change productivity at 1 m in the short term.",
+          "points": 1
+        },
+        {
+          "label": "h",
+          "prompt": "Describe one human activity that increases turbidity in lakes, and propose one practice that would reduce it.",
+          "points": 2
+        }
       ],
       "points": 10,
       "minutes": 23,
       "rubric": [
-        { "criterion": "a: Independent variable", "points": 1, "description": "Depth (or light intensity at depth)." },
-        { "criterion": "b: Dependent variable", "points": 1, "description": "Change in dissolved oxygen / primary productivity." },
-        { "criterion": "c: Constant", "points": 1, "description": "E.g., bottle size, incubation time (24 h), time of day the bottles are set, same lake location." },
-        { "criterion": "d: Hypothesis", "points": 1, "description": "Testable and directional, e.g., 'If depth increases, then GPP will decrease because less light reaches producers.'" },
-        { "criterion": "e1: Setup", "points": 1, "description": "NPP = 10.4 − 8.0 = 2.4; respiration = 8.0 − 7.1 = 0.9." },
-        { "criterion": "e2: Answer", "points": 1, "description": "GPP = 2.4 + 0.9 = 3.3 mg O₂/L/day (units required)." },
-        { "criterion": "f: Low light", "points": 1, "description": "Too little light reaches 10 m for photosynthesis to exceed respiration, so organisms consumed more O₂ than producers released." },
-        { "criterion": "g: Nutrients", "points": 1, "description": "Added nitrogen and phosphorus relieve nutrient limitation, so algae grow faster and productivity increases." },
-        { "criterion": "h1: Activity", "points": 1, "description": "E.g., construction, clearcutting, or tilling near the shore increases sediment runoff." },
-        { "criterion": "h2: Solution", "points": 1, "description": "E.g., planting vegetated riparian buffer strips, silt fences, no-till farming, or reforestation to hold soil in place." }
+        {
+          "criterion": "a: Independent variable",
+          "points": 1,
+          "description": "Depth (or light intensity at depth)."
+        },
+        {
+          "criterion": "b: Dependent variable",
+          "points": 1,
+          "description": "Change in dissolved oxygen / primary productivity."
+        },
+        {
+          "criterion": "c: Constant",
+          "points": 1,
+          "description": "E.g., bottle size, incubation time (24 h), time of day the bottles are set, same lake location."
+        },
+        {
+          "criterion": "d: Hypothesis",
+          "points": 1,
+          "description": "Testable and directional, e.g., 'If depth increases, then GPP will decrease because less light reaches producers.'"
+        },
+        {
+          "criterion": "e1: Setup",
+          "points": 1,
+          "description": "NPP = 10.4 − 8.0 = 2.4; respiration = 8.0 − 7.1 = 0.9."
+        },
+        {
+          "criterion": "e2: Answer",
+          "points": 1,
+          "description": "GPP = 2.4 + 0.9 = 3.3 mg O₂/L/day (units required)."
+        },
+        {
+          "criterion": "f: Low light",
+          "points": 1,
+          "description": "Too little light reaches 10 m for photosynthesis to exceed respiration, so organisms consumed more O₂ than producers released."
+        },
+        {
+          "criterion": "g: Nutrients",
+          "points": 1,
+          "description": "Added nitrogen and phosphorus relieve nutrient limitation, so algae grow faster and productivity increases."
+        },
+        {
+          "criterion": "h1: Activity",
+          "points": 1,
+          "description": "E.g., construction, clearcutting, or tilling near the shore increases sediment runoff."
+        },
+        {
+          "criterion": "h2: Solution",
+          "points": 1,
+          "description": "E.g., planting vegetated riparian buffer strips, silt fences, no-till farming, or reforestation to hold soil in place."
+        }
       ],
       "sampleResponse": "(a) Depth of the water.\n\n(b) The change in dissolved oxygen, used to calculate primary productivity.\n\n(c) The length of time the bottles are left in the lake (24 hours).\n\n(d) If depth increases, then gross primary productivity will decrease, because less sunlight reaches the producers.\n\n(e) NPP = 10.4 − 8.0 = 2.4 mg O₂/L/day. Respiration = 8.0 − 7.1 = 0.9 mg O₂/L/day. GPP = 2.4 + 0.9 = 3.3 mg O₂/L/day.\n\n(f) At 10 m so little light penetrates that photosynthesis produces less oxygen than all organisms in the bottle consume by respiration, so DO falls.\n\n(g) Fertilizer adds nitrogen and phosphorus, which are limiting nutrients. Algae near the surface would grow faster, increasing productivity at 1 m.\n\n(h) Clearing land for construction near the lake exposes soil that washes in as sediment. Planting a vegetated buffer strip along the shoreline would trap sediment before it reaches the water."
     }

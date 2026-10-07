@@ -55,53 +55,145 @@
     "cramSheet": "**Laws:** ΣF = ma (each axis). Third-law pairs: same type, equal size, opposite direction, different objects.\n\n**System:** ΣF_ext = M·a_cm; x_cm = Σmx/Σm. Internal forces cancel.\n\n**Normal force:** flat & no vertical a → mg. Incline → mg cos θ. Elevator (a up) → m(g + a). Pull at θ above horizontal → mg − F sin θ.\n\n**Friction:** f_k = μ_kF_N; f_s ≤ μ_sF_N (only as big as needed). Slides on incline if tan θ > μ_s.\n\n**Incline:** frictionless a = g sin θ; with friction down: g(sin θ − μcos θ); up: g(sin θ + μcos θ).\n\n**Spring:** F = −kΔx. Parallel: 2k. Series: k/2.\n\n**Gravity:** F = Gm₁m₂/r²; g = GM/r² (N/kg).\n\n**Circular:** a_c = v²/r inward; ΣF_in = mv²/r. Hilltop loses contact at v = √(gr). Conical: tan θ = v²/(rg), r = L sin θ.\n\n**Atwood on table:** a = m_hang g/(m₁ + m₂); F_T = m_table·a."
   },
   "vocab": [
-    { "term": "Force", "definition": "A push or pull exerted by one object on another; a vector measured in newtons (N)." },
-    { "term": "Net force", "definition": "The vector sum of all forces exerted on an object or system; equals the mass times the acceleration." },
-    { "term": "System", "definition": "The object or collection of objects chosen for analysis; forces from outside it are external and forces between its parts are internal." },
-    { "term": "Center of mass", "definition": "The mass-weighted average position of a system; it accelerates as if all external forces acted on the total mass there." },
-    { "term": "Free-body diagram", "definition": "A diagram showing the object as a point with an arrow for each force exerted on it, labeled by type and source." },
-    { "term": "Inertia", "definition": "The tendency of an object to resist changes in its velocity; measured by its mass." },
-    { "term": "Newton's first law", "definition": "An object's velocity remains constant unless a nonzero net external force acts on it." },
-    { "term": "Newton's second law", "definition": "The acceleration of a system equals the net external force divided by its mass, ΣF = ma." },
-    { "term": "Newton's third law", "definition": "When A exerts a force on B, B exerts on A a force of equal magnitude and opposite direction, of the same type." },
-    { "term": "Normal force", "definition": "The perpendicular contact force a surface exerts on an object to prevent the object from passing through it." },
-    { "term": "Tension", "definition": "The pulling force exerted by a string, rope, or cable; an ideal massless string has the same tension throughout." },
-    { "term": "Static friction", "definition": "The friction force between surfaces not sliding relative to each other; it adjusts in size up to a maximum of μ_s F_N." },
-    { "term": "Kinetic friction", "definition": "The friction force between surfaces sliding relative to each other, with magnitude μ_k F_N, opposing the relative motion." },
-    { "term": "Coefficient of friction", "definition": "A dimensionless number, μ, characterizing two surfaces; the ratio of the friction force to the normal force." },
-    { "term": "Hooke's law", "definition": "An ideal spring exerts a restoring force proportional to its displacement from equilibrium, F_s = −kΔx." },
-    { "term": "Gravitational field", "definition": "The gravitational force per unit mass at a location, g = GM/r², in N/kg." },
-    { "term": "Weight", "definition": "The gravitational force exerted on an object by a planet, F_g = mg." },
-    { "term": "Apparent weight", "definition": "The normal force (scale reading) on an object, which differs from mg when the object accelerates vertically." },
-    { "term": "Centripetal acceleration", "definition": "The acceleration of an object in circular motion directed toward the center, a_c = v²/r." },
-    { "term": "Centripetal force", "definition": "The net inward force required for circular motion, mv²/r; it is supplied by real forces and is not a separate force." }
+    {
+      "term": "Force",
+      "definition": "A push or pull exerted by one object on another; a vector measured in newtons (N)."
+    },
+    {
+      "term": "Net force",
+      "definition": "The vector sum of all forces exerted on an object or system; equals the mass times the acceleration."
+    },
+    {
+      "term": "System",
+      "definition": "The object or collection of objects chosen for analysis; forces from outside it are external and forces between its parts are internal."
+    },
+    {
+      "term": "Center of mass",
+      "definition": "The mass-weighted average position of a system; it accelerates as if all external forces acted on the total mass there."
+    },
+    {
+      "term": "Free-body diagram",
+      "definition": "A diagram showing the object as a point with an arrow for each force exerted on it, labeled by type and source."
+    },
+    {
+      "term": "Inertia",
+      "definition": "The tendency of an object to resist changes in its velocity; measured by its mass."
+    },
+    {
+      "term": "Newton's first law",
+      "definition": "An object's velocity remains constant unless a nonzero net external force acts on it."
+    },
+    {
+      "term": "Newton's second law",
+      "definition": "The acceleration of a system equals the net external force divided by its mass, ΣF = ma."
+    },
+    {
+      "term": "Newton's third law",
+      "definition": "When A exerts a force on B, B exerts on A a force of equal magnitude and opposite direction, of the same type."
+    },
+    {
+      "term": "Normal force",
+      "definition": "The perpendicular contact force a surface exerts on an object to prevent the object from passing through it."
+    },
+    {
+      "term": "Tension",
+      "definition": "The pulling force exerted by a string, rope, or cable; an ideal massless string has the same tension throughout."
+    },
+    {
+      "term": "Static friction",
+      "definition": "The friction force between surfaces not sliding relative to each other; it adjusts in size up to a maximum of μ_s F_N."
+    },
+    {
+      "term": "Kinetic friction",
+      "definition": "The friction force between surfaces sliding relative to each other, with magnitude μ_k F_N, opposing the relative motion."
+    },
+    {
+      "term": "Coefficient of friction",
+      "definition": "A dimensionless number, μ, characterizing two surfaces; the ratio of the friction force to the normal force."
+    },
+    {
+      "term": "Hooke's law",
+      "definition": "An ideal spring exerts a restoring force proportional to its displacement from equilibrium, F_s = −kΔx."
+    },
+    {
+      "term": "Gravitational field",
+      "definition": "The gravitational force per unit mass at a location, g = GM/r², in N/kg."
+    },
+    {
+      "term": "Weight",
+      "definition": "The gravitational force exerted on an object by a planet, F_g = mg."
+    },
+    {
+      "term": "Apparent weight",
+      "definition": "The normal force (scale reading) on an object, which differs from mg when the object accelerates vertically."
+    },
+    {
+      "term": "Centripetal acceleration",
+      "definition": "The acceleration of an object in circular motion directed toward the center, a_c = v²/r."
+    },
+    {
+      "term": "Centripetal force",
+      "definition": "The net inward force required for circular motion, mv²/r; it is supplied by real forces and is not a separate force."
+    }
   ],
   "practice": [
     {
-      "id": "u2-q01", "type": "mcq", "tier": "Intro", "topic": "Newton's Third Law", "skill": "Scientific Questioning and Argumentation",
+      "id": "u2-q01",
+      "type": "mcq",
+      "tier": "Intro",
+      "topic": "Newton's Third Law",
+      "skill": "Scientific Questioning and Argumentation",
       "stem": "A large truck collides head-on with a small car. During the collision, how does the magnitude of the force the truck exerts on the car compare with the magnitude of the force the car exerts on the truck?",
       "choices": [
-        { "id": "A", "text": "The truck exerts the larger force because it has more mass." },
-        { "id": "B", "text": "The car exerts the larger force because it experiences the larger acceleration." },
-        { "id": "C", "text": "The forces are equal in magnitude." },
-        { "id": "D", "text": "It depends on which vehicle was moving faster." }
+        {
+          "id": "A",
+          "text": "The forces are equal in magnitude."
+        },
+        {
+          "id": "B",
+          "text": "The car exerts the larger force because it experiences the larger acceleration."
+        },
+        {
+          "id": "C",
+          "text": "The truck exerts the larger force because it has more mass."
+        },
+        {
+          "id": "D",
+          "text": "It depends on which vehicle was moving faster."
+        }
       ],
-      "answer": "C",
+      "answer": "A",
       "explanation": "The two forces are a Newton's third-law pair: equal in magnitude, opposite in direction, acting on different objects. The car accelerates more because a = F/m and its mass is smaller.",
       "distractors": {
-        "A": "Confuses mass with force; mass affects acceleration, not the interaction force.",
         "B": "Reverses cause and effect between force and acceleration.",
-        "D": "Speeds affect how large the pair of forces is, but never make them unequal."
+        "D": "Speeds affect how large the pair of forces is, but never make them unequal.",
+        "C": "Confuses mass with force; mass affects acceleration, not the interaction force."
       }
     },
     {
-      "id": "u2-q02", "type": "mcq", "tier": "Intro", "topic": "Newton's Second Law", "skill": "Mathematical Routines",
+      "id": "u2-q02",
+      "type": "mcq",
+      "tier": "Intro",
+      "topic": "Newton's Second Law",
+      "skill": "Mathematical Routines",
       "stem": "A 5.0 kg box is pulled across a horizontal floor by a 30 N horizontal force. The kinetic friction force on the box is 10 N. What is the magnitude of the box's acceleration?",
       "choices": [
-        { "id": "A", "text": "2.0 m/s²" },
-        { "id": "B", "text": "4.0 m/s²" },
-        { "id": "C", "text": "6.0 m/s²" },
-        { "id": "D", "text": "8.0 m/s²" }
+        {
+          "id": "A",
+          "text": "2.0 m/s²"
+        },
+        {
+          "id": "B",
+          "text": "4.0 m/s²"
+        },
+        {
+          "id": "C",
+          "text": "6.0 m/s²"
+        },
+        {
+          "id": "D",
+          "text": "8.0 m/s²"
+        }
       ],
       "answer": "B",
       "explanation": "Net force = 30 − 10 = 20 N. a = ΣF/m = 20/5.0 = 4.0 m/s².",
@@ -112,30 +204,62 @@
       }
     },
     {
-      "id": "u2-q03", "type": "mcq", "tier": "Intro", "topic": "Newton's First Law", "skill": "Scientific Questioning and Argumentation",
+      "id": "u2-q03",
+      "type": "mcq",
+      "tier": "Intro",
+      "topic": "Newton's First Law",
+      "skill": "Scientific Questioning and Argumentation",
       "stem": "An elevator is moving upward at constant speed. How does the tension in the elevator's cable compare with the total weight of the elevator and its contents? (Neglect the cable's mass.)",
       "choices": [
-        { "id": "A", "text": "The tension is greater than the weight, because the elevator is moving upward." },
-        { "id": "B", "text": "The tension equals the weight." },
-        { "id": "C", "text": "The tension is less than the weight." },
-        { "id": "D", "text": "It cannot be determined without the elevator's speed." }
+        {
+          "id": "A",
+          "text": "The tension is greater than the weight, because the elevator is moving upward."
+        },
+        {
+          "id": "B",
+          "text": "It cannot be determined without the elevator's speed."
+        },
+        {
+          "id": "C",
+          "text": "The tension is less than the weight."
+        },
+        {
+          "id": "D",
+          "text": "The tension equals the weight."
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Constant velocity means zero acceleration, so the net force is zero and the upward tension balances the downward weight. The direction of motion does not matter; only acceleration does.",
       "distractors": {
         "A": "The 'motion requires a force' misconception: a larger tension would make the elevator speed up.",
         "C": "A smaller tension would make the elevator slow down.",
-        "D": "At constant velocity the value of the speed is irrelevant."
+        "B": "At constant velocity the value of the speed is irrelevant."
       }
     },
     {
-      "id": "u2-q04", "type": "mcq", "tier": "Intro", "topic": "Gravitational Force", "skill": "Mathematical Routines",
+      "id": "u2-q04",
+      "type": "mcq",
+      "tier": "Intro",
+      "topic": "Gravitational Force",
+      "skill": "Mathematical Routines",
       "stem": "Planet X has twice the mass of Earth and twice Earth's radius. What is the magnitude of the gravitational field at the surface of Planet X?",
       "choices": [
-        { "id": "A", "text": "2.5 m/s²" },
-        { "id": "B", "text": "4.9 m/s²" },
-        { "id": "C", "text": "9.8 m/s²" },
-        { "id": "D", "text": "19.6 m/s²" }
+        {
+          "id": "A",
+          "text": "2.5 m/s²"
+        },
+        {
+          "id": "B",
+          "text": "4.9 m/s²"
+        },
+        {
+          "id": "C",
+          "text": "9.8 m/s²"
+        },
+        {
+          "id": "D",
+          "text": "19.6 m/s²"
+        }
       ],
       "answer": "B",
       "explanation": "g = GM/R². Doubling M multiplies g by 2; doubling R divides g by 4. Net factor 2/4 = ½, so g = 9.8/2 = 4.9 m/s².",
@@ -146,13 +270,29 @@
       }
     },
     {
-      "id": "u2-q05", "type": "mcq", "tier": "Exam level", "topic": "Forces and Free-Body Diagrams", "skill": "Mathematical Routines",
+      "id": "u2-q05",
+      "type": "mcq",
+      "tier": "Exam level",
+      "topic": "Forces and Free-Body Diagrams",
+      "skill": "Mathematical Routines",
       "stem": "A 2.0 kg block slides down a frictionless ramp inclined at 30° above the horizontal. What is the magnitude of the normal force exerted on the block by the ramp?",
       "choices": [
-        { "id": "A", "text": "9.8 N" },
-        { "id": "B", "text": "17 N" },
-        { "id": "C", "text": "20 N" },
-        { "id": "D", "text": "23 N" }
+        {
+          "id": "A",
+          "text": "9.8 N"
+        },
+        {
+          "id": "B",
+          "text": "17 N"
+        },
+        {
+          "id": "C",
+          "text": "20 N"
+        },
+        {
+          "id": "D",
+          "text": "23 N"
+        }
       ],
       "answer": "B",
       "explanation": "There is no acceleration perpendicular to the ramp, so F_N = mg cos 30° = (2.0)(9.8)(0.866) ≈ 17 N.",
@@ -163,13 +303,29 @@
       }
     },
     {
-      "id": "u2-q06", "type": "mcq", "tier": "Exam level", "topic": "Newton's Second Law", "skill": "Mathematical Routines",
+      "id": "u2-q06",
+      "type": "mcq",
+      "tier": "Exam level",
+      "topic": "Newton's Second Law",
+      "skill": "Mathematical Routines",
       "stem": "Block A (3.0 kg) rests on a horizontal frictionless table. A light string attached to A passes over a frictionless pulley at the table's edge and is attached to block B (1.0 kg), which hangs freely. The blocks are released from rest. What is the tension in the string while the blocks move?",
       "choices": [
-        { "id": "A", "text": "2.5 N" },
-        { "id": "B", "text": "7.4 N" },
-        { "id": "C", "text": "9.8 N" },
-        { "id": "D", "text": "29 N" }
+        {
+          "id": "A",
+          "text": "2.5 N"
+        },
+        {
+          "id": "B",
+          "text": "7.4 N"
+        },
+        {
+          "id": "C",
+          "text": "9.8 N"
+        },
+        {
+          "id": "D",
+          "text": "29 N"
+        }
       ],
       "answer": "B",
       "explanation": "System A+B: a = m_B g/(m_A + m_B) = 9.8/4.0 = 2.45 m/s². For A alone, the only horizontal force is tension: F_T = m_A a = 3.0 × 2.45 ≈ 7.4 N. Tension is less than B's weight because B accelerates downward.",
@@ -180,13 +336,29 @@
       }
     },
     {
-      "id": "u2-q07", "type": "mcq", "tier": "Exam level", "topic": "Kinetic and Static Friction", "skill": "Scientific Questioning and Argumentation",
+      "id": "u2-q07",
+      "type": "mcq",
+      "tier": "Exam level",
+      "topic": "Kinetic and Static Friction",
+      "skill": "Scientific Questioning and Argumentation",
       "stem": "A 10 kg crate rests on a level floor. The coefficients of friction between the crate and floor are μ_s = 0.50 and μ_k = 0.30. A worker pushes horizontally on the crate with a 40 N force. What is the magnitude of the friction force on the crate?",
       "choices": [
-        { "id": "A", "text": "0 N" },
-        { "id": "B", "text": "29 N" },
-        { "id": "C", "text": "40 N" },
-        { "id": "D", "text": "49 N" }
+        {
+          "id": "A",
+          "text": "0 N"
+        },
+        {
+          "id": "B",
+          "text": "29 N"
+        },
+        {
+          "id": "C",
+          "text": "40 N"
+        },
+        {
+          "id": "D",
+          "text": "49 N"
+        }
       ],
       "answer": "C",
       "explanation": "Maximum static friction is μ_s mg = 0.50 × 98 = 49 N. The 40 N push is less than that, so the crate does not move, and static friction is exactly as large as needed to balance the push: 40 N.",
@@ -197,13 +369,29 @@
       }
     },
     {
-      "id": "u2-q08", "type": "mcq", "tier": "Exam level", "topic": "Circular Motion", "skill": "Mathematical Routines",
+      "id": "u2-q08",
+      "type": "mcq",
+      "tier": "Exam level",
+      "topic": "Circular Motion",
+      "skill": "Mathematical Routines",
       "stem": "A car drives over the top of a hill whose cross section is a circular arc of radius 40 m. What is the minimum speed at which the car's tires lose contact with the road at the top of the hill?",
       "choices": [
-        { "id": "A", "text": "6.3 m/s" },
-        { "id": "B", "text": "14 m/s" },
-        { "id": "C", "text": "20 m/s" },
-        { "id": "D", "text": "28 m/s" }
+        {
+          "id": "A",
+          "text": "6.3 m/s"
+        },
+        {
+          "id": "B",
+          "text": "14 m/s"
+        },
+        {
+          "id": "C",
+          "text": "20 m/s"
+        },
+        {
+          "id": "D",
+          "text": "28 m/s"
+        }
       ],
       "answer": "C",
       "explanation": "At the top, mg − F_N = mv²/r. Contact is lost when F_N = 0, so v² = gr = 9.8 × 40 = 392 m²/s², v ≈ 20 m/s.",
@@ -214,13 +402,29 @@
       }
     },
     {
-      "id": "u2-q09", "type": "mcq", "tier": "Exam level", "topic": "Newton's Second Law", "skill": "Mathematical Routines",
+      "id": "u2-q09",
+      "type": "mcq",
+      "tier": "Exam level",
+      "topic": "Newton's Second Law",
+      "skill": "Mathematical Routines",
       "stem": "A 60 kg student stands on a scale in an elevator. The elevator is moving downward and slowing down at a rate of 2.0 m/s². What does the scale read?",
       "choices": [
-        { "id": "A", "text": "0 N" },
-        { "id": "B", "text": "470 N" },
-        { "id": "C", "text": "590 N" },
-        { "id": "D", "text": "710 N" }
+        {
+          "id": "A",
+          "text": "0 N"
+        },
+        {
+          "id": "B",
+          "text": "470 N"
+        },
+        {
+          "id": "C",
+          "text": "590 N"
+        },
+        {
+          "id": "D",
+          "text": "710 N"
+        }
       ],
       "answer": "D",
       "explanation": "Moving down and slowing down means the acceleration is upward. ΣF = F_N − mg = ma (up positive): F_N = 60(9.8 + 2.0) = 708 N ≈ 710 N.",
@@ -231,13 +435,29 @@
       }
     },
     {
-      "id": "u2-q10", "type": "mcq", "tier": "Exam level", "topic": "Systems and Center of Mass", "skill": "Mathematical Routines",
+      "id": "u2-q10",
+      "type": "mcq",
+      "tier": "Exam level",
+      "topic": "Systems and Center of Mass",
+      "skill": "Mathematical Routines",
       "stem": "Blocks A (2.0 kg) and B (4.0 kg) are in contact on a horizontal frictionless surface. A horizontal 24 N force pushes on A, which pushes on B. What is the magnitude of the force A exerts on B?",
       "choices": [
-        { "id": "A", "text": "8.0 N" },
-        { "id": "B", "text": "12 N" },
-        { "id": "C", "text": "16 N" },
-        { "id": "D", "text": "24 N" }
+        {
+          "id": "A",
+          "text": "8.0 N"
+        },
+        {
+          "id": "B",
+          "text": "12 N"
+        },
+        {
+          "id": "C",
+          "text": "16 N"
+        },
+        {
+          "id": "D",
+          "text": "24 N"
+        }
       ],
       "answer": "C",
       "explanation": "Whole system: a = 24/6.0 = 4.0 m/s². The only horizontal force on B is from A: F = m_B a = 4.0 × 4.0 = 16 N.",
@@ -248,13 +468,29 @@
       }
     },
     {
-      "id": "u2-q11", "type": "mcq", "tier": "Hardest", "topic": "Kinetic and Static Friction", "skill": "Mathematical Routines",
+      "id": "u2-q11",
+      "type": "mcq",
+      "tier": "Hardest",
+      "topic": "Kinetic and Static Friction",
+      "skill": "Mathematical Routines",
       "stem": "A block is given an initial speed of 6.0 m/s up a ramp inclined at 37° above the horizontal (sin 37° ≈ 0.60, cos 37° ≈ 0.80). Between block and ramp, μ_k = 0.25 and μ_s = 0.40. How far along the ramp does the block travel before stopping, and what happens after it stops?",
       "choices": [
-        { "id": "A", "text": "2.3 m; it then slides back down the ramp." },
-        { "id": "B", "text": "2.3 m; it then remains at rest." },
-        { "id": "C", "text": "3.1 m; it then slides back down the ramp." },
-        { "id": "D", "text": "4.6 m; it then slides back down the ramp." }
+        {
+          "id": "A",
+          "text": "2.3 m; it then slides back down the ramp."
+        },
+        {
+          "id": "B",
+          "text": "2.3 m; it then remains at rest."
+        },
+        {
+          "id": "C",
+          "text": "3.1 m; it then slides back down the ramp."
+        },
+        {
+          "id": "D",
+          "text": "4.6 m; it then slides back down the ramp."
+        }
       ],
       "answer": "A",
       "explanation": "Moving up, gravity's component and kinetic friction both point down the ramp: a = g(sin θ + μ_k cos θ) = 9.8(0.60 + 0.20) = 7.84 m/s². Distance: d = v₀²/(2a) = 36/15.7 = 2.3 m. After stopping, it stays only if mg sin θ ≤ μ_s mg cos θ, i.e., tan θ ≤ μ_s. Here tan 37° = 0.75 > 0.40, so it slides back.",
@@ -265,13 +501,29 @@
       }
     },
     {
-      "id": "u2-q12", "type": "mcq", "tier": "Hardest", "topic": "Circular Motion", "skill": "Mathematical Routines",
+      "id": "u2-q12",
+      "type": "mcq",
+      "tier": "Hardest",
+      "topic": "Circular Motion",
+      "skill": "Mathematical Routines",
       "stem": "A small ball hangs from a light string of length 1.0 m and moves in a horizontal circle at constant speed, with the string making a constant angle of 37° with the vertical (sin 37° ≈ 0.60, cos 37° ≈ 0.80, tan 37° ≈ 0.75). What is the ball's speed?",
       "choices": [
-        { "id": "A", "text": "1.9 m/s" },
-        { "id": "B", "text": "2.1 m/s" },
-        { "id": "C", "text": "2.7 m/s" },
-        { "id": "D", "text": "3.1 m/s" }
+        {
+          "id": "A",
+          "text": "1.9 m/s"
+        },
+        {
+          "id": "B",
+          "text": "2.1 m/s"
+        },
+        {
+          "id": "C",
+          "text": "2.7 m/s"
+        },
+        {
+          "id": "D",
+          "text": "3.1 m/s"
+        }
       ],
       "answer": "B",
       "explanation": "Vertical: F_T cos θ = mg. Horizontal (toward center): F_T sin θ = mv²/r. Dividing: tan θ = v²/(rg). The radius is r = L sin θ = 0.60 m, so v² = (0.60)(9.8)(0.75) = 4.41 m²/s², v = 2.1 m/s.",
@@ -282,13 +534,29 @@
       }
     },
     {
-      "id": "u2-q13", "type": "mcq", "tier": "Hardest", "topic": "Kinetic and Static Friction", "skill": "Mathematical Routines",
+      "id": "u2-q13",
+      "type": "mcq",
+      "tier": "Hardest",
+      "topic": "Kinetic and Static Friction",
+      "skill": "Mathematical Routines",
       "stem": "A 5.0 kg box is pulled across a horizontal floor by a rope that exerts a 50 N force directed 37° above the horizontal (sin 37° ≈ 0.60, cos 37° ≈ 0.80). The coefficient of kinetic friction is 0.40. What is the magnitude of the box's acceleration?",
       "choices": [
-        { "id": "A", "text": "1.7 m/s²" },
-        { "id": "B", "text": "4.1 m/s²" },
-        { "id": "C", "text": "6.5 m/s²" },
-        { "id": "D", "text": "8.0 m/s²" }
+        {
+          "id": "A",
+          "text": "1.7 m/s²"
+        },
+        {
+          "id": "B",
+          "text": "4.1 m/s²"
+        },
+        {
+          "id": "C",
+          "text": "6.5 m/s²"
+        },
+        {
+          "id": "D",
+          "text": "8.0 m/s²"
+        }
       ],
       "answer": "C",
       "explanation": "Vertical: F_N + 50(0.60) = 49 → F_N = 19 N. Friction = 0.40 × 19 = 7.6 N. Horizontal: 50(0.80) − 7.6 = 5.0a → a = 32.4/5.0 ≈ 6.5 m/s².",
@@ -299,13 +567,29 @@
       }
     },
     {
-      "id": "u2-q14", "type": "mcq", "tier": "Hardest", "topic": "Kinetic and Static Friction", "skill": "Scientific Questioning and Argumentation",
+      "id": "u2-q14",
+      "type": "mcq",
+      "tier": "Hardest",
+      "topic": "Kinetic and Static Friction",
+      "skill": "Scientific Questioning and Argumentation",
       "stem": "A 1.0 kg block rests on top of a 3.0 kg block, which sits on a frictionless horizontal floor. The coefficient of static friction between the blocks is 0.50. A horizontal force F is applied to the bottom block. What is the largest F for which the two blocks accelerate together without the top block slipping?",
       "choices": [
-        { "id": "A", "text": "4.9 N" },
-        { "id": "B", "text": "15 N" },
-        { "id": "C", "text": "20 N" },
-        { "id": "D", "text": "29 N" }
+        {
+          "id": "A",
+          "text": "4.9 N"
+        },
+        {
+          "id": "B",
+          "text": "15 N"
+        },
+        {
+          "id": "C",
+          "text": "20 N"
+        },
+        {
+          "id": "D",
+          "text": "29 N"
+        }
       ],
       "answer": "C",
       "explanation": "The only horizontal force on the top block is static friction, so its maximum acceleration is a = μ_s g = 4.9 m/s². Both blocks share this acceleration: F = (1.0 + 3.0)(4.9) ≈ 20 N.",
@@ -316,30 +600,98 @@
       }
     },
     {
-      "id": "u2-frq1", "type": "frq", "tier": "Exam level", "topic": "Forces and Free-Body Diagrams", "skill": "Creating Representations",
+      "id": "u2-frq1",
+      "type": "frq",
+      "tier": "Exam level",
+      "topic": "Forces and Free-Body Diagrams",
+      "skill": "Creating Representations",
       "frqType": "Translation Between Representations (TBR)",
       "prompt": "A block of mass m is pulled across a rough horizontal floor by a rope. The rope makes a fixed angle θ above the horizontal and exerts a tension of magnitude F_T. In this situation the block moves to the right at constant velocity. The coefficient of kinetic friction between block and floor is μ_k.",
       "parts": [
-        { "label": "A", "prompt": "Draw (describe) a free-body diagram for the block. Represent each force with an arrow starting on the block, labeled with the force's type, and with relative lengths that reflect relative magnitudes.", "points": 3 },
-        { "label": "B", "prompt": "Starting with Newton's second law, derive an expression for μ_k in terms of F_T, θ, m, and physical constants, as appropriate.", "points": 4 },
-        { "label": "C", "prompt": "Now the angle θ is held fixed while the tension F_T is gradually varied from zero (the block need not move at constant velocity). Sketch (describe) a graph of the magnitude of the normal force F_N on the block as a function of F_T, from F_T = 0 until the block is about to leave the floor. Label any intercepts.", "points": 3 },
-        { "label": "D", "prompt": "Explain how the relative lengths of the normal force and gravitational force arrows in your diagram in part A are consistent with your graph in part C.", "points": 2 }
+        {
+          "label": "A",
+          "prompt": "Draw (describe) a free-body diagram for the block. Represent each force with an arrow starting on the block, labeled with the force's type, and with relative lengths that reflect relative magnitudes.",
+          "points": 3
+        },
+        {
+          "label": "B",
+          "prompt": "Starting with Newton's second law, derive an expression for μ_k in terms of F_T, θ, m, and physical constants, as appropriate.",
+          "points": 4
+        },
+        {
+          "label": "C",
+          "prompt": "Now the angle θ is held fixed while the tension F_T is gradually varied from zero (the block need not move at constant velocity). Sketch (describe) a graph of the magnitude of the normal force F_N on the block as a function of F_T, from F_T = 0 until the block is about to leave the floor. Label any intercepts.",
+          "points": 3
+        },
+        {
+          "label": "D",
+          "prompt": "Explain how the relative lengths of the normal force and gravitational force arrows in your diagram in part A are consistent with your graph in part C.",
+          "points": 2
+        }
       ],
       "points": 12,
       "minutes": 25,
       "rubric": [
-        { "criterion": "A1: Correct forces", "points": 1, "description": "Shows gravitational force (down), normal force (up), tension (up and to the right at θ), and kinetic friction (to the left), each labeled." },
-        { "criterion": "A2: No extraneous forces", "points": 1, "description": "No 'applied', 'motion', or 'net' force arrows beyond the four real forces." },
-        { "criterion": "A3: Relative lengths", "points": 1, "description": "Normal force shorter than gravitational force, and friction's length equal to the horizontal component of tension (balanced horizontally)." },
-        { "criterion": "B1: Starts with Newton's second law", "points": 1, "description": "Writes ΣF = ma with a = 0 (or ΣF = 0) for at least one axis." },
-        { "criterion": "B2: Vertical equation", "points": 1, "description": "F_N + F_T sin θ − mg = 0, so F_N = mg − F_T sin θ." },
-        { "criterion": "B3: Horizontal equation", "points": 1, "description": "F_T cos θ − μ_k F_N = 0, using f_k = μ_k F_N." },
-        { "criterion": "B4: Correct expression", "points": 1, "description": "μ_k = F_T cos θ / (mg − F_T sin θ)." },
-        { "criterion": "C1: Intercept at mg", "points": 1, "description": "Graph starts at F_N = mg when F_T = 0." },
-        { "criterion": "C2: Linear decrease", "points": 1, "description": "Graph is a straight line with negative slope (slope −sin θ)." },
-        { "criterion": "C3: Horizontal intercept", "points": 1, "description": "F_N reaches zero at F_T = mg/sin θ, and the graph ends there." },
-        { "criterion": "D1: Consistency claim", "points": 1, "description": "States that the diagram's F_N < F_g corresponds to a nonzero F_T on the graph, where F_N lies below mg." },
-        { "criterion": "D2: Physical reasoning", "points": 1, "description": "Explains that the rope's upward component supports part of the weight, so the floor must push up less; the larger F_T, the smaller F_N." }
+        {
+          "criterion": "A1: Correct forces",
+          "points": 1,
+          "description": "Shows gravitational force (down), normal force (up), tension (up and to the right at θ), and kinetic friction (to the left), each labeled."
+        },
+        {
+          "criterion": "A2: No extraneous forces",
+          "points": 1,
+          "description": "No 'applied', 'motion', or 'net' force arrows beyond the four real forces."
+        },
+        {
+          "criterion": "A3: Relative lengths",
+          "points": 1,
+          "description": "Normal force shorter than gravitational force, and friction's length equal to the horizontal component of tension (balanced horizontally)."
+        },
+        {
+          "criterion": "B1: Starts with Newton's second law",
+          "points": 1,
+          "description": "Writes ΣF = ma with a = 0 (or ΣF = 0) for at least one axis."
+        },
+        {
+          "criterion": "B2: Vertical equation",
+          "points": 1,
+          "description": "F_N + F_T sin θ − mg = 0, so F_N = mg − F_T sin θ."
+        },
+        {
+          "criterion": "B3: Horizontal equation",
+          "points": 1,
+          "description": "F_T cos θ − μ_k F_N = 0, using f_k = μ_k F_N."
+        },
+        {
+          "criterion": "B4: Correct expression",
+          "points": 1,
+          "description": "μ_k = F_T cos θ / (mg − F_T sin θ)."
+        },
+        {
+          "criterion": "C1: Intercept at mg",
+          "points": 1,
+          "description": "Graph starts at F_N = mg when F_T = 0."
+        },
+        {
+          "criterion": "C2: Linear decrease",
+          "points": 1,
+          "description": "Graph is a straight line with negative slope (slope −sin θ)."
+        },
+        {
+          "criterion": "C3: Horizontal intercept",
+          "points": 1,
+          "description": "F_N reaches zero at F_T = mg/sin θ, and the graph ends there."
+        },
+        {
+          "criterion": "D1: Consistency claim",
+          "points": 1,
+          "description": "States that the diagram's F_N < F_g corresponds to a nonzero F_T on the graph, where F_N lies below mg."
+        },
+        {
+          "criterion": "D2: Physical reasoning",
+          "points": 1,
+          "description": "Explains that the rope's upward component supports part of the weight, so the floor must push up less; the larger F_T, the smaller F_N."
+        }
       ],
       "sampleResponse": "**A.** Four arrows from a dot: F_g (gravitational force by Earth) straight down, the longest vertical arrow; F_N (normal force by floor) straight up, noticeably shorter than F_g; F_T (tension by rope) up and to the right at angle θ above horizontal; f_k (kinetic friction by floor) to the left, with length equal to the horizontal part of F_T.\n\n**B.** ΣF = ma, and a = 0 (constant velocity).\nVertical: F_N + F_T sin θ − mg = 0 → F_N = mg − F_T sin θ.\nHorizontal: F_T cos θ − f_k = 0, with f_k = μ_k F_N → F_T cos θ = μ_k(mg − F_T sin θ).\n**μ_k = F_T cos θ / (mg − F_T sin θ).**\n\n**C.** F_N = mg − (sin θ)F_T. The graph is a straight line starting at (0, mg) and decreasing with slope −sin θ until it reaches F_N = 0 at F_T = mg/sin θ, where the block is about to leave the floor.\n\n**D.** In part A the block is pulled with a nonzero tension, so on the graph we are at some F_T > 0, where F_N is below the intercept mg. That matches drawing F_N shorter than F_g: the upward component of the rope's pull supports part of the block's weight, so the floor needs to push up less."
     }

@@ -45,218 +45,531 @@
     "cramSheet": "**Scope:** random sample → population · random assignment → cause\n\n**Sampling:** SRS · stratified (similar within, SRS each) · cluster (whole groups) · systematic (every kth)\n\n**Bias:** undercoverage · nonresponse · response (wording) · voluntary · convenience · state direction\n\n**Experiment:** compare · randomly assign · control · replicate\n\n**Designs:** completely randomized · block (similar units) · matched pairs\n\n**Blinding:** single/double · placebo effect"
   },
   "vocab": [
-    { "term": "Observational study", "definition": "A study that observes individuals and measures variables without imposing treatments." },
-    { "term": "Experiment", "definition": "A study that deliberately imposes treatments on individuals to measure responses." },
-    { "term": "Confounding", "definition": "When two variables' effects on a response cannot be distinguished." },
-    { "term": "Simple random sample (SRS)", "definition": "A sample in which every group of n individuals has an equal chance to be selected." },
-    { "term": "Stratified random sample", "definition": "Separate SRSs from each of several homogeneous groups (strata)." },
-    { "term": "Cluster sample", "definition": "A sample formed by randomly selecting entire groups (clusters)." },
-    { "term": "Undercoverage", "definition": "Bias when some members of the population are less likely to be included in the sample." },
-    { "term": "Nonresponse bias", "definition": "Bias when selected individuals cannot be contacted or refuse to participate." },
-    { "term": "Response bias", "definition": "Bias when responses are systematically inaccurate due to wording, interviewer, or sensitivity." },
-    { "term": "Random assignment", "definition": "Using a chance process to assign experimental units to treatments." },
-    { "term": "Randomized block design", "definition": "Units grouped into blocks of similar units, with random assignment of treatments within each block." },
-    { "term": "Matched pairs design", "definition": "A design comparing two treatments within pairs of similar units or within each subject." }
+    {
+      "term": "Observational study",
+      "definition": "A study that observes individuals and measures variables without imposing treatments."
+    },
+    {
+      "term": "Experiment",
+      "definition": "A study that deliberately imposes treatments on individuals to measure responses."
+    },
+    {
+      "term": "Confounding",
+      "definition": "When two variables' effects on a response cannot be distinguished."
+    },
+    {
+      "term": "Simple random sample (SRS)",
+      "definition": "A sample in which every group of n individuals has an equal chance to be selected."
+    },
+    {
+      "term": "Stratified random sample",
+      "definition": "Separate SRSs from each of several homogeneous groups (strata)."
+    },
+    {
+      "term": "Cluster sample",
+      "definition": "A sample formed by randomly selecting entire groups (clusters)."
+    },
+    {
+      "term": "Undercoverage",
+      "definition": "Bias when some members of the population are less likely to be included in the sample."
+    },
+    {
+      "term": "Nonresponse bias",
+      "definition": "Bias when selected individuals cannot be contacted or refuse to participate."
+    },
+    {
+      "term": "Response bias",
+      "definition": "Bias when responses are systematically inaccurate due to wording, interviewer, or sensitivity."
+    },
+    {
+      "term": "Random assignment",
+      "definition": "Using a chance process to assign experimental units to treatments."
+    },
+    {
+      "term": "Randomized block design",
+      "definition": "Units grouped into blocks of similar units, with random assignment of treatments within each block."
+    },
+    {
+      "term": "Matched pairs design",
+      "definition": "A design comparing two treatments within pairs of similar units or within each subject."
+    }
   ],
   "practice": [
     {
-      "id": "u3-q01", "tier": "Intro", "type": "mcq", "topic": "3.2 Introduction to Planning a Study", "skill": "1. Selecting Statistical Methods",
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.2 Introduction to Planning a Study",
+      "skill": "1. Selecting Statistical Methods",
       "stem": "Researchers review medical records and find that people who drink green tea daily have lower blood pressure. This is",
       "choices": [
-        { "id": "A", "text": "an experiment, so green tea lowers blood pressure" },
-        { "id": "B", "text": "an observational study, so a cause-and-effect conclusion is not justified" },
-        { "id": "C", "text": "a census, so the results apply to everyone" },
-        { "id": "D", "text": "a matched pairs experiment" }
+        {
+          "id": "A",
+          "text": "an experiment, so green tea lowers blood pressure"
+        },
+        {
+          "id": "B",
+          "text": "an observational study, so a cause-and-effect conclusion is not justified"
+        },
+        {
+          "id": "C",
+          "text": "a census, so the results apply to everyone"
+        },
+        {
+          "id": "D",
+          "text": "a matched pairs experiment"
+        }
       ],
       "answer": "B",
       "explanation": "No treatment was imposed; tea drinkers may differ in diet, exercise, or other factors.",
       "distractors": {}
     },
     {
-      "id": "u3-q02", "tier": "Intro", "type": "mcq", "topic": "3.3 Random Sampling and Data Collection", "skill": "1. Selecting Statistical Methods",
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.3 Random Sampling and Data Collection",
+      "skill": "1. Selecting Statistical Methods",
       "stem": "A school selects 4 of its 40 homerooms at random and surveys every student in those homerooms. This is a",
       "choices": [
-        { "id": "A", "text": "stratified random sample" },
-        { "id": "B", "text": "cluster sample" },
-        { "id": "C", "text": "systematic random sample" },
-        { "id": "D", "text": "convenience sample" }
+        {
+          "id": "A",
+          "text": "stratified random sample"
+        },
+        {
+          "id": "B",
+          "text": "systematic random sample"
+        },
+        {
+          "id": "C",
+          "text": "cluster sample"
+        },
+        {
+          "id": "D",
+          "text": "convenience sample"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Entire groups (homerooms) are randomly selected.",
-      "distractors": { "A": "Would sample some students from every homeroom." }
+      "distractors": {
+        "A": "Would sample some students from every homeroom."
+      }
     },
     {
-      "id": "u3-q03", "tier": "Intro", "type": "mcq", "topic": "3.4 Potential Problems with Sampling", "skill": "4. Statistical Argumentation",
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.4 Potential Problems with Sampling",
+      "skill": "4. Statistical Argumentation",
       "stem": "A radio host asks listeners to call in and say whether they support a new tax. Most callers oppose it. The main problem is",
       "choices": [
-        { "id": "A", "text": "voluntary response bias, because people with strong opinions are more likely to call" },
-        { "id": "B", "text": "the sample is too large" },
-        { "id": "C", "text": "stratification by station" },
-        { "id": "D", "text": "random assignment was not used" }
+        {
+          "id": "A",
+          "text": "random assignment was not used"
+        },
+        {
+          "id": "B",
+          "text": "the sample is too large"
+        },
+        {
+          "id": "C",
+          "text": "stratification by station"
+        },
+        {
+          "id": "D",
+          "text": "voluntary response bias, because people with strong opinions are more likely to call"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Self-selected respondents overrepresent strong (often negative) opinions.",
       "distractors": {}
     },
     {
-      "id": "u3-q04", "tier": "Intro", "type": "mcq", "topic": "3.5 Introduction to Experimental Design", "skill": "1. Selecting Statistical Methods",
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.5 Introduction to Experimental Design",
+      "skill": "1. Selecting Statistical Methods",
       "stem": "In an experiment, the main purpose of random assignment of subjects to treatments is to",
       "choices": [
-        { "id": "A", "text": "allow results to be generalized to a larger population" },
-        { "id": "B", "text": "create treatment groups that are roughly equivalent, so differences in response can be attributed to the treatments" },
-        { "id": "C", "text": "eliminate the placebo effect" },
-        { "id": "D", "text": "increase the sample size" }
-      ],
-      "answer": "B",
-      "explanation": "Randomization balances the effects of other variables across groups on average.",
-      "distractors": { "A": "That requires random sampling." }
-    },
-    {
-      "id": "u3-q05", "tier": "Exam level", "type": "mcq", "topic": "3.4 Potential Problems with Sampling", "skill": "4. Statistical Argumentation",
-      "stem": "To estimate average weekly hours of exercise among adults in a city, researchers survey people leaving a downtown gym at 6 p.m. The estimate is most likely",
-      "choices": [
-        { "id": "A", "text": "too high, because people at a gym exercise more than typical adults" },
-        { "id": "B", "text": "too low, because people are tired after exercising" },
-        { "id": "C", "text": "unbiased, because the sample is random" },
-        { "id": "D", "text": "unbiased if the sample size is large enough" }
+        {
+          "id": "A",
+          "text": "create treatment groups that are roughly equivalent, so differences in response can be attributed to the treatments"
+        },
+        {
+          "id": "B",
+          "text": "allow results to be generalized to a larger population"
+        },
+        {
+          "id": "C",
+          "text": "eliminate the placebo effect"
+        },
+        {
+          "id": "D",
+          "text": "increase the sample size"
+        }
       ],
       "answer": "A",
-      "explanation": "The convenience sample overrepresents frequent exercisers.",
-      "distractors": { "D": "Larger samples don't fix bias." }
+      "explanation": "Randomization balances the effects of other variables across groups on average.",
+      "distractors": {
+        "B": "That requires random sampling."
+      }
     },
     {
-      "id": "u3-q06", "tier": "Exam level", "type": "mcq", "topic": "3.3 Random Sampling and Data Collection", "skill": "1. Selecting Statistical Methods",
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.4 Potential Problems with Sampling",
+      "skill": "4. Statistical Argumentation",
+      "stem": "To estimate average weekly hours of exercise among adults in a city, researchers survey people leaving a downtown gym at 6 p.m. The estimate is most likely",
+      "choices": [
+        {
+          "id": "A",
+          "text": "too low, because people are tired after exercising"
+        },
+        {
+          "id": "B",
+          "text": "too high, because people at a gym exercise more than typical adults"
+        },
+        {
+          "id": "C",
+          "text": "unbiased, because the sample is random"
+        },
+        {
+          "id": "D",
+          "text": "unbiased if the sample size is large enough"
+        }
+      ],
+      "answer": "B",
+      "explanation": "The convenience sample overrepresents frequent exercisers.",
+      "distractors": {
+        "D": "Larger samples don't fix bias."
+      }
+    },
+    {
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.3 Random Sampling and Data Collection",
+      "skill": "1. Selecting Statistical Methods",
       "stem": "A university wants to estimate average student debt. Debt levels differ greatly between undergraduates and graduate students. Which design gives the most precise estimate for a fixed sample size?",
       "choices": [
-        { "id": "A", "text": "An SRS of all students" },
-        { "id": "B", "text": "A stratified random sample with undergraduates and graduate students as strata" },
-        { "id": "C", "text": "A cluster sample of dormitories" },
-        { "id": "D", "text": "A sample of students who respond to an email" }
+        {
+          "id": "A",
+          "text": "An SRS of all students"
+        },
+        {
+          "id": "B",
+          "text": "A cluster sample of dormitories"
+        },
+        {
+          "id": "C",
+          "text": "A stratified random sample with undergraduates and graduate students as strata"
+        },
+        {
+          "id": "D",
+          "text": "A sample of students who respond to an email"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Stratifying on a variable related to the response reduces variability of the estimate.",
-      "distractors": { "C": "Dorms are heterogeneous and may exclude graduate students." }
+      "distractors": {
+        "B": "Dorms are heterogeneous and may exclude graduate students."
+      }
     },
     {
-      "id": "u3-q07", "tier": "Exam level", "type": "mcq", "topic": "3.5 Introduction to Experimental Design", "skill": "1. Selecting Statistical Methods",
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.5 Introduction to Experimental Design",
+      "skill": "1. Selecting Statistical Methods",
       "stem": "In a study of a new pain reliever, neither the patients nor the doctors evaluating their pain know which patients received the drug and which received a placebo. This is done to",
       "choices": [
-        { "id": "A", "text": "increase the sample size" },
-        { "id": "B", "text": "prevent expectations of patients and evaluators from influencing the results" },
-        { "id": "C", "text": "ensure random sampling" },
-        { "id": "D", "text": "create blocks" }
+        {
+          "id": "A",
+          "text": "prevent expectations of patients and evaluators from influencing the results"
+        },
+        {
+          "id": "B",
+          "text": "increase the sample size"
+        },
+        {
+          "id": "C",
+          "text": "ensure random sampling"
+        },
+        {
+          "id": "D",
+          "text": "create blocks"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Double blinding reduces bias from the placebo effect and from evaluators' expectations.",
       "distractors": {}
     },
     {
-      "id": "u3-q08", "tier": "Exam level", "type": "mcq", "topic": "3.6 Selecting an Experimental Design", "skill": "1. Selecting Statistical Methods",
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.6 Selecting an Experimental Design",
+      "skill": "1. Selecting Statistical Methods",
       "stem": "A researcher tests two sunscreens. Each of 30 volunteers applies sunscreen A to one forearm and B to the other, with the arm chosen by a coin flip. This design is",
       "choices": [
-        { "id": "A", "text": "completely randomized" },
-        { "id": "B", "text": "matched pairs" },
-        { "id": "C", "text": "an observational study" },
-        { "id": "D", "text": "a cluster sample" }
+        {
+          "id": "A",
+          "text": "completely randomized"
+        },
+        {
+          "id": "B",
+          "text": "a cluster sample"
+        },
+        {
+          "id": "C",
+          "text": "an observational study"
+        },
+        {
+          "id": "D",
+          "text": "matched pairs"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Each subject receives both treatments, with random assignment of arms.",
       "distractors": {}
     },
     {
-      "id": "u3-q09", "tier": "Exam level", "type": "mcq", "topic": "3.7 Inference and Experiments", "skill": "4. Statistical Argumentation",
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.7 Inference and Experiments",
+      "skill": "4. Statistical Argumentation",
       "stem": "Volunteers from a single gym are randomly assigned to two diets, and Diet A produces significantly greater weight loss. Which conclusion is justified?",
       "choices": [
-        { "id": "A", "text": "Diet A causes greater weight loss for all adults." },
-        { "id": "B", "text": "Diet A causes greater weight loss for volunteers like those in the study, but results may not generalize to all adults." },
-        { "id": "C", "text": "No cause-and-effect conclusion is possible." },
-        { "id": "D", "text": "The results apply to all gym members nationwide." }
+        {
+          "id": "A",
+          "text": "Diet A causes greater weight loss for all adults."
+        },
+        {
+          "id": "B",
+          "text": "No cause-and-effect conclusion is possible."
+        },
+        {
+          "id": "C",
+          "text": "Diet A causes greater weight loss for volunteers like those in the study, but results may not generalize to all adults."
+        },
+        {
+          "id": "D",
+          "text": "The results apply to all gym members nationwide."
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Random assignment supports causation; lack of random sampling limits generalization.",
       "distractors": {}
     },
     {
-      "id": "u3-q10", "tier": "Exam level", "type": "mcq", "topic": "3.4 Potential Problems with Sampling", "skill": "4. Statistical Argumentation",
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.4 Potential Problems with Sampling",
+      "skill": "4. Statistical Argumentation",
       "stem": "A survey asks, \"Do you agree that the city should stop wasting money on its failing bus system?\" The question is likely to produce",
       "choices": [
-        { "id": "A", "text": "undercoverage" },
-        { "id": "B", "text": "response bias from loaded wording that pushes respondents toward agreement" },
-        { "id": "C", "text": "nonresponse bias" },
-        { "id": "D", "text": "no bias, because the question is clear" }
+        {
+          "id": "A",
+          "text": "response bias from loaded wording that pushes respondents toward agreement"
+        },
+        {
+          "id": "B",
+          "text": "undercoverage"
+        },
+        {
+          "id": "C",
+          "text": "nonresponse bias"
+        },
+        {
+          "id": "D",
+          "text": "no bias, because the question is clear"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "'Wasting' and 'failing' lead respondents toward one answer.",
       "distractors": {}
     },
     {
-      "id": "u3-q11", "tier": "Hardest", "type": "mcq", "topic": "3.6 Selecting an Experimental Design", "skill": "1. Selecting Statistical Methods",
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.6 Selecting an Experimental Design",
+      "skill": "1. Selecting Statistical Methods",
       "stem": "An agronomist compares two fertilizers on 20 plots. Ten plots are on a hillside with poor soil and ten are in a fertile valley. Which design is best, and why?",
       "choices": [
-        { "id": "A", "text": "Completely randomized, because randomization handles everything" },
-        { "id": "B", "text": "Block by location and randomly assign each fertilizer to 5 plots within each block, because soil quality affects yield and blocking removes that source of variability from the comparison" },
-        { "id": "C", "text": "Put fertilizer A on the hillside and B in the valley" },
-        { "id": "D", "text": "Use only the valley plots to avoid variability" }
+        {
+          "id": "A",
+          "text": "Completely randomized, because randomization handles everything"
+        },
+        {
+          "id": "B",
+          "text": "Use only the valley plots to avoid variability"
+        },
+        {
+          "id": "C",
+          "text": "Put fertilizer A on the hillside and B in the valley"
+        },
+        {
+          "id": "D",
+          "text": "Block by location and randomly assign each fertilizer to 5 plots within each block, because soil quality affects yield and blocking removes that source of variability from the comparison"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Blocking on a variable that affects the response makes treatment differences easier to detect.",
-      "distractors": { "C": "Confounds fertilizer with location.", "A": "Valid but less precise." }
+      "distractors": {
+        "C": "Confounds fertilizer with location.",
+        "A": "Valid but less precise."
+      }
     },
     {
-      "id": "u3-q12", "tier": "Hardest", "type": "mcq", "topic": "3.4 Potential Problems with Sampling", "skill": "4. Statistical Argumentation",
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.4 Potential Problems with Sampling",
+      "skill": "4. Statistical Argumentation",
       "stem": "A random sample of 2,000 households is selected from a landline telephone directory to estimate the proportion of adults under 30 who rent their homes. Which is the most serious problem?",
       "choices": [
-        { "id": "A", "text": "Undercoverage: younger adults, who are more likely to rent, are less likely to have landlines, so the proportion would likely be underestimated" },
-        { "id": "B", "text": "The sample is too small" },
-        { "id": "C", "text": "Response bias from question wording" },
-        { "id": "D", "text": "The estimate will be unbiased because the sample is random" }
+        {
+          "id": "A",
+          "text": "The sample is too small"
+        },
+        {
+          "id": "B",
+          "text": "Undercoverage: younger adults, who are more likely to rent, are less likely to have landlines, so the proportion would likely be underestimated"
+        },
+        {
+          "id": "C",
+          "text": "Response bias from question wording"
+        },
+        {
+          "id": "D",
+          "text": "The estimate will be unbiased because the sample is random"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The sampling frame systematically excludes the group of interest, and the bias has a predictable direction.",
-      "distractors": { "D": "Random selection from a flawed frame is still biased." }
+      "distractors": {
+        "D": "Random selection from a flawed frame is still biased."
+      }
     },
     {
-      "id": "u3-q13", "tier": "Hardest", "type": "mcq", "topic": "3.5 Introduction to Experimental Design", "skill": "4. Statistical Argumentation",
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.5 Introduction to Experimental Design",
+      "skill": "4. Statistical Argumentation",
       "stem": "A study finds that students who take music lessons have higher math grades. A school wants to conclude that music lessons improve math. Which is the best design to test this?",
       "choices": [
-        { "id": "A", "text": "Compare math grades of students who choose to take lessons with those who don't" },
-        { "id": "B", "text": "Randomly assign volunteer students to receive music lessons or a comparable non-music activity, then compare math grade changes" },
-        { "id": "C", "text": "Survey parents about whether music helps math" },
-        { "id": "D", "text": "Take a census of all students' grades" }
+        {
+          "id": "A",
+          "text": "Randomly assign volunteer students to receive music lessons or a comparable non-music activity, then compare math grade changes"
+        },
+        {
+          "id": "B",
+          "text": "Compare math grades of students who choose to take lessons with those who don't"
+        },
+        {
+          "id": "C",
+          "text": "Survey parents about whether music helps math"
+        },
+        {
+          "id": "D",
+          "text": "Take a census of all students' grades"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Random assignment with a comparison activity controls for confounders such as family income and motivation.",
-      "distractors": { "A": "Still observational; confounding remains." }
+      "distractors": {
+        "B": "Still observational; confounding remains."
+      }
     },
     {
-      "id": "u3-q14", "tier": "Hardest", "type": "mcq", "topic": "3.7 Inference and Experiments", "skill": "4. Statistical Argumentation",
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.7 Inference and Experiments",
+      "skill": "4. Statistical Argumentation",
       "stem": "In a randomized experiment, the difference in mean recovery time between a treatment and control group is 'statistically significant.' This means",
       "choices": [
-        { "id": "A", "text": "the difference is large enough to be important to patients" },
-        { "id": "B", "text": "a difference this large would be unlikely to occur by chance alone from random assignment if the treatment had no effect" },
-        { "id": "C", "text": "the treatment works for every patient" },
-        { "id": "D", "text": "the results can be generalized to all patients" }
+        {
+          "id": "A",
+          "text": "the difference is large enough to be important to patients"
+        },
+        {
+          "id": "B",
+          "text": "the treatment works for every patient"
+        },
+        {
+          "id": "C",
+          "text": "a difference this large would be unlikely to occur by chance alone from random assignment if the treatment had no effect"
+        },
+        {
+          "id": "D",
+          "text": "the results can be generalized to all patients"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Statistical significance is about chance variation, not practical importance or generalization.",
-      "distractors": { "A": "Practical significance is separate." }
+      "distractors": {
+        "A": "Practical significance is separate."
+      }
     },
     {
-      "id": "u3-frq1", "tier": "Exam level", "type": "frq", "topic": "3.6 Selecting an Experimental Design", "frqType": "Short FRQ (Q1–Q5)",
+      "id": "u3-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "3.6 Selecting an Experimental Design",
+      "frqType": "Short FRQ (Q1–Q5)",
       "prompt": "A company has developed a new app intended to improve sleep quality. Researchers recruit 80 adult volunteers: 40 who work night shifts and 40 who work day shifts. Each volunteer will use either the new app or a standard relaxation-audio app for four weeks, and sleep quality will be measured on a 0–100 scale.",
       "parts": [
-        { "label": "a", "prompt": "Identify the treatments and the response variable.", "points": 1 },
-        { "label": "b", "prompt": "Describe how to carry out a randomized block design for this study, including how treatments are assigned.", "points": 1 },
-        { "label": "c", "prompt": "Explain why blocking by shift type is beneficial.", "points": 1 },
-        { "label": "d", "prompt": "If the new app performs significantly better, to what population can the result be generalized? Explain.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Identify the treatments and the response variable.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Describe how to carry out a randomized block design for this study, including how treatments are assigned.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Explain why blocking by shift type is beneficial.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "If the new app performs significantly better, to what population can the result be generalized? Explain.",
+          "points": 1
+        }
       ],
       "points": 4,
       "minutes": 13,
       "rubric": [
-        { "criterion": "a: Components", "points": 1, "description": "Treatments: new sleep app and standard relaxation app. Response: sleep quality score after 4 weeks." },
-        { "criterion": "b: Block design", "points": 1, "description": "Blocks by shift (night/day). Within each block, number the 40 volunteers 1–40, use a random number generator to select 20 distinct numbers for the new app; the other 20 get the standard app. Compare results within blocks." },
-        { "criterion": "c: Why block", "points": 1, "description": "Shift type likely affects sleep quality (night workers likely sleep worse); blocking accounts for this source of variability, making it easier to detect a difference between apps." },
-        { "criterion": "d: Scope", "points": 1, "description": "Cause-and-effect can be concluded (random assignment), but only for volunteers similar to these, since they were not randomly sampled from a larger population." }
+        {
+          "criterion": "a: Components",
+          "points": 1,
+          "description": "Treatments: new sleep app and standard relaxation app. Response: sleep quality score after 4 weeks."
+        },
+        {
+          "criterion": "b: Block design",
+          "points": 1,
+          "description": "Blocks by shift (night/day). Within each block, number the 40 volunteers 1–40, use a random number generator to select 20 distinct numbers for the new app; the other 20 get the standard app. Compare results within blocks."
+        },
+        {
+          "criterion": "c: Why block",
+          "points": 1,
+          "description": "Shift type likely affects sleep quality (night workers likely sleep worse); blocking accounts for this source of variability, making it easier to detect a difference between apps."
+        },
+        {
+          "criterion": "d: Scope",
+          "points": 1,
+          "description": "Cause-and-effect can be concluded (random assignment), but only for volunteers similar to these, since they were not randomly sampled from a larger population."
+        }
       ],
       "sampleResponse": "(a) The treatments are the new sleep app and the standard relaxation-audio app. The response variable is the volunteer's sleep quality score (0–100) at the end of four weeks.\n\n(b) Separate the volunteers into two blocks: 40 night-shift workers and 40 day-shift workers. Within the night-shift block, assign each volunteer a number from 1 to 40. Use a random number generator to select 20 different numbers; those volunteers use the new app, and the remaining 20 use the standard app. Repeat independently in the day-shift block. After four weeks, compare mean sleep quality scores for the two apps within each block, then combine the comparisons.\n\n(c) Shift type is likely to affect sleep quality, since night-shift workers sleep against their natural rhythms. Blocking ensures each app is tested equally in both groups and removes variation due to shift type from the comparison, making a real difference between the apps easier to detect.\n\n(d) Because volunteers were randomly assigned to apps, we could conclude the new app causes better sleep quality. However, they were volunteers, not a random sample, so the result can only be generalized to adults similar to these volunteers."
     }

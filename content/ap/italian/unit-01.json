@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Il ruolo dei nonni nella cura quotidiana dei nipoti"
+          "text": "La scuola a Bari"
         },
         {
           "id": "B",
@@ -106,14 +106,14 @@
         },
         {
           "id": "C",
-          "text": "La scuola a Bari"
+          "text": "Il ruolo dei nonni nella cura quotidiana dei nipoti"
         },
         {
           "id": "D",
           "text": "Il lavoro dei giovani"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Grandparents as caregivers.",
       "distractors": {}
     },
@@ -128,11 +128,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Perché gli asili pubblici non bastano e quelli privati sono cari"
+          "text": "Perché i nonni sono insegnanti"
         },
         {
           "id": "B",
-          "text": "Perché i nonni sono insegnanti"
+          "text": "Perché gli asili pubblici non bastano e quelli privati sono cari"
         },
         {
           "id": "C",
@@ -143,7 +143,7 @@
           "text": "Perché i bambini non vanno a scuola"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -158,7 +158,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Che a volte vorrebbe viaggiare, ma non riesce a dire di no alla figlia"
+          "text": "Che vive lontano dalla famiglia"
         },
         {
           "id": "B",
@@ -170,10 +170,10 @@
         },
         {
           "id": "D",
-          "text": "Che vive lontano dalla famiglia"
+          "text": "Che a volte vorrebbe viaggiare, ma non riesce a dire di no alla figlia"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Ambivalence.",
       "distractors": {}
     },
@@ -218,7 +218,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Meno nonni disponibili e più anziani bisognosi di assistenza"
+          "text": "La fine dei servizi pubblici"
         },
         {
           "id": "B",
@@ -230,10 +230,10 @@
         },
         {
           "id": "D",
-          "text": "La fine dei servizi pubblici"
+          "text": "Meno nonni disponibili e più anziani bisognosi di assistenza"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Demographic change.",
       "distractors": {}
     },
@@ -248,11 +248,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Da un messaggio di un vicino in un gruppo online"
+          "text": "Da un progetto del Comune"
         },
         {
           "id": "B",
-          "text": "Da un progetto del Comune"
+          "text": "Da un messaggio di un vicino in un gruppo online"
         },
         {
           "id": "C",
@@ -263,7 +263,7 @@
           "text": "Da un'associazione commerciale"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Online group.",
       "distractors": {}
     },
@@ -278,7 +278,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Si prestano oggetti, si scambiano libri e organizzano cene"
+          "text": "Pagano una quota mensile"
         },
         {
           "id": "B",
@@ -286,14 +286,14 @@
         },
         {
           "id": "C",
-          "text": "Pagano una quota mensile"
+          "text": "Si prestano oggetti, si scambiano libri e organizzano cene"
         },
         {
           "id": "D",
           "text": "Fanno manifestazioni politiche"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Her examples.",
       "distractors": {}
     },
@@ -368,11 +368,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Come avete coinvolto le persone che non usano i social network?"
+          "text": "Qual è il suo colore preferito?"
         },
         {
           "id": "B",
-          "text": "Qual è il suo colore preferito?"
+          "text": "Come avete coinvolto le persone che non usano i social network?"
         },
         {
           "id": "C",
@@ -383,7 +383,7 @@
           "text": "È mai stata in Giappone?"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "On topic.",
       "distractors": {}
     },
@@ -398,7 +398,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Qualcosa da mangiare o da bere da condividere"
+          "text": "Un biglietto d'ingresso"
         },
         {
           "id": "B",
@@ -410,10 +410,10 @@
         },
         {
           "id": "D",
-          "text": "Un biglietto d'ingresso"
+          "text": "Qualcosa da mangiare o da bere da condividere"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -428,7 +428,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Nella palestra della scuola media"
+          "text": "In chiesa"
         },
         {
           "id": "B",
@@ -436,14 +436,14 @@
         },
         {
           "id": "C",
-          "text": "In chiesa"
+          "text": "Nella palestra della scuola media"
         },
         {
           "id": "D",
           "text": "Sarà annullata"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Rain plan.",
       "distractors": {}
     },
@@ -458,7 +458,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Per sapere che cosa porterà ciascuno e organizzarsi meglio"
+          "text": "Per controllare i documenti"
         },
         {
           "id": "B",
@@ -466,14 +466,14 @@
         },
         {
           "id": "C",
-          "text": "Per controllare i documenti"
+          "text": "Per sapere che cosa porterà ciascuno e organizzarsi meglio"
         },
         {
           "id": "D",
           "text": "Per votare il comitato"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "'Per organizzarci meglio.'",
       "distractors": {}
     },

@@ -45,226 +45,550 @@
     "cramSheet": "**Waves:** v = fλ · transverse vs longitudinal · I ∝ 1/r² · beats |f₁ − f₂|\n\n**Doppler:** approach ↑f · recede ↓f\n\n**Standing:** string/open λ = 2L/n · closed λ = 4L/n (odd n)\n\n**Interference:** Δpath = mλ bright · (m + ½)λ dark\n\n**Double slit:** d sin θ = mλ · Δy = λL/d\n\n**Grating:** same equation, sharper maxima\n\n**Thin film:** phase shift at higher n · one shift: 2nt = (m + ½)λ bright"
   },
   "vocab": [
-    { "term": "Wavelength", "definition": "The distance between successive identical points on a wave." },
-    { "term": "Frequency", "definition": "The number of wave cycles per second, set by the source." },
-    { "term": "Standing wave", "definition": "A wave pattern with fixed nodes and antinodes formed by interference of opposite-traveling waves." },
-    { "term": "Node", "definition": "A point in a standing wave with zero displacement." },
-    { "term": "Harmonic", "definition": "A standing-wave frequency that is an integer multiple of the fundamental." },
-    { "term": "Doppler effect", "definition": "The change in observed frequency due to relative motion of source and observer." },
-    { "term": "Beats", "definition": "Periodic variation in loudness from two slightly different frequencies." },
-    { "term": "Constructive interference", "definition": "Superposition producing increased amplitude when waves are in phase." },
-    { "term": "Diffraction", "definition": "The spreading of waves through an opening or around an obstacle." },
-    { "term": "Diffraction grating", "definition": "A surface with many equally spaced slits that produces sharp interference maxima." },
-    { "term": "Path difference", "definition": "The difference in distance traveled by two waves to a point." },
-    { "term": "Thin-film interference", "definition": "Interference of light reflected from the top and bottom surfaces of a thin layer." }
+    {
+      "term": "Wavelength",
+      "definition": "The distance between successive identical points on a wave."
+    },
+    {
+      "term": "Frequency",
+      "definition": "The number of wave cycles per second, set by the source."
+    },
+    {
+      "term": "Standing wave",
+      "definition": "A wave pattern with fixed nodes and antinodes formed by interference of opposite-traveling waves."
+    },
+    {
+      "term": "Node",
+      "definition": "A point in a standing wave with zero displacement."
+    },
+    {
+      "term": "Harmonic",
+      "definition": "A standing-wave frequency that is an integer multiple of the fundamental."
+    },
+    {
+      "term": "Doppler effect",
+      "definition": "The change in observed frequency due to relative motion of source and observer."
+    },
+    {
+      "term": "Beats",
+      "definition": "Periodic variation in loudness from two slightly different frequencies."
+    },
+    {
+      "term": "Constructive interference",
+      "definition": "Superposition producing increased amplitude when waves are in phase."
+    },
+    {
+      "term": "Diffraction",
+      "definition": "The spreading of waves through an opening or around an obstacle."
+    },
+    {
+      "term": "Diffraction grating",
+      "definition": "A surface with many equally spaced slits that produces sharp interference maxima."
+    },
+    {
+      "term": "Path difference",
+      "definition": "The difference in distance traveled by two waves to a point."
+    },
+    {
+      "term": "Thin-film interference",
+      "definition": "Interference of light reflected from the top and bottom surfaces of a thin layer."
+    }
   ],
   "practice": [
     {
-      "id": "u6-q01", "tier": "Intro", "type": "mcq", "topic": "Properties of Waves",
+      "id": "u6-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Properties of Waves",
       "stem": "A sound wave passes from air into water, where it travels faster. Which property changes?",
       "choices": [
-        { "id": "A", "text": "Frequency only" },
-        { "id": "B", "text": "Wavelength (it increases)" },
-        { "id": "C", "text": "Wavelength (it decreases)" },
-        { "id": "D", "text": "Nothing changes" }
+        {
+          "id": "A",
+          "text": "Frequency only"
+        },
+        {
+          "id": "B",
+          "text": "Wavelength (it increases)"
+        },
+        {
+          "id": "C",
+          "text": "Wavelength (it decreases)"
+        },
+        {
+          "id": "D",
+          "text": "Nothing changes"
+        }
       ],
       "answer": "B",
       "explanation": "f stays the same; λ = v/f increases with v.",
       "distractors": {}
     },
     {
-      "id": "u6-q02", "tier": "Intro", "type": "mcq", "topic": "Standing Waves",
+      "id": "u6-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Standing Waves",
       "stem": "A string 0.80 m long is fixed at both ends; waves travel on it at 320 m/s. What is its fundamental frequency?",
       "choices": [
-        { "id": "A", "text": "100 Hz" },
-        { "id": "B", "text": "200 Hz" },
-        { "id": "C", "text": "400 Hz" },
-        { "id": "D", "text": "256 Hz" }
+        {
+          "id": "A",
+          "text": "100 Hz"
+        },
+        {
+          "id": "B",
+          "text": "400 Hz"
+        },
+        {
+          "id": "C",
+          "text": "200 Hz"
+        },
+        {
+          "id": "D",
+          "text": "256 Hz"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "λ₁ = 2L = 1.6 m; f = 320/1.6 = 200 Hz.",
-      "distractors": { "C": "Uses λ = L." }
+      "distractors": {
+        "B": "Uses λ = L."
+      }
     },
     {
-      "id": "u6-q03", "tier": "Intro", "type": "mcq", "topic": "Sound",
+      "id": "u6-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Sound",
       "stem": "A listener moves from 2 m to 4 m away from a small speaker emitting sound uniformly. The intensity becomes",
       "choices": [
-        { "id": "A", "text": "half as large" },
-        { "id": "B", "text": "one-fourth as large" },
-        { "id": "C", "text": "twice as large" },
-        { "id": "D", "text": "unchanged" }
+        {
+          "id": "A",
+          "text": "half as large"
+        },
+        {
+          "id": "B",
+          "text": "unchanged"
+        },
+        {
+          "id": "C",
+          "text": "twice as large"
+        },
+        {
+          "id": "D",
+          "text": "one-fourth as large"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Intensity ∝ 1/r².",
       "distractors": {}
     },
     {
-      "id": "u6-q04", "tier": "Intro", "type": "mcq", "topic": "Sound",
+      "id": "u6-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Sound",
       "stem": "Two tuning forks of 440 Hz and 444 Hz are sounded together. What beat frequency is heard?",
       "choices": [
-        { "id": "A", "text": "2 Hz" },
-        { "id": "B", "text": "4 Hz" },
-        { "id": "C", "text": "442 Hz" },
-        { "id": "D", "text": "884 Hz" }
+        {
+          "id": "A",
+          "text": "2 Hz"
+        },
+        {
+          "id": "B",
+          "text": "4 Hz"
+        },
+        {
+          "id": "C",
+          "text": "442 Hz"
+        },
+        {
+          "id": "D",
+          "text": "884 Hz"
+        }
       ],
       "answer": "B",
       "explanation": "|444 − 440| = 4 Hz.",
       "distractors": {}
     },
     {
-      "id": "u6-q05", "tier": "Exam level", "type": "mcq", "topic": "Interference and Diffraction",
+      "id": "u6-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Interference and Diffraction",
       "stem": "Light of wavelength 600 nm passes through two slits 0.20 mm apart onto a screen 2.0 m away. What is the spacing between adjacent bright fringes?",
       "choices": [
-        { "id": "A", "text": "0.60 mm" },
-        { "id": "B", "text": "3.0 mm" },
-        { "id": "C", "text": "6.0 mm" },
-        { "id": "D", "text": "60 mm" }
+        {
+          "id": "A",
+          "text": "0.60 mm"
+        },
+        {
+          "id": "B",
+          "text": "3.0 mm"
+        },
+        {
+          "id": "C",
+          "text": "6.0 mm"
+        },
+        {
+          "id": "D",
+          "text": "60 mm"
+        }
       ],
       "answer": "C",
       "explanation": "Δy = λL/d = (6.0 × 10⁻⁷)(2.0)/(2.0 × 10⁻⁴) = 6.0 × 10⁻³ m.",
       "distractors": {}
     },
     {
-      "id": "u6-q06", "tier": "Exam level", "type": "mcq", "topic": "Standing Waves",
+      "id": "u6-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Standing Waves",
       "stem": "A pipe 0.50 m long is closed at one end. If sound travels at 340 m/s, what are its two lowest resonant frequencies?",
       "choices": [
-        { "id": "A", "text": "170 Hz and 510 Hz" },
-        { "id": "B", "text": "170 Hz and 340 Hz" },
-        { "id": "C", "text": "340 Hz and 680 Hz" },
-        { "id": "D", "text": "340 Hz and 1,020 Hz" }
+        {
+          "id": "A",
+          "text": "170 Hz and 510 Hz"
+        },
+        {
+          "id": "B",
+          "text": "170 Hz and 340 Hz"
+        },
+        {
+          "id": "C",
+          "text": "340 Hz and 680 Hz"
+        },
+        {
+          "id": "D",
+          "text": "340 Hz and 1,020 Hz"
+        }
       ],
       "answer": "A",
       "explanation": "f₁ = v/4L = 170 Hz; only odd harmonics: next is 3 × 170 = 510 Hz.",
-      "distractors": { "B": "Includes the even 2nd harmonic.", "C": "Open-pipe values." }
+      "distractors": {
+        "B": "Includes the even 2nd harmonic.",
+        "C": "Open-pipe values."
+      }
     },
     {
-      "id": "u6-q07", "tier": "Exam level", "type": "mcq", "topic": "Interference and Diffraction",
+      "id": "u6-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Interference and Diffraction",
       "stem": "In a double-slit experiment, the slit separation is doubled and the wavelength is doubled. The fringe spacing",
       "choices": [
-        { "id": "A", "text": "quadruples" },
-        { "id": "B", "text": "doubles" },
-        { "id": "C", "text": "stays the same" },
-        { "id": "D", "text": "halves" }
+        {
+          "id": "A",
+          "text": "quadruples"
+        },
+        {
+          "id": "B",
+          "text": "doubles"
+        },
+        {
+          "id": "C",
+          "text": "stays the same"
+        },
+        {
+          "id": "D",
+          "text": "halves"
+        }
       ],
       "answer": "C",
       "explanation": "Δy = λL/d: 2/2 = 1.",
       "distractors": {}
     },
     {
-      "id": "u6-q08", "tier": "Exam level", "type": "mcq", "topic": "Sound",
+      "id": "u6-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Sound",
       "stem": "An ambulance with a siren drives toward and then past a stationary listener. The listener hears",
       "choices": [
-        { "id": "A", "text": "a higher pitch as it approaches and a lower pitch as it moves away" },
-        { "id": "B", "text": "a lower pitch as it approaches and a higher pitch as it leaves" },
-        { "id": "C", "text": "the same pitch, getting louder then softer" },
-        { "id": "D", "text": "a steadily increasing pitch" }
+        {
+          "id": "A",
+          "text": "a steadily increasing pitch"
+        },
+        {
+          "id": "B",
+          "text": "a lower pitch as it approaches and a higher pitch as it leaves"
+        },
+        {
+          "id": "C",
+          "text": "the same pitch, getting louder then softer"
+        },
+        {
+          "id": "D",
+          "text": "a higher pitch as it approaches and a lower pitch as it moves away"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Wavefronts are compressed ahead of the source and stretched behind.",
       "distractors": {}
     },
     {
-      "id": "u6-q09", "tier": "Exam level", "type": "mcq", "topic": "Interference and Diffraction",
+      "id": "u6-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Interference and Diffraction",
       "stem": "Light of wavelength 500 nm falls on a diffraction grating with 500 lines per mm. At what angle is the first-order maximum?",
       "choices": [
-        { "id": "A", "text": "7.2°" },
-        { "id": "B", "text": "14.5°" },
-        { "id": "C", "text": "30.0°" },
-        { "id": "D", "text": "0.25°" }
+        {
+          "id": "A",
+          "text": "14.5°"
+        },
+        {
+          "id": "B",
+          "text": "7.2°"
+        },
+        {
+          "id": "C",
+          "text": "30.0°"
+        },
+        {
+          "id": "D",
+          "text": "0.25°"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "d = 1/500 mm = 2.0 × 10⁻⁶ m; sin θ = 5.0 × 10⁻⁷/2.0 × 10⁻⁶ = 0.25 → 14.5°.",
       "distractors": {}
     },
     {
-      "id": "u6-q10", "tier": "Exam level", "type": "mcq", "topic": "Interference and Diffraction",
+      "id": "u6-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Interference and Diffraction",
       "stem": "Light passes through a single narrow slit. If the slit is made narrower, the central bright maximum on a distant screen becomes",
       "choices": [
-        { "id": "A", "text": "wider" },
-        { "id": "B", "text": "narrower" },
-        { "id": "C", "text": "unchanged" },
-        { "id": "D", "text": "divided into two" }
+        {
+          "id": "A",
+          "text": "narrower"
+        },
+        {
+          "id": "B",
+          "text": "wider"
+        },
+        {
+          "id": "C",
+          "text": "unchanged"
+        },
+        {
+          "id": "D",
+          "text": "divided into two"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Narrower openings diffract light through larger angles.",
       "distractors": {}
     },
     {
-      "id": "u6-q11", "tier": "Hardest", "type": "mcq", "topic": "Thin-Film Interference",
+      "id": "u6-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Thin-Film Interference",
       "stem": "A soap film (n = 1.33) in air is viewed in reflected light. What is the minimum nonzero thickness that strongly reflects 550 nm light?",
       "choices": [
-        { "id": "A", "text": "103 nm" },
-        { "id": "B", "text": "207 nm" },
-        { "id": "C", "text": "138 nm" },
-        { "id": "D", "text": "275 nm" }
+        {
+          "id": "A",
+          "text": "103 nm"
+        },
+        {
+          "id": "B",
+          "text": "207 nm"
+        },
+        {
+          "id": "C",
+          "text": "138 nm"
+        },
+        {
+          "id": "D",
+          "text": "275 nm"
+        }
       ],
       "answer": "A",
       "explanation": "One phase shift (top surface). Constructive: 2nt = ½λ → t = λ/(4n) = 550/5.32 ≈ 103 nm.",
-      "distractors": { "B": "Uses 2nt = λ (ignores the phase shift).", "C": "Uses λ/4 without n." }
+      "distractors": {
+        "B": "Uses 2nt = λ (ignores the phase shift).",
+        "C": "Uses λ/4 without n."
+      }
     },
     {
-      "id": "u6-q12", "tier": "Hardest", "type": "mcq", "topic": "Standing Waves",
+      "id": "u6-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Standing Waves",
       "stem": "A pipe open at both ends has a fundamental frequency of 300 Hz. One end is then closed. What is the new fundamental frequency?",
       "choices": [
-        { "id": "A", "text": "150 Hz" },
-        { "id": "B", "text": "300 Hz" },
-        { "id": "C", "text": "600 Hz" },
-        { "id": "D", "text": "900 Hz" }
+        {
+          "id": "A",
+          "text": "150 Hz"
+        },
+        {
+          "id": "B",
+          "text": "300 Hz"
+        },
+        {
+          "id": "C",
+          "text": "600 Hz"
+        },
+        {
+          "id": "D",
+          "text": "900 Hz"
+        }
       ],
       "answer": "A",
       "explanation": "Open: v/2L = 300; closed: v/4L = 150.",
       "distractors": {}
     },
     {
-      "id": "u6-q13", "tier": "Hardest", "type": "mcq", "topic": "Interference and Diffraction",
+      "id": "u6-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Interference and Diffraction",
       "stem": "A double-slit apparatus is submerged in water (n = 1.33) with the same light source. The fringe spacing on the screen",
       "choices": [
-        { "id": "A", "text": "decreases, because the wavelength in water is shorter" },
-        { "id": "B", "text": "increases" },
-        { "id": "C", "text": "stays the same, because frequency is unchanged" },
-        { "id": "D", "text": "becomes zero" }
+        {
+          "id": "A",
+          "text": "increases"
+        },
+        {
+          "id": "B",
+          "text": "decreases, because the wavelength in water is shorter"
+        },
+        {
+          "id": "C",
+          "text": "stays the same, because frequency is unchanged"
+        },
+        {
+          "id": "D",
+          "text": "becomes zero"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "λ_water = λ/1.33, and Δy ∝ λ.",
-      "distractors": { "C": "Spacing depends on wavelength, not frequency." }
+      "distractors": {
+        "C": "Spacing depends on wavelength, not frequency."
+      }
     },
     {
-      "id": "u6-q14", "tier": "Hardest", "type": "mcq", "topic": "Interference and Diffraction",
+      "id": "u6-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Interference and Diffraction",
       "stem": "Two speakers emit the same 340 Hz tone in phase (v = 340 m/s). A listener is 4.0 m from one speaker and 5.5 m from the other. What does the listener hear?",
       "choices": [
-        { "id": "A", "text": "A minimum (destructive interference)" },
-        { "id": "B", "text": "A maximum (constructive interference)" },
-        { "id": "C", "text": "Beats at 340 Hz" },
-        { "id": "D", "text": "Neither maximum nor minimum" }
+        {
+          "id": "A",
+          "text": "Beats at 340 Hz"
+        },
+        {
+          "id": "B",
+          "text": "A maximum (constructive interference)"
+        },
+        {
+          "id": "C",
+          "text": "A minimum (destructive interference)"
+        },
+        {
+          "id": "D",
+          "text": "Neither maximum nor minimum"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "λ = 1.0 m; path difference 1.5 m = 1.5λ, a half-integer multiple.",
       "distractors": {}
     },
     {
-      "id": "u6-frq1", "tier": "Hardest", "type": "frq", "topic": "Interference and Diffraction", "frqType": "Translation Between Representations (TBR)",
+      "id": "u6-frq1",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Interference and Diffraction",
+      "frqType": "Translation Between Representations (TBR)",
       "prompt": "Monochromatic light of wavelength λ passes through two narrow slits separated by distance d and forms an interference pattern on a screen a distance L away (L ≫ d).",
       "parts": [
-        { "label": "A", "prompt": "Draw (describe) the pattern on the screen and label the central maximum and the first-order bright fringes on each side.", "points": 2 },
-        { "label": "B", "prompt": "Starting from the condition for constructive interference, derive an expression for the distance y₁ from the central maximum to the first-order bright fringe in terms of λ, L, and d. State any approximation.", "points": 4 },
-        { "label": "C", "prompt": "Sketch (describe) a graph of y₁ as a function of slit separation d, for fixed λ and L.", "points": 3 },
-        { "label": "D", "prompt": "Explain how the shape of your graph in (C) is consistent with your expression in (B) and with what happens to the pattern in (A) as the slits are moved closer together.", "points": 3 }
+        {
+          "label": "A",
+          "prompt": "Draw (describe) the pattern on the screen and label the central maximum and the first-order bright fringes on each side.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Starting from the condition for constructive interference, derive an expression for the distance y₁ from the central maximum to the first-order bright fringe in terms of λ, L, and d. State any approximation.",
+          "points": 4
+        },
+        {
+          "label": "C",
+          "prompt": "Sketch (describe) a graph of y₁ as a function of slit separation d, for fixed λ and L.",
+          "points": 3
+        },
+        {
+          "label": "D",
+          "prompt": "Explain how the shape of your graph in (C) is consistent with your expression in (B) and with what happens to the pattern in (A) as the slits are moved closer together.",
+          "points": 3
+        }
       ],
       "points": 12,
       "minutes": 25,
       "rubric": [
-        { "criterion": "A1: Pattern", "points": 1, "description": "Alternating bright and dark fringes, evenly spaced." },
-        { "criterion": "A2: Labels", "points": 1, "description": "Central maximum at center; first-order bright fringes symmetric on either side." },
-        { "criterion": "B1: Condition", "points": 1, "description": "Path difference d sin θ = mλ, with m = 1." },
-        { "criterion": "B2: Geometry", "points": 1, "description": "tan θ = y₁/L." },
-        { "criterion": "B3: Approximation", "points": 1, "description": "Small angle: sin θ ≈ tan θ." },
-        { "criterion": "B4: Result", "points": 1, "description": "y₁ = λL/d." },
-        { "criterion": "C1: Shape", "points": 1, "description": "Decreasing curve (inverse relationship)." },
-        { "criterion": "C2: Asymptotes", "points": 1, "description": "Becomes very large as d → 0 and approaches zero as d grows (concave up, not linear)." },
-        { "criterion": "C3: Consistency of curvature", "points": 1, "description": "Hyperbolic shape; doubling d halves y₁." },
-        { "criterion": "D1: Expression link", "points": 1, "description": "d is in the denominator, so y₁ ∝ 1/d." },
-        { "criterion": "D2: Pattern link", "points": 1, "description": "Moving slits closer together spreads the fringes apart on the screen." },
-        { "criterion": "D3: Consistency statement", "points": 1, "description": "Explicitly connects graph, expression, and pattern." }
+        {
+          "criterion": "A1: Pattern",
+          "points": 1,
+          "description": "Alternating bright and dark fringes, evenly spaced."
+        },
+        {
+          "criterion": "A2: Labels",
+          "points": 1,
+          "description": "Central maximum at center; first-order bright fringes symmetric on either side."
+        },
+        {
+          "criterion": "B1: Condition",
+          "points": 1,
+          "description": "Path difference d sin θ = mλ, with m = 1."
+        },
+        {
+          "criterion": "B2: Geometry",
+          "points": 1,
+          "description": "tan θ = y₁/L."
+        },
+        {
+          "criterion": "B3: Approximation",
+          "points": 1,
+          "description": "Small angle: sin θ ≈ tan θ."
+        },
+        {
+          "criterion": "B4: Result",
+          "points": 1,
+          "description": "y₁ = λL/d."
+        },
+        {
+          "criterion": "C1: Shape",
+          "points": 1,
+          "description": "Decreasing curve (inverse relationship)."
+        },
+        {
+          "criterion": "C2: Asymptotes",
+          "points": 1,
+          "description": "Becomes very large as d → 0 and approaches zero as d grows (concave up, not linear)."
+        },
+        {
+          "criterion": "C3: Consistency of curvature",
+          "points": 1,
+          "description": "Hyperbolic shape; doubling d halves y₁."
+        },
+        {
+          "criterion": "D1: Expression link",
+          "points": 1,
+          "description": "d is in the denominator, so y₁ ∝ 1/d."
+        },
+        {
+          "criterion": "D2: Pattern link",
+          "points": 1,
+          "description": "Moving slits closer together spreads the fringes apart on the screen."
+        },
+        {
+          "criterion": "D3: Consistency statement",
+          "points": 1,
+          "description": "Explicitly connects graph, expression, and pattern."
+        }
       ],
       "sampleResponse": "A. The screen shows a series of evenly spaced bright fringes separated by dark fringes. The brightest fringe is at the center (the central maximum). The first-order bright fringes appear one fringe spacing to each side of center.\n\nB. For constructive interference, the path difference between waves from the two slits must be a whole number of wavelengths: d sin θ = mλ. For the first-order fringe, m = 1, so sin θ = λ/d. From the geometry, tan θ = y₁/L. Because L ≫ d, the angle is small, so sin θ ≈ tan θ. Therefore y₁/L = λ/d, giving y₁ = λL/d.\n\nC. The graph of y₁ vs. d is a decreasing, concave-up curve: y₁ is very large for small d and approaches zero for large d. Doubling d halves y₁.\n\nD. In y₁ = λL/d, the slit separation is in the denominator, so y₁ is inversely proportional to d, which produces the hyperbola-shaped graph. If the slits are moved closer together (smaller d), y₁ increases, so the bright fringes in the pattern spread farther apart on the screen, consistent with both the graph and the expression."
     }

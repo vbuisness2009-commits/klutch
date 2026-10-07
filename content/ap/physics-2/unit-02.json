@@ -45,227 +45,553 @@
     "cramSheet": "**Charge:** e = 1.6 × 10⁻¹⁹ C · conserved · conductors: E = 0 inside\n\n**Force:** F = kq₁q₂/r² · k = 9 × 10⁹\n\n**Field:** E = F/q · point: kq/r² · plates: ΔV/d\n\n**Potential:** V = kq/r (scalar, signed) · U = qV · W_field = −qΔV · ΔK = −qΔV\n\n**Equipotentials:** ⟂ field · no work along\n\n**Capacitor:** C = κε₀A/d · Q = CΔV · U = ½CΔV²"
   },
   "vocab": [
-    { "term": "Coulomb's law", "definition": "The electric force between two point charges is proportional to the product of the charges and inversely proportional to the square of their separation." },
-    { "term": "Electric field", "definition": "The force per unit positive charge at a point: E = F/q." },
-    { "term": "Electric potential", "definition": "Electric potential energy per unit charge, a scalar measured in volts." },
-    { "term": "Potential difference", "definition": "The change in electric potential between two points: ΔV = ΔU/q." },
-    { "term": "Equipotential surface", "definition": "A surface on which every point has the same potential." },
-    { "term": "Superposition", "definition": "The net field or force is the vector sum of contributions from each charge." },
-    { "term": "Conductor", "definition": "A material in which charges move freely." },
-    { "term": "Charging by induction", "definition": "Charging an object without contact by redistributing its charges near another charge and grounding." },
-    { "term": "Capacitance", "definition": "The ratio of stored charge to potential difference: C = Q/ΔV." },
-    { "term": "Dielectric", "definition": "An insulating material placed between capacitor plates that increases capacitance." },
-    { "term": "Electron volt", "definition": "Energy gained by an electron moving through 1 V: 1.6 × 10⁻¹⁹ J." },
-    { "term": "Uniform field", "definition": "A field with the same magnitude and direction everywhere, as between parallel plates." }
+    {
+      "term": "Coulomb's law",
+      "definition": "The electric force between two point charges is proportional to the product of the charges and inversely proportional to the square of their separation."
+    },
+    {
+      "term": "Electric field",
+      "definition": "The force per unit positive charge at a point: E = F/q."
+    },
+    {
+      "term": "Electric potential",
+      "definition": "Electric potential energy per unit charge, a scalar measured in volts."
+    },
+    {
+      "term": "Potential difference",
+      "definition": "The change in electric potential between two points: ΔV = ΔU/q."
+    },
+    {
+      "term": "Equipotential surface",
+      "definition": "A surface on which every point has the same potential."
+    },
+    {
+      "term": "Superposition",
+      "definition": "The net field or force is the vector sum of contributions from each charge."
+    },
+    {
+      "term": "Conductor",
+      "definition": "A material in which charges move freely."
+    },
+    {
+      "term": "Charging by induction",
+      "definition": "Charging an object without contact by redistributing its charges near another charge and grounding."
+    },
+    {
+      "term": "Capacitance",
+      "definition": "The ratio of stored charge to potential difference: C = Q/ΔV."
+    },
+    {
+      "term": "Dielectric",
+      "definition": "An insulating material placed between capacitor plates that increases capacitance."
+    },
+    {
+      "term": "Electron volt",
+      "definition": "Energy gained by an electron moving through 1 V: 1.6 × 10⁻¹⁹ J."
+    },
+    {
+      "term": "Uniform field",
+      "definition": "A field with the same magnitude and direction everywhere, as between parallel plates."
+    }
   ],
   "practice": [
     {
-      "id": "u2-q01", "tier": "Intro", "type": "mcq", "topic": "Electric Charge and Coulomb's Law",
+      "id": "u2-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Electric Charge and Coulomb's Law",
       "stem": "Two point charges of +2.0 μC and +3.0 μC are 0.30 m apart. What is the magnitude of the force between them? (k = 9.0 × 10⁹ N·m²/C²)",
       "choices": [
-        { "id": "A", "text": "0.18 N" },
-        { "id": "B", "text": "0.60 N" },
-        { "id": "C", "text": "1.8 N" },
-        { "id": "D", "text": "6.0 N" }
+        {
+          "id": "A",
+          "text": "0.18 N"
+        },
+        {
+          "id": "B",
+          "text": "0.60 N"
+        },
+        {
+          "id": "C",
+          "text": "1.8 N"
+        },
+        {
+          "id": "D",
+          "text": "6.0 N"
+        }
       ],
       "answer": "B",
       "explanation": "F = (9 × 10⁹)(6 × 10⁻¹²)/0.09 = 0.60 N, repulsive.",
-      "distractors": { "A": "Divides by r instead of r²." }
+      "distractors": {
+        "A": "Divides by r instead of r²."
+      }
     },
     {
-      "id": "u2-q02", "tier": "Intro", "type": "mcq", "topic": "Electric Fields",
+      "id": "u2-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Electric Fields",
       "stem": "An electron is placed in a uniform electric field that points to the right. The force on the electron is",
       "choices": [
-        { "id": "A", "text": "to the right" },
-        { "id": "B", "text": "to the left" },
-        { "id": "C", "text": "zero" },
-        { "id": "D", "text": "perpendicular to the field" }
+        {
+          "id": "A",
+          "text": "to the right"
+        },
+        {
+          "id": "B",
+          "text": "perpendicular to the field"
+        },
+        {
+          "id": "C",
+          "text": "zero"
+        },
+        {
+          "id": "D",
+          "text": "to the left"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Negative charges experience force opposite the field direction.",
       "distractors": {}
     },
     {
-      "id": "u2-q03", "tier": "Intro", "type": "mcq", "topic": "Electric Potential",
+      "id": "u2-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Electric Potential",
       "stem": "How much work is required to move a charge along an equipotential surface?",
       "choices": [
-        { "id": "A", "text": "Zero" },
-        { "id": "B", "text": "qE times the distance" },
-        { "id": "C", "text": "It depends on the path" },
-        { "id": "D", "text": "qV" }
+        {
+          "id": "A",
+          "text": "It depends on the path"
+        },
+        {
+          "id": "B",
+          "text": "qE times the distance"
+        },
+        {
+          "id": "C",
+          "text": "Zero"
+        },
+        {
+          "id": "D",
+          "text": "qV"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "ΔV = 0, so W = qΔV = 0.",
       "distractors": {}
     },
     {
-      "id": "u2-q04", "tier": "Intro", "type": "mcq", "topic": "Capacitors",
+      "id": "u2-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Capacitors",
       "stem": "The plate separation of a parallel-plate capacitor is doubled. Its capacitance",
       "choices": [
-        { "id": "A", "text": "doubles" },
-        { "id": "B", "text": "is halved" },
-        { "id": "C", "text": "quadruples" },
-        { "id": "D", "text": "stays the same" }
+        {
+          "id": "A",
+          "text": "doubles"
+        },
+        {
+          "id": "B",
+          "text": "stays the same"
+        },
+        {
+          "id": "C",
+          "text": "quadruples"
+        },
+        {
+          "id": "D",
+          "text": "is halved"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "C = κε₀A/d is inversely proportional to d.",
       "distractors": {}
     },
     {
-      "id": "u2-q05", "tier": "Exam level", "type": "mcq", "topic": "Electric Charge and Coulomb's Law",
+      "id": "u2-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Electric Charge and Coulomb's Law",
       "stem": "The magnitude of each of two point charges is doubled, and the distance between them is tripled. The new force is what multiple of the original?",
       "choices": [
-        { "id": "A", "text": "4/9" },
-        { "id": "B", "text": "2/3" },
-        { "id": "C", "text": "4/3" },
-        { "id": "D", "text": "9/4" }
+        {
+          "id": "A",
+          "text": "4/9"
+        },
+        {
+          "id": "B",
+          "text": "2/3"
+        },
+        {
+          "id": "C",
+          "text": "4/3"
+        },
+        {
+          "id": "D",
+          "text": "9/4"
+        }
       ],
       "answer": "A",
       "explanation": "F ∝ q₁q₂/r²: (2)(2)/(3²) = 4/9.",
-      "distractors": { "C": "Uses r instead of r²." }
+      "distractors": {
+        "C": "Uses r instead of r²."
+      }
     },
     {
-      "id": "u2-q06", "tier": "Exam level", "type": "mcq", "topic": "Electric Potential",
+      "id": "u2-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Electric Potential",
       "stem": "Charges +q and −q are separated by distance d. At the midpoint between them, which is true?",
       "choices": [
-        { "id": "A", "text": "E = 0 and V = 0" },
-        { "id": "B", "text": "E ≠ 0 (pointing toward −q) and V = 0" },
-        { "id": "C", "text": "E = 0 and V ≠ 0" },
-        { "id": "D", "text": "E ≠ 0 and V ≠ 0" }
+        {
+          "id": "A",
+          "text": "E = 0 and V = 0"
+        },
+        {
+          "id": "B",
+          "text": "E = 0 and V ≠ 0"
+        },
+        {
+          "id": "C",
+          "text": "E ≠ 0 (pointing toward −q) and V = 0"
+        },
+        {
+          "id": "D",
+          "text": "E ≠ 0 and V ≠ 0"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Potentials cancel (equal magnitude, opposite sign). Fields from both point toward −q and add.",
       "distractors": {}
     },
     {
-      "id": "u2-q07", "tier": "Exam level", "type": "mcq", "topic": "Electric Potential Energy",
+      "id": "u2-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Electric Potential Energy",
       "stem": "A proton is released from rest at a point where the potential is 300 V and moves to a point where the potential is 100 V. What kinetic energy does it gain?",
       "choices": [
-        { "id": "A", "text": "200 eV" },
-        { "id": "B", "text": "400 eV" },
-        { "id": "C", "text": "100 eV" },
-        { "id": "D", "text": "It loses 200 eV" }
+        {
+          "id": "A",
+          "text": "200 eV"
+        },
+        {
+          "id": "B",
+          "text": "400 eV"
+        },
+        {
+          "id": "C",
+          "text": "100 eV"
+        },
+        {
+          "id": "D",
+          "text": "It loses 200 eV"
+        }
       ],
       "answer": "A",
       "explanation": "ΔK = −qΔV = −(+e)(−200 V) = +200 eV.",
       "distractors": {}
     },
     {
-      "id": "u2-q08", "tier": "Exam level", "type": "mcq", "topic": "Electric Fields",
+      "id": "u2-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Electric Fields",
       "stem": "Two parallel plates 2.0 cm apart have a potential difference of 100 V. What is the electric field between them?",
       "choices": [
-        { "id": "A", "text": "2.0 V/m" },
-        { "id": "B", "text": "50 V/m" },
-        { "id": "C", "text": "2,000 V/m" },
-        { "id": "D", "text": "5,000 V/m" }
+        {
+          "id": "A",
+          "text": "2.0 V/m"
+        },
+        {
+          "id": "B",
+          "text": "50 V/m"
+        },
+        {
+          "id": "C",
+          "text": "2,000 V/m"
+        },
+        {
+          "id": "D",
+          "text": "5,000 V/m"
+        }
       ],
       "answer": "D",
       "explanation": "E = ΔV/d = 100/0.020 = 5,000 V/m.",
-      "distractors": { "B": "Uses d = 2 m." }
+      "distractors": {
+        "B": "Uses d = 2 m."
+      }
     },
     {
-      "id": "u2-q09", "tier": "Exam level", "type": "mcq", "topic": "Conductors and Insulators",
+      "id": "u2-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Conductors and Insulators",
       "stem": "Excess negative charge is placed on a hollow metal sphere. In electrostatic equilibrium, the charge",
       "choices": [
-        { "id": "A", "text": "spreads uniformly through the metal" },
-        { "id": "B", "text": "resides on the outer surface, and the field inside the metal is zero" },
-        { "id": "C", "text": "collects at the center" },
-        { "id": "D", "text": "creates a uniform field inside the hollow region" }
+        {
+          "id": "A",
+          "text": "spreads uniformly through the metal"
+        },
+        {
+          "id": "B",
+          "text": "collects at the center"
+        },
+        {
+          "id": "C",
+          "text": "resides on the outer surface, and the field inside the metal is zero"
+        },
+        {
+          "id": "D",
+          "text": "creates a uniform field inside the hollow region"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Like charges repel to the outer surface; E = 0 in the conductor.",
       "distractors": {}
     },
     {
-      "id": "u2-q10", "tier": "Exam level", "type": "mcq", "topic": "Capacitors",
+      "id": "u2-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Capacitors",
       "stem": "A capacitor is charged by a battery and then disconnected. A dielectric slab (κ = 3) is inserted between the plates. Which is true?",
       "choices": [
-        { "id": "A", "text": "Charge stays the same; potential difference decreases to one-third." },
-        { "id": "B", "text": "Charge triples; potential difference stays the same." },
-        { "id": "C", "text": "Charge and potential difference both triple." },
-        { "id": "D", "text": "Capacitance decreases to one-third." }
+        {
+          "id": "A",
+          "text": "Charge triples; potential difference stays the same."
+        },
+        {
+          "id": "B",
+          "text": "Charge stays the same; potential difference decreases to one-third."
+        },
+        {
+          "id": "C",
+          "text": "Charge and potential difference both triple."
+        },
+        {
+          "id": "D",
+          "text": "Capacitance decreases to one-third."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Isolated: Q fixed. C triples, so ΔV = Q/C falls to one-third.",
-      "distractors": { "B": "Would occur if still connected to the battery." }
+      "distractors": {
+        "A": "Would occur if still connected to the battery."
+      }
     },
     {
-      "id": "u2-q11", "tier": "Hardest", "type": "mcq", "topic": "Electric Fields",
+      "id": "u2-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Electric Fields",
       "stem": "Charge +4q is at x = 0 and charge +q is at x = 3 m. At what point between them is the net electric field zero?",
       "choices": [
-        { "id": "A", "text": "x = 1.0 m" },
-        { "id": "B", "text": "x = 1.5 m" },
-        { "id": "C", "text": "x = 2.0 m" },
-        { "id": "D", "text": "x = 2.4 m" }
+        {
+          "id": "A",
+          "text": "x = 1.0 m"
+        },
+        {
+          "id": "B",
+          "text": "x = 1.5 m"
+        },
+        {
+          "id": "C",
+          "text": "x = 2.4 m"
+        },
+        {
+          "id": "D",
+          "text": "x = 2.0 m"
+        }
       ],
-      "answer": "C",
+      "answer": "D",
       "explanation": "k(4q)/x² = kq/(3 − x)² → 2/x = 1/(3 − x) → x = 2 m.",
-      "distractors": { "B": "Midpoint ignores unequal charges." }
+      "distractors": {
+        "B": "Midpoint ignores unequal charges."
+      }
     },
     {
-      "id": "u2-q12", "tier": "Hardest", "type": "mcq", "topic": "Electric Potential Energy",
+      "id": "u2-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Electric Potential Energy",
       "stem": "Three identical charges +q are placed at the corners of an equilateral triangle with side a. What is the electric potential energy of the configuration?",
       "choices": [
-        { "id": "A", "text": "kq²/a" },
-        { "id": "B", "text": "2kq²/a" },
-        { "id": "C", "text": "3kq²/a" },
-        { "id": "D", "text": "9kq²/a" }
+        {
+          "id": "A",
+          "text": "3kq²/a"
+        },
+        {
+          "id": "B",
+          "text": "2kq²/a"
+        },
+        {
+          "id": "C",
+          "text": "kq²/a"
+        },
+        {
+          "id": "D",
+          "text": "9kq²/a"
+        }
       ],
-      "answer": "C",
+      "answer": "A",
       "explanation": "Three pairs, each kq²/a.",
       "distractors": {}
     },
     {
-      "id": "u2-q13", "tier": "Hardest", "type": "mcq", "topic": "Electric Potential",
+      "id": "u2-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Electric Potential",
       "stimulus": "An equipotential map shows lines labeled 10 V, 20 V, 30 V, and 40 V, spaced 1 cm apart on the left side of the map and 3 cm apart on the right side.",
       "stem": "Which statement about the electric field is correct?",
       "choices": [
-        { "id": "A", "text": "The field is stronger on the left and points from the 40 V line toward the 10 V line." },
-        { "id": "B", "text": "The field is stronger on the right." },
-        { "id": "C", "text": "The field points from 10 V toward 40 V." },
-        { "id": "D", "text": "The field is zero everywhere because potentials are positive." }
+        {
+          "id": "A",
+          "text": "The field is stronger on the right."
+        },
+        {
+          "id": "B",
+          "text": "The field is stronger on the left and points from the 40 V line toward the 10 V line."
+        },
+        {
+          "id": "C",
+          "text": "The field points from 10 V toward 40 V."
+        },
+        {
+          "id": "D",
+          "text": "The field is zero everywhere because potentials are positive."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "|E| ≈ ΔV/Δd: closer spacing = stronger field. E points toward decreasing potential.",
       "distractors": {}
     },
     {
-      "id": "u2-q14", "tier": "Hardest", "type": "mcq", "topic": "Electric Potential Energy",
+      "id": "u2-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Electric Potential Energy",
       "stem": "An electron enters the region between parallel plates moving horizontally, with the upper plate positive. Neglecting gravity, which describes its path between the plates?",
       "choices": [
-        { "id": "A", "text": "A parabola curving toward the positive (upper) plate" },
-        { "id": "B", "text": "A parabola curving toward the negative plate" },
-        { "id": "C", "text": "A straight line" },
-        { "id": "D", "text": "A circle" }
+        {
+          "id": "A",
+          "text": "A straight line"
+        },
+        {
+          "id": "B",
+          "text": "A parabola curving toward the negative plate"
+        },
+        {
+          "id": "C",
+          "text": "A parabola curving toward the positive (upper) plate"
+        },
+        {
+          "id": "D",
+          "text": "A circle"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Constant force toward the positive plate, perpendicular to initial velocity, like projectile motion.",
-      "distractors": { "D": "Circular motion occurs in magnetic fields." }
+      "distractors": {
+        "D": "Circular motion occurs in magnetic fields."
+      }
     },
     {
-      "id": "u2-frq1", "tier": "Hardest", "type": "frq", "topic": "Electric Fields", "frqType": "Translation Between Representations (TBR)",
+      "id": "u2-frq1",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Electric Fields",
+      "frqType": "Translation Between Representations (TBR)",
       "prompt": "Two identical positive point charges +Q are fixed on the x-axis at x = −d and x = +d. Point P is on the positive y-axis at a distance y from the origin.",
       "parts": [
-        { "label": "A", "prompt": "Draw (describe) the electric forces exerted on a small positive test charge placed at point P, and the direction of the net force.", "points": 2 },
-        { "label": "B", "prompt": "Starting from the expression for the field of a point charge, derive an expression for the magnitude of the net electric field at P in terms of Q, d, y, and physical constants.", "points": 4 },
-        { "label": "C", "prompt": "Sketch (describe) a graph of the magnitude of the net field E as a function of y for y ≥ 0, from y = 0 to y ≫ d.", "points": 3 },
-        { "label": "D", "prompt": "Explain how your graph's behavior at y = 0 and at y ≫ d is consistent with your force diagram in (A) and your expression in (B).", "points": 3 }
+        {
+          "label": "A",
+          "prompt": "Draw (describe) the electric forces exerted on a small positive test charge placed at point P, and the direction of the net force.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Starting from the expression for the field of a point charge, derive an expression for the magnitude of the net electric field at P in terms of Q, d, y, and physical constants.",
+          "points": 4
+        },
+        {
+          "label": "C",
+          "prompt": "Sketch (describe) a graph of the magnitude of the net field E as a function of y for y ≥ 0, from y = 0 to y ≫ d.",
+          "points": 3
+        },
+        {
+          "label": "D",
+          "prompt": "Explain how your graph's behavior at y = 0 and at y ≫ d is consistent with your force diagram in (A) and your expression in (B).",
+          "points": 3
+        }
       ],
       "points": 12,
       "minutes": 25,
       "rubric": [
-        { "criterion": "A1: Forces", "points": 1, "description": "Two forces of equal magnitude, each directed away from one of the charges along the line from that charge to P." },
-        { "criterion": "A2: Net", "points": 1, "description": "Net force in the +y direction (horizontal components cancel)." },
-        { "criterion": "B1: Individual field", "points": 1, "description": "E₁ = E₂ = kQ/(d² + y²)." },
-        { "criterion": "B2: Component", "points": 1, "description": "Vertical component uses y/√(d² + y²) (or sin of the angle)." },
-        { "criterion": "B3: Cancellation", "points": 1, "description": "States horizontal components cancel; vertical components add." },
-        { "criterion": "B4: Result", "points": 1, "description": "E = 2kQy/(d² + y²)^(3/2)." },
-        { "criterion": "C1: Origin", "points": 1, "description": "E = 0 at y = 0." },
-        { "criterion": "C2: Maximum", "points": 1, "description": "Increases to a maximum at some intermediate y." },
-        { "criterion": "C3: Decay", "points": 1, "description": "Decreases toward zero as y becomes large." },
-        { "criterion": "D1: At origin", "points": 1, "description": "At y = 0 the forces point in opposite directions along x and cancel; expression gives 0." },
-        { "criterion": "D2: Far away", "points": 1, "description": "For y ≫ d, expression ≈ 2kQ/y², like a single charge 2Q; field falls off as distance increases." },
-        { "criterion": "D3: Consistency statement", "points": 1, "description": "Explicitly links diagram, expression, and graph features." }
+        {
+          "criterion": "A1: Forces",
+          "points": 1,
+          "description": "Two forces of equal magnitude, each directed away from one of the charges along the line from that charge to P."
+        },
+        {
+          "criterion": "A2: Net",
+          "points": 1,
+          "description": "Net force in the +y direction (horizontal components cancel)."
+        },
+        {
+          "criterion": "B1: Individual field",
+          "points": 1,
+          "description": "E₁ = E₂ = kQ/(d² + y²)."
+        },
+        {
+          "criterion": "B2: Component",
+          "points": 1,
+          "description": "Vertical component uses y/√(d² + y²) (or sin of the angle)."
+        },
+        {
+          "criterion": "B3: Cancellation",
+          "points": 1,
+          "description": "States horizontal components cancel; vertical components add."
+        },
+        {
+          "criterion": "B4: Result",
+          "points": 1,
+          "description": "E = 2kQy/(d² + y²)^(3/2)."
+        },
+        {
+          "criterion": "C1: Origin",
+          "points": 1,
+          "description": "E = 0 at y = 0."
+        },
+        {
+          "criterion": "C2: Maximum",
+          "points": 1,
+          "description": "Increases to a maximum at some intermediate y."
+        },
+        {
+          "criterion": "C3: Decay",
+          "points": 1,
+          "description": "Decreases toward zero as y becomes large."
+        },
+        {
+          "criterion": "D1: At origin",
+          "points": 1,
+          "description": "At y = 0 the forces point in opposite directions along x and cancel; expression gives 0."
+        },
+        {
+          "criterion": "D2: Far away",
+          "points": 1,
+          "description": "For y ≫ d, expression ≈ 2kQ/y², like a single charge 2Q; field falls off as distance increases."
+        },
+        {
+          "criterion": "D3: Consistency statement",
+          "points": 1,
+          "description": "Explicitly links diagram, expression, and graph features."
+        }
       ],
       "sampleResponse": "A. At P, the charge at x = −d pushes the test charge up and to the right, along the line from (−d, 0) to P; the charge at x = +d pushes it up and to the left. The two forces have equal magnitude, so their horizontal components cancel and the net force points in the +y direction.\n\nB. Each charge is a distance r = √(d² + y²) from P, so each field magnitude is E₁ = E₂ = kQ/(d² + y²). By symmetry the x-components cancel. Each vertical component is E₁ sin θ, where sin θ = y/√(d² + y²). The net field is E = 2 · kQ/(d² + y²) · y/√(d² + y²) = 2kQy/(d² + y²)^(3/2).\n\nC. The graph starts at E = 0 at y = 0, rises to a maximum at some intermediate value of y, then decreases and approaches zero as y becomes very large.\n\nD. At y = 0, the forces in the diagram point directly opposite each other along the x-axis and cancel, and the expression gives 0 because y is in the numerator, matching the graph's starting point. For y ≫ d, d² is negligible, so E ≈ 2kQy/y³ = 2kQ/y², the field of a single charge 2Q, which decreases toward zero, matching the graph's long tail. In between, both the growing vertical component and the decreasing field magnitude compete, producing the maximum."
     }

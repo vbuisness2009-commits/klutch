@@ -111,7 +111,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "a soliloquy revealing her inner conflict"
+          "text": "a stage direction"
         },
         {
           "id": "B",
@@ -119,14 +119,14 @@
         },
         {
           "id": "C",
-          "text": "a stage direction"
+          "text": "a soliloquy revealing her inner conflict"
         },
         {
           "id": "D",
           "text": "dramatic irony"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "She's alone on stage voicing her thoughts.",
       "distractors": {
         "B": "An aside is addressed to the audience while others are present."
@@ -142,11 +142,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "feels something other than the happiness she claims"
+          "text": "needs to wash dishes urgently"
         },
         {
           "id": "B",
-          "text": "needs to wash dishes urgently"
+          "text": "feels something other than the happiness she claims"
         },
         {
           "id": "C",
@@ -157,7 +157,7 @@
           "text": "can't hear well"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Turning away and running water hard suggests suppressed emotion: subtext.",
       "distractors": {}
     },
@@ -171,7 +171,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "dramatic irony"
+          "text": "an unreliable narrator"
         },
         {
           "id": "B",
@@ -183,10 +183,10 @@
         },
         {
           "id": "D",
-          "text": "an unreliable narrator"
+          "text": "dramatic irony"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The audience knows what the sister doesn't, adding tension.",
       "distractors": {
         "B": "The theft has already happened."
@@ -231,11 +231,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "his sadness about his son leaving and his own narrowing life, expressed through a practical gesture"
+          "text": "his desire to move to Chicago"
         },
         {
           "id": "B",
-          "text": "his desire to move to Chicago"
+          "text": "his sadness about his son leaving and his own narrowing life, expressed through a practical gesture"
         },
         {
           "id": "C",
@@ -246,7 +246,7 @@
           "text": "that he wants his son to stay home"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The coat is care; \"I don't go anywhere anymore\" reveals loneliness.",
       "distractors": {
         "D": "He's equipping the son to go."
@@ -262,7 +262,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Ines's development from silence to public agency"
+          "text": "that the town has no clinic"
         },
         {
           "id": "B",
@@ -270,14 +270,14 @@
         },
         {
           "id": "C",
-          "text": "that the town has no clinic"
+          "text": "Ines's development from silence to public agency"
         },
         {
           "id": "D",
           "text": "that Ines dislikes meetings"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Her shift from deference to speaking up marks a dynamic arc.",
       "distractors": {}
     },
@@ -320,7 +320,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "reveal to the audience her skepticism and the landlord's hypocrisy"
+          "text": "show that she agrees with the landlord"
         },
         {
           "id": "B",
@@ -332,10 +332,10 @@
         },
         {
           "id": "D",
-          "text": "show that she agrees with the landlord"
+          "text": "reveal to the audience her skepticism and the landlord's hypocrisy"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The aside, unheard by the landlord, shares her real view with the audience.",
       "distractors": {
         "B": "The landlord doesn't hear an aside."
@@ -380,11 +380,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "his pride and refusal to accept help"
+          "text": "bad luck alone"
         },
         {
           "id": "B",
-          "text": "bad luck alone"
+          "text": "his pride and refusal to accept help"
         },
         {
           "id": "C",
@@ -395,7 +395,7 @@
           "text": "a natural disaster"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "His repeated refusals and final admission point to a tragic flaw.",
       "distractors": {}
     },
@@ -409,7 +409,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "the husband uses humor to avoid confronting something he fears, which deepens the wife's worry"
+          "text": "the wife is unconcerned"
         },
         {
           "id": "B",
@@ -421,10 +421,10 @@
         },
         {
           "id": "D",
-          "text": "the wife is unconcerned"
+          "text": "the husband uses humor to avoid confronting something he fears, which deepens the wife's worry"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "His joke deflects; her silence shows it doesn't reassure her.",
       "distractors": {
         "B": "\"She doesn't\" laugh."
@@ -440,7 +440,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "that the family's conflicts, however painful, were preferable to the absence that replaced them"
+          "text": "that dinner tables are an important stage prop"
         },
         {
           "id": "B",
@@ -448,14 +448,14 @@
         },
         {
           "id": "C",
-          "text": "that dinner tables are an important stage prop"
+          "text": "that the family's conflicts, however painful, were preferable to the absence that replaced them"
         },
         {
           "id": "D",
           "text": "that the family moved houses"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Juxtaposing noise and silence suggests loss outweighs the strife that once defined them.",
       "distractors": {
         "B": "Silence and empty chairs suggest loss, not resolution."
@@ -471,11 +471,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "complicates the grandmother's characterization, revealing pride she never expressed"
+          "text": "proves the grandmother was cruel"
         },
         {
           "id": "B",
-          "text": "proves the grandmother was cruel"
+          "text": "complicates the grandmother's characterization, revealing pride she never expressed"
         },
         {
           "id": "C",
@@ -486,7 +486,7 @@
           "text": "introduces a new conflict about newspapers"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The clippings reveal hidden love beneath the harsh surface.",
       "distractors": {}
     },

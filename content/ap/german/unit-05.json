@@ -98,11 +98,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Man lernt einen Beruf gleichzeitig im Betrieb und in der Berufsschule"
+          "text": "Man studiert zwei Fächer an der Universität"
         },
         {
           "id": "B",
-          "text": "Man studiert zwei Fächer an der Universität"
+          "text": "Man lernt einen Beruf gleichzeitig im Betrieb und in der Berufsschule"
         },
         {
           "id": "C",
@@ -113,7 +113,7 @@
           "text": "Man macht zweimal das Abitur"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Defined.",
       "distractors": {}
     },
@@ -128,7 +128,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Man verdient vom ersten Tag an Geld"
+          "text": "Sie findet im Ausland statt"
         },
         {
           "id": "B",
@@ -140,10 +140,10 @@
         },
         {
           "id": "D",
-          "text": "Sie findet im Ausland statt"
+          "text": "Man verdient vom ersten Tag an Geld"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -188,7 +188,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Kein Bildungsweg ist automatisch besser; wichtig sind Interessen und Weiterbildung"
+          "text": "Das Abitur sollte abgeschafft werden"
         },
         {
           "id": "B",
@@ -196,14 +196,14 @@
         },
         {
           "id": "C",
-          "text": "Das Abitur sollte abgeschafft werden"
+          "text": "Kein Bildungsweg ist automatisch besser; wichtig sind Interessen und Weiterbildung"
         },
         {
           "id": "D",
           "text": "Ausbildung ist immer besser als Studium"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Final paragraph.",
       "distractors": {}
     },
@@ -218,11 +218,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "In einem Altenheim in Freiburg"
+          "text": "In einem Krankenhaus in Berlin"
         },
         {
           "id": "B",
-          "text": "In einem Krankenhaus in Berlin"
+          "text": "In einem Altenheim in Freiburg"
         },
         {
           "id": "C",
@@ -233,7 +233,7 @@
           "text": "In einer Bank"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -278,7 +278,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Dass sie ein Jahr verliert"
+          "text": "Dass sie ins Ausland gehen sollte"
         },
         {
           "id": "B",
@@ -286,14 +286,14 @@
         },
         {
           "id": "C",
-          "text": "Dass sie ins Ausland gehen sollte"
+          "text": "Dass sie ein Jahr verliert"
         },
         {
           "id": "D",
           "text": "Dass sie sofort arbeiten muss"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Indirect speech.",
       "distractors": {}
     },
@@ -308,7 +308,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Das FSJ hat ihre Berufswahl entscheidend beeinflusst"
+          "text": "Sie hat das Studium abgebrochen"
         },
         {
           "id": "B",
@@ -320,10 +320,10 @@
         },
         {
           "id": "D",
-          "text": "Sie hat das Studium abgebrochen"
+          "text": "Das FSJ hat ihre Berufswahl entscheidend beeinflusst"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Konjunktiv II past.",
       "distractors": {}
     },
@@ -368,7 +368,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Unterkunft und Verpflegung"
+          "text": "Die Kinderbetreuung zu Hause"
         },
         {
           "id": "B",
@@ -380,10 +380,10 @@
         },
         {
           "id": "D",
-          "text": "Die Kinderbetreuung zu Hause"
+          "text": "Unterkunft und Verpflegung"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -398,11 +398,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "wünschenswert, aber nicht unbedingt nötig"
+          "text": "Pflicht für alle"
         },
         {
           "id": "B",
-          "text": "Pflicht für alle"
+          "text": "wünschenswert, aber nicht unbedingt nötig"
         },
         {
           "id": "C",
@@ -413,7 +413,7 @@
           "text": "nur für Kinder"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "'Von Vorteil.'",
       "distractors": {}
     },
@@ -428,7 +428,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Wann du nächste Woche Zeit hast und deine Erfahrung mit Kindern"
+          "text": "Fragen zum Wetter am Bodensee"
         },
         {
           "id": "B",
@@ -436,14 +436,14 @@
         },
         {
           "id": "C",
-          "text": "Fragen zum Wetter am Bodensee"
+          "text": "Wann du nächste Woche Zeit hast und deine Erfahrung mit Kindern"
         },
         {
           "id": "D",
           "text": "Deine Noten in Mathematik"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The two requests.",
       "distractors": {}
     },
@@ -457,7 +457,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "hätte"
+          "text": "hatte"
         },
         {
           "id": "B",
@@ -465,14 +465,14 @@
         },
         {
           "id": "C",
-          "text": "hatte"
+          "text": "hätte"
         },
         {
           "id": "D",
           "text": "würde"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Konjunktiv II past.",
       "distractors": {}
     },
@@ -487,11 +487,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Beide stellen die Vorstellung infrage, dass es nur einen richtigen Bildungsweg gibt"
+          "text": "Beide loben das sofortige Studium"
         },
         {
           "id": "B",
-          "text": "Beide loben das sofortige Studium"
+          "text": "Beide stellen die Vorstellung infrage, dass es nur einen richtigen Bildungsweg gibt"
         },
         {
           "id": "C",
@@ -502,7 +502,7 @@
           "text": "Beide handeln von Ferienjobs"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Questioning single path.",
       "distractors": {}
     },

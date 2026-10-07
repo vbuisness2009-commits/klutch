@@ -104,7 +104,7 @@
         },
         {
           "id": "B",
-          "text": "The process is endothermic and ΔH > 0."
+          "text": "The water is absorbing energy from the dissolving salt."
         },
         {
           "id": "C",
@@ -112,13 +112,13 @@
         },
         {
           "id": "D",
-          "text": "The water is absorbing energy from the dissolving salt."
+          "text": "The process is endothermic and ΔH > 0."
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "The surroundings (water) lose energy to the system, so the dissolving process is endothermic.",
       "distractors": {
-        "D": "Reverses the direction of heat flow."
+        "B": "Reverses the direction of heat flow."
       }
     },
     {
@@ -164,18 +164,18 @@
         },
         {
           "id": "B",
-          "text": "Copper's temperature rises more."
+          "text": "Both rise by the same amount."
         },
         {
           "id": "C",
-          "text": "Both rise by the same amount."
+          "text": "Copper's temperature rises more."
         },
         {
           "id": "D",
           "text": "Neither changes temperature."
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "ΔT = q/(mc); lower c means larger ΔT.",
       "distractors": {}
     },
@@ -287,7 +287,7 @@
         },
         {
           "id": "B",
-          "text": "−808 kJ/mol"
+          "text": "−351 kJ/mol"
         },
         {
           "id": "C",
@@ -295,10 +295,10 @@
         },
         {
           "id": "D",
-          "text": "−351 kJ/mol"
+          "text": "−808 kJ/mol"
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Broken: 4(413) + 2(495) = 2642. Formed: 2(799) + 4(463) = 3450. ΔH = 2642 − 3450 = −808 kJ/mol.",
       "distractors": {
         "A": "Formed − broken reversed."
@@ -317,7 +317,7 @@
         },
         {
           "id": "B",
-          "text": "The energy released forming bonds in CO₂ and H₂O is greater than the energy absorbed breaking bonds in CH₄ and O₂."
+          "text": "The products have more potential energy than the reactants."
         },
         {
           "id": "C",
@@ -325,10 +325,10 @@
         },
         {
           "id": "D",
-          "text": "The products have more potential energy than the reactants."
+          "text": "The energy released forming bonds in CO₂ and H₂O is greater than the energy absorbed breaking bonds in CH₄ and O₂."
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Bond breaking always absorbs energy; the net release comes from stronger bonds forming in products.",
       "distractors": {
         "C": "Classic misconception."
@@ -377,21 +377,21 @@
         },
         {
           "id": "B",
-          "text": "overcoming hydrogen bonds between water molecules as liquid becomes gas"
+          "text": "breaking O–H covalent bonds"
         },
         {
           "id": "C",
-          "text": "breaking O–H covalent bonds"
+          "text": "overcoming hydrogen bonds between water molecules as liquid becomes gas"
         },
         {
           "id": "D",
           "text": "lost to the surroundings"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "At a phase change, energy increases potential energy by separating molecules, not kinetic energy.",
       "distractors": {
-        "C": "Covalent bonds stay intact during boiling."
+        "B": "Covalent bonds stay intact during boiling."
       }
     },
     {
@@ -403,11 +403,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "ΔH is more negative than the true value."
+          "text": "ΔH is less negative (smaller magnitude) than the true value."
         },
         {
           "id": "B",
-          "text": "ΔH is less negative (smaller magnitude) than the true value."
+          "text": "ΔH is more negative than the true value."
         },
         {
           "id": "C",
@@ -418,7 +418,7 @@
           "text": "No effect, because ΔH is a state function."
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Lost heat makes the measured ΔT smaller, so the calculated q and |ΔH| are too small.",
       "distractors": {
         "D": "ΔH is a state function, but the measurement is still wrong."
@@ -468,7 +468,7 @@
         },
         {
           "id": "B",
-          "text": "+180 kJ"
+          "text": "+48 kJ"
         },
         {
           "id": "C",
@@ -476,10 +476,10 @@
         },
         {
           "id": "D",
-          "text": "+48 kJ"
+          "text": "+180 kJ"
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Keep reaction 1 (+66); reverse reaction 2 (+114): 2NO₂ → 2NO + O₂. Sum: N₂ + O₂ → 2NO, ΔH = +180 kJ.",
       "distractors": {
         "A": "Adds without reversing."

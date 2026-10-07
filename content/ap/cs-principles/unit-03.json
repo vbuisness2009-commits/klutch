@@ -162,11 +162,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "20"
+          "text": "30"
         },
         {
           "id": "B",
-          "text": "30"
+          "text": "20"
         },
         {
           "id": "C",
@@ -177,10 +177,10 @@
           "text": "An error occurs."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "[10, 15, 20, 30] → remove index 4 → [10, 15, 20]; list[3] = 20.",
       "distractors": {
-        "B": "Uses 0-based indexing."
+        "A": "Uses 0-based indexing."
       }
     },
     {
@@ -196,18 +196,18 @@
         },
         {
           "id": "B",
-          "text": "8"
+          "text": "4"
         },
         {
           "id": "C",
-          "text": "4"
+          "text": "8"
         },
         {
           "id": "D",
           "text": "3"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "1 → 2 → 4 → 8.",
       "distractors": {}
     },
@@ -220,7 +220,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "11"
+          "text": "24"
         },
         {
           "id": "B",
@@ -232,10 +232,10 @@
         },
         {
           "id": "D",
-          "text": "24"
+          "text": "11"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "f(3) = 8, f(2) = 3.",
       "distractors": {
         "B": "Forgets to subtract 1."
@@ -250,11 +250,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "RANDOM(1, 10) ≤ 3"
+          "text": "RANDOM(1, 10) < 3"
         },
         {
           "id": "B",
-          "text": "RANDOM(1, 10) < 3"
+          "text": "RANDOM(1, 10) ≤ 3"
         },
         {
           "id": "C",
@@ -265,11 +265,11 @@
           "text": "RANDOM(1, 3) = 1"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Values 1, 2, 3 out of 10 equally likely values.",
       "distractors": {
-        "B": "Probability 0.2.",
-        "C": "4 out of 11."
+        "C": "4 out of 11.",
+        "A": "Probability 0.2."
       }
     },
     {
@@ -281,7 +281,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "The list must be sorted."
+          "text": "The list must contain numbers, not words."
         },
         {
           "id": "B",
@@ -293,10 +293,10 @@
         },
         {
           "id": "D",
-          "text": "The list must contain numbers, not words."
+          "text": "The list must be sorted."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Halving relies on order.",
       "distractors": {}
     },
@@ -337,7 +337,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Use a heuristic that finds a good route quickly, even if it isn't guaranteed optimal."
+          "text": "Use lossless compression."
         },
         {
           "id": "B",
@@ -349,10 +349,10 @@
         },
         {
           "id": "D",
-          "text": "Use lossless compression."
+          "text": "Use a heuristic that finds a good route quickly, even if it isn't guaranteed optimal."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Brute force runs in unreasonable time; heuristics give approximate solutions.",
       "distractors": {
         "C": "The problem is solvable, just slowly."
@@ -395,11 +395,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "[3, 7]"
+          "text": "[3, 2, 7]"
         },
         {
           "id": "B",
-          "text": "[3, 2, 7]"
+          "text": "[3, 7]"
         },
         {
           "id": "C",
@@ -410,10 +410,10 @@
           "text": "The loop never ends."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The index advances only when nothing is removed, so consecutive evens are both removed.",
       "distractors": {
-        "B": "Would happen if i always advanced."
+        "A": "Would happen if i always advanced."
       }
     },
     {
@@ -456,7 +456,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "No algorithm can correctly answer every instance of the problem, though some instances may be solvable."
+          "text": "They are problems that take exponential time."
         },
         {
           "id": "B",
@@ -464,17 +464,17 @@
         },
         {
           "id": "C",
-          "text": "They are problems that take exponential time."
+          "text": "No algorithm can correctly answer every instance of the problem, though some instances may be solvable."
         },
         {
           "id": "D",
           "text": "They are problems with no input."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The halting problem is the classic example.",
       "distractors": {
-        "C": "That's unreasonable time."
+        "A": "That's unreasonable time."
       }
     },
     {
@@ -486,7 +486,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "IF (n ≤ 0) { RETURN(false) }"
+          "text": "IF (n < 0) { RETURN(false) }"
         },
         {
           "id": "B",
@@ -498,14 +498,14 @@
         },
         {
           "id": "D",
-          "text": "IF (n < 0) { RETURN(false) }"
+          "text": "IF (n ≤ 0) { RETURN(false) }"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Return false as soon as a non-positive value is found; otherwise all are positive.",
       "distractors": {
         "B": "Returns after checking only the first element.",
-        "D": "Treats 0 as positive."
+        "A": "Treats 0 as positive."
       }
     },
     {

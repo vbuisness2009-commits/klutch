@@ -55,229 +55,592 @@
     "cramSheet": "**Definition:** f′(a) = lim(h→0) [f(a+h) − f(a)]/h = lim(x→a) [f(x) − f(a)]/(x − a)\n\n**Estimate from a table:** f′(a) ≈ [f(b) − f(c)]/(b − c) with c < a < b\n\n**Fails to be differentiable:** corner, cusp, vertical tangent, discontinuity\n\n**Piecewise at seam:** values match AND slopes match\n\n**Rules:** (xⁿ)′ = nxⁿ⁻¹ · (sin x)′ = cos x · (cos x)′ = −sin x · (eˣ)′ = eˣ · (ln x)′ = 1/x\n\n**Product:** f′g + fg′ · **Quotient:** (f′g − fg′)/g²\n\n**Tangent line:** y = f(a) + f′(a)(x − a)"
   },
   "vocab": [
-    { "term": "Derivative", "definition": "The limit of the difference quotient, f′(a) = lim(h→0) [f(a + h) − f(a)]/h; the instantaneous rate of change of f at a." },
-    { "term": "Difference quotient", "definition": "[f(a + h) − f(a)]/h, the slope of a secant line through two points on the graph." },
-    { "term": "Average rate of change", "definition": "(f(b) − f(a))/(b − a), the slope of the secant line on [a, b]." },
-    { "term": "Instantaneous rate of change", "definition": "The rate of change at a single instant, equal to f′(a)." },
-    { "term": "Secant line", "definition": "A line through two points on a curve; its slope is an average rate of change." },
-    { "term": "Tangent line", "definition": "The line through (a, f(a)) with slope f′(a); it best approximates the curve near a.", "example": "y = f(a) + f′(a)(x − a)" },
-    { "term": "Differentiable", "definition": "A function is differentiable at a if f′(a) exists as a finite limit. Differentiability implies continuity." },
-    { "term": "Corner", "definition": "A point where the left and right derivatives exist but are unequal, so the derivative does not exist.", "example": "|x| at x = 0" },
-    { "term": "Cusp", "definition": "A point where the slope approaches +∞ from one side and −∞ from the other.", "example": "x^(2/3) at x = 0" },
-    { "term": "Vertical tangent", "definition": "A point where the slope approaches ±∞ from both sides in the same direction, so f′ does not exist.", "example": "∛x at x = 0" },
-    { "term": "Power rule", "definition": "d/dx(xⁿ) = nxⁿ⁻¹ for any real n." },
-    { "term": "Product rule", "definition": "d/dx[f(x)g(x)] = f′(x)g(x) + f(x)g′(x)." },
-    { "term": "Quotient rule", "definition": "d/dx[f(x)/g(x)] = [f′(x)g(x) − f(x)g′(x)]/[g(x)]², wherever g(x) ≠ 0." },
-    { "term": "One-sided derivative", "definition": "The derivative limit taken from only the left or only the right; both must exist and agree for f to be differentiable." }
+    {
+      "term": "Derivative",
+      "definition": "The limit of the difference quotient, f′(a) = lim(h→0) [f(a + h) − f(a)]/h; the instantaneous rate of change of f at a."
+    },
+    {
+      "term": "Difference quotient",
+      "definition": "[f(a + h) − f(a)]/h, the slope of a secant line through two points on the graph."
+    },
+    {
+      "term": "Average rate of change",
+      "definition": "(f(b) − f(a))/(b − a), the slope of the secant line on [a, b]."
+    },
+    {
+      "term": "Instantaneous rate of change",
+      "definition": "The rate of change at a single instant, equal to f′(a)."
+    },
+    {
+      "term": "Secant line",
+      "definition": "A line through two points on a curve; its slope is an average rate of change."
+    },
+    {
+      "term": "Tangent line",
+      "definition": "The line through (a, f(a)) with slope f′(a); it best approximates the curve near a.",
+      "example": "y = f(a) + f′(a)(x − a)"
+    },
+    {
+      "term": "Differentiable",
+      "definition": "A function is differentiable at a if f′(a) exists as a finite limit. Differentiability implies continuity."
+    },
+    {
+      "term": "Corner",
+      "definition": "A point where the left and right derivatives exist but are unequal, so the derivative does not exist.",
+      "example": "|x| at x = 0"
+    },
+    {
+      "term": "Cusp",
+      "definition": "A point where the slope approaches +∞ from one side and −∞ from the other.",
+      "example": "x^(2/3) at x = 0"
+    },
+    {
+      "term": "Vertical tangent",
+      "definition": "A point where the slope approaches ±∞ from both sides in the same direction, so f′ does not exist.",
+      "example": "∛x at x = 0"
+    },
+    {
+      "term": "Power rule",
+      "definition": "d/dx(xⁿ) = nxⁿ⁻¹ for any real n."
+    },
+    {
+      "term": "Product rule",
+      "definition": "d/dx[f(x)g(x)] = f′(x)g(x) + f(x)g′(x)."
+    },
+    {
+      "term": "Quotient rule",
+      "definition": "d/dx[f(x)/g(x)] = [f′(x)g(x) − f(x)g′(x)]/[g(x)]², wherever g(x) ≠ 0."
+    },
+    {
+      "term": "One-sided derivative",
+      "definition": "The derivative limit taken from only the left or only the right; both must exist and agree for f to be differentiable."
+    }
   ],
   "practice": [
     {
-      "id": "u2-q01", "tier": "Intro", "type": "mcq", "topic": "2.5 Power Rule",
+      "id": "u2-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.5 Power Rule",
       "stem": "If f(x) = 3x⁴ − 5x + 2, then f′(x) =",
       "choices": [
-        { "id": "A", "text": "12x³ − 5" },
-        { "id": "B", "text": "12x³ − 5x" },
-        { "id": "C", "text": "3x³ − 5" },
-        { "id": "D", "text": "12x⁴ − 5" }
-      ],
-      "answer": "A",
-      "explanation": "Differentiate term by term: d/dx(3x⁴) = 12x³, d/dx(−5x) = −5, and d/dx(2) = 0. So f′(x) = 12x³ − 5.",
-      "distractors": { "B": "Kept the x on the linear term; the derivative of −5x is −5.", "C": "Dropped the power but forgot to multiply by it.", "D": "Multiplied by the power but did not lower the exponent." }
-    },
-    {
-      "id": "u2-q02", "tier": "Intro", "type": "mcq", "topic": "2.2 Defining the Derivative",
-      "stem": "lim(h→0) [(2 + h)³ − 8] / h is",
-      "choices": [
-        { "id": "A", "text": "8" },
-        { "id": "B", "text": "12" },
-        { "id": "C", "text": "6" },
-        { "id": "D", "text": "nonexistent" }
-      ],
-      "answer": "B",
-      "explanation": "This is the definition of f′(2) for f(x) = x³, since f(2) = 8. f′(x) = 3x², so f′(2) = 12.",
-      "distractors": { "A": "That is f(2), not f′(2).", "C": "Used 3x instead of 3x² as the derivative.", "D": "The 0/0 form is the definition of a derivative, not a sign that the limit fails." }
-    },
-    {
-      "id": "u2-q03", "tier": "Intro", "type": "mcq", "topic": "2.8 Derivatives of sin and cos",
-      "stem": "d/dx (sin x − cos x) =",
-      "choices": [
-        { "id": "A", "text": "cos x − sin x" },
-        { "id": "B", "text": "cos x + sin x" },
-        { "id": "C", "text": "−cos x + sin x" },
-        { "id": "D", "text": "−cos x − sin x" }
-      ],
-      "answer": "B",
-      "explanation": "(sin x)′ = cos x and (cos x)′ = −sin x, so (−cos x)′ = sin x. The total is cos x + sin x.",
-      "distractors": { "A": "Treated the derivative of cos x as +sin x.", "C": "Differentiated sin x as −cos x, which is its antiderivative." }
-    },
-    {
-      "id": "u2-q04", "tier": "Intro", "type": "mcq", "topic": "2.3 Estimating Derivatives",
-      "stem": "What is the slope of the line tangent to y = √x at x = 4?",
-      "choices": [
-        { "id": "A", "text": "1/2" },
-        { "id": "B", "text": "1/4" },
-        { "id": "C", "text": "2" },
-        { "id": "D", "text": "1/8" }
-      ],
-      "answer": "B",
-      "explanation": "y = x^(1/2), so y′ = ½x^(−1/2) = 1/(2√x). At x = 4, y′ = 1/(2·2) = 1/4.",
-      "distractors": { "A": "Forgot the 2 in the denominator or computed 1/√4.", "C": "That is y(4), not the slope.", "D": "Used 1/(2x) instead of 1/(2√x)." }
-    },
-    {
-      "id": "u2-q05", "tier": "Exam level", "type": "mcq", "topic": "2.9 Product Rule",
-      "stem": "If f(x) = x²eˣ, then f′(1) =",
-      "choices": [
-        { "id": "A", "text": "e" },
-        { "id": "B", "text": "2e" },
-        { "id": "C", "text": "3e" },
-        { "id": "D", "text": "3" }
+        {
+          "id": "A",
+          "text": "3x³ − 5"
+        },
+        {
+          "id": "B",
+          "text": "12x³ − 5x"
+        },
+        {
+          "id": "C",
+          "text": "12x³ − 5"
+        },
+        {
+          "id": "D",
+          "text": "12x⁴ − 5"
+        }
       ],
       "answer": "C",
-      "explanation": "Product rule: f′(x) = 2x·eˣ + x²·eˣ. At x = 1: 2e + e = 3e.",
-      "distractors": { "A": "Only kept the x²eˣ term.", "B": "Multiplied the derivatives, 2x · eˣ, as if (fg)′ = f′g′.", "D": "Dropped the eˣ factor." }
+      "explanation": "Differentiate term by term: d/dx(3x⁴) = 12x³, d/dx(−5x) = −5, and d/dx(2) = 0. So f′(x) = 12x³ − 5.",
+      "distractors": {
+        "B": "Kept the x on the linear term; the derivative of −5x is −5.",
+        "D": "Multiplied by the power but did not lower the exponent.",
+        "A": "Dropped the power but forgot to multiply by it."
+      }
     },
     {
-      "id": "u2-q06", "tier": "Exam level", "type": "mcq", "topic": "2.9 Quotient Rule",
+      "id": "u2-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.2 Defining the Derivative",
+      "stem": "lim(h→0) [(2 + h)³ − 8] / h is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "8"
+        },
+        {
+          "id": "B",
+          "text": "nonexistent"
+        },
+        {
+          "id": "C",
+          "text": "6"
+        },
+        {
+          "id": "D",
+          "text": "12"
+        }
+      ],
+      "answer": "D",
+      "explanation": "This is the definition of f′(2) for f(x) = x³, since f(2) = 8. f′(x) = 3x², so f′(2) = 12.",
+      "distractors": {
+        "A": "That is f(2), not f′(2).",
+        "C": "Used 3x instead of 3x² as the derivative.",
+        "B": "The 0/0 form is the definition of a derivative, not a sign that the limit fails."
+      }
+    },
+    {
+      "id": "u2-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.8 Derivatives of sin and cos",
+      "stem": "d/dx (sin x − cos x) =",
+      "choices": [
+        {
+          "id": "A",
+          "text": "cos x − sin x"
+        },
+        {
+          "id": "B",
+          "text": "−cos x + sin x"
+        },
+        {
+          "id": "C",
+          "text": "cos x + sin x"
+        },
+        {
+          "id": "D",
+          "text": "−cos x − sin x"
+        }
+      ],
+      "answer": "C",
+      "explanation": "(sin x)′ = cos x and (cos x)′ = −sin x, so (−cos x)′ = sin x. The total is cos x + sin x.",
+      "distractors": {
+        "A": "Treated the derivative of cos x as +sin x.",
+        "B": "Differentiated sin x as −cos x, which is its antiderivative."
+      }
+    },
+    {
+      "id": "u2-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.3 Estimating Derivatives",
+      "stem": "What is the slope of the line tangent to y = √x at x = 4?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1/2"
+        },
+        {
+          "id": "B",
+          "text": "1/8"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "1/4"
+        }
+      ],
+      "answer": "D",
+      "explanation": "y = x^(1/2), so y′ = ½x^(−1/2) = 1/(2√x). At x = 4, y′ = 1/(2·2) = 1/4.",
+      "distractors": {
+        "A": "Forgot the 2 in the denominator or computed 1/√4.",
+        "C": "That is y(4), not the slope.",
+        "B": "Used 1/(2x) instead of 1/(2√x)."
+      }
+    },
+    {
+      "id": "u2-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.9 Product Rule",
+      "stem": "If f(x) = x²eˣ, then f′(1) =",
+      "choices": [
+        {
+          "id": "A",
+          "text": "e"
+        },
+        {
+          "id": "B",
+          "text": "3e"
+        },
+        {
+          "id": "C",
+          "text": "2e"
+        },
+        {
+          "id": "D",
+          "text": "3"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Product rule: f′(x) = 2x·eˣ + x²·eˣ. At x = 1: 2e + e = 3e.",
+      "distractors": {
+        "A": "Only kept the x²eˣ term.",
+        "D": "Dropped the eˣ factor.",
+        "C": "Multiplied the derivatives, 2x · eˣ, as if (fg)′ = f′g′."
+      }
+    },
+    {
+      "id": "u2-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.9 Quotient Rule",
       "stem": "If y = (x² + 1)/(x − 1), what is dy/dx at x = 2?",
       "choices": [
-        { "id": "A", "text": "−1" },
-        { "id": "B", "text": "1" },
-        { "id": "C", "text": "4" },
-        { "id": "D", "text": "−3" }
+        {
+          "id": "A",
+          "text": "−1"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "−3"
+        }
       ],
       "answer": "A",
       "explanation": "y′ = [2x(x − 1) − (x² + 1)(1)]/(x − 1)². At x = 2: [4·1 − 5]/1² = −1.",
-      "distractors": { "B": "Reversed the numerator order, giving 5 − 4.", "C": "Computed (x² + 1)′/(x − 1)′ = 2x/1 at x = 2." }
+      "distractors": {
+        "B": "Reversed the numerator order, giving 5 − 4.",
+        "C": "Computed (x² + 1)′/(x − 1)′ = 2x/1 at x = 2."
+      }
     },
     {
-      "id": "u2-q07", "tier": "Exam level", "type": "mcq", "topic": "2.4 Connecting Differentiability and Continuity",
+      "id": "u2-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.4 Connecting Differentiability and Continuity",
       "stimulus": "f(x) = x² for x ≤ 1\nf(x) = ax + b for x > 1",
       "stem": "For which values of a and b is f differentiable at x = 1?",
       "choices": [
-        { "id": "A", "text": "a = 2, b = −1" },
-        { "id": "B", "text": "a = 1, b = 0" },
-        { "id": "C", "text": "a = 2, b = 1" },
-        { "id": "D", "text": "a = −1, b = 2" }
+        {
+          "id": "A",
+          "text": "a = 2, b = −1"
+        },
+        {
+          "id": "B",
+          "text": "a = 1, b = 0"
+        },
+        {
+          "id": "C",
+          "text": "a = 2, b = 1"
+        },
+        {
+          "id": "D",
+          "text": "a = −1, b = 2"
+        }
       ],
       "answer": "A",
       "explanation": "Continuity at 1: 1² = a + b, so a + b = 1. Matching slopes: d/dx(x²) = 2x = 2 at x = 1, and the line has slope a, so a = 2. Then b = −1.",
-      "distractors": { "B": "Satisfies continuity but the slopes are 2 and 1.", "C": "Correct slope but the pieces don't meet: 2 + 1 = 3 ≠ 1.", "D": "Satisfies continuity only." }
+      "distractors": {
+        "B": "Satisfies continuity but the slopes are 2 and 1.",
+        "C": "Correct slope but the pieces don't meet: 2 + 1 = 3 ≠ 1.",
+        "D": "Satisfies continuity only."
+      }
     },
     {
-      "id": "u2-q08", "tier": "Exam level", "type": "mcq", "topic": "2.4 Connecting Differentiability and Continuity",
+      "id": "u2-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.4 Connecting Differentiability and Continuity",
       "stem": "Let f(x) = |x − 3|. Which statement about f at x = 3 is true?",
       "choices": [
-        { "id": "A", "text": "f is differentiable but not continuous." },
-        { "id": "B", "text": "f is continuous but not differentiable." },
-        { "id": "C", "text": "f is both continuous and differentiable." },
-        { "id": "D", "text": "f is neither continuous nor differentiable." }
+        {
+          "id": "A",
+          "text": "f is differentiable but not continuous."
+        },
+        {
+          "id": "B",
+          "text": "f is continuous but not differentiable."
+        },
+        {
+          "id": "C",
+          "text": "f is both continuous and differentiable."
+        },
+        {
+          "id": "D",
+          "text": "f is neither continuous nor differentiable."
+        }
       ],
       "answer": "B",
       "explanation": "The graph has no break at x = 3, so f is continuous. The slope is −1 just left of 3 and +1 just right, a corner, so f′(3) does not exist.",
-      "distractors": { "A": "Impossible: differentiability always implies continuity.", "C": "Ignores the corner where the one-sided slopes disagree.", "D": "The absolute value function has no jump or hole." }
+      "distractors": {
+        "A": "Impossible: differentiability always implies continuity.",
+        "C": "Ignores the corner where the one-sided slopes disagree.",
+        "D": "The absolute value function has no jump or hole."
+      }
     },
     {
-      "id": "u2-q09", "tier": "Exam level", "type": "mcq", "topic": "2.3 Tangent Lines",
+      "id": "u2-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.3 Tangent Lines",
       "stem": "Which is an equation of the line tangent to y = x³ − 2x at x = 1?",
       "choices": [
-        { "id": "A", "text": "y = x − 2" },
-        { "id": "B", "text": "y = x" },
-        { "id": "C", "text": "y = 3x − 4" },
-        { "id": "D", "text": "y = −x" }
+        {
+          "id": "A",
+          "text": "y = −x"
+        },
+        {
+          "id": "B",
+          "text": "y = x"
+        },
+        {
+          "id": "C",
+          "text": "y = 3x − 4"
+        },
+        {
+          "id": "D",
+          "text": "y = x − 2"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "y(1) = 1 − 2 = −1. y′ = 3x² − 2, so y′(1) = 1. Tangent: y + 1 = 1(x − 1), i.e. y = x − 2.",
-      "distractors": { "B": "Right slope but passes through (1, 1), not (1, −1).", "C": "Used 3x² = 3 as the slope, forgetting the −2." }
+      "distractors": {
+        "B": "Right slope but passes through (1, 1), not (1, −1).",
+        "C": "Used 3x² = 3 as the slope, forgetting the −2."
+      }
     },
     {
-      "id": "u2-q10", "tier": "Exam level", "type": "mcq", "topic": "2.3 Estimating Derivatives",
+      "id": "u2-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.3 Estimating Derivatives",
       "stimulus": "| x | 1.9 | 2.0 | 2.1 |\n| --- | --- | --- | --- |\n| f(x) | 4.6 | 5.0 | 5.4 |",
       "stem": "The function f is differentiable. Selected values are shown in the table. Which is the best estimate of f′(2)?",
       "choices": [
-        { "id": "A", "text": "0.4" },
-        { "id": "B", "text": "4" },
-        { "id": "C", "text": "5" },
-        { "id": "D", "text": "40" }
+        {
+          "id": "A",
+          "text": "0.4"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "40"
+        }
       ],
       "answer": "B",
       "explanation": "Use the symmetric difference quotient around 2: (f(2.1) − f(1.9))/(2.1 − 1.9) = (5.4 − 4.6)/0.2 = 0.8/0.2 = 4.",
-      "distractors": { "A": "Found the change in f but did not divide by the change in x.", "C": "That is f(2), not the slope.", "D": "Divided by 0.02 instead of 0.2." }
+      "distractors": {
+        "A": "Found the change in f but did not divide by the change in x.",
+        "C": "That is f(2), not the slope.",
+        "D": "Divided by 0.02 instead of 0.2."
+      }
     },
     {
-      "id": "u2-q11", "tier": "Hardest", "type": "mcq", "topic": "2.2 Defining the Derivative",
+      "id": "u2-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.2 Defining the Derivative",
       "stem": "lim(h→0) [cos(π/3 + h) − ½] / h is",
       "choices": [
-        { "id": "A", "text": "√3/2" },
-        { "id": "B", "text": "−√3/2" },
-        { "id": "C", "text": "−½" },
-        { "id": "D", "text": "0" }
-      ],
-      "answer": "B",
-      "explanation": "Since cos(π/3) = ½, this is the derivative of cos x at x = π/3. d/dx(cos x) = −sin x, and −sin(π/3) = −√3/2.",
-      "distractors": { "A": "Lost the negative sign on the derivative of cosine.", "C": "Evaluated −cos(π/3) instead of −sin(π/3).", "D": "Substituted h = 0 into the numerator and stopped." }
-    },
-    {
-      "id": "u2-q12", "tier": "Hardest", "type": "mcq", "topic": "2.4 Connecting Differentiability and Continuity",
-      "stem": "Let f(x) = x^(2/3) + |x − ½|. At which values of x in the open interval (−1, 1) is f not differentiable?",
-      "choices": [
-        { "id": "A", "text": "x = 0 only" },
-        { "id": "B", "text": "x = ½ only" },
-        { "id": "C", "text": "x = 0 and x = ½" },
-        { "id": "D", "text": "f is differentiable everywhere on (−1, 1)" }
+        {
+          "id": "A",
+          "text": "√3/2"
+        },
+        {
+          "id": "B",
+          "text": "−½"
+        },
+        {
+          "id": "C",
+          "text": "−√3/2"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
       ],
       "answer": "C",
-      "explanation": "x^(2/3) has derivative (2/3)x^(−1/3), which blows up with opposite signs on each side of 0: a cusp. |x − ½| has a corner at ½. Adding a function that is differentiable at a point cannot repair a failure in the other term, so f fails at both.",
-      "distractors": { "A": "Missed the corner of the absolute value term.", "B": "Missed the cusp of x^(2/3), which is continuous at 0 but not differentiable." }
+      "explanation": "Since cos(π/3) = ½, this is the derivative of cos x at x = π/3. d/dx(cos x) = −sin x, and −sin(π/3) = −√3/2.",
+      "distractors": {
+        "A": "Lost the negative sign on the derivative of cosine.",
+        "D": "Substituted h = 0 into the numerator and stopped.",
+        "B": "Evaluated −cos(π/3) instead of −sin(π/3)."
+      }
     },
     {
-      "id": "u2-q13", "tier": "Hardest", "type": "mcq", "topic": "2.9 Quotient Rule",
+      "id": "u2-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.4 Connecting Differentiability and Continuity",
+      "stem": "Let f(x) = x^(2/3) + |x − ½|. At which values of x in the open interval (−1, 1) is f not differentiable?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "x = 0 and x = ½"
+        },
+        {
+          "id": "B",
+          "text": "x = ½ only"
+        },
+        {
+          "id": "C",
+          "text": "x = 0 only"
+        },
+        {
+          "id": "D",
+          "text": "f is differentiable everywhere on (−1, 1)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "x^(2/3) has derivative (2/3)x^(−1/3), which blows up with opposite signs on each side of 0: a cusp. |x − ½| has a corner at ½. Adding a function that is differentiable at a point cannot repair a failure in the other term, so f fails at both.",
+      "distractors": {
+        "B": "Missed the cusp of x^(2/3), which is continuous at 0 but not differentiable.",
+        "C": "Missed the corner of the absolute value term."
+      }
+    },
+    {
+      "id": "u2-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.9 Quotient Rule",
       "stimulus": "| x | g(x) | g′(x) | h(x) | h′(x) |\n| --- | --- | --- | --- | --- |\n| 2 | 3 | −1 | 4 | 5 |",
       "stem": "The differentiable functions g and h have the values shown. If k(x) = g(x)/h(x), what is k′(2)?",
       "choices": [
-        { "id": "A", "text": "−19/16" },
-        { "id": "B", "text": "11/16" },
-        { "id": "C", "text": "−1/5" },
-        { "id": "D", "text": "19/16" }
+        {
+          "id": "A",
+          "text": "19/16"
+        },
+        {
+          "id": "B",
+          "text": "11/16"
+        },
+        {
+          "id": "C",
+          "text": "−1/5"
+        },
+        {
+          "id": "D",
+          "text": "−19/16"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "k′(2) = [g′(2)h(2) − g(2)h′(2)]/[h(2)]² = [(−1)(4) − (3)(5)]/16 = (−4 − 15)/16 = −19/16.",
-      "distractors": { "B": "Added the two products instead of subtracting.", "C": "Computed g′(2)/h′(2).", "D": "Reversed the numerator order." }
+      "distractors": {
+        "B": "Added the two products instead of subtracting.",
+        "C": "Computed g′(2)/h′(2).",
+        "A": "Reversed the numerator order."
+      }
     },
     {
-      "id": "u2-q14", "tier": "Hardest", "type": "mcq", "topic": "2.3 Tangent Lines",
+      "id": "u2-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.3 Tangent Lines",
       "stem": "For what values of k is the line y = kx − 1 tangent to the graph of y = x² + 3?",
       "choices": [
-        { "id": "A", "text": "k = 4 only" },
-        { "id": "B", "text": "k = 4 and k = −4" },
-        { "id": "C", "text": "k = 2 and k = −2" },
-        { "id": "D", "text": "No value of k" }
+        {
+          "id": "A",
+          "text": "k = 4 only"
+        },
+        {
+          "id": "B",
+          "text": "k = 2 and k = −2"
+        },
+        {
+          "id": "C",
+          "text": "k = 4 and k = −4"
+        },
+        {
+          "id": "D",
+          "text": "No value of k"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "At the point of tangency x = t, the slopes match: 2t = k, and the values match: t² + 3 = kt − 1 = 2t² − 1. So t² = 4, t = ±2, and k = 2t = ±4. Check: k = 4 touches at (2, 7) and k = −4 at (−2, 7).",
-      "distractors": { "A": "Took only the positive root of t² = 4.", "C": "Reported the x-coordinates of tangency instead of the slopes." }
+      "distractors": {
+        "A": "Took only the positive root of t² = 4.",
+        "B": "Reported the x-coordinates of tangency instead of the slopes."
+      }
     },
     {
-      "id": "u2-frq1", "tier": "Exam level", "type": "frq", "topic": "2.3, 2.9 Table-based derivatives", "frqType": "Free response (no calculator)",
+      "id": "u2-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "2.3, 2.9 Table-based derivatives",
+      "frqType": "Free response (no calculator)",
       "stimulus": "| x | 0 | 1 | 3 | 4 |\n| --- | --- | --- | --- | --- |\n| f(x) | 2 | 5 | 9 | 8 |\n| f′(x) | 4 | 3 | −2 | −3 |",
       "prompt": "The function f is twice differentiable for all real numbers. Selected values of f and f′ are given in the table.",
       "parts": [
-        { "label": "a", "prompt": "Use the data in the table to estimate f′(2). Show the computations that lead to your answer.", "points": 2 },
-        { "label": "b", "prompt": "Let g(x) = x·f(x). Find g′(1).", "points": 2 },
-        { "label": "c", "prompt": "Let h(x) = f(x)/(x + 1). Find h′(3).", "points": 3 },
-        { "label": "d", "prompt": "Write an equation for the line tangent to the graph of f at x = 3. Use it to approximate f(3.1).", "points": 2 }
+        {
+          "label": "a",
+          "prompt": "Use the data in the table to estimate f′(2). Show the computations that lead to your answer.",
+          "points": 2
+        },
+        {
+          "label": "b",
+          "prompt": "Let g(x) = x·f(x). Find g′(1).",
+          "points": 2
+        },
+        {
+          "label": "c",
+          "prompt": "Let h(x) = f(x)/(x + 1). Find h′(3).",
+          "points": 3
+        },
+        {
+          "label": "d",
+          "prompt": "Write an equation for the line tangent to the graph of f at x = 3. Use it to approximate f(3.1).",
+          "points": 2
+        }
       ],
       "points": 9,
       "minutes": 15,
       "rubric": [
-        { "criterion": "(a) Difference quotient", "points": 1, "description": "Uses (f(3) − f(1))/(3 − 1) with values from the table." },
-        { "criterion": "(a) Estimate", "points": 1, "description": "f′(2) ≈ 2." },
-        { "criterion": "(b) Product rule", "points": 1, "description": "g′(x) = f(x) + x·f′(x)." },
-        { "criterion": "(b) Answer", "points": 1, "description": "g′(1) = 5 + 1·3 = 8." },
-        { "criterion": "(c) Quotient rule", "points": 1, "description": "h′(x) = [f′(x)(x + 1) − f(x)]/(x + 1)²." },
-        { "criterion": "(c) Substitution", "points": 1, "description": "Correctly substitutes f(3) = 9 and f′(3) = −2." },
-        { "criterion": "(c) Answer", "points": 1, "description": "h′(3) = (−8 − 9)/16 = −17/16." },
-        { "criterion": "(d) Tangent line", "points": 1, "description": "y = 9 − 2(x − 3)." },
-        { "criterion": "(d) Approximation", "points": 1, "description": "f(3.1) ≈ 9 − 2(0.1) = 8.8." }
+        {
+          "criterion": "(a) Difference quotient",
+          "points": 1,
+          "description": "Uses (f(3) − f(1))/(3 − 1) with values from the table."
+        },
+        {
+          "criterion": "(a) Estimate",
+          "points": 1,
+          "description": "f′(2) ≈ 2."
+        },
+        {
+          "criterion": "(b) Product rule",
+          "points": 1,
+          "description": "g′(x) = f(x) + x·f′(x)."
+        },
+        {
+          "criterion": "(b) Answer",
+          "points": 1,
+          "description": "g′(1) = 5 + 1·3 = 8."
+        },
+        {
+          "criterion": "(c) Quotient rule",
+          "points": 1,
+          "description": "h′(x) = [f′(x)(x + 1) − f(x)]/(x + 1)²."
+        },
+        {
+          "criterion": "(c) Substitution",
+          "points": 1,
+          "description": "Correctly substitutes f(3) = 9 and f′(3) = −2."
+        },
+        {
+          "criterion": "(c) Answer",
+          "points": 1,
+          "description": "h′(3) = (−8 − 9)/16 = −17/16."
+        },
+        {
+          "criterion": "(d) Tangent line",
+          "points": 1,
+          "description": "y = 9 − 2(x − 3)."
+        },
+        {
+          "criterion": "(d) Approximation",
+          "points": 1,
+          "description": "f(3.1) ≈ 9 − 2(0.1) = 8.8."
+        }
       ],
       "sampleResponse": "(a) f′(2) ≈ (f(3) − f(1))/(3 − 1) = (9 − 5)/2 = 2.\n\n(b) g′(x) = 1·f(x) + x·f′(x), so g′(1) = f(1) + 1·f′(1) = 5 + 3 = 8.\n\n(c) h′(x) = [f′(x)(x + 1) − f(x)(1)]/(x + 1)². h′(3) = [(−2)(4) − 9]/16 = −17/16.\n\n(d) f(3) = 9 and f′(3) = −2, so the tangent line is y = 9 − 2(x − 3). f(3.1) ≈ 9 − 2(0.1) = 8.8."
     }

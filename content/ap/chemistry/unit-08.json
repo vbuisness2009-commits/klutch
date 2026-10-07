@@ -142,18 +142,18 @@
         },
         {
           "id": "B",
-          "text": "SO₄²⁻"
+          "text": "HSO₃⁻"
         },
         {
           "id": "C",
-          "text": "HSO₃⁻"
+          "text": "SO₄²⁻"
         },
         {
           "id": "D",
           "text": "OH⁻"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Remove one H⁺: HSO₄⁻ → SO₄²⁻.",
       "distractors": {
         "A": "Conjugate acid."
@@ -198,7 +198,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "NaCl"
+          "text": "NaCH₃COO"
         },
         {
           "id": "B",
@@ -206,14 +206,14 @@
         },
         {
           "id": "C",
-          "text": "NaCH₃COO"
+          "text": "NaCl"
         },
         {
           "id": "D",
           "text": "KNO₃"
         }
       ],
-      "answer": "C",
+      "answer": "A",
       "explanation": "CH₃COO⁻ is the conjugate base of a weak acid and accepts H⁺ from water, producing OH⁻.",
       "distractors": {
         "B": "NH₄⁺ is acidic."
@@ -289,7 +289,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "1.4 × 10⁻⁴"
+          "text": "3.85"
         },
         {
           "id": "B",
@@ -301,10 +301,10 @@
         },
         {
           "id": "D",
-          "text": "3.85"
+          "text": "1.4 × 10⁻⁴"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "At half-equivalence [HA] = [A⁻], so pH = pKa = 3.85; Ka = 10⁻³·⁸⁵ = 1.4 × 10⁻⁴.",
       "distractors": {
         "C": "Kb of the conjugate base."
@@ -349,11 +349,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Excess NaOH is present at the equivalence point."
+          "text": "The acetate ion formed is a weak base that reacts with water to produce OH⁻."
         },
         {
           "id": "B",
-          "text": "The acetate ion formed is a weak base that reacts with water to produce OH⁻."
+          "text": "Excess NaOH is present at the equivalence point."
         },
         {
           "id": "C",
@@ -364,10 +364,10 @@
           "text": "Acetic acid is a strong acid."
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "At equivalence, all HA has become A⁻; CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻.",
       "distractors": {
-        "A": "No excess at equivalence by definition."
+        "B": "No excess at equivalence by definition."
       }
     },
     {
@@ -441,11 +441,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "HClO₄ has more hydrogen atoms to donate."
+          "text": "The additional electronegative O atoms in HClO₄ withdraw electron density from the O–H bond and delocalize the negative charge of ClO₄⁻, stabilizing the conjugate base."
         },
         {
           "id": "B",
-          "text": "The additional electronegative O atoms in HClO₄ withdraw electron density from the O–H bond and delocalize the negative charge of ClO₄⁻, stabilizing the conjugate base."
+          "text": "HClO₄ has more hydrogen atoms to donate."
         },
         {
           "id": "C",
@@ -456,11 +456,11 @@
           "text": "ClO₄⁻ is a stronger base than ClO⁻."
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "A more stable conjugate base means a stronger acid; charge delocalization over four O atoms stabilizes ClO₄⁻.",
       "distractors": {
-        "A": "Both have one H.",
-        "D": "Reversed: ClO₄⁻ is the weaker base."
+        "D": "Reversed: ClO₄⁻ is the weaker base.",
+        "B": "Both have one H."
       }
     },
     {

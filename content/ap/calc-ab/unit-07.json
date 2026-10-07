@@ -55,224 +55,576 @@
     "cramSheet": "**Proportional:** dy/dt = ky\n\n**Verify:** plug y and y′ into the DE\n\n**Slope field:** slope at (x, y) = dy/dx there; zero slopes first\n\n**Separate:** ∫ dy/h(y) = ∫ g(x) dx + C → initial condition → solve for y\n\n**Exponential:** y = y₀e^(kt) · doubling k = ln2/T · half-life k = −ln2/T\n\n**Cooling:** T = Tₐ + (T₀ − Tₐ)e^(−kt)\n\n**Second derivative:** differentiate dy/dx, substitute dy/dx back"
   },
   "vocab": [
-    { "term": "Differential equation", "definition": "An equation involving a function and its derivatives." },
-    { "term": "General solution", "definition": "The family of all solutions to a differential equation, containing an arbitrary constant C." },
-    { "term": "Particular solution", "definition": "The single solution that satisfies a given initial condition." },
-    { "term": "Initial condition", "definition": "A known value of the solution, such as y(0) = 2, used to find the constant C." },
-    { "term": "Slope field", "definition": "A graphical display of short line segments whose slopes equal dy/dx at each grid point." },
-    { "term": "Solution curve", "definition": "The graph of a particular solution; it follows the slope field." },
-    { "term": "Separable differential equation", "definition": "An equation that can be written as dy/dx = g(x)h(y), so variables can be separated onto opposite sides." },
-    { "term": "Separation of variables", "definition": "Rewriting dy/dx = g(x)h(y) as dy/h(y) = g(x)dx and integrating both sides." },
-    { "term": "Exponential growth/decay model", "definition": "dy/dt = ky, with solution y = y₀e^(kt)." },
-    { "term": "Proportional", "definition": "y is proportional to x when y = kx for some constant k." },
-    { "term": "Doubling time", "definition": "The time for an exponentially growing quantity to double; T = ln 2/k." },
-    { "term": "Half-life", "definition": "The time for an exponentially decaying quantity to halve; T = ln 2/|k|." },
-    { "term": "Newton's law of cooling", "definition": "dT/dt = −k(T − Tₐ): an object's temperature changes at a rate proportional to its difference from the surrounding temperature." }
+    {
+      "term": "Differential equation",
+      "definition": "An equation involving a function and its derivatives."
+    },
+    {
+      "term": "General solution",
+      "definition": "The family of all solutions to a differential equation, containing an arbitrary constant C."
+    },
+    {
+      "term": "Particular solution",
+      "definition": "The single solution that satisfies a given initial condition."
+    },
+    {
+      "term": "Initial condition",
+      "definition": "A known value of the solution, such as y(0) = 2, used to find the constant C."
+    },
+    {
+      "term": "Slope field",
+      "definition": "A graphical display of short line segments whose slopes equal dy/dx at each grid point."
+    },
+    {
+      "term": "Solution curve",
+      "definition": "The graph of a particular solution; it follows the slope field."
+    },
+    {
+      "term": "Separable differential equation",
+      "definition": "An equation that can be written as dy/dx = g(x)h(y), so variables can be separated onto opposite sides."
+    },
+    {
+      "term": "Separation of variables",
+      "definition": "Rewriting dy/dx = g(x)h(y) as dy/h(y) = g(x)dx and integrating both sides."
+    },
+    {
+      "term": "Exponential growth/decay model",
+      "definition": "dy/dt = ky, with solution y = y₀e^(kt)."
+    },
+    {
+      "term": "Proportional",
+      "definition": "y is proportional to x when y = kx for some constant k."
+    },
+    {
+      "term": "Doubling time",
+      "definition": "The time for an exponentially growing quantity to double; T = ln 2/k."
+    },
+    {
+      "term": "Half-life",
+      "definition": "The time for an exponentially decaying quantity to halve; T = ln 2/|k|."
+    },
+    {
+      "term": "Newton's law of cooling",
+      "definition": "dT/dt = −k(T − Tₐ): an object's temperature changes at a rate proportional to its difference from the surrounding temperature."
+    }
   ],
   "practice": [
     {
-      "id": "u7-q01", "tier": "Intro", "type": "mcq", "topic": "7.2 Verifying Solutions for Differential Equations",
+      "id": "u7-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "7.2 Verifying Solutions for Differential Equations",
       "stem": "Which function is a solution to dy/dx = 2y?",
       "choices": [
-        { "id": "A", "text": "y = 5e^(2x)" },
-        { "id": "B", "text": "y = 2e^x" },
-        { "id": "C", "text": "y = x² + 5" },
-        { "id": "D", "text": "y = e^(2x) + 5" }
+        {
+          "id": "A",
+          "text": "y = e^(2x) + 5"
+        },
+        {
+          "id": "B",
+          "text": "y = 2e^x"
+        },
+        {
+          "id": "C",
+          "text": "y = x² + 5"
+        },
+        {
+          "id": "D",
+          "text": "y = 5e^(2x)"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "y′ = 10e^(2x) = 2(5e^(2x)) = 2y.",
-      "distractors": { "B": "y′ = 2eˣ = y, not 2y.", "D": "y′ = 2e^(2x), but 2y = 2e^(2x) + 10." }
+      "distractors": {
+        "B": "y′ = 2eˣ = y, not 2y.",
+        "A": "y′ = 2e^(2x), but 2y = 2e^(2x) + 10."
+      }
     },
     {
-      "id": "u7-q02", "tier": "Intro", "type": "mcq", "topic": "7.3 Sketching Slope Fields",
+      "id": "u7-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "7.3 Sketching Slope Fields",
       "stem": "In the slope field for dy/dx = x − y, what is the slope of the segment at (1, 2)?",
       "choices": [
-        { "id": "A", "text": "−1" },
-        { "id": "B", "text": "1" },
-        { "id": "C", "text": "3" },
-        { "id": "D", "text": "−3" }
+        {
+          "id": "A",
+          "text": "−1"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "−3"
+        }
       ],
       "answer": "A",
       "explanation": "1 − 2 = −1.",
-      "distractors": { "B": "Computed y − x.", "C": "Added the coordinates." }
+      "distractors": {
+        "B": "Computed y − x.",
+        "C": "Added the coordinates."
+      }
     },
     {
-      "id": "u7-q03", "tier": "Intro", "type": "mcq", "topic": "7.1 Modeling Situations with Differential Equations",
+      "id": "u7-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "7.1 Modeling Situations with Differential Equations",
       "stem": "The rate of change of a population P with respect to time t is proportional to P. Which differential equation models this?",
       "choices": [
-        { "id": "A", "text": "dP/dt = kP" },
-        { "id": "B", "text": "dP/dt = kt" },
-        { "id": "C", "text": "P = kt" },
-        { "id": "D", "text": "dP/dt = P + k" }
+        {
+          "id": "A",
+          "text": "dP/dt = kt"
+        },
+        {
+          "id": "B",
+          "text": "dP/dt = kP"
+        },
+        {
+          "id": "C",
+          "text": "P = kt"
+        },
+        {
+          "id": "D",
+          "text": "dP/dt = P + k"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "\"Proportional to P\" means a constant times P.",
-      "distractors": { "B": "Proportional to time, not to P.", "C": "Describes P itself, not its rate.", "D": "Adds a constant instead of multiplying." }
+      "distractors": {
+        "C": "Describes P itself, not its rate.",
+        "D": "Adds a constant instead of multiplying.",
+        "A": "Proportional to time, not to P."
+      }
     },
     {
-      "id": "u7-q04", "tier": "Intro", "type": "mcq", "topic": "7.6 Finding General Solutions Using Separation of Variables",
+      "id": "u7-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "7.6 Finding General Solutions Using Separation of Variables",
       "stem": "What is the general solution of dy/dx = 3x²?",
       "choices": [
-        { "id": "A", "text": "y = x³ + C" },
-        { "id": "B", "text": "y = 6x + C" },
-        { "id": "C", "text": "y = Ce^(x³)" },
-        { "id": "D", "text": "y = 3x³ + C" }
+        {
+          "id": "A",
+          "text": "y = Ce^(x³)"
+        },
+        {
+          "id": "B",
+          "text": "y = 6x + C"
+        },
+        {
+          "id": "C",
+          "text": "y = x³ + C"
+        },
+        {
+          "id": "D",
+          "text": "y = 3x³ + C"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Integrate: y = ∫3x² dx = x³ + C.",
-      "distractors": { "B": "Differentiated.", "C": "Treated it as dy/dx = 3x²y." }
+      "distractors": {
+        "B": "Differentiated.",
+        "A": "Treated it as dy/dx = 3x²y."
+      }
     },
     {
-      "id": "u7-q05", "tier": "Exam level", "type": "mcq", "topic": "7.7 Finding Particular Solutions Using Initial Conditions and Separation of Variables",
+      "id": "u7-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.7 Finding Particular Solutions Using Initial Conditions and Separation of Variables",
       "stem": "If dy/dx = xy and y(0) = 2, then y =",
       "choices": [
-        { "id": "A", "text": "2e^(x²/2)" },
-        { "id": "B", "text": "e^(x²/2) + 1" },
-        { "id": "C", "text": "2e^(x²)" },
-        { "id": "D", "text": "x²/2 + 2" }
+        {
+          "id": "A",
+          "text": "2e^(x²)"
+        },
+        {
+          "id": "B",
+          "text": "e^(x²/2) + 1"
+        },
+        {
+          "id": "C",
+          "text": "2e^(x²/2)"
+        },
+        {
+          "id": "D",
+          "text": "x²/2 + 2"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "dy/y = x dx → ln|y| = x²/2 + C. ln 2 = C. y = 2e^(x²/2).",
-      "distractors": { "B": "Split e^(x²/2 + C) as e^(x²/2) + C.", "C": "Integrated x as x².", "D": "Ignored the y on the right side." }
+      "distractors": {
+        "B": "Split e^(x²/2 + C) as e^(x²/2) + C.",
+        "D": "Ignored the y on the right side.",
+        "A": "Integrated x as x²."
+      }
     },
     {
-      "id": "u7-q06", "tier": "Exam level", "type": "mcq", "topic": "7.8 Exponential Models with Differential Equations",
+      "id": "u7-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.8 Exponential Models with Differential Equations",
       "stem": "A bacteria population satisfies dy/dt = 0.3y with y(0) = 50, where t is in hours. Which expression gives y(t)?",
       "choices": [
-        { "id": "A", "text": "50e^(0.3t)" },
-        { "id": "B", "text": "0.3e^(50t)" },
-        { "id": "C", "text": "50 + e^(0.3t)" },
-        { "id": "D", "text": "50(0.3)^t" }
+        {
+          "id": "A",
+          "text": "0.3e^(50t)"
+        },
+        {
+          "id": "B",
+          "text": "50e^(0.3t)"
+        },
+        {
+          "id": "C",
+          "text": "50 + e^(0.3t)"
+        },
+        {
+          "id": "D",
+          "text": "50(0.3)^t"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "dy/dt = ky ⇒ y = y₀e^(kt) with y₀ = 50, k = 0.3.",
-      "distractors": { "C": "Added the initial value instead of multiplying.", "D": "Used 0.3 as a growth factor; that's 70% decay per hour." }
+      "distractors": {
+        "C": "Added the initial value instead of multiplying.",
+        "D": "Used 0.3 as a growth factor; that's 70% decay per hour."
+      }
     },
     {
-      "id": "u7-q07", "tier": "Exam level", "type": "mcq", "topic": "7.4 Reasoning Using Slope Fields",
+      "id": "u7-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.4 Reasoning Using Slope Fields",
       "stem": "In a slope field, every segment along the line y = 2 is horizontal, every segment above y = 2 has positive slope, and segments in the same row are identical. Which differential equation could it represent?",
       "choices": [
-        { "id": "A", "text": "dy/dx = y − 2" },
-        { "id": "B", "text": "dy/dx = x − 2" },
-        { "id": "C", "text": "dy/dx = 2 − y" },
-        { "id": "D", "text": "dy/dx = x(y − 2)" }
+        {
+          "id": "A",
+          "text": "dy/dx = y − 2"
+        },
+        {
+          "id": "B",
+          "text": "dy/dx = x − 2"
+        },
+        {
+          "id": "C",
+          "text": "dy/dx = 2 − y"
+        },
+        {
+          "id": "D",
+          "text": "dy/dx = x(y − 2)"
+        }
       ],
       "answer": "A",
       "explanation": "Rows identical means dy/dx depends only on y. Zero at y = 2 and positive above it fits y − 2.",
-      "distractors": { "B": "Depends on x; columns would be identical instead.", "C": "Negative above y = 2.", "D": "Slopes change along a row because of the x factor." }
+      "distractors": {
+        "B": "Depends on x; columns would be identical instead.",
+        "C": "Negative above y = 2.",
+        "D": "Slopes change along a row because of the x factor."
+      }
     },
     {
-      "id": "u7-q08", "tier": "Exam level", "type": "mcq", "topic": "7.2 Verifying Solutions for Differential Equations",
+      "id": "u7-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.2 Verifying Solutions for Differential Equations",
       "stem": "Which is the general solution of dy/dx = x − y?",
       "choices": [
-        { "id": "A", "text": "y = Ce^(−x) + x − 1" },
-        { "id": "B", "text": "y = Ceˣ + x − 1" },
-        { "id": "C", "text": "y = Ce^(−x) + x" },
-        { "id": "D", "text": "y = x − 1" }
+        {
+          "id": "A",
+          "text": "y = x − 1"
+        },
+        {
+          "id": "B",
+          "text": "y = Ceˣ + x − 1"
+        },
+        {
+          "id": "C",
+          "text": "y = Ce^(−x) + x"
+        },
+        {
+          "id": "D",
+          "text": "y = Ce^(−x) + x − 1"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Check: y′ = −Ce^(−x) + 1, and x − y = x − Ce^(−x) − x + 1 = 1 − Ce^(−x). They match for all C.",
-      "distractors": { "B": "y′ would include +Ceˣ, but x − y gives −Ceˣ.", "C": "Gives y′ − (x − y) = 1 ≠ 0.", "D": "A particular solution (C = 0), not the general one." }
+      "distractors": {
+        "B": "y′ would include +Ceˣ, but x − y gives −Ceˣ.",
+        "C": "Gives y′ − (x − y) = 1 ≠ 0.",
+        "A": "A particular solution (C = 0), not the general one."
+      }
     },
     {
-      "id": "u7-q09", "tier": "Exam level", "type": "mcq", "topic": "7.7 Finding Particular Solutions",
+      "id": "u7-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.7 Finding Particular Solutions",
       "stem": "If dy/dx = y² and y(0) = 1, then y =",
       "choices": [
-        { "id": "A", "text": "1/(1 − x)" },
-        { "id": "B", "text": "1/(1 + x)" },
-        { "id": "C", "text": "eˣ" },
-        { "id": "D", "text": "x³/3 + 1" }
+        {
+          "id": "A",
+          "text": "1/(1 + x)"
+        },
+        {
+          "id": "B",
+          "text": "1/(1 − x)"
+        },
+        {
+          "id": "C",
+          "text": "eˣ"
+        },
+        {
+          "id": "D",
+          "text": "x³/3 + 1"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "dy/y² = dx → −1/y = x + C. At (0, 1): C = −1. So −1/y = x − 1, y = 1/(1 − x).",
-      "distractors": { "B": "Sign error when solving for C.", "C": "Treated y² as y." }
+      "distractors": {
+        "C": "Treated y² as y.",
+        "A": "Sign error when solving for C."
+      }
     },
     {
-      "id": "u7-q10", "tier": "Exam level", "type": "mcq", "topic": "7.8 Exponential Models",
+      "id": "u7-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.8 Exponential Models",
       "stem": "A population grows according to dP/dt = kP and doubles every 5 years. What is k?",
       "choices": [
-        { "id": "A", "text": "(ln 2)/5" },
-        { "id": "B", "text": "2/5" },
-        { "id": "C", "text": "5 ln 2" },
-        { "id": "D", "text": "ln(2/5)" }
+        {
+          "id": "A",
+          "text": "5 ln 2"
+        },
+        {
+          "id": "B",
+          "text": "2/5"
+        },
+        {
+          "id": "C",
+          "text": "(ln 2)/5"
+        },
+        {
+          "id": "D",
+          "text": "ln(2/5)"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "e^(5k) = 2, so 5k = ln 2.",
-      "distractors": { "B": "Dropped the logarithm.", "C": "Multiplied instead of dividing." }
+      "distractors": {
+        "B": "Dropped the logarithm.",
+        "A": "Multiplied instead of dividing."
+      }
     },
     {
-      "id": "u7-q11", "tier": "Hardest", "type": "mcq", "topic": "7.7 Finding Particular Solutions",
+      "id": "u7-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "7.7 Finding Particular Solutions",
       "stem": "If dy/dx = y·cos x and y(0) = 3, then y =",
       "choices": [
-        { "id": "A", "text": "3e^(sin x)" },
-        { "id": "B", "text": "e^(sin x) + 2" },
-        { "id": "C", "text": "3e^(cos x)" },
-        { "id": "D", "text": "3e^(cos x − 1)" }
+        {
+          "id": "A",
+          "text": "3e^(sin x)"
+        },
+        {
+          "id": "B",
+          "text": "e^(sin x) + 2"
+        },
+        {
+          "id": "C",
+          "text": "3e^(cos x)"
+        },
+        {
+          "id": "D",
+          "text": "3e^(cos x − 1)"
+        }
       ],
       "answer": "A",
       "explanation": "dy/y = cos x dx → ln|y| = sin x + C. At x = 0: ln 3 = C. y = 3e^(sin x).",
-      "distractors": { "B": "Split e^(sin x + C) as a sum.", "D": "Integrated cos x as cos x and then forced the initial condition." }
+      "distractors": {
+        "B": "Split e^(sin x + C) as a sum.",
+        "D": "Integrated cos x as cos x and then forced the initial condition."
+      }
     },
     {
-      "id": "u7-q12", "tier": "Hardest", "type": "mcq", "topic": "7.4 Reasoning Using Slope Fields",
+      "id": "u7-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "7.4 Reasoning Using Slope Fields",
       "stem": "y = f(x) is a solution to dy/dx = x + y with f(1) = 0. What is the value of d²y/dx² at x = 1?",
       "choices": [
-        { "id": "A", "text": "2" },
-        { "id": "B", "text": "1" },
-        { "id": "C", "text": "0" },
-        { "id": "D", "text": "3" }
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "d²y/dx² = 1 + dy/dx = 1 + x + y. At (1, 0): 1 + 1 + 0 = 2.",
-      "distractors": { "B": "That is dy/dx at (1, 0), not d²y/dx².", "C": "Assumed the second derivative of a solution curve is 0." }
+      "distractors": {
+        "B": "That is dy/dx at (1, 0), not d²y/dx².",
+        "C": "Assumed the second derivative of a solution curve is 0."
+      }
     },
     {
-      "id": "u7-q13", "tier": "Hardest", "type": "mcq", "topic": "7.7 Finding Particular Solutions",
+      "id": "u7-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "7.7 Finding Particular Solutions",
       "stem": "The particular solution of dy/dx = y² with y(0) = 1 is defined on which largest open interval containing x = 0?",
       "choices": [
-        { "id": "A", "text": "(−∞, 1)" },
-        { "id": "B", "text": "(−∞, ∞)" },
-        { "id": "C", "text": "(−1, 1)" },
-        { "id": "D", "text": "(1, ∞)" }
+        {
+          "id": "A",
+          "text": "(−1, 1)"
+        },
+        {
+          "id": "B",
+          "text": "(−∞, ∞)"
+        },
+        {
+          "id": "C",
+          "text": "(−∞, 1)"
+        },
+        {
+          "id": "D",
+          "text": "(1, ∞)"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "y = 1/(1 − x) has a vertical asymptote at x = 1. The solution through x = 0 lives on (−∞, 1).",
-      "distractors": { "B": "Ignored the asymptote.", "D": "Doesn't contain the initial point." }
+      "distractors": {
+        "B": "Ignored the asymptote.",
+        "D": "Doesn't contain the initial point."
+      }
     },
     {
-      "id": "u7-q14", "tier": "Hardest", "type": "mcq", "topic": "7.8 Exponential Models",
+      "id": "u7-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "7.8 Exponential Models",
       "stem": "A cup of coffee at 200°F cools in a 70°F room according to dT/dt = −k(T − 70). After 10 minutes it is 150°F. What is k?",
       "choices": [
-        { "id": "A", "text": "ln(13/8)/10" },
-        { "id": "B", "text": "ln(8/13)/10" },
-        { "id": "C", "text": "ln(4/3)/10" },
-        { "id": "D", "text": "ln(13/8)" }
+        {
+          "id": "A",
+          "text": "ln(8/13)/10"
+        },
+        {
+          "id": "B",
+          "text": "ln(13/8)/10"
+        },
+        {
+          "id": "C",
+          "text": "ln(4/3)/10"
+        },
+        {
+          "id": "D",
+          "text": "ln(13/8)"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "T − 70 = 130e^(−kt). At t = 10: 80 = 130e^(−10k), so e^(−10k) = 8/13 and k = ln(13/8)/10.",
-      "distractors": { "B": "Negative, but the model already has −k, so k > 0.", "C": "Used 200/150, ignoring the room temperature.", "D": "Forgot to divide by 10." }
+      "distractors": {
+        "C": "Used 200/150, ignoring the room temperature.",
+        "D": "Forgot to divide by 10.",
+        "A": "Negative, but the model already has −k, so k > 0."
+      }
     },
     {
-      "id": "u7-frq1", "tier": "Exam level", "type": "frq", "topic": "7.4–7.7 Separable differential equation", "frqType": "Free response (no calculator)",
+      "id": "u7-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "7.4–7.7 Separable differential equation",
+      "frqType": "Free response (no calculator)",
       "prompt": "Consider the differential equation dy/dx = x²(y − 1). Let y = f(x) be the particular solution with f(0) = 3.",
       "parts": [
-        { "label": "a", "prompt": "Find dy/dx at the points (1, 3) and (−1, 0).", "points": 1 },
-        { "label": "b", "prompt": "Find d²y/dx² in terms of x and y.", "points": 2 },
-        { "label": "c", "prompt": "Does f have a relative minimum, a relative maximum, or neither at x = 0? Justify your answer.", "points": 2 },
-        { "label": "d", "prompt": "Find y = f(x), the particular solution with f(0) = 3.", "points": 4 }
+        {
+          "label": "a",
+          "prompt": "Find dy/dx at the points (1, 3) and (−1, 0).",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Find d²y/dx² in terms of x and y.",
+          "points": 2
+        },
+        {
+          "label": "c",
+          "prompt": "Does f have a relative minimum, a relative maximum, or neither at x = 0? Justify your answer.",
+          "points": 2
+        },
+        {
+          "label": "d",
+          "prompt": "Find y = f(x), the particular solution with f(0) = 3.",
+          "points": 4
+        }
       ],
       "points": 9,
       "minutes": 15,
       "rubric": [
-        { "criterion": "(a) Slopes", "points": 1, "description": "At (1, 3): 2. At (−1, 0): −1. Both required." },
-        { "criterion": "(b) Product rule", "points": 1, "description": "d²y/dx² = 2x(y − 1) + x²·dy/dx." },
-        { "criterion": "(b) Substitution", "points": 1, "description": "= 2x(y − 1) + x⁴(y − 1) = (y − 1)(2x + x⁴)." },
-        { "criterion": "(c) Answer", "points": 1, "description": "Neither." },
-        { "criterion": "(c) Justification", "points": 1, "description": "Near (0, 3), y − 1 > 0 and x² ≥ 0, so dy/dx ≥ 0 on both sides of 0; f′ doesn't change sign." },
-        { "criterion": "(d) Separation", "points": 1, "description": "dy/(y − 1) = x² dx." },
-        { "criterion": "(d) Antiderivatives", "points": 1, "description": "ln|y − 1| = x³/3 + C." },
-        { "criterion": "(d) Constant", "points": 1, "description": "Uses the initial condition: ln 2 = C." },
-        { "criterion": "(d) Solves for y", "points": 1, "description": "y = 1 + 2e^(x³/3)." }
+        {
+          "criterion": "(a) Slopes",
+          "points": 1,
+          "description": "At (1, 3): 2. At (−1, 0): −1. Both required."
+        },
+        {
+          "criterion": "(b) Product rule",
+          "points": 1,
+          "description": "d²y/dx² = 2x(y − 1) + x²·dy/dx."
+        },
+        {
+          "criterion": "(b) Substitution",
+          "points": 1,
+          "description": "= 2x(y − 1) + x⁴(y − 1) = (y − 1)(2x + x⁴)."
+        },
+        {
+          "criterion": "(c) Answer",
+          "points": 1,
+          "description": "Neither."
+        },
+        {
+          "criterion": "(c) Justification",
+          "points": 1,
+          "description": "Near (0, 3), y − 1 > 0 and x² ≥ 0, so dy/dx ≥ 0 on both sides of 0; f′ doesn't change sign."
+        },
+        {
+          "criterion": "(d) Separation",
+          "points": 1,
+          "description": "dy/(y − 1) = x² dx."
+        },
+        {
+          "criterion": "(d) Antiderivatives",
+          "points": 1,
+          "description": "ln|y − 1| = x³/3 + C."
+        },
+        {
+          "criterion": "(d) Constant",
+          "points": 1,
+          "description": "Uses the initial condition: ln 2 = C."
+        },
+        {
+          "criterion": "(d) Solves for y",
+          "points": 1,
+          "description": "y = 1 + 2e^(x³/3)."
+        }
       ],
       "sampleResponse": "(a) At (1, 3): dy/dx = 1²(3 − 1) = 2. At (−1, 0): dy/dx = (−1)²(0 − 1) = −1.\n\n(b) d²y/dx² = 2x(y − 1) + x²·dy/dx = 2x(y − 1) + x²·x²(y − 1) = (y − 1)(2x + x⁴).\n\n(c) f′(0) = 0. Near x = 0, the solution has y near 3, so y − 1 > 0, and x² ≥ 0. Therefore f′(x) ≥ 0 on both sides of x = 0: f′ does not change sign, so f has neither a relative minimum nor a relative maximum at x = 0.\n\n(d) dy/(y − 1) = x² dx. ln|y − 1| = x³/3 + C. Using f(0) = 3: ln 2 = C. So |y − 1| = 2e^(x³/3), and since y − 1 = 2 > 0 at the initial point, y = 1 + 2e^(x³/3)."
     }

@@ -47,217 +47,508 @@
     "cramSheet": "**Silk Roads:** luxury goods · caravanserai · bills of exchange · flying cash\n\n**Mongols:** Chinggis Khan · Pax Mongolica · tech transfer · religious tolerance · Black Death (1340s)\n\n**Indian Ocean:** monsoons · lateen sail · compass · astrolabe · dhow/junk · Calicut · Malacca · Swahili cities · diasporic communities · Zheng He (1405–1433)\n\n**Trans-Saharan:** camel saddle · gold/salt · Mali · Timbuktu\n\n**Travelers:** Ibn Battuta · Marco Polo"
   },
   "vocab": [
-    { "term": "Caravanserai", "definition": "Roadside inns that supported merchants and caravans on overland routes." },
-    { "term": "Bill of exchange", "definition": "A paper promise of payment that let merchants trade without carrying large amounts of coin." },
-    { "term": "Flying cash", "definition": "Chinese paper credit that eased long-distance transactions." },
-    { "term": "Pax Mongolica", "definition": "The relative peace and security across Mongol-controlled Eurasia that encouraged trade." },
-    { "term": "Black Death", "definition": "The bubonic plague pandemic of the fourteenth century, spread along trade routes." },
-    { "term": "Monsoon winds", "definition": "Seasonal winds in the Indian Ocean that reverse direction, timing sea voyages." },
-    { "term": "Lateen sail", "definition": "A triangular sail that allowed ships to sail against the wind." },
-    { "term": "Dhow", "definition": "An Arab sailing vessel used in Indian Ocean trade." },
-    { "term": "Diasporic community", "definition": "A group of people living outside their homeland, such as merchants settled in foreign ports." },
-    { "term": "Swahili", "definition": "A Bantu language with Arabic influence, and the coastal East African culture that spoke it." },
-    { "term": "Zheng He", "definition": "Ming Chinese admiral who led large naval expeditions across the Indian Ocean (1405–1433)." },
-    { "term": "Ibn Battuta", "definition": "Moroccan traveler who journeyed widely across the Islamic world in the fourteenth century." },
-    { "term": "Timbuktu", "definition": "Mali city and center of trade and Islamic scholarship." }
+    {
+      "term": "Caravanserai",
+      "definition": "Roadside inns that supported merchants and caravans on overland routes."
+    },
+    {
+      "term": "Bill of exchange",
+      "definition": "A paper promise of payment that let merchants trade without carrying large amounts of coin."
+    },
+    {
+      "term": "Flying cash",
+      "definition": "Chinese paper credit that eased long-distance transactions."
+    },
+    {
+      "term": "Pax Mongolica",
+      "definition": "The relative peace and security across Mongol-controlled Eurasia that encouraged trade."
+    },
+    {
+      "term": "Black Death",
+      "definition": "The bubonic plague pandemic of the fourteenth century, spread along trade routes."
+    },
+    {
+      "term": "Monsoon winds",
+      "definition": "Seasonal winds in the Indian Ocean that reverse direction, timing sea voyages."
+    },
+    {
+      "term": "Lateen sail",
+      "definition": "A triangular sail that allowed ships to sail against the wind."
+    },
+    {
+      "term": "Dhow",
+      "definition": "An Arab sailing vessel used in Indian Ocean trade."
+    },
+    {
+      "term": "Diasporic community",
+      "definition": "A group of people living outside their homeland, such as merchants settled in foreign ports."
+    },
+    {
+      "term": "Swahili",
+      "definition": "A Bantu language with Arabic influence, and the coastal East African culture that spoke it."
+    },
+    {
+      "term": "Zheng He",
+      "definition": "Ming Chinese admiral who led large naval expeditions across the Indian Ocean (1405–1433)."
+    },
+    {
+      "term": "Ibn Battuta",
+      "definition": "Moroccan traveler who journeyed widely across the Islamic world in the fourteenth century."
+    },
+    {
+      "term": "Timbuktu",
+      "definition": "Mali city and center of trade and Islamic scholarship."
+    }
   ],
   "practice": [
     {
-      "id": "u2-q01", "tier": "Intro", "type": "mcq", "topic": "2.1 The Silk Roads",
+      "id": "u2-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.1 The Silk Roads",
       "stem": "Which innovation most directly reduced the risk of carrying large amounts of coin on long-distance trade routes?",
       "choices": [
-        { "id": "A", "text": "Bills of exchange and paper credit" },
-        { "id": "B", "text": "The lateen sail" },
-        { "id": "C", "text": "The mit'a system" },
-        { "id": "D", "text": "Champa rice" }
+        {
+          "id": "A",
+          "text": "Champa rice"
+        },
+        {
+          "id": "B",
+          "text": "The lateen sail"
+        },
+        {
+          "id": "C",
+          "text": "The mit'a system"
+        },
+        {
+          "id": "D",
+          "text": "Bills of exchange and paper credit"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Paper instruments allowed payment without moving physical money.",
-      "distractors": { "B": "A maritime technology." }
+      "distractors": {
+        "B": "A maritime technology."
+      }
     },
     {
-      "id": "u2-q02", "tier": "Intro", "type": "mcq", "topic": "2.3 Exchange in the Indian Ocean",
+      "id": "u2-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.3 Exchange in the Indian Ocean",
       "stem": "Knowledge of which natural phenomenon was most essential to timing Indian Ocean voyages?",
       "choices": [
-        { "id": "A", "text": "Seasonal monsoon winds" },
-        { "id": "B", "text": "Ocean currents in the Atlantic" },
-        { "id": "C", "text": "Desert sandstorms" },
-        { "id": "D", "text": "Arctic ice patterns" }
+        {
+          "id": "A",
+          "text": "Ocean currents in the Atlantic"
+        },
+        {
+          "id": "B",
+          "text": "Seasonal monsoon winds"
+        },
+        {
+          "id": "C",
+          "text": "Desert sandstorms"
+        },
+        {
+          "id": "D",
+          "text": "Arctic ice patterns"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Sailors traveled with winds that reversed direction seasonally.",
       "distractors": {}
     },
     {
-      "id": "u2-q03", "tier": "Intro", "type": "mcq", "topic": "2.4 Trans-Saharan Trade Routes",
+      "id": "u2-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.4 Trans-Saharan Trade Routes",
       "stem": "Which development most facilitated trade across the Sahara?",
       "choices": [
-        { "id": "A", "text": "The use of camels and camel saddles in caravans" },
-        { "id": "B", "text": "The construction of the Grand Canal" },
-        { "id": "C", "text": "The invention of the steam engine" },
-        { "id": "D", "text": "The use of junks" }
+        {
+          "id": "A",
+          "text": "The use of junks"
+        },
+        {
+          "id": "B",
+          "text": "The construction of the Grand Canal"
+        },
+        {
+          "id": "C",
+          "text": "The invention of the steam engine"
+        },
+        {
+          "id": "D",
+          "text": "The use of camels and camel saddles in caravans"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Camels could carry heavy loads across long, dry distances.",
-      "distractors": { "D": "Junks were Chinese ships." }
+      "distractors": {
+        "A": "Junks were Chinese ships."
+      }
     },
     {
-      "id": "u2-q04", "tier": "Intro", "type": "mcq", "topic": "2.2 The Mongol Empire and the Modern World",
+      "id": "u2-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.2 The Mongol Empire and the Modern World",
       "stem": "The Pax Mongolica most directly contributed to",
       "choices": [
-        { "id": "A", "text": "increased trade and travel across Eurasia" },
-        { "id": "B", "text": "the end of the Silk Roads" },
-        { "id": "C", "text": "the spread of Christianity to China" },
-        { "id": "D", "text": "the decline of Indian Ocean trade" }
+        {
+          "id": "A",
+          "text": "the spread of Christianity to China"
+        },
+        {
+          "id": "B",
+          "text": "the end of the Silk Roads"
+        },
+        {
+          "id": "C",
+          "text": "increased trade and travel across Eurasia"
+        },
+        {
+          "id": "D",
+          "text": "the decline of Indian Ocean trade"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Mongol control made overland routes safer and more connected.",
       "distractors": {}
     },
     {
-      "id": "u2-q05", "tier": "Exam level", "type": "mcq", "topic": "2.2 The Mongol Empire",
+      "id": "u2-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.2 The Mongol Empire",
       "stimulus": "In the 1340s, a disease spread from Central Asia along trade routes to the Black Sea, the Middle East, and Europe, killing a large share of the population in many regions.",
       "stem": "Which factor most directly facilitated the spread described?",
       "choices": [
-        { "id": "A", "text": "The integration of Eurasian trade routes under Mongol rule" },
-        { "id": "B", "text": "The Columbian Exchange" },
-        { "id": "C", "text": "Zheng He's voyages" },
-        { "id": "D", "text": "The trans-Atlantic slave trade" }
+        {
+          "id": "A",
+          "text": "The Columbian Exchange"
+        },
+        {
+          "id": "B",
+          "text": "The integration of Eurasian trade routes under Mongol rule"
+        },
+        {
+          "id": "C",
+          "text": "Zheng He's voyages"
+        },
+        {
+          "id": "D",
+          "text": "The trans-Atlantic slave trade"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Mongol-connected networks moved people, goods, and fleas and rats carrying plague.",
-      "distractors": { "B": "That came after 1492." }
+      "distractors": {
+        "A": "That came after 1492."
+      }
     },
     {
-      "id": "u2-q06", "tier": "Exam level", "type": "mcq", "topic": "2.3 Exchange in the Indian Ocean",
+      "id": "u2-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.3 Exchange in the Indian Ocean",
       "stimulus": "Arab and Persian merchants settled in port cities along the East African coast, marrying into local families. A language developed that combined a Bantu grammar with many Arabic words.",
       "stem": "This process best illustrates",
       "choices": [
-        { "id": "A", "text": "cultural blending through diasporic merchant communities" },
-        { "id": "B", "text": "forced conversion through conquest" },
-        { "id": "C", "text": "the isolation of African societies from trade" },
-        { "id": "D", "text": "European colonization" }
+        {
+          "id": "A",
+          "text": "cultural blending through diasporic merchant communities"
+        },
+        {
+          "id": "B",
+          "text": "forced conversion through conquest"
+        },
+        {
+          "id": "C",
+          "text": "the isolation of African societies from trade"
+        },
+        {
+          "id": "D",
+          "text": "European colonization"
+        }
       ],
       "answer": "A",
       "explanation": "Swahili language and culture emerged from long-term commercial contact.",
-      "distractors": { "D": "European colonization came later." }
+      "distractors": {
+        "D": "European colonization came later."
+      }
     },
     {
-      "id": "u2-q07", "tier": "Exam level", "type": "mcq", "topic": "2.3 Exchange in the Indian Ocean",
+      "id": "u2-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.3 Exchange in the Indian Ocean",
       "stimulus": "Between 1405 and 1433, a Ming admiral led fleets of hundreds of ships to Southeast Asia, India, Arabia, and East Africa, collecting tribute and gifts for the emperor. The voyages were later halted.",
       "stem": "The primary purpose of these voyages was to",
       "choices": [
-        { "id": "A", "text": "display Ming power and enroll states in the tribute system" },
-        { "id": "B", "text": "establish permanent Chinese colonies" },
-        { "id": "C", "text": "spread Christianity" },
-        { "id": "D", "text": "search for a sea route to the Americas" }
+        {
+          "id": "A",
+          "text": "establish permanent Chinese colonies"
+        },
+        {
+          "id": "B",
+          "text": "display Ming power and enroll states in the tribute system"
+        },
+        {
+          "id": "C",
+          "text": "spread Christianity"
+        },
+        {
+          "id": "D",
+          "text": "search for a sea route to the Americas"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Zheng He's expeditions projected prestige and diplomacy rather than conquest.",
-      "distractors": { "B": "China didn't establish colonies." }
+      "distractors": {
+        "A": "China didn't establish colonies."
+      }
     },
     {
-      "id": "u2-q08", "tier": "Exam level", "type": "mcq", "topic": "2.4 Trans-Saharan Trade Routes",
+      "id": "u2-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.4 Trans-Saharan Trade Routes",
       "stem": "How did Islam primarily spread to West Africa in this period?",
       "choices": [
-        { "id": "A", "text": "Through merchants and rulers who adopted it, often blending it with local traditions" },
-        { "id": "B", "text": "Through large-scale military conquest by the Abbasids" },
-        { "id": "C", "text": "Through European missionaries" },
-        { "id": "D", "text": "Through Mongol invasion" }
+        {
+          "id": "A",
+          "text": "Through European missionaries"
+        },
+        {
+          "id": "B",
+          "text": "Through large-scale military conquest by the Abbasids"
+        },
+        {
+          "id": "C",
+          "text": "Through merchants and rulers who adopted it, often blending it with local traditions"
+        },
+        {
+          "id": "D",
+          "text": "Through Mongol invasion"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Trade connections brought Muslim merchants; rulers like Mansa Musa embraced Islam.",
-      "distractors": { "D": "The Mongols didn't reach West Africa." }
+      "distractors": {
+        "D": "The Mongols didn't reach West Africa."
+      }
     },
     {
-      "id": "u2-q09", "tier": "Exam level", "type": "mcq", "topic": "2.5 Cultural Consequences of Connectivity",
+      "id": "u2-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.5 Cultural Consequences of Connectivity",
       "stimulus": "A fourteenth-century Moroccan traveler journeyed for nearly 30 years through North Africa, the Middle East, India, and China, often serving as a judge in Muslim communities.",
       "stem": "His travels best illustrate",
       "choices": [
-        { "id": "A", "text": "the extent and cultural unity of Dar al-Islam's networks" },
-        { "id": "B", "text": "European exploration of Asia" },
-        { "id": "C", "text": "the isolation of Islamic societies" },
-        { "id": "D", "text": "the Columbian Exchange" }
+        {
+          "id": "A",
+          "text": "the extent and cultural unity of Dar al-Islam's networks"
+        },
+        {
+          "id": "B",
+          "text": "European exploration of Asia"
+        },
+        {
+          "id": "C",
+          "text": "the isolation of Islamic societies"
+        },
+        {
+          "id": "D",
+          "text": "the Columbian Exchange"
+        }
       ],
       "answer": "A",
       "explanation": "Ibn Battuta could travel and work across a vast network sharing Islamic law and learning.",
       "distractors": {}
     },
     {
-      "id": "u2-q10", "tier": "Exam level", "type": "mcq", "topic": "2.6 Environmental Consequences of Connectivity",
+      "id": "u2-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.6 Environmental Consequences of Connectivity",
       "stem": "Which is an example of an environmental consequence of Afro-Eurasian trade networks in this period?",
       "choices": [
-        { "id": "A", "text": "The spread of crops like citrus, sugar, and cotton to new regions" },
-        { "id": "B", "text": "The introduction of potatoes to Europe" },
-        { "id": "C", "text": "The spread of smallpox to the Americas" },
-        { "id": "D", "text": "The domestication of horses in the Americas" }
+        {
+          "id": "A",
+          "text": "The domestication of horses in the Americas"
+        },
+        {
+          "id": "B",
+          "text": "The introduction of potatoes to Europe"
+        },
+        {
+          "id": "C",
+          "text": "The spread of smallpox to the Americas"
+        },
+        {
+          "id": "D",
+          "text": "The spread of crops like citrus, sugar, and cotton to new regions"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "These crops moved westward along Islamic and Indian Ocean networks.",
-      "distractors": { "B": "Potatoes came after the Columbian Exchange began." }
+      "distractors": {
+        "B": "Potatoes came after the Columbian Exchange began."
+      }
     },
     {
-      "id": "u2-q11", "tier": "Hardest", "type": "mcq", "topic": "2.7 Comparison of Economic Exchange",
+      "id": "u2-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.7 Comparison of Economic Exchange",
       "stem": "Which statement best compares the Silk Roads and Indian Ocean networks before 1450?",
       "choices": [
-        { "id": "A", "text": "Silk Roads trade focused on high-value luxury goods carried overland, while Indian Ocean ships could carry larger volumes, including bulk goods." },
-        { "id": "B", "text": "Both networks were controlled by a single European power." },
-        { "id": "C", "text": "The Indian Ocean network carried only luxury goods, while the Silk Roads carried mostly grain." },
-        { "id": "D", "text": "Neither network spread religion." }
+        {
+          "id": "A",
+          "text": "Neither network spread religion."
+        },
+        {
+          "id": "B",
+          "text": "Both networks were controlled by a single European power."
+        },
+        {
+          "id": "C",
+          "text": "The Indian Ocean network carried only luxury goods, while the Silk Roads carried mostly grain."
+        },
+        {
+          "id": "D",
+          "text": "Silk Roads trade focused on high-value luxury goods carried overland, while Indian Ocean ships could carry larger volumes, including bulk goods."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Overland transport costs favored light, valuable goods; ships moved heavier cargo cheaply.",
-      "distractors": { "C": "Reverses the comparison." }
+      "distractors": {
+        "C": "Reverses the comparison."
+      }
     },
     {
-      "id": "u2-q12", "tier": "Hardest", "type": "mcq", "topic": "2.2 The Mongol Empire",
+      "id": "u2-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.2 The Mongol Empire",
       "stem": "Which statement best describes how the Mongols governed conquered regions?",
       "choices": [
-        { "id": "A", "text": "They often adapted existing administrative systems and employed local and foreign officials, while tolerating diverse religions." },
-        { "id": "B", "text": "They forced all subjects to convert to a single Mongol religion." },
-        { "id": "C", "text": "They destroyed all local administration and governed only through nomadic custom." },
-        { "id": "D", "text": "They ruled each region by civil service exams based on Mongol texts." }
+        {
+          "id": "A",
+          "text": "They often adapted existing administrative systems and employed local and foreign officials, while tolerating diverse religions."
+        },
+        {
+          "id": "B",
+          "text": "They forced all subjects to convert to a single Mongol religion."
+        },
+        {
+          "id": "C",
+          "text": "They destroyed all local administration and governed only through nomadic custom."
+        },
+        {
+          "id": "D",
+          "text": "They ruled each region by civil service exams based on Mongol texts."
+        }
       ],
       "answer": "A",
       "explanation": "In China the Yuan used Chinese and foreign officials; in Persia the Ilkhanate adopted Persian practices and eventually Islam.",
-      "distractors": { "B": "Mongols were known for religious tolerance." }
+      "distractors": {
+        "B": "Mongols were known for religious tolerance."
+      }
     },
     {
-      "id": "u2-q13", "tier": "Hardest", "type": "mcq", "topic": "2.2 The Mongol Empire (transfer)",
+      "id": "u2-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.2 The Mongol Empire (transfer)",
       "stem": "Which example best illustrates the Mongols' role in transferring technology and knowledge across Eurasia?",
       "choices": [
-        { "id": "A", "text": "Moving Persian astronomers and Chinese engineers to work in different parts of the empire" },
-        { "id": "B", "text": "Inventing the printing press in Germany" },
-        { "id": "C", "text": "Introducing the camel saddle to the Sahara" },
-        { "id": "D", "text": "Building the Grand Canal" }
+        {
+          "id": "A",
+          "text": "Inventing the printing press in Germany"
+        },
+        {
+          "id": "B",
+          "text": "Moving Persian astronomers and Chinese engineers to work in different parts of the empire"
+        },
+        {
+          "id": "C",
+          "text": "Introducing the camel saddle to the Sahara"
+        },
+        {
+          "id": "D",
+          "text": "Building the Grand Canal"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The Mongols relocated skilled people, spreading techniques such as gunpowder weapons and astronomical knowledge.",
-      "distractors": { "D": "The Grand Canal predates the Mongols." }
+      "distractors": {
+        "D": "The Grand Canal predates the Mongols."
+      }
     },
     {
-      "id": "u2-q14", "tier": "Hardest", "type": "mcq", "topic": "2.3 Exchange in the Indian Ocean",
+      "id": "u2-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.3 Exchange in the Indian Ocean",
       "stem": "Which factor best explains why port cities like Malacca became wealthy in the 1400s?",
       "choices": [
-        { "id": "A", "text": "Strategic locations on maritime routes, where merchants waited for monsoon winds and paid duties" },
-        { "id": "B", "text": "Control of trans-Saharan caravan routes" },
-        { "id": "C", "text": "Large silver mines" },
-        { "id": "D", "text": "Isolation from foreign merchants" }
+        {
+          "id": "A",
+          "text": "Large silver mines"
+        },
+        {
+          "id": "B",
+          "text": "Control of trans-Saharan caravan routes"
+        },
+        {
+          "id": "C",
+          "text": "Strategic locations on maritime routes, where merchants waited for monsoon winds and paid duties"
+        },
+        {
+          "id": "D",
+          "text": "Isolation from foreign merchants"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Malacca controlled the strait between the Indian Ocean and South China Sea, profiting from traders waiting for winds.",
-      "distractors": { "D": "Their wealth came from contact." }
+      "distractors": {
+        "D": "Their wealth came from contact."
+      }
     },
     {
-      "id": "u2-frq1", "tier": "Exam level", "type": "frq", "topic": "Networks of exchange", "frqType": "LEQ",
+      "id": "u2-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Networks of exchange",
+      "frqType": "LEQ",
       "prompt": "Evaluate the extent to which the Mongol Empire transformed trade and cultural exchange across Eurasia in the period c. 1200–1450.",
       "points": 6,
       "minutes": 40,
       "rubric": [
-        { "criterion": "Thesis/claim", "points": 1, "description": "Makes a historically defensible claim that establishes a line of reasoning about the extent of transformation." },
-        { "criterion": "Contextualization", "points": 1, "description": "Describes a broader context, e.g., earlier Silk Road trade under the Tang and Abbasids, or the fragmentation of Eurasian states before the Mongols." },
-        { "criterion": "Evidence", "points": 2, "description": "1 point for two specific pieces of relevant evidence; 2 points for using them to support the argument." },
-        { "criterion": "Analysis and reasoning", "points": 2, "description": "1 point for using continuity and change to frame the argument; 2 points for demonstrating complex understanding (e.g., both transformation and continuity, or positive and negative effects)." }
+        {
+          "criterion": "Thesis/claim",
+          "points": 1,
+          "description": "Makes a historically defensible claim that establishes a line of reasoning about the extent of transformation."
+        },
+        {
+          "criterion": "Contextualization",
+          "points": 1,
+          "description": "Describes a broader context, e.g., earlier Silk Road trade under the Tang and Abbasids, or the fragmentation of Eurasian states before the Mongols."
+        },
+        {
+          "criterion": "Evidence",
+          "points": 2,
+          "description": "1 point for two specific pieces of relevant evidence; 2 points for using them to support the argument."
+        },
+        {
+          "criterion": "Analysis and reasoning",
+          "points": 2,
+          "description": "1 point for using continuity and change to frame the argument; 2 points for demonstrating complex understanding (e.g., both transformation and continuity, or positive and negative effects)."
+        }
       ],
       "sampleResponse": "The Mongol Empire significantly intensified trade and cultural exchange across Eurasia by unifying routes and moving people and technologies, but it built on long-established networks and also spread devastating disease, so its impact was transformative in scale more than in kind.\n\nContext: Before 1200, merchants had traded along the Silk Roads for over a thousand years, linking Tang and Song China with the Abbasid caliphate and beyond. However, political fragmentation across Central Asia made overland trade risky and costly.\n\nThe Mongols changed this by bringing much of Eurasia under one political system. The Pax Mongolica made roads safer, and Mongol rulers supported merchants through relay stations and protection, so trade between China and Persia flourished. Travelers such as Marco Polo could cross from Europe to China, illustrating how open the routes had become.\n\nThe Mongols also deliberately transferred knowledge. They moved artisans, engineers, and scholars across their empire; Persian astronomers worked in Yuan China, and Chinese gunpowder technology spread westward. Religious tolerance allowed Buddhists, Muslims, and Christians to interact at the Mongol courts.\n\nYet much was continuity. The goods traded (silk, porcelain, spices) and the commercial practices (caravanserai, credit) predated the Mongols, and Indian Ocean trade, largely outside Mongol control, remained just as important. Furthermore, the same connectivity carried the bubonic plague in the 1340s, killing a huge share of Europe's and the Middle East's populations and disrupting the networks the Mongols had strengthened.\n\nThe Mongols therefore transformed the scale and speed of Eurasian exchange, but they amplified existing patterns rather than creating new ones, and their legacy included catastrophe as well as connection."
     }

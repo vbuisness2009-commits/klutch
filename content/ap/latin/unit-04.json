@@ -100,7 +100,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "virum (Aeneas)"
+          "text": "oris"
         },
         {
           "id": "B",
@@ -112,10 +112,10 @@
         },
         {
           "id": "D",
-          "text": "oris"
+          "text": "virum (Aeneas)"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The man who came from Troy.",
       "distractors": {}
     },
@@ -190,7 +190,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "why Aeneas was tossed: by the force of the gods, because of cruel Juno's unforgetting anger"
+          "text": "how Aeneas defeated the gods"
         },
         {
           "id": "B",
@@ -198,14 +198,14 @@
         },
         {
           "id": "C",
-          "text": "how Aeneas defeated the gods"
+          "text": "why Aeneas was tossed: by the force of the gods, because of cruel Juno's unforgetting anger"
         },
         {
           "id": "D",
           "text": "where Lavinium was founded"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Cause of suffering.",
       "distractors": {}
     },
@@ -220,11 +220,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "until he could found a city"
+          "text": "while he was founding a city"
         },
         {
           "id": "B",
-          "text": "while he was founding a city"
+          "text": "until he could found a city"
         },
         {
           "id": "C",
@@ -235,7 +235,7 @@
           "text": "although he had founded a city"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "dum + subjunctive = until (anticipation).",
       "distractors": {}
     },
@@ -250,7 +250,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "a climactic tricolon tracing Rome's origins"
+          "text": "an apostrophe to Juno"
         },
         {
           "id": "B",
@@ -262,10 +262,10 @@
         },
         {
           "id": "D",
-          "text": "an apostrophe to Juno"
+          "text": "a climactic tricolon tracing Rome's origins"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Latin race, Alban fathers, walls of Rome.",
       "distractors": {}
     },
@@ -309,11 +309,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Aeneas insulted her temple at Carthage"
+          "text": "The judgment of Paris"
         },
         {
           "id": "B",
-          "text": "The judgment of Paris"
+          "text": "Aeneas insulted her temple at Carthage"
         },
         {
           "id": "C",
@@ -324,7 +324,7 @@
           "text": "The honor given to Ganymede"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Not in the poem.",
       "distractors": {}
     },
@@ -338,7 +338,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "a respected statesman calming a rioting crowd"
+          "text": "a mother protecting her child"
         },
         {
           "id": "B",
@@ -350,10 +350,10 @@
         },
         {
           "id": "D",
-          "text": "a mother protecting her child"
+          "text": "a respected statesman calming a rioting crowd"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Political simile.",
       "distractors": {}
     },
@@ -367,7 +367,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "it presents Roman rule as divinely ordained and limitless"
+          "text": "it promises Dido a kingdom"
         },
         {
           "id": "B",
@@ -375,14 +375,14 @@
         },
         {
           "id": "C",
-          "text": "it promises Dido a kingdom"
+          "text": "it presents Roman rule as divinely ordained and limitless"
         },
         {
           "id": "D",
           "text": "it ends Juno's anger immediately"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Augustan ideology.",
       "distractors": {}
     },
@@ -425,7 +425,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "believe Sinon's story and bring the horse into the city"
+          "text": "flee the city immediately"
         },
         {
           "id": "B",
@@ -433,14 +433,14 @@
         },
         {
           "id": "C",
-          "text": "flee the city immediately"
+          "text": "believe Sinon's story and bring the horse into the city"
         },
         {
           "id": "D",
           "text": "attack the Greek fleet"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "They interpret it as divine punishment.",
       "distractors": {}
     },
@@ -454,11 +454,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "his father Anchises, while leading Iulus"
+          "text": "Priam's body"
         },
         {
           "id": "B",
-          "text": "Priam's body"
+          "text": "his father Anchises, while leading Iulus"
         },
         {
           "id": "C",
@@ -469,7 +469,7 @@
           "text": "the wooden horse"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Emblem of pietas.",
       "distractors": {}
     },
@@ -483,7 +483,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "releases Aeneas from grief and foretells his future in Italy and a new royal wife"
+          "text": "reveals Sinon's lie"
         },
         {
           "id": "B",
@@ -495,10 +495,10 @@
         },
         {
           "id": "D",
-          "text": "reveals Sinon's lie"
+          "text": "releases Aeneas from grief and foretells his future in Italy and a new royal wife"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Prophecy and pietas.",
       "distractors": {}
     },

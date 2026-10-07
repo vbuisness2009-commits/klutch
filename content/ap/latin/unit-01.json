@@ -100,7 +100,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "when he had loaded the ship"
+          "text": "so that he might load the ship"
         },
         {
           "id": "B",
@@ -112,10 +112,10 @@
         },
         {
           "id": "D",
-          "text": "so that he might load the ship"
+          "text": "when he had loaded the ship"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Circumstantial cum + pluperfect subjunctive.",
       "distractors": {}
     },
@@ -160,7 +160,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "after the sailors had been called together"
+          "text": "the sailors called together the merchant"
         },
         {
           "id": "B",
@@ -168,14 +168,14 @@
         },
         {
           "id": "C",
-          "text": "the sailors called together the merchant"
+          "text": "after the sailors had been called together"
         },
         {
           "id": "D",
           "text": "by calling the sailors"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Ablative absolute with perfect passive participle.",
       "distractors": {
         "D": "Treats it as a gerund of means."
@@ -192,11 +192,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "a result clause"
+          "text": "a purpose clause"
         },
         {
           "id": "B",
-          "text": "a purpose clause"
+          "text": "a result clause"
         },
         {
           "id": "C",
@@ -207,7 +207,7 @@
           "text": "a fear clause"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Signaled by tanta.",
       "distractors": {}
     },
@@ -222,7 +222,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "he begged the gods to save the ship"
+          "text": "he prayed so that he might save the ship"
         },
         {
           "id": "B",
@@ -234,10 +234,10 @@
         },
         {
           "id": "D",
-          "text": "he prayed so that he might save the ship"
+          "text": "he begged the gods to save the ship"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Indirect command; subject of servarent is deos.",
       "distractors": {}
     },
@@ -282,11 +282,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "otherwise all would perish"
+          "text": "otherwise all had perished"
         },
         {
           "id": "B",
-          "text": "otherwise all had perished"
+          "text": "otherwise all would perish"
         },
         {
           "id": "C",
@@ -297,7 +297,7 @@
           "text": "otherwise all are perishing"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Future active infinitive (esse understood) after a past verb.",
       "distractors": {}
     },
@@ -312,7 +312,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "relieved of its cargo"
+          "text": "with the light cargo"
         },
         {
           "id": "B",
@@ -320,14 +320,14 @@
         },
         {
           "id": "C",
-          "text": "with the light cargo"
+          "text": "relieved of its cargo"
         },
         {
           "id": "D",
           "text": "carrying a burden"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Ablative of separation with levare.",
       "distractors": {}
     },
@@ -371,7 +371,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "locative"
+          "text": "dative"
         },
         {
           "id": "B",
@@ -379,14 +379,14 @@
         },
         {
           "id": "C",
-          "text": "dative"
+          "text": "locative"
         },
         {
           "id": "D",
           "text": "nominative plural"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Locative of a first-declension city name.",
       "distractors": {}
     },
@@ -400,11 +400,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "sequor"
+          "text": "duco"
         },
         {
           "id": "B",
-          "text": "duco"
+          "text": "sequor"
         },
         {
           "id": "C",
@@ -415,7 +415,7 @@
           "text": "capio"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Passive forms, active meaning.",
       "distractors": {}
     },
@@ -429,7 +429,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "he said that he would come"
+          "text": "he said to come"
         },
         {
           "id": "B",
@@ -441,10 +441,10 @@
         },
         {
           "id": "D",
-          "text": "he said to come"
+          "text": "he said that he would come"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Future infinitive after a past verb.",
       "distractors": {}
     },
@@ -458,11 +458,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "a relative clause of purpose"
+          "text": "a result clause"
         },
         {
           "id": "B",
-          "text": "a result clause"
+          "text": "a relative clause of purpose"
         },
         {
           "id": "C",
@@ -473,7 +473,7 @@
           "text": "an indirect statement"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "qui + subjunctive expressing purpose.",
       "distractors": {}
     },
@@ -487,7 +487,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "perfect subjunctive in an indirect question"
+          "text": "perfect subjunctive in a purpose clause"
         },
         {
           "id": "B",
@@ -495,14 +495,14 @@
         },
         {
           "id": "C",
-          "text": "perfect subjunctive in a purpose clause"
+          "text": "perfect subjunctive in an indirect question"
         },
         {
           "id": "D",
           "text": "pluperfect subjunctive"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Indirect question after nescio, primary sequence, prior time.",
       "distractors": {}
     },

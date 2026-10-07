@@ -99,7 +99,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Little research has studied high school students using self-chosen music at home."
+          "text": "Popular articles disagree with each other."
         },
         {
           "id": "B",
@@ -107,14 +107,14 @@
         },
         {
           "id": "C",
-          "text": "Popular articles disagree with each other."
+          "text": "Little research has studied high school students using self-chosen music at home."
         },
         {
           "id": "D",
           "text": "College students don't listen to music."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Finding (3) identifies an unstudied population and context.",
       "distractors": {}
     },
@@ -157,7 +157,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "How do students at my high school describe the effects of self-selected lyrical and instrumental music on their focus during homework?"
+          "text": "What is the history of background music?"
         },
         {
           "id": "B",
@@ -169,10 +169,10 @@
         },
         {
           "id": "D",
-          "text": "What is the history of background music?"
+          "text": "How do students at my high school describe the effects of self-selected lyrical and instrumental music on their focus during homework?"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Specific, feasible, and targets the gap.",
       "distractors": {}
     },
@@ -185,11 +185,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "an experimental or quasi-experimental design"
+          "text": "a content analysis"
         },
         {
           "id": "B",
-          "text": "a content analysis"
+          "text": "an experimental or quasi-experimental design"
         },
         {
           "id": "C",
@@ -200,7 +200,7 @@
           "text": "an autobiography"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Causal questions require manipulation and comparison.",
       "distractors": {}
     },
@@ -213,7 +213,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "feasibility: the equipment, cost, and ethics approvals are beyond a high school project"
+          "text": "fMRI is a qualitative method"
         },
         {
           "id": "B",
@@ -221,14 +221,14 @@
         },
         {
           "id": "C",
-          "text": "fMRI is a qualitative method"
+          "text": "feasibility: the equipment, cost, and ethics approvals are beyond a high school project"
         },
         {
           "id": "D",
           "text": "200 is too small for any study"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Feasibility includes access to equipment and approvals.",
       "distractors": {}
     },

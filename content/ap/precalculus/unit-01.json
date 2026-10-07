@@ -134,11 +134,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Crosses at x = 2; touches at x = −1"
+          "text": "Touches at x = 2; crosses at x = −1"
         },
         {
           "id": "B",
-          "text": "Touches at x = 2; crosses at x = −1"
+          "text": "Crosses at x = 2; touches at x = −1"
         },
         {
           "id": "C",
@@ -149,7 +149,7 @@
           "text": "Touches at both"
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Even multiplicity at 2 (touch); odd at −1 (cross).",
       "distractors": {}
     },
@@ -162,7 +162,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "At x = 2, with y = 4/3"
+          "text": "At x = −2"
         },
         {
           "id": "B",
@@ -170,18 +170,18 @@
         },
         {
           "id": "C",
-          "text": "At x = −2"
+          "text": "At x = 2, with y = 4/3"
         },
         {
           "id": "D",
           "text": "There is no hole"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "r = (x − 2)(x + 2)/[(x − 2)(x + 1)]; the (x − 2) cancels. At x = 2, the simplified value is 4/3.",
       "distractors": {
         "B": "Vertical asymptote.",
-        "C": "Zero of the function."
+        "A": "Zero of the function."
       }
     },
     {
@@ -193,7 +193,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "f → −∞ as x → ∞ and as x → −∞"
+          "text": "f → −∞ as x → ∞; f → ∞ as x → −∞"
         },
         {
           "id": "B",
@@ -205,10 +205,10 @@
         },
         {
           "id": "D",
-          "text": "f → −∞ as x → ∞; f → ∞ as x → −∞"
+          "text": "f → −∞ as x → ∞ and as x → −∞"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Even degree with negative leading coefficient: both ends down.",
       "distractors": {}
     },
@@ -222,11 +222,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Linear, because outputs increase"
+          "text": "Quadratic, because the second differences are constant"
         },
         {
           "id": "B",
-          "text": "Quadratic, because the second differences are constant"
+          "text": "Linear, because outputs increase"
         },
         {
           "id": "C",
@@ -237,7 +237,7 @@
           "text": "Cubic, because there are five data points"
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "First differences 1, 3, 5, 7; second differences 2, 2, 2.",
       "distractors": {
         "C": "Ratios aren't constant (1.5, 2, 1.83, 1.64)."
@@ -252,7 +252,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "VA x = −1; HA y = 3"
+          "text": "VA x = −1; HA y = 0"
         },
         {
           "id": "B",
@@ -260,14 +260,14 @@
         },
         {
           "id": "C",
-          "text": "VA x = −1; HA y = 0"
+          "text": "VA x = −1; HA y = 3"
         },
         {
           "id": "D",
           "text": "VA x = 2; HA y = 1"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "3(x − 2)(x + 2)/[(x − 2)(x + 1)]: hole at 2, VA at −1; equal degrees → y = 3/1.",
       "distractors": {
         "B": "Misses the canceled factor."
@@ -342,7 +342,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "increasing then decreasing, and concave down throughout"
+          "text": "increasing then decreasing, concave up"
         },
         {
           "id": "B",
@@ -354,10 +354,10 @@
         },
         {
           "id": "D",
-          "text": "increasing then decreasing, concave up"
+          "text": "increasing then decreasing, and concave down throughout"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Rates positive then negative; rates decreasing → concave down.",
       "distractors": {}
     },
@@ -370,7 +370,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "(x² + 3x)/(x − 1)"
+          "text": "(2x² + 1)/(x² + 5)"
         },
         {
           "id": "B",
@@ -378,14 +378,14 @@
         },
         {
           "id": "C",
-          "text": "(2x² + 1)/(x² + 5)"
+          "text": "(x² + 3x)/(x − 1)"
         },
         {
           "id": "D",
           "text": "(x³ + 1)/(x − 2)"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Numerator degree exactly one more than denominator: (x² + 3x)/(x − 1) = x + 4 + 4/(x − 1).",
       "distractors": {
         "D": "Degree difference 2: no linear asymptote."
@@ -430,7 +430,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "1 − i is a zero, and there is exactly one more zero, which is real."
+          "text": "1 + i is a double zero."
         },
         {
           "id": "B",
@@ -442,10 +442,10 @@
         },
         {
           "id": "D",
-          "text": "1 + i is a double zero."
+          "text": "1 − i is a zero, and there is exactly one more zero, which is real."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Conjugate pairs: 1 − i. That's four zeros; the fifth must be real (a lone nonreal zero would need its conjugate).",
       "distractors": {}
     },
@@ -458,7 +458,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "g is odd."
+          "text": "g is neither."
         },
         {
           "id": "B",
@@ -466,14 +466,14 @@
         },
         {
           "id": "C",
-          "text": "g is neither."
+          "text": "g is odd."
         },
         {
           "id": "D",
           "text": "g(x) = 0 for all x."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "g(−x) = f(−x)(−x)² = −f(x)x² = −g(x).",
       "distractors": {}
     },

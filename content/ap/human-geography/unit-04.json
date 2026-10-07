@@ -45,225 +45,553 @@
     "cramSheet": "**Political units:** state · nation · nation-state · multinational · multistate · stateless (Kurds)\n\n**Power:** imperialism · colonialism · neocolonialism · shatterbelt · choke point\n\n**Boundaries:** antecedent · subsequent · superimposed · consequent · geometric · relic\n\n**Process:** defined → delimited → demarcated → administered\n\n**Sea:** 12 nm territorial · 200 nm EEZ\n\n**Internal:** redistricting · gerrymander (crack, pack)\n\n**Governance:** unitary vs federal · devolution · supranational (EU, UN)\n\n**Forces:** centrifugal ↔ centripetal"
   },
   "vocab": [
-    { "term": "Sovereignty", "definition": "A state's independent control over its territory and affairs." },
-    { "term": "Nation-state", "definition": "A state whose territory corresponds closely to one nation." },
-    { "term": "Stateless nation", "definition": "A nation that does not have its own state." },
-    { "term": "Superimposed boundary", "definition": "A boundary imposed by outside powers, disregarding existing cultural patterns." },
-    { "term": "Antecedent boundary", "definition": "A boundary drawn before an area was heavily settled." },
-    { "term": "Exclusive economic zone (EEZ)", "definition": "Waters up to 200 nautical miles from shore where a state controls resource use." },
-    { "term": "Gerrymandering", "definition": "Drawing electoral district boundaries to favor one party." },
-    { "term": "Federal state", "definition": "A state that divides power between central and regional governments." },
-    { "term": "Unitary state", "definition": "A state in which power is concentrated in the central government." },
-    { "term": "Devolution", "definition": "Transfer of power from a central government to regional governments." },
-    { "term": "Supranational organization", "definition": "An alliance of three or more states that cooperate on shared goals and give up some sovereignty." },
-    { "term": "Centrifugal force", "definition": "A force that divides a state or weakens its unity." }
+    {
+      "term": "Sovereignty",
+      "definition": "A state's independent control over its territory and affairs."
+    },
+    {
+      "term": "Nation-state",
+      "definition": "A state whose territory corresponds closely to one nation."
+    },
+    {
+      "term": "Stateless nation",
+      "definition": "A nation that does not have its own state."
+    },
+    {
+      "term": "Superimposed boundary",
+      "definition": "A boundary imposed by outside powers, disregarding existing cultural patterns."
+    },
+    {
+      "term": "Antecedent boundary",
+      "definition": "A boundary drawn before an area was heavily settled."
+    },
+    {
+      "term": "Exclusive economic zone (EEZ)",
+      "definition": "Waters up to 200 nautical miles from shore where a state controls resource use."
+    },
+    {
+      "term": "Gerrymandering",
+      "definition": "Drawing electoral district boundaries to favor one party."
+    },
+    {
+      "term": "Federal state",
+      "definition": "A state that divides power between central and regional governments."
+    },
+    {
+      "term": "Unitary state",
+      "definition": "A state in which power is concentrated in the central government."
+    },
+    {
+      "term": "Devolution",
+      "definition": "Transfer of power from a central government to regional governments."
+    },
+    {
+      "term": "Supranational organization",
+      "definition": "An alliance of three or more states that cooperate on shared goals and give up some sovereignty."
+    },
+    {
+      "term": "Centrifugal force",
+      "definition": "A force that divides a state or weakens its unity."
+    }
   ],
   "practice": [
     {
-      "id": "u4-q01", "tier": "Intro", "type": "mcq", "topic": "4.1 Introduction to Political Geography", "skill": "1. Concepts and Processes",
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.1 Introduction to Political Geography",
+      "skill": "1. Concepts and Processes",
       "stem": "The Kurds, who live mainly in parts of Turkey, Iraq, Iran, and Syria, are best described as",
       "choices": [
-        { "id": "A", "text": "a nation-state" },
-        { "id": "B", "text": "a stateless nation" },
-        { "id": "C", "text": "a supranational organization" },
-        { "id": "D", "text": "a unitary state" }
+        {
+          "id": "A",
+          "text": "a nation-state"
+        },
+        {
+          "id": "B",
+          "text": "a unitary state"
+        },
+        {
+          "id": "C",
+          "text": "a supranational organization"
+        },
+        {
+          "id": "D",
+          "text": "a stateless nation"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "The Kurds share a cultural identity but have no sovereign state.",
       "distractors": {}
     },
     {
-      "id": "u4-q02", "tier": "Intro", "type": "mcq", "topic": "4.5 The Function of Political Boundaries", "skill": "1. Concepts and Processes",
+      "id": "u4-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.5 The Function of Political Boundaries",
+      "skill": "1. Concepts and Processes",
       "stem": "Under the UN Convention on the Law of the Sea, a coastal state has exclusive rights to fish and drill for oil within",
       "choices": [
-        { "id": "A", "text": "3 nautical miles of its coast" },
-        { "id": "B", "text": "12 nautical miles of its coast" },
-        { "id": "C", "text": "200 nautical miles of its coast" },
-        { "id": "D", "text": "500 nautical miles of its coast" }
+        {
+          "id": "A",
+          "text": "3 nautical miles of its coast"
+        },
+        {
+          "id": "B",
+          "text": "12 nautical miles of its coast"
+        },
+        {
+          "id": "C",
+          "text": "200 nautical miles of its coast"
+        },
+        {
+          "id": "D",
+          "text": "500 nautical miles of its coast"
+        }
       ],
       "answer": "C",
       "explanation": "The exclusive economic zone extends 200 nautical miles.",
-      "distractors": { "B": "Territorial sea." }
+      "distractors": {
+        "B": "Territorial sea."
+      }
     },
     {
-      "id": "u4-q03", "tier": "Intro", "type": "mcq", "topic": "4.7 Forms of Governance", "skill": "1. Concepts and Processes",
+      "id": "u4-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.7 Forms of Governance",
+      "skill": "1. Concepts and Processes",
       "stem": "Which country is best described as a federal state?",
       "choices": [
-        { "id": "A", "text": "France" },
-        { "id": "B", "text": "Japan" },
-        { "id": "C", "text": "Germany" },
-        { "id": "D", "text": "Portugal" }
+        {
+          "id": "A",
+          "text": "France"
+        },
+        {
+          "id": "B",
+          "text": "Japan"
+        },
+        {
+          "id": "C",
+          "text": "Portugal"
+        },
+        {
+          "id": "D",
+          "text": "Germany"
+        }
       ],
-      "answer": "C",
+      "answer": "D",
       "explanation": "Germany's states (Länder) share power with the national government.",
       "distractors": {}
     },
     {
-      "id": "u4-q04", "tier": "Intro", "type": "mcq", "topic": "4.6 Internal Boundaries", "skill": "1. Concepts and Processes",
+      "id": "u4-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.6 Internal Boundaries",
+      "skill": "1. Concepts and Processes",
       "stem": "Drawing district lines to concentrate as many of the opposing party's voters as possible into a single district is called",
       "choices": [
-        { "id": "A", "text": "cracking" },
-        { "id": "B", "text": "packing" },
-        { "id": "C", "text": "reapportionment" },
-        { "id": "D", "text": "devolution" }
+        {
+          "id": "A",
+          "text": "cracking"
+        },
+        {
+          "id": "B",
+          "text": "packing"
+        },
+        {
+          "id": "C",
+          "text": "reapportionment"
+        },
+        {
+          "id": "D",
+          "text": "devolution"
+        }
       ],
       "answer": "B",
       "explanation": "Packing wastes opposition votes in one district so they can't win others.",
-      "distractors": { "A": "Spreads opponents thinly." }
+      "distractors": {
+        "A": "Spreads opponents thinly."
+      }
     },
     {
-      "id": "u4-q05", "tier": "Exam level", "type": "mcq", "topic": "4.4 Defining Political Boundaries", "skill": "2. Spatial Relationships",
+      "id": "u4-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.4 Defining Political Boundaries",
+      "skill": "2. Spatial Relationships",
       "stem": "Many boundaries in Africa cut across ethnic homelands because they were drawn by European powers in the late 1800s. These boundaries are best classified as",
       "choices": [
-        { "id": "A", "text": "antecedent" },
-        { "id": "B", "text": "superimposed" },
-        { "id": "C", "text": "consequent" },
-        { "id": "D", "text": "relic" }
+        {
+          "id": "A",
+          "text": "antecedent"
+        },
+        {
+          "id": "B",
+          "text": "consequent"
+        },
+        {
+          "id": "C",
+          "text": "superimposed"
+        },
+        {
+          "id": "D",
+          "text": "relic"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Outside powers imposed them without regard to existing cultures.",
       "distractors": {}
     },
     {
-      "id": "u4-q06", "tier": "Exam level", "type": "mcq", "topic": "4.8 Defining Devolutionary Factors", "skill": "2. Spatial Relationships",
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.8 Defining Devolutionary Factors",
+      "skill": "2. Spatial Relationships",
       "stem": "Catalonia's movement for greater autonomy from Spain is driven most by",
       "choices": [
-        { "id": "A", "text": "a distinct language and identity combined with a strong regional economy" },
-        { "id": "B", "text": "physical isolation on an island" },
-        { "id": "C", "text": "a religious difference from the rest of Spain" },
-        { "id": "D", "text": "Catalonia's poverty relative to Spain" }
+        {
+          "id": "A",
+          "text": "a distinct language and identity combined with a strong regional economy"
+        },
+        {
+          "id": "B",
+          "text": "physical isolation on an island"
+        },
+        {
+          "id": "C",
+          "text": "a religious difference from the rest of Spain"
+        },
+        {
+          "id": "D",
+          "text": "Catalonia's poverty relative to Spain"
+        }
       ],
       "answer": "A",
       "explanation": "Linguistic identity and the belief that the wealthy region subsidizes Spain fuel devolution pressure.",
-      "distractors": { "D": "Catalonia is one of Spain's wealthiest regions." }
+      "distractors": {
+        "D": "Catalonia is one of Spain's wealthiest regions."
+      }
     },
     {
-      "id": "u4-q07", "tier": "Exam level", "type": "mcq", "topic": "4.9 Challenges to Sovereignty", "skill": "1. Concepts and Processes",
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.9 Challenges to Sovereignty",
+      "skill": "1. Concepts and Processes",
       "stem": "Members of the European Union share a common market and many use a common currency. Which statement best describes the effect on member states?",
       "choices": [
-        { "id": "A", "text": "They give up some sovereignty, such as control over trade policy, in exchange for economic benefits." },
-        { "id": "B", "text": "They become a single unitary state." },
-        { "id": "C", "text": "They lose all control over internal affairs." },
-        { "id": "D", "text": "They are no longer recognized as states." }
+        {
+          "id": "A",
+          "text": "They give up some sovereignty, such as control over trade policy, in exchange for economic benefits."
+        },
+        {
+          "id": "B",
+          "text": "They become a single unitary state."
+        },
+        {
+          "id": "C",
+          "text": "They lose all control over internal affairs."
+        },
+        {
+          "id": "D",
+          "text": "They are no longer recognized as states."
+        }
       ],
       "answer": "A",
       "explanation": "Supranational organizations pool some sovereignty while states remain sovereign.",
       "distractors": {}
     },
     {
-      "id": "u4-q08", "tier": "Exam level", "type": "mcq", "topic": "4.10 Consequences of Centrifugal and Centripetal Forces", "skill": "1. Concepts and Processes",
+      "id": "u4-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.10 Consequences of Centrifugal and Centripetal Forces",
+      "skill": "1. Concepts and Processes",
       "stem": "Which is an example of a centripetal force?",
       "choices": [
-        { "id": "A", "text": "A national railway network connecting all regions to the capital" },
-        { "id": "B", "text": "A separatist movement in a minority region" },
-        { "id": "C", "text": "Large income gaps between regions" },
-        { "id": "D", "text": "Ethnic conflict over land" }
+        {
+          "id": "A",
+          "text": "A separatist movement in a minority region"
+        },
+        {
+          "id": "B",
+          "text": "A national railway network connecting all regions to the capital"
+        },
+        {
+          "id": "C",
+          "text": "Large income gaps between regions"
+        },
+        {
+          "id": "D",
+          "text": "Ethnic conflict over land"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Infrastructure integrates regions and strengthens national unity.",
       "distractors": {}
     },
     {
-      "id": "u4-q09", "tier": "Exam level", "type": "mcq", "topic": "4.4 Defining Political Boundaries", "skill": "4. Source Analysis",
+      "id": "u4-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.4 Defining Political Boundaries",
+      "skill": "4. Source Analysis",
       "stem": "Much of the boundary between the United States and Canada west of the Great Lakes follows the 49th parallel. This is an example of a",
       "choices": [
-        { "id": "A", "text": "geometric boundary" },
-        { "id": "B", "text": "relic boundary" },
-        { "id": "C", "text": "physical boundary" },
-        { "id": "D", "text": "consequent boundary" }
+        {
+          "id": "A",
+          "text": "consequent boundary"
+        },
+        {
+          "id": "B",
+          "text": "relic boundary"
+        },
+        {
+          "id": "C",
+          "text": "physical boundary"
+        },
+        {
+          "id": "D",
+          "text": "geometric boundary"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "It follows a line of latitude rather than physical or cultural features.",
       "distractors": {}
     },
     {
-      "id": "u4-q10", "tier": "Exam level", "type": "mcq", "topic": "4.3 Political Power and Territoriality", "skill": "2. Spatial Relationships",
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.3 Political Power and Territoriality",
+      "skill": "2. Spatial Relationships",
       "stem": "The Strait of Malacca is considered strategically important primarily because it is",
       "choices": [
-        { "id": "A", "text": "a choke point through which a large share of world shipping passes" },
-        { "id": "B", "text": "a relic boundary" },
-        { "id": "C", "text": "an exclusive economic zone of a single country" },
-        { "id": "D", "text": "a stateless territory" }
+        {
+          "id": "A",
+          "text": "an exclusive economic zone of a single country"
+        },
+        {
+          "id": "B",
+          "text": "a relic boundary"
+        },
+        {
+          "id": "C",
+          "text": "a choke point through which a large share of world shipping passes"
+        },
+        {
+          "id": "D",
+          "text": "a stateless territory"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Control or disruption of a narrow passage can affect global trade and energy flows.",
       "distractors": {}
     },
     {
-      "id": "u4-q11", "tier": "Hardest", "type": "mcq", "topic": "4.6 Internal Boundaries", "skill": "3. Data Analysis",
+      "id": "u4-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.6 Internal Boundaries",
+      "skill": "3. Data Analysis",
       "stimulus": "A state has 5 districts of 100,000 voters each. Statewide, Party A has 60% of voters and Party B 40%. After redistricting, Party B wins 3 districts with 55% each, and Party A wins 2 districts with about 82% each.",
       "stem": "Which strategy was used, and by whom?",
       "choices": [
-        { "id": "A", "text": "Party B's map packed Party A's voters into two districts and spread the rest so Party B narrowly wins three." },
-        { "id": "B", "text": "Party A's map cracked Party B's voters." },
-        { "id": "C", "text": "The districts were drawn to be proportional." },
-        { "id": "D", "text": "No gerrymandering occurred." }
+        {
+          "id": "A",
+          "text": "The districts were drawn to be proportional."
+        },
+        {
+          "id": "B",
+          "text": "Party A's map cracked Party B's voters."
+        },
+        {
+          "id": "C",
+          "text": "Party B's map packed Party A's voters into two districts and spread the rest so Party B narrowly wins three."
+        },
+        {
+          "id": "D",
+          "text": "No gerrymandering occurred."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "A minority party winning a majority of seats by packing opponents into a few lopsided districts is a classic gerrymander.",
       "distractors": {}
     },
     {
-      "id": "u4-q12", "tier": "Hardest", "type": "mcq", "topic": "4.2 Political Processes", "skill": "2. Spatial Relationships",
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.2 Political Processes",
+      "skill": "2. Spatial Relationships",
       "stem": "Which situation best illustrates neocolonialism?",
       "choices": [
-        { "id": "A", "text": "A former colonial power dominates an independent country's economy through ownership of its mines and control of its debt." },
-        { "id": "B", "text": "A colony declares independence after a war." },
-        { "id": "C", "text": "Two countries form a free-trade agreement on equal terms." },
-        { "id": "D", "text": "A region gains autonomy within its country." }
+        {
+          "id": "A",
+          "text": "A former colonial power dominates an independent country's economy through ownership of its mines and control of its debt."
+        },
+        {
+          "id": "B",
+          "text": "A colony declares independence after a war."
+        },
+        {
+          "id": "C",
+          "text": "Two countries form a free-trade agreement on equal terms."
+        },
+        {
+          "id": "D",
+          "text": "A region gains autonomy within its country."
+        }
       ],
       "answer": "A",
       "explanation": "Neocolonialism is indirect economic or political control after formal independence.",
       "distractors": {}
     },
     {
-      "id": "u4-q13", "tier": "Hardest", "type": "mcq", "topic": "4.7 Forms of Governance", "skill": "2. Spatial Relationships",
+      "id": "u4-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.7 Forms of Governance",
+      "skill": "2. Spatial Relationships",
       "stem": "Why might a federal system be especially appropriate for a large, ethnically diverse country such as India or Nigeria?",
       "choices": [
-        { "id": "A", "text": "It allows regional governments to make some decisions reflecting local languages, religions, and needs, reducing pressure for separatism." },
-        { "id": "B", "text": "It eliminates all ethnic differences." },
-        { "id": "C", "text": "It concentrates all power in the capital, ensuring uniform policy." },
-        { "id": "D", "text": "It removes the need for a national government." }
+        {
+          "id": "A",
+          "text": "It removes the need for a national government."
+        },
+        {
+          "id": "B",
+          "text": "It eliminates all ethnic differences."
+        },
+        {
+          "id": "C",
+          "text": "It concentrates all power in the capital, ensuring uniform policy."
+        },
+        {
+          "id": "D",
+          "text": "It allows regional governments to make some decisions reflecting local languages, religions, and needs, reducing pressure for separatism."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Federalism can act as a centripetal force by accommodating regional diversity.",
-      "distractors": { "C": "Describes a unitary state." }
+      "distractors": {
+        "C": "Describes a unitary state."
+      }
     },
     {
-      "id": "u4-q14", "tier": "Hardest", "type": "mcq", "topic": "4.10 Consequences of Centrifugal and Centripetal Forces", "skill": "2. Spatial Relationships",
+      "id": "u4-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.10 Consequences of Centrifugal and Centripetal Forces",
+      "skill": "2. Spatial Relationships",
       "stem": "The breakup of Yugoslavia in the 1990s into several smaller states, accompanied by ethnic conflict, is best described as",
       "choices": [
-        { "id": "A", "text": "balkanization driven by centrifugal ethnic and religious divisions" },
-        { "id": "B", "text": "supranationalism" },
-        { "id": "C", "text": "the creation of a federal state" },
-        { "id": "D", "text": "irredentism by a single state" }
+        {
+          "id": "A",
+          "text": "supranationalism"
+        },
+        {
+          "id": "B",
+          "text": "balkanization driven by centrifugal ethnic and religious divisions"
+        },
+        {
+          "id": "C",
+          "text": "the creation of a federal state"
+        },
+        {
+          "id": "D",
+          "text": "irredentism by a single state"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Balkanization is the fragmentation of a region into smaller, often hostile states.",
       "distractors": {}
     },
     {
-      "id": "u4-frq1", "tier": "Exam level", "type": "frq", "topic": "4.1–4.10 Political Patterns", "frqType": "FRQ (one stimulus)",
+      "id": "u4-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "4.1–4.10 Political Patterns",
+      "frqType": "FRQ (one stimulus)",
       "prompt": "A map shows the region where Kurdish is the majority language. The region spans southeastern Turkey, northern Iraq, northwestern Iran, and northeastern Syria. In northern Iraq, the map labels the 'Kurdistan Region,' which has its own regional government and parliament within Iraq.",
       "parts": [
-        { "label": "A", "prompt": "Define stateless nation.", "points": 1 },
-        { "label": "B", "prompt": "Using the map, explain why the Kurds are considered a stateless nation.", "points": 1 },
-        { "label": "C", "prompt": "Identify the type of political boundary that best describes the borders dividing the Kurdish region, and explain.", "points": 1 },
-        { "label": "D", "prompt": "Explain how the Kurdistan Region in Iraq illustrates devolution.", "points": 1 },
-        { "label": "E", "prompt": "Describe one centrifugal force created by the Kurdish population for Turkey, Iraq, Iran, or Syria.", "points": 1 },
-        { "label": "F", "prompt": "Explain one reason states containing Kurdish regions resist the creation of an independent Kurdistan.", "points": 1 },
-        { "label": "G", "prompt": "Explain the degree to which supranational organizations can resolve conflicts involving stateless nations.", "points": 1 }
+        {
+          "label": "A",
+          "prompt": "Define stateless nation.",
+          "points": 1
+        },
+        {
+          "label": "B",
+          "prompt": "Using the map, explain why the Kurds are considered a stateless nation.",
+          "points": 1
+        },
+        {
+          "label": "C",
+          "prompt": "Identify the type of political boundary that best describes the borders dividing the Kurdish region, and explain.",
+          "points": 1
+        },
+        {
+          "label": "D",
+          "prompt": "Explain how the Kurdistan Region in Iraq illustrates devolution.",
+          "points": 1
+        },
+        {
+          "label": "E",
+          "prompt": "Describe one centrifugal force created by the Kurdish population for Turkey, Iraq, Iran, or Syria.",
+          "points": 1
+        },
+        {
+          "label": "F",
+          "prompt": "Explain one reason states containing Kurdish regions resist the creation of an independent Kurdistan.",
+          "points": 1
+        },
+        {
+          "label": "G",
+          "prompt": "Explain the degree to which supranational organizations can resolve conflicts involving stateless nations.",
+          "points": 1
+        }
       ],
       "points": 7,
       "minutes": 25,
       "rubric": [
-        { "criterion": "A", "points": 1, "description": "A nation (people with a shared culture/identity) that does not have its own sovereign state." },
-        { "criterion": "B", "points": 1, "description": "The Kurdish-majority area is divided among four states and no independent Kurdish state exists." },
-        { "criterion": "C", "points": 1, "description": "Superimposed: borders drawn by outside (European) powers after World War I without regard to Kurdish settlement." },
-        { "criterion": "D", "points": 1, "description": "Iraq's central government transferred some power to a Kurdish regional government with its own parliament, giving autonomy without independence." },
-        { "criterion": "E", "points": 1, "description": "E.g., separatist movements, armed conflict, demands for language rights, or political parties seeking autonomy that weaken national unity." },
-        { "criterion": "F", "points": 1, "description": "E.g., loss of territory and population; loss of resources such as oil and water; fear of encouraging other separatist movements; national identity and security." },
-        { "criterion": "G", "points": 1, "description": "Takes a position with explanation; e.g., limited because organizations like the UN respect existing states' sovereignty and territorial integrity, though they can provide humanitarian aid, mediation, or protection." }
+        {
+          "criterion": "A",
+          "points": 1,
+          "description": "A nation (people with a shared culture/identity) that does not have its own sovereign state."
+        },
+        {
+          "criterion": "B",
+          "points": 1,
+          "description": "The Kurdish-majority area is divided among four states and no independent Kurdish state exists."
+        },
+        {
+          "criterion": "C",
+          "points": 1,
+          "description": "Superimposed: borders drawn by outside (European) powers after World War I without regard to Kurdish settlement."
+        },
+        {
+          "criterion": "D",
+          "points": 1,
+          "description": "Iraq's central government transferred some power to a Kurdish regional government with its own parliament, giving autonomy without independence."
+        },
+        {
+          "criterion": "E",
+          "points": 1,
+          "description": "E.g., separatist movements, armed conflict, demands for language rights, or political parties seeking autonomy that weaken national unity."
+        },
+        {
+          "criterion": "F",
+          "points": 1,
+          "description": "E.g., loss of territory and population; loss of resources such as oil and water; fear of encouraging other separatist movements; national identity and security."
+        },
+        {
+          "criterion": "G",
+          "points": 1,
+          "description": "Takes a position with explanation; e.g., limited because organizations like the UN respect existing states' sovereignty and territorial integrity, though they can provide humanitarian aid, mediation, or protection."
+        }
       ],
       "sampleResponse": "A. A stateless nation is a group of people who share a culture, language, and identity but do not have their own sovereign state.\n\nB. The map shows the Kurdish-majority region divided among Turkey, Iraq, Iran, and Syria. Although Kurds share a language and identity, no independent Kurdish state exists.\n\nC. The borders are superimposed boundaries: they were drawn by European powers after the collapse of the Ottoman Empire without regard for where Kurdish people lived.\n\nD. Iraq's national government has transferred some powers to the Kurdistan Regional Government, which has its own parliament. This shift of authority from the central government to a region is devolution.\n\nE. In Turkey, demands by Kurdish groups for autonomy and language rights, including armed conflict, have divided the country and weakened national unity.\n\nF. Iraq would lose oil-rich territory in the north if an independent Kurdistan formed, reducing its government revenue.\n\nG. Supranational organizations have only limited ability to resolve these conflicts. The UN is made up of sovereign states that generally protect their own territorial integrity, so it rarely supports creating new states from existing ones, though it can provide humanitarian aid and mediate negotiations."
     }

@@ -45,222 +45,533 @@
     "cramSheet": "**Derived demand:** factor demand from product demand\n\n**MRP:** MP × P (or MP × MR) · MRP curve = labor demand\n\n**Hire:** MRP = MRC · competitive: MRC = wage\n\n**Shifters:** product price · productivity · other input prices\n\n**Inputs:** least cost MP_L/w = MP_K/r · profit max MRP/P = 1\n\n**Monopsony:** MRC above S · hire MRP = MRC · wage from S · fewer workers, lower wage"
   },
   "vocab": [
-    { "term": "Derived demand", "definition": "Demand for a factor that depends on demand for the product it produces." },
-    { "term": "Marginal revenue product", "definition": "The additional revenue from employing one more unit of a factor: MP × MR." },
-    { "term": "Marginal resource cost", "definition": "The additional cost of employing one more unit of a factor." },
-    { "term": "Wage taker", "definition": "A firm that can hire any number of workers at the market wage." },
-    { "term": "Least-cost rule", "definition": "Combine inputs so the marginal product per dollar is equal for all inputs." },
-    { "term": "Profit-maximizing input rule", "definition": "Hire each input until its MRP equals its price." },
-    { "term": "Monopsony", "definition": "A market with a single buyer of a factor." },
-    { "term": "Labor supply", "definition": "The number of workers willing to work at each wage." },
-    { "term": "Human capital", "definition": "Workers' skills and knowledge that raise productivity." },
-    { "term": "Marginal product of labor", "definition": "Additional output from one more worker." },
-    { "term": "Minimum wage", "definition": "A legal price floor on wages." },
-    { "term": "Economic rent", "definition": "Payment to a factor above what is needed to bring it into production." }
+    {
+      "term": "Derived demand",
+      "definition": "Demand for a factor that depends on demand for the product it produces."
+    },
+    {
+      "term": "Marginal revenue product",
+      "definition": "The additional revenue from employing one more unit of a factor: MP × MR."
+    },
+    {
+      "term": "Marginal resource cost",
+      "definition": "The additional cost of employing one more unit of a factor."
+    },
+    {
+      "term": "Wage taker",
+      "definition": "A firm that can hire any number of workers at the market wage."
+    },
+    {
+      "term": "Least-cost rule",
+      "definition": "Combine inputs so the marginal product per dollar is equal for all inputs."
+    },
+    {
+      "term": "Profit-maximizing input rule",
+      "definition": "Hire each input until its MRP equals its price."
+    },
+    {
+      "term": "Monopsony",
+      "definition": "A market with a single buyer of a factor."
+    },
+    {
+      "term": "Labor supply",
+      "definition": "The number of workers willing to work at each wage."
+    },
+    {
+      "term": "Human capital",
+      "definition": "Workers' skills and knowledge that raise productivity."
+    },
+    {
+      "term": "Marginal product of labor",
+      "definition": "Additional output from one more worker."
+    },
+    {
+      "term": "Minimum wage",
+      "definition": "A legal price floor on wages."
+    },
+    {
+      "term": "Economic rent",
+      "definition": "Payment to a factor above what is needed to bring it into production."
+    }
   ],
   "practice": [
     {
-      "id": "u5-q01", "tier": "Intro", "type": "mcq", "topic": "5.1 Introduction to Factor Markets", "skill": "1. Principles and Models",
+      "id": "u5-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "5.1 Introduction to Factor Markets",
+      "skill": "1. Principles and Models",
       "stem": "Demand for construction workers rises when demand for new homes rises. This illustrates that labor demand is",
       "choices": [
-        { "id": "A", "text": "derived demand" },
-        { "id": "B", "text": "perfectly elastic" },
-        { "id": "C", "text": "determined by the minimum wage" },
-        { "id": "D", "text": "independent of product markets" }
+        {
+          "id": "A",
+          "text": "determined by the minimum wage"
+        },
+        {
+          "id": "B",
+          "text": "perfectly elastic"
+        },
+        {
+          "id": "C",
+          "text": "derived demand"
+        },
+        {
+          "id": "D",
+          "text": "independent of product markets"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Firms want workers because of the products workers make.",
       "distractors": {}
     },
     {
-      "id": "u5-q02", "tier": "Intro", "type": "mcq", "topic": "5.3 Profit-Maximizing Behavior in Perfectly Competitive Factor Markets", "skill": "1. Principles and Models",
+      "id": "u5-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "5.3 Profit-Maximizing Behavior in Perfectly Competitive Factor Markets",
+      "skill": "1. Principles and Models",
       "stem": "A firm hiring in a perfectly competitive labor market maximizes profit by hiring workers until",
       "choices": [
-        { "id": "A", "text": "MRP equals the wage" },
-        { "id": "B", "text": "MP is maximized" },
-        { "id": "C", "text": "total product is maximized" },
-        { "id": "D", "text": "the wage is zero" }
+        {
+          "id": "A",
+          "text": "the wage is zero"
+        },
+        {
+          "id": "B",
+          "text": "MP is maximized"
+        },
+        {
+          "id": "C",
+          "text": "total product is maximized"
+        },
+        {
+          "id": "D",
+          "text": "MRP equals the wage"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "MRC = wage for a wage taker; hire while MRP ≥ MRC.",
       "distractors": {}
     },
     {
-      "id": "u5-q03", "tier": "Intro", "type": "mcq", "topic": "5.4 Monopsonistic Markets", "skill": "1. Principles and Models",
+      "id": "u5-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "5.4 Monopsonistic Markets",
+      "skill": "1. Principles and Models",
       "stem": "In a monopsony labor market, the marginal resource cost curve",
       "choices": [
-        { "id": "A", "text": "lies above the labor supply curve" },
-        { "id": "B", "text": "is the same as the labor supply curve" },
-        { "id": "C", "text": "is horizontal" },
-        { "id": "D", "text": "lies below the labor demand curve" }
+        {
+          "id": "A",
+          "text": "lies above the labor supply curve"
+        },
+        {
+          "id": "B",
+          "text": "is the same as the labor supply curve"
+        },
+        {
+          "id": "C",
+          "text": "is horizontal"
+        },
+        {
+          "id": "D",
+          "text": "lies below the labor demand curve"
+        }
       ],
       "answer": "A",
       "explanation": "Hiring one more worker requires raising the wage for all workers.",
       "distractors": {}
     },
     {
-      "id": "u5-q04", "tier": "Intro", "type": "mcq", "topic": "5.2 Changes in Factor Demand and Factor Supply", "skill": "2. Interpretation",
+      "id": "u5-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "5.2 Changes in Factor Demand and Factor Supply",
+      "skill": "2. Interpretation",
       "stem": "Which change would increase a firm's demand for workers?",
       "choices": [
-        { "id": "A", "text": "A decrease in the price of the product the workers make" },
-        { "id": "B", "text": "New training that raises workers' marginal product" },
-        { "id": "C", "text": "An increase in the wage" },
-        { "id": "D", "text": "A decrease in demand for the product" }
+        {
+          "id": "A",
+          "text": "A decrease in the price of the product the workers make"
+        },
+        {
+          "id": "B",
+          "text": "New training that raises workers' marginal product"
+        },
+        {
+          "id": "C",
+          "text": "An increase in the wage"
+        },
+        {
+          "id": "D",
+          "text": "A decrease in demand for the product"
+        }
       ],
       "answer": "B",
       "explanation": "Higher MP raises MRP, shifting labor demand right.",
-      "distractors": { "C": "Movement along labor demand." }
+      "distractors": {
+        "C": "Movement along labor demand."
+      }
     },
     {
-      "id": "u5-q05", "tier": "Exam level", "type": "mcq", "topic": "5.3 Profit-Maximizing Behavior in Perfectly Competitive Factor Markets", "skill": "3. Manipulation",
+      "id": "u5-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.3 Profit-Maximizing Behavior in Perfectly Competitive Factor Markets",
+      "skill": "3. Manipulation",
       "stimulus": "Workers: 1, 2, 3, 4, 5\nTotal output: 10, 18, 24, 28, 30\nThe product sells for $5 in a perfectly competitive market; the wage is $25.",
       "stem": "How many workers should the firm hire?",
       "choices": [
-        { "id": "A", "text": "2" },
-        { "id": "B", "text": "3" },
-        { "id": "C", "text": "4" },
-        { "id": "D", "text": "5" }
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
       ],
       "answer": "B",
       "explanation": "MP: 10, 8, 6, 4, 2; MRP: 50, 40, 30, 20, 10. Hire while MRP ≥ $25: 3 workers.",
-      "distractors": { "C": "4th worker's MRP ($20) is below the wage." }
+      "distractors": {
+        "C": "4th worker's MRP ($20) is below the wage."
+      }
     },
     {
-      "id": "u5-q06", "tier": "Exam level", "type": "mcq", "topic": "5.3 Profit-Maximizing Behavior in Perfectly Competitive Factor Markets", "skill": "3. Manipulation",
+      "id": "u5-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.3 Profit-Maximizing Behavior in Perfectly Competitive Factor Markets",
+      "skill": "3. Manipulation",
       "stem": "A firm's marginal product of labor is 20 units and the wage is $10. The marginal product of capital is 30 units and the rental rate is $20. To minimize cost, the firm should",
       "choices": [
-        { "id": "A", "text": "use more labor and less capital" },
-        { "id": "B", "text": "use more capital and less labor" },
-        { "id": "C", "text": "keep the current combination" },
-        { "id": "D", "text": "use more of both" }
+        {
+          "id": "A",
+          "text": "use more of both"
+        },
+        {
+          "id": "B",
+          "text": "use more capital and less labor"
+        },
+        {
+          "id": "C",
+          "text": "keep the current combination"
+        },
+        {
+          "id": "D",
+          "text": "use more labor and less capital"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "MP per dollar: labor 2, capital 1.5. Labor gives more output per dollar.",
-      "distractors": { "B": "Compares MPs without dividing by prices." }
+      "distractors": {
+        "B": "Compares MPs without dividing by prices."
+      }
     },
     {
-      "id": "u5-q07", "tier": "Exam level", "type": "mcq", "topic": "5.2 Changes in Factor Demand and Factor Supply", "skill": "2. Interpretation",
+      "id": "u5-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.2 Changes in Factor Demand and Factor Supply",
+      "skill": "2. Interpretation",
       "stem": "The price of robots that can replace warehouse workers falls sharply. If robots and workers are substitutes, demand for warehouse workers will most likely",
       "choices": [
-        { "id": "A", "text": "decrease" },
-        { "id": "B", "text": "increase" },
-        { "id": "C", "text": "not change" },
-        { "id": "D", "text": "become perfectly inelastic" }
+        {
+          "id": "A",
+          "text": "not change"
+        },
+        {
+          "id": "B",
+          "text": "increase"
+        },
+        {
+          "id": "C",
+          "text": "decrease"
+        },
+        {
+          "id": "D",
+          "text": "become perfectly inelastic"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Cheaper substitute inputs lead firms to replace labor.",
       "distractors": {}
     },
     {
-      "id": "u5-q08", "tier": "Exam level", "type": "mcq", "topic": "5.4 Monopsonistic Markets", "skill": "2. Interpretation",
+      "id": "u5-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.4 Monopsonistic Markets",
+      "skill": "2. Interpretation",
       "stem": "Compared with a perfectly competitive labor market, a monopsony employer will hire",
       "choices": [
-        { "id": "A", "text": "more workers at a higher wage" },
-        { "id": "B", "text": "fewer workers at a lower wage" },
-        { "id": "C", "text": "fewer workers at a higher wage" },
-        { "id": "D", "text": "the same number of workers" }
+        {
+          "id": "A",
+          "text": "fewer workers at a lower wage"
+        },
+        {
+          "id": "B",
+          "text": "more workers at a higher wage"
+        },
+        {
+          "id": "C",
+          "text": "fewer workers at a higher wage"
+        },
+        {
+          "id": "D",
+          "text": "the same number of workers"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "MRC above supply leads the monopsonist to restrict hiring and pay the supply-curve wage.",
       "distractors": {}
     },
     {
-      "id": "u5-q09", "tier": "Exam level", "type": "mcq", "topic": "5.1 Introduction to Factor Markets", "skill": "2. Interpretation",
+      "id": "u5-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.1 Introduction to Factor Markets",
+      "skill": "2. Interpretation",
       "stem": "A perfectly competitive firm hires workers in a perfectly competitive labor market. If the market wage rises, the firm will",
       "choices": [
-        { "id": "A", "text": "hire fewer workers, moving up along its MRP curve" },
-        { "id": "B", "text": "hire more workers" },
-        { "id": "C", "text": "shift its MRP curve right" },
-        { "id": "D", "text": "keep employment constant" }
+        {
+          "id": "A",
+          "text": "hire fewer workers, moving up along its MRP curve"
+        },
+        {
+          "id": "B",
+          "text": "hire more workers"
+        },
+        {
+          "id": "C",
+          "text": "shift its MRP curve right"
+        },
+        {
+          "id": "D",
+          "text": "keep employment constant"
+        }
       ],
       "answer": "A",
       "explanation": "A higher MRC line intersects MRP at a smaller quantity.",
       "distractors": {}
     },
     {
-      "id": "u5-q10", "tier": "Exam level", "type": "mcq", "topic": "5.2 Changes in Factor Demand and Factor Supply", "skill": "2. Interpretation",
+      "id": "u5-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.2 Changes in Factor Demand and Factor Supply",
+      "skill": "2. Interpretation",
       "stem": "A new law requires an additional two years of certification for electricians. In the market for electricians,",
       "choices": [
-        { "id": "A", "text": "labor supply decreases, raising wages and reducing employment" },
-        { "id": "B", "text": "labor demand increases" },
-        { "id": "C", "text": "labor supply increases" },
-        { "id": "D", "text": "wages fall" }
+        {
+          "id": "A",
+          "text": "wages fall"
+        },
+        {
+          "id": "B",
+          "text": "labor demand increases"
+        },
+        {
+          "id": "C",
+          "text": "labor supply increases"
+        },
+        {
+          "id": "D",
+          "text": "labor supply decreases, raising wages and reducing employment"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Higher entry costs reduce the number willing and able to work.",
       "distractors": {}
     },
     {
-      "id": "u5-q11", "tier": "Hardest", "type": "mcq", "topic": "5.4 Monopsonistic Markets", "skill": "3. Manipulation",
+      "id": "u5-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "5.4 Monopsonistic Markets",
+      "skill": "3. Manipulation",
       "stimulus": "A monopsony faces this labor supply and MRP schedule:\n\n| Workers | Wage | MRP |\n|---|---|---|\n| 1 | $6 | $24 |\n| 2 | $8 | $20 |\n| 3 | $10 | $16 |\n| 4 | $12 | $12 |\n| 5 | $14 | $8 |",
       "stem": "How many workers does the monopsonist hire, and at what wage?",
       "choices": [
-        { "id": "A", "text": "3 workers at $10" },
-        { "id": "B", "text": "4 workers at $12" },
-        { "id": "C", "text": "3 workers at $14" },
-        { "id": "D", "text": "4 workers at $18" }
+        {
+          "id": "A",
+          "text": "3 workers at $14"
+        },
+        {
+          "id": "B",
+          "text": "4 workers at $12"
+        },
+        {
+          "id": "C",
+          "text": "3 workers at $10"
+        },
+        {
+          "id": "D",
+          "text": "4 workers at $18"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Total labor cost: 6, 16, 30, 48, 70 → MRC: 6, 10, 14, 18, 22. Hire while MRP ≥ MRC: 3rd worker (16 ≥ 14), not 4th (12 < 18). Wage from supply: $10.",
-      "distractors": { "B": "Competitive outcome (MRP = supply wage).", "C": "Pays MRC instead of the supply wage." }
+      "distractors": {
+        "B": "Competitive outcome (MRP = supply wage).",
+        "A": "Pays MRC instead of the supply wage."
+      }
     },
     {
-      "id": "u5-q12", "tier": "Hardest", "type": "mcq", "topic": "5.4 Monopsonistic Markets", "skill": "2. Interpretation",
+      "id": "u5-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "5.4 Monopsonistic Markets",
+      "skill": "2. Interpretation",
       "stem": "Using the monopsony schedule above, the government sets a minimum wage of $12. How many workers are hired?",
       "choices": [
-        { "id": "A", "text": "2" },
-        { "id": "B", "text": "3" },
-        { "id": "C", "text": "4" },
-        { "id": "D", "text": "5" }
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
       ],
       "stimulus": "Labor supply wages for 1–5 workers: $6, $8, $10, $12, $14. MRP for 1–5 workers: $24, $20, $16, $12, $8.",
       "answer": "C",
       "explanation": "With a $12 minimum, MRC = $12 for up to 4 workers (all willing at $12). Hire until MRP ≥ 12: 4 workers. Employment rises.",
-      "distractors": { "B": "Pre-minimum-wage monopsony outcome." }
+      "distractors": {
+        "B": "Pre-minimum-wage monopsony outcome."
+      }
     },
     {
-      "id": "u5-q13", "tier": "Hardest", "type": "mcq", "topic": "5.3 Profit-Maximizing Behavior in Perfectly Competitive Factor Markets", "skill": "2. Interpretation",
+      "id": "u5-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "5.3 Profit-Maximizing Behavior in Perfectly Competitive Factor Markets",
+      "skill": "2. Interpretation",
       "stem": "A firm hires labor and capital so that MRP_L/w = 1.5 and MRP_K/r = 1.5. Which is true?",
       "choices": [
-        { "id": "A", "text": "It is producing at least cost but not maximizing profit; it should hire more of both inputs." },
-        { "id": "B", "text": "It is maximizing profit." },
-        { "id": "C", "text": "It should hire less of both." },
-        { "id": "D", "text": "It should hire more labor and less capital." }
+        {
+          "id": "A",
+          "text": "It is maximizing profit."
+        },
+        {
+          "id": "B",
+          "text": "It is producing at least cost but not maximizing profit; it should hire more of both inputs."
+        },
+        {
+          "id": "C",
+          "text": "It should hire less of both."
+        },
+        {
+          "id": "D",
+          "text": "It should hire more labor and less capital."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Equal ratios satisfy the least-cost rule, but each ratio exceeds 1, so each input adds more revenue than it costs.",
       "distractors": {}
     },
     {
-      "id": "u5-q14", "tier": "Hardest", "type": "mcq", "topic": "5.2 Changes in Factor Demand and Factor Supply", "skill": "2. Interpretation",
+      "id": "u5-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "5.2 Changes in Factor Demand and Factor Supply",
+      "skill": "2. Interpretation",
       "stem": "Demand for the product made by a perfectly competitive firm increases, raising its price. In the firm's labor market (a perfectly competitive market where the firm is a wage taker), what happens?",
       "choices": [
-        { "id": "A", "text": "The firm's MRP shifts right, and it hires more workers at the market wage." },
-        { "id": "B", "text": "The wage the firm pays increases because it is a monopsony." },
-        { "id": "C", "text": "MRP shifts left." },
-        { "id": "D", "text": "The firm hires fewer workers." }
+        {
+          "id": "A",
+          "text": "The firm hires fewer workers."
+        },
+        {
+          "id": "B",
+          "text": "The wage the firm pays increases because it is a monopsony."
+        },
+        {
+          "id": "C",
+          "text": "MRP shifts left."
+        },
+        {
+          "id": "D",
+          "text": "The firm's MRP shifts right, and it hires more workers at the market wage."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "MRP = MP × P rises with the product price.",
       "distractors": {}
     },
     {
-      "id": "u5-frq1", "tier": "Exam level", "type": "frq", "topic": "5.4 Monopsonistic Markets", "frqType": "Short FRQ",
+      "id": "u5-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "5.4 Monopsonistic Markets",
+      "frqType": "Short FRQ",
       "prompt": "Millbrook Lumber is the only employer of mill workers in an isolated town and sells its lumber in a perfectly competitive product market.",
       "parts": [
-        { "label": "a", "prompt": "Draw (describe) a correctly labeled graph of the labor market for Millbrook, showing the MRP, labor supply, and MRC curves. Label the profit-maximizing quantity of workers Q_m and wage W_m.", "points": 2 },
-        { "label": "b", "prompt": "On your graph, label the quantity Q_c and wage W_c that would occur if the labor market were perfectly competitive.", "points": 1 },
-        { "label": "c", "prompt": "The government sets a minimum wage equal to W_c. Will employment at Millbrook increase, decrease, or stay the same? Explain.", "points": 1 },
-        { "label": "d", "prompt": "If the price of lumber rises, what happens to Millbrook's demand for workers? Explain.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Draw (describe) a correctly labeled graph of the labor market for Millbrook, showing the MRP, labor supply, and MRC curves. Label the profit-maximizing quantity of workers Q_m and wage W_m.",
+          "points": 2
+        },
+        {
+          "label": "b",
+          "prompt": "On your graph, label the quantity Q_c and wage W_c that would occur if the labor market were perfectly competitive.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "The government sets a minimum wage equal to W_c. Will employment at Millbrook increase, decrease, or stay the same? Explain.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "If the price of lumber rises, what happens to Millbrook's demand for workers? Explain.",
+          "points": 1
+        }
       ],
       "points": 5,
       "minutes": 10,
       "rubric": [
-        { "criterion": "a1: Curves", "points": 1, "description": "Axes wage and quantity of labor; downward-sloping MRP (D); upward-sloping S; MRC above S." },
-        { "criterion": "a2: Q_m and W_m", "points": 1, "description": "Q_m where MRP = MRC; W_m on the supply curve at Q_m (below MRP)." },
-        { "criterion": "b", "points": 1, "description": "Q_c and W_c at the intersection of MRP and S; Q_c > Q_m and W_c > W_m." },
-        { "criterion": "c", "points": 1, "description": "Increase: the minimum wage makes MRC horizontal at W_c up to the supply curve, so the firm hires until MRP = W_c, at Q_c." },
-        { "criterion": "d", "points": 1, "description": "Increases: MRP = MP × P rises, shifting labor demand right." }
+        {
+          "criterion": "a1: Curves",
+          "points": 1,
+          "description": "Axes wage and quantity of labor; downward-sloping MRP (D); upward-sloping S; MRC above S."
+        },
+        {
+          "criterion": "a2: Q_m and W_m",
+          "points": 1,
+          "description": "Q_m where MRP = MRC; W_m on the supply curve at Q_m (below MRP)."
+        },
+        {
+          "criterion": "b",
+          "points": 1,
+          "description": "Q_c and W_c at the intersection of MRP and S; Q_c > Q_m and W_c > W_m."
+        },
+        {
+          "criterion": "c",
+          "points": 1,
+          "description": "Increase: the minimum wage makes MRC horizontal at W_c up to the supply curve, so the firm hires until MRP = W_c, at Q_c."
+        },
+        {
+          "criterion": "d",
+          "points": 1,
+          "description": "Increases: MRP = MP × P rises, shifting labor demand right."
+        }
       ],
       "sampleResponse": "(a) The graph has 'Wage' on the vertical axis and 'Quantity of workers' on the horizontal axis. MRP = D slopes downward, labor supply S slopes upward, and MRC slopes upward more steeply, lying above S. Millbrook hires Q_m where MRP = MRC and pays wage W_m, found by going down from that intersection to the supply curve.\n\n(b) The competitive outcome is where MRP intersects S, at Q_c and W_c, with Q_c greater than Q_m and W_c greater than W_m.\n\n(c) Employment increases. With a minimum wage at W_c, Millbrook can hire any number of workers up to Q_c at the same wage, so its MRC is constant at W_c. It hires until MRP = W_c, which occurs at Q_c, more than Q_m.\n\n(d) Millbrook's demand for workers increases. A higher lumber price raises each worker's marginal revenue product (MP × P), shifting the MRP curve to the right."
     }

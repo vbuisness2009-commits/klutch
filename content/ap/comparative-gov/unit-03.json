@@ -41,218 +41,502 @@
     "cramSheet": "**Culture & socialization:** family · school · religion · media · state (China patriotic education, Great Firewall)\n\n**Ideologies:** liberalism · socialism · communism · fascism · neoliberalism · religious\n\n**Cleavages:** Nigeria (ethnic, religious, Boko Haram, Niger Delta) · Mexico (north–south, Zapatistas 1994) · UK (nations, class, Brexit) · Russia (Chechnya) · Iran (reformers vs conservatives) · China (urban–rural, Uyghurs, Tibet)\n\n**Civil society:** independent groups · Russia foreign-agent laws · China co-optation\n\n**Protests:** Tiananmen 1989 · Green Movement 2009 · Woman, Life, Freedom 2022 · Russia 2011–12 · #EndSARS 2020"
   },
   "vocab": [
-    { "term": "Political culture", "definition": "The shared beliefs, values, and attitudes about politics in a society." },
-    { "term": "Political socialization", "definition": "The process by which people acquire political beliefs and values." },
-    { "term": "Cleavage", "definition": "A social division that shapes political attitudes and conflict." },
-    { "term": "Cross-cutting cleavages", "definition": "Divisions that overlap different groups, which can reduce polarization." },
-    { "term": "Coinciding cleavages", "definition": "Divisions that reinforce one another, increasing conflict." },
-    { "term": "Civil society", "definition": "Voluntary organizations independent of the state." },
-    { "term": "Civil liberties", "definition": "Freedoms protected from government interference, such as speech and assembly." },
-    { "term": "Civil rights", "definition": "Guarantees of equal treatment under the law." },
-    { "term": "Co-optation", "definition": "Bringing groups into a state-sanctioned structure to neutralize opposition." },
-    { "term": "Political efficacy", "definition": "Citizens' belief that they can influence government." },
-    { "term": "Neoliberalism", "definition": "An ideology favoring free markets, privatization, and reduced state intervention." },
-    { "term": "State-controlled media", "definition": "News outlets owned or directed by the government." }
+    {
+      "term": "Political culture",
+      "definition": "The shared beliefs, values, and attitudes about politics in a society."
+    },
+    {
+      "term": "Political socialization",
+      "definition": "The process by which people acquire political beliefs and values."
+    },
+    {
+      "term": "Cleavage",
+      "definition": "A social division that shapes political attitudes and conflict."
+    },
+    {
+      "term": "Cross-cutting cleavages",
+      "definition": "Divisions that overlap different groups, which can reduce polarization."
+    },
+    {
+      "term": "Coinciding cleavages",
+      "definition": "Divisions that reinforce one another, increasing conflict."
+    },
+    {
+      "term": "Civil society",
+      "definition": "Voluntary organizations independent of the state."
+    },
+    {
+      "term": "Civil liberties",
+      "definition": "Freedoms protected from government interference, such as speech and assembly."
+    },
+    {
+      "term": "Civil rights",
+      "definition": "Guarantees of equal treatment under the law."
+    },
+    {
+      "term": "Co-optation",
+      "definition": "Bringing groups into a state-sanctioned structure to neutralize opposition."
+    },
+    {
+      "term": "Political efficacy",
+      "definition": "Citizens' belief that they can influence government."
+    },
+    {
+      "term": "Neoliberalism",
+      "definition": "An ideology favoring free markets, privatization, and reduced state intervention."
+    },
+    {
+      "term": "State-controlled media",
+      "definition": "News outlets owned or directed by the government."
+    }
   ],
   "practice": [
     {
-      "id": "u3-q01", "tier": "Intro", "type": "mcq", "topic": "Civil Society",
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Civil Society",
       "stem": "Which is the best example of civil society?",
       "choices": [
-        { "id": "A", "text": "An independent environmental organization lobbying for clean-air rules" },
-        { "id": "B", "text": "A government ministry" },
-        { "id": "C", "text": "The national army" },
-        { "id": "D", "text": "A state-owned oil company" }
+        {
+          "id": "A",
+          "text": "An independent environmental organization lobbying for clean-air rules"
+        },
+        {
+          "id": "B",
+          "text": "A government ministry"
+        },
+        {
+          "id": "C",
+          "text": "The national army"
+        },
+        {
+          "id": "D",
+          "text": "A state-owned oil company"
+        }
       ],
       "answer": "A",
       "explanation": "Civil society groups are voluntary and independent of the state.",
       "distractors": {}
     },
     {
-      "id": "u3-q02", "tier": "Intro", "type": "mcq", "topic": "Cleavages",
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Cleavages",
       "stem": "Nigeria's most politically significant cleavages are",
       "choices": [
-        { "id": "A", "text": "ethnic and religious divisions, especially between the mostly Muslim north and mostly Christian south" },
-        { "id": "B", "text": "divisions between monarchists and republicans" },
-        { "id": "C", "text": "divisions over EU membership" },
-        { "id": "D", "text": "divisions between Sunni and Shia Muslims only" }
+        {
+          "id": "A",
+          "text": "divisions over EU membership"
+        },
+        {
+          "id": "B",
+          "text": "divisions between monarchists and republicans"
+        },
+        {
+          "id": "C",
+          "text": "ethnic and religious divisions, especially between the mostly Muslim north and mostly Christian south"
+        },
+        {
+          "id": "D",
+          "text": "divisions between Sunni and Shia Muslims only"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Ethnic and religious identities shape Nigerian politics.",
       "distractors": {}
     },
     {
-      "id": "u3-q03", "tier": "Intro", "type": "mcq", "topic": "Political Socialization",
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Political Socialization",
       "stem": "China's 'Great Firewall' is best described as a tool of",
       "choices": [
-        { "id": "A", "text": "controlling political socialization by restricting access to foreign websites and information" },
-        { "id": "B", "text": "promoting free speech" },
-        { "id": "C", "text": "federalism" },
-        { "id": "D", "text": "judicial review" }
+        {
+          "id": "A",
+          "text": "promoting free speech"
+        },
+        {
+          "id": "B",
+          "text": "controlling political socialization by restricting access to foreign websites and information"
+        },
+        {
+          "id": "C",
+          "text": "federalism"
+        },
+        {
+          "id": "D",
+          "text": "judicial review"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Censorship limits exposure to ideas that challenge the party.",
       "distractors": {}
     },
     {
-      "id": "u3-q04", "tier": "Intro", "type": "mcq", "topic": "Protest",
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Protest",
       "stem": "The 1994 Zapatista uprising in Chiapas, Mexico, centered on",
       "choices": [
-        { "id": "A", "text": "Indigenous rights and opposition to economic policies such as NAFTA" },
-        { "id": "B", "text": "Scottish independence" },
-        { "id": "C", "text": "the disputed 2009 Iranian election" },
-        { "id": "D", "text": "police brutality in Lagos" }
+        {
+          "id": "A",
+          "text": "police brutality in Lagos"
+        },
+        {
+          "id": "B",
+          "text": "Scottish independence"
+        },
+        {
+          "id": "C",
+          "text": "the disputed 2009 Iranian election"
+        },
+        {
+          "id": "D",
+          "text": "Indigenous rights and opposition to economic policies such as NAFTA"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The EZLN launched its revolt as NAFTA took effect.",
       "distractors": {}
     },
     {
-      "id": "u3-q05", "tier": "Exam level", "type": "mcq", "topic": "Civil Society",
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Civil Society",
       "stem": "Russia's 'foreign agent' laws most directly affect",
       "choices": [
-        { "id": "A", "text": "NGOs and media that receive foreign funding, burdening and stigmatizing independent civil society" },
-        { "id": "B", "text": "the selection of regional governors" },
-        { "id": "C", "text": "the Federation Council's composition" },
-        { "id": "D", "text": "Russia's federal budget" }
+        {
+          "id": "A",
+          "text": "the selection of regional governors"
+        },
+        {
+          "id": "B",
+          "text": "NGOs and media that receive foreign funding, burdening and stigmatizing independent civil society"
+        },
+        {
+          "id": "C",
+          "text": "the Federation Council's composition"
+        },
+        {
+          "id": "D",
+          "text": "Russia's federal budget"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Labeling and reporting requirements discourage independent organizations.",
       "distractors": {}
     },
     {
-      "id": "u3-q06", "tier": "Exam level", "type": "mcq", "topic": "Protest",
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Protest",
       "stem": "The 2009 Green Movement in Iran arose in response to",
       "choices": [
-        { "id": "A", "text": "allegations of fraud in the presidential election" },
-        { "id": "B", "text": "the Islamic Revolution of 1979" },
-        { "id": "C", "text": "the Iran–Iraq War" },
-        { "id": "D", "text": "a new oil discovery" }
+        {
+          "id": "A",
+          "text": "allegations of fraud in the presidential election"
+        },
+        {
+          "id": "B",
+          "text": "the Islamic Revolution of 1979"
+        },
+        {
+          "id": "C",
+          "text": "the Iran–Iraq War"
+        },
+        {
+          "id": "D",
+          "text": "a new oil discovery"
+        }
       ],
       "answer": "A",
       "explanation": "Protesters disputed Ahmadinejad's reelection; the regime suppressed them.",
       "distractors": {}
     },
     {
-      "id": "u3-q07", "tier": "Exam level", "type": "mcq", "topic": "Cleavages",
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Cleavages",
       "stem": "Which UK cleavage was most clearly revealed by the 2016 Brexit referendum results?",
       "choices": [
-        { "id": "A", "text": "National and regional differences, with Scotland and Northern Ireland voting to remain while England and Wales voted to leave" },
-        { "id": "B", "text": "A Sunni–Shia divide" },
-        { "id": "C", "text": "Ethnic divisions between Hausa and Igbo" },
-        { "id": "D", "text": "Divisions over the monarchy" }
+        {
+          "id": "A",
+          "text": "Divisions over the monarchy"
+        },
+        {
+          "id": "B",
+          "text": "A Sunni–Shia divide"
+        },
+        {
+          "id": "C",
+          "text": "Ethnic divisions between Hausa and Igbo"
+        },
+        {
+          "id": "D",
+          "text": "National and regional differences, with Scotland and Northern Ireland voting to remain while England and Wales voted to leave"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Results varied sharply by nation, age, and education.",
       "distractors": {}
     },
     {
-      "id": "u3-q08", "tier": "Exam level", "type": "mcq", "topic": "Participation",
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Participation",
       "stem": "Which form of participation is most characteristic of an authoritarian regime?",
       "choices": [
-        { "id": "A", "text": "State-organized rallies and mass organizations controlled by the ruling party" },
-        { "id": "B", "text": "Competitive multiparty elections" },
-        { "id": "C", "text": "Independent labor strikes" },
-        { "id": "D", "text": "Investigative journalism" }
+        {
+          "id": "A",
+          "text": "Independent labor strikes"
+        },
+        {
+          "id": "B",
+          "text": "Competitive multiparty elections"
+        },
+        {
+          "id": "C",
+          "text": "State-organized rallies and mass organizations controlled by the ruling party"
+        },
+        {
+          "id": "D",
+          "text": "Investigative journalism"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Participation is channeled and controlled to demonstrate support.",
       "distractors": {}
     },
     {
-      "id": "u3-q09", "tier": "Exam level", "type": "mcq", "topic": "Civil Liberties",
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Civil Liberties",
       "stem": "Which is an example of a civil liberty rather than a civil right?",
       "choices": [
-        { "id": "A", "text": "Freedom of the press" },
-        { "id": "B", "text": "Equal access to employment regardless of ethnicity" },
-        { "id": "C", "text": "Laws against gender discrimination in pay" },
-        { "id": "D", "text": "Equal treatment in voting registration" }
+        {
+          "id": "A",
+          "text": "Equal access to employment regardless of ethnicity"
+        },
+        {
+          "id": "B",
+          "text": "Freedom of the press"
+        },
+        {
+          "id": "C",
+          "text": "Laws against gender discrimination in pay"
+        },
+        {
+          "id": "D",
+          "text": "Equal treatment in voting registration"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Liberties protect freedoms from government interference.",
       "distractors": {}
     },
     {
-      "id": "u3-q10", "tier": "Exam level", "type": "mcq", "topic": "Protest",
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Protest",
       "stem": "Nigeria's #EndSARS protests in 2020 targeted",
       "choices": [
-        { "id": "A", "text": "abuses by a police unit and broader concerns about police brutality and governance" },
-        { "id": "B", "text": "the Guardian Council" },
-        { "id": "C", "text": "Brexit" },
-        { "id": "D", "text": "China's hukou system" }
+        {
+          "id": "A",
+          "text": "Brexit"
+        },
+        {
+          "id": "B",
+          "text": "the Guardian Council"
+        },
+        {
+          "id": "C",
+          "text": "abuses by a police unit and broader concerns about police brutality and governance"
+        },
+        {
+          "id": "D",
+          "text": "China's hukou system"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Youth-led protests demanded disbanding the Special Anti-Robbery Squad.",
       "distractors": {}
     },
     {
-      "id": "u3-q11", "tier": "Hardest", "type": "mcq", "topic": "Cleavages",
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Cleavages",
       "stem": "Political scientists argue that coinciding cleavages are more dangerous than cross-cutting cleavages because",
       "choices": [
-        { "id": "A", "text": "when ethnic, religious, and regional divisions align, groups have fewer shared identities, which intensifies conflict" },
-        { "id": "B", "text": "cross-cutting cleavages always produce civil war" },
-        { "id": "C", "text": "coinciding cleavages create more political parties that cooperate" },
-        { "id": "D", "text": "cleavages have no effect on stability" }
+        {
+          "id": "A",
+          "text": "cleavages have no effect on stability"
+        },
+        {
+          "id": "B",
+          "text": "cross-cutting cleavages always produce civil war"
+        },
+        {
+          "id": "C",
+          "text": "coinciding cleavages create more political parties that cooperate"
+        },
+        {
+          "id": "D",
+          "text": "when ethnic, religious, and regional divisions align, groups have fewer shared identities, which intensifies conflict"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Nigeria's overlapping ethnic, religious, and regional divides illustrate this risk.",
       "distractors": {}
     },
     {
-      "id": "u3-q12", "tier": "Hardest", "type": "mcq", "topic": "Protest",
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Protest",
       "stem": "Which pair best contrasts how two regimes responded to large protests?",
       "choices": [
-        { "id": "A", "text": "China used military force at Tiananmen (1989); UK authorities generally allow peaceful protest, such as large anti–Iraq War marches (2003)." },
-        { "id": "B", "text": "Both China and the UK banned all protests." },
-        { "id": "C", "text": "Iran's 2009 protests led to a new constitution." },
-        { "id": "D", "text": "Russia's 2011–2012 protests produced a parliamentary system." }
+        {
+          "id": "A",
+          "text": "China used military force at Tiananmen (1989); UK authorities generally allow peaceful protest, such as large anti–Iraq War marches (2003)."
+        },
+        {
+          "id": "B",
+          "text": "Both China and the UK banned all protests."
+        },
+        {
+          "id": "C",
+          "text": "Iran's 2009 protests led to a new constitution."
+        },
+        {
+          "id": "D",
+          "text": "Russia's 2011–2012 protests produced a parliamentary system."
+        }
       ],
       "answer": "A",
       "explanation": "Responses reflect regime type and protections for assembly.",
       "distractors": {}
     },
     {
-      "id": "u3-q13", "tier": "Hardest", "type": "mcq", "topic": "Political Culture",
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Political Culture",
       "stem": "A survey shows that trust in national government in Country X fell sharply after a corruption scandal, while participation in protests rose. Which conclusion is best supported?",
       "choices": [
-        { "id": "A", "text": "Declining legitimacy was associated with greater use of nonelectoral participation." },
-        { "id": "B", "text": "The scandal increased the government's legitimacy." },
-        { "id": "C", "text": "Protests caused the corruption." },
-        { "id": "D", "text": "Trust and protest are unrelated." }
+        {
+          "id": "A",
+          "text": "Declining legitimacy was associated with greater use of nonelectoral participation."
+        },
+        {
+          "id": "B",
+          "text": "The scandal increased the government's legitimacy."
+        },
+        {
+          "id": "C",
+          "text": "Protests caused the corruption."
+        },
+        {
+          "id": "D",
+          "text": "Trust and protest are unrelated."
+        }
       ],
       "answer": "A",
       "explanation": "The data show a correlation, not causation in either direction.",
-      "distractors": { "C": "Reverses the timeline." }
+      "distractors": {
+        "C": "Reverses the timeline."
+      }
     },
     {
-      "id": "u3-q14", "tier": "Hardest", "type": "mcq", "topic": "Civil Society",
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Civil Society",
       "stem": "The Chinese Communist Party's approach to civil society is best described as",
       "choices": [
-        { "id": "A", "text": "allowing some nonpolitical groups to operate under state supervision while repressing independent organizations that could challenge the party" },
-        { "id": "B", "text": "encouraging independent opposition parties" },
-        { "id": "C", "text": "banning all non-state organizations without exception" },
-        { "id": "D", "text": "transferring social services entirely to NGOs" }
+        {
+          "id": "A",
+          "text": "banning all non-state organizations without exception"
+        },
+        {
+          "id": "B",
+          "text": "encouraging independent opposition parties"
+        },
+        {
+          "id": "C",
+          "text": "allowing some nonpolitical groups to operate under state supervision while repressing independent organizations that could challenge the party"
+        },
+        {
+          "id": "D",
+          "text": "transferring social services entirely to NGOs"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Co-optation plus repression is the pattern.",
       "distractors": {}
     },
     {
-      "id": "u3-frq1", "tier": "Exam level", "type": "frq", "topic": "Civil Society", "frqType": "Q1 Conceptual Analysis",
+      "id": "u3-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Civil Society",
+      "frqType": "Q1 Conceptual Analysis",
       "prompt": "Answer A, B, C, and D.",
       "parts": [
-        { "label": "A", "prompt": "Define civil society.", "points": 1 },
-        { "label": "B", "prompt": "Explain how a strong civil society can strengthen democracy.", "points": 1 },
-        { "label": "C", "prompt": "Explain why an authoritarian regime might restrict civil society organizations.", "points": 1 },
-        { "label": "D", "prompt": "Explain how restricting civil society could weaken an authoritarian regime's legitimacy over time.", "points": 1 }
+        {
+          "label": "A",
+          "prompt": "Define civil society.",
+          "points": 1
+        },
+        {
+          "label": "B",
+          "prompt": "Explain how a strong civil society can strengthen democracy.",
+          "points": 1
+        },
+        {
+          "label": "C",
+          "prompt": "Explain why an authoritarian regime might restrict civil society organizations.",
+          "points": 1
+        },
+        {
+          "label": "D",
+          "prompt": "Explain how restricting civil society could weaken an authoritarian regime's legitimacy over time.",
+          "points": 1
+        }
       ],
       "points": 4,
       "minutes": 20,
       "rubric": [
-        { "criterion": "A", "points": 1, "description": "Voluntary organizations and associations independent of the state through which citizens pursue shared interests." },
-        { "criterion": "B", "points": 1, "description": "E.g., holds government accountable, aggregates interests, educates citizens, provides channels for participation, checks abuses." },
-        { "criterion": "C", "points": 1, "description": "E.g., independent groups can organize opposition, mobilize protest, spread information the regime can't control." },
-        { "criterion": "D", "points": 1, "description": "E.g., without channels for feedback, grievances build, leading to unrest; perceptions of repression erode consent; leaders lose information about public needs." }
+        {
+          "criterion": "A",
+          "points": 1,
+          "description": "Voluntary organizations and associations independent of the state through which citizens pursue shared interests."
+        },
+        {
+          "criterion": "B",
+          "points": 1,
+          "description": "E.g., holds government accountable, aggregates interests, educates citizens, provides channels for participation, checks abuses."
+        },
+        {
+          "criterion": "C",
+          "points": 1,
+          "description": "E.g., independent groups can organize opposition, mobilize protest, spread information the regime can't control."
+        },
+        {
+          "criterion": "D",
+          "points": 1,
+          "description": "E.g., without channels for feedback, grievances build, leading to unrest; perceptions of repression erode consent; leaders lose information about public needs."
+        }
       ],
       "sampleResponse": "A. Civil society is the network of voluntary groups and organizations, such as charities, unions, religious groups, and advocacy organizations, that operate independently of the government.\n\nB. A strong civil society strengthens democracy by giving citizens organized ways to express their interests and hold officials accountable; for example, watchdog groups can expose corruption and pressure leaders to respond.\n\nC. An authoritarian regime may restrict civil society because independent organizations can coordinate opposition, spread information outside state control, and mobilize protests that threaten the ruling group's hold on power.\n\nD. Restricting civil society removes channels through which citizens can voice grievances peacefully and through which leaders learn about public problems. As frustrations accumulate without outlets, citizens may come to see the regime as illegitimate and turn to protest or unrest."
     }

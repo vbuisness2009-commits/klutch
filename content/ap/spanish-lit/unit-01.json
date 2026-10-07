@@ -99,7 +99,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Asonante en los versos pares (á-o)"
+          "text": "Asonante en los versos impares"
         },
         {
           "id": "B",
@@ -111,10 +111,10 @@
         },
         {
           "id": "D",
-          "text": "Asonante en los versos impares"
+          "text": "Asonante en los versos pares (á-o)"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "cansado, ensangrentado, apurado... share á-o in even lines.",
       "distractors": {}
     },
@@ -159,11 +159,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "El diálogo"
+          "text": "La descripción de la naturaleza"
         },
         {
           "id": "B",
-          "text": "La descripción de la naturaleza"
+          "text": "El diálogo"
         },
         {
           "id": "C",
@@ -174,7 +174,7 @@
           "text": "La narración en primera persona del poeta"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "A question and the alcaide's reply.",
       "distractors": {}
     },
@@ -189,7 +189,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "in medias res"
+          "text": "anáfora"
         },
         {
           "id": "B",
@@ -197,14 +197,14 @@
         },
         {
           "id": "C",
-          "text": "anáfora"
+          "text": "in medias res"
         },
         {
           "id": "D",
           "text": "marco narrativo"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Typical of romances.",
       "distractors": {}
     },
@@ -249,7 +249,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "presentan el lamento por la pérdida de una ciudad o fortaleza"
+          "text": "son cantares de gesta extensos"
         },
         {
           "id": "B",
@@ -261,10 +261,10 @@
         },
         {
           "id": "D",
-          "text": "son cantares de gesta extensos"
+          "text": "presentan el lamento por la pérdida de una ciudad o fortaleza"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Both lament a lost stronghold.",
       "distractors": {}
     },
@@ -278,7 +278,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "son de las primeras muestras de lírica en una lengua romance"
+          "text": "narran las hazañas del Cid"
         },
         {
           "id": "B",
@@ -286,14 +286,14 @@
         },
         {
           "id": "C",
-          "text": "narran las hazañas del Cid"
+          "text": "son de las primeras muestras de lírica en una lengua romance"
         },
         {
           "id": "D",
           "text": "son sonetos del Renacimiento"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Early Romance lyric attached to Arabic/Hebrew poems.",
       "distractors": {}
     },
@@ -307,11 +307,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "el rey Alfonso VI lo ha desterrado"
+          "text": "quiere conquistar América"
         },
         {
           "id": "B",
-          "text": "quiere conquistar América"
+          "text": "el rey Alfonso VI lo ha desterrado"
         },
         {
           "id": "C",
@@ -322,7 +322,7 @@
           "text": "busca a sus hijas secuestradas"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The poem opens with his unjust exile.",
       "distractors": {}
     },
@@ -336,11 +336,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "la astucia del Cid para obtener dinero en una situación difícil"
+          "text": "la conversión religiosa del Cid"
         },
         {
           "id": "B",
-          "text": "la conversión religiosa del Cid"
+          "text": "la astucia del Cid para obtener dinero en una situación difícil"
         },
         {
           "id": "C",
@@ -351,7 +351,7 @@
           "text": "el amor del Cid por una mujer mora"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "He tricks the moneylenders with chests of sand.",
       "distractors": {}
     },
@@ -394,7 +394,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "El conde pide consejo, Patronio cuenta un ejemplo y se cierra con una moraleja"
+          "text": "Un diálogo teatral en tres actos"
         },
         {
           "id": "B",
@@ -406,10 +406,10 @@
         },
         {
           "id": "D",
-          "text": "Un diálogo teatral en tres actos"
+          "text": "El conde pide consejo, Patronio cuenta un ejemplo y se cierra con una moraleja"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Frame tale with exemplum and moral.",
       "distractors": {}
     },
@@ -423,7 +423,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "la construcción de los roles de género y el control dentro del matrimonio"
+          "text": "la crítica a la Iglesia"
         },
         {
           "id": "B",
@@ -431,14 +431,14 @@
         },
         {
           "id": "C",
-          "text": "la crítica a la Iglesia"
+          "text": "la construcción de los roles de género y el control dentro del matrimonio"
         },
         {
           "id": "D",
           "text": "el realismo mágico"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The tale models male dominance in marriage.",
       "distractors": {}
     },
@@ -452,11 +452,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "enseñar valores morales a la vez que entretenía"
+          "text": "criticar a la monarquía"
         },
         {
           "id": "B",
-          "text": "criticar a la monarquía"
+          "text": "enseñar valores morales a la vez que entretenía"
         },
         {
           "id": "C",
@@ -467,7 +467,7 @@
           "text": "describir la vida en las ciudades modernas"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Enseñar deleitando.",
       "distractors": {}
     },
@@ -481,7 +481,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Que los poemas se transmitían oralmente y las fórmulas ayudaban a recordarlos y recitarlos"
+          "text": "Que los poemas se escribían para leer en silencio"
         },
         {
           "id": "B",
@@ -489,14 +489,14 @@
         },
         {
           "id": "C",
-          "text": "Que los poemas se escribían para leer en silencio"
+          "text": "Que los poemas se transmitían oralmente y las fórmulas ayudaban a recordarlos y recitarlos"
         },
         {
           "id": "D",
           "text": "Que la imprenta ya existía en el siglo XII"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Oral transmission explains formulaic style.",
       "distractors": {}
     },

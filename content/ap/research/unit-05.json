@@ -99,7 +99,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Method"
+          "text": "Abstract only"
         },
         {
           "id": "B",
@@ -107,14 +107,14 @@
         },
         {
           "id": "C",
-          "text": "Abstract only"
+          "text": "Method"
         },
         {
           "id": "D",
           "text": "Reference list"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The method section describes and justifies the design.",
       "distractors": {}
     },
@@ -127,7 +127,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "These results suggest that students who use planners may experience less stress."
+          "text": "Planners are obviously the best."
         },
         {
           "id": "B",
@@ -139,10 +139,10 @@
         },
         {
           "id": "D",
-          "text": "Planners are obviously the best."
+          "text": "These results suggest that students who use planners may experience less stress."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Hedged and evidence-appropriate.",
       "distractors": {}
     },
@@ -185,11 +185,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "mixes interpretation (and unsupported speculation) into the results"
+          "text": "reports data"
         },
         {
           "id": "B",
-          "text": "reports data"
+          "text": "mixes interpretation (and unsupported speculation) into the results"
         },
         {
           "id": "C",
@@ -200,7 +200,7 @@
           "text": "is too short"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Results report findings; interpretation belongs in the discussion, with evidence.",
       "distractors": {}
     },
@@ -243,7 +243,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "At this school, students' perceptions of the phone-free policy appear to depend on context: interviewees valued it during class but resented it during lunch."
+          "text": "Surveys work better than interviews."
         },
         {
           "id": "B",
@@ -255,10 +255,10 @@
         },
         {
           "id": "D",
-          "text": "Surveys work better than interviews."
+          "text": "At this school, students' perceptions of the phone-free policy appear to depend on context: interviewees valued it during class but resented it during lunch."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Specific, qualified, and grounded in the data.",
       "distractors": {}
     },

@@ -122,7 +122,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "To pay debts from the Seven Years' War and the cost of defending its expanded empire"
+          "text": "To repay loans from the Continental Congress"
         },
         {
           "id": "B",
@@ -134,10 +134,10 @@
         },
         {
           "id": "D",
-          "text": "To repay loans from the Continental Congress"
+          "text": "To pay debts from the Seven Years' War and the cost of defending its expanded empire"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The war doubled Britain's debt, and keeping troops in North America was expensive.",
       "distractors": {
         "C": "Colonists fought for Britain in the war."
@@ -182,7 +182,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "adding a bill of rights to the Constitution"
+          "text": "ratifying the Constitution without changes"
         },
         {
           "id": "B",
@@ -190,17 +190,17 @@
         },
         {
           "id": "C",
-          "text": "ratifying the Constitution without changes"
+          "text": "adding a bill of rights to the Constitution"
         },
         {
           "id": "D",
           "text": "a powerful executive"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Fearing centralized power, Anti-Federalists demanded explicit protections for individual liberties.",
       "distractors": {
-        "C": "That was the Federalist position."
+        "A": "That was the Federalist position."
       }
     },
     {
@@ -212,11 +212,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "persuaded many colonists to support independence and republican government"
+          "text": "argued for reconciliation with Britain"
         },
         {
           "id": "B",
-          "text": "argued for reconciliation with Britain"
+          "text": "persuaded many colonists to support independence and republican government"
         },
         {
           "id": "C",
@@ -227,10 +227,10 @@
           "text": "called for the abolition of slavery in the South"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Written in plain language, it attacked monarchy and sold widely, shifting opinion toward independence.",
       "distractors": {
-        "B": "Paine argued the opposite."
+        "A": "Paine argued the opposite."
       }
     },
     {
@@ -274,7 +274,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Taxation without representation violated the rights of English subjects."
+          "text": "Colonists should be given seats in Parliament."
         },
         {
           "id": "B",
@@ -286,10 +286,10 @@
         },
         {
           "id": "D",
-          "text": "Colonists should be given seats in Parliament."
+          "text": "Taxation without representation violated the rights of English subjects."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The Stamp Act Congress grounded its protest in English constitutional rights.",
       "distractors": {
         "B": "Independence wasn't widely sought until 1775–1776.",
@@ -306,7 +306,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "They convinced many leaders that a stronger national government was needed."
+          "text": "They caused Congress to cancel all farm debts."
         },
         {
           "id": "B",
@@ -314,14 +314,14 @@
         },
         {
           "id": "C",
-          "text": "They caused Congress to cancel all farm debts."
+          "text": "They convinced many leaders that a stronger national government was needed."
         },
         {
           "id": "D",
           "text": "They led directly to the Bill of Rights."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The national government couldn't respond, which helped push leaders toward the Constitutional Convention.",
       "distractors": {
         "D": "The Bill of Rights came from Anti-Federalist demands during ratification."
@@ -336,11 +336,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "large and small states over representation in Congress"
+          "text": "Northern and Southern states over counting enslaved people"
         },
         {
           "id": "B",
-          "text": "Northern and Southern states over counting enslaved people"
+          "text": "large and small states over representation in Congress"
         },
         {
           "id": "C",
@@ -351,10 +351,10 @@
           "text": "farmers and merchants over tariffs"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "It created a House based on population and a Senate with two members per state.",
       "distractors": {
-        "B": "That's the Three-Fifths Compromise."
+        "A": "That's the Three-Fifths Compromise."
       }
     },
     {
@@ -396,7 +396,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "established a process for admitting new states and prohibited slavery in the territory"
+          "text": "allowed slavery throughout the West"
         },
         {
           "id": "B",
@@ -408,10 +408,10 @@
         },
         {
           "id": "D",
-          "text": "allowed slavery throughout the West"
+          "text": "established a process for admitting new states and prohibited slavery in the territory"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "New states would join as equals, and slavery was banned north of the Ohio River.",
       "distractors": {
         "C": "Despite promises of good faith, settlement steadily took Native land."
@@ -426,11 +426,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "It increased Southern states' power in the House of Representatives and the Electoral College."
+          "text": "It gave enslaved people partial voting rights."
         },
         {
           "id": "B",
-          "text": "It gave enslaved people partial voting rights."
+          "text": "It increased Southern states' power in the House of Representatives and the Electoral College."
         },
         {
           "id": "C",
@@ -441,11 +441,11 @@
           "text": "It ended the transatlantic slave trade."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Counting three-fifths of the enslaved population inflated Southern seats and electoral votes, helping slaveholding presidents and policies.",
       "distractors": {
-        "B": "Enslaved people had no political rights.",
-        "D": "The Constitution only barred a ban before 1808."
+        "D": "The Constitution only barred a ban before 1808.",
+        "A": "Enslaved people had no political rights."
       }
     },
     {
@@ -457,7 +457,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "an expansion of women's civic importance that kept them within the household rather than granting political rights"
+          "text": "a rejection of the Revolution's republican ideals"
         },
         {
           "id": "B",
@@ -465,14 +465,14 @@
         },
         {
           "id": "C",
-          "text": "a rejection of the Revolution's republican ideals"
+          "text": "an expansion of women's civic importance that kept them within the household rather than granting political rights"
         },
         {
           "id": "D",
           "text": "a policy encouraging women to serve in the army"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "It valued women's role in raising virtuous citizens and supported better education for women, but it didn't challenge their exclusion from politics.",
       "distractors": {
         "B": "Only New Jersey briefly let some women vote."
@@ -488,7 +488,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "bitter divisions over Hamilton's policies and over whether to favor Britain or France"
+          "text": "secession threats from Southern states over slavery"
         },
         {
           "id": "B",
@@ -500,10 +500,10 @@
         },
         {
           "id": "D",
-          "text": "secession threats from Southern states over slavery"
+          "text": "bitter divisions over Hamilton's policies and over whether to favor Britain or France"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Federalists and Democratic-Republicans had split over finance and the French Revolution, and the Jay Treaty had inflamed both.",
       "distractors": {
         "B": "That war began in 1812.",
@@ -519,11 +519,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "articulated a states' rights theory that states could judge federal laws unconstitutional"
+          "text": "established judicial review by the Supreme Court"
         },
         {
           "id": "B",
-          "text": "established judicial review by the Supreme Court"
+          "text": "articulated a states' rights theory that states could judge federal laws unconstitutional"
         },
         {
           "id": "C",
@@ -534,11 +534,11 @@
           "text": "ended the Quasi-War with France"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Responding to the Alien and Sedition Acts, Jefferson and Madison argued states could resist unconstitutional federal laws; the idea resurfaced in the nullification crisis and secession.",
       "distractors": {
-        "B": "Marbury v. Madison (1803) did that.",
-        "C": "They opposed those acts."
+        "C": "They opposed those acts.",
+        "A": "Marbury v. Madison (1803) did that."
       }
     },
     {

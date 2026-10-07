@@ -104,18 +104,18 @@
         },
         {
           "id": "B",
-          "text": "3.1 × 10⁻⁵ T"
+          "text": "6.3 × 10⁻⁵ T"
         },
         {
           "id": "C",
-          "text": "6.3 × 10⁻⁵ T"
+          "text": "3.1 × 10⁻⁵ T"
         },
         {
           "id": "D",
           "text": "1.0 × 10⁻⁴ T"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "B = μ₀I/(2R) = (4π × 10⁻⁷)(5)/0.20 ≈ 3.1 × 10⁻⁵ T.",
       "distractors": {
         "A": "Long straight wire formula."
@@ -130,7 +130,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "2.5 × 10⁻³ T"
+          "text": "4.0 × 10⁻⁴ T"
         },
         {
           "id": "B",
@@ -142,10 +142,10 @@
         },
         {
           "id": "D",
-          "text": "4.0 × 10⁻⁴ T"
+          "text": "2.5 × 10⁻³ T"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "B = μ₀nI = (4π × 10⁻⁷)(1,000)(2.0) ≈ 2.5 × 10⁻³ T.",
       "distractors": {}
     },
@@ -166,14 +166,14 @@
         },
         {
           "id": "C",
-          "text": "is unchanged"
+          "text": "quadruples"
         },
         {
           "id": "D",
-          "text": "quadruples"
+          "text": "is unchanged"
         }
       ],
-      "answer": "C",
+      "answer": "D",
       "explanation": "T = 2πm/(qB); radius doubles but so does speed.",
       "distractors": {}
     },
@@ -186,11 +186,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "4.0 × 10⁻⁴ N/m, attractive"
+          "text": "4.0 × 10⁻⁴ N/m, repulsive"
         },
         {
           "id": "B",
-          "text": "4.0 × 10⁻⁴ N/m, repulsive"
+          "text": "4.0 × 10⁻⁴ N/m, attractive"
         },
         {
           "id": "C",
@@ -201,7 +201,7 @@
           "text": "8.0 × 10⁻³ N/m, attractive"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "F/ℓ = μ₀I₁I₂/(2πd) = (2 × 10⁻⁷)(100)/0.050 = 4.0 × 10⁻⁴ N/m; same-direction currents attract.",
       "distractors": {}
     },
@@ -214,7 +214,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "μ₀I/(4πR)"
+          "text": "μ₀I/(2πR)"
         },
         {
           "id": "B",
@@ -222,14 +222,14 @@
         },
         {
           "id": "C",
-          "text": "μ₀I/(2πR)"
+          "text": "μ₀I/(4πR)"
         },
         {
           "id": "D",
           "text": "0"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "B = μ₀Ir/(2πR²) = μ₀I(R/2)/(2πR²) = μ₀I/(4πR).",
       "distractors": {
         "B": "Uses total current at r = R/2."
@@ -340,14 +340,14 @@
         },
         {
           "id": "C",
-          "text": "0"
+          "text": "μ₀nI"
         },
         {
           "id": "D",
-          "text": "μ₀nI"
+          "text": "0"
         }
       ],
-      "answer": "C",
+      "answer": "D",
       "explanation": "An Amperian loop outside encloses zero net current.",
       "distractors": {}
     },
@@ -360,7 +360,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Its magnetic moment is parallel to B."
+          "text": "Its plane is parallel to B."
         },
         {
           "id": "B",
@@ -368,14 +368,14 @@
         },
         {
           "id": "C",
-          "text": "Its plane is parallel to B."
+          "text": "Its magnetic moment is parallel to B."
         },
         {
           "id": "D",
           "text": "Any orientation."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "U = −μ·B is minimum when μ ∥ B.",
       "distractors": {
         "B": "Unstable equilibrium (maximum U)."
@@ -418,11 +418,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "μ₀I(r² − a²)/[2πr(b² − a²)]"
+          "text": "μ₀I/(2πr)"
         },
         {
           "id": "B",
-          "text": "μ₀I/(2πr)"
+          "text": "μ₀I(r² − a²)/[2πr(b² − a²)]"
         },
         {
           "id": "C",
@@ -433,10 +433,10 @@
           "text": "0"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "I_enc = I(r² − a²)/(b² − a²); B(2πr) = μ₀I_enc.",
       "distractors": {
-        "B": "Field outside (r > b)."
+        "A": "Field outside (r > b)."
       }
     },
     {
@@ -448,7 +448,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "2IRB"
+          "text": "IRB"
         },
         {
           "id": "B",
@@ -456,14 +456,14 @@
         },
         {
           "id": "C",
-          "text": "IRB"
+          "text": "2IRB"
         },
         {
           "id": "D",
           "text": "0"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "In a uniform field, the net force on any wire equals that on a straight wire joining its ends (length 2R).",
       "distractors": {
         "B": "Uses arc length without vector cancellation."

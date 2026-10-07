@@ -104,11 +104,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "6"
+          "text": "6.8"
         },
         {
           "id": "B",
-          "text": "6.8"
+          "text": "6"
         },
         {
           "id": "C",
@@ -119,11 +119,11 @@
           "text": "7"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "17 / 5 is 3 (integer division), then 3 * 2 = 6.",
       "distractors": {
-        "B": "Uses decimal division.",
-        "C": "Evaluates 5 * 2 first."
+        "C": "Evaluates 5 * 2 first.",
+        "A": "Uses decimal division."
       }
     },
     {
@@ -139,18 +139,18 @@
         },
         {
           "id": "B",
-          "text": "3.0"
+          "text": "3"
         },
         {
           "id": "C",
-          "text": "3"
+          "text": "3.0"
         },
         {
           "id": "D",
           "text": "4.0"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "7 / 2 is evaluated first as integer division (3), then cast to 3.0.",
       "distractors": {
         "A": "Would require (double) 7 / 2."
@@ -165,7 +165,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "\"put\""
+          "text": "\"pu\""
         },
         {
           "id": "B",
@@ -177,10 +177,10 @@
         },
         {
           "id": "D",
-          "text": "\"pu\""
+          "text": "\"put\""
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Indices 3, 4, 5 are 'p', 'u', 't'; index 6 is excluded.",
       "distractors": {
         "B": "Includes the end index."
@@ -223,11 +223,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "(int) (Math.random() * 8) + 5"
+          "text": "(int) (Math.random() * 12) + 5"
         },
         {
           "id": "B",
-          "text": "(int) (Math.random() * 12) + 5"
+          "text": "(int) (Math.random() * 8) + 5"
         },
         {
           "id": "C",
@@ -238,7 +238,7 @@
           "text": "(int) Math.random() * 8 + 5"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "There are 12 − 5 + 1 = 8 possible values; Math.random() * 8 gives [0, 8), cast gives 0–7, +5 gives 5–12.",
       "distractors": {
         "C": "Range 5–11.",
@@ -254,7 +254,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "0"
+          "text": "−1"
         },
         {
           "id": "B",
@@ -266,10 +266,10 @@
         },
         {
           "id": "D",
-          "text": "−1"
+          "text": "0"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "indexOf(\"an\") is 1; indexOf(\"x\") is −1; 1 + (−1) = 0.",
       "distractors": {
         "B": "Ignores the −1."
@@ -288,18 +288,18 @@
         },
         {
           "id": "B",
-          "text": "3A12"
+          "text": "12A12"
         },
         {
           "id": "C",
-          "text": "12A12"
+          "text": "3A12"
         },
         {
           "id": "D",
           "text": "6A"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Left to right: 1 + 2 = 3 (int), then \"3A\", then \"3A1\", then \"3A12\".",
       "distractors": {
         "A": "Adds 1 + 2 after the String."
@@ -435,7 +435,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "true"
+          "text": "The code doesn't compile."
         },
         {
           "id": "B",
@@ -447,10 +447,10 @@
         },
         {
           "id": "D",
-          "text": "The code doesn't compile."
+          "text": "true"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "int overflow wraps around to the minimum value.",
       "distractors": {
         "C": "Java doesn't throw on int overflow."
@@ -465,7 +465,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "10"
+          "text": "2026"
         },
         {
           "id": "B",
@@ -473,14 +473,14 @@
         },
         {
           "id": "C",
-          "text": "2026"
+          "text": "10"
         },
         {
           "id": "D",
           "text": "06"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "rest is \"10-06\"; its first \"-\" is at index 2, so substring(0, 2) is \"10\".",
       "distractors": {
         "B": "Includes the end index."

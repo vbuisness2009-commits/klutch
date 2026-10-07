@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Dalle proteste contro l'apertura di un fast food a Roma"
+          "text": "Da una catena di supermercati"
         },
         {
           "id": "B",
@@ -110,10 +110,10 @@
         },
         {
           "id": "D",
-          "text": "Da una catena di supermercati"
+          "text": "Dalle proteste contro l'apertura di un fast food a Roma"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -158,7 +158,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Molti mangiano un panino davanti al computer e il pranzo in famiglia è più raro"
+          "text": "Nessuno mangia più il panino"
         },
         {
           "id": "B",
@@ -166,14 +166,14 @@
         },
         {
           "id": "C",
-          "text": "Nessuno mangia più il panino"
+          "text": "Molti mangiano un panino davanti al computer e il pranzo in famiglia è più raro"
         },
         {
           "id": "D",
           "text": "I ristoranti sono chiusi"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Paragraph 2.",
       "distractors": {}
     },
@@ -188,11 +188,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Di difendere l'abitudine di sedersi a tavola insieme senza telefono"
+          "text": "Di tornare ai pranzi di tre ore"
         },
         {
           "id": "B",
-          "text": "Di tornare ai pranzi di tre ore"
+          "text": "Di difendere l'abitudine di sedersi a tavola insieme senza telefono"
         },
         {
           "id": "C",
@@ -203,7 +203,7 @@
           "text": "Di vietare i telefoni per legge"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "After the concession.",
       "distractors": {}
     },
@@ -218,7 +218,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "In Italia le offrivano solo stage poco pagati"
+          "text": "La sua famiglia vive lì"
         },
         {
           "id": "B",
@@ -226,14 +226,14 @@
         },
         {
           "id": "C",
-          "text": "La sua famiglia vive lì"
+          "text": "In Italia le offrivano solo stage poco pagati"
         },
         {
           "id": "D",
           "text": "Non aveva una laurea"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -248,11 +248,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Un contratto a tempo indeterminato in due mesi"
+          "text": "Uno stage non pagato"
         },
         {
           "id": "B",
-          "text": "Uno stage non pagato"
+          "text": "Un contratto a tempo indeterminato in due mesi"
         },
         {
           "id": "C",
@@ -263,7 +263,7 @@
           "text": "Un lavoro part-time"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -278,7 +278,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Le dispiace per l'Italia, ma non si sente una vittima"
+          "text": "Non conosce l'espressione"
         },
         {
           "id": "B",
@@ -290,10 +290,10 @@
         },
         {
           "id": "D",
-          "text": "Non conosce l'espressione"
+          "text": "Le dispiace per l'Italia, ma non si sente una vittima"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Mixed.",
       "distractors": {}
     },
@@ -368,7 +368,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Vitto e alloggio"
+          "text": "Un corso di inglese"
         },
         {
           "id": "B",
@@ -376,14 +376,14 @@
         },
         {
           "id": "C",
-          "text": "Un corso di inglese"
+          "text": "Vitto e alloggio"
         },
         {
           "id": "D",
           "text": "Un biglietto aereo"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -398,7 +398,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "gradita, ma non indispensabile"
+          "text": "irrilevante"
         },
         {
           "id": "B",
@@ -410,10 +410,10 @@
         },
         {
           "id": "D",
-          "text": "irrilevante"
+          "text": "gradita, ma non indispensabile"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -428,11 +428,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "La tua disponibilità per la prossima settimana e le esperienze precedenti"
+          "text": "Il tuo piatto preferito"
         },
         {
           "id": "B",
-          "text": "Il tuo piatto preferito"
+          "text": "La tua disponibilità per la prossima settimana e le esperienze precedenti"
         },
         {
           "id": "C",
@@ -443,7 +443,7 @@
           "text": "Il numero dei tuoi amici"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The two requests.",
       "distractors": {}
     },
@@ -457,7 +457,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "parli"
+          "text": "parlava"
         },
         {
           "id": "B",
@@ -469,10 +469,10 @@
         },
         {
           "id": "D",
-          "text": "parlava"
+          "text": "parli"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Relative clause of requirement + congiuntivo.",
       "distractors": {}
     },
@@ -487,11 +487,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Entrambi mostrano tensioni tra tradizioni italiane e nuove condizioni di vita e di lavoro"
+          "text": "Entrambi lodano il fast food"
         },
         {
           "id": "B",
-          "text": "Entrambi lodano il fast food"
+          "text": "Entrambi mostrano tensioni tra tradizioni italiane e nuove condizioni di vita e di lavoro"
         },
         {
           "id": "C",
@@ -502,7 +502,7 @@
           "text": "Entrambi rifiutano la tecnologia"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Change vs tradition.",
       "distractors": {}
     },

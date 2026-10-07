@@ -49,230 +49,574 @@
     "cramSheet": "**Sources:** point (pipe) · nonpoint (runoff)\n\n**Eutrophication:** N, P → bloom → die-off → decomposers use O₂ → dead zone\n\n**Thermal:** warm water → ↓ DO, ↑ metabolism\n\n**Toxins:** endocrine disruptors · POPs fat-soluble, persistent · bioaccumulation (one organism) · biomagnification (food chain)\n\n**Waste:** reduce > reuse > recycle · landfill liner, leachate, methane\n\n**Sewage:** primary settle · secondary bacteria (↓ BOD) · tertiary N, P · disinfect\n\n**Tox:** LD50 lower = more toxic · threshold · total dose = LD50 × body mass"
   },
   "vocab": [
-    { "term": "Point source", "definition": "Pollution from a single, identifiable location." },
-    { "term": "Nonpoint source", "definition": "Pollution from diffuse sources, such as runoff." },
-    { "term": "Eutrophication", "definition": "Nutrient enrichment of water that leads to algal blooms and oxygen depletion." },
-    { "term": "Hypoxia", "definition": "Very low dissolved oxygen in water." },
-    { "term": "Thermal pollution", "definition": "Release of heated water that harms aquatic organisms." },
-    { "term": "Endocrine disruptor", "definition": "A chemical that interferes with hormone systems." },
-    { "term": "Persistent organic pollutant (POP)", "definition": "A toxic, fat-soluble chemical that resists breakdown and travels long distances." },
-    { "term": "Bioaccumulation", "definition": "Buildup of a substance in an organism over its lifetime." },
-    { "term": "Biomagnification", "definition": "Increase in concentration of a substance at each higher trophic level." },
-    { "term": "Leachate", "definition": "Contaminated liquid that drains from a landfill." },
-    { "term": "Biochemical oxygen demand (BOD)", "definition": "Amount of oxygen needed by microbes to decompose organic matter in water." },
-    { "term": "LD50", "definition": "Dose of a substance lethal to 50% of a test population." }
+    {
+      "term": "Point source",
+      "definition": "Pollution from a single, identifiable location."
+    },
+    {
+      "term": "Nonpoint source",
+      "definition": "Pollution from diffuse sources, such as runoff."
+    },
+    {
+      "term": "Eutrophication",
+      "definition": "Nutrient enrichment of water that leads to algal blooms and oxygen depletion."
+    },
+    {
+      "term": "Hypoxia",
+      "definition": "Very low dissolved oxygen in water."
+    },
+    {
+      "term": "Thermal pollution",
+      "definition": "Release of heated water that harms aquatic organisms."
+    },
+    {
+      "term": "Endocrine disruptor",
+      "definition": "A chemical that interferes with hormone systems."
+    },
+    {
+      "term": "Persistent organic pollutant (POP)",
+      "definition": "A toxic, fat-soluble chemical that resists breakdown and travels long distances."
+    },
+    {
+      "term": "Bioaccumulation",
+      "definition": "Buildup of a substance in an organism over its lifetime."
+    },
+    {
+      "term": "Biomagnification",
+      "definition": "Increase in concentration of a substance at each higher trophic level."
+    },
+    {
+      "term": "Leachate",
+      "definition": "Contaminated liquid that drains from a landfill."
+    },
+    {
+      "term": "Biochemical oxygen demand (BOD)",
+      "definition": "Amount of oxygen needed by microbes to decompose organic matter in water."
+    },
+    {
+      "term": "LD50",
+      "definition": "Dose of a substance lethal to 50% of a test population."
+    }
   ],
   "practice": [
     {
-      "id": "u8-q01", "tier": "Intro", "type": "mcq", "topic": "8.1 Sources of Pollution", "skill": "1. Concept Explanation",
+      "id": "u8-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "8.1 Sources of Pollution",
+      "skill": "1. Concept Explanation",
       "stem": "Which is an example of point-source water pollution?",
       "choices": [
-        { "id": "A", "text": "Fertilizer runoff from many farms in a watershed" },
-        { "id": "B", "text": "Oil washed from city streets during rain" },
-        { "id": "C", "text": "Wastewater discharged from a paper mill's outflow pipe" },
-        { "id": "D", "text": "Sediment from logging roads across a forest" }
+        {
+          "id": "A",
+          "text": "Fertilizer runoff from many farms in a watershed"
+        },
+        {
+          "id": "B",
+          "text": "Wastewater discharged from a paper mill's outflow pipe"
+        },
+        {
+          "id": "C",
+          "text": "Oil washed from city streets during rain"
+        },
+        {
+          "id": "D",
+          "text": "Sediment from logging roads across a forest"
+        }
       ],
-      "answer": "C",
+      "answer": "B",
       "explanation": "A single, identifiable discharge pipe is a point source.",
       "distractors": {}
     },
     {
-      "id": "u8-q02", "tier": "Intro", "type": "mcq", "topic": "8.8 Bioaccumulation and Biomagnification", "skill": "1. Concept Explanation",
+      "id": "u8-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "8.8 Bioaccumulation and Biomagnification",
+      "skill": "1. Concept Explanation",
       "stem": "The increase in concentration of mercury from algae to small fish to large predatory fish is called",
       "choices": [
-        { "id": "A", "text": "bioaccumulation" },
-        { "id": "B", "text": "biomagnification" },
-        { "id": "C", "text": "eutrophication" },
-        { "id": "D", "text": "bioremediation" }
+        {
+          "id": "A",
+          "text": "biomagnification"
+        },
+        {
+          "id": "B",
+          "text": "bioaccumulation"
+        },
+        {
+          "id": "C",
+          "text": "eutrophication"
+        },
+        {
+          "id": "D",
+          "text": "bioremediation"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Biomagnification is the increase across trophic levels.",
-      "distractors": { "A": "Buildup within one organism over time." }
+      "distractors": {
+        "B": "Buildup within one organism over time."
+      }
     },
     {
-      "id": "u8-q03", "tier": "Intro", "type": "mcq", "topic": "8.11 Sewage Treatment", "skill": "1. Concept Explanation",
+      "id": "u8-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "8.11 Sewage Treatment",
+      "skill": "1. Concept Explanation",
       "stem": "Primary treatment of sewage removes",
       "choices": [
-        { "id": "A", "text": "dissolved nitrogen and phosphorus" },
-        { "id": "B", "text": "solids, using screens and settling tanks" },
-        { "id": "C", "text": "dissolved organic matter, using bacteria" },
-        { "id": "D", "text": "pathogens, using ultraviolet light" }
+        {
+          "id": "A",
+          "text": "dissolved nitrogen and phosphorus"
+        },
+        {
+          "id": "B",
+          "text": "solids, using screens and settling tanks"
+        },
+        {
+          "id": "C",
+          "text": "dissolved organic matter, using bacteria"
+        },
+        {
+          "id": "D",
+          "text": "pathogens, using ultraviolet light"
+        }
       ],
       "answer": "B",
       "explanation": "Primary treatment is physical separation.",
-      "distractors": { "C": "Secondary treatment.", "A": "Tertiary treatment." }
+      "distractors": {
+        "C": "Secondary treatment.",
+        "A": "Tertiary treatment."
+      }
     },
     {
-      "id": "u8-q04", "tier": "Intro", "type": "mcq", "topic": "8.12 Lethal Dose 50% (LD50)", "skill": "1. Concept Explanation",
+      "id": "u8-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "8.12 Lethal Dose 50% (LD50)",
+      "skill": "1. Concept Explanation",
       "stem": "Pesticide X has an LD50 of 5 mg/kg; pesticide Y has an LD50 of 500 mg/kg. Which is correct?",
       "choices": [
-        { "id": "A", "text": "X is more toxic than Y." },
-        { "id": "B", "text": "Y is more toxic than X." },
-        { "id": "C", "text": "They are equally toxic." },
-        { "id": "D", "text": "LD50 does not indicate toxicity." }
+        {
+          "id": "A",
+          "text": "X is more toxic than Y."
+        },
+        {
+          "id": "B",
+          "text": "Y is more toxic than X."
+        },
+        {
+          "id": "C",
+          "text": "They are equally toxic."
+        },
+        {
+          "id": "D",
+          "text": "LD50 does not indicate toxicity."
+        }
       ],
       "answer": "A",
       "explanation": "A smaller dose of X kills half the test population.",
       "distractors": {}
     },
     {
-      "id": "u8-q05", "tier": "Exam level", "type": "mcq", "topic": "8.5 Eutrophication", "skill": "1. Concept Explanation",
+      "id": "u8-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "8.5 Eutrophication",
+      "skill": "1. Concept Explanation",
       "stem": "Which sequence correctly describes eutrophication after fertilizer runoff enters a lake?",
       "choices": [
-        { "id": "A", "text": "Algal bloom → algae die → decomposers consume oxygen → fish die" },
-        { "id": "B", "text": "Fish die → algae bloom → oxygen increases → decomposers die" },
-        { "id": "C", "text": "Oxygen increases → algae die → fish multiply" },
-        { "id": "D", "text": "Decomposers die → algae bloom → oxygen increases" }
+        {
+          "id": "A",
+          "text": "Decomposers die → algae bloom → oxygen increases"
+        },
+        {
+          "id": "B",
+          "text": "Fish die → algae bloom → oxygen increases → decomposers die"
+        },
+        {
+          "id": "C",
+          "text": "Oxygen increases → algae die → fish multiply"
+        },
+        {
+          "id": "D",
+          "text": "Algal bloom → algae die → decomposers consume oxygen → fish die"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Nutrients fuel algal growth; decomposition of dead algae depletes dissolved oxygen.",
       "distractors": {}
     },
     {
-      "id": "u8-q06", "tier": "Exam level", "type": "mcq", "topic": "8.13 Dose Response Curve", "skill": "2. Visual Representations",
+      "id": "u8-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "8.13 Dose Response Curve",
+      "skill": "2. Visual Representations",
       "stimulus": "A dose-response curve for a chemical shows no observable effect on test animals at doses below 20 mg/kg; above that dose, the percentage affected rises steadily.",
       "stem": "The dose of 20 mg/kg represents the",
       "choices": [
-        { "id": "A", "text": "LD50" },
-        { "id": "B", "text": "threshold dose" },
-        { "id": "C", "text": "ED50" },
-        { "id": "D", "text": "maximum dose" }
+        {
+          "id": "A",
+          "text": "LD50"
+        },
+        {
+          "id": "B",
+          "text": "ED50"
+        },
+        {
+          "id": "C",
+          "text": "threshold dose"
+        },
+        {
+          "id": "D",
+          "text": "maximum dose"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "The threshold is the highest dose with no observed effect.",
       "distractors": {}
     },
     {
-      "id": "u8-q07", "tier": "Exam level", "type": "mcq", "topic": "8.3 Endocrine Disruptors", "skill": "1. Concept Explanation",
+      "id": "u8-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "8.3 Endocrine Disruptors",
+      "skill": "1. Concept Explanation",
       "stem": "Male frogs in ponds near cornfields treated with the herbicide atrazine have been observed developing female reproductive tissue. This is best explained by atrazine acting as",
       "choices": [
-        { "id": "A", "text": "a carcinogen" },
-        { "id": "B", "text": "an endocrine disruptor that alters hormone levels" },
-        { "id": "C", "text": "a neurotoxin" },
-        { "id": "D", "text": "a pathogen" }
+        {
+          "id": "A",
+          "text": "a carcinogen"
+        },
+        {
+          "id": "B",
+          "text": "an endocrine disruptor that alters hormone levels"
+        },
+        {
+          "id": "C",
+          "text": "a neurotoxin"
+        },
+        {
+          "id": "D",
+          "text": "a pathogen"
+        }
       ],
       "answer": "B",
       "explanation": "Atrazine has been linked to increased estrogen production, disrupting sexual development.",
       "distractors": {}
     },
     {
-      "id": "u8-q08", "tier": "Exam level", "type": "mcq", "topic": "8.8 Bioaccumulation and Biomagnification", "skill": "6. Mathematical Routines",
+      "id": "u8-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "8.8 Bioaccumulation and Biomagnification",
+      "skill": "6. Mathematical Routines",
       "stimulus": "PCB concentrations: zooplankton 0.04 ppm; small fish 0.5 ppm; large fish 2.0 ppm; osprey 25 ppm.",
       "stem": "By what factor is the PCB concentration magnified from zooplankton to ospreys?",
       "choices": [
-        { "id": "A", "text": "62.5" },
-        { "id": "B", "text": "100" },
-        { "id": "C", "text": "625" },
-        { "id": "D", "text": "6,250" }
+        {
+          "id": "A",
+          "text": "62.5"
+        },
+        {
+          "id": "B",
+          "text": "100"
+        },
+        {
+          "id": "C",
+          "text": "625"
+        },
+        {
+          "id": "D",
+          "text": "6,250"
+        }
       ],
       "answer": "C",
       "explanation": "25 ÷ 0.04 = 625.",
       "distractors": {}
     },
     {
-      "id": "u8-q09", "tier": "Exam level", "type": "mcq", "topic": "8.9 Solid Waste Disposal", "skill": "7. Environmental Solutions",
+      "id": "u8-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "8.9 Solid Waste Disposal",
+      "skill": "7. Environmental Solutions",
       "stem": "Which feature of a modern sanitary landfill is designed to protect groundwater?",
       "choices": [
-        { "id": "A", "text": "Methane collection pipes" },
-        { "id": "B", "text": "A clay and plastic liner with a leachate collection system" },
-        { "id": "C", "text": "Daily soil cover" },
-        { "id": "D", "text": "Compaction by bulldozers" }
+        {
+          "id": "A",
+          "text": "Methane collection pipes"
+        },
+        {
+          "id": "B",
+          "text": "Compaction by bulldozers"
+        },
+        {
+          "id": "C",
+          "text": "Daily soil cover"
+        },
+        {
+          "id": "D",
+          "text": "A clay and plastic liner with a leachate collection system"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "The liner blocks leachate; collection pipes remove it for treatment.",
-      "distractors": { "A": "Addresses air emissions." }
+      "distractors": {
+        "A": "Addresses air emissions."
+      }
     },
     {
-      "id": "u8-q10", "tier": "Exam level", "type": "mcq", "topic": "8.14 Pollution and Human Health", "skill": "7. Environmental Solutions",
+      "id": "u8-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "8.14 Pollution and Human Health",
+      "skill": "7. Environmental Solutions",
       "stem": "Health advisories warn pregnant women to limit consumption of large predatory fish such as swordfish. The main concern is",
       "choices": [
-        { "id": "A", "text": "methylmercury, which biomagnifies and damages the developing nervous system" },
-        { "id": "B", "text": "excess omega-3 fatty acids" },
-        { "id": "C", "text": "radon dissolved in seawater" },
-        { "id": "D", "text": "acid rain" }
+        {
+          "id": "A",
+          "text": "methylmercury, which biomagnifies and damages the developing nervous system"
+        },
+        {
+          "id": "B",
+          "text": "excess omega-3 fatty acids"
+        },
+        {
+          "id": "C",
+          "text": "radon dissolved in seawater"
+        },
+        {
+          "id": "D",
+          "text": "acid rain"
+        }
       ],
       "answer": "A",
       "explanation": "Mercury from coal combustion is converted to methylmercury and concentrates in top predators.",
       "distractors": {}
     },
     {
-      "id": "u8-q11", "tier": "Hardest", "type": "mcq", "topic": "8.2 Human Impacts on Ecosystems", "skill": "2. Visual Representations",
+      "id": "u8-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "8.2 Human Impacts on Ecosystems",
+      "skill": "2. Visual Representations",
       "stimulus": "Dissolved oxygen was measured at points along a river: 9 mg/L just above a sewage outfall, 7 mg/L at the outfall, 3 mg/L 10 km downstream, 6 mg/L at 25 km, and 8.5 mg/L at 40 km.",
       "stem": "Which explanation best accounts for the lowest value occurring 10 km downstream rather than at the outfall?",
       "choices": [
-        { "id": "A", "text": "Bacterial decomposition of organic matter in the sewage increases as bacteria multiply, so oxygen demand peaks downstream before the river reaerates." },
-        { "id": "B", "text": "Algae at the outfall produce extra oxygen." },
-        { "id": "C", "text": "The water is warmer at 40 km." },
-        { "id": "D", "text": "Fish are more abundant at 10 km and consume the oxygen." }
+        {
+          "id": "A",
+          "text": "The water is warmer at 40 km."
+        },
+        {
+          "id": "B",
+          "text": "Algae at the outfall produce extra oxygen."
+        },
+        {
+          "id": "C",
+          "text": "Bacterial decomposition of organic matter in the sewage increases as bacteria multiply, so oxygen demand peaks downstream before the river reaerates."
+        },
+        {
+          "id": "D",
+          "text": "Fish are more abundant at 10 km and consume the oxygen."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "This is the classic oxygen-sag curve: BOD-driven decomposition takes time and distance to peak.",
       "distractors": {}
     },
     {
-      "id": "u8-q12", "tier": "Hardest", "type": "mcq", "topic": "8.12 Lethal Dose 50% (LD50)", "skill": "6. Mathematical Routines",
+      "id": "u8-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "8.12 Lethal Dose 50% (LD50)",
+      "skill": "6. Mathematical Routines",
       "stem": "A chemical has an LD50 of 50 mg/kg in rats. Assuming the value applies to humans, what dose would be expected to be lethal to half of a group of 70 kg adults?",
       "choices": [
-        { "id": "A", "text": "0.71 g" },
-        { "id": "B", "text": "1.4 g" },
-        { "id": "C", "text": "3.5 g" },
-        { "id": "D", "text": "35 g" }
+        {
+          "id": "A",
+          "text": "0.71 g"
+        },
+        {
+          "id": "B",
+          "text": "1.4 g"
+        },
+        {
+          "id": "C",
+          "text": "3.5 g"
+        },
+        {
+          "id": "D",
+          "text": "35 g"
+        }
       ],
       "answer": "C",
       "explanation": "50 mg/kg × 70 kg = 3,500 mg = 3.5 g.",
-      "distractors": { "D": "Decimal error converting mg to g." }
+      "distractors": {
+        "D": "Decimal error converting mg to g."
+      }
     },
     {
-      "id": "u8-q13", "tier": "Hardest", "type": "mcq", "topic": "8.10 Waste Reduction Methods", "skill": "7. Environmental Solutions",
+      "id": "u8-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "8.10 Waste Reduction Methods",
+      "skill": "7. Environmental Solutions",
       "stem": "Which statement best explains why reducing consumption is ranked above recycling in the waste hierarchy?",
       "choices": [
-        { "id": "A", "text": "Recycling still requires energy for collection and processing, while reducing avoids extraction, manufacturing, and disposal entirely." },
-        { "id": "B", "text": "Recycling increases landfill volume." },
-        { "id": "C", "text": "Reduced items can be composted." },
-        { "id": "D", "text": "Recycling is illegal in most places." }
+        {
+          "id": "A",
+          "text": "Recycling increases landfill volume."
+        },
+        {
+          "id": "B",
+          "text": "Recycling still requires energy for collection and processing, while reducing avoids extraction, manufacturing, and disposal entirely."
+        },
+        {
+          "id": "C",
+          "text": "Reduced items can be composted."
+        },
+        {
+          "id": "D",
+          "text": "Recycling is illegal in most places."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Reduction prevents impacts at every stage of a product's life cycle.",
       "distractors": {}
     },
     {
-      "id": "u8-q14", "tier": "Hardest", "type": "mcq", "topic": "8.15 Pathogens and Infectious Diseases", "skill": "7. Environmental Solutions",
+      "id": "u8-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "8.15 Pathogens and Infectious Diseases",
+      "skill": "7. Environmental Solutions",
       "stem": "Which change would most likely expand the range of malaria into higher-elevation regions?",
       "choices": [
-        { "id": "A", "text": "Warmer temperatures allowing mosquitoes and the malaria parasite to survive at higher elevations" },
-        { "id": "B", "text": "Increased chlorination of drinking water" },
-        { "id": "C", "text": "Colder winters" },
-        { "id": "D", "text": "Draining wetlands near villages" }
+        {
+          "id": "A",
+          "text": "Warmer temperatures allowing mosquitoes and the malaria parasite to survive at higher elevations"
+        },
+        {
+          "id": "B",
+          "text": "Increased chlorination of drinking water"
+        },
+        {
+          "id": "C",
+          "text": "Colder winters"
+        },
+        {
+          "id": "D",
+          "text": "Draining wetlands near villages"
+        }
       ],
       "answer": "A",
       "explanation": "Malaria is vector-borne; temperature limits both the mosquito and parasite development.",
-      "distractors": { "B": "Malaria isn't waterborne.", "D": "Would reduce breeding habitat." }
+      "distractors": {
+        "B": "Malaria isn't waterborne.",
+        "D": "Would reduce breeding habitat."
+      }
     },
     {
-      "id": "u8-frq1", "tier": "Hardest", "type": "frq", "topic": "8.9 Solid Waste Disposal", "frqType": "Q3 Analyze an Environmental Problem and Propose a Solution Doing Calculations",
+      "id": "u8-frq1",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "8.9 Solid Waste Disposal",
+      "frqType": "Q3 Analyze an Environmental Problem and Propose a Solution Doing Calculations",
       "prompt": "A town of 40,000 people generates an average of 2.0 kg of municipal solid waste per person per day, all sent to a new sanitary landfill. The landfill has a capacity of 2.0 × 10⁶ m³, and compacted waste has a density of 500 kg/m³. Assume 365 days per year.",
       "parts": [
-        { "label": "a", "prompt": "Calculate the mass of waste, in kg, the town generates per year. Show your work.", "points": 1 },
-        { "label": "b", "prompt": "Calculate the volume, in m³, this waste occupies per year. Show your work.", "points": 1 },
-        { "label": "c", "prompt": "Calculate how many years until the landfill is full. Show your work.", "points": 2 },
-        { "label": "d", "prompt": "The town begins a recycling and composting program that diverts 30% of its waste. Calculate the new landfill lifespan. Show your work.", "points": 1 },
-        { "label": "e", "prompt": "Describe how leachate forms and explain how the landfill design prevents it from contaminating groundwater.", "points": 2 },
-        { "label": "f", "prompt": "Explain one environmental benefit of capturing methane from the landfill.", "points": 1 },
-        { "label": "g", "prompt": "Propose one waste reduction strategy (other than recycling) and explain how it reduces the volume of waste sent to the landfill.", "points": 2 }
+        {
+          "label": "a",
+          "prompt": "Calculate the mass of waste, in kg, the town generates per year. Show your work.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Calculate the volume, in m³, this waste occupies per year. Show your work.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Calculate how many years until the landfill is full. Show your work.",
+          "points": 2
+        },
+        {
+          "label": "d",
+          "prompt": "The town begins a recycling and composting program that diverts 30% of its waste. Calculate the new landfill lifespan. Show your work.",
+          "points": 1
+        },
+        {
+          "label": "e",
+          "prompt": "Describe how leachate forms and explain how the landfill design prevents it from contaminating groundwater.",
+          "points": 2
+        },
+        {
+          "label": "f",
+          "prompt": "Explain one environmental benefit of capturing methane from the landfill.",
+          "points": 1
+        },
+        {
+          "label": "g",
+          "prompt": "Propose one waste reduction strategy (other than recycling) and explain how it reduces the volume of waste sent to the landfill.",
+          "points": 2
+        }
       ],
       "points": 10,
       "minutes": 23,
       "rubric": [
-        { "criterion": "a: Mass", "points": 1, "description": "40,000 × 2.0 kg/day × 365 = 2.92 × 10⁷ kg/yr." },
-        { "criterion": "b: Volume", "points": 1, "description": "2.92 × 10⁷ kg ÷ 500 kg/m³ = 5.84 × 10⁴ m³/yr." },
-        { "criterion": "c1: Setup", "points": 1, "description": "2.0 × 10⁶ m³ ÷ 5.84 × 10⁴ m³/yr." },
-        { "criterion": "c2: Answer", "points": 1, "description": "≈ 34 years." },
-        { "criterion": "d: Diversion", "points": 1, "description": "5.84 × 10⁴ × 0.70 = 4.09 × 10⁴ m³/yr; 2.0 × 10⁶ ÷ 4.09 × 10⁴ ≈ 49 years." },
-        { "criterion": "e1: Formation", "points": 1, "description": "Rainwater percolates through waste, dissolving and carrying chemicals, metals, and organic compounds." },
-        { "criterion": "e2: Prevention", "points": 1, "description": "A compacted clay and plastic liner blocks the liquid, and a pipe system collects leachate for treatment." },
-        { "criterion": "f: Methane", "points": 1, "description": "Methane is a potent greenhouse gas; capturing and burning it reduces climate warming and can generate electricity in place of fossil fuels (also reduces explosion risk)." },
-        { "criterion": "g1: Strategy", "points": 1, "description": "E.g., composting food and yard waste, banning single-use plastics, pay-as-you-throw pricing, reusable containers." },
-        { "criterion": "g2: Mechanism", "points": 1, "description": "Explains how the strategy keeps a specific portion of waste out of the landfill." }
+        {
+          "criterion": "a: Mass",
+          "points": 1,
+          "description": "40,000 × 2.0 kg/day × 365 = 2.92 × 10⁷ kg/yr."
+        },
+        {
+          "criterion": "b: Volume",
+          "points": 1,
+          "description": "2.92 × 10⁷ kg ÷ 500 kg/m³ = 5.84 × 10⁴ m³/yr."
+        },
+        {
+          "criterion": "c1: Setup",
+          "points": 1,
+          "description": "2.0 × 10⁶ m³ ÷ 5.84 × 10⁴ m³/yr."
+        },
+        {
+          "criterion": "c2: Answer",
+          "points": 1,
+          "description": "≈ 34 years."
+        },
+        {
+          "criterion": "d: Diversion",
+          "points": 1,
+          "description": "5.84 × 10⁴ × 0.70 = 4.09 × 10⁴ m³/yr; 2.0 × 10⁶ ÷ 4.09 × 10⁴ ≈ 49 years."
+        },
+        {
+          "criterion": "e1: Formation",
+          "points": 1,
+          "description": "Rainwater percolates through waste, dissolving and carrying chemicals, metals, and organic compounds."
+        },
+        {
+          "criterion": "e2: Prevention",
+          "points": 1,
+          "description": "A compacted clay and plastic liner blocks the liquid, and a pipe system collects leachate for treatment."
+        },
+        {
+          "criterion": "f: Methane",
+          "points": 1,
+          "description": "Methane is a potent greenhouse gas; capturing and burning it reduces climate warming and can generate electricity in place of fossil fuels (also reduces explosion risk)."
+        },
+        {
+          "criterion": "g1: Strategy",
+          "points": 1,
+          "description": "E.g., composting food and yard waste, banning single-use plastics, pay-as-you-throw pricing, reusable containers."
+        },
+        {
+          "criterion": "g2: Mechanism",
+          "points": 1,
+          "description": "Explains how the strategy keeps a specific portion of waste out of the landfill."
+        }
       ],
       "sampleResponse": "(a) 40,000 people × 2.0 kg/person/day × 365 days/yr = 2.92 × 10⁷ kg per year.\n\n(b) 2.92 × 10⁷ kg ÷ 500 kg/m³ = 5.84 × 10⁴ m³ per year.\n\n(c) 2.0 × 10⁶ m³ ÷ 5.84 × 10⁴ m³/yr ≈ 34 years.\n\n(d) New annual volume = 5.84 × 10⁴ × 0.70 = 4.09 × 10⁴ m³/yr. 2.0 × 10⁶ ÷ 4.09 × 10⁴ ≈ 49 years.\n\n(e) As rain falls on the landfill, water trickles through the waste and dissolves chemicals, heavy metals, and decomposing organic matter, forming leachate. A compacted clay layer beneath a thick plastic liner stops leachate from seeping into the ground, and perforated pipes above the liner collect it so it can be pumped to a treatment facility.\n\n(f) Methane is a greenhouse gas many times more potent than CO₂. Capturing it and burning it to generate electricity prevents its release and replaces some fossil fuel use.\n\n(g) Start a curbside food-waste composting program. Food and yard waste make up a large share of household trash; composting them turns that material into soil amendment instead of sending it to the landfill."
     }

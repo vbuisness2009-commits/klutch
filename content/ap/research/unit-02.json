@@ -100,11 +100,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "a quasi-experiment comparing pre-existing groups"
+          "text": "a randomized controlled trial"
         },
         {
           "id": "B",
-          "text": "a randomized controlled trial"
+          "text": "a quasi-experiment comparing pre-existing groups"
         },
         {
           "id": "C",
@@ -115,7 +115,7 @@
           "text": "an ethnography"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Schools, not students, defined the groups, without random assignment.",
       "distractors": {}
     },
@@ -129,7 +129,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "the difference between schools would be unlikely if the program had no real effect"
+          "text": "3 percent of students improved"
         },
         {
           "id": "B",
@@ -141,10 +141,10 @@
         },
         {
           "id": "D",
-          "text": "3 percent of students improved"
+          "text": "the difference between schools would be unlikely if the program had no real effect"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "A p-value describes how surprising the data would be under no effect.",
       "distractors": {}
     },
@@ -158,7 +158,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Other differences between School A and School B, such as teachers or testing schedules, could explain the change."
+          "text": "Anxiety was measured twice."
         },
         {
           "id": "B",
@@ -166,14 +166,14 @@
         },
         {
           "id": "C",
-          "text": "Anxiety was measured twice."
+          "text": "Other differences between School A and School B, such as teachers or testing schedules, could explain the change."
         },
         {
           "id": "D",
           "text": "The study used ninth graders."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Confounds between non-random groups threaten internal validity.",
       "distractors": {}
     },
@@ -186,7 +186,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Students who sleep more tend to have higher GPAs, but the data don't show that sleep causes higher grades."
+          "text": "There is no relationship."
         },
         {
           "id": "B",
@@ -198,10 +198,10 @@
         },
         {
           "id": "D",
-          "text": "There is no relationship."
+          "text": "Students who sleep more tend to have higher GPAs, but the data don't show that sleep causes higher grades."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Correlation shows association only.",
       "distractors": {}
     },
@@ -215,11 +215,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "two schools without random assignment, using self-report data, cannot support a recommendation for all high schools"
+          "text": "the sample is too large"
         },
         {
           "id": "B",
-          "text": "the sample is too large"
+          "text": "two schools without random assignment, using self-report data, cannot support a recommendation for all high schools"
         },
         {
           "id": "C",
@@ -230,7 +230,7 @@
           "text": "mindfulness is not a real practice"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The conclusion exceeds the design and sample.",
       "distractors": {}
     },

@@ -122,7 +122,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "established the Court's power of judicial review"
+          "text": "declared slavery unconstitutional in the territories"
         },
         {
           "id": "B",
@@ -130,14 +130,14 @@
         },
         {
           "id": "C",
-          "text": "declared slavery unconstitutional in the territories"
+          "text": "established the Court's power of judicial review"
         },
         {
           "id": "D",
           "text": "recognized the sovereignty of the Cherokee Nation"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Marshall ruled that the Court could strike down a law that conflicted with the Constitution.",
       "distractors": {
         "B": "That's McCulloch v. Maryland.",
@@ -213,11 +213,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "the forced removal of the Cherokee to lands west of the Mississippi"
+          "text": "the route of escaped enslaved people to Canada"
         },
         {
           "id": "B",
-          "text": "the route of escaped enslaved people to Canada"
+          "text": "the forced removal of the Cherokee to lands west of the Mississippi"
         },
         {
           "id": "C",
@@ -228,10 +228,10 @@
           "text": "the retreat of American forces in the War of 1812"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "In 1838, U.S. troops forced the Cherokee west; thousands died on the journey.",
       "distractors": {
-        "B": "That's the Underground Railroad."
+        "A": "That's the Underground Railroad."
       }
     },
     {
@@ -244,7 +244,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "maintain the balance between slave and free states in the Senate"
+          "text": "open all western territories to slavery"
         },
         {
           "id": "B",
@@ -256,10 +256,10 @@
         },
         {
           "id": "D",
-          "text": "open all western territories to slavery"
+          "text": "maintain the balance between slave and free states in the Senate"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Pairing Missouri with Maine kept the Senate balanced 12–12 and drew a line for future states.",
       "distractors": {
         "B": "It protected slavery where it existed."
@@ -274,7 +274,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "The Northeast focused on manufacturing and commerce, the Midwest on commercial grain farming, and the South on cotton grown by enslaved people."
+          "text": "The South industrialized faster than the North."
         },
         {
           "id": "B",
@@ -282,17 +282,17 @@
         },
         {
           "id": "C",
-          "text": "The South industrialized faster than the North."
+          "text": "The Northeast focused on manufacturing and commerce, the Midwest on commercial grain farming, and the South on cotton grown by enslaved people."
         },
         {
           "id": "D",
           "text": "The Midwest became the center of textile manufacturing."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Improved transportation let each region specialize and trade.",
       "distractors": {
-        "C": "The South remained largely agricultural."
+        "A": "The South remained largely agricultural."
       }
     },
     {
@@ -304,7 +304,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "reform movements such as temperance and abolition"
+          "text": "the end of the Market Revolution"
         },
         {
           "id": "B",
@@ -316,10 +316,10 @@
         },
         {
           "id": "D",
-          "text": "the end of the Market Revolution"
+          "text": "reform movements such as temperance and abolition"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Its emphasis on free will and perfecting society inspired believers to fight social ills.",
       "distractors": {
         "B": "States were disestablishing churches in this era."
@@ -335,11 +335,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "claim the nation's founding ideals for women"
+          "text": "argue for women's independence from the United States"
         },
         {
           "id": "B",
-          "text": "argue for women's independence from the United States"
+          "text": "claim the nation's founding ideals for women"
         },
         {
           "id": "C",
@@ -350,7 +350,7 @@
           "text": "support the expansion of slavery"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "By adapting a revered text, they argued that denying women's rights betrayed principles Americans already accepted.",
       "distractors": {
         "C": "They embraced those principles and demanded they apply to women."
@@ -365,7 +365,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "threatened to use military force to collect tariffs while supporting a compromise to lower rates"
+          "text": "abolished all tariffs permanently"
         },
         {
           "id": "B",
@@ -373,14 +373,14 @@
         },
         {
           "id": "C",
-          "text": "abolished all tariffs permanently"
+          "text": "threatened to use military force to collect tariffs while supporting a compromise to lower rates"
         },
         {
           "id": "D",
           "text": "allowed South Carolina to secede"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Jackson backed the Force Bill and condemned nullification, while Clay's Compromise Tariff eased the conflict.",
       "distractors": {
         "B": "Jackson rejected nullification as treasonous."
@@ -425,7 +425,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Rising global demand for cotton and a large domestic slave trade from the Upper South"
+          "text": "The spread of tobacco cultivation into Alabama and Mississippi"
         },
         {
           "id": "B",
@@ -433,17 +433,17 @@
         },
         {
           "id": "C",
-          "text": "The spread of tobacco cultivation into Alabama and Mississippi"
+          "text": "Rising global demand for cotton and a large domestic slave trade from the Upper South"
         },
         {
           "id": "D",
           "text": "Increased immigration of indentured servants from Europe"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The cotton gin made cotton enormously profitable, and enslaved people were sold south and west in huge numbers to work new plantations.",
       "distractors": {
-        "C": "Cotton, not tobacco, drove Deep South expansion."
+        "A": "Cotton, not tobacco, drove Deep South expansion."
       }
     },
     {
@@ -455,7 +455,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Voting rights expanded for white men as property qualifications fell, while several states took voting rights away from free Black men."
+          "text": "All adult men, regardless of race, gained voting rights."
         },
         {
           "id": "B",
@@ -467,13 +467,13 @@
         },
         {
           "id": "D",
-          "text": "All adult men, regardless of race, gained voting rights."
+          "text": "Voting rights expanded for white men as property qualifications fell, while several states took voting rights away from free Black men."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "States like Pennsylvania (1838) disenfranchised Black men even as they broadened suffrage for white men. Democracy expanded unevenly along racial lines.",
       "distractors": {
-        "D": "Racial restrictions increased in several states."
+        "A": "Racial restrictions increased in several states."
       }
     },
     {
@@ -485,11 +485,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "The shift of production from households to factories and the growth of wage labor"
+          "text": "The decline of industry in New England"
         },
         {
           "id": "B",
-          "text": "The decline of industry in New England"
+          "text": "The shift of production from households to factories and the growth of wage labor"
         },
         {
           "id": "C",
@@ -500,7 +500,7 @@
           "text": "The end of women's participation in the economy"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Young women who once spun cloth at home earned wages in factories, part of a wider transformation from household to market production.",
       "distractors": {
         "D": "The mills drew women into paid work."

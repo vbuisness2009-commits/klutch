@@ -114,11 +114,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "10 N·m"
+          "text": "40 N·m"
         },
         {
           "id": "B",
-          "text": "40 N·m"
+          "text": "10 N·m"
         },
         {
           "id": "C",
@@ -129,10 +129,10 @@
           "text": "0.025 N·m"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "τ = rF = 0.5 × 20 = 10 N·m.",
       "distractors": {
-        "B": "Divided F by r."
+        "A": "Divided F by r."
       }
     },
     {
@@ -175,7 +175,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "The hoop, because all its mass is at the maximum distance from the axis"
+          "text": "They are equal, because they have the same mass and radius"
         },
         {
           "id": "B",
@@ -183,18 +183,18 @@
         },
         {
           "id": "C",
-          "text": "They are equal, because they have the same mass and radius"
+          "text": "The hoop, because all its mass is at the maximum distance from the axis"
         },
         {
           "id": "D",
           "text": "It depends on how fast they rotate"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "I = Σmr². The hoop's mass is all at r = R; the disk's is spread from 0 to R. Hoop: MR²; disk: ½MR².",
       "distractors": {
-        "C": "Rotational inertia depends on mass distribution, not just mass.",
-        "D": "I is a property of shape and axis."
+        "D": "I is a property of shape and axis.",
+        "A": "Rotational inertia depends on mass distribution, not just mass."
       }
     },
     {
@@ -206,7 +206,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Net force is zero and net torque is zero."
+          "text": "All forces on the object are equal in magnitude."
         },
         {
           "id": "B",
@@ -218,10 +218,10 @@
         },
         {
           "id": "D",
-          "text": "All forces on the object are equal in magnitude."
+          "text": "Net force is zero and net torque is zero."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Zero net force prevents translational acceleration; zero net torque prevents angular acceleration.",
       "distractors": {
         "B": "Two equal, opposite, offset forces give zero net force but nonzero torque."
@@ -236,11 +236,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "1.5 m from the pivot"
+          "text": "2.7 m from the pivot"
         },
         {
           "id": "B",
-          "text": "2.7 m from the pivot"
+          "text": "1.5 m from the pivot"
         },
         {
           "id": "C",
@@ -251,10 +251,10 @@
           "text": "1.0 m from the pivot"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "30g(2.0) = 40g(r), so r = 60/40 = 1.5 m.",
       "distractors": {
-        "B": "Inverted the ratio: 2.0 × 40/30."
+        "A": "Inverted the ratio: 2.0 × 40/30."
       }
     },
     {
@@ -266,7 +266,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "3 rad/s²"
+          "text": "8 rad/s²"
         },
         {
           "id": "B",
@@ -278,10 +278,10 @@
         },
         {
           "id": "D",
-          "text": "8 rad/s²"
+          "text": "3 rad/s²"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "α = τ/I = 6/2 = 3 rad/s².",
       "distractors": {
         "B": "Multiplied.",
@@ -297,7 +297,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "9 rad"
+          "text": "18 rad"
         },
         {
           "id": "B",
@@ -305,18 +305,18 @@
         },
         {
           "id": "C",
-          "text": "18 rad"
+          "text": "9 rad"
         },
         {
           "id": "D",
           "text": "3 rad"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "θ = ½αt² = ½(2)(9) = 9 rad.",
       "distractors": {
         "B": "That's the final angular velocity in rad/s.",
-        "C": "Forgot the ½."
+        "A": "Forgot the ½."
       }
     },
     {
@@ -359,11 +359,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "3 m/s"
+          "text": "33 m/s"
         },
         {
           "id": "B",
-          "text": "33 m/s"
+          "text": "3 m/s"
         },
         {
           "id": "C",
@@ -374,11 +374,11 @@
           "text": "10 m/s"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "v = rω = 0.3 × 10 = 3 m/s.",
       "distractors": {
-        "B": "Divided ω by r.",
-        "D": "Assumed every point moves at ω."
+        "D": "Assumed every point moves at ω.",
+        "A": "Divided ω by r."
       }
     },
     {
@@ -390,7 +390,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "100 N"
+          "text": "150 N"
         },
         {
           "id": "B",
@@ -398,19 +398,19 @@
         },
         {
           "id": "C",
-          "text": "150 N"
+          "text": "100 N"
         },
         {
           "id": "D",
           "text": "50 N"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Torques about the left support: R(4.0) = 100(2.0) + 200(1.0) = 400 N·m, so R = 100 N. (The left support then provides 300 − 100 = 200 N.)",
       "distractors": {
         "B": "That's the left support's force.",
-        "C": "Split the 300 N total weight evenly, ignoring where the person stands.",
-        "D": "Left out the beam's own weight."
+        "D": "Left out the beam's own weight.",
+        "A": "Split the 300 N total weight evenly, ignoring where the person stands."
       }
     },
     {
@@ -422,7 +422,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "mg/(m + I/R²)"
+          "text": "mg/(m + IR²)"
         },
         {
           "id": "B",
@@ -434,15 +434,15 @@
         },
         {
           "id": "D",
-          "text": "mg/(m + IR²)"
+          "text": "mg/(m + I/R²)"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Block: mg − T = ma. Pulley: TR = Iα = Ia/R, so T = Ia/R². Then mg = a(m + I/R²).",
       "distractors": {
         "B": "Ignores the pulley's resistance to rotation.",
         "C": "Ignores the block's own inertia.",
-        "D": "Wrote T = IaR² by mistake; units don't work."
+        "A": "Wrote T = IaR² by mistake; units don't work."
       }
     },
     {
@@ -484,7 +484,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "α/4"
+          "text": "α"
         },
         {
           "id": "B",
@@ -496,10 +496,10 @@
         },
         {
           "id": "D",
-          "text": "α"
+          "text": "α/4"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "I = 2mr² becomes 2m(2r)² = 4(2mr²). α = τ/I falls to one quarter.",
       "distractors": {
         "B": "Treated I as proportional to r instead of r²."
@@ -514,7 +514,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Its angular velocity is constant."
+          "text": "The net force on it is zero."
         },
         {
           "id": "B",
@@ -522,18 +522,18 @@
         },
         {
           "id": "C",
-          "text": "The net force on it is zero."
+          "text": "Its angular velocity is constant."
         },
         {
           "id": "D",
           "text": "Its angular velocity is decreasing."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "τ_net = Iα = 0 means α = 0, so ω stays constant (possibly nonzero).",
       "distractors": {
         "B": "Zero torque doesn't stop existing rotation.",
-        "C": "Forces through the center of mass can produce zero torque but nonzero net force."
+        "A": "Forces through the center of mass can produce zero torque but nonzero net force."
       }
     },
     {

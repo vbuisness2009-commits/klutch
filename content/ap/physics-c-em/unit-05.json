@@ -45,225 +45,549 @@
     "cramSheet": "**Flux:** Φ = ∫B·dA · Faraday ε = −N dΦ/dt · Lenz opposes change\n\n**Motional:** ε = Bℓv · generator ε = NBAω sin ωt\n\n**Induced E:** ∮E·dℓ = −dΦ/dt (nonconservative)\n\n**Inductance:** ε = −L dI/dt · L = μ₀n²Aℓ · U = ½LI² · u_B = B²/2μ₀\n\n**RL:** I = (ε/R)(1 − e^(−tR/L)) · τ = L/R\n\n**LC:** ω = 1/√(LC) · energy sloshes E ↔ B\n\n**Maxwell:** 4 equations → EM waves at c = 1/√(μ₀ε₀)"
   },
   "vocab": [
-    { "term": "Magnetic flux", "definition": "Φ_B = ∫B·dA through a surface." },
-    { "term": "Faraday's law", "definition": "Induced emf equals the negative rate of change of magnetic flux: ε = −dΦ/dt." },
-    { "term": "Lenz's law", "definition": "Induced currents oppose the change in flux that produces them." },
-    { "term": "Self-inductance", "definition": "L, the ratio of induced emf to the rate of change of current: ε = −L dI/dt." },
-    { "term": "Henry", "definition": "SI unit of inductance (V·s/A)." },
-    { "term": "RL time constant", "definition": "τ = L/R." },
-    { "term": "Magnetic energy density", "definition": "u_B = B²/(2μ₀)." },
-    { "term": "LC oscillation", "definition": "Periodic exchange of energy between a capacitor and an inductor at ω = 1/√(LC)." },
-    { "term": "Mutual inductance", "definition": "Coupling between two coils in which changing current in one induces emf in the other." },
-    { "term": "Eddy currents", "definition": "Induced circulating currents in a conductor exposed to changing flux." },
-    { "term": "Induced electric field", "definition": "A nonconservative electric field produced by a changing magnetic field." },
-    { "term": "Maxwell's equations", "definition": "Four equations unifying electricity and magnetism and predicting electromagnetic waves." }
+    {
+      "term": "Magnetic flux",
+      "definition": "Φ_B = ∫B·dA through a surface."
+    },
+    {
+      "term": "Faraday's law",
+      "definition": "Induced emf equals the negative rate of change of magnetic flux: ε = −dΦ/dt."
+    },
+    {
+      "term": "Lenz's law",
+      "definition": "Induced currents oppose the change in flux that produces them."
+    },
+    {
+      "term": "Self-inductance",
+      "definition": "L, the ratio of induced emf to the rate of change of current: ε = −L dI/dt."
+    },
+    {
+      "term": "Henry",
+      "definition": "SI unit of inductance (V·s/A)."
+    },
+    {
+      "term": "RL time constant",
+      "definition": "τ = L/R."
+    },
+    {
+      "term": "Magnetic energy density",
+      "definition": "u_B = B²/(2μ₀)."
+    },
+    {
+      "term": "LC oscillation",
+      "definition": "Periodic exchange of energy between a capacitor and an inductor at ω = 1/√(LC)."
+    },
+    {
+      "term": "Mutual inductance",
+      "definition": "Coupling between two coils in which changing current in one induces emf in the other."
+    },
+    {
+      "term": "Eddy currents",
+      "definition": "Induced circulating currents in a conductor exposed to changing flux."
+    },
+    {
+      "term": "Induced electric field",
+      "definition": "A nonconservative electric field produced by a changing magnetic field."
+    },
+    {
+      "term": "Maxwell's equations",
+      "definition": "Four equations unifying electricity and magnetism and predicting electromagnetic waves."
+    }
   ],
   "practice": [
     {
-      "id": "u5-q01", "tier": "Intro", "type": "mcq", "topic": "Inductance",
+      "id": "u5-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Inductance",
       "stem": "A solenoid has 1,000 turns per meter, cross-sectional area 1.0 × 10⁻³ m², and length 0.50 m. What is its inductance?",
       "choices": [
-        { "id": "A", "text": "6.3 × 10⁻⁴ H" },
-        { "id": "B", "text": "1.3 × 10⁻³ H" },
-        { "id": "C", "text": "6.3 × 10⁻⁷ H" },
-        { "id": "D", "text": "0.63 H" }
+        {
+          "id": "A",
+          "text": "0.63 H"
+        },
+        {
+          "id": "B",
+          "text": "1.3 × 10⁻³ H"
+        },
+        {
+          "id": "C",
+          "text": "6.3 × 10⁻⁷ H"
+        },
+        {
+          "id": "D",
+          "text": "6.3 × 10⁻⁴ H"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "L = μ₀n²Aℓ = (4π × 10⁻⁷)(10⁶)(10⁻³)(0.50) ≈ 6.3 × 10⁻⁴ H.",
       "distractors": {}
     },
     {
-      "id": "u5-q02", "tier": "Intro", "type": "mcq", "topic": "RL Circuits",
+      "id": "u5-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "RL Circuits",
       "stem": "Immediately after a switch closes connecting a battery, a resistor, and an inductor in series, the current is",
       "choices": [
-        { "id": "A", "text": "zero" },
-        { "id": "B", "text": "ε/R" },
-        { "id": "C", "text": "maximum" },
-        { "id": "D", "text": "ε/L" }
+        {
+          "id": "A",
+          "text": "ε/L"
+        },
+        {
+          "id": "B",
+          "text": "ε/R"
+        },
+        {
+          "id": "C",
+          "text": "maximum"
+        },
+        {
+          "id": "D",
+          "text": "zero"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The inductor opposes the sudden change, so current starts at zero.",
-      "distractors": { "B": "Final steady-state current." }
+      "distractors": {
+        "B": "Final steady-state current."
+      }
     },
     {
-      "id": "u5-q03", "tier": "Intro", "type": "mcq", "topic": "Faraday's Law",
+      "id": "u5-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Faraday's Law",
       "stem": "The magnetic field through a 0.20 m² loop varies as B(t) = 0.50t² (T, s), perpendicular to the loop. What is the magnitude of the induced emf at t = 3.0 s?",
       "choices": [
-        { "id": "A", "text": "0.30 V" },
-        { "id": "B", "text": "0.60 V" },
-        { "id": "C", "text": "0.90 V" },
-        { "id": "D", "text": "1.8 V" }
+        {
+          "id": "A",
+          "text": "0.30 V"
+        },
+        {
+          "id": "B",
+          "text": "0.60 V"
+        },
+        {
+          "id": "C",
+          "text": "0.90 V"
+        },
+        {
+          "id": "D",
+          "text": "1.8 V"
+        }
       ],
       "answer": "B",
       "explanation": "Φ = 0.10t²; dΦ/dt = 0.20t = 0.60 V at t = 3.",
-      "distractors": { "C": "Uses Φ instead of dΦ/dt." }
+      "distractors": {
+        "C": "Uses Φ instead of dΦ/dt."
+      }
     },
     {
-      "id": "u5-q04", "tier": "Intro", "type": "mcq", "topic": "LC Circuits",
+      "id": "u5-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "LC Circuits",
       "stem": "An LC circuit has L = 10 mH and C = 1.0 μF. What is its angular frequency of oscillation?",
       "choices": [
-        { "id": "A", "text": "1.0 × 10² rad/s" },
-        { "id": "B", "text": "1.0 × 10⁴ rad/s" },
-        { "id": "C", "text": "1.6 × 10³ rad/s" },
-        { "id": "D", "text": "1.0 × 10⁸ rad/s" }
+        {
+          "id": "A",
+          "text": "1.0 × 10² rad/s"
+        },
+        {
+          "id": "B",
+          "text": "1.6 × 10³ rad/s"
+        },
+        {
+          "id": "C",
+          "text": "1.0 × 10⁴ rad/s"
+        },
+        {
+          "id": "D",
+          "text": "1.0 × 10⁸ rad/s"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "ω = 1/√(LC) = 1/√(10⁻⁸) = 10⁴ rad/s.",
-      "distractors": { "C": "Frequency f in Hz." }
+      "distractors": {
+        "B": "Frequency f in Hz."
+      }
     },
     {
-      "id": "u5-q05", "tier": "Exam level", "type": "mcq", "topic": "RL Circuits",
+      "id": "u5-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "RL Circuits",
       "stem": "A 12 V battery is connected at t = 0 to a 4.0 Ω resistor and a 2.0 H inductor in series. What is the current at t = 0.50 s?",
       "choices": [
-        { "id": "A", "text": "1.1 A" },
-        { "id": "B", "text": "1.9 A" },
-        { "id": "C", "text": "3.0 A" },
-        { "id": "D", "text": "6.0 A" }
+        {
+          "id": "A",
+          "text": "1.1 A"
+        },
+        {
+          "id": "B",
+          "text": "1.9 A"
+        },
+        {
+          "id": "C",
+          "text": "3.0 A"
+        },
+        {
+          "id": "D",
+          "text": "6.0 A"
+        }
       ],
       "answer": "B",
       "explanation": "τ = L/R = 0.50 s; I = 3.0(1 − e⁻¹) ≈ 1.9 A.",
-      "distractors": { "C": "Final current." }
+      "distractors": {
+        "C": "Final current."
+      }
     },
     {
-      "id": "u5-q06", "tier": "Exam level", "type": "mcq", "topic": "Energy in Inductors",
+      "id": "u5-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Energy in Inductors",
       "stem": "In the RL circuit above (L = 2.0 H, final current 3.0 A), how much energy is stored in the inductor at steady state?",
       "choices": [
-        { "id": "A", "text": "3.0 J" },
-        { "id": "B", "text": "6.0 J" },
-        { "id": "C", "text": "9.0 J" },
-        { "id": "D", "text": "18 J" }
+        {
+          "id": "A",
+          "text": "3.0 J"
+        },
+        {
+          "id": "B",
+          "text": "6.0 J"
+        },
+        {
+          "id": "C",
+          "text": "9.0 J"
+        },
+        {
+          "id": "D",
+          "text": "18 J"
+        }
       ],
       "answer": "C",
       "explanation": "U = ½LI² = ½(2.0)(9.0) = 9.0 J.",
-      "distractors": { "D": "Omits ½." }
+      "distractors": {
+        "D": "Omits ½."
+      }
     },
     {
-      "id": "u5-q07", "tier": "Exam level", "type": "mcq", "topic": "Faraday's Law",
+      "id": "u5-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Faraday's Law",
       "stem": "A 100-turn coil of area 0.050 m² rotates at 60 rad/s in a uniform 0.20 T field. What is the peak emf?",
       "choices": [
-        { "id": "A", "text": "0.60 V" },
-        { "id": "B", "text": "6.0 V" },
-        { "id": "C", "text": "60 V" },
-        { "id": "D", "text": "600 V" }
+        {
+          "id": "A",
+          "text": "0.60 V"
+        },
+        {
+          "id": "B",
+          "text": "6.0 V"
+        },
+        {
+          "id": "C",
+          "text": "60 V"
+        },
+        {
+          "id": "D",
+          "text": "600 V"
+        }
       ],
       "answer": "C",
       "explanation": "ε_max = NBAω = 100(0.20)(0.050)(60) = 60 V.",
       "distractors": {}
     },
     {
-      "id": "u5-q08", "tier": "Exam level", "type": "mcq", "topic": "Faraday's Law",
+      "id": "u5-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Faraday's Law",
       "stem": "A bar magnet is dropped through a vertical copper tube. Compared with dropping it through a plastic tube, it falls",
       "choices": [
-        { "id": "A", "text": "more slowly, because induced eddy currents in the copper create fields that oppose its motion" },
-        { "id": "B", "text": "faster, because copper attracts the magnet" },
-        { "id": "C", "text": "at the same rate, because copper isn't magnetic" },
-        { "id": "D", "text": "and stops inside the tube" }
+        {
+          "id": "A",
+          "text": "and stops inside the tube"
+        },
+        {
+          "id": "B",
+          "text": "faster, because copper attracts the magnet"
+        },
+        {
+          "id": "C",
+          "text": "at the same rate, because copper isn't magnetic"
+        },
+        {
+          "id": "D",
+          "text": "more slowly, because induced eddy currents in the copper create fields that oppose its motion"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Changing flux induces currents that oppose the change (Lenz), producing an upward force.",
-      "distractors": { "C": "Copper isn't ferromagnetic but is a conductor." }
+      "distractors": {
+        "C": "Copper isn't ferromagnetic but is a conductor."
+      }
     },
     {
-      "id": "u5-q09", "tier": "Exam level", "type": "mcq", "topic": "LC Circuits",
+      "id": "u5-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "LC Circuits",
       "stem": "In an ideal LC circuit, when the capacitor's charge is maximum, the current is",
       "choices": [
-        { "id": "A", "text": "zero, and all energy is in the capacitor" },
-        { "id": "B", "text": "maximum" },
-        { "id": "C", "text": "half its maximum" },
-        { "id": "D", "text": "decreasing" }
+        {
+          "id": "A",
+          "text": "zero, and all energy is in the capacitor"
+        },
+        {
+          "id": "B",
+          "text": "maximum"
+        },
+        {
+          "id": "C",
+          "text": "half its maximum"
+        },
+        {
+          "id": "D",
+          "text": "decreasing"
+        }
       ],
       "answer": "A",
       "explanation": "Charge and current are 90° out of phase, like position and velocity in SHM.",
       "distractors": {}
     },
     {
-      "id": "u5-q10", "tier": "Exam level", "type": "mcq", "topic": "Maxwell's Equations",
+      "id": "u5-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Maxwell's Equations",
       "stem": "Which of Maxwell's equations expresses the fact that isolated magnetic poles (monopoles) have never been observed?",
       "choices": [
-        { "id": "A", "text": "∮E·dA = Q/ε₀" },
-        { "id": "B", "text": "∮B·dA = 0" },
-        { "id": "C", "text": "∮E·dℓ = −dΦ_B/dt" },
-        { "id": "D", "text": "∮B·dℓ = μ₀I + μ₀ε₀ dΦ_E/dt" }
+        {
+          "id": "A",
+          "text": "∮E·dA = Q/ε₀"
+        },
+        {
+          "id": "B",
+          "text": "∮B·dℓ = μ₀I + μ₀ε₀ dΦ_E/dt"
+        },
+        {
+          "id": "C",
+          "text": "∮E·dℓ = −dΦ_B/dt"
+        },
+        {
+          "id": "D",
+          "text": "∮B·dA = 0"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Net magnetic flux through any closed surface is zero.",
       "distractors": {}
     },
     {
-      "id": "u5-q11", "tier": "Hardest", "type": "mcq", "topic": "Faraday's Law",
+      "id": "u5-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Faraday's Law",
       "stem": "A square loop of side s is moving at speed v away from a long straight wire carrying current I, staying in the plane of the wire with its near side at distance x and its sides parallel and perpendicular to the wire. What is the flux through the loop?",
       "choices": [
-        { "id": "A", "text": "(μ₀Is/2π) ln[(x + s)/x]" },
-        { "id": "B", "text": "μ₀Is²/(2πx)" },
-        { "id": "C", "text": "μ₀Is/(2πx)" },
-        { "id": "D", "text": "0" }
+        {
+          "id": "A",
+          "text": "(μ₀Is/2π) ln[(x + s)/x]"
+        },
+        {
+          "id": "B",
+          "text": "μ₀Is²/(2πx)"
+        },
+        {
+          "id": "C",
+          "text": "μ₀Is/(2πx)"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
       ],
       "answer": "A",
       "explanation": "Φ = ∫ₓ^(x+s) [μ₀I/(2πr)] s dr = (μ₀Is/2π) ln[(x + s)/x].",
-      "distractors": { "B": "Treats B as uniform at its near-side value." }
+      "distractors": {
+        "B": "Treats B as uniform at its near-side value."
+      }
     },
     {
-      "id": "u5-q12", "tier": "Hardest", "type": "mcq", "topic": "RL Circuits",
+      "id": "u5-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "RL Circuits",
       "stem": "Starting from Kirchhoff's loop rule for an RL circuit with a battery, which differential equation describes the current?",
       "choices": [
-        { "id": "A", "text": "ε − IR − L dI/dt = 0" },
-        { "id": "B", "text": "ε − IR + L dI/dt = 0" },
-        { "id": "C", "text": "ε − L d²I/dt² = 0" },
-        { "id": "D", "text": "ε − I/(RL) = 0" }
+        {
+          "id": "A",
+          "text": "ε − IR + L dI/dt = 0"
+        },
+        {
+          "id": "B",
+          "text": "ε − IR − L dI/dt = 0"
+        },
+        {
+          "id": "C",
+          "text": "ε − L d²I/dt² = 0"
+        },
+        {
+          "id": "D",
+          "text": "ε − I/(RL) = 0"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The inductor's potential drop opposes increasing current: −L dI/dt.",
       "distractors": {}
     },
     {
-      "id": "u5-q13", "tier": "Hardest", "type": "mcq", "topic": "Energy in Inductors",
+      "id": "u5-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Energy in Inductors",
       "stem": "A long solenoid's current is doubled. By what factor does the magnetic energy stored per unit volume inside change?",
       "choices": [
-        { "id": "A", "text": "2" },
-        { "id": "B", "text": "4" },
-        { "id": "C", "text": "√2" },
-        { "id": "D", "text": "1" }
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "√2"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "1"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "B ∝ I and u_B ∝ B², so u_B ∝ I².",
       "distractors": {}
     },
     {
-      "id": "u5-q14", "tier": "Hardest", "type": "mcq", "topic": "LC Circuits",
+      "id": "u5-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "LC Circuits",
       "stem": "An LC circuit is analogous to a mass-spring system. Which pairing of analogous quantities is correct?",
       "choices": [
-        { "id": "A", "text": "Inductance ↔ mass; 1/C ↔ spring constant; charge ↔ displacement" },
-        { "id": "B", "text": "Capacitance ↔ mass; inductance ↔ spring constant" },
-        { "id": "C", "text": "Current ↔ displacement; charge ↔ velocity" },
-        { "id": "D", "text": "Resistance ↔ mass" }
+        {
+          "id": "A",
+          "text": "Capacitance ↔ mass; inductance ↔ spring constant"
+        },
+        {
+          "id": "B",
+          "text": "Inductance ↔ mass; 1/C ↔ spring constant; charge ↔ displacement"
+        },
+        {
+          "id": "C",
+          "text": "Current ↔ displacement; charge ↔ velocity"
+        },
+        {
+          "id": "D",
+          "text": "Resistance ↔ mass"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "L d²q/dt² + q/C = 0 matches m d²x/dt² + kx = 0.",
       "distractors": {}
     },
     {
-      "id": "u5-frq1", "tier": "Exam level", "type": "frq", "topic": "RL Circuits", "frqType": "Mathematical Routines (MR)",
+      "id": "u5-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "RL Circuits",
+      "frqType": "Mathematical Routines (MR)",
       "prompt": "A battery of emf ε, a resistor R, an inductor L, and a switch are connected in series. The switch is closed at t = 0.",
       "parts": [
-        { "label": "A", "prompt": "What is the current immediately after the switch is closed? Explain.", "points": 1 },
-        { "label": "B", "prompt": "Starting from Kirchhoff's loop rule, derive an expression for the current I(t).", "points": 3 },
-        { "label": "C", "prompt": "Determine the current a long time later and the energy stored in the inductor then.", "points": 2 },
-        { "label": "D", "prompt": "Derive the time at which the current reaches half its final value.", "points": 2 },
-        { "label": "E", "prompt": "After steady state is reached, the switch is opened suddenly, and a spark appears across the switch. Explain why.", "points": 2 }
+        {
+          "label": "A",
+          "prompt": "What is the current immediately after the switch is closed? Explain.",
+          "points": 1
+        },
+        {
+          "label": "B",
+          "prompt": "Starting from Kirchhoff's loop rule, derive an expression for the current I(t).",
+          "points": 3
+        },
+        {
+          "label": "C",
+          "prompt": "Determine the current a long time later and the energy stored in the inductor then.",
+          "points": 2
+        },
+        {
+          "label": "D",
+          "prompt": "Derive the time at which the current reaches half its final value.",
+          "points": 2
+        },
+        {
+          "label": "E",
+          "prompt": "After steady state is reached, the switch is opened suddenly, and a spark appears across the switch. Explain why.",
+          "points": 2
+        }
       ],
       "points": 10,
       "minutes": 22,
       "rubric": [
-        { "criterion": "A", "points": 1, "description": "Zero; the inductor's back emf opposes the sudden change in current." },
-        { "criterion": "B1: Loop rule", "points": 1, "description": "ε − IR − L dI/dt = 0." },
-        { "criterion": "B2: Separation", "points": 1, "description": "dI/(ε − IR) = dt/L, integrated with I(0) = 0." },
-        { "criterion": "B3: Result", "points": 1, "description": "I(t) = (ε/R)(1 − e^(−Rt/L))." },
-        { "criterion": "C1: Final current", "points": 1, "description": "I_f = ε/R." },
-        { "criterion": "C2: Energy", "points": 1, "description": "U = ½L(ε/R)²." },
-        { "criterion": "D1: Setup", "points": 1, "description": "1 − e^(−Rt/L) = ½." },
-        { "criterion": "D2: Result", "points": 1, "description": "t = (L/R) ln 2." },
-        { "criterion": "E1: Rapid change", "points": 1, "description": "Opening the switch makes the current drop very quickly, so dI/dt is very large." },
-        { "criterion": "E2: Large emf", "points": 1, "description": "The induced emf ε = −L dI/dt becomes very large, enough to ionize air across the gap; the stored magnetic energy is released in the spark." }
+        {
+          "criterion": "A",
+          "points": 1,
+          "description": "Zero; the inductor's back emf opposes the sudden change in current."
+        },
+        {
+          "criterion": "B1: Loop rule",
+          "points": 1,
+          "description": "ε − IR − L dI/dt = 0."
+        },
+        {
+          "criterion": "B2: Separation",
+          "points": 1,
+          "description": "dI/(ε − IR) = dt/L, integrated with I(0) = 0."
+        },
+        {
+          "criterion": "B3: Result",
+          "points": 1,
+          "description": "I(t) = (ε/R)(1 − e^(−Rt/L))."
+        },
+        {
+          "criterion": "C1: Final current",
+          "points": 1,
+          "description": "I_f = ε/R."
+        },
+        {
+          "criterion": "C2: Energy",
+          "points": 1,
+          "description": "U = ½L(ε/R)²."
+        },
+        {
+          "criterion": "D1: Setup",
+          "points": 1,
+          "description": "1 − e^(−Rt/L) = ½."
+        },
+        {
+          "criterion": "D2: Result",
+          "points": 1,
+          "description": "t = (L/R) ln 2."
+        },
+        {
+          "criterion": "E1: Rapid change",
+          "points": 1,
+          "description": "Opening the switch makes the current drop very quickly, so dI/dt is very large."
+        },
+        {
+          "criterion": "E2: Large emf",
+          "points": 1,
+          "description": "The induced emf ε = −L dI/dt becomes very large, enough to ionize air across the gap; the stored magnetic energy is released in the spark."
+        }
       ],
       "sampleResponse": "A. Zero. The inductor produces an emf opposing any change in current, so the current cannot jump instantly from zero.\n\nB. Kirchhoff's loop rule: ε − IR − L dI/dt = 0. Rearranging: dI/(ε − IR) = dt/L. Integrating from I = 0 at t = 0: −(1/R) ln[(ε − IR)/ε] = t/L. Solving: I(t) = (ε/R)(1 − e^(−Rt/L)).\n\nC. As t → ∞, e^(−Rt/L) → 0, so I = ε/R. The stored energy is U = ½LI² = ½L(ε/R)².\n\nD. Set I = ½(ε/R): 1 − e^(−Rt/L) = ½ → e^(−Rt/L) = ½ → t = (L/R) ln 2.\n\nE. Opening the switch tries to drop the current to zero almost instantly, making dI/dt enormous. The inductor responds with a very large emf, ε = −L dI/dt, that tries to keep the current flowing. This voltage is large enough to ionize the air across the opening switch, and the energy stored in the inductor's magnetic field is released as a spark."
     }

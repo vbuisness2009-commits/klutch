@@ -51,231 +51,587 @@
     "cramSheet": "**Energy:** one-way · ~10% to next level · rest lost as heat\n\n**Cycles:** C (photosynthesis/respiration) · N (fixation → nitrification → denitrification) · P (rock, no gas phase)\n\n**Growth:** exponential dN/dt = rN · logistic dN/dt = rN(K−N)/K · fastest at K/2\n\n**Density-dependent:** competition, disease, predation · **independent:** weather, fire\n\n**Interactions:** competition −/− · predation +/− · mutualism +/+ · commensalism +/0 · parasitism +/−\n\n**Simpson:** D = 1 − Σ(n/N)²\n\n**Keystone:** big effect, small numbers · **Invasive:** no predators\n\n**Eutrophication:** nutrients → bloom → die-off → decomposers use O₂ → hypoxia"
   },
   "vocab": [
-    { "term": "Trophic level", "definition": "A feeding position in a food chain: producer, primary consumer, secondary consumer, and so on." },
-    { "term": "Primary productivity", "definition": "The rate at which producers convert light energy into chemical energy (biomass)." },
-    { "term": "10% rule", "definition": "Roughly 10% of energy at one trophic level is transferred to the next." },
-    { "term": "Endotherm", "definition": "An organism that maintains body temperature using heat from its own metabolism." },
-    { "term": "Ectotherm", "definition": "An organism whose body temperature depends mainly on external heat sources." },
-    { "term": "Carrying capacity (K)", "definition": "The maximum population size an environment can sustain." },
-    { "term": "Exponential growth", "definition": "Population growth at a constant per capita rate, producing a J-shaped curve." },
-    { "term": "Logistic growth", "definition": "Population growth that slows as size approaches carrying capacity, producing an S-shaped curve." },
-    { "term": "Density-dependent factor", "definition": "A limiting factor whose effect increases with population density, such as disease or competition." },
-    { "term": "Density-independent factor", "definition": "A limiting factor that affects populations regardless of density, such as a flood." },
-    { "term": "Mutualism", "definition": "An interaction in which both species benefit." },
-    { "term": "Keystone species", "definition": "A species whose impact on its community is much larger than its abundance would suggest." },
-    { "term": "Simpson's diversity index", "definition": "D = 1 − Σ(n/N)², a measure of diversity accounting for richness and evenness." },
-    { "term": "Invasive species", "definition": "A non-native species that spreads and harms its new ecosystem." },
-    { "term": "Eutrophication", "definition": "Nutrient enrichment of water that causes algal blooms and oxygen depletion." },
-    { "term": "Nitrogen fixation", "definition": "Conversion of atmospheric N₂ into ammonia by certain bacteria." }
+    {
+      "term": "Trophic level",
+      "definition": "A feeding position in a food chain: producer, primary consumer, secondary consumer, and so on."
+    },
+    {
+      "term": "Primary productivity",
+      "definition": "The rate at which producers convert light energy into chemical energy (biomass)."
+    },
+    {
+      "term": "10% rule",
+      "definition": "Roughly 10% of energy at one trophic level is transferred to the next."
+    },
+    {
+      "term": "Endotherm",
+      "definition": "An organism that maintains body temperature using heat from its own metabolism."
+    },
+    {
+      "term": "Ectotherm",
+      "definition": "An organism whose body temperature depends mainly on external heat sources."
+    },
+    {
+      "term": "Carrying capacity (K)",
+      "definition": "The maximum population size an environment can sustain."
+    },
+    {
+      "term": "Exponential growth",
+      "definition": "Population growth at a constant per capita rate, producing a J-shaped curve."
+    },
+    {
+      "term": "Logistic growth",
+      "definition": "Population growth that slows as size approaches carrying capacity, producing an S-shaped curve."
+    },
+    {
+      "term": "Density-dependent factor",
+      "definition": "A limiting factor whose effect increases with population density, such as disease or competition."
+    },
+    {
+      "term": "Density-independent factor",
+      "definition": "A limiting factor that affects populations regardless of density, such as a flood."
+    },
+    {
+      "term": "Mutualism",
+      "definition": "An interaction in which both species benefit."
+    },
+    {
+      "term": "Keystone species",
+      "definition": "A species whose impact on its community is much larger than its abundance would suggest."
+    },
+    {
+      "term": "Simpson's diversity index",
+      "definition": "D = 1 − Σ(n/N)², a measure of diversity accounting for richness and evenness."
+    },
+    {
+      "term": "Invasive species",
+      "definition": "A non-native species that spreads and harms its new ecosystem."
+    },
+    {
+      "term": "Eutrophication",
+      "definition": "Nutrient enrichment of water that causes algal blooms and oxygen depletion."
+    },
+    {
+      "term": "Nitrogen fixation",
+      "definition": "Conversion of atmospheric N₂ into ammonia by certain bacteria."
+    }
   ],
   "practice": [
     {
-      "id": "u8-q01", "tier": "Intro", "type": "mcq", "topic": "8.2 Energy Flow Through Ecosystems",
+      "id": "u8-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "8.2 Energy Flow Through Ecosystems",
       "stem": "Producers in an ecosystem contain 10,000 kcal of energy. Approximately how much energy is available to secondary consumers?",
       "choices": [
-        { "id": "A", "text": "100 kcal" },
-        { "id": "B", "text": "1,000 kcal" },
-        { "id": "C", "text": "10 kcal" },
-        { "id": "D", "text": "5,000 kcal" }
+        {
+          "id": "A",
+          "text": "5,000 kcal"
+        },
+        {
+          "id": "B",
+          "text": "1,000 kcal"
+        },
+        {
+          "id": "C",
+          "text": "10 kcal"
+        },
+        {
+          "id": "D",
+          "text": "100 kcal"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "About 10% passes each step: 10,000 → 1,000 (primary) → 100 (secondary).",
-      "distractors": { "B": "That's the primary consumers.", "C": "That's the tertiary consumers." }
+      "distractors": {
+        "B": "That's the primary consumers.",
+        "C": "That's the tertiary consumers."
+      }
     },
     {
-      "id": "u8-q02", "tier": "Intro", "type": "mcq", "topic": "8.5 Community Ecology",
+      "id": "u8-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "8.5 Community Ecology",
       "stem": "Bees collect nectar from flowers and transfer pollen between them. This relationship is",
       "choices": [
-        { "id": "A", "text": "mutualism" },
-        { "id": "B", "text": "commensalism" },
-        { "id": "C", "text": "parasitism" },
-        { "id": "D", "text": "competition" }
+        {
+          "id": "A",
+          "text": "mutualism"
+        },
+        {
+          "id": "B",
+          "text": "commensalism"
+        },
+        {
+          "id": "C",
+          "text": "parasitism"
+        },
+        {
+          "id": "D",
+          "text": "competition"
+        }
       ],
       "answer": "A",
       "explanation": "Bees get food and plants get pollinated: both benefit.",
-      "distractors": { "B": "In commensalism one species is unaffected." }
+      "distractors": {
+        "B": "In commensalism one species is unaffected."
+      }
     },
     {
-      "id": "u8-q03", "tier": "Intro", "type": "mcq", "topic": "8.4 Effect of Density of Populations",
+      "id": "u8-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "8.4 Effect of Density of Populations",
       "stem": "In logistic population growth, the population size eventually levels off at the",
       "choices": [
-        { "id": "A", "text": "carrying capacity" },
-        { "id": "B", "text": "maximum per capita growth rate" },
-        { "id": "C", "text": "point where births stop entirely" },
-        { "id": "D", "text": "half of its starting size" }
+        {
+          "id": "A",
+          "text": "point where births stop entirely"
+        },
+        {
+          "id": "B",
+          "text": "maximum per capita growth rate"
+        },
+        {
+          "id": "C",
+          "text": "carrying capacity"
+        },
+        {
+          "id": "D",
+          "text": "half of its starting size"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Births and deaths balance at K, the number the environment can sustain.",
-      "distractors": { "C": "Births continue; they're matched by deaths." }
+      "distractors": {
+        "A": "Births continue; they're matched by deaths."
+      }
     },
     {
-      "id": "u8-q04", "tier": "Intro", "type": "mcq", "topic": "8.2 Energy Flow Through Ecosystems",
+      "id": "u8-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "8.2 Energy Flow Through Ecosystems",
       "stem": "Which organisms convert atmospheric N₂ into ammonia that plants can use?",
       "choices": [
-        { "id": "A", "text": "Nitrogen-fixing bacteria" },
-        { "id": "B", "text": "Denitrifying bacteria" },
-        { "id": "C", "text": "Green plants" },
-        { "id": "D", "text": "Fungi" }
+        {
+          "id": "A",
+          "text": "Denitrifying bacteria"
+        },
+        {
+          "id": "B",
+          "text": "Nitrogen-fixing bacteria"
+        },
+        {
+          "id": "C",
+          "text": "Green plants"
+        },
+        {
+          "id": "D",
+          "text": "Fungi"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Nitrogen-fixing bacteria, some living in root nodules of legumes, reduce N₂ to NH₃.",
-      "distractors": { "B": "These convert nitrate back into N₂, the reverse." }
+      "distractors": {
+        "A": "These convert nitrate back into N₂, the reverse."
+      }
     },
     {
-      "id": "u8-q05", "tier": "Exam level", "type": "mcq", "topic": "8.3 Population Ecology",
+      "id": "u8-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "8.3 Population Ecology",
       "stem": "A population of 500 rabbits grows exponentially with r_max = 0.1 per month. Using dN/dt = r_max·N, how many rabbits are added per month at this size?",
       "choices": [
-        { "id": "A", "text": "50" },
-        { "id": "B", "text": "5" },
-        { "id": "C", "text": "550" },
-        { "id": "D", "text": "500" }
+        {
+          "id": "A",
+          "text": "500"
+        },
+        {
+          "id": "B",
+          "text": "5"
+        },
+        {
+          "id": "C",
+          "text": "550"
+        },
+        {
+          "id": "D",
+          "text": "50"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "0.1 × 500 = 50 rabbits per month.",
-      "distractors": { "C": "That's the new population size, not the rate." }
+      "distractors": {
+        "C": "That's the new population size, not the rate."
+      }
     },
     {
-      "id": "u8-q06", "tier": "Exam level", "type": "mcq", "topic": "8.4 Effect of Density of Populations",
+      "id": "u8-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "8.4 Effect of Density of Populations",
       "stem": "A population with r_max = 0.1 per year and carrying capacity 1,000 currently has 500 individuals. Using dN/dt = r_max·N·(K − N)/K, what is its growth rate?",
       "choices": [
-        { "id": "A", "text": "25 individuals per year" },
-        { "id": "B", "text": "50 individuals per year" },
-        { "id": "C", "text": "0 individuals per year" },
-        { "id": "D", "text": "100 individuals per year" }
+        {
+          "id": "A",
+          "text": "25 individuals per year"
+        },
+        {
+          "id": "B",
+          "text": "50 individuals per year"
+        },
+        {
+          "id": "C",
+          "text": "0 individuals per year"
+        },
+        {
+          "id": "D",
+          "text": "100 individuals per year"
+        }
       ],
       "answer": "A",
       "explanation": "0.1 × 500 × (500/1,000) = 25.",
-      "distractors": { "B": "Ignored the (K − N)/K term.", "C": "That's the rate at carrying capacity." }
+      "distractors": {
+        "B": "Ignored the (K − N)/K term.",
+        "C": "That's the rate at carrying capacity."
+      }
     },
     {
-      "id": "u8-q07", "tier": "Exam level", "type": "mcq", "topic": "8.5 Community Ecology",
+      "id": "u8-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "8.5 Community Ecology",
       "stem": "Sea otters eat sea urchins, which graze on kelp. When otters were hunted out of an area, kelp forests nearly disappeared. Sea otters are best described as",
       "choices": [
-        { "id": "A", "text": "a keystone species" },
-        { "id": "B", "text": "an invasive species" },
-        { "id": "C", "text": "a primary producer" },
-        { "id": "D", "text": "a decomposer" }
+        {
+          "id": "A",
+          "text": "a primary producer"
+        },
+        {
+          "id": "B",
+          "text": "an invasive species"
+        },
+        {
+          "id": "C",
+          "text": "a keystone species"
+        },
+        {
+          "id": "D",
+          "text": "a decomposer"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Removing otters let urchins multiply and destroy kelp, changing the whole community: an outsized effect.",
-      "distractors": { "B": "Otters are native to the area." }
+      "distractors": {
+        "B": "Otters are native to the area."
+      }
     },
     {
-      "id": "u8-q08", "tier": "Exam level", "type": "mcq", "topic": "8.6 Biodiversity",
+      "id": "u8-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "8.6 Biodiversity",
       "stem": "Community X has 10 individuals of species A and 10 of species B. Community Y has 18 of species A and 2 of species B. Using Simpson's diversity index D = 1 − Σ(n/N)², which statement is correct?",
       "choices": [
-        { "id": "A", "text": "X is more diverse, with D = 0.50 compared with 0.18 for Y." },
-        { "id": "B", "text": "Y is more diverse, with D = 0.82 compared with 0.50 for X." },
-        { "id": "C", "text": "Both are equally diverse because they have the same number of species." },
-        { "id": "D", "text": "X is more diverse, with D = 0.25 compared with 0.81 for Y." }
+        {
+          "id": "A",
+          "text": "X is more diverse, with D = 0.50 compared with 0.18 for Y."
+        },
+        {
+          "id": "B",
+          "text": "Y is more diverse, with D = 0.82 compared with 0.50 for X."
+        },
+        {
+          "id": "C",
+          "text": "Both are equally diverse because they have the same number of species."
+        },
+        {
+          "id": "D",
+          "text": "X is more diverse, with D = 0.25 compared with 0.81 for Y."
+        }
       ],
       "answer": "A",
       "explanation": "X: 1 − (0.5² + 0.5²) = 0.50. Y: 1 − (0.9² + 0.1²) = 1 − 0.82 = 0.18. Evenness makes X more diverse.",
-      "distractors": { "B": "Forgot to subtract Σ from 1.", "C": "Ignores evenness." }
+      "distractors": {
+        "B": "Forgot to subtract Σ from 1.",
+        "C": "Ignores evenness."
+      }
     },
     {
-      "id": "u8-q09", "tier": "Exam level", "type": "mcq", "topic": "8.7 Disruptions to Ecosystems",
+      "id": "u8-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "8.7 Disruptions to Ecosystems",
       "stem": "A plant introduced to a new continent spreads rapidly and displaces native plants. Which is the most likely reason?",
       "choices": [
-        { "id": "A", "text": "It lacks the herbivores and diseases that limited it in its native range." },
-        { "id": "B", "text": "It has a lower reproductive rate than native species." },
-        { "id": "C", "text": "Native plants evolved to depend on it." },
-        { "id": "D", "text": "It cannot compete for light." }
+        {
+          "id": "A",
+          "text": "It has a lower reproductive rate than native species."
+        },
+        {
+          "id": "B",
+          "text": "It lacks the herbivores and diseases that limited it in its native range."
+        },
+        {
+          "id": "C",
+          "text": "Native plants evolved to depend on it."
+        },
+        {
+          "id": "D",
+          "text": "It cannot compete for light."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Escape from natural enemies lets invasive species grow and reproduce faster than natives that still face them.",
-      "distractors": { "B": "A lower reproductive rate would make spreading harder." }
+      "distractors": {
+        "A": "A lower reproductive rate would make spreading harder."
+      }
     },
     {
-      "id": "u8-q10", "tier": "Exam level", "type": "mcq", "topic": "8.1 Responses to the Environment",
+      "id": "u8-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "8.1 Responses to the Environment",
       "stem": "A 20-gram mouse and a 20-gram lizard are kept at 15°C. Which is most likely?",
       "choices": [
-        { "id": "A", "text": "The mouse consumes much more food, because it uses metabolic energy to maintain body temperature." },
-        { "id": "B", "text": "The lizard consumes more food, because it must generate heat in the cold." },
-        { "id": "C", "text": "Both consume equal food, because they have equal mass." },
-        { "id": "D", "text": "The mouse consumes less food, because fur eliminates heat loss." }
+        {
+          "id": "A",
+          "text": "The mouse consumes less food, because fur eliminates heat loss."
+        },
+        {
+          "id": "B",
+          "text": "The lizard consumes more food, because it must generate heat in the cold."
+        },
+        {
+          "id": "C",
+          "text": "Both consume equal food, because they have equal mass."
+        },
+        {
+          "id": "D",
+          "text": "The mouse consumes much more food, because it uses metabolic energy to maintain body temperature."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The endothermic mouse burns energy to stay warm; the ectothermic lizard's metabolism slows in the cold.",
-      "distractors": { "B": "Lizards are ectotherms and don't generate much metabolic heat.", "D": "Fur reduces heat loss but doesn't eliminate it." }
+      "distractors": {
+        "B": "Lizards are ectotherms and don't generate much metabolic heat.",
+        "A": "Fur reduces heat loss but doesn't eliminate it."
+      }
     },
     {
-      "id": "u8-q11", "tier": "Hardest", "type": "mcq", "topic": "8.4 Effect of Density of Populations",
+      "id": "u8-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "8.4 Effect of Density of Populations",
       "stimulus": "| Year | 0 | 2 | 4 | 6 | 8 | 10 | 12 |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Population | 100 | 200 | 400 | 700 | 900 | 980 | 1,000 |",
       "stem": "A population follows logistic growth. Based on the data, at approximately what population size was the number of individuals added per year greatest?",
       "choices": [
-        { "id": "A", "text": "About 500" },
-        { "id": "B", "text": "About 1,000" },
-        { "id": "C", "text": "About 100" },
-        { "id": "D", "text": "About 900" }
+        {
+          "id": "A",
+          "text": "About 100"
+        },
+        {
+          "id": "B",
+          "text": "About 1,000"
+        },
+        {
+          "id": "C",
+          "text": "About 500"
+        },
+        {
+          "id": "D",
+          "text": "About 900"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Carrying capacity is about 1,000. Logistic growth is fastest at K/2. The data agree: the largest increase (+300) is between years 4 and 6, as the population passes 500.",
-      "distractors": { "B": "Growth stops at K.", "C": "The per capita rate is highest at low N, but the number added is small." }
+      "distractors": {
+        "B": "Growth stops at K.",
+        "A": "The per capita rate is highest at low N, but the number added is small."
+      }
     },
     {
-      "id": "u8-q12", "tier": "Hardest", "type": "mcq", "topic": "8.4 Effect of Density of Populations",
+      "id": "u8-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "8.4 Effect of Density of Populations",
       "stem": "Which is an example of a density-dependent factor limiting population growth?",
       "choices": [
-        { "id": "A", "text": "A viral disease that spreads more quickly when individuals live close together" },
-        { "id": "B", "text": "An early frost that kills most of the insects in a region" },
-        { "id": "C", "text": "A wildfire that destroys a forest" },
-        { "id": "D", "text": "A volcanic eruption" }
+        {
+          "id": "A",
+          "text": "A volcanic eruption"
+        },
+        {
+          "id": "B",
+          "text": "An early frost that kills most of the insects in a region"
+        },
+        {
+          "id": "C",
+          "text": "A wildfire that destroys a forest"
+        },
+        {
+          "id": "D",
+          "text": "A viral disease that spreads more quickly when individuals live close together"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Disease transmission increases with crowding, so its effect grows with density.",
-      "distractors": { "B": "Frost kills a similar fraction regardless of density." }
+      "distractors": {
+        "B": "Frost kills a similar fraction regardless of density."
+      }
     },
     {
-      "id": "u8-q13", "tier": "Hardest", "type": "mcq", "topic": "8.2 Energy Flow Through Ecosystems",
+      "id": "u8-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "8.2 Energy Flow Through Ecosystems",
       "stem": "In some ocean ecosystems, the standing biomass of zooplankton exceeds that of phytoplankton at any given time. Which explains how this is possible?",
       "choices": [
-        { "id": "A", "text": "Phytoplankton reproduce and are consumed so rapidly that a small standing biomass supports a high rate of production." },
-        { "id": "B", "text": "Zooplankton perform photosynthesis as well." },
-        { "id": "C", "text": "Energy transfer between these levels is close to 100%." },
-        { "id": "D", "text": "Zooplankton obtain most of their energy from decomposers." }
+        {
+          "id": "A",
+          "text": "Zooplankton perform photosynthesis as well."
+        },
+        {
+          "id": "B",
+          "text": "Phytoplankton reproduce and are consumed so rapidly that a small standing biomass supports a high rate of production."
+        },
+        {
+          "id": "C",
+          "text": "Energy transfer between these levels is close to 100%."
+        },
+        {
+          "id": "D",
+          "text": "Zooplankton obtain most of their energy from decomposers."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Biomass is a snapshot; productivity is a rate. Fast turnover lets phytoplankton supply far more energy over time than their standing biomass suggests.",
-      "distractors": { "C": "The 10% rule still holds; the inverted pyramid is about biomass, not energy." }
+      "distractors": {
+        "C": "The 10% rule still holds; the inverted pyramid is about biomass, not energy."
+      }
     },
     {
-      "id": "u8-q14", "tier": "Hardest", "type": "mcq", "topic": "8.7 Disruptions to Ecosystems",
+      "id": "u8-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "8.7 Disruptions to Ecosystems",
       "stem": "After heavy fertilizer runoff into a lake, an algal bloom occurs, followed weeks later by a fish die-off. Which sequence best explains the die-off?",
       "choices": [
-        { "id": "A", "text": "Algae die, decomposers break them down using dissolved oxygen, and oxygen levels fall too low for fish." },
-        { "id": "B", "text": "Algae release toxins from the fertilizer that poison fish." },
-        { "id": "C", "text": "Algae produce so much oxygen that fish suffer oxygen toxicity." },
-        { "id": "D", "text": "Fish eat the fertilizer directly and are poisoned." }
+        {
+          "id": "A",
+          "text": "Algae die, decomposers break them down using dissolved oxygen, and oxygen levels fall too low for fish."
+        },
+        {
+          "id": "B",
+          "text": "Algae release toxins from the fertilizer that poison fish."
+        },
+        {
+          "id": "C",
+          "text": "Algae produce so much oxygen that fish suffer oxygen toxicity."
+        },
+        {
+          "id": "D",
+          "text": "Fish eat the fertilizer directly and are poisoned."
+        }
       ],
       "answer": "A",
       "explanation": "Eutrophication: nutrients fuel the bloom; the decomposition of dead algae by aerobic bacteria consumes O₂.",
-      "distractors": { "B": "Some blooms are toxic, but the general mechanism is oxygen depletion.", "C": "Algae add O₂ in the day, but the decomposition afterward depletes it." }
+      "distractors": {
+        "B": "Some blooms are toxic, but the general mechanism is oxygen depletion.",
+        "C": "Algae add O₂ in the day, but the decomposition afterward depletes it."
+      }
     },
     {
-      "id": "u8-frq1", "tier": "Exam level", "type": "frq", "topic": "8.2, 8.7 Nutrient cycling and eutrophication", "frqType": "Q1 Interpreting and Evaluating Experimental Results",
+      "id": "u8-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "8.2, 8.7 Nutrient cycling and eutrophication",
+      "frqType": "Q1 Interpreting and Evaluating Experimental Results",
       "prompt": "Researchers added phosphate to three similar ponds and, after six weeks, measured algal biomass and the dissolved oxygen concentration just before dawn.",
       "stimulus": "| Phosphate added (mg/L) | 0 | 1 | 5 |\n| --- | --- | --- | --- |\n| Algal biomass (g/m²) | 2 | 6 | 15 |\n| Pre-dawn dissolved O₂ (mg/L) | 8 | 6 | 2 |",
       "parts": [
-        { "label": "a", "prompt": "Describe the role of decomposers in the cycling of phosphorus in a pond.", "points": 1 },
-        { "label": "b", "prompt": "Identify the independent variable and one dependent variable in the experiment.", "points": 2 },
-        { "label": "c", "prompt": "Identify the control treatment.", "points": 1 },
-        { "label": "d", "prompt": "Describe the relationship between phosphate added and algal biomass, and explain why pre-dawn dissolved oxygen decreases as algal biomass increases.", "points": 2 },
-        { "label": "e", "prompt": "Predict the effect on fish populations in the 5 mg/L pond, and justify your prediction.", "points": 2 },
-        { "label": "f", "prompt": "Explain why adding phosphate increases algal growth.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Describe the role of decomposers in the cycling of phosphorus in a pond.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Identify the independent variable and one dependent variable in the experiment.",
+          "points": 2
+        },
+        {
+          "label": "c",
+          "prompt": "Identify the control treatment.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Describe the relationship between phosphate added and algal biomass, and explain why pre-dawn dissolved oxygen decreases as algal biomass increases.",
+          "points": 2
+        },
+        {
+          "label": "e",
+          "prompt": "Predict the effect on fish populations in the 5 mg/L pond, and justify your prediction.",
+          "points": 2
+        },
+        {
+          "label": "f",
+          "prompt": "Explain why adding phosphate increases algal growth.",
+          "points": 1
+        }
       ],
       "points": 9,
       "minutes": 25,
       "rubric": [
-        { "criterion": "(a) Decomposers", "points": 1, "description": "Break down dead organisms and wastes, releasing phosphate back into the water for producers." },
-        { "criterion": "(b) Independent variable", "points": 1, "description": "Amount of phosphate added." },
-        { "criterion": "(b) Dependent variable", "points": 1, "description": "Algal biomass or pre-dawn dissolved O₂." },
-        { "criterion": "(c) Control", "points": 1, "description": "The pond with 0 mg/L phosphate added." },
-        { "criterion": "(d) Relationship", "points": 1, "description": "Algal biomass increases as phosphate increases." },
-        { "criterion": "(d) Oxygen explanation", "points": 1, "description": "At night there's no photosynthesis, but algae and decomposers continue cellular respiration, consuming O₂; more biomass means more O₂ consumed." },
-        { "criterion": "(e) Prediction", "points": 1, "description": "Fish populations will decline (fish may die)." },
-        { "criterion": "(e) Justification", "points": 1, "description": "2 mg/L O₂ is too low for most fish to perform enough aerobic respiration." },
-        { "criterion": "(f) Phosphate as limiting nutrient", "points": 1, "description": "Phosphorus is needed to build nucleic acids, ATP, and phospholipids; it was the limiting nutrient." }
+        {
+          "criterion": "(a) Decomposers",
+          "points": 1,
+          "description": "Break down dead organisms and wastes, releasing phosphate back into the water for producers."
+        },
+        {
+          "criterion": "(b) Independent variable",
+          "points": 1,
+          "description": "Amount of phosphate added."
+        },
+        {
+          "criterion": "(b) Dependent variable",
+          "points": 1,
+          "description": "Algal biomass or pre-dawn dissolved O₂."
+        },
+        {
+          "criterion": "(c) Control",
+          "points": 1,
+          "description": "The pond with 0 mg/L phosphate added."
+        },
+        {
+          "criterion": "(d) Relationship",
+          "points": 1,
+          "description": "Algal biomass increases as phosphate increases."
+        },
+        {
+          "criterion": "(d) Oxygen explanation",
+          "points": 1,
+          "description": "At night there's no photosynthesis, but algae and decomposers continue cellular respiration, consuming O₂; more biomass means more O₂ consumed."
+        },
+        {
+          "criterion": "(e) Prediction",
+          "points": 1,
+          "description": "Fish populations will decline (fish may die)."
+        },
+        {
+          "criterion": "(e) Justification",
+          "points": 1,
+          "description": "2 mg/L O₂ is too low for most fish to perform enough aerobic respiration."
+        },
+        {
+          "criterion": "(f) Phosphate as limiting nutrient",
+          "points": 1,
+          "description": "Phosphorus is needed to build nucleic acids, ATP, and phospholipids; it was the limiting nutrient."
+        }
       ],
       "sampleResponse": "(a) Decomposers break down dead algae, animals, and waste, releasing the phosphate in their tissues back into the water where producers can absorb it again.\n\n(b) Independent variable: the amount of phosphate added. Dependent variable: algal biomass (also pre-dawn dissolved oxygen).\n\n(c) The pond with 0 mg/L phosphate added is the control.\n\n(d) As phosphate increases, algal biomass increases, from 2 to 15 g/m². At night, algae can't photosynthesize but still carry out cellular respiration, consuming oxygen. Decomposers breaking down dead algae also consume oxygen. More algae means more oxygen used overnight, so pre-dawn O₂ falls.\n\n(e) Fish populations in the 5 mg/L pond will likely decline. At 2 mg/L, there is too little dissolved oxygen for fish to sustain aerobic respiration, so many will die or leave.\n\n(f) Phosphorus is required to make nucleic acids, ATP, and phospholipids for cell membranes. It was the limiting nutrient, so adding it let algae grow and divide faster."
     }

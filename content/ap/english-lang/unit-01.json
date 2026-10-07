@@ -182,19 +182,19 @@
         },
         {
           "id": "C",
-          "text": "suggest that students were misusing the library"
+          "text": "list kinds of library use that circulation data overlook"
         },
         {
           "id": "D",
-          "text": "list kinds of library use that circulation data overlook"
+          "text": "suggest that students were misusing the library"
         }
       ],
-      "answer": "D",
+      "answer": "C",
       "explanation": "Each sentence beginning \"It does not count\" names a use of the library (staying late, rereading, seeking quiet) that a count of borrowed books cannot capture.",
       "distractors": {
         "A": "The principal explicitly says \"The numbers were accurate.\"",
         "B": "No one is blamed; the limitation is in the measure, not the staff.",
-        "C": "The uses described are presented sympathetically."
+        "D": "The uses described are presented sympathetically."
       }
     },
     {
@@ -216,19 +216,19 @@
         },
         {
           "id": "C",
-          "text": "establish the speaker's credibility by admitting a mistake before presenting what changed his mind"
+          "text": "introduce a digression about the unreliability of administrators"
         },
         {
           "id": "D",
-          "text": "introduce a digression about the unreliability of administrators"
+          "text": "establish the speaker's credibility by admitting a mistake before presenting what changed his mind"
         }
       ],
-      "answer": "C",
+      "answer": "D",
       "explanation": "The short, blunt admission makes the principal appear honest and sets up the rest of the speech as an account of how he learned he was wrong. Admitting error to an audience that heard the original announcement builds ethos.",
       "distractors": {
         "A": "The speech explains why the decision was reversed, not defended.",
         "B": "\"I believed every word\" rules out deliberate deception.",
-        "D": "The speech stays on the library; the self-description in paragraph 1 is brief and leads directly to the main point."
+        "C": "The speech stays on the library; the self-description in paragraph 1 is brief and leads directly to the main point."
       }
     },
     {
@@ -246,7 +246,7 @@
         },
         {
           "id": "B",
-          "text": "reveals that the circulation statistics had been miscalculated"
+          "text": "concedes that the original evidence was accurate while challenging its relevance to the decision"
         },
         {
           "id": "C",
@@ -254,15 +254,15 @@
         },
         {
           "id": "D",
-          "text": "concedes that the original evidence was accurate while challenging its relevance to the decision"
+          "text": "reveals that the circulation statistics had been miscalculated"
         }
       ],
-      "answer": "D",
+      "answer": "B",
       "explanation": "The principal keeps the data (\"The numbers were accurate\") but argues they answered the wrong question: borrowing is not the same as using the library. That is a concession about accuracy paired with a challenge about relevance.",
       "distractors": {
         "A": "Nothing suggests the parents misunderstood.",
-        "B": "Directly contradicted by \"The numbers were accurate.\"",
-        "C": "He relied on circulation data; the problem is what the data captured."
+        "C": "He relied on circulation data; the problem is what the data captured.",
+        "D": "Directly contradicted by \"The numbers were accurate.\""
       }
     },
     {
@@ -276,7 +276,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "acknowledge the student's role with warmth and humor in front of an audience that includes her"
+          "text": "protect the student's privacy because her findings were controversial"
         },
         {
           "id": "B",
@@ -284,19 +284,19 @@
         },
         {
           "id": "C",
-          "text": "protect the student's privacy because her findings were controversial"
+          "text": "acknowledge the student's role with warmth and humor in front of an audience that includes her"
         },
         {
           "id": "D",
           "text": "suggest that the student exaggerated the results of her survey"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The aside is playful: it refuses to name her while all but pointing to her. It recognizes her contribution publicly and lightens the tone of the speech for the parents in the room.",
       "distractors": {
         "B": "It was the student who was \"annoyed\"; the principal's tone is affectionate.",
-        "C": "He effectively identifies her, so privacy is not the aim, and nothing suggests controversy.",
-        "D": "Her numbers are reported without doubt and drive the reversal."
+        "D": "Her numbers are reported without doubt and drive the reversal.",
+        "A": "He effectively identifies her, so privacy is not the aim, and nothing suggests controversy."
       }
     },
     {
@@ -310,7 +310,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "recorded visits and their purposes rather than items borrowed"
+          "text": "included visitors from outside the school"
         },
         {
           "id": "B",
@@ -322,15 +322,15 @@
         },
         {
           "id": "D",
-          "text": "included visitors from outside the school"
+          "text": "recorded visits and their purposes rather than items borrowed"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Circulation counted books leaving the building; the student counted \"people\" and asked \"what they had come for.\" The difference is in what was measured.",
       "distractors": {
         "B": "Ten school days is far shorter than a decade of circulation data.",
         "C": "It was firsthand observation with a tally sheet, and the principal stresses it appeared in no report.",
-        "D": "Nothing indicates outside visitors."
+        "A": "Nothing indicates outside visitors."
       }
     },
     {
@@ -348,23 +348,23 @@
         },
         {
           "id": "B",
-          "text": "believes the student's data were too limited to be trusted"
+          "text": "values the student's reframing of the question more than any power her data had to settle the issue by itself"
         },
         {
           "id": "C",
-          "text": "values the student's reframing of the question more than any power her data had to settle the issue by itself"
+          "text": "believes the student's data were too limited to be trusted"
         },
         {
           "id": "D",
           "text": "wants to minimize the student's contribution to the decision"
         }
       ],
-      "answer": "C",
+      "answer": "B",
       "explanation": "\"More modest\": the tally alone could not decide the library's future. \"More important\": it revealed that the principal had been asking the wrong question. The emphasis falls on the new question in the rest of the paragraph (\"Where do students go when they need to think?\"), so the reframing is what he values most.",
       "distractors": {
         "A": "Overgeneralizes a judgment about one piece of evidence into a universal rule.",
-        "B": "He calls the proof modest in scope, not untrustworthy, and the data are accepted.",
-        "D": "Calling her finding \"more important\" elevates, rather than minimizes, her contribution."
+        "D": "Calling her finding \"more important\" elevates, rather than minimizes, her contribution.",
+        "C": "He calls the proof modest in scope, not untrustworthy, and the data are accepted."
       }
     },
     {
@@ -378,7 +378,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "draw attention to the artistic skill of the student who painted it"
+          "text": "turn a message addressed to students into a commitment the school makes to families, ending the speech with a pledge"
         },
         {
           "id": "B",
@@ -390,15 +390,15 @@
         },
         {
           "id": "D",
-          "text": "turn a message addressed to students into a commitment the school makes to families, ending the speech with a pledge"
+          "text": "draw attention to the artistic skill of the student who painted it"
         }
       ],
-      "answer": "D",
+      "answer": "A",
       "explanation": "Read once, \"You may stay\" invites students; read again \"as a promise from us,\" it binds the school to keep the doors open. The double reading converts the room's purpose into an obligation to the audience of parents, a fitting close after a speech about a reversed decision.",
       "distractors": {
-        "A": "The painter is mentioned, but the request concerns what the words mean to parents, not the artistry.",
         "B": "Nothing in the speech accuses parents of inattention.",
-        "C": "The principal explains both readings himself; he is not flagging confusion."
+        "C": "The principal explains both readings himself; he is not flagging confusion.",
+        "D": "The painter is mentioned, but the request concerns what the words mean to parents, not the artistry."
       }
     },
     {
@@ -420,19 +420,19 @@
         },
         {
           "id": "C",
-          "text": "Delete, because it introduces a personal detail that does not advance the argument about maintaining and regulating the fridges"
+          "text": "Delete, because it contradicts the claim made in sentence 6"
         },
         {
           "id": "D",
-          "text": "Delete, because it contradicts the claim made in sentence 6"
+          "text": "Delete, because it introduces a personal detail that does not advance the argument about maintaining and regulating the fridges"
         }
       ],
-      "answer": "C",
+      "answer": "D",
       "explanation": "Sentences 6–8 argue that maintenance solves the sanitation problem and sentence 10 proposes a registration system. A grandmother's habit of storing food does not support either claim and interrupts the line of reasoning.",
       "distractors": {
         "A": "The sentence concerns one household during the Depression, not food insecurity in the city.",
         "B": "A relative's habit gives the writer no authority on the issue.",
-        "D": "It does not contradict sentence 6; it is simply irrelevant."
+        "C": "It does not contradict sentence 6; it is simply irrelevant."
       }
     },
     {
@@ -480,11 +480,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "(as it is now)"
+          "text": "These concerns are not imaginary, though they point to a problem with upkeep rather than with the fridges themselves."
         },
         {
           "id": "B",
-          "text": "These concerns are not imaginary, though they point to a problem with upkeep rather than with the fridges themselves."
+          "text": "(as it is now)"
         },
         {
           "id": "C",
@@ -495,12 +495,12 @@
           "text": "These concerns, however, are rarely raised by people who actually use the fridges."
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "The correct version grants the concern (\"not imaginary\") and, with \"though,\" signals the rebuttal the essay develops in sentence 6: the issue is upkeep, not the fridges.",
       "distractors": {
-        "A": "It concedes but gives no signal that a response is coming.",
         "C": "It concedes completely and even supports removal, with no signal of a rebuttal.",
-        "D": "It dismisses the critics by questioning who raises the concern rather than conceding the point."
+        "D": "It dismisses the critics by questioning who raises the concern rather than conceding the point.",
+        "B": "It concedes but gives no signal that a response is coming."
       }
     },
     {
@@ -518,7 +518,7 @@
         },
         {
           "id": "B",
-          "text": "Although the volunteer group that runs the Fifth Avenue fridge checks it twice a day and logs discarded items, it has received no health complaints since 2021."
+          "text": "Since 2021, when the volunteer group that runs the Fifth Avenue fridge began logging every item it discards during its twice-daily checks, the group has received no health complaints."
         },
         {
           "id": "C",
@@ -526,15 +526,15 @@
         },
         {
           "id": "D",
-          "text": "Since 2021, when the volunteer group that runs the Fifth Avenue fridge began logging every item it discards during its twice-daily checks, the group has received no health complaints."
+          "text": "Although the volunteer group that runs the Fifth Avenue fridge checks it twice a day and logs discarded items, it has received no health complaints since 2021."
         }
       ],
-      "answer": "D",
+      "answer": "B",
       "explanation": "The correct choice subordinates the routine to a \"Since..., when...\" clause, so the result (no complaints) is presented as following from the logging practice, preserving the 2021 date and the twice-daily checks.",
       "distractors": {
         "A": "\"And\" merely adds the two facts side by side without showing that one led to the other.",
-        "B": "\"Although\" signals contrast, implying the result is surprising given the routine, which reverses the logic.",
-        "C": "The participial phrase is loosely attached and blurs which action began in 2021."
+        "C": "The participial phrase is loosely attached and blurs which action began in 2021.",
+        "D": "\"Although\" signals contrast, implying the result is surprising given the routine, which reverses the logic."
       }
     },
     {
@@ -586,7 +586,7 @@
         },
         {
           "id": "B",
-          "text": "The city should therefore support community fridges by creating a simple registration system—one that would cost little beyond an online form, because volunteer teams, not city staff, would handle the cleaning."
+          "text": "The city should therefore support community fridges, because hunger is a moral emergency that no budget concern can justify ignoring."
         },
         {
           "id": "C",
@@ -594,15 +594,15 @@
         },
         {
           "id": "D",
-          "text": "The city should therefore support community fridges, because hunger is a moral emergency that no budget concern can justify ignoring."
+          "text": "The city should therefore support community fridges by creating a simple registration system—one that would cost little beyond an online form, because volunteer teams, not city staff, would handle the cleaning."
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Only this version speaks directly to cost and explains why the burden on the city would be small (volunteers do the work). It keeps the proposal while addressing the specific audience's objection.",
       "distractors": {
         "A": "Clear, but it does nothing to address cost.",
         "C": "Increases the cost, which would alarm this audience.",
-        "D": "Dismisses the audience's concern instead of answering it, which is likely to alienate cost-conscious readers."
+        "B": "Dismisses the audience's concern instead of answering it, which is likely to alienate cost-conscious readers."
       }
     },
     {

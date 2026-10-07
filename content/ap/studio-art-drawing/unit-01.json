@@ -127,7 +127,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "60%"
+          "text": "50%"
         },
         {
           "id": "B",
@@ -135,14 +135,14 @@
         },
         {
           "id": "C",
-          "text": "50%"
+          "text": "60%"
         },
         {
           "id": "D",
           "text": "25%"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Selected Works is 40%.",
       "distractors": {}
     },
@@ -156,7 +156,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "How can changes in line weight and erasure show memories fading in drawings of my grandmother's kitchen?"
+          "text": "What is my favorite color?"
         },
         {
           "id": "B",
@@ -168,10 +168,10 @@
         },
         {
           "id": "D",
-          "text": "What is my favorite color?"
+          "text": "How can changes in line weight and erasure show memories fading in drawings of my grandmother's kitchen?"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Specific idea plus approach, sustainable.",
       "distractors": {}
     },
@@ -185,11 +185,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Three studies of the same composition in different media"
+          "text": "A single finished piece photographed twice"
         },
         {
           "id": "B",
-          "text": "A single finished piece photographed twice"
+          "text": "Three studies of the same composition in different media"
         },
         {
           "id": "C",
@@ -200,7 +200,7 @@
           "text": "A reproduction of a famous painting"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Alternative approaches to one idea.",
       "distractors": {}
     },
@@ -214,7 +214,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "After critique showed the focal point was weak, I reworked the background to increase contrast around the figure"
+          "text": "I made the same piece again exactly"
         },
         {
           "id": "B",
@@ -222,14 +222,14 @@
         },
         {
           "id": "C",
-          "text": "I made the same piece again exactly"
+          "text": "After critique showed the focal point was weak, I reworked the background to increase contrast around the figure"
         },
         {
           "id": "D",
           "text": "I added my signature"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Change in response to feedback.",
       "distractors": {}
     },
@@ -243,7 +243,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Value and the illusion of form through light and shade"
+          "text": "Figure–ground through collage"
         },
         {
           "id": "B",
@@ -255,10 +255,10 @@
         },
         {
           "id": "D",
-          "text": "Figure–ground through collage"
+          "text": "Value and the illusion of form through light and shade"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Mark density creates value.",
       "distractors": {}
     },

@@ -51,224 +51,527 @@
     "cramSheet": "**Suffrage:** 15th race · 17th senators · 19th women · 24th poll tax · 26th age 18 · VRA 1965\n\n**Turnout:** older/educated/wealthier higher · midterms lower · efficacy · ID, registration\n\n**Models:** rational choice · retrospective · prospective · party-line\n\n**Parties:** realignment (1932) · dealignment · winner-take-all → two parties · third parties raise issues/spoil\n\n**Interest groups:** lobbying · amicus briefs · PACs · free rider · selective benefits\n\n**Elections:** primaries/caucuses · front-loading · Electoral College · incumbency advantage\n\n**Money:** BCRA 2002 · Citizens United 2010 · super PACs\n\n**Media:** gatekeeper · scorekeeper · watchdog · horse race"
   },
   "vocab": [
-    { "term": "Political efficacy", "definition": "A citizen's belief that they can understand and influence government." },
-    { "term": "Rational choice voting", "definition": "Voting based on what a person believes is in their own interest." },
-    { "term": "Retrospective voting", "definition": "Voting based on how a candidate or party has performed in the past." },
-    { "term": "Prospective voting", "definition": "Voting based on predictions of how a candidate will perform in the future." },
-    { "term": "Realignment", "definition": "A lasting shift in the coalitions supporting each party, often marked by a critical election." },
-    { "term": "Dealignment", "definition": "A decline in party loyalty and a rise in independent voters." },
-    { "term": "Winner-take-all system", "definition": "An electoral system in which the candidate with the most votes wins all of a district's or state's representation." },
-    { "term": "Free-rider problem", "definition": "People benefit from a group's efforts without contributing to it." },
-    { "term": "Amicus curiae brief", "definition": "A \"friend of the court\" brief filed by a non-party to influence a case." },
-    { "term": "Political action committee (PAC)", "definition": "An organization that raises and contributes limited amounts of money to candidates." },
-    { "term": "Super PAC", "definition": "A committee that can raise and spend unlimited amounts on independent expenditures but can't coordinate with campaigns." },
-    { "term": "Citizens United v. FEC (2010)", "definition": "Ruling that the government cannot limit independent political spending by corporations and unions." },
-    { "term": "Incumbency advantage", "definition": "The electoral edge officeholders have from name recognition, resources, and favorable districts." },
-    { "term": "Horse-race journalism", "definition": "Coverage emphasizing polls and who is winning rather than policy." },
-    { "term": "Front-loading", "definition": "States moving primaries earlier in the calendar to gain influence." }
+    {
+      "term": "Political efficacy",
+      "definition": "A citizen's belief that they can understand and influence government."
+    },
+    {
+      "term": "Rational choice voting",
+      "definition": "Voting based on what a person believes is in their own interest."
+    },
+    {
+      "term": "Retrospective voting",
+      "definition": "Voting based on how a candidate or party has performed in the past."
+    },
+    {
+      "term": "Prospective voting",
+      "definition": "Voting based on predictions of how a candidate will perform in the future."
+    },
+    {
+      "term": "Realignment",
+      "definition": "A lasting shift in the coalitions supporting each party, often marked by a critical election."
+    },
+    {
+      "term": "Dealignment",
+      "definition": "A decline in party loyalty and a rise in independent voters."
+    },
+    {
+      "term": "Winner-take-all system",
+      "definition": "An electoral system in which the candidate with the most votes wins all of a district's or state's representation."
+    },
+    {
+      "term": "Free-rider problem",
+      "definition": "People benefit from a group's efforts without contributing to it."
+    },
+    {
+      "term": "Amicus curiae brief",
+      "definition": "A \"friend of the court\" brief filed by a non-party to influence a case."
+    },
+    {
+      "term": "Political action committee (PAC)",
+      "definition": "An organization that raises and contributes limited amounts of money to candidates."
+    },
+    {
+      "term": "Super PAC",
+      "definition": "A committee that can raise and spend unlimited amounts on independent expenditures but can't coordinate with campaigns."
+    },
+    {
+      "term": "Citizens United v. FEC (2010)",
+      "definition": "Ruling that the government cannot limit independent political spending by corporations and unions."
+    },
+    {
+      "term": "Incumbency advantage",
+      "definition": "The electoral edge officeholders have from name recognition, resources, and favorable districts."
+    },
+    {
+      "term": "Horse-race journalism",
+      "definition": "Coverage emphasizing polls and who is winning rather than policy."
+    },
+    {
+      "term": "Front-loading",
+      "definition": "States moving primaries earlier in the calendar to gain influence."
+    }
   ],
   "practice": [
     {
-      "id": "u5-q01", "tier": "Intro", "type": "mcq", "topic": "Voting Rights and Models of Voting Behavior",
+      "id": "u5-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Voting Rights and Models of Voting Behavior",
       "stimulus": "During the Vietnam War, many argued that if 18-year-olds could be drafted to fight, they should be allowed to vote.",
       "stem": "This argument contributed most directly to the ratification of which amendment?",
       "choices": [
-        { "id": "A", "text": "The Twenty-sixth Amendment" },
-        { "id": "B", "text": "The Twenty-fourth Amendment" },
-        { "id": "C", "text": "The Nineteenth Amendment" },
-        { "id": "D", "text": "The Seventeenth Amendment" }
+        {
+          "id": "A",
+          "text": "The Twenty-sixth Amendment"
+        },
+        {
+          "id": "B",
+          "text": "The Twenty-fourth Amendment"
+        },
+        {
+          "id": "C",
+          "text": "The Nineteenth Amendment"
+        },
+        {
+          "id": "D",
+          "text": "The Seventeenth Amendment"
+        }
       ],
       "answer": "A",
       "explanation": "Ratified in 1971, it set the voting age at 18.",
-      "distractors": { "B": "Banned poll taxes in federal elections." }
+      "distractors": {
+        "B": "Banned poll taxes in federal elections."
+      }
     },
     {
-      "id": "u5-q02", "tier": "Intro", "type": "mcq", "topic": "Voting Rights and Models of Voting Behavior",
+      "id": "u5-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Voting Rights and Models of Voting Behavior",
       "stimulus": "A voter says: \"Unemployment went up and my paycheck bought less over the last four years. I'm voting against the president.\"",
       "stem": "The voter is engaging in",
       "choices": [
-        { "id": "A", "text": "retrospective voting" },
-        { "id": "B", "text": "prospective voting" },
-        { "id": "C", "text": "party-line voting" },
-        { "id": "D", "text": "ticket splitting" }
+        {
+          "id": "A",
+          "text": "party-line voting"
+        },
+        {
+          "id": "B",
+          "text": "prospective voting"
+        },
+        {
+          "id": "C",
+          "text": "retrospective voting"
+        },
+        {
+          "id": "D",
+          "text": "ticket splitting"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The voter judges the incumbent on past performance.",
-      "distractors": { "B": "Prospective voting looks at future promises." }
+      "distractors": {
+        "B": "Prospective voting looks at future promises."
+      }
     },
     {
-      "id": "u5-q03", "tier": "Intro", "type": "mcq", "topic": "Interest Groups Influencing Policy Making",
+      "id": "u5-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Interest Groups Influencing Policy Making",
       "stimulus": "A union negotiates a raise that applies to every worker at a factory, including those who never joined or paid dues.",
       "stem": "This situation illustrates",
       "choices": [
-        { "id": "A", "text": "the free-rider problem" },
-        { "id": "B", "text": "an iron triangle" },
-        { "id": "C", "text": "a critical election" },
-        { "id": "D", "text": "horse-race journalism" }
+        {
+          "id": "A",
+          "text": "horse-race journalism"
+        },
+        {
+          "id": "B",
+          "text": "an iron triangle"
+        },
+        {
+          "id": "C",
+          "text": "a critical election"
+        },
+        {
+          "id": "D",
+          "text": "the free-rider problem"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Nonmembers benefit without contributing, which makes it harder for the group to recruit.",
-      "distractors": { "B": "Iron triangles involve agencies, committees, and interest groups." }
+      "distractors": {
+        "B": "Iron triangles involve agencies, committees, and interest groups."
+      }
     },
     {
-      "id": "u5-q04", "tier": "Intro", "type": "mcq", "topic": "Third-Party Politics",
+      "id": "u5-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Third-Party Politics",
       "stem": "Which feature of U.S. elections most discourages the growth of third parties?",
       "choices": [
-        { "id": "A", "text": "Winner-take-all, single-member districts" },
-        { "id": "B", "text": "Proportional representation in Congress" },
-        { "id": "C", "text": "The 26th Amendment" },
-        { "id": "D", "text": "Closed primaries" }
+        {
+          "id": "A",
+          "text": "Proportional representation in Congress"
+        },
+        {
+          "id": "B",
+          "text": "Winner-take-all, single-member districts"
+        },
+        {
+          "id": "C",
+          "text": "The 26th Amendment"
+        },
+        {
+          "id": "D",
+          "text": "Closed primaries"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Only one candidate wins each seat, so voters fear wasting votes on minor parties.",
-      "distractors": { "B": "The U.S. doesn't use proportional representation for Congress; that system helps third parties." }
+      "distractors": {
+        "A": "The U.S. doesn't use proportional representation for Congress; that system helps third parties."
+      }
     },
     {
-      "id": "u5-q05", "tier": "Exam level", "type": "mcq", "topic": "Voter Turnout",
+      "id": "u5-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Voter Turnout",
       "stimulus": "Hypothetical turnout in a presidential election, by age\n\n| Age | 18–24 | 25–44 | 45–64 | 65+ |\n| --- | --- | --- | --- | --- |\n| Turnout | 48% | 58% | 67% | 72% |",
       "stem": "Which conclusion is supported by the data, and which concept helps explain it?",
       "choices": [
-        { "id": "A", "text": "Turnout rises with age; older citizens tend to have stronger habits of voting and more stake in policy outcomes." },
-        { "id": "B", "text": "Turnout falls with age; older citizens have lower political efficacy." },
-        { "id": "C", "text": "Turnout is the same across ages because of the 26th Amendment." },
-        { "id": "D", "text": "Young voters outnumber older voters at the polls." }
+        {
+          "id": "A",
+          "text": "Turnout is the same across ages because of the 26th Amendment."
+        },
+        {
+          "id": "B",
+          "text": "Turnout falls with age; older citizens have lower political efficacy."
+        },
+        {
+          "id": "C",
+          "text": "Turnout rises with age; older citizens tend to have stronger habits of voting and more stake in policy outcomes."
+        },
+        {
+          "id": "D",
+          "text": "Young voters outnumber older voters at the polls."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Turnout increases from 48% to 72%. Older voters are more settled, have voted before, and are affected by programs like Social Security.",
-      "distractors": { "D": "The table shows rates, not totals, and the young turn out least." }
+      "distractors": {
+        "D": "The table shows rates, not totals, and the young turn out least."
+      }
     },
     {
-      "id": "u5-q06", "tier": "Exam level", "type": "mcq", "topic": "Change in Campaign Finance",
+      "id": "u5-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Change in Campaign Finance",
       "stem": "Which was a direct result of the Supreme Court's decision in Citizens United v. FEC (2010)?",
       "choices": [
-        { "id": "A", "text": "The growth of super PACs that make unlimited independent expenditures" },
-        { "id": "B", "text": "A ban on corporate spending in elections" },
-        { "id": "C", "text": "Unlimited direct contributions from corporations to candidates" },
-        { "id": "D", "text": "Public financing of all congressional campaigns" }
+        {
+          "id": "A",
+          "text": "A ban on corporate spending in elections"
+        },
+        {
+          "id": "B",
+          "text": "The growth of super PACs that make unlimited independent expenditures"
+        },
+        {
+          "id": "C",
+          "text": "Unlimited direct contributions from corporations to candidates"
+        },
+        {
+          "id": "D",
+          "text": "Public financing of all congressional campaigns"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Treating independent spending as protected speech led to committees spending unlimited sums without coordinating with candidates.",
-      "distractors": { "C": "Direct contributions to candidates are still limited." }
+      "distractors": {
+        "C": "Direct contributions to candidates are still limited."
+      }
     },
     {
-      "id": "u5-q07", "tier": "Exam level", "type": "mcq", "topic": "Third-Party Politics",
+      "id": "u5-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Third-Party Politics",
       "stimulus": "In 1992, independent candidate Ross Perot won about 19 percent of the popular vote while campaigning heavily on reducing the federal deficit. In the following years, both major parties made deficit reduction a central issue.",
       "stem": "This example best illustrates which role of third parties?",
       "choices": [
-        { "id": "A", "text": "Raising issues that major parties then adopt" },
-        { "id": "B", "text": "Winning Electoral College votes in most states" },
-        { "id": "C", "text": "Replacing a major party" },
-        { "id": "D", "text": "Creating proportional representation" }
+        {
+          "id": "A",
+          "text": "Creating proportional representation"
+        },
+        {
+          "id": "B",
+          "text": "Winning Electoral College votes in most states"
+        },
+        {
+          "id": "C",
+          "text": "Replacing a major party"
+        },
+        {
+          "id": "D",
+          "text": "Raising issues that major parties then adopt"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Despite winning no electoral votes, Perot pushed the deficit onto the national agenda.",
-      "distractors": { "B": "Perot won no electoral votes." }
+      "distractors": {
+        "B": "Perot won no electoral votes."
+      }
     },
     {
-      "id": "u5-q08", "tier": "Exam level", "type": "mcq", "topic": "Electing a President",
+      "id": "u5-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Electing a President",
       "stem": "How can a presidential candidate win the Electoral College while losing the national popular vote?",
       "choices": [
-        { "id": "A", "text": "By narrowly winning enough states under winner-take-all rules while losing other states by large margins" },
-        { "id": "B", "text": "By winning a majority in the House of Representatives" },
-        { "id": "C", "text": "By winning more counties than the opponent" },
-        { "id": "D", "text": "It is impossible under the Constitution." }
+        {
+          "id": "A",
+          "text": "By narrowly winning enough states under winner-take-all rules while losing other states by large margins"
+        },
+        {
+          "id": "B",
+          "text": "By winning a majority in the House of Representatives"
+        },
+        {
+          "id": "C",
+          "text": "By winning more counties than the opponent"
+        },
+        {
+          "id": "D",
+          "text": "It is impossible under the Constitution."
+        }
       ],
       "answer": "A",
       "explanation": "Winner-take-all awards all of a state's electors to the plurality winner, so the margin of victory doesn't matter; this happened in 2000 and 2016.",
-      "distractors": { "D": "It has happened several times." }
+      "distractors": {
+        "D": "It has happened several times."
+      }
     },
     {
-      "id": "u5-q09", "tier": "Exam level", "type": "mcq", "topic": "Congressional Elections",
+      "id": "u5-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Congressional Elections",
       "stem": "Which factor contributes most to the high reelection rate of House incumbents?",
       "choices": [
-        { "id": "A", "text": "Name recognition, fundraising advantages, and district lines that favor their party" },
-        { "id": "B", "text": "Term limits for challengers" },
-        { "id": "C", "text": "Constitutional rules guaranteeing incumbents a place on the ballot" },
-        { "id": "D", "text": "Public financing that is available only to incumbents" }
+        {
+          "id": "A",
+          "text": "Public financing that is available only to incumbents"
+        },
+        {
+          "id": "B",
+          "text": "Term limits for challengers"
+        },
+        {
+          "id": "C",
+          "text": "Constitutional rules guaranteeing incumbents a place on the ballot"
+        },
+        {
+          "id": "D",
+          "text": "Name recognition, fundraising advantages, and district lines that favor their party"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Incumbents use casework, media attention, donor networks, and often safe districts.",
-      "distractors": { "B": "No such rule exists." }
+      "distractors": {
+        "B": "No such rule exists."
+      }
     },
     {
-      "id": "u5-q10", "tier": "Exam level", "type": "mcq", "topic": "The Media",
+      "id": "u5-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "The Media",
       "stimulus": "Over the final month of a campaign, an analysis finds that 60 percent of a network's election coverage discussed who was ahead in polls and campaign strategy, while 15 percent discussed candidates' policy positions.",
       "stem": "The analysis is evidence of",
       "choices": [
-        { "id": "A", "text": "horse-race journalism" },
-        { "id": "B", "text": "the media's watchdog role" },
-        { "id": "C", "text": "a push poll" },
-        { "id": "D", "text": "the free-rider problem" }
+        {
+          "id": "A",
+          "text": "the media's watchdog role"
+        },
+        {
+          "id": "B",
+          "text": "horse-race journalism"
+        },
+        {
+          "id": "C",
+          "text": "a push poll"
+        },
+        {
+          "id": "D",
+          "text": "the free-rider problem"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Coverage focused on the race itself rather than on substance.",
-      "distractors": { "B": "Watchdog journalism investigates wrongdoing." }
+      "distractors": {
+        "A": "Watchdog journalism investigates wrongdoing."
+      }
     },
     {
-      "id": "u5-q11", "tier": "Hardest", "type": "mcq", "topic": "Political Parties",
+      "id": "u5-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Political Parties",
       "stimulus": "In the 1932 election, working-class voters, urban immigrants, Southern whites, and many African Americans who had previously voted Republican supported the Democratic nominee. This coalition dominated national politics for decades.",
       "stem": "The 1932 election is best described as",
       "choices": [
-        { "id": "A", "text": "a critical election that produced a party realignment" },
-        { "id": "B", "text": "an example of dealignment" },
-        { "id": "C", "text": "a third-party spoiler effect" },
-        { "id": "D", "text": "a result of the Citizens United decision" }
+        {
+          "id": "A",
+          "text": "a third-party spoiler effect"
+        },
+        {
+          "id": "B",
+          "text": "an example of dealignment"
+        },
+        {
+          "id": "C",
+          "text": "a critical election that produced a party realignment"
+        },
+        {
+          "id": "D",
+          "text": "a result of the Citizens United decision"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "A durable shift in which groups supported which party: the New Deal coalition.",
-      "distractors": { "B": "Dealignment is a weakening of party loyalty, not a shift to a new loyalty." }
+      "distractors": {
+        "B": "Dealignment is a weakening of party loyalty, not a shift to a new loyalty."
+      }
     },
     {
-      "id": "u5-q12", "tier": "Hardest", "type": "mcq", "topic": "Interest Groups Influencing Policy Making",
+      "id": "u5-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Interest Groups Influencing Policy Making",
       "stimulus": "An environmental organization isn't a party to a Supreme Court case about a federal pollution rule, but it submits a detailed written argument to the Court supporting the rule.",
       "stem": "The organization is using which strategy, and what does it reveal about interest group influence?",
       "choices": [
-        { "id": "A", "text": "Filing an amicus curiae brief, showing that interest groups try to shape policy through the courts as well as Congress" },
-        { "id": "B", "text": "Lobbying the president through a signing statement" },
-        { "id": "C", "text": "Forming a super PAC to influence justices' elections" },
-        { "id": "D", "text": "Using the franking privilege" }
+        {
+          "id": "A",
+          "text": "Filing an amicus curiae brief, showing that interest groups try to shape policy through the courts as well as Congress"
+        },
+        {
+          "id": "B",
+          "text": "Lobbying the president through a signing statement"
+        },
+        {
+          "id": "C",
+          "text": "Forming a super PAC to influence justices' elections"
+        },
+        {
+          "id": "D",
+          "text": "Using the franking privilege"
+        }
       ],
       "answer": "A",
       "explanation": "Amicus briefs let outside groups argue before courts, an alternative venue when legislative lobbying fails.",
-      "distractors": { "C": "Federal judges aren't elected." }
+      "distractors": {
+        "C": "Federal judges aren't elected."
+      }
     },
     {
-      "id": "u5-q13", "tier": "Hardest", "type": "mcq", "topic": "Voting Rights",
+      "id": "u5-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Voting Rights",
       "stimulus": "Supporters of a strict photo ID law argue it protects election integrity. Opponents argue it imposes costs that fall heavily on low-income, elderly, and minority citizens who are less likely to have qualifying ID.",
       "stem": "The opponents' argument is most similar to the reasoning behind which constitutional amendment?",
       "choices": [
-        { "id": "A", "text": "The Twenty-fourth Amendment, which banned poll taxes in federal elections" },
-        { "id": "B", "text": "The Seventeenth Amendment, which established direct election of senators" },
-        { "id": "C", "text": "The Twenty-second Amendment, which limited presidential terms" },
-        { "id": "D", "text": "The Tenth Amendment, which reserves powers to the states" }
+        {
+          "id": "A",
+          "text": "The Twenty-fourth Amendment, which banned poll taxes in federal elections"
+        },
+        {
+          "id": "B",
+          "text": "The Seventeenth Amendment, which established direct election of senators"
+        },
+        {
+          "id": "C",
+          "text": "The Twenty-second Amendment, which limited presidential terms"
+        },
+        {
+          "id": "D",
+          "text": "The Tenth Amendment, which reserves powers to the states"
+        }
       ],
       "answer": "A",
       "explanation": "Both arguments object to requirements that impose costs on voting and disproportionately exclude certain groups.",
-      "distractors": { "D": "Supporters might invoke state power over elections; opponents emphasize equal access." }
+      "distractors": {
+        "D": "Supporters might invoke state power over elections; opponents emphasize equal access."
+      }
     },
     {
-      "id": "u5-q14", "tier": "Hardest", "type": "mcq", "topic": "Change in Campaign Finance",
+      "id": "u5-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Change in Campaign Finance",
       "stem": "Which statement best describes how campaign finance law changed between 2002 and 2010?",
       "choices": [
-        { "id": "A", "text": "BCRA banned soft money and restricted issue ads, but Citizens United struck down limits on independent spending by corporations and unions." },
-        { "id": "B", "text": "BCRA allowed unlimited contributions to candidates, and Citizens United banned PACs." },
-        { "id": "C", "text": "Both BCRA and Citizens United required public financing of elections." },
-        { "id": "D", "text": "Citizens United upheld every provision of BCRA." }
+        {
+          "id": "A",
+          "text": "Both BCRA and Citizens United required public financing of elections."
+        },
+        {
+          "id": "B",
+          "text": "BCRA allowed unlimited contributions to candidates, and Citizens United banned PACs."
+        },
+        {
+          "id": "C",
+          "text": "BCRA banned soft money and restricted issue ads, but Citizens United struck down limits on independent spending by corporations and unions."
+        },
+        {
+          "id": "D",
+          "text": "Citizens United upheld every provision of BCRA."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "BCRA's soft money ban survived, but the Court invalidated its restrictions on corporate and union independent expenditures.",
-      "distractors": { "D": "Citizens United struck down key BCRA provisions." }
+      "distractors": {
+        "D": "Citizens United struck down key BCRA provisions."
+      }
     },
     {
-      "id": "u5-frq1", "tier": "Hardest", "type": "frq", "topic": "Electing a President", "frqType": "Q4 Argument Essay",
+      "id": "u5-frq1",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Electing a President",
+      "frqType": "Q4 Argument Essay",
       "prompt": "Develop an argument that explains whether the Electoral College should be kept or replaced with a national popular vote for president.\n\nIn your essay, you must:\n- Articulate a defensible claim or thesis that responds to the prompt and establishes a line of reasoning.\n- Support your claim with at least TWO pieces of specific and relevant evidence. One piece of evidence must come from one of the following foundational documents: the Constitution of the United States, Federalist No. 10, Brutus No. 1. A second piece of evidence can come from any other foundational document not used as your first piece of evidence, or it may be from your knowledge of course concepts.\n- Use reasoning to explain why your evidence supports your claim or thesis.\n- Respond to an opposing or alternative perspective using refutation, concession, or rebuttal.",
       "points": 6,
       "minutes": 40,
       "rubric": [
-        { "criterion": "Claim/thesis", "points": 1, "description": "Articulates a defensible claim that establishes a line of reasoning." },
-        { "criterion": "Evidence", "points": 3, "description": "1 point: one piece of specific, relevant evidence. 2 points: one piece of evidence used to support the claim. 3 points: two pieces of specific evidence used to support the claim, at least one from the listed foundational documents." },
-        { "criterion": "Reasoning", "points": 1, "description": "Explains why or how the evidence supports the claim." },
-        { "criterion": "Alternative perspective", "points": 1, "description": "Responds to an opposing perspective with refutation, concession, or rebuttal consistent with the claim." }
+        {
+          "criterion": "Claim/thesis",
+          "points": 1,
+          "description": "Articulates a defensible claim that establishes a line of reasoning."
+        },
+        {
+          "criterion": "Evidence",
+          "points": 3,
+          "description": "1 point: one piece of specific, relevant evidence. 2 points: one piece of evidence used to support the claim. 3 points: two pieces of specific evidence used to support the claim, at least one from the listed foundational documents."
+        },
+        {
+          "criterion": "Reasoning",
+          "points": 1,
+          "description": "Explains why or how the evidence supports the claim."
+        },
+        {
+          "criterion": "Alternative perspective",
+          "points": 1,
+          "description": "Responds to an opposing perspective with refutation, concession, or rebuttal consistent with the claim."
+        }
       ],
       "sampleResponse": "Claim: The Electoral College should be kept, because it reflects the Constitution's federal design and forces presidential candidates to build broad coalitions across many states rather than relying only on concentrated population centers.\n\nThe Constitution itself shows that the framers chose federalism over pure majoritarianism. Article II gives each state electors equal to its House and Senate delegation, so even small states receive at least three electors, just as every state gets two senators. This design treats the presidency as a choice of the states as well as of the people, consistent with a federal system in which states remain meaningful political communities.\n\nFederalist No. 10 supports this reasoning. Madison argued that a large republic with many diverse interests would make it harder for any single faction to dominate. By requiring candidates to win pluralities in many separate states, the Electoral College forces them to appeal to varied regional and economic interests, from farmers in the Midwest to manufacturing workers and suburban voters in swing states, rather than maximizing turnout in a few large regions. In this way it extends Madison's logic of filtering factional majorities.\n\nCritics argue that the Electoral College violates the principle of one person, one vote, because a vote in a small state carries more weight and a candidate can win while losing the national popular vote, as in 2000 and 2016. That concern is serious, but the framers deliberately built counter-majoritarian features into the Senate and the amendment process too, and a national popular vote could encourage candidates to ignore smaller states and rural areas entirely. Reforms such as states awarding electors by congressional district could address some unfairness without abandoning the federal principle.\n\nBecause it preserves the role of states and pushes candidates toward broad, geographically diverse coalitions, the Electoral College should be kept."
     }

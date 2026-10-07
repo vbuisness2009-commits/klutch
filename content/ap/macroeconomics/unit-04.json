@@ -49,221 +49,533 @@
     "cramSheet": "**Assets:** bonds (inverse to rates) · stocks · liquidity\n\n**Rates:** real = nominal − expected inflation\n\n**Money:** medium of exchange · unit of account · store of value · M1, M2\n\n**Banks:** RR × deposits = required · excess = reserves − required · multiplier 1/RR · max ΔMS = ER × multiplier\n\n**Money market:** MD down-sloping · MS vertical · nominal i\n\n**Fed tools:** IORB · discount rate · OMO (buy = expansionary) · RR\n\n**Chain:** ↑MS → ↓i → ↑I → ↑AD → ↑Y, ↑PL\n\n**Loanable funds:** real r · deficits → ↑D → ↑r → crowding out"
   },
   "vocab": [
-    { "term": "Liquidity", "definition": "How easily an asset can be converted into money without loss of value." },
-    { "term": "Bond", "definition": "A loan to a government or firm that pays interest; its price moves inversely with interest rates." },
-    { "term": "Real interest rate", "definition": "Nominal interest rate minus expected inflation." },
-    { "term": "M1", "definition": "Currency in circulation, checkable deposits, and savings deposits." },
-    { "term": "Fractional reserve banking", "definition": "A system in which banks keep only a fraction of deposits as reserves and lend the rest." },
-    { "term": "Required reserves", "definition": "The minimum reserves a bank must hold, based on the reserve requirement." },
-    { "term": "Excess reserves", "definition": "Reserves above the required amount, which banks can lend." },
-    { "term": "Money multiplier", "definition": "1/reserve requirement; the maximum expansion of money supply per dollar of excess reserves." },
-    { "term": "Open-market operations", "definition": "The Fed's buying and selling of government bonds." },
-    { "term": "Interest on reserve balances", "definition": "The rate the Fed pays banks on reserves, its main tool in an ample-reserves system." },
-    { "term": "Federal funds rate", "definition": "The interest rate banks charge each other for overnight loans of reserves." },
-    { "term": "Loanable funds market", "definition": "The market in which savers supply funds to borrowers, determining the real interest rate." }
+    {
+      "term": "Liquidity",
+      "definition": "How easily an asset can be converted into money without loss of value."
+    },
+    {
+      "term": "Bond",
+      "definition": "A loan to a government or firm that pays interest; its price moves inversely with interest rates."
+    },
+    {
+      "term": "Real interest rate",
+      "definition": "Nominal interest rate minus expected inflation."
+    },
+    {
+      "term": "M1",
+      "definition": "Currency in circulation, checkable deposits, and savings deposits."
+    },
+    {
+      "term": "Fractional reserve banking",
+      "definition": "A system in which banks keep only a fraction of deposits as reserves and lend the rest."
+    },
+    {
+      "term": "Required reserves",
+      "definition": "The minimum reserves a bank must hold, based on the reserve requirement."
+    },
+    {
+      "term": "Excess reserves",
+      "definition": "Reserves above the required amount, which banks can lend."
+    },
+    {
+      "term": "Money multiplier",
+      "definition": "1/reserve requirement; the maximum expansion of money supply per dollar of excess reserves."
+    },
+    {
+      "term": "Open-market operations",
+      "definition": "The Fed's buying and selling of government bonds."
+    },
+    {
+      "term": "Interest on reserve balances",
+      "definition": "The rate the Fed pays banks on reserves, its main tool in an ample-reserves system."
+    },
+    {
+      "term": "Federal funds rate",
+      "definition": "The interest rate banks charge each other for overnight loans of reserves."
+    },
+    {
+      "term": "Loanable funds market",
+      "definition": "The market in which savers supply funds to borrowers, determining the real interest rate."
+    }
   ],
   "practice": [
     {
-      "id": "u4-q01", "tier": "Intro", "type": "mcq", "topic": "4.1 Financial Assets", "skill": "1. Principles and Models",
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.1 Financial Assets",
+      "skill": "1. Principles and Models",
       "stem": "If market interest rates rise, the prices of previously issued bonds will",
       "choices": [
-        { "id": "A", "text": "rise" },
-        { "id": "B", "text": "fall" },
-        { "id": "C", "text": "not change" },
-        { "id": "D", "text": "double" }
+        {
+          "id": "A",
+          "text": "rise"
+        },
+        {
+          "id": "B",
+          "text": "fall"
+        },
+        {
+          "id": "C",
+          "text": "not change"
+        },
+        {
+          "id": "D",
+          "text": "double"
+        }
       ],
       "answer": "B",
       "explanation": "Older bonds pay lower fixed rates, so buyers pay less for them.",
       "distractors": {}
     },
     {
-      "id": "u4-q02", "tier": "Intro", "type": "mcq", "topic": "4.2 Nominal v. Real Interest Rates", "skill": "3. Manipulation",
+      "id": "u4-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.2 Nominal v. Real Interest Rates",
+      "skill": "3. Manipulation",
       "stem": "A loan has a nominal interest rate of 7%, and expected inflation is 3%. What is the expected real interest rate?",
       "choices": [
-        { "id": "A", "text": "3%" },
-        { "id": "B", "text": "4%" },
-        { "id": "C", "text": "10%" },
-        { "id": "D", "text": "21%" }
+        {
+          "id": "A",
+          "text": "3%"
+        },
+        {
+          "id": "B",
+          "text": "4%"
+        },
+        {
+          "id": "C",
+          "text": "10%"
+        },
+        {
+          "id": "D",
+          "text": "21%"
+        }
       ],
       "answer": "B",
       "explanation": "7% − 3% = 4%.",
       "distractors": {}
     },
     {
-      "id": "u4-q03", "tier": "Intro", "type": "mcq", "topic": "4.3 Definition, Measurement, and Functions of Money", "skill": "1. Principles and Models",
+      "id": "u4-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.3 Definition, Measurement, and Functions of Money",
+      "skill": "1. Principles and Models",
       "stem": "When prices in a store are posted in dollars, money is serving as a",
       "choices": [
-        { "id": "A", "text": "medium of exchange" },
-        { "id": "B", "text": "unit of account" },
-        { "id": "C", "text": "store of value" },
-        { "id": "D", "text": "liquidity trap" }
+        {
+          "id": "A",
+          "text": "unit of account"
+        },
+        {
+          "id": "B",
+          "text": "medium of exchange"
+        },
+        {
+          "id": "C",
+          "text": "store of value"
+        },
+        {
+          "id": "D",
+          "text": "liquidity trap"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "A unit of account is a common measure of value.",
       "distractors": {}
     },
     {
-      "id": "u4-q04", "tier": "Intro", "type": "mcq", "topic": "4.4 Banking and the Expansion of the Money Supply", "skill": "3. Manipulation",
+      "id": "u4-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.4 Banking and the Expansion of the Money Supply",
+      "skill": "3. Manipulation",
       "stem": "If the reserve requirement is 20%, what is the money multiplier?",
       "choices": [
-        { "id": "A", "text": "0.2" },
-        { "id": "B", "text": "2" },
-        { "id": "C", "text": "5" },
-        { "id": "D", "text": "20" }
+        {
+          "id": "A",
+          "text": "0.2"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "5"
+        },
+        {
+          "id": "D",
+          "text": "20"
+        }
       ],
       "answer": "C",
       "explanation": "1/0.20 = 5.",
       "distractors": {}
     },
     {
-      "id": "u4-q05", "tier": "Exam level", "type": "mcq", "topic": "4.4 Banking and the Expansion of the Money Supply", "skill": "3. Manipulation",
+      "id": "u4-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.4 Banking and the Expansion of the Money Supply",
+      "skill": "3. Manipulation",
       "stem": "Maria deposits $1,000 in cash into her checking account. The reserve requirement is 10%, and banks lend all excess reserves. What is the maximum amount by which the money supply can increase as a result of new loans?",
       "choices": [
-        { "id": "A", "text": "$900" },
-        { "id": "B", "text": "$1,000" },
-        { "id": "C", "text": "$9,000" },
-        { "id": "D", "text": "$10,000" }
+        {
+          "id": "A",
+          "text": "$900"
+        },
+        {
+          "id": "B",
+          "text": "$1,000"
+        },
+        {
+          "id": "C",
+          "text": "$9,000"
+        },
+        {
+          "id": "D",
+          "text": "$10,000"
+        }
       ],
       "answer": "C",
       "explanation": "Excess reserves = $900; × multiplier 10 = $9,000. The deposit itself just converts currency to deposits.",
-      "distractors": { "D": "Counts the initial deposit as new money." }
+      "distractors": {
+        "D": "Counts the initial deposit as new money."
+      }
     },
     {
-      "id": "u4-q06", "tier": "Exam level", "type": "mcq", "topic": "4.6 Monetary Policy", "skill": "2. Interpretation",
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.6 Monetary Policy",
+      "skill": "2. Interpretation",
       "stem": "In an ample-reserves system, which action by the Federal Reserve is expansionary?",
       "choices": [
-        { "id": "A", "text": "Raising the interest rate paid on reserve balances" },
-        { "id": "B", "text": "Lowering the interest rate paid on reserve balances" },
-        { "id": "C", "text": "Selling government bonds" },
-        { "id": "D", "text": "Raising the discount rate" }
+        {
+          "id": "A",
+          "text": "Lowering the interest rate paid on reserve balances"
+        },
+        {
+          "id": "B",
+          "text": "Raising the interest rate paid on reserve balances"
+        },
+        {
+          "id": "C",
+          "text": "Selling government bonds"
+        },
+        {
+          "id": "D",
+          "text": "Raising the discount rate"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Lower IORB reduces banks' incentive to hold reserves, lowering the federal funds rate and other rates.",
       "distractors": {}
     },
     {
-      "id": "u4-q07", "tier": "Exam level", "type": "mcq", "topic": "4.5 The Money Market", "skill": "2. Interpretation",
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.5 The Money Market",
+      "skill": "2. Interpretation",
       "stem": "If the price level rises, what happens in the money market, holding money supply constant?",
       "choices": [
-        { "id": "A", "text": "Money demand increases and the nominal interest rate rises." },
-        { "id": "B", "text": "Money supply increases." },
-        { "id": "C", "text": "Money demand decreases and the interest rate falls." },
-        { "id": "D", "text": "The real interest rate shifts money supply left." }
+        {
+          "id": "A",
+          "text": "The real interest rate shifts money supply left."
+        },
+        {
+          "id": "B",
+          "text": "Money supply increases."
+        },
+        {
+          "id": "C",
+          "text": "Money demand decreases and the interest rate falls."
+        },
+        {
+          "id": "D",
+          "text": "Money demand increases and the nominal interest rate rises."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Higher prices mean people need more money for transactions.",
       "distractors": {}
     },
     {
-      "id": "u4-q08", "tier": "Exam level", "type": "mcq", "topic": "4.7 The Loanable Funds Market", "skill": "2. Interpretation",
+      "id": "u4-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.7 The Loanable Funds Market",
+      "skill": "2. Interpretation",
       "stem": "The government increases its budget deficit by borrowing more. In the loanable funds market,",
       "choices": [
-        { "id": "A", "text": "demand increases, the real interest rate rises, and private investment falls" },
-        { "id": "B", "text": "supply increases and the real interest rate falls" },
-        { "id": "C", "text": "demand decreases and the real interest rate falls" },
-        { "id": "D", "text": "the nominal interest rate falls" }
+        {
+          "id": "A",
+          "text": "the nominal interest rate falls"
+        },
+        {
+          "id": "B",
+          "text": "supply increases and the real interest rate falls"
+        },
+        {
+          "id": "C",
+          "text": "demand decreases and the real interest rate falls"
+        },
+        {
+          "id": "D",
+          "text": "demand increases, the real interest rate rises, and private investment falls"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Government borrowing competes with private borrowers: crowding out.",
       "distractors": {}
     },
     {
-      "id": "u4-q09", "tier": "Exam level", "type": "mcq", "topic": "4.6 Monetary Policy", "skill": "2. Interpretation",
+      "id": "u4-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.6 Monetary Policy",
+      "skill": "2. Interpretation",
       "stem": "Which sequence correctly describes the effects of contractionary monetary policy?",
       "choices": [
-        { "id": "A", "text": "Interest rates rise → investment falls → AD falls → price level and real output fall" },
-        { "id": "B", "text": "Interest rates fall → investment rises → AD rises" },
-        { "id": "C", "text": "Taxes rise → consumption falls → AD falls" },
-        { "id": "D", "text": "Interest rates rise → SRAS shifts right" }
+        {
+          "id": "A",
+          "text": "Interest rates rise → investment falls → AD falls → price level and real output fall"
+        },
+        {
+          "id": "B",
+          "text": "Interest rates fall → investment rises → AD rises"
+        },
+        {
+          "id": "C",
+          "text": "Taxes rise → consumption falls → AD falls"
+        },
+        {
+          "id": "D",
+          "text": "Interest rates rise → SRAS shifts right"
+        }
       ],
       "answer": "A",
       "explanation": "Contractionary monetary policy raises rates, reducing interest-sensitive spending.",
-      "distractors": { "C": "Fiscal policy." }
+      "distractors": {
+        "C": "Fiscal policy."
+      }
     },
     {
-      "id": "u4-q10", "tier": "Exam level", "type": "mcq", "topic": "4.4 Banking and the Expansion of the Money Supply", "skill": "3. Manipulation",
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.4 Banking and the Expansion of the Money Supply",
+      "skill": "3. Manipulation",
       "stimulus": "Bank Z has $500,000 in demand deposits and $80,000 in reserves. The reserve requirement is 10%.",
       "stem": "What is the maximum amount Bank Z can lend?",
       "choices": [
-        { "id": "A", "text": "$30,000" },
-        { "id": "B", "text": "$50,000" },
-        { "id": "C", "text": "$80,000" },
-        { "id": "D", "text": "$300,000" }
+        {
+          "id": "A",
+          "text": "$30,000"
+        },
+        {
+          "id": "B",
+          "text": "$50,000"
+        },
+        {
+          "id": "C",
+          "text": "$80,000"
+        },
+        {
+          "id": "D",
+          "text": "$300,000"
+        }
       ],
       "answer": "A",
       "explanation": "Required = $50,000; excess = $80,000 − $50,000 = $30,000.",
-      "distractors": { "D": "Excess reserves × multiplier: the banking system, not one bank." }
+      "distractors": {
+        "D": "Excess reserves × multiplier: the banking system, not one bank."
+      }
     },
     {
-      "id": "u4-q11", "tier": "Hardest", "type": "mcq", "topic": "4.4 Banking and the Expansion of the Money Supply", "skill": "3. Manipulation",
+      "id": "u4-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.4 Banking and the Expansion of the Money Supply",
+      "skill": "3. Manipulation",
       "stem": "The Fed buys $500 million in bonds from commercial banks (limited-reserves model). With a 10% reserve requirement, no cash leakages, and banks lending all excess reserves, what is the maximum increase in the money supply?",
       "choices": [
-        { "id": "A", "text": "$500 million" },
-        { "id": "B", "text": "$4.5 billion" },
-        { "id": "C", "text": "$5 billion" },
-        { "id": "D", "text": "$5.5 billion" }
+        {
+          "id": "A",
+          "text": "$500 million"
+        },
+        {
+          "id": "B",
+          "text": "$5 billion"
+        },
+        {
+          "id": "C",
+          "text": "$4.5 billion"
+        },
+        {
+          "id": "D",
+          "text": "$5.5 billion"
+        }
       ],
-      "answer": "C",
+      "answer": "B",
       "explanation": "Banks receive $500 million in new excess reserves (no deposit created), so max ΔMS = 500 × 10 = $5 billion.",
-      "distractors": { "B": "Treats it as a deposit with 10% held as required reserves." }
+      "distractors": {
+        "C": "Treats it as a deposit with 10% held as required reserves."
+      }
     },
     {
-      "id": "u4-q12", "tier": "Hardest", "type": "mcq", "topic": "4.2 Nominal v. Real Interest Rates", "skill": "2. Interpretation",
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.2 Nominal v. Real Interest Rates",
+      "skill": "2. Interpretation",
       "stem": "A bank lends at a fixed 6% nominal rate expecting 2% inflation. Actual inflation turns out to be 5%. Which is correct?",
       "choices": [
-        { "id": "A", "text": "The realized real rate is 1%, lower than the expected 4%, so the borrower gains at the lender's expense." },
-        { "id": "B", "text": "The realized real rate is 11%; the lender gains." },
-        { "id": "C", "text": "The realized real rate is 4%; no one gains." },
-        { "id": "D", "text": "The nominal rate automatically rises to 9%." }
+        {
+          "id": "A",
+          "text": "The realized real rate is 11%; the lender gains."
+        },
+        {
+          "id": "B",
+          "text": "The realized real rate is 1%, lower than the expected 4%, so the borrower gains at the lender's expense."
+        },
+        {
+          "id": "C",
+          "text": "The realized real rate is 4%; no one gains."
+        },
+        {
+          "id": "D",
+          "text": "The nominal rate automatically rises to 9%."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "6% − 5% = 1% realized, versus 6% − 2% = 4% expected.",
       "distractors": {}
     },
     {
-      "id": "u4-q13", "tier": "Hardest", "type": "mcq", "topic": "4.4 Banking and the Expansion of the Money Supply", "skill": "2. Interpretation",
+      "id": "u4-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.4 Banking and the Expansion of the Money Supply",
+      "skill": "2. Interpretation",
       "stem": "Why is the actual increase in the money supply typically smaller than the maximum predicted by the money multiplier?",
       "choices": [
-        { "id": "A", "text": "Households hold some cash instead of depositing it, and banks may keep excess reserves instead of lending them." },
-        { "id": "B", "text": "The reserve requirement increases automatically." },
-        { "id": "C", "text": "The Fed taxes bank loans." },
-        { "id": "D", "text": "Interest rates are always zero." }
+        {
+          "id": "A",
+          "text": "Interest rates are always zero."
+        },
+        {
+          "id": "B",
+          "text": "The reserve requirement increases automatically."
+        },
+        {
+          "id": "C",
+          "text": "The Fed taxes bank loans."
+        },
+        {
+          "id": "D",
+          "text": "Households hold some cash instead of depositing it, and banks may keep excess reserves instead of lending them."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Leakages reduce redeposits and lending in each round.",
       "distractors": {}
     },
     {
-      "id": "u4-q14", "tier": "Hardest", "type": "mcq", "topic": "4.7 The Loanable Funds Market", "skill": "2. Interpretation",
+      "id": "u4-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.7 The Loanable Funds Market",
+      "skill": "2. Interpretation",
       "stem": "Foreign investors become more eager to buy U.S. assets. In the U.S. loanable funds market, which is most likely?",
       "choices": [
-        { "id": "A", "text": "Supply of loanable funds increases, lowering the real interest rate and increasing investment." },
-        { "id": "B", "text": "Demand for loanable funds increases, raising the real interest rate." },
-        { "id": "C", "text": "Supply decreases, raising the real interest rate." },
-        { "id": "D", "text": "No change, because foreign funds don't enter the market." }
+        {
+          "id": "A",
+          "text": "Supply decreases, raising the real interest rate."
+        },
+        {
+          "id": "B",
+          "text": "Demand for loanable funds increases, raising the real interest rate."
+        },
+        {
+          "id": "C",
+          "text": "Supply of loanable funds increases, lowering the real interest rate and increasing investment."
+        },
+        {
+          "id": "D",
+          "text": "No change, because foreign funds don't enter the market."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Capital inflows add to the pool of saving available for borrowing.",
       "distractors": {}
     },
     {
-      "id": "u4-frq1", "tier": "Exam level", "type": "frq", "topic": "4.4 Banking and the Expansion of the Money Supply", "frqType": "Short FRQ",
+      "id": "u4-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "4.4 Banking and the Expansion of the Money Supply",
+      "frqType": "Short FRQ",
       "prompt": "First National Bank has the following balance sheet (in a limited-reserves banking system). The reserve requirement is 10%.\n\n| Assets | | Liabilities | |\n|---|---|---|---|\n| Reserves | $60,000 | Demand deposits | $400,000 |\n| Loans | $290,000 | Owner's equity | $50,000 |\n| Government bonds | $100,000 | | |",
       "parts": [
-        { "label": "a", "prompt": "Calculate the bank's required reserves.", "points": 1 },
-        { "label": "b", "prompt": "Calculate the maximum amount of new loans First National Bank can make.", "points": 1 },
-        { "label": "c", "prompt": "If the bank makes the loan in part (b), calculate the maximum change in the money supply in the banking system.", "points": 1 },
-        { "label": "d", "prompt": "The Federal Reserve buys the bank's $100,000 in government bonds. By how much do the bank's excess reserves change?", "points": 1 },
-        { "label": "e", "prompt": "Explain how the Fed's bond purchase in part (d) affects the nominal interest rate in the short run.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Calculate the bank's required reserves.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Calculate the maximum amount of new loans First National Bank can make.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "If the bank makes the loan in part (b), calculate the maximum change in the money supply in the banking system.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "The Federal Reserve buys the bank's $100,000 in government bonds. By how much do the bank's excess reserves change?",
+          "points": 1
+        },
+        {
+          "label": "e",
+          "prompt": "Explain how the Fed's bond purchase in part (d) affects the nominal interest rate in the short run.",
+          "points": 1
+        }
       ],
       "points": 5,
       "minutes": 10,
       "rubric": [
-        { "criterion": "a", "points": 1, "description": "10% × $400,000 = $40,000." },
-        { "criterion": "b", "points": 1, "description": "$60,000 − $40,000 = $20,000." },
-        { "criterion": "c", "points": 1, "description": "$20,000 × 10 = $200,000." },
-        { "criterion": "d", "points": 1, "description": "Increase of $100,000." },
-        { "criterion": "e", "points": 1, "description": "Increases reserves and the money supply, shifting MS right, so the nominal interest rate decreases." }
+        {
+          "criterion": "a",
+          "points": 1,
+          "description": "10% × $400,000 = $40,000."
+        },
+        {
+          "criterion": "b",
+          "points": 1,
+          "description": "$60,000 − $40,000 = $20,000."
+        },
+        {
+          "criterion": "c",
+          "points": 1,
+          "description": "$20,000 × 10 = $200,000."
+        },
+        {
+          "criterion": "d",
+          "points": 1,
+          "description": "Increase of $100,000."
+        },
+        {
+          "criterion": "e",
+          "points": 1,
+          "description": "Increases reserves and the money supply, shifting MS right, so the nominal interest rate decreases."
+        }
       ],
       "sampleResponse": "(a) Required reserves = 0.10 × $400,000 = $40,000.\n\n(b) Excess reserves = $60,000 − $40,000 = $20,000, so the bank can lend up to $20,000.\n\n(c) Money multiplier = 1/0.10 = 10. Maximum change in the money supply = $20,000 × 10 = $200,000.\n\n(d) The bank exchanges bonds for $100,000 in reserves, and deposits don't change, so excess reserves increase by $100,000.\n\n(e) The purchase increases bank reserves and lending, increasing the money supply. In the money market, the money supply curve shifts right, so the nominal interest rate falls."
     }

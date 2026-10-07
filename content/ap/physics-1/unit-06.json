@@ -137,11 +137,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "20 kg·m²/s"
+          "text": "50 kg·m²/s"
         },
         {
           "id": "B",
-          "text": "50 kg·m²/s"
+          "text": "20 kg·m²/s"
         },
         {
           "id": "C",
@@ -152,10 +152,10 @@
           "text": "100 kg·m²/s"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "L = Iω = 4 × 5 = 20 kg·m²/s.",
       "distractors": {
-        "B": "Computed ½Iω², the kinetic energy."
+        "A": "Computed ½Iω², the kinetic energy."
       }
     },
     {
@@ -167,7 +167,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Her angular velocity increases and her angular momentum stays the same."
+          "text": "Her angular momentum increases."
         },
         {
           "id": "B",
@@ -175,14 +175,14 @@
         },
         {
           "id": "C",
-          "text": "Her angular momentum increases."
+          "text": "Her angular velocity increases and her angular momentum stays the same."
         },
         {
           "id": "D",
           "text": "Her rotational inertia increases."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "With negligible external torque, L = Iω is constant. Pulling arms in reduces I, so ω increases.",
       "distractors": {
         "D": "Bringing mass closer to the axis reduces I."
@@ -197,11 +197,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "20 J"
+          "text": "1.25 J"
         },
         {
           "id": "B",
-          "text": "1.25 J"
+          "text": "20 J"
         },
         {
           "id": "C",
@@ -212,7 +212,7 @@
           "text": "40 J"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "W = τΔθ = 5 × 4 = 20 J.",
       "distractors": {
         "C": "Added instead of multiplying."
@@ -258,7 +258,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "6 J"
+          "text": "8 J"
         },
         {
           "id": "B",
@@ -270,10 +270,10 @@
         },
         {
           "id": "D",
-          "text": "8 J"
+          "text": "6 J"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Translational: ½(2)(4) = 4 J. Rotational: ½(½MR²)(v/R)² = ¼Mv² = 2 J. Total 6 J.",
       "distractors": {
         "B": "Left out the rotational energy.",
@@ -289,7 +289,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "4 rad/s"
+          "text": "2 rad/s"
         },
         {
           "id": "B",
@@ -301,10 +301,10 @@
         },
         {
           "id": "D",
-          "text": "2 rad/s"
+          "text": "4 rad/s"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "ΔL = τΔt = 6 kg·m²/s. ω = L/I = 6/1.5 = 4 rad/s.",
       "distractors": {
         "B": "Reported L as ω.",
@@ -320,7 +320,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "The disk, because a smaller fraction of its kinetic energy goes into rotation"
+          "text": "They arrive together, because they have equal mass and radius"
         },
         {
           "id": "B",
@@ -328,17 +328,17 @@
         },
         {
           "id": "C",
-          "text": "They arrive together, because they have equal mass and radius"
+          "text": "The disk, because a smaller fraction of its kinetic energy goes into rotation"
         },
         {
           "id": "D",
           "text": "The hoop, because it has greater rotational inertia"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Both convert the same mgh. The disk's smaller I puts less into rotation and more into translation, so it moves faster at every point.",
       "distractors": {
-        "C": "Shape matters even when mass and radius match."
+        "A": "Shape matters even when mass and radius match."
       }
     },
     {
@@ -350,11 +350,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "It increases, because she does work with her muscles to pull her arms inward."
+          "text": "It stays the same, because angular momentum is conserved."
         },
         {
           "id": "B",
-          "text": "It stays the same, because angular momentum is conserved."
+          "text": "It increases, because she does work with her muscles to pull her arms inward."
         },
         {
           "id": "C",
@@ -365,11 +365,11 @@
           "text": "It stays the same, because no external torque acts."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "K = L²/(2I). With L constant and I smaller, K increases. The energy comes from work done by her muscles.",
       "distractors": {
-        "B": "Conservation of L doesn't imply conservation of K.",
-        "C": "K depends on ω², which increases more than I decreases."
+        "C": "K depends on ω², which increases more than I decreases.",
+        "A": "Conservation of L doesn't imply conservation of K."
       }
     },
     {
@@ -412,7 +412,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "√(10gh/7)"
+          "text": "√(gh)"
         },
         {
           "id": "B",
@@ -424,10 +424,10 @@
         },
         {
           "id": "D",
-          "text": "√(gh)"
+          "text": "√(10gh/7)"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Mgh = ½Mv² + ½(2/5 MR²)(v/R)² = (7/10)Mv², so v = √(10gh/7).",
       "distractors": {
         "B": "Ignored rotation (sliding without friction).",
@@ -474,11 +474,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Angular momentum about the pivot"
+          "text": "Linear momentum"
         },
         {
           "id": "B",
-          "text": "Linear momentum"
+          "text": "Angular momentum about the pivot"
         },
         {
           "id": "C",
@@ -489,11 +489,11 @@
           "text": "Both linear momentum and angular momentum about the pivot"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The pivot exerts an external force during the collision, so linear momentum isn't conserved. That force acts at the pivot, so it has no torque about it: angular momentum about the pivot is conserved. The collision is inelastic, so kinetic energy isn't.",
       "distractors": {
-        "B": "The pivot force is external and changes linear momentum.",
-        "C": "The clay sticks; kinetic energy is lost."
+        "C": "The clay sticks; kinetic energy is lost.",
+        "A": "The pivot force is external and changes linear momentum."
       }
     },
     {

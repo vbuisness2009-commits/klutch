@@ -43,234 +43,551 @@
     "cramSheet": "**Architecture:** Great Zimbabwe · Great Mosque of Djenné (adobe, annual replastering)\n\n**Royal:** Benin plaques (hierarchical scale, 1897 looting) · Golden Stool (Asante) · ndop (Kuba, ibol) · Olowe veranda post (Yoruba)\n\n**Spiritual:** nkisi n'kondi (Kongo, nails = oaths) · byeri (Fang reliquary) · ikenga (Igbo) · lukasa (Luba memory board)\n\n**Masks:** Mende Bundu (women, Sande initiation) · Chokwe Pwo · Baule mblo portrait mask · Bamileke aka elephant mask"
   },
   "vocab": [
-    { "term": "Hierarchical scale", "definition": "Showing more important figures as larger than others." },
-    { "term": "Adobe", "definition": "Sun-dried mud brick used in architecture, as at Djenné." },
-    { "term": "Toron", "definition": "Wooden beams projecting from Djenné's walls, used as scaffolding for replastering." },
-    { "term": "Oba", "definition": "The king of the Kingdom of Benin." },
-    { "term": "Nkisi n'kondi", "definition": "A Kongo power figure activated by a ritual specialist and used to seal oaths." },
-    { "term": "Nganga", "definition": "A Kongo ritual specialist who activates power figures." },
-    { "term": "Reliquary", "definition": "A container or guardian for sacred remains, such as the Fang byeri." },
-    { "term": "Ndop", "definition": "A Kuba royal commemorative figure identified by an emblem rather than facial likeness." },
-    { "term": "Ikenga", "definition": "An Igbo shrine figure embodying personal achievement and strength." },
-    { "term": "Lukasa", "definition": "A Luba memory board used to recall history and genealogy." },
-    { "term": "Sande society", "definition": "A Mende women's society responsible for girls' initiation." },
-    { "term": "Initiation", "definition": "A ritual marking a person's transition into a new social role." },
-    { "term": "Mblo", "definition": "A Baule portrait mask honoring a specific person." }
+    {
+      "term": "Hierarchical scale",
+      "definition": "Showing more important figures as larger than others."
+    },
+    {
+      "term": "Adobe",
+      "definition": "Sun-dried mud brick used in architecture, as at Djenné."
+    },
+    {
+      "term": "Toron",
+      "definition": "Wooden beams projecting from Djenné's walls, used as scaffolding for replastering."
+    },
+    {
+      "term": "Oba",
+      "definition": "The king of the Kingdom of Benin."
+    },
+    {
+      "term": "Nkisi n'kondi",
+      "definition": "A Kongo power figure activated by a ritual specialist and used to seal oaths."
+    },
+    {
+      "term": "Nganga",
+      "definition": "A Kongo ritual specialist who activates power figures."
+    },
+    {
+      "term": "Reliquary",
+      "definition": "A container or guardian for sacred remains, such as the Fang byeri."
+    },
+    {
+      "term": "Ndop",
+      "definition": "A Kuba royal commemorative figure identified by an emblem rather than facial likeness."
+    },
+    {
+      "term": "Ikenga",
+      "definition": "An Igbo shrine figure embodying personal achievement and strength."
+    },
+    {
+      "term": "Lukasa",
+      "definition": "A Luba memory board used to recall history and genealogy."
+    },
+    {
+      "term": "Sande society",
+      "definition": "A Mende women's society responsible for girls' initiation."
+    },
+    {
+      "term": "Initiation",
+      "definition": "A ritual marking a person's transition into a new social role."
+    },
+    {
+      "term": "Mblo",
+      "definition": "A Baule portrait mask honoring a specific person."
+    }
   ],
   "practice": [
     {
-      "id": "u6-q01", "tier": "Intro", "type": "mcq", "topic": "Kingdom of Benin",
+      "id": "u6-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Kingdom of Benin",
       "stimulus": "A rectangular cast brass plaque from a royal palace in West Africa shows a central ruler, larger than the attendants who flank him.",
       "stem": "The difference in figure size is an example of",
       "choices": [
-        { "id": "A", "text": "hierarchical scale, emphasizing the Oba's importance" },
-        { "id": "B", "text": "linear perspective, showing distance" },
-        { "id": "C", "text": "contrapposto, creating a relaxed pose" },
-        { "id": "D", "text": "tenebrism, creating drama" }
+        {
+          "id": "A",
+          "text": "contrapposto, creating a relaxed pose"
+        },
+        {
+          "id": "B",
+          "text": "linear perspective, showing distance"
+        },
+        {
+          "id": "C",
+          "text": "hierarchical scale, emphasizing the Oba's importance"
+        },
+        {
+          "id": "D",
+          "text": "tenebrism, creating drama"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Benin plaques show rank through size, not spatial depth.",
-      "distractors": { "B": "The larger figure isn't closer to the viewer." }
+      "distractors": {
+        "B": "The larger figure isn't closer to the viewer."
+      }
     },
     {
-      "id": "u6-q02", "tier": "Intro", "type": "mcq", "topic": "Architecture",
+      "id": "u6-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Architecture",
       "stimulus": "Each year, residents of a Malian town gather to replaster their great mosque's adobe walls with fresh mud, climbing on wooden beams that project from the walls.",
       "stem": "This annual festival shows that the building's",
       "choices": [
-        { "id": "A", "text": "maintenance is a communal ritual that is part of its meaning" },
-        { "id": "B", "text": "walls are made of stone that rarely needs repair" },
-        { "id": "C", "text": "construction was completed by foreign architects" },
-        { "id": "D", "text": "purpose is purely decorative" }
+        {
+          "id": "A",
+          "text": "purpose is purely decorative"
+        },
+        {
+          "id": "B",
+          "text": "walls are made of stone that rarely needs repair"
+        },
+        {
+          "id": "C",
+          "text": "construction was completed by foreign architects"
+        },
+        {
+          "id": "D",
+          "text": "maintenance is a communal ritual that is part of its meaning"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "At the Great Mosque of Djenné, renewing the building is a shared civic and religious act.",
-      "distractors": { "B": "Adobe requires regular renewal." }
+      "distractors": {
+        "B": "Adobe requires regular renewal."
+      }
     },
     {
-      "id": "u6-q03", "tier": "Intro", "type": "mcq", "topic": "Kongo",
+      "id": "u6-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Kongo",
       "stimulus": "A wooden figure with a fierce expression is covered with hundreds of nails and blades driven into its body. A cavity on its belly held medicinal substances.",
       "stem": "The nails most likely represent",
       "choices": [
-        { "id": "A", "text": "oaths, agreements, or requests sealed when the figure was activated" },
-        { "id": "B", "text": "damage from colonial collectors" },
-        { "id": "C", "text": "decorative patterns added for sale to tourists" },
-        { "id": "D", "text": "a record of the carver's age" }
+        {
+          "id": "A",
+          "text": "decorative patterns added for sale to tourists"
+        },
+        {
+          "id": "B",
+          "text": "damage from colonial collectors"
+        },
+        {
+          "id": "C",
+          "text": "oaths, agreements, or requests sealed when the figure was activated"
+        },
+        {
+          "id": "D",
+          "text": "a record of the carver's age"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Each nail in a Kongo nkisi n'kondi marks an occasion when its power was invoked.",
-      "distractors": { "B": "The nails were part of its ritual use." }
+      "distractors": {
+        "B": "The nails were part of its ritual use."
+      }
     },
     {
-      "id": "u6-q04", "tier": "Intro", "type": "mcq", "topic": "Asante",
+      "id": "u6-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Asante",
       "stem": "Why is no one allowed to sit on the Asante Golden Stool (Sika dwa kofi)?",
       "choices": [
-        { "id": "A", "text": "It is believed to hold the soul of the Asante nation." },
-        { "id": "B", "text": "It is too fragile to bear weight." },
-        { "id": "C", "text": "It is reserved for European visitors." },
-        { "id": "D", "text": "It is a reproduction made for museums." }
+        {
+          "id": "A",
+          "text": "It is too fragile to bear weight."
+        },
+        {
+          "id": "B",
+          "text": "It is believed to hold the soul of the Asante nation."
+        },
+        {
+          "id": "C",
+          "text": "It is reserved for European visitors."
+        },
+        {
+          "id": "D",
+          "text": "It is a reproduction made for museums."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The stool embodies the nation's unity and is placed on its own stool, never sat upon.",
-      "distractors": { "D": "It remains an active symbol in Ghana." }
+      "distractors": {
+        "D": "It remains an active symbol in Ghana."
+      }
     },
     {
-      "id": "u6-q05", "tier": "Exam level", "type": "mcq", "topic": "Mende",
+      "id": "u6-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Mende",
       "stimulus": "A helmet mask carved from dark, polished wood shows a serene female face with a high forehead, small features, elaborate coiffure, and rings around the neck. It was worn with a black raffia costume that covered the dancer completely.",
       "stem": "Which statement is most accurate about this mask?",
       "choices": [
-        { "id": "A", "text": "It was worn by women of the Sande society during girls' initiation, embodying ideals of beauty and moral character." },
-        { "id": "B", "text": "It was worn by men to honor a deceased king." },
-        { "id": "C", "text": "It was hung in a palace as a wall decoration." },
-        { "id": "D", "text": "It served as a reliquary for ancestral bones." }
+        {
+          "id": "A",
+          "text": "It served as a reliquary for ancestral bones."
+        },
+        {
+          "id": "B",
+          "text": "It was worn by men to honor a deceased king."
+        },
+        {
+          "id": "C",
+          "text": "It was hung in a palace as a wall decoration."
+        },
+        {
+          "id": "D",
+          "text": "It was worn by women of the Sande society during girls' initiation, embodying ideals of beauty and moral character."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The Mende Bundu (sowei) mask is notable for being worn by women; neck rings suggest health and prosperity.",
-      "distractors": { "B": "Describes neither this mask's wearers nor its purpose." }
+      "distractors": {
+        "B": "Describes neither this mask's wearers nor its purpose."
+      }
     },
     {
-      "id": "u6-q06", "tier": "Exam level", "type": "mcq", "topic": "Kuba",
+      "id": "u6-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Kuba",
       "stimulus": "A seated wooden royal figure from the Kuba kingdom has a generalized face similar to other such figures, but a distinctive object, such as a drum, is carved at its base.",
       "stem": "How is the specific king represented by this figure identified?",
       "choices": [
-        { "id": "A", "text": "By the emblem (ibol) at the base, associated with that ruler's reign" },
-        { "id": "B", "text": "By a realistic likeness of his face" },
-        { "id": "C", "text": "By an inscription in Latin" },
-        { "id": "D", "text": "By the color of the wood" }
+        {
+          "id": "A",
+          "text": "By the emblem (ibol) at the base, associated with that ruler's reign"
+        },
+        {
+          "id": "B",
+          "text": "By a realistic likeness of his face"
+        },
+        {
+          "id": "C",
+          "text": "By an inscription in Latin"
+        },
+        {
+          "id": "D",
+          "text": "By the color of the wood"
+        }
       ],
       "answer": "A",
       "explanation": "Ndop figures idealize the ruler's body and face; the ibol identifies the individual.",
-      "distractors": { "B": "The faces are idealized and similar across figures." }
+      "distractors": {
+        "B": "The faces are idealized and similar across figures."
+      }
     },
     {
-      "id": "u6-q07", "tier": "Exam level", "type": "mcq", "topic": "Yoruba",
+      "id": "u6-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Yoruba",
       "stimulus": "A carved wooden post for a Yoruba palace veranda shows a seated king. Behind him stands his senior wife, carved larger than the king, her hands supporting his throne.",
       "stem": "The senior wife's size and position most likely convey",
       "choices": [
-        { "id": "A", "text": "her essential role in supporting and sustaining the king's power" },
-        { "id": "B", "text": "that she was the ruler and the king was a servant" },
-        { "id": "C", "text": "that she was a visiting European" },
-        { "id": "D", "text": "a mistake in proportion by the carver" }
+        {
+          "id": "A",
+          "text": "that she was the ruler and the king was a servant"
+        },
+        {
+          "id": "B",
+          "text": "her essential role in supporting and sustaining the king's power"
+        },
+        {
+          "id": "C",
+          "text": "that she was a visiting European"
+        },
+        {
+          "id": "D",
+          "text": "a mistake in proportion by the carver"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Olowe of Ise's veranda post presents royal power as dependent on women's support, also reflected in the post's literal structural role.",
-      "distractors": { "D": "Olowe was a master carver; the scale is deliberate." }
+      "distractors": {
+        "D": "Olowe was a master carver; the scale is deliberate."
+      }
     },
     {
-      "id": "u6-q08", "tier": "Exam level", "type": "mcq", "topic": "Luba",
+      "id": "u6-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Luba",
       "stimulus": "A small, hand-held wooden board is covered with beads, shells, and carved shapes. Members of a royal society would run their fingers over it while reciting history.",
       "stem": "The object functioned primarily as",
       "choices": [
-        { "id": "A", "text": "a memory device for recalling royal history, genealogy, and sacred knowledge" },
-        { "id": "B", "text": "a game board for entertainment" },
-        { "id": "C", "text": "a map for trade routes" },
-        { "id": "D", "text": "a mask worn in initiation" }
+        {
+          "id": "A",
+          "text": "a memory device for recalling royal history, genealogy, and sacred knowledge"
+        },
+        {
+          "id": "B",
+          "text": "a game board for entertainment"
+        },
+        {
+          "id": "C",
+          "text": "a map for trade routes"
+        },
+        {
+          "id": "D",
+          "text": "a mask worn in initiation"
+        }
       ],
       "answer": "A",
       "explanation": "The Luba lukasa was interpreted by Mbudye society members; its meaning varied with the reader.",
-      "distractors": { "D": "It is held, not worn." }
+      "distractors": {
+        "D": "It is held, not worn."
+      }
     },
     {
-      "id": "u6-q09", "tier": "Exam level", "type": "mcq", "topic": "Fang",
+      "id": "u6-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Fang",
       "stimulus": "A carved figure with a large head and compact body was originally placed on top of a bark container holding the bones of revered ancestors.",
       "stem": "The figure's function was to",
       "choices": [
-        { "id": "A", "text": "guard the ancestors' remains and their power for the lineage" },
-        { "id": "B", "text": "represent a living chief at court" },
-        { "id": "C", "text": "seal oaths with nails" },
-        { "id": "D", "text": "decorate a mosque" }
+        {
+          "id": "A",
+          "text": "seal oaths with nails"
+        },
+        {
+          "id": "B",
+          "text": "represent a living chief at court"
+        },
+        {
+          "id": "C",
+          "text": "guard the ancestors' remains and their power for the lineage"
+        },
+        {
+          "id": "D",
+          "text": "decorate a mosque"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The Fang byeri protected relics; the large head may suggest wisdom and the infant-like proportions vitality.",
-      "distractors": { "C": "That's the Kongo nkisi n'kondi." }
+      "distractors": {
+        "A": "That's the Kongo nkisi n'kondi."
+      }
     },
     {
-      "id": "u6-q10", "tier": "Exam level", "type": "mcq", "topic": "Great Zimbabwe",
+      "id": "u6-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Great Zimbabwe",
       "stimulus": "An enormous curving wall and a solid conical tower were built of granite blocks without mortar between roughly 1000 and 1400 CE in southern Africa.",
       "stem": "Scholars generally interpret these structures as",
       "choices": [
-        { "id": "A", "text": "expressions of royal power and prestige at a wealthy center of trade" },
-        { "id": "B", "text": "Roman military forts" },
-        { "id": "C", "text": "a twentieth-century colonial monument" },
-        { "id": "D", "text": "temporary structures for a single festival" }
+        {
+          "id": "A",
+          "text": "temporary structures for a single festival"
+        },
+        {
+          "id": "B",
+          "text": "Roman military forts"
+        },
+        {
+          "id": "C",
+          "text": "a twentieth-century colonial monument"
+        },
+        {
+          "id": "D",
+          "text": "expressions of royal power and prestige at a wealthy center of trade"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Great Zimbabwe was the capital of a state engaged in long-distance trade; colonial writers falsely attributed it to outsiders.",
-      "distractors": { "B": "Rome never reached southern Africa." }
+      "distractors": {
+        "B": "Rome never reached southern Africa."
+      }
     },
     {
-      "id": "u6-q11", "tier": "Hardest", "type": "mcq", "topic": "Kingdom of Benin / colonial context",
+      "id": "u6-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Kingdom of Benin / colonial context",
       "stimulus": "Hundreds of brass plaques that once covered the pillars of a West African royal palace are now in museums in Europe and the United States. Most left Africa after a British military expedition in 1897.",
       "stem": "Which question would be most relevant to a contextual analysis of these plaques today?",
       "choices": [
-        { "id": "A", "text": "How does their removal during a colonial expedition affect debates over ownership and return?" },
-        { "id": "B", "text": "Which Impressionist painters influenced them?" },
-        { "id": "C", "text": "How did Byzantine mosaics shape their style?" },
-        { "id": "D", "text": "Were they made for tourists?" }
+        {
+          "id": "A",
+          "text": "How does their removal during a colonial expedition affect debates over ownership and return?"
+        },
+        {
+          "id": "B",
+          "text": "Which Impressionist painters influenced them?"
+        },
+        {
+          "id": "C",
+          "text": "How did Byzantine mosaics shape their style?"
+        },
+        {
+          "id": "D",
+          "text": "Were they made for tourists?"
+        }
       ],
       "answer": "A",
       "explanation": "The 1897 looting of Benin City is central to their history and to ongoing repatriation efforts.",
-      "distractors": { "D": "They were made for the Oba's palace centuries earlier." }
+      "distractors": {
+        "D": "They were made for the Oba's palace centuries earlier."
+      }
     },
     {
-      "id": "u6-q12", "tier": "Hardest", "type": "mcq", "topic": "Masks and gender",
+      "id": "u6-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Masks and gender",
       "stimulus": "Mask 1: a Chokwe female (pwo) mask honoring women as founders of lineages.\nMask 2: a Mende Bundu mask representing ideals of womanhood.",
       "stem": "Which statement best distinguishes the masks' performance contexts?",
       "choices": [
-        { "id": "A", "text": "The Chokwe pwo mask is danced by men; the Mende Bundu mask is worn by women of the Sande society." },
-        { "id": "B", "text": "Both masks are worn only by women." },
-        { "id": "C", "text": "Both masks are worn only by kings." },
-        { "id": "D", "text": "Neither mask is used in performance." }
+        {
+          "id": "A",
+          "text": "Neither mask is used in performance."
+        },
+        {
+          "id": "B",
+          "text": "Both masks are worn only by women."
+        },
+        {
+          "id": "C",
+          "text": "Both masks are worn only by kings."
+        },
+        {
+          "id": "D",
+          "text": "The Chokwe pwo mask is danced by men; the Mende Bundu mask is worn by women of the Sande society."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The Bundu mask is a rare case of women wearing masks in Africa; Chokwe pwo masks are performed by men honoring women.",
-      "distractors": { "B": "Pwo masks are danced by men." }
+      "distractors": {
+        "B": "Pwo masks are danced by men."
+      }
     },
     {
-      "id": "u6-q13", "tier": "Hardest", "type": "mcq", "topic": "Baule",
+      "id": "u6-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Baule",
       "stimulus": "A Baule wooden mask depicts a specific, named person with refined features and an elaborate hairstyle. In performance, the person it honors may dance alongside the masker.",
       "stem": "This practice best demonstrates that",
       "choices": [
-        { "id": "A", "text": "the mask honors a living individual whose presence completes its meaning" },
-        { "id": "B", "text": "the mask represents an anonymous ancestor only" },
-        { "id": "C", "text": "masks were never connected to real people" },
-        { "id": "D", "text": "the mask was made for European collectors" }
+        {
+          "id": "A",
+          "text": "the mask represents an anonymous ancestor only"
+        },
+        {
+          "id": "B",
+          "text": "the mask honors a living individual whose presence completes its meaning"
+        },
+        {
+          "id": "C",
+          "text": "masks were never connected to real people"
+        },
+        {
+          "id": "D",
+          "text": "the mask was made for European collectors"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Baule portrait masks (mblo) celebrate a particular person; the honoree's participation makes the tribute public.",
-      "distractors": { "C": "This mask is linked to a real person." }
+      "distractors": {
+        "C": "This mask is linked to a real person."
+      }
     },
     {
-      "id": "u6-q14", "tier": "Hardest", "type": "mcq", "topic": "Igbo",
+      "id": "u6-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Igbo",
       "stimulus": "A carved Igbo figure has prominent ram's horns and holds a knife in its right hand. A man commissions it and makes offerings to it to support his success.",
       "stem": "The figure's symbolism most directly relates to",
       "choices": [
-        { "id": "A", "text": "personal achievement and the strength of the right hand that accomplishes it" },
-        { "id": "B", "text": "royal succession in the Kingdom of Benin" },
-        { "id": "C", "text": "women's initiation" },
-        { "id": "D", "text": "Islamic prayer" }
+        {
+          "id": "A",
+          "text": "women's initiation"
+        },
+        {
+          "id": "B",
+          "text": "royal succession in the Kingdom of Benin"
+        },
+        {
+          "id": "C",
+          "text": "personal achievement and the strength of the right hand that accomplishes it"
+        },
+        {
+          "id": "D",
+          "text": "Islamic prayer"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The ikenga embodies individual effort; horns suggest power and determination.",
-      "distractors": { "C": "Ikenga relates to men's achievement." }
+      "distractors": {
+        "A": "Ikenga relates to men's achievement."
+      }
     },
     {
-      "id": "u6-frq1", "tier": "Exam level", "type": "frq", "topic": "Kongo power figure", "frqType": "Q4 Contextual Analysis",
+      "id": "u6-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Kongo power figure",
+      "frqType": "Q4 Contextual Analysis",
       "stimulus": "The work is a Kongo nkisi n'kondi (power figure), late nineteenth century, wood, nails, blades, medicinal materials.",
       "prompt": "Answer (a)–(d).",
       "parts": [
-        { "label": "a", "prompt": "Describe how the figure was activated.", "points": 1 },
-        { "label": "b", "prompt": "Explain the function of the nails and blades.", "points": 1 },
-        { "label": "c", "prompt": "Explain how the figure's appearance supports its function. Provide two pieces of visual evidence.", "points": 2 },
-        { "label": "d", "prompt": "Explain how the figure's meaning changes when displayed in a museum.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Describe how the figure was activated.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Explain the function of the nails and blades.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Explain how the figure's appearance supports its function. Provide two pieces of visual evidence.",
+          "points": 2
+        },
+        {
+          "label": "d",
+          "prompt": "Explain how the figure's meaning changes when displayed in a museum.",
+          "points": 1
+        }
       ],
       "points": 5,
       "minutes": 15,
       "rubric": [
-        { "criterion": "(a)", "points": 1, "description": "A ritual specialist (nganga) placed medicinal and empowering substances (bilongo) into a cavity, often sealed with a mirror or resin." },
-        { "criterion": "(b)", "points": 1, "description": "Clients drove nails or blades into the figure to seal oaths, settle disputes, or request help; each records a specific invocation." },
-        { "criterion": "(c) Evidence 1", "points": 1, "description": "E.g., aggressive stance or raised arm suggests readiness to act against wrongdoers." },
-        { "criterion": "(c) Evidence 2", "points": 1, "description": "E.g., fierce face, open mouth, or reflective eyes/mirror suggest vigilance and spiritual vision." },
-        { "criterion": "(d)", "points": 1, "description": "In a museum, it is inactive and viewed as an aesthetic object, separated from the community, specialist, and oaths that gave it power." }
+        {
+          "criterion": "(a)",
+          "points": 1,
+          "description": "A ritual specialist (nganga) placed medicinal and empowering substances (bilongo) into a cavity, often sealed with a mirror or resin."
+        },
+        {
+          "criterion": "(b)",
+          "points": 1,
+          "description": "Clients drove nails or blades into the figure to seal oaths, settle disputes, or request help; each records a specific invocation."
+        },
+        {
+          "criterion": "(c) Evidence 1",
+          "points": 1,
+          "description": "E.g., aggressive stance or raised arm suggests readiness to act against wrongdoers."
+        },
+        {
+          "criterion": "(c) Evidence 2",
+          "points": 1,
+          "description": "E.g., fierce face, open mouth, or reflective eyes/mirror suggest vigilance and spiritual vision."
+        },
+        {
+          "criterion": "(d)",
+          "points": 1,
+          "description": "In a museum, it is inactive and viewed as an aesthetic object, separated from the community, specialist, and oaths that gave it power."
+        }
       ],
       "sampleResponse": "(a) The figure was activated by a ritual specialist, the nganga, who placed medicinal and spiritually charged substances in a cavity in its belly and sealed it, often with a mirror.\n\n(b) When people made agreements, settled disputes, or sought help against illness or wrongdoing, they drove a nail or blade into the figure. Each nail recorded an oath or a request, calling the figure's power to act on it.\n\n(c) The figure stands in an aggressive, alert posture, sometimes with a raised arm once holding a weapon, which suggests it is ready to punish those who break oaths. Its fierce face with an open mouth and glinting eyes conveys vigilance, as if it watches over the agreements sealed in its body.\n\n(d) In a museum, the figure is no longer consulted or activated, and the people whose oaths it holds are absent. Viewers see a powerful sculpture, but its living role as a legal and spiritual witness for a community is lost."
     }

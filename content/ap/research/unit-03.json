@@ -100,7 +100,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Study 4"
+          "text": "Study 3"
         },
         {
           "id": "B",
@@ -112,10 +112,10 @@
         },
         {
           "id": "D",
-          "text": "Study 3"
+          "text": "Study 4"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "A position paper argues a stance.",
       "distractors": {}
     },
@@ -157,11 +157,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Study 1's finding that achievement gains level off after about two hours, combined with Study 3's link between heavy loads and stress, suggests that very high homework loads may carry costs without academic benefits."
+          "text": "Study 1 surveyed 10,000 students. Study 3 interviewed 30 students."
         },
         {
           "id": "B",
-          "text": "Study 1 surveyed 10,000 students. Study 3 interviewed 30 students."
+          "text": "Study 1's finding that achievement gains level off after about two hours, combined with Study 3's link between heavy loads and stress, suggests that very high homework loads may carry costs without academic benefits."
         },
         {
           "id": "C",
@@ -172,7 +172,7 @@
           "text": "Both studies are experiments."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "It connects findings to form a new insight.",
       "distractors": {}
     },
@@ -186,7 +186,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "they measured different outcomes (math scores vs stress and sleep) and possibly different homework amounts"
+          "text": "interviews are always wrong"
         },
         {
           "id": "B",
@@ -194,14 +194,14 @@
         },
         {
           "id": "C",
-          "text": "interviews are always wrong"
+          "text": "they measured different outcomes (math scores vs stress and sleep) and possibly different homework amounts"
         },
         {
           "id": "D",
           "text": "experiments are always wrong"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Different questions and measures.",
       "distractors": {}
     },
@@ -214,7 +214,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "emails link responses to identities, so the survey isn't anonymous; the student should collect emails separately or promise confidentiality instead"
+          "text": "surveys can't be anonymous"
         },
         {
           "id": "B",
@@ -222,14 +222,14 @@
         },
         {
           "id": "C",
-          "text": "surveys can't be anonymous"
+          "text": "emails link responses to identities, so the survey isn't anonymous; the student should collect emails separately or promise confidentiality instead"
         },
         {
           "id": "D",
           "text": "there is no problem"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Anonymity and identifying information conflict.",
       "distractors": {}
     },

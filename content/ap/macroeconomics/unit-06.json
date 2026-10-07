@@ -45,220 +45,528 @@
     "cramSheet": "**BOP:** current (trade, income, transfers) + capital/financial (assets) = 0\n\n**Exchange rate:** appreciation = buys more · $1 = 110¥ → 125¥ = $ appreciated\n\n**Demand for $:** foreigners buy U.S. goods, assets · **Supply of $:** Americans buy foreign\n\n**Shifters:** relative interest rates · incomes · price levels · tastes · tariffs\n\n**Chain:** ↑U.S. real r → capital inflow → ↑D$ → $ appreciates → ↓Xn → ↓AD\n\n**Mirror:** ↑D$ = ↑S¥"
   },
   "vocab": [
-    { "term": "Balance of payments", "definition": "A record of all economic transactions between a country and the rest of the world." },
-    { "term": "Current account", "definition": "Records trade in goods and services, net investment income, and net transfers." },
-    { "term": "Capital and financial account", "definition": "Records international purchases and sales of assets." },
-    { "term": "Trade deficit", "definition": "When imports of goods and services exceed exports." },
-    { "term": "Exchange rate", "definition": "The price of one currency in terms of another." },
-    { "term": "Appreciation", "definition": "An increase in the value of a currency relative to another." },
-    { "term": "Depreciation", "definition": "A decrease in the value of a currency relative to another." },
-    { "term": "Foreign exchange market", "definition": "The market where currencies are traded." },
-    { "term": "Capital inflow", "definition": "Foreign purchases of domestic assets." },
-    { "term": "Net exports", "definition": "Exports minus imports." },
-    { "term": "Flexible exchange rate", "definition": "An exchange rate determined by supply and demand in the currency market." },
-    { "term": "Fixed exchange rate", "definition": "An exchange rate set by government at a specific value, maintained by central bank intervention." }
+    {
+      "term": "Balance of payments",
+      "definition": "A record of all economic transactions between a country and the rest of the world."
+    },
+    {
+      "term": "Current account",
+      "definition": "Records trade in goods and services, net investment income, and net transfers."
+    },
+    {
+      "term": "Capital and financial account",
+      "definition": "Records international purchases and sales of assets."
+    },
+    {
+      "term": "Trade deficit",
+      "definition": "When imports of goods and services exceed exports."
+    },
+    {
+      "term": "Exchange rate",
+      "definition": "The price of one currency in terms of another."
+    },
+    {
+      "term": "Appreciation",
+      "definition": "An increase in the value of a currency relative to another."
+    },
+    {
+      "term": "Depreciation",
+      "definition": "A decrease in the value of a currency relative to another."
+    },
+    {
+      "term": "Foreign exchange market",
+      "definition": "The market where currencies are traded."
+    },
+    {
+      "term": "Capital inflow",
+      "definition": "Foreign purchases of domestic assets."
+    },
+    {
+      "term": "Net exports",
+      "definition": "Exports minus imports."
+    },
+    {
+      "term": "Flexible exchange rate",
+      "definition": "An exchange rate determined by supply and demand in the currency market."
+    },
+    {
+      "term": "Fixed exchange rate",
+      "definition": "An exchange rate set by government at a specific value, maintained by central bank intervention."
+    }
   ],
   "practice": [
     {
-      "id": "u6-q01", "tier": "Intro", "type": "mcq", "topic": "6.2 Exchange Rates", "skill": "2. Interpretation",
+      "id": "u6-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.2 Exchange Rates",
+      "skill": "2. Interpretation",
       "stem": "The exchange rate changes from $1 = 110 yen to $1 = 125 yen. Which is correct?",
       "choices": [
-        { "id": "A", "text": "The dollar depreciated against the yen." },
-        { "id": "B", "text": "The dollar appreciated against the yen." },
-        { "id": "C", "text": "The yen appreciated against the dollar." },
-        { "id": "D", "text": "Neither currency changed value." }
+        {
+          "id": "A",
+          "text": "The dollar appreciated against the yen."
+        },
+        {
+          "id": "B",
+          "text": "The dollar depreciated against the yen."
+        },
+        {
+          "id": "C",
+          "text": "The yen appreciated against the dollar."
+        },
+        {
+          "id": "D",
+          "text": "Neither currency changed value."
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Each dollar now buys more yen.",
       "distractors": {}
     },
     {
-      "id": "u6-q02", "tier": "Intro", "type": "mcq", "topic": "6.1 Balance of Payments Accounts", "skill": "1. Principles and Models",
+      "id": "u6-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.1 Balance of Payments Accounts",
+      "skill": "1. Principles and Models",
       "stem": "A Japanese company buys shares of a U.S. corporation. In the U.S. balance of payments, this is recorded as",
       "choices": [
-        { "id": "A", "text": "a credit in the current account" },
-        { "id": "B", "text": "a debit in the current account" },
-        { "id": "C", "text": "a credit (inflow) in the capital and financial account" },
-        { "id": "D", "text": "a debit in the capital and financial account" }
+        {
+          "id": "A",
+          "text": "a credit in the current account"
+        },
+        {
+          "id": "B",
+          "text": "a debit in the current account"
+        },
+        {
+          "id": "C",
+          "text": "a debit in the capital and financial account"
+        },
+        {
+          "id": "D",
+          "text": "a credit (inflow) in the capital and financial account"
+        }
       ],
-      "answer": "C",
+      "answer": "D",
       "explanation": "Foreign purchase of a U.S. asset is a capital inflow.",
       "distractors": {}
     },
     {
-      "id": "u6-q03", "tier": "Intro", "type": "mcq", "topic": "6.5 Changes in the Foreign Exchange Market and Net Exports", "skill": "2. Interpretation",
+      "id": "u6-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.5 Changes in the Foreign Exchange Market and Net Exports",
+      "skill": "2. Interpretation",
       "stem": "If the U.S. dollar appreciates, U.S. net exports will most likely",
       "choices": [
-        { "id": "A", "text": "increase" },
-        { "id": "B", "text": "decrease" },
-        { "id": "C", "text": "not change" },
-        { "id": "D", "text": "double" }
+        {
+          "id": "A",
+          "text": "decrease"
+        },
+        {
+          "id": "B",
+          "text": "increase"
+        },
+        {
+          "id": "C",
+          "text": "not change"
+        },
+        {
+          "id": "D",
+          "text": "double"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "U.S. goods become more expensive abroad, and imports become cheaper.",
       "distractors": {}
     },
     {
-      "id": "u6-q04", "tier": "Intro", "type": "mcq", "topic": "6.3 The Foreign Exchange Market", "skill": "1. Principles and Models",
+      "id": "u6-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.3 The Foreign Exchange Market",
+      "skill": "1. Principles and Models",
       "stem": "In the foreign exchange market for U.S. dollars, the demand for dollars comes from",
       "choices": [
-        { "id": "A", "text": "Americans buying foreign goods" },
-        { "id": "B", "text": "foreigners buying U.S. goods, services, and assets" },
-        { "id": "C", "text": "the U.S. government collecting taxes" },
-        { "id": "D", "text": "Americans traveling abroad" }
+        {
+          "id": "A",
+          "text": "Americans buying foreign goods"
+        },
+        {
+          "id": "B",
+          "text": "the U.S. government collecting taxes"
+        },
+        {
+          "id": "C",
+          "text": "foreigners buying U.S. goods, services, and assets"
+        },
+        {
+          "id": "D",
+          "text": "Americans traveling abroad"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Foreigners need dollars to buy U.S. products and assets.",
-      "distractors": { "A": "Supplies dollars." }
+      "distractors": {
+        "A": "Supplies dollars."
+      }
     },
     {
-      "id": "u6-q05", "tier": "Exam level", "type": "mcq", "topic": "6.4 Effect of Changes in Policies and Economic Conditions on the Foreign Exchange Market", "skill": "2. Interpretation",
+      "id": "u6-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.4 Effect of Changes in Policies and Economic Conditions on the Foreign Exchange Market",
+      "skill": "2. Interpretation",
       "stem": "The Federal Reserve raises interest rates while European rates stay the same. What is the most likely effect?",
       "choices": [
-        { "id": "A", "text": "Demand for dollars increases and the dollar appreciates against the euro." },
-        { "id": "B", "text": "Supply of dollars increases and the dollar depreciates." },
-        { "id": "C", "text": "Demand for euros increases." },
-        { "id": "D", "text": "U.S. net exports increase." }
+        {
+          "id": "A",
+          "text": "Supply of dollars increases and the dollar depreciates."
+        },
+        {
+          "id": "B",
+          "text": "Demand for dollars increases and the dollar appreciates against the euro."
+        },
+        {
+          "id": "C",
+          "text": "Demand for euros increases."
+        },
+        {
+          "id": "D",
+          "text": "U.S. net exports increase."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Higher U.S. returns attract financial capital, increasing demand for dollars.",
-      "distractors": { "D": "Appreciation lowers net exports." }
+      "distractors": {
+        "D": "Appreciation lowers net exports."
+      }
     },
     {
-      "id": "u6-q06", "tier": "Exam level", "type": "mcq", "topic": "6.1 Balance of Payments Accounts", "skill": "3. Manipulation",
+      "id": "u6-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.1 Balance of Payments Accounts",
+      "skill": "3. Manipulation",
       "stimulus": "Country K: exports of goods and services $500 billion; imports $600 billion; net investment income +$20 billion; net transfers −$10 billion.",
       "stem": "What is Country K's current account balance, and what must be true of its capital and financial account?",
       "choices": [
-        { "id": "A", "text": "−$90 billion; a surplus of about $90 billion" },
-        { "id": "B", "text": "−$100 billion; a deficit of $100 billion" },
-        { "id": "C", "text": "+$90 billion; a deficit of $90 billion" },
-        { "id": "D", "text": "−$110 billion; a surplus of $110 billion" }
+        {
+          "id": "A",
+          "text": "−$110 billion; a surplus of $110 billion"
+        },
+        {
+          "id": "B",
+          "text": "−$100 billion; a deficit of $100 billion"
+        },
+        {
+          "id": "C",
+          "text": "+$90 billion; a deficit of $90 billion"
+        },
+        {
+          "id": "D",
+          "text": "−$90 billion; a surplus of about $90 billion"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "(500 − 600) + 20 − 10 = −90; the financial account offsets with net inflows of 90.",
-      "distractors": { "B": "Trade balance only." }
+      "distractors": {
+        "B": "Trade balance only."
+      }
     },
     {
-      "id": "u6-q07", "tier": "Exam level", "type": "mcq", "topic": "6.4 Effect of Changes in Policies and Economic Conditions on the Foreign Exchange Market", "skill": "2. Interpretation",
+      "id": "u6-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.4 Effect of Changes in Policies and Economic Conditions on the Foreign Exchange Market",
+      "skill": "2. Interpretation",
       "stem": "Inflation in Mexico rises sharply relative to the United States. In the market for pesos, what happens?",
       "choices": [
-        { "id": "A", "text": "Demand for pesos decreases and the peso depreciates against the dollar." },
-        { "id": "B", "text": "Demand for pesos increases and the peso appreciates." },
-        { "id": "C", "text": "Supply of pesos decreases." },
-        { "id": "D", "text": "No change." }
+        {
+          "id": "A",
+          "text": "Demand for pesos increases and the peso appreciates."
+        },
+        {
+          "id": "B",
+          "text": "Demand for pesos decreases and the peso depreciates against the dollar."
+        },
+        {
+          "id": "C",
+          "text": "Supply of pesos decreases."
+        },
+        {
+          "id": "D",
+          "text": "No change."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Mexican goods become relatively expensive, so Americans buy fewer, demanding fewer pesos.",
       "distractors": {}
     },
     {
-      "id": "u6-q08", "tier": "Exam level", "type": "mcq", "topic": "6.6 Real Interest Rates and International Capital Flows", "skill": "2. Interpretation",
+      "id": "u6-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.6 Real Interest Rates and International Capital Flows",
+      "skill": "2. Interpretation",
       "stem": "Country A's real interest rate rises relative to Country B's. Which is most likely?",
       "choices": [
-        { "id": "A", "text": "Financial capital flows from B to A, and A's currency appreciates." },
-        { "id": "B", "text": "Financial capital flows from A to B." },
-        { "id": "C", "text": "A's currency depreciates." },
-        { "id": "D", "text": "A's net exports increase." }
+        {
+          "id": "A",
+          "text": "A's currency depreciates."
+        },
+        {
+          "id": "B",
+          "text": "Financial capital flows from A to B."
+        },
+        {
+          "id": "C",
+          "text": "Financial capital flows from B to A, and A's currency appreciates."
+        },
+        {
+          "id": "D",
+          "text": "A's net exports increase."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Investors seek higher real returns.",
       "distractors": {}
     },
     {
-      "id": "u6-q09", "tier": "Exam level", "type": "mcq", "topic": "6.5 Changes in the Foreign Exchange Market and Net Exports", "skill": "2. Interpretation",
+      "id": "u6-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.5 Changes in the Foreign Exchange Market and Net Exports",
+      "skill": "2. Interpretation",
       "stem": "A depreciation of a country's currency will most likely cause which change in its AD-AS model in the short run?",
       "choices": [
-        { "id": "A", "text": "AD increases, raising real output and the price level." },
-        { "id": "B", "text": "AD decreases." },
-        { "id": "C", "text": "LRAS shifts left." },
-        { "id": "D", "text": "SRAS shifts right only." }
+        {
+          "id": "A",
+          "text": "SRAS shifts right only."
+        },
+        {
+          "id": "B",
+          "text": "AD decreases."
+        },
+        {
+          "id": "C",
+          "text": "LRAS shifts left."
+        },
+        {
+          "id": "D",
+          "text": "AD increases, raising real output and the price level."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Depreciation raises net exports, a component of AD.",
       "distractors": {}
     },
     {
-      "id": "u6-q10", "tier": "Exam level", "type": "mcq", "topic": "6.3 The Foreign Exchange Market", "skill": "2. Interpretation",
+      "id": "u6-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.3 The Foreign Exchange Market",
+      "skill": "2. Interpretation",
       "stem": "In the U.S.–Japan currency markets, if the demand for U.S. dollars increases, then in the market for yen,",
       "choices": [
-        { "id": "A", "text": "the supply of yen increases and the yen depreciates" },
-        { "id": "B", "text": "the demand for yen increases" },
-        { "id": "C", "text": "the supply of yen decreases" },
-        { "id": "D", "text": "nothing changes" }
+        {
+          "id": "A",
+          "text": "the supply of yen increases and the yen depreciates"
+        },
+        {
+          "id": "B",
+          "text": "the demand for yen increases"
+        },
+        {
+          "id": "C",
+          "text": "the supply of yen decreases"
+        },
+        {
+          "id": "D",
+          "text": "nothing changes"
+        }
       ],
       "answer": "A",
       "explanation": "To buy more dollars, holders of yen supply more yen.",
       "distractors": {}
     },
     {
-      "id": "u6-q11", "tier": "Hardest", "type": "mcq", "topic": "6.4 Effect of Changes in Policies and Economic Conditions on the Foreign Exchange Market", "skill": "2. Interpretation",
+      "id": "u6-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.4 Effect of Changes in Policies and Economic Conditions on the Foreign Exchange Market",
+      "skill": "2. Interpretation",
       "stem": "The U.S. government increases its budget deficit, financed by borrowing. Which sequence is most likely?",
       "choices": [
-        { "id": "A", "text": "Real interest rate rises → capital inflows rise → dollar appreciates → U.S. net exports fall" },
-        { "id": "B", "text": "Real interest rate falls → dollar depreciates → net exports rise" },
-        { "id": "C", "text": "Money supply increases → dollar appreciates" },
-        { "id": "D", "text": "Real interest rate rises → dollar depreciates → net exports rise" }
+        {
+          "id": "A",
+          "text": "Real interest rate falls → dollar depreciates → net exports rise"
+        },
+        {
+          "id": "B",
+          "text": "Real interest rate rises → capital inflows rise → dollar appreciates → U.S. net exports fall"
+        },
+        {
+          "id": "C",
+          "text": "Money supply increases → dollar appreciates"
+        },
+        {
+          "id": "D",
+          "text": "Real interest rate rises → dollar depreciates → net exports rise"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Government borrowing raises real rates, attracting foreign capital; the stronger dollar crowds out net exports.",
       "distractors": {}
     },
     {
-      "id": "u6-q12", "tier": "Hardest", "type": "mcq", "topic": "6.1 Balance of Payments Accounts", "skill": "2. Interpretation",
+      "id": "u6-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.1 Balance of Payments Accounts",
+      "skill": "2. Interpretation",
       "stem": "A country runs a large, persistent current account deficit. Which must also be true?",
       "choices": [
-        { "id": "A", "text": "It has a net capital inflow: foreigners are acquiring more of its assets than its residents acquire abroad." },
-        { "id": "B", "text": "Its currency must be fixed." },
-        { "id": "C", "text": "It has a capital and financial account deficit." },
-        { "id": "D", "text": "It exports more than it imports." }
+        {
+          "id": "A",
+          "text": "It has a net capital inflow: foreigners are acquiring more of its assets than its residents acquire abroad."
+        },
+        {
+          "id": "B",
+          "text": "Its currency must be fixed."
+        },
+        {
+          "id": "C",
+          "text": "It has a capital and financial account deficit."
+        },
+        {
+          "id": "D",
+          "text": "It exports more than it imports."
+        }
       ],
       "answer": "A",
       "explanation": "The accounts balance; spending more abroad than earning is financed by selling assets or borrowing.",
       "distractors": {}
     },
     {
-      "id": "u6-q13", "tier": "Hardest", "type": "mcq", "topic": "6.4 Effect of Changes in Policies and Economic Conditions on the Foreign Exchange Market", "skill": "2. Interpretation",
+      "id": "u6-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.4 Effect of Changes in Policies and Economic Conditions on the Foreign Exchange Market",
+      "skill": "2. Interpretation",
       "stem": "A recession in Europe reduces European incomes. What is the most likely effect on the euro–dollar market and on U.S. AD?",
       "choices": [
-        { "id": "A", "text": "Europeans buy fewer U.S. exports, demand for dollars falls, the dollar depreciates, and U.S. AD falls initially from lower exports." },
-        { "id": "B", "text": "Demand for dollars rises and U.S. AD rises." },
-        { "id": "C", "text": "The dollar appreciates and U.S. exports rise." },
-        { "id": "D", "text": "No effect on the United States." }
+        {
+          "id": "A",
+          "text": "No effect on the United States."
+        },
+        {
+          "id": "B",
+          "text": "Demand for dollars rises and U.S. AD rises."
+        },
+        {
+          "id": "C",
+          "text": "The dollar appreciates and U.S. exports rise."
+        },
+        {
+          "id": "D",
+          "text": "Europeans buy fewer U.S. exports, demand for dollars falls, the dollar depreciates, and U.S. AD falls initially from lower exports."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Lower foreign income reduces demand for U.S. goods (and dollars); the initial export decline reduces U.S. AD.",
       "distractors": {}
     },
     {
-      "id": "u6-q14", "tier": "Hardest", "type": "mcq", "topic": "6.2 Exchange Rates", "skill": "3. Manipulation",
+      "id": "u6-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.2 Exchange Rates",
+      "skill": "3. Manipulation",
       "stem": "The exchange rate is 1 euro = 1.25 dollars. A U.S. computer costs $1,000. What does it cost a European, and how does that change if the euro appreciates to 1 euro = 1.60 dollars?",
       "choices": [
-        { "id": "A", "text": "800 euros; falls to 625 euros" },
-        { "id": "B", "text": "1,250 euros; rises to 1,600 euros" },
-        { "id": "C", "text": "800 euros; rises to 1,280 euros" },
-        { "id": "D", "text": "1,000 euros; stays 1,000 euros" }
+        {
+          "id": "A",
+          "text": "800 euros; rises to 1,280 euros"
+        },
+        {
+          "id": "B",
+          "text": "1,250 euros; rises to 1,600 euros"
+        },
+        {
+          "id": "C",
+          "text": "800 euros; falls to 625 euros"
+        },
+        {
+          "id": "D",
+          "text": "1,000 euros; stays 1,000 euros"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "1,000/1.25 = 800 euros; 1,000/1.60 = 625 euros. A stronger euro makes U.S. goods cheaper for Europeans.",
-      "distractors": { "B": "Multiplies instead of dividing." }
+      "distractors": {
+        "B": "Multiplies instead of dividing."
+      }
     },
     {
-      "id": "u6-frq1", "tier": "Exam level", "type": "frq", "topic": "6.4–6.6 Foreign Exchange and Capital Flows", "frqType": "Short FRQ",
+      "id": "u6-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "6.4–6.6 Foreign Exchange and Capital Flows",
+      "frqType": "Short FRQ",
       "prompt": "The United States and Japan trade with each other, and their currencies float freely. Assume the real interest rate in the United States increases relative to the real interest rate in Japan.",
       "parts": [
-        { "label": "a", "prompt": "What happens to the flow of financial capital between the two countries? Explain.", "points": 1 },
-        { "label": "b", "prompt": "Draw (describe) a correctly labeled graph of the foreign exchange market for U.S. dollars, showing the effect on the value of the dollar.", "points": 2 },
-        { "label": "c", "prompt": "What happens to U.S. net exports? Explain.", "points": 1 },
-        { "label": "d", "prompt": "What happens to the value of the yen relative to the dollar?", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "What happens to the flow of financial capital between the two countries? Explain.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Draw (describe) a correctly labeled graph of the foreign exchange market for U.S. dollars, showing the effect on the value of the dollar.",
+          "points": 2
+        },
+        {
+          "label": "c",
+          "prompt": "What happens to U.S. net exports? Explain.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "What happens to the value of the yen relative to the dollar?",
+          "points": 1
+        }
       ],
       "points": 5,
       "minutes": 10,
       "rubric": [
-        { "criterion": "a", "points": 1, "description": "Financial capital flows from Japan into the United States because U.S. assets offer higher real returns." },
-        { "criterion": "b1: Labels", "points": 1, "description": "Vertical axis: yen per dollar (price of dollars); horizontal axis: quantity of dollars; downward demand and upward supply." },
-        { "criterion": "b2: Shift", "points": 1, "description": "Demand for dollars shifts right; equilibrium yen per dollar rises (dollar appreciates)." },
-        { "criterion": "c", "points": 1, "description": "Decrease: the stronger dollar makes U.S. exports more expensive and imports cheaper." },
-        { "criterion": "d", "points": 1, "description": "The yen depreciates relative to the dollar." }
+        {
+          "criterion": "a",
+          "points": 1,
+          "description": "Financial capital flows from Japan into the United States because U.S. assets offer higher real returns."
+        },
+        {
+          "criterion": "b1: Labels",
+          "points": 1,
+          "description": "Vertical axis: yen per dollar (price of dollars); horizontal axis: quantity of dollars; downward demand and upward supply."
+        },
+        {
+          "criterion": "b2: Shift",
+          "points": 1,
+          "description": "Demand for dollars shifts right; equilibrium yen per dollar rises (dollar appreciates)."
+        },
+        {
+          "criterion": "c",
+          "points": 1,
+          "description": "Decrease: the stronger dollar makes U.S. exports more expensive and imports cheaper."
+        },
+        {
+          "criterion": "d",
+          "points": 1,
+          "description": "The yen depreciates relative to the dollar."
+        }
       ],
       "sampleResponse": "(a) Financial capital flows from Japan to the United States. Higher U.S. real interest rates make U.S. financial assets more attractive to Japanese investors.\n\n(b) The graph has 'Yen per Dollar' on the vertical axis and 'Quantity of Dollars' on the horizontal axis, with a downward-sloping demand curve and an upward-sloping supply curve. The demand for dollars shifts to the right, raising the equilibrium exchange rate (yen per dollar). The dollar appreciates.\n\n(c) U.S. net exports decrease. With a stronger dollar, U.S. goods are more expensive for Japanese buyers and Japanese goods are cheaper for Americans, so exports fall and imports rise.\n\n(d) The yen depreciates relative to the dollar."
     }

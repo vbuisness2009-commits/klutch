@@ -45,215 +45,499 @@
     "cramSheet": "**Division:** Yalta & Potsdam 1945 · iron curtain · Truman Doctrine & Marshall Plan 1947 · Berlin Blockade 1948–49 · NATO 1949 · Warsaw Pact 1955\n\n**Soviet bloc:** Hungary 1956 · Berlin Wall 1961 · Prague Spring 1968 · Brezhnev Doctrine\n\n**Détente:** Ostpolitik · Helsinki 1975\n\n**West:** ECSC 1951 · Rome 1957 · Maastricht 1992 · euro · NHS 1948 · Thatcher\n\n**Decolonization:** India 1947 · Algeria 1954–62 · Suez 1956\n\n**Society:** 1968 · de Beauvoir 1949 · existentialism · Vatican II · immigration\n\n**Collapse:** Solidarity 1980 · Gorbachev (glasnost, perestroika) · 1989 · reunification 1990 · USSR 1991 · Yugoslav wars\n\n**Today:** 2008 crisis · migration · populism · Brexit · Ukraine"
   },
   "vocab": [
-    { "term": "Iron Curtain", "definition": "The division between Soviet-controlled Eastern Europe and the West." },
-    { "term": "Containment", "definition": "U.S. policy of preventing the spread of communism." },
-    { "term": "Marshall Plan", "definition": "U.S. economic aid program (1947) for rebuilding Western Europe." },
-    { "term": "NATO", "definition": "The 1949 Western military alliance." },
-    { "term": "Warsaw Pact", "definition": "The 1955 Soviet-led military alliance of Eastern European states." },
-    { "term": "Brezhnev Doctrine", "definition": "The Soviet claim of the right to intervene in socialist states to preserve communism." },
-    { "term": "Détente", "definition": "The easing of Cold War tensions in the 1970s." },
-    { "term": "European Economic Community", "definition": "The common market created by the Treaty of Rome (1957), predecessor of the EU." },
-    { "term": "Welfare state", "definition": "A government that provides extensive social services such as health care and pensions." },
-    { "term": "Decolonization", "definition": "The process by which colonies gained independence." },
-    { "term": "Glasnost", "definition": "Gorbachev's policy of political openness." },
-    { "term": "Perestroika", "definition": "Gorbachev's policy of economic restructuring." }
+    {
+      "term": "Iron Curtain",
+      "definition": "The division between Soviet-controlled Eastern Europe and the West."
+    },
+    {
+      "term": "Containment",
+      "definition": "U.S. policy of preventing the spread of communism."
+    },
+    {
+      "term": "Marshall Plan",
+      "definition": "U.S. economic aid program (1947) for rebuilding Western Europe."
+    },
+    {
+      "term": "NATO",
+      "definition": "The 1949 Western military alliance."
+    },
+    {
+      "term": "Warsaw Pact",
+      "definition": "The 1955 Soviet-led military alliance of Eastern European states."
+    },
+    {
+      "term": "Brezhnev Doctrine",
+      "definition": "The Soviet claim of the right to intervene in socialist states to preserve communism."
+    },
+    {
+      "term": "Détente",
+      "definition": "The easing of Cold War tensions in the 1970s."
+    },
+    {
+      "term": "European Economic Community",
+      "definition": "The common market created by the Treaty of Rome (1957), predecessor of the EU."
+    },
+    {
+      "term": "Welfare state",
+      "definition": "A government that provides extensive social services such as health care and pensions."
+    },
+    {
+      "term": "Decolonization",
+      "definition": "The process by which colonies gained independence."
+    },
+    {
+      "term": "Glasnost",
+      "definition": "Gorbachev's policy of political openness."
+    },
+    {
+      "term": "Perestroika",
+      "definition": "Gorbachev's policy of economic restructuring."
+    }
   ],
   "practice": [
     {
-      "id": "u9-q01", "tier": "Intro", "type": "mcq", "topic": "Cold War Origins",
+      "id": "u9-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Cold War Origins",
       "stem": "The Marshall Plan (1947) was designed primarily to",
       "choices": [
-        { "id": "A", "text": "provide economic aid to rebuild Western Europe and reduce the appeal of communism" },
-        { "id": "B", "text": "create a military alliance against the Soviet Union" },
-        { "id": "C", "text": "punish Germany for World War II" },
-        { "id": "D", "text": "fund Soviet reconstruction" }
+        {
+          "id": "A",
+          "text": "fund Soviet reconstruction"
+        },
+        {
+          "id": "B",
+          "text": "create a military alliance against the Soviet Union"
+        },
+        {
+          "id": "C",
+          "text": "punish Germany for World War II"
+        },
+        {
+          "id": "D",
+          "text": "provide economic aid to rebuild Western Europe and reduce the appeal of communism"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Economic recovery was seen as a barrier to communist expansion.",
-      "distractors": { "B": "NATO." }
+      "distractors": {
+        "B": "NATO."
+      }
     },
     {
-      "id": "u9-q02", "tier": "Intro", "type": "mcq", "topic": "European Integration",
+      "id": "u9-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "European Integration",
       "stem": "The European Coal and Steel Community (1951) was created partly to",
       "choices": [
-        { "id": "A", "text": "integrate key industries so that war between France and Germany would become impractical" },
-        { "id": "B", "text": "nationalize all European industry" },
-        { "id": "C", "text": "exclude West Germany from Europe's economy" },
-        { "id": "D", "text": "create a common currency" }
+        {
+          "id": "A",
+          "text": "exclude West Germany from Europe's economy"
+        },
+        {
+          "id": "B",
+          "text": "nationalize all European industry"
+        },
+        {
+          "id": "C",
+          "text": "integrate key industries so that war between France and Germany would become impractical"
+        },
+        {
+          "id": "D",
+          "text": "create a common currency"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Pooling war-related industries promoted peace and recovery.",
       "distractors": {}
     },
     {
-      "id": "u9-q03", "tier": "Intro", "type": "mcq", "topic": "Soviet Bloc",
+      "id": "u9-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Soviet Bloc",
       "stem": "The Berlin Wall was built in 1961 primarily to",
       "choices": [
-        { "id": "A", "text": "stop East Germans from fleeing to the West" },
-        { "id": "B", "text": "protect West Berlin from Soviet invasion" },
-        { "id": "C", "text": "mark the border between France and Germany" },
-        { "id": "D", "text": "celebrate German reunification" }
+        {
+          "id": "A",
+          "text": "stop East Germans from fleeing to the West"
+        },
+        {
+          "id": "B",
+          "text": "protect West Berlin from Soviet invasion"
+        },
+        {
+          "id": "C",
+          "text": "mark the border between France and Germany"
+        },
+        {
+          "id": "D",
+          "text": "celebrate German reunification"
+        }
       ],
       "answer": "A",
       "explanation": "Mass emigration was draining East Germany of skilled workers.",
       "distractors": {}
     },
     {
-      "id": "u9-q04", "tier": "Intro", "type": "mcq", "topic": "Collapse of Communism",
+      "id": "u9-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Collapse of Communism",
       "stem": "Gorbachev's policy of glasnost refers to",
       "choices": [
-        { "id": "A", "text": "greater openness and freedom of expression" },
-        { "id": "B", "text": "economic restructuring" },
-        { "id": "C", "text": "the Soviet invasion of Afghanistan" },
-        { "id": "D", "text": "a military buildup" }
+        {
+          "id": "A",
+          "text": "economic restructuring"
+        },
+        {
+          "id": "B",
+          "text": "greater openness and freedom of expression"
+        },
+        {
+          "id": "C",
+          "text": "the Soviet invasion of Afghanistan"
+        },
+        {
+          "id": "D",
+          "text": "a military buildup"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Perestroika referred to economic restructuring.",
-      "distractors": { "B": "Perestroika." }
+      "distractors": {
+        "A": "Perestroika."
+      }
     },
     {
-      "id": "u9-q05", "tier": "Exam level", "type": "mcq", "topic": "Soviet Bloc",
+      "id": "u9-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Soviet Bloc",
       "stem": "The Soviet response to the Prague Spring (1968) is best explained by",
       "choices": [
-        { "id": "A", "text": "the Brezhnev Doctrine, asserting the right to intervene to preserve communist rule in the bloc" },
-        { "id": "B", "text": "the Truman Doctrine" },
-        { "id": "C", "text": "the Helsinki Accords" },
-        { "id": "D", "text": "glasnost" }
+        {
+          "id": "A",
+          "text": "the Brezhnev Doctrine, asserting the right to intervene to preserve communist rule in the bloc"
+        },
+        {
+          "id": "B",
+          "text": "the Truman Doctrine"
+        },
+        {
+          "id": "C",
+          "text": "the Helsinki Accords"
+        },
+        {
+          "id": "D",
+          "text": "glasnost"
+        }
       ],
       "answer": "A",
       "explanation": "Warsaw Pact troops ended Dubček's 'socialism with a human face.'",
       "distractors": {}
     },
     {
-      "id": "u9-q06", "tier": "Exam level", "type": "mcq", "topic": "Decolonization",
+      "id": "u9-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Decolonization",
       "stem": "The Suez Crisis of 1956 demonstrated that",
       "choices": [
-        { "id": "A", "text": "Britain and France could no longer act as independent great powers against U.S. and Soviet opposition" },
-        { "id": "B", "text": "Egypt had become a British colony" },
-        { "id": "C", "text": "the Cold War had ended" },
-        { "id": "D", "text": "NATO controlled the Middle East" }
+        {
+          "id": "A",
+          "text": "the Cold War had ended"
+        },
+        {
+          "id": "B",
+          "text": "Egypt had become a British colony"
+        },
+        {
+          "id": "C",
+          "text": "Britain and France could no longer act as independent great powers against U.S. and Soviet opposition"
+        },
+        {
+          "id": "D",
+          "text": "NATO controlled the Middle East"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "U.S. pressure forced Britain and France to withdraw.",
       "distractors": {}
     },
     {
-      "id": "u9-q07", "tier": "Exam level", "type": "mcq", "topic": "Welfare State",
+      "id": "u9-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Welfare State",
       "stem": "Britain's creation of the National Health Service in 1948 is an example of",
       "choices": [
-        { "id": "A", "text": "the expansion of the postwar welfare state" },
-        { "id": "B", "text": "neoliberal privatization" },
-        { "id": "C", "text": "Soviet-style collectivization" },
-        { "id": "D", "text": "laissez-faire policy" }
+        {
+          "id": "A",
+          "text": "neoliberal privatization"
+        },
+        {
+          "id": "B",
+          "text": "the expansion of the postwar welfare state"
+        },
+        {
+          "id": "C",
+          "text": "Soviet-style collectivization"
+        },
+        {
+          "id": "D",
+          "text": "laissez-faire policy"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Universal health care was central to Labour's postwar program.",
-      "distractors": { "B": "Thatcher's 1980s policies." }
+      "distractors": {
+        "A": "Thatcher's 1980s policies."
+      }
     },
     {
-      "id": "u9-q08", "tier": "Exam level", "type": "mcq", "topic": "Collapse of Communism",
+      "id": "u9-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Collapse of Communism",
       "stem": "The Solidarity movement in Poland (1980) was significant because it",
       "choices": [
-        { "id": "A", "text": "was an independent trade union that became a mass opposition movement to communist rule" },
-        { "id": "B", "text": "was a Soviet-sponsored party" },
-        { "id": "C", "text": "supported the Brezhnev Doctrine" },
-        { "id": "D", "text": "ended the Cold War in 1980" }
+        {
+          "id": "A",
+          "text": "ended the Cold War in 1980"
+        },
+        {
+          "id": "B",
+          "text": "was a Soviet-sponsored party"
+        },
+        {
+          "id": "C",
+          "text": "supported the Brezhnev Doctrine"
+        },
+        {
+          "id": "D",
+          "text": "was an independent trade union that became a mass opposition movement to communist rule"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Led by Lech Wałęsa, it challenged the party's claim to represent workers.",
       "distractors": {}
     },
     {
-      "id": "u9-q09", "tier": "Exam level", "type": "mcq", "topic": "Social Change",
+      "id": "u9-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Social Change",
       "stem": "Simone de Beauvoir's The Second Sex (1949) is most associated with",
       "choices": [
-        { "id": "A", "text": "second-wave feminism's analysis of women as defined in relation to men" },
-        { "id": "B", "text": "Marxist economic planning" },
-        { "id": "C", "text": "Christian Democracy" },
-        { "id": "D", "text": "the Romantic movement" }
+        {
+          "id": "A",
+          "text": "second-wave feminism's analysis of women as defined in relation to men"
+        },
+        {
+          "id": "B",
+          "text": "Marxist economic planning"
+        },
+        {
+          "id": "C",
+          "text": "Christian Democracy"
+        },
+        {
+          "id": "D",
+          "text": "the Romantic movement"
+        }
       ],
       "answer": "A",
       "explanation": "It argued women's 'otherness' was socially constructed.",
       "distractors": {}
     },
     {
-      "id": "u9-q10", "tier": "Exam level", "type": "mcq", "topic": "Contemporary Europe",
+      "id": "u9-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Contemporary Europe",
       "stem": "The breakup of Yugoslavia in the 1990s was characterized by",
       "choices": [
-        { "id": "A", "text": "violent ethnic conflict, including ethnic cleansing and genocide in Bosnia" },
-        { "id": "B", "text": "a peaceful 'velvet divorce'" },
-        { "id": "C", "text": "Soviet military intervention" },
-        { "id": "D", "text": "immediate EU membership for all successor states" }
+        {
+          "id": "A",
+          "text": "a peaceful 'velvet divorce'"
+        },
+        {
+          "id": "B",
+          "text": "violent ethnic conflict, including ethnic cleansing and genocide in Bosnia"
+        },
+        {
+          "id": "C",
+          "text": "Soviet military intervention"
+        },
+        {
+          "id": "D",
+          "text": "immediate EU membership for all successor states"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Nationalist leaders exploited ethnic divisions; Srebrenica (1995) was genocide.",
-      "distractors": { "B": "Czechoslovakia's split." }
+      "distractors": {
+        "A": "Czechoslovakia's split."
+      }
     },
     {
-      "id": "u9-q11", "tier": "Hardest", "type": "mcq", "topic": "Collapse of Communism",
+      "id": "u9-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Collapse of Communism",
       "stem": "Which factor most distinguished the revolutions of 1989 from the Hungarian uprising of 1956?",
       "choices": [
-        { "id": "A", "text": "Gorbachev's refusal to use Soviet military force to support Eastern European communist governments" },
-        { "id": "B", "text": "The absence of popular protest in 1989" },
-        { "id": "C", "text": "U.S. military intervention in 1989" },
-        { "id": "D", "text": "The strength of Eastern European economies in 1989" }
+        {
+          "id": "A",
+          "text": "The strength of Eastern European economies in 1989"
+        },
+        {
+          "id": "B",
+          "text": "The absence of popular protest in 1989"
+        },
+        {
+          "id": "C",
+          "text": "U.S. military intervention in 1989"
+        },
+        {
+          "id": "D",
+          "text": "Gorbachev's refusal to use Soviet military force to support Eastern European communist governments"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "In 1956 Soviet tanks crushed the revolt; in 1989 Moscow didn't intervene.",
       "distractors": {}
     },
     {
-      "id": "u9-q12", "tier": "Hardest", "type": "mcq", "topic": "European Integration",
+      "id": "u9-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "European Integration",
       "stem": "Which development best represents a shift from economic to political integration in Europe?",
       "choices": [
-        { "id": "A", "text": "The Maastricht Treaty (1992), which created the European Union with common citizenship and plans for a common currency" },
-        { "id": "B", "text": "The European Coal and Steel Community (1951)" },
-        { "id": "C", "text": "The Marshall Plan (1947)" },
-        { "id": "D", "text": "The Warsaw Pact (1955)" }
+        {
+          "id": "A",
+          "text": "The Marshall Plan (1947)"
+        },
+        {
+          "id": "B",
+          "text": "The European Coal and Steel Community (1951)"
+        },
+        {
+          "id": "C",
+          "text": "The Maastricht Treaty (1992), which created the European Union with common citizenship and plans for a common currency"
+        },
+        {
+          "id": "D",
+          "text": "The Warsaw Pact (1955)"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Maastricht added foreign policy, justice cooperation, and EU citizenship.",
       "distractors": {}
     },
     {
-      "id": "u9-q13", "tier": "Hardest", "type": "mcq", "topic": "Social Change",
+      "id": "u9-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Social Change",
       "stem": "Large-scale immigration to Western Europe from the 1950s to the 1970s was driven most directly by",
       "choices": [
-        { "id": "A", "text": "labor shortages during postwar economic growth and ties created by decolonization" },
-        { "id": "B", "text": "the collapse of the Soviet Union" },
-        { "id": "C", "text": "the Berlin Blockade" },
-        { "id": "D", "text": "the Great Depression" }
+        {
+          "id": "A",
+          "text": "labor shortages during postwar economic growth and ties created by decolonization"
+        },
+        {
+          "id": "B",
+          "text": "the collapse of the Soviet Union"
+        },
+        {
+          "id": "C",
+          "text": "the Berlin Blockade"
+        },
+        {
+          "id": "D",
+          "text": "the Great Depression"
+        }
       ],
       "answer": "A",
       "explanation": "Guest-worker programs and migration from former colonies met labor demand.",
-      "distractors": { "B": "Occurred in 1991." }
+      "distractors": {
+        "B": "Occurred in 1991."
+      }
     },
     {
-      "id": "u9-q14", "tier": "Hardest", "type": "mcq", "topic": "Contemporary Europe",
+      "id": "u9-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Contemporary Europe",
       "stem": "Margaret Thatcher's policies in 1980s Britain represented a reaction against",
       "choices": [
-        { "id": "A", "text": "the postwar consensus of extensive state ownership, strong unions, and welfare spending" },
-        { "id": "B", "text": "free-market capitalism" },
-        { "id": "C", "text": "European integration's founding in 1951" },
-        { "id": "D", "text": "decolonization" }
+        {
+          "id": "A",
+          "text": "European integration's founding in 1951"
+        },
+        {
+          "id": "B",
+          "text": "free-market capitalism"
+        },
+        {
+          "id": "C",
+          "text": "the postwar consensus of extensive state ownership, strong unions, and welfare spending"
+        },
+        {
+          "id": "D",
+          "text": "decolonization"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "She privatized industries and curbed union power.",
       "distractors": {}
     },
     {
-      "id": "u9-frq1", "tier": "Hardest", "type": "frq", "topic": "Collapse of Communism", "frqType": "Document-based question (DBQ)",
+      "id": "u9-frq1",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Collapse of Communism",
+      "frqType": "Document-based question (DBQ)",
       "prompt": "Evaluate the relative importance of the causes of the collapse of communist regimes in Eastern Europe in the period 1979–1991.\n\nDocuments (summaries):\n1. A report on Pope John Paul II's 1979 visit to his native Poland describes enormous crowds attending open-air masses and a renewed sense among Poles that the Church offered an alternative to party authority.\n2. Summary of the 1980 Gdańsk Agreement between striking shipyard workers and the Polish government, which recognized the right to form independent, self-governing trade unions.\n3. A table of Western estimates shows Soviet economic growth slowing steadily from the late 1960s to the early 1980s, alongside high military spending.\n4. Summary of Gorbachev's 1988 speech at the United Nations announcing unilateral cuts to Soviet forces in Eastern Europe and affirming that nations should be free to choose their own path.\n5. A Hungarian government announcement in 1989 that it would dismantle the fortified border with Austria, after which thousands of East Germans crossed to the West.\n6. A journalist's account of weekly demonstrations in Leipzig in autumn 1989, where crowds chanted that they were the people and security forces did not open fire.\n7. A former East German official's memoir, written in the 1990s, argues that Western television and radio had long shown citizens how much better life was in the West.",
       "parts": [],
       "points": 7,
       "minutes": 60,
       "rubric": [
-        { "criterion": "Thesis", "points": 1, "description": "Defensible claim ranking causes (e.g., Gorbachev's non-intervention as decisive, enabling popular movements rooted in economic failure)." },
-        { "criterion": "Contextualization", "points": 1, "description": "E.g., earlier suppression in 1956 and 1968, the Brezhnev Doctrine, Helsinki Accords' human-rights provisions, the arms race." },
-        { "criterion": "Evidence from documents", "points": 2, "description": "1: describes content of three documents. 2: uses at least four to support the argument." },
-        { "criterion": "Evidence beyond documents", "points": 1, "description": "E.g., Solidarity's leader Lech Wałęsa, perestroika and glasnost, Soviet war in Afghanistan, fall of the Berlin Wall (November 1989), Velvet Revolution." },
-        { "criterion": "Sourcing", "points": 1, "description": "For two documents, explains relevance of point of view, purpose, audience, or situation (e.g., Doc 7 official's purpose of explaining failure by external factors; Doc 4 speech aimed at Western audiences)." },
-        { "criterion": "Complexity", "points": 1, "description": "E.g., explains interaction of internal pressures and Soviet policy, or contrasts Poland's gradual negotiated transition with East Germany's rapid collapse." }
+        {
+          "criterion": "Thesis",
+          "points": 1,
+          "description": "Defensible claim ranking causes (e.g., Gorbachev's non-intervention as decisive, enabling popular movements rooted in economic failure)."
+        },
+        {
+          "criterion": "Contextualization",
+          "points": 1,
+          "description": "E.g., earlier suppression in 1956 and 1968, the Brezhnev Doctrine, Helsinki Accords' human-rights provisions, the arms race."
+        },
+        {
+          "criterion": "Evidence from documents",
+          "points": 2,
+          "description": "1: describes content of three documents. 2: uses at least four to support the argument."
+        },
+        {
+          "criterion": "Evidence beyond documents",
+          "points": 1,
+          "description": "E.g., Solidarity's leader Lech Wałęsa, perestroika and glasnost, Soviet war in Afghanistan, fall of the Berlin Wall (November 1989), Velvet Revolution."
+        },
+        {
+          "criterion": "Sourcing",
+          "points": 1,
+          "description": "For two documents, explains relevance of point of view, purpose, audience, or situation (e.g., Doc 7 official's purpose of explaining failure by external factors; Doc 4 speech aimed at Western audiences)."
+        },
+        {
+          "criterion": "Complexity",
+          "points": 1,
+          "description": "E.g., explains interaction of internal pressures and Soviet policy, or contrasts Poland's gradual negotiated transition with East Germany's rapid collapse."
+        }
       ],
       "sampleResponse": "The collapse of communism in Eastern Europe resulted from long-term economic stagnation and popular opposition, but Gorbachev's decision not to use Soviet force was the most important cause, because it removed the threat that had crushed earlier reform movements.\n\nIn 1956 Soviet tanks suppressed Hungary's revolt, and in 1968 Warsaw Pact troops ended the Prague Spring under the Brezhnev Doctrine. Meanwhile, the 1975 Helsinki Accords committed Eastern governments to respect human rights, giving dissidents a standard to invoke.\n\nEconomic failure created discontent. Document 3 shows Soviet growth slowing while military spending stayed high; the costly war in Afghanistan added strain. Document 7 suggests Western broadcasts made citizens aware of the gap in living standards, though as a former official writing after the collapse, the author may emphasize outside influences to downplay the regime's own failures.\n\nPopular movements turned discontent into action. Document 1 shows how John Paul II's visit strengthened Polish identity apart from the party, and Document 2 shows Solidarity winning recognition as an independent union in 1980; under Lech Wałęsa it became a mass movement that negotiated the end of communist rule in 1989.\n\nBut these pressures had existed before. What changed was Moscow. In Document 4, Gorbachev announced troop cuts and affirmed freedom of choice; delivered at the United Nations, the speech was aimed at Western audiences and signaled that the Soviet Union would no longer enforce its control. Hungary's decision to open its border (Document 5) and the restraint of security forces in Leipzig (Document 6) show regimes that no longer expected Soviet backing. The Berlin Wall fell in November 1989.\n\nThus economic decline and popular movements provided the pressure, but Gorbachev's non-intervention allowed that pressure to topple regimes peacefully, in contrast to 1956 and 1968."
     }

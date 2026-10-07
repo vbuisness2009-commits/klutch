@@ -47,226 +47,523 @@
     "cramSheet": "**Order:** climactic · familiar → new · chronological · concession first\n\n**Transitions:** add (moreover) · contrast (however) · concede (although) · cause (therefore) · example (for instance)\n\n**Tone words:** wry · indignant · reverent · ambivalent · clinical · wistful · sardonic · earnest · conciliatory\n\n**Tone tools:** diction · syntax · detail · irony · understatement\n\n**Syntax:** parallelism → climax · short sentence → emphasis · fragments · rhetorical questions"
   },
   "vocab": [
-    { "term": "Tone", "definition": "The writer's attitude toward the subject or audience." },
-    { "term": "Tonal shift", "definition": "A change in the writer's attitude within a text, usually for a purpose." },
-    { "term": "Diction", "definition": "Word choice." },
-    { "term": "Syntax", "definition": "The arrangement of words and sentences." },
-    { "term": "Climactic order", "definition": "Arranging ideas from least to most important or forceful." },
-    { "term": "Transition", "definition": "A word or phrase signaling the relationship between ideas." },
-    { "term": "Irony", "definition": "A contrast between what is said and what is meant, or between expectation and reality." },
-    { "term": "Understatement", "definition": "Deliberately presenting something as less significant than it is." },
-    { "term": "Parallelism", "definition": "Using similar grammatical structures for related ideas." },
-    { "term": "Wry", "definition": "Dryly humorous, often with a hint of irony." },
-    { "term": "Ambivalent", "definition": "Having mixed or conflicting feelings." },
-    { "term": "Conciliatory", "definition": "Intended to reduce conflict or win over opponents." },
-    { "term": "Sardonic", "definition": "Grimly mocking or cynical." }
+    {
+      "term": "Tone",
+      "definition": "The writer's attitude toward the subject or audience."
+    },
+    {
+      "term": "Tonal shift",
+      "definition": "A change in the writer's attitude within a text, usually for a purpose."
+    },
+    {
+      "term": "Diction",
+      "definition": "Word choice."
+    },
+    {
+      "term": "Syntax",
+      "definition": "The arrangement of words and sentences."
+    },
+    {
+      "term": "Climactic order",
+      "definition": "Arranging ideas from least to most important or forceful."
+    },
+    {
+      "term": "Transition",
+      "definition": "A word or phrase signaling the relationship between ideas."
+    },
+    {
+      "term": "Irony",
+      "definition": "A contrast between what is said and what is meant, or between expectation and reality."
+    },
+    {
+      "term": "Understatement",
+      "definition": "Deliberately presenting something as less significant than it is."
+    },
+    {
+      "term": "Parallelism",
+      "definition": "Using similar grammatical structures for related ideas."
+    },
+    {
+      "term": "Wry",
+      "definition": "Dryly humorous, often with a hint of irony."
+    },
+    {
+      "term": "Ambivalent",
+      "definition": "Having mixed or conflicting feelings."
+    },
+    {
+      "term": "Conciliatory",
+      "definition": "Intended to reduce conflict or win over opponents."
+    },
+    {
+      "term": "Sardonic",
+      "definition": "Grimly mocking or cynical."
+    }
   ],
   "practice": [
     {
-      "id": "u5-q01", "tier": "Intro", "type": "mcq", "topic": "Tone",
+      "id": "u5-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Tone",
       "stimulus": "The new parking app promises to save drivers time. It requires an account, a password with a special character, two-factor authentication, a linked credit card, and a five-minute tutorial. I have now saved so much time that I am late for everything.",
       "stem": "The writer's tone is best described as",
       "choices": [
-        { "id": "A", "text": "wry" },
-        { "id": "B", "text": "reverent" },
-        { "id": "C", "text": "clinical" },
-        { "id": "D", "text": "despairing" }
+        {
+          "id": "A",
+          "text": "wry"
+        },
+        {
+          "id": "B",
+          "text": "reverent"
+        },
+        {
+          "id": "C",
+          "text": "clinical"
+        },
+        {
+          "id": "D",
+          "text": "despairing"
+        }
       ],
       "answer": "A",
       "explanation": "The ironic last sentence mocks the app's promise with dry humor.",
-      "distractors": { "D": "Too extreme; the writer is amused and annoyed, not hopeless." }
+      "distractors": {
+        "D": "Too extreme; the writer is amused and annoyed, not hopeless."
+      }
     },
     {
-      "id": "u5-q02", "tier": "Intro", "type": "mcq", "topic": "Transitions",
+      "id": "u5-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Transitions",
       "stimulus": "Electric buses cost more to buy than diesel buses. ______ they cost far less to fuel and maintain over their lifetimes.",
       "stem": "Which word best fills the blank?",
       "choices": [
-        { "id": "A", "text": "However," },
-        { "id": "B", "text": "Therefore," },
-        { "id": "C", "text": "For example," },
-        { "id": "D", "text": "Similarly," }
+        {
+          "id": "A",
+          "text": "Therefore,"
+        },
+        {
+          "id": "B",
+          "text": "However,"
+        },
+        {
+          "id": "C",
+          "text": "For example,"
+        },
+        {
+          "id": "D",
+          "text": "Similarly,"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The second sentence contrasts with the first: higher purchase cost versus lower operating cost.",
-      "distractors": { "B": "Low operating costs don't follow from high purchase prices." }
+      "distractors": {
+        "A": "Low operating costs don't follow from high purchase prices."
+      }
     },
     {
-      "id": "u5-q03", "tier": "Intro", "type": "mcq", "topic": "Organization",
+      "id": "u5-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Organization",
       "stimulus": "The essay begins with the 1850s construction of the town's first canal, moves to the railroad that made the canal obsolete in the 1890s, then to the interstate that bypassed the railroad town in the 1960s, and ends with the town today.",
       "stem": "The essay is organized primarily",
       "choices": [
-        { "id": "A", "text": "chronologically, to show how each new transportation technology reshaped the town" },
-        { "id": "B", "text": "by classification of types of towns" },
-        { "id": "C", "text": "from most to least important technology" },
-        { "id": "D", "text": "as a comparison of two towns" }
+        {
+          "id": "A",
+          "text": "from most to least important technology"
+        },
+        {
+          "id": "B",
+          "text": "by classification of types of towns"
+        },
+        {
+          "id": "C",
+          "text": "chronologically, to show how each new transportation technology reshaped the town"
+        },
+        {
+          "id": "D",
+          "text": "as a comparison of two towns"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Events proceed in time order, emphasizing a pattern of replacement.",
-      "distractors": { "D": "Only one town is discussed." }
+      "distractors": {
+        "D": "Only one town is discussed."
+      }
     },
     {
-      "id": "u5-q04", "tier": "Intro", "type": "mcq", "topic": "Tonal shift",
+      "id": "u5-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Tonal shift",
       "stimulus": "For years my brother and I joked about the old house: the stairs that sang under your feet, the faucet that ran hot only on Tuesdays, the raccoon we named Councilman. Then the letter came from the bank, and we stopped laughing. We had three months to find somewhere else to live.",
       "stem": "Which best describes the shift in tone in the passage?",
       "choices": [
-        { "id": "A", "text": "From affectionate humor to sober seriousness" },
-        { "id": "B", "text": "From anger to relief" },
-        { "id": "C", "text": "From indifference to excitement" },
-        { "id": "D", "text": "From formality to sarcasm" }
+        {
+          "id": "A",
+          "text": "From formality to sarcasm"
+        },
+        {
+          "id": "B",
+          "text": "From anger to relief"
+        },
+        {
+          "id": "C",
+          "text": "From indifference to excitement"
+        },
+        {
+          "id": "D",
+          "text": "From affectionate humor to sober seriousness"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Playful details give way to the blunt facts of losing the house.",
-      "distractors": { "B": "There is no anger at the start or relief at the end." }
+      "distractors": {
+        "B": "There is no anger at the start or relief at the end."
+      }
     },
     {
-      "id": "u5-q05", "tier": "Exam level", "type": "mcq", "topic": "Diction and tone",
+      "id": "u5-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Diction and tone",
       "stimulus": "The subject, a male aged 14, presented with a fracture of the left radius sustained during unsupervised skateboarding. He was the third such case that week. The ramp in question had been reported to the city as damaged on four previous occasions.",
       "stem": "The writer's detached, clinical diction most likely serves to",
       "choices": [
-        { "id": "A", "text": "let the repeated, documented facts implicitly criticize the city's inaction without overt emotion" },
-        { "id": "B", "text": "show the writer's indifference to the injured boy" },
-        { "id": "C", "text": "blame the boy for skateboarding unsupervised" },
-        { "id": "D", "text": "explain medical terminology to readers" }
+        {
+          "id": "A",
+          "text": "explain medical terminology to readers"
+        },
+        {
+          "id": "B",
+          "text": "show the writer's indifference to the injured boy"
+        },
+        {
+          "id": "C",
+          "text": "blame the boy for skateboarding unsupervised"
+        },
+        {
+          "id": "D",
+          "text": "let the repeated, documented facts implicitly criticize the city's inaction without overt emotion"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The neutral, report-like tone makes the pattern of ignored warnings seem damning on its own.",
-      "distractors": { "C": "The final sentence shifts responsibility toward the city." }
+      "distractors": {
+        "C": "The final sentence shifts responsibility toward the city."
+      }
     },
     {
-      "id": "u5-q06", "tier": "Exam level", "type": "mcq", "topic": "Transitions / concession",
+      "id": "u5-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Transitions / concession",
       "stimulus": "The writer wants to combine these sentences to concede a point while maintaining her argument: \"Remote work can isolate employees. Companies that schedule regular in-person days report higher satisfaction than fully remote or fully in-office firms.\"",
       "stem": "Which combination best accomplishes this goal?",
       "choices": [
-        { "id": "A", "text": "Although remote work can isolate employees, companies that schedule regular in-person days report higher satisfaction than fully remote or fully in-office firms." },
-        { "id": "B", "text": "Because remote work can isolate employees, companies should never allow it." },
-        { "id": "C", "text": "Remote work can isolate employees; therefore, satisfaction is always low." },
-        { "id": "D", "text": "Remote work can isolate employees, and companies report satisfaction." }
+        {
+          "id": "A",
+          "text": "Although remote work can isolate employees, companies that schedule regular in-person days report higher satisfaction than fully remote or fully in-office firms."
+        },
+        {
+          "id": "B",
+          "text": "Because remote work can isolate employees, companies should never allow it."
+        },
+        {
+          "id": "C",
+          "text": "Remote work can isolate employees; therefore, satisfaction is always low."
+        },
+        {
+          "id": "D",
+          "text": "Remote work can isolate employees, and companies report satisfaction."
+        }
       ],
       "answer": "A",
       "explanation": "\"Although\" grants the drawback, and the main clause presents the hybrid model as the answer.",
-      "distractors": { "B": "Overturns the writer's argument.", "D": "Loses the specific comparison and the concession." }
+      "distractors": {
+        "B": "Overturns the writer's argument.",
+        "D": "Loses the specific comparison and the concession."
+      }
     },
     {
-      "id": "u5-q07", "tier": "Exam level", "type": "mcq", "topic": "Organization",
+      "id": "u5-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Organization",
       "stimulus": "A writer arguing for a citywide composting program presents, in order: (1) the program's modest cost per household, (2) reduced landfill fees, (3) improved soil for city parks, and (4) data showing that landfills are the city's third-largest source of methane, a potent greenhouse gas.",
       "stem": "Placing the methane data last most likely serves to",
       "choices": [
-        { "id": "A", "text": "end with the most consequential, far-reaching reason, so it stays with the audience" },
-        { "id": "B", "text": "hide the weakest evidence" },
-        { "id": "C", "text": "introduce a counterargument" },
-        { "id": "D", "text": "follow chronological order" }
+        {
+          "id": "A",
+          "text": "introduce a counterargument"
+        },
+        {
+          "id": "B",
+          "text": "hide the weakest evidence"
+        },
+        {
+          "id": "C",
+          "text": "end with the most consequential, far-reaching reason, so it stays with the audience"
+        },
+        {
+          "id": "D",
+          "text": "follow chronological order"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The argument builds from local costs and benefits to a larger environmental stake: climactic order.",
-      "distractors": { "D": "The points aren't events in time." }
+      "distractors": {
+        "D": "The points aren't events in time."
+      }
     },
     {
-      "id": "u5-q08", "tier": "Exam level", "type": "mcq", "topic": "Tonal shift",
+      "id": "u5-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Tonal shift",
       "stimulus": "Our town council is famous for its debates. Last year it spent three meetings on whether the new benches should be green or slightly darker green. This year it has spent no meetings at all on the fact that the river below the paper plant now runs orange.",
       "stem": "The shift from the first two sentences to the third primarily serves to",
       "choices": [
-        { "id": "A", "text": "use lighthearted mockery to set up a sharper criticism of the council's misplaced priorities" },
-        { "id": "B", "text": "praise the council's attention to detail" },
-        { "id": "C", "text": "explain why the river changed color" },
-        { "id": "D", "text": "suggest the benches should be orange" }
+        {
+          "id": "A",
+          "text": "praise the council's attention to detail"
+        },
+        {
+          "id": "B",
+          "text": "use lighthearted mockery to set up a sharper criticism of the council's misplaced priorities"
+        },
+        {
+          "id": "C",
+          "text": "explain why the river changed color"
+        },
+        {
+          "id": "D",
+          "text": "suggest the benches should be orange"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The trivial bench debate highlights, by contrast, the neglect of a serious problem.",
-      "distractors": { "B": "\"Famous for its debates\" is ironic." }
+      "distractors": {
+        "A": "\"Famous for its debates\" is ironic."
+      }
     },
     {
-      "id": "u5-q09", "tier": "Exam level", "type": "mcq", "topic": "Transitions",
+      "id": "u5-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Transitions",
       "stimulus": "Draft: \"The city added two new bus lines last year. Therefore, ridership on the existing lines declined slightly as some riders switched routes.\"",
       "stem": "Is \"Therefore\" the best transition here?",
       "choices": [
-        { "id": "A", "text": "Yes, because the decline on existing lines is a consequence of riders switching to the new lines." },
-        { "id": "B", "text": "No, because the sentences express contrast and need \"However.\"" },
-        { "id": "C", "text": "No, because the second sentence gives an example and needs \"For instance.\"" },
-        { "id": "D", "text": "No, because the sentences are unrelated." }
+        {
+          "id": "A",
+          "text": "No, because the second sentence gives an example and needs \"For instance.\""
+        },
+        {
+          "id": "B",
+          "text": "No, because the sentences express contrast and need \"However.\""
+        },
+        {
+          "id": "C",
+          "text": "Yes, because the decline on existing lines is a consequence of riders switching to the new lines."
+        },
+        {
+          "id": "D",
+          "text": "No, because the sentences are unrelated."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The second sentence explains an effect of the first; \"Therefore\" fits.",
-      "distractors": { "B": "The decline isn't contrary to expectation; it's explained as a result." }
+      "distractors": {
+        "B": "The decline isn't contrary to expectation; it's explained as a result."
+      }
     },
     {
-      "id": "u5-q10", "tier": "Exam level", "type": "mcq", "topic": "Organization / paragraphing",
+      "id": "u5-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Organization / paragraphing",
       "stimulus": "(1) Night shifts disrupt the body's internal clock. (2) Over years, this disruption is linked to higher rates of heart disease and diabetes. (3) Nurses who work rotating nights report more sleep problems than any other hospital staff. (4) Hospitals can reduce the harm. (5) Some have adopted fixed schedules, so nurses don't rotate between days and nights. (6) Others provide dark, quiet rooms for daytime sleep.",
       "stem": "If the writer divides this into two paragraphs, where should the second paragraph begin?",
       "choices": [
-        { "id": "A", "text": "Sentence 4" },
-        { "id": "B", "text": "Sentence 3" },
-        { "id": "C", "text": "Sentence 5" },
-        { "id": "D", "text": "Sentence 2" }
+        {
+          "id": "A",
+          "text": "Sentence 4"
+        },
+        {
+          "id": "B",
+          "text": "Sentence 3"
+        },
+        {
+          "id": "C",
+          "text": "Sentence 5"
+        },
+        {
+          "id": "D",
+          "text": "Sentence 2"
+        }
       ],
       "answer": "A",
       "explanation": "Sentences 1–3 establish the problem; sentence 4 turns to solutions.",
-      "distractors": { "C": "Sentence 5 is the first example of the solution sentence 4 introduces." }
+      "distractors": {
+        "C": "Sentence 5 is the first example of the solution sentence 4 introduces."
+      }
     },
     {
-      "id": "u5-q11", "tier": "Hardest", "type": "mcq", "topic": "Irony and understatement",
+      "id": "u5-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Irony and understatement",
       "stimulus": "After the levee failed and the water reached the second floors of three hundred homes, the agency's spokesman described the event as \"a localized drainage challenge.\" Residents, rowing past their mailboxes, were grateful for the clarification.",
       "stem": "The writer's tone in the final sentence is best described as",
       "choices": [
-        { "id": "A", "text": "sardonic, using mock gratitude to expose the absurdity of the agency's euphemism" },
-        { "id": "B", "text": "sincere, praising the agency's precise language" },
-        { "id": "C", "text": "neutral, simply reporting residents' reactions" },
-        { "id": "D", "text": "nostalgic, recalling an earlier flood" }
+        {
+          "id": "A",
+          "text": "nostalgic, recalling an earlier flood"
+        },
+        {
+          "id": "B",
+          "text": "sincere, praising the agency's precise language"
+        },
+        {
+          "id": "C",
+          "text": "neutral, simply reporting residents' reactions"
+        },
+        {
+          "id": "D",
+          "text": "sardonic, using mock gratitude to expose the absurdity of the agency's euphemism"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Residents rowing past mailboxes can't be \"grateful\" for an understatement; the irony ridicules the euphemism.",
-      "distractors": { "B": "The image of rowing contradicts the sincerity reading." }
+      "distractors": {
+        "B": "The image of rowing contradicts the sincerity reading."
+      }
     },
     {
-      "id": "u5-q12", "tier": "Hardest", "type": "mcq", "topic": "Tone",
+      "id": "u5-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Tone",
       "stimulus": "The mall where I spent every Saturday of my adolescence closes next month. I should mourn it. It was loud and overlit and taught me to want things I didn't need. It was also the only place in town where kids from every school mixed without anyone's permission. I find I can't decide how to feel, which is probably the most honest tribute I can give it.",
       "stem": "The writer's attitude toward the mall is best described as",
       "choices": [
-        { "id": "A", "text": "ambivalent, recognizing both its shallowness and its unexpected value" },
-        { "id": "B", "text": "wholly nostalgic" },
-        { "id": "C", "text": "contemptuous" },
-        { "id": "D", "text": "indifferent" }
+        {
+          "id": "A",
+          "text": "wholly nostalgic"
+        },
+        {
+          "id": "B",
+          "text": "ambivalent, recognizing both its shallowness and its unexpected value"
+        },
+        {
+          "id": "C",
+          "text": "contemptuous"
+        },
+        {
+          "id": "D",
+          "text": "indifferent"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The writer weighs criticisms against a real social benefit and explicitly can't decide.",
-      "distractors": { "B": "Ignores the critique.", "C": "Ignores the praise.", "D": "The writer clearly cares." }
+      "distractors": {
+        "C": "Ignores the praise.",
+        "D": "The writer clearly cares.",
+        "A": "Ignores the critique."
+      }
     },
     {
-      "id": "u5-q13", "tier": "Hardest", "type": "mcq", "topic": "Transitions / line of reasoning",
+      "id": "u5-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Transitions / line of reasoning",
       "stimulus": "Paragraph 1 ends: \"...so the four-day workweek trials reported higher productivity per hour.\"\nParagraph 2 begins: \"Most trials involved office workers who could compress tasks; hospitals and factories, where hours equal output, have seen far fewer successes.\"",
       "stem": "Which transition at the start of paragraph 2 best clarifies the relationship between the paragraphs?",
       "choices": [
-        { "id": "A", "text": "These results, however, come with a significant limit:" },
-        { "id": "B", "text": "As a result," },
-        { "id": "C", "text": "For example," },
-        { "id": "D", "text": "In addition," }
+        {
+          "id": "A",
+          "text": "For example,"
+        },
+        {
+          "id": "B",
+          "text": "As a result,"
+        },
+        {
+          "id": "C",
+          "text": "These results, however, come with a significant limit:"
+        },
+        {
+          "id": "D",
+          "text": "In addition,"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Paragraph 2 qualifies paragraph 1's finding by limiting where it applies.",
-      "distractors": { "B": "Paragraph 2 isn't a consequence of paragraph 1.", "D": "It qualifies rather than adds." }
+      "distractors": {
+        "B": "Paragraph 2 isn't a consequence of paragraph 1.",
+        "D": "It qualifies rather than adds."
+      }
     },
     {
-      "id": "u5-q14", "tier": "Hardest", "type": "mcq", "topic": "Syntax and tone",
+      "id": "u5-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Syntax and tone",
       "stimulus": "They closed the factory on a Friday. They closed the diner across the street that fed the night shift. They closed the hardware store that sold the night shift its boots. And on Monday, they closed the school.",
       "stem": "The repeated structure \"They closed...\" primarily serves to",
       "choices": [
-        { "id": "A", "text": "build a cumulative sense of loss that culminates in the most devastating closure" },
-        { "id": "B", "text": "provide a statistical summary of business closures" },
-        { "id": "C", "text": "suggest the closures were unrelated" },
-        { "id": "D", "text": "present a counterargument" }
+        {
+          "id": "A",
+          "text": "present a counterargument"
+        },
+        {
+          "id": "B",
+          "text": "provide a statistical summary of business closures"
+        },
+        {
+          "id": "C",
+          "text": "suggest the closures were unrelated"
+        },
+        {
+          "id": "D",
+          "text": "build a cumulative sense of loss that culminates in the most devastating closure"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Parallel sentences trace a chain of dependent closures, ending with the school, the closure that threatens the town's future.",
-      "distractors": { "C": "The details (\"fed the night shift\") show connection." }
+      "distractors": {
+        "C": "The details (\"fed the night shift\") show connection."
+      }
     },
     {
-      "id": "u5-frq1", "tier": "Exam level", "type": "frq", "topic": "Argument", "frqType": "Q3 Argument",
+      "id": "u5-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Argument",
+      "frqType": "Q3 Argument",
       "prompt": "Smartphones, streaming, and constant notifications have made it possible to avoid ever feeling bored. Some argue that this is a welcome change; others argue that boredom serves a purpose and that losing it costs us something.\n\nWrite an essay that argues your position on the value of boredom.\n\nIn your response you should do the following:\n- Respond to the prompt with a thesis that presents a defensible position.\n- Provide evidence to support your line of reasoning.\n- Explain how the evidence supports your line of reasoning.\n- Use appropriate grammar and punctuation in communicating your argument.",
       "points": 6,
       "minutes": 40,
       "rubric": [
-        { "criterion": "Row A: Thesis", "points": 1, "description": "Responds with a defensible thesis about the value of boredom." },
-        { "criterion": "Row B: Evidence and commentary", "points": 4, "description": "4: specific evidence for all claims with commentary consistently explaining it. 3: specific evidence with commentary for most claims. 2: mostly general evidence or summary. 1: little relevant evidence." },
-        { "criterion": "Row C: Sophistication", "points": 1, "description": "E.g., explaining tensions (boredom as both a cost and a signal), qualifying the argument, or a consistently vivid style." }
+        {
+          "criterion": "Row A: Thesis",
+          "points": 1,
+          "description": "Responds with a defensible thesis about the value of boredom."
+        },
+        {
+          "criterion": "Row B: Evidence and commentary",
+          "points": 4,
+          "description": "4: specific evidence for all claims with commentary consistently explaining it. 3: specific evidence with commentary for most claims. 2: mostly general evidence or summary. 1: little relevant evidence."
+        },
+        {
+          "criterion": "Row C: Sophistication",
+          "points": 1,
+          "description": "E.g., explaining tensions (boredom as both a cost and a signal), qualifying the argument, or a consistently vivid style."
+        }
       ],
       "sampleResponse": "Boredom is uncomfortable for a reason: it is the mind's signal that what it is doing no longer satisfies it. By silencing that signal with an endless feed, we lose not a waste of time but one of the few experiences that forces us to decide what we actually want to do.\n\nConsider what boredom has historically produced. Children left with nothing to do on a rainy afternoon invent games, build forts from couch cushions, and write plays for their stuffed animals. The discomfort is the engine. When every empty moment is filled by an app designed by engineers to be more interesting than anything a child could invent, the engine never starts. The child is entertained but not creative, because creativity requires the motive that boredom supplies.\n\nThe same is true for adults. Many people report that their best ideas arrive in the shower or on a long walk, moments when the phone is out of reach and the mind wanders. Wandering is not idleness; it is how the brain connects things it learned separately. A commuter who scrolls through every train ride gives up the twenty minutes in which a stubborn problem at work might have quietly solved itself.\n\nBoredom also tells us something about our lives. A student bored in every class may need a different challenge, not a better distraction; a worker bored at every job may be in the wrong field. When we reach for a screen the instant boredom appears, we treat the symptom and never hear the diagnosis.\n\nNone of this means boredom is always good. Bored teenagers sometimes find trouble, and for people in pain, distraction can be a mercy. But those cases are arguments for better uses of empty time, not for eliminating it. The point is not to suffer through boredom for its own sake but to let it last long enough to ask what it is asking.\n\nA life with no boredom sounds like a life of constant pleasure. In practice it is a life in which we never stop to notice what we would choose if no one were choosing for us."
     }

@@ -47,226 +47,529 @@
     "cramSheet": "**Qualifiers:** often · most · in many cases · although · unless · precise > vague\n\n**Coordination:** and/but/or/so (equal) · **Subordination:** although/because/when (unequal; main clause = emphasis)\n\n**Modifiers:** next to what they modify · watch \"only\"\n\n**Punctuation:** ; joins related clauses · : explains/introduces · — emphasizes · comma splice = error"
   },
   "vocab": [
-    { "term": "Qualified claim", "definition": "A claim limited in scope to what the evidence supports." },
-    { "term": "Hedge", "definition": "A word that softens a claim; useful in moderation, vague in excess." },
-    { "term": "Absolute claim", "definition": "A claim allowing no exceptions, such as one using always or never." },
-    { "term": "Coordination", "definition": "Joining ideas of equal importance with coordinating conjunctions." },
-    { "term": "Subordination", "definition": "Making one idea grammatically dependent on another to show relationship and emphasis." },
-    { "term": "Main (independent) clause", "definition": "A clause that can stand alone as a sentence; it receives emphasis." },
-    { "term": "Subordinate (dependent) clause", "definition": "A clause that can't stand alone and depends on a main clause." },
-    { "term": "Dangling modifier", "definition": "A modifier with no clear word to modify in the sentence." },
-    { "term": "Misplaced modifier", "definition": "A modifier positioned so it seems to modify the wrong word." },
-    { "term": "Comma splice", "definition": "Two independent clauses joined only by a comma." },
-    { "term": "Semicolon", "definition": "Punctuation joining closely related independent clauses." },
-    { "term": "Colon", "definition": "Punctuation introducing an explanation, list, or elaboration." },
-    { "term": "Dash", "definition": "Punctuation that sets off an interruption or adds emphasis." }
+    {
+      "term": "Qualified claim",
+      "definition": "A claim limited in scope to what the evidence supports."
+    },
+    {
+      "term": "Hedge",
+      "definition": "A word that softens a claim; useful in moderation, vague in excess."
+    },
+    {
+      "term": "Absolute claim",
+      "definition": "A claim allowing no exceptions, such as one using always or never."
+    },
+    {
+      "term": "Coordination",
+      "definition": "Joining ideas of equal importance with coordinating conjunctions."
+    },
+    {
+      "term": "Subordination",
+      "definition": "Making one idea grammatically dependent on another to show relationship and emphasis."
+    },
+    {
+      "term": "Main (independent) clause",
+      "definition": "A clause that can stand alone as a sentence; it receives emphasis."
+    },
+    {
+      "term": "Subordinate (dependent) clause",
+      "definition": "A clause that can't stand alone and depends on a main clause."
+    },
+    {
+      "term": "Dangling modifier",
+      "definition": "A modifier with no clear word to modify in the sentence."
+    },
+    {
+      "term": "Misplaced modifier",
+      "definition": "A modifier positioned so it seems to modify the wrong word."
+    },
+    {
+      "term": "Comma splice",
+      "definition": "Two independent clauses joined only by a comma."
+    },
+    {
+      "term": "Semicolon",
+      "definition": "Punctuation joining closely related independent clauses."
+    },
+    {
+      "term": "Colon",
+      "definition": "Punctuation introducing an explanation, list, or elaboration."
+    },
+    {
+      "term": "Dash",
+      "definition": "Punctuation that sets off an interruption or adds emphasis."
+    }
   ],
   "practice": [
     {
-      "id": "u7-q01", "tier": "Intro", "type": "mcq", "topic": "Qualifying claims",
+      "id": "u7-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Qualifying claims",
       "stimulus": "A study of 40 schools found that later start times were associated with fewer tardies and modestly higher grades, mostly among high school students.",
       "stem": "Which claim is best supported by the evidence without overstating it?",
       "choices": [
-        { "id": "A", "text": "Later start times are likely to benefit many high school students, particularly in attendance." },
-        { "id": "B", "text": "Later start times will raise every student's grades dramatically." },
-        { "id": "C", "text": "Start times have no effect on students." },
-        { "id": "D", "text": "All schools must start at 10 a.m." }
+        {
+          "id": "A",
+          "text": "All schools must start at 10 a.m."
+        },
+        {
+          "id": "B",
+          "text": "Later start times will raise every student's grades dramatically."
+        },
+        {
+          "id": "C",
+          "text": "Start times have no effect on students."
+        },
+        {
+          "id": "D",
+          "text": "Later start times are likely to benefit many high school students, particularly in attendance."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "It reflects the study's population (high school), effect (attendance, modest grades), and uncertainty (\"likely,\" \"many\").",
-      "distractors": { "B": "Overstates scope and size.", "C": "Contradicts the evidence." }
+      "distractors": {
+        "B": "Overstates scope and size.",
+        "C": "Contradicts the evidence."
+      }
     },
     {
-      "id": "u7-q02", "tier": "Intro", "type": "mcq", "topic": "Subordination",
+      "id": "u7-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Subordination",
       "stimulus": "The writer wants to emphasize that the new park is worth its cost. Sentences: \"The new park cost $4 million. It now draws 2,000 visitors each weekend.\"",
       "stem": "Which combination best accomplishes this goal?",
       "choices": [
-        { "id": "A", "text": "Although the new park cost $4 million, it now draws 2,000 visitors each weekend." },
-        { "id": "B", "text": "Although the new park now draws 2,000 visitors each weekend, it cost $4 million." },
-        { "id": "C", "text": "The new park cost $4 million, it now draws 2,000 visitors each weekend." },
-        { "id": "D", "text": "The new park cost $4 million and draws visitors." }
+        {
+          "id": "A",
+          "text": "Although the new park now draws 2,000 visitors each weekend, it cost $4 million."
+        },
+        {
+          "id": "B",
+          "text": "Although the new park cost $4 million, it now draws 2,000 visitors each weekend."
+        },
+        {
+          "id": "C",
+          "text": "The new park cost $4 million, it now draws 2,000 visitors each weekend."
+        },
+        {
+          "id": "D",
+          "text": "The new park cost $4 million and draws visitors."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The main clause, which receives emphasis, contains the benefit.",
-      "distractors": { "B": "Emphasizes the cost.", "C": "Comma splice." }
+      "distractors": {
+        "C": "Comma splice.",
+        "A": "Emphasizes the cost."
+      }
     },
     {
-      "id": "u7-q03", "tier": "Intro", "type": "mcq", "topic": "Modifiers",
+      "id": "u7-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Modifiers",
       "stimulus": "Draft: \"Hoping to reduce litter, new trash cans were installed along the boardwalk.\"",
       "stem": "Which revision corrects the error while keeping the meaning?",
       "choices": [
-        { "id": "A", "text": "Hoping to reduce litter, the city installed new trash cans along the boardwalk." },
-        { "id": "B", "text": "Hoping to reduce litter, the boardwalk got new trash cans." },
-        { "id": "C", "text": "New trash cans, hoping to reduce litter, were installed along the boardwalk." },
-        { "id": "D", "text": "Hoping to reduce litter, trash cans were new along the boardwalk." }
+        {
+          "id": "A",
+          "text": "New trash cans, hoping to reduce litter, were installed along the boardwalk."
+        },
+        {
+          "id": "B",
+          "text": "Hoping to reduce litter, the boardwalk got new trash cans."
+        },
+        {
+          "id": "C",
+          "text": "Hoping to reduce litter, the city installed new trash cans along the boardwalk."
+        },
+        {
+          "id": "D",
+          "text": "Hoping to reduce litter, trash cans were new along the boardwalk."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The trash cans can't hope; the modifier needs an agent, \"the city.\"",
-      "distractors": { "B": "The boardwalk can't hope either.", "C": "Still assigns hope to the trash cans." }
+      "distractors": {
+        "B": "The boardwalk can't hope either.",
+        "A": "Still assigns hope to the trash cans."
+      }
     },
     {
-      "id": "u7-q04", "tier": "Intro", "type": "mcq", "topic": "Punctuation",
+      "id": "u7-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Punctuation",
       "stimulus": "The committee reached one conclusion______ the bridge must close for repairs before winter.",
       "stem": "Which punctuation best fills the blank?",
       "choices": [
-        { "id": "A", "text": "a colon" },
-        { "id": "B", "text": "a comma" },
-        { "id": "C", "text": "no punctuation" },
-        { "id": "D", "text": "a question mark" }
+        {
+          "id": "A",
+          "text": "a colon"
+        },
+        {
+          "id": "B",
+          "text": "a comma"
+        },
+        {
+          "id": "C",
+          "text": "no punctuation"
+        },
+        {
+          "id": "D",
+          "text": "a question mark"
+        }
       ],
       "answer": "A",
       "explanation": "What follows explains \"one conclusion,\" which is the colon's job.",
-      "distractors": { "B": "A comma would create a comma splice." }
+      "distractors": {
+        "B": "A comma would create a comma splice."
+      }
     },
     {
-      "id": "u7-q05", "tier": "Exam level", "type": "mcq", "topic": "Qualifying claims",
+      "id": "u7-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Qualifying claims",
       "stimulus": "Draft thesis: \"Social media is destroying democracy.\"\n\nThe writer's evidence shows that social media spreads misinformation quickly, but also helped organize several successful voter registration drives.",
       "stem": "Which revision best qualifies the thesis to reflect the evidence while keeping a clear position?",
       "choices": [
-        { "id": "A", "text": "Although social media can mobilize voters, its speed at spreading misinformation poses a serious threat to informed democratic debate." },
-        { "id": "B", "text": "Social media might possibly have some effects on democracy in some ways." },
-        { "id": "C", "text": "Social media is entirely good for democracy." },
-        { "id": "D", "text": "Social media exists." }
+        {
+          "id": "A",
+          "text": "Although social media can mobilize voters, its speed at spreading misinformation poses a serious threat to informed democratic debate."
+        },
+        {
+          "id": "B",
+          "text": "Social media might possibly have some effects on democracy in some ways."
+        },
+        {
+          "id": "C",
+          "text": "Social media is entirely good for democracy."
+        },
+        {
+          "id": "D",
+          "text": "Social media exists."
+        }
       ],
       "answer": "A",
       "explanation": "It acknowledges the counterevidence in a subordinate clause and keeps a clear, defensible main claim.",
-      "distractors": { "B": "Over-hedged; it takes no position." }
+      "distractors": {
+        "B": "Over-hedged; it takes no position."
+      }
     },
     {
-      "id": "u7-q06", "tier": "Exam level", "type": "mcq", "topic": "Subordination and emphasis",
+      "id": "u7-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Subordination and emphasis",
       "stimulus": "Version 1: \"While the factory created 300 jobs, it polluted the river for decades.\"\nVersion 2: \"While the factory polluted the river for decades, it created 300 jobs.\"",
       "stem": "Which statement best explains the difference between the versions?",
       "choices": [
-        { "id": "A", "text": "Version 1 emphasizes the pollution, while Version 2 emphasizes the jobs, because each places its emphasized idea in the main clause." },
-        { "id": "B", "text": "The versions have identical emphasis." },
-        { "id": "C", "text": "Version 1 is grammatically incorrect." },
-        { "id": "D", "text": "Version 2 contains a comma splice." }
+        {
+          "id": "A",
+          "text": "The versions have identical emphasis."
+        },
+        {
+          "id": "B",
+          "text": "Version 1 emphasizes the pollution, while Version 2 emphasizes the jobs, because each places its emphasized idea in the main clause."
+        },
+        {
+          "id": "C",
+          "text": "Version 1 is grammatically incorrect."
+        },
+        {
+          "id": "D",
+          "text": "Version 2 contains a comma splice."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The subordinate clause concedes; the main clause asserts.",
-      "distractors": { "B": "Main-clause placement changes emphasis." }
+      "distractors": {
+        "A": "Main-clause placement changes emphasis."
+      }
     },
     {
-      "id": "u7-q07", "tier": "Exam level", "type": "mcq", "topic": "Dashes and emphasis",
+      "id": "u7-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Dashes and emphasis",
       "stimulus": "The writer wants to set off and emphasize an interruption: \"The new policy__which no teacher was consulted about__takes effect Monday.\"",
       "stem": "Which punctuation, placed in both blanks, would most strongly emphasize the interruption?",
       "choices": [
-        { "id": "A", "text": "Dashes" },
-        { "id": "B", "text": "Commas" },
-        { "id": "C", "text": "Semicolons" },
-        { "id": "D", "text": "Colons" }
+        {
+          "id": "A",
+          "text": "Semicolons"
+        },
+        {
+          "id": "B",
+          "text": "Commas"
+        },
+        {
+          "id": "C",
+          "text": "Dashes"
+        },
+        {
+          "id": "D",
+          "text": "Colons"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Dashes set off the clause more forcefully than commas, highlighting the complaint.",
-      "distractors": { "B": "Correct but less emphatic.", "C": "Semicolons can't set off a clause in the middle of a sentence." }
+      "distractors": {
+        "B": "Correct but less emphatic.",
+        "A": "Semicolons can't set off a clause in the middle of a sentence."
+      }
     },
     {
-      "id": "u7-q08", "tier": "Exam level", "type": "mcq", "topic": "Coordination",
+      "id": "u7-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Coordination",
       "stimulus": "Draft: \"Volunteers planted 500 trees. Survival rates were low. No one was assigned to water them.\"",
       "stem": "Which revision best shows the logical relationships among the ideas?",
       "choices": [
-        { "id": "A", "text": "Volunteers planted 500 trees, but survival rates were low because no one was assigned to water them." },
-        { "id": "B", "text": "Volunteers planted 500 trees, and survival rates were low, and no one was assigned to water them." },
-        { "id": "C", "text": "Because volunteers planted 500 trees, survival rates were low." },
-        { "id": "D", "text": "Volunteers planted 500 trees so no one watered them." }
+        {
+          "id": "A",
+          "text": "Volunteers planted 500 trees so no one watered them."
+        },
+        {
+          "id": "B",
+          "text": "Volunteers planted 500 trees, and survival rates were low, and no one was assigned to water them."
+        },
+        {
+          "id": "C",
+          "text": "Because volunteers planted 500 trees, survival rates were low."
+        },
+        {
+          "id": "D",
+          "text": "Volunteers planted 500 trees, but survival rates were low because no one was assigned to water them."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "\"But\" shows contrast with the effort; \"because\" gives the cause of low survival.",
-      "distractors": { "B": "Treats all ideas as equal, obscuring cause.", "C": "False causation." }
+      "distractors": {
+        "B": "Treats all ideas as equal, obscuring cause.",
+        "C": "False causation."
+      }
     },
     {
-      "id": "u7-q09", "tier": "Exam level", "type": "mcq", "topic": "Misplaced modifiers",
+      "id": "u7-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Misplaced modifiers",
       "stimulus": "Draft: \"The library only lends laptops to students with a signed agreement.\"\n\nThe writer means that a signed agreement is the one requirement for borrowing a laptop.",
       "stem": "Which revision best expresses the intended meaning?",
       "choices": [
-        { "id": "A", "text": "The library lends laptops only to students with a signed agreement." },
-        { "id": "B", "text": "Only the library lends laptops to students with a signed agreement." },
-        { "id": "C", "text": "The library lends only laptops to students with a signed agreement." },
-        { "id": "D", "text": "The library lends laptops to students only with a library." }
+        {
+          "id": "A",
+          "text": "Only the library lends laptops to students with a signed agreement."
+        },
+        {
+          "id": "B",
+          "text": "The library lends laptops only to students with a signed agreement."
+        },
+        {
+          "id": "C",
+          "text": "The library lends only laptops to students with a signed agreement."
+        },
+        {
+          "id": "D",
+          "text": "The library lends laptops to students only with a library."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Placing \"only\" before \"to students with a signed agreement\" limits who may borrow.",
-      "distractors": { "B": "Means no other institution lends them.", "C": "Means nothing besides laptops is lent." }
+      "distractors": {
+        "C": "Means nothing besides laptops is lent.",
+        "A": "Means no other institution lends them."
+      }
     },
     {
-      "id": "u7-q10", "tier": "Exam level", "type": "mcq", "topic": "Semicolons",
+      "id": "u7-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Semicolons",
       "stimulus": "Draft: \"The vaccine is highly effective, most side effects last less than a day.\"",
       "stem": "Which revision best corrects the error?",
       "choices": [
-        { "id": "A", "text": "The vaccine is highly effective; most side effects last less than a day." },
-        { "id": "B", "text": "The vaccine is highly effective, most side effects, last less than a day." },
-        { "id": "C", "text": "The vaccine is highly effective most side effects last less than a day." },
-        { "id": "D", "text": "The vaccine is: highly effective, most side effects last less than a day." }
+        {
+          "id": "A",
+          "text": "The vaccine is highly effective; most side effects last less than a day."
+        },
+        {
+          "id": "B",
+          "text": "The vaccine is highly effective, most side effects, last less than a day."
+        },
+        {
+          "id": "C",
+          "text": "The vaccine is highly effective most side effects last less than a day."
+        },
+        {
+          "id": "D",
+          "text": "The vaccine is: highly effective, most side effects last less than a day."
+        }
       ],
       "answer": "A",
       "explanation": "Two related independent clauses can be joined with a semicolon, fixing the comma splice.",
-      "distractors": { "C": "Run-on sentence." }
+      "distractors": {
+        "C": "Run-on sentence."
+      }
     },
     {
-      "id": "u7-q11", "tier": "Hardest", "type": "mcq", "topic": "Qualifying claims",
+      "id": "u7-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Qualifying claims",
       "stimulus": "Evidence: Cities that built protected bike lanes saw cyclist injuries fall, but cities with hilly terrain and cold winters saw smaller increases in ridership.",
       "stem": "Which claim is most precisely qualified?",
       "choices": [
-        { "id": "A", "text": "Protected bike lanes reliably improve cyclist safety, though their effect on ridership depends on terrain and climate." },
-        { "id": "B", "text": "Protected bike lanes might be good in some ways for some people." },
-        { "id": "C", "text": "Protected bike lanes always double ridership." },
-        { "id": "D", "text": "Protected bike lanes are useless in cold cities." }
+        {
+          "id": "A",
+          "text": "Protected bike lanes are useless in cold cities."
+        },
+        {
+          "id": "B",
+          "text": "Protected bike lanes might be good in some ways for some people."
+        },
+        {
+          "id": "C",
+          "text": "Protected bike lanes always double ridership."
+        },
+        {
+          "id": "D",
+          "text": "Protected bike lanes reliably improve cyclist safety, though their effect on ridership depends on terrain and climate."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "It asserts what the evidence supports strongly (safety) and limits the weaker finding (ridership) with specific conditions.",
-      "distractors": { "B": "Vague hedging.", "D": "Overstates: smaller increases aren't zero, and safety still improved." }
+      "distractors": {
+        "B": "Vague hedging.",
+        "A": "Overstates: smaller increases aren't zero, and safety still improved."
+      }
     },
     {
-      "id": "u7-q12", "tier": "Hardest", "type": "mcq", "topic": "Subordination and argument",
+      "id": "u7-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Subordination and argument",
       "stimulus": "A writer arguing against a highway expansion wants to concede its benefit to commuters but end her paragraph with her strongest point. Sentences: \"The expansion would shorten some commutes by ten minutes. It would require demolishing 140 homes in the Riverside neighborhood.\"",
       "stem": "Which sentence best serves her purpose?",
       "choices": [
-        { "id": "A", "text": "Though the expansion would shorten some commutes by ten minutes, it would require demolishing 140 homes in the Riverside neighborhood." },
-        { "id": "B", "text": "Though it would require demolishing 140 homes in the Riverside neighborhood, the expansion would shorten some commutes by ten minutes." },
-        { "id": "C", "text": "The expansion would shorten some commutes, and it would require demolishing homes." },
-        { "id": "D", "text": "The expansion would shorten some commutes by ten minutes; therefore, it would require demolishing 140 homes." }
+        {
+          "id": "A",
+          "text": "The expansion would shorten some commutes, and it would require demolishing homes."
+        },
+        {
+          "id": "B",
+          "text": "Though it would require demolishing 140 homes in the Riverside neighborhood, the expansion would shorten some commutes by ten minutes."
+        },
+        {
+          "id": "C",
+          "text": "Though the expansion would shorten some commutes by ten minutes, it would require demolishing 140 homes in the Riverside neighborhood."
+        },
+        {
+          "id": "D",
+          "text": "The expansion would shorten some commutes by ten minutes; therefore, it would require demolishing 140 homes."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The concession goes in the subordinate clause and the demolition, her key point, gets the main clause and final position.",
-      "distractors": { "B": "Ends on the benefit.", "D": "False causation." }
+      "distractors": {
+        "B": "Ends on the benefit.",
+        "D": "False causation."
+      }
     },
     {
-      "id": "u7-q13", "tier": "Hardest", "type": "mcq", "topic": "Colons",
+      "id": "u7-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Colons",
       "stimulus": "Draft: \"The data point to a single cause. The district's buses arrive after the first bell.\"\n\nThe writer wants to combine the sentences to show that the second sentence identifies the cause named in the first.",
       "stem": "Which revision best accomplishes this goal?",
       "choices": [
-        { "id": "A", "text": "The data point to a single cause: the district's buses arrive after the first bell." },
-        { "id": "B", "text": "The data point to a single cause, the district's buses arrive after the first bell." },
-        { "id": "C", "text": "The data point to a single cause, and the district's buses arrive after the first bell." },
-        { "id": "D", "text": "The data point to a single cause; however, the district's buses arrive after the first bell." }
+        {
+          "id": "A",
+          "text": "The data point to a single cause, and the district's buses arrive after the first bell."
+        },
+        {
+          "id": "B",
+          "text": "The data point to a single cause, the district's buses arrive after the first bell."
+        },
+        {
+          "id": "C",
+          "text": "The data point to a single cause: the district's buses arrive after the first bell."
+        },
+        {
+          "id": "D",
+          "text": "The data point to a single cause; however, the district's buses arrive after the first bell."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "A colon introduces an elaboration that identifies what precedes it.",
-      "distractors": { "B": "Comma splice.", "C": "\"And\" presents the bus fact as a separate point.", "D": "\"However\" creates a false contrast." }
+      "distractors": {
+        "B": "Comma splice.",
+        "D": "\"However\" creates a false contrast.",
+        "A": "\"And\" presents the bus fact as a separate point."
+      }
     },
     {
-      "id": "u7-q14", "tier": "Hardest", "type": "mcq", "topic": "Sentence structure and emphasis",
+      "id": "u7-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Sentence structure and emphasis",
       "stimulus": "Version 1: \"The flood damaged the library, the clinic, and the school, and it also destroyed the town's only bridge.\"\nVersion 2: \"The flood damaged the library, the clinic, the school—and the town's only bridge, which it destroyed.\"\nVersion 3: \"The flood damaged the library and the clinic and the school. It destroyed the bridge.\"",
       "stem": "Which version most effectively emphasizes the destruction of the bridge as the most serious loss?",
       "choices": [
-        { "id": "A", "text": "Version 3, because the short, separate final sentence isolates the bridge and the stronger verb." },
-        { "id": "B", "text": "Version 1, because it uses a compound sentence." },
-        { "id": "C", "text": "Version 2, because it places the bridge in a subordinate relative clause." },
-        { "id": "D", "text": "All three are equally emphatic." }
+        {
+          "id": "A",
+          "text": "All three are equally emphatic."
+        },
+        {
+          "id": "B",
+          "text": "Version 1, because it uses a compound sentence."
+        },
+        {
+          "id": "C",
+          "text": "Version 2, because it places the bridge in a subordinate relative clause."
+        },
+        {
+          "id": "D",
+          "text": "Version 3, because the short, separate final sentence isolates the bridge and the stronger verb."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Polysyndeton builds a list of damage; the abrupt short sentence with \"destroyed\" lands the climax.",
-      "distractors": { "C": "Burying \"destroyed\" in a relative clause weakens it." }
+      "distractors": {
+        "C": "Burying \"destroyed\" in a relative clause weakens it."
+      }
     },
     {
-      "id": "u7-frq1", "tier": "Exam level", "type": "frq", "topic": "Argument", "frqType": "Q3 Argument",
+      "id": "u7-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Argument",
+      "frqType": "Q3 Argument",
       "prompt": "Many schools now give students more choice in what they study, from elective-heavy schedules to independent projects. Some educators argue that choice increases motivation; others argue that students need a common core of knowledge and that teenagers often choose what is easy rather than what is valuable.\n\nWrite an essay that argues your position on how much choice students should have in what they study.\n\nIn your response you should do the following:\n- Respond to the prompt with a thesis that presents a defensible position.\n- Provide evidence to support your line of reasoning.\n- Explain how the evidence supports your line of reasoning.\n- Use appropriate grammar and punctuation in communicating your argument.",
       "points": 6,
       "minutes": 40,
       "rubric": [
-        { "criterion": "Row A: Thesis", "points": 1, "description": "Responds with a defensible thesis about student choice in study." },
-        { "criterion": "Row B: Evidence and commentary", "points": 4, "description": "4: specific evidence for all claims with consistent commentary. 3: most claims. 2: general evidence or summary. 1: little relevant evidence." },
-        { "criterion": "Row C: Sophistication", "points": 1, "description": "E.g., a precisely qualified position sustained throughout, or exploring the tension between motivation and shared knowledge." }
+        {
+          "criterion": "Row A: Thesis",
+          "points": 1,
+          "description": "Responds with a defensible thesis about student choice in study."
+        },
+        {
+          "criterion": "Row B: Evidence and commentary",
+          "points": 4,
+          "description": "4: specific evidence for all claims with consistent commentary. 3: most claims. 2: general evidence or summary. 1: little relevant evidence."
+        },
+        {
+          "criterion": "Row C: Sophistication",
+          "points": 1,
+          "description": "E.g., a precisely qualified position sustained throughout, or exploring the tension between motivation and shared knowledge."
+        }
       ],
       "sampleResponse": "Students should have substantial choice in how they study and in a growing share of what they study, but not in whether they learn the shared foundations that make later choices meaningful. Choice motivates; a common core is what gives choice something to work with.\n\nThe case for choice begins with motivation. A student who picks a research topic, whether the history of her neighborhood's subway line or the physics of skateboarding, invests in it differently than one assigned a chapter. She asks questions the teacher didn't plan, and she keeps working when the work gets hard because the problem is hers. Teachers see this in independent projects every year: the same student who coasts through worksheets stays after school to finish a documentary.\n\nYet choice works best inside a structure. A student can't choose wisely among electives in biology, economics, or creative writing without the basic literacy, numeracy, and historical knowledge to know what those fields are. Shared knowledge also lets a classroom function as a community: a discussion of a civil rights speech is richer when everyone has read the Constitution it invokes. Letting fourteen-year-olds opt out of foundations because they seem dull would narrow their future choices in the name of expanding present ones.\n\nThe skeptics' concern that teenagers choose the easy path deserves an answer rather than dismissal. Some will. But the remedy is design, not prohibition: schools can require that choices meet standards of rigor, offer choice within challenging courses (which novel, which experiment), and gradually widen choice as students demonstrate they can handle it. Freedom, in this model, is earned and expanded, not granted all at once or withheld forever.\n\nThe question isn't whether students should choose, but what choice is for. If the goal is engaged, capable adults who can direct their own learning, schools should teach the foundations everyone needs and then hand students increasing control over how they build on them."
     }

@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Fossile Energie und Atomkraft durch erneuerbare Energien zu ersetzen"
+          "text": "Strom aus Frankreich zu importieren"
         },
         {
           "id": "B",
@@ -106,14 +106,14 @@
         },
         {
           "id": "C",
-          "text": "Strom aus Frankreich zu importieren"
+          "text": "Fossile Energie und Atomkraft durch erneuerbare Energien zu ersetzen"
         },
         {
           "id": "D",
           "text": "Neue Atomkraftwerke zu bauen"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -158,7 +158,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Es fehlen Stromleitungen vom Norden in den Süden"
+          "text": "Windräder sind verboten"
         },
         {
           "id": "B",
@@ -166,14 +166,14 @@
         },
         {
           "id": "C",
-          "text": "Windräder sind verboten"
+          "text": "Es fehlen Stromleitungen vom Norden in den Süden"
         },
         {
           "id": "D",
           "text": "Es gibt keine Industrie im Süden"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Transmission gap.",
       "distractors": {}
     },
@@ -188,11 +188,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Als gesellschaftliche Aufgabe, die Fragen der Kosten und der Akzeptanz aufwirft"
+          "text": "Als abgeschlossenes Projekt"
         },
         {
           "id": "B",
-          "text": "Als abgeschlossenes Projekt"
+          "text": "Als gesellschaftliche Aufgabe, die Fragen der Kosten und der Akzeptanz aufwirft"
         },
         {
           "id": "C",
@@ -203,7 +203,7 @@
           "text": "Als gescheitert"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Final paragraph.",
       "distractors": {}
     },
@@ -248,7 +248,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Volle Radwege, Konflikte zwischen Verkehrsteilnehmern und Menschen im Umland, die ein Auto brauchen"
+          "text": "Schlechtes Wetter das ganze Jahr"
         },
         {
           "id": "B",
@@ -260,10 +260,10 @@
         },
         {
           "id": "D",
-          "text": "Schlechtes Wetter das ganze Jahr"
+          "text": "Volle Radwege, Konflikte zwischen Verkehrsteilnehmern und Menschen im Umland, die ein Auto brauchen"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Her list.",
       "distractors": {}
     },
@@ -278,7 +278,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Sichere Radwege"
+          "text": "Fahrradrennen"
         },
         {
           "id": "B",
@@ -290,10 +290,10 @@
         },
         {
           "id": "D",
-          "text": "Fahrradrennen"
+          "text": "Sichere Radwege"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Her advice.",
       "distractors": {}
     },
@@ -308,7 +308,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Stolz auf die Erfolge, aber ehrlich über die Grenzen"
+          "text": "Gleichgültig"
         },
         {
           "id": "B",
@@ -316,14 +316,14 @@
         },
         {
           "id": "C",
-          "text": "Gleichgültig"
+          "text": "Stolz auf die Erfolge, aber ehrlich über die Grenzen"
         },
         {
           "id": "D",
           "text": "Unrealistisch optimistisch"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Balanced.",
       "distractors": {}
     },
@@ -368,11 +368,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Fast zwei Drittel lesen nie gedruckte Zeitungen"
+          "text": "Die Mehrheit liest täglich Online-Nachrichten"
         },
         {
           "id": "B",
-          "text": "Die Mehrheit liest täglich Online-Nachrichten"
+          "text": "Fast zwei Drittel lesen nie gedruckte Zeitungen"
         },
         {
           "id": "C",
@@ -383,7 +383,7 @@
           "text": "Gedruckte Zeitungen werden täglich von 30 % gelesen"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "65 % nie.",
       "distractors": {}
     },
@@ -398,11 +398,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Etwa ein Drittel"
+          "text": "Etwa drei Viertel"
         },
         {
           "id": "B",
-          "text": "Etwa drei Viertel"
+          "text": "Etwa ein Drittel"
         },
         {
           "id": "C",
@@ -413,7 +413,7 @@
           "text": "Niemand"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "35 %.",
       "distractors": {}
     },
@@ -428,7 +428,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Soziale Netzwerke machen junge Leute unglücklich"
+          "text": "Streaming-Dienste werden von der Mehrheit täglich genutzt"
         },
         {
           "id": "B",
@@ -436,14 +436,14 @@
         },
         {
           "id": "C",
-          "text": "Streaming-Dienste werden von der Mehrheit täglich genutzt"
+          "text": "Soziale Netzwerke machen junge Leute unglücklich"
         },
         {
           "id": "D",
           "text": "Nur wenige nutzen nie soziale Netzwerke"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "No data on happiness.",
       "distractors": {}
     },
@@ -458,7 +458,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Den Wandel hin zu umweltfreundlicheren Lösungen"
+          "text": "Mode"
         },
         {
           "id": "B",
@@ -470,10 +470,10 @@
         },
         {
           "id": "D",
-          "text": "Mode"
+          "text": "Den Wandel hin zu umweltfreundlicheren Lösungen"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Sustainability transitions.",
       "distractors": {}
     },

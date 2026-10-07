@@ -100,7 +100,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "El papel de los abuelos en el cuidado diario de sus nietos"
+          "text": "Los problemas de salud de las personas mayores"
         },
         {
           "id": "B",
@@ -108,14 +108,14 @@
         },
         {
           "id": "C",
-          "text": "Los problemas de salud de las personas mayores"
+          "text": "El papel de los abuelos en el cuidado diario de sus nietos"
         },
         {
           "id": "D",
           "text": "El costo de la vivienda en las ciudades"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The article centers on grandparents as daily caregivers.",
       "distractors": {}
     },
@@ -130,11 +130,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Por las jornadas laborales largas y el precio de las guarderías"
+          "text": "Porque los colegios lo exigen"
         },
         {
           "id": "B",
-          "text": "Porque los colegios lo exigen"
+          "text": "Por las jornadas laborales largas y el precio de las guarderías"
         },
         {
           "id": "C",
@@ -145,7 +145,7 @@
           "text": "Porque los padres viven en otros países"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated in the first paragraph.",
       "distractors": {}
     },
@@ -160,7 +160,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "El equilibrio entre la vida laboral y la familiar"
+          "text": "Un taller para abuelos"
         },
         {
           "id": "B",
@@ -172,10 +172,10 @@
         },
         {
           "id": "D",
-          "text": "Un taller para abuelos"
+          "text": "El equilibrio entre la vida laboral y la familiar"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Políticas de conciliación = work–family balance policies.",
       "distractors": {
         "B": "A general meaning of 'conciliación' that doesn't fit this context."
@@ -252,11 +252,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Unos vecinos limpiaron un lote abandonado y empezaron a sembrar"
+          "text": "La alcaldía donó un terreno"
         },
         {
           "id": "B",
-          "text": "La alcaldía donó un terreno"
+          "text": "Unos vecinos limpiaron un lote abandonado y empezaron a sembrar"
         },
         {
           "id": "C",
@@ -267,7 +267,7 @@
           "text": "Una empresa pagó la construcción"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Andrés describes neighbors cleaning a vacant lot.",
       "distractors": {}
     },
@@ -282,7 +282,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Que se ha convertido en un lugar de encuentro entre generaciones"
+          "text": "Las plantas medicinales que venden"
         },
         {
           "id": "B",
@@ -290,14 +290,14 @@
         },
         {
           "id": "C",
-          "text": "Las plantas medicinales que venden"
+          "text": "Que se ha convertido en un lugar de encuentro entre generaciones"
         },
         {
           "id": "D",
           "text": "El dinero que ganan los vecinos"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "'Lo más importante no es la comida... se volvió un punto de encuentro.'",
       "distractors": {}
     },
@@ -312,7 +312,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Que más vecinos se unieron poco a poco"
+          "text": "Que algunos vecinos se enojaron"
         },
         {
           "id": "B",
@@ -324,10 +324,10 @@
         },
         {
           "id": "D",
-          "text": "Que algunos vecinos se enojaron"
+          "text": "Que más vecinos se unieron poco a poco"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Ir + gerund expresses gradual progression; sumarse = to join.",
       "distractors": {}
     },
@@ -342,7 +342,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Conseguir que la alcaldía les ceda el terreno de manera permanente"
+          "text": "Mudarse al campo"
         },
         {
           "id": "B",
@@ -350,14 +350,14 @@
         },
         {
           "id": "C",
-          "text": "Mudarse al campo"
+          "text": "Conseguir que la alcaldía les ceda el terreno de manera permanente"
         },
         {
           "id": "D",
           "text": "Construir una escuela"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated at the end.",
       "distractors": {}
     },
@@ -402,11 +402,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Horas de servicios entre vecinos"
+          "text": "Dinero en efectivo"
         },
         {
           "id": "B",
-          "text": "Dinero en efectivo"
+          "text": "Horas de servicios entre vecinos"
         },
         {
           "id": "C",
@@ -417,7 +417,7 @@
           "text": "Computadoras nuevas"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "'Una hora de tu ayuda = una hora de ayuda de otro vecino.'",
       "distractors": {}
     },
@@ -432,7 +432,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Inscribirse y ofrecer al menos un servicio"
+          "text": "Saber arreglar bicicletas"
         },
         {
           "id": "B",
@@ -444,10 +444,10 @@
         },
         {
           "id": "D",
-          "text": "Saber arreglar bicicletas"
+          "text": "Inscribirse y ofrecer al menos un servicio"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Listed requirements.",
       "distractors": {}
     },
@@ -462,7 +462,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "usa el voseo, típico del español rioplatense"
+          "text": "fue traducido del portugués"
         },
         {
           "id": "B",
@@ -474,10 +474,10 @@
         },
         {
           "id": "D",
-          "text": "fue traducido del portugués"
+          "text": "usa el voseo, típico del español rioplatense"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Voseo is standard in Uruguay and Argentina.",
       "distractors": {}
     },
@@ -492,11 +492,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Ambos fortalecen los lazos comunitarios a través de la cooperación entre vecinos"
+          "text": "Ambos son administrados por el gobierno nacional"
         },
         {
           "id": "B",
-          "text": "Ambos son administrados por el gobierno nacional"
+          "text": "Ambos fortalecen los lazos comunitarios a través de la cooperación entre vecinos"
         },
         {
           "id": "C",
@@ -507,7 +507,7 @@
           "text": "Ambos están dirigidos solo a jóvenes"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Both are neighbor-led cooperative projects.",
       "distractors": {}
     },

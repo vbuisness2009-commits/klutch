@@ -98,11 +98,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "major"
+          "text": "minor"
         },
         {
           "id": "B",
-          "text": "minor"
+          "text": "major"
         },
         {
           "id": "C",
@@ -113,7 +113,7 @@
           "text": "augmented"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "M3 + m3.",
       "distractors": {}
     },
@@ -127,7 +127,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "diminished"
+          "text": "major"
         },
         {
           "id": "B",
@@ -135,14 +135,14 @@
         },
         {
           "id": "C",
-          "text": "major"
+          "text": "diminished"
         },
         {
           "id": "D",
           "text": "augmented"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "e.g., B D F in C.",
       "distractors": {}
     },
@@ -185,7 +185,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "dominant seventh (Mm7)"
+          "text": "half-diminished seventh"
         },
         {
           "id": "B",
@@ -197,10 +197,10 @@
         },
         {
           "id": "D",
-          "text": "half-diminished seventh"
+          "text": "dominant seventh (Mm7)"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "V7 in C.",
       "distractors": {}
     },
@@ -214,7 +214,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "half-diminished seventh"
+          "text": "dominant seventh"
         },
         {
           "id": "B",
@@ -222,14 +222,14 @@
         },
         {
           "id": "C",
-          "text": "dominant seventh"
+          "text": "half-diminished seventh"
         },
         {
           "id": "D",
           "text": "minor seventh"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Diminished triad + m7: viiø7 in C.",
       "distractors": {}
     },
@@ -243,7 +243,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "a seventh chord in first inversion"
+          "text": "a root-position seventh chord"
         },
         {
           "id": "B",
@@ -255,10 +255,10 @@
         },
         {
           "id": "D",
-          "text": "a root-position seventh chord"
+          "text": "a seventh chord in first inversion"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Third in the bass.",
       "distractors": {}
     },
@@ -301,11 +301,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "major"
+          "text": "minor"
         },
         {
           "id": "B",
-          "text": "minor"
+          "text": "major"
         },
         {
           "id": "C",
@@ -316,7 +316,7 @@
           "text": "augmented"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "e.g., E♭ G B♭ in C minor.",
       "distractors": {}
     },
@@ -330,7 +330,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "C major in first inversion"
+          "text": "A minor in first inversion"
         },
         {
           "id": "B",
@@ -342,10 +342,10 @@
         },
         {
           "id": "D",
-          "text": "A minor in first inversion"
+          "text": "C major in first inversion"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Root C, third in bass.",
       "distractors": {}
     },
@@ -359,11 +359,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "G♯ B D F"
+          "text": "G B D F"
         },
         {
           "id": "B",
-          "text": "G B D F"
+          "text": "G♯ B D F"
         },
         {
           "id": "C",
@@ -374,7 +374,7 @@
           "text": "B D F A"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Fully diminished on raised 7.",
       "distractors": {}
     },
@@ -388,7 +388,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "4/2"
+          "text": "4/3"
         },
         {
           "id": "B",
@@ -396,14 +396,14 @@
         },
         {
           "id": "C",
-          "text": "4/3"
+          "text": "4/2"
         },
         {
           "id": "D",
           "text": "7"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Third inversion.",
       "distractors": {}
     },
@@ -446,7 +446,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "V6/5 (G B D F)"
+          "text": "ii6/5"
         },
         {
           "id": "B",
@@ -458,10 +458,10 @@
         },
         {
           "id": "D",
-          "text": "ii6/5"
+          "text": "V6/5 (G B D F)"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "B is the third of G7.",
       "distractors": {}
     },
@@ -475,7 +475,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "C E G♯"
+          "text": "C E G"
         },
         {
           "id": "B",
@@ -483,14 +483,14 @@
         },
         {
           "id": "C",
-          "text": "C E G"
+          "text": "C E G♯"
         },
         {
           "id": "D",
           "text": "C E♭ G♭"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Two major thirds.",
       "distractors": {}
     },

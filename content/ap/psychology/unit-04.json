@@ -47,231 +47,542 @@
     "cramSheet": "**Attribution:** FAE · actor-observer · self-serving\n\n**Attitudes:** cognitive dissonance · central vs. peripheral route · foot-in-the-door · door-in-the-face\n\n**Influence:** Asch (normative vs. informational) · Milgram (~65%) · facilitation · loafing · deindividuation · polarization · groupthink · bystander/diffusion\n\n**Personality:** Freud (defense mechanisms) · Rogers (UPR) · Maslow · Bandura (reciprocal determinism, self-efficacy) · Big Five (OCEAN)\n\n**Motivation:** drive-reduction · Yerkes-Dodson · Maslow · self-determination · overjustification\n\n**Emotion:** James-Lange · Cannon-Bard · Schachter-Singer · facial feedback"
   },
   "vocab": [
-    { "term": "Fundamental attribution error", "definition": "Overestimating personal factors and underestimating situational factors when explaining others' behavior." },
-    { "term": "Self-serving bias", "definition": "Attributing successes to oneself and failures to external factors." },
-    { "term": "Cognitive dissonance", "definition": "Discomfort when attitudes and behaviors conflict, often resolved by changing attitudes." },
-    { "term": "Foot-in-the-door phenomenon", "definition": "Agreeing to a small request increases compliance with a larger one." },
-    { "term": "Normative social influence", "definition": "Conforming to gain approval or avoid rejection." },
-    { "term": "Informational social influence", "definition": "Conforming because others' behavior is taken as evidence about reality." },
-    { "term": "Social facilitation", "definition": "Improved performance on simple or well-learned tasks in the presence of others." },
-    { "term": "Social loafing", "definition": "Reduced effort when working in a group." },
-    { "term": "Group polarization", "definition": "Group discussion strengthening members' prevailing views." },
-    { "term": "Diffusion of responsibility", "definition": "Feeling less personal responsibility to act when others are present." },
-    { "term": "Defense mechanism", "definition": "In psychodynamic theory, an unconscious strategy that reduces anxiety by distorting reality." },
-    { "term": "Unconditional positive regard", "definition": "Rogers's term for complete acceptance of a person regardless of behavior." },
-    { "term": "Self-efficacy", "definition": "Belief in one's ability to succeed at a task." },
-    { "term": "Yerkes-Dodson law", "definition": "Performance peaks at moderate arousal, with the optimum depending on task difficulty." },
-    { "term": "Two-factor theory", "definition": "Schachter-Singer: emotion results from physiological arousal plus a cognitive label." },
-    { "term": "Overjustification effect", "definition": "External rewards for an enjoyable activity can reduce intrinsic motivation." }
+    {
+      "term": "Fundamental attribution error",
+      "definition": "Overestimating personal factors and underestimating situational factors when explaining others' behavior."
+    },
+    {
+      "term": "Self-serving bias",
+      "definition": "Attributing successes to oneself and failures to external factors."
+    },
+    {
+      "term": "Cognitive dissonance",
+      "definition": "Discomfort when attitudes and behaviors conflict, often resolved by changing attitudes."
+    },
+    {
+      "term": "Foot-in-the-door phenomenon",
+      "definition": "Agreeing to a small request increases compliance with a larger one."
+    },
+    {
+      "term": "Normative social influence",
+      "definition": "Conforming to gain approval or avoid rejection."
+    },
+    {
+      "term": "Informational social influence",
+      "definition": "Conforming because others' behavior is taken as evidence about reality."
+    },
+    {
+      "term": "Social facilitation",
+      "definition": "Improved performance on simple or well-learned tasks in the presence of others."
+    },
+    {
+      "term": "Social loafing",
+      "definition": "Reduced effort when working in a group."
+    },
+    {
+      "term": "Group polarization",
+      "definition": "Group discussion strengthening members' prevailing views."
+    },
+    {
+      "term": "Diffusion of responsibility",
+      "definition": "Feeling less personal responsibility to act when others are present."
+    },
+    {
+      "term": "Defense mechanism",
+      "definition": "In psychodynamic theory, an unconscious strategy that reduces anxiety by distorting reality."
+    },
+    {
+      "term": "Unconditional positive regard",
+      "definition": "Rogers's term for complete acceptance of a person regardless of behavior."
+    },
+    {
+      "term": "Self-efficacy",
+      "definition": "Belief in one's ability to succeed at a task."
+    },
+    {
+      "term": "Yerkes-Dodson law",
+      "definition": "Performance peaks at moderate arousal, with the optimum depending on task difficulty."
+    },
+    {
+      "term": "Two-factor theory",
+      "definition": "Schachter-Singer: emotion results from physiological arousal plus a cognitive label."
+    },
+    {
+      "term": "Overjustification effect",
+      "definition": "External rewards for an enjoyable activity can reduce intrinsic motivation."
+    }
   ],
   "practice": [
     {
-      "id": "u4-q01", "tier": "Intro", "type": "mcq", "topic": "4.1 Attribution Theory and Person Perception",
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.1 Attribution Theory and Person Perception",
       "stimulus": "When another driver cuts him off, Marcus thinks, \"What a careless person.\" When he cuts someone off, he thinks, \"I didn't see them because of the glare.\"",
       "stem": "Marcus's judgment about the other driver illustrates",
       "choices": [
-        { "id": "A", "text": "the fundamental attribution error" },
-        { "id": "B", "text": "the mere exposure effect" },
-        { "id": "C", "text": "group polarization" },
-        { "id": "D", "text": "social facilitation" }
+        {
+          "id": "A",
+          "text": "social facilitation"
+        },
+        {
+          "id": "B",
+          "text": "the mere exposure effect"
+        },
+        {
+          "id": "C",
+          "text": "group polarization"
+        },
+        {
+          "id": "D",
+          "text": "the fundamental attribution error"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "He attributes the other driver's behavior to disposition and ignores situational factors.",
-      "distractors": { "B": "Mere exposure concerns liking through familiarity." }
+      "distractors": {
+        "B": "Mere exposure concerns liking through familiarity."
+      }
     },
     {
-      "id": "u4-q02", "tier": "Intro", "type": "mcq", "topic": "4.2 Attitude Formation and Attitude Change",
+      "id": "u4-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.2 Attitude Formation and Attitude Change",
       "stimulus": "After paying a lot for an exercise program she rarely uses, Jade tells friends she really didn't want to work out that much anyway.",
       "stem": "Jade's statement is most likely an attempt to reduce",
       "choices": [
-        { "id": "A", "text": "cognitive dissonance" },
-        { "id": "B", "text": "social loafing" },
-        { "id": "C", "text": "diffusion of responsibility" },
-        { "id": "D", "text": "normative social influence" }
+        {
+          "id": "A",
+          "text": "social loafing"
+        },
+        {
+          "id": "B",
+          "text": "cognitive dissonance"
+        },
+        {
+          "id": "C",
+          "text": "diffusion of responsibility"
+        },
+        {
+          "id": "D",
+          "text": "normative social influence"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Inconsistency between paying and not using it creates discomfort, so she changes her stated attitude.",
-      "distractors": { "D": "No group pressure is involved." }
+      "distractors": {
+        "D": "No group pressure is involved."
+      }
     },
     {
-      "id": "u4-q03", "tier": "Intro", "type": "mcq", "topic": "4.6 Trait Theories of Personality",
+      "id": "u4-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.6 Trait Theories of Personality",
       "stimulus": "On a personality inventory, Owen scores very high on being organized, dependable, and careful about deadlines.",
       "stem": "Owen is high on which Big Five trait?",
       "choices": [
-        { "id": "A", "text": "Conscientiousness" },
-        { "id": "B", "text": "Openness" },
-        { "id": "C", "text": "Agreeableness" },
-        { "id": "D", "text": "Neuroticism" }
+        {
+          "id": "A",
+          "text": "Conscientiousness"
+        },
+        {
+          "id": "B",
+          "text": "Openness"
+        },
+        {
+          "id": "C",
+          "text": "Agreeableness"
+        },
+        {
+          "id": "D",
+          "text": "Neuroticism"
+        }
       ],
       "answer": "A",
       "explanation": "Conscientiousness reflects organization, reliability, and self-discipline.",
-      "distractors": { "C": "Agreeableness reflects warmth and cooperation." }
+      "distractors": {
+        "C": "Agreeableness reflects warmth and cooperation."
+      }
     },
     {
-      "id": "u4-q04", "tier": "Intro", "type": "mcq", "topic": "4.3 Psychology of Social Situations",
+      "id": "u4-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.3 Psychology of Social Situations",
       "stimulus": "An expert pianist plays a familiar piece better than usual in front of a large audience, while a beginner makes more mistakes than usual in front of the same audience.",
       "stem": "These results are best explained by",
       "choices": [
-        { "id": "A", "text": "social facilitation" },
-        { "id": "B", "text": "social loafing" },
-        { "id": "C", "text": "deindividuation" },
-        { "id": "D", "text": "groupthink" }
+        {
+          "id": "A",
+          "text": "social loafing"
+        },
+        {
+          "id": "B",
+          "text": "social facilitation"
+        },
+        {
+          "id": "C",
+          "text": "deindividuation"
+        },
+        {
+          "id": "D",
+          "text": "groupthink"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "An audience improves performance on well-learned tasks and impairs it on difficult ones.",
-      "distractors": { "B": "Loafing is reduced effort in groups." }
+      "distractors": {
+        "A": "Loafing is reduced effort in groups."
+      }
     },
     {
-      "id": "u4-q05", "tier": "Exam level", "type": "mcq", "topic": "4.3 Psychology of Social Situations (conformity)",
+      "id": "u4-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.3 Psychology of Social Situations (conformity)",
       "stimulus": "In a line-judgment study, a participant hears five other people (actually confederates) confidently give the same obviously wrong answer. He gives the same answer, later admitting he knew it was wrong but didn't want to stand out.",
       "stem": "His behavior is best explained by",
       "choices": [
-        { "id": "A", "text": "normative social influence" },
-        { "id": "B", "text": "informational social influence" },
-        { "id": "C", "text": "obedience to authority" },
-        { "id": "D", "text": "the foot-in-the-door phenomenon" }
+        {
+          "id": "A",
+          "text": "obedience to authority"
+        },
+        {
+          "id": "B",
+          "text": "informational social influence"
+        },
+        {
+          "id": "C",
+          "text": "normative social influence"
+        },
+        {
+          "id": "D",
+          "text": "the foot-in-the-door phenomenon"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "He conformed to gain acceptance, not because he believed the group was right.",
-      "distractors": { "B": "Informational influence would mean he believed the group's answer was correct." }
+      "distractors": {
+        "B": "Informational influence would mean he believed the group's answer was correct."
+      }
     },
     {
-      "id": "u4-q06", "tier": "Exam level", "type": "mcq", "topic": "4.3 Psychology of Social Situations (obedience)",
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.3 Psychology of Social Situations (obedience)",
       "stem": "In variations of Milgram's obedience studies, which change most decreased participants' willingness to continue delivering shocks?",
       "choices": [
-        { "id": "A", "text": "Seeing other \"teachers\" (confederates) refuse to continue" },
-        { "id": "B", "text": "Having the experimenter stand close to the participant" },
-        { "id": "C", "text": "Holding the study at a prestigious university" },
-        { "id": "D", "text": "Placing the learner in a separate room" }
+        {
+          "id": "A",
+          "text": "Placing the learner in a separate room"
+        },
+        {
+          "id": "B",
+          "text": "Having the experimenter stand close to the participant"
+        },
+        {
+          "id": "C",
+          "text": "Holding the study at a prestigious university"
+        },
+        {
+          "id": "D",
+          "text": "Seeing other \"teachers\" (confederates) refuse to continue"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Defiant models sharply reduced obedience; the other options increased it.",
-      "distractors": { "B": "A nearby authority increased obedience." }
+      "distractors": {
+        "B": "A nearby authority increased obedience."
+      }
     },
     {
-      "id": "u4-q07", "tier": "Exam level", "type": "mcq", "topic": "4.3 Psychology of Social Situations (helping)",
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.3 Psychology of Social Situations (helping)",
       "stimulus": "A person collapses on a crowded subway platform. Dozens of people notice, but several minutes pass before anyone calls for help.",
       "stem": "The delay is best explained by",
       "choices": [
-        { "id": "A", "text": "diffusion of responsibility" },
-        { "id": "B", "text": "the self-serving bias" },
-        { "id": "C", "text": "cognitive dissonance" },
-        { "id": "D", "text": "social facilitation" }
+        {
+          "id": "A",
+          "text": "diffusion of responsibility"
+        },
+        {
+          "id": "B",
+          "text": "the self-serving bias"
+        },
+        {
+          "id": "C",
+          "text": "cognitive dissonance"
+        },
+        {
+          "id": "D",
+          "text": "social facilitation"
+        }
       ],
       "answer": "A",
       "explanation": "Each person assumes someone else will act, the core of the bystander effect.",
-      "distractors": { "D": "Facilitation concerns task performance." }
+      "distractors": {
+        "D": "Facilitation concerns task performance."
+      }
     },
     {
-      "id": "u4-q08", "tier": "Exam level", "type": "mcq", "topic": "4.8 Introduction to Motivation",
+      "id": "u4-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.8 Introduction to Motivation",
       "stimulus": "A student who hasn't eaten all day can't focus on writing a poem about his life goals.",
       "stem": "Which theory best explains his difficulty?",
       "choices": [
-        { "id": "A", "text": "Maslow's hierarchy of needs" },
-        { "id": "B", "text": "The James-Lange theory" },
-        { "id": "C", "text": "The two-factor theory" },
-        { "id": "D", "text": "Reciprocal determinism" }
+        {
+          "id": "A",
+          "text": "Reciprocal determinism"
+        },
+        {
+          "id": "B",
+          "text": "The James-Lange theory"
+        },
+        {
+          "id": "C",
+          "text": "The two-factor theory"
+        },
+        {
+          "id": "D",
+          "text": "Maslow's hierarchy of needs"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Unmet physiological needs take priority over higher needs like self-actualization.",
-      "distractors": { "B": "An emotion theory." }
+      "distractors": {
+        "B": "An emotion theory."
+      }
     },
     {
-      "id": "u4-q09", "tier": "Exam level", "type": "mcq", "topic": "4.10 Emotion",
+      "id": "u4-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.10 Emotion",
       "stimulus": "Participants were injected with adrenaline without being told its effects. Those who waited with a cheerful confederate reported feeling happy; those with an angry confederate reported feeling irritated.",
       "stem": "This result best supports",
       "choices": [
-        { "id": "A", "text": "the Schachter-Singer two-factor theory" },
-        { "id": "B", "text": "the James-Lange theory" },
-        { "id": "C", "text": "the Cannon-Bard theory" },
-        { "id": "D", "text": "drive-reduction theory" }
+        {
+          "id": "A",
+          "text": "the Cannon-Bard theory"
+        },
+        {
+          "id": "B",
+          "text": "the James-Lange theory"
+        },
+        {
+          "id": "C",
+          "text": "the Schachter-Singer two-factor theory"
+        },
+        {
+          "id": "D",
+          "text": "drive-reduction theory"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The same arousal produced different emotions depending on the cognitive label provided by the situation.",
-      "distractors": { "B": "James-Lange predicts the same arousal would produce the same emotion." }
+      "distractors": {
+        "B": "James-Lange predicts the same arousal would produce the same emotion."
+      }
     },
     {
-      "id": "u4-q10", "tier": "Exam level", "type": "mcq", "topic": "4.1 Attribution Theory",
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.1 Attribution Theory",
       "stimulus": "After winning a debate, Lina credits her preparation and skill. After losing the next one, she blames an unfair judge.",
       "stem": "Lina is demonstrating",
       "choices": [
-        { "id": "A", "text": "the self-serving bias" },
-        { "id": "B", "text": "the fundamental attribution error" },
-        { "id": "C", "text": "the just-world phenomenon" },
-        { "id": "D", "text": "group polarization" }
+        {
+          "id": "A",
+          "text": "the fundamental attribution error"
+        },
+        {
+          "id": "B",
+          "text": "the self-serving bias"
+        },
+        {
+          "id": "C",
+          "text": "the just-world phenomenon"
+        },
+        {
+          "id": "D",
+          "text": "group polarization"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "She takes credit for success and blames external factors for failure.",
-      "distractors": { "B": "FAE concerns explaining other people's behavior." }
+      "distractors": {
+        "A": "FAE concerns explaining other people's behavior."
+      }
     },
     {
-      "id": "u4-q11", "tier": "Hardest", "type": "mcq", "topic": "4.3 Psychology of Social Situations (groups)",
+      "id": "u4-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.3 Psychology of Social Situations (groups)",
       "stimulus": "Students who mildly favored stricter school dress codes met to discuss the issue. After an hour of discussion, they supported much stricter rules than any of them had beforehand.",
       "stem": "This outcome best illustrates",
       "choices": [
-        { "id": "A", "text": "group polarization" },
-        { "id": "B", "text": "groupthink" },
-        { "id": "C", "text": "social loafing" },
-        { "id": "D", "text": "deindividuation" }
+        {
+          "id": "A",
+          "text": "groupthink"
+        },
+        {
+          "id": "B",
+          "text": "group polarization"
+        },
+        {
+          "id": "C",
+          "text": "social loafing"
+        },
+        {
+          "id": "D",
+          "text": "deindividuation"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Discussion intensified the group's initial leaning.",
-      "distractors": { "B": "Groupthink involves suppressing dissent to maintain harmony and making poor decisions, not necessarily intensifying an attitude." }
+      "distractors": {
+        "A": "Groupthink involves suppressing dissent to maintain harmony and making poor decisions, not necessarily intensifying an attitude."
+      }
     },
     {
-      "id": "u4-q12", "tier": "Hardest", "type": "mcq", "topic": "4.2 Attitude Formation and Attitude Change",
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.2 Attitude Formation and Attitude Change",
       "stimulus": "A charity first asks residents to sign a petition supporting safe driving. Two weeks later, it asks the same residents to put a large, unattractive sign on their lawns. Those who signed the petition agree far more often than those who weren't asked before.",
       "stem": "The charity's strategy is best explained by",
       "choices": [
-        { "id": "A", "text": "the foot-in-the-door phenomenon, as agreeing to a small request changes self-perception and increases later compliance" },
-        { "id": "B", "text": "the door-in-the-face technique" },
-        { "id": "C", "text": "the peripheral route to persuasion" },
-        { "id": "D", "text": "the mere exposure effect" }
+        {
+          "id": "A",
+          "text": "the mere exposure effect"
+        },
+        {
+          "id": "B",
+          "text": "the door-in-the-face technique"
+        },
+        {
+          "id": "C",
+          "text": "the peripheral route to persuasion"
+        },
+        {
+          "id": "D",
+          "text": "the foot-in-the-door phenomenon, as agreeing to a small request changes self-perception and increases later compliance"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The small commitment makes residents see themselves as supporters, so the larger request feels consistent.",
-      "distractors": { "B": "Door-in-the-face starts with a large request that's refused." }
+      "distractors": {
+        "B": "Door-in-the-face starts with a large request that's refused."
+      }
     },
     {
-      "id": "u4-q13", "tier": "Hardest", "type": "mcq", "topic": "4.8 Introduction to Motivation (arousal)",
+      "id": "u4-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.8 Introduction to Motivation (arousal)",
       "stimulus": "A coach notices that her players shoot free throws best when moderately excited, but perform poorly when either bored or extremely anxious. A new player struggles with a difficult new play under high pressure.",
       "stem": "According to the Yerkes-Dodson law, which prediction is most accurate?",
       "choices": [
-        { "id": "A", "text": "The new, difficult play will be performed best at a lower arousal level than the familiar free throws." },
-        { "id": "B", "text": "All tasks are performed best at maximum arousal." },
-        { "id": "C", "text": "Arousal has no effect on performance." },
-        { "id": "D", "text": "Difficult tasks require higher arousal than easy ones." }
+        {
+          "id": "A",
+          "text": "Arousal has no effect on performance."
+        },
+        {
+          "id": "B",
+          "text": "All tasks are performed best at maximum arousal."
+        },
+        {
+          "id": "C",
+          "text": "The new, difficult play will be performed best at a lower arousal level than the familiar free throws."
+        },
+        {
+          "id": "D",
+          "text": "Difficult tasks require higher arousal than easy ones."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Optimal arousal is moderate and lower for complex or unfamiliar tasks.",
-      "distractors": { "D": "Reverses the relationship." }
+      "distractors": {
+        "D": "Reverses the relationship."
+      }
     },
     {
-      "id": "u4-q14", "tier": "Hardest", "type": "mcq", "topic": "4.5 Psychodynamic and Humanistic Theories of Personality",
+      "id": "u4-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.5 Psychodynamic and Humanistic Theories of Personality",
       "stimulus": "After being criticized by his boss, Dev comes home and yells at his younger brother over a minor issue.",
       "stem": "From a psychodynamic perspective, Dev's behavior best illustrates which defense mechanism?",
       "choices": [
-        { "id": "A", "text": "Displacement" },
-        { "id": "B", "text": "Projection" },
-        { "id": "C", "text": "Rationalization" },
-        { "id": "D", "text": "Reaction formation" }
+        {
+          "id": "A",
+          "text": "Displacement"
+        },
+        {
+          "id": "B",
+          "text": "Projection"
+        },
+        {
+          "id": "C",
+          "text": "Rationalization"
+        },
+        {
+          "id": "D",
+          "text": "Reaction formation"
+        }
       ],
       "answer": "A",
       "explanation": "He redirects anger from a threatening target (his boss) to a safer one (his brother).",
-      "distractors": { "B": "Projection attributes one's own feelings to others.", "D": "Reaction formation expresses the opposite of one's true feelings." }
+      "distractors": {
+        "B": "Projection attributes one's own feelings to others.",
+        "D": "Reaction formation expresses the opposite of one's true feelings."
+      }
     },
     {
-      "id": "u4-frq1", "tier": "Exam level", "type": "frq", "topic": "Person vs. situation", "frqType": "Evidence-Based Question (EBQ)",
+      "id": "u4-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Person vs. situation",
+      "frqType": "Evidence-Based Question (EBQ)",
       "stimulus": "The sources below are summaries prepared for this practice set.\n\n**Source A (Milgram, 1963, summary):** In the baseline condition of Milgram's obedience study, 26 of 40 male participants (65%) continued to deliver what they believed were the maximum 450-volt shocks to another person when an experimenter instructed them to continue.\n\n**Source B (Darley and Latané, 1968, summary):** College students who heard another student apparently having a seizure over an intercom helped far less often when they believed others were also listening. About 85% of those who thought they were alone helped before the end of the seizure, compared with about 31% of those who thought four others were present.\n\n**Source C (hypothetical longitudinal study):** Researchers measured the Big Five traits of 500 adults twice, ten years apart. Test-retest correlations for each trait ranged from +.60 to +.75.",
       "prompt": "Using the sources, develop and justify an argument about whether behavior is better explained by the situation or by individual personality traits.\n\n(a) Propose a specific and defensible claim based in psychological science that responds to the question.\n(b)(i) Support your claim using at least one piece of specific and relevant evidence from one of the sources.\n(b)(ii) Explain how the evidence from part (b)(i) supports your claim using a psychological concept.\n(c)(i) Support your claim using an additional piece of specific and relevant evidence from a different source.\n(c)(ii) Explain how the evidence from part (c)(i) supports your claim using a different psychological concept.",
       "points": 7,
       "minutes": 45,
       "rubric": [
-        { "criterion": "(a) Claim", "points": 1, "description": "A defensible claim, e.g., in specific high-pressure situations, situational factors predict behavior better than personality, even though traits are stable over time." },
-        { "criterion": "(b)(i) Evidence", "points": 1, "description": "Cites specific evidence from one source (e.g., 65% delivered maximum shocks in Source A)." },
-        { "criterion": "(b)(ii) Explanation", "points": 2, "description": "Explains using a concept (e.g., obedience to authority; legitimate authority overrides personal values). 1 point for the concept accurately described, 1 for linking it to the claim." },
-        { "criterion": "(c)(i) Evidence", "points": 1, "description": "Cites evidence from a different source (e.g., 85% vs. 31% helping in Source B; or Source C's stability correlations)." },
-        { "criterion": "(c)(ii) Explanation", "points": 2, "description": "Explains with a different concept (e.g., diffusion of responsibility/bystander effect; or trait stability and its limited situational predictiveness). 1 + 1." }
+        {
+          "criterion": "(a) Claim",
+          "points": 1,
+          "description": "A defensible claim, e.g., in specific high-pressure situations, situational factors predict behavior better than personality, even though traits are stable over time."
+        },
+        {
+          "criterion": "(b)(i) Evidence",
+          "points": 1,
+          "description": "Cites specific evidence from one source (e.g., 65% delivered maximum shocks in Source A)."
+        },
+        {
+          "criterion": "(b)(ii) Explanation",
+          "points": 2,
+          "description": "Explains using a concept (e.g., obedience to authority; legitimate authority overrides personal values). 1 point for the concept accurately described, 1 for linking it to the claim."
+        },
+        {
+          "criterion": "(c)(i) Evidence",
+          "points": 1,
+          "description": "Cites evidence from a different source (e.g., 85% vs. 31% helping in Source B; or Source C's stability correlations)."
+        },
+        {
+          "criterion": "(c)(ii) Explanation",
+          "points": 2,
+          "description": "Explains with a different concept (e.g., diffusion of responsibility/bystander effect; or trait stability and its limited situational predictiveness). 1 + 1."
+        }
       ],
       "sampleResponse": "(a) Although personality traits are stable over time, in specific high-pressure situations, situational forces predict what people do better than their individual traits do.\n\n(b)(i) In Milgram's baseline condition (Source A), 65% of participants continued delivering what they believed were 450-volt shocks when an experimenter told them to.\n\n(b)(ii) This demonstrates obedience to authority: people comply with orders from a perceived legitimate authority even when the orders conflict with their own values. Because most ordinary participants obeyed, the behavior can't be explained by a rare cruel personality; the authority's presence and instructions drove it.\n\n(c)(i) In Darley and Latané's study (Source B), about 85% of students who believed they were alone helped a person having a seizure, compared with about 31% of those who believed four others were present.\n\n(c)(ii) This shows diffusion of responsibility, the core of the bystander effect: when others are present, each person feels less personally responsible for acting. Students were randomly placed in conditions, so their personalities should have been similar on average; changing only the perceived number of bystanders cut helping by more than half, showing the situation's power. Source C shows traits are stable (r = +.60 to +.75), but stability over years doesn't mean traits determine behavior in a particular moment."
     }

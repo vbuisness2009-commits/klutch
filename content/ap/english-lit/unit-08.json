@@ -47,225 +47,489 @@
     "cramSheet": "**Allusion:** import meaning · revise source\n\n**Voice:** dramatic monologue · unintended self-revelation · multiple voices\n\n**Form:** form vs. content tension · broken pattern\n\n**Ambiguity:** puns · double meanings · hold both"
   },
   "vocab": [
-    { "term": "Allusion", "definition": "A reference to a well-known text, figure, or event." },
-    { "term": "Dramatic monologue", "definition": "A poem spoken by a character to a silent listener, often revealing more than the speaker intends." },
-    { "term": "Pun", "definition": "A play on words with multiple meanings." },
-    { "term": "Persona", "definition": "A character or mask adopted as the speaker of a poem." },
-    { "term": "Elegy", "definition": "A poem mourning a death or loss." },
-    { "term": "Ode", "definition": "A lyric poem praising or addressing a subject." },
-    { "term": "Ekphrasis", "definition": "A poem describing or responding to a work of visual art." },
-    { "term": "Juxtaposition", "definition": "Placing contrasting images or ideas side by side." },
-    { "term": "Irony", "definition": "A contrast between what is said and what is meant or expected." },
-    { "term": "Synecdoche", "definition": "A part representing the whole, such as \"hands\" for workers." },
-    { "term": "Metonymy", "definition": "Referring to something by an associated term, such as \"the crown\" for the monarchy." },
-    { "term": "Elision", "definition": "Omitting part of a word or phrase, often for rhythm." }
+    {
+      "term": "Allusion",
+      "definition": "A reference to a well-known text, figure, or event."
+    },
+    {
+      "term": "Dramatic monologue",
+      "definition": "A poem spoken by a character to a silent listener, often revealing more than the speaker intends."
+    },
+    {
+      "term": "Pun",
+      "definition": "A play on words with multiple meanings."
+    },
+    {
+      "term": "Persona",
+      "definition": "A character or mask adopted as the speaker of a poem."
+    },
+    {
+      "term": "Elegy",
+      "definition": "A poem mourning a death or loss."
+    },
+    {
+      "term": "Ode",
+      "definition": "A lyric poem praising or addressing a subject."
+    },
+    {
+      "term": "Ekphrasis",
+      "definition": "A poem describing or responding to a work of visual art."
+    },
+    {
+      "term": "Juxtaposition",
+      "definition": "Placing contrasting images or ideas side by side."
+    },
+    {
+      "term": "Irony",
+      "definition": "A contrast between what is said and what is meant or expected."
+    },
+    {
+      "term": "Synecdoche",
+      "definition": "A part representing the whole, such as \"hands\" for workers."
+    },
+    {
+      "term": "Metonymy",
+      "definition": "Referring to something by an associated term, such as \"the crown\" for the monarchy."
+    },
+    {
+      "term": "Elision",
+      "definition": "Omitting part of a word or phrase, often for rhythm."
+    }
   ],
   "practice": [
     {
-      "id": "u8-q01", "tier": "Intro", "type": "mcq", "topic": "Allusion",
+      "id": "u8-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Allusion",
       "stimulus": "My brother built his wings from scholarship forms / and flew too close to the city's bright lights.",
       "stem": "The allusion most likely suggests",
       "choices": [
-        { "id": "A", "text": "that the brother's ambition carried a risk of falling" },
-        { "id": "B", "text": "that the brother became a pilot" },
-        { "id": "C", "text": "that the brother avoided the city" },
-        { "id": "D", "text": "that the brother was lazy" }
+        {
+          "id": "A",
+          "text": "that the brother's ambition carried a risk of falling"
+        },
+        {
+          "id": "B",
+          "text": "that the brother became a pilot"
+        },
+        {
+          "id": "C",
+          "text": "that the brother avoided the city"
+        },
+        {
+          "id": "D",
+          "text": "that the brother was lazy"
+        }
       ],
       "answer": "A",
       "explanation": "The Icarus myth brings ideas of overreaching ambition and downfall.",
       "distractors": {}
     },
     {
-      "id": "u8-q02", "tier": "Intro", "type": "mcq", "topic": "Synecdoche",
+      "id": "u8-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Synecdoche",
       "stimulus": "The factory needed more hands for the night shift.",
       "stem": "\"Hands\" is an example of",
       "choices": [
-        { "id": "A", "text": "synecdoche" },
-        { "id": "B", "text": "simile" },
-        { "id": "C", "text": "apostrophe" },
-        { "id": "D", "text": "oxymoron" }
+        {
+          "id": "A",
+          "text": "apostrophe"
+        },
+        {
+          "id": "B",
+          "text": "simile"
+        },
+        {
+          "id": "C",
+          "text": "synecdoche"
+        },
+        {
+          "id": "D",
+          "text": "oxymoron"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "A part (hands) stands for the whole (workers), suggesting workers are valued only for labor.",
       "distractors": {}
     },
     {
-      "id": "u8-q03", "tier": "Intro", "type": "mcq", "topic": "Elegy",
+      "id": "u8-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Elegy",
       "stem": "A poem written to mourn the death of the speaker's teacher is best classified as",
       "choices": [
-        { "id": "A", "text": "an elegy" },
-        { "id": "B", "text": "an ode to a season" },
-        { "id": "C", "text": "a limerick" },
-        { "id": "D", "text": "an epic" }
+        {
+          "id": "A",
+          "text": "a limerick"
+        },
+        {
+          "id": "B",
+          "text": "an ode to a season"
+        },
+        {
+          "id": "C",
+          "text": "an elegy"
+        },
+        {
+          "id": "D",
+          "text": "an epic"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Elegies lament a death or loss.",
       "distractors": {}
     },
     {
-      "id": "u8-q04", "tier": "Intro", "type": "mcq", "topic": "Pun",
+      "id": "u8-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Pun",
       "stimulus": "After the funeral, we sat in the kitchen / and tried to make sense of the remains of the day.",
       "stem": "The word \"remains\" most likely functions",
       "choices": [
-        { "id": "A", "text": "with a double meaning, suggesting both the rest of the day and the deceased" },
-        { "id": "B", "text": "only as a reference to leftover food" },
-        { "id": "C", "text": "as a simile" },
-        { "id": "D", "text": "as onomatopoeia" }
+        {
+          "id": "A",
+          "text": "as onomatopoeia"
+        },
+        {
+          "id": "B",
+          "text": "only as a reference to leftover food"
+        },
+        {
+          "id": "C",
+          "text": "as a simile"
+        },
+        {
+          "id": "D",
+          "text": "with a double meaning, suggesting both the rest of the day and the deceased"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The pun ties ordinary time to death.",
       "distractors": {}
     },
     {
-      "id": "u8-q05", "tier": "Exam level", "type": "mcq", "topic": "Dramatic monologue",
+      "id": "u8-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Dramatic monologue",
       "stimulus": "Yes, I keep my daughter's room locked. / It's for her own good; she's careless with things. / She'll thank me when she's older. / I've told her that her friends are a bad influence, / and now she doesn't have to worry about them.",
       "stem": "The speaker most likely reveals",
       "choices": [
-        { "id": "A", "text": "a controlling nature that the speaker presents as care" },
-        { "id": "B", "text": "genuine concern that readers should accept fully" },
-        { "id": "C", "text": "the daughter's carelessness" },
-        { "id": "D", "text": "the speaker's openness to change" }
+        {
+          "id": "A",
+          "text": "a controlling nature that the speaker presents as care"
+        },
+        {
+          "id": "B",
+          "text": "genuine concern that readers should accept fully"
+        },
+        {
+          "id": "C",
+          "text": "the daughter's carelessness"
+        },
+        {
+          "id": "D",
+          "text": "the speaker's openness to change"
+        }
       ],
       "answer": "A",
       "explanation": "The dramatic monologue exposes control through the speaker's own justifications.",
-      "distractors": { "B": "Takes the speaker at face value." }
+      "distractors": {
+        "B": "Takes the speaker at face value."
+      }
     },
     {
-      "id": "u8-q06", "tier": "Exam level", "type": "mcq", "topic": "Form against content",
+      "id": "u8-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Form against content",
       "stimulus": "A poem about a car crash is written in a strict sonnet form, with perfect rhyme and meter throughout.",
       "stem": "The contrast between form and content most likely",
       "choices": [
-        { "id": "A", "text": "creates tension, as the orderly form strains to contain chaotic, painful experience" },
-        { "id": "B", "text": "shows that the crash was minor" },
-        { "id": "C", "text": "suggests the poet didn't take the subject seriously" },
-        { "id": "D", "text": "is accidental" }
+        {
+          "id": "A",
+          "text": "shows that the crash was minor"
+        },
+        {
+          "id": "B",
+          "text": "creates tension, as the orderly form strains to contain chaotic, painful experience"
+        },
+        {
+          "id": "C",
+          "text": "suggests the poet didn't take the subject seriously"
+        },
+        {
+          "id": "D",
+          "text": "is accidental"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The form becomes an act of control over what can't be controlled.",
       "distractors": {}
     },
     {
-      "id": "u8-q07", "tier": "Exam level", "type": "mcq", "topic": "Ekphrasis",
+      "id": "u8-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Ekphrasis",
       "stimulus": "A poem describes a painting of a peaceful harvest. Its final stanza notes the tiny figure in the corner, ignored by the harvesters, who has fallen from a ladder.",
       "stem": "The poem's attention to the overlooked figure most likely suggests",
       "choices": [
-        { "id": "A", "text": "how ordinary life continues indifferent to individual suffering" },
-        { "id": "B", "text": "that the painting is poorly made" },
-        { "id": "C", "text": "a celebration of the harvest" },
-        { "id": "D", "text": "that the harvesters are cruel villains" }
+        {
+          "id": "A",
+          "text": "that the harvesters are cruel villains"
+        },
+        {
+          "id": "B",
+          "text": "that the painting is poorly made"
+        },
+        {
+          "id": "C",
+          "text": "a celebration of the harvest"
+        },
+        {
+          "id": "D",
+          "text": "how ordinary life continues indifferent to individual suffering"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The poem highlights suffering occurring at the margins of everyday life.",
       "distractors": {}
     },
     {
-      "id": "u8-q08", "tier": "Exam level", "type": "mcq", "topic": "Broken pattern",
+      "id": "u8-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Broken pattern",
       "stimulus": "Each stanza of a poem begins \"Every Sunday we drove to Grandma's.\" The final stanza begins \"This Sunday.\"",
       "stem": "The break in the pattern most likely signals",
       "choices": [
-        { "id": "A", "text": "a change, likely the grandmother's absence, that disrupts the family's ritual" },
-        { "id": "B", "text": "a printing mistake" },
-        { "id": "C", "text": "that the drive took longer" },
-        { "id": "D", "text": "a new character" }
+        {
+          "id": "A",
+          "text": "that the drive took longer"
+        },
+        {
+          "id": "B",
+          "text": "a printing mistake"
+        },
+        {
+          "id": "C",
+          "text": "a change, likely the grandmother's absence, that disrupts the family's ritual"
+        },
+        {
+          "id": "D",
+          "text": "a new character"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Breaking the refrain marks the end of the ritual.",
       "distractors": {}
     },
     {
-      "id": "u8-q09", "tier": "Exam level", "type": "mcq", "topic": "Metonymy",
+      "id": "u8-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Metonymy",
       "stimulus": "The suits from headquarters arrived to announce the layoffs.",
       "stem": "\"The suits\" most likely suggests",
       "choices": [
-        { "id": "A", "text": "the executives are impersonal, defined by their role rather than their humanity" },
-        { "id": "B", "text": "the clothing was expensive" },
-        { "id": "C", "text": "the executives were tailors" },
-        { "id": "D", "text": "the workers admired them" }
+        {
+          "id": "A",
+          "text": "the clothing was expensive"
+        },
+        {
+          "id": "B",
+          "text": "the executives are impersonal, defined by their role rather than their humanity"
+        },
+        {
+          "id": "C",
+          "text": "the executives were tailors"
+        },
+        {
+          "id": "D",
+          "text": "the workers admired them"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Metonymy reduces the executives to their corporate uniform.",
       "distractors": {}
     },
     {
-      "id": "u8-q10", "tier": "Exam level", "type": "mcq", "topic": "Revising allusion",
+      "id": "u8-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Revising allusion",
       "stimulus": "In a poem retelling the story of Penelope waiting for Odysseus, the speaker, Penelope, says: \"Twenty years I wove and unwove. / When he returned, I found / I had become the one worth coming home to, / and he had not.\"",
       "stem": "The poem most likely revises its source by",
       "choices": [
-        { "id": "A", "text": "shifting value from the hero's journey to Penelope's own growth" },
-        { "id": "B", "text": "celebrating Odysseus's heroism" },
-        { "id": "C", "text": "ignoring Penelope's perspective" },
-        { "id": "D", "text": "retelling the story accurately with no changes" }
+        {
+          "id": "A",
+          "text": "shifting value from the hero's journey to Penelope's own growth"
+        },
+        {
+          "id": "B",
+          "text": "celebrating Odysseus's heroism"
+        },
+        {
+          "id": "C",
+          "text": "ignoring Penelope's perspective"
+        },
+        {
+          "id": "D",
+          "text": "retelling the story accurately with no changes"
+        }
       ],
       "answer": "A",
       "explanation": "The speaker reinterprets waiting as transformation.",
       "distractors": {}
     },
     {
-      "id": "u8-q11", "tier": "Hardest", "type": "mcq", "topic": "Ambiguity",
+      "id": "u8-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Ambiguity",
       "stimulus": "\"I will not lie,\" the poem ends, \"here, beside you, / any longer.\"",
       "stem": "The line break after \"lie\" most likely creates",
       "choices": [
-        { "id": "A", "text": "a double meaning: refusing to deceive and refusing to stay lying beside someone" },
-        { "id": "B", "text": "a single meaning about honesty only" },
-        { "id": "C", "text": "a grammatical error" },
-        { "id": "D", "text": "a rhyme" }
+        {
+          "id": "A",
+          "text": "a double meaning: refusing to deceive and refusing to stay lying beside someone"
+        },
+        {
+          "id": "B",
+          "text": "a single meaning about honesty only"
+        },
+        {
+          "id": "C",
+          "text": "a grammatical error"
+        },
+        {
+          "id": "D",
+          "text": "a rhyme"
+        }
       ],
       "answer": "A",
       "explanation": "The break holds both meanings, fusing honesty and departure.",
       "distractors": {}
     },
     {
-      "id": "u8-q12", "tier": "Hardest", "type": "mcq", "topic": "Elegy and consolation",
+      "id": "u8-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Elegy and consolation",
       "stimulus": "Traditional elegies often end with consolation. A modern elegy for the speaker's brother ends: \"They tell me he's in a better place. / I want to ask them / what was wrong with this one.\"",
       "stem": "The ending most likely",
       "choices": [
-        { "id": "A", "text": "rejects conventional consolation, insisting on the value of the life that was lost" },
-        { "id": "B", "text": "accepts the consolation gratefully" },
-        { "id": "C", "text": "expresses religious certainty" },
-        { "id": "D", "text": "criticizes the brother" }
+        {
+          "id": "A",
+          "text": "accepts the consolation gratefully"
+        },
+        {
+          "id": "B",
+          "text": "rejects conventional consolation, insisting on the value of the life that was lost"
+        },
+        {
+          "id": "C",
+          "text": "expresses religious certainty"
+        },
+        {
+          "id": "D",
+          "text": "criticizes the brother"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The speaker turns a comforting cliché into a protest.",
       "distractors": {}
     },
     {
-      "id": "u8-q13", "tier": "Hardest", "type": "mcq", "topic": "Persona and irony",
+      "id": "u8-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Persona and irony",
       "stimulus": "A poem is spoken by a mirror: \"Each morning she asks if she's enough. / I show her exactly what she is. / She never believes me.\"",
       "stem": "The persona of the mirror most likely highlights",
       "choices": [
-        { "id": "A", "text": "the gap between objective reality and the woman's self-perception" },
-        { "id": "B", "text": "that the mirror is broken" },
-        { "id": "C", "text": "that the woman is vain" },
-        { "id": "D", "text": "that mirrors can lie" }
+        {
+          "id": "A",
+          "text": "that the woman is vain"
+        },
+        {
+          "id": "B",
+          "text": "that the mirror is broken"
+        },
+        {
+          "id": "C",
+          "text": "the gap between objective reality and the woman's self-perception"
+        },
+        {
+          "id": "D",
+          "text": "that mirrors can lie"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The mirror's honesty exposes how insecurity distorts perception.",
       "distractors": {}
     },
     {
-      "id": "u8-q14", "tier": "Hardest", "type": "mcq", "topic": "Complex attitude",
+      "id": "u8-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Complex attitude",
       "stimulus": "An ode to the speaker's hometown praises its diner, its single stoplight, and its friendly gossip, then concludes: \"I love you the way you love a coat / you've outgrown: / you keep it, / you don't put it on.\"",
       "stem": "The closing simile best conveys",
       "choices": [
-        { "id": "A", "text": "an affection mixed with the recognition that the speaker can no longer live there" },
-        { "id": "B", "text": "pure, uncomplicated nostalgia" },
-        { "id": "C", "text": "contempt for the town" },
-        { "id": "D", "text": "a plan to move back" }
+        {
+          "id": "A",
+          "text": "a plan to move back"
+        },
+        {
+          "id": "B",
+          "text": "pure, uncomplicated nostalgia"
+        },
+        {
+          "id": "C",
+          "text": "contempt for the town"
+        },
+        {
+          "id": "D",
+          "text": "an affection mixed with the recognition that the speaker can no longer live there"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Keeping but not wearing the coat holds love and distance together.",
       "distractors": {}
     },
     {
-      "id": "u8-frq1", "tier": "Exam level", "type": "frq", "topic": "Poetry analysis", "frqType": "Q1 Poetry Analysis",
+      "id": "u8-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Poetry analysis",
+      "frqType": "Q1 Poetry Analysis",
       "stimulus": "The following poem was written for this practice set.\n\n**Translation**\n\nMy grandfather speaks a language\nI was never taught, and I speak one\nhe learned too late. So we meet\nin the narrow country between,\nwhere a few nouns live: *bread, rain, God,\nthe dog*, and the verbs are mostly gestures.\n\nHe points to the garden, and I nod.\nHe holds up three fingers: three tomatoes,\nor three days until my visit ends,\nor the three children he buried\nin the old country. I never know.\nI nod at all of them.\n\nLast summer he gave me a word\nI couldn't find in any dictionary.\nHe said it slowly, twice, then\npressed my hand over my own heart\nand held it there. I still don't know\nwhat it means. I've never once forgotten it.",
       "prompt": "In this poem, the speaker reflects on communicating with a grandfather. Read the poem carefully. Then, in a well-written essay, analyze how the poet uses literary elements and techniques to convey the speaker's complex relationship with the grandfather.\n\nIn your response you should do the following:\n- Respond to the prompt with a thesis that presents a defensible interpretation.\n- Select and use evidence to support your line of reasoning.\n- Explain how the evidence supports your line of reasoning.\n- Use appropriate grammar and punctuation in communicating your argument.",
       "points": 6,
       "minutes": 40,
       "rubric": [
-        { "criterion": "Row A: Thesis", "points": 1, "description": "Defensible interpretation of the speaker's complex relationship with the grandfather." },
-        { "criterion": "Row B: Evidence and commentary", "points": 4, "description": "4: consistent specific evidence and commentary. 3: most claims. 2: summary-heavy. 1: minimal." },
-        { "criterion": "Row C: Sophistication", "points": 1, "description": "E.g., explains the paradox of the final lines; how meaning exceeds language." }
+        {
+          "criterion": "Row A: Thesis",
+          "points": 1,
+          "description": "Defensible interpretation of the speaker's complex relationship with the grandfather."
+        },
+        {
+          "criterion": "Row B: Evidence and commentary",
+          "points": 4,
+          "description": "4: consistent specific evidence and commentary. 3: most claims. 2: summary-heavy. 1: minimal."
+        },
+        {
+          "criterion": "Row C: Sophistication",
+          "points": 1,
+          "description": "E.g., explains the paradox of the final lines; how meaning exceeds language."
+        }
       ],
       "sampleResponse": "In \"Translation,\" the speaker and grandfather share no full language, yet the poem suggests that their bond is deeper than words. Through the metaphor of a \"narrow country between\" them, the ambiguous image of three raised fingers, and a closing paradox about an untranslatable word, the poet conveys a relationship marked by uncertainty and loss but sustained by a love that doesn't need definition.\n\nThe first stanza maps their communication as a landscape: they meet \"in the narrow country between,\" where only \"a few nouns live.\" The chosen nouns (\"bread, rain, God, / the dog\") are basic, almost elemental, suggesting that what survives between them are life's essentials. The verbs, \"mostly gestures,\" emphasize that much of their exchange happens beyond language, through the body.\n\nThe second stanza reveals the cost of that limitation. When the grandfather holds up three fingers, the speaker lists possible meanings that grow heavier as they go: three tomatoes, three days until departure, \"the three children he buried / in the old country.\" The list moves from trivial to tragic, and the speaker admits, \"I never know.\" Nodding \"at all of them\" is both a failure of understanding and an act of love: the speaker accepts the grandfather's meaning without being able to reach it, honoring griefs he cannot name.\n\nThe final stanza turns the gap into something precious. The grandfather offers a word \"I couldn't find in any dictionary,\" and gives it physically, pressing the speaker's hand to the heart. The gesture translates what words cannot: the word is about the heart, about feeling. The closing paradox (\"I still don't know / what it means. I've never once forgotten it\") captures the poem's insight. Understanding and remembering are different; what the speaker keeps is not a definition but the experience of being loved.\n\nThe poem's title becomes ironic. True translation never happens, yet something essential crosses between them anyway."
     }

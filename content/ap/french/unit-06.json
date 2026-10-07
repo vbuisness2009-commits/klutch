@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Limiter le réchauffement climatique bien en dessous de 2 °C"
+          "text": "Créer une armée européenne"
         },
         {
           "id": "B",
@@ -106,14 +106,14 @@
         },
         {
           "id": "C",
-          "text": "Créer une armée européenne"
+          "text": "Limiter le réchauffement climatique bien en dessous de 2 °C"
         },
         {
           "id": "D",
           "text": "Réduire le prix de l'électricité"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -158,11 +158,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Les engagements ne sont pas juridiquement contraignants et sont insuffisants"
+          "text": "Aucun pays ne l'a signé"
         },
         {
           "id": "B",
-          "text": "Aucun pays ne l'a signé"
+          "text": "Les engagements ne sont pas juridiquement contraignants et sont insuffisants"
         },
         {
           "id": "C",
@@ -173,7 +173,7 @@
           "text": "Il interdit l'énergie solaire"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Non-binding, insufficient.",
       "distractors": {}
     },
@@ -188,7 +188,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Les pays qui ont le moins causé le problème ne devraient pas en supporter seuls le coût"
+          "text": "Tous les pays doivent payer la même somme"
         },
         {
           "id": "B",
@@ -196,14 +196,14 @@
         },
         {
           "id": "C",
-          "text": "Tous les pays doivent payer la même somme"
+          "text": "Les pays qui ont le moins causé le problème ne devraient pas en supporter seuls le coût"
         },
         {
           "id": "D",
           "text": "Les pays riches doivent arrêter toute industrie"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Responsibility and fairness.",
       "distractors": {}
     },
@@ -218,7 +218,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "En Afrique"
+          "text": "En Belgique"
         },
         {
           "id": "B",
@@ -230,10 +230,10 @@
         },
         {
           "id": "D",
-          "text": "En Belgique"
+          "text": "En Afrique"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -278,7 +278,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "C'est une richesse"
+          "text": "C'est sans importance"
         },
         {
           "id": "B",
@@ -290,10 +290,10 @@
         },
         {
           "id": "D",
-          "text": "C'est sans importance"
+          "text": "C'est une richesse"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "'Pour moi, c'est une richesse.'",
       "distractors": {}
     },
@@ -308,7 +308,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "De la qualité de l'éducation"
+          "text": "De la disparition du lingala"
         },
         {
           "id": "B",
@@ -316,14 +316,14 @@
         },
         {
           "id": "C",
-          "text": "De la disparition du lingala"
+          "text": "De la qualité de l'éducation"
         },
         {
           "id": "D",
           "text": "Des films hollywoodiens"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Final answer.",
       "distractors": {}
     },
@@ -338,11 +338,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "1970"
+          "text": "2015"
         },
         {
           "id": "B",
-          "text": "2015"
+          "text": "1970"
         },
         {
           "id": "C",
@@ -353,7 +353,7 @@
           "text": "1990"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -398,7 +398,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Parce que la définition de « locuteur » n'est pas la même partout"
+          "text": "Parce que les chiffres sont secrets"
         },
         {
           "id": "B",
@@ -410,10 +410,10 @@
         },
         {
           "id": "D",
-          "text": "Parce que les chiffres sont secrets"
+          "text": "Parce que la définition de « locuteur » n'est pas la même partout"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Footnote.",
       "distractors": {}
     },
@@ -457,11 +457,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "restera"
+          "text": "reste"
         },
         {
           "id": "B",
-          "text": "reste"
+          "text": "restera"
         },
         {
           "id": "C",
@@ -472,7 +472,7 @@
           "text": "resterait"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Si + present → future.",
       "distractors": {}
     },
@@ -486,7 +486,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "soit"
+          "text": "sera"
         },
         {
           "id": "B",
@@ -494,14 +494,14 @@
         },
         {
           "id": "C",
-          "text": "sera"
+          "text": "soit"
         },
         {
           "id": "D",
           "text": "était"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Bien que + subjunctive.",
       "distractors": {}
     },

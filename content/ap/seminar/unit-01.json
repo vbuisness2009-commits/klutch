@@ -155,7 +155,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "It comes from an informal survey the author conducted at three schools in the author's own district."
+          "text": "It appears in the first paragraph."
         },
         {
           "id": "B",
@@ -167,10 +167,10 @@
         },
         {
           "id": "D",
-          "text": "It appears in the first paragraph."
+          "text": "It comes from an informal survey the author conducted at three schools in the author's own district."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "A small, informal, nonrandom sample run by an advocate can't be generalized to all teachers.",
       "distractors": {}
     },
@@ -183,11 +183,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "A district's attendance records before and after switching schedules"
+          "text": "A magazine article summarizing several studies"
         },
         {
           "id": "B",
-          "text": "A magazine article summarizing several studies"
+          "text": "A district's attendance records before and after switching schedules"
         },
         {
           "id": "C",
@@ -198,7 +198,7 @@
           "text": "A literature review in an education journal"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Raw records are original data; the others interpret existing work.",
       "distractors": {}
     },
@@ -212,7 +212,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "the conclusion applies to every district, but the study examined only rural districts, which may differ from urban or suburban ones"
+          "text": "rural districts don't have teachers"
         },
         {
           "id": "B",
@@ -220,14 +220,14 @@
         },
         {
           "id": "C",
-          "text": "rural districts don't have teachers"
+          "text": "the conclusion applies to every district, but the study examined only rural districts, which may differ from urban or suburban ones"
         },
         {
           "id": "D",
           "text": "the study found test score differences were large"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The evidence's scope is narrower than the claim's scope.",
       "distractors": {}
     },
@@ -240,11 +240,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "\"four-day school week\" AND (achievement OR attendance)"
+          "text": "school OR schedule"
         },
         {
           "id": "B",
-          "text": "school OR schedule"
+          "text": "\"four-day school week\" AND (achievement OR attendance)"
         },
         {
           "id": "C",
@@ -255,7 +255,7 @@
           "text": "schedule"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "A quoted phrase plus AND narrows; OR inside parentheses keeps related outcomes.",
       "distractors": {}
     },

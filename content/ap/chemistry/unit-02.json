@@ -108,7 +108,7 @@
         },
         {
           "id": "B",
-          "text": "Trigonal pyramidal"
+          "text": "T-shaped"
         },
         {
           "id": "C",
@@ -116,10 +116,10 @@
         },
         {
           "id": "D",
-          "text": "T-shaped"
+          "text": "Trigonal pyramidal"
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "N has 4 electron domains (3 bonds, 1 lone pair): tetrahedral electron geometry, trigonal pyramidal molecular geometry.",
       "distractors": {
         "C": "Electron-domain geometry, not molecular geometry."
@@ -134,7 +134,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "an interstitial alloy"
+          "text": "an ionic solid"
         },
         {
           "id": "B",
@@ -142,14 +142,14 @@
         },
         {
           "id": "C",
-          "text": "an ionic solid"
+          "text": "an interstitial alloy"
         },
         {
           "id": "D",
           "text": "a network covalent solid"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Carbon atoms are much smaller than iron atoms and occupy the spaces between them.",
       "distractors": {
         "B": "Requires atoms of similar size."
@@ -198,7 +198,7 @@
         },
         {
           "id": "B",
-          "text": "CCl₄"
+          "text": "NH₃"
         },
         {
           "id": "C",
@@ -206,10 +206,10 @@
         },
         {
           "id": "D",
-          "text": "NH₃"
+          "text": "CCl₄"
         }
       ],
-      "answer": "D",
+      "answer": "B",
       "explanation": "NH₃'s lone pair makes it trigonal pyramidal, so the N–H dipoles don't cancel. The others are symmetric.",
       "distractors": {}
     },
@@ -226,7 +226,7 @@
         },
         {
           "id": "B",
-          "text": "at a longer distance and less deep, because Br atoms are larger and the bond is weaker"
+          "text": "at the same distance, because both bonds are single bonds"
         },
         {
           "id": "C",
@@ -234,13 +234,13 @@
         },
         {
           "id": "D",
-          "text": "at the same distance, because both bonds are single bonds"
+          "text": "at a longer distance and less deep, because Br atoms are larger and the bond is weaker"
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Br's valence orbitals are larger (n = 4), giving a longer bond with weaker attraction between nuclei and shared electrons.",
       "distractors": {
-        "D": "Bond order is equal, but atomic size differs."
+        "B": "Bond order is equal, but atomic size differs."
       }
     },
     {
@@ -286,21 +286,21 @@
         },
         {
           "id": "B",
-          "text": "CH₄ > NH₃ > H₂O, because lone pairs repel more strongly than bonding pairs"
+          "text": "All are equal at 109.5°, because all have four electron domains"
         },
         {
           "id": "C",
-          "text": "All are equal at 109.5°, because all have four electron domains"
+          "text": "CH₄ > NH₃ > H₂O, because lone pairs repel more strongly than bonding pairs"
         },
         {
           "id": "D",
           "text": "NH₃ > CH₄ > H₂O, because N has one lone pair"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Each has four domains, but lone pairs occupy more space; more lone pairs compress angles more: 109.5°, ≈107°, ≈104.5°.",
       "distractors": {
-        "C": "Ignores lone-pair repulsion."
+        "B": "Ignores lone-pair repulsion."
       }
     },
     {
@@ -343,7 +343,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Shifting a layer of NaCl brings like-charged ions next to each other, causing repulsion; in Cu, delocalized electrons keep cations bonded as layers slide."
+          "text": "Copper has a higher melting point than NaCl."
         },
         {
           "id": "B",
@@ -351,18 +351,18 @@
         },
         {
           "id": "C",
-          "text": "Copper has a higher melting point than NaCl."
+          "text": "Shifting a layer of NaCl brings like-charged ions next to each other, causing repulsion; in Cu, delocalized electrons keep cations bonded as layers slide."
         },
         {
           "id": "D",
           "text": "NaCl molecules are polar and copper atoms are nonpolar."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Brittleness of ionic solids and malleability of metals both come from how the lattice responds to displacement.",
       "distractors": {
         "D": "NaCl is not made of molecules.",
-        "C": "True (Cu melts at a higher temperature), but melting point doesn't explain brittleness vs. malleability."
+        "A": "True (Cu melts at a higher temperature), but melting point doesn't explain brittleness vs. malleability."
       }
     },
     {
@@ -378,7 +378,7 @@
         },
         {
           "id": "B",
-          "text": "26"
+          "text": "22"
         },
         {
           "id": "C",
@@ -386,14 +386,14 @@
         },
         {
           "id": "D",
-          "text": "22"
+          "text": "26"
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "S 6 + 3 × O 6 = 24, plus 2 for the 2− charge = 26.",
       "distractors": {
         "A": "Forgets the ion's charge.",
-        "D": "Subtracts the charge."
+        "B": "Subtracts the charge."
       }
     },
     {
@@ -409,7 +409,7 @@
         },
         {
           "id": "B",
-          "text": "XeF₄"
+          "text": "H₂S"
         },
         {
           "id": "C",
@@ -417,15 +417,15 @@
         },
         {
           "id": "D",
-          "text": "H₂S"
+          "text": "XeF₄"
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "XeF₄ has 6 domains (4 bonds, 2 lone pairs opposite each other): square planar, so the Xe–F dipoles cancel.",
       "distractors": {
         "A": "Seesaw: polar.",
         "C": "T-shaped: polar.",
-        "D": "Bent: polar."
+        "B": "Bent: polar."
       }
     },
     {
@@ -468,11 +468,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Carbon atoms in the spaces between iron atoms disrupt the regular lattice and make it harder for layers of iron atoms to slide past each other."
+          "text": "Carbon replaces iron atoms, forming ionic bonds that make the lattice brittle."
         },
         {
           "id": "B",
-          "text": "Carbon replaces iron atoms, forming ionic bonds that make the lattice brittle."
+          "text": "Carbon atoms in the spaces between iron atoms disrupt the regular lattice and make it harder for layers of iron atoms to slide past each other."
         },
         {
           "id": "C",
@@ -483,11 +483,11 @@
           "text": "Carbon atoms are larger than iron atoms and push layers apart."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "In an interstitial alloy, small atoms in the interstices pin the layers, increasing rigidity.",
       "distractors": {
-        "B": "Steel is interstitial, not substitutional or ionic.",
-        "D": "Carbon is smaller."
+        "D": "Carbon is smaller.",
+        "A": "Steel is interstitial, not substitutional or ionic."
       }
     },
     {
@@ -499,7 +499,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "CO < CO₂ < CO₃²⁻"
+          "text": "CO₂ < CO < CO₃²⁻"
         },
         {
           "id": "B",
@@ -507,14 +507,14 @@
         },
         {
           "id": "C",
-          "text": "CO₂ < CO < CO₃²⁻"
+          "text": "CO < CO₂ < CO₃²⁻"
         },
         {
           "id": "D",
           "text": "All equal, because all are C–O bonds"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Bond orders: CO 3, CO₂ 2, CO₃²⁻ 4/3 (resonance). Higher bond order means a shorter bond.",
       "distractors": {
         "B": "Reverses the relationship."

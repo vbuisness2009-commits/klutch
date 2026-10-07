@@ -114,7 +114,7 @@
         },
         {
           "id": "B",
-          "text": "The 3rd worker"
+          "text": "The 5th worker"
         },
         {
           "id": "C",
@@ -122,10 +122,10 @@
         },
         {
           "id": "D",
-          "text": "The 5th worker"
+          "text": "The 3rd worker"
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "MP: 10, 15, 10, 5, 2. MP first falls with the 3rd worker.",
       "distractors": {}
     },
@@ -139,11 +139,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "at the minimum of ATC"
+          "text": "at the maximum of ATC"
         },
         {
           "id": "B",
-          "text": "at the maximum of ATC"
+          "text": "at the minimum of ATC"
         },
         {
           "id": "C",
@@ -154,7 +154,7 @@
           "text": "never"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "When MC < ATC, ATC falls; when MC > ATC, ATC rises, so they meet at ATC's minimum.",
       "distractors": {}
     },
@@ -168,11 +168,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "downward sloping"
+          "text": "perfectly elastic (horizontal) at the market price"
         },
         {
           "id": "B",
-          "text": "perfectly elastic (horizontal) at the market price"
+          "text": "downward sloping"
         },
         {
           "id": "C",
@@ -183,7 +183,7 @@
           "text": "the same as the market demand curve"
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "The firm is a price taker and can sell any quantity at the market price.",
       "distractors": {}
     },
@@ -197,7 +197,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "economies of scale"
+          "text": "diminishing marginal returns"
         },
         {
           "id": "B",
@@ -205,17 +205,17 @@
         },
         {
           "id": "C",
-          "text": "diminishing marginal returns"
+          "text": "economies of scale"
         },
         {
           "id": "D",
           "text": "constant returns to scale"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Falling LRATC with scale defines economies of scale.",
       "distractors": {
-        "C": "A short-run concept."
+        "A": "A short-run concept."
       }
     },
     {
@@ -229,11 +229,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Q = 3; profit $7"
+          "text": "Q = 4; profit $8"
         },
         {
           "id": "B",
-          "text": "Q = 4; profit $8"
+          "text": "Q = 3; profit $7"
         },
         {
           "id": "C",
@@ -244,11 +244,11 @@
           "text": "Q = 4; profit $12"
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "MC: 8, 6, 8, 12, 16. Produce every unit with MC ≤ 13, so Q = 4 (the 5th unit's MC of 16 exceeds P). TR = 52, TC = 44, profit = $8.",
       "distractors": {
-        "A": "Stops one unit early: 39 − 32 = 7.",
-        "C": "Produces a unit whose MC exceeds price: 65 − 60 = 5."
+        "C": "Produces a unit whose MC exceeds price: 65 − 60 = 5.",
+        "B": "Stops one unit early: 39 − 32 = 7."
       }
     },
     {
@@ -262,7 +262,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "$7"
+          "text": "$6"
         },
         {
           "id": "B",
@@ -274,10 +274,10 @@
         },
         {
           "id": "D",
-          "text": "$6"
+          "text": "$7"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Shut down if price is below minimum AVC ($7).",
       "distractors": {
         "B": "Approximately minimum ATC: the long-run exit price."
@@ -297,18 +297,18 @@
         },
         {
           "id": "B",
-          "text": "ATC and AFC only"
+          "text": "MC only"
         },
         {
           "id": "C",
-          "text": "MC only"
+          "text": "ATC and AFC only"
         },
         {
           "id": "D",
           "text": "AVC only"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Fixed costs don't affect marginal or variable costs.",
       "distractors": {}
     },
@@ -322,11 +322,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "new firms enter, market supply increases, price falls, and economic profit falls to zero"
+          "text": "firms exit and price rises"
         },
         {
           "id": "B",
-          "text": "firms exit and price rises"
+          "text": "new firms enter, market supply increases, price falls, and economic profit falls to zero"
         },
         {
           "id": "C",
@@ -337,7 +337,7 @@
           "text": "profits continue indefinitely"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "No barriers to entry; entry continues until P = minimum ATC.",
       "distractors": {}
     },
@@ -355,21 +355,21 @@
         },
         {
           "id": "B",
-          "text": "continue producing where P = MC, because revenue covers variable costs and part of fixed costs"
+          "text": "raise its price"
         },
         {
           "id": "C",
-          "text": "raise its price"
+          "text": "continue producing where P = MC, because revenue covers variable costs and part of fixed costs"
         },
         {
           "id": "D",
           "text": "produce where ATC is minimized"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Producing minimizes losses compared with shutting down and losing all fixed costs.",
       "distractors": {
-        "C": "Price takers can't raise price."
+        "B": "Price takers can't raise price."
       }
     },
     {
@@ -382,11 +382,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "positive economic profit"
+          "text": "zero economic profit but positive accounting profit"
         },
         {
           "id": "B",
-          "text": "zero economic profit but positive accounting profit"
+          "text": "positive economic profit"
         },
         {
           "id": "C",
@@ -397,7 +397,7 @@
           "text": "an economic loss"
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Revenue covers all costs including opportunity costs; accounting profit equals implicit costs.",
       "distractors": {}
     },
@@ -411,11 +411,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Some firms exit; market price rises by the full tax; each remaining firm produces the same output as before at zero economic profit."
+          "text": "Price stays the same and firms earn losses forever."
         },
         {
           "id": "B",
-          "text": "Price stays the same and firms earn losses forever."
+          "text": "Some firms exit; market price rises by the full tax; each remaining firm produces the same output as before at zero economic profit."
         },
         {
           "id": "C",
@@ -426,7 +426,7 @@
           "text": "Each firm's output increases."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "MC and ATC shift up by the tax; losses cause exit until price equals the new minimum ATC (up by the tax). Firm output at min ATC is unchanged.",
       "distractors": {}
     },
@@ -440,7 +440,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "$2"
+          "text": "It cannot be determined"
         },
         {
           "id": "B",
@@ -452,10 +452,10 @@
         },
         {
           "id": "D",
-          "text": "It cannot be determined"
+          "text": "$2"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "AFC at 100 = 15 − 11 = 4, so FC = $400; at 200 units, AFC = 400/200 = $2.",
       "distractors": {
         "B": "AFC at 100 units."
@@ -471,7 +471,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Price rises, firms earn short-run profit, entry occurs, supply increases, price returns to its original level with greater industry output."
+          "text": "Each firm permanently produces more and earns profit."
         },
         {
           "id": "B",
@@ -483,10 +483,10 @@
         },
         {
           "id": "D",
-          "text": "Each firm permanently produces more and earns profit."
+          "text": "Price rises, firms earn short-run profit, entry occurs, supply increases, price returns to its original level with greater industry output."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "In a constant-cost industry, the long-run supply curve is horizontal at minimum ATC.",
       "distractors": {}
     },

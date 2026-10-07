@@ -106,7 +106,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "It stays the same."
+          "text": "It is halved."
         },
         {
           "id": "B",
@@ -114,14 +114,14 @@
         },
         {
           "id": "C",
-          "text": "It is halved."
+          "text": "It stays the same."
         },
         {
           "id": "D",
           "text": "It increases by a factor of √2."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "T = 2π√(m/k) contains no amplitude. The mass travels farther but faster.",
       "distractors": {
         "B": "Assumes the speed stays fixed while the distance doubles."
@@ -136,7 +136,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "2 Hz"
+          "text": "π Hz"
         },
         {
           "id": "B",
@@ -148,10 +148,10 @@
         },
         {
           "id": "D",
-          "text": "π Hz"
+          "text": "2 Hz"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "f = 1/T = 1/0.5 = 2 Hz.",
       "distractors": {
         "C": "Computed 2π/T, the angular frequency in rad/s."
@@ -166,11 +166,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "At the equilibrium position"
+          "text": "At maximum displacement"
         },
         {
           "id": "B",
-          "text": "At maximum displacement"
+          "text": "At the equilibrium position"
         },
         {
           "id": "C",
@@ -181,10 +181,10 @@
           "text": "It is the same everywhere"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "All the energy is kinetic at equilibrium, where spring potential energy is zero.",
       "distractors": {
-        "B": "The mass momentarily stops there."
+        "A": "The mass momentarily stops there."
       }
     },
     {
@@ -196,7 +196,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "10 N toward equilibrium"
+          "text": "250 N toward equilibrium"
         },
         {
           "id": "B",
@@ -204,14 +204,14 @@
         },
         {
           "id": "C",
-          "text": "250 N toward equilibrium"
+          "text": "10 N toward equilibrium"
         },
         {
           "id": "D",
           "text": "1 N toward equilibrium"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "|F| = kx = 50 × 0.2 = 10 N; the restoring force points back toward equilibrium.",
       "distractors": {
         "B": "Restoring forces oppose displacement.",
@@ -227,7 +227,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "2T"
+          "text": "16T"
         },
         {
           "id": "B",
@@ -239,10 +239,10 @@
         },
         {
           "id": "D",
-          "text": "16T"
+          "text": "2T"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "T ∝ √L. √4 = 2.",
       "distractors": {
         "B": "Treated T as proportional to L."
@@ -257,7 +257,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "T/√2"
+          "text": "T/2"
         },
         {
           "id": "B",
@@ -265,18 +265,18 @@
         },
         {
           "id": "C",
-          "text": "T/2"
+          "text": "T/√2"
         },
         {
           "id": "D",
           "text": "√2·T"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "T ∝ 1/√k, so doubling k divides T by √2.",
       "distractors": {
-        "C": "Dropped the square root.",
-        "D": "Inverted the dependence on k."
+        "D": "Inverted the dependence on k.",
+        "A": "Dropped the square root."
       }
     },
     {
@@ -288,11 +288,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "1.0 m/s"
+          "text": "10 m/s"
         },
         {
           "id": "B",
-          "text": "10 m/s"
+          "text": "1.0 m/s"
         },
         {
           "id": "C",
@@ -303,11 +303,11 @@
           "text": "0.32 m/s"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "½kA² = ½mv²: v = A√(k/m) = 0.10 × 10 = 1.0 m/s.",
       "distractors": {
-        "B": "Forgot to multiply by A.",
-        "D": "Took √A instead of A√(k/m)."
+        "D": "Took √A instead of A√(k/m).",
+        "A": "Forgot to multiply by A."
       }
     },
     {
@@ -349,7 +349,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "√6 times longer"
+          "text": "√6 times shorter"
         },
         {
           "id": "B",
@@ -357,18 +357,18 @@
         },
         {
           "id": "C",
-          "text": "√6 times shorter"
+          "text": "√6 times longer"
         },
         {
           "id": "D",
           "text": "The same"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "T ∝ 1/√g. Dividing g by 6 multiplies T by √6 ≈ 2.4.",
       "distractors": {
         "B": "Forgot the square root.",
-        "C": "Got the direction wrong: weaker gravity means slower swings."
+        "A": "Got the direction wrong: weaker gravity means slower swings."
       }
     },
     {
@@ -380,11 +380,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "At equilibrium, moving in the negative direction at maximum speed"
+          "text": "At x = A, momentarily at rest"
         },
         {
           "id": "B",
-          "text": "At x = A, momentarily at rest"
+          "text": "At equilibrium, moving in the negative direction at maximum speed"
         },
         {
           "id": "C",
@@ -395,12 +395,12 @@
           "text": "At equilibrium, at rest"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "cos(π/2) = 0, so x = 0. Starting at +A, it's heading toward −A, so velocity is negative and maximum in magnitude.",
       "distractors": {
-        "B": "That's t = 0.",
         "C": "That's t = T/2.",
-        "D": "Speed is maximum at equilibrium."
+        "D": "Speed is maximum at equilibrium.",
+        "A": "That's t = 0."
       }
     },
     {
@@ -412,7 +412,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "(√3/2)·v_max"
+          "text": "(3/4)·v_max"
         },
         {
           "id": "B",
@@ -424,14 +424,14 @@
         },
         {
           "id": "D",
-          "text": "(3/4)·v_max"
+          "text": "(√3/2)·v_max"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "½kA² = ½k(A/2)² + ½mv², so ½mv² = ¾·½kA² = ¾·½mv_max². v = (√3/2)v_max.",
       "distractors": {
         "B": "Assumed speed is linear in position.",
-        "D": "That's the kinetic energy fraction, not the speed fraction."
+        "A": "That's the kinetic energy fraction, not the speed fraction."
       }
     },
     {
@@ -474,7 +474,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "About 0.63 s"
+          "text": "About 6.3 s"
         },
         {
           "id": "B",
@@ -482,14 +482,14 @@
         },
         {
           "id": "C",
-          "text": "About 6.3 s"
+          "text": "About 0.63 s"
         },
         {
           "id": "D",
           "text": "It can't be found without knowing the mass."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "At equilibrium kΔx = mg, so m/k = Δx/g = 0.01 s². T = 2π√0.01 = 0.2π ≈ 0.63 s.",
       "distractors": {
         "B": "Took √(Δx/g) without the 2π.",
@@ -505,11 +505,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "It decreases, because the effective gravitational acceleration increases."
+          "text": "It increases, because the bob feels heavier."
         },
         {
           "id": "B",
-          "text": "It increases, because the bob feels heavier."
+          "text": "It decreases, because the effective gravitational acceleration increases."
         },
         {
           "id": "C",
@@ -520,11 +520,11 @@
           "text": "It decreases, because the string's length decreases."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "In the accelerating frame, the effective g is g + a, so T = 2π√(L/(g + a)) is smaller.",
       "distractors": {
-        "B": "A larger effective g speeds the pendulum up.",
-        "C": "Period depends on g as well as L."
+        "C": "Period depends on g as well as L.",
+        "A": "A larger effective g speeds the pendulum up."
       }
     },
     {

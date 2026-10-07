@@ -183,7 +183,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "7"
+          "text": "8"
         },
         {
           "id": "B",
@@ -195,14 +195,14 @@
         },
         {
           "id": "D",
-          "text": "8"
+          "text": "7"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "x(2) = 3 + ∫₀² 2t dt = 3 + 4 = 7.",
       "distractors": {
         "B": "Forgot the initial position.",
-        "D": "Added v(2) = 4 twice."
+        "A": "Added v(2) = 4 twice."
       }
     },
     {
@@ -214,11 +214,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "8π"
+          "text": "16π"
         },
         {
           "id": "B",
-          "text": "16π"
+          "text": "8π"
         },
         {
           "id": "C",
@@ -229,11 +229,11 @@
           "text": "16π/3"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "π∫₀⁴ (√x)² dx = π∫₀⁴ x dx = 8π.",
       "distractors": {
-        "B": "Forgot the ½ from integrating x.",
-        "D": "Multiplied the area under the curve, 16/3, by π."
+        "D": "Multiplied the area under the curve, 16/3, by π.",
+        "A": "Forgot the ½ from integrating x."
       }
     },
     {
@@ -245,7 +245,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "4"
+          "text": "2"
         },
         {
           "id": "B",
@@ -253,18 +253,18 @@
         },
         {
           "id": "C",
-          "text": "2"
+          "text": "4"
         },
         {
           "id": "D",
           "text": "8"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "∫₀⁴ |t − 2| dt: two triangles of area 2 each, total 4.",
       "distractors": {
         "B": "That's the displacement.",
-        "C": "Counted only one triangle."
+        "A": "Counted only one triangle."
       }
     },
     {
@@ -276,7 +276,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "32/3"
+          "text": "64/3"
         },
         {
           "id": "B",
@@ -288,10 +288,10 @@
         },
         {
           "id": "D",
-          "text": "64/3"
+          "text": "32/3"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Intersections at x = ±2. ∫₋₂² (4 − x²) dx = 16 − 16/3 = 32/3.",
       "distractors": {
         "B": "Integrated only from 0 to 2.",
@@ -307,11 +307,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "2π/15"
+          "text": "π/30"
         },
         {
           "id": "B",
-          "text": "π/30"
+          "text": "2π/15"
         },
         {
           "id": "C",
@@ -322,11 +322,11 @@
           "text": "8π/15"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Outer radius x, inner radius x². π∫₀¹ (x² − x⁴) dx = π(1/3 − 1/5) = 2π/15.",
       "distractors": {
-        "B": "Used π∫(x − x²)², subtracting before squaring.",
-        "C": "Multiplied the area of the region by π."
+        "C": "Multiplied the area of the region by π.",
+        "A": "Used π∫(x − x²)², subtracting before squaring."
       }
     },
     {
@@ -369,7 +369,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "9/2"
+          "text": "10/3"
         },
         {
           "id": "B",
@@ -377,18 +377,18 @@
         },
         {
           "id": "C",
-          "text": "10/3"
+          "text": "9/2"
         },
         {
           "id": "D",
           "text": "27/2"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "y² = y + 2 at y = −1 and y = 2. ∫₋₁² (y + 2 − y²) dy = [y²/2 + 2y − y³/3] from −1 to 2 = 10/3 − (−7/6) = 9/2.",
       "distractors": {
         "B": "Integrated only from −1 to 0.",
-        "C": "Integrated only from 0 to 2."
+        "A": "Integrated only from 0 to 2."
       }
     },
     {
@@ -400,11 +400,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "125 liters"
+          "text": "75 liters"
         },
         {
           "id": "B",
-          "text": "75 liters"
+          "text": "125 liters"
         },
         {
           "id": "C",
@@ -415,7 +415,7 @@
           "text": "25 liters"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "100 + ∫₀⁵ (10 − 2t) dt = 100 + (50 − 25) = 125.",
       "distractors": {
         "C": "Ignored the drain.",
@@ -463,7 +463,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "1 + 2/π"
+          "text": "1 − 2/π"
         },
         {
           "id": "B",
@@ -475,15 +475,15 @@
         },
         {
           "id": "D",
-          "text": "1 − 2/π"
+          "text": "1 + 2/π"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "∫₀¹ sin(πt) dt = [−cos(πt)/π]₀¹ = (1/π) + (1/π) = 2/π. x(1) = 1 + 2/π.",
       "distractors": {
         "B": "Forgot x(0).",
         "C": "Thought sin integrates to zero over this interval.",
-        "D": "Sign error in the antiderivative."
+        "A": "Sign error in the antiderivative."
       }
     },
     {
@@ -495,7 +495,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "π"
+          "text": "4π"
         },
         {
           "id": "B",
@@ -503,18 +503,18 @@
         },
         {
           "id": "C",
-          "text": "4π"
+          "text": "π"
         },
         {
           "id": "D",
           "text": "8π"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Diameter √x, radius √x/2, area ½π(√x/2)² = πx/8. ∫₀⁴ πx/8 dx = π.",
       "distractors": {
-        "C": "Used the diameter √x as the radius: ½π·x.",
-        "D": "Used full circles of radius √x."
+        "D": "Used full circles of radius √x.",
+        "A": "Used the diameter √x as the radius: ½π·x."
       }
     },
     {
@@ -526,11 +526,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "2√2 − 2"
+          "text": "0"
         },
         {
           "id": "B",
-          "text": "0"
+          "text": "2√2 − 2"
         },
         {
           "id": "C",
@@ -541,11 +541,11 @@
           "text": "2"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "They cross at π/4. By symmetry, 2∫₀^(π/4) (cos x − sin x) dx = 2[(√2/2 + √2/2) − 1] = 2√2 − 2.",
       "distractors": {
-        "B": "Integrated cos x − sin x across the whole interval without splitting.",
-        "C": "Computed only one of the two regions."
+        "C": "Computed only one of the two regions.",
+        "A": "Integrated cos x − sin x across the whole interval without splitting."
       }
     },
     {
@@ -637,7 +637,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "14/3"
+          "text": "2√3"
         },
         {
           "id": "B",
@@ -645,14 +645,14 @@
         },
         {
           "id": "C",
-          "text": "2√3"
+          "text": "14/3"
         },
         {
           "id": "D",
           "text": "7/3"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "y′ = x^(1/2), so 1 + (y′)² = 1 + x. ∫₀³ √(1 + x) dx = (2/3)[(1 + x)^(3/2)]₀³ = (2/3)(8 − 1) = 14/3.",
       "distractors": {
         "B": "Forgot to subtract the value at 0.",
@@ -699,7 +699,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "ln(√2 + 1)"
+          "text": "π/4"
         },
         {
           "id": "B",
@@ -711,14 +711,14 @@
         },
         {
           "id": "D",
-          "text": "π/4"
+          "text": "ln(√2 + 1)"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "y′ = −tan x, so √(1 + tan²x) = sec x. ∫₀^(π/4) sec x dx = ln|sec x + tan x| from 0 to π/4 = ln(√2 + 1) − ln 1.",
       "distractors": {
         "C": "That's |y(π/4) − y(0)|, the vertical change, not length.",
-        "D": "Treated the curve as having length equal to the horizontal span."
+        "A": "Treated the curve as having length equal to the horizontal span."
       }
     }
   ]

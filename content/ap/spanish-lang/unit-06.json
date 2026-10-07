@@ -99,7 +99,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Una ciudad construida sobre lagos sufre escasez de agua"
+          "text": "La lluvia no llega a la ciudad"
         },
         {
           "id": "B",
@@ -111,10 +111,10 @@
         },
         {
           "id": "D",
-          "text": "La lluvia no llega a la ciudad"
+          "text": "Una ciudad construida sobre lagos sufre escasez de agua"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Built on lakes yet water-scarce.",
       "distractors": {}
     },
@@ -129,7 +129,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Porque se extrae agua del acuífero más rápido de lo que se recarga"
+          "text": "Por el peso de los nuevos edificios"
         },
         {
           "id": "B",
@@ -137,14 +137,14 @@
         },
         {
           "id": "C",
-          "text": "Por el peso de los nuevos edificios"
+          "text": "Porque se extrae agua del acuífero más rápido de lo que se recarga"
         },
         {
           "id": "D",
           "text": "Por las inundaciones"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Overextraction causes subsidence.",
       "distractors": {}
     },
@@ -189,11 +189,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Se necesita una combinación de medidas"
+          "text": "La captación de lluvia resolverá todo el problema"
         },
         {
           "id": "B",
-          "text": "La captación de lluvia resolverá todo el problema"
+          "text": "Se necesita una combinación de medidas"
         },
         {
           "id": "C",
@@ -204,7 +204,7 @@
           "text": "La ciudad debe trasladarse"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "'Se necesitan varias soluciones al mismo tiempo.'",
       "distractors": {}
     },
@@ -219,7 +219,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Los intermediarios les pagaban muy poco"
+          "text": "No tenían tierra"
         },
         {
           "id": "B",
@@ -227,14 +227,14 @@
         },
         {
           "id": "C",
-          "text": "No tenían tierra"
+          "text": "Los intermediarios les pagaban muy poco"
         },
         {
           "id": "D",
           "text": "El gobierno les prohibía vender"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated by Marta.",
       "distractors": {}
     },
@@ -249,7 +249,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Un precio mínimo garantizado y una prima para invertir en la comunidad"
+          "text": "Precios más bajos para los consumidores"
         },
         {
           "id": "B",
@@ -261,10 +261,10 @@
         },
         {
           "id": "D",
-          "text": "Precios más bajos para los consumidores"
+          "text": "Un precio mínimo garantizado y una prima para invertir en la comunidad"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Two benefits named.",
       "distractors": {}
     },
@@ -279,11 +279,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "En salud, becas y cultivo orgánico"
+          "text": "En comprar más tierras"
         },
         {
           "id": "B",
-          "text": "En comprar más tierras"
+          "text": "En salud, becas y cultivo orgánico"
         },
         {
           "id": "C",
@@ -294,7 +294,7 @@
           "text": "En construir un hotel"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "She lists three uses.",
       "distractors": {}
     },
@@ -339,7 +339,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Que piensen en los productores que hay detrás del café"
+          "text": "Que visiten Guatemala"
         },
         {
           "id": "B",
@@ -351,10 +351,10 @@
         },
         {
           "id": "D",
-          "text": "Que visiten Guatemala"
+          "text": "Que piensen en los productores que hay detrás del café"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Final line.",
       "distractors": {}
     },
@@ -369,7 +369,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Costa Rica"
+          "text": "Ninguno"
         },
         {
           "id": "B",
@@ -377,14 +377,14 @@
         },
         {
           "id": "C",
-          "text": "Ninguno"
+          "text": "Costa Rica"
         },
         {
           "id": "D",
           "text": "Todos los países del mundo"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -399,11 +399,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Porque las lluvias afectan la producción hidroeléctrica"
+          "text": "Porque cambian los gobiernos"
         },
         {
           "id": "B",
-          "text": "Porque cambian los gobiernos"
+          "text": "Porque las lluvias afectan la producción hidroeléctrica"
         },
         {
           "id": "C",
@@ -414,7 +414,7 @@
           "text": "Porque aumenta la población"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The footnote explains.",
       "distractors": {}
     },
@@ -429,7 +429,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Costa Rica y Uruguay superan ampliamente el promedio mundial de electricidad renovable"
+          "text": "Costa Rica depende sobre todo del petróleo"
         },
         {
           "id": "B",
@@ -441,10 +441,10 @@
         },
         {
           "id": "D",
-          "text": "Costa Rica depende sobre todo del petróleo"
+          "text": "Costa Rica y Uruguay superan ampliamente el promedio mundial de electricidad renovable"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Over 90–95% vs about a third.",
       "distractors": {}
     },
@@ -488,7 +488,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "estudien"
+          "text": "estudiarán"
         },
         {
           "id": "B",
@@ -496,14 +496,14 @@
         },
         {
           "id": "C",
-          "text": "estudiarán"
+          "text": "estudien"
         },
         {
           "id": "D",
           "text": "estudiaron"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Para que + present subjunctive.",
       "distractors": {}
     },

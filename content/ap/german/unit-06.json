@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Große Unternehmen müssen Menschenrechtsverletzungen in ihren Lieferketten prüfen"
+          "text": "Kunden müssen fair einkaufen"
         },
         {
           "id": "B",
@@ -110,10 +110,10 @@
         },
         {
           "id": "D",
-          "text": "Kunden müssen fair einkaufen"
+          "text": "Große Unternehmen müssen Menschenrechtsverletzungen in ihren Lieferketten prüfen"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -158,11 +158,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Vor zu viel Bürokratie und höheren Kosten"
+          "text": "Vor Kinderarbeit"
         },
         {
           "id": "B",
-          "text": "Vor Kinderarbeit"
+          "text": "Vor zu viel Bürokratie und höheren Kosten"
         },
         {
           "id": "C",
@@ -173,7 +173,7 @@
           "text": "Vor zu vielen Kunden"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -188,7 +188,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Verbraucher sagen, dass faire Produktion wichtig ist, kaufen aber oft das Billigste"
+          "text": "Das Gesetz gilt nicht in Deutschland"
         },
         {
           "id": "B",
@@ -196,14 +196,14 @@
         },
         {
           "id": "C",
-          "text": "Das Gesetz gilt nicht in Deutschland"
+          "text": "Verbraucher sagen, dass faire Produktion wichtig ist, kaufen aber oft das Billigste"
         },
         {
           "id": "D",
           "text": "Näherinnen verdienen mehr als Kunden"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Attitude–behavior gap.",
       "distractors": {}
     },
@@ -218,7 +218,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Schon seit dem 19. Jahrhundert"
+          "text": "Seit dem Ersten Weltkrieg"
         },
         {
           "id": "B",
@@ -230,10 +230,10 @@
         },
         {
           "id": "D",
-          "text": "Seit dem Ersten Weltkrieg"
+          "text": "Schon seit dem 19. Jahrhundert"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Habsburg era.",
       "distractors": {}
     },
@@ -278,7 +278,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Die Anerkennung ausländischer Abschlüsse dauert zu lange"
+          "text": "Es gibt keine Wohnungen"
         },
         {
           "id": "B",
@@ -290,10 +290,10 @@
         },
         {
           "id": "D",
-          "text": "Es gibt keine Wohnungen"
+          "text": "Die Anerkennung ausländischer Abschlüsse dauert zu lange"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Credential recognition.",
       "distractors": {}
     },
@@ -338,11 +338,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Rund 100 Millionen"
+          "text": "Rund 10 Millionen"
         },
         {
           "id": "B",
-          "text": "Rund 10 Millionen"
+          "text": "Rund 100 Millionen"
         },
         {
           "id": "C",
@@ -353,7 +353,7 @@
           "text": "Rund 500 000"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -368,7 +368,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Frankreich"
+          "text": "Luxemburg"
         },
         {
           "id": "B",
@@ -376,14 +376,14 @@
         },
         {
           "id": "C",
-          "text": "Luxemburg"
+          "text": "Frankreich"
         },
         {
           "id": "D",
           "text": "Österreich"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Not listed.",
       "distractors": {}
     },
@@ -398,7 +398,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Je nach Quelle und Definition"
+          "text": "Weil die Grenzen sich jedes Jahr ändern"
         },
         {
           "id": "B",
@@ -410,10 +410,10 @@
         },
         {
           "id": "D",
-          "text": "Weil die Grenzen sich jedes Jahr ändern"
+          "text": "Je nach Quelle und Definition"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Footnote.",
       "distractors": {}
     },
@@ -428,11 +428,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Die Frage, wie Gesellschaften mit globalen Verbindungen fair umgehen können"
+          "text": "Die Mode in Wien"
         },
         {
           "id": "B",
-          "text": "Die Mode in Wien"
+          "text": "Die Frage, wie Gesellschaften mit globalen Verbindungen fair umgehen können"
         },
         {
           "id": "C",
@@ -443,7 +443,7 @@
           "text": "Der Preis von T-Shirts in Österreich"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Global fairness.",
       "distractors": {}
     },
@@ -457,7 +457,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "verletzt"
+          "text": "verletzte"
         },
         {
           "id": "B",
@@ -465,14 +465,14 @@
         },
         {
           "id": "C",
-          "text": "verletzte"
+          "text": "verletzt"
         },
         {
           "id": "D",
           "text": "verletzend"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Passive: werden + Partizip II.",
       "distractors": {}
     },

@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "它决定孩子能上什么大学，甚至影响一生"
+          "text": "它决定孩子住在哪里"
         },
         {
           "id": "B",
@@ -106,14 +106,14 @@
         },
         {
           "id": "C",
-          "text": "它决定孩子住在哪里"
+          "text": "它决定孩子能上什么大学，甚至影响一生"
         },
         {
           "id": "D",
           "text": "它在每个月都举行"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -128,11 +128,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "减轻学生的作业和校外培训负担"
+          "text": "减少大学的数量"
         },
         {
           "id": "B",
-          "text": "减少大学的数量"
+          "text": "减轻学生的作业和校外培训负担"
         },
         {
           "id": "C",
@@ -143,7 +143,7 @@
           "text": "减少老师的工资"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -188,7 +188,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "社会只用分数评价一个人"
+          "text": "补习班太便宜"
         },
         {
           "id": "B",
@@ -200,10 +200,10 @@
         },
         {
           "id": "D",
-          "text": "补习班太便宜"
+          "text": "社会只用分数评价一个人"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Author's view.",
       "distractors": {}
     },
@@ -218,7 +218,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "回到云南老家"
+          "text": "出国留学"
         },
         {
           "id": "B",
@@ -226,14 +226,14 @@
         },
         {
           "id": "C",
-          "text": "出国留学"
+          "text": "回到云南老家"
         },
         {
           "id": "D",
           "text": "继续读研究生"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -248,7 +248,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "每天加班、房租贵，觉得很累"
+          "text": "父母要求她回家"
         },
         {
           "id": "B",
@@ -260,10 +260,10 @@
         },
         {
           "id": "D",
-          "text": "父母要求她回家"
+          "text": "每天加班、房租贵，觉得很累"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -308,11 +308,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "从不同意到认为她的工作对村子有帮助"
+          "text": "从支持到反对"
         },
         {
           "id": "B",
-          "text": "从支持到反对"
+          "text": "从不同意到认为她的工作对村子有帮助"
         },
         {
           "id": "C",
@@ -323,7 +323,7 @@
           "text": "一直很支持"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "本来…现在….",
       "distractors": {}
     },
@@ -368,7 +368,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "工作餐"
+          "text": "交通费"
         },
         {
           "id": "B",
@@ -376,14 +376,14 @@
         },
         {
           "id": "C",
-          "text": "交通费"
+          "text": "工作餐"
         },
         {
           "id": "D",
           "text": "英语课"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -398,7 +398,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "有经验更好，但没有经验也可以申请"
+          "text": "只招餐厅老板"
         },
         {
           "id": "B",
@@ -410,10 +410,10 @@
         },
         {
           "id": "D",
-          "text": "只招餐厅老板"
+          "text": "有经验更好，但没有经验也可以申请"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Preferred, not required.",
       "distractors": {}
     },
@@ -428,11 +428,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "下周方便面试的时间和以前的工作或志愿者经验"
+          "text": "你最喜欢的茶"
         },
         {
           "id": "B",
-          "text": "你最喜欢的茶"
+          "text": "下周方便面试的时间和以前的工作或志愿者经验"
         },
         {
           "id": "C",
@@ -443,7 +443,7 @@
           "text": "你朋友的电话"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Two requests.",
       "distractors": {}
     },
@@ -457,7 +457,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "她没有留在上海，而是回到了老家。"
+          "text": "她不是留在上海，所以回到了老家。"
         },
         {
           "id": "B",
@@ -465,14 +465,14 @@
         },
         {
           "id": "C",
-          "text": "她不是留在上海，所以回到了老家。"
+          "text": "她没有留在上海，而是回到了老家。"
         },
         {
           "id": "D",
           "text": "她而是回到了老家，没有留在上海。"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "没有…而是….",
       "distractors": {}
     },
@@ -487,11 +487,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "成功的道路不只有一条"
+          "text": "只有名牌大学才能成功"
         },
         {
           "id": "B",
-          "text": "只有名牌大学才能成功"
+          "text": "成功的道路不只有一条"
         },
         {
           "id": "C",
@@ -502,7 +502,7 @@
           "text": "创业一定会失败"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Multiple paths.",
       "distractors": {}
     },

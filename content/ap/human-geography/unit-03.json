@@ -49,224 +49,548 @@
     "cramSheet": "**Culture:** folk (slow, local) · popular (fast, global) · placelessness\n\n**Landscape:** visible imprint · sequent occupance\n\n**Diffusion:** relocation (people move) · contagious (neighbors) · hierarchical (top-down) · reverse hierarchical · stimulus (modified)\n\n**Causes:** colonialism · trade · globalization · internet\n\n**Language:** family > branch > group · lingua franca · pidgin → creole\n\n**Religion:** universalizing (Christianity, Islam, Buddhism, Sikhism) · ethnic (Hinduism, Judaism)\n\n**Contact:** acculturation · assimilation · syncretism · multiculturalism"
   },
   "vocab": [
-    { "term": "Cultural landscape", "definition": "The visible human modification of the natural landscape." },
-    { "term": "Sequent occupance", "definition": "The layers of cultural imprints left by successive groups occupying a place." },
-    { "term": "Folk culture", "definition": "Traditional practices of small, often rural, homogeneous groups." },
-    { "term": "Popular culture", "definition": "Widespread cultural traits that change quickly and diffuse through media and globalization." },
-    { "term": "Relocation diffusion", "definition": "Spread of a trait through the physical movement of people." },
-    { "term": "Hierarchical diffusion", "definition": "Spread from people or places of power or influence to others." },
-    { "term": "Stimulus diffusion", "definition": "Spread of an underlying idea that is modified by the receiving culture." },
-    { "term": "Lingua franca", "definition": "A language used for communication among speakers of different languages." },
-    { "term": "Creole", "definition": "A language that develops from a pidgin and becomes the native language of a group." },
-    { "term": "Universalizing religion", "definition": "A religion that seeks converts and aims to be global." },
-    { "term": "Syncretism", "definition": "The blending of elements from different cultures into a new trait." },
-    { "term": "Acculturation", "definition": "Adopting traits of another culture while retaining one's own." }
+    {
+      "term": "Cultural landscape",
+      "definition": "The visible human modification of the natural landscape."
+    },
+    {
+      "term": "Sequent occupance",
+      "definition": "The layers of cultural imprints left by successive groups occupying a place."
+    },
+    {
+      "term": "Folk culture",
+      "definition": "Traditional practices of small, often rural, homogeneous groups."
+    },
+    {
+      "term": "Popular culture",
+      "definition": "Widespread cultural traits that change quickly and diffuse through media and globalization."
+    },
+    {
+      "term": "Relocation diffusion",
+      "definition": "Spread of a trait through the physical movement of people."
+    },
+    {
+      "term": "Hierarchical diffusion",
+      "definition": "Spread from people or places of power or influence to others."
+    },
+    {
+      "term": "Stimulus diffusion",
+      "definition": "Spread of an underlying idea that is modified by the receiving culture."
+    },
+    {
+      "term": "Lingua franca",
+      "definition": "A language used for communication among speakers of different languages."
+    },
+    {
+      "term": "Creole",
+      "definition": "A language that develops from a pidgin and becomes the native language of a group."
+    },
+    {
+      "term": "Universalizing religion",
+      "definition": "A religion that seeks converts and aims to be global."
+    },
+    {
+      "term": "Syncretism",
+      "definition": "The blending of elements from different cultures into a new trait."
+    },
+    {
+      "term": "Acculturation",
+      "definition": "Adopting traits of another culture while retaining one's own."
+    }
   ],
   "practice": [
     {
-      "id": "u3-q01", "tier": "Intro", "type": "mcq", "topic": "3.4 Types of Diffusion", "skill": "1. Concepts and Processes",
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.4 Types of Diffusion",
+      "skill": "1. Concepts and Processes",
       "stem": "Immigrants from Vietnam open restaurants serving Vietnamese food in Houston. This spread of cuisine is best described as",
       "choices": [
-        { "id": "A", "text": "relocation diffusion" },
-        { "id": "B", "text": "hierarchical diffusion" },
-        { "id": "C", "text": "contagious diffusion" },
-        { "id": "D", "text": "reverse hierarchical diffusion" }
+        {
+          "id": "A",
+          "text": "contagious diffusion"
+        },
+        {
+          "id": "B",
+          "text": "hierarchical diffusion"
+        },
+        {
+          "id": "C",
+          "text": "relocation diffusion"
+        },
+        {
+          "id": "D",
+          "text": "reverse hierarchical diffusion"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The trait spread because people physically moved.",
       "distractors": {}
     },
     {
-      "id": "u3-q02", "tier": "Intro", "type": "mcq", "topic": "3.7 Diffusion of Religion and Language", "skill": "1. Concepts and Processes",
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.7 Diffusion of Religion and Language",
+      "skill": "1. Concepts and Processes",
       "stem": "Which pair consists of two ethnic religions?",
       "choices": [
-        { "id": "A", "text": "Christianity and Islam" },
-        { "id": "B", "text": "Hinduism and Judaism" },
-        { "id": "C", "text": "Buddhism and Sikhism" },
-        { "id": "D", "text": "Islam and Hinduism" }
+        {
+          "id": "A",
+          "text": "Hinduism and Judaism"
+        },
+        {
+          "id": "B",
+          "text": "Christianity and Islam"
+        },
+        {
+          "id": "C",
+          "text": "Buddhism and Sikhism"
+        },
+        {
+          "id": "D",
+          "text": "Islam and Hinduism"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Both are closely tied to particular peoples and places and do not actively seek converts.",
       "distractors": {}
     },
     {
-      "id": "u3-q03", "tier": "Intro", "type": "mcq", "topic": "3.1 Introduction to Culture", "skill": "1. Concepts and Processes",
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.1 Introduction to Culture",
+      "skill": "1. Concepts and Processes",
       "stem": "Which is the best example of folk culture?",
       "choices": [
-        { "id": "A", "text": "A global smartphone game" },
-        { "id": "B", "text": "A handmade quilt pattern passed down within an Amish community" },
-        { "id": "C", "text": "A clothing trend promoted by social media influencers" },
-        { "id": "D", "text": "A fast-food chain's menu" }
+        {
+          "id": "A",
+          "text": "A global smartphone game"
+        },
+        {
+          "id": "B",
+          "text": "A handmade quilt pattern passed down within an Amish community"
+        },
+        {
+          "id": "C",
+          "text": "A clothing trend promoted by social media influencers"
+        },
+        {
+          "id": "D",
+          "text": "A fast-food chain's menu"
+        }
       ],
       "answer": "B",
       "explanation": "Folk culture is traditional, local, and transmitted within a small group.",
       "distractors": {}
     },
     {
-      "id": "u3-q04", "tier": "Intro", "type": "mcq", "topic": "3.5 Historical Causes of Diffusion", "skill": "1. Concepts and Processes",
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.5 Historical Causes of Diffusion",
+      "skill": "1. Concepts and Processes",
       "stem": "In many East African countries, people who speak different native languages communicate in Swahili. Swahili functions as a",
       "choices": [
-        { "id": "A", "text": "creole" },
-        { "id": "B", "text": "lingua franca" },
-        { "id": "C", "text": "language isolate" },
-        { "id": "D", "text": "dialect" }
+        {
+          "id": "A",
+          "text": "creole"
+        },
+        {
+          "id": "B",
+          "text": "dialect"
+        },
+        {
+          "id": "C",
+          "text": "language isolate"
+        },
+        {
+          "id": "D",
+          "text": "lingua franca"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "A lingua franca bridges speakers of different languages.",
       "distractors": {}
     },
     {
-      "id": "u3-q05", "tier": "Exam level", "type": "mcq", "topic": "3.4 Types of Diffusion", "skill": "1. Concepts and Processes",
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.4 Types of Diffusion",
+      "skill": "1. Concepts and Processes",
       "stem": "An American burger chain sells a vegetarian paneer burger in India, where many people avoid beef. This is an example of",
       "choices": [
-        { "id": "A", "text": "stimulus diffusion" },
-        { "id": "B", "text": "relocation diffusion" },
-        { "id": "C", "text": "contagious diffusion" },
-        { "id": "D", "text": "assimilation" }
+        {
+          "id": "A",
+          "text": "contagious diffusion"
+        },
+        {
+          "id": "B",
+          "text": "relocation diffusion"
+        },
+        {
+          "id": "C",
+          "text": "stimulus diffusion"
+        },
+        {
+          "id": "D",
+          "text": "assimilation"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The concept (fast-food burgers) spread but was modified to fit local culture.",
       "distractors": {}
     },
     {
-      "id": "u3-q06", "tier": "Exam level", "type": "mcq", "topic": "3.4 Types of Diffusion", "skill": "2. Spatial Relationships",
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.4 Types of Diffusion",
+      "skill": "2. Spatial Relationships",
       "stem": "A new fashion first appears in New York, Paris, and Tokyo, then in mid-sized cities, and only later in small towns. This best illustrates",
       "choices": [
-        { "id": "A", "text": "contagious diffusion" },
-        { "id": "B", "text": "hierarchical diffusion" },
-        { "id": "C", "text": "relocation diffusion" },
-        { "id": "D", "text": "reverse hierarchical diffusion" }
+        {
+          "id": "A",
+          "text": "hierarchical diffusion"
+        },
+        {
+          "id": "B",
+          "text": "contagious diffusion"
+        },
+        {
+          "id": "C",
+          "text": "relocation diffusion"
+        },
+        {
+          "id": "D",
+          "text": "reverse hierarchical diffusion"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "The trait moves down the urban hierarchy from the most connected places.",
       "distractors": {}
     },
     {
-      "id": "u3-q07", "tier": "Exam level", "type": "mcq", "topic": "3.8 Effects of Diffusion", "skill": "1. Concepts and Processes",
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.8 Effects of Diffusion",
+      "skill": "1. Concepts and Processes",
       "stem": "In parts of Latin America, Catholic saints' feast days are celebrated with practices drawn from Indigenous religions. This blending is called",
       "choices": [
-        { "id": "A", "text": "assimilation" },
-        { "id": "B", "text": "syncretism" },
-        { "id": "C", "text": "ethnocentrism" },
-        { "id": "D", "text": "cultural relativism" }
+        {
+          "id": "A",
+          "text": "assimilation"
+        },
+        {
+          "id": "B",
+          "text": "syncretism"
+        },
+        {
+          "id": "C",
+          "text": "ethnocentrism"
+        },
+        {
+          "id": "D",
+          "text": "cultural relativism"
+        }
       ],
       "answer": "B",
       "explanation": "Elements of two traditions combine into a new form.",
-      "distractors": { "A": "Would mean Indigenous practices were replaced." }
+      "distractors": {
+        "A": "Would mean Indigenous practices were replaced."
+      }
     },
     {
-      "id": "u3-q08", "tier": "Exam level", "type": "mcq", "topic": "3.2 Cultural Landscapes", "skill": "4. Source Analysis",
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.2 Cultural Landscapes",
+      "skill": "4. Source Analysis",
       "stem": "A neighborhood in a U.S. city has buildings with 19th-century German signage, a church now serving a Mexican congregation, and a Vietnamese bakery. This landscape best illustrates",
       "choices": [
-        { "id": "A", "text": "sequent occupance" },
-        { "id": "B", "text": "placelessness" },
-        { "id": "C", "text": "environmental determinism" },
-        { "id": "D", "text": "a perceptual region" }
+        {
+          "id": "A",
+          "text": "a perceptual region"
+        },
+        {
+          "id": "B",
+          "text": "placelessness"
+        },
+        {
+          "id": "C",
+          "text": "environmental determinism"
+        },
+        {
+          "id": "D",
+          "text": "sequent occupance"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Successive groups have each left a visible imprint on the same place.",
       "distractors": {}
     },
     {
-      "id": "u3-q09", "tier": "Exam level", "type": "mcq", "topic": "3.7 Diffusion of Religion and Language", "skill": "2. Spatial Relationships",
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.7 Diffusion of Religion and Language",
+      "skill": "2. Spatial Relationships",
       "stem": "Buddhism originated in northern India but today has far more followers in East and Southeast Asia. Which best explains this pattern?",
       "choices": [
-        { "id": "A", "text": "Missionaries and traders carried it along trade routes, while in India it was largely absorbed back into Hinduism." },
-        { "id": "B", "text": "It spread only through European colonialism." },
-        { "id": "C", "text": "It is an ethnic religion tied to East Asian peoples." },
-        { "id": "D", "text": "Indian governments banned it." }
+        {
+          "id": "A",
+          "text": "It is an ethnic religion tied to East Asian peoples."
+        },
+        {
+          "id": "B",
+          "text": "It spread only through European colonialism."
+        },
+        {
+          "id": "C",
+          "text": "Missionaries and traders carried it along trade routes, while in India it was largely absorbed back into Hinduism."
+        },
+        {
+          "id": "D",
+          "text": "Indian governments banned it."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Expansion and relocation along trade routes spread Buddhism eastward while it declined at its hearth.",
       "distractors": {}
     },
     {
-      "id": "u3-q10", "tier": "Exam level", "type": "mcq", "topic": "3.6 Contemporary Causes of Diffusion", "skill": "2. Spatial Relationships",
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.6 Contemporary Causes of Diffusion",
+      "skill": "2. Spatial Relationships",
       "stem": "Which factor has most accelerated the diffusion of popular culture in the 21st century?",
       "choices": [
-        { "id": "A", "text": "Colonial expansion" },
-        { "id": "B", "text": "The internet and social media" },
-        { "id": "C", "text": "Isolation of rural communities" },
-        { "id": "D", "text": "Decline of global trade" }
+        {
+          "id": "A",
+          "text": "Colonial expansion"
+        },
+        {
+          "id": "B",
+          "text": "Decline of global trade"
+        },
+        {
+          "id": "C",
+          "text": "Isolation of rural communities"
+        },
+        {
+          "id": "D",
+          "text": "The internet and social media"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Digital communication enables near-instant global diffusion.",
       "distractors": {}
     },
     {
-      "id": "u3-q11", "tier": "Hardest", "type": "mcq", "topic": "3.4 Types of Diffusion", "skill": "1. Concepts and Processes",
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.4 Types of Diffusion",
+      "skill": "1. Concepts and Processes",
       "stem": "A style of music that began among young people in low-income neighborhoods is later adopted by major record labels and becomes mainstream worldwide. This illustrates",
       "choices": [
-        { "id": "A", "text": "hierarchical diffusion" },
-        { "id": "B", "text": "reverse hierarchical diffusion" },
-        { "id": "C", "text": "stimulus diffusion" },
-        { "id": "D", "text": "relocation diffusion" }
+        {
+          "id": "A",
+          "text": "hierarchical diffusion"
+        },
+        {
+          "id": "B",
+          "text": "reverse hierarchical diffusion"
+        },
+        {
+          "id": "C",
+          "text": "stimulus diffusion"
+        },
+        {
+          "id": "D",
+          "text": "relocation diffusion"
+        }
       ],
       "answer": "B",
       "explanation": "The trait moved from groups with less power or status upward to the mainstream.",
       "distractors": {}
     },
     {
-      "id": "u3-q12", "tier": "Hardest", "type": "mcq", "topic": "3.5 Historical Causes of Diffusion", "skill": "2. Spatial Relationships",
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.5 Historical Causes of Diffusion",
+      "skill": "2. Spatial Relationships",
       "stem": "Haitian Creole is spoken as a first language by most Haitians. Its origin is best explained by",
       "choices": [
-        { "id": "A", "text": "the blending of French with West African languages among enslaved people under colonial rule, which became a native language" },
-        { "id": "B", "text": "the diffusion of Spanish by missionaries" },
-        { "id": "C", "text": "stimulus diffusion from English" },
-        { "id": "D", "text": "isolation from all outside contact" }
+        {
+          "id": "A",
+          "text": "the blending of French with West African languages among enslaved people under colonial rule, which became a native language"
+        },
+        {
+          "id": "B",
+          "text": "the diffusion of Spanish by missionaries"
+        },
+        {
+          "id": "C",
+          "text": "stimulus diffusion from English"
+        },
+        {
+          "id": "D",
+          "text": "isolation from all outside contact"
+        }
       ],
       "answer": "A",
       "explanation": "A pidgin formed from colonial contact became the mother tongue of later generations: a creole.",
       "distractors": {}
     },
     {
-      "id": "u3-q13", "tier": "Hardest", "type": "mcq", "topic": "3.8 Effects of Diffusion", "skill": "2. Spatial Relationships",
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.8 Effects of Diffusion",
+      "skill": "2. Spatial Relationships",
       "stem": "Quebec passed laws requiring French on commercial signs and promoting French in schools. These policies are best explained as",
       "choices": [
-        { "id": "A", "text": "a response to globalization and the dominance of English that seeks to preserve cultural identity" },
-        { "id": "B", "text": "an example of assimilation into English culture" },
-        { "id": "C", "text": "contagious diffusion of French" },
-        { "id": "D", "text": "a result of environmental determinism" }
+        {
+          "id": "A",
+          "text": "a response to globalization and the dominance of English that seeks to preserve cultural identity"
+        },
+        {
+          "id": "B",
+          "text": "an example of assimilation into English culture"
+        },
+        {
+          "id": "C",
+          "text": "contagious diffusion of French"
+        },
+        {
+          "id": "D",
+          "text": "a result of environmental determinism"
+        }
       ],
       "answer": "A",
       "explanation": "Language policies resist convergence and protect a minority culture.",
       "distractors": {}
     },
     {
-      "id": "u3-q14", "tier": "Hardest", "type": "mcq", "topic": "3.7 Diffusion of Religion and Language", "skill": "2. Spatial Relationships",
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.7 Diffusion of Religion and Language",
+      "skill": "2. Spatial Relationships",
       "stem": "Which statement best explains why Christianity is the most widespread religion globally?",
       "choices": [
-        { "id": "A", "text": "It spread hierarchically when adopted by Roman rulers, then by relocation and missionary activity during European colonization." },
-        { "id": "B", "text": "It is an ethnic religion that spread only by relocation." },
-        { "id": "C", "text": "It spread only through contagious diffusion in the Levant." },
-        { "id": "D", "text": "It originated in Western Europe." }
+        {
+          "id": "A",
+          "text": "It is an ethnic religion that spread only by relocation."
+        },
+        {
+          "id": "B",
+          "text": "It spread hierarchically when adopted by Roman rulers, then by relocation and missionary activity during European colonization."
+        },
+        {
+          "id": "C",
+          "text": "It spread only through contagious diffusion in the Levant."
+        },
+        {
+          "id": "D",
+          "text": "It originated in Western Europe."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Multiple diffusion types over two millennia carried Christianity worldwide; its hearth was the Levant.",
-      "distractors": { "D": "Its hearth was in the eastern Mediterranean." }
+      "distractors": {
+        "D": "Its hearth was in the eastern Mediterranean."
+      }
     },
     {
-      "id": "u3-frq1", "tier": "Exam level", "type": "frq", "topic": "3.4–3.8 Diffusion and Its Effects", "frqType": "FRQ (two stimuli)",
+      "id": "u3-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "3.4–3.8 Diffusion and Its Effects",
+      "frqType": "FRQ (two stimuli)",
       "prompt": "Source 1: A map shows the percentage of people in each country who can speak English. Shares are highest in the United Kingdom, the United States, Canada, Australia, and New Zealand; also high in India, Nigeria, the Philippines, and Singapore; and high (over 70%) in the Netherlands and Scandinavian countries, where English is not an official language.\n\nSource 2: A photograph of a street in Seoul, South Korea, shows a centuries-old Buddhist temple gate beside a coffee chain store and a billboard advertising a K-pop group in Korean and English.",
       "parts": [
-        { "label": "A", "prompt": "Identify the historical process that best explains the high share of English speakers in India and Nigeria.", "points": 1 },
-        { "label": "B", "prompt": "Explain why many people in the Netherlands speak English even though it isn't an official language.", "points": 1 },
-        { "label": "C", "prompt": "Define lingua franca and explain why English functions as one globally.", "points": 1 },
-        { "label": "D", "prompt": "Using Source 2, describe one example of the cultural landscape that reflects folk or traditional culture.", "points": 1 },
-        { "label": "E", "prompt": "Using Source 2, explain how the landscape reflects globalization.", "points": 1 },
-        { "label": "F", "prompt": "Explain how the global popularity of K-pop represents diffusion of culture from South Korea to other parts of the world, identifying the type of diffusion.", "points": 1 },
-        { "label": "G", "prompt": "Explain one way governments or communities may respond to the spread of English to protect local languages.", "points": 1 }
+        {
+          "label": "A",
+          "prompt": "Identify the historical process that best explains the high share of English speakers in India and Nigeria.",
+          "points": 1
+        },
+        {
+          "label": "B",
+          "prompt": "Explain why many people in the Netherlands speak English even though it isn't an official language.",
+          "points": 1
+        },
+        {
+          "label": "C",
+          "prompt": "Define lingua franca and explain why English functions as one globally.",
+          "points": 1
+        },
+        {
+          "label": "D",
+          "prompt": "Using Source 2, describe one example of the cultural landscape that reflects folk or traditional culture.",
+          "points": 1
+        },
+        {
+          "label": "E",
+          "prompt": "Using Source 2, explain how the landscape reflects globalization.",
+          "points": 1
+        },
+        {
+          "label": "F",
+          "prompt": "Explain how the global popularity of K-pop represents diffusion of culture from South Korea to other parts of the world, identifying the type of diffusion.",
+          "points": 1
+        },
+        {
+          "label": "G",
+          "prompt": "Explain one way governments or communities may respond to the spread of English to protect local languages.",
+          "points": 1
+        }
       ],
       "points": 7,
       "minutes": 25,
       "rubric": [
-        { "criterion": "A", "points": 1, "description": "British colonialism / imperialism." },
-        { "criterion": "B", "points": 1, "description": "E.g., English is taught widely in schools and used in international business, trade, media, and tourism; a small country's economy depends on global connections." },
-        { "criterion": "C", "points": 1, "description": "A common language used between speakers of different native languages; English is used in global business, science, aviation, the internet, and diplomacy." },
-        { "criterion": "D", "points": 1, "description": "The Buddhist temple gate reflects traditional Korean religious and architectural heritage." },
-        { "criterion": "E", "points": 1, "description": "The multinational coffee chain and the bilingual Korean/English billboard show global brands and languages diffusing into local landscapes." },
-        { "criterion": "F", "points": 1, "description": "K-pop spreads through the internet, streaming, and social media to fans worldwide; accept contagious diffusion (rapid spread person to person online) or hierarchical (through major media markets) with explanation." },
-        { "criterion": "G", "points": 1, "description": "E.g., official-language laws, requiring local language on signs or in schools, funding local-language media, language revitalization programs (e.g., Welsh, Māori, French in Quebec)." }
+        {
+          "criterion": "A",
+          "points": 1,
+          "description": "British colonialism / imperialism."
+        },
+        {
+          "criterion": "B",
+          "points": 1,
+          "description": "E.g., English is taught widely in schools and used in international business, trade, media, and tourism; a small country's economy depends on global connections."
+        },
+        {
+          "criterion": "C",
+          "points": 1,
+          "description": "A common language used between speakers of different native languages; English is used in global business, science, aviation, the internet, and diplomacy."
+        },
+        {
+          "criterion": "D",
+          "points": 1,
+          "description": "The Buddhist temple gate reflects traditional Korean religious and architectural heritage."
+        },
+        {
+          "criterion": "E",
+          "points": 1,
+          "description": "The multinational coffee chain and the bilingual Korean/English billboard show global brands and languages diffusing into local landscapes."
+        },
+        {
+          "criterion": "F",
+          "points": 1,
+          "description": "K-pop spreads through the internet, streaming, and social media to fans worldwide; accept contagious diffusion (rapid spread person to person online) or hierarchical (through major media markets) with explanation."
+        },
+        {
+          "criterion": "G",
+          "points": 1,
+          "description": "E.g., official-language laws, requiring local language on signs or in schools, funding local-language media, language revitalization programs (e.g., Welsh, Māori, French in Quebec)."
+        }
       ],
       "sampleResponse": "A. British colonialism. Both India and Nigeria were British colonies, and English was used in government, schools, and business.\n\nB. The Netherlands is a small, trade-oriented country, so English is taught from an early age and used widely in international business, higher education, and media, allowing Dutch people to communicate globally.\n\nC. A lingua franca is a language used to communicate between people with different native languages. English serves this role globally because it dominates international business, science, aviation, and the internet.\n\nD. The centuries-old Buddhist temple gate reflects traditional Korean religious architecture and the long history of Buddhism in Korea.\n\nE. The international coffee chain store and the billboard written partly in English show how multinational corporations and global languages have diffused into Seoul's landscape.\n\nF. K-pop has spread from South Korea to fans around the world through streaming platforms and social media, where people share songs and videos with friends. This rapid person-to-person spread online is contagious diffusion.\n\nG. A government may require that public signs and advertisements use the local language, as Quebec requires French, to keep the language visible and widely used."
     }

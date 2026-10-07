@@ -100,11 +100,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "To bring multiple perspectives and evidence types that strengthen the team's analysis"
+          "text": "So each member can present an unrelated topic"
         },
         {
           "id": "B",
-          "text": "So each member can present an unrelated topic"
+          "text": "To bring multiple perspectives and evidence types that strengthen the team's analysis"
         },
         {
           "id": "C",
@@ -115,7 +115,7 @@
           "text": "Because College Board assigns lenses"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Diverse lenses reveal more of a complex problem.",
       "distractors": {}
     },
@@ -128,7 +128,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "A labeled chart with a cited source and a short headline stating its takeaway"
+          "text": "Every statistic from the research on one slide"
         },
         {
           "id": "B",
@@ -140,10 +140,10 @@
         },
         {
           "id": "D",
-          "text": "Every statistic from the research on one slide"
+          "text": "A labeled chart with a cited source and a short headline stating its takeaway"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Visuals should clarify the spoken argument.",
       "distractors": {}
     },
@@ -186,7 +186,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "compare both options against the evidence and the team's goals, such as cost, sustainability, and residents' priorities"
+          "text": "drop both options"
         },
         {
           "id": "B",
@@ -194,14 +194,14 @@
         },
         {
           "id": "C",
-          "text": "drop both options"
+          "text": "compare both options against the evidence and the team's goals, such as cost, sustainability, and residents' priorities"
         },
         {
           "id": "D",
           "text": "include both without discussing the conflict"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Return to evidence and shared criteria.",
       "distractors": {}
     },
@@ -244,7 +244,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Evidence on whether similar incentives in other cities led to stores that stayed open and affected residents' diets"
+          "text": "The number of slides in the presentation"
         },
         {
           "id": "B",
@@ -252,14 +252,14 @@
         },
         {
           "id": "C",
-          "text": "The number of slides in the presentation"
+          "text": "Evidence on whether similar incentives in other cities led to stores that stayed open and affected residents' diets"
         },
         {
           "id": "D",
           "text": "Team members' favorite foods"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Evidence from comparable cases tests whether the solution works.",
       "distractors": {}
     },

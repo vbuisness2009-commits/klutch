@@ -101,7 +101,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "To what extent should employers keep remote work options permanently?"
+          "text": "How many people work from home?"
         },
         {
           "id": "B",
@@ -109,14 +109,14 @@
         },
         {
           "id": "C",
-          "text": "How many people work from home?"
+          "text": "To what extent should employers keep remote work options permanently?"
         },
         {
           "id": "D",
           "text": "Remote work and cities"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "It is arguable and connects all four sources.",
       "distractors": {}
     },
@@ -129,7 +129,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "plagiarism, because paraphrased ideas still require attribution"
+          "text": "synthesis"
         },
         {
           "id": "B",
@@ -141,10 +141,10 @@
         },
         {
           "id": "D",
-          "text": "synthesis"
+          "text": "plagiarism, because paraphrased ideas still require attribution"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Ideas, not just words, must be credited.",
       "distractors": {}
     },
@@ -187,11 +187,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Source A's lower quit rate and Source D's rise in employment among disabled workers"
+          "text": "Source B's vacancy data and Source C's survey"
         },
         {
           "id": "B",
-          "text": "Source B's vacancy data and Source C's survey"
+          "text": "Source A's lower quit rate and Source D's rise in employment among disabled workers"
         },
         {
           "id": "C",
@@ -202,7 +202,7 @@
           "text": "Source C alone"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Both show remote work expanding or retaining the workforce.",
       "distractors": {}
     },
@@ -216,7 +216,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "It studied one travel company, so the results may not generalize to jobs that require in-person work or different industries."
+          "text": "It measured productivity."
         },
         {
           "id": "B",
@@ -224,14 +224,14 @@
         },
         {
           "id": "C",
-          "text": "It measured productivity."
+          "text": "It studied one travel company, so the results may not generalize to jobs that require in-person work or different industries."
         },
         {
           "id": "D",
           "text": "It included 1,600 employees."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Randomization strengthens causal claims, but a single company limits generalizability.",
       "distractors": {
         "B": "Randomization is a strength."
@@ -247,7 +247,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Employers should adopt hybrid schedules, keeping remote work's retention and accessibility benefits while scheduling in-person time for mentoring, and cities should adapt downtowns to the change."
+          "text": "There are many opinions about remote work."
         },
         {
           "id": "B",
@@ -259,10 +259,10 @@
         },
         {
           "id": "D",
-          "text": "There are many opinions about remote work."
+          "text": "Employers should adopt hybrid schedules, keeping remote work's retention and accessibility benefits while scheduling in-person time for mentoring, and cities should adapt downtowns to the change."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "It takes a qualified position integrating several sources.",
       "distractors": {}
     },

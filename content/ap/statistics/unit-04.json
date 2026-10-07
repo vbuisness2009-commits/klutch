@@ -141,7 +141,7 @@
         },
         {
           "id": "B",
-          "text": "1.7"
+          "text": "0.25"
         },
         {
           "id": "C",
@@ -149,10 +149,10 @@
         },
         {
           "id": "D",
-          "text": "0.25"
+          "text": "1.7"
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "0(0.1) + 1(0.3) + 2(0.4) + 3(0.2) = 1.7.",
       "distractors": {
         "A": "Unweighted average of the values."
@@ -266,7 +266,7 @@
         },
         {
           "id": "B",
-          "text": "Mean 4, SD 5"
+          "text": "Mean 4, SD 7"
         },
         {
           "id": "C",
@@ -274,14 +274,14 @@
         },
         {
           "id": "D",
-          "text": "Mean 4, SD 7"
+          "text": "Mean 4, SD 5"
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Mean: 10 − 6 = 4. Variances add: 9 + 16 = 25 → SD 5.",
       "distractors": {
         "A": "Subtracts SDs.",
-        "D": "Adds SDs."
+        "B": "Adds SDs."
       }
     },
     {
@@ -295,11 +295,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Yes, because both events have probabilities between 0 and 1"
+          "text": "No, because P(pet | house) = 0.60 is not equal to P(pet) = 0.48"
         },
         {
           "id": "B",
-          "text": "No, because P(pet | house) = 0.60 is not equal to P(pet) = 0.48"
+          "text": "Yes, because both events have probabilities between 0 and 1"
         },
         {
           "id": "C",
@@ -310,7 +310,7 @@
           "text": "No, because the events are mutually exclusive"
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "180/300 = 0.60 vs. 240/500 = 0.48.",
       "distractors": {
         "D": "180 people are in both."
@@ -326,7 +326,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Mean $7.10, SD $2.70"
+          "text": "Mean $7.10, SD $0.90"
         },
         {
           "id": "B",
@@ -338,10 +338,10 @@
         },
         {
           "id": "D",
-          "text": "Mean $7.10, SD $0.90"
+          "text": "Mean $7.10, SD $2.70"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Cost = 2 + 3X: mean 2 + 3(1.7) = 7.10; SD 3(0.9) = 2.70.",
       "distractors": {
         "B": "Adds the fixed fee to the SD."
@@ -482,7 +482,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "The number of cards drawn from a standard deck until an ace appears"
+          "text": "The number of left-handed people in a random sample of 50 from a city of 300,000, where 10% are left-handed"
         },
         {
           "id": "B",
@@ -490,18 +490,18 @@
         },
         {
           "id": "C",
-          "text": "The number of left-handed people in a random sample of 50 from a city of 300,000, where 10% are left-handed"
+          "text": "The number of cards drawn from a standard deck until an ace appears"
         },
         {
           "id": "D",
           "text": "The total weight of 10 randomly chosen apples"
         }
       ],
-      "answer": "C",
+      "answer": "A",
       "explanation": "Fixed n = 50, success/failure, p ≈ 0.10, and 50 is far less than 10% of the city, so trials are approximately independent.",
       "distractors": {
         "B": "5 cards is about 10% of a 52-card deck, and drawing without replacement noticeably changes p from card to card.",
-        "A": "No fixed number of trials (geometric-type setting)."
+        "C": "No fixed number of trials (geometric-type setting)."
       }
     },
     {
@@ -514,7 +514,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "The expected net gain is −$2.00, so over many tickets a buyer loses about $2 per ticket on average."
+          "text": "Each buyer will lose exactly $2.00."
         },
         {
           "id": "B",
@@ -526,13 +526,13 @@
         },
         {
           "id": "D",
-          "text": "Each buyer will lose exactly $2.00."
+          "text": "The expected net gain is −$2.00, so over many tickets a buyer loses about $2 per ticket on average."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Expected winnings = 2,000(0.001) + 100(0.010) = $3.00; net = 3 − 5 = −$2.00, a long-run average.",
       "distractors": {
-        "D": "Expected value describes the long-run average, not each outcome."
+        "A": "Expected value describes the long-run average, not each outcome."
       }
     },
     {

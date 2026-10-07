@@ -127,11 +127,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Par des fresques de héros de BD sur les façades et un musée"
+          "text": "Par un festival à Angoulême"
         },
         {
           "id": "B",
-          "text": "Par un festival à Angoulême"
+          "text": "Par des fresques de héros de BD sur les façades et un musée"
         },
         {
           "id": "C",
@@ -142,7 +142,7 @@
           "text": "Par des cours obligatoires à l'école"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Angoulême is in France.",
       "distractors": {}
     },
@@ -157,7 +157,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "La BD est passée du mépris des critiques à une reconnaissance institutionnelle"
+          "text": "La BD est devenue exclusivement numérique"
         },
         {
           "id": "B",
@@ -165,14 +165,14 @@
         },
         {
           "id": "C",
-          "text": "La BD est devenue exclusivement numérique"
+          "text": "La BD est passée du mépris des critiques à une reconnaissance institutionnelle"
         },
         {
           "id": "D",
           "text": "La BD est interdite dans les écoles"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "From scorned to academic.",
       "distractors": {}
     },
@@ -187,7 +187,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "La respectabilité pourrait faire perdre à la BD son esprit rebelle"
+          "text": "Les traductions sont mauvaises"
         },
         {
           "id": "B",
@@ -199,10 +199,10 @@
         },
         {
           "id": "D",
-          "text": "Les traductions sont mauvaises"
+          "text": "La respectabilité pourrait faire perdre à la BD son esprit rebelle"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Final paragraph.",
       "distractors": {}
     },
@@ -217,11 +217,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "une possibilité incertaine"
+          "text": "un fait certain du passé"
         },
         {
           "id": "B",
-          "text": "un fait certain du passé"
+          "text": "une possibilité incertaine"
         },
         {
           "id": "C",
@@ -232,7 +232,7 @@
           "text": "une habitude"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Conditional of uncertainty.",
       "distractors": {}
     },
@@ -277,7 +277,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "De son quartier, de ses parents haïtiens et de la langue"
+          "text": "Des sports d'hiver"
         },
         {
           "id": "B",
@@ -285,14 +285,14 @@
         },
         {
           "id": "C",
-          "text": "Des sports d'hiver"
+          "text": "De son quartier, de ses parents haïtiens et de la langue"
         },
         {
           "id": "D",
           "text": "De la mode"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Her themes.",
       "distractors": {}
     },
@@ -307,7 +307,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Elle pense que la poésie consiste à inventer sa propre langue"
+          "text": "Elle écrit uniquement en anglais"
         },
         {
           "id": "B",
@@ -319,10 +319,10 @@
         },
         {
           "id": "D",
-          "text": "Elle écrit uniquement en anglais"
+          "text": "Elle pense que la poésie consiste à inventer sa propre langue"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Her view of creativity.",
       "distractors": {}
     },
@@ -337,7 +337,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "La communauté et l'écoute des autres"
+          "text": "Les prix et concours"
         },
         {
           "id": "B",
@@ -345,14 +345,14 @@
         },
         {
           "id": "C",
-          "text": "Les prix et concours"
+          "text": "La communauté et l'écoute des autres"
         },
         {
           "id": "D",
           "text": "La musique d'accompagnement"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "'C'est d'abord une communauté.'",
       "distractors": {}
     },
@@ -367,7 +367,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Des proverbes, des événements et des identités"
+          "text": "Les règles du slam"
         },
         {
           "id": "B",
@@ -379,10 +379,10 @@
         },
         {
           "id": "D",
-          "text": "Les règles du slam"
+          "text": "Des proverbes, des événements et des identités"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -427,11 +427,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Soutenir des coopératives de teinturières"
+          "text": "Vendre des billets d'avion"
         },
         {
           "id": "B",
-          "text": "Vendre des billets d'avion"
+          "text": "Soutenir des coopératives de teinturières"
         },
         {
           "id": "C",
@@ -442,7 +442,7 @@
           "text": "Remplacer le pagne par des vêtements importés"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Proceeds to cooperatives.",
       "distractors": {}
     },
@@ -457,11 +457,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Ce sont des formes d'expression qui transmettent une identité et évoluent avec le temps"
+          "text": "Ils sont tous réservés aux élites"
         },
         {
           "id": "B",
-          "text": "Ils sont tous réservés aux élites"
+          "text": "Ce sont des formes d'expression qui transmettent une identité et évoluent avec le temps"
         },
         {
           "id": "C",
@@ -472,7 +472,7 @@
           "text": "Ils ont tous disparu"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Identity and evolution.",
       "distractors": {}
     },

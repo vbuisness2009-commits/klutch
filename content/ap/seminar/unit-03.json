@@ -99,11 +99,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Perspective 3"
+          "text": "Perspective 1"
         },
         {
           "id": "B",
-          "text": "Perspective 1"
+          "text": "Perspective 3"
         },
         {
           "id": "C",
@@ -114,7 +114,7 @@
           "text": "None of them"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The rancher emphasizes jobs and communities.",
       "distractors": {}
     },
@@ -157,7 +157,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Cultivated meat production will run on renewable energy and its costs will fall as solar power's did."
+          "text": "Food waste is the main cause of emissions."
         },
         {
           "id": "B",
@@ -169,10 +169,10 @@
         },
         {
           "id": "D",
-          "text": "Food waste is the main cause of emissions."
+          "text": "Cultivated meat production will run on renewable energy and its costs will fall as solar power's did."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The emissions benefit is conditional on clean energy; the solar analogy assumes falling costs.",
       "distractors": {}
     },
@@ -186,7 +186,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "factual, because it depends on measurable energy use and grid conditions"
+          "text": "a disagreement about labeling"
         },
         {
           "id": "B",
@@ -194,14 +194,14 @@
         },
         {
           "id": "C",
-          "text": "a disagreement about labeling"
+          "text": "factual, because it depends on measurable energy use and grid conditions"
         },
         {
           "id": "D",
           "text": "a disagreement over whether animals matter"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Life-cycle data can help settle it.",
       "distractors": {}
     },
@@ -215,11 +215,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "The rancher's financial stake is worth noting, but the concerns about rural jobs and grassland management are legitimate and need evidence rather than dismissal."
+          "text": "The rancher's view should be ignored because ranchers have a financial interest."
         },
         {
           "id": "B",
-          "text": "The rancher's view should be ignored because ranchers have a financial interest."
+          "text": "The rancher's financial stake is worth noting, but the concerns about rural jobs and grassland management are legitimate and need evidence rather than dismissal."
         },
         {
           "id": "C",
@@ -230,7 +230,7 @@
           "text": "The rancher's view is irrelevant because it doesn't mention emissions."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stakes affect how we weigh claims but don't make them false.",
       "distractors": {}
     },

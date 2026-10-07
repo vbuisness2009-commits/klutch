@@ -122,7 +122,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "50 J"
+          "text": "0 J"
         },
         {
           "id": "B",
@@ -134,10 +134,10 @@
         },
         {
           "id": "D",
-          "text": "0 J"
+          "text": "50 J"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "W = Fd cos θ = 20 × 5 × cos 60° = 100 × 0.5 = 50 J.",
       "distractors": {
         "B": "Ignored the angle.",
@@ -184,7 +184,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "1 J"
+          "text": "10 J"
         },
         {
           "id": "B",
@@ -196,10 +196,10 @@
         },
         {
           "id": "D",
-          "text": "10 J"
+          "text": "1 J"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "U = ½kx² = ½(200)(0.01) = 1 J.",
       "distractors": {
         "B": "Forgot the ½.",
@@ -246,7 +246,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "10 m/s"
+          "text": "100 m/s"
         },
         {
           "id": "B",
@@ -258,15 +258,15 @@
         },
         {
           "id": "D",
-          "text": "100 m/s"
+          "text": "10 m/s"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "mgh = ½mv², so v = √(2gh) = √100 = 10 m/s.",
       "distractors": {
         "B": "Computed gh without the square root.",
         "C": "Used v = √(gh), dropping the 2.",
-        "D": "Computed 2gh and stopped."
+        "A": "Computed 2gh and stopped."
       }
     },
     {
@@ -339,7 +339,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "10 m/s"
+          "text": "5 m/s"
         },
         {
           "id": "B",
@@ -351,10 +351,10 @@
         },
         {
           "id": "D",
-          "text": "5 m/s"
+          "text": "10 m/s"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Drop of 5 m: ½v² = g(5), v = √100 = 10 m/s. Mass cancels.",
       "distractors": {
         "B": "Used the full 20 m height.",
@@ -370,11 +370,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "300 W"
+          "text": "30 W"
         },
         {
           "id": "B",
-          "text": "30 W"
+          "text": "300 W"
         },
         {
           "id": "C",
@@ -385,11 +385,11 @@
           "text": "3,000 W"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "ΔU = mgh = 60 × 10 × 3 = 1,800 J. P = 1,800/6 = 300 W.",
       "distractors": {
-        "B": "Left out g.",
-        "D": "Multiplied by 10 instead of dividing by 6."
+        "D": "Multiplied by 10 instead of dividing by 6.",
+        "A": "Left out g."
       }
     },
     {
@@ -401,7 +401,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "4 m/s"
+          "text": "8 m/s"
         },
         {
           "id": "B",
@@ -409,18 +409,18 @@
         },
         {
           "id": "C",
-          "text": "8 m/s"
+          "text": "4 m/s"
         },
         {
           "id": "D",
           "text": "2 m/s"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "½kx² = ½(800)(0.01) = 4 J = ½(0.5)v², so v² = 16 and v = 4 m/s.",
       "distractors": {
         "B": "Reported v².",
-        "C": "Forgot the ½ on the spring energy."
+        "A": "Forgot the ½ on the spring energy."
       }
     },
     {
@@ -464,7 +464,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "The person does positive work on the system, equal to the increase in gravitational potential energy; kinetic energy is unchanged."
+          "text": "The person's work increases both the kinetic and potential energy of the system."
         },
         {
           "id": "B",
@@ -476,10 +476,10 @@
         },
         {
           "id": "D",
-          "text": "The person's work increases both the kinetic and potential energy of the system."
+          "text": "The person does positive work on the system, equal to the increase in gravitational potential energy; kinetic energy is unchanged."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The person is external to the system, so their work changes the system's energy. Gravity is internal (it's represented by U_g), so it isn't counted as external work.",
       "distractors": {
         "B": "Constant velocity means ΔK = 0, not ΔE_system = 0.",
@@ -526,7 +526,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "2"
+          "text": "1/4"
         },
         {
           "id": "B",
@@ -538,10 +538,10 @@
         },
         {
           "id": "D",
-          "text": "1/4"
+          "text": "2"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "½m v_X² = ½(4m) v_Y², so v_X² = 4v_Y² and v_X/v_Y = 2.",
       "distractors": {
         "B": "Forgot the square root.",

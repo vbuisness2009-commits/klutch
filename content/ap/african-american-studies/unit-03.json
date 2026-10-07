@@ -40,220 +40,502 @@
     "cramSheet": "**Reconstruction:** Freedmen's Bureau 1865 · Black Codes · 14th (1868) · 15th (1870) · Revels 1870 · sharecropping · KKK · ends 1877\n\n**Jim Crow:** poll taxes, literacy tests, grandfather clauses · Plessy 1896 · Exodusters 1879\n\n**Strategies:** Wells (anti-lynching, 1892) · Washington (Atlanta 1895) · Du Bois (Souls 1903, double consciousness, Talented Tenth, Niagara 1905, NAACP 1909) · Garvey (UNIA)\n\n**Economy:** Madam C. J. Walker · Greenwood/Tulsa 1921\n\n**Migration & culture:** Great Migration ~6M · Harlem Renaissance (Locke, Hughes, Hurston, McKay)\n\n**War:** Red Summer 1919 · Double V · Randolph 1941 · EO 9981 (1948)"
   },
   "vocab": [
-    { "term": "Freedmen's Bureau", "definition": "A federal agency (1865) that helped freedpeople with education, labor contracts, and aid." },
-    { "term": "Black Codes", "definition": "Postwar Southern laws restricting freedpeople's rights and labor." },
-    { "term": "Sharecropping", "definition": "A system in which farmers worked land for a share of the crop, often trapping them in debt." },
-    { "term": "Disenfranchisement", "definition": "Depriving people of the right to vote, as through poll taxes and literacy tests." },
-    { "term": "Plessy v. Ferguson", "definition": "An 1896 Supreme Court ruling upholding 'separate but equal' segregation." },
-    { "term": "Atlanta Compromise", "definition": "Booker T. Washington's 1895 call for economic advancement while deferring demands for social equality." },
-    { "term": "Double consciousness", "definition": "Du Bois's term for the experience of seeing oneself through the eyes of a racist society." },
-    { "term": "Talented Tenth", "definition": "Du Bois's idea that a college-educated Black leadership would uplift the community." },
-    { "term": "NAACP", "definition": "A civil rights organization founded in 1909 that used lawsuits and publicity to fight discrimination." },
-    { "term": "UNIA", "definition": "Marcus Garvey's organization promoting Black pride, self-reliance, and Pan-Africanism." },
-    { "term": "Great Migration", "definition": "The movement of millions of Black Southerners to Northern and Western cities, c. 1910–1970." },
-    { "term": "Harlem Renaissance", "definition": "A 1920s–30s flowering of Black literature, art, and music centered in Harlem." }
+    {
+      "term": "Freedmen's Bureau",
+      "definition": "A federal agency (1865) that helped freedpeople with education, labor contracts, and aid."
+    },
+    {
+      "term": "Black Codes",
+      "definition": "Postwar Southern laws restricting freedpeople's rights and labor."
+    },
+    {
+      "term": "Sharecropping",
+      "definition": "A system in which farmers worked land for a share of the crop, often trapping them in debt."
+    },
+    {
+      "term": "Disenfranchisement",
+      "definition": "Depriving people of the right to vote, as through poll taxes and literacy tests."
+    },
+    {
+      "term": "Plessy v. Ferguson",
+      "definition": "An 1896 Supreme Court ruling upholding 'separate but equal' segregation."
+    },
+    {
+      "term": "Atlanta Compromise",
+      "definition": "Booker T. Washington's 1895 call for economic advancement while deferring demands for social equality."
+    },
+    {
+      "term": "Double consciousness",
+      "definition": "Du Bois's term for the experience of seeing oneself through the eyes of a racist society."
+    },
+    {
+      "term": "Talented Tenth",
+      "definition": "Du Bois's idea that a college-educated Black leadership would uplift the community."
+    },
+    {
+      "term": "NAACP",
+      "definition": "A civil rights organization founded in 1909 that used lawsuits and publicity to fight discrimination."
+    },
+    {
+      "term": "UNIA",
+      "definition": "Marcus Garvey's organization promoting Black pride, self-reliance, and Pan-Africanism."
+    },
+    {
+      "term": "Great Migration",
+      "definition": "The movement of millions of Black Southerners to Northern and Western cities, c. 1910–1970."
+    },
+    {
+      "term": "Harlem Renaissance",
+      "definition": "A 1920s–30s flowering of Black literature, art, and music centered in Harlem."
+    }
   ],
   "practice": [
     {
-      "id": "u3-q01", "tier": "Intro", "type": "mcq", "topic": "Reconstruction",
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Reconstruction",
       "stem": "The Fifteenth Amendment",
       "choices": [
-        { "id": "A", "text": "prohibited denying the vote on account of race" },
-        { "id": "B", "text": "abolished slavery" },
-        { "id": "C", "text": "upheld segregation" },
-        { "id": "D", "text": "created the Freedmen's Bureau" }
+        {
+          "id": "A",
+          "text": "upheld segregation"
+        },
+        {
+          "id": "B",
+          "text": "abolished slavery"
+        },
+        {
+          "id": "C",
+          "text": "prohibited denying the vote on account of race"
+        },
+        {
+          "id": "D",
+          "text": "created the Freedmen's Bureau"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Ratified in 1870.",
       "distractors": {}
     },
     {
-      "id": "u3-q02", "tier": "Intro", "type": "mcq", "topic": "Reconstruction",
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Reconstruction",
       "stem": "Hiram Revels is significant as",
       "choices": [
-        { "id": "A", "text": "the first Black U.S. senator" },
-        { "id": "B", "text": "the founder of the NAACP" },
-        { "id": "C", "text": "the leader of the UNIA" },
-        { "id": "D", "text": "a Harlem Renaissance poet" }
+        {
+          "id": "A",
+          "text": "the founder of the NAACP"
+        },
+        {
+          "id": "B",
+          "text": "the first Black U.S. senator"
+        },
+        {
+          "id": "C",
+          "text": "the leader of the UNIA"
+        },
+        {
+          "id": "D",
+          "text": "a Harlem Renaissance poet"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "He represented Mississippi beginning in 1870.",
       "distractors": {}
     },
     {
-      "id": "u3-q03", "tier": "Intro", "type": "mcq", "topic": "Migration",
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Migration",
       "stem": "A major cause of the Great Migration was",
       "choices": [
-        { "id": "A", "text": "Jim Crow segregation and violence in the South combined with industrial jobs in Northern cities" },
-        { "id": "B", "text": "the Emancipation Proclamation" },
-        { "id": "C", "text": "the Back to Africa movement" },
-        { "id": "D", "text": "the end of World War II" }
+        {
+          "id": "A",
+          "text": "Jim Crow segregation and violence in the South combined with industrial jobs in Northern cities"
+        },
+        {
+          "id": "B",
+          "text": "the Emancipation Proclamation"
+        },
+        {
+          "id": "C",
+          "text": "the Back to Africa movement"
+        },
+        {
+          "id": "D",
+          "text": "the end of World War II"
+        }
       ],
       "answer": "A",
       "explanation": "Push and pull factors both mattered; it began around 1910.",
       "distractors": {}
     },
     {
-      "id": "u3-q04", "tier": "Intro", "type": "mcq", "topic": "Culture",
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Culture",
       "stem": "Zora Neale Hurston is best known for",
       "choices": [
-        { "id": "A", "text": "writing fiction and collecting folklore about Black Southern life" },
-        { "id": "B", "text": "leading the Niagara Movement" },
-        { "id": "C", "text": "founding Tuskegee Institute" },
-        { "id": "D", "text": "serving in Congress during Reconstruction" }
+        {
+          "id": "A",
+          "text": "serving in Congress during Reconstruction"
+        },
+        {
+          "id": "B",
+          "text": "leading the Niagara Movement"
+        },
+        {
+          "id": "C",
+          "text": "founding Tuskegee Institute"
+        },
+        {
+          "id": "D",
+          "text": "writing fiction and collecting folklore about Black Southern life"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "She was an anthropologist and novelist of the Harlem Renaissance era.",
       "distractors": {}
     },
     {
-      "id": "u3-q05", "tier": "Exam level", "type": "mcq", "topic": "Reconstruction",
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Reconstruction",
       "stem": "Most freedpeople became sharecroppers mainly because",
       "choices": [
-        { "id": "A", "text": "the federal government did not redistribute land, leaving them without property or capital" },
-        { "id": "B", "text": "the Thirteenth Amendment required it" },
-        { "id": "C", "text": "they preferred urban factory work" },
-        { "id": "D", "text": "the Freedmen's Bureau banned land ownership" }
+        {
+          "id": "A",
+          "text": "the Thirteenth Amendment required it"
+        },
+        {
+          "id": "B",
+          "text": "the federal government did not redistribute land, leaving them without property or capital"
+        },
+        {
+          "id": "C",
+          "text": "they preferred urban factory work"
+        },
+        {
+          "id": "D",
+          "text": "the Freedmen's Bureau banned land ownership"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Land seized during the war was largely returned to former Confederates.",
       "distractors": {}
     },
     {
-      "id": "u3-q06", "tier": "Exam level", "type": "mcq", "topic": "Strategies",
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Strategies",
       "stimulus": "Summary: In an 1892 pamphlet, a Memphis journalist reported on lynchings and argued that the common justification, protecting white women, was false; many victims were killed after economic disputes or for succeeding in business. She urged Black residents to boycott and leave Memphis.",
       "stem": "The author of this pamphlet was",
       "choices": [
-        { "id": "A", "text": "Ida B. Wells" },
-        { "id": "B", "text": "Harriet Jacobs" },
-        { "id": "C", "text": "Zora Neale Hurston" },
-        { "id": "D", "text": "Sojourner Truth" }
+        {
+          "id": "A",
+          "text": "Sojourner Truth"
+        },
+        {
+          "id": "B",
+          "text": "Harriet Jacobs"
+        },
+        {
+          "id": "C",
+          "text": "Zora Neale Hurston"
+        },
+        {
+          "id": "D",
+          "text": "Ida B. Wells"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Southern Horrors (1892).",
       "distractors": {}
     },
     {
-      "id": "u3-q07", "tier": "Exam level", "type": "mcq", "topic": "Strategies",
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Strategies",
       "stimulus": "Summary: In an 1892 pamphlet, a Memphis journalist reported on lynchings and argued that the common justification, protecting white women, was false; many victims were killed after economic disputes or for succeeding in business. She urged Black residents to boycott and leave Memphis.",
       "stem": "The pamphlet's methods most closely anticipate which later strategy?",
       "choices": [
-        { "id": "A", "text": "Using documentation, publicity, and economic pressure such as boycotts to challenge racial injustice" },
-        { "id": "B", "text": "Armed revolt" },
-        { "id": "C", "text": "Accepting segregation in exchange for economic opportunity" },
-        { "id": "D", "text": "Emigration to Liberia only" }
+        {
+          "id": "A",
+          "text": "Using documentation, publicity, and economic pressure such as boycotts to challenge racial injustice"
+        },
+        {
+          "id": "B",
+          "text": "Armed revolt"
+        },
+        {
+          "id": "C",
+          "text": "Accepting segregation in exchange for economic opportunity"
+        },
+        {
+          "id": "D",
+          "text": "Emigration to Liberia only"
+        }
       ],
       "answer": "A",
       "explanation": "Investigation and boycotts reappear in the NAACP's work and the Montgomery bus boycott.",
       "distractors": {}
     },
     {
-      "id": "u3-q08", "tier": "Exam level", "type": "mcq", "topic": "Strategies",
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Strategies",
       "stem": "Du Bois's concept of 'double consciousness' refers to",
       "choices": [
-        { "id": "A", "text": "the tension of being both Black and American, always seeing oneself through the eyes of a society that holds one in contempt" },
-        { "id": "B", "text": "voting in two elections" },
-        { "id": "C", "text": "the dual citizenship of formerly enslaved people" },
-        { "id": "D", "text": "industrial and classical education combined" }
+        {
+          "id": "A",
+          "text": "the dual citizenship of formerly enslaved people"
+        },
+        {
+          "id": "B",
+          "text": "voting in two elections"
+        },
+        {
+          "id": "C",
+          "text": "the tension of being both Black and American, always seeing oneself through the eyes of a society that holds one in contempt"
+        },
+        {
+          "id": "D",
+          "text": "industrial and classical education combined"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Introduced in The Souls of Black Folk (1903).",
       "distractors": {}
     },
     {
-      "id": "u3-q09", "tier": "Exam level", "type": "mcq", "topic": "Strategies",
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Strategies",
       "stem": "Marcus Garvey's UNIA differed from the NAACP mainly in that the UNIA",
       "choices": [
-        { "id": "A", "text": "emphasized Black nationalism, self-reliance, and Pan-African unity rather than legal integration" },
-        { "id": "B", "text": "focused on Supreme Court litigation" },
-        { "id": "C", "text": "was led mainly by white reformers" },
-        { "id": "D", "text": "opposed Black-owned businesses" }
+        {
+          "id": "A",
+          "text": "focused on Supreme Court litigation"
+        },
+        {
+          "id": "B",
+          "text": "emphasized Black nationalism, self-reliance, and Pan-African unity rather than legal integration"
+        },
+        {
+          "id": "C",
+          "text": "was led mainly by white reformers"
+        },
+        {
+          "id": "D",
+          "text": "opposed Black-owned businesses"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Garvey founded businesses like the Black Star Line.",
       "distractors": {}
     },
     {
-      "id": "u3-q10", "tier": "Exam level", "type": "mcq", "topic": "War and Rights",
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "War and Rights",
       "stem": "The 'Double V' campaign during World War II called for",
       "choices": [
-        { "id": "A", "text": "victory over fascism abroad and over racism at home" },
-        { "id": "B", "text": "victory in Europe and the Pacific only" },
-        { "id": "C", "text": "two votes for Black citizens" },
-        { "id": "D", "text": "voluntary segregation of the military" }
+        {
+          "id": "A",
+          "text": "victory over fascism abroad and over racism at home"
+        },
+        {
+          "id": "B",
+          "text": "victory in Europe and the Pacific only"
+        },
+        {
+          "id": "C",
+          "text": "two votes for Black citizens"
+        },
+        {
+          "id": "D",
+          "text": "voluntary segregation of the military"
+        }
       ],
       "answer": "A",
       "explanation": "Launched by the Pittsburgh Courier in 1942.",
       "distractors": {}
     },
     {
-      "id": "u3-q11", "tier": "Hardest", "type": "mcq", "topic": "Reconstruction",
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Reconstruction",
       "stem": "Which best explains why the Fifteenth Amendment failed to protect Black voting rights in the South by 1900?",
       "choices": [
-        { "id": "A", "text": "States used race-neutral rules such as poll taxes and literacy tests, applied in discriminatory ways, along with violence, while the federal government withdrew enforcement." },
-        { "id": "B", "text": "The amendment was repealed in 1877." },
-        { "id": "C", "text": "It applied only to Northern states." },
-        { "id": "D", "text": "Black Southerners chose not to vote." }
+        {
+          "id": "A",
+          "text": "It applied only to Northern states."
+        },
+        {
+          "id": "B",
+          "text": "The amendment was repealed in 1877."
+        },
+        {
+          "id": "C",
+          "text": "States used race-neutral rules such as poll taxes and literacy tests, applied in discriminatory ways, along with violence, while the federal government withdrew enforcement."
+        },
+        {
+          "id": "D",
+          "text": "Black Southerners chose not to vote."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Formal neutrality masked discriminatory purpose and effect.",
       "distractors": {}
     },
     {
-      "id": "u3-q12", "tier": "Hardest", "type": "mcq", "topic": "Strategies",
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Strategies",
       "stem": "A historian argues that Washington and Du Bois disagreed more about priorities and timing than about ultimate goals. Which evidence best supports this?",
       "choices": [
-        { "id": "A", "text": "Washington publicly emphasized economic progress but privately funded legal challenges to segregation and disenfranchisement." },
-        { "id": "B", "text": "Du Bois founded Tuskegee Institute." },
-        { "id": "C", "text": "Both supported Garvey's Back to Africa movement." },
-        { "id": "D", "text": "Washington led the Niagara Movement." }
+        {
+          "id": "A",
+          "text": "Washington led the Niagara Movement."
+        },
+        {
+          "id": "B",
+          "text": "Du Bois founded Tuskegee Institute."
+        },
+        {
+          "id": "C",
+          "text": "Both supported Garvey's Back to Africa movement."
+        },
+        {
+          "id": "D",
+          "text": "Washington publicly emphasized economic progress but privately funded legal challenges to segregation and disenfranchisement."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Washington's private actions suggest he also sought equal rights.",
       "distractors": {}
     },
     {
-      "id": "u3-q13", "tier": "Hardest", "type": "mcq", "topic": "Culture",
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Culture",
       "stem": "Alain Locke's idea of the 'New Negro' (1925) is best described as",
       "choices": [
-        { "id": "A", "text": "a call for Black Americans to define themselves through art and culture, rejecting stereotypes and asserting dignity" },
-        { "id": "B", "text": "a plan for industrial education" },
-        { "id": "C", "text": "support for returning to Africa" },
-        { "id": "D", "text": "a legal strategy against Plessy" }
+        {
+          "id": "A",
+          "text": "a call for Black Americans to define themselves through art and culture, rejecting stereotypes and asserting dignity"
+        },
+        {
+          "id": "B",
+          "text": "a plan for industrial education"
+        },
+        {
+          "id": "C",
+          "text": "support for returning to Africa"
+        },
+        {
+          "id": "D",
+          "text": "a legal strategy against Plessy"
+        }
       ],
       "answer": "A",
       "explanation": "Culture as a tool for self-definition and change.",
       "distractors": {}
     },
     {
-      "id": "u3-q14", "tier": "Hardest", "type": "mcq", "topic": "Economy",
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Economy",
       "stem": "The destruction of Tulsa's Greenwood district in 1921 is most often used by historians to show that",
       "choices": [
-        { "id": "A", "text": "Black economic success could itself provoke white violence, limiting the effectiveness of self-help strategies" },
-        { "id": "B", "text": "Black communities lacked businesses" },
-        { "id": "C", "text": "the federal government protected Black property" },
-        { "id": "D", "text": "segregation had ended by 1921" }
+        {
+          "id": "A",
+          "text": "the federal government protected Black property"
+        },
+        {
+          "id": "B",
+          "text": "Black communities lacked businesses"
+        },
+        {
+          "id": "C",
+          "text": "Black economic success could itself provoke white violence, limiting the effectiveness of self-help strategies"
+        },
+        {
+          "id": "D",
+          "text": "segregation had ended by 1921"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "It complicates Washington's prediction that prosperity would bring acceptance.",
       "distractors": {}
     },
     {
-      "id": "u3-frq1", "tier": "Exam level", "type": "frq", "topic": "Strategies", "frqType": "Short-answer question (4 points)",
+      "id": "u3-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Strategies",
+      "frqType": "Short-answer question (4 points)",
       "prompt": "Source 1 (summary): In his 1895 Atlanta Exposition address, Booker T. Washington urged Black Southerners to build economic security through farming, trades, and industrial education, and suggested that demands for social equality could wait.\n\nSource 2 (summary): In The Souls of Black Folk (1903), W. E. B. Du Bois argued that Washington's approach accepted disenfranchisement and second-class citizenship, and insisted on the right to vote, civil equality, and higher education.\n\nAnswer A, B, C, and D.",
       "parts": [
-        { "label": "A", "prompt": "Describe Washington's argument in Source 1.", "points": 1 },
-        { "label": "B", "prompt": "Describe one way Du Bois's argument in Source 2 differs from Washington's.", "points": 1 },
-        { "label": "C", "prompt": "Explain one historical development in the 1890s that shaped this debate.", "points": 1 },
-        { "label": "D", "prompt": "Explain how another individual or organization of the period pursued a different strategy for Black advancement.", "points": 1 }
+        {
+          "label": "A",
+          "prompt": "Describe Washington's argument in Source 1.",
+          "points": 1
+        },
+        {
+          "label": "B",
+          "prompt": "Describe one way Du Bois's argument in Source 2 differs from Washington's.",
+          "points": 1
+        },
+        {
+          "label": "C",
+          "prompt": "Explain one historical development in the 1890s that shaped this debate.",
+          "points": 1
+        },
+        {
+          "label": "D",
+          "prompt": "Explain how another individual or organization of the period pursued a different strategy for Black advancement.",
+          "points": 1
+        }
       ],
       "points": 4,
       "minutes": 15,
       "rubric": [
-        { "criterion": "A", "points": 1, "description": "Economic self-help and vocational education first; postpone agitation for social equality." },
-        { "criterion": "B", "points": 1, "description": "Du Bois demanded immediate political and civil rights and higher/liberal arts education." },
-        { "criterion": "C", "points": 1, "description": "E.g., Plessy v. Ferguson (1896), Southern disenfranchisement laws, rising lynching, the end of Reconstruction." },
-        { "criterion": "D", "points": 1, "description": "E.g., Ida B. Wells's anti-lynching journalism; the NAACP's legal strategy; Garvey's UNIA and Pan-Africanism; Exodusters' migration." }
+        {
+          "criterion": "A",
+          "points": 1,
+          "description": "Economic self-help and vocational education first; postpone agitation for social equality."
+        },
+        {
+          "criterion": "B",
+          "points": 1,
+          "description": "Du Bois demanded immediate political and civil rights and higher/liberal arts education."
+        },
+        {
+          "criterion": "C",
+          "points": 1,
+          "description": "E.g., Plessy v. Ferguson (1896), Southern disenfranchisement laws, rising lynching, the end of Reconstruction."
+        },
+        {
+          "criterion": "D",
+          "points": 1,
+          "description": "E.g., Ida B. Wells's anti-lynching journalism; the NAACP's legal strategy; Garvey's UNIA and Pan-Africanism; Exodusters' migration."
+        }
       ],
       "sampleResponse": "A. Washington argued that Black Southerners should focus on economic progress through industrial education and skilled labor, building wealth and respect first while setting aside demands for social equality.\n\nB. Du Bois rejected waiting; he argued that Black Americans must demand the vote and equal civil rights now, and that college education was needed to develop leaders.\n\nC. In the 1890s, Southern states disenfranchised Black voters through poll taxes and literacy tests, and Plessy v. Ferguson (1896) upheld segregation. These setbacks made Washington's accommodation seem practical to some and unacceptable to Du Bois.\n\nD. Ida B. Wells used investigative journalism to expose lynching and urged boycotts and migration from Memphis, directly confronting racial violence rather than accommodating it."
     }

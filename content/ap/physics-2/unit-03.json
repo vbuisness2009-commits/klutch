@@ -45,224 +45,547 @@
     "cramSheet": "**Basics:** I = Δq/Δt · R = ρℓ/A · ΔV = IR · P = IΔV = I²R = ΔV²/R\n\n**Series:** same I · R_eq = ΣR\n\n**Parallel:** same ΔV · 1/R_eq = Σ1/R\n\n**Kirchhoff:** junction (ΣI_in = ΣI_out) · loop (ΣΔV = 0)\n\n**Battery:** ΔV_terminal = ε − Ir\n\n**Capacitors:** parallel C add · series 1/C add · t = 0 wire · steady state open · τ = RC"
   },
   "vocab": [
-    { "term": "Electric current", "definition": "The rate of flow of charge: I = Δq/Δt." },
-    { "term": "Resistivity", "definition": "A material property that determines resistance: R = ρℓ/A." },
-    { "term": "Ohm's law", "definition": "ΔV = IR for ohmic materials." },
-    { "term": "Equivalent resistance", "definition": "The single resistance that would draw the same current from the source as a combination." },
-    { "term": "Series circuit", "definition": "Elements connected end to end with a single path for current." },
-    { "term": "Parallel circuit", "definition": "Elements connected across the same two points, sharing the same potential difference." },
-    { "term": "Kirchhoff's junction rule", "definition": "The total current into a junction equals the total current out." },
-    { "term": "Kirchhoff's loop rule", "definition": "The sum of potential changes around a closed loop is zero." },
-    { "term": "Electromotive force (emf)", "definition": "The potential difference a source provides when no current flows." },
-    { "term": "Internal resistance", "definition": "The resistance within a battery, which lowers terminal voltage when current flows." },
-    { "term": "Time constant", "definition": "τ = RC, the characteristic time for charging or discharging a capacitor." },
-    { "term": "Steady state", "definition": "The condition after a long time when currents and voltages no longer change." }
+    {
+      "term": "Electric current",
+      "definition": "The rate of flow of charge: I = Δq/Δt."
+    },
+    {
+      "term": "Resistivity",
+      "definition": "A material property that determines resistance: R = ρℓ/A."
+    },
+    {
+      "term": "Ohm's law",
+      "definition": "ΔV = IR for ohmic materials."
+    },
+    {
+      "term": "Equivalent resistance",
+      "definition": "The single resistance that would draw the same current from the source as a combination."
+    },
+    {
+      "term": "Series circuit",
+      "definition": "Elements connected end to end with a single path for current."
+    },
+    {
+      "term": "Parallel circuit",
+      "definition": "Elements connected across the same two points, sharing the same potential difference."
+    },
+    {
+      "term": "Kirchhoff's junction rule",
+      "definition": "The total current into a junction equals the total current out."
+    },
+    {
+      "term": "Kirchhoff's loop rule",
+      "definition": "The sum of potential changes around a closed loop is zero."
+    },
+    {
+      "term": "Electromotive force (emf)",
+      "definition": "The potential difference a source provides when no current flows."
+    },
+    {
+      "term": "Internal resistance",
+      "definition": "The resistance within a battery, which lowers terminal voltage when current flows."
+    },
+    {
+      "term": "Time constant",
+      "definition": "τ = RC, the characteristic time for charging or discharging a capacitor."
+    },
+    {
+      "term": "Steady state",
+      "definition": "The condition after a long time when currents and voltages no longer change."
+    }
   ],
   "practice": [
     {
-      "id": "u3-q01", "tier": "Intro", "type": "mcq", "topic": "Resistance, Resistivity, and Ohm's Law",
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Resistance, Resistivity, and Ohm's Law",
       "stem": "A wire's length is doubled and its diameter is doubled. Its resistance becomes",
       "choices": [
-        { "id": "A", "text": "4 times as large" },
-        { "id": "B", "text": "twice as large" },
-        { "id": "C", "text": "half as large" },
-        { "id": "D", "text": "unchanged" }
+        {
+          "id": "A",
+          "text": "4 times as large"
+        },
+        {
+          "id": "B",
+          "text": "half as large"
+        },
+        {
+          "id": "C",
+          "text": "twice as large"
+        },
+        {
+          "id": "D",
+          "text": "unchanged"
+        }
       ],
-      "answer": "C",
+      "answer": "B",
       "explanation": "R ∝ ℓ/A: ℓ × 2, A × 4 → R × 1/2.",
-      "distractors": { "D": "Assumes area doubles with diameter." }
+      "distractors": {
+        "D": "Assumes area doubles with diameter."
+      }
     },
     {
-      "id": "u3-q02", "tier": "Intro", "type": "mcq", "topic": "Electrical Power",
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Electrical Power",
       "stem": "A lamp is rated 60 W at 120 V. What is its resistance when operating?",
       "choices": [
-        { "id": "A", "text": "0.5 Ω" },
-        { "id": "B", "text": "2 Ω" },
-        { "id": "C", "text": "240 Ω" },
-        { "id": "D", "text": "7,200 Ω" }
+        {
+          "id": "A",
+          "text": "0.5 Ω"
+        },
+        {
+          "id": "B",
+          "text": "2 Ω"
+        },
+        {
+          "id": "C",
+          "text": "240 Ω"
+        },
+        {
+          "id": "D",
+          "text": "7,200 Ω"
+        }
       ],
       "answer": "C",
       "explanation": "R = ΔV²/P = 14,400/60 = 240 Ω.",
-      "distractors": { "A": "That's the current in amperes." }
+      "distractors": {
+        "A": "That's the current in amperes."
+      }
     },
     {
-      "id": "u3-q03", "tier": "Intro", "type": "mcq", "topic": "Compound Direct Current Circuits",
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Compound Direct Current Circuits",
       "stem": "Which statement about resistors connected in parallel is true?",
       "choices": [
-        { "id": "A", "text": "They carry the same current." },
-        { "id": "B", "text": "They have the same potential difference across them." },
-        { "id": "C", "text": "Their equivalent resistance is larger than any single resistor." },
-        { "id": "D", "text": "Removing one stops current in all of them." }
+        {
+          "id": "A",
+          "text": "They have the same potential difference across them."
+        },
+        {
+          "id": "B",
+          "text": "They carry the same current."
+        },
+        {
+          "id": "C",
+          "text": "Their equivalent resistance is larger than any single resistor."
+        },
+        {
+          "id": "D",
+          "text": "Removing one stops current in all of them."
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Parallel branches connect across the same two points.",
       "distractors": {}
     },
     {
-      "id": "u3-q04", "tier": "Intro", "type": "mcq", "topic": "Capacitors in Circuits",
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Capacitors in Circuits",
       "stem": "Long after a switch is closed in a circuit with a battery, a resistor, and an initially uncharged capacitor in series, the current in the circuit is",
       "choices": [
-        { "id": "A", "text": "maximum" },
-        { "id": "B", "text": "zero" },
-        { "id": "C", "text": "ε/R" },
-        { "id": "D", "text": "increasing" }
+        {
+          "id": "A",
+          "text": "maximum"
+        },
+        {
+          "id": "B",
+          "text": "increasing"
+        },
+        {
+          "id": "C",
+          "text": "ε/R"
+        },
+        {
+          "id": "D",
+          "text": "zero"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "At steady state the capacitor is fully charged and blocks current.",
-      "distractors": { "C": "Initial current." }
+      "distractors": {
+        "C": "Initial current."
+      }
     },
     {
-      "id": "u3-q05", "tier": "Exam level", "type": "mcq", "topic": "Compound Direct Current Circuits",
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Compound Direct Current Circuits",
       "stem": "A 4 Ω resistor is in series with a parallel combination of 6 Ω and 3 Ω resistors, connected to a 12 V ideal battery. What is the current in the 6 Ω resistor?",
       "choices": [
-        { "id": "A", "text": "0.67 A" },
-        { "id": "B", "text": "1.3 A" },
-        { "id": "C", "text": "2.0 A" },
-        { "id": "D", "text": "0.50 A" }
+        {
+          "id": "A",
+          "text": "1.3 A"
+        },
+        {
+          "id": "B",
+          "text": "0.67 A"
+        },
+        {
+          "id": "C",
+          "text": "2.0 A"
+        },
+        {
+          "id": "D",
+          "text": "0.50 A"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Parallel = 2 Ω; total 6 Ω; I = 2 A; V_parallel = 4 V; I₆ = 4/6 ≈ 0.67 A.",
-      "distractors": { "B": "Current in the 3 Ω resistor.", "C": "Total current." }
+      "distractors": {
+        "C": "Total current.",
+        "A": "Current in the 3 Ω resistor."
+      }
     },
     {
-      "id": "u3-q06", "tier": "Exam level", "type": "mcq", "topic": "Compound Direct Current Circuits",
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Compound Direct Current Circuits",
       "stem": "Two identical bulbs are connected in parallel to an ideal battery. A third identical bulb is added in parallel. What happens to the brightness of the original bulbs and the current from the battery?",
       "choices": [
-        { "id": "A", "text": "Original bulbs stay equally bright; battery current increases." },
-        { "id": "B", "text": "Original bulbs get dimmer; battery current stays the same." },
-        { "id": "C", "text": "Original bulbs get brighter; battery current decreases." },
-        { "id": "D", "text": "All bulbs go out." }
+        {
+          "id": "A",
+          "text": "All bulbs go out."
+        },
+        {
+          "id": "B",
+          "text": "Original bulbs get dimmer; battery current stays the same."
+        },
+        {
+          "id": "C",
+          "text": "Original bulbs get brighter; battery current decreases."
+        },
+        {
+          "id": "D",
+          "text": "Original bulbs stay equally bright; battery current increases."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Each branch still has the full battery voltage; total resistance decreases, so total current rises.",
       "distractors": {}
     },
     {
-      "id": "u3-q07", "tier": "Exam level", "type": "mcq", "topic": "Kirchhoff's Rules",
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Kirchhoff's Rules",
       "stem": "A battery with emf 9.0 V and internal resistance 1.0 Ω is connected to an 8.0 Ω resistor. What is the terminal voltage?",
       "choices": [
-        { "id": "A", "text": "9.0 V" },
-        { "id": "B", "text": "8.0 V" },
-        { "id": "C", "text": "1.0 V" },
-        { "id": "D", "text": "7.1 V" }
+        {
+          "id": "A",
+          "text": "8.0 V"
+        },
+        {
+          "id": "B",
+          "text": "9.0 V"
+        },
+        {
+          "id": "C",
+          "text": "1.0 V"
+        },
+        {
+          "id": "D",
+          "text": "7.1 V"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "I = 9/(8 + 1) = 1 A; ΔV = ε − Ir = 9 − 1 = 8 V.",
-      "distractors": { "A": "Ignores internal resistance." }
+      "distractors": {
+        "B": "Ignores internal resistance."
+      }
     },
     {
-      "id": "u3-q08", "tier": "Exam level", "type": "mcq", "topic": "Compound Direct Current Circuits",
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Compound Direct Current Circuits",
       "stem": "Bulb A is in series with a parallel pair of identical bulbs B and C, all identical, connected to an ideal battery. Rank the brightness.",
       "choices": [
-        { "id": "A", "text": "A > B = C" },
-        { "id": "B", "text": "A = B = C" },
-        { "id": "C", "text": "B = C > A" },
-        { "id": "D", "text": "A < B < C" }
+        {
+          "id": "A",
+          "text": "A > B = C"
+        },
+        {
+          "id": "B",
+          "text": "A = B = C"
+        },
+        {
+          "id": "C",
+          "text": "B = C > A"
+        },
+        {
+          "id": "D",
+          "text": "A < B < C"
+        }
       ],
       "answer": "A",
       "explanation": "All current passes through A; it splits equally between B and C. P = I²R.",
       "distractors": {}
     },
     {
-      "id": "u3-q09", "tier": "Exam level", "type": "mcq", "topic": "Capacitors in Circuits",
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Capacitors in Circuits",
       "stem": "Capacitors of 2 μF and 6 μF are connected in series to a 12 V battery. What is the charge on each?",
       "choices": [
-        { "id": "A", "text": "18 μC" },
-        { "id": "B", "text": "24 μC" },
-        { "id": "C", "text": "72 μC" },
-        { "id": "D", "text": "96 μC" }
+        {
+          "id": "A",
+          "text": "18 μC"
+        },
+        {
+          "id": "B",
+          "text": "24 μC"
+        },
+        {
+          "id": "C",
+          "text": "72 μC"
+        },
+        {
+          "id": "D",
+          "text": "96 μC"
+        }
       ],
       "answer": "A",
       "explanation": "C_eq = 1/(1/2 + 1/6) = 1.5 μF; Q = 1.5 × 12 = 18 μC on each.",
-      "distractors": { "D": "Treats them as parallel." }
+      "distractors": {
+        "D": "Treats them as parallel."
+      }
     },
     {
-      "id": "u3-q10", "tier": "Exam level", "type": "mcq", "topic": "Kirchhoff's Rules",
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Kirchhoff's Rules",
       "stem": "At a junction, 3.0 A flows in through one wire and 1.2 A flows out through a second wire. What is the current in the third wire?",
       "choices": [
-        { "id": "A", "text": "1.8 A out of the junction" },
-        { "id": "B", "text": "4.2 A into the junction" },
-        { "id": "C", "text": "1.8 A into the junction" },
-        { "id": "D", "text": "4.2 A out" }
+        {
+          "id": "A",
+          "text": "1.8 A into the junction"
+        },
+        {
+          "id": "B",
+          "text": "4.2 A into the junction"
+        },
+        {
+          "id": "C",
+          "text": "1.8 A out of the junction"
+        },
+        {
+          "id": "D",
+          "text": "4.2 A out"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Charge conservation: 3.0 = 1.2 + I → I = 1.8 A out.",
       "distractors": {}
     },
     {
-      "id": "u3-q11", "tier": "Hardest", "type": "mcq", "topic": "Compound Direct Current Circuits",
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Compound Direct Current Circuits",
       "stem": "In the circuit described (A in series with parallel B and C, all identical, ideal battery), bulb C is unscrewed. What happens to bulbs A and B?",
       "choices": [
-        { "id": "A", "text": "A gets dimmer; B gets brighter." },
-        { "id": "B", "text": "A gets brighter; B gets dimmer." },
-        { "id": "C", "text": "Both get brighter." },
-        { "id": "D", "text": "Both stay the same." }
+        {
+          "id": "A",
+          "text": "A gets dimmer; B gets brighter."
+        },
+        {
+          "id": "B",
+          "text": "A gets brighter; B gets dimmer."
+        },
+        {
+          "id": "C",
+          "text": "Both get brighter."
+        },
+        {
+          "id": "D",
+          "text": "Both stay the same."
+        }
       ],
       "answer": "A",
       "explanation": "R_eq rises from 1.5R to 2R, so total current falls (A dimmer). A's voltage drops from 2ε/3 to ε/2, so B's rises from ε/3 to ε/2 (brighter).",
       "distractors": {}
     },
     {
-      "id": "u3-q12", "tier": "Hardest", "type": "mcq", "topic": "Capacitors in Circuits",
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Capacitors in Circuits",
       "stem": "A 10 Ω resistor and a 20 Ω resistor are in series with a 30 V battery. A capacitor is connected in parallel with the 20 Ω resistor. At steady state, what is the potential difference across the capacitor?",
       "choices": [
-        { "id": "A", "text": "0 V" },
-        { "id": "B", "text": "10 V" },
-        { "id": "C", "text": "20 V" },
-        { "id": "D", "text": "30 V" }
+        {
+          "id": "A",
+          "text": "0 V"
+        },
+        {
+          "id": "B",
+          "text": "10 V"
+        },
+        {
+          "id": "C",
+          "text": "20 V"
+        },
+        {
+          "id": "D",
+          "text": "30 V"
+        }
       ],
       "answer": "C",
       "explanation": "No current enters the capacitor branch at steady state; I = 1 A through the resistors; V₂₀ = 20 V.",
-      "distractors": { "D": "Treats the capacitor as if alone across the battery." }
+      "distractors": {
+        "D": "Treats the capacitor as if alone across the battery."
+      }
     },
     {
-      "id": "u3-q13", "tier": "Hardest", "type": "mcq", "topic": "Kirchhoff's Rules",
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Kirchhoff's Rules",
       "stem": "A real battery is connected to a variable resistor. As the external resistance is decreased toward zero, the terminal voltage",
       "choices": [
-        { "id": "A", "text": "increases toward ε" },
-        { "id": "B", "text": "decreases toward zero" },
-        { "id": "C", "text": "stays at ε" },
-        { "id": "D", "text": "becomes negative" }
+        {
+          "id": "A",
+          "text": "increases toward ε"
+        },
+        {
+          "id": "B",
+          "text": "decreases toward zero"
+        },
+        {
+          "id": "C",
+          "text": "stays at ε"
+        },
+        {
+          "id": "D",
+          "text": "becomes negative"
+        }
       ],
       "answer": "B",
       "explanation": "Current approaches ε/r, so ε − Ir approaches 0.",
       "distractors": {}
     },
     {
-      "id": "u3-q14", "tier": "Hardest", "type": "mcq", "topic": "Electrical Power",
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Electrical Power",
       "stem": "Two resistors, R and 2R, are connected in parallel to a battery. Which dissipates more power, and by what factor?",
       "choices": [
-        { "id": "A", "text": "R, by a factor of 2" },
-        { "id": "B", "text": "2R, by a factor of 2" },
-        { "id": "C", "text": "R, by a factor of 4" },
-        { "id": "D", "text": "They dissipate equal power." }
+        {
+          "id": "A",
+          "text": "They dissipate equal power."
+        },
+        {
+          "id": "B",
+          "text": "2R, by a factor of 2"
+        },
+        {
+          "id": "C",
+          "text": "R, by a factor of 4"
+        },
+        {
+          "id": "D",
+          "text": "R, by a factor of 2"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Same ΔV: P = ΔV²/R, so the smaller resistor dissipates twice the power.",
-      "distractors": { "B": "True in series, not parallel." }
+      "distractors": {
+        "B": "True in series, not parallel."
+      }
     },
     {
-      "id": "u3-frq1", "tier": "Exam level", "type": "frq", "topic": "Resistance, Resistivity, and Ohm's Law", "frqType": "Experimental Design and Analysis (LAB)",
+      "id": "u3-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Resistance, Resistivity, and Ohm's Law",
+      "frqType": "Experimental Design and Analysis (LAB)",
       "prompt": "Students want to determine the resistivity of a metal alloy. They have a long wire of the alloy with diameter 0.50 mm, a variable power supply, an ammeter, a voltmeter, connecting clips, and a meterstick.",
       "parts": [
-        { "label": "A", "prompt": "Describe a procedure to collect data that would allow the students to determine the resistivity. Include how each instrument is connected and how to reduce experimental uncertainty.", "points": 3 },
-        { "label": "B", "prompt": "The students' data are:\n\n| Length (m) | 0.20 | 0.40 | 0.60 | 0.80 | 1.00 |\n|---|---|---|---|---|---|\n| Resistance (Ω) | 1.1 | 2.3 | 3.3 | 4.5 | 5.6 |\n\nDescribe a graph of these data that would yield a straight line, including axis labels with units and a best-fit line.", "points": 3 },
-        { "label": "C", "prompt": "Use the slope of your best-fit line to calculate the resistivity of the alloy.", "points": 3 },
-        { "label": "D", "prompt": "The wire heats up noticeably at higher currents. Explain how this would affect the measured resistivity.", "points": 1 }
+        {
+          "label": "A",
+          "prompt": "Describe a procedure to collect data that would allow the students to determine the resistivity. Include how each instrument is connected and how to reduce experimental uncertainty.",
+          "points": 3
+        },
+        {
+          "label": "B",
+          "prompt": "The students' data are:\n\n| Length (m) | 0.20 | 0.40 | 0.60 | 0.80 | 1.00 |\n|---|---|---|---|---|---|\n| Resistance (Ω) | 1.1 | 2.3 | 3.3 | 4.5 | 5.6 |\n\nDescribe a graph of these data that would yield a straight line, including axis labels with units and a best-fit line.",
+          "points": 3
+        },
+        {
+          "label": "C",
+          "prompt": "Use the slope of your best-fit line to calculate the resistivity of the alloy.",
+          "points": 3
+        },
+        {
+          "label": "D",
+          "prompt": "The wire heats up noticeably at higher currents. Explain how this would affect the measured resistivity.",
+          "points": 1
+        }
       ],
       "points": 10,
       "minutes": 22,
       "rubric": [
-        { "criterion": "A1: Measurements", "points": 1, "description": "Measure length with meterstick; measure current with ammeter in series and voltage with voltmeter in parallel across the length of wire." },
-        { "criterion": "A2: Variation", "points": 1, "description": "Vary the length between clips over several values and calculate R = ΔV/I for each." },
-        { "criterion": "A3: Uncertainty", "points": 1, "description": "Repeat trials, use many lengths, or keep current low to limit heating." },
-        { "criterion": "B1: Axes", "points": 1, "description": "Resistance (Ω) on vertical axis, length (m) on horizontal, linear scales." },
-        { "criterion": "B2: Points", "points": 1, "description": "Five data points plotted correctly." },
-        { "criterion": "B3: Best fit", "points": 1, "description": "Straight line through the data, not forced through every point." },
-        { "criterion": "C1: Slope", "points": 1, "description": "Slope ≈ 5.6 Ω/m (accept 5.3–5.9)." },
-        { "criterion": "C2: Relation", "points": 1, "description": "Slope = ρ/A, with A = π(0.25 × 10⁻³ m)² ≈ 1.96 × 10⁻⁷ m²." },
-        { "criterion": "C3: Result", "points": 1, "description": "ρ ≈ 1.1 × 10⁻⁶ Ω·m (consistent with slope)." },
-        { "criterion": "D", "points": 1, "description": "Resistivity of metals increases with temperature, so heating makes measured R and ρ too large." }
+        {
+          "criterion": "A1: Measurements",
+          "points": 1,
+          "description": "Measure length with meterstick; measure current with ammeter in series and voltage with voltmeter in parallel across the length of wire."
+        },
+        {
+          "criterion": "A2: Variation",
+          "points": 1,
+          "description": "Vary the length between clips over several values and calculate R = ΔV/I for each."
+        },
+        {
+          "criterion": "A3: Uncertainty",
+          "points": 1,
+          "description": "Repeat trials, use many lengths, or keep current low to limit heating."
+        },
+        {
+          "criterion": "B1: Axes",
+          "points": 1,
+          "description": "Resistance (Ω) on vertical axis, length (m) on horizontal, linear scales."
+        },
+        {
+          "criterion": "B2: Points",
+          "points": 1,
+          "description": "Five data points plotted correctly."
+        },
+        {
+          "criterion": "B3: Best fit",
+          "points": 1,
+          "description": "Straight line through the data, not forced through every point."
+        },
+        {
+          "criterion": "C1: Slope",
+          "points": 1,
+          "description": "Slope ≈ 5.6 Ω/m (accept 5.3–5.9)."
+        },
+        {
+          "criterion": "C2: Relation",
+          "points": 1,
+          "description": "Slope = ρ/A, with A = π(0.25 × 10⁻³ m)² ≈ 1.96 × 10⁻⁷ m²."
+        },
+        {
+          "criterion": "C3: Result",
+          "points": 1,
+          "description": "ρ ≈ 1.1 × 10⁻⁶ Ω·m (consistent with slope)."
+        },
+        {
+          "criterion": "D",
+          "points": 1,
+          "description": "Resistivity of metals increases with temperature, so heating makes measured R and ρ too large."
+        }
       ],
       "sampleResponse": "A. Connect the power supply, ammeter, and wire in series, using clips to select a length of wire. Connect the voltmeter in parallel across the selected length. Measure the length between the clips with the meterstick. Set a low voltage, record the current and voltage, and calculate R = ΔV/I. Repeat for at least five different lengths, and repeat each measurement several times and average. Keep the current small to avoid heating the wire.\n\nB. Plot resistance (Ω) on the vertical axis and length (m) on the horizontal axis with evenly spaced scales. The five points lie nearly on a straight line; draw a best-fit line through them, which passes near the origin.\n\nC. Slope ≈ (5.6 − 1.1)/(1.00 − 0.20) ≈ 5.6 Ω/m. Since R = ρℓ/A, the slope equals ρ/A. A = π(0.25 × 10⁻³ m)² = 1.96 × 10⁻⁷ m². ρ = (5.6 Ω/m)(1.96 × 10⁻⁷ m²) ≈ 1.1 × 10⁻⁶ Ω·m.\n\nD. The resistivity of a metal increases as its temperature increases, so heating would make the measured resistance, and therefore the calculated resistivity, larger than the room-temperature value."
     }

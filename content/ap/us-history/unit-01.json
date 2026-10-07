@@ -184,7 +184,7 @@
         },
         {
           "id": "B",
-          "text": "the cultivation of maize spreading from Mesoamerica"
+          "text": "fur trading with Northeastern peoples"
         },
         {
           "id": "C",
@@ -192,15 +192,15 @@
         },
         {
           "id": "D",
-          "text": "fur trading with Northeastern peoples"
+          "text": "the cultivation of maize spreading from Mesoamerica"
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Maize agriculture spread northward from present-day Mexico and, combined with irrigation, supported permanent villages and social diversification in the Southwest.",
       "distractors": {
         "A": "Horses arrived with the Spanish after contact.",
         "C": "Iron tools came from Europeans after contact.",
-        "D": "The fur trade was a post-contact European-driven development, and it was centered in the Northeast and Canada."
+        "B": "The fur trade was a post-contact European-driven development, and it was centered in the Northeast and Canada."
       }
     },
     {
@@ -214,7 +214,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "were mostly nomadic because of limited resources"
+          "text": "developed permanent villages without relying on maize agriculture"
         },
         {
           "id": "B",
@@ -226,15 +226,15 @@
         },
         {
           "id": "D",
-          "text": "developed permanent villages without relying on maize agriculture"
+          "text": "were mostly nomadic because of limited resources"
         }
       ],
-      "answer": "D",
+      "answer": "A",
       "explanation": "The excerpt notes that salmon and forest resources supported permanent villages and stratified societies without large-scale agriculture, unlike the maize-and-irrigation Southwest.",
       "distractors": {
-        "A": "The excerpt describes abundant resources and permanent villages, not scarcity and nomadism.",
         "B": "The excerpt explicitly calls them stratified.",
-        "C": "Irrigation describes the Southwest, not the Northwest."
+        "C": "Irrigation describes the Southwest, not the Northwest.",
+        "D": "The excerpt describes abundant resources and permanent villages, not scarcity and nomadism."
       }
     },
     {
@@ -248,7 +248,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "persuade Spanish authorities to reform the treatment of Native peoples"
+          "text": "justify the encomienda as a means of conversion"
         },
         {
           "id": "B",
@@ -256,19 +256,19 @@
         },
         {
           "id": "C",
-          "text": "justify the encomienda as a means of conversion"
+          "text": "persuade Spanish authorities to reform the treatment of Native peoples"
         },
         {
           "id": "D",
           "text": "describe the military tactics of the conquistadors"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Las Casas wrote for the crown and court and urged the king to stop abuses. His purpose was reform, which contributed to the New Laws of 1542.",
       "distractors": {
         "B": "Nothing in the summary promotes settlement.",
-        "C": "He condemned the encomienda's abuses rather than defending it.",
-        "D": "Violence is described to condemn greed, not to analyze tactics."
+        "D": "Violence is described to condemn greed, not to analyze tactics.",
+        "A": "He condemned the encomienda's abuses rather than defending it."
       }
     },
     {
@@ -286,23 +286,23 @@
         },
         {
           "id": "B",
-          "text": "The expulsion of Jesuits from Spanish colonies"
+          "text": "The issuing of the New Laws limiting the encomienda"
         },
         {
           "id": "C",
-          "text": "The issuing of the New Laws limiting the encomienda"
+          "text": "The expulsion of Jesuits from Spanish colonies"
         },
         {
           "id": "D",
           "text": "The founding of the Spanish colony at St. Augustine"
         }
       ],
-      "answer": "C",
+      "answer": "B",
       "explanation": "The New Laws of 1542, issued the same year Las Casas wrote his account, restricted the encomienda and prohibited the enslavement of Native people, though colonists resisted and enforcement was weak.",
       "distractors": {
         "A": "Tordesillas (1494) divided claims between Spain and Portugal; it had nothing to do with treatment of Native people.",
-        "B": "The Jesuit expulsion came in 1767 and was about royal power, not Las Casas's complaints.",
-        "D": "St. Augustine (1565) was a defensive outpost in Florida."
+        "D": "St. Augustine (1565) was a defensive outpost in Florida.",
+        "C": "The Jesuit expulsion came in 1767 and was about royal power, not Las Casas's complaints."
       }
     },
     {
@@ -350,7 +350,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "The rise of the Iroquois Confederacy"
+          "text": "Population collapse among Native Americans"
         },
         {
           "id": "B",
@@ -358,19 +358,19 @@
         },
         {
           "id": "C",
-          "text": "Population collapse among Native Americans"
+          "text": "The rise of the Iroquois Confederacy"
         },
         {
           "id": "D",
           "text": "The decline of the Atlantic slave trade"
         }
       ],
-      "answer": "C",
+      "answer": "A",
       "explanation": "The right column lists smallpox, measles, and influenza moving to the Americas. These epidemics caused catastrophic Native population decline.",
       "distractors": {
-        "A": "The Confederacy predates contact and is not reflected in the table.",
         "B": "Not related to the transfers shown.",
-        "D": "The table lists enslaved Africans moving to the Americas, which reflects the growth, not decline, of the trade."
+        "D": "The table lists enslaved Africans moving to the Americas, which reflects the growth, not decline, of the trade.",
+        "C": "The Confederacy predates contact and is not reflected in the table."
       }
     },
     {
@@ -388,23 +388,23 @@
         },
         {
           "id": "B",
-          "text": "Price inflation and the growth of commercial capitalism"
+          "text": "The end of European trade with Asia"
         },
         {
           "id": "C",
-          "text": "The end of European trade with Asia"
+          "text": "Price inflation and the growth of commercial capitalism"
         },
         {
           "id": "D",
           "text": "The collapse of the Spanish Empire"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "American silver greatly increased the money supply, contributing to inflation (often called the price revolution) and expanding commercial activity, which helped shift Europe from feudal toward capitalist economies.",
       "distractors": {
         "A": "Silver strengthened monarchies like Spain's in the short run.",
-        "C": "Silver actually fueled trade with Asia, especially China.",
-        "D": "Spain's empire lasted until the nineteenth century."
+        "D": "Spain's empire lasted until the nineteenth century.",
+        "B": "Silver actually fueled trade with Asia, especially China."
       }
     },
     {
@@ -418,7 +418,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Many Plains peoples adopted a more mobile way of life centered on hunting bison on horseback"
+          "text": "Northeastern peoples ended their involvement in trade with Europeans"
         },
         {
           "id": "B",
@@ -430,15 +430,15 @@
         },
         {
           "id": "D",
-          "text": "Northeastern peoples ended their involvement in trade with Europeans"
+          "text": "Many Plains peoples adopted a more mobile way of life centered on hunting bison on horseback"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Horses, which spread north from Spanish New Mexico, allowed many Plains peoples to adopt mounted bison hunting and became central to their economies, warfare, and status. This is a classic example of Native adaptation to a Columbian Exchange import.",
       "distractors": {
         "B": "Some groups (such as the Navajo) incorporated sheep, but most Pueblo and Southwestern peoples did not abandon agriculture.",
         "C": "Mississippian mound-building had declined before or soon after contact; livestock did not cause growth.",
-        "D": "Northeastern peoples were deeply involved in the fur trade."
+        "A": "Northeastern peoples were deeply involved in the fur trade."
       }
     },
     {
@@ -452,7 +452,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "illustrate and reinforce a social hierarchy based on ancestry"
+          "text": "encourage enslaved Africans to resist"
         },
         {
           "id": "B",
@@ -460,19 +460,19 @@
         },
         {
           "id": "C",
-          "text": "encourage enslaved Africans to resist"
+          "text": "illustrate and reinforce a social hierarchy based on ancestry"
         },
         {
           "id": "D",
           "text": "promote the end of intermarriage between Spaniards and others"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The paintings label parents and children by ancestry and show families with more Spanish ancestry in finer settings, visually ranking society by race and ancestry.",
       "distractors": {
         "B": "They reflect colonial hierarchy and do not challenge royal authority.",
-        "C": "Their audience was largely elite and European, and the paintings depict hierarchy rather than resistance.",
-        "D": "They depict intermarriage as a fact of colonial life; they categorize the offspring rather than call for an end to such unions."
+        "D": "They depict intermarriage as a fact of colonial life; they categorize the offspring rather than call for an end to such unions.",
+        "A": "Their audience was largely elite and European, and the paintings depict hierarchy rather than resistance."
       }
     },
     {
@@ -490,23 +490,23 @@
         },
         {
           "id": "B",
-          "text": "gave Native people equal legal status with Spaniards"
+          "text": "officially recognized and ranked many categories of mixed ancestry"
         },
         {
           "id": "C",
-          "text": "officially recognized and ranked many categories of mixed ancestry"
+          "text": "gave Native people equal legal status with Spaniards"
         },
         {
           "id": "D",
           "text": "prohibited marriage between Spaniards and Native people"
         }
       ],
-      "answer": "C",
+      "answer": "B",
       "explanation": "Spanish America had higher rates of intermarriage, and the casta system created many named categories of mixed ancestry. English colonies tended to draw a sharper binary line between white and Black (and largely excluded Native people from colonial society), with fewer intermediate categories.",
       "distractors": {
         "A": "Enslaved Africans were part of Spanish colonial society.",
-        "B": "Native people ranked low in the hierarchy.",
-        "D": "Intermarriage was common, which is why so many categories existed."
+        "D": "Intermarriage was common, which is why so many categories existed.",
+        "C": "Native people ranked low in the hierarchy."
       }
     },
     {
@@ -520,7 +520,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "the categories elite colonial society used to describe people of mixed ancestry"
+          "text": "the actual daily experiences and self-identification of people of mixed ancestry"
         },
         {
           "id": "B",
@@ -532,15 +532,15 @@
         },
         {
           "id": "D",
-          "text": "the actual daily experiences and self-identification of people of mixed ancestry"
+          "text": "the categories elite colonial society used to describe people of mixed ancestry"
         }
       ],
-      "answer": "D",
+      "answer": "A",
       "explanation": "The paintings were produced for elite (often European) audiences and present an idealized, top-down classification. They are strong evidence of elite categories and ideals but weak evidence of how mixed-ancestry people saw themselves or lived; in practice, people's status was often fluid and depended on wealth and reputation as well as ancestry.",
       "distractors": {
-        "A": "This is exactly what the paintings record well.",
         "B": "The paintings directly express elite ideals.",
-        "C": "The very existence of the genre shows that intermarriage was common enough to classify."
+        "C": "The very existence of the genre shows that intermarriage was common enough to classify.",
+        "D": "This is exactly what the paintings record well."
       }
     },
     {
@@ -554,11 +554,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Spanish soldiers had superior steel swords and armor"
+          "text": "many Indigenous communities joined Cortés in order to end Mexica domination"
         },
         {
           "id": "B",
-          "text": "many Indigenous communities joined Cortés in order to end Mexica domination"
+          "text": "Spanish soldiers had superior steel swords and armor"
         },
         {
           "id": "C",
@@ -569,12 +569,12 @@
           "text": "the Spanish crown received a fifth of all treasure seized"
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "The historian claims the conquest depended on Indigenous allies who resented Mexica tribute. Evidence that many communities joined Cortés to escape Mexica rule directly supports that claim.",
       "distractors": {
-        "A": "This supports the traditional technology-focused story the historian is challenging.",
         "C": "True but irrelevant to the role of allies or disease.",
-        "D": "The royal fifth concerns Spanish finance, not the causes of victory."
+        "D": "The royal fifth concerns Spanish finance, not the causes of victory.",
+        "B": "This supports the traditional technology-focused story the historian is challenging."
       }
     },
     {
@@ -592,23 +592,23 @@
         },
         {
           "id": "B",
-          "text": "New evidence that the Aztec Empire had already collapsed before 1519"
+          "text": "Greater attention to Indigenous sources and perspectives, which revealed Native agency and political divisions"
         },
         {
           "id": "C",
-          "text": "Greater attention to Indigenous sources and perspectives, which revealed Native agency and political divisions"
+          "text": "New evidence that the Aztec Empire had already collapsed before 1519"
         },
         {
           "id": "D",
           "text": "A renewed emphasis on the role of individual European leaders in shaping history"
         }
       ],
-      "answer": "C",
+      "answer": "B",
       "explanation": "The excerpt shifts attention from Spanish heroes to Indigenous actors (allies, rivalries, epidemics). This reflects historians' greater use of Indigenous sources, such as Nahuatl accounts and Tlaxcalan records, emphasizing Native agency.",
       "distractors": {
         "A": "The excerpt stresses that the Spanish force was small; its revision concerns allies, not Spanish numbers.",
-        "B": "The Mexica Empire was powerful in 1519; the revision is about divisions among subject peoples, not prior collapse.",
-        "D": "This describes the older approach the historian is moving away from."
+        "D": "This describes the older approach the historian is moving away from.",
+        "C": "The Mexica Empire was powerful in 1519; the revision is about divisions among subject peoples, not prior collapse."
       }
     },
     {

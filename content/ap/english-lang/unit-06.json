@@ -47,227 +47,523 @@
     "cramSheet": "**Diction:** connotation · denotation · loaded words\n\n**Imagery:** sensory detail makes abstract concrete\n\n**Figurative:** metaphor · simile · personification · hyperbole · allusion\n\n**Formula:** choice → what it implies → effect on audience → purpose\n\n**Own writing:** specific evidence · precise diction · varied syntax"
   },
   "vocab": [
-    { "term": "Style", "definition": "The combination of a writer's choices in diction, syntax, imagery, and figurative language." },
-    { "term": "Connotation", "definition": "The associations and feelings a word carries beyond its literal meaning." },
-    { "term": "Denotation", "definition": "A word's literal dictionary meaning." },
-    { "term": "Imagery", "definition": "Language appealing to the senses." },
-    { "term": "Metaphor", "definition": "A direct comparison stating that one thing is another." },
-    { "term": "Simile", "definition": "A comparison using like or as." },
-    { "term": "Personification", "definition": "Giving human qualities to nonhuman things." },
-    { "term": "Hyperbole", "definition": "Deliberate exaggeration for emphasis." },
-    { "term": "Allusion", "definition": "A reference to a well-known person, event, or text." },
-    { "term": "Juxtaposition", "definition": "Placing contrasting ideas or images side by side." },
-    { "term": "Pathos", "definition": "An appeal to the audience's emotions." },
-    { "term": "Ethos", "definition": "An appeal based on the writer's credibility or character." },
-    { "term": "Logos", "definition": "An appeal to logic and evidence." }
+    {
+      "term": "Style",
+      "definition": "The combination of a writer's choices in diction, syntax, imagery, and figurative language."
+    },
+    {
+      "term": "Connotation",
+      "definition": "The associations and feelings a word carries beyond its literal meaning."
+    },
+    {
+      "term": "Denotation",
+      "definition": "A word's literal dictionary meaning."
+    },
+    {
+      "term": "Imagery",
+      "definition": "Language appealing to the senses."
+    },
+    {
+      "term": "Metaphor",
+      "definition": "A direct comparison stating that one thing is another."
+    },
+    {
+      "term": "Simile",
+      "definition": "A comparison using like or as."
+    },
+    {
+      "term": "Personification",
+      "definition": "Giving human qualities to nonhuman things."
+    },
+    {
+      "term": "Hyperbole",
+      "definition": "Deliberate exaggeration for emphasis."
+    },
+    {
+      "term": "Allusion",
+      "definition": "A reference to a well-known person, event, or text."
+    },
+    {
+      "term": "Juxtaposition",
+      "definition": "Placing contrasting ideas or images side by side."
+    },
+    {
+      "term": "Pathos",
+      "definition": "An appeal to the audience's emotions."
+    },
+    {
+      "term": "Ethos",
+      "definition": "An appeal based on the writer's credibility or character."
+    },
+    {
+      "term": "Logos",
+      "definition": "An appeal to logic and evidence."
+    }
   ],
   "practice": [
     {
-      "id": "u6-q01", "tier": "Intro", "type": "mcq", "topic": "Diction and connotation",
+      "id": "u6-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Diction and connotation",
       "stimulus": "Supporters call the new downtown towers \"revitalization.\" Longtime tenants, packing boxes in apartments they have rented for twenty years, call it something else.",
       "stem": "The writer's contrast between \"revitalization\" and the tenants' situation primarily serves to",
       "choices": [
-        { "id": "A", "text": "question the positive connotation of the supporters' word by showing who bears its costs" },
-        { "id": "B", "text": "endorse the supporters' view of the towers" },
-        { "id": "C", "text": "define revitalization for readers" },
-        { "id": "D", "text": "describe the architecture of the towers" }
+        {
+          "id": "A",
+          "text": "endorse the supporters' view of the towers"
+        },
+        {
+          "id": "B",
+          "text": "question the positive connotation of the supporters' word by showing who bears its costs"
+        },
+        {
+          "id": "C",
+          "text": "define revitalization for readers"
+        },
+        {
+          "id": "D",
+          "text": "describe the architecture of the towers"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "\"Revitalization\" implies new life; the image of displaced tenants exposes what the word leaves out.",
-      "distractors": { "B": "The juxtaposition undercuts the supporters' framing." }
+      "distractors": {
+        "A": "The juxtaposition undercuts the supporters' framing."
+      }
     },
     {
-      "id": "u6-q02", "tier": "Intro", "type": "mcq", "topic": "Figurative language",
+      "id": "u6-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Figurative language",
       "stimulus": "Adding one more bus to a route that already runs every forty minutes is a bandage on a broken leg.",
       "stem": "The metaphor most directly suggests that the proposed change",
       "choices": [
-        { "id": "A", "text": "addresses a surface problem while leaving the deeper one untreated" },
-        { "id": "B", "text": "will completely fix the route's problems" },
-        { "id": "C", "text": "is too expensive" },
-        { "id": "D", "text": "will cause injuries" }
+        {
+          "id": "A",
+          "text": "addresses a surface problem while leaving the deeper one untreated"
+        },
+        {
+          "id": "B",
+          "text": "will completely fix the route's problems"
+        },
+        {
+          "id": "C",
+          "text": "is too expensive"
+        },
+        {
+          "id": "D",
+          "text": "will cause injuries"
+        }
       ],
       "answer": "A",
       "explanation": "A bandage can't set a broken bone; the fix is inadequate to the problem's seriousness.",
-      "distractors": { "D": "Reads the metaphor literally." }
+      "distractors": {
+        "D": "Reads the metaphor literally."
+      }
     },
     {
-      "id": "u6-q03", "tier": "Intro", "type": "mcq", "topic": "Imagery",
+      "id": "u6-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Imagery",
       "stimulus": "By 10 a.m. in Room 214, the thermometer on the whiteboard reads 91 degrees. Students fan themselves with worksheets. A girl in the back row has put her head down on a desk that is warm to the touch.",
       "stem": "The imagery in the passage is most likely intended to",
       "choices": [
-        { "id": "A", "text": "make readers physically sense the conditions that justify funding for school cooling" },
-        { "id": "B", "text": "criticize students for not paying attention" },
-        { "id": "C", "text": "provide statistics on school temperatures statewide" },
-        { "id": "D", "text": "describe the history of Room 214" }
+        {
+          "id": "A",
+          "text": "describe the history of Room 214"
+        },
+        {
+          "id": "B",
+          "text": "criticize students for not paying attention"
+        },
+        {
+          "id": "C",
+          "text": "provide statistics on school temperatures statewide"
+        },
+        {
+          "id": "D",
+          "text": "make readers physically sense the conditions that justify funding for school cooling"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Sensory details (heat, fanning, a warm desk) make an abstract funding issue concrete and felt.",
-      "distractors": { "B": "The details evoke sympathy, not blame." }
+      "distractors": {
+        "B": "The details evoke sympathy, not blame."
+      }
     },
     {
-      "id": "u6-q04", "tier": "Intro", "type": "mcq", "topic": "Allusion",
+      "id": "u6-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Allusion",
       "stimulus": "Each year the district promises the new science wing is coming. Like Vladimir and Estragon, the students wait.",
       "stem": "The allusion to the two characters from Samuel Beckett's play Waiting for Godot most likely suggests that",
       "choices": [
-        { "id": "A", "text": "the promised wing may never arrive, making the waiting itself absurd" },
-        { "id": "B", "text": "the wing will open next year" },
-        { "id": "C", "text": "the students are studying drama" },
-        { "id": "D", "text": "the district has already built the wing" }
+        {
+          "id": "A",
+          "text": "the students are studying drama"
+        },
+        {
+          "id": "B",
+          "text": "the wing will open next year"
+        },
+        {
+          "id": "C",
+          "text": "the promised wing may never arrive, making the waiting itself absurd"
+        },
+        {
+          "id": "D",
+          "text": "the district has already built the wing"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "In the play, the characters wait for someone who never comes; the allusion casts the promise as endlessly deferred.",
-      "distractors": { "C": "The allusion is figurative." }
+      "distractors": {
+        "A": "The allusion is figurative."
+      }
     },
     {
-      "id": "u6-q05", "tier": "Exam level", "type": "mcq", "topic": "Personification",
+      "id": "u6-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Personification",
       "stimulus": "The old mill does not want to be a museum. It wants to make things. Walk its floors and you can feel it remembering the shuddering of the looms, waiting for work that the city keeps promising and never brings.",
       "stem": "The personification of the mill primarily serves to",
       "choices": [
-        { "id": "A", "text": "frame the building's conversion to a museum as a betrayal of its purpose, supporting an argument for industrial reuse" },
-        { "id": "B", "text": "suggest the building is unsafe" },
-        { "id": "C", "text": "describe the mill's architecture technically" },
-        { "id": "D", "text": "argue that museums are unpopular" }
+        {
+          "id": "A",
+          "text": "suggest the building is unsafe"
+        },
+        {
+          "id": "B",
+          "text": "frame the building's conversion to a museum as a betrayal of its purpose, supporting an argument for industrial reuse"
+        },
+        {
+          "id": "C",
+          "text": "describe the mill's architecture technically"
+        },
+        {
+          "id": "D",
+          "text": "argue that museums are unpopular"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Giving the mill desires (\"wants to make things\") turns a zoning choice into a question of honoring what the place is for.",
-      "distractors": { "D": "The claim concerns this building's use, not museums generally." }
+      "distractors": {
+        "D": "The claim concerns this building's use, not museums generally."
+      }
     },
     {
-      "id": "u6-q06", "tier": "Exam level", "type": "mcq", "topic": "Diction",
+      "id": "u6-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Diction",
       "stimulus": "Draft sentence for an essay urging a city to preserve a wetland: \"The developer wants to change the wetland into a parking lot.\"\n\nThe writer wants diction that conveys the loss more forcefully without exaggerating.",
       "stem": "Which revision best achieves this goal?",
       "choices": [
-        { "id": "A", "text": "The developer wants to pave over the wetland for a parking lot." },
-        { "id": "B", "text": "The developer wants to obliterate all life on Earth for a parking lot." },
-        { "id": "C", "text": "The developer wants to enhance the wetland with a parking lot." },
-        { "id": "D", "text": "The developer wants to modify the area." }
+        {
+          "id": "A",
+          "text": "The developer wants to pave over the wetland for a parking lot."
+        },
+        {
+          "id": "B",
+          "text": "The developer wants to obliterate all life on Earth for a parking lot."
+        },
+        {
+          "id": "C",
+          "text": "The developer wants to enhance the wetland with a parking lot."
+        },
+        {
+          "id": "D",
+          "text": "The developer wants to modify the area."
+        }
       ],
       "answer": "A",
       "explanation": "\"Pave over\" is accurate and conveys burial and finality.",
-      "distractors": { "B": "Hyperbole that damages credibility.", "C": "Wrong connotation.", "D": "Weaker and vaguer." }
+      "distractors": {
+        "B": "Hyperbole that damages credibility.",
+        "C": "Wrong connotation.",
+        "D": "Weaker and vaguer."
+      }
     },
     {
-      "id": "u6-q07", "tier": "Exam level", "type": "mcq", "topic": "Appeals",
+      "id": "u6-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Appeals",
       "stimulus": "I have worked as a hospice nurse for nineteen years. I have held the hands of more than four hundred dying patients. I am telling you, from that experience, that the families who had the conversation early were the ones who could say goodbye.",
       "stem": "The writer's opening sentences primarily appeal to",
       "choices": [
-        { "id": "A", "text": "ethos, establishing credibility through long, direct experience" },
-        { "id": "B", "text": "logos, through a controlled study" },
-        { "id": "C", "text": "pathos alone, without any claim to authority" },
-        { "id": "D", "text": "kairos, by connecting to a recent news event" }
+        {
+          "id": "A",
+          "text": "ethos, establishing credibility through long, direct experience"
+        },
+        {
+          "id": "B",
+          "text": "logos, through a controlled study"
+        },
+        {
+          "id": "C",
+          "text": "pathos alone, without any claim to authority"
+        },
+        {
+          "id": "D",
+          "text": "kairos, by connecting to a recent news event"
+        }
       ],
       "answer": "A",
       "explanation": "Years of service and hundreds of patients make the writer a credible witness; the emotional details also support pathos, but the primary function is authority.",
-      "distractors": { "B": "It's experience, not a study." }
+      "distractors": {
+        "B": "It's experience, not a study."
+      }
     },
     {
-      "id": "u6-q08", "tier": "Exam level", "type": "mcq", "topic": "Style and purpose",
+      "id": "u6-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Style and purpose",
       "stimulus": "The river is a ledger. Every factory that ever stood on its banks has written in it, in mercury and dye and lead, and the sediment keeps the record better than any accountant.",
       "stem": "In an essay arguing that companies should fund river cleanup, the metaphor of the river as a \"ledger\" most effectively suggests that",
       "choices": [
-        { "id": "A", "text": "pollution is a recorded debt that can be traced to those who caused it" },
-        { "id": "B", "text": "the river is valuable to accountants" },
-        { "id": "C", "text": "the factories were profitable" },
-        { "id": "D", "text": "the sediment should be removed by accountants" }
+        {
+          "id": "A",
+          "text": "the sediment should be removed by accountants"
+        },
+        {
+          "id": "B",
+          "text": "the river is valuable to accountants"
+        },
+        {
+          "id": "C",
+          "text": "the factories were profitable"
+        },
+        {
+          "id": "D",
+          "text": "pollution is a recorded debt that can be traced to those who caused it"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "A ledger records debts and who owes them; the metaphor makes responsibility traceable and collectible.",
-      "distractors": { "C": "Profitability isn't the implication." }
+      "distractors": {
+        "C": "Profitability isn't the implication."
+      }
     },
     {
-      "id": "u6-q09", "tier": "Exam level", "type": "mcq", "topic": "Juxtaposition",
+      "id": "u6-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Juxtaposition",
       "stimulus": "The stadium's new luxury boxes have heated floors. Two blocks away, the elementary school's boiler has been broken since November.",
       "stem": "The juxtaposition in the passage is most likely intended to",
       "choices": [
-        { "id": "A", "text": "highlight a contrast in public priorities to provoke the reader's indignation" },
-        { "id": "B", "text": "argue that the stadium should install a boiler" },
-        { "id": "C", "text": "describe the city's heating systems" },
-        { "id": "D", "text": "praise the stadium's amenities" }
+        {
+          "id": "A",
+          "text": "describe the city's heating systems"
+        },
+        {
+          "id": "B",
+          "text": "argue that the stadium should install a boiler"
+        },
+        {
+          "id": "C",
+          "text": "highlight a contrast in public priorities to provoke the reader's indignation"
+        },
+        {
+          "id": "D",
+          "text": "praise the stadium's amenities"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Heated floors for luxury versus no heat for children implicitly criticizes how resources are allocated.",
-      "distractors": { "D": "The contrast undermines the amenities." }
+      "distractors": {
+        "D": "The contrast undermines the amenities."
+      }
     },
     {
-      "id": "u6-q10", "tier": "Exam level", "type": "mcq", "topic": "Hyperbole and audience",
+      "id": "u6-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Hyperbole and audience",
       "stimulus": "Our school's Wi-Fi is so slow that by the time a research page loads, the topic has become history.",
       "stem": "In a humorous column for the student newspaper, the hyperbole is most likely intended to",
       "choices": [
-        { "id": "A", "text": "exaggerate a shared frustration to entertain readers while making a point about the need for better internet" },
-        { "id": "B", "text": "provide precise data on loading times" },
-        { "id": "C", "text": "argue that history is the most important subject" },
-        { "id": "D", "text": "mislead readers about the school's equipment" }
+        {
+          "id": "A",
+          "text": "provide precise data on loading times"
+        },
+        {
+          "id": "B",
+          "text": "exaggerate a shared frustration to entertain readers while making a point about the need for better internet"
+        },
+        {
+          "id": "C",
+          "text": "argue that history is the most important subject"
+        },
+        {
+          "id": "D",
+          "text": "mislead readers about the school's equipment"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The audience recognizes the exaggeration as a joke rooted in real experience; it builds rapport while making the point.",
-      "distractors": { "D": "In this context the exaggeration is understood, not deceptive." }
+      "distractors": {
+        "D": "In this context the exaggeration is understood, not deceptive."
+      }
     },
     {
-      "id": "u6-q11", "tier": "Hardest", "type": "mcq", "topic": "Style and purpose",
+      "id": "u6-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Style and purpose",
       "stimulus": "They call it a \"food court,\" as if the twelve fryers and the soda fountain were a judiciary weighing our nutritional fates. The verdict is in before we sit down.",
       "stem": "The writer's extended play on the word \"court\" primarily serves to",
       "choices": [
-        { "id": "A", "text": "mock the grand name while suggesting that unhealthy options have already decided what diners will eat" },
-        { "id": "B", "text": "argue that food courts should be regulated by actual courts" },
-        { "id": "C", "text": "praise the variety of choices in food courts" },
-        { "id": "D", "text": "explain the legal history of food courts" }
+        {
+          "id": "A",
+          "text": "argue that food courts should be regulated by actual courts"
+        },
+        {
+          "id": "B",
+          "text": "mock the grand name while suggesting that unhealthy options have already decided what diners will eat"
+        },
+        {
+          "id": "C",
+          "text": "praise the variety of choices in food courts"
+        },
+        {
+          "id": "D",
+          "text": "explain the legal history of food courts"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The writer literalizes \"court\" to ridicule it and implies the outcome (unhealthy food) is predetermined.",
-      "distractors": { "B": "Reads the extended metaphor literally." }
+      "distractors": {
+        "A": "Reads the extended metaphor literally."
+      }
     },
     {
-      "id": "u6-q12", "tier": "Hardest", "type": "mcq", "topic": "Connotation",
+      "id": "u6-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Connotation",
       "stimulus": "Version 1: \"The mayor's plan trims the library budget by 8 percent.\"\nVersion 2: \"The mayor's plan cuts the library budget by 8 percent.\"\nVersion 3: \"The mayor's plan guts the library budget by 8 percent.\"",
       "stem": "Which statement best describes the effect of the verbs?",
       "choices": [
-        { "id": "A", "text": "They report the same figure but range from minimizing to dramatizing it; \"guts\" may undermine credibility because 8 percent doesn't match its severity." },
-        { "id": "B", "text": "They report different percentages." },
-        { "id": "C", "text": "All three verbs are neutral and interchangeable." },
-        { "id": "D", "text": "\"Trims\" is the most critical of the mayor." }
+        {
+          "id": "A",
+          "text": "\"Trims\" is the most critical of the mayor."
+        },
+        {
+          "id": "B",
+          "text": "They report different percentages."
+        },
+        {
+          "id": "C",
+          "text": "All three verbs are neutral and interchangeable."
+        },
+        {
+          "id": "D",
+          "text": "They report the same figure but range from minimizing to dramatizing it; \"guts\" may undermine credibility because 8 percent doesn't match its severity."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "\"Trims\" suggests something minor, \"cuts\" is neutral, \"guts\" implies devastation. A careful reader may see a mismatch between \"guts\" and 8 percent.",
-      "distractors": { "D": "\"Trims\" is the most favorable to the mayor." }
+      "distractors": {
+        "A": "\"Trims\" is the most favorable to the mayor."
+      }
     },
     {
-      "id": "u6-q13", "tier": "Hardest", "type": "mcq", "topic": "Imagery and argument",
+      "id": "u6-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Imagery and argument",
       "stimulus": "Statistics tell us that 1 in 8 county residents lacks reliable food. Statistics do not tell us about the boy who saves the second half of his school lunch in his backpack every Friday, because he knows what the weekend will be.",
       "stem": "The writer's shift from statistic to image primarily serves to",
       "choices": [
-        { "id": "A", "text": "acknowledge the limit of numbers and make the hardship they describe concrete and emotionally urgent" },
-        { "id": "B", "text": "reject statistics as unreliable" },
-        { "id": "C", "text": "provide a second statistic" },
-        { "id": "D", "text": "suggest that the problem is limited to one child" }
+        {
+          "id": "A",
+          "text": "provide a second statistic"
+        },
+        {
+          "id": "B",
+          "text": "reject statistics as unreliable"
+        },
+        {
+          "id": "C",
+          "text": "acknowledge the limit of numbers and make the hardship they describe concrete and emotionally urgent"
+        },
+        {
+          "id": "D",
+          "text": "suggest that the problem is limited to one child"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The writer uses the statistic but argues it can't convey experience; the image of the saved lunch does.",
-      "distractors": { "B": "The writer cites the statistic as true.", "D": "The image represents the 1 in 8." }
+      "distractors": {
+        "B": "The writer cites the statistic as true.",
+        "D": "The image represents the 1 in 8."
+      }
     },
     {
-      "id": "u6-q14", "tier": "Hardest", "type": "mcq", "topic": "Style",
+      "id": "u6-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Style",
       "stimulus": "We do not lack water. We lack patience with how water moves. We straightened the rivers so they would hurry, paved the fields so rain would leave, and are surprised, every August, that the ground is dry.",
       "stem": "Which statement best describes how the passage's style supports its argument?",
       "choices": [
-        { "id": "A", "text": "Antithesis and parallel verbs present drought as the result of human choices, and the closing irony exposes our surprise as self-inflicted." },
-        { "id": "B", "text": "Technical vocabulary establishes the writer's scientific credentials." },
-        { "id": "C", "text": "A personal anecdote creates sympathy for farmers." },
-        { "id": "D", "text": "Statistics prove that rainfall has declined." }
+        {
+          "id": "A",
+          "text": "Antithesis and parallel verbs present drought as the result of human choices, and the closing irony exposes our surprise as self-inflicted."
+        },
+        {
+          "id": "B",
+          "text": "Technical vocabulary establishes the writer's scientific credentials."
+        },
+        {
+          "id": "C",
+          "text": "A personal anecdote creates sympathy for farmers."
+        },
+        {
+          "id": "D",
+          "text": "Statistics prove that rainfall has declined."
+        }
       ],
       "answer": "A",
       "explanation": "\"We do not lack... We lack...\" redefines the problem; \"straightened... paved\" lists human actions; being \"surprised\" every August is ironic.",
-      "distractors": { "D": "No statistics appear; the writer suggests rainfall isn't the problem." }
+      "distractors": {
+        "D": "No statistics appear; the writer suggests rainfall isn't the problem."
+      }
     },
     {
-      "id": "u6-frq1", "tier": "Exam level", "type": "frq", "topic": "Rhetorical analysis", "frqType": "Q2 Rhetorical Analysis",
+      "id": "u6-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Rhetorical analysis",
+      "frqType": "Q2 Rhetorical Analysis",
       "stimulus": "The following passage is from a speech, written for this practice set, delivered by a retired park ranger at a public hearing on whether to sell a section of a state forest to a timber company.\n\nI am told that this forest is worth eleven million dollars. I believe it. I have walked every trail in it, and I can tell you that number is accurate in the way a price tag on a grandfather clock is accurate. It tells you what someone will pay. It does not tell you what time it is.\n\nThe company's appraisal counts board feet. It does not count the brook trout that need the shade of those hemlocks to keep the water cold enough to live in. It does not count the fourth graders from Millbrook Elementary who, every May, see a pileated woodpecker for the first time and lose their minds. It does not count the slope above Route 9 that has not slid in sixty years because roots hold it.\n\nI am not a sentimental man. I spent thirty-one years writing citations to people who left campfires burning. I understand budgets. And I understand that a forest, once sold and cut, does not come back in a budget cycle. It comes back, if it comes back at all, in a hundred years.\n\nSo before you vote, ask the appraiser one more question. Ask him what the forest is worth to the people who will be here in a hundred years. Then notice that he has no column for it.",
       "prompt": "Read the passage carefully. Write an essay that analyzes the rhetorical choices the speaker makes to persuade the state officials not to sell the forest.\n\nIn your response you should do the following:\n- Respond to the prompt with a thesis that analyzes the writer's rhetorical choices.\n- Select and use evidence to support your line of reasoning.\n- Explain how the evidence supports your line of reasoning.\n- Demonstrate an understanding of the rhetorical situation.\n- Use appropriate grammar and punctuation in communicating your argument.",
       "points": 6,
       "minutes": 40,
       "rubric": [
-        { "criterion": "Row A: Thesis", "points": 1, "description": "Responds with a defensible thesis that analyzes the speaker's rhetorical choices." },
-        { "criterion": "Row B: Evidence and commentary", "points": 4, "description": "4: specific evidence supports all claims; commentary consistently explains how choices achieve the purpose. 3: most claims. 2: mostly summary. 1: little analysis." },
-        { "criterion": "Row C: Sophistication", "points": 1, "description": "E.g., explains how the speaker anticipates a budget-minded audience, or the tension between economic and long-term value; vivid style." }
+        {
+          "criterion": "Row A: Thesis",
+          "points": 1,
+          "description": "Responds with a defensible thesis that analyzes the speaker's rhetorical choices."
+        },
+        {
+          "criterion": "Row B: Evidence and commentary",
+          "points": 4,
+          "description": "4: specific evidence supports all claims; commentary consistently explains how choices achieve the purpose. 3: most claims. 2: mostly summary. 1: little analysis."
+        },
+        {
+          "criterion": "Row C: Sophistication",
+          "points": 1,
+          "description": "E.g., explains how the speaker anticipates a budget-minded audience, or the tension between economic and long-term value; vivid style."
+        }
       ],
       "sampleResponse": "Facing officials who must weigh an eleven-million-dollar offer, the retired ranger never disputes the price. Instead, through an analogy that separates price from value, a list of what the appraisal leaves out, and an ethos built on unsentimental experience, he persuades them that the sale's real cost lies in the column no appraiser keeps.\n\nThe ranger's first move is a concession that becomes a trap. \"I believe it,\" he says of the eleven million dollars, disarming listeners who expect him to argue the number. His analogy then reframes that number: a price tag on a grandfather clock \"tells you what someone will pay. It does not tell you what time it is.\" For officials accustomed to treating appraisals as answers, the image suggests that the appraisal measures the wrong thing entirely, and it does so with a quiet wit that keeps him credible.\n\nHe then fills the gap with anaphora. Three sentences begin \"It does not count,\" each followed by a concrete, specific image: brook trout that need cold water, fourth graders who \"lose their minds\" at a woodpecker, a slope above Route 9 held by roots. The examples are carefully varied, ecological, human, and practical, so that whatever an official cares about, something on the list touches it. The landslide example is especially shrewd before a budget-minded audience, because it translates the forest into infrastructure the state would otherwise have to pay for.\n\nAnticipating that he might be dismissed as a nature lover, the ranger constructs a sterner ethos: \"I am not a sentimental man.\" Thirty-one years of \"writing citations\" casts him as an enforcer of rules, and \"I understand budgets\" places him on the officials' side of the table. From that position, his contrast between a \"budget cycle\" and \"a hundred years\" lands as hard-headed accounting rather than emotion.\n\nHe closes by turning the officials into questioners. The imperative \"ask him\" gives them a task, and the final image, an appraiser with \"no column for it,\" returns to the language of accounting to show its blind spot. The ranger doesn't ask them to reject economics; he asks them to notice what their economics can't see."
     }

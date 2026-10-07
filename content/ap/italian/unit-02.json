@@ -98,11 +98,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Il dialetto della propria regione o città"
+          "text": "L'italiano standard"
         },
         {
           "id": "B",
-          "text": "L'italiano standard"
+          "text": "Il dialetto della propria regione o città"
         },
         {
           "id": "C",
@@ -113,7 +113,7 @@
           "text": "Il francese"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -128,7 +128,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Il fiorentino letterario di Dante"
+          "text": "Il siciliano"
         },
         {
           "id": "B",
@@ -140,10 +140,10 @@
         },
         {
           "id": "D",
-          "text": "Il siciliano"
+          "text": "Il fiorentino letterario di Dante"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -158,7 +158,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "La televisione"
+          "text": "Internet"
         },
         {
           "id": "B",
@@ -166,14 +166,14 @@
         },
         {
           "id": "C",
-          "text": "Internet"
+          "text": "La televisione"
         },
         {
           "id": "D",
           "text": "I giornali stranieri"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "'Soprattutto la televisione.'",
       "distractors": {}
     },
@@ -218,11 +218,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Il ritorno dei dialetti nella musica e sui social tra i giovani"
+          "text": "La scomparsa totale dei dialetti"
         },
         {
           "id": "B",
-          "text": "La scomparsa totale dei dialetti"
+          "text": "Il ritorno dei dialetti nella musica e sui social tra i giovani"
         },
         {
           "id": "C",
@@ -233,7 +233,7 @@
           "text": "Il divieto della televisione"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Resurgence.",
       "distractors": {}
     },
@@ -248,7 +248,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Tra la fine dell'Ottocento e l'inizio del Novecento"
+          "text": "Nel Settecento"
         },
         {
           "id": "B",
@@ -260,10 +260,10 @@
         },
         {
           "id": "D",
-          "text": "Nel Settecento"
+          "text": "Tra la fine dell'Ottocento e l'inizio del Novecento"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -278,7 +278,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "La parola «laburar», che viene da «lavorare»"
+          "text": "Il dialetto veneto parlato a Roma"
         },
         {
           "id": "B",
@@ -286,14 +286,14 @@
         },
         {
           "id": "C",
-          "text": "Il dialetto veneto parlato a Roma"
+          "text": "La parola «laburar», che viene da «lavorare»"
         },
         {
           "id": "D",
           "text": "Il congiuntivo spagnolo"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Lunfardo.",
       "distractors": {}
     },
@@ -308,11 +308,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "I nonni parlavano dialetto e i figli volevano integrarsi"
+          "text": "L'italiano era vietato in Argentina"
         },
         {
           "id": "B",
-          "text": "L'italiano era vietato in Argentina"
+          "text": "I nonni parlavano dialetto e i figli volevano integrarsi"
         },
         {
           "id": "C",
@@ -323,7 +323,7 @@
           "text": "Preferivano l'inglese"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Two reasons.",
       "distractors": {}
     },
@@ -338,7 +338,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Imparare la lingua permette di scoprire una parte della propria storia familiare"
+          "text": "I bisnonni scrivevano libri"
         },
         {
           "id": "B",
@@ -350,10 +350,10 @@
         },
         {
           "id": "D",
-          "text": "I bisnonni scrivevano libri"
+          "text": "Imparare la lingua permette di scoprire una parte della propria storia familiare"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Roots metaphor.",
       "distractors": {}
     },
@@ -398,7 +398,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Comunicare l'accettazione e chiedere documenti"
+          "text": "Vendere un viaggio"
         },
         {
           "id": "B",
@@ -406,14 +406,14 @@
         },
         {
           "id": "C",
-          "text": "Vendere un viaggio"
+          "text": "Comunicare l'accettazione e chiedere documenti"
         },
         {
           "id": "D",
           "text": "Invitare a una festa"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Acceptance + requests.",
       "distractors": {}
     },
@@ -428,7 +428,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Visite culturali e un progetto di volontariato"
+          "text": "Tempo libero soltanto"
         },
         {
           "id": "B",
@@ -440,10 +440,10 @@
         },
         {
           "id": "D",
-          "text": "Tempo libero soltanto"
+          "text": "Visite culturali e un progetto di volontariato"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Afternoons.",
       "distractors": {}
     },
@@ -458,11 +458,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Cara famiglia, mi chiamo Taylor e non vedo l'ora di conoscervi."
+          "text": "Ciao ragazzi, come va?"
         },
         {
           "id": "B",
-          "text": "Ciao ragazzi, come va?"
+          "text": "Cara famiglia, mi chiamo Taylor e non vedo l'ora di conoscervi."
         },
         {
           "id": "C",
@@ -473,7 +473,7 @@
           "text": "Ehi, mandatemi le foto della camera."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Warm, polite.",
       "distractors": {}
     },

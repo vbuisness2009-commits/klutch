@@ -134,11 +134,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq)"
+          "text": "Ag⁺(aq) + Cl⁻(aq) → AgCl(s)"
         },
         {
           "id": "B",
-          "text": "Ag⁺(aq) + Cl⁻(aq) → AgCl(s)"
+          "text": "AgNO₃(aq) + NaCl(aq) → AgCl(s) + NaNO₃(aq)"
         },
         {
           "id": "C",
@@ -149,11 +149,11 @@
           "text": "Ag⁺(aq) + NO₃⁻(aq) + Na⁺(aq) + Cl⁻(aq) → AgCl(aq) + NaNO₃(aq)"
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Na⁺ and NO₃⁻ are spectators; AgCl precipitates.",
       "distractors": {
-        "A": "Molecular equation.",
-        "C": "NaNO₃ is soluble."
+        "C": "NaNO₃ is soluble.",
+        "B": "Molecular equation."
       }
     },
     {
@@ -229,22 +229,22 @@
         },
         {
           "id": "B",
-          "text": "35.8 g"
+          "text": "45.0 g"
         },
         {
           "id": "C",
-          "text": "45.0 g"
+          "text": "35.8 g"
         },
         {
           "id": "D",
           "text": "44.0 g"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "2H₂ + O₂ → 2H₂O. H₂ = 1.98 mol needs 0.99 mol O₂ (1.25 available), so H₂ limits. H₂O = 1.98 mol × 18.02 = 35.8 g.",
       "distractors": {
-        "C": "Assumes O₂ limits: 1.25 × 2 × 18.02.",
-        "D": "Simply adds reactant masses."
+        "D": "Simply adds reactant masses.",
+        "B": "Assumes O₂ limits: 1.25 × 2 × 18.02."
       }
     },
     {
@@ -257,7 +257,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "6 NH₃ and 3 N₂"
+          "text": "3 NH₃ and 3 N₂"
         },
         {
           "id": "B",
@@ -269,10 +269,10 @@
         },
         {
           "id": "D",
-          "text": "3 NH₃ and 3 N₂"
+          "text": "6 NH₃ and 3 N₂"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "9 H₂ need 3 N₂, forming 6 NH₃; 3 N₂ remain. H₂ is limiting.",
       "distractors": {
         "B": "Assumes N₂ limits."
@@ -355,17 +355,17 @@
         },
         {
           "id": "C",
-          "text": "2Mg + O₂ → 2MgO"
+          "text": "CaCO₃ → CaO + CO₂"
         },
         {
           "id": "D",
-          "text": "CaCO₃ → CaO + CO₂"
+          "text": "2Mg + O₂ → 2MgO"
         }
       ],
-      "answer": "C",
+      "answer": "D",
       "explanation": "Mg goes from 0 to +2 and O from 0 to −2. The others show no oxidation-number changes.",
       "distractors": {
-        "D": "Decomposition, but all oxidation numbers stay the same."
+        "C": "Decomposition, but all oxidation numbers stay the same."
       }
     },
     {
@@ -377,7 +377,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Too high, because the diluted NaOH requires a larger volume to reach the equivalence point"
+          "text": "No effect, because water is neutral"
         },
         {
           "id": "B",
@@ -385,17 +385,17 @@
         },
         {
           "id": "C",
-          "text": "No effect, because water is neutral"
+          "text": "Too high, because the diluted NaOH requires a larger volume to reach the equivalence point"
         },
         {
           "id": "D",
           "text": "Too low, because water reacts with the acid"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Water dilutes the titrant, so more volume is delivered. The student multiplies that larger volume by the labeled (higher) concentration, overestimating moles of acid.",
       "distractors": {
-        "C": "Water doesn't react, but it dilutes the titrant."
+        "A": "Water doesn't react, but it dilutes the titrant."
       }
     },
     {
@@ -407,7 +407,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "0.537 g"
+          "text": "0.358 g"
         },
         {
           "id": "B",
@@ -419,10 +419,10 @@
         },
         {
           "id": "D",
-          "text": "0.358 g"
+          "text": "0.537 g"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Ag⁺ = 5.00 × 10⁻³ mol, Cl⁻ = 3.75 × 10⁻³ mol, so Cl⁻ limits: 3.75 × 10⁻³ × 143.32 = 0.537 g.",
       "distractors": {
         "B": "Uses Ag⁺ as limiting."
@@ -438,7 +438,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Pb²⁺"
+          "text": "NO₃⁻"
         },
         {
           "id": "B",
@@ -446,14 +446,14 @@
         },
         {
           "id": "C",
-          "text": "NO₃⁻"
+          "text": "Pb²⁺"
         },
         {
           "id": "D",
           "text": "K⁺"
         }
       ],
-      "answer": "C",
+      "answer": "A",
       "explanation": "Per liter of each: NO₃⁻ 0.40 mol, K⁺ 0.20, I⁻ 0.20 → reacts with 0.10 Pb²⁺ (leaving 0.10 Pb²⁺, ~0 I⁻). NO₃⁻ is the largest spectator.",
       "distractors": {
         "D": "Spectator, but half as many moles as nitrate."
@@ -498,11 +498,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Both are too high."
+          "text": "Both are too low."
         },
         {
           "id": "B",
-          "text": "Both are too low."
+          "text": "Both are too high."
         },
         {
           "id": "C",
@@ -513,7 +513,7 @@
           "text": "Neither is affected."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Water adds mass, so the measured PbI₂ is too large. Both quantities computed from that mass are inflated.",
       "distractors": {}
     },

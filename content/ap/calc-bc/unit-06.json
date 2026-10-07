@@ -119,7 +119,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "x³ + 2x + C"
+          "text": "3x³ + 2x + C"
         },
         {
           "id": "B",
@@ -131,15 +131,15 @@
         },
         {
           "id": "D",
-          "text": "3x³ + 2x + C"
+          "text": "x³ + 2x + C"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "∫3x² dx = x³ and ∫2 dx = 2x. Add C.",
       "distractors": {
         "B": "Differentiated instead of integrating.",
         "C": "Forgot to integrate the constant.",
-        "D": "Raised the power but didn't divide by 3."
+        "A": "Raised the power but didn't divide by 3."
       }
     },
     {
@@ -183,7 +183,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "16"
+          "text": "8"
         },
         {
           "id": "B",
@@ -191,19 +191,19 @@
         },
         {
           "id": "C",
-          "text": "8"
+          "text": "16"
         },
         {
           "id": "D",
           "text": "22"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Width 2 each, heights from the left endpoints 1, 3, 4: 2(1 + 3 + 4) = 16.",
       "distractors": {
         "B": "That's the right sum.",
-        "C": "Forgot to multiply by the width.",
-        "D": "That's the trapezoidal sum."
+        "D": "That's the trapezoidal sum.",
+        "A": "Forgot to multiply by the width."
       }
     },
     {
@@ -215,11 +215,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "−cos x + C"
+          "text": "cos x + C"
         },
         {
           "id": "B",
-          "text": "cos x + C"
+          "text": "−cos x + C"
         },
         {
           "id": "C",
@@ -230,10 +230,10 @@
           "text": "sin x·x + C"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "d/dx(−cos x) = sin x.",
       "distractors": {
-        "B": "Sign error; d/dx(cos x) = −sin x."
+        "A": "Sign error; d/dx(cos x) = −sin x."
       }
     },
     {
@@ -276,7 +276,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "(x² + 1)⁴/4 + C"
+          "text": "2(x² + 1)⁴/4 + C"
         },
         {
           "id": "B",
@@ -288,15 +288,15 @@
         },
         {
           "id": "D",
-          "text": "2(x² + 1)⁴/4 + C"
+          "text": "(x² + 1)⁴/4 + C"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "u = x² + 1, du = 2x dx. ∫u³ du = u⁴/4.",
       "distractors": {
         "B": "Forgot to divide by 4.",
         "C": "Integrated 2x separately and multiplied.",
-        "D": "Kept the 2x factor after substituting."
+        "A": "Kept the 2x factor after substituting."
       }
     },
     {
@@ -308,7 +308,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "(e² − 1)/2"
+          "text": "e²/2"
         },
         {
           "id": "B",
@@ -320,15 +320,15 @@
         },
         {
           "id": "D",
-          "text": "e²/2"
+          "text": "(e² − 1)/2"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Antiderivative e^(2x)/2. [e²/2] − [1/2] = (e² − 1)/2.",
       "distractors": {
         "B": "Forgot to divide by 2.",
         "C": "Multiplied by 2 instead of dividing.",
-        "D": "Forgot to subtract the value at 0, e⁰/2 = 1/2."
+        "A": "Forgot to subtract the value at 0, e⁰/2 = 1/2."
       }
     },
     {
@@ -340,11 +340,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "10"
+          "text": "5"
         },
         {
           "id": "B",
-          "text": "5"
+          "text": "10"
         },
         {
           "id": "C",
@@ -355,12 +355,12 @@
           "text": "6"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "∫₀³ f = 8 − 3 = 5. Then ∫₀³ 2f = 10.",
       "distractors": {
-        "B": "Forgot the factor 2.",
         "C": "Added the integrals instead of subtracting.",
-        "D": "Doubled the wrong piece."
+        "D": "Doubled the wrong piece.",
+        "A": "Forgot the factor 2."
       }
     },
     {
@@ -405,7 +405,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "(2, 5)"
+          "text": "(0, 5)"
         },
         {
           "id": "B",
@@ -413,14 +413,14 @@
         },
         {
           "id": "C",
-          "text": "(0, 5)"
+          "text": "(2, 5)"
         },
         {
           "id": "D",
           "text": "(√12, 5)"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "g′(x) = x² − 4 > 0 when x > 2.",
       "distractors": {
         "B": "That's where g′ < 0.",
@@ -436,11 +436,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "2x sin(x²)"
+          "text": "sin(x²)"
         },
         {
           "id": "B",
-          "text": "sin(x²)"
+          "text": "2x sin(x²)"
         },
         {
           "id": "C",
@@ -451,11 +451,11 @@
           "text": "1 − cos(x²)"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "FTC1 with the chain rule: sin(x²)·d/dx(x²) = 2x sin(x²).",
       "distractors": {
-        "B": "Forgot the chain rule.",
-        "D": "That's the integral itself, not its derivative."
+        "D": "That's the integral itself, not its derivative.",
+        "A": "Forgot the chain rule."
       }
     },
     {
@@ -467,7 +467,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "1"
+          "text": "1/2"
         },
         {
           "id": "B",
@@ -479,14 +479,14 @@
         },
         {
           "id": "D",
-          "text": "1/2"
+          "text": "1"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The graph is two triangles, each with base 1 and height 1: ½ + ½ = 1.",
       "distractors": {
         "B": "Integrated x − 1 without the absolute value.",
-        "D": "Counted only one triangle."
+        "A": "Counted only one triangle."
       }
     },
     {
@@ -529,7 +529,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "7/3"
+          "text": "8/3"
         },
         {
           "id": "B",
@@ -537,18 +537,18 @@
         },
         {
           "id": "C",
-          "text": "8/3"
+          "text": "7/3"
         },
         {
           "id": "D",
           "text": "3"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Δx = 1/n over an interval of length 1, and xₖ = 1 + k/n runs from 1 to 2. So it's ∫₁² x² dx = (8 − 1)/3 = 7/3.",
       "distractors": {
         "B": "Used bounds 0 to 1.",
-        "C": "Used bounds 0 to 2."
+        "A": "Used bounds 0 to 2."
       }
     },
     {
@@ -640,7 +640,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "(x − 1)eˣ + C"
+          "text": "½x² eˣ + C"
         },
         {
           "id": "B",
@@ -652,14 +652,14 @@
         },
         {
           "id": "D",
-          "text": "½x² eˣ + C"
+          "text": "(x − 1)eˣ + C"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "u = x, dv = eˣ dx: x eˣ − ∫eˣ dx = (x − 1)eˣ + C.",
       "distractors": {
         "C": "Sign error in uv − ∫v du.",
-        "D": "Integrated each factor separately."
+        "A": "Integrated each factor separately."
       }
     },
     {
@@ -671,7 +671,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "1"
+          "text": "e − 1"
         },
         {
           "id": "B",
@@ -679,18 +679,18 @@
         },
         {
           "id": "C",
-          "text": "e − 1"
+          "text": "1"
         },
         {
           "id": "D",
           "text": "2e − 1"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "[(x − 1)eˣ]₀¹ = (0)e − (−1)(1) = 1.",
       "distractors": {
-        "C": "Evaluated only ∫eˣ.",
-        "B": "Dropped the lower-limit term."
+        "B": "Dropped the lower-limit term.",
+        "A": "Evaluated only ∫eˣ."
       }
     },
     {
@@ -702,11 +702,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "x ln x − x + C"
+          "text": "1/x + C"
         },
         {
           "id": "B",
-          "text": "1/x + C"
+          "text": "x ln x − x + C"
         },
         {
           "id": "C",
@@ -717,11 +717,11 @@
           "text": "x ln x + C"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "u = ln x, dv = dx: x ln x − ∫x·(1/x) dx = x ln x − x + C.",
       "distractors": {
-        "B": "Differentiated instead.",
-        "D": "Forgot the − ∫v du term."
+        "D": "Forgot the − ∫v du term.",
+        "A": "Differentiated instead."
       }
     },
     {
@@ -765,7 +765,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "∫₁^∞ dx/x²"
+          "text": "∫₁^∞ dx/√x"
         },
         {
           "id": "B",
@@ -773,19 +773,19 @@
         },
         {
           "id": "C",
-          "text": "∫₁^∞ dx/√x"
+          "text": "∫₁^∞ dx/x²"
         },
         {
           "id": "D",
           "text": "∫₀¹ dx/x"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "∫₁^∞ x⁻ᵖ dx converges only for p > 1; here p = 2 and the value is 1. ∫₀¹ dx/x diverges at 0.",
       "distractors": {
         "B": "p = 1 diverges (ln b → ∞).",
-        "C": "p = ½ diverges.",
-        "D": "Diverges: ln x → −∞ as x → 0⁺."
+        "D": "Diverges: ln x → −∞ as x → 0⁺.",
+        "A": "p = ½ diverges."
       }
     }
   ]

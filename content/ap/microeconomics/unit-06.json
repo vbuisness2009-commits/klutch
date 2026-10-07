@@ -45,220 +45,529 @@
     "cramSheet": "**Efficiency:** MSB = MSC\n\n**Negative ext:** MSC > MPC · Q_market > Q_opt · tax = MEC\n\n**Positive ext:** MSB > MPB · Q_market < Q_opt · subsidy = MEB\n\n**DWL:** triangle between Q_market and Q_opt\n\n**Goods:** private (R, E) · public (NR, NE) · common (R, NE) · club (NR, E) · free riders\n\n**Antitrust:** block mergers, ban collusion\n\n**Inequality:** Lorenz · Gini 0–1 · progressive / proportional / regressive (by % of income)"
   },
   "vocab": [
-    { "term": "Externality", "definition": "A cost or benefit that affects a third party not directly involved in a transaction." },
-    { "term": "Marginal social cost", "definition": "Marginal private cost plus marginal external cost." },
-    { "term": "Marginal social benefit", "definition": "Marginal private benefit plus marginal external benefit." },
-    { "term": "Pigouvian tax", "definition": "A per-unit tax equal to the marginal external cost, used to correct a negative externality." },
-    { "term": "Public good", "definition": "A good that is nonrival and nonexcludable." },
-    { "term": "Free-rider problem", "definition": "People benefiting from a good without paying for it, leading to underprovision." },
-    { "term": "Common resource", "definition": "A good that is rival but nonexcludable, prone to overuse." },
-    { "term": "Antitrust policy", "definition": "Laws that promote competition by preventing monopolization and collusion." },
-    { "term": "Lorenz curve", "definition": "A graph showing the distribution of income across households." },
-    { "term": "Gini coefficient", "definition": "A measure of income inequality from 0 (equal) to 1 (unequal)." },
-    { "term": "Progressive tax", "definition": "A tax that takes a larger percentage of income from higher-income households." },
-    { "term": "Regressive tax", "definition": "A tax that takes a larger percentage of income from lower-income households." }
+    {
+      "term": "Externality",
+      "definition": "A cost or benefit that affects a third party not directly involved in a transaction."
+    },
+    {
+      "term": "Marginal social cost",
+      "definition": "Marginal private cost plus marginal external cost."
+    },
+    {
+      "term": "Marginal social benefit",
+      "definition": "Marginal private benefit plus marginal external benefit."
+    },
+    {
+      "term": "Pigouvian tax",
+      "definition": "A per-unit tax equal to the marginal external cost, used to correct a negative externality."
+    },
+    {
+      "term": "Public good",
+      "definition": "A good that is nonrival and nonexcludable."
+    },
+    {
+      "term": "Free-rider problem",
+      "definition": "People benefiting from a good without paying for it, leading to underprovision."
+    },
+    {
+      "term": "Common resource",
+      "definition": "A good that is rival but nonexcludable, prone to overuse."
+    },
+    {
+      "term": "Antitrust policy",
+      "definition": "Laws that promote competition by preventing monopolization and collusion."
+    },
+    {
+      "term": "Lorenz curve",
+      "definition": "A graph showing the distribution of income across households."
+    },
+    {
+      "term": "Gini coefficient",
+      "definition": "A measure of income inequality from 0 (equal) to 1 (unequal)."
+    },
+    {
+      "term": "Progressive tax",
+      "definition": "A tax that takes a larger percentage of income from higher-income households."
+    },
+    {
+      "term": "Regressive tax",
+      "definition": "A tax that takes a larger percentage of income from lower-income households."
+    }
   ],
   "practice": [
     {
-      "id": "u6-q01", "tier": "Intro", "type": "mcq", "topic": "6.2 Externalities", "skill": "2. Interpretation",
+      "id": "u6-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.2 Externalities",
+      "skill": "2. Interpretation",
       "stem": "A factory's pollution harms downstream fishers. Without government intervention, the market for the factory's product will",
       "choices": [
-        { "id": "A", "text": "produce more than the socially optimal quantity" },
-        { "id": "B", "text": "produce less than the socially optimal quantity" },
-        { "id": "C", "text": "produce the socially optimal quantity" },
-        { "id": "D", "text": "not produce at all" }
+        {
+          "id": "A",
+          "text": "produce less than the socially optimal quantity"
+        },
+        {
+          "id": "B",
+          "text": "produce more than the socially optimal quantity"
+        },
+        {
+          "id": "C",
+          "text": "produce the socially optimal quantity"
+        },
+        {
+          "id": "D",
+          "text": "not produce at all"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The factory ignores external costs, so private cost is below social cost.",
       "distractors": {}
     },
     {
-      "id": "u6-q02", "tier": "Intro", "type": "mcq", "topic": "6.3 Public and Private Goods", "skill": "1. Principles and Models",
+      "id": "u6-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.3 Public and Private Goods",
+      "skill": "1. Principles and Models",
       "stem": "Which is the best example of a public good?",
       "choices": [
-        { "id": "A", "text": "A slice of pizza" },
-        { "id": "B", "text": "National defense" },
-        { "id": "C", "text": "A subscription streaming service" },
-        { "id": "D", "text": "Fish in the open ocean" }
+        {
+          "id": "A",
+          "text": "National defense"
+        },
+        {
+          "id": "B",
+          "text": "A slice of pizza"
+        },
+        {
+          "id": "C",
+          "text": "A subscription streaming service"
+        },
+        {
+          "id": "D",
+          "text": "Fish in the open ocean"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "National defense is nonrival and nonexcludable.",
-      "distractors": { "C": "Club good (excludable).", "D": "Common resource (rival)." }
+      "distractors": {
+        "C": "Club good (excludable).",
+        "D": "Common resource (rival)."
+      }
     },
     {
-      "id": "u6-q03", "tier": "Intro", "type": "mcq", "topic": "6.5 Inequality", "skill": "3. Manipulation",
+      "id": "u6-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.5 Inequality",
+      "skill": "3. Manipulation",
       "stem": "A tax takes $2,000 from a household earning $20,000 and $5,000 from a household earning $100,000. This tax is",
       "choices": [
-        { "id": "A", "text": "progressive" },
-        { "id": "B", "text": "proportional" },
-        { "id": "C", "text": "regressive" },
-        { "id": "D", "text": "lump-sum and progressive" }
-      ],
-      "answer": "C",
-      "explanation": "10% of the lower income vs. 5% of the higher income.",
-      "distractors": { "A": "Judges by dollar amount instead of percentage." }
-    },
-    {
-      "id": "u6-q04", "tier": "Intro", "type": "mcq", "topic": "6.2 Externalities", "skill": "2. Interpretation",
-      "stem": "Which policy would best correct the underconsumption of flu vaccines?",
-      "choices": [
-        { "id": "A", "text": "A per-unit tax on vaccines" },
-        { "id": "B", "text": "A per-unit subsidy for vaccines equal to the marginal external benefit" },
-        { "id": "C", "text": "A price floor on vaccines" },
-        { "id": "D", "text": "A ban on vaccines" }
+        {
+          "id": "A",
+          "text": "progressive"
+        },
+        {
+          "id": "B",
+          "text": "regressive"
+        },
+        {
+          "id": "C",
+          "text": "proportional"
+        },
+        {
+          "id": "D",
+          "text": "lump-sum and progressive"
+        }
       ],
       "answer": "B",
+      "explanation": "10% of the lower income vs. 5% of the higher income.",
+      "distractors": {
+        "A": "Judges by dollar amount instead of percentage."
+      }
+    },
+    {
+      "id": "u6-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.2 Externalities",
+      "skill": "2. Interpretation",
+      "stem": "Which policy would best correct the underconsumption of flu vaccines?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A per-unit tax on vaccines"
+        },
+        {
+          "id": "B",
+          "text": "A ban on vaccines"
+        },
+        {
+          "id": "C",
+          "text": "A price floor on vaccines"
+        },
+        {
+          "id": "D",
+          "text": "A per-unit subsidy for vaccines equal to the marginal external benefit"
+        }
+      ],
+      "answer": "D",
       "explanation": "Vaccines have positive externalities; a subsidy raises quantity to the efficient level.",
       "distractors": {}
     },
     {
-      "id": "u6-q05", "tier": "Exam level", "type": "mcq", "topic": "6.2 Externalities", "skill": "4. Graphing and Visuals",
+      "id": "u6-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.2 Externalities",
+      "skill": "4. Graphing and Visuals",
       "stem": "On a graph of a market with a negative production externality, the deadweight loss is the area",
       "choices": [
-        { "id": "A", "text": "between MSC and demand from the socially optimal quantity to the market quantity" },
-        { "id": "B", "text": "below the demand curve and above the price" },
-        { "id": "C", "text": "between MPC and MSC from zero to the optimal quantity" },
-        { "id": "D", "text": "to the left of the socially optimal quantity" }
+        {
+          "id": "A",
+          "text": "between MPC and MSC from zero to the optimal quantity"
+        },
+        {
+          "id": "B",
+          "text": "below the demand curve and above the price"
+        },
+        {
+          "id": "C",
+          "text": "between MSC and demand from the socially optimal quantity to the market quantity"
+        },
+        {
+          "id": "D",
+          "text": "to the left of the socially optimal quantity"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Units beyond the optimum cost society more than they're worth to buyers.",
       "distractors": {}
     },
     {
-      "id": "u6-q06", "tier": "Exam level", "type": "mcq", "topic": "6.3 Public and Private Goods", "skill": "2. Interpretation",
+      "id": "u6-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.3 Public and Private Goods",
+      "skill": "2. Interpretation",
       "stem": "Why do private markets typically underprovide fireworks displays over a city?",
       "choices": [
-        { "id": "A", "text": "Because people who don't pay can still watch, so private firms can't collect enough revenue: the free-rider problem." },
-        { "id": "B", "text": "Because fireworks are rival goods." },
-        { "id": "C", "text": "Because demand for fireworks is perfectly elastic." },
-        { "id": "D", "text": "Because government bans fireworks." }
+        {
+          "id": "A",
+          "text": "Because people who don't pay can still watch, so private firms can't collect enough revenue: the free-rider problem."
+        },
+        {
+          "id": "B",
+          "text": "Because fireworks are rival goods."
+        },
+        {
+          "id": "C",
+          "text": "Because demand for fireworks is perfectly elastic."
+        },
+        {
+          "id": "D",
+          "text": "Because government bans fireworks."
+        }
       ],
       "answer": "A",
       "explanation": "Nonexcludability prevents charging viewers.",
       "distractors": {}
     },
     {
-      "id": "u6-q07", "tier": "Exam level", "type": "mcq", "topic": "6.5 Inequality", "skill": "4. Graphing and Visuals",
+      "id": "u6-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.5 Inequality",
+      "skill": "4. Graphing and Visuals",
       "stem": "Country A's Lorenz curve lies farther from the line of perfect equality than Country B's. Which is true?",
       "choices": [
-        { "id": "A", "text": "Country A has greater income inequality and a higher Gini coefficient." },
-        { "id": "B", "text": "Country A has less inequality." },
-        { "id": "C", "text": "Both have the same Gini coefficient." },
-        { "id": "D", "text": "Country A has higher average income." }
+        {
+          "id": "A",
+          "text": "Country A has less inequality."
+        },
+        {
+          "id": "B",
+          "text": "Country A has greater income inequality and a higher Gini coefficient."
+        },
+        {
+          "id": "C",
+          "text": "Both have the same Gini coefficient."
+        },
+        {
+          "id": "D",
+          "text": "Country A has higher average income."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "A larger gap between the curve and the equality line means more inequality.",
-      "distractors": { "D": "Lorenz curves show distribution, not levels." }
+      "distractors": {
+        "D": "Lorenz curves show distribution, not levels."
+      }
     },
     {
-      "id": "u6-q08", "tier": "Exam level", "type": "mcq", "topic": "6.4 The Effects of Government Intervention in Different Market Structures", "skill": "2. Interpretation",
+      "id": "u6-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.4 The Effects of Government Intervention in Different Market Structures",
+      "skill": "2. Interpretation",
       "stem": "Two large airlines propose a merger that would give them 70% of flights on many routes. The government blocks the merger. This is an example of",
       "choices": [
-        { "id": "A", "text": "antitrust policy to preserve competition" },
-        { "id": "B", "text": "a Pigouvian tax" },
-        { "id": "C", "text": "a price ceiling" },
-        { "id": "D", "text": "a subsidy" }
+        {
+          "id": "A",
+          "text": "a price ceiling"
+        },
+        {
+          "id": "B",
+          "text": "a Pigouvian tax"
+        },
+        {
+          "id": "C",
+          "text": "antitrust policy to preserve competition"
+        },
+        {
+          "id": "D",
+          "text": "a subsidy"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Antitrust laws prevent mergers that would substantially reduce competition.",
       "distractors": {}
     },
     {
-      "id": "u6-q09", "tier": "Exam level", "type": "mcq", "topic": "6.2 Externalities", "skill": "2. Interpretation",
+      "id": "u6-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.2 Externalities",
+      "skill": "2. Interpretation",
       "stem": "A per-unit tax equal to the marginal external cost is placed on a polluting good. Which outcome results?",
       "choices": [
-        { "id": "A", "text": "Output falls to the socially optimal level and deadweight loss is eliminated." },
-        { "id": "B", "text": "Output falls to zero." },
-        { "id": "C", "text": "Output rises." },
-        { "id": "D", "text": "Deadweight loss increases." }
+        {
+          "id": "A",
+          "text": "Output falls to the socially optimal level and deadweight loss is eliminated."
+        },
+        {
+          "id": "B",
+          "text": "Output falls to zero."
+        },
+        {
+          "id": "C",
+          "text": "Output rises."
+        },
+        {
+          "id": "D",
+          "text": "Deadweight loss increases."
+        }
       ],
       "answer": "A",
       "explanation": "The tax internalizes the external cost: MPC + tax = MSC.",
       "distractors": {}
     },
     {
-      "id": "u6-q10", "tier": "Exam level", "type": "mcq", "topic": "6.3 Public and Private Goods", "skill": "1. Principles and Models",
+      "id": "u6-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.3 Public and Private Goods",
+      "skill": "1. Principles and Models",
       "stem": "Fish in an unregulated international fishing ground are best classified as",
       "choices": [
-        { "id": "A", "text": "a private good" },
-        { "id": "B", "text": "a public good" },
-        { "id": "C", "text": "a common resource, likely to be overused" },
-        { "id": "D", "text": "a club good" }
+        {
+          "id": "A",
+          "text": "a private good"
+        },
+        {
+          "id": "B",
+          "text": "a public good"
+        },
+        {
+          "id": "C",
+          "text": "a club good"
+        },
+        {
+          "id": "D",
+          "text": "a common resource, likely to be overused"
+        }
       ],
-      "answer": "C",
+      "answer": "D",
       "explanation": "Rival (a fish caught by one isn't available to another) but nonexcludable.",
       "distractors": {}
     },
     {
-      "id": "u6-q11", "tier": "Hardest", "type": "mcq", "topic": "6.2 Externalities", "skill": "3. Manipulation",
+      "id": "u6-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.2 Externalities",
+      "skill": "3. Manipulation",
       "stimulus": "In a market, MPB = 100 − Q and MPC = 20 + Q. Each unit produced creates $20 of external cost.",
       "stem": "What are the market quantity, socially optimal quantity, and deadweight loss?",
       "choices": [
-        { "id": "A", "text": "Market 40; optimal 30; DWL $100" },
-        { "id": "B", "text": "Market 40; optimal 50; DWL $100" },
-        { "id": "C", "text": "Market 30; optimal 40; DWL $200" },
-        { "id": "D", "text": "Market 40; optimal 30; DWL $200" }
+        {
+          "id": "A",
+          "text": "Market 40; optimal 30; DWL $200"
+        },
+        {
+          "id": "B",
+          "text": "Market 40; optimal 50; DWL $100"
+        },
+        {
+          "id": "C",
+          "text": "Market 30; optimal 40; DWL $200"
+        },
+        {
+          "id": "D",
+          "text": "Market 40; optimal 30; DWL $100"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Market: 100 − Q = 20 + Q → Q = 40. MSC = 40 + Q; optimal: 100 − Q = 40 + Q → Q = 30. DWL = ½ × 10 × 20 = $100.",
-      "distractors": { "D": "Forgets the ½." }
+      "distractors": {
+        "A": "Forgets the ½."
+      }
     },
     {
-      "id": "u6-q12", "tier": "Hardest", "type": "mcq", "topic": "6.2 Externalities", "skill": "2. Interpretation",
+      "id": "u6-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.2 Externalities",
+      "skill": "2. Interpretation",
       "stem": "A government issues a fixed number of tradable pollution permits to firms. Compared with requiring every firm to cut pollution by the same amount, this approach",
       "choices": [
-        { "id": "A", "text": "achieves the same total reduction at lower total cost, because firms with low abatement costs cut more and sell permits" },
-        { "id": "B", "text": "always reduces more pollution" },
-        { "id": "C", "text": "eliminates all pollution" },
-        { "id": "D", "text": "raises the total cost of reducing pollution" }
+        {
+          "id": "A",
+          "text": "eliminates all pollution"
+        },
+        {
+          "id": "B",
+          "text": "always reduces more pollution"
+        },
+        {
+          "id": "C",
+          "text": "achieves the same total reduction at lower total cost, because firms with low abatement costs cut more and sell permits"
+        },
+        {
+          "id": "D",
+          "text": "raises the total cost of reducing pollution"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Trading lets abatement happen where it's cheapest.",
       "distractors": {}
     },
     {
-      "id": "u6-q13", "tier": "Hardest", "type": "mcq", "topic": "6.4 The Effects of Government Intervention in Different Market Structures", "skill": "2. Interpretation",
+      "id": "u6-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.4 The Effects of Government Intervention in Different Market Structures",
+      "skill": "2. Interpretation",
       "stem": "A government sets a price ceiling on an unregulated monopolist at the price where MC intersects demand. Which result is most likely?",
       "choices": [
-        { "id": "A", "text": "Output increases to the allocatively efficient level and deadweight loss falls." },
-        { "id": "B", "text": "Output decreases." },
-        { "id": "C", "text": "A shortage develops as in a competitive market." },
-        { "id": "D", "text": "The monopolist's profit increases." }
+        {
+          "id": "A",
+          "text": "Output increases to the allocatively efficient level and deadweight loss falls."
+        },
+        {
+          "id": "B",
+          "text": "Output decreases."
+        },
+        {
+          "id": "C",
+          "text": "A shortage develops as in a competitive market."
+        },
+        {
+          "id": "D",
+          "text": "The monopolist's profit increases."
+        }
       ],
       "answer": "A",
       "explanation": "With a ceiling, MR equals the ceiling price up to the demand curve, so the monopolist produces where P = MC.",
       "distractors": {}
     },
     {
-      "id": "u6-q14", "tier": "Hardest", "type": "mcq", "topic": "6.1 Socially Efficient and Inefficient Market Outcomes", "skill": "2. Interpretation",
+      "id": "u6-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.1 Socially Efficient and Inefficient Market Outcomes",
+      "skill": "2. Interpretation",
       "stem": "Under what condition would private bargaining between a polluting factory and nearby residents most likely reach the efficient outcome without government intervention?",
       "choices": [
-        { "id": "A", "text": "Property rights are clearly defined and transaction costs are low." },
-        { "id": "B", "text": "Many thousands of residents are affected." },
-        { "id": "C", "text": "The factory is a monopoly." },
-        { "id": "D", "text": "The pollution affects only future generations." }
+        {
+          "id": "A",
+          "text": "Many thousands of residents are affected."
+        },
+        {
+          "id": "B",
+          "text": "Property rights are clearly defined and transaction costs are low."
+        },
+        {
+          "id": "C",
+          "text": "The factory is a monopoly."
+        },
+        {
+          "id": "D",
+          "text": "The pollution affects only future generations."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "This is the Coase theorem; large numbers and high transaction costs prevent bargaining.",
       "distractors": {}
     },
     {
-      "id": "u6-frq1", "tier": "Exam level", "type": "frq", "topic": "6.2 Externalities", "frqType": "Short FRQ",
+      "id": "u6-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "6.2 Externalities",
+      "frqType": "Short FRQ",
       "prompt": "The production of fertilizer generates water pollution that harms people living downstream. The fertilizer market is perfectly competitive.",
       "parts": [
-        { "label": "a", "prompt": "Draw (describe) a correctly labeled graph of the fertilizer market showing the demand (MPB = MSB), MPC, and MSC curves. Label the market quantity Q_m and the socially optimal quantity Q_s.", "points": 2 },
-        { "label": "b", "prompt": "Shade (describe) the deadweight loss.", "points": 1 },
-        { "label": "c", "prompt": "Identify a per-unit government policy that would move output to Q_s, and state its size.", "points": 1 },
-        { "label": "d", "prompt": "Explain why the policy in (c) does not reduce pollution to zero.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Draw (describe) a correctly labeled graph of the fertilizer market showing the demand (MPB = MSB), MPC, and MSC curves. Label the market quantity Q_m and the socially optimal quantity Q_s.",
+          "points": 2
+        },
+        {
+          "label": "b",
+          "prompt": "Shade (describe) the deadweight loss.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Identify a per-unit government policy that would move output to Q_s, and state its size.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Explain why the policy in (c) does not reduce pollution to zero.",
+          "points": 1
+        }
       ],
       "points": 5,
       "minutes": 10,
       "rubric": [
-        { "criterion": "a1: Curves", "points": 1, "description": "Axes price and quantity; demand (MPB = MSB); MPC; MSC above MPC." },
-        { "criterion": "a2: Quantities", "points": 1, "description": "Q_m where MPC meets demand; Q_s where MSC meets demand; Q_s < Q_m." },
-        { "criterion": "b", "points": 1, "description": "Triangle between Q_s and Q_m, bounded above by MSC and below by demand." },
-        { "criterion": "c", "points": 1, "description": "A per-unit (Pigouvian) tax equal to the marginal external cost (vertical distance between MSC and MPC)." },
-        { "criterion": "d", "points": 1, "description": "At Q_s, the benefit of the last unit of fertilizer equals its full social cost, including pollution; eliminating all pollution would forgo units whose benefits exceed their social costs." }
+        {
+          "criterion": "a1: Curves",
+          "points": 1,
+          "description": "Axes price and quantity; demand (MPB = MSB); MPC; MSC above MPC."
+        },
+        {
+          "criterion": "a2: Quantities",
+          "points": 1,
+          "description": "Q_m where MPC meets demand; Q_s where MSC meets demand; Q_s < Q_m."
+        },
+        {
+          "criterion": "b",
+          "points": 1,
+          "description": "Triangle between Q_s and Q_m, bounded above by MSC and below by demand."
+        },
+        {
+          "criterion": "c",
+          "points": 1,
+          "description": "A per-unit (Pigouvian) tax equal to the marginal external cost (vertical distance between MSC and MPC)."
+        },
+        {
+          "criterion": "d",
+          "points": 1,
+          "description": "At Q_s, the benefit of the last unit of fertilizer equals its full social cost, including pollution; eliminating all pollution would forgo units whose benefits exceed their social costs."
+        }
       ],
       "sampleResponse": "(a) The graph has 'Price' on the vertical axis and 'Quantity of fertilizer' on the horizontal axis. A downward-sloping demand curve is labeled MPB = MSB. An upward-sloping MPC curve intersects demand at Q_m. An MSC curve lies above MPC by the marginal external cost and intersects demand at Q_s, to the left of Q_m.\n\n(b) Deadweight loss is the triangle between Q_s and Q_m, bounded above by MSC and below by the demand curve.\n\n(c) A per-unit tax on fertilizer equal to the marginal external cost of the pollution, which is the vertical distance between MSC and MPC.\n\n(d) The tax reduces output to Q_s, where the marginal social benefit of fertilizer equals its marginal social cost including pollution. Cutting output below Q_s to eliminate all pollution would give up fertilizer whose value to society exceeds its full cost, so some pollution is efficient."
     }

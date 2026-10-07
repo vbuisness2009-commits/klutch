@@ -116,17 +116,17 @@
         },
         {
           "id": "C",
-          "text": "Hydrogen bonding"
+          "text": "Ion–dipole forces"
         },
         {
           "id": "D",
-          "text": "Ion–dipole forces"
+          "text": "Hydrogen bonding"
         }
       ],
-      "answer": "C",
+      "answer": "D",
       "explanation": "Methanol has an O–H bond, so H on one molecule is attracted to a lone pair on O of another.",
       "distractors": {
-        "D": "No ions are present."
+        "C": "No ions are present."
       }
     },
     {
@@ -294,7 +294,7 @@
         },
         {
           "id": "B",
-          "text": "Both have the same average kinetic energy, and He atoms have about twice the average speed."
+          "text": "He atoms have about four times the average speed."
         },
         {
           "id": "C",
@@ -302,13 +302,13 @@
         },
         {
           "id": "D",
-          "text": "He atoms have about four times the average speed."
+          "text": "Both have the same average kinetic energy, and He atoms have about twice the average speed."
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "KE depends only on T. Speed ∝ 1/√M: √(16/4) = 2.",
       "distractors": {
-        "D": "Forgets the square root."
+        "B": "Forgets the square root."
       }
     },
     {
@@ -321,7 +321,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Dye X is more polar than dye Y, because it interacts more strongly with the polar paper."
+          "text": "Dye X has a larger molar mass, so it moves more slowly."
         },
         {
           "id": "B",
@@ -329,17 +329,17 @@
         },
         {
           "id": "C",
-          "text": "Dye X has a larger molar mass, so it moves more slowly."
+          "text": "Dye X is more polar than dye Y, because it interacts more strongly with the polar paper."
         },
         {
           "id": "D",
           "text": "The dyes have equal polarity."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Low Rf means strong attraction to the stationary (polar) phase relative to the nonpolar mobile phase.",
       "distractors": {
-        "C": "Rf depends on relative attractions, not mass alone."
+        "A": "Rf depends on relative attractions, not mass alone."
       }
     },
     {
@@ -385,18 +385,18 @@
         },
         {
           "id": "B",
-          "text": "diethyl ether > ethanol > water"
+          "text": "ethanol > diethyl ether > water"
         },
         {
           "id": "C",
-          "text": "ethanol > diethyl ether > water"
+          "text": "diethyl ether > ethanol > water"
         },
         {
           "id": "D",
           "text": "diethyl ether > water > ethanol"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Ether has no O–H, so it lacks hydrogen bonding between its molecules: weakest IMFs, highest vapor pressure. Water forms the most extensive H-bond network.",
       "distractors": {
         "A": "Reverses the IMF–vapor pressure relationship."
@@ -415,7 +415,7 @@
         },
         {
           "id": "B",
-          "text": "HBr has a larger, more polarizable electron cloud, so its London dispersion forces are stronger, and this outweighs HCl's stronger dipole–dipole forces."
+          "text": "HBr molecules have a larger dipole moment."
         },
         {
           "id": "C",
@@ -423,14 +423,14 @@
         },
         {
           "id": "D",
-          "text": "HBr molecules have a larger dipole moment."
+          "text": "HBr has a larger, more polarizable electron cloud, so its London dispersion forces are stronger, and this outweighs HCl's stronger dipole–dipole forces."
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Br has more electrons than Cl; dispersion forces dominate the total IMF for these molecules.",
       "distractors": {
         "C": "Boiling doesn't break covalent bonds (and H–Br is actually weaker).",
-        "D": "HCl is more polar."
+        "B": "HCl is more polar."
       }
     },
     {
@@ -478,18 +478,18 @@
         },
         {
           "id": "B",
-          "text": "SiO₂ is a covalent network solid, so melting requires breaking covalent bonds; CO₂ is a molecular solid held only by London forces."
+          "text": "SiO₂ is ionic and CO₂ is covalent."
         },
         {
           "id": "C",
-          "text": "SiO₂ is ionic and CO₂ is covalent."
+          "text": "SiO₂ is a covalent network solid, so melting requires breaking covalent bonds; CO₂ is a molecular solid held only by London forces."
         },
         {
           "id": "D",
           "text": "SiO₂ has hydrogen bonding."
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "The two compounds differ in solid type, not just IMFs.",
       "distractors": {
         "A": "C=O bonds are polar; the CO₂ molecule is nonpolar."
@@ -505,7 +505,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Too high, because scattered light that doesn't reach the detector registers as extra absorbance"
+          "text": "Too low, because droplets reduce the path length"
         },
         {
           "id": "B",
@@ -517,10 +517,10 @@
         },
         {
           "id": "D",
-          "text": "Too low, because droplets reduce the path length"
+          "text": "Too high, because scattered light that doesn't reach the detector registers as extra absorbance"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Less light reaches the detector, so measured absorbance is higher; from A = εbc, c is calculated too high.",
       "distractors": {
         "B": "Droplets outside the cuvette don't dilute the sample."

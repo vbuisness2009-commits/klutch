@@ -55,226 +55,584 @@
     "cramSheet": "**Chain:** [f(g(x))]′ = f′(g(x))·g′(x)\n\n**Implicit:** d/dx(y) = y′ · d/dx(y²) = 2yy′ · d/dx(xy) = y + xy′\n\n**Horizontal tangent:** numerator = 0 · **Vertical tangent:** denominator = 0\n\n**Inverse:** (f⁻¹)′(a) = 1/f′(f⁻¹(a))\n\n**Inverse trig:** arcsin′ = 1/√(1−x²) · arccos′ = −1/√(1−x²) · arctan′ = 1/(1+x²)\n\n**Composites:** (e^u)′ = e^u·u′ · (ln u)′ = u′/u · (sin u)′ = cos u·u′ · (uⁿ)′ = nuⁿ⁻¹·u′"
   },
   "vocab": [
-    { "term": "Composite function", "definition": "A function of the form f(g(x)), where the output of g becomes the input of f." },
-    { "term": "Chain rule", "definition": "d/dx f(g(x)) = f′(g(x))·g′(x); the derivative of the outer function at the inner, times the derivative of the inner." },
-    { "term": "Inner function", "definition": "In f(g(x)), the function g; its derivative is the extra factor the chain rule supplies." },
-    { "term": "Implicit differentiation", "definition": "Differentiating both sides of an equation in x and y with respect to x, treating y as a function of x." },
-    { "term": "Implicitly defined function", "definition": "A relationship between x and y given by an equation rather than y = f(x).", "example": "x² + xy + y² = 7" },
-    { "term": "Horizontal tangent", "definition": "A point where dy/dx = 0; on an implicit curve, where the numerator of dy/dx is 0 and the denominator isn't." },
-    { "term": "Vertical tangent", "definition": "A point where dy/dx is undefined because the denominator is 0 and the numerator isn't." },
-    { "term": "Inverse function", "definition": "g = f⁻¹ undoes f: g(f(x)) = x. Its graph is the reflection of f over y = x." },
-    { "term": "Derivative of an inverse", "definition": "(f⁻¹)′(a) = 1/f′(f⁻¹(a)), the reciprocal of f′ at the corresponding point." },
-    { "term": "arcsin x", "definition": "The inverse of sine on [−π/2, π/2]; its derivative is 1/√(1 − x²)." },
-    { "term": "arctan x", "definition": "The inverse of tangent with range (−π/2, π/2); its derivative is 1/(1 + x²)." },
-    { "term": "Second derivative", "definition": "f″(x) = d²y/dx², the derivative of f′; it measures how the slope changes." },
-    { "term": "Higher-order derivative", "definition": "Any derivative beyond the first, written f‴, f⁽⁴⁾, and so on." }
+    {
+      "term": "Composite function",
+      "definition": "A function of the form f(g(x)), where the output of g becomes the input of f."
+    },
+    {
+      "term": "Chain rule",
+      "definition": "d/dx f(g(x)) = f′(g(x))·g′(x); the derivative of the outer function at the inner, times the derivative of the inner."
+    },
+    {
+      "term": "Inner function",
+      "definition": "In f(g(x)), the function g; its derivative is the extra factor the chain rule supplies."
+    },
+    {
+      "term": "Implicit differentiation",
+      "definition": "Differentiating both sides of an equation in x and y with respect to x, treating y as a function of x."
+    },
+    {
+      "term": "Implicitly defined function",
+      "definition": "A relationship between x and y given by an equation rather than y = f(x).",
+      "example": "x² + xy + y² = 7"
+    },
+    {
+      "term": "Horizontal tangent",
+      "definition": "A point where dy/dx = 0; on an implicit curve, where the numerator of dy/dx is 0 and the denominator isn't."
+    },
+    {
+      "term": "Vertical tangent",
+      "definition": "A point where dy/dx is undefined because the denominator is 0 and the numerator isn't."
+    },
+    {
+      "term": "Inverse function",
+      "definition": "g = f⁻¹ undoes f: g(f(x)) = x. Its graph is the reflection of f over y = x."
+    },
+    {
+      "term": "Derivative of an inverse",
+      "definition": "(f⁻¹)′(a) = 1/f′(f⁻¹(a)), the reciprocal of f′ at the corresponding point."
+    },
+    {
+      "term": "arcsin x",
+      "definition": "The inverse of sine on [−π/2, π/2]; its derivative is 1/√(1 − x²)."
+    },
+    {
+      "term": "arctan x",
+      "definition": "The inverse of tangent with range (−π/2, π/2); its derivative is 1/(1 + x²)."
+    },
+    {
+      "term": "Second derivative",
+      "definition": "f″(x) = d²y/dx², the derivative of f′; it measures how the slope changes."
+    },
+    {
+      "term": "Higher-order derivative",
+      "definition": "Any derivative beyond the first, written f‴, f⁽⁴⁾, and so on."
+    }
   ],
   "practice": [
     {
-      "id": "u3-q01", "tier": "Intro", "type": "mcq", "topic": "3.1 The Chain Rule",
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.1 The Chain Rule",
       "stem": "d/dx (3x + 1)⁵ =",
       "choices": [
-        { "id": "A", "text": "5(3x + 1)⁴" },
-        { "id": "B", "text": "15(3x + 1)⁴" },
-        { "id": "C", "text": "15(3x + 1)⁵" },
-        { "id": "D", "text": "3(3x + 1)⁴" }
+        {
+          "id": "A",
+          "text": "5(3x + 1)⁴"
+        },
+        {
+          "id": "B",
+          "text": "3(3x + 1)⁴"
+        },
+        {
+          "id": "C",
+          "text": "15(3x + 1)⁵"
+        },
+        {
+          "id": "D",
+          "text": "15(3x + 1)⁴"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Outer: 5u⁴. Inner derivative: 3. So 5(3x + 1)⁴ · 3 = 15(3x + 1)⁴.",
-      "distractors": { "A": "Forgot to multiply by the inner derivative 3.", "C": "Didn't lower the exponent.", "D": "Used the inner derivative but not the power 5." }
+      "distractors": {
+        "A": "Forgot to multiply by the inner derivative 3.",
+        "C": "Didn't lower the exponent.",
+        "B": "Used the inner derivative but not the power 5."
+      }
     },
     {
-      "id": "u3-q02", "tier": "Intro", "type": "mcq", "topic": "3.1 The Chain Rule",
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.1 The Chain Rule",
       "stem": "d/dx sin(x²) =",
       "choices": [
-        { "id": "A", "text": "cos(x²)" },
-        { "id": "B", "text": "2x cos(x²)" },
-        { "id": "C", "text": "−2x cos(x²)" },
-        { "id": "D", "text": "2x cos(2x)" }
+        {
+          "id": "A",
+          "text": "cos(x²)"
+        },
+        {
+          "id": "B",
+          "text": "−2x cos(x²)"
+        },
+        {
+          "id": "C",
+          "text": "2x cos(x²)"
+        },
+        {
+          "id": "D",
+          "text": "2x cos(2x)"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "cos(x²) times the inner derivative 2x.",
-      "distractors": { "A": "Dropped the inner derivative.", "C": "Sign error: the derivative of sin is +cos.", "D": "Differentiated the inside inside the cosine too." }
+      "distractors": {
+        "A": "Dropped the inner derivative.",
+        "D": "Differentiated the inside inside the cosine too.",
+        "B": "Sign error: the derivative of sin is +cos."
+      }
     },
     {
-      "id": "u3-q03", "tier": "Intro", "type": "mcq", "topic": "3.1 The Chain Rule",
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.1 The Chain Rule",
       "stem": "d/dx e^(4x) =",
       "choices": [
-        { "id": "A", "text": "e^(4x)" },
-        { "id": "B", "text": "4e^(4x)" },
-        { "id": "C", "text": "4x·e^(4x − 1)" },
-        { "id": "D", "text": "e⁴" }
+        {
+          "id": "A",
+          "text": "e^(4x)"
+        },
+        {
+          "id": "B",
+          "text": "4e^(4x)"
+        },
+        {
+          "id": "C",
+          "text": "4x·e^(4x − 1)"
+        },
+        {
+          "id": "D",
+          "text": "e⁴"
+        }
       ],
       "answer": "B",
       "explanation": "(e^u)′ = e^u·u′ with u = 4x, so 4e^(4x).",
-      "distractors": { "A": "Forgot the chain rule factor.", "C": "Applied the power rule to an exponential." }
+      "distractors": {
+        "A": "Forgot the chain rule factor.",
+        "C": "Applied the power rule to an exponential."
+      }
     },
     {
-      "id": "u3-q04", "tier": "Intro", "type": "mcq", "topic": "3.1 The Chain Rule",
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.1 The Chain Rule",
       "stem": "d/dx ln(x² + 1) =",
       "choices": [
-        { "id": "A", "text": "1/(x² + 1)" },
-        { "id": "B", "text": "2x/(x² + 1)" },
-        { "id": "C", "text": "2x·ln(x² + 1)" },
-        { "id": "D", "text": "1/(2x)" }
+        {
+          "id": "A",
+          "text": "2x/(x² + 1)"
+        },
+        {
+          "id": "B",
+          "text": "1/(x² + 1)"
+        },
+        {
+          "id": "C",
+          "text": "2x·ln(x² + 1)"
+        },
+        {
+          "id": "D",
+          "text": "1/(2x)"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "(ln u)′ = u′/u, with u = x² + 1 and u′ = 2x.",
-      "distractors": { "A": "Missed the inner derivative.", "D": "Took the reciprocal of the inner derivative." }
+      "distractors": {
+        "D": "Took the reciprocal of the inner derivative.",
+        "B": "Missed the inner derivative."
+      }
     },
     {
-      "id": "u3-q05", "tier": "Exam level", "type": "mcq", "topic": "3.2 Implicit Differentiation",
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.2 Implicit Differentiation",
       "stem": "If x² + y² = 25, what is dy/dx at the point (3, 4)?",
       "choices": [
-        { "id": "A", "text": "−3/4" },
-        { "id": "B", "text": "3/4" },
-        { "id": "C", "text": "−4/3" },
-        { "id": "D", "text": "4/3" }
+        {
+          "id": "A",
+          "text": "−3/4"
+        },
+        {
+          "id": "B",
+          "text": "3/4"
+        },
+        {
+          "id": "C",
+          "text": "−4/3"
+        },
+        {
+          "id": "D",
+          "text": "4/3"
+        }
       ],
       "answer": "A",
       "explanation": "2x + 2y·y′ = 0 gives y′ = −x/y = −3/4.",
-      "distractors": { "B": "Lost the negative when moving 2x across.", "C": "Inverted the ratio: wrote −y/x instead of −x/y." }
+      "distractors": {
+        "B": "Lost the negative when moving 2x across.",
+        "C": "Inverted the ratio: wrote −y/x instead of −x/y."
+      }
     },
     {
-      "id": "u3-q06", "tier": "Exam level", "type": "mcq", "topic": "3.3 Differentiating Inverse Trigonometric Functions",
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.3 Differentiating Inverse Trigonometric Functions",
       "stem": "d/dx arctan(2x) =",
       "choices": [
-        { "id": "A", "text": "1/(1 + 4x²)" },
-        { "id": "B", "text": "2/(1 + 4x²)" },
-        { "id": "C", "text": "2/(1 + 2x²)" },
-        { "id": "D", "text": "2/(1 + x²)" }
+        {
+          "id": "A",
+          "text": "1/(1 + 4x²)"
+        },
+        {
+          "id": "B",
+          "text": "2/(1 + 4x²)"
+        },
+        {
+          "id": "C",
+          "text": "2/(1 + 2x²)"
+        },
+        {
+          "id": "D",
+          "text": "2/(1 + x²)"
+        }
       ],
       "answer": "B",
       "explanation": "(arctan u)′ = u′/(1 + u²) with u = 2x: 2/(1 + 4x²).",
-      "distractors": { "A": "Dropped the chain factor 2.", "C": "Squared 2x as 2x² instead of 4x².", "D": "Didn't substitute u into the denominator." }
+      "distractors": {
+        "A": "Dropped the chain factor 2.",
+        "C": "Squared 2x as 2x² instead of 4x².",
+        "D": "Didn't substitute u into the denominator."
+      }
     },
     {
-      "id": "u3-q07", "tier": "Exam level", "type": "mcq", "topic": "3.3 Differentiating Inverse Functions",
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.3 Differentiating Inverse Functions",
       "stem": "Let f(x) = x³ + x + 1, and let g be the inverse function of f. What is g′(3)?",
       "choices": [
-        { "id": "A", "text": "1/28" },
-        { "id": "B", "text": "1/4" },
-        { "id": "C", "text": "4" },
-        { "id": "D", "text": "28" }
+        {
+          "id": "A",
+          "text": "1/28"
+        },
+        {
+          "id": "B",
+          "text": "1/4"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "28"
+        }
       ],
       "answer": "B",
       "explanation": "f(1) = 3, so g(3) = 1. f′(x) = 3x² + 1 gives f′(1) = 4. g′(3) = 1/f′(1) = 1/4.",
-      "distractors": { "A": "Evaluated f′ at 3 instead of at g(3) = 1.", "C": "Forgot to take the reciprocal.", "D": "Computed f′(3)." }
+      "distractors": {
+        "A": "Evaluated f′ at 3 instead of at g(3) = 1.",
+        "C": "Forgot to take the reciprocal.",
+        "D": "Computed f′(3)."
+      }
     },
     {
-      "id": "u3-q08", "tier": "Exam level", "type": "mcq", "topic": "3.1 The Chain Rule",
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.1 The Chain Rule",
       "stimulus": "| x | f(x) | f′(x) | g(x) | g′(x) |\n| --- | --- | --- | --- | --- |\n| 2 | 1 | 7 | 5 | −2 |\n| 5 | 4 | 3 | 0 | 6 |",
       "stem": "Let h(x) = f(g(x)). What is h′(2)?",
       "choices": [
-        { "id": "A", "text": "−6" },
-        { "id": "B", "text": "−14" },
-        { "id": "C", "text": "18" },
-        { "id": "D", "text": "6" }
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "−14"
+        },
+        {
+          "id": "C",
+          "text": "18"
+        },
+        {
+          "id": "D",
+          "text": "−6"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "h′(2) = f′(g(2))·g′(2) = f′(5)·(−2) = 3·(−2) = −6.",
-      "distractors": { "B": "Used f′(2) instead of f′(g(2)).", "C": "Used f′(5)·g′(5).", "D": "Dropped the sign of g′(2)." }
+      "distractors": {
+        "B": "Used f′(2) instead of f′(g(2)).",
+        "C": "Used f′(5)·g′(5).",
+        "A": "Dropped the sign of g′(2)."
+      }
     },
     {
-      "id": "u3-q09", "tier": "Exam level", "type": "mcq", "topic": "3.6 Calculating Higher-Order Derivatives",
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.6 Calculating Higher-Order Derivatives",
       "stem": "If y = sin(3x), then d²y/dx² =",
       "choices": [
-        { "id": "A", "text": "−9 sin(3x)" },
-        { "id": "B", "text": "9 sin(3x)" },
-        { "id": "C", "text": "−3 sin(3x)" },
-        { "id": "D", "text": "−9 cos(3x)" }
+        {
+          "id": "A",
+          "text": "−3 sin(3x)"
+        },
+        {
+          "id": "B",
+          "text": "9 sin(3x)"
+        },
+        {
+          "id": "C",
+          "text": "−9 sin(3x)"
+        },
+        {
+          "id": "D",
+          "text": "−9 cos(3x)"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "y′ = 3cos(3x). y″ = 3·(−sin(3x))·3 = −9 sin(3x).",
-      "distractors": { "B": "Lost the sign from differentiating cosine.", "C": "Applied the chain rule only once.", "D": "Stopped the function at cosine." }
+      "distractors": {
+        "B": "Lost the sign from differentiating cosine.",
+        "D": "Stopped the function at cosine.",
+        "A": "Applied the chain rule only once."
+      }
     },
     {
-      "id": "u3-q10", "tier": "Exam level", "type": "mcq", "topic": "3.2 Implicit Differentiation",
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.2 Implicit Differentiation",
       "stem": "If xy + y² = 7, then dy/dx =",
       "choices": [
-        { "id": "A", "text": "−y/(x + 2y)" },
-        { "id": "B", "text": "−x/(x + 2y)" },
-        { "id": "C", "text": "y/(x + 2y)" },
-        { "id": "D", "text": "−1/2" }
+        {
+          "id": "A",
+          "text": "y/(x + 2y)"
+        },
+        {
+          "id": "B",
+          "text": "−x/(x + 2y)"
+        },
+        {
+          "id": "C",
+          "text": "−y/(x + 2y)"
+        },
+        {
+          "id": "D",
+          "text": "−1/2"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Product rule on xy: y + x·y′. So y + xy′ + 2yy′ = 0, giving y′(x + 2y) = −y and y′ = −y/(x + 2y).",
-      "distractors": { "B": "Differentiated xy as x·y′ + x.", "C": "Sign error moving y across.", "D": "Treated xy as if its derivative were y′ alone." }
+      "distractors": {
+        "B": "Differentiated xy as x·y′ + x.",
+        "D": "Treated xy as if its derivative were y′ alone.",
+        "A": "Sign error moving y across."
+      }
     },
     {
-      "id": "u3-q11", "tier": "Hardest", "type": "mcq", "topic": "3.6 Higher-Order Derivatives (implicit)",
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.6 Higher-Order Derivatives (implicit)",
       "stem": "If x² + y² = 25, then d²y/dx² in terms of y is",
       "choices": [
-        { "id": "A", "text": "−25/y³" },
-        { "id": "B", "text": "−1/y" },
-        { "id": "C", "text": "25/y³" },
-        { "id": "D", "text": "−x/y²" }
+        {
+          "id": "A",
+          "text": "−25/y³"
+        },
+        {
+          "id": "B",
+          "text": "−1/y"
+        },
+        {
+          "id": "C",
+          "text": "25/y³"
+        },
+        {
+          "id": "D",
+          "text": "−x/y²"
+        }
       ],
       "answer": "A",
       "explanation": "y′ = −x/y. y″ = −(y − x·y′)/y² = −(y + x²/y)/y² = −(x² + y²)/y³ = −25/y³.",
-      "distractors": { "B": "Differentiated −x/y treating y as constant.", "C": "Dropped the leading negative.", "D": "Forgot that y depends on x." }
+      "distractors": {
+        "B": "Differentiated −x/y treating y as constant.",
+        "C": "Dropped the leading negative.",
+        "D": "Forgot that y depends on x."
+      }
     },
     {
-      "id": "u3-q12", "tier": "Hardest", "type": "mcq", "topic": "3.3 Inverse Trig Functions",
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.3 Inverse Trig Functions",
       "stem": "For 0 < x < 1, d/dx arcsin(√x) =",
       "choices": [
-        { "id": "A", "text": "1/(2√(x − x²))" },
-        { "id": "B", "text": "1/√(1 − x)" },
-        { "id": "C", "text": "1/(2√(1 − x²))" },
-        { "id": "D", "text": "√x/√(1 − x)" }
+        {
+          "id": "A",
+          "text": "√x/√(1 − x)"
+        },
+        {
+          "id": "B",
+          "text": "1/√(1 − x)"
+        },
+        {
+          "id": "C",
+          "text": "1/(2√(1 − x²))"
+        },
+        {
+          "id": "D",
+          "text": "1/(2√(x − x²))"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "(arcsin u)′ = u′/√(1 − u²) with u = √x, u′ = 1/(2√x), u² = x. So 1/(2√x·√(1 − x)) = 1/(2√(x − x²)).",
-      "distractors": { "B": "Forgot the inner derivative 1/(2√x).", "C": "Used x² inside the root instead of (√x)² = x." }
+      "distractors": {
+        "B": "Forgot the inner derivative 1/(2√x).",
+        "C": "Used x² inside the root instead of (√x)² = x."
+      }
     },
     {
-      "id": "u3-q13", "tier": "Hardest", "type": "mcq", "topic": "3.1 The Chain Rule",
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.1 The Chain Rule",
       "stem": "If f(x) = ln(cos x), what is f′(π/4)?",
       "choices": [
-        { "id": "A", "text": "1" },
-        { "id": "B", "text": "−1" },
-        { "id": "C", "text": "−√2/2" },
-        { "id": "D", "text": "√2" }
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "−1"
+        },
+        {
+          "id": "C",
+          "text": "−√2/2"
+        },
+        {
+          "id": "D",
+          "text": "√2"
+        }
       ],
       "answer": "B",
       "explanation": "f′(x) = (−sin x)/cos x = −tan x. At π/4, −tan(π/4) = −1.",
-      "distractors": { "A": "Lost the sign from the derivative of cos x.", "C": "Computed −sin(π/4), forgetting to divide by cos.", "D": "Computed 1/cos(π/4)." }
+      "distractors": {
+        "A": "Lost the sign from the derivative of cos x.",
+        "C": "Computed −sin(π/4), forgetting to divide by cos.",
+        "D": "Computed 1/cos(π/4)."
+      }
     },
     {
-      "id": "u3-q14", "tier": "Hardest", "type": "mcq", "topic": "3.3 Differentiating Inverse Functions",
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.3 Differentiating Inverse Functions",
       "stimulus": "| x | f(x) | f′(x) |\n| --- | --- | --- |\n| 1 | 4 | 2 |\n| 4 | 6 | −1/2 |",
       "stem": "The function f is differentiable and invertible, and g is its inverse. Let h(x) = x·g(x). What is h′(4)?",
       "choices": [
-        { "id": "A", "text": "3" },
-        { "id": "B", "text": "−7" },
-        { "id": "C", "text": "9" },
-        { "id": "D", "text": "2" }
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "−7"
+        },
+        {
+          "id": "C",
+          "text": "9"
+        },
+        {
+          "id": "D",
+          "text": "3"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "h′(4) = g(4) + 4g′(4). Since f(1) = 4, g(4) = 1. g′(4) = 1/f′(g(4)) = 1/f′(1) = 1/2. So h′(4) = 1 + 4·½ = 3.",
-      "distractors": { "B": "Used g′(4) = 1/f′(4) = −2.", "C": "Used g′(4) = f′(1) = 2.", "D": "Forgot the g(4) term from the product rule." }
+      "distractors": {
+        "B": "Used g′(4) = 1/f′(4) = −2.",
+        "C": "Used g′(4) = f′(1) = 2.",
+        "A": "Forgot the g(4) term from the product rule."
+      }
     },
     {
-      "id": "u3-frq1", "tier": "Exam level", "type": "frq", "topic": "3.2 Implicit Differentiation", "frqType": "Free response (no calculator)",
+      "id": "u3-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "3.2 Implicit Differentiation",
+      "frqType": "Free response (no calculator)",
       "prompt": "Consider the curve given by x² + xy + y² = 7.",
       "parts": [
-        { "label": "a", "prompt": "Show that dy/dx = −(2x + y)/(x + 2y).", "points": 2 },
-        { "label": "b", "prompt": "Write an equation for the line tangent to the curve at the point (1, 2).", "points": 2 },
-        { "label": "c", "prompt": "Find the coordinates of all points on the curve at which the tangent line is horizontal.", "points": 3 },
-        { "label": "d", "prompt": "Find the y-coordinates of all points on the curve at which the tangent line is vertical.", "points": 2 }
+        {
+          "label": "a",
+          "prompt": "Show that dy/dx = −(2x + y)/(x + 2y).",
+          "points": 2
+        },
+        {
+          "label": "b",
+          "prompt": "Write an equation for the line tangent to the curve at the point (1, 2).",
+          "points": 2
+        },
+        {
+          "label": "c",
+          "prompt": "Find the coordinates of all points on the curve at which the tangent line is horizontal.",
+          "points": 3
+        },
+        {
+          "label": "d",
+          "prompt": "Find the y-coordinates of all points on the curve at which the tangent line is vertical.",
+          "points": 2
+        }
       ],
       "points": 9,
       "minutes": 15,
       "rubric": [
-        { "criterion": "(a) Implicit differentiation", "points": 1, "description": "2x + (y + x·dy/dx) + 2y·dy/dx = 0, with the product rule applied to xy." },
-        { "criterion": "(a) Solve for dy/dx", "points": 1, "description": "Collects terms: dy/dx(x + 2y) = −(2x + y), giving the stated result." },
-        { "criterion": "(b) Slope", "points": 1, "description": "dy/dx at (1, 2) = −(2 + 2)/(1 + 4) = −4/5." },
-        { "criterion": "(b) Tangent line", "points": 1, "description": "y = 2 − (4/5)(x − 1)." },
-        { "criterion": "(c) Condition", "points": 1, "description": "Sets numerator 2x + y = 0, so y = −2x." },
-        { "criterion": "(c) Substitution", "points": 1, "description": "Substitutes into the curve: x² − 2x² + 4x² = 3x² = 7." },
-        { "criterion": "(c) Points", "points": 1, "description": "(√(7/3), −2√(7/3)) and (−√(7/3), 2√(7/3)); confirms denominator −3x ≠ 0." },
-        { "criterion": "(d) Condition", "points": 1, "description": "Sets denominator x + 2y = 0, so x = −2y, and substitutes: 3y² = 7." },
-        { "criterion": "(d) Answer", "points": 1, "description": "y = ±√(7/3); numerator 2x + y = −3y ≠ 0 there." }
+        {
+          "criterion": "(a) Implicit differentiation",
+          "points": 1,
+          "description": "2x + (y + x·dy/dx) + 2y·dy/dx = 0, with the product rule applied to xy."
+        },
+        {
+          "criterion": "(a) Solve for dy/dx",
+          "points": 1,
+          "description": "Collects terms: dy/dx(x + 2y) = −(2x + y), giving the stated result."
+        },
+        {
+          "criterion": "(b) Slope",
+          "points": 1,
+          "description": "dy/dx at (1, 2) = −(2 + 2)/(1 + 4) = −4/5."
+        },
+        {
+          "criterion": "(b) Tangent line",
+          "points": 1,
+          "description": "y = 2 − (4/5)(x − 1)."
+        },
+        {
+          "criterion": "(c) Condition",
+          "points": 1,
+          "description": "Sets numerator 2x + y = 0, so y = −2x."
+        },
+        {
+          "criterion": "(c) Substitution",
+          "points": 1,
+          "description": "Substitutes into the curve: x² − 2x² + 4x² = 3x² = 7."
+        },
+        {
+          "criterion": "(c) Points",
+          "points": 1,
+          "description": "(√(7/3), −2√(7/3)) and (−√(7/3), 2√(7/3)); confirms denominator −3x ≠ 0."
+        },
+        {
+          "criterion": "(d) Condition",
+          "points": 1,
+          "description": "Sets denominator x + 2y = 0, so x = −2y, and substitutes: 3y² = 7."
+        },
+        {
+          "criterion": "(d) Answer",
+          "points": 1,
+          "description": "y = ±√(7/3); numerator 2x + y = −3y ≠ 0 there."
+        }
       ],
       "sampleResponse": "(a) Differentiate with respect to x: 2x + y + x(dy/dx) + 2y(dy/dx) = 0. Then (dy/dx)(x + 2y) = −(2x + y), so dy/dx = −(2x + y)/(x + 2y).\n\n(b) Check: 1 + 2 + 4 = 7, so (1, 2) is on the curve. dy/dx = −(2·1 + 2)/(1 + 2·2) = −4/5. Tangent line: y = 2 − (4/5)(x − 1).\n\n(c) Horizontal tangents need 2x + y = 0, so y = −2x. Substituting: x² + x(−2x) + 4x² = 3x² = 7, x = ±√(7/3). The points are (√(7/3), −2√(7/3)) and (−√(7/3), 2√(7/3)). At these, x + 2y = −3x ≠ 0, so the derivative exists and equals 0.\n\n(d) Vertical tangents need x + 2y = 0, so x = −2y. Substituting: 4y² − 2y² + y² = 3y² = 7, y = ±√(7/3). At these, 2x + y = −3y ≠ 0, so the tangent is vertical."
     }

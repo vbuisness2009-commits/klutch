@@ -166,11 +166,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "[Ar] 4s² 3d⁴"
+          "text": "[Ar] 3d⁶"
         },
         {
           "id": "B",
-          "text": "[Ar] 3d⁶"
+          "text": "[Ar] 4s² 3d⁴"
         },
         {
           "id": "C",
@@ -181,11 +181,11 @@
           "text": "[Ar] 4s¹ 3d⁵"
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Fe is [Ar]4s²3d⁶. Transition metals lose 4s electrons first, giving Fe²⁺ = [Ar]3d⁶.",
       "distractors": {
-        "A": "Removes 3d electrons before 4s.",
-        "C": "Neutral Fe."
+        "C": "Neutral Fe.",
+        "B": "Removes 3d electrons before 4s."
       }
     },
     {
@@ -268,14 +268,14 @@
         },
         {
           "id": "C",
-          "text": "Al"
+          "text": "K"
         },
         {
           "id": "D",
-          "text": "K"
+          "text": "Al"
         }
       ],
-      "answer": "C",
+      "answer": "D",
       "explanation": "Peaks correspond to 1s², 2s², 2p⁶, 3s², 3p¹: 13 electrons, so Al.",
       "distractors": {
         "A": "Na would show 2:2:6:1 (four peaks).",
@@ -322,11 +322,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Oxygen has a smaller effective nuclear charge than nitrogen."
+          "text": "In oxygen, one 2p orbital holds two electrons, and the repulsion between them makes one easier to remove."
         },
         {
           "id": "B",
-          "text": "In oxygen, one 2p orbital holds two electrons, and the repulsion between them makes one easier to remove."
+          "text": "Oxygen has a smaller effective nuclear charge than nitrogen."
         },
         {
           "id": "C",
@@ -337,12 +337,12 @@
           "text": "Nitrogen is more electronegative than oxygen."
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "N (2p³) has one electron in each 2p orbital; O (2p⁴) has a paired electron, and electron–electron repulsion lowers the energy needed to remove it.",
       "distractors": {
-        "A": "O has a larger Zeff.",
         "C": "Both use n = 2.",
-        "D": "Oxygen is more electronegative."
+        "D": "Oxygen is more electronegative.",
+        "B": "O has a larger Zeff."
       }
     },
     {
@@ -392,14 +392,14 @@
         },
         {
           "id": "C",
-          "text": "MgO"
+          "text": "KBr"
         },
         {
           "id": "D",
-          "text": "KBr"
+          "text": "MgO"
         }
       ],
-      "answer": "C",
+      "answer": "D",
       "explanation": "Lattice energy ∝ (q₁q₂)/r. MgO has ion charges of 2+ and 2− (product 4) and small ions; the others have charge product 1.",
       "distractors": {
         "A": "Smallest of the 1+/1− salts, but charge dominates."
@@ -450,22 +450,22 @@
         },
         {
           "id": "B",
-          "text": "The electron removed from Ga is in a 4p orbital, which is higher in energy and partly shielded by the 4s electrons, so it is held less tightly."
+          "text": "Zn's electron is removed from a 3d orbital, which is closer to the nucleus."
         },
         {
           "id": "C",
-          "text": "Zn's electron is removed from a 3d orbital, which is closer to the nucleus."
+          "text": "The electron removed from Ga is in a 4p orbital, which is higher in energy and partly shielded by the 4s electrons, so it is held less tightly."
         },
         {
           "id": "D",
           "text": "Ga's 4p electron experiences greater effective nuclear charge than Zn's 4s electrons."
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Like the Mg/Al anomaly, the first electron in a new p subshell is higher in energy and shielded by the filled s subshell.",
       "distractors": {
-        "C": "Zn loses a 4s electron, not 3d.",
-        "A": "Ga has more protons (31 vs 30)."
+        "A": "Ga has more protons (31 vs 30).",
+        "B": "Zn loses a 4s electron, not 3d."
       }
     },
     {

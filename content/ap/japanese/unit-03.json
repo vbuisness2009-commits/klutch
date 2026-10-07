@@ -127,7 +127,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "薄くても丈夫で、破れにくい"
+          "text": "水に溶ける"
         },
         {
           "id": "B",
@@ -139,10 +139,10 @@
         },
         {
           "id": "D",
-          "text": "水に溶ける"
+          "text": "薄くても丈夫で、破れにくい"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -157,7 +157,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "作業が体力的に大変で、安い機械すきの紙が広まったから"
+          "text": "植物がなくなったから"
         },
         {
           "id": "B",
@@ -165,14 +165,14 @@
         },
         {
           "id": "C",
-          "text": "植物がなくなったから"
+          "text": "作業が体力的に大変で、安い機械すきの紙が広まったから"
         },
         {
           "id": "D",
           "text": "ユネスコに登録されたから"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Paragraph 2.",
       "distractors": {}
     },
@@ -187,11 +187,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "問題に対する新しい取り組み"
+          "text": "和紙の歴史"
         },
         {
           "id": "B",
-          "text": "和紙の歴史"
+          "text": "問題に対する新しい取り組み"
         },
         {
           "id": "C",
@@ -202,7 +202,7 @@
           "text": "和紙の欠点"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Solutions.",
       "distractors": {}
     },
@@ -247,7 +247,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "高校生の時、祖母と寄席に行ったこと"
+          "text": "テレビ番組"
         },
         {
           "id": "B",
@@ -255,14 +255,14 @@
         },
         {
           "id": "C",
-          "text": "テレビ番組"
+          "text": "高校生の時、祖母と寄席に行ったこと"
         },
         {
           "id": "D",
           "text": "友達の誘い"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -277,7 +277,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "一人で扇子と手ぬぐいだけを使って何人もの人物を演じ分けること"
+          "text": "音楽が大きいこと"
         },
         {
           "id": "B",
@@ -289,10 +289,10 @@
         },
         {
           "id": "D",
-          "text": "音楽が大きいこと"
+          "text": "一人で扇子と手ぬぐいだけを使って何人もの人物を演じ分けること"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -307,11 +307,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "お客さんの想像力"
+          "text": "派手な衣装"
         },
         {
           "id": "B",
-          "text": "派手な衣装"
+          "text": "お客さんの想像力"
         },
         {
           "id": "C",
@@ -322,7 +322,7 @@
           "text": "有名な歌"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Imagination.",
       "distractors": {}
     },
@@ -367,11 +367,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "伝統工芸と、それを生かした現代のデザイン"
+          "text": "西洋の絵画"
         },
         {
           "id": "B",
-          "text": "西洋の絵画"
+          "text": "伝統工芸と、それを生かした現代のデザイン"
         },
         {
           "id": "C",
@@ -382,7 +382,7 @@
           "text": "古い写真"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -397,7 +397,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "事前予約"
+          "text": "英語の能力"
         },
         {
           "id": "B",
@@ -409,10 +409,10 @@
         },
         {
           "id": "D",
-          "text": "英語の能力"
+          "text": "事前予約"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -427,7 +427,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "伝統工芸の後継者育成"
+          "text": "ガイドの給料"
         },
         {
           "id": "B",
@@ -435,14 +435,14 @@
         },
         {
           "id": "C",
-          "text": "ガイドの給料"
+          "text": "伝統工芸の後継者育成"
         },
         {
           "id": "D",
           "text": "海外旅行"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -457,11 +457,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "伝統を次の世代に伝えるための努力"
+          "text": "どちらも外国から来た文化だ"
         },
         {
           "id": "B",
-          "text": "どちらも外国から来た文化だ"
+          "text": "伝統を次の世代に伝えるための努力"
         },
         {
           "id": "C",
@@ -472,7 +472,7 @@
           "text": "どちらも若い人には人気がない"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Transmission.",
       "distractors": {}
     },

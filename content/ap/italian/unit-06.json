@@ -128,7 +128,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "L'acqua per irrigare è diventata salata"
+          "text": "Il fiume si è allargato"
         },
         {
           "id": "B",
@@ -136,14 +136,14 @@
         },
         {
           "id": "C",
-          "text": "Il fiume si è allargato"
+          "text": "L'acqua per irrigare è diventata salata"
         },
         {
           "id": "D",
           "text": "Le città sono state allagate"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Saltwater intrusion.",
       "distractors": {}
     },
@@ -188,11 +188,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Senza una riduzione globale delle emissioni, l'adattamento non basta"
+          "text": "L'adattamento è troppo economico"
         },
         {
           "id": "B",
-          "text": "L'adattamento è troppo economico"
+          "text": "Senza una riduzione globale delle emissioni, l'adattamento non basta"
         },
         {
           "id": "C",
@@ -203,7 +203,7 @@
           "text": "Le colture non possono cambiare"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Final sentence.",
       "distractors": {}
     },
@@ -218,7 +218,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "È l'isola italiana più vicina all'Africa"
+          "text": "È un'isola disabitata"
         },
         {
           "id": "B",
@@ -230,10 +230,10 @@
         },
         {
           "id": "D",
-          "text": "È un'isola disabitata"
+          "text": "È l'isola italiana più vicina all'Africa"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -248,7 +248,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Di cure mediche e di dignità"
+          "text": "Di un biglietto per tornare"
         },
         {
           "id": "B",
@@ -256,14 +256,14 @@
         },
         {
           "id": "C",
-          "text": "Di un biglietto per tornare"
+          "text": "Di cure mediche e di dignità"
         },
         {
           "id": "D",
           "text": "Di imparare l'italiano"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -308,11 +308,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Vie legali di ingresso, distribuzione equa delle responsabilità in Europa e cooperazione nei Paesi di origine"
+          "text": "Chiudere tutti i porti"
         },
         {
           "id": "B",
-          "text": "Chiudere tutti i porti"
+          "text": "Vie legali di ingresso, distribuzione equa delle responsabilità in Europa e cooperazione nei Paesi di origine"
         },
         {
           "id": "C",
@@ -323,7 +323,7 @@
           "text": "Nessuna soluzione"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Three proposals.",
       "distractors": {}
     },
@@ -338,7 +338,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "65 milioni"
+          "text": "1 miliardo"
         },
         {
           "id": "B",
@@ -350,10 +350,10 @@
         },
         {
           "id": "D",
-          "text": "1 miliardo"
+          "text": "65 milioni"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -368,7 +368,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Argentina"
+          "text": "Svizzera"
         },
         {
           "id": "B",
@@ -376,14 +376,14 @@
         },
         {
           "id": "C",
-          "text": "Svizzera"
+          "text": "Argentina"
         },
         {
           "id": "D",
           "text": "Città del Vaticano"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Diaspora, not official.",
       "distractors": {}
     },
@@ -398,7 +398,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Secondo le fonti e la definizione di «parlante»"
+          "text": "Perché i dati sono segreti"
         },
         {
           "id": "B",
@@ -406,14 +406,14 @@
         },
         {
           "id": "C",
-          "text": "Perché i dati sono segreti"
+          "text": "Secondo le fonti e la definizione di «parlante»"
         },
         {
           "id": "D",
           "text": "Perché cambiano i confini ogni anno"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Footnote.",
       "distractors": {}
     },
@@ -457,7 +457,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "si sentono"
+          "text": "sentirsi"
         },
         {
           "id": "B",
@@ -469,10 +469,10 @@
         },
         {
           "id": "D",
-          "text": "sentirsi"
+          "text": "si sentono"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Anche se + indicative.",
       "distractors": {}
     },
@@ -486,11 +486,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "sia stato"
+          "text": "è stato"
         },
         {
           "id": "B",
-          "text": "è stato"
+          "text": "sia stato"
         },
         {
           "id": "C",
@@ -501,7 +501,7 @@
           "text": "era"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Benché + congiuntivo.",
       "distractors": {}
     },

@@ -138,18 +138,18 @@
         },
         {
           "id": "B",
-          "text": "the marginal benefit of the next unit is at least its marginal cost"
+          "text": "the average benefit exceeds the average cost"
         },
         {
           "id": "C",
-          "text": "the average benefit exceeds the average cost"
+          "text": "the marginal benefit of the next unit is at least its marginal cost"
         },
         {
           "id": "D",
           "text": "marginal utility is increasing"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Marginal analysis compares the next unit's benefit and cost.",
       "distractors": {}
     },
@@ -163,11 +163,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "a central planning committee"
+          "text": "consumer demand and prices"
         },
         {
           "id": "B",
-          "text": "consumer demand and prices"
+          "text": "a central planning committee"
         },
         {
           "id": "C",
@@ -178,7 +178,7 @@
           "text": "government quotas"
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Prices signal what consumers value and what is profitable to produce.",
       "distractors": {}
     },
@@ -196,7 +196,7 @@
         },
         {
           "id": "B",
-          "text": "constant opportunity cost"
+          "text": "inefficient production"
         },
         {
           "id": "C",
@@ -204,10 +204,10 @@
         },
         {
           "id": "D",
-          "text": "inefficient production"
+          "text": "constant opportunity cost"
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Resources are perfectly substitutable between the two goods.",
       "distractors": {}
     },
@@ -254,18 +254,18 @@
         },
         {
           "id": "B",
-          "text": "buy more soda and less pizza"
+          "text": "make no change"
         },
         {
           "id": "C",
-          "text": "make no change"
+          "text": "buy more soda and less pizza"
         },
         {
           "id": "D",
           "text": "buy more of both"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "MU/P: pizza 20/4 = 5, soda 12/2 = 6. Shift spending toward soda.",
       "distractors": {
         "A": "Compares total MU, not MU per dollar."
@@ -286,7 +286,7 @@
         },
         {
           "id": "B",
-          "text": "Lena, because her opportunity cost of a pie is 1 cake, versus Kai's 2 cakes"
+          "text": "Neither"
         },
         {
           "id": "C",
@@ -294,10 +294,10 @@
         },
         {
           "id": "D",
-          "text": "Neither"
+          "text": "Lena, because her opportunity cost of a pie is 1 cake, versus Kai's 2 cakes"
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Kai: 1 pie costs 2 cakes. Lena: 1 pie costs 1 cake.",
       "distractors": {
         "A": "Absolute advantage."
@@ -313,11 +313,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "As people consume more of a good, each additional unit provides less marginal utility, so they will buy more only at lower prices."
+          "text": "Producers lower prices as they produce more."
         },
         {
           "id": "B",
-          "text": "Producers lower prices as they produce more."
+          "text": "As people consume more of a good, each additional unit provides less marginal utility, so they will buy more only at lower prices."
         },
         {
           "id": "C",
@@ -328,7 +328,7 @@
           "text": "Marginal utility increases with consumption."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Diminishing marginal utility lowers willingness to pay for additional units.",
       "distractors": {
         "C": "Total utility typically still rises."
@@ -377,7 +377,7 @@
         },
         {
           "id": "B",
-          "text": "It is earning a normal profit; owners earn what their resources could earn in the next-best use."
+          "text": "It is operating at a loss."
         },
         {
           "id": "C",
@@ -385,10 +385,10 @@
         },
         {
           "id": "D",
-          "text": "It is operating at a loss."
+          "text": "It is earning a normal profit; owners earn what their resources could earn in the next-best use."
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Zero economic profit covers all opportunity costs.",
       "distractors": {
         "C": "Accounting profit is positive, equal to implicit costs."
@@ -405,7 +405,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "4 X and 4 Y"
+          "text": "6 X and 0 Y"
         },
         {
           "id": "B",
@@ -413,14 +413,14 @@
         },
         {
           "id": "C",
-          "text": "6 X and 0 Y"
+          "text": "4 X and 4 Y"
         },
         {
           "id": "D",
           "text": "2 X and 8 Y"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "MU/P for X: 10, 8, 6, 4; for Y: 9, 8, 6, 4, 2. Buying in order uses $12 at 4 X ($8) and 4 Y ($4), where MU/P = 4 for both.",
       "distractors": {}
     },
@@ -465,7 +465,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "buy less X so that its marginal utility rises until MU_x/P_x again equals MU_y/P_y"
+          "text": "keep the same bundle"
         },
         {
           "id": "B",
@@ -473,14 +473,14 @@
         },
         {
           "id": "C",
-          "text": "keep the same bundle"
+          "text": "buy less X so that its marginal utility rises until MU_x/P_x again equals MU_y/P_y"
         },
         {
           "id": "D",
           "text": "buy less Y"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Higher P_x lowers MU_x/P_x; reducing X raises MU_x (diminishing MU).",
       "distractors": {}
     },
@@ -494,11 +494,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "The PPC pivots outward along the smartphone axis; the opportunity cost of wheat (in smartphones) increases."
+          "text": "The PPC shifts outward parallel; opportunity costs are unchanged."
         },
         {
           "id": "B",
-          "text": "The PPC shifts outward parallel; opportunity costs are unchanged."
+          "text": "The PPC pivots outward along the smartphone axis; the opportunity cost of wheat (in smartphones) increases."
         },
         {
           "id": "C",
@@ -509,7 +509,7 @@
           "text": "The opportunity cost of a smartphone (in wheat) increases."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Each unit of wheat now requires giving up more smartphones; each smartphone costs less wheat.",
       "distractors": {
         "D": "It decreases."

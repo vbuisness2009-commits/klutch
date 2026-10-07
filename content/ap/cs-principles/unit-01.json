@@ -41,222 +41,508 @@
     "cramSheet": "**Purpose vs function** · inputs (user, sensor, file) · outputs · event-driven\n\n**Process:** iterative (cycles) · incremental (pieces) · user feedback\n\n**Errors:** syntax (won't run) · runtime (crashes) · logic (wrong answer) · overflow (too big)\n\n**Testing:** expected vs actual · boundary & edge cases · tracing · debugger\n\n**Collaboration:** diverse perspectives · pair programming · credit sources"
   },
   "vocab": [
-    { "term": "Computing innovation", "definition": "An innovation that includes a program as an integral part of its function." },
-    { "term": "Program function", "definition": "What a program does when it runs." },
-    { "term": "Program purpose", "definition": "The problem a program is intended to solve or the goal it serves." },
-    { "term": "Event-driven programming", "definition": "Program statements execute when triggered by events such as clicks." },
-    { "term": "Iterative development", "definition": "Refining a program through repeated cycles of design, testing, and revision." },
-    { "term": "Incremental development", "definition": "Building a program in small pieces and testing each before adding more." },
-    { "term": "Syntax error", "definition": "A mistake in the rules of the programming language." },
-    { "term": "Logic error", "definition": "A mistake in the algorithm that causes incorrect behavior." },
-    { "term": "Runtime error", "definition": "An error that occurs while the program is running." },
-    { "term": "Overflow error", "definition": "An error from a number outside the range a computer can represent." },
-    { "term": "Test case", "definition": "Specific input with expected output used to check a program." },
-    { "term": "Pair programming", "definition": "Two programmers working together at one workstation." }
+    {
+      "term": "Computing innovation",
+      "definition": "An innovation that includes a program as an integral part of its function."
+    },
+    {
+      "term": "Program function",
+      "definition": "What a program does when it runs."
+    },
+    {
+      "term": "Program purpose",
+      "definition": "The problem a program is intended to solve or the goal it serves."
+    },
+    {
+      "term": "Event-driven programming",
+      "definition": "Program statements execute when triggered by events such as clicks."
+    },
+    {
+      "term": "Iterative development",
+      "definition": "Refining a program through repeated cycles of design, testing, and revision."
+    },
+    {
+      "term": "Incremental development",
+      "definition": "Building a program in small pieces and testing each before adding more."
+    },
+    {
+      "term": "Syntax error",
+      "definition": "A mistake in the rules of the programming language."
+    },
+    {
+      "term": "Logic error",
+      "definition": "A mistake in the algorithm that causes incorrect behavior."
+    },
+    {
+      "term": "Runtime error",
+      "definition": "An error that occurs while the program is running."
+    },
+    {
+      "term": "Overflow error",
+      "definition": "An error from a number outside the range a computer can represent."
+    },
+    {
+      "term": "Test case",
+      "definition": "Specific input with expected output used to check a program."
+    },
+    {
+      "term": "Pair programming",
+      "definition": "Two programmers working together at one workstation."
+    }
   ],
   "practice": [
     {
-      "id": "u1-q01", "tier": "Intro", "type": "mcq", "topic": "Identifying and Correcting Errors",
+      "id": "u1-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Identifying and Correcting Errors",
       "stem": "A program to compute an average runs without crashing but always returns a value that is too large. This is an example of",
       "choices": [
-        { "id": "A", "text": "a syntax error" },
-        { "id": "B", "text": "a logic error" },
-        { "id": "C", "text": "a runtime error" },
-        { "id": "D", "text": "an overflow error" }
+        {
+          "id": "A",
+          "text": "a syntax error"
+        },
+        {
+          "id": "B",
+          "text": "an overflow error"
+        },
+        {
+          "id": "C",
+          "text": "a runtime error"
+        },
+        {
+          "id": "D",
+          "text": "a logic error"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "The program runs but produces incorrect results.",
       "distractors": {}
     },
     {
-      "id": "u1-q02", "tier": "Intro", "type": "mcq", "topic": "Collaboration",
+      "id": "u1-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Collaboration",
       "stem": "Which is the most likely benefit of having a diverse team design a computing innovation?",
       "choices": [
-        { "id": "A", "text": "The team can identify needs and potential biases that a single perspective might miss." },
-        { "id": "B", "text": "The program will contain no errors." },
-        { "id": "C", "text": "The program will run faster." },
-        { "id": "D", "text": "Testing will no longer be necessary." }
+        {
+          "id": "A",
+          "text": "The team can identify needs and potential biases that a single perspective might miss."
+        },
+        {
+          "id": "B",
+          "text": "The program will contain no errors."
+        },
+        {
+          "id": "C",
+          "text": "The program will run faster."
+        },
+        {
+          "id": "D",
+          "text": "Testing will no longer be necessary."
+        }
       ],
       "answer": "A",
       "explanation": "Varied perspectives help reflect the needs of a broader set of users.",
       "distractors": {}
     },
     {
-      "id": "u1-q03", "tier": "Intro", "type": "mcq", "topic": "Program Design and Development",
+      "id": "u1-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Program Design and Development",
       "stem": "A developer builds a game by first coding and testing player movement, then adding scoring, then adding levels, testing each addition before moving on. This approach is",
       "choices": [
-        { "id": "A", "text": "incremental development" },
-        { "id": "B", "text": "event-driven programming" },
-        { "id": "C", "text": "crowdsourcing" },
-        { "id": "D", "text": "lossy compression" }
+        {
+          "id": "A",
+          "text": "event-driven programming"
+        },
+        {
+          "id": "B",
+          "text": "incremental development"
+        },
+        {
+          "id": "C",
+          "text": "crowdsourcing"
+        },
+        {
+          "id": "D",
+          "text": "lossy compression"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Building and testing one piece at a time.",
       "distractors": {}
     },
     {
-      "id": "u1-q04", "tier": "Intro", "type": "mcq", "topic": "Program Function and Purpose",
+      "id": "u1-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Program Function and Purpose",
       "stem": "A smart thermostat program reads the room temperature from a sensor and turns the heater on or off. The sensor reading is the program's",
       "choices": [
-        { "id": "A", "text": "input" },
-        { "id": "B", "text": "output" },
-        { "id": "C", "text": "purpose" },
-        { "id": "D", "text": "documentation" }
+        {
+          "id": "A",
+          "text": "purpose"
+        },
+        {
+          "id": "B",
+          "text": "output"
+        },
+        {
+          "id": "C",
+          "text": "input"
+        },
+        {
+          "id": "D",
+          "text": "documentation"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Data from a sensor is input; switching the heater is output.",
       "distractors": {}
     },
     {
-      "id": "u1-q05", "tier": "Exam level", "type": "mcq", "topic": "Identifying and Correcting Errors",
+      "id": "u1-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Identifying and Correcting Errors",
       "stimulus": "```\nPROCEDURE isPassing(score)\n{\n   IF (score > 70)\n   {\n      RETURN(true)\n   }\n   RETURN(false)\n}\n```\nA passing score is 70 or higher.",
       "stem": "Which test input would reveal the error?",
       "choices": [
-        { "id": "A", "text": "70" },
-        { "id": "B", "text": "71" },
-        { "id": "C", "text": "50" },
-        { "id": "D", "text": "100" }
+        {
+          "id": "A",
+          "text": "100"
+        },
+        {
+          "id": "B",
+          "text": "71"
+        },
+        {
+          "id": "C",
+          "text": "50"
+        },
+        {
+          "id": "D",
+          "text": "70"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "70 should pass but the procedure returns false; boundary values expose off-by-one errors.",
       "distractors": {}
     },
     {
-      "id": "u1-q06", "tier": "Exam level", "type": "mcq", "topic": "Identifying and Correcting Errors",
+      "id": "u1-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Identifying and Correcting Errors",
       "stem": "A program stores a counter in a fixed number of bits. After many increments, the counter suddenly displays a negative value. The most likely cause is",
       "choices": [
-        { "id": "A", "text": "an overflow error" },
-        { "id": "B", "text": "a syntax error" },
-        { "id": "C", "text": "a rounding error from floating-point values" },
-        { "id": "D", "text": "lossy compression" }
+        {
+          "id": "A",
+          "text": "a syntax error"
+        },
+        {
+          "id": "B",
+          "text": "an overflow error"
+        },
+        {
+          "id": "C",
+          "text": "a rounding error from floating-point values"
+        },
+        {
+          "id": "D",
+          "text": "lossy compression"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Exceeding the maximum representable value wraps around.",
       "distractors": {}
     },
     {
-      "id": "u1-q07", "tier": "Exam level", "type": "mcq", "topic": "Program Design and Development",
+      "id": "u1-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Program Design and Development",
       "stem": "Before writing code for a library check-out app, the team interviews librarians and students to learn what features they need. This step is part of",
       "choices": [
-        { "id": "A", "text": "investigating and reflecting to determine program requirements" },
-        { "id": "B", "text": "debugging" },
-        { "id": "C", "text": "data compression" },
-        { "id": "D", "text": "parallel computing" }
+        {
+          "id": "A",
+          "text": "data compression"
+        },
+        {
+          "id": "B",
+          "text": "debugging"
+        },
+        {
+          "id": "C",
+          "text": "investigating and reflecting to determine program requirements"
+        },
+        {
+          "id": "D",
+          "text": "parallel computing"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Investigation identifies user needs and constraints.",
       "distractors": {}
     },
     {
-      "id": "u1-q08", "tier": "Exam level", "type": "mcq", "topic": "Identifying and Correcting Errors",
+      "id": "u1-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Identifying and Correcting Errors",
       "stimulus": "```\nnums ← [4, 7, 2]\ntotal ← 0\ni ← 1\nREPEAT UNTIL (i > 4)\n{\n   total ← total + nums[i]\n   i ← i + 1\n}\nDISPLAY(total)\n```",
       "stem": "What happens when this code runs?",
       "choices": [
-        { "id": "A", "text": "An error occurs because nums[4] does not exist." },
-        { "id": "B", "text": "13 is displayed." },
-        { "id": "C", "text": "9 is displayed." },
-        { "id": "D", "text": "The loop never ends." }
+        {
+          "id": "A",
+          "text": "An error occurs because nums[4] does not exist."
+        },
+        {
+          "id": "B",
+          "text": "13 is displayed."
+        },
+        {
+          "id": "C",
+          "text": "9 is displayed."
+        },
+        {
+          "id": "D",
+          "text": "The loop never ends."
+        }
       ],
       "answer": "A",
       "explanation": "The list has 3 elements (indices 1–3); accessing index 4 causes a runtime error.",
-      "distractors": { "B": "Correct sum if the loop stopped at 3." }
+      "distractors": {
+        "B": "Correct sum if the loop stopped at 3."
+      }
     },
     {
-      "id": "u1-q09", "tier": "Exam level", "type": "mcq", "topic": "Program Function and Purpose",
+      "id": "u1-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Program Function and Purpose",
       "stem": "Which statement best describes an event-driven program?",
       "choices": [
-        { "id": "A", "text": "Code segments run in response to actions such as clicks or key presses rather than in a fixed sequence." },
-        { "id": "B", "text": "The program runs once from top to bottom." },
-        { "id": "C", "text": "The program cannot accept user input." },
-        { "id": "D", "text": "The program only runs on servers." }
+        {
+          "id": "A",
+          "text": "The program runs once from top to bottom."
+        },
+        {
+          "id": "B",
+          "text": "Code segments run in response to actions such as clicks or key presses rather than in a fixed sequence."
+        },
+        {
+          "id": "C",
+          "text": "The program cannot accept user input."
+        },
+        {
+          "id": "D",
+          "text": "The program only runs on servers."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Events trigger the corresponding handlers.",
       "distractors": {}
     },
     {
-      "id": "u1-q10", "tier": "Exam level", "type": "mcq", "topic": "Program Design and Development",
+      "id": "u1-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Program Design and Development",
       "stem": "A student uses a sorting procedure written by a classmate in her project. What should she do?",
       "choices": [
-        { "id": "A", "text": "Acknowledge the classmate's code in her program documentation." },
-        { "id": "B", "text": "Present the code as her own." },
-        { "id": "C", "text": "Remove all comments from it." },
-        { "id": "D", "text": "Avoid using it, since collaboration is never allowed." }
+        {
+          "id": "A",
+          "text": "Acknowledge the classmate's code in her program documentation."
+        },
+        {
+          "id": "B",
+          "text": "Present the code as her own."
+        },
+        {
+          "id": "C",
+          "text": "Remove all comments from it."
+        },
+        {
+          "id": "D",
+          "text": "Avoid using it, since collaboration is never allowed."
+        }
       ],
       "answer": "A",
       "explanation": "Documentation should credit code written by others.",
       "distractors": {}
     },
     {
-      "id": "u1-q11", "tier": "Hardest", "type": "mcq", "topic": "Identifying and Correcting Errors",
+      "id": "u1-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Identifying and Correcting Errors",
       "stimulus": "The procedure max(list) is intended to return the largest value in a list of numbers.\n```\nPROCEDURE max(list)\n{\n   biggest ← 0\n   FOR EACH n IN list\n   {\n      IF (n > biggest)\n      {\n         biggest ← n\n      }\n   }\n   RETURN(biggest)\n}\n```",
       "stem": "For which input does the procedure return an incorrect result?",
       "choices": [
-        { "id": "A", "text": "[−5, −2, −9]" },
-        { "id": "B", "text": "[3, 8, 1]" },
-        { "id": "C", "text": "[0, 0, 4]" },
-        { "id": "D", "text": "[10]" }
+        {
+          "id": "A",
+          "text": "[0, 0, 4]"
+        },
+        {
+          "id": "B",
+          "text": "[3, 8, 1]"
+        },
+        {
+          "id": "C",
+          "text": "[−5, −2, −9]"
+        },
+        {
+          "id": "D",
+          "text": "[10]"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "With all negative values, no n exceeds 0, so it returns 0 instead of −2. Initializing to list[1] fixes it.",
       "distractors": {}
     },
     {
-      "id": "u1-q12", "tier": "Hardest", "type": "mcq", "topic": "Identifying and Correcting Errors",
+      "id": "u1-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Identifying and Correcting Errors",
       "stimulus": "```\ncount ← 0\nREPEAT UNTIL (count = 10)\n{\n   count ← count + 3\n}\nDISPLAY(count)\n```",
       "stem": "What happens when this code runs?",
       "choices": [
-        { "id": "A", "text": "The loop never terminates, because count takes values 3, 6, 9, 12, … and never equals 10." },
-        { "id": "B", "text": "12 is displayed." },
-        { "id": "C", "text": "10 is displayed." },
-        { "id": "D", "text": "9 is displayed." }
+        {
+          "id": "A",
+          "text": "9 is displayed."
+        },
+        {
+          "id": "B",
+          "text": "12 is displayed."
+        },
+        {
+          "id": "C",
+          "text": "10 is displayed."
+        },
+        {
+          "id": "D",
+          "text": "The loop never terminates, because count takes values 3, 6, 9, 12, … and never equals 10."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The condition checks equality; count skips over 10.",
-      "distractors": { "B": "Would occur with count ≥ 10." }
+      "distractors": {
+        "B": "Would occur with count ≥ 10."
+      }
     },
     {
-      "id": "u1-q13", "tier": "Hardest", "type": "mcq", "topic": "Program Design and Development",
+      "id": "u1-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Program Design and Development",
       "stem": "A team releases an app, gathers user feedback, fixes problems, adds requested features, and releases again, repeating this cycle several times. Which best describes the process?",
       "choices": [
-        { "id": "A", "text": "Iterative development using feedback to refine the program" },
-        { "id": "B", "text": "A single waterfall release with no revisions" },
-        { "id": "C", "text": "Lossless compression of features" },
-        { "id": "D", "text": "Distributed computing" }
+        {
+          "id": "A",
+          "text": "A single waterfall release with no revisions"
+        },
+        {
+          "id": "B",
+          "text": "Iterative development using feedback to refine the program"
+        },
+        {
+          "id": "C",
+          "text": "Lossless compression of features"
+        },
+        {
+          "id": "D",
+          "text": "Distributed computing"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Repeated cycles of evaluation and refinement are iterative.",
       "distractors": {}
     },
     {
-      "id": "u1-q14", "tier": "Hardest", "type": "mcq", "topic": "Identifying and Correcting Errors",
+      "id": "u1-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Identifying and Correcting Errors",
       "stem": "A procedure is supposed to return true if a number is even. Which set of tests is most effective at finding errors?",
       "choices": [
-        { "id": "A", "text": "0, 1, 2, −3, a large even number" },
-        { "id": "B", "text": "2, 4, 6" },
-        { "id": "C", "text": "1, 3, 5" },
-        { "id": "D", "text": "10 only" }
+        {
+          "id": "A",
+          "text": "1, 3, 5"
+        },
+        {
+          "id": "B",
+          "text": "2, 4, 6"
+        },
+        {
+          "id": "C",
+          "text": "0, 1, 2, −3, a large even number"
+        },
+        {
+          "id": "D",
+          "text": "10 only"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Covers zero, both parities, negatives, and large values.",
       "distractors": {}
     },
     {
-      "id": "u1-frq1", "tier": "Exam level", "type": "frq", "topic": "Program Design and Development", "frqType": "Create Written Response",
+      "id": "u1-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Program Design and Development",
+      "frqType": "Create Written Response",
       "prompt": "A student's program helps a club track volunteer hours. It contains this procedure:\n```\nPROCEDURE totalHours(hoursList, minHours)\n{\n   total ← 0\n   FOR EACH h IN hoursList\n   {\n      IF (h ≥ minHours)\n      {\n         total ← total + h\n      }\n   }\n   RETURN(total)\n}\n```\nThe program calls totalHours(clubHours, 2), where clubHours is a list of the hours logged for each volunteer shift.",
       "parts": [
-        { "label": "a", "prompt": "Describe the purpose of the minHours parameter and how different arguments change the procedure's behavior.", "points": 1 },
-        { "label": "b", "prompt": "Identify the output of totalHours([1, 3, 2, 5], 2) and explain how you determined it.", "points": 1 },
-        { "label": "c", "prompt": "Describe one test case (input and expected output) that would check a boundary condition of the IF statement.", "points": 1 },
-        { "label": "d", "prompt": "Explain how the use of the list hoursList manages complexity in the program.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Describe the purpose of the minHours parameter and how different arguments change the procedure's behavior.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Identify the output of totalHours([1, 3, 2, 5], 2) and explain how you determined it.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Describe one test case (input and expected output) that would check a boundary condition of the IF statement.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Explain how the use of the list hoursList manages complexity in the program.",
+          "points": 1
+        }
       ],
       "points": 4,
       "minutes": 15,
       "rubric": [
-        { "criterion": "a", "points": 1, "description": "minHours is the threshold; only shifts with at least that many hours are added. A larger argument excludes more shifts; a smaller one includes more." },
-        { "criterion": "b", "points": 1, "description": "10: shifts 3, 2, and 5 meet the threshold (1 doesn't), and 3 + 2 + 5 = 10." },
-        { "criterion": "c", "points": 1, "description": "E.g., totalHours([2], 2) should return 2 (tests ≥ at equality), or [1.9] with 2 returns 0." },
-        { "criterion": "d", "points": 1, "description": "Without the list, each shift would need a separate variable and separate code; the list stores any number of shifts so one loop processes them all, and the code doesn't change when more shifts are added." }
+        {
+          "criterion": "a",
+          "points": 1,
+          "description": "minHours is the threshold; only shifts with at least that many hours are added. A larger argument excludes more shifts; a smaller one includes more."
+        },
+        {
+          "criterion": "b",
+          "points": 1,
+          "description": "10: shifts 3, 2, and 5 meet the threshold (1 doesn't), and 3 + 2 + 5 = 10."
+        },
+        {
+          "criterion": "c",
+          "points": 1,
+          "description": "E.g., totalHours([2], 2) should return 2 (tests ≥ at equality), or [1.9] with 2 returns 0."
+        },
+        {
+          "criterion": "d",
+          "points": 1,
+          "description": "Without the list, each shift would need a separate variable and separate code; the list stores any number of shifts so one loop processes them all, and the code doesn't change when more shifts are added."
+        }
       ],
       "sampleResponse": "a. minHours sets the minimum length a shift must be to count toward the total. With totalHours(clubHours, 2), only shifts of 2 or more hours are added. If the argument were 4, fewer shifts would be included and the total would usually be smaller; with 0, every shift would be counted.\n\nb. The output is 10. The loop checks each value: 1 is less than 2 so it is skipped; 3, 2, and 5 are each at least 2, so they are added: 3 + 2 + 5 = 10.\n\nc. Call totalHours([2, 1], 2). The expected output is 2, because a shift of exactly 2 hours should be included (≥). If the procedure used > by mistake, it would return 0.\n\nd. The list lets the program store any number of shift lengths under one name. Instead of creating a separate variable for each shift and writing separate code to add each one, the procedure uses a single FOR EACH loop. If the club logs more shifts, the code doesn't need to change."
     }

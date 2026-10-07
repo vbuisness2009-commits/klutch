@@ -127,7 +127,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "有人可以住在一个城市、在另一个城市上班"
+          "text": "人们都搬到了农村"
         },
         {
           "id": "B",
@@ -135,14 +135,14 @@
         },
         {
           "id": "C",
-          "text": "人们都搬到了农村"
+          "text": "有人可以住在一个城市、在另一个城市上班"
         },
         {
           "id": "D",
           "text": "人们不再坐飞机"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Paragraph 2.",
       "distractors": {}
     },
@@ -157,7 +157,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "成本高、有些线路乘客少，而且小城市普通火车停开"
+          "text": "票价太便宜"
         },
         {
           "id": "B",
@@ -169,10 +169,10 @@
         },
         {
           "id": "D",
-          "text": "票价太便宜"
+          "text": "成本高、有些线路乘客少，而且小城市普通火车停开"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Paragraph 3.",
       "distractors": {}
     },
@@ -187,11 +187,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "发展技术时要考虑不同收入人群的需要"
+          "text": "应该停止建设高铁"
         },
         {
           "id": "B",
-          "text": "应该停止建设高铁"
+          "text": "发展技术时要考虑不同收入人群的需要"
         },
         {
           "id": "C",
@@ -202,7 +202,7 @@
           "text": "普通火车比高铁更好"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Balanced.",
       "distractors": {}
     },
@@ -247,7 +247,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "他带了现金，可是卖菜的人希望他扫码"
+          "text": "他买错了菜"
         },
         {
           "id": "B",
@@ -255,14 +255,14 @@
         },
         {
           "id": "C",
-          "text": "他买错了菜"
+          "text": "他带了现金，可是卖菜的人希望他扫码"
         },
         {
           "id": "D",
           "text": "他的手机坏了"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -307,7 +307,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "社会进步时不能忽视老年人的需要"
+          "text": "老年人应该走在前面"
         },
         {
           "id": "B",
@@ -315,14 +315,14 @@
         },
         {
           "id": "C",
-          "text": "老年人应该走在前面"
+          "text": "社会进步时不能忽视老年人的需要"
         },
         {
           "id": "D",
           "text": "老年人不需要手机"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Inclusion.",
       "distractors": {}
     },
@@ -337,11 +337,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "用社交软件"
+          "text": "看短视频"
         },
         {
           "id": "B",
-          "text": "看短视频"
+          "text": "用社交软件"
         },
         {
           "id": "C",
@@ -352,7 +352,7 @@
           "text": "看新闻"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "88%.",
       "distractors": {}
     },
@@ -367,7 +367,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "每天网上学习的青年比每天看新闻的多"
+          "text": "每天用社交软件的不到一半"
         },
         {
           "id": "B",
@@ -379,10 +379,10 @@
         },
         {
           "id": "D",
-          "text": "每天用社交软件的不到一半"
+          "text": "每天网上学习的青年比每天看新闻的多"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "40% > 30%.",
       "distractors": {}
     },
@@ -397,11 +397,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "不到三分之一"
+          "text": "一半以上"
         },
         {
           "id": "B",
-          "text": "一半以上"
+          "text": "不到三分之一"
         },
         {
           "id": "C",
@@ -412,7 +412,7 @@
           "text": "没有人"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "30%.",
       "distractors": {}
     },
@@ -427,7 +427,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "看短视频让青年的成绩下降"
+          "text": "每天网上学习的青年占四成"
         },
         {
           "id": "B",
@@ -439,10 +439,10 @@
         },
         {
           "id": "D",
-          "text": "每天网上学习的青年占四成"
+          "text": "看短视频让青年的成绩下降"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "No grade data.",
       "distractors": {}
     },
@@ -457,7 +457,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "技术带来方便，也带来需要照顾的不平等问题"
+          "text": "家庭关系"
         },
         {
           "id": "B",
@@ -465,14 +465,14 @@
         },
         {
           "id": "C",
-          "text": "家庭关系"
+          "text": "技术带来方便，也带来需要照顾的不平等问题"
         },
         {
           "id": "D",
           "text": "环境污染"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Benefits and inequality.",
       "distractors": {}
     },

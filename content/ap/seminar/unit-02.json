@@ -99,7 +99,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "A blanket ban on social media for teens is an overly simple response; targeted regulation is better."
+          "text": "Parents should take phones away from teens."
         },
         {
           "id": "B",
@@ -111,10 +111,10 @@
         },
         {
           "id": "D",
-          "text": "Parents should take phones away from teens."
+          "text": "A blanket ban on social media for teens is an overly simple response; targeted regulation is better."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The author argues against a ban while calling for data access and privacy defaults.",
       "distractors": {
         "B": "The author explicitly says social media is not harmless."
@@ -130,7 +130,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "argue that the studies cannot show whether social media causes symptoms or symptoms lead to more use"
+          "text": "attack the character of the researchers"
         },
         {
           "id": "B",
@@ -138,14 +138,14 @@
         },
         {
           "id": "C",
-          "text": "attack the character of the researchers"
+          "text": "argue that the studies cannot show whether social media causes symptoms or symptoms lead to more use"
         },
         {
           "id": "D",
           "text": "show that teens use social media less than adults"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The author raises the possibility of reverse causation.",
       "distractors": {}
     },
@@ -159,11 +159,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "It concedes a point to opponents and shifts toward the author's proposed alternative policies."
+          "text": "It reverses the author's position entirely."
         },
         {
           "id": "B",
-          "text": "It reverses the author's position entirely."
+          "text": "It concedes a point to opponents and shifts toward the author's proposed alternative policies."
         },
         {
           "id": "C",
@@ -174,7 +174,7 @@
           "text": "It is an ad hominem attack."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The concession qualifies the argument before the proposed solutions.",
       "distractors": {}
     },
@@ -187,7 +187,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "a false dilemma"
+          "text": "a qualifier"
         },
         {
           "id": "B",
@@ -199,10 +199,10 @@
         },
         {
           "id": "D",
-          "text": "a qualifier"
+          "text": "a false dilemma"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Only two extreme options are presented.",
       "distractors": {}
     },
@@ -245,7 +245,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "The author is a psychology researcher, but the piece appears on a blog rather than in a peer-reviewed journal and doesn't cite specific studies by name."
+          "text": "The piece is written in the first person."
         },
         {
           "id": "B",
@@ -253,14 +253,14 @@
         },
         {
           "id": "C",
-          "text": "The piece is written in the first person."
+          "text": "The author is a psychology researcher, but the piece appears on a blog rather than in a peer-reviewed journal and doesn't cite specific studies by name."
         },
         {
           "id": "D",
           "text": "The piece is about teenagers."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Expertise supports credibility, while venue and lack of specific citations limit verification.",
       "distractors": {}
     },

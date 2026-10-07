@@ -97,7 +97,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "5"
+          "text": "3"
         },
         {
           "id": "B",
@@ -105,14 +105,14 @@
         },
         {
           "id": "C",
-          "text": "3"
+          "text": "5"
         },
         {
           "id": "D",
           "text": "10"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Five works.",
       "distractors": {}
     },
@@ -126,7 +126,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Yes, it is optional"
+          "text": "Only process images"
         },
         {
           "id": "B",
@@ -138,10 +138,10 @@
         },
         {
           "id": "D",
-          "text": "Only process images"
+          "text": "Yes, it is optional"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Allowed but not required.",
       "distractors": {}
     },
@@ -184,7 +184,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Ideas: layered memory of a demolished block. Materials: archival photos, inkjet prints, acrylic, tape. Processes: scanning, cutting, layering, glazing."
+          "text": "Ideas: it is pretty. Materials: various. Processes: various."
         },
         {
           "id": "B",
@@ -192,14 +192,14 @@
         },
         {
           "id": "C",
-          "text": "Ideas: it is pretty. Materials: various. Processes: various."
+          "text": "Ideas: layered memory of a demolished block. Materials: archival photos, inkjet prints, acrylic, tape. Processes: scanning, cutting, layering, glazing."
         },
         {
           "id": "D",
           "text": "Ideas: none. Materials: paper. Processes: drawing."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Precise and connected.",
       "distractors": {}
     },
@@ -213,11 +213,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "It shows strong skill and a clear connection among materials, processes, and ideas"
+          "text": "It took the longest to make"
         },
         {
           "id": "B",
-          "text": "It took the longest to make"
+          "text": "It shows strong skill and a clear connection among materials, processes, and ideas"
         },
         {
           "id": "C",
@@ -228,7 +228,7 @@
           "text": "It uses the most expensive materials"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Rubric priorities.",
       "distractors": {}
     },
@@ -242,7 +242,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "simplify and create emphasis through contrast or placement"
+          "text": "make the work larger without other changes"
         },
         {
           "id": "B",
@@ -254,10 +254,10 @@
         },
         {
           "id": "D",
-          "text": "make the work larger without other changes"
+          "text": "simplify and create emphasis through contrast or placement"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Design decision-making.",
       "distractors": {}
     },

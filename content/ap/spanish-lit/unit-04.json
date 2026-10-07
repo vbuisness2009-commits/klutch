@@ -129,7 +129,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Porque la luz natural es más barata que el petróleo de la lámpara"
+          "text": "Porque el notario la observa"
         },
         {
           "id": "B",
@@ -141,10 +141,10 @@
         },
         {
           "id": "D",
-          "text": "Porque el notario la observa"
+          "text": "Porque la luz natural es más barata que el petróleo de la lámpara"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Economic detail.",
       "distractors": {}
     },
@@ -159,11 +159,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "la monotonía de una vida que se consume en el trabajo"
+          "text": "la alegría del trabajo bien hecho"
         },
         {
           "id": "B",
-          "text": "la alegría del trabajo bien hecho"
+          "text": "la monotonía de una vida que se consume en el trabajo"
         },
         {
           "id": "C",
@@ -174,7 +174,7 @@
           "text": "la prisa por ir al baile"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Days pass identically with each stitch.",
       "distractors": {}
     },
@@ -189,7 +189,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Devuelve a Remedios de su sueño a la realidad de la pobreza"
+          "text": "Sirve de ritmo musical para el baile"
         },
         {
           "id": "B",
@@ -201,10 +201,10 @@
         },
         {
           "id": "D",
-          "text": "Sirve de ritmo musical para el baile"
+          "text": "Devuelve a Remedios de su sueño a la realidad de la pobreza"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Interrupts the fantasy.",
       "distractors": {}
     },
@@ -249,7 +249,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "sueñan con una vida distinta que sus circunstancias les impiden alcanzar"
+          "text": "son castigadas por su padre"
         },
         {
           "id": "B",
@@ -257,14 +257,14 @@
         },
         {
           "id": "C",
-          "text": "son castigadas por su padre"
+          "text": "sueñan con una vida distinta que sus circunstancias les impiden alcanzar"
         },
         {
           "id": "D",
           "text": "viven en el campo gallego"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Thwarted aspirations.",
       "distractors": {}
     },
@@ -278,7 +278,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "las golondrinas volverán, pero no las que fueron testigos de su amor"
+          "text": "nunca más habrá primavera"
         },
         {
           "id": "B",
@@ -286,14 +286,14 @@
         },
         {
           "id": "C",
-          "text": "nunca más habrá primavera"
+          "text": "las golondrinas volverán, pero no las que fueron testigos de su amor"
         },
         {
           "id": "D",
           "text": "la amada debe olvidarlo pronto porque él ya la olvidó"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Return of nature vs loss of the unique love.",
       "distractors": {}
     },
@@ -307,7 +307,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "anáfora"
+          "text": "metonimia"
         },
         {
           "id": "B",
@@ -319,10 +319,10 @@
         },
         {
           "id": "D",
-          "text": "metonimia"
+          "text": "anáfora"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Initial repetition.",
       "distractors": {}
     },
@@ -336,11 +336,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "la Argentina bajo la dictadura de Juan Manuel de Rosas"
+          "text": "la conquista de México"
         },
         {
           "id": "B",
-          "text": "la conquista de México"
+          "text": "la Argentina bajo la dictadura de Juan Manuel de Rosas"
         },
         {
           "id": "C",
@@ -351,7 +351,7 @@
           "text": "la independencia de Cuba"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Slaughterhouse = Rosas's regime.",
       "distractors": {}
     },
@@ -423,7 +423,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "revelan que Ildara planea emigrar y gastar dinero en sí misma"
+          "text": "son el uniforme de una fábrica"
         },
         {
           "id": "B",
@@ -435,10 +435,10 @@
         },
         {
           "id": "D",
-          "text": "son el uniforme de una fábrica"
+          "text": "revelan que Ildara planea emigrar y gastar dinero en sí misma"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "They signal her plan and independence.",
       "distractors": {}
     },
@@ -452,11 +452,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "el determinismo naturalista y la violencia patriarcal que encierran a la protagonista"
+          "text": "un final feliz típico del romanticismo"
         },
         {
           "id": "B",
-          "text": "un final feliz típico del romanticismo"
+          "text": "el determinismo naturalista y la violencia patriarcal que encierran a la protagonista"
         },
         {
           "id": "C",
@@ -467,7 +467,7 @@
           "text": "el triunfo de la libertad individual"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Naturalism: trapped by environment and violence.",
       "distractors": {}
     },
@@ -481,7 +481,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "el tono oral, irónico y cercano con que narra anécdotas del pasado colonial"
+          "text": "su estilo trágico y solemne"
         },
         {
           "id": "B",
@@ -489,14 +489,14 @@
         },
         {
           "id": "C",
-          "text": "su estilo trágico y solemne"
+          "text": "el tono oral, irónico y cercano con que narra anécdotas del pasado colonial"
         },
         {
           "id": "D",
           "text": "su poesía romántica"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The tradición's chatty narrator.",
       "distractors": {}
     },

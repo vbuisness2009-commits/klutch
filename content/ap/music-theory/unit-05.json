@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "vi – ii – V – I"
+          "text": "I – iii – IV – V"
         },
         {
           "id": "B",
@@ -106,14 +106,14 @@
         },
         {
           "id": "C",
-          "text": "I – iii – IV – V"
+          "text": "vi – ii – V – I"
         },
         {
           "id": "D",
           "text": "V – IV – I – vi"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "A–D–G–C in C.",
       "distractors": {}
     },
@@ -127,11 +127,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "ii6"
+          "text": "iii"
         },
         {
           "id": "B",
-          "text": "iii"
+          "text": "ii6"
         },
         {
           "id": "C",
@@ -142,7 +142,7 @@
           "text": "I6/4 (as a tonic chord)"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Bass 4 → 5.",
       "distractors": {}
     },
@@ -156,7 +156,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "how often chords change"
+          "text": "the meter signature"
         },
         {
           "id": "B",
@@ -168,10 +168,10 @@
         },
         {
           "id": "D",
-          "text": "the meter signature"
+          "text": "how often chords change"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Definition.",
       "distractors": {}
     },
@@ -214,11 +214,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "passing 6/4"
+          "text": "cadential 6/4"
         },
         {
           "id": "B",
-          "text": "cadential 6/4"
+          "text": "passing 6/4"
         },
         {
           "id": "C",
@@ -229,7 +229,7 @@
           "text": "deceptive 6/4"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stepwise bass.",
       "distractors": {}
     },
@@ -243,7 +243,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "pedal (neighbor) 6/4"
+          "text": "arpeggiated 6/4"
         },
         {
           "id": "B",
@@ -255,10 +255,10 @@
         },
         {
           "id": "D",
-          "text": "arpeggiated 6/4"
+          "text": "pedal (neighbor) 6/4"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Bass stays.",
       "distractors": {}
     },
@@ -301,7 +301,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "V4/3"
+          "text": "iii"
         },
         {
           "id": "B",
@@ -309,14 +309,14 @@
         },
         {
           "id": "C",
-          "text": "iii"
+          "text": "V4/3"
         },
         {
           "id": "D",
           "text": "V/V"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Bass 1–2–3.",
       "distractors": {}
     },
@@ -330,7 +330,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "ii6 or IV"
+          "text": "I"
         },
         {
           "id": "B",
@@ -338,14 +338,14 @@
         },
         {
           "id": "C",
-          "text": "I"
+          "text": "ii6 or IV"
         },
         {
           "id": "D",
           "text": "iii"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Chords containing F with PD function.",
       "distractors": {}
     },
@@ -359,11 +359,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "E G♯ B D"
+          "text": "E G B D"
         },
         {
           "id": "B",
-          "text": "E G B D"
+          "text": "E G♯ B D"
         },
         {
           "id": "C",
@@ -374,7 +374,7 @@
           "text": "E G B♭ D"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Raised leading tone.",
       "distractors": {}
     },
@@ -388,7 +388,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "ii7 – V7 – I"
+          "text": "vi7 – V7 – I"
         },
         {
           "id": "B",
@@ -400,10 +400,10 @@
         },
         {
           "id": "D",
-          "text": "vi7 – V7 – I"
+          "text": "ii7 – V7 – I"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Predominant seventh to dominant seventh.",
       "distractors": {}
     },
@@ -446,11 +446,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "acceptable: an octave to a third by contrary motion"
+          "text": "parallel octaves"
         },
         {
           "id": "B",
-          "text": "parallel octaves"
+          "text": "acceptable: an octave to a third by contrary motion"
         },
         {
           "id": "C",
@@ -461,7 +461,7 @@
           "text": "a direct fifth"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Bass up, soprano down.",
       "distractors": {}
     },

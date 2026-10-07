@@ -49,224 +49,546 @@
     "cramSheet": "**Practices:** intensive (market gardening, plantation, rice) · extensive (shifting, nomadic herding, ranching)\n\n**Survey:** metes and bounds · township-range grid · long lots\n\n**Revolutions:** 1st domestication (hearths) · Columbian Exchange · 2nd mechanization · 3rd Green Revolution (HYVs, fertilizer, irrigation)\n\n**Von Thünen:** market → dairy/gardening → forest → grain → ranching · assumptions: flat, isolated, one market\n\n**Global:** agribusiness · commodity chains · cash crops · economies of scale\n\n**Challenges:** GMOs · fair trade · food deserts · local food · women's land access"
   },
   "vocab": [
-    { "term": "Intensive agriculture", "definition": "Farming with large inputs of labor or capital per unit of land." },
-    { "term": "Extensive agriculture", "definition": "Farming with small inputs of labor or capital over large areas." },
-    { "term": "Subsistence agriculture", "definition": "Producing food mainly for the farmer's household." },
-    { "term": "Long-lot survey", "definition": "A system dividing land into narrow strips extending back from a river or road." },
-    { "term": "Township and range", "definition": "A rectangular grid land-survey system used across much of the U.S." },
-    { "term": "Columbian Exchange", "definition": "The transfer of plants, animals, and diseases between the Eastern and Western Hemispheres after 1492." },
-    { "term": "Green Revolution", "definition": "Mid-20th-century spread of high-yield seeds, fertilizers, pesticides, and irrigation." },
-    { "term": "Von Thünen model", "definition": "A model of agricultural land use around a market based on transport costs." },
-    { "term": "Agribusiness", "definition": "The system integrating farming with processing, distribution, and marketing." },
-    { "term": "Commodity chain", "definition": "The linked series of steps from production to consumption of a product." },
-    { "term": "Food desert", "definition": "An area with limited access to affordable, nutritious food." },
-    { "term": "Desertification", "definition": "Degradation of land in dry areas, often from overgrazing or deforestation." }
+    {
+      "term": "Intensive agriculture",
+      "definition": "Farming with large inputs of labor or capital per unit of land."
+    },
+    {
+      "term": "Extensive agriculture",
+      "definition": "Farming with small inputs of labor or capital over large areas."
+    },
+    {
+      "term": "Subsistence agriculture",
+      "definition": "Producing food mainly for the farmer's household."
+    },
+    {
+      "term": "Long-lot survey",
+      "definition": "A system dividing land into narrow strips extending back from a river or road."
+    },
+    {
+      "term": "Township and range",
+      "definition": "A rectangular grid land-survey system used across much of the U.S."
+    },
+    {
+      "term": "Columbian Exchange",
+      "definition": "The transfer of plants, animals, and diseases between the Eastern and Western Hemispheres after 1492."
+    },
+    {
+      "term": "Green Revolution",
+      "definition": "Mid-20th-century spread of high-yield seeds, fertilizers, pesticides, and irrigation."
+    },
+    {
+      "term": "Von Thünen model",
+      "definition": "A model of agricultural land use around a market based on transport costs."
+    },
+    {
+      "term": "Agribusiness",
+      "definition": "The system integrating farming with processing, distribution, and marketing."
+    },
+    {
+      "term": "Commodity chain",
+      "definition": "The linked series of steps from production to consumption of a product."
+    },
+    {
+      "term": "Food desert",
+      "definition": "An area with limited access to affordable, nutritious food."
+    },
+    {
+      "term": "Desertification",
+      "definition": "Degradation of land in dry areas, often from overgrazing or deforestation."
+    }
   ],
   "practice": [
     {
-      "id": "u5-q01", "tier": "Intro", "type": "mcq", "topic": "5.2 Settlement Patterns and Survey Methods", "skill": "4. Source Analysis",
+      "id": "u5-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "5.2 Settlement Patterns and Survey Methods",
+      "skill": "4. Source Analysis",
       "stem": "An aerial photograph of rural Louisiana shows narrow farm plots stretching back from a river. This survey pattern is",
       "choices": [
-        { "id": "A", "text": "township and range" },
-        { "id": "B", "text": "long lot" },
-        { "id": "C", "text": "metes and bounds" },
-        { "id": "D", "text": "clustered village" }
+        {
+          "id": "A",
+          "text": "long lot"
+        },
+        {
+          "id": "B",
+          "text": "township and range"
+        },
+        {
+          "id": "C",
+          "text": "metes and bounds"
+        },
+        {
+          "id": "D",
+          "text": "clustered village"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "French-influenced long lots give each farm river access.",
       "distractors": {}
     },
     {
-      "id": "u5-q02", "tier": "Intro", "type": "mcq", "topic": "5.1 Introduction to Agriculture", "skill": "1. Concepts and Processes",
+      "id": "u5-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "5.1 Introduction to Agriculture",
+      "skill": "1. Concepts and Processes",
       "stem": "Which is an example of extensive agriculture?",
       "choices": [
-        { "id": "A", "text": "Market gardening near a city" },
-        { "id": "B", "text": "Cattle ranching on large tracts in the western United States" },
-        { "id": "C", "text": "Wet rice farming in Southeast Asia" },
-        { "id": "D", "text": "Greenhouse tomato production" }
+        {
+          "id": "A",
+          "text": "Market gardening near a city"
+        },
+        {
+          "id": "B",
+          "text": "Cattle ranching on large tracts in the western United States"
+        },
+        {
+          "id": "C",
+          "text": "Wet rice farming in Southeast Asia"
+        },
+        {
+          "id": "D",
+          "text": "Greenhouse tomato production"
+        }
       ],
       "answer": "B",
       "explanation": "Ranching uses few inputs per unit of land over large areas.",
       "distractors": {}
     },
     {
-      "id": "u5-q03", "tier": "Intro", "type": "mcq", "topic": "5.5 The Green Revolution", "skill": "1. Concepts and Processes",
+      "id": "u5-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "5.5 The Green Revolution",
+      "skill": "1. Concepts and Processes",
       "stem": "Which was a key feature of the Green Revolution?",
       "choices": [
-        { "id": "A", "text": "Domestication of the first crops" },
-        { "id": "B", "text": "High-yield seed varieties combined with chemical fertilizers and irrigation" },
-        { "id": "C", "text": "Exchange of crops between the Americas and Europe" },
-        { "id": "D", "text": "A return to organic farming methods" }
+        {
+          "id": "A",
+          "text": "Domestication of the first crops"
+        },
+        {
+          "id": "B",
+          "text": "A return to organic farming methods"
+        },
+        {
+          "id": "C",
+          "text": "Exchange of crops between the Americas and Europe"
+        },
+        {
+          "id": "D",
+          "text": "High-yield seed varieties combined with chemical fertilizers and irrigation"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "HYVs plus chemical and water inputs drove large yield increases.",
-      "distractors": { "C": "Columbian Exchange." }
+      "distractors": {
+        "C": "Columbian Exchange."
+      }
     },
     {
-      "id": "u5-q04", "tier": "Intro", "type": "mcq", "topic": "5.8 Von Thünen Model", "skill": "1. Concepts and Processes",
+      "id": "u5-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "5.8 Von Thünen Model",
+      "skill": "1. Concepts and Processes",
       "stem": "In von Thünen's model, which activity is located closest to the central market?",
       "choices": [
-        { "id": "A", "text": "Ranching" },
-        { "id": "B", "text": "Grain farming" },
-        { "id": "C", "text": "Market gardening and dairying" },
-        { "id": "D", "text": "Forestry" }
+        {
+          "id": "A",
+          "text": "Ranching"
+        },
+        {
+          "id": "B",
+          "text": "Grain farming"
+        },
+        {
+          "id": "C",
+          "text": "Market gardening and dairying"
+        },
+        {
+          "id": "D",
+          "text": "Forestry"
+        }
       ],
       "answer": "C",
       "explanation": "Perishable products with high transport costs locate nearest the market.",
       "distractors": {}
     },
     {
-      "id": "u5-q05", "tier": "Exam level", "type": "mcq", "topic": "5.8 Von Thünen Model", "skill": "1. Concepts and Processes",
+      "id": "u5-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.8 Von Thünen Model",
+      "skill": "1. Concepts and Processes",
       "stem": "Kenya exports fresh-cut flowers by air to European markets thousands of kilometers away. How does this challenge the von Thünen model?",
       "choices": [
-        { "id": "A", "text": "Modern refrigeration and air transport allow perishable goods to be produced far from their markets." },
-        { "id": "B", "text": "Flowers are not agricultural products." },
-        { "id": "C", "text": "It confirms that perishable goods must be grown next to the market." },
-        { "id": "D", "text": "Kenya has flat land with uniform soil." }
+        {
+          "id": "A",
+          "text": "Kenya has flat land with uniform soil."
+        },
+        {
+          "id": "B",
+          "text": "Flowers are not agricultural products."
+        },
+        {
+          "id": "C",
+          "text": "It confirms that perishable goods must be grown next to the market."
+        },
+        {
+          "id": "D",
+          "text": "Modern refrigeration and air transport allow perishable goods to be produced far from their markets."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Von Thünen assumed one slow mode of transport; air freight breaks the distance-perishability link.",
       "distractors": {}
     },
     {
-      "id": "u5-q06", "tier": "Exam level", "type": "mcq", "topic": "5.4 The Second Agricultural Revolution", "skill": "2. Spatial Relationships",
+      "id": "u5-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.4 The Second Agricultural Revolution",
+      "skill": "2. Spatial Relationships",
       "stem": "The Second Agricultural Revolution most directly contributed to which change?",
       "choices": [
-        { "id": "A", "text": "Rural-to-urban migration as mechanization reduced the need for farm labor" },
-        { "id": "B", "text": "The first domestication of animals" },
-        { "id": "C", "text": "The development of genetically modified crops" },
-        { "id": "D", "text": "A shift from commercial to subsistence farming" }
+        {
+          "id": "A",
+          "text": "The first domestication of animals"
+        },
+        {
+          "id": "B",
+          "text": "Rural-to-urban migration as mechanization reduced the need for farm labor"
+        },
+        {
+          "id": "C",
+          "text": "The development of genetically modified crops"
+        },
+        {
+          "id": "D",
+          "text": "A shift from commercial to subsistence farming"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Labor-saving technology freed workers for factories during industrialization.",
       "distractors": {}
     },
     {
-      "id": "u5-q07", "tier": "Exam level", "type": "mcq", "topic": "5.6 Agricultural Production Regions", "skill": "2. Spatial Relationships",
+      "id": "u5-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.6 Agricultural Production Regions",
+      "skill": "2. Spatial Relationships",
       "stem": "Olives, grapes, and citrus grown in regions with hot, dry summers and mild, wet winters are characteristic of",
       "choices": [
-        { "id": "A", "text": "plantation agriculture" },
-        { "id": "B", "text": "Mediterranean agriculture" },
-        { "id": "C", "text": "shifting cultivation" },
-        { "id": "D", "text": "pastoral nomadism" }
+        {
+          "id": "A",
+          "text": "plantation agriculture"
+        },
+        {
+          "id": "B",
+          "text": "shifting cultivation"
+        },
+        {
+          "id": "C",
+          "text": "Mediterranean agriculture"
+        },
+        {
+          "id": "D",
+          "text": "pastoral nomadism"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "These drought-tolerant crops fit dry-summer climates (Mediterranean Basin, California, central Chile).",
       "distractors": {}
     },
     {
-      "id": "u5-q08", "tier": "Exam level", "type": "mcq", "topic": "5.9 The Global System of Agriculture", "skill": "2. Spatial Relationships",
+      "id": "u5-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.9 The Global System of Agriculture",
+      "skill": "2. Spatial Relationships",
       "stem": "A country earns most of its export revenue from coffee. Which risk does this pose?",
       "choices": [
-        { "id": "A", "text": "Falling world coffee prices or a crop disease could sharply reduce national income." },
-        { "id": "B", "text": "The country will have too many crops." },
-        { "id": "C", "text": "Coffee cannot be traded internationally." },
-        { "id": "D", "text": "The country will become a food exporter." }
+        {
+          "id": "A",
+          "text": "Falling world coffee prices or a crop disease could sharply reduce national income."
+        },
+        {
+          "id": "B",
+          "text": "The country will have too many crops."
+        },
+        {
+          "id": "C",
+          "text": "Coffee cannot be traded internationally."
+        },
+        {
+          "id": "D",
+          "text": "The country will become a food exporter."
+        }
       ],
       "answer": "A",
       "explanation": "Export dependence on one commodity exposes the economy to price volatility.",
       "distractors": {}
     },
     {
-      "id": "u5-q09", "tier": "Exam level", "type": "mcq", "topic": "5.11 Challenges of Contemporary Agriculture", "skill": "2. Spatial Relationships",
+      "id": "u5-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.11 Challenges of Contemporary Agriculture",
+      "skill": "2. Spatial Relationships",
       "stem": "A low-income urban neighborhood has several convenience stores but no full-service grocery store within two miles. This area is best described as",
       "choices": [
-        { "id": "A", "text": "a food desert" },
-        { "id": "B", "text": "a von Thünen ring" },
-        { "id": "C", "text": "an agribusiness hub" },
-        { "id": "D", "text": "a commodity chain" }
+        {
+          "id": "A",
+          "text": "a food desert"
+        },
+        {
+          "id": "B",
+          "text": "a von Thünen ring"
+        },
+        {
+          "id": "C",
+          "text": "an agribusiness hub"
+        },
+        {
+          "id": "D",
+          "text": "a commodity chain"
+        }
       ],
       "answer": "A",
       "explanation": "Residents have limited access to affordable, nutritious food.",
       "distractors": {}
     },
     {
-      "id": "u5-q10", "tier": "Exam level", "type": "mcq", "topic": "5.10 Consequences of Agricultural Practices", "skill": "2. Spatial Relationships",
+      "id": "u5-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.10 Consequences of Agricultural Practices",
+      "skill": "2. Spatial Relationships",
       "stem": "Overgrazing and drought along the southern edge of the Sahara have contributed most directly to",
       "choices": [
-        { "id": "A", "text": "desertification" },
-        { "id": "B", "text": "salinization of coastal farmland" },
-        { "id": "C", "text": "the expansion of plantation agriculture" },
-        { "id": "D", "text": "increased rainfall" }
+        {
+          "id": "A",
+          "text": "the expansion of plantation agriculture"
+        },
+        {
+          "id": "B",
+          "text": "salinization of coastal farmland"
+        },
+        {
+          "id": "C",
+          "text": "desertification"
+        },
+        {
+          "id": "D",
+          "text": "increased rainfall"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Loss of vegetation degrades semi-arid land into desert-like conditions.",
       "distractors": {}
     },
     {
-      "id": "u5-q11", "tier": "Hardest", "type": "mcq", "topic": "5.5 The Green Revolution", "skill": "2. Spatial Relationships",
+      "id": "u5-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "5.5 The Green Revolution",
+      "skill": "2. Spatial Relationships",
       "stem": "Which best explains why the Green Revolution had less impact in much of sub-Saharan Africa than in South Asia?",
       "choices": [
-        { "id": "A", "text": "Early high-yield varieties focused on wheat and rice rather than staples such as cassava and sorghum, and many farmers lacked irrigation, credit, and infrastructure." },
-        { "id": "B", "text": "Sub-Saharan Africa has no arable land." },
-        { "id": "C", "text": "African governments banned fertilizers." },
-        { "id": "D", "text": "Population growth was zero in sub-Saharan Africa." }
+        {
+          "id": "A",
+          "text": "Population growth was zero in sub-Saharan Africa."
+        },
+        {
+          "id": "B",
+          "text": "Sub-Saharan Africa has no arable land."
+        },
+        {
+          "id": "C",
+          "text": "African governments banned fertilizers."
+        },
+        {
+          "id": "D",
+          "text": "Early high-yield varieties focused on wheat and rice rather than staples such as cassava and sorghum, and many farmers lacked irrigation, credit, and infrastructure."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Crop focus and required inputs mismatched local conditions.",
       "distractors": {}
     },
     {
-      "id": "u5-q12", "tier": "Hardest", "type": "mcq", "topic": "5.8 Von Thünen Model", "skill": "1. Concepts and Processes",
+      "id": "u5-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "5.8 Von Thünen Model",
+      "skill": "1. Concepts and Processes",
       "stem": "In von Thünen's original model, forestry occupied the second ring, closer to the city than grain. Why?",
       "choices": [
-        { "id": "A", "text": "Wood for fuel and construction was heavy and bulky, making it costly to transport long distances." },
-        { "id": "B", "text": "Forests require the most fertile soil." },
-        { "id": "C", "text": "Trees spoil quickly." },
-        { "id": "D", "text": "Grain needed to be near rivers." }
+        {
+          "id": "A",
+          "text": "Forests require the most fertile soil."
+        },
+        {
+          "id": "B",
+          "text": "Wood for fuel and construction was heavy and bulky, making it costly to transport long distances."
+        },
+        {
+          "id": "C",
+          "text": "Trees spoil quickly."
+        },
+        {
+          "id": "D",
+          "text": "Grain needed to be near rivers."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Transport cost per unit value was high for wood, so it had to be near the market.",
       "distractors": {}
     },
     {
-      "id": "u5-q13", "tier": "Hardest", "type": "mcq", "topic": "5.7 Spatial Organization of Agriculture", "skill": "2. Spatial Relationships",
+      "id": "u5-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "5.7 Spatial Organization of Agriculture",
+      "skill": "2. Spatial Relationships",
       "stem": "A single corporation owns chicken hatcheries, contracts with farmers to raise chickens, and operates processing plants and distribution to supermarkets. This illustrates",
       "choices": [
-        { "id": "A", "text": "vertical integration within agribusiness" },
-        { "id": "B", "text": "subsistence agriculture" },
-        { "id": "C", "text": "shifting cultivation" },
-        { "id": "D", "text": "the Columbian Exchange" }
+        {
+          "id": "A",
+          "text": "shifting cultivation"
+        },
+        {
+          "id": "B",
+          "text": "subsistence agriculture"
+        },
+        {
+          "id": "C",
+          "text": "vertical integration within agribusiness"
+        },
+        {
+          "id": "D",
+          "text": "the Columbian Exchange"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Controlling multiple stages of the commodity chain is vertical integration.",
       "distractors": {}
     },
     {
-      "id": "u5-q14", "tier": "Hardest", "type": "mcq", "topic": "5.12 Women in Agriculture", "skill": "2. Spatial Relationships",
+      "id": "u5-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "5.12 Women in Agriculture",
+      "skill": "2. Spatial Relationships",
       "stem": "In many developing countries, women perform a large share of farm labor but own a small share of farmland. Which is the most likely consequence?",
       "choices": [
-        { "id": "A", "text": "Women have less access to credit, technology, and decision-making power, which can limit agricultural productivity." },
-        { "id": "B", "text": "Agricultural productivity is maximized." },
-        { "id": "C", "text": "Women migrate to cities in larger numbers than men." },
-        { "id": "D", "text": "Commercial agriculture disappears." }
+        {
+          "id": "A",
+          "text": "Women have less access to credit, technology, and decision-making power, which can limit agricultural productivity."
+        },
+        {
+          "id": "B",
+          "text": "Agricultural productivity is maximized."
+        },
+        {
+          "id": "C",
+          "text": "Women migrate to cities in larger numbers than men."
+        },
+        {
+          "id": "D",
+          "text": "Commercial agriculture disappears."
+        }
       ],
       "answer": "A",
       "explanation": "Land is often collateral for loans; without ownership, women can't invest in improvements.",
       "distractors": {}
     },
     {
-      "id": "u5-frq1", "tier": "Exam level", "type": "frq", "topic": "5.5–5.11 Global Agriculture", "frqType": "FRQ (no stimulus)",
+      "id": "u5-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "5.5–5.11 Global Agriculture",
+      "frqType": "FRQ (no stimulus)",
       "prompt": "Agricultural practices have changed dramatically over the last two centuries, transforming rural landscapes and food systems around the world.",
       "parts": [
-        { "label": "A", "prompt": "Describe one innovation of the Second Agricultural Revolution.", "points": 1 },
-        { "label": "B", "prompt": "Explain how the Second Agricultural Revolution affected the distribution of population.", "points": 1 },
-        { "label": "C", "prompt": "Describe one technology associated with the Green Revolution.", "points": 1 },
-        { "label": "D", "prompt": "Explain one negative environmental consequence of the Green Revolution.", "points": 1 },
-        { "label": "E", "prompt": "Explain one way the Green Revolution affected farmers differently depending on their wealth.", "points": 1 },
-        { "label": "F", "prompt": "Describe one argument in favor of genetically modified crops.", "points": 1 },
-        { "label": "G", "prompt": "Explain the degree to which local food movements can reduce the environmental impact of the global food system.", "points": 1 }
+        {
+          "label": "A",
+          "prompt": "Describe one innovation of the Second Agricultural Revolution.",
+          "points": 1
+        },
+        {
+          "label": "B",
+          "prompt": "Explain how the Second Agricultural Revolution affected the distribution of population.",
+          "points": 1
+        },
+        {
+          "label": "C",
+          "prompt": "Describe one technology associated with the Green Revolution.",
+          "points": 1
+        },
+        {
+          "label": "D",
+          "prompt": "Explain one negative environmental consequence of the Green Revolution.",
+          "points": 1
+        },
+        {
+          "label": "E",
+          "prompt": "Explain one way the Green Revolution affected farmers differently depending on their wealth.",
+          "points": 1
+        },
+        {
+          "label": "F",
+          "prompt": "Describe one argument in favor of genetically modified crops.",
+          "points": 1
+        },
+        {
+          "label": "G",
+          "prompt": "Explain the degree to which local food movements can reduce the environmental impact of the global food system.",
+          "points": 1
+        }
       ],
       "points": 7,
       "minutes": 25,
       "rubric": [
-        { "criterion": "A", "points": 1, "description": "E.g., seed drill, mechanical reaper, steel plow, crop rotation (Norfolk system), selective breeding, railroads moving produce." },
-        { "criterion": "B", "points": 1, "description": "Mechanization reduced farm labor needs and increased food surpluses, pushing rural workers to migrate to growing industrial cities (urbanization)." },
-        { "criterion": "C", "points": 1, "description": "High-yield seed varieties, synthetic fertilizers, pesticides, irrigation systems, or mechanization." },
-        { "criterion": "D", "points": 1, "description": "E.g., fertilizer runoff causing eutrophication; aquifer depletion and salinization from irrigation; loss of crop biodiversity; pesticide pollution." },
-        { "criterion": "E", "points": 1, "description": "Wealthier farmers could afford seeds, fertilizer, and irrigation and gained most; poorer farmers often went into debt or lost land, increasing inequality." },
-        { "criterion": "F", "points": 1, "description": "E.g., higher yields, pest or drought resistance reducing pesticide use or crop loss, added nutrients (e.g., vitamin-enriched rice)." },
-        { "criterion": "G", "points": 1, "description": "Takes a position with reasoning; e.g., moderate degree: reduces transport emissions and supports local farms, but transport is a small share of food's footprint, and local production may be less efficient or seasonal." }
+        {
+          "criterion": "A",
+          "points": 1,
+          "description": "E.g., seed drill, mechanical reaper, steel plow, crop rotation (Norfolk system), selective breeding, railroads moving produce."
+        },
+        {
+          "criterion": "B",
+          "points": 1,
+          "description": "Mechanization reduced farm labor needs and increased food surpluses, pushing rural workers to migrate to growing industrial cities (urbanization)."
+        },
+        {
+          "criterion": "C",
+          "points": 1,
+          "description": "High-yield seed varieties, synthetic fertilizers, pesticides, irrigation systems, or mechanization."
+        },
+        {
+          "criterion": "D",
+          "points": 1,
+          "description": "E.g., fertilizer runoff causing eutrophication; aquifer depletion and salinization from irrigation; loss of crop biodiversity; pesticide pollution."
+        },
+        {
+          "criterion": "E",
+          "points": 1,
+          "description": "Wealthier farmers could afford seeds, fertilizer, and irrigation and gained most; poorer farmers often went into debt or lost land, increasing inequality."
+        },
+        {
+          "criterion": "F",
+          "points": 1,
+          "description": "E.g., higher yields, pest or drought resistance reducing pesticide use or crop loss, added nutrients (e.g., vitamin-enriched rice)."
+        },
+        {
+          "criterion": "G",
+          "points": 1,
+          "description": "Takes a position with reasoning; e.g., moderate degree: reduces transport emissions and supports local farms, but transport is a small share of food's footprint, and local production may be less efficient or seasonal."
+        }
       ],
       "sampleResponse": "A. The mechanical reaper allowed farmers to harvest grain much faster than by hand.\n\nB. Because machines replaced many farm workers and increased food surpluses, large numbers of rural people moved to cities to work in factories, increasing urbanization.\n\nC. High-yield varieties of wheat and rice were developed to produce much more grain per hectare when combined with fertilizer and irrigation.\n\nD. Heavy use of chemical fertilizers led to nutrient runoff into rivers and lakes, causing algal blooms and oxygen-depleted dead zones.\n\nE. Wealthier farmers could afford the new seeds, fertilizer, and irrigation pumps and greatly increased their yields, while poorer farmers often could not afford inputs or went into debt, widening rural inequality.\n\nF. Genetically modified crops can be engineered to resist pests, which can increase yields and reduce the amount of insecticide farmers need to spray.\n\nG. Local food movements can reduce the environmental impact only to a limited degree. Buying locally reduces the distance food travels, but transportation is a relatively small part of food's total environmental footprint compared with production methods such as fertilizer use and livestock raising."
     }

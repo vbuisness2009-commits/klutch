@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "G to G♯"
+          "text": "D to D♯"
         },
         {
           "id": "B",
@@ -110,10 +110,10 @@
         },
         {
           "id": "D",
-          "text": "D to D♯"
+          "text": "G to G♯"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Raised 7th.",
       "distractors": {}
     },
@@ -127,11 +127,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "G minor"
+          "text": "E minor"
         },
         {
           "id": "B",
-          "text": "E minor"
+          "text": "G minor"
         },
         {
           "id": "C",
@@ -142,7 +142,7 @@
           "text": "D minor"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Same tonic.",
       "distractors": {}
     },
@@ -156,7 +156,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "C minor"
+          "text": "F minor"
         },
         {
           "id": "B",
@@ -168,10 +168,10 @@
         },
         {
           "id": "D",
-          "text": "F minor"
+          "text": "C minor"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "A minor third below.",
       "distractors": {}
     },
@@ -185,11 +185,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "minor sixth"
+          "text": "major sixth"
         },
         {
           "id": "B",
-          "text": "major sixth"
+          "text": "minor sixth"
         },
         {
           "id": "C",
@@ -200,7 +200,7 @@
           "text": "minor seventh"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "C–A is a 6th; lowered = minor.",
       "distractors": {}
     },
@@ -243,7 +243,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "augmented fourth"
+          "text": "diminished fifth"
         },
         {
           "id": "B",
@@ -251,14 +251,14 @@
         },
         {
           "id": "C",
-          "text": "diminished fifth"
+          "text": "augmented fourth"
         },
         {
           "id": "D",
           "text": "minor fifth"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Tritone spelled as a 4th.",
       "distractors": {}
     },
@@ -301,7 +301,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "C"
+          "text": "F"
         },
         {
           "id": "B",
@@ -313,10 +313,10 @@
         },
         {
           "id": "D",
-          "text": "F"
+          "text": "C"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Sounds a major second lower.",
       "distractors": {}
     },
@@ -330,11 +330,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Polyphonic"
+          "text": "Monophonic"
         },
         {
           "id": "B",
-          "text": "Monophonic"
+          "text": "Polyphonic"
         },
         {
           "id": "C",
@@ -345,7 +345,7 @@
           "text": "Heterophonic"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Independent lines.",
       "distractors": {}
     },
@@ -359,7 +359,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "F4"
+          "text": "C5"
         },
         {
           "id": "B",
@@ -367,14 +367,14 @@
         },
         {
           "id": "C",
-          "text": "C5"
+          "text": "F4"
         },
         {
           "id": "D",
           "text": "B♭4"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Sounds a perfect fifth lower.",
       "distractors": {}
     },
@@ -388,7 +388,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "augmented second"
+          "text": "minor second"
         },
         {
           "id": "B",
@@ -396,14 +396,14 @@
         },
         {
           "id": "C",
-          "text": "minor second"
+          "text": "augmented second"
         },
         {
           "id": "D",
           "text": "minor third"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "e.g., F–G♯ in A minor.",
       "distractors": {}
     },
@@ -417,7 +417,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "diminished fifth"
+          "text": "diminished fourth"
         },
         {
           "id": "B",
@@ -429,10 +429,10 @@
         },
         {
           "id": "D",
-          "text": "diminished fourth"
+          "text": "diminished fifth"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Augmented ↔ diminished.",
       "distractors": {}
     },
@@ -475,11 +475,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "heterophony"
+          "text": "homophony"
         },
         {
           "id": "B",
-          "text": "homophony"
+          "text": "heterophony"
         },
         {
           "id": "C",
@@ -490,7 +490,7 @@
           "text": "imitative polyphony"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Simultaneous variants.",
       "distractors": {}
     },

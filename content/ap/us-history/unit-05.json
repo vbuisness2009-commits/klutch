@@ -118,7 +118,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "the United States was destined to expand across North America"
+          "text": "Native nations should keep control of the Great Plains"
         },
         {
           "id": "B",
@@ -130,10 +130,10 @@
         },
         {
           "id": "D",
-          "text": "Native nations should keep control of the Great Plains"
+          "text": "the United States was destined to expand across North America"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The phrase captured a confident, often racially charged belief in continental expansion.",
       "distractors": {
         "C": "Manifest Destiny was expansionist."
@@ -178,11 +178,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Thirteenth"
+          "text": "Fourteenth"
         },
         {
           "id": "B",
-          "text": "Fourteenth"
+          "text": "Thirteenth"
         },
         {
           "id": "C",
@@ -193,11 +193,11 @@
           "text": "Twelfth"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Ratified in December 1865.",
       "distractors": {
-        "B": "Defined citizenship and equal protection.",
-        "C": "Protected voting regardless of race."
+        "C": "Protected voting regardless of race.",
+        "A": "Defined citizenship and equal protection."
       }
     },
     {
@@ -209,7 +209,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "led to the withdrawal of federal troops from the South, ending Reconstruction"
+          "text": "created the Freedmen's Bureau"
         },
         {
           "id": "B",
@@ -217,14 +217,14 @@
         },
         {
           "id": "C",
-          "text": "created the Freedmen's Bureau"
+          "text": "led to the withdrawal of federal troops from the South, ending Reconstruction"
         },
         {
           "id": "D",
           "text": "granted Black men the right to vote"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Republicans kept the presidency for Hayes; Democrats got the end of military occupation.",
       "distractors": {
         "B": "That's the Compromise of 1850."
@@ -240,7 +240,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "sectional loyalties over slavery were beginning to override party loyalties"
+          "text": "the Whig Party had become the dominant national party"
         },
         {
           "id": "B",
@@ -252,13 +252,13 @@
         },
         {
           "id": "D",
-          "text": "the Whig Party had become the dominant national party"
+          "text": "sectional loyalties over slavery were beginning to override party loyalties"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Northern Democrats and Whigs voted together for the proviso; Southern members of both parties opposed it.",
       "distractors": {
-        "D": "Sectional voting foreshadowed the Whigs' collapse."
+        "A": "Sectional voting foreshadowed the Whigs' collapse."
       }
     },
     {
@@ -270,7 +270,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Violence in Kansas between proslavery and antislavery settlers and the formation of the Republican Party"
+          "text": "A strengthened Missouri Compromise line"
         },
         {
           "id": "B",
@@ -278,18 +278,18 @@
         },
         {
           "id": "C",
-          "text": "A strengthened Missouri Compromise line"
+          "text": "Violence in Kansas between proslavery and antislavery settlers and the formation of the Republican Party"
         },
         {
           "id": "D",
           "text": "The end of the Fugitive Slave Act"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Repealing the 36°30′ line and inviting a vote led both sides to rush settlers into Kansas, and outraged Northerners formed the Republican Party.",
       "distractors": {
         "B": "Kansas entered as a free state in 1861.",
-        "C": "The act repealed that line."
+        "A": "The act repealed that line."
       }
     },
     {
@@ -301,11 +301,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Congress could not prohibit slavery in the territories, and Black Americans were not citizens"
+          "text": "popular sovereignty was unconstitutional because only Congress could decide on slavery"
         },
         {
           "id": "B",
-          "text": "popular sovereignty was unconstitutional because only Congress could decide on slavery"
+          "text": "Congress could not prohibit slavery in the territories, and Black Americans were not citizens"
         },
         {
           "id": "C",
@@ -316,7 +316,7 @@
           "text": "the Fugitive Slave Act was unconstitutional"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Chief Justice Taney's ruling struck down the Missouri Compromise's restriction and denied Black citizenship.",
       "distractors": {
         "C": "The Court rejected Scott's freedom claim."
@@ -361,7 +361,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Greater population, industrial capacity, and railroad mileage"
+          "text": "Fighting a defensive war on home territory"
         },
         {
           "id": "B",
@@ -373,14 +373,14 @@
         },
         {
           "id": "D",
-          "text": "Fighting a defensive war on home territory"
+          "text": "Greater population, industrial capacity, and railroad mileage"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The North could produce and move far more weapons, supplies, and soldiers over time.",
       "distractors": {
         "B": "The Confederacy is often credited with stronger early leadership.",
-        "D": "That was a Confederate advantage."
+        "A": "That was a Confederate advantage."
       }
     },
     {
@@ -392,7 +392,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "defined national citizenship and required states to provide equal protection of the laws"
+          "text": "abolished slavery"
         },
         {
           "id": "B",
@@ -400,17 +400,17 @@
         },
         {
           "id": "C",
-          "text": "abolished slavery"
+          "text": "defined national citizenship and required states to provide equal protection of the laws"
         },
         {
           "id": "D",
           "text": "established the income tax"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "It overturned Dred Scott on citizenship and became the foundation for later civil rights rulings.",
       "distractors": {
-        "C": "That was the 13th Amendment."
+        "A": "That was the 13th Amendment."
       }
     },
     {
@@ -452,11 +452,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "It gave freedpeople some autonomy over their daily work while keeping many in cycles of debt and economic dependence on landowners."
+          "text": "It gave most freedpeople ownership of the land they worked."
         },
         {
           "id": "B",
-          "text": "It gave most freedpeople ownership of the land they worked."
+          "text": "It gave freedpeople some autonomy over their daily work while keeping many in cycles of debt and economic dependence on landowners."
         },
         {
           "id": "C",
@@ -467,10 +467,10 @@
           "text": "It was imposed by the Freedmen's Bureau to end Black land ownership."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Families escaped gang labor and close supervision, but crop liens and low prices left most in debt: change and continuity at once.",
       "distractors": {
-        "B": "Land redistribution largely failed."
+        "A": "Land redistribution largely failed."
       }
     },
     {
@@ -482,11 +482,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Southern leaders believed a Republican administration that opposed slavery's expansion would eventually threaten slavery's survival and Southern political power."
+          "text": "Lincoln had promised to abolish slavery immediately upon taking office."
         },
         {
           "id": "B",
-          "text": "Lincoln had promised to abolish slavery immediately upon taking office."
+          "text": "Southern leaders believed a Republican administration that opposed slavery's expansion would eventually threaten slavery's survival and Southern political power."
         },
         {
           "id": "C",
@@ -497,10 +497,10 @@
           "text": "Southern states wanted to join Mexico."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "A purely Northern party had won the presidency. Blocking expansion meant the South would become a shrinking minority, which secessionists saw as a threat to slavery itself.",
       "distractors": {
-        "B": "Lincoln promised the opposite."
+        "A": "Lincoln promised the opposite."
       }
     },
     {

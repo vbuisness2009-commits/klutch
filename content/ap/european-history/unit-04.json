@@ -41,217 +41,501 @@
     "cramSheet": "**Science:** Copernicus 1543 · Kepler ellipses · Galileo telescope, trial 1633 · Newton Principia 1687 · Vesalius · Harvey · Bacon induction · Descartes deduction\n\n**Philosophes:** Locke (rights, consent) · Montesquieu (separation) · Voltaire (toleration) · Rousseau (general will) · Diderot (Encyclopedia) · Beccaria (punishment) · Smith 1776 (laissez-faire) · Wollstonecraft 1792\n\n**Spread:** salons · coffeehouses · print · public sphere\n\n**Enlightened absolutists:** Frederick II · Catherine II · Joseph II\n\n**Religion:** deism · Pietism · Methodism"
   },
   "vocab": [
-    { "term": "Heliocentrism", "definition": "The model of the universe with the Sun at the center." },
-    { "term": "Empiricism", "definition": "Knowledge derived from observation and experience." },
-    { "term": "Inductive reasoning", "definition": "Drawing general conclusions from specific observations (Bacon)." },
-    { "term": "Deductive reasoning", "definition": "Reasoning from general principles to specific conclusions (Descartes)." },
-    { "term": "Natural rights", "definition": "Rights people possess by nature, such as life, liberty, and property." },
-    { "term": "Social contract", "definition": "An agreement among people to form a government and accept its authority." },
-    { "term": "General will", "definition": "Rousseau's idea of the collective will of the community aimed at the common good." },
-    { "term": "Separation of powers", "definition": "Dividing government into branches that check one another." },
-    { "term": "Laissez-faire", "definition": "The doctrine that government should not interfere in the economy." },
-    { "term": "Deism", "definition": "Belief in a creator God who does not intervene in the world." },
-    { "term": "Salon", "definition": "A gathering, often hosted by women, for discussion of ideas." },
-    { "term": "Enlightened absolutism", "definition": "Rule by absolute monarchs who adopted some Enlightenment reforms." }
+    {
+      "term": "Heliocentrism",
+      "definition": "The model of the universe with the Sun at the center."
+    },
+    {
+      "term": "Empiricism",
+      "definition": "Knowledge derived from observation and experience."
+    },
+    {
+      "term": "Inductive reasoning",
+      "definition": "Drawing general conclusions from specific observations (Bacon)."
+    },
+    {
+      "term": "Deductive reasoning",
+      "definition": "Reasoning from general principles to specific conclusions (Descartes)."
+    },
+    {
+      "term": "Natural rights",
+      "definition": "Rights people possess by nature, such as life, liberty, and property."
+    },
+    {
+      "term": "Social contract",
+      "definition": "An agreement among people to form a government and accept its authority."
+    },
+    {
+      "term": "General will",
+      "definition": "Rousseau's idea of the collective will of the community aimed at the common good."
+    },
+    {
+      "term": "Separation of powers",
+      "definition": "Dividing government into branches that check one another."
+    },
+    {
+      "term": "Laissez-faire",
+      "definition": "The doctrine that government should not interfere in the economy."
+    },
+    {
+      "term": "Deism",
+      "definition": "Belief in a creator God who does not intervene in the world."
+    },
+    {
+      "term": "Salon",
+      "definition": "A gathering, often hosted by women, for discussion of ideas."
+    },
+    {
+      "term": "Enlightened absolutism",
+      "definition": "Rule by absolute monarchs who adopted some Enlightenment reforms."
+    }
   ],
   "practice": [
     {
-      "id": "u4-q01", "tier": "Intro", "type": "mcq", "topic": "Scientific Revolution",
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Scientific Revolution",
       "stem": "Isaac Newton's major contribution to the Scientific Revolution was",
       "choices": [
-        { "id": "A", "text": "explaining both celestial and terrestrial motion with universal laws, including gravitation" },
-        { "id": "B", "text": "first proposing a heliocentric universe" },
-        { "id": "C", "text": "describing the circulation of blood" },
-        { "id": "D", "text": "inventing the printing press" }
+        {
+          "id": "A",
+          "text": "first proposing a heliocentric universe"
+        },
+        {
+          "id": "B",
+          "text": "explaining both celestial and terrestrial motion with universal laws, including gravitation"
+        },
+        {
+          "id": "C",
+          "text": "describing the circulation of blood"
+        },
+        {
+          "id": "D",
+          "text": "inventing the printing press"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Principia (1687) unified physics under universal laws.",
-      "distractors": { "B": "Copernicus." }
+      "distractors": {
+        "A": "Copernicus."
+      }
     },
     {
-      "id": "u4-q02", "tier": "Intro", "type": "mcq", "topic": "Enlightenment",
+      "id": "u4-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Enlightenment",
       "stem": "Which Enlightenment thinker argued that government power should be divided among separate branches?",
       "choices": [
-        { "id": "A", "text": "Montesquieu" },
-        { "id": "B", "text": "Rousseau" },
-        { "id": "C", "text": "Hobbes" },
-        { "id": "D", "text": "Bacon" }
+        {
+          "id": "A",
+          "text": "Bacon"
+        },
+        {
+          "id": "B",
+          "text": "Rousseau"
+        },
+        {
+          "id": "C",
+          "text": "Hobbes"
+        },
+        {
+          "id": "D",
+          "text": "Montesquieu"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Separation of powers was central to The Spirit of the Laws.",
       "distractors": {}
     },
     {
-      "id": "u4-q03", "tier": "Intro", "type": "mcq", "topic": "Enlightenment Economics",
+      "id": "u4-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Enlightenment Economics",
       "stem": "Adam Smith's The Wealth of Nations (1776) criticized mercantilism and argued for",
       "choices": [
-        { "id": "A", "text": "free markets with limited government interference" },
-        { "id": "B", "text": "state ownership of industry" },
-        { "id": "C", "text": "high tariffs to accumulate gold" },
-        { "id": "D", "text": "a return to feudal obligations" }
+        {
+          "id": "A",
+          "text": "high tariffs to accumulate gold"
+        },
+        {
+          "id": "B",
+          "text": "state ownership of industry"
+        },
+        {
+          "id": "C",
+          "text": "free markets with limited government interference"
+        },
+        {
+          "id": "D",
+          "text": "a return to feudal obligations"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Smith argued self-interest in competitive markets promotes prosperity.",
       "distractors": {}
     },
     {
-      "id": "u4-q04", "tier": "Intro", "type": "mcq", "topic": "Scientific Revolution",
+      "id": "u4-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Scientific Revolution",
       "stem": "Francis Bacon is associated with which approach to knowledge?",
       "choices": [
-        { "id": "A", "text": "Empiricism and inductive reasoning from observation and experiment" },
-        { "id": "B", "text": "Deductive reasoning from innate ideas" },
-        { "id": "C", "text": "Reliance on ancient authorities" },
-        { "id": "D", "text": "Divine revelation as the only source of truth" }
+        {
+          "id": "A",
+          "text": "Divine revelation as the only source of truth"
+        },
+        {
+          "id": "B",
+          "text": "Deductive reasoning from innate ideas"
+        },
+        {
+          "id": "C",
+          "text": "Reliance on ancient authorities"
+        },
+        {
+          "id": "D",
+          "text": "Empiricism and inductive reasoning from observation and experiment"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Bacon advocated building knowledge from systematic observation.",
-      "distractors": { "B": "Descartes." }
+      "distractors": {
+        "B": "Descartes."
+      }
     },
     {
-      "id": "u4-q05", "tier": "Exam level", "type": "mcq", "topic": "Scientific Revolution",
+      "id": "u4-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Scientific Revolution",
       "stimulus": "An Italian scientist describes observing, through a newly improved telescope, four small bodies circling Jupiter and mountains and valleys on the surface of the Moon.",
       "stem": "These observations most directly challenged",
       "choices": [
-        { "id": "A", "text": "the Aristotelian view that the heavens were perfect and that all bodies orbited Earth" },
-        { "id": "B", "text": "Newton's law of gravitation" },
-        { "id": "C", "text": "Kepler's elliptical orbits" },
-        { "id": "D", "text": "the theory of the circulation of blood" }
+        {
+          "id": "A",
+          "text": "Newton's law of gravitation"
+        },
+        {
+          "id": "B",
+          "text": "the Aristotelian view that the heavens were perfect and that all bodies orbited Earth"
+        },
+        {
+          "id": "C",
+          "text": "Kepler's elliptical orbits"
+        },
+        {
+          "id": "D",
+          "text": "the theory of the circulation of blood"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Galileo's observations showed imperfect heavenly bodies and objects orbiting something other than Earth.",
-      "distractors": { "B": "Newton came later and built on Galileo." }
+      "distractors": {
+        "A": "Newton came later and built on Galileo."
+      }
     },
     {
-      "id": "u4-q06", "tier": "Exam level", "type": "mcq", "topic": "Enlightenment",
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Enlightenment",
       "stem": "John Locke's political theory most directly supported",
       "choices": [
-        { "id": "A", "text": "government based on the consent of the governed, with a right to resist rulers who violate natural rights" },
-        { "id": "B", "text": "absolute monarchy as the only protection against chaos" },
-        { "id": "C", "text": "rule by the general will regardless of individual rights" },
-        { "id": "D", "text": "divine-right kingship" }
+        {
+          "id": "A",
+          "text": "government based on the consent of the governed, with a right to resist rulers who violate natural rights"
+        },
+        {
+          "id": "B",
+          "text": "absolute monarchy as the only protection against chaos"
+        },
+        {
+          "id": "C",
+          "text": "rule by the general will regardless of individual rights"
+        },
+        {
+          "id": "D",
+          "text": "divine-right kingship"
+        }
       ],
       "answer": "A",
       "explanation": "Locke's Two Treatises justified the Glorious Revolution.",
-      "distractors": { "B": "Hobbes." }
+      "distractors": {
+        "B": "Hobbes."
+      }
     },
     {
-      "id": "u4-q07", "tier": "Exam level", "type": "mcq", "topic": "Spread of the Enlightenment",
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Spread of the Enlightenment",
       "stem": "Salons in 18th-century Paris were significant because they",
       "choices": [
-        { "id": "A", "text": "provided spaces, often hosted by elite women, where philosophes, aristocrats, and others discussed new ideas" },
-        { "id": "B", "text": "were royal courts that censored the Enlightenment" },
-        { "id": "C", "text": "were factories producing books" },
-        { "id": "D", "text": "were religious schools run by the Jesuits" }
+        {
+          "id": "A",
+          "text": "were royal courts that censored the Enlightenment"
+        },
+        {
+          "id": "B",
+          "text": "provided spaces, often hosted by elite women, where philosophes, aristocrats, and others discussed new ideas"
+        },
+        {
+          "id": "C",
+          "text": "were factories producing books"
+        },
+        {
+          "id": "D",
+          "text": "were religious schools run by the Jesuits"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Salons were key institutions of the public sphere.",
       "distractors": {}
     },
     {
-      "id": "u4-q08", "tier": "Exam level", "type": "mcq", "topic": "Enlightened Absolutism",
+      "id": "u4-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Enlightened Absolutism",
       "stem": "Catherine the Great's reign best illustrates the limits of enlightened absolutism because she",
       "choices": [
-        { "id": "A", "text": "corresponded with philosophes but strengthened nobles' control over serfs, especially after Pugachev's Rebellion" },
-        { "id": "B", "text": "abolished serfdom in Russia" },
-        { "id": "C", "text": "established a constitutional parliament" },
-        { "id": "D", "text": "rejected all Enlightenment ideas" }
+        {
+          "id": "A",
+          "text": "established a constitutional parliament"
+        },
+        {
+          "id": "B",
+          "text": "abolished serfdom in Russia"
+        },
+        {
+          "id": "C",
+          "text": "corresponded with philosophes but strengthened nobles' control over serfs, especially after Pugachev's Rebellion"
+        },
+        {
+          "id": "D",
+          "text": "rejected all Enlightenment ideas"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "She needed noble support and responded to rebellion by tightening control.",
-      "distractors": { "B": "Serfdom was abolished in 1861." }
+      "distractors": {
+        "B": "Serfdom was abolished in 1861."
+      }
     },
     {
-      "id": "u4-q09", "tier": "Exam level", "type": "mcq", "topic": "Enlightenment",
+      "id": "u4-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Enlightenment",
       "stem": "Mary Wollstonecraft's arguments in the 1790s are best understood as",
       "choices": [
-        { "id": "A", "text": "extending Enlightenment ideas about reason and rights to women, especially through education" },
-        { "id": "B", "text": "rejecting the Enlightenment entirely" },
-        { "id": "C", "text": "defending absolute monarchy" },
-        { "id": "D", "text": "supporting the restoration of feudalism" }
+        {
+          "id": "A",
+          "text": "supporting the restoration of feudalism"
+        },
+        {
+          "id": "B",
+          "text": "rejecting the Enlightenment entirely"
+        },
+        {
+          "id": "C",
+          "text": "defending absolute monarchy"
+        },
+        {
+          "id": "D",
+          "text": "extending Enlightenment ideas about reason and rights to women, especially through education"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "She argued women were equally capable of reason and deserved equal education.",
       "distractors": {}
     },
     {
-      "id": "u4-q10", "tier": "Exam level", "type": "mcq", "topic": "Religion in the 18th Century",
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Religion in the 18th Century",
       "stem": "Methodism and Pietism in the 18th century were best characterized by",
       "choices": [
-        { "id": "A", "text": "emphasis on personal faith, emotional religious experience, and moral discipline" },
-        { "id": "B", "text": "deism and rejection of revelation" },
-        { "id": "C", "text": "loyalty to the papacy" },
-        { "id": "D", "text": "scientific rationalism" }
+        {
+          "id": "A",
+          "text": "emphasis on personal faith, emotional religious experience, and moral discipline"
+        },
+        {
+          "id": "B",
+          "text": "deism and rejection of revelation"
+        },
+        {
+          "id": "C",
+          "text": "loyalty to the papacy"
+        },
+        {
+          "id": "D",
+          "text": "scientific rationalism"
+        }
       ],
       "answer": "A",
       "explanation": "These revival movements responded to formal, rationalist religion.",
       "distractors": {}
     },
     {
-      "id": "u4-q11", "tier": "Hardest", "type": "mcq", "topic": "Scientific Revolution",
+      "id": "u4-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Scientific Revolution",
       "stem": "Which best explains why the Scientific Revolution influenced the Enlightenment?",
       "choices": [
-        { "id": "A", "text": "The discovery of natural laws governing the physical world encouraged thinkers to seek rational laws governing society, politics, and economics." },
-        { "id": "B", "text": "Scientists insisted that political authority came from God." },
-        { "id": "C", "text": "The Scientific Revolution rejected observation." },
-        { "id": "D", "text": "Enlightenment thinkers opposed scientific methods." }
+        {
+          "id": "A",
+          "text": "The discovery of natural laws governing the physical world encouraged thinkers to seek rational laws governing society, politics, and economics."
+        },
+        {
+          "id": "B",
+          "text": "Scientists insisted that political authority came from God."
+        },
+        {
+          "id": "C",
+          "text": "The Scientific Revolution rejected observation."
+        },
+        {
+          "id": "D",
+          "text": "Enlightenment thinkers opposed scientific methods."
+        }
       ],
       "answer": "A",
       "explanation": "Newton's success inspired the belief that reason could reform society.",
       "distractors": {}
     },
     {
-      "id": "u4-q12", "tier": "Hardest", "type": "mcq", "topic": "Enlightenment",
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Enlightenment",
       "stem": "A key difference between Locke's and Rousseau's political thought is that",
       "choices": [
-        { "id": "A", "text": "Locke emphasized protecting individual natural rights, while Rousseau emphasized collective sovereignty through the general will, which could override individual preferences." },
-        { "id": "B", "text": "Locke supported absolute monarchy while Rousseau supported democracy." },
-        { "id": "C", "text": "Rousseau defended private property more strongly than Locke." },
-        { "id": "D", "text": "Both rejected the idea of a social contract." }
+        {
+          "id": "A",
+          "text": "Locke supported absolute monarchy while Rousseau supported democracy."
+        },
+        {
+          "id": "B",
+          "text": "Locke emphasized protecting individual natural rights, while Rousseau emphasized collective sovereignty through the general will, which could override individual preferences."
+        },
+        {
+          "id": "C",
+          "text": "Rousseau defended private property more strongly than Locke."
+        },
+        {
+          "id": "D",
+          "text": "Both rejected the idea of a social contract."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Rousseau's general will is collective; Locke's government protects individual rights.",
       "distractors": {}
     },
     {
-      "id": "u4-q13", "tier": "Hardest", "type": "mcq", "topic": "Enlightened Absolutism",
+      "id": "u4-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Enlightened Absolutism",
       "stem": "Joseph II of Austria abolished serfdom and decreed religious toleration, yet many of his reforms were reversed after his death. This outcome best illustrates",
       "choices": [
-        { "id": "A", "text": "the resistance of entrenched nobles and the church to reforms imposed from above" },
-        { "id": "B", "text": "popular support for serfdom among peasants" },
-        { "id": "C", "text": "the success of constitutional monarchy" },
-        { "id": "D", "text": "the influence of the French Revolution's radical phase" }
+        {
+          "id": "A",
+          "text": "the success of constitutional monarchy"
+        },
+        {
+          "id": "B",
+          "text": "popular support for serfdom among peasants"
+        },
+        {
+          "id": "C",
+          "text": "the resistance of entrenched nobles and the church to reforms imposed from above"
+        },
+        {
+          "id": "D",
+          "text": "the influence of the French Revolution's radical phase"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Reforms without elite buy-in proved fragile.",
       "distractors": {}
     },
     {
-      "id": "u4-q14", "tier": "Hardest", "type": "mcq", "topic": "Scientific Revolution",
+      "id": "u4-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Scientific Revolution",
       "stem": "The Catholic Church's 1633 trial of Galileo is best understood in the context of",
       "choices": [
-        { "id": "A", "text": "Counter-Reformation concern for doctrinal authority and the interpretation of Scripture" },
-        { "id": "B", "text": "the Church's universal acceptance of heliocentrism" },
-        { "id": "C", "text": "Protestant control of Rome" },
-        { "id": "D", "text": "the Enlightenment's critique of religion" }
+        {
+          "id": "A",
+          "text": "the Enlightenment's critique of religion"
+        },
+        {
+          "id": "B",
+          "text": "the Church's universal acceptance of heliocentrism"
+        },
+        {
+          "id": "C",
+          "text": "Protestant control of Rome"
+        },
+        {
+          "id": "D",
+          "text": "Counter-Reformation concern for doctrinal authority and the interpretation of Scripture"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "After Trent, the Church guarded its authority over interpretation.",
       "distractors": {}
     },
     {
-      "id": "u4-frq1", "tier": "Exam level", "type": "frq", "topic": "Enlightenment", "frqType": "Short-answer question (SAQ)",
+      "id": "u4-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Enlightenment",
+      "frqType": "Short-answer question (SAQ)",
       "prompt": "Answer (a), (b), and (c).",
       "parts": [
-        { "label": "a", "prompt": "Describe ONE way the Scientific Revolution changed how Europeans understood the natural world in the period 1540–1700.", "points": 1 },
-        { "label": "b", "prompt": "Explain ONE way Enlightenment thinkers challenged traditional political authority in the 18th century.", "points": 1 },
-        { "label": "c", "prompt": "Explain ONE way European rulers responded to Enlightenment ideas in the 18th century.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Describe ONE way the Scientific Revolution changed how Europeans understood the natural world in the period 1540–1700.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Explain ONE way Enlightenment thinkers challenged traditional political authority in the 18th century.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Explain ONE way European rulers responded to Enlightenment ideas in the 18th century.",
+          "points": 1
+        }
       ],
       "points": 3,
       "minutes": 13,
       "rubric": [
-        { "criterion": "(a)", "points": 1, "description": "E.g., heliocentrism replaced the geocentric model; Newton's universal laws; reliance on observation and experiment over ancient authority." },
-        { "criterion": "(b)", "points": 1, "description": "E.g., Locke's consent and right of revolution; Montesquieu's separation of powers; Rousseau's popular sovereignty; Voltaire's criticism of clerical power." },
-        { "criterion": "(c)", "points": 1, "description": "E.g., enlightened absolutists (Frederick II toleration, Joseph II abolishing serfdom, Catherine II's legal commission); censorship or suppression; limits after Pugachev." }
+        {
+          "criterion": "(a)",
+          "points": 1,
+          "description": "E.g., heliocentrism replaced the geocentric model; Newton's universal laws; reliance on observation and experiment over ancient authority."
+        },
+        {
+          "criterion": "(b)",
+          "points": 1,
+          "description": "E.g., Locke's consent and right of revolution; Montesquieu's separation of powers; Rousseau's popular sovereignty; Voltaire's criticism of clerical power."
+        },
+        {
+          "criterion": "(c)",
+          "points": 1,
+          "description": "E.g., enlightened absolutists (Frederick II toleration, Joseph II abolishing serfdom, Catherine II's legal commission); censorship or suppression; limits after Pugachev."
+        }
       ],
       "sampleResponse": "(a) Copernicus, Kepler, and Galileo replaced the long-held geocentric model with a heliocentric one, and Newton showed that the same laws of motion and gravitation governed both Earth and the heavens, encouraging Europeans to see nature as orderly and knowable through reason and observation.\n\n(b) John Locke argued that legitimate government rests on the consent of the governed and that people may overthrow rulers who violate their natural rights, directly challenging divine-right claims of absolute monarchs.\n\n(c) Joseph II of Austria responded by implementing reforms inspired by the Enlightenment, such as abolishing serfdom and granting religious toleration, while still ruling as an absolute monarch."
     }

@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "15"
+          "text": "24"
         },
         {
           "id": "B",
@@ -110,10 +110,10 @@
         },
         {
           "id": "D",
-          "text": "24"
+          "text": "15"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "15 images; some may be process or detail images.",
       "distractors": {}
     },
@@ -127,7 +127,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "60%"
+          "text": "50%"
         },
         {
           "id": "B",
@@ -135,14 +135,14 @@
         },
         {
           "id": "C",
-          "text": "50%"
+          "text": "60%"
         },
         {
           "id": "D",
           "text": "25%"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Selected Works is 40%.",
       "distractors": {}
     },
@@ -156,11 +156,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "How can collage and photography show the way a neighborhood changes when old buildings are replaced?"
+          "text": "What is art?"
         },
         {
           "id": "B",
-          "text": "What is art?"
+          "text": "How can collage and photography show the way a neighborhood changes when old buildings are replaced?"
         },
         {
           "id": "C",
@@ -171,7 +171,7 @@
           "text": "What is my favorite color?"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Specific idea plus approach, sustainable.",
       "distractors": {}
     },
@@ -214,11 +214,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "After critique showed the focal point was weak, I reworked the background to increase contrast around the figure"
+          "text": "I finished the piece and moved on"
         },
         {
           "id": "B",
-          "text": "I finished the piece and moved on"
+          "text": "After critique showed the focal point was weak, I reworked the background to increase contrast around the figure"
         },
         {
           "id": "C",
@@ -229,7 +229,7 @@
           "text": "I added my signature"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Change in response to feedback.",
       "distractors": {}
     },

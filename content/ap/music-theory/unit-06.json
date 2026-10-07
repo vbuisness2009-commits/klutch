@@ -99,7 +99,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "passing tone"
+          "text": "escape tone"
         },
         {
           "id": "B",
@@ -111,10 +111,10 @@
         },
         {
           "id": "D",
-          "text": "escape tone"
+          "text": "passing tone"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Step–step, same direction.",
       "distractors": {}
     },
@@ -128,7 +128,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "upper neighbor"
+          "text": "passing tone"
         },
         {
           "id": "B",
@@ -136,14 +136,14 @@
         },
         {
           "id": "C",
-          "text": "passing tone"
+          "text": "upper neighbor"
         },
         {
           "id": "D",
           "text": "anticipation"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Step away and back.",
       "distractors": {}
     },
@@ -157,7 +157,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "suspension"
+          "text": "appoggiatura"
         },
         {
           "id": "B",
@@ -169,10 +169,10 @@
         },
         {
           "id": "D",
-          "text": "appoggiatura"
+          "text": "suspension"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Definition.",
       "distractors": {}
     },
@@ -215,11 +215,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "4–3 suspension"
+          "text": "7–6 suspension"
         },
         {
           "id": "B",
-          "text": "7–6 suspension"
+          "text": "4–3 suspension"
         },
         {
           "id": "C",
@@ -230,7 +230,7 @@
           "text": "2–3 suspension"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "F is a 4th, E a 3rd above C.",
       "distractors": {}
     },
@@ -244,7 +244,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "appoggiatura"
+          "text": "passing tone"
         },
         {
           "id": "B",
@@ -252,14 +252,14 @@
         },
         {
           "id": "C",
-          "text": "passing tone"
+          "text": "appoggiatura"
         },
         {
           "id": "D",
           "text": "neighbor tone"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Leap in, step out.",
       "distractors": {}
     },
@@ -273,7 +273,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "escape tone"
+          "text": "pedal point"
         },
         {
           "id": "B",
@@ -285,10 +285,10 @@
         },
         {
           "id": "D",
-          "text": "pedal point"
+          "text": "escape tone"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Échappée.",
       "distractors": {}
     },
@@ -302,11 +302,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "anticipation"
+          "text": "suspension"
         },
         {
           "id": "B",
-          "text": "suspension"
+          "text": "anticipation"
         },
         {
           "id": "C",
@@ -317,7 +317,7 @@
           "text": "neighbor tone"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Arrives early.",
       "distractors": {}
     },
@@ -360,7 +360,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "pedal point"
+          "text": "suspension"
         },
         {
           "id": "B",
@@ -368,14 +368,14 @@
         },
         {
           "id": "C",
-          "text": "suspension"
+          "text": "pedal point"
         },
         {
           "id": "D",
           "text": "retardation"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Definition.",
       "distractors": {}
     },
@@ -389,7 +389,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "retardation"
+          "text": "appoggiatura"
         },
         {
           "id": "B",
@@ -397,14 +397,14 @@
         },
         {
           "id": "C",
-          "text": "appoggiatura"
+          "text": "retardation"
         },
         {
           "id": "D",
           "text": "escape tone"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Upward resolution.",
       "distractors": {}
     },
@@ -447,7 +447,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "melodic inversion"
+          "text": "sequence"
         },
         {
           "id": "B",
@@ -459,10 +459,10 @@
         },
         {
           "id": "D",
-          "text": "sequence"
+          "text": "melodic inversion"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Intervals upside down.",
       "distractors": {}
     },
@@ -476,11 +476,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "falls on a strong beat, creating stronger dissonance"
+          "text": "is approached by leap"
         },
         {
           "id": "B",
-          "text": "is approached by leap"
+          "text": "falls on a strong beat, creating stronger dissonance"
         },
         {
           "id": "C",
@@ -491,7 +491,7 @@
           "text": "is held from the previous chord"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Metric placement.",
       "distractors": {}
     },

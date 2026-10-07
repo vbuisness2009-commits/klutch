@@ -122,7 +122,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "assimilate Native Americans by dividing reservation land into individual allotments"
+          "text": "relocate Native Americans to cities in the East"
         },
         {
           "id": "B",
@@ -130,14 +130,14 @@
         },
         {
           "id": "C",
-          "text": "relocate Native Americans to cities in the East"
+          "text": "assimilate Native Americans by dividing reservation land into individual allotments"
         },
         {
           "id": "D",
           "text": "grant Native Americans full citizenship immediately"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "It aimed to turn Native families into individual farmers; land deemed surplus was sold to settlers.",
       "distractors": {
         "D": "Citizenship was tied to accepting allotments, and full citizenship came in 1924."
@@ -152,7 +152,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "vertical integration"
+          "text": "a political machine"
         },
         {
           "id": "B",
@@ -164,10 +164,10 @@
         },
         {
           "id": "D",
-          "text": "a political machine"
+          "text": "vertical integration"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "He controlled each stage of steel production.",
       "distractors": {
         "B": "That's buying competitors in the same stage, like Standard Oil."
@@ -182,7 +182,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "was the first federal law to ban immigration based on nationality"
+          "text": "ended all immigration to the United States"
         },
         {
           "id": "B",
@@ -194,10 +194,10 @@
         },
         {
           "id": "D",
-          "text": "ended all immigration to the United States"
+          "text": "was the first federal law to ban immigration based on nationality"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "It reflected nativism and labor competition fears on the West Coast.",
       "distractors": {
         "B": "The railroad was completed in 1869, before the act."
@@ -212,7 +212,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "racially segregated facilities were constitutional if they were \"separate but equal\""
+          "text": "poll taxes violated the Fifteenth Amendment"
         },
         {
           "id": "B",
@@ -220,14 +220,14 @@
         },
         {
           "id": "C",
-          "text": "poll taxes violated the Fifteenth Amendment"
+          "text": "racially segregated facilities were constitutional if they were \"separate but equal\""
         },
         {
           "id": "D",
           "text": "Congress could regulate interstate railroads"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The decision upheld Louisiana's segregated railcar law and legitimized Jim Crow.",
       "distractors": {
         "B": "That's Brown v. Board (1954)."
@@ -243,11 +243,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "indebted farmers in the South and West"
+          "text": "industrialists in the Northeast"
         },
         {
           "id": "B",
-          "text": "industrialists in the Northeast"
+          "text": "indebted farmers in the South and West"
         },
         {
           "id": "C",
@@ -258,7 +258,7 @@
           "text": "urban political machines"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The Populists represented farmers squeezed by falling prices, debt, and railroad rates; free silver would inflate the currency and ease debts.",
       "distractors": {
         "C": "Bankers wanted to keep the gold standard."
@@ -303,11 +303,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "government should not interfere with economic competition, since success reflected natural fitness"
+          "text": "the government should own major industries"
         },
         {
           "id": "B",
-          "text": "the government should own major industries"
+          "text": "government should not interfere with economic competition, since success reflected natural fitness"
         },
         {
           "id": "C",
@@ -318,7 +318,7 @@
           "text": "inequality was caused by unfair laws that should be reformed"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The idea justified laissez-faire and great wealth as the outcome of natural selection in society.",
       "distractors": {
         "D": "That's closer to Progressive or Populist reasoning."
@@ -333,7 +333,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "provided jobs, assistance, and services in exchange for votes"
+          "text": "eliminated corruption in city government"
         },
         {
           "id": "B",
@@ -341,17 +341,17 @@
         },
         {
           "id": "C",
-          "text": "eliminated corruption in city government"
+          "text": "provided jobs, assistance, and services in exchange for votes"
         },
         {
           "id": "D",
           "text": "were led by Progressive reformers"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Machines filled gaps in social services in return for political loyalty, while profiting from graft.",
       "distractors": {
-        "C": "Machines were notoriously corrupt."
+        "A": "Machines were notoriously corrupt."
       }
     },
     {
@@ -363,7 +363,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "applied more often against labor unions than against business trusts"
+          "text": "used to establish a minimum wage"
         },
         {
           "id": "B",
@@ -375,10 +375,10 @@
         },
         {
           "id": "D",
-          "text": "used to establish a minimum wage"
+          "text": "applied more often against labor unions than against business trusts"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Courts read it narrowly against business (as in U.S. v. E.C. Knight, 1895) but used it against strikes as restraints of trade.",
       "distractors": {
         "B": "Standard Oil was broken up in 1911."
@@ -424,7 +424,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Progressive Era efforts to address urban poverty through social research and government reform"
+          "text": "Laissez-faire opposition to government programs"
         },
         {
           "id": "B",
@@ -432,14 +432,14 @@
         },
         {
           "id": "C",
-          "text": "Laissez-faire opposition to government programs"
+          "text": "Progressive Era efforts to address urban poverty through social research and government reform"
         },
         {
           "id": "D",
           "text": "The Second Great Awakening's revivals"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Settlement workers studied urban conditions and pushed for laws on child labor, sanitation, and housing, laying groundwork for Progressivism.",
       "distractors": {
         "B": "Settlement houses helped immigrants."
@@ -454,7 +454,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "It argued that the wealthy had a moral duty to use their fortunes to benefit society."
+          "text": "It supported labor unions as the best path to fairness."
         },
         {
           "id": "B",
@@ -466,10 +466,10 @@
         },
         {
           "id": "D",
-          "text": "It supported labor unions as the best path to fairness."
+          "text": "It argued that the wealthy had a moral duty to use their fortunes to benefit society."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Carnegie accepted that competition produced great fortunes but insisted they be given away through philanthropy, such as libraries and universities.",
       "distractors": {
         "B": "Carnegie favored private philanthropy, not government action."
@@ -514,11 +514,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Expanding the money supply would raise crop prices and make debts easier to repay."
+          "text": "Silver mining was the main source of income for most farmers."
         },
         {
           "id": "B",
-          "text": "Silver mining was the main source of income for most farmers."
+          "text": "Expanding the money supply would raise crop prices and make debts easier to repay."
         },
         {
           "id": "C",
@@ -529,7 +529,7 @@
           "text": "It would strengthen the gold standard."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Deflation under the gold standard meant farmers repaid loans with dollars worth more than those they borrowed. Inflation would reverse that.",
       "distractors": {
         "C": "Farmers wanted higher prices."

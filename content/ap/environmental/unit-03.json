@@ -45,229 +45,585 @@
     "cramSheet": "**Strategies:** r = many, fast, no care · K = few, slow, care · specialist vs. generalist\n\n**Survivorship:** I old-age deaths · II constant · III early deaths\n\n**Growth:** J exponential · S logistic → K · overshoot → dieback\n\n**Factors:** density-dependent (food, disease) · independent (weather, fire)\n\n**Math:** r% = (CBR − CDR)/10 · Δ = (B + I) − (D + E) · t₂ = 70/r%\n\n**TFR:** replacement ≈ 2.1 · ↓ with education, family planning\n\n**DTM:** 1 high/high · 2 deaths ↓ · 3 births ↓ · 4 low/low"
   },
   "vocab": [
-    { "term": "Specialist species", "definition": "A species with a narrow niche and specific needs." },
-    { "term": "Generalist species", "definition": "A species with a broad niche that tolerates varied conditions." },
-    { "term": "r-selected species", "definition": "Species with many offspring, little parental care, and rapid maturity." },
-    { "term": "K-selected species", "definition": "Species with few offspring, extensive parental care, and slow maturity." },
-    { "term": "Survivorship curve", "definition": "A graph showing the proportion of a cohort surviving at each age." },
-    { "term": "Carrying capacity (K)", "definition": "The maximum population an environment can sustain over time." },
-    { "term": "Overshoot", "definition": "When a population temporarily exceeds carrying capacity, often followed by dieback." },
-    { "term": "Density-dependent factor", "definition": "A limiting factor whose effect increases with population density." },
-    { "term": "Total fertility rate", "definition": "Average number of children born per woman during her lifetime." },
-    { "term": "Replacement-level fertility", "definition": "The TFR needed to replace parents, about 2.1 in developed countries." },
-    { "term": "Rule of 70", "definition": "Doubling time in years ≈ 70 ÷ percent growth rate." },
-    { "term": "Population momentum", "definition": "Continued growth after fertility falls, due to a large young population." }
+    {
+      "term": "Specialist species",
+      "definition": "A species with a narrow niche and specific needs."
+    },
+    {
+      "term": "Generalist species",
+      "definition": "A species with a broad niche that tolerates varied conditions."
+    },
+    {
+      "term": "r-selected species",
+      "definition": "Species with many offspring, little parental care, and rapid maturity."
+    },
+    {
+      "term": "K-selected species",
+      "definition": "Species with few offspring, extensive parental care, and slow maturity."
+    },
+    {
+      "term": "Survivorship curve",
+      "definition": "A graph showing the proportion of a cohort surviving at each age."
+    },
+    {
+      "term": "Carrying capacity (K)",
+      "definition": "The maximum population an environment can sustain over time."
+    },
+    {
+      "term": "Overshoot",
+      "definition": "When a population temporarily exceeds carrying capacity, often followed by dieback."
+    },
+    {
+      "term": "Density-dependent factor",
+      "definition": "A limiting factor whose effect increases with population density."
+    },
+    {
+      "term": "Total fertility rate",
+      "definition": "Average number of children born per woman during her lifetime."
+    },
+    {
+      "term": "Replacement-level fertility",
+      "definition": "The TFR needed to replace parents, about 2.1 in developed countries."
+    },
+    {
+      "term": "Rule of 70",
+      "definition": "Doubling time in years ≈ 70 ÷ percent growth rate."
+    },
+    {
+      "term": "Population momentum",
+      "definition": "Continued growth after fertility falls, due to a large young population."
+    }
   ],
   "practice": [
     {
-      "id": "u3-q01", "tier": "Intro", "type": "mcq", "topic": "3.3 Survivorship Curves", "skill": "2. Visual Representations",
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.3 Survivorship Curves",
+      "skill": "2. Visual Representations",
       "stem": "A sea turtle lays about 100 eggs per nest, and most hatchlings are eaten within days. Which survivorship curve fits this species?",
       "choices": [
-        { "id": "A", "text": "Type I" },
-        { "id": "B", "text": "Type II" },
-        { "id": "C", "text": "Type III" },
-        { "id": "D", "text": "Logistic" }
+        {
+          "id": "A",
+          "text": "Type I"
+        },
+        {
+          "id": "B",
+          "text": "Type III"
+        },
+        {
+          "id": "C",
+          "text": "Type II"
+        },
+        {
+          "id": "D",
+          "text": "Logistic"
+        }
       ],
-      "answer": "C",
+      "answer": "B",
       "explanation": "High mortality early in life, with few survivors reaching adulthood, is Type III.",
-      "distractors": { "D": "Describes population growth, not survivorship." }
+      "distractors": {
+        "D": "Describes population growth, not survivorship."
+      }
     },
     {
-      "id": "u3-q02", "tier": "Intro", "type": "mcq", "topic": "3.8 Human Population Dynamics", "skill": "6. Mathematical Routines",
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.8 Human Population Dynamics",
+      "skill": "6. Mathematical Routines",
       "stem": "A country's population grows at 2% per year. Its approximate doubling time is",
       "choices": [
-        { "id": "A", "text": "14 years" },
-        { "id": "B", "text": "35 years" },
-        { "id": "C", "text": "70 years" },
-        { "id": "D", "text": "140 years" }
+        {
+          "id": "A",
+          "text": "14 years"
+        },
+        {
+          "id": "B",
+          "text": "35 years"
+        },
+        {
+          "id": "C",
+          "text": "70 years"
+        },
+        {
+          "id": "D",
+          "text": "140 years"
+        }
       ],
       "answer": "B",
       "explanation": "70 ÷ 2 = 35 years.",
-      "distractors": { "D": "Multiplies instead of dividing." }
+      "distractors": {
+        "D": "Multiplies instead of dividing."
+      }
     },
     {
-      "id": "u3-q03", "tier": "Intro", "type": "mcq", "topic": "3.1 Generalist and Specialist Species", "skill": "1. Concept Explanation",
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.1 Generalist and Specialist Species",
+      "skill": "1. Concept Explanation",
       "stem": "Which species is most likely to be harmed by the loss of a single plant species?",
       "choices": [
-        { "id": "A", "text": "A raccoon that eats fruit, insects, eggs, and garbage" },
-        { "id": "B", "text": "A caterpillar that feeds only on one species of milkweed" },
-        { "id": "C", "text": "A coyote that hunts small mammals and scavenges" },
-        { "id": "D", "text": "A crow that eats seeds, insects, and carrion" }
+        {
+          "id": "A",
+          "text": "A caterpillar that feeds only on one species of milkweed"
+        },
+        {
+          "id": "B",
+          "text": "A raccoon that eats fruit, insects, eggs, and garbage"
+        },
+        {
+          "id": "C",
+          "text": "A coyote that hunts small mammals and scavenges"
+        },
+        {
+          "id": "D",
+          "text": "A crow that eats seeds, insects, and carrion"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "A specialist with a single food source cannot switch when that resource disappears.",
       "distractors": {}
     },
     {
-      "id": "u3-q04", "tier": "Intro", "type": "mcq", "topic": "3.6 Age Structure Diagrams", "skill": "2. Visual Representations",
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.6 Age Structure Diagrams",
+      "skill": "2. Visual Representations",
       "stem": "An age-structure diagram with a very wide base that narrows sharply toward the top indicates a population that is",
       "choices": [
-        { "id": "A", "text": "growing rapidly" },
-        { "id": "B", "text": "stable" },
-        { "id": "C", "text": "declining" },
-        { "id": "D", "text": "mostly elderly" }
+        {
+          "id": "A",
+          "text": "declining"
+        },
+        {
+          "id": "B",
+          "text": "stable"
+        },
+        {
+          "id": "C",
+          "text": "growing rapidly"
+        },
+        {
+          "id": "D",
+          "text": "mostly elderly"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "A large proportion of children means many future parents; growth will continue.",
       "distractors": {}
     },
     {
-      "id": "u3-q05", "tier": "Exam level", "type": "mcq", "topic": "3.8 Human Population Dynamics", "skill": "6. Mathematical Routines",
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.8 Human Population Dynamics",
+      "skill": "6. Mathematical Routines",
       "stem": "A country has a crude birth rate of 30 per 1,000 and a crude death rate of 10 per 1,000, with no net migration. What are its growth rate and doubling time?",
       "choices": [
-        { "id": "A", "text": "20%; 3.5 years" },
-        { "id": "B", "text": "2.0%; 35 years" },
-        { "id": "C", "text": "0.2%; 350 years" },
-        { "id": "D", "text": "4.0%; 17.5 years" }
+        {
+          "id": "A",
+          "text": "20%; 3.5 years"
+        },
+        {
+          "id": "B",
+          "text": "4.0%; 17.5 years"
+        },
+        {
+          "id": "C",
+          "text": "0.2%; 350 years"
+        },
+        {
+          "id": "D",
+          "text": "2.0%; 35 years"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "(30 − 10)/10 = 2.0%; 70/2.0 = 35 years.",
-      "distractors": { "A": "Forgets that rates are per 1,000, not per 100." }
+      "distractors": {
+        "A": "Forgets that rates are per 1,000, not per 100."
+      }
     },
     {
-      "id": "u3-q06", "tier": "Exam level", "type": "mcq", "topic": "3.4 Carrying Capacity", "skill": "2. Visual Representations",
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.4 Carrying Capacity",
+      "skill": "2. Visual Representations",
       "stimulus": "Twenty-five deer are introduced to an island with no predators. The population grows to 1,800 in 20 years, then crashes to 50 within three years as vegetation is stripped.",
       "stem": "This pattern best illustrates",
       "choices": [
-        { "id": "A", "text": "logistic growth leveling at carrying capacity" },
-        { "id": "B", "text": "overshoot of carrying capacity followed by dieback" },
-        { "id": "C", "text": "a Type II survivorship curve" },
-        { "id": "D", "text": "density-independent regulation by weather" }
-      ],
-      "answer": "B",
-      "explanation": "The population exceeded what the vegetation could sustain, degraded its resource base, and collapsed.",
-      "distractors": { "A": "Logistic growth levels off rather than crashing." }
-    },
-    {
-      "id": "u3-q07", "tier": "Exam level", "type": "mcq", "topic": "3.7 Total Fertility Rate", "skill": "1. Concept Explanation",
-      "stem": "Replacement-level fertility is higher in countries with high infant mortality than in countries with low infant mortality because",
-      "choices": [
-        { "id": "A", "text": "more children must be born to ensure two survive to reproductive age" },
-        { "id": "B", "text": "families in those countries prefer larger families" },
-        { "id": "C", "text": "immigration is higher in those countries" },
-        { "id": "D", "text": "life expectancy is longer in those countries" }
+        {
+          "id": "A",
+          "text": "overshoot of carrying capacity followed by dieback"
+        },
+        {
+          "id": "B",
+          "text": "logistic growth leveling at carrying capacity"
+        },
+        {
+          "id": "C",
+          "text": "a Type II survivorship curve"
+        },
+        {
+          "id": "D",
+          "text": "density-independent regulation by weather"
+        }
       ],
       "answer": "A",
-      "explanation": "Replacement means each couple is replaced by two adults; higher child mortality raises the births needed.",
-      "distractors": { "B": "Preference affects actual TFR, not replacement level." }
+      "explanation": "The population exceeded what the vegetation could sustain, degraded its resource base, and collapsed.",
+      "distractors": {
+        "B": "Logistic growth levels off rather than crashing."
+      }
     },
     {
-      "id": "u3-q08", "tier": "Exam level", "type": "mcq", "topic": "3.9 Demographic Transition", "skill": "1. Concept Explanation",
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.7 Total Fertility Rate",
+      "skill": "1. Concept Explanation",
+      "stem": "Replacement-level fertility is higher in countries with high infant mortality than in countries with low infant mortality because",
+      "choices": [
+        {
+          "id": "A",
+          "text": "immigration is higher in those countries"
+        },
+        {
+          "id": "B",
+          "text": "families in those countries prefer larger families"
+        },
+        {
+          "id": "C",
+          "text": "more children must be born to ensure two survive to reproductive age"
+        },
+        {
+          "id": "D",
+          "text": "life expectancy is longer in those countries"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Replacement means each couple is replaced by two adults; higher child mortality raises the births needed.",
+      "distractors": {
+        "B": "Preference affects actual TFR, not replacement level."
+      }
+    },
+    {
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.9 Demographic Transition",
+      "skill": "1. Concept Explanation",
       "stem": "A country's death rate has fallen sharply due to improved sanitation and vaccines, while its birth rate remains high. It is in which stage of the demographic transition?",
       "choices": [
-        { "id": "A", "text": "Stage 1" },
-        { "id": "B", "text": "Stage 2" },
-        { "id": "C", "text": "Stage 3" },
-        { "id": "D", "text": "Stage 4" }
+        {
+          "id": "A",
+          "text": "Stage 1"
+        },
+        {
+          "id": "B",
+          "text": "Stage 4"
+        },
+        {
+          "id": "C",
+          "text": "Stage 3"
+        },
+        {
+          "id": "D",
+          "text": "Stage 2"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Stage 2: falling death rates with high birth rates produce the fastest growth.",
-      "distractors": { "C": "Stage 3 begins when birth rates start falling." }
+      "distractors": {
+        "C": "Stage 3 begins when birth rates start falling."
+      }
     },
     {
-      "id": "u3-q09", "tier": "Exam level", "type": "mcq", "topic": "3.8 Human Population Dynamics", "skill": "6. Mathematical Routines",
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.8 Human Population Dynamics",
+      "skill": "6. Mathematical Routines",
       "stem": "A town of 50,000 people has 800 births, 500 deaths, 300 immigrants, and 100 emigrants in one year. What is its percent growth that year?",
       "choices": [
-        { "id": "A", "text": "0.6%" },
-        { "id": "B", "text": "1.0%" },
-        { "id": "C", "text": "1.4%" },
-        { "id": "D", "text": "3.4%" }
+        {
+          "id": "A",
+          "text": "0.6%"
+        },
+        {
+          "id": "B",
+          "text": "1.0%"
+        },
+        {
+          "id": "C",
+          "text": "1.4%"
+        },
+        {
+          "id": "D",
+          "text": "3.4%"
+        }
       ],
       "answer": "B",
       "explanation": "(800 + 300) − (500 + 100) = 500; 500/50,000 × 100 = 1.0%.",
-      "distractors": { "A": "Ignores migration.", "D": "Adds all four values." }
+      "distractors": {
+        "A": "Ignores migration.",
+        "D": "Adds all four values."
+      }
     },
     {
-      "id": "u3-q10", "tier": "Exam level", "type": "mcq", "topic": "3.7 Total Fertility Rate", "skill": "7. Environmental Solutions",
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.7 Total Fertility Rate",
+      "skill": "7. Environmental Solutions",
       "stem": "Which policy has been most consistently associated with a decline in total fertility rate?",
       "choices": [
-        { "id": "A", "text": "Increasing educational opportunities for girls and women" },
-        { "id": "B", "text": "Providing tax credits for each additional child" },
-        { "id": "C", "text": "Lowering the minimum age of marriage" },
-        { "id": "D", "text": "Reducing access to health care" }
+        {
+          "id": "A",
+          "text": "Increasing educational opportunities for girls and women"
+        },
+        {
+          "id": "B",
+          "text": "Providing tax credits for each additional child"
+        },
+        {
+          "id": "C",
+          "text": "Lowering the minimum age of marriage"
+        },
+        {
+          "id": "D",
+          "text": "Reducing access to health care"
+        }
       ],
       "answer": "A",
       "explanation": "Education delays marriage, increases workforce participation, and improves knowledge of family planning.",
-      "distractors": { "B": "A pronatalist policy." }
+      "distractors": {
+        "B": "A pronatalist policy."
+      }
     },
     {
-      "id": "u3-q11", "tier": "Hardest", "type": "mcq", "topic": "3.6 Age Structure Diagrams", "skill": "1. Concept Explanation",
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.6 Age Structure Diagrams",
+      "skill": "1. Concept Explanation",
       "stem": "A country's TFR fell to 2.1 ten years ago, but its population is projected to grow for another 40 years. Which explains this?",
       "choices": [
-        { "id": "A", "text": "A large cohort born when TFR was high is now entering reproductive age, so total births stay high even at replacement fertility." },
-        { "id": "B", "text": "Death rates are rising." },
-        { "id": "C", "text": "TFR does not affect population size." },
-        { "id": "D", "text": "Emigration is increasing." }
+        {
+          "id": "A",
+          "text": "TFR does not affect population size."
+        },
+        {
+          "id": "B",
+          "text": "Death rates are rising."
+        },
+        {
+          "id": "C",
+          "text": "A large cohort born when TFR was high is now entering reproductive age, so total births stay high even at replacement fertility."
+        },
+        {
+          "id": "D",
+          "text": "Emigration is increasing."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Population momentum: many parents × 2.1 children each still yields many births.",
       "distractors": {}
     },
     {
-      "id": "u3-q12", "tier": "Hardest", "type": "mcq", "topic": "3.6 Age Structure Diagrams", "skill": "7. Environmental Solutions",
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.6 Age Structure Diagrams",
+      "skill": "7. Environmental Solutions",
       "stimulus": "Country P: 13% of the population is under 15 and 29% is over 65. TFR is 1.3.",
       "stem": "Which challenge is Country P most likely to face?",
       "choices": [
-        { "id": "A", "text": "A shrinking workforce supporting a growing number of retirees" },
-        { "id": "B", "text": "A shortage of schools for a rapidly growing number of children" },
-        { "id": "C", "text": "Rapid population growth straining food supply" },
-        { "id": "D", "text": "A high infant mortality rate" }
+        {
+          "id": "A",
+          "text": "A high infant mortality rate"
+        },
+        {
+          "id": "B",
+          "text": "A shortage of schools for a rapidly growing number of children"
+        },
+        {
+          "id": "C",
+          "text": "Rapid population growth straining food supply"
+        },
+        {
+          "id": "D",
+          "text": "A shrinking workforce supporting a growing number of retirees"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "A narrow base and large elderly share mean fewer working-age people per retiree, stressing pensions and health care.",
-      "distractors": { "B": "Describes a pyramid-shaped population." }
+      "distractors": {
+        "B": "Describes a pyramid-shaped population."
+      }
     },
     {
-      "id": "u3-q13", "tier": "Hardest", "type": "mcq", "topic": "3.5 Population Growth and Resource Availability", "skill": "1. Concept Explanation",
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.5 Population Growth and Resource Availability",
+      "skill": "1. Concept Explanation",
       "stem": "Which factor would limit a rabbit population regardless of its density?",
       "choices": [
-        { "id": "A", "text": "A viral disease spread by contact" },
-        { "id": "B", "text": "Competition for burrow sites" },
-        { "id": "C", "text": "An unusually late spring frost that kills young rabbits" },
-        { "id": "D", "text": "Increased predation by foxes attracted to abundant prey" }
+        {
+          "id": "A",
+          "text": "A viral disease spread by contact"
+        },
+        {
+          "id": "B",
+          "text": "Competition for burrow sites"
+        },
+        {
+          "id": "C",
+          "text": "An unusually late spring frost that kills young rabbits"
+        },
+        {
+          "id": "D",
+          "text": "Increased predation by foxes attracted to abundant prey"
+        }
       ],
       "answer": "C",
       "explanation": "Weather events are density-independent: they kill a similar proportion whatever the population size.",
-      "distractors": { "A": "Disease spreads faster at high density." }
+      "distractors": {
+        "A": "Disease spreads faster at high density."
+      }
     },
     {
-      "id": "u3-q14", "tier": "Hardest", "type": "mcq", "topic": "3.8 Human Population Dynamics", "skill": "6. Mathematical Routines",
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.8 Human Population Dynamics",
+      "skill": "6. Mathematical Routines",
       "stem": "A country of 8.0 million people grows at a constant 3.5% per year. Approximately what will its population be in 40 years?",
       "choices": [
-        { "id": "A", "text": "16 million" },
-        { "id": "B", "text": "19 million" },
-        { "id": "C", "text": "32 million" },
-        { "id": "D", "text": "64 million" }
+        {
+          "id": "A",
+          "text": "16 million"
+        },
+        {
+          "id": "B",
+          "text": "19 million"
+        },
+        {
+          "id": "C",
+          "text": "32 million"
+        },
+        {
+          "id": "D",
+          "text": "64 million"
+        }
       ],
       "answer": "C",
       "explanation": "Doubling time = 70/3.5 = 20 years; 40 years = 2 doublings: 8 → 16 → 32 million.",
-      "distractors": { "A": "One doubling only.", "B": "Linear growth: 8 × (1 + 0.035 × 40)." }
+      "distractors": {
+        "A": "One doubling only.",
+        "B": "Linear growth: 8 × (1 + 0.035 × 40)."
+      }
     },
     {
-      "id": "u3-frq1", "tier": "Hardest", "type": "frq", "topic": "3.8 Human Population Dynamics", "frqType": "Q3 Analyze an Environmental Problem and Propose a Solution Doing Calculations",
+      "id": "u3-frq1",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "3.8 Human Population Dynamics",
+      "frqType": "Q3 Analyze an Environmental Problem and Propose a Solution Doing Calculations",
       "prompt": "Country Z had a population of 40 million in 2020. Its crude birth rate is 28 per 1,000, its crude death rate is 8 per 1,000, and net migration is zero. About 42% of its population is under age 15. Most of its population works in agriculture, and its cities are growing quickly.",
       "parts": [
-        { "label": "a", "prompt": "Calculate Country Z's annual growth rate as a percent. Show your work.", "points": 2 },
-        { "label": "b", "prompt": "Calculate the doubling time of the population. Show your work.", "points": 1 },
-        { "label": "c", "prompt": "Assuming the growth rate stays constant, calculate the population in 2090. Show your work.", "points": 1 },
-        { "label": "d", "prompt": "Identify the stage of the demographic transition Country Z is most likely in, and justify your answer with the data.", "points": 2 },
-        { "label": "e", "prompt": "Describe the shape of Country Z's age-structure diagram.", "points": 1 },
-        { "label": "f", "prompt": "Propose one strategy that would reduce Country Z's total fertility rate, and explain how it would work.", "points": 2 },
-        { "label": "g", "prompt": "Describe one environmental problem likely to result from rapid urban growth in Country Z.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Calculate Country Z's annual growth rate as a percent. Show your work.",
+          "points": 2
+        },
+        {
+          "label": "b",
+          "prompt": "Calculate the doubling time of the population. Show your work.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Assuming the growth rate stays constant, calculate the population in 2090. Show your work.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Identify the stage of the demographic transition Country Z is most likely in, and justify your answer with the data.",
+          "points": 2
+        },
+        {
+          "label": "e",
+          "prompt": "Describe the shape of Country Z's age-structure diagram.",
+          "points": 1
+        },
+        {
+          "label": "f",
+          "prompt": "Propose one strategy that would reduce Country Z's total fertility rate, and explain how it would work.",
+          "points": 2
+        },
+        {
+          "label": "g",
+          "prompt": "Describe one environmental problem likely to result from rapid urban growth in Country Z.",
+          "points": 1
+        }
       ],
       "points": 10,
       "minutes": 23,
       "rubric": [
-        { "criterion": "a1: Setup", "points": 1, "description": "(28 − 8)/1,000 × 100, or (28 − 8)/10." },
-        { "criterion": "a2: Answer", "points": 1, "description": "2.0% per year." },
-        { "criterion": "b: Doubling time", "points": 1, "description": "70/2.0 = 35 years (setup shown)." },
-        { "criterion": "c: Projection", "points": 1, "description": "70 years = 2 doublings: 40 → 80 → 160 million (work shown)." },
-        { "criterion": "d1: Stage", "points": 1, "description": "Stage 2." },
-        { "criterion": "d2: Justification", "points": 1, "description": "Death rate is low (8) but birth rate remains high (28), producing rapid growth." },
-        { "criterion": "e: Shape", "points": 1, "description": "Pyramid: wide base of young people narrowing toward older ages." },
-        { "criterion": "f1: Strategy", "points": 1, "description": "E.g., expand girls' education, provide access to contraception, improve child health care, offer economic opportunities for women." },
-        { "criterion": "f2: Mechanism", "points": 1, "description": "E.g., education delays marriage and first births and increases women's economic opportunities, lowering desired family size." },
-        { "criterion": "g: Urban problem", "points": 1, "description": "E.g., air pollution from traffic and industry, inadequate sewage treatment contaminating water, loss of farmland and habitat to sprawl, urban heat island." }
+        {
+          "criterion": "a1: Setup",
+          "points": 1,
+          "description": "(28 − 8)/1,000 × 100, or (28 − 8)/10."
+        },
+        {
+          "criterion": "a2: Answer",
+          "points": 1,
+          "description": "2.0% per year."
+        },
+        {
+          "criterion": "b: Doubling time",
+          "points": 1,
+          "description": "70/2.0 = 35 years (setup shown)."
+        },
+        {
+          "criterion": "c: Projection",
+          "points": 1,
+          "description": "70 years = 2 doublings: 40 → 80 → 160 million (work shown)."
+        },
+        {
+          "criterion": "d1: Stage",
+          "points": 1,
+          "description": "Stage 2."
+        },
+        {
+          "criterion": "d2: Justification",
+          "points": 1,
+          "description": "Death rate is low (8) but birth rate remains high (28), producing rapid growth."
+        },
+        {
+          "criterion": "e: Shape",
+          "points": 1,
+          "description": "Pyramid: wide base of young people narrowing toward older ages."
+        },
+        {
+          "criterion": "f1: Strategy",
+          "points": 1,
+          "description": "E.g., expand girls' education, provide access to contraception, improve child health care, offer economic opportunities for women."
+        },
+        {
+          "criterion": "f2: Mechanism",
+          "points": 1,
+          "description": "E.g., education delays marriage and first births and increases women's economic opportunities, lowering desired family size."
+        },
+        {
+          "criterion": "g: Urban problem",
+          "points": 1,
+          "description": "E.g., air pollution from traffic and industry, inadequate sewage treatment contaminating water, loss of farmland and habitat to sprawl, urban heat island."
+        }
       ],
       "sampleResponse": "(a) Growth rate = (28 − 8)/1,000 = 20/1,000 = 0.020 = 2.0% per year.\n\n(b) Doubling time = 70 ÷ 2.0 = 35 years.\n\n(c) 2020 to 2090 is 70 years, or 70/35 = 2 doublings. 40 million × 2 × 2 = 160 million.\n\n(d) Stage 2. The death rate (8 per 1,000) is already low, but the birth rate (28 per 1,000) remains high, so the population grows rapidly, as in Stage 2.\n\n(e) A pyramid with a wide base, because 42% of the population is under 15, narrowing toward the older age groups.\n\n(f) Expand secondary education for girls. Women who stay in school longer tend to marry later, start families later, and have more job opportunities, so they choose to have fewer children.\n\n(g) Rapidly growing cities may lack adequate sewage treatment, so untreated waste enters rivers, contaminating drinking water and spreading waterborne disease."
     }

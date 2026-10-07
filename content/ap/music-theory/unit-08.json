@@ -99,7 +99,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Dorian"
+          "text": "Mixolydian"
         },
         {
           "id": "B",
@@ -111,10 +111,10 @@
         },
         {
           "id": "D",
-          "text": "Mixolydian"
+          "text": "Dorian"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "D to D.",
       "distractors": {}
     },
@@ -157,7 +157,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "ternary form"
+          "text": "through-composed form"
         },
         {
           "id": "B",
@@ -169,10 +169,10 @@
         },
         {
           "id": "D",
-          "text": "through-composed form"
+          "text": "ternary form"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Definition.",
       "distractors": {}
     },
@@ -215,11 +215,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Phrygian"
+          "text": "Dorian"
         },
         {
           "id": "B",
-          "text": "Dorian"
+          "text": "Phrygian"
         },
         {
           "id": "C",
@@ -230,7 +230,7 @@
           "text": "Locrian"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Minor with lowered 2.",
       "distractors": {}
     },
@@ -244,7 +244,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "a raised fourth (B instead of B♭): Lydian"
+          "text": "a lowered third: Dorian"
         },
         {
           "id": "B",
@@ -252,14 +252,14 @@
         },
         {
           "id": "C",
-          "text": "a lowered third: Dorian"
+          "text": "a raised fourth (B instead of B♭): Lydian"
         },
         {
           "id": "D",
           "text": "a lowered second: Phrygian"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "B♮.",
       "distractors": {}
     },
@@ -273,11 +273,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "strophic"
+          "text": "through-composed"
         },
         {
           "id": "B",
-          "text": "through-composed"
+          "text": "strophic"
         },
         {
           "id": "C",
@@ -288,7 +288,7 @@
           "text": "sonata form"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Definition.",
       "distractors": {}
     },
@@ -302,7 +302,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "rondo"
+          "text": "binary"
         },
         {
           "id": "B",
@@ -310,14 +310,14 @@
         },
         {
           "id": "C",
-          "text": "binary"
+          "text": "rondo"
         },
         {
           "id": "D",
           "text": "theme and variations"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Recurring refrain.",
       "distractors": {}
     },
@@ -360,7 +360,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "rounded binary"
+          "text": "rondo"
         },
         {
           "id": "B",
@@ -372,10 +372,10 @@
         },
         {
           "id": "D",
-          "text": "rondo"
+          "text": "rounded binary"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "A B A'.",
       "distractors": {}
     },
@@ -389,7 +389,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "tonic"
+          "text": "subdominant"
         },
         {
           "id": "B",
@@ -401,10 +401,10 @@
         },
         {
           "id": "D",
-          "text": "subdominant"
+          "text": "tonic"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Resolution of key conflict.",
       "distractors": {}
     },
@@ -447,7 +447,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "A Dorian"
+          "text": "A Lydian"
         },
         {
           "id": "B",
@@ -455,14 +455,14 @@
         },
         {
           "id": "C",
-          "text": "A Lydian"
+          "text": "A Dorian"
         },
         {
           "id": "D",
           "text": "A Mixolydian"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Raised 6.",
       "distractors": {}
     },
@@ -476,11 +476,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "It lacks half steps and perfect fifths, so no leading tone or clear tonic triad exists"
+          "text": "It has too many notes"
         },
         {
           "id": "B",
-          "text": "It has too many notes"
+          "text": "It lacks half steps and perfect fifths, so no leading tone or clear tonic triad exists"
         },
         {
           "id": "C",
@@ -491,7 +491,7 @@
           "text": "It uses only black keys"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "No leading tone.",
       "distractors": {}
     },

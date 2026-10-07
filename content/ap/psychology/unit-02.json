@@ -47,231 +47,542 @@
     "cramSheet": "**Perception:** bottom-up/top-down · perceptual set · Gestalt (closure, proximity, similarity) · binocular (disparity, convergence) vs. monocular cues\n\n**Thinking:** algorithm vs. heuristic · availability · representativeness · confirmation bias · framing · anchoring · functional fixedness\n\n**Memory:** encode/store/retrieve · STM 7±2 · working memory · explicit (hippocampus) vs. implicit · deep processing · spacing · testing effect · context/state-dependent · proactive vs. retroactive · serial position · misinformation · anterograde vs. retrograde\n\n**Intelligence:** g · Gardner · Sternberg · fluid vs. crystallized · reliability vs. validity · normal curve · stereotype threat"
   },
   "vocab": [
-    { "term": "Top-down processing", "definition": "Perception guided by expectations, knowledge, and context." },
-    { "term": "Perceptual set", "definition": "A mental predisposition to perceive one thing and not another." },
-    { "term": "Retinal disparity", "definition": "A binocular depth cue based on the difference between the images in the two eyes." },
-    { "term": "Availability heuristic", "definition": "Estimating likelihood based on how easily examples come to mind." },
-    { "term": "Representativeness heuristic", "definition": "Judging likelihood by how well something matches a prototype." },
-    { "term": "Confirmation bias", "definition": "Tendency to seek information that supports existing beliefs." },
-    { "term": "Framing", "definition": "The way an issue is posed, which can significantly affect decisions." },
-    { "term": "Working memory", "definition": "Active processing of information in short-term memory." },
-    { "term": "Encoding specificity", "definition": "Retrieval is best when cues present at encoding are present at retrieval." },
-    { "term": "Proactive interference", "definition": "Old information disrupts recall of new information." },
-    { "term": "Retroactive interference", "definition": "New information disrupts recall of old information." },
-    { "term": "Misinformation effect", "definition": "Incorporating misleading information into a memory of an event." },
-    { "term": "Anterograde amnesia", "definition": "Inability to form new memories." },
-    { "term": "Reliability", "definition": "The consistency of a test's results." },
-    { "term": "Validity", "definition": "The extent to which a test measures or predicts what it claims to." },
-    { "term": "Stereotype threat", "definition": "Concern about confirming a negative stereotype, which can impair performance." }
+    {
+      "term": "Top-down processing",
+      "definition": "Perception guided by expectations, knowledge, and context."
+    },
+    {
+      "term": "Perceptual set",
+      "definition": "A mental predisposition to perceive one thing and not another."
+    },
+    {
+      "term": "Retinal disparity",
+      "definition": "A binocular depth cue based on the difference between the images in the two eyes."
+    },
+    {
+      "term": "Availability heuristic",
+      "definition": "Estimating likelihood based on how easily examples come to mind."
+    },
+    {
+      "term": "Representativeness heuristic",
+      "definition": "Judging likelihood by how well something matches a prototype."
+    },
+    {
+      "term": "Confirmation bias",
+      "definition": "Tendency to seek information that supports existing beliefs."
+    },
+    {
+      "term": "Framing",
+      "definition": "The way an issue is posed, which can significantly affect decisions."
+    },
+    {
+      "term": "Working memory",
+      "definition": "Active processing of information in short-term memory."
+    },
+    {
+      "term": "Encoding specificity",
+      "definition": "Retrieval is best when cues present at encoding are present at retrieval."
+    },
+    {
+      "term": "Proactive interference",
+      "definition": "Old information disrupts recall of new information."
+    },
+    {
+      "term": "Retroactive interference",
+      "definition": "New information disrupts recall of old information."
+    },
+    {
+      "term": "Misinformation effect",
+      "definition": "Incorporating misleading information into a memory of an event."
+    },
+    {
+      "term": "Anterograde amnesia",
+      "definition": "Inability to form new memories."
+    },
+    {
+      "term": "Reliability",
+      "definition": "The consistency of a test's results."
+    },
+    {
+      "term": "Validity",
+      "definition": "The extent to which a test measures or predicts what it claims to."
+    },
+    {
+      "term": "Stereotype threat",
+      "definition": "Concern about confirming a negative stereotype, which can impair performance."
+    }
   ],
   "practice": [
     {
-      "id": "u2-q01", "tier": "Intro", "type": "mcq", "topic": "2.2 Thinking, Problem-Solving, Judgments, and Decision-Making",
+      "id": "u2-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.2 Thinking, Problem-Solving, Judgments, and Decision-Making",
       "stimulus": "After watching several news reports about a plane crash, Ana decides to drive 800 miles instead of flying, even though driving that distance is statistically more dangerous.",
       "stem": "Ana's decision best illustrates",
       "choices": [
-        { "id": "A", "text": "the availability heuristic" },
-        { "id": "B", "text": "functional fixedness" },
-        { "id": "C", "text": "the representativeness heuristic" },
-        { "id": "D", "text": "divergent thinking" }
+        {
+          "id": "A",
+          "text": "divergent thinking"
+        },
+        {
+          "id": "B",
+          "text": "functional fixedness"
+        },
+        {
+          "id": "C",
+          "text": "the representativeness heuristic"
+        },
+        {
+          "id": "D",
+          "text": "the availability heuristic"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Vivid, easily recalled crash images inflate her estimate of flying's risk.",
-      "distractors": { "C": "Representativeness involves matching to a prototype." }
+      "distractors": {
+        "C": "Representativeness involves matching to a prototype."
+      }
     },
     {
-      "id": "u2-q02", "tier": "Intro", "type": "mcq", "topic": "2.6 Encoding / 2.7 Storing / amnesia",
+      "id": "u2-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.6 Encoding / 2.7 Storing / amnesia",
       "stimulus": "After surgery that damaged his hippocampus, a patient remembers his childhood clearly but cannot remember people he met after the surgery, even after many meetings.",
       "stem": "The patient is experiencing",
       "choices": [
-        { "id": "A", "text": "anterograde amnesia" },
-        { "id": "B", "text": "retrograde amnesia" },
-        { "id": "C", "text": "proactive interference" },
-        { "id": "D", "text": "source amnesia" }
+        {
+          "id": "A",
+          "text": "proactive interference"
+        },
+        {
+          "id": "B",
+          "text": "retrograde amnesia"
+        },
+        {
+          "id": "C",
+          "text": "anterograde amnesia"
+        },
+        {
+          "id": "D",
+          "text": "source amnesia"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "He can't form new explicit memories; old ones remain.",
-      "distractors": { "B": "Retrograde amnesia is loss of memories from before the injury." }
+      "distractors": {
+        "B": "Retrograde amnesia is loss of memories from before the injury."
+      }
     },
     {
-      "id": "u2-q03", "tier": "Intro", "type": "mcq", "topic": "2.1 Perception",
+      "id": "u2-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.1 Perception",
       "stimulus": "A logo consists of three curved line segments with gaps between them, but most viewers describe it as a circle.",
       "stem": "Which Gestalt principle explains this perception?",
       "choices": [
-        { "id": "A", "text": "Closure" },
-        { "id": "B", "text": "Proximity" },
-        { "id": "C", "text": "Similarity" },
-        { "id": "D", "text": "Figure-ground" }
+        {
+          "id": "A",
+          "text": "Proximity"
+        },
+        {
+          "id": "B",
+          "text": "Closure"
+        },
+        {
+          "id": "C",
+          "text": "Similarity"
+        },
+        {
+          "id": "D",
+          "text": "Figure-ground"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "We fill gaps to perceive complete, whole objects.",
-      "distractors": { "B": "Proximity groups items that are close together." }
+      "distractors": {
+        "A": "Proximity groups items that are close together."
+      }
     },
     {
-      "id": "u2-q04", "tier": "Intro", "type": "mcq", "topic": "2.8 Retrieving Memories",
+      "id": "u2-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.8 Retrieving Memories",
       "stimulus": "Participants hear a list of 20 words and then write down as many as they can. Recall is best for the first few and last few words.",
       "stem": "This pattern is known as",
       "choices": [
-        { "id": "A", "text": "the serial position effect" },
-        { "id": "B", "text": "the spacing effect" },
-        { "id": "C", "text": "chunking" },
-        { "id": "D", "text": "the misinformation effect" }
+        {
+          "id": "A",
+          "text": "the misinformation effect"
+        },
+        {
+          "id": "B",
+          "text": "the spacing effect"
+        },
+        {
+          "id": "C",
+          "text": "chunking"
+        },
+        {
+          "id": "D",
+          "text": "the serial position effect"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Primacy and recency produce a U-shaped recall curve.",
-      "distractors": { "B": "Spacing concerns distributed study sessions." }
+      "distractors": {
+        "B": "Spacing concerns distributed study sessions."
+      }
     },
     {
-      "id": "u2-q05", "tier": "Exam level", "type": "mcq", "topic": "2.9 Forgetting and Other Memory Challenges",
+      "id": "u2-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.9 Forgetting and Other Memory Challenges",
       "stimulus": "At the start of the school year, Kenji keeps entering last year's locker combination when trying to open his new locker.",
       "stem": "Kenji is experiencing",
       "choices": [
-        { "id": "A", "text": "proactive interference" },
-        { "id": "B", "text": "retroactive interference" },
-        { "id": "C", "text": "encoding failure" },
-        { "id": "D", "text": "anterograde amnesia" }
+        {
+          "id": "A",
+          "text": "encoding failure"
+        },
+        {
+          "id": "B",
+          "text": "retroactive interference"
+        },
+        {
+          "id": "C",
+          "text": "proactive interference"
+        },
+        {
+          "id": "D",
+          "text": "anterograde amnesia"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Old information (last year's combination) interferes with new information.",
-      "distractors": { "B": "Retroactive is new blocking old." }
+      "distractors": {
+        "B": "Retroactive is new blocking old."
+      }
     },
     {
-      "id": "u2-q06", "tier": "Exam level", "type": "mcq", "topic": "2.2 Judgments and Decision-Making",
+      "id": "u2-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.2 Judgments and Decision-Making",
       "stimulus": "Convinced that a new diet works, Rosa reads only online reviews from people who lost weight and dismisses studies showing no effect as poorly done.",
       "stem": "Rosa's behavior best illustrates",
       "choices": [
-        { "id": "A", "text": "confirmation bias" },
-        { "id": "B", "text": "the framing effect" },
-        { "id": "C", "text": "hindsight bias" },
-        { "id": "D", "text": "functional fixedness" }
+        {
+          "id": "A",
+          "text": "confirmation bias"
+        },
+        {
+          "id": "B",
+          "text": "the framing effect"
+        },
+        {
+          "id": "C",
+          "text": "hindsight bias"
+        },
+        {
+          "id": "D",
+          "text": "functional fixedness"
+        }
       ],
       "answer": "A",
       "explanation": "She seeks confirming evidence and discounts disconfirming evidence.",
-      "distractors": { "C": "Hindsight bias is believing you knew it all along." }
+      "distractors": {
+        "C": "Hindsight bias is believing you knew it all along."
+      }
     },
     {
-      "id": "u2-q07", "tier": "Exam level", "type": "mcq", "topic": "2.1 Perception",
+      "id": "u2-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.1 Perception",
       "stem": "A person who has lost sight in one eye would still be able to use which depth cue?",
       "choices": [
-        { "id": "A", "text": "Linear perspective" },
-        { "id": "B", "text": "Retinal disparity" },
-        { "id": "C", "text": "Convergence" },
-        { "id": "D", "text": "Stereoscopic vision from both retinas" }
+        {
+          "id": "A",
+          "text": "Stereoscopic vision from both retinas"
+        },
+        {
+          "id": "B",
+          "text": "Retinal disparity"
+        },
+        {
+          "id": "C",
+          "text": "Convergence"
+        },
+        {
+          "id": "D",
+          "text": "Linear perspective"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Linear perspective is a monocular cue; the others require two eyes.",
-      "distractors": { "B": "Requires comparing two retinal images." }
+      "distractors": {
+        "B": "Requires comparing two retinal images."
+      }
     },
     {
-      "id": "u2-q08", "tier": "Exam level", "type": "mcq", "topic": "2.5 Psychometric Principles and Intelligence Testing",
+      "id": "u2-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.5 Psychometric Principles and Intelligence Testing",
       "stimulus": "A company's hiring test gives applicants nearly identical scores when they take it twice a month apart. However, scores don't correlate with employees' later job performance ratings.",
       "stem": "The test is best described as",
       "choices": [
-        { "id": "A", "text": "reliable but not valid" },
-        { "id": "B", "text": "valid but not reliable" },
-        { "id": "C", "text": "both reliable and valid" },
-        { "id": "D", "text": "neither standardized nor reliable" }
+        {
+          "id": "A",
+          "text": "reliable but not valid"
+        },
+        {
+          "id": "B",
+          "text": "valid but not reliable"
+        },
+        {
+          "id": "C",
+          "text": "both reliable and valid"
+        },
+        {
+          "id": "D",
+          "text": "neither standardized nor reliable"
+        }
       ],
       "answer": "A",
       "explanation": "Consistent scores show reliability; failure to predict performance shows low predictive validity.",
-      "distractors": { "B": "A test can't be valid without some reliability, and this one is consistent." }
+      "distractors": {
+        "B": "A test can't be valid without some reliability, and this one is consistent."
+      }
     },
     {
-      "id": "u2-q09", "tier": "Exam level", "type": "mcq", "topic": "2.8 Retrieving Memories",
+      "id": "u2-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.8 Retrieving Memories",
       "stimulus": "Divers learned word lists either underwater or on land. They later recalled more words when tested in the same setting where they learned the list.",
       "stem": "These results best support",
       "choices": [
-        { "id": "A", "text": "context-dependent memory" },
-        { "id": "B", "text": "state-dependent memory" },
-        { "id": "C", "text": "retroactive interference" },
-        { "id": "D", "text": "the spacing effect" }
+        {
+          "id": "A",
+          "text": "state-dependent memory"
+        },
+        {
+          "id": "B",
+          "text": "context-dependent memory"
+        },
+        {
+          "id": "C",
+          "text": "retroactive interference"
+        },
+        {
+          "id": "D",
+          "text": "the spacing effect"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The external environment served as a retrieval cue (encoding specificity).",
-      "distractors": { "B": "State-dependent memory concerns internal states like mood or intoxication." }
+      "distractors": {
+        "A": "State-dependent memory concerns internal states like mood or intoxication."
+      }
     },
     {
-      "id": "u2-q10", "tier": "Exam level", "type": "mcq", "topic": "2.4 Introduction to Intelligence",
+      "id": "u2-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.4 Introduction to Intelligence",
       "stimulus": "Compared with when she was 25, a 70-year-old woman is slower at solving novel logic puzzles but has a much larger vocabulary.",
       "stem": "This pattern is best explained by",
       "choices": [
-        { "id": "A", "text": "a decline in fluid intelligence with stable or increasing crystallized intelligence" },
-        { "id": "B", "text": "a decline in crystallized intelligence" },
-        { "id": "C", "text": "stereotype threat" },
-        { "id": "D", "text": "the Flynn effect" }
+        {
+          "id": "A",
+          "text": "stereotype threat"
+        },
+        {
+          "id": "B",
+          "text": "a decline in crystallized intelligence"
+        },
+        {
+          "id": "C",
+          "text": "a decline in fluid intelligence with stable or increasing crystallized intelligence"
+        },
+        {
+          "id": "D",
+          "text": "the Flynn effect"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Fluid reasoning tends to decline with age while accumulated knowledge persists.",
-      "distractors": { "B": "Vocabulary is crystallized and has increased." }
+      "distractors": {
+        "B": "Vocabulary is crystallized and has increased."
+      }
     },
     {
-      "id": "u2-q11", "tier": "Hardest", "type": "mcq", "topic": "2.5 Psychometric Principles (fairness)",
+      "id": "u2-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.5 Psychometric Principles (fairness)",
       "stimulus": "Before a difficult math test, one group of women is told the test has shown gender differences in the past; another group is told the test is gender-neutral. The first group scores significantly lower.",
       "stem": "Which concept best explains the difference, and what does it imply about test scores?",
       "choices": [
-        { "id": "A", "text": "Stereotype threat; scores can reflect test conditions, not only ability." },
-        { "id": "B", "text": "Fluid intelligence; women have lower math aptitude." },
-        { "id": "C", "text": "Reliability; the test is inconsistent." },
-        { "id": "D", "text": "Confirmation bias; the women sought confirming evidence." }
+        {
+          "id": "A",
+          "text": "Stereotype threat; scores can reflect test conditions, not only ability."
+        },
+        {
+          "id": "B",
+          "text": "Fluid intelligence; women have lower math aptitude."
+        },
+        {
+          "id": "C",
+          "text": "Reliability; the test is inconsistent."
+        },
+        {
+          "id": "D",
+          "text": "Confirmation bias; the women sought confirming evidence."
+        }
       ],
       "answer": "A",
       "explanation": "Activating a stereotype impaired performance, showing that situational factors affect measured ability.",
-      "distractors": { "B": "The groups differ only in instructions, so ability differences can't explain the result." }
+      "distractors": {
+        "B": "The groups differ only in instructions, so ability differences can't explain the result."
+      }
     },
     {
-      "id": "u2-q12", "tier": "Hardest", "type": "mcq", "topic": "2.2 Judgments and Decision-Making",
+      "id": "u2-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.2 Judgments and Decision-Making",
       "stimulus": "Patients told that a surgery has a \"90 percent survival rate\" are much more likely to choose it than patients told it has a \"10 percent mortality rate.\"",
       "stem": "Which statement best explains this result?",
       "choices": [
-        { "id": "A", "text": "Logically equivalent information presented in different terms changes decisions, an example of framing." },
-        { "id": "B", "text": "The second group received worse medical information." },
-        { "id": "C", "text": "The availability heuristic made survival easier to imagine." },
-        { "id": "D", "text": "Patients in the first group experienced belief perseverance." }
+        {
+          "id": "A",
+          "text": "Patients in the first group experienced belief perseverance."
+        },
+        {
+          "id": "B",
+          "text": "The second group received worse medical information."
+        },
+        {
+          "id": "C",
+          "text": "The availability heuristic made survival easier to imagine."
+        },
+        {
+          "id": "D",
+          "text": "Logically equivalent information presented in different terms changes decisions, an example of framing."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The odds are identical; only the wording (gain vs. loss) differs.",
-      "distractors": { "B": "The information is equivalent." }
+      "distractors": {
+        "B": "The information is equivalent."
+      }
     },
     {
-      "id": "u2-q13", "tier": "Hardest", "type": "mcq", "topic": "2.9 Forgetting and Other Memory Challenges",
+      "id": "u2-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.9 Forgetting and Other Memory Challenges",
       "stimulus": "Participants watched a video of a car accident. One week later, those asked \"How fast were the cars going when they smashed into each other?\" were more likely than those asked about cars that \"hit\" each other to report seeing broken glass, though there was none.",
       "stem": "This finding best demonstrates that",
       "choices": [
-        { "id": "A", "text": "post-event information can alter memories, consistent with memory being reconstructive" },
-        { "id": "B", "text": "memories are stored like video recordings" },
-        { "id": "C", "text": "participants were lying to please the researcher" },
-        { "id": "D", "text": "retroactive interference prevents all recall" }
+        {
+          "id": "A",
+          "text": "participants were lying to please the researcher"
+        },
+        {
+          "id": "B",
+          "text": "memories are stored like video recordings"
+        },
+        {
+          "id": "C",
+          "text": "post-event information can alter memories, consistent with memory being reconstructive"
+        },
+        {
+          "id": "D",
+          "text": "retroactive interference prevents all recall"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The misinformation effect shows that wording after the event changed what people remembered.",
-      "distractors": { "B": "The study shows the opposite." }
+      "distractors": {
+        "B": "The study shows the opposite."
+      }
     },
     {
-      "id": "u2-q14", "tier": "Hardest", "type": "mcq", "topic": "2.5 Psychometric Principles",
+      "id": "u2-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.5 Psychometric Principles",
       "stimulus": "An intelligence test is normed with a mean of 100 and a standard deviation of 15, and scores are normally distributed.",
       "stem": "About what percentage of people in the norming sample scored above 130?",
       "choices": [
-        { "id": "A", "text": "About 2.5 percent" },
-        { "id": "B", "text": "About 16 percent" },
-        { "id": "C", "text": "About 34 percent" },
-        { "id": "D", "text": "About 5 percent" }
+        {
+          "id": "A",
+          "text": "About 16 percent"
+        },
+        {
+          "id": "B",
+          "text": "About 2.5 percent"
+        },
+        {
+          "id": "C",
+          "text": "About 34 percent"
+        },
+        {
+          "id": "D",
+          "text": "About 5 percent"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "130 is 2 SD above the mean. About 95 percent fall within 2 SD, leaving about 5 percent split between the tails: about 2.5 percent above.",
-      "distractors": { "B": "That's above 1 SD (115).", "D": "That's both tails combined." }
+      "distractors": {
+        "D": "That's both tails combined.",
+        "A": "That's above 1 SD (115)."
+      }
     },
     {
-      "id": "u2-frq1", "tier": "Exam level", "type": "frq", "topic": "Memory and eyewitness testimony", "frqType": "Evidence-Based Question (EBQ)",
+      "id": "u2-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Memory and eyewitness testimony",
+      "frqType": "Evidence-Based Question (EBQ)",
       "stimulus": "The three source summaries below were written for this practice set.\n\n**Source A:** In a laboratory study, 150 participants watched a staged theft. Half were later asked a question implying the thief had a weapon; half were asked a neutral question. A week later, 32% of the misled group reported seeing a weapon, compared with 6% of the control group (p < .001).\n\n**Source B:** Researchers reviewed lineup identifications made under controlled procedures (a lineup administrator who didn't know the suspect, immediate confidence statements). Witnesses who expressed high confidence at their first identification were correct about 90% of the time; low-confidence identifications were correct about 50% of the time.\n\n**Source C:** In a study of 200 participants, people were more accurate at recognizing faces of their own racial group than faces of other groups (correct recognition 78% vs. 61%).",
       "prompt": "Using the sources, develop and justify an argument about whether eyewitness identifications should be relied on as strong evidence in criminal trials.\n\n(a) Propose a specific and defensible claim based in psychological science that responds to the question.\n(b)(i) Support your claim using at least one piece of specific and relevant evidence from one of the sources.\n(b)(ii) Explain how the evidence from part (b)(i) supports your claim using a psychological concept.\n(c)(i) Support your claim using an additional piece of specific and relevant evidence from a different source.\n(c)(ii) Explain how the evidence from part (c)(i) supports your claim using a different psychological concept.",
       "points": 7,
       "minutes": 45,
       "rubric": [
-        { "criterion": "(a) Claim", "points": 1, "description": "A defensible claim, e.g., eyewitness identifications should be treated as strong evidence only when collected under controlled procedures and corroborated." },
-        { "criterion": "(b)(i) Evidence", "points": 1, "description": "Cites specific evidence from one source (e.g., Source A: 32% vs. 6% reported a weapon after a leading question)." },
-        { "criterion": "(b)(ii) Explanation", "points": 2, "description": "Explains how the evidence supports the claim using a psychological concept (e.g., the misinformation effect; memory is reconstructive). 1 point for naming/describing the concept accurately, 1 for linking it to the claim." },
-        { "criterion": "(c)(i) Evidence", "points": 1, "description": "Cites specific evidence from a different source (e.g., Source C: 78% vs. 61% recognition; or Source B: 90% accuracy for initial high-confidence IDs under controlled procedures)." },
-        { "criterion": "(c)(ii) Explanation", "points": 2, "description": "Explains with a different concept (e.g., the cross-race effect / encoding, or encoding specificity and how procedures reduce suggestion). 1 point for the concept, 1 for the link." }
+        {
+          "criterion": "(a) Claim",
+          "points": 1,
+          "description": "A defensible claim, e.g., eyewitness identifications should be treated as strong evidence only when collected under controlled procedures and corroborated."
+        },
+        {
+          "criterion": "(b)(i) Evidence",
+          "points": 1,
+          "description": "Cites specific evidence from one source (e.g., Source A: 32% vs. 6% reported a weapon after a leading question)."
+        },
+        {
+          "criterion": "(b)(ii) Explanation",
+          "points": 2,
+          "description": "Explains how the evidence supports the claim using a psychological concept (e.g., the misinformation effect; memory is reconstructive). 1 point for naming/describing the concept accurately, 1 for linking it to the claim."
+        },
+        {
+          "criterion": "(c)(i) Evidence",
+          "points": 1,
+          "description": "Cites specific evidence from a different source (e.g., Source C: 78% vs. 61% recognition; or Source B: 90% accuracy for initial high-confidence IDs under controlled procedures)."
+        },
+        {
+          "criterion": "(c)(ii) Explanation",
+          "points": 2,
+          "description": "Explains with a different concept (e.g., the cross-race effect / encoding, or encoding specificity and how procedures reduce suggestion). 1 point for the concept, 1 for the link."
+        }
       ],
       "sampleResponse": "(a) Eyewitness identifications should not be treated as strong evidence on their own; they are reliable only when gathered under controlled, non-suggestive procedures and should be weighed against factors known to distort memory.\n\n(b)(i) In Source A, 32% of participants who were asked a leading question about a weapon later reported seeing one, compared with only 6% of those asked a neutral question.\n\n(b)(ii) This demonstrates the misinformation effect: because memory is reconstructive, information introduced after an event can be incorporated into the memory itself. A witness questioned with suggestive wording by police or attorneys may sincerely recall details that never happened, so testimony collected after such questioning can't be treated as a reliable record of the event.\n\n(c)(i) In Source C, participants correctly recognized 78% of faces from their own racial group but only 61% of faces from other groups.\n\n(c)(ii) This reflects the cross-race effect, which arises at encoding: people process the distinguishing features of faces from familiar groups more deeply, so other-race faces are encoded less distinctively and are harder to recognize later. When a witness and suspect are of different races, the chance of misidentification rises, which is another reason identification alone shouldn't be decisive. Source B shows the problem can be reduced, since initial high-confidence identifications made under careful procedures were about 90% accurate, supporting reliance only when such procedures are followed."
     }

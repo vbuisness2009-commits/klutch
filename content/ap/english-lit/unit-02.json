@@ -47,228 +47,508 @@
     "cramSheet": "**Speaker:** who, to whom, situation, tone · apostrophe\n\n**Imagery & diction:** senses · connotation · patterns\n\n**Figurative:** simile · metaphor · extended metaphor · personification · symbol\n\n**Structure:** line breaks · enjambment · end-stop · stanza · shift · volta\n\n**Sound:** alliteration · assonance · rhyme · meter → tie to meaning"
   },
   "vocab": [
-    { "term": "Speaker", "definition": "The voice of a poem, distinct from the poet." },
-    { "term": "Tone", "definition": "The speaker's attitude toward the subject or audience." },
-    { "term": "Imagery", "definition": "Language that appeals to the senses." },
-    { "term": "Connotation", "definition": "The associations a word carries beyond its literal meaning." },
-    { "term": "Simile", "definition": "A comparison using like or as." },
-    { "term": "Metaphor", "definition": "A direct comparison stating that one thing is another." },
-    { "term": "Extended metaphor", "definition": "A metaphor developed over several lines or an entire poem." },
-    { "term": "Personification", "definition": "Giving human qualities to nonhuman things." },
-    { "term": "Apostrophe", "definition": "Addressing an absent person or a nonhuman entity directly." },
-    { "term": "Enjambment", "definition": "Continuing a sentence beyond the end of a line without pause." },
-    { "term": "Stanza", "definition": "A group of lines forming a unit in a poem." },
-    { "term": "Volta", "definition": "The turn or shift in thought in a poem, especially a sonnet." },
-    { "term": "Alliteration", "definition": "Repetition of initial consonant sounds." },
-    { "term": "Assonance", "definition": "Repetition of vowel sounds." }
+    {
+      "term": "Speaker",
+      "definition": "The voice of a poem, distinct from the poet."
+    },
+    {
+      "term": "Tone",
+      "definition": "The speaker's attitude toward the subject or audience."
+    },
+    {
+      "term": "Imagery",
+      "definition": "Language that appeals to the senses."
+    },
+    {
+      "term": "Connotation",
+      "definition": "The associations a word carries beyond its literal meaning."
+    },
+    {
+      "term": "Simile",
+      "definition": "A comparison using like or as."
+    },
+    {
+      "term": "Metaphor",
+      "definition": "A direct comparison stating that one thing is another."
+    },
+    {
+      "term": "Extended metaphor",
+      "definition": "A metaphor developed over several lines or an entire poem."
+    },
+    {
+      "term": "Personification",
+      "definition": "Giving human qualities to nonhuman things."
+    },
+    {
+      "term": "Apostrophe",
+      "definition": "Addressing an absent person or a nonhuman entity directly."
+    },
+    {
+      "term": "Enjambment",
+      "definition": "Continuing a sentence beyond the end of a line without pause."
+    },
+    {
+      "term": "Stanza",
+      "definition": "A group of lines forming a unit in a poem."
+    },
+    {
+      "term": "Volta",
+      "definition": "The turn or shift in thought in a poem, especially a sonnet."
+    },
+    {
+      "term": "Alliteration",
+      "definition": "Repetition of initial consonant sounds."
+    },
+    {
+      "term": "Assonance",
+      "definition": "Repetition of vowel sounds."
+    }
   ],
   "practice": [
     {
-      "id": "u2-q01", "tier": "Intro", "type": "mcq", "topic": "Figurative language",
+      "id": "u2-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Figurative language",
       "stimulus": "My grandmother's hands were maps, / every river written in blue.",
       "stem": "The metaphor in these lines most directly suggests that the grandmother's hands",
       "choices": [
-        { "id": "A", "text": "record the long journey of her life" },
-        { "id": "B", "text": "were used for drawing maps" },
-        { "id": "C", "text": "were cold and pale" },
-        { "id": "D", "text": "were small and delicate" }
+        {
+          "id": "A",
+          "text": "were cold and pale"
+        },
+        {
+          "id": "B",
+          "text": "were used for drawing maps"
+        },
+        {
+          "id": "C",
+          "text": "record the long journey of her life"
+        },
+        {
+          "id": "D",
+          "text": "were small and delicate"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The veins become rivers on a map, suggesting her hands chart a lifetime of experience.",
-      "distractors": { "B": "Literal reading." }
+      "distractors": {
+        "B": "Literal reading."
+      }
     },
     {
-      "id": "u2-q02", "tier": "Intro", "type": "mcq", "topic": "Speaker and situation",
+      "id": "u2-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Speaker and situation",
       "stimulus": "Old porch, you held us all those summers; / you held the rain, the cards, the songs. / Now someone else will sweep you clean.",
       "stem": "The speaker addresses the porch directly. This technique is called",
       "choices": [
-        { "id": "A", "text": "apostrophe" },
-        { "id": "B", "text": "alliteration" },
-        { "id": "C", "text": "enjambment" },
-        { "id": "D", "text": "onomatopoeia" }
+        {
+          "id": "A",
+          "text": "apostrophe"
+        },
+        {
+          "id": "B",
+          "text": "alliteration"
+        },
+        {
+          "id": "C",
+          "text": "enjambment"
+        },
+        {
+          "id": "D",
+          "text": "onomatopoeia"
+        }
       ],
       "answer": "A",
       "explanation": "Addressing an inanimate object as if it could hear is apostrophe.",
       "distractors": {}
     },
     {
-      "id": "u2-q03", "tier": "Intro", "type": "mcq", "topic": "Diction",
+      "id": "u2-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Diction",
       "stimulus": "The cabin crouched at the edge of the woods, / its windows narrowed against the dusk.",
       "stem": "The words \"crouched\" and \"narrowed\" most likely create a mood of",
       "choices": [
-        { "id": "A", "text": "wariness or menace" },
-        { "id": "B", "text": "joyful celebration" },
-        { "id": "C", "text": "bright openness" },
-        { "id": "D", "text": "peaceful sleep" }
+        {
+          "id": "A",
+          "text": "bright openness"
+        },
+        {
+          "id": "B",
+          "text": "joyful celebration"
+        },
+        {
+          "id": "C",
+          "text": "wariness or menace"
+        },
+        {
+          "id": "D",
+          "text": "peaceful sleep"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The verbs personify the cabin as tense and suspicious, like an animal ready to spring.",
       "distractors": {}
     },
     {
-      "id": "u2-q04", "tier": "Intro", "type": "mcq", "topic": "Structure",
+      "id": "u2-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Structure",
       "stimulus": "I meant to tell you I was leaving / but the kettle / sang, and you smiled, and I / stayed.",
       "stem": "Placing \"stayed\" alone on the final line primarily serves to",
       "choices": [
-        { "id": "A", "text": "emphasize the speaker's decision as a quiet turning point" },
-        { "id": "B", "text": "create a rhyme" },
-        { "id": "C", "text": "introduce a new character" },
-        { "id": "D", "text": "show that the speaker left" }
+        {
+          "id": "A",
+          "text": "emphasize the speaker's decision as a quiet turning point"
+        },
+        {
+          "id": "B",
+          "text": "create a rhyme"
+        },
+        {
+          "id": "C",
+          "text": "introduce a new character"
+        },
+        {
+          "id": "D",
+          "text": "show that the speaker left"
+        }
       ],
       "answer": "A",
       "explanation": "Isolating the word slows the reader and highlights the surprising choice.",
-      "distractors": { "D": "The opposite happens." }
+      "distractors": {
+        "D": "The opposite happens."
+      }
     },
     {
-      "id": "u2-q05", "tier": "Exam level", "type": "mcq", "topic": "Shift",
+      "id": "u2-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Shift",
       "stimulus": "All summer the orchard bent with fruit, / the branches heavy, the ladders leaning, / laughter in every row. / Then the letter from the bank arrived, / and the apples fell where they fell.",
       "stem": "The shift in the fourth line most directly changes the poem's tone from",
       "choices": [
-        { "id": "A", "text": "abundant and joyful to resigned and defeated" },
-        { "id": "B", "text": "angry to celebratory" },
-        { "id": "C", "text": "fearful to hopeful" },
-        { "id": "D", "text": "neutral to comic" }
+        {
+          "id": "A",
+          "text": "angry to celebratory"
+        },
+        {
+          "id": "B",
+          "text": "abundant and joyful to resigned and defeated"
+        },
+        {
+          "id": "C",
+          "text": "fearful to hopeful"
+        },
+        {
+          "id": "D",
+          "text": "neutral to comic"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The letter interrupts plenty; the final line shows the harvest abandoned.",
       "distractors": {}
     },
     {
-      "id": "u2-q06", "tier": "Exam level", "type": "mcq", "topic": "Imagery and meaning",
+      "id": "u2-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Imagery and meaning",
       "stimulus": "In the hospital hallway, the vending machine / hums its one note all night, / a patient thing, lit and waiting / like the rest of us.",
       "stem": "The comparison in the final lines most likely suggests that the speaker",
       "choices": [
-        { "id": "A", "text": "identifies with the machine's endless, anxious waiting" },
-        { "id": "B", "text": "is hungry" },
-        { "id": "C", "text": "admires modern technology" },
-        { "id": "D", "text": "works as a hospital technician" }
+        {
+          "id": "A",
+          "text": "works as a hospital technician"
+        },
+        {
+          "id": "B",
+          "text": "is hungry"
+        },
+        {
+          "id": "C",
+          "text": "admires modern technology"
+        },
+        {
+          "id": "D",
+          "text": "identifies with the machine's endless, anxious waiting"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "\"Lit and waiting like the rest of us\" links the machine to families keeping vigil.",
       "distractors": {}
     },
     {
-      "id": "u2-q07", "tier": "Exam level", "type": "mcq", "topic": "Sound and meaning",
+      "id": "u2-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Sound and meaning",
       "stimulus": "The slow sleet slid down the slate.",
       "stem": "The repeated \"s\" sounds most likely help to",
       "choices": [
-        { "id": "A", "text": "imitate the soft, steady sound and motion of the sleet" },
-        { "id": "B", "text": "create a harsh, explosive effect" },
-        { "id": "C", "text": "signal a change of speaker" },
-        { "id": "D", "text": "establish a rhyme scheme" }
+        {
+          "id": "A",
+          "text": "create a harsh, explosive effect"
+        },
+        {
+          "id": "B",
+          "text": "imitate the soft, steady sound and motion of the sleet"
+        },
+        {
+          "id": "C",
+          "text": "signal a change of speaker"
+        },
+        {
+          "id": "D",
+          "text": "establish a rhyme scheme"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Sibilant alliteration mimics the hiss and slide.",
-      "distractors": { "B": "S-sounds are soft, not explosive." }
+      "distractors": {
+        "A": "S-sounds are soft, not explosive."
+      }
     },
     {
-      "id": "u2-q08", "tier": "Exam level", "type": "mcq", "topic": "Symbol",
+      "id": "u2-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Symbol",
       "stimulus": "Each spring my father planted the same tomato seeds, / saved in a jar from the year before. / He is gone now. / The jar is on my shelf, / and the seeds are still alive.",
       "stem": "The jar of seeds most likely symbolizes",
       "choices": [
-        { "id": "A", "text": "the continuation of the father's legacy and the possibility of renewal" },
-        { "id": "B", "text": "the speaker's dislike of gardening" },
-        { "id": "C", "text": "the father's wealth" },
-        { "id": "D", "text": "a failed harvest" }
+        {
+          "id": "A",
+          "text": "a failed harvest"
+        },
+        {
+          "id": "B",
+          "text": "the speaker's dislike of gardening"
+        },
+        {
+          "id": "C",
+          "text": "the father's wealth"
+        },
+        {
+          "id": "D",
+          "text": "the continuation of the father's legacy and the possibility of renewal"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Seeds passed down and \"still alive\" suggest the father's influence persists.",
       "distractors": {}
     },
     {
-      "id": "u2-q09", "tier": "Exam level", "type": "mcq", "topic": "Enjambment",
+      "id": "u2-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Enjambment",
       "stimulus": "I promised I would never / leave the town where I was born, and I / kept that promise for exactly / one year.",
       "stem": "The enjambment across these lines primarily creates",
       "choices": [
-        { "id": "A", "text": "ironic surprise, as each line break withholds information that undercuts the promise" },
-        { "id": "B", "text": "a steady, predictable rhythm" },
-        { "id": "C", "text": "a list of places" },
-        { "id": "D", "text": "a rhyme scheme" }
+        {
+          "id": "A",
+          "text": "ironic surprise, as each line break withholds information that undercuts the promise"
+        },
+        {
+          "id": "B",
+          "text": "a steady, predictable rhythm"
+        },
+        {
+          "id": "C",
+          "text": "a list of places"
+        },
+        {
+          "id": "D",
+          "text": "a rhyme scheme"
+        }
       ],
       "answer": "A",
       "explanation": "Breaks after \"never,\" \"I,\" and \"exactly\" delay the deflating revelation.",
       "distractors": {}
     },
     {
-      "id": "u2-q10", "tier": "Exam level", "type": "mcq", "topic": "Extended metaphor",
+      "id": "u2-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Extended metaphor",
       "stimulus": "Grief is a house I didn't build. / I keep finding new rooms. / Some mornings I can't find the door; / some evenings I don't look for it.",
       "stem": "The extended metaphor suggests that grief is",
       "choices": [
-        { "id": "A", "text": "an unfamiliar, enclosing space the speaker both is trapped in and sometimes chooses to stay in" },
-        { "id": "B", "text": "a real house the speaker inherited" },
-        { "id": "C", "text": "something the speaker designed" },
-        { "id": "D", "text": "a brief feeling that passes quickly" }
+        {
+          "id": "A",
+          "text": "something the speaker designed"
+        },
+        {
+          "id": "B",
+          "text": "a real house the speaker inherited"
+        },
+        {
+          "id": "C",
+          "text": "an unfamiliar, enclosing space the speaker both is trapped in and sometimes chooses to stay in"
+        },
+        {
+          "id": "D",
+          "text": "a brief feeling that passes quickly"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Rooms keep appearing; sometimes the speaker can't leave, sometimes doesn't want to.",
-      "distractors": { "C": "\"I didn't build\" says the opposite." }
+      "distractors": {
+        "A": "\"I didn't build\" says the opposite."
+      }
     },
     {
-      "id": "u2-q11", "tier": "Hardest", "type": "mcq", "topic": "Tone and irony",
+      "id": "u2-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Tone and irony",
       "stimulus": "Congratulations on the new highway, / six lanes where the marsh was. / The herons have been informed. / They will find somewhere else, / as they always have, / until they don't.",
       "stem": "The speaker's tone is best described as",
       "choices": [
-        { "id": "A", "text": "bitterly ironic, mocking official progress while mourning its costs" },
-        { "id": "B", "text": "sincerely celebratory" },
-        { "id": "C", "text": "neutral and scientific" },
-        { "id": "D", "text": "playfully affectionate toward the highway" }
+        {
+          "id": "A",
+          "text": "playfully affectionate toward the highway"
+        },
+        {
+          "id": "B",
+          "text": "sincerely celebratory"
+        },
+        {
+          "id": "C",
+          "text": "neutral and scientific"
+        },
+        {
+          "id": "D",
+          "text": "bitterly ironic, mocking official progress while mourning its costs"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "\"Congratulations\" and herons being \"informed\" are mock-official; \"until they don't\" is a grim warning.",
-      "distractors": { "B": "The irony undercuts celebration." }
+      "distractors": {
+        "B": "The irony undercuts celebration."
+      }
     },
     {
-      "id": "u2-q12", "tier": "Hardest", "type": "mcq", "topic": "Form and meaning",
+      "id": "u2-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Form and meaning",
       "stimulus": "A poem about a dementia patient repeats its first line, \"Have I told you about the lake?\", at the start of every stanza, each time followed by a slightly different memory.",
       "stem": "The repetition most likely serves to",
       "choices": [
-        { "id": "A", "text": "enact the patient's looping memory while showing that each return reveals something new and precious" },
-        { "id": "B", "text": "show that the poet ran out of ideas" },
-        { "id": "C", "text": "establish that the lake is the poem's setting" },
-        { "id": "D", "text": "create a humorous effect" }
+        {
+          "id": "A",
+          "text": "show that the poet ran out of ideas"
+        },
+        {
+          "id": "B",
+          "text": "enact the patient's looping memory while showing that each return reveals something new and precious"
+        },
+        {
+          "id": "C",
+          "text": "establish that the lake is the poem's setting"
+        },
+        {
+          "id": "D",
+          "text": "create a humorous effect"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Form mirrors content: the refrain mimics repetition, while variation honors what remains.",
       "distractors": {}
     },
     {
-      "id": "u2-q13", "tier": "Hardest", "type": "mcq", "topic": "Speaker",
+      "id": "u2-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Speaker",
       "stimulus": "Don't worry, I tell my mother on the phone, / everything here is fine, / and I watch the eviction notice / curl a little in the heat from the stove.",
       "stem": "The contrast between the speaker's words and the image most directly reveals",
       "choices": [
-        { "id": "A", "text": "that the speaker hides a crisis to protect the mother" },
-        { "id": "B", "text": "that the speaker's life is truly fine" },
-        { "id": "C", "text": "that the mother caused the eviction" },
-        { "id": "D", "text": "that the speaker is cooking dinner" }
+        {
+          "id": "A",
+          "text": "that the mother caused the eviction"
+        },
+        {
+          "id": "B",
+          "text": "that the speaker's life is truly fine"
+        },
+        {
+          "id": "C",
+          "text": "that the speaker hides a crisis to protect the mother"
+        },
+        {
+          "id": "D",
+          "text": "that the speaker is cooking dinner"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Dramatic irony: readers see the eviction notice the mother can't.",
       "distractors": {}
     },
     {
-      "id": "u2-q14", "tier": "Hardest", "type": "mcq", "topic": "Title and meaning",
+      "id": "u2-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Title and meaning",
       "stimulus": "A poem titled \"Inheritance\" describes the speaker's father's quick temper, his habit of slamming doors, and his silence at dinner, then ends: \"I closed the door softly tonight. / My son didn't even look up.\"",
       "stem": "In light of the title, the ending most likely suggests that the speaker",
       "choices": [
-        { "id": "A", "text": "has consciously chosen not to pass on the father's anger" },
-        { "id": "B", "text": "inherited money from the father" },
-        { "id": "C", "text": "has become exactly like the father" },
-        { "id": "D", "text": "has no relationship with the son" }
+        {
+          "id": "A",
+          "text": "has consciously chosen not to pass on the father's anger"
+        },
+        {
+          "id": "B",
+          "text": "inherited money from the father"
+        },
+        {
+          "id": "C",
+          "text": "has become exactly like the father"
+        },
+        {
+          "id": "D",
+          "text": "has no relationship with the son"
+        }
       ],
       "answer": "A",
       "explanation": "Closing the door softly reverses the father's slamming; the son's calm shows the cycle broken.",
-      "distractors": { "C": "The soft door contrasts with slamming." }
+      "distractors": {
+        "C": "The soft door contrasts with slamming."
+      }
     },
     {
-      "id": "u2-frq1", "tier": "Exam level", "type": "frq", "topic": "Poetry analysis", "frqType": "Q1 Poetry Analysis",
+      "id": "u2-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Poetry analysis",
+      "frqType": "Q1 Poetry Analysis",
       "stimulus": "The following poem was written for this practice set.\n\n**Night Shift**\n\nMy mother left for the bakery at three,\nwhen the streets were a held breath\nand the only light was the one she carried\ninside her coat pocket, a small flashlight\nthat bobbed down the block like a firefly\ntoo stubborn for winter.\n\nI never saw her bake. I only saw\nwhat she brought home: flour in the creases\nof her knuckles, a paper bag of broken loaves\nthe owner couldn't sell, her feet\nsoaking in the basin while she asked\nabout my spelling test.\n\nNow I wake at three for my own reasons,\nand sometimes I go to the window\nand look down the dark block\nas if a small light might still be coming\nhome, warm, a little broken,\nenough.",
       "prompt": "In this poem, the speaker reflects on a mother's work. Read the poem carefully. Then, in a well-written essay, analyze how the poet uses literary elements and techniques to convey the speaker's complex understanding of the mother.\n\nIn your response you should do the following:\n- Respond to the prompt with a thesis that presents a defensible interpretation.\n- Select and use evidence to support your line of reasoning.\n- Explain how the evidence supports your line of reasoning.\n- Use appropriate grammar and punctuation in communicating your argument.",
       "points": 6,
       "minutes": 40,
       "rubric": [
-        { "criterion": "Row A: Thesis", "points": 1, "description": "Defensible interpretation of how the poem conveys the speaker's understanding of the mother." },
-        { "criterion": "Row B: Evidence and commentary", "points": 4, "description": "4: consistent, specific evidence and commentary explaining how techniques create meaning. 3: most claims. 2: summary-heavy. 1: minimal." },
-        { "criterion": "Row C: Sophistication", "points": 1, "description": "E.g., explains how the speaker's adult perspective reframes childhood memory; vivid analysis of the final image." }
+        {
+          "criterion": "Row A: Thesis",
+          "points": 1,
+          "description": "Defensible interpretation of how the poem conveys the speaker's understanding of the mother."
+        },
+        {
+          "criterion": "Row B: Evidence and commentary",
+          "points": 4,
+          "description": "4: consistent, specific evidence and commentary explaining how techniques create meaning. 3: most claims. 2: summary-heavy. 1: minimal."
+        },
+        {
+          "criterion": "Row C: Sophistication",
+          "points": 1,
+          "description": "E.g., explains how the speaker's adult perspective reframes childhood memory; vivid analysis of the final image."
+        }
       ],
       "sampleResponse": "In \"Night Shift,\" the speaker moves from a child's limited view of a hardworking mother to an adult's longing recognition of her sacrifice. Through the recurring image of a small light, details of what the work left on the mother's body, and a final stanza that mirrors the first, the poet shows that the speaker now understands the mother's love as something both fragile and sustaining.\n\nThe first stanza frames the mother as a light moving through darkness. At three in the morning the streets are \"a held breath,\" suggesting stillness and tension, and the mother's flashlight \"bobbed down the block like a firefly / too stubborn for winter.\" The simile captures her smallness against the cold and her determination; she is not a grand figure but a persistent one, carrying warmth into an unwelcoming world.\n\nThe second stanza reveals the limits of the child's knowledge: \"I never saw her bake. I only saw / what she brought home.\" What she brings home is evidence of labor written on her body: \"flour in the creases / of her knuckles,\" feet \"soaking in the basin.\" Yet even exhausted, she \"asked / about my spelling test.\" The juxtaposition shows that her attention to her child persisted through fatigue; the \"broken loaves\" the owner couldn't sell hint at a life of making do.\n\nThe final stanza transforms these memories. Now the speaker wakes at three \"for my own reasons,\" suggesting adult burdens that echo the mother's. Looking down the \"dark block,\" the speaker imagines \"a small light\" still coming home, \"warm, a little broken, / enough.\" These last words gather earlier images: the light, the broken loaves, the mother herself. \"Enough\" is both modest and profound; it acknowledges imperfection while affirming that her care sufficed.\n\nBy ending on that single-word line, the poet allows the speaker's understanding to settle: the mother's love was not grand, but in its persistence it was everything a child needed."
     }

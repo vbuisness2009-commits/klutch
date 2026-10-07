@@ -51,230 +51,545 @@
     "cramSheet": "**Incorporation:** 14th Due Process · McDonald (2nd) · Gideon (6th)\n\n**Religion:** Engel (no school prayer) · Yoder (Amish free exercise)\n\n**Speech:** Schenck (clear and present danger) · Tinker (armbands, no disruption) · NYT v. U.S. (prior restraint) · Brandenburg (imminent lawless action) · Morse\n\n**Accused:** 4th + exclusionary rule (Mapp) · 5th Miranda · 6th counsel · 8th\n\n**Equal protection:** Brown 1954 · Birmingham Jail · CRA 1964 (Commerce Clause) · VRA 1965 · Title IX\n\n**Recent:** Dobbs 2022 overruled Roe"
   },
   "vocab": [
-    { "term": "Civil liberties", "definition": "Constitutionally protected freedoms that government may not abridge, such as speech and religion." },
-    { "term": "Civil rights", "definition": "Protections against discrimination and guarantees of equal treatment under the law." },
-    { "term": "Selective incorporation", "definition": "The case-by-case application of Bill of Rights protections to the states through the 14th Amendment." },
-    { "term": "Due Process Clause", "definition": "14th Amendment clause barring states from depriving persons of life, liberty, or property without due process." },
-    { "term": "Establishment Clause", "definition": "First Amendment clause prohibiting government establishment or sponsorship of religion." },
-    { "term": "Free Exercise Clause", "definition": "First Amendment clause protecting the right to practice one's religion." },
-    { "term": "Symbolic speech", "definition": "Nonverbal expression, such as wearing armbands, protected by the First Amendment." },
-    { "term": "Clear and present danger", "definition": "The Schenck test allowing restrictions on speech that poses an immediate threat." },
-    { "term": "Prior restraint", "definition": "Government action preventing publication before it occurs; strongly disfavored by courts." },
-    { "term": "Exclusionary rule", "definition": "Bars illegally obtained evidence from being used at trial." },
-    { "term": "Equal Protection Clause", "definition": "14th Amendment clause requiring states to treat people equally under the law." },
-    { "term": "Civil disobedience", "definition": "Openly breaking an unjust law and accepting the penalty to protest it." },
-    { "term": "Title IX", "definition": "1972 law banning sex discrimination in federally funded education programs." },
-    { "term": "Affirmative action", "definition": "Policies taking race, sex, or other factors into account to remedy discrimination." }
+    {
+      "term": "Civil liberties",
+      "definition": "Constitutionally protected freedoms that government may not abridge, such as speech and religion."
+    },
+    {
+      "term": "Civil rights",
+      "definition": "Protections against discrimination and guarantees of equal treatment under the law."
+    },
+    {
+      "term": "Selective incorporation",
+      "definition": "The case-by-case application of Bill of Rights protections to the states through the 14th Amendment."
+    },
+    {
+      "term": "Due Process Clause",
+      "definition": "14th Amendment clause barring states from depriving persons of life, liberty, or property without due process."
+    },
+    {
+      "term": "Establishment Clause",
+      "definition": "First Amendment clause prohibiting government establishment or sponsorship of religion."
+    },
+    {
+      "term": "Free Exercise Clause",
+      "definition": "First Amendment clause protecting the right to practice one's religion."
+    },
+    {
+      "term": "Symbolic speech",
+      "definition": "Nonverbal expression, such as wearing armbands, protected by the First Amendment."
+    },
+    {
+      "term": "Clear and present danger",
+      "definition": "The Schenck test allowing restrictions on speech that poses an immediate threat."
+    },
+    {
+      "term": "Prior restraint",
+      "definition": "Government action preventing publication before it occurs; strongly disfavored by courts."
+    },
+    {
+      "term": "Exclusionary rule",
+      "definition": "Bars illegally obtained evidence from being used at trial."
+    },
+    {
+      "term": "Equal Protection Clause",
+      "definition": "14th Amendment clause requiring states to treat people equally under the law."
+    },
+    {
+      "term": "Civil disobedience",
+      "definition": "Openly breaking an unjust law and accepting the penalty to protest it."
+    },
+    {
+      "term": "Title IX",
+      "definition": "1972 law banning sex discrimination in federally funded education programs."
+    },
+    {
+      "term": "Affirmative action",
+      "definition": "Policies taking race, sex, or other factors into account to remedy discrimination."
+    }
   ],
   "practice": [
     {
-      "id": "u3-q01", "tier": "Intro", "type": "mcq", "topic": "First Amendment: Freedom of Religion",
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "First Amendment: Freedom of Religion",
       "stimulus": "A public school district requires teachers to begin each day by leading students in a short, nondenominational prayer. Students who object may remain silent or leave the room.",
       "stem": "Based on Engel v. Vitale (1962), the policy is most likely",
       "choices": [
-        { "id": "A", "text": "unconstitutional, because government-sponsored prayer in public schools violates the Establishment Clause" },
-        { "id": "B", "text": "constitutional, because participation is voluntary" },
-        { "id": "C", "text": "constitutional, because the prayer favors no particular religion" },
-        { "id": "D", "text": "unconstitutional, because it violates the Free Exercise Clause of students who pray" }
+        {
+          "id": "A",
+          "text": "unconstitutional, because government-sponsored prayer in public schools violates the Establishment Clause"
+        },
+        {
+          "id": "B",
+          "text": "constitutional, because participation is voluntary"
+        },
+        {
+          "id": "C",
+          "text": "constitutional, because the prayer favors no particular religion"
+        },
+        {
+          "id": "D",
+          "text": "unconstitutional, because it violates the Free Exercise Clause of students who pray"
+        }
       ],
       "answer": "A",
       "explanation": "Engel struck down a prayer that was both nondenominational and voluntary; official sponsorship itself is the problem.",
-      "distractors": { "B": "Engel rejected the voluntariness defense.", "C": "Engel rejected the nondenominational defense too." }
+      "distractors": {
+        "B": "Engel rejected the voluntariness defense.",
+        "C": "Engel rejected the nondenominational defense too."
+      }
     },
     {
-      "id": "u3-q02", "tier": "Intro", "type": "mcq", "topic": "First Amendment: Freedom of Speech",
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "First Amendment: Freedom of Speech",
       "stimulus": "Several high school students wear black T-shirts with a peace symbol to protest a war. Classes continue normally, but the principal suspends them for violating a newly announced rule against protest clothing.",
       "stem": "Which precedent most strongly supports the students?",
       "choices": [
-        { "id": "A", "text": "Tinker v. Des Moines, because the symbolic speech caused no substantial disruption" },
-        { "id": "B", "text": "Schenck v. United States, because the speech posed a clear and present danger" },
-        { "id": "C", "text": "Engel v. Vitale, because the protest involved religion" },
-        { "id": "D", "text": "Gideon v. Wainwright, because the students were denied counsel" }
+        {
+          "id": "A",
+          "text": "Engel v. Vitale, because the protest involved religion"
+        },
+        {
+          "id": "B",
+          "text": "Schenck v. United States, because the speech posed a clear and present danger"
+        },
+        {
+          "id": "C",
+          "text": "Tinker v. Des Moines, because the symbolic speech caused no substantial disruption"
+        },
+        {
+          "id": "D",
+          "text": "Gideon v. Wainwright, because the students were denied counsel"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The facts closely match Tinker: silent political symbols, no disruption, punished by a rule targeting the message.",
-      "distractors": { "B": "Schenck supports restricting speech, not the students." }
+      "distractors": {
+        "B": "Schenck supports restricting speech, not the students."
+      }
     },
     {
-      "id": "u3-q03", "tier": "Intro", "type": "mcq", "topic": "Amendments: Due Process and the Rights of the Accused",
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Amendments: Due Process and the Rights of the Accused",
       "stimulus": "A man charged with a felony in state court tells the judge he cannot afford a lawyer. The judge refuses to appoint one, and the man is convicted after representing himself.",
       "stem": "The conviction is most likely to be overturned because",
       "choices": [
-        { "id": "A", "text": "the Sixth Amendment right to counsel, applied to states through the Fourteenth Amendment, requires appointing a lawyer" },
-        { "id": "B", "text": "the Fifth Amendment protects against double jeopardy" },
-        { "id": "C", "text": "the exclusionary rule bars his testimony" },
-        { "id": "D", "text": "the Eighth Amendment bans all imprisonment for felonies" }
+        {
+          "id": "A",
+          "text": "the Fifth Amendment protects against double jeopardy"
+        },
+        {
+          "id": "B",
+          "text": "the Sixth Amendment right to counsel, applied to states through the Fourteenth Amendment, requires appointing a lawyer"
+        },
+        {
+          "id": "C",
+          "text": "the exclusionary rule bars his testimony"
+        },
+        {
+          "id": "D",
+          "text": "the Eighth Amendment bans all imprisonment for felonies"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Gideon v. Wainwright (1963) incorporated the right to counsel for felony defendants in state courts.",
-      "distractors": { "B": "He was only tried once." }
+      "distractors": {
+        "A": "He was only tried once."
+      }
     },
     {
-      "id": "u3-q04", "tier": "Intro", "type": "mcq", "topic": "Amendments: Due Process and the Rights of the Accused",
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Amendments: Due Process and the Rights of the Accused",
       "stimulus": "Police enter a home without a warrant or consent and find stolen goods. At trial, the defense asks the judge to keep the goods out of evidence.",
       "stem": "The defense is relying on",
       "choices": [
-        { "id": "A", "text": "the exclusionary rule, which bars evidence obtained through an unreasonable search" },
-        { "id": "B", "text": "the Establishment Clause" },
-        { "id": "C", "text": "prior restraint" },
-        { "id": "D", "text": "the Equal Protection Clause" }
+        {
+          "id": "A",
+          "text": "the Equal Protection Clause"
+        },
+        {
+          "id": "B",
+          "text": "the Establishment Clause"
+        },
+        {
+          "id": "C",
+          "text": "prior restraint"
+        },
+        {
+          "id": "D",
+          "text": "the exclusionary rule, which bars evidence obtained through an unreasonable search"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The Fourth Amendment protects against unreasonable searches, and Mapp v. Ohio applied the exclusionary rule to the states.",
-      "distractors": { "C": "Prior restraint concerns blocking publication." }
+      "distractors": {
+        "C": "Prior restraint concerns blocking publication."
+      }
     },
     {
-      "id": "u3-q05", "tier": "Exam level", "type": "mcq", "topic": "Selective Incorporation",
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Selective Incorporation",
       "stimulus": "A city bans residents from keeping handguns in their homes. A resident argues the ban violates the Second Amendment, but the city responds that the Bill of Rights restricts only the federal government.",
       "stem": "Which statement best describes how the Supreme Court resolved this kind of dispute in McDonald v. Chicago (2010)?",
       "choices": [
-        { "id": "A", "text": "The Court incorporated the Second Amendment against the states through the Fourteenth Amendment's Due Process Clause, striking down the ban." },
-        { "id": "B", "text": "The Court agreed that the Second Amendment applies only to the federal government." },
-        { "id": "C", "text": "The Court held that gun regulation is reserved entirely to Congress." },
-        { "id": "D", "text": "The Court ruled the Second Amendment protects only state militias." }
+        {
+          "id": "A",
+          "text": "The Court incorporated the Second Amendment against the states through the Fourteenth Amendment's Due Process Clause, striking down the ban."
+        },
+        {
+          "id": "B",
+          "text": "The Court agreed that the Second Amendment applies only to the federal government."
+        },
+        {
+          "id": "C",
+          "text": "The Court held that gun regulation is reserved entirely to Congress."
+        },
+        {
+          "id": "D",
+          "text": "The Court ruled the Second Amendment protects only state militias."
+        }
       ],
       "answer": "A",
       "explanation": "McDonald extended the individual right recognized in D.C. v. Heller to state and local governments via selective incorporation.",
-      "distractors": { "B": "That was the city's argument, which the Court rejected." }
+      "distractors": {
+        "B": "That was the city's argument, which the Court rejected."
+      }
     },
     {
-      "id": "u3-q06", "tier": "Exam level", "type": "mcq", "topic": "First Amendment: Freedom of the Press",
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "First Amendment: Freedom of the Press",
       "stimulus": "A newspaper obtains a classified government study about a past military conflict and prepares to publish it. The administration asks a federal court to block publication, arguing national security would be harmed.",
       "stem": "Based on New York Times Co. v. United States (1971), the court would most likely",
       "choices": [
-        { "id": "A", "text": "refuse to block publication, because prior restraint carries a heavy presumption against its constitutionality" },
-        { "id": "B", "text": "block publication, because the documents are classified" },
-        { "id": "C", "text": "allow publication only after Congress votes" },
-        { "id": "D", "text": "require the newspaper to pay damages before publishing" }
+        {
+          "id": "A",
+          "text": "require the newspaper to pay damages before publishing"
+        },
+        {
+          "id": "B",
+          "text": "block publication, because the documents are classified"
+        },
+        {
+          "id": "C",
+          "text": "allow publication only after Congress votes"
+        },
+        {
+          "id": "D",
+          "text": "refuse to block publication, because prior restraint carries a heavy presumption against its constitutionality"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "In the Pentagon Papers case, the government couldn't meet the heavy burden needed to justify stopping publication in advance.",
-      "distractors": { "B": "Classification alone wasn't enough to justify prior restraint." }
+      "distractors": {
+        "B": "Classification alone wasn't enough to justify prior restraint."
+      }
     },
     {
-      "id": "u3-q07", "tier": "Exam level", "type": "mcq", "topic": "First Amendment: Freedom of Religion",
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "First Amendment: Freedom of Religion",
       "stimulus": "A state requires all children to attend school until age 16. Members of a religious community whose faith teaches separation from the modern world want to end formal schooling after eighth grade and continue education at home and in the community.",
       "stem": "Which case is most relevant, and how would it likely apply?",
       "choices": [
-        { "id": "A", "text": "Wisconsin v. Yoder; the families would likely win an exemption under the Free Exercise Clause." },
-        { "id": "B", "text": "Engel v. Vitale; the state's requirement would be struck down under the Establishment Clause." },
-        { "id": "C", "text": "Tinker v. Des Moines; the students have a free speech right to leave school." },
-        { "id": "D", "text": "Wisconsin v. Yoder; the state would win because education is a compelling interest that always prevails." }
+        {
+          "id": "A",
+          "text": "Tinker v. Des Moines; the students have a free speech right to leave school."
+        },
+        {
+          "id": "B",
+          "text": "Engel v. Vitale; the state's requirement would be struck down under the Establishment Clause."
+        },
+        {
+          "id": "C",
+          "text": "Wisconsin v. Yoder; the families would likely win an exemption under the Free Exercise Clause."
+        },
+        {
+          "id": "D",
+          "text": "Wisconsin v. Yoder; the state would win because education is a compelling interest that always prevails."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Yoder held that the state's interest in two more years of schooling didn't justify burdening Amish religious practice.",
-      "distractors": { "D": "Yoder came out the other way.", "B": "The issue is burdening religion, not establishing it." }
+      "distractors": {
+        "D": "Yoder came out the other way.",
+        "B": "The issue is burdening religion, not establishing it."
+      }
     },
     {
-      "id": "u3-q08", "tier": "Exam level", "type": "mcq", "topic": "The Fourteenth Amendment's Equal Protection Clause",
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "The Fourteenth Amendment's Equal Protection Clause",
       "stem": "In Brown v. Board of Education (1954), the Supreme Court relied primarily on which reasoning?",
       "choices": [
-        { "id": "A", "text": "Separate educational facilities are inherently unequal and violate the Equal Protection Clause." },
-        { "id": "B", "text": "Segregation is constitutional if facilities are equal." },
-        { "id": "C", "text": "Congress has power to segregate schools under the Commerce Clause." },
-        { "id": "D", "text": "The First Amendment guarantees integrated schools." }
+        {
+          "id": "A",
+          "text": "Segregation is constitutional if facilities are equal."
+        },
+        {
+          "id": "B",
+          "text": "Separate educational facilities are inherently unequal and violate the Equal Protection Clause."
+        },
+        {
+          "id": "C",
+          "text": "Congress has power to segregate schools under the Commerce Clause."
+        },
+        {
+          "id": "D",
+          "text": "The First Amendment guarantees integrated schools."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The Court found segregation harmed Black children regardless of tangible equality, overturning Plessy's doctrine in education.",
-      "distractors": { "B": "That's Plessy v. Ferguson's doctrine, which Brown rejected." }
+      "distractors": {
+        "A": "That's Plessy v. Ferguson's doctrine, which Brown rejected."
+      }
     },
     {
-      "id": "u3-q09", "tier": "Exam level", "type": "mcq", "topic": "Social Movements and Equal Protection",
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Social Movements and Equal Protection",
       "stimulus": "One has not only a legal but a moral responsibility to obey just laws. Conversely, one has a moral responsibility to disobey unjust laws. — Martin Luther King Jr., \"Letter from Birmingham Jail,\" 1963",
       "stem": "King's argument in this passage most directly supports which political strategy?",
       "choices": [
-        { "id": "A", "text": "Nonviolent civil disobedience against segregation laws" },
-        { "id": "B", "text": "Waiting for courts to act before protesting" },
-        { "id": "C", "text": "Armed resistance against state governments" },
-        { "id": "D", "text": "Lobbying Congress exclusively" }
+        {
+          "id": "A",
+          "text": "Nonviolent civil disobedience against segregation laws"
+        },
+        {
+          "id": "B",
+          "text": "Waiting for courts to act before protesting"
+        },
+        {
+          "id": "C",
+          "text": "Armed resistance against state governments"
+        },
+        {
+          "id": "D",
+          "text": "Lobbying Congress exclusively"
+        }
       ],
       "answer": "A",
       "explanation": "King argued that unjust laws should be openly broken, with protesters accepting the penalty, to expose injustice.",
-      "distractors": { "B": "King criticized those who urged patience and waiting." }
+      "distractors": {
+        "B": "King criticized those who urged patience and waiting."
+      }
     },
     {
-      "id": "u3-q10", "tier": "Exam level", "type": "mcq", "topic": "Government Responses to Social Movements",
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Government Responses to Social Movements",
       "stimulus": "A public university that receives federal funds offers 12 varsity sports for men and 4 for women, though women make up more than half of its students.",
       "stem": "A student who believes this arrangement is illegal would most likely cite",
       "choices": [
-        { "id": "A", "text": "Title IX of the Education Amendments of 1972" },
-        { "id": "B", "text": "the Voting Rights Act of 1965" },
-        { "id": "C", "text": "the Second Amendment" },
-        { "id": "D", "text": "the Establishment Clause" }
+        {
+          "id": "A",
+          "text": "the Second Amendment"
+        },
+        {
+          "id": "B",
+          "text": "the Voting Rights Act of 1965"
+        },
+        {
+          "id": "C",
+          "text": "Title IX of the Education Amendments of 1972"
+        },
+        {
+          "id": "D",
+          "text": "the Establishment Clause"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Title IX bars sex discrimination in federally funded education programs, including athletics.",
-      "distractors": { "B": "The VRA concerns voting." }
+      "distractors": {
+        "B": "The VRA concerns voting."
+      }
     },
     {
-      "id": "u3-q11", "tier": "Hardest", "type": "mcq", "topic": "First Amendment: Freedom of Religion",
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "First Amendment: Freedom of Religion",
       "stem": "Which statement best explains how Engel v. Vitale and Wisconsin v. Yoder together illustrate the First Amendment's treatment of religion?",
       "choices": [
-        { "id": "A", "text": "Engel limits government from promoting religion, while Yoder limits government from burdening religious practice." },
-        { "id": "B", "text": "Both cases expanded government's power to promote religion in schools." },
-        { "id": "C", "text": "Both cases were decided under the Establishment Clause." },
-        { "id": "D", "text": "Engel protects free exercise, while Yoder restricts establishment." }
+        {
+          "id": "A",
+          "text": "Engel protects free exercise, while Yoder restricts establishment."
+        },
+        {
+          "id": "B",
+          "text": "Both cases expanded government's power to promote religion in schools."
+        },
+        {
+          "id": "C",
+          "text": "Both cases were decided under the Establishment Clause."
+        },
+        {
+          "id": "D",
+          "text": "Engel limits government from promoting religion, while Yoder limits government from burdening religious practice."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Engel applies the Establishment Clause; Yoder applies the Free Exercise Clause. Together they mark the two ways government can overstep.",
-      "distractors": { "D": "Reverses the clauses." }
+      "distractors": {
+        "A": "Reverses the clauses."
+      }
     },
     {
-      "id": "u3-q12", "tier": "Hardest", "type": "mcq", "topic": "First Amendment: Freedom of Speech",
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "First Amendment: Freedom of Speech",
       "stimulus": "At a rally, a speaker says that someday, if the government keeps ignoring citizens, people may have to take up arms. There is no specific plan, time, or target, and the crowd disperses peacefully.",
       "stem": "Under the modern standard that refined Schenck v. United States, the speech is most likely",
       "choices": [
-        { "id": "A", "text": "protected, because it is abstract advocacy not directed to inciting imminent lawless action" },
-        { "id": "B", "text": "unprotected, because any mention of violence creates a clear and present danger" },
-        { "id": "C", "text": "unprotected, because rallies are not public forums" },
-        { "id": "D", "text": "protected, because all political speech is absolutely protected" }
+        {
+          "id": "A",
+          "text": "unprotected, because any mention of violence creates a clear and present danger"
+        },
+        {
+          "id": "B",
+          "text": "protected, because it is abstract advocacy not directed to inciting imminent lawless action"
+        },
+        {
+          "id": "C",
+          "text": "unprotected, because rallies are not public forums"
+        },
+        {
+          "id": "D",
+          "text": "protected, because all political speech is absolutely protected"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Brandenburg v. Ohio (1969) protects advocacy unless it's intended and likely to produce imminent lawless action, a narrower test than Schenck's.",
-      "distractors": { "B": "That reads Schenck too broadly and ignores Brandenburg.", "D": "True threats and incitement aren't protected." }
+      "distractors": {
+        "D": "True threats and incitement aren't protected.",
+        "A": "That reads Schenck too broadly and ignores Brandenburg."
+      }
     },
     {
-      "id": "u3-q13", "tier": "Hardest", "type": "mcq", "topic": "Government Responses to Social Movements",
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Government Responses to Social Movements",
       "stem": "A motel owner argues that Congress lacks power to ban racial discrimination by private businesses because the Fourteenth Amendment restricts only state action. On what basis did the Supreme Court uphold the Civil Rights Act of 1964 against this argument?",
       "choices": [
-        { "id": "A", "text": "The Commerce Clause, because discrimination by businesses serving interstate travelers affects interstate commerce" },
-        { "id": "B", "text": "The Establishment Clause" },
-        { "id": "C", "text": "The Tenth Amendment" },
-        { "id": "D", "text": "The Second Amendment" }
+        {
+          "id": "A",
+          "text": "The Commerce Clause, because discrimination by businesses serving interstate travelers affects interstate commerce"
+        },
+        {
+          "id": "B",
+          "text": "The Establishment Clause"
+        },
+        {
+          "id": "C",
+          "text": "The Tenth Amendment"
+        },
+        {
+          "id": "D",
+          "text": "The Second Amendment"
+        }
       ],
       "answer": "A",
       "explanation": "In Heart of Atlanta Motel v. United States (1964), the Court used Congress's commerce power to reach private discrimination.",
-      "distractors": { "C": "The Tenth Amendment reserves powers to states; it was the motel's argument, not the basis for upholding the law." }
+      "distractors": {
+        "C": "The Tenth Amendment reserves powers to states; it was the motel's argument, not the basis for upholding the law."
+      }
     },
     {
-      "id": "u3-q14", "tier": "Hardest", "type": "mcq", "topic": "Balancing Individual Freedom with Public Order",
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Balancing Individual Freedom with Public Order",
       "stem": "Which best describes the effect of Dobbs v. Jackson Women's Health Organization (2022)?",
       "choices": [
-        { "id": "A", "text": "It overruled Roe v. Wade, holding that the Constitution does not confer a right to abortion and returning regulation to the states." },
-        { "id": "B", "text": "It established a nationwide constitutional right to abortion." },
-        { "id": "C", "text": "It required Congress to ban abortion nationwide." },
-        { "id": "D", "text": "It applied only to federally funded hospitals." }
+        {
+          "id": "A",
+          "text": "It required Congress to ban abortion nationwide."
+        },
+        {
+          "id": "B",
+          "text": "It established a nationwide constitutional right to abortion."
+        },
+        {
+          "id": "C",
+          "text": "It overruled Roe v. Wade, holding that the Constitution does not confer a right to abortion and returning regulation to the states."
+        },
+        {
+          "id": "D",
+          "text": "It applied only to federally funded hospitals."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The Court rejected Roe's reasoning that the Due Process Clause protected an abortion right, so states may now set their own policies.",
-      "distractors": { "B": "That describes Roe, which Dobbs overruled." }
+      "distractors": {
+        "B": "That describes Roe, which Dobbs overruled."
+      }
     },
     {
-      "id": "u3-frq1", "tier": "Exam level", "type": "frq", "topic": "First Amendment: Freedom of Speech", "frqType": "Q3 SCOTUS Comparison",
+      "id": "u3-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "First Amendment: Freedom of Speech",
+      "frqType": "Q3 SCOTUS Comparison",
       "stimulus": "In 2002, a high school allowed students to leave class to watch the Olympic torch relay pass the school during school hours, supervised by teachers. Student Joseph Frederick unfurled a banner reading \"BONG HiTS 4 JESUS.\" The principal confiscated it and suspended him. In Morse v. Frederick (2007), the Supreme Court ruled 5–4 that the school did not violate Frederick's First Amendment rights, because schools may restrict student speech at school events that can reasonably be viewed as promoting illegal drug use.",
       "prompt": "Answer (a), (b), and (c).",
       "parts": [
-        { "label": "a", "prompt": "Identify the constitutional clause that is common to both Morse v. Frederick (2007) and Tinker v. Des Moines Independent Community School District (1969).", "points": 1 },
-        { "label": "b", "prompt": "Based on the constitutional clause identified in part (a), explain why the facts of Tinker v. Des Moines led to a different holding than the holding in Morse v. Frederick.", "points": 2 },
-        { "label": "c", "prompt": "Describe an action that students who disagree with the holding in Morse v. Frederick could take to limit its impact.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Identify the constitutional clause that is common to both Morse v. Frederick (2007) and Tinker v. Des Moines Independent Community School District (1969).",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Based on the constitutional clause identified in part (a), explain why the facts of Tinker v. Des Moines led to a different holding than the holding in Morse v. Frederick.",
+          "points": 2
+        },
+        {
+          "label": "c",
+          "prompt": "Describe an action that students who disagree with the holding in Morse v. Frederick could take to limit its impact.",
+          "points": 1
+        }
       ],
       "points": 4,
       "minutes": 20,
       "rubric": [
-        { "criterion": "(a)", "points": 1, "description": "The Free Speech Clause of the First Amendment." },
-        { "criterion": "(b) Tinker facts/holding", "points": 1, "description": "Describes Tinker: students wore black armbands to protest the Vietnam War; the Court held this symbolic political speech was protected because it caused no substantial disruption." },
-        { "criterion": "(b) Explanation of difference", "points": 1, "description": "Explains that Tinker involved political speech without disruption, whereas Morse involved speech the school reasonably saw as promoting illegal drug use at a school event, which the Court found schools may restrict." },
-        { "criterion": "(c)", "points": 1, "description": "Describes a valid action, e.g., lobbying state legislators to pass a law protecting student expression, petitioning the school board to change its policy, or supporting litigation under state constitutions." }
+        {
+          "criterion": "(a)",
+          "points": 1,
+          "description": "The Free Speech Clause of the First Amendment."
+        },
+        {
+          "criterion": "(b) Tinker facts/holding",
+          "points": 1,
+          "description": "Describes Tinker: students wore black armbands to protest the Vietnam War; the Court held this symbolic political speech was protected because it caused no substantial disruption."
+        },
+        {
+          "criterion": "(b) Explanation of difference",
+          "points": 1,
+          "description": "Explains that Tinker involved political speech without disruption, whereas Morse involved speech the school reasonably saw as promoting illegal drug use at a school event, which the Court found schools may restrict."
+        },
+        {
+          "criterion": "(c)",
+          "points": 1,
+          "description": "Describes a valid action, e.g., lobbying state legislators to pass a law protecting student expression, petitioning the school board to change its policy, or supporting litigation under state constitutions."
+        }
       ],
       "sampleResponse": "(a) Both cases involve the Free Speech Clause of the First Amendment.\n\n(b) In Tinker, students wore black armbands to school to protest the Vietnam War. The Court held that this was symbolic political speech and that students do not lose their First Amendment rights at school, so the school couldn't punish it without evidence of substantial disruption. In Morse, the banner appeared at a school-supervised event and could reasonably be read as promoting illegal drug use rather than expressing a political view. Because the school has an interest in deterring drug use, the Court held it could restrict that message, so the outcome differed from Tinker's protection of political expression.\n\n(c) Students could lobby their state legislature to pass a student free expression law that gives students broader speech protections than the Court's minimum, limiting the effect of Morse in their state."
     }

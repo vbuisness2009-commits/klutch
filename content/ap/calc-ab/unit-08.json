@@ -114,7 +114,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "3"
+          "text": "9/4"
         },
         {
           "id": "B",
@@ -126,15 +126,15 @@
         },
         {
           "id": "D",
-          "text": "9/4"
+          "text": "3"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "(1/3)∫₀³ x² dx = (1/3)(9) = 3.",
       "distractors": {
         "B": "Forgot to divide by the interval length.",
         "C": "Averaged f(0) and f(3).",
-        "D": "Evaluated f at the midpoint x = 1.5 instead of integrating."
+        "A": "Evaluated f at the midpoint x = 1.5 instead of integrating."
       }
     },
     {
@@ -209,7 +209,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "8π"
+          "text": "16π/3"
         },
         {
           "id": "B",
@@ -221,14 +221,14 @@
         },
         {
           "id": "D",
-          "text": "16π/3"
+          "text": "8π"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "π∫₀⁴ (√x)² dx = π∫₀⁴ x dx = 8π.",
       "distractors": {
         "B": "Forgot the ½ from integrating x.",
-        "D": "Multiplied the area under the curve, 16/3, by π."
+        "A": "Multiplied the area under the curve, 16/3, by π."
       }
     },
     {
@@ -240,11 +240,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "4"
+          "text": "0"
         },
         {
           "id": "B",
-          "text": "0"
+          "text": "4"
         },
         {
           "id": "C",
@@ -255,11 +255,11 @@
           "text": "8"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "∫₀⁴ |t − 2| dt: two triangles of area 2 each, total 4.",
       "distractors": {
-        "B": "That's the displacement.",
-        "C": "Counted only one triangle."
+        "C": "Counted only one triangle.",
+        "A": "That's the displacement."
       }
     },
     {
@@ -271,7 +271,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "32/3"
+          "text": "8"
         },
         {
           "id": "B",
@@ -279,18 +279,18 @@
         },
         {
           "id": "C",
-          "text": "8"
+          "text": "32/3"
         },
         {
           "id": "D",
           "text": "64/3"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Intersections at x = ±2. ∫₋₂² (4 − x²) dx = 16 − 16/3 = 32/3.",
       "distractors": {
         "B": "Integrated only from 0 to 2.",
-        "C": "Computed the triangle with the same vertices."
+        "A": "Computed the triangle with the same vertices."
       }
     },
     {
@@ -302,7 +302,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "2π/15"
+          "text": "8π/15"
         },
         {
           "id": "B",
@@ -314,10 +314,10 @@
         },
         {
           "id": "D",
-          "text": "8π/15"
+          "text": "2π/15"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Outer radius x, inner radius x². π∫₀¹ (x² − x⁴) dx = π(1/3 − 1/5) = 2π/15.",
       "distractors": {
         "B": "Used π∫(x − x²)², subtracting before squaring.",
@@ -364,7 +364,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "9/2"
+          "text": "10/3"
         },
         {
           "id": "B",
@@ -372,18 +372,18 @@
         },
         {
           "id": "C",
-          "text": "10/3"
+          "text": "9/2"
         },
         {
           "id": "D",
           "text": "27/2"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "y² = y + 2 at y = −1 and y = 2. ∫₋₁² (y + 2 − y²) dy = [y²/2 + 2y − y³/3] from −1 to 2 = 10/3 − (−7/6) = 9/2.",
       "distractors": {
         "B": "Integrated only from −1 to 0.",
-        "C": "Integrated only from 0 to 2."
+        "A": "Integrated only from 0 to 2."
       }
     },
     {
@@ -395,11 +395,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "125 liters"
+          "text": "75 liters"
         },
         {
           "id": "B",
-          "text": "75 liters"
+          "text": "125 liters"
         },
         {
           "id": "C",
@@ -410,7 +410,7 @@
           "text": "25 liters"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "100 + ∫₀⁵ (10 − 2t) dt = 100 + (50 − 25) = 125.",
       "distractors": {
         "C": "Ignored the drain.",
@@ -426,7 +426,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "512π/15"
+          "text": "32π/3"
         },
         {
           "id": "B",
@@ -434,19 +434,19 @@
         },
         {
           "id": "C",
-          "text": "32π/3"
+          "text": "512π/15"
         },
         {
           "id": "D",
           "text": "256π/5"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Radius 4 − x² for −2 ≤ x ≤ 2. π∫₋₂² (4 − x²)² dx = π[64 − 128/3 + 64/5] = 512π/15.",
       "distractors": {
         "B": "Integrated only from 0 to 2.",
-        "C": "Multiplied the area, 32/3, by π.",
-        "D": "Revolved about the x-axis instead: π∫(4² − (x²)²) dx."
+        "D": "Revolved about the x-axis instead: π∫(4² − (x²)²) dx.",
+        "A": "Multiplied the area, 32/3, by π."
       }
     },
     {
@@ -458,7 +458,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "1 + 2/π"
+          "text": "1 − 2/π"
         },
         {
           "id": "B",
@@ -470,15 +470,15 @@
         },
         {
           "id": "D",
-          "text": "1 − 2/π"
+          "text": "1 + 2/π"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "∫₀¹ sin(πt) dt = [−cos(πt)/π]₀¹ = (1/π) + (1/π) = 2/π. x(1) = 1 + 2/π.",
       "distractors": {
         "B": "Forgot x(0).",
         "C": "Thought sin integrates to zero over this interval.",
-        "D": "Sign error in the antiderivative."
+        "A": "Sign error in the antiderivative."
       }
     },
     {
@@ -521,11 +521,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "2√2 − 2"
+          "text": "0"
         },
         {
           "id": "B",
-          "text": "0"
+          "text": "2√2 − 2"
         },
         {
           "id": "C",
@@ -536,11 +536,11 @@
           "text": "2"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "They cross at π/4. By symmetry, 2∫₀^(π/4) (cos x − sin x) dx = 2[(√2/2 + √2/2) − 1] = 2√2 − 2.",
       "distractors": {
-        "B": "Integrated cos x − sin x across the whole interval without splitting.",
-        "C": "Computed only one of the two regions."
+        "C": "Computed only one of the two regions.",
+        "A": "Integrated cos x − sin x across the whole interval without splitting."
       }
     },
     {

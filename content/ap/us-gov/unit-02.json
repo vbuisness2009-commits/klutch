@@ -47,235 +47,566 @@
     "cramSheet": "**House:** 435 · 2 yrs · Rules Committee · revenue bills · impeach\n\n**Senate:** 100 · 6 yrs · filibuster/cloture 60 · holds · confirm, ratify (2/3), try impeachments\n\n**Redistricting:** Baker v. Carr (one person, one vote) · Shaw v. Reno (racial gerrymanders, strict scrutiny)\n\n**President formal:** veto · CINC · treaties · appointments · pardons\n\n**Informal:** executive orders · agreements · signing statements · bully pulpit · Fed 70\n\n**Bureaucracy:** discretionary/rule-making · iron triangles · oversight · power of purse\n\n**Courts:** Fed 78 · Marbury · stare decisis · restraint vs. activism · checks: appointments, legislation, amendments"
   },
   "vocab": [
-    { "term": "Bicameralism", "definition": "A legislature with two chambers, such as the House and Senate." },
-    { "term": "Filibuster", "definition": "Prolonged Senate debate used to delay or block a vote." },
-    { "term": "Cloture", "definition": "A Senate vote of 60 senators to end debate and break a filibuster." },
-    { "term": "Rules Committee", "definition": "House committee that sets the terms of debate and amendments for each bill." },
-    { "term": "Gerrymandering", "definition": "Drawing district boundaries to advantage a party or group." },
-    { "term": "Divided government", "definition": "When one party controls the presidency and another controls at least one chamber of Congress." },
-    { "term": "Executive order", "definition": "A directive from the president to federal agencies that carries the force of law within the executive branch." },
-    { "term": "Executive agreement", "definition": "A pact between the president and a foreign leader that doesn't require Senate ratification." },
-    { "term": "Signing statement", "definition": "A president's written comments on a bill at signing, often indicating how it will be interpreted or enforced." },
-    { "term": "Bully pulpit", "definition": "The president's ability to use public attention to shape opinion and pressure Congress." },
-    { "term": "Discretionary authority", "definition": "An agency's power to decide how to carry out a law when Congress leaves details open." },
-    { "term": "Iron triangle", "definition": "A stable relationship among an agency, a congressional committee, and an interest group." },
-    { "term": "Congressional oversight", "definition": "Congress's review and monitoring of executive agencies through hearings, investigations, and funding." },
-    { "term": "Stare decisis", "definition": "The principle of following precedent in judicial decisions." },
-    { "term": "Judicial restraint", "definition": "A philosophy of deferring to elected branches and precedent." },
-    { "term": "Judicial activism", "definition": "A philosophy more willing to strike down laws or depart from precedent." }
+    {
+      "term": "Bicameralism",
+      "definition": "A legislature with two chambers, such as the House and Senate."
+    },
+    {
+      "term": "Filibuster",
+      "definition": "Prolonged Senate debate used to delay or block a vote."
+    },
+    {
+      "term": "Cloture",
+      "definition": "A Senate vote of 60 senators to end debate and break a filibuster."
+    },
+    {
+      "term": "Rules Committee",
+      "definition": "House committee that sets the terms of debate and amendments for each bill."
+    },
+    {
+      "term": "Gerrymandering",
+      "definition": "Drawing district boundaries to advantage a party or group."
+    },
+    {
+      "term": "Divided government",
+      "definition": "When one party controls the presidency and another controls at least one chamber of Congress."
+    },
+    {
+      "term": "Executive order",
+      "definition": "A directive from the president to federal agencies that carries the force of law within the executive branch."
+    },
+    {
+      "term": "Executive agreement",
+      "definition": "A pact between the president and a foreign leader that doesn't require Senate ratification."
+    },
+    {
+      "term": "Signing statement",
+      "definition": "A president's written comments on a bill at signing, often indicating how it will be interpreted or enforced."
+    },
+    {
+      "term": "Bully pulpit",
+      "definition": "The president's ability to use public attention to shape opinion and pressure Congress."
+    },
+    {
+      "term": "Discretionary authority",
+      "definition": "An agency's power to decide how to carry out a law when Congress leaves details open."
+    },
+    {
+      "term": "Iron triangle",
+      "definition": "A stable relationship among an agency, a congressional committee, and an interest group."
+    },
+    {
+      "term": "Congressional oversight",
+      "definition": "Congress's review and monitoring of executive agencies through hearings, investigations, and funding."
+    },
+    {
+      "term": "Stare decisis",
+      "definition": "The principle of following precedent in judicial decisions."
+    },
+    {
+      "term": "Judicial restraint",
+      "definition": "A philosophy of deferring to elected branches and precedent."
+    },
+    {
+      "term": "Judicial activism",
+      "definition": "A philosophy more willing to strike down laws or depart from precedent."
+    }
   ],
   "practice": [
     {
-      "id": "u2-q01", "tier": "Intro", "type": "mcq", "topic": "Structures, Powers, and Functions of Congress",
+      "id": "u2-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Structures, Powers, and Functions of Congress",
       "stimulus": "A senator opposed to an energy bill announces she will keep debating it indefinitely. The bill's supporters have 57 votes in favor.",
       "stem": "Which statement best describes the bill's prospects?",
       "choices": [
-        { "id": "A", "text": "Supporters cannot end debate without at least 60 votes for cloture, so the bill is likely to stall." },
-        { "id": "B", "text": "The bill passes because it has majority support." },
-        { "id": "C", "text": "The Speaker of the House can end the Senate debate." },
-        { "id": "D", "text": "The bill goes to the Rules Committee, which sets a time limit." }
+        {
+          "id": "A",
+          "text": "The Speaker of the House can end the Senate debate."
+        },
+        {
+          "id": "B",
+          "text": "The bill passes because it has majority support."
+        },
+        {
+          "id": "C",
+          "text": "Supporters cannot end debate without at least 60 votes for cloture, so the bill is likely to stall."
+        },
+        {
+          "id": "D",
+          "text": "The bill goes to the Rules Committee, which sets a time limit."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "A filibuster can be ended only by cloture, which requires 60 votes. A simple majority isn't enough to force a final vote.",
-      "distractors": { "C": "The Speaker leads the House, not the Senate.", "D": "The Rules Committee is a House institution." }
+      "distractors": {
+        "D": "The Rules Committee is a House institution.",
+        "A": "The Speaker leads the House, not the Senate."
+      }
     },
     {
-      "id": "u2-q02", "tier": "Intro", "type": "mcq", "topic": "Presidential Powers",
+      "id": "u2-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Presidential Powers",
       "stimulus": "The president reaches an agreement with Japan's prime minister on reducing tariffs on agricultural goods. The agreement takes effect without a vote in the Senate.",
       "stem": "The president's action is an example of",
       "choices": [
-        { "id": "A", "text": "an executive agreement, an informal power that bypasses Senate ratification" },
-        { "id": "B", "text": "a treaty, which takes effect without Senate approval" },
-        { "id": "C", "text": "an executive order, which binds foreign governments" },
-        { "id": "D", "text": "a signing statement" }
+        {
+          "id": "A",
+          "text": "an executive agreement, an informal power that bypasses Senate ratification"
+        },
+        {
+          "id": "B",
+          "text": "a treaty, which takes effect without Senate approval"
+        },
+        {
+          "id": "C",
+          "text": "an executive order, which binds foreign governments"
+        },
+        {
+          "id": "D",
+          "text": "a signing statement"
+        }
       ],
       "answer": "A",
       "explanation": "Executive agreements are made between heads of state and don't require the two-thirds Senate vote that treaties do.",
-      "distractors": { "B": "Treaties require ratification by two-thirds of the Senate.", "C": "Executive orders direct federal agencies, not foreign nations." }
+      "distractors": {
+        "B": "Treaties require ratification by two-thirds of the Senate.",
+        "C": "Executive orders direct federal agencies, not foreign nations."
+      }
     },
     {
-      "id": "u2-q03", "tier": "Intro", "type": "mcq", "topic": "The Bureaucracy",
+      "id": "u2-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "The Bureaucracy",
       "stimulus": "Congress passes a law requiring \"safe levels\" of lead in drinking water. The Environmental Protection Agency then publishes a regulation setting the maximum allowable concentration at a specific number of parts per billion.",
       "stem": "The EPA's action best illustrates",
       "choices": [
-        { "id": "A", "text": "bureaucratic rule-making authority used to implement a broadly written law" },
-        { "id": "B", "text": "congressional oversight of the executive branch" },
-        { "id": "C", "text": "judicial review of an agency decision" },
-        { "id": "D", "text": "an iron triangle blocking legislation" }
+        {
+          "id": "A",
+          "text": "judicial review of an agency decision"
+        },
+        {
+          "id": "B",
+          "text": "congressional oversight of the executive branch"
+        },
+        {
+          "id": "C",
+          "text": "bureaucratic rule-making authority used to implement a broadly written law"
+        },
+        {
+          "id": "D",
+          "text": "an iron triangle blocking legislation"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Congress left the specifics to experts; the agency used delegated discretion to write a binding rule.",
-      "distractors": { "B": "Oversight is Congress reviewing the agency, not the agency acting." }
+      "distractors": {
+        "B": "Oversight is Congress reviewing the agency, not the agency acting."
+      }
     },
     {
-      "id": "u2-q04", "tier": "Intro", "type": "mcq", "topic": "Congressional Behavior",
+      "id": "u2-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Congressional Behavior",
       "stimulus": "After the census, a state legislature controlled by Party A draws district lines that place most of Party B's voters in two districts, which Party B wins by huge margins, while Party A wins the remaining seven districts narrowly.",
       "stem": "This redistricting strategy is best described as",
       "choices": [
-        { "id": "A", "text": "partisan gerrymandering by packing the opposing party's voters" },
-        { "id": "B", "text": "reapportionment of House seats among states" },
-        { "id": "C", "text": "the creation of majority-minority districts under the Voting Rights Act" },
-        { "id": "D", "text": "a filibuster of the districting plan" }
+        {
+          "id": "A",
+          "text": "a filibuster of the districting plan"
+        },
+        {
+          "id": "B",
+          "text": "reapportionment of House seats among states"
+        },
+        {
+          "id": "C",
+          "text": "the creation of majority-minority districts under the Voting Rights Act"
+        },
+        {
+          "id": "D",
+          "text": "partisan gerrymandering by packing the opposing party's voters"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Concentrating opponents' voters into a few districts \"wastes\" their votes and maximizes the drawing party's seats.",
-      "distractors": { "B": "Reapportionment allocates seats among states; this is drawing lines within one." }
+      "distractors": {
+        "B": "Reapportionment allocates seats among states; this is drawing lines within one."
+      }
     },
     {
-      "id": "u2-q05", "tier": "Exam level", "type": "mcq", "topic": "Congressional Behavior",
+      "id": "u2-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Congressional Behavior",
       "stimulus": "Hypothetical data for one two-year Congress:\n\n| Stage | Number of bills |\n| --- | --- |\n| Introduced | 10,000 |\n| Reported out of committee | 900 |\n| Passed one chamber | 700 |\n| Passed both chambers | 400 |\n| Signed into law | 380 |",
       "stem": "Which conclusion is best supported by the data?",
       "choices": [
-        { "id": "A", "text": "The largest share of bills fail at the committee stage." },
-        { "id": "B", "text": "Presidential vetoes are the main reason bills fail." },
-        { "id": "C", "text": "Most bills that pass one chamber are signed into law." },
-        { "id": "D", "text": "The Senate rejects more bills than the House." }
+        {
+          "id": "A",
+          "text": "Presidential vetoes are the main reason bills fail."
+        },
+        {
+          "id": "B",
+          "text": "The largest share of bills fail at the committee stage."
+        },
+        {
+          "id": "C",
+          "text": "Most bills that pass one chamber are signed into law."
+        },
+        {
+          "id": "D",
+          "text": "The Senate rejects more bills than the House."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Of 10,000 bills, only 900 leave committee: 91% die there. Only 20 of the 400 bills that passed both chambers weren't signed.",
-      "distractors": { "B": "At most 20 bills could have been vetoed.", "C": "380 of 700 is barely over half, and the bigger drop happens earlier.", "D": "The table doesn't separate the chambers." }
+      "distractors": {
+        "C": "380 of 700 is barely over half, and the bigger drop happens earlier.",
+        "D": "The table doesn't separate the chambers.",
+        "A": "At most 20 bills could have been vetoed."
+      }
     },
     {
-      "id": "u2-q06", "tier": "Exam level", "type": "mcq", "topic": "Structures, Powers, and Functions of Congress",
+      "id": "u2-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Structures, Powers, and Functions of Congress",
       "stem": "Which difference between the House and Senate best explains why legislation that passes the House often stalls in the Senate?",
       "choices": [
-        { "id": "A", "text": "The House restricts debate through the Rules Committee, while Senate rules let a minority delay votes through filibusters and holds." },
-        { "id": "B", "text": "The Senate must approve all bills by a two-thirds vote." },
-        { "id": "C", "text": "House members serve longer terms and are more insulated from public opinion." },
-        { "id": "D", "text": "The Senate cannot amend bills passed by the House." }
+        {
+          "id": "A",
+          "text": "The House restricts debate through the Rules Committee, while Senate rules let a minority delay votes through filibusters and holds."
+        },
+        {
+          "id": "B",
+          "text": "The Senate must approve all bills by a two-thirds vote."
+        },
+        {
+          "id": "C",
+          "text": "House members serve longer terms and are more insulated from public opinion."
+        },
+        {
+          "id": "D",
+          "text": "The Senate cannot amend bills passed by the House."
+        }
       ],
       "answer": "A",
       "explanation": "The House is designed for majority rule; Senate procedures give individual senators and the minority party leverage.",
-      "distractors": { "B": "Ordinary bills need a simple majority (though cloture needs 60).", "C": "House terms are two years, shorter than Senate terms." }
+      "distractors": {
+        "B": "Ordinary bills need a simple majority (though cloture needs 60).",
+        "C": "House terms are two years, shorter than Senate terms."
+      }
     },
     {
-      "id": "u2-q07", "tier": "Exam level", "type": "mcq", "topic": "Presidential Powers",
+      "id": "u2-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Presidential Powers",
       "stimulus": "When signing a defense spending bill, the president issues a written statement declaring that one provision limiting troop deployments infringes on the commander-in-chief power and will be treated as advisory.",
       "stem": "The president's statement is an example of",
       "choices": [
-        { "id": "A", "text": "a signing statement used to shape how the executive branch will implement a law" },
-        { "id": "B", "text": "a line-item veto of the provision" },
-        { "id": "C", "text": "a pocket veto" },
-        { "id": "D", "text": "an executive agreement" }
+        {
+          "id": "A",
+          "text": "a line-item veto of the provision"
+        },
+        {
+          "id": "B",
+          "text": "a signing statement used to shape how the executive branch will implement a law"
+        },
+        {
+          "id": "C",
+          "text": "a pocket veto"
+        },
+        {
+          "id": "D",
+          "text": "an executive agreement"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Signing statements let presidents signal their interpretation and limit enforcement of provisions they view as unconstitutional, an informal expansion of power.",
-      "distractors": { "B": "The Court struck down the line-item veto in Clinton v. City of New York (1998).", "C": "A pocket veto happens when a president doesn't sign a bill and Congress adjourns." }
+      "distractors": {
+        "C": "A pocket veto happens when a president doesn't sign a bill and Congress adjourns.",
+        "A": "The Court struck down the line-item veto in Clinton v. City of New York (1998)."
+      }
     },
     {
-      "id": "u2-q08", "tier": "Exam level", "type": "mcq", "topic": "The Bureaucracy",
+      "id": "u2-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "The Bureaucracy",
       "stimulus": "Farm groups lobby the House Agriculture Committee to protect crop subsidies. Committee members, whose districts benefit from the subsidies, approve funding for the Department of Agriculture programs that administer them. Department officials share data and expertise with both the farm groups and the committee.",
       "stem": "This relationship is best described as",
       "choices": [
-        { "id": "A", "text": "an iron triangle" },
-        { "id": "B", "text": "divided government" },
-        { "id": "C", "text": "judicial activism" },
-        { "id": "D", "text": "a conference committee" }
+        {
+          "id": "A",
+          "text": "a conference committee"
+        },
+        {
+          "id": "B",
+          "text": "divided government"
+        },
+        {
+          "id": "C",
+          "text": "judicial activism"
+        },
+        {
+          "id": "D",
+          "text": "an iron triangle"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Interest group, committee, and agency form a mutually beneficial, stable alliance that's hard for outsiders to change.",
-      "distractors": { "D": "Conference committees reconcile House and Senate bills." }
+      "distractors": {
+        "A": "Conference committees reconcile House and Senate bills."
+      }
     },
     {
-      "id": "u2-q09", "tier": "Exam level", "type": "mcq", "topic": "The Judicial Branch",
+      "id": "u2-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "The Judicial Branch",
       "stimulus": "The judiciary . . . has no influence over either the sword or the purse . . . and must ultimately depend upon the aid of the executive arm even for the efficacy of its judgments. — Alexander Hamilton, Federalist No. 78",
       "stem": "Which situation best illustrates Hamilton's argument?",
       "choices": [
-        { "id": "A", "text": "A Supreme Court desegregation ruling goes largely unenforced in some states until the president sends federal troops." },
-        { "id": "B", "text": "The Senate rejects a president's nominee to the Supreme Court." },
-        { "id": "C", "text": "Congress overrides a presidential veto." },
-        { "id": "D", "text": "A state legislature redraws congressional districts." }
+        {
+          "id": "A",
+          "text": "Congress overrides a presidential veto."
+        },
+        {
+          "id": "B",
+          "text": "The Senate rejects a president's nominee to the Supreme Court."
+        },
+        {
+          "id": "C",
+          "text": "A Supreme Court desegregation ruling goes largely unenforced in some states until the president sends federal troops."
+        },
+        {
+          "id": "D",
+          "text": "A state legislature redraws congressional districts."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The Court can rule but can't enforce; it depended on executive action, as at Little Rock in 1957.",
-      "distractors": { "B": "That's a check on appointments, not about enforcement." }
+      "distractors": {
+        "B": "That's a check on appointments, not about enforcement."
+      }
     },
     {
-      "id": "u2-q10", "tier": "Exam level", "type": "mcq", "topic": "Holding the Bureaucracy Accountable",
+      "id": "u2-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Holding the Bureaucracy Accountable",
       "stimulus": "Members of a House committee, frustrated that a federal agency has been slow to process veterans' benefits, call the agency's director to testify and then vote to cut the agency's administrative budget unless processing times improve.",
       "stem": "The committee's actions demonstrate",
       "choices": [
-        { "id": "A", "text": "congressional oversight and use of the power of the purse to hold the bureaucracy accountable" },
-        { "id": "B", "text": "the president's power to remove agency heads" },
-        { "id": "C", "text": "judicial review of agency rules" },
-        { "id": "D", "text": "the agency's discretionary authority" }
+        {
+          "id": "A",
+          "text": "congressional oversight and use of the power of the purse to hold the bureaucracy accountable"
+        },
+        {
+          "id": "B",
+          "text": "the president's power to remove agency heads"
+        },
+        {
+          "id": "C",
+          "text": "judicial review of agency rules"
+        },
+        {
+          "id": "D",
+          "text": "the agency's discretionary authority"
+        }
       ],
       "answer": "A",
       "explanation": "Hearings are oversight; budget threats use Congress's control of appropriations.",
-      "distractors": { "B": "Congress, not the president, is acting here." }
+      "distractors": {
+        "B": "Congress, not the president, is acting here."
+      }
     },
     {
-      "id": "u2-q11", "tier": "Hardest", "type": "mcq", "topic": "Congressional Behavior",
+      "id": "u2-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Congressional Behavior",
       "stimulus": "A state draws a congressional district that snakes along a highway for 160 miles to connect Black neighborhoods in several cities, creating a majority-Black district. White voters sue, arguing the district violates their rights.",
       "stem": "Which Supreme Court precedent most directly applies, and what principle does it establish?",
       "choices": [
-        { "id": "A", "text": "Shaw v. Reno: districts drawn primarily on the basis of race are subject to strict scrutiny under the Equal Protection Clause." },
-        { "id": "B", "text": "Baker v. Carr: all districts must be drawn to favor minority voters." },
-        { "id": "C", "text": "Baker v. Carr: courts may not hear redistricting cases." },
-        { "id": "D", "text": "Marbury v. Madison: Congress, not courts, decides districting disputes." }
+        {
+          "id": "A",
+          "text": "Baker v. Carr: courts may not hear redistricting cases."
+        },
+        {
+          "id": "B",
+          "text": "Baker v. Carr: all districts must be drawn to favor minority voters."
+        },
+        {
+          "id": "C",
+          "text": "Shaw v. Reno: districts drawn primarily on the basis of race are subject to strict scrutiny under the Equal Protection Clause."
+        },
+        {
+          "id": "D",
+          "text": "Marbury v. Madison: Congress, not courts, decides districting disputes."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Shaw held that a district so irregular it can be understood only as racial must be justified by a compelling interest and be narrowly tailored.",
-      "distractors": { "C": "Baker said the opposite: redistricting is justiciable, leading to one person, one vote." }
+      "distractors": {
+        "A": "Baker said the opposite: redistricting is justiciable, leading to one person, one vote."
+      }
     },
     {
-      "id": "u2-q12", "tier": "Hardest", "type": "mcq", "topic": "Checks on the Presidency",
+      "id": "u2-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Checks on the Presidency",
       "stem": "Under divided government, which outcome is most likely?",
       "choices": [
-        { "id": "A", "text": "The president relies more on executive orders, and the Senate confirms nominees more slowly." },
-        { "id": "B", "text": "Congress passes more of the president's legislative agenda." },
-        { "id": "C", "text": "The Senate no longer needs to confirm judicial nominees." },
-        { "id": "D", "text": "The president loses the power to veto legislation." }
+        {
+          "id": "A",
+          "text": "The president loses the power to veto legislation."
+        },
+        {
+          "id": "B",
+          "text": "Congress passes more of the president's legislative agenda."
+        },
+        {
+          "id": "C",
+          "text": "The Senate no longer needs to confirm judicial nominees."
+        },
+        {
+          "id": "D",
+          "text": "The president relies more on executive orders, and the Senate confirms nominees more slowly."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "When an opposing party controls Congress, legislative gridlock pushes presidents toward unilateral tools, and the Senate uses advice and consent to delay or reject nominees.",
-      "distractors": { "B": "Divided government usually reduces the president's legislative success.", "D": "Formal powers don't change with party control." }
+      "distractors": {
+        "B": "Divided government usually reduces the president's legislative success.",
+        "A": "Formal powers don't change with party control."
+      }
     },
     {
-      "id": "u2-q13", "tier": "Hardest", "type": "mcq", "topic": "Legitimacy of the Judicial Branch",
+      "id": "u2-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Legitimacy of the Judicial Branch",
       "stimulus": "In a concurring opinion, a justice writes that she believes a prior decision was wrongly reasoned, but that overturning it would unsettle decades of reliance by lower courts, legislatures, and citizens, so she votes to follow it.",
       "stem": "The justice's reasoning best reflects which principle?",
       "choices": [
-        { "id": "A", "text": "Stare decisis, consistent with judicial restraint" },
-        { "id": "B", "text": "Judicial activism" },
-        { "id": "C", "text": "Original jurisdiction" },
-        { "id": "D", "text": "Senatorial courtesy" }
+        {
+          "id": "A",
+          "text": "Judicial activism"
+        },
+        {
+          "id": "B",
+          "text": "Stare decisis, consistent with judicial restraint"
+        },
+        {
+          "id": "C",
+          "text": "Original jurisdiction"
+        },
+        {
+          "id": "D",
+          "text": "Senatorial courtesy"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "She defers to precedent and the stability of the law despite disagreeing: the essence of stare decisis.",
-      "distractors": { "B": "Activism would mean overturning the precedent to reach the outcome she prefers." }
+      "distractors": {
+        "A": "Activism would mean overturning the precedent to reach the outcome she prefers."
+      }
     },
     {
-      "id": "u2-q14", "tier": "Hardest", "type": "mcq", "topic": "Holding the Bureaucracy Accountable",
+      "id": "u2-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Holding the Bureaucracy Accountable",
       "stimulus": "A majority in Congress opposes a new Department of Labor regulation. The president supports the regulation.",
       "stem": "Which action by Congress would most directly overturn the regulation, and what is its main limitation?",
       "choices": [
-        { "id": "A", "text": "Pass a joint resolution or bill nullifying the rule, which the president could veto, requiring a two-thirds override." },
-        { "id": "B", "text": "Hold an oversight hearing, which automatically repeals the rule." },
-        { "id": "C", "text": "Ask the Supreme Court for an advisory opinion, which the Court must issue within 30 days." },
-        { "id": "D", "text": "Fire the Secretary of Labor, which requires a majority vote in the House." }
+        {
+          "id": "A",
+          "text": "Pass a joint resolution or bill nullifying the rule, which the president could veto, requiring a two-thirds override."
+        },
+        {
+          "id": "B",
+          "text": "Hold an oversight hearing, which automatically repeals the rule."
+        },
+        {
+          "id": "C",
+          "text": "Ask the Supreme Court for an advisory opinion, which the Court must issue within 30 days."
+        },
+        {
+          "id": "D",
+          "text": "Fire the Secretary of Labor, which requires a majority vote in the House."
+        }
       ],
       "answer": "A",
       "explanation": "Congress can undo a rule by legislation (for example, under the Congressional Review Act), but the president can veto it, so opposition needs supermajorities when the president supports the rule.",
-      "distractors": { "B": "Hearings put pressure on agencies but don't repeal rules.", "C": "Federal courts don't issue advisory opinions.", "D": "Congress removes officials only through impeachment and conviction." }
+      "distractors": {
+        "B": "Hearings put pressure on agencies but don't repeal rules.",
+        "C": "Federal courts don't issue advisory opinions.",
+        "D": "Congress removes officials only through impeachment and conviction."
+      }
     },
     {
-      "id": "u2-frq1", "tier": "Exam level", "type": "frq", "topic": "Checks and balances: appointments", "frqType": "Q2 Quantitative Analysis",
+      "id": "u2-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Checks and balances: appointments",
+      "frqType": "Q2 Quantitative Analysis",
       "stimulus": "Hypothetical data: Percentage of a president's circuit court nominees confirmed within one year\n\n| Senate controlled by | President's party | Opposing party |\n| --- | --- | --- |\n| First two years of term | 88% | 61% |\n| Last two years of term | 79% | 42% |",
       "prompt": "Use the table to answer the following.",
       "parts": [
-        { "label": "a", "prompt": "Identify the percentage of nominees confirmed within one year when the opposing party controlled the Senate during the last two years of a term.", "points": 1 },
-        { "label": "b", "prompt": "Describe a pattern in the data regarding Senate party control and confirmation rates.", "points": 1 },
-        { "label": "c", "prompt": "Draw a conclusion about the effect of divided government on presidential appointments, based on the pattern in (b).", "points": 1 },
-        { "label": "d", "prompt": "Explain how the Senate's constitutional role in appointments makes the pattern in the data possible.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Identify the percentage of nominees confirmed within one year when the opposing party controlled the Senate during the last two years of a term.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Describe a pattern in the data regarding Senate party control and confirmation rates.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Draw a conclusion about the effect of divided government on presidential appointments, based on the pattern in (b).",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Explain how the Senate's constitutional role in appointments makes the pattern in the data possible.",
+          "points": 1
+        }
       ],
       "points": 4,
       "minutes": 20,
       "rubric": [
-        { "criterion": "(a)", "points": 1, "description": "42%." },
-        { "criterion": "(b)", "points": 1, "description": "Confirmation rates are lower when the opposing party controls the Senate, in both halves of the term (61% vs. 88%; 42% vs. 79%)." },
-        { "criterion": "(c)", "points": 1, "description": "Divided government makes it harder for presidents to fill judicial posts, delaying or blocking their nominees." },
-        { "criterion": "(d)", "points": 1, "description": "Article II requires the advice and consent of the Senate for appointments, so a Senate majority from the other party can refuse hearings, delay votes, or reject nominees." }
+        {
+          "criterion": "(a)",
+          "points": 1,
+          "description": "42%."
+        },
+        {
+          "criterion": "(b)",
+          "points": 1,
+          "description": "Confirmation rates are lower when the opposing party controls the Senate, in both halves of the term (61% vs. 88%; 42% vs. 79%)."
+        },
+        {
+          "criterion": "(c)",
+          "points": 1,
+          "description": "Divided government makes it harder for presidents to fill judicial posts, delaying or blocking their nominees."
+        },
+        {
+          "criterion": "(d)",
+          "points": 1,
+          "description": "Article II requires the advice and consent of the Senate for appointments, so a Senate majority from the other party can refuse hearings, delay votes, or reject nominees."
+        }
       ],
       "sampleResponse": "(a) 42%.\n\n(b) When the opposing party controls the Senate, a smaller share of the president's nominees are confirmed within one year: 61% compared with 88% in the first two years, and 42% compared with 79% in the last two years.\n\n(c) Divided government reduces the president's ability to shape the federal courts, because an opposing Senate majority uses its power to slow or block nominees.\n\n(d) Under Article II, the president can appoint federal judges only with the advice and consent of the Senate. The majority party controls the Judiciary Committee and the floor schedule, so an opposition majority can decline to hold hearings or votes, or vote nominees down."
     }

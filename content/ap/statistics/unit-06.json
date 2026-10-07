@@ -45,218 +45,544 @@
     "cramSheet": "**CI:** p̂ ± z*√(p̂q̂/n) · 90%: 1.645 · 95%: 1.96 · 99%: 2.576\n\n**Conditions:** Random · 10% · Large Counts (≥ 10)\n\n**Sample size:** n ≥ (z*/m)²p*(1 − p*) · p* = 0.5 · round up\n\n**Test:** z = (p̂ − p₀)/√(p₀q₀/n) · P ≤ α → reject\n\n**Errors:** I = reject true H₀ (α) · II = fail to reject false H₀ (β) · power = 1 − β\n\n**Two-prop:** CI unpooled · test pooled p̂_c"
   },
   "vocab": [
-    { "term": "Confidence interval", "definition": "An interval of plausible values for a parameter, computed as statistic ± margin of error." },
-    { "term": "Confidence level", "definition": "The long-run capture rate of the interval-construction method in repeated sampling." },
-    { "term": "Margin of error", "definition": "The maximum expected difference between the statistic and the parameter at a given confidence level." },
-    { "term": "Null hypothesis", "definition": "The claim of no effect or no difference, tested against the alternative." },
-    { "term": "Alternative hypothesis", "definition": "The claim the study seeks evidence for." },
-    { "term": "P-value", "definition": "Probability, assuming H₀ is true, of a statistic as extreme as or more extreme than observed." },
-    { "term": "Significance level (α)", "definition": "The threshold for rejecting H₀; the probability of a Type I error." },
-    { "term": "Type I error", "definition": "Rejecting H₀ when it is actually true." },
-    { "term": "Type II error", "definition": "Failing to reject H₀ when the alternative is true." },
-    { "term": "Power", "definition": "Probability of rejecting H₀ when a particular alternative is true." },
-    { "term": "Pooled proportion", "definition": "Combined proportion of successes in two samples, used in the two-proportion test." },
-    { "term": "Standard error", "definition": "An estimate of the standard deviation of a statistic's sampling distribution." }
+    {
+      "term": "Confidence interval",
+      "definition": "An interval of plausible values for a parameter, computed as statistic ± margin of error."
+    },
+    {
+      "term": "Confidence level",
+      "definition": "The long-run capture rate of the interval-construction method in repeated sampling."
+    },
+    {
+      "term": "Margin of error",
+      "definition": "The maximum expected difference between the statistic and the parameter at a given confidence level."
+    },
+    {
+      "term": "Null hypothesis",
+      "definition": "The claim of no effect or no difference, tested against the alternative."
+    },
+    {
+      "term": "Alternative hypothesis",
+      "definition": "The claim the study seeks evidence for."
+    },
+    {
+      "term": "P-value",
+      "definition": "Probability, assuming H₀ is true, of a statistic as extreme as or more extreme than observed."
+    },
+    {
+      "term": "Significance level (α)",
+      "definition": "The threshold for rejecting H₀; the probability of a Type I error."
+    },
+    {
+      "term": "Type I error",
+      "definition": "Rejecting H₀ when it is actually true."
+    },
+    {
+      "term": "Type II error",
+      "definition": "Failing to reject H₀ when the alternative is true."
+    },
+    {
+      "term": "Power",
+      "definition": "Probability of rejecting H₀ when a particular alternative is true."
+    },
+    {
+      "term": "Pooled proportion",
+      "definition": "Combined proportion of successes in two samples, used in the two-proportion test."
+    },
+    {
+      "term": "Standard error",
+      "definition": "An estimate of the standard deviation of a statistic's sampling distribution."
+    }
   ],
   "practice": [
     {
-      "id": "u6-q01", "tier": "Intro", "type": "mcq", "topic": "6.3 Justifying a Claim Based on a Confidence Interval for a Population Proportion", "skill": "4. Statistical Argumentation",
+      "id": "u6-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.3 Justifying a Claim Based on a Confidence Interval for a Population Proportion",
+      "skill": "4. Statistical Argumentation",
       "stem": "A 95% confidence interval for the proportion of a city's residents who recycle is (0.57, 0.67). Which interpretation is correct?",
       "choices": [
-        { "id": "A", "text": "95% of residents recycle between 57% and 67% of the time." },
-        { "id": "B", "text": "We are 95% confident that the interval from 0.57 to 0.67 captures the true proportion of residents who recycle." },
-        { "id": "C", "text": "There is a 95% probability that the sample proportion is between 0.57 and 0.67." },
-        { "id": "D", "text": "95% of samples will have a sample proportion between 0.57 and 0.67." }
+        {
+          "id": "A",
+          "text": "95% of residents recycle between 57% and 67% of the time."
+        },
+        {
+          "id": "B",
+          "text": "95% of samples will have a sample proportion between 0.57 and 0.67."
+        },
+        {
+          "id": "C",
+          "text": "There is a 95% probability that the sample proportion is between 0.57 and 0.67."
+        },
+        {
+          "id": "D",
+          "text": "We are 95% confident that the interval from 0.57 to 0.67 captures the true proportion of residents who recycle."
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "The interval estimates the population parameter, with confidence attached to the method.",
-      "distractors": { "C": "The sample proportion is known (0.62); it's the center." }
+      "distractors": {
+        "C": "The sample proportion is known (0.62); it's the center."
+      }
     },
     {
-      "id": "u6-q02", "tier": "Intro", "type": "mcq", "topic": "6.4 Setting Up a Test for a Population Proportion", "skill": "1. Selecting Statistical Methods",
+      "id": "u6-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.4 Setting Up a Test for a Population Proportion",
+      "skill": "1. Selecting Statistical Methods",
       "stem": "A company claims 90% of its customers are satisfied. A consumer group suspects the true proportion is lower. Which hypotheses are appropriate?",
       "choices": [
-        { "id": "A", "text": "H₀: p̂ = 0.90; Hₐ: p̂ < 0.90" },
-        { "id": "B", "text": "H₀: p = 0.90; Hₐ: p < 0.90" },
-        { "id": "C", "text": "H₀: p < 0.90; Hₐ: p = 0.90" },
-        { "id": "D", "text": "H₀: p = 0.90; Hₐ: p ≠ 0.90" }
-      ],
-      "answer": "B",
-      "explanation": "Hypotheses use the parameter p; the alternative matches the suspicion (lower).",
-      "distractors": { "A": "Uses the statistic.", "D": "Suspicion is one-sided." }
-    },
-    {
-      "id": "u6-q03", "tier": "Intro", "type": "mcq", "topic": "6.7 Potential Errors When Performing Tests", "skill": "4. Statistical Argumentation",
-      "stem": "A test of H₀: the new drug is no more effective than the old drug, versus Hₐ: the new drug is more effective. A Type I error would be",
-      "choices": [
-        { "id": "A", "text": "concluding the new drug is more effective when it actually is not" },
-        { "id": "B", "text": "concluding the new drug is not more effective when it actually is" },
-        { "id": "C", "text": "correctly concluding the new drug is more effective" },
-        { "id": "D", "text": "using too small a sample" }
+        {
+          "id": "A",
+          "text": "H₀: p = 0.90; Hₐ: p < 0.90"
+        },
+        {
+          "id": "B",
+          "text": "H₀: p̂ = 0.90; Hₐ: p̂ < 0.90"
+        },
+        {
+          "id": "C",
+          "text": "H₀: p < 0.90; Hₐ: p = 0.90"
+        },
+        {
+          "id": "D",
+          "text": "H₀: p = 0.90; Hₐ: p ≠ 0.90"
+        }
       ],
       "answer": "A",
-      "explanation": "Type I: rejecting a true null.",
-      "distractors": { "B": "Type II." }
+      "explanation": "Hypotheses use the parameter p; the alternative matches the suspicion (lower).",
+      "distractors": {
+        "D": "Suspicion is one-sided.",
+        "B": "Uses the statistic."
+      }
     },
     {
-      "id": "u6-q04", "tier": "Intro", "type": "mcq", "topic": "6.2 Constructing a Confidence Interval for a Population Proportion", "skill": "1. Selecting Statistical Methods",
+      "id": "u6-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.7 Potential Errors When Performing Tests",
+      "skill": "4. Statistical Argumentation",
+      "stem": "A test of H₀: the new drug is no more effective than the old drug, versus Hₐ: the new drug is more effective. A Type I error would be",
+      "choices": [
+        {
+          "id": "A",
+          "text": "concluding the new drug is not more effective when it actually is"
+        },
+        {
+          "id": "B",
+          "text": "concluding the new drug is more effective when it actually is not"
+        },
+        {
+          "id": "C",
+          "text": "correctly concluding the new drug is more effective"
+        },
+        {
+          "id": "D",
+          "text": "using too small a sample"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Type I: rejecting a true null.",
+      "distractors": {
+        "A": "Type II."
+      }
+    },
+    {
+      "id": "u6-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.2 Constructing a Confidence Interval for a Population Proportion",
+      "skill": "1. Selecting Statistical Methods",
       "stem": "Holding everything else constant, which change makes a confidence interval for p narrower?",
       "choices": [
-        { "id": "A", "text": "Increasing the confidence level from 95% to 99%" },
-        { "id": "B", "text": "Increasing the sample size" },
-        { "id": "C", "text": "Decreasing the sample size" },
-        { "id": "D", "text": "Using a nonrandom sample" }
+        {
+          "id": "A",
+          "text": "Increasing the confidence level from 95% to 99%"
+        },
+        {
+          "id": "B",
+          "text": "Decreasing the sample size"
+        },
+        {
+          "id": "C",
+          "text": "Increasing the sample size"
+        },
+        {
+          "id": "D",
+          "text": "Using a nonrandom sample"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Larger n reduces the standard error.",
-      "distractors": { "A": "Higher confidence widens the interval." }
+      "distractors": {
+        "A": "Higher confidence widens the interval."
+      }
     },
     {
-      "id": "u6-q05", "tier": "Exam level", "type": "mcq", "topic": "6.2 Constructing a Confidence Interval for a Population Proportion", "skill": "3. Using Probability and Simulation",
+      "id": "u6-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.2 Constructing a Confidence Interval for a Population Proportion",
+      "skill": "3. Using Probability and Simulation",
       "stem": "In a random sample of 400 adults, 248 (62%) support a policy. What is the 95% confidence interval for the population proportion?",
       "choices": [
-        { "id": "A", "text": "(0.596, 0.644)" },
-        { "id": "B", "text": "(0.572, 0.668)" },
-        { "id": "C", "text": "(0.558, 0.682)" },
-        { "id": "D", "text": "(0.540, 0.700)" }
+        {
+          "id": "A",
+          "text": "(0.572, 0.668)"
+        },
+        {
+          "id": "B",
+          "text": "(0.596, 0.644)"
+        },
+        {
+          "id": "C",
+          "text": "(0.558, 0.682)"
+        },
+        {
+          "id": "D",
+          "text": "(0.540, 0.700)"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "SE = √(0.62 × 0.38/400) ≈ 0.0243; ME = 1.96 × 0.0243 ≈ 0.048.",
-      "distractors": { "A": "Uses SE as the margin of error.", "C": "Uses z* = 2.576 (99%)." }
+      "distractors": {
+        "C": "Uses z* = 2.576 (99%).",
+        "B": "Uses SE as the margin of error."
+      }
     },
     {
-      "id": "u6-q06", "tier": "Exam level", "type": "mcq", "topic": "6.2 Constructing a Confidence Interval for a Population Proportion", "skill": "3. Using Probability and Simulation",
+      "id": "u6-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.2 Constructing a Confidence Interval for a Population Proportion",
+      "skill": "3. Using Probability and Simulation",
       "stem": "A pollster wants a 95% confidence interval for a proportion with margin of error at most 0.03 and has no prior estimate. What is the minimum sample size?",
       "choices": [
-        { "id": "A", "text": "385" },
-        { "id": "B", "text": "752" },
-        { "id": "C", "text": "1,067" },
-        { "id": "D", "text": "1,068" }
+        {
+          "id": "A",
+          "text": "385"
+        },
+        {
+          "id": "B",
+          "text": "752"
+        },
+        {
+          "id": "C",
+          "text": "1,067"
+        },
+        {
+          "id": "D",
+          "text": "1,068"
+        }
       ],
       "answer": "D",
       "explanation": "n ≥ (1.96/0.03)²(0.25) = 1,067.1 → round up to 1,068.",
-      "distractors": { "C": "Rounds down, which gives ME slightly above 0.03.", "A": "Uses ME = 0.05." }
+      "distractors": {
+        "C": "Rounds down, which gives ME slightly above 0.03.",
+        "A": "Uses ME = 0.05."
+      }
     },
     {
-      "id": "u6-q07", "tier": "Exam level", "type": "mcq", "topic": "6.6 Concluding a Test for a Population Proportion", "skill": "4. Statistical Argumentation",
+      "id": "u6-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.6 Concluding a Test for a Population Proportion",
+      "skill": "4. Statistical Argumentation",
       "stem": "A test of H₀: p = 0.50 vs. Hₐ: p > 0.50 yields a P-value of 0.012. Which interpretation of the P-value is correct?",
       "choices": [
-        { "id": "A", "text": "There is a 1.2% probability that H₀ is true." },
-        { "id": "B", "text": "Assuming p = 0.50, there is a 1.2% probability of getting a sample proportion as large as or larger than the one observed, by chance alone." },
-        { "id": "C", "text": "There is a 98.8% probability that Hₐ is true." },
-        { "id": "D", "text": "1.2% of the sample supports H₀." }
+        {
+          "id": "A",
+          "text": "There is a 1.2% probability that H₀ is true."
+        },
+        {
+          "id": "B",
+          "text": "1.2% of the sample supports H₀."
+        },
+        {
+          "id": "C",
+          "text": "There is a 98.8% probability that Hₐ is true."
+        },
+        {
+          "id": "D",
+          "text": "Assuming p = 0.50, there is a 1.2% probability of getting a sample proportion as large as or larger than the one observed, by chance alone."
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "The P-value is computed assuming H₀; it's about the data, not the hypothesis.",
-      "distractors": { "A": "The most common misinterpretation." }
+      "distractors": {
+        "A": "The most common misinterpretation."
+      }
     },
     {
-      "id": "u6-q08", "tier": "Exam level", "type": "mcq", "topic": "6.7 Potential Errors When Performing Tests", "skill": "4. Statistical Argumentation",
+      "id": "u6-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.7 Potential Errors When Performing Tests",
+      "skill": "4. Statistical Argumentation",
       "stem": "Which change would increase the power of a significance test, all else equal?",
       "choices": [
-        { "id": "A", "text": "Decreasing α from 0.05 to 0.01" },
-        { "id": "B", "text": "Increasing the sample size" },
-        { "id": "C", "text": "Testing an alternative closer to the null value" },
-        { "id": "D", "text": "Using a two-sided test instead of a one-sided test in the correct direction" }
+        {
+          "id": "A",
+          "text": "Decreasing α from 0.05 to 0.01"
+        },
+        {
+          "id": "B",
+          "text": "Increasing the sample size"
+        },
+        {
+          "id": "C",
+          "text": "Testing an alternative closer to the null value"
+        },
+        {
+          "id": "D",
+          "text": "Using a two-sided test instead of a one-sided test in the correct direction"
+        }
       ],
       "answer": "B",
       "explanation": "Larger n reduces the SE, making true differences easier to detect.",
-      "distractors": { "A": "Smaller α lowers power." }
+      "distractors": {
+        "A": "Smaller α lowers power."
+      }
     },
     {
-      "id": "u6-q09", "tier": "Exam level", "type": "mcq", "topic": "6.11 Carrying Out a Test for the Difference of Two Population Proportions", "skill": "3. Using Probability and Simulation",
+      "id": "u6-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.11 Carrying Out a Test for the Difference of Two Population Proportions",
+      "skill": "3. Using Probability and Simulation",
       "stem": "In a randomized experiment, 45 of 150 patients on a new treatment improved, compared with 30 of 150 on a standard treatment. What is the test statistic for H₀: p₁ − p₂ = 0?",
       "choices": [
-        { "id": "A", "text": "z = 1.00" },
-        { "id": "B", "text": "z = 2.00" },
-        { "id": "C", "text": "z = 2.01" },
-        { "id": "D", "text": "z = 0.10" }
-      ],
-      "answer": "B",
-      "explanation": "p̂₁ = 0.30, p̂₂ = 0.20, pooled p̂ = 75/300 = 0.25. SE = √(0.25 × 0.75 × (2/150)) = 0.05. z = 0.10/0.05 = 2.00.",
-      "distractors": { "C": "Uses the unpooled SE (≈ 0.0497).", "D": "Difference without dividing by SE." }
-    },
-    {
-      "id": "u6-q10", "tier": "Exam level", "type": "mcq", "topic": "6.9 Justifying a Claim Based on a Confidence Interval for a Difference Between Population Proportions", "skill": "4. Statistical Argumentation",
-      "stem": "A 95% confidence interval for p_men − p_women, the difference in proportions who prefer a product, is (−0.04, 0.09). Which conclusion is appropriate?",
-      "choices": [
-        { "id": "A", "text": "Men are more likely than women to prefer the product." },
-        { "id": "B", "text": "There is no convincing evidence of a difference, because 0 is in the interval." },
-        { "id": "C", "text": "Men and women definitely have equal preferences." },
-        { "id": "D", "text": "Women are more likely to prefer the product." }
-      ],
-      "answer": "B",
-      "explanation": "Zero is a plausible value for the difference.",
-      "distractors": { "C": "Failing to find a difference isn't proof of equality." }
-    },
-    {
-      "id": "u6-q11", "tier": "Hardest", "type": "mcq", "topic": "6.5 Carrying Out a Test for a Population Proportion", "skill": "3. Using Probability and Simulation",
-      "stem": "In a random sample of 200 voters, 116 support a candidate. For H₀: p = 0.50 vs. Hₐ: p > 0.50, what are the test statistic and P-value?",
-      "choices": [
-        { "id": "A", "text": "z = 2.26, P ≈ 0.012" },
-        { "id": "B", "text": "z = 2.26, P ≈ 0.024" },
-        { "id": "C", "text": "z = 2.29, P ≈ 0.011" },
-        { "id": "D", "text": "z = 0.08, P ≈ 0.468" }
+        {
+          "id": "A",
+          "text": "z = 2.00"
+        },
+        {
+          "id": "B",
+          "text": "z = 1.00"
+        },
+        {
+          "id": "C",
+          "text": "z = 2.01"
+        },
+        {
+          "id": "D",
+          "text": "z = 0.10"
+        }
       ],
       "answer": "A",
-      "explanation": "p̂ = 0.58. SE = √(0.5 × 0.5/200) = 0.0354. z = 0.08/0.0354 ≈ 2.26; one-sided P ≈ 0.012.",
-      "distractors": { "B": "Two-sided P-value.", "C": "Uses p̂ in the SE." }
+      "explanation": "p̂₁ = 0.30, p̂₂ = 0.20, pooled p̂ = 75/300 = 0.25. SE = √(0.25 × 0.75 × (2/150)) = 0.05. z = 0.10/0.05 = 2.00.",
+      "distractors": {
+        "C": "Uses the unpooled SE (≈ 0.0497).",
+        "D": "Difference without dividing by SE."
+      }
     },
     {
-      "id": "u6-q12", "tier": "Hardest", "type": "mcq", "topic": "6.7 Potential Errors When Performing Tests", "skill": "4. Statistical Argumentation",
+      "id": "u6-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.9 Justifying a Claim Based on a Confidence Interval for a Difference Between Population Proportions",
+      "skill": "4. Statistical Argumentation",
+      "stem": "A 95% confidence interval for p_men − p_women, the difference in proportions who prefer a product, is (−0.04, 0.09). Which conclusion is appropriate?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Men are more likely than women to prefer the product."
+        },
+        {
+          "id": "B",
+          "text": "Men and women definitely have equal preferences."
+        },
+        {
+          "id": "C",
+          "text": "There is no convincing evidence of a difference, because 0 is in the interval."
+        },
+        {
+          "id": "D",
+          "text": "Women are more likely to prefer the product."
+        }
+      ],
+      "answer": "C",
+      "explanation": "Zero is a plausible value for the difference.",
+      "distractors": {
+        "B": "Failing to find a difference isn't proof of equality."
+      }
+    },
+    {
+      "id": "u6-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.5 Carrying Out a Test for a Population Proportion",
+      "skill": "3. Using Probability and Simulation",
+      "stem": "In a random sample of 200 voters, 116 support a candidate. For H₀: p = 0.50 vs. Hₐ: p > 0.50, what are the test statistic and P-value?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "z = 0.08, P ≈ 0.468"
+        },
+        {
+          "id": "B",
+          "text": "z = 2.26, P ≈ 0.024"
+        },
+        {
+          "id": "C",
+          "text": "z = 2.29, P ≈ 0.011"
+        },
+        {
+          "id": "D",
+          "text": "z = 2.26, P ≈ 0.012"
+        }
+      ],
+      "answer": "D",
+      "explanation": "p̂ = 0.58. SE = √(0.5 × 0.5/200) = 0.0354. z = 0.08/0.0354 ≈ 2.26; one-sided P ≈ 0.012.",
+      "distractors": {
+        "B": "Two-sided P-value.",
+        "C": "Uses p̂ in the SE."
+      }
+    },
+    {
+      "id": "u6-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.7 Potential Errors When Performing Tests",
+      "skill": "4. Statistical Argumentation",
       "stem": "A city tests H₀: the lead level in its water is at the safe limit vs. Hₐ: it exceeds the safe limit. Which choice of α is most appropriate, and why?",
       "choices": [
-        { "id": "A", "text": "α = 0.01, to minimize the chance of falsely declaring the water unsafe" },
-        { "id": "B", "text": "α = 0.10, because a Type II error (failing to detect unsafe water) has serious health consequences, and a larger α increases power" },
-        { "id": "C", "text": "α = 0.05 always" },
-        { "id": "D", "text": "α doesn't affect the probability of either error" }
+        {
+          "id": "A",
+          "text": "α = 0.01, to minimize the chance of falsely declaring the water unsafe"
+        },
+        {
+          "id": "B",
+          "text": "α = 0.10, because a Type II error (failing to detect unsafe water) has serious health consequences, and a larger α increases power"
+        },
+        {
+          "id": "C",
+          "text": "α = 0.05 always"
+        },
+        {
+          "id": "D",
+          "text": "α doesn't affect the probability of either error"
+        }
       ],
       "answer": "B",
       "explanation": "Missing a real danger is the worse error here; raising α reduces β.",
       "distractors": {}
     },
     {
-      "id": "u6-q13", "tier": "Hardest", "type": "mcq", "topic": "6.3 Justifying a Claim Based on a Confidence Interval for a Population Proportion", "skill": "4. Statistical Argumentation",
+      "id": "u6-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.3 Justifying a Claim Based on a Confidence Interval for a Population Proportion",
+      "skill": "4. Statistical Argumentation",
       "stem": "A 99% confidence interval for p is (0.42, 0.51). Which statement must be true about a two-sided test of H₀: p = 0.52?",
       "choices": [
-        { "id": "A", "text": "H₀ would be rejected at α = 0.01." },
-        { "id": "B", "text": "H₀ would not be rejected at α = 0.01." },
-        { "id": "C", "text": "H₀ would not be rejected at α = 0.05." },
-        { "id": "D", "text": "The P-value is greater than 0.05." }
+        {
+          "id": "A",
+          "text": "H₀ would be rejected at α = 0.01."
+        },
+        {
+          "id": "B",
+          "text": "H₀ would not be rejected at α = 0.01."
+        },
+        {
+          "id": "C",
+          "text": "H₀ would not be rejected at α = 0.05."
+        },
+        {
+          "id": "D",
+          "text": "The P-value is greater than 0.05."
+        }
       ],
       "answer": "A",
       "explanation": "0.52 lies outside the 99% interval, so a two-sided test at α = 0.01 rejects it (and so would α = 0.05).",
       "distractors": {}
     },
     {
-      "id": "u6-q14", "tier": "Hardest", "type": "mcq", "topic": "6.8 Confidence Intervals for the Difference of Two Proportions", "skill": "3. Using Probability and Simulation",
+      "id": "u6-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.8 Confidence Intervals for the Difference of Two Proportions",
+      "skill": "3. Using Probability and Simulation",
       "stem": "Using the data 45/150 (new) and 30/150 (standard), what is a 95% confidence interval for p_new − p_standard?",
       "choices": [
-        { "id": "A", "text": "(0.003, 0.197)" },
-        { "id": "B", "text": "(0.002, 0.198)" },
-        { "id": "C", "text": "(0.050, 0.150)" },
-        { "id": "D", "text": "(−0.098, 0.298)" }
+        {
+          "id": "A",
+          "text": "(0.050, 0.150)"
+        },
+        {
+          "id": "B",
+          "text": "(0.002, 0.198)"
+        },
+        {
+          "id": "C",
+          "text": "(0.003, 0.197)"
+        },
+        {
+          "id": "D",
+          "text": "(−0.098, 0.298)"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "SE (unpooled) = √(0.3(0.7)/150 + 0.2(0.8)/150) ≈ 0.0497; 0.10 ± 1.96(0.0497) ≈ (0.003, 0.197).",
-      "distractors": { "B": "Uses pooled SE = 0.05 for an interval.", "C": "Uses SE as margin." }
+      "distractors": {
+        "B": "Uses pooled SE = 0.05 for an interval.",
+        "A": "Uses SE as margin."
+      }
     },
     {
-      "id": "u6-frq1", "tier": "Exam level", "type": "frq", "topic": "6.5 Carrying Out a Test for a Population Proportion", "frqType": "Short FRQ (Q1–Q5)",
+      "id": "u6-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "6.5 Carrying Out a Test for a Population Proportion",
+      "frqType": "Short FRQ (Q1–Q5)",
       "prompt": "A delivery company advertises that 80% of its packages arrive on time. A consumer group takes a random sample of 250 of the company's deliveries from the past year (over 500,000 deliveries) and finds that 188 arrived on time. Do the data provide convincing evidence, at α = 0.05, that fewer than 80% of the company's packages arrive on time?",
       "parts": [
-        { "label": "a", "prompt": "State the hypotheses, defining the parameter.", "points": 1 },
-        { "label": "b", "prompt": "Identify the appropriate procedure and check its conditions.", "points": 1 },
-        { "label": "c", "prompt": "Calculate the test statistic and P-value.", "points": 1 },
-        { "label": "d", "prompt": "State your conclusion in context.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "State the hypotheses, defining the parameter.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Identify the appropriate procedure and check its conditions.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Calculate the test statistic and P-value.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "State your conclusion in context.",
+          "points": 1
+        }
       ],
       "points": 4,
       "minutes": 13,
       "rubric": [
-        { "criterion": "a: Hypotheses", "points": 1, "description": "H₀: p = 0.80; Hₐ: p < 0.80, where p = the true proportion of all the company's packages that arrive on time." },
-        { "criterion": "b: Procedure and conditions", "points": 1, "description": "One-sample z-test for a proportion. Random: random sample. 10%: 250 < 10% of 500,000. Large Counts: 250(0.8) = 200 ≥ 10 and 250(0.2) = 50 ≥ 10." },
-        { "criterion": "c: Mechanics", "points": 1, "description": "p̂ = 0.752; z = (0.752 − 0.80)/√(0.8·0.2/250) ≈ −1.90; P ≈ 0.029." },
-        { "criterion": "d: Conclusion", "points": 1, "description": "Because P ≈ 0.029 < 0.05, reject H₀. There is convincing evidence that the true proportion of the company's packages that arrive on time is less than 0.80." }
+        {
+          "criterion": "a: Hypotheses",
+          "points": 1,
+          "description": "H₀: p = 0.80; Hₐ: p < 0.80, where p = the true proportion of all the company's packages that arrive on time."
+        },
+        {
+          "criterion": "b: Procedure and conditions",
+          "points": 1,
+          "description": "One-sample z-test for a proportion. Random: random sample. 10%: 250 < 10% of 500,000. Large Counts: 250(0.8) = 200 ≥ 10 and 250(0.2) = 50 ≥ 10."
+        },
+        {
+          "criterion": "c: Mechanics",
+          "points": 1,
+          "description": "p̂ = 0.752; z = (0.752 − 0.80)/√(0.8·0.2/250) ≈ −1.90; P ≈ 0.029."
+        },
+        {
+          "criterion": "d: Conclusion",
+          "points": 1,
+          "description": "Because P ≈ 0.029 < 0.05, reject H₀. There is convincing evidence that the true proportion of the company's packages that arrive on time is less than 0.80."
+        }
       ],
       "sampleResponse": "(a) H₀: p = 0.80 and Hₐ: p < 0.80, where p is the true proportion of all of this company's packages that arrive on time.\n\n(b) One-sample z-test for a population proportion.\nRandom: the deliveries were a random sample.\n10%: 250 is less than 10% of the more than 500,000 deliveries.\nLarge Counts: np₀ = 250(0.80) = 200 and n(1 − p₀) = 250(0.20) = 50 are both at least 10.\n\n(c) p̂ = 188/250 = 0.752. z = (0.752 − 0.80)/√(0.80 × 0.20/250) = −0.048/0.0253 ≈ −1.90. P-value = P(Z ≤ −1.90) ≈ 0.029.\n\n(d) Because the P-value of 0.029 is less than α = 0.05, we reject H₀. There is convincing evidence that the true proportion of this company's packages that arrive on time is less than 80%."
     }

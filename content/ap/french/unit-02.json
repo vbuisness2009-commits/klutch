@@ -99,7 +99,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Parce que les Québécois sont entourés d'une large majorité anglophone"
+          "text": "Parce que la France contrôle le Québec"
         },
         {
           "id": "B",
@@ -107,14 +107,14 @@
         },
         {
           "id": "C",
-          "text": "Parce que la France contrôle le Québec"
+          "text": "Parce que les Québécois sont entourés d'une large majorité anglophone"
         },
         {
           "id": "D",
           "text": "Parce que personne ne parle anglais à Montréal"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Surrounded by 300+ million anglophones.",
       "distractors": {}
     },
@@ -189,7 +189,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Pour montrer que le français québécois crée ses propres mots pour éviter les anglicismes"
+          "text": "Pour enseigner le vocabulaire du shopping"
         },
         {
           "id": "B",
@@ -201,10 +201,10 @@
         },
         {
           "id": "D",
-          "text": "Pour enseigner le vocabulaire du shopping"
+          "text": "Pour montrer que le français québécois crée ses propres mots pour éviter les anglicismes"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Coinages replacing English.",
       "distractors": {}
     },
@@ -219,7 +219,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Il présente les arguments des deux côtés sans trancher clairement"
+          "text": "Il demande l'indépendance immédiate du Québec"
         },
         {
           "id": "B",
@@ -227,14 +227,14 @@
         },
         {
           "id": "C",
-          "text": "Il demande l'indépendance immédiate du Québec"
+          "text": "Il présente les arguments des deux côtés sans trancher clairement"
         },
         {
           "id": "D",
           "text": "Il affirme que le débat est terminé"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "'Le débat continue.'",
       "distractors": {}
     },
@@ -249,11 +249,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Le créole haïtien et le français"
+          "text": "Le français et l'espagnol"
         },
         {
           "id": "B",
-          "text": "Le français et l'espagnol"
+          "text": "Le créole haïtien et le français"
         },
         {
           "id": "C",
@@ -264,7 +264,7 @@
           "text": "Seulement le français"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -309,7 +309,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Elles commencent en créole puis introduisent progressivement le français"
+          "text": "Elles ont supprimé le français"
         },
         {
           "id": "B",
@@ -317,14 +317,14 @@
         },
         {
           "id": "C",
-          "text": "Elles ont supprimé le français"
+          "text": "Elles commencent en créole puis introduisent progressivement le français"
         },
         {
           "id": "D",
           "text": "Elles enseignent en créole seulement à l'université"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Gradual transition.",
       "distractors": {}
     },
@@ -339,11 +339,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Il reconnaît leur inquiétude mais affirme que bien lire dans sa langue aide à apprendre une deuxième langue"
+          "text": "Il leur dit qu'ils ont tort et qu'ils doivent se taire"
         },
         {
           "id": "B",
-          "text": "Il leur dit qu'ils ont tort et qu'ils doivent se taire"
+          "text": "Il reconnaît leur inquiétude mais affirme que bien lire dans sa langue aide à apprendre une deuxième langue"
         },
         {
           "id": "C",
@@ -354,7 +354,7 @@
           "text": "Il propose d'enseigner en anglais"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Concedes, then argues.",
       "distractors": {}
     },
@@ -369,7 +369,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "petit à petit"
+          "text": "rarement"
         },
         {
           "id": "B",
@@ -381,10 +381,10 @@
         },
         {
           "id": "D",
-          "text": "rarement"
+          "text": "petit à petit"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Gradually.",
       "distractors": {}
     },
@@ -399,11 +399,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Annoncer l'acceptation d'une candidature et demander des documents"
+          "text": "Refuser une candidature"
         },
         {
           "id": "B",
-          "text": "Refuser une candidature"
+          "text": "Annoncer l'acceptation d'une candidature et demander des documents"
         },
         {
           "id": "C",
@@ -414,7 +414,7 @@
           "text": "Vendre un voyage"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Acceptance + requests.",
       "distractors": {}
     },
@@ -429,7 +429,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Des activités culturelles et un projet de bénévolat"
+          "text": "Du temps libre uniquement"
         },
         {
           "id": "B",
@@ -441,10 +441,10 @@
         },
         {
           "id": "D",
-          "text": "Du temps libre uniquement"
+          "text": "Des activités culturelles et un projet de bénévolat"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Afternoons.",
       "distractors": {}
     },
@@ -459,7 +459,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Chère famille, je m'appelle Alex et j'ai hâte de faire votre connaissance."
+          "text": "Monsieur le Président, j'exige une grande chambre."
         },
         {
           "id": "B",
@@ -467,14 +467,14 @@
         },
         {
           "id": "C",
-          "text": "Monsieur le Président, j'exige une grande chambre."
+          "text": "Chère famille, je m'appelle Alex et j'ai hâte de faire votre connaissance."
         },
         {
           "id": "D",
           "text": "Coucou, envoyez-moi des photos."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Warm but polite.",
       "distractors": {}
     },

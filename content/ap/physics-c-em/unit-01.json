@@ -41,225 +41,562 @@
     "cramSheet": "**Continuous:** dq = λdx, σdA, ρdV · dE = k dq/r² · use symmetry\n\n**Results:** rod axis kQ/[d(d + L)] · ring kQx/(x² + a²)^(3/2) · line 2kλ/r · plane σ/2ε₀\n\n**Gauss:** ∮E·dA = Q_enc/ε₀ · sphere outside kQ/r² · solid inside kQr/R³ · shell inside 0\n\n**Potential:** ΔV = −∫E·dr · V = ∫k dq/r · ring kQ/√(x² + a²) · E = −dV/dx\n\n**Energy:** U = qV · W_field = −qΔV"
   },
   "vocab": [
-    { "term": "Linear charge density", "definition": "Charge per unit length, λ = dq/dx." },
-    { "term": "Surface charge density", "definition": "Charge per unit area, σ = dq/dA." },
-    { "term": "Volume charge density", "definition": "Charge per unit volume, ρ = dq/dV." },
-    { "term": "Electric flux", "definition": "Φ_E = ∫E·dA, the amount of field passing through a surface." },
-    { "term": "Gauss's law", "definition": "The net flux through a closed surface equals the enclosed charge divided by ε₀." },
-    { "term": "Gaussian surface", "definition": "An imaginary closed surface chosen to exploit symmetry when applying Gauss's law." },
-    { "term": "Permittivity of free space", "definition": "ε₀ = 8.85 × 10⁻¹² C²/(N·m²), with k = 1/(4πε₀)." },
-    { "term": "Electric potential", "definition": "Potential energy per unit charge; V = −∫E·dr." },
-    { "term": "Equipotential surface", "definition": "A surface of constant potential, perpendicular to the field." },
-    { "term": "Superposition", "definition": "Net field or potential is the sum of contributions from all charges." },
-    { "term": "Electric dipole", "definition": "A pair of equal and opposite charges separated by a distance." },
-    { "term": "Electric potential energy (system)", "definition": "Work required to assemble a charge configuration from infinity." }
+    {
+      "term": "Linear charge density",
+      "definition": "Charge per unit length, λ = dq/dx."
+    },
+    {
+      "term": "Surface charge density",
+      "definition": "Charge per unit area, σ = dq/dA."
+    },
+    {
+      "term": "Volume charge density",
+      "definition": "Charge per unit volume, ρ = dq/dV."
+    },
+    {
+      "term": "Electric flux",
+      "definition": "Φ_E = ∫E·dA, the amount of field passing through a surface."
+    },
+    {
+      "term": "Gauss's law",
+      "definition": "The net flux through a closed surface equals the enclosed charge divided by ε₀."
+    },
+    {
+      "term": "Gaussian surface",
+      "definition": "An imaginary closed surface chosen to exploit symmetry when applying Gauss's law."
+    },
+    {
+      "term": "Permittivity of free space",
+      "definition": "ε₀ = 8.85 × 10⁻¹² C²/(N·m²), with k = 1/(4πε₀)."
+    },
+    {
+      "term": "Electric potential",
+      "definition": "Potential energy per unit charge; V = −∫E·dr."
+    },
+    {
+      "term": "Equipotential surface",
+      "definition": "A surface of constant potential, perpendicular to the field."
+    },
+    {
+      "term": "Superposition",
+      "definition": "Net field or potential is the sum of contributions from all charges."
+    },
+    {
+      "term": "Electric dipole",
+      "definition": "A pair of equal and opposite charges separated by a distance."
+    },
+    {
+      "term": "Electric potential energy (system)",
+      "definition": "Work required to assemble a charge configuration from infinity."
+    }
   ],
   "practice": [
     {
-      "id": "u1-q01", "tier": "Intro", "type": "mcq", "topic": "Gauss's Law",
+      "id": "u1-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Gauss's Law",
       "stem": "A closed surface encloses charges of +3q and −5q, and a charge of +7q lies outside. What is the net electric flux through the surface?",
       "choices": [
-        { "id": "A", "text": "−2q/ε₀" },
-        { "id": "B", "text": "+5q/ε₀" },
-        { "id": "C", "text": "+8q/ε₀" },
-        { "id": "D", "text": "0" }
+        {
+          "id": "A",
+          "text": "+8q/ε₀"
+        },
+        {
+          "id": "B",
+          "text": "+5q/ε₀"
+        },
+        {
+          "id": "C",
+          "text": "−2q/ε₀"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Only enclosed charge counts: (3q − 5q)/ε₀.",
-      "distractors": { "B": "Includes the outside charge." }
+      "distractors": {
+        "B": "Includes the outside charge."
+      }
     },
     {
-      "id": "u1-q02", "tier": "Intro", "type": "mcq", "topic": "Electric Potential",
+      "id": "u1-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Electric Potential",
       "stem": "The potential along the x-axis is V(x) = 3x² − 2x (V, x in m). What is the x-component of the electric field at x = 1 m?",
       "choices": [
-        { "id": "A", "text": "+4 V/m" },
-        { "id": "B", "text": "−4 V/m" },
-        { "id": "C", "text": "+1 V/m" },
-        { "id": "D", "text": "−1 V/m" }
+        {
+          "id": "A",
+          "text": "+4 V/m"
+        },
+        {
+          "id": "B",
+          "text": "−4 V/m"
+        },
+        {
+          "id": "C",
+          "text": "+1 V/m"
+        },
+        {
+          "id": "D",
+          "text": "−1 V/m"
+        }
       ],
       "answer": "B",
       "explanation": "E_x = −dV/dx = −(6x − 2) = −4 V/m.",
-      "distractors": { "A": "Omits the negative sign." }
+      "distractors": {
+        "A": "Omits the negative sign."
+      }
     },
     {
-      "id": "u1-q03", "tier": "Intro", "type": "mcq", "topic": "Electric Fields of Charge Distributions",
+      "id": "u1-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Electric Fields of Charge Distributions",
       "stem": "How does the electric field of a very long, uniformly charged straight wire depend on distance r from the wire?",
       "choices": [
-        { "id": "A", "text": "E ∝ 1/r²" },
-        { "id": "B", "text": "E ∝ 1/r" },
-        { "id": "C", "text": "E is constant" },
-        { "id": "D", "text": "E ∝ r" }
-      ],
-      "answer": "B",
-      "explanation": "Gauss's law with a cylinder: E(2πrL) = λL/ε₀.",
-      "distractors": { "C": "Infinite plane." }
-    },
-    {
-      "id": "u1-q04", "tier": "Intro", "type": "mcq", "topic": "Gauss's Law",
-      "stem": "Inside a uniformly charged thin spherical shell (nonconducting), the electric field is",
-      "choices": [
-        { "id": "A", "text": "zero" },
-        { "id": "B", "text": "proportional to r" },
-        { "id": "C", "text": "kQ/R²" },
-        { "id": "D", "text": "kQ/r²" }
+        {
+          "id": "A",
+          "text": "E ∝ 1/r"
+        },
+        {
+          "id": "B",
+          "text": "E ∝ 1/r²"
+        },
+        {
+          "id": "C",
+          "text": "E is constant"
+        },
+        {
+          "id": "D",
+          "text": "E ∝ r"
+        }
       ],
       "answer": "A",
-      "explanation": "A Gaussian sphere inside encloses no charge, and symmetry makes E uniform on it.",
-      "distractors": { "B": "Solid uniformly charged sphere." }
+      "explanation": "Gauss's law with a cylinder: E(2πrL) = λL/ε₀.",
+      "distractors": {
+        "C": "Infinite plane."
+      }
     },
     {
-      "id": "u1-q05", "tier": "Exam level", "type": "mcq", "topic": "Electric Fields of Charge Distributions",
+      "id": "u1-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Gauss's Law",
+      "stem": "Inside a uniformly charged thin spherical shell (nonconducting), the electric field is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "kQ/r²"
+        },
+        {
+          "id": "B",
+          "text": "proportional to r"
+        },
+        {
+          "id": "C",
+          "text": "kQ/R²"
+        },
+        {
+          "id": "D",
+          "text": "zero"
+        }
+      ],
+      "answer": "D",
+      "explanation": "A Gaussian sphere inside encloses no charge, and symmetry makes E uniform on it.",
+      "distractors": {
+        "B": "Solid uniformly charged sphere."
+      }
+    },
+    {
+      "id": "u1-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Electric Fields of Charge Distributions",
       "stem": "A rod of length 0.40 m carries 2.0 μC uniformly. What is the field magnitude on its axis 0.10 m beyond one end? (k = 9.0 × 10⁹ N·m²/C²)",
       "choices": [
-        { "id": "A", "text": "1.8 × 10⁶ N/C" },
-        { "id": "B", "text": "3.6 × 10⁵ N/C" },
-        { "id": "C", "text": "7.2 × 10⁴ N/C" },
-        { "id": "D", "text": "1.1 × 10⁵ N/C" }
+        {
+          "id": "A",
+          "text": "1.8 × 10⁶ N/C"
+        },
+        {
+          "id": "B",
+          "text": "1.1 × 10⁵ N/C"
+        },
+        {
+          "id": "C",
+          "text": "7.2 × 10⁴ N/C"
+        },
+        {
+          "id": "D",
+          "text": "3.6 × 10⁵ N/C"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "E = kQ/[d(d + L)] = (9 × 10⁹)(2 × 10⁻⁶)/[(0.10)(0.50)] = 3.6 × 10⁵ N/C.",
-      "distractors": { "A": "Treats all charge at the near end.", "C": "Treats all charge at the far end." }
+      "distractors": {
+        "A": "Treats all charge at the near end.",
+        "C": "Treats all charge at the far end."
+      }
     },
     {
-      "id": "u1-q06", "tier": "Exam level", "type": "mcq", "topic": "Gauss's Law",
+      "id": "u1-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Gauss's Law",
       "stem": "A nonconducting solid sphere of radius 0.10 m has 4.0 nC distributed uniformly. What is the field at r = 0.050 m?",
       "choices": [
-        { "id": "A", "text": "900 N/C" },
-        { "id": "B", "text": "1,800 N/C" },
-        { "id": "C", "text": "3,600 N/C" },
-        { "id": "D", "text": "14,400 N/C" }
+        {
+          "id": "A",
+          "text": "900 N/C"
+        },
+        {
+          "id": "B",
+          "text": "1,800 N/C"
+        },
+        {
+          "id": "C",
+          "text": "3,600 N/C"
+        },
+        {
+          "id": "D",
+          "text": "14,400 N/C"
+        }
       ],
       "answer": "B",
       "explanation": "E = kQr/R³ = (9 × 10⁹)(4 × 10⁻⁹)(0.05)/(0.001) = 1,800 N/C.",
-      "distractors": { "D": "Uses kQ/r² as if all charge were enclosed." }
+      "distractors": {
+        "D": "Uses kQ/r² as if all charge were enclosed."
+      }
     },
     {
-      "id": "u1-q07", "tier": "Exam level", "type": "mcq", "topic": "Electric Fields of Charge Distributions",
+      "id": "u1-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Electric Fields of Charge Distributions",
       "stem": "A ring of radius a carries charge Q uniformly. At what distance on its axis is the field magnitude maximum?",
       "choices": [
-        { "id": "A", "text": "x = 0" },
-        { "id": "B", "text": "x = a/√2" },
-        { "id": "C", "text": "x = a" },
-        { "id": "D", "text": "x = √2 a" }
+        {
+          "id": "A",
+          "text": "x = 0"
+        },
+        {
+          "id": "B",
+          "text": "x = a"
+        },
+        {
+          "id": "C",
+          "text": "x = a/√2"
+        },
+        {
+          "id": "D",
+          "text": "x = √2 a"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "d/dx[x/(x² + a²)^(3/2)] = 0 → x² = a²/2.",
-      "distractors": { "A": "The field is zero at the center." }
+      "distractors": {
+        "A": "The field is zero at the center."
+      }
     },
     {
-      "id": "u1-q08", "tier": "Exam level", "type": "mcq", "topic": "Electric Potential",
+      "id": "u1-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Electric Potential",
       "stem": "A ring of radius a carries total charge Q, not necessarily uniformly. What is the potential at its center?",
       "choices": [
-        { "id": "A", "text": "kQ/a, regardless of how charge is distributed around the ring" },
-        { "id": "B", "text": "Zero" },
-        { "id": "C", "text": "It depends on the distribution" },
-        { "id": "D", "text": "kQ/a²" }
+        {
+          "id": "A",
+          "text": "kQ/a, regardless of how charge is distributed around the ring"
+        },
+        {
+          "id": "B",
+          "text": "Zero"
+        },
+        {
+          "id": "C",
+          "text": "It depends on the distribution"
+        },
+        {
+          "id": "D",
+          "text": "kQ/a²"
+        }
       ],
       "answer": "A",
       "explanation": "Every dq is the same distance a from the center, and V adds as a scalar.",
-      "distractors": { "C": "True for the field, not the potential." }
+      "distractors": {
+        "C": "True for the field, not the potential."
+      }
     },
     {
-      "id": "u1-q09", "tier": "Exam level", "type": "mcq", "topic": "Gauss's Law",
+      "id": "u1-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Gauss's Law",
       "stem": "A very large nonconducting sheet has uniform surface charge density σ. How does the field 1 cm from the sheet compare with the field 10 cm from the sheet?",
       "choices": [
-        { "id": "A", "text": "They are equal, both σ/(2ε₀)." },
-        { "id": "B", "text": "The field at 1 cm is 10 times larger." },
-        { "id": "C", "text": "The field at 1 cm is 100 times larger." },
-        { "id": "D", "text": "Both are zero." }
+        {
+          "id": "A",
+          "text": "Both are zero."
+        },
+        {
+          "id": "B",
+          "text": "The field at 1 cm is 10 times larger."
+        },
+        {
+          "id": "C",
+          "text": "The field at 1 cm is 100 times larger."
+        },
+        {
+          "id": "D",
+          "text": "They are equal, both σ/(2ε₀)."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "An infinite plane produces a uniform field.",
       "distractors": {}
     },
     {
-      "id": "u1-q10", "tier": "Exam level", "type": "mcq", "topic": "Electric Potential Energy",
+      "id": "u1-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Electric Potential Energy",
       "stem": "How much work must an external agent do to bring a +2.0 μC charge from infinity to a point 0.30 m from a fixed +3.0 μC charge, at constant (negligible) speed?",
       "choices": [
-        { "id": "A", "text": "0.18 J" },
-        { "id": "B", "text": "0.60 J" },
-        { "id": "C", "text": "−0.18 J" },
-        { "id": "D", "text": "0.054 J" }
+        {
+          "id": "A",
+          "text": "0.60 J"
+        },
+        {
+          "id": "B",
+          "text": "0.18 J"
+        },
+        {
+          "id": "C",
+          "text": "−0.18 J"
+        },
+        {
+          "id": "D",
+          "text": "0.054 J"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "W = ΔU = kq₁q₂/r = (9 × 10⁹)(6 × 10⁻¹²)/0.30 = 0.18 J.",
-      "distractors": { "B": "Uses r² (that's the force)." }
+      "distractors": {
+        "A": "Uses r² (that's the force)."
+      }
     },
     {
-      "id": "u1-q11", "tier": "Hardest", "type": "mcq", "topic": "Gauss's Law",
+      "id": "u1-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Gauss's Law",
       "stem": "A nonconducting sphere of radius R has charge density ρ = Ar, where A is a positive constant. What is the field magnitude inside, at radius r < R?",
       "choices": [
-        { "id": "A", "text": "Ar²/(4ε₀)" },
-        { "id": "B", "text": "Ar/(3ε₀)" },
-        { "id": "C", "text": "AR⁴/(4ε₀r²)" },
-        { "id": "D", "text": "Ar²/(3ε₀)" }
+        {
+          "id": "A",
+          "text": "AR⁴/(4ε₀r²)"
+        },
+        {
+          "id": "B",
+          "text": "Ar/(3ε₀)"
+        },
+        {
+          "id": "C",
+          "text": "Ar²/(4ε₀)"
+        },
+        {
+          "id": "D",
+          "text": "Ar²/(3ε₀)"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Q_enc = ∫₀^r Ar'(4πr'²) dr' = πAr⁴. E(4πr²) = πAr⁴/ε₀ → E = Ar²/(4ε₀).",
-      "distractors": { "D": "Treats density as uniform ρ = Ar with volume (4/3)πr³." }
+      "distractors": {
+        "D": "Treats density as uniform ρ = Ar with volume (4/3)πr³."
+      }
     },
     {
-      "id": "u1-q12", "tier": "Hardest", "type": "mcq", "topic": "Electric Potential",
+      "id": "u1-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Electric Potential",
       "stem": "For a uniformly charged solid sphere (nonconducting) of radius R and charge Q, what is the potential difference V(0) − V(R)?",
       "choices": [
-        { "id": "A", "text": "kQ/(2R)" },
-        { "id": "B", "text": "kQ/R" },
-        { "id": "C", "text": "0" },
-        { "id": "D", "text": "3kQ/(2R)" }
+        {
+          "id": "A",
+          "text": "kQ/(2R)"
+        },
+        {
+          "id": "B",
+          "text": "kQ/R"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "3kQ/(2R)"
+        }
       ],
       "answer": "A",
       "explanation": "V(0) − V(R) = ∫₀^R E dr = ∫₀^R kQr/R³ dr = kQ/(2R).",
-      "distractors": { "D": "That's V(0) itself." }
+      "distractors": {
+        "D": "That's V(0) itself."
+      }
     },
     {
-      "id": "u1-q13", "tier": "Hardest", "type": "mcq", "topic": "Electric Fields of Charge Distributions",
+      "id": "u1-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Electric Fields of Charge Distributions",
       "stem": "A semicircular arc of radius R carries total charge Q uniformly. What is the magnitude of the field at its center?",
       "choices": [
-        { "id": "A", "text": "2kQ/(πR²)" },
-        { "id": "B", "text": "kQ/R²" },
-        { "id": "C", "text": "kQ/(πR²)" },
-        { "id": "D", "text": "0" }
+        {
+          "id": "A",
+          "text": "kQ/(πR²)"
+        },
+        {
+          "id": "B",
+          "text": "kQ/R²"
+        },
+        {
+          "id": "C",
+          "text": "2kQ/(πR²)"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "λ = Q/(πR). Components along the symmetry axis add: E = ∫(kλR dθ/R²) sin θ from 0 to π = 2kλ/R = 2kQ/(πR²).",
-      "distractors": { "B": "Ignores vector cancellation." }
+      "distractors": {
+        "B": "Ignores vector cancellation."
+      }
     },
     {
-      "id": "u1-q14", "tier": "Hardest", "type": "mcq", "topic": "Gauss's Law",
+      "id": "u1-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Gauss's Law",
       "stem": "A cube of side a has a point charge q at its center. What is the electric flux through one face?",
       "choices": [
-        { "id": "A", "text": "q/(6ε₀)" },
-        { "id": "B", "text": "q/ε₀" },
-        { "id": "C", "text": "q/(4πε₀a²)" },
-        { "id": "D", "text": "It cannot be determined without integrating." }
+        {
+          "id": "A",
+          "text": "q/(6ε₀)"
+        },
+        {
+          "id": "B",
+          "text": "q/ε₀"
+        },
+        {
+          "id": "C",
+          "text": "q/(4πε₀a²)"
+        },
+        {
+          "id": "D",
+          "text": "It cannot be determined without integrating."
+        }
       ],
       "answer": "A",
       "explanation": "Total flux q/ε₀ divides equally among six identical faces by symmetry.",
-      "distractors": { "D": "Symmetry avoids integration." }
+      "distractors": {
+        "D": "Symmetry avoids integration."
+      }
     },
     {
-      "id": "u1-frq1", "tier": "Hardest", "type": "frq", "topic": "Gauss's Law", "frqType": "Mathematical Routines (MR)",
+      "id": "u1-frq1",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Gauss's Law",
+      "frqType": "Mathematical Routines (MR)",
       "prompt": "A nonconducting sphere of radius R has a volume charge density ρ(r) = Ar, where A is a positive constant and r is the distance from the center.",
       "parts": [
-        { "label": "A", "prompt": "Derive an expression for the total charge Q of the sphere.", "points": 2 },
-        { "label": "B", "prompt": "Using Gauss's law, derive an expression for the electric field magnitude at r < R.", "points": 3 },
-        { "label": "C", "prompt": "Write an expression for the field at r > R in terms of A, R, r, and constants.", "points": 1 },
-        { "label": "D", "prompt": "Derive an expression for the potential difference V(0) − V(R).", "points": 3 },
-        { "label": "E", "prompt": "Which is at higher potential, the center or the surface? Justify.", "points": 1 }
+        {
+          "label": "A",
+          "prompt": "Derive an expression for the total charge Q of the sphere.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Using Gauss's law, derive an expression for the electric field magnitude at r < R.",
+          "points": 3
+        },
+        {
+          "label": "C",
+          "prompt": "Write an expression for the field at r > R in terms of A, R, r, and constants.",
+          "points": 1
+        },
+        {
+          "label": "D",
+          "prompt": "Derive an expression for the potential difference V(0) − V(R).",
+          "points": 3
+        },
+        {
+          "label": "E",
+          "prompt": "Which is at higher potential, the center or the surface? Justify.",
+          "points": 1
+        }
       ],
       "points": 10,
       "minutes": 22,
       "rubric": [
-        { "criterion": "A1: Integral", "points": 1, "description": "Q = ∫ρ dV = ∫₀^R Ar(4πr²) dr." },
-        { "criterion": "A2: Result", "points": 1, "description": "Q = πAR⁴." },
-        { "criterion": "B1: Gauss's law", "points": 1, "description": "∮E·dA = Q_enc/ε₀ with a spherical Gaussian surface of radius r." },
-        { "criterion": "B2: Enclosed charge", "points": 1, "description": "Q_enc = πAr⁴." },
-        { "criterion": "B3: Result", "points": 1, "description": "E = Ar²/(4ε₀)." },
-        { "criterion": "C", "points": 1, "description": "E = πAR⁴/(4πε₀r²) = AR⁴/(4ε₀r²)." },
-        { "criterion": "D1: Relationship", "points": 1, "description": "V(0) − V(R) = ∫₀^R E dr (from ΔV = −∫E·dr)." },
-        { "criterion": "D2: Substitution", "points": 1, "description": "∫₀^R Ar²/(4ε₀) dr." },
-        { "criterion": "D3: Result", "points": 1, "description": "AR³/(12ε₀)." },
-        { "criterion": "E", "points": 1, "description": "The center; V(0) − V(R) > 0 because E points outward (positive charge), and potential decreases along the field." }
+        {
+          "criterion": "A1: Integral",
+          "points": 1,
+          "description": "Q = ∫ρ dV = ∫₀^R Ar(4πr²) dr."
+        },
+        {
+          "criterion": "A2: Result",
+          "points": 1,
+          "description": "Q = πAR⁴."
+        },
+        {
+          "criterion": "B1: Gauss's law",
+          "points": 1,
+          "description": "∮E·dA = Q_enc/ε₀ with a spherical Gaussian surface of radius r."
+        },
+        {
+          "criterion": "B2: Enclosed charge",
+          "points": 1,
+          "description": "Q_enc = πAr⁴."
+        },
+        {
+          "criterion": "B3: Result",
+          "points": 1,
+          "description": "E = Ar²/(4ε₀)."
+        },
+        {
+          "criterion": "C",
+          "points": 1,
+          "description": "E = πAR⁴/(4πε₀r²) = AR⁴/(4ε₀r²)."
+        },
+        {
+          "criterion": "D1: Relationship",
+          "points": 1,
+          "description": "V(0) − V(R) = ∫₀^R E dr (from ΔV = −∫E·dr)."
+        },
+        {
+          "criterion": "D2: Substitution",
+          "points": 1,
+          "description": "∫₀^R Ar²/(4ε₀) dr."
+        },
+        {
+          "criterion": "D3: Result",
+          "points": 1,
+          "description": "AR³/(12ε₀)."
+        },
+        {
+          "criterion": "E",
+          "points": 1,
+          "description": "The center; V(0) − V(R) > 0 because E points outward (positive charge), and potential decreases along the field."
+        }
       ],
       "sampleResponse": "A. Q = ∫ρ dV = ∫₀^R (Ar)(4πr² dr) = 4πA ∫₀^R r³ dr = 4πA(R⁴/4) = πAR⁴.\n\nB. By symmetry the field is radial and has constant magnitude on a sphere of radius r. Gauss's law: E(4πr²) = Q_enc/ε₀. Q_enc = ∫₀^r Ar'(4πr'²) dr' = πAr⁴. So E = πAr⁴/(4πε₀r²) = Ar²/(4ε₀).\n\nC. Outside, all charge is enclosed: E = Q/(4πε₀r²) = AR⁴/(4ε₀r²).\n\nD. ΔV = −∫E·dr, so V(0) − V(R) = ∫₀^R E dr = ∫₀^R Ar²/(4ε₀) dr = AR³/(12ε₀).\n\nE. The center is at higher potential. The charge is positive, so the field points outward; moving from the center to the surface is in the direction of the field, so potential decreases. This matches V(0) − V(R) = AR³/(12ε₀) > 0."
     }

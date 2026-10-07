@@ -127,11 +127,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "deceptive cadence"
+          "text": "plagal cadence"
         },
         {
           "id": "B",
-          "text": "plagal cadence"
+          "text": "deceptive cadence"
         },
         {
           "id": "C",
@@ -142,7 +142,7 @@
           "text": "PAC"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Expected I replaced.",
       "distractors": {}
     },
@@ -156,11 +156,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "ii and IV"
+          "text": "V and vii°"
         },
         {
           "id": "B",
-          "text": "V and vii°"
+          "text": "ii and IV"
         },
         {
           "id": "C",
@@ -171,7 +171,7 @@
           "text": "iii only"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Phrase model.",
       "distractors": {}
     },
@@ -185,7 +185,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Parallel perfect fifths"
+          "text": "Common tones held"
         },
         {
           "id": "B",
@@ -193,14 +193,14 @@
         },
         {
           "id": "C",
-          "text": "Common tones held"
+          "text": "Parallel perfect fifths"
         },
         {
           "id": "D",
           "text": "Stepwise motion"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Basic rule.",
       "distractors": {}
     },
@@ -214,7 +214,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "imperfect authentic cadence"
+          "text": "plagal cadence"
         },
         {
           "id": "B",
@@ -226,10 +226,10 @@
         },
         {
           "id": "D",
-          "text": "plagal cadence"
+          "text": "imperfect authentic cadence"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Soprano not on tonic.",
       "distractors": {}
     },
@@ -272,11 +272,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "The leading tone"
+          "text": "The root"
         },
         {
           "id": "B",
-          "text": "The root"
+          "text": "The leading tone"
         },
         {
           "id": "C",
@@ -287,7 +287,7 @@
           "text": "Any note may be doubled"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Tendency tone.",
       "distractors": {}
     },
@@ -301,7 +301,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "parallel period"
+          "text": "phrase group"
         },
         {
           "id": "B",
@@ -309,14 +309,14 @@
         },
         {
           "id": "C",
-          "text": "phrase group"
+          "text": "parallel period"
         },
         {
           "id": "D",
           "text": "double period"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Same beginning.",
       "distractors": {}
     },
@@ -359,7 +359,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "C3 to G4"
+          "text": "G3 to D5"
         },
         {
           "id": "B",
@@ -371,10 +371,10 @@
         },
         {
           "id": "D",
-          "text": "G3 to D5"
+          "text": "C3 to G4"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Tenor range.",
       "distractors": {}
     },
@@ -388,7 +388,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "parallel fifths"
+          "text": "contrary motion"
         },
         {
           "id": "B",
@@ -396,14 +396,14 @@
         },
         {
           "id": "C",
-          "text": "contrary motion"
+          "text": "parallel fifths"
         },
         {
           "id": "D",
           "text": "a voice crossing"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "C–G to D–A.",
       "distractors": {}
     },
@@ -417,11 +417,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "the leading tone resolves up and the outer voices create no parallel perfect intervals"
+          "text": "the bass doubles the leading tone"
         },
         {
           "id": "B",
-          "text": "the bass doubles the leading tone"
+          "text": "the leading tone resolves up and the outer voices create no parallel perfect intervals"
         },
         {
           "id": "C",
@@ -432,7 +432,7 @@
           "text": "the soprano moves down"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Standard PAC motion.",
       "distractors": {}
     },
@@ -475,7 +475,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "I – ii6 – V – I"
+          "text": "I – vi – V – ii"
         },
         {
           "id": "B",
@@ -487,10 +487,10 @@
         },
         {
           "id": "D",
-          "text": "I – vi – V – ii"
+          "text": "I – ii6 – V – I"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "T – PD – D – T.",
       "distractors": {}
     },

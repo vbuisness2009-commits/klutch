@@ -47,227 +47,521 @@
     "cramSheet": "**Evidence types:** stats · anecdotes · expert testimony · examples · analogies · personal experience\n\n**Commentary:** how + why the evidence proves the claim\n\n**Transitions:** cause (because, therefore) · contrast (however, yet) · example (for instance) · addition (moreover)\n\n**Methods:** narration · description · comparison · cause-effect · definition · exemplification · classification\n\n**Flaws:** hasty generalization · correlation ≠ causation · partial support"
   },
   "vocab": [
-    { "term": "Evidence", "definition": "Information a writer uses to support a claim." },
-    { "term": "Commentary", "definition": "Explanation of how evidence supports a claim and why it matters." },
-    { "term": "Anecdote", "definition": "A brief story used to illustrate a point." },
-    { "term": "Expert testimony", "definition": "Evidence drawn from an authority on the subject." },
-    { "term": "Analogy", "definition": "A comparison that explains something unfamiliar by relating it to something familiar." },
-    { "term": "Hasty generalization", "definition": "A conclusion based on too few examples." },
-    { "term": "Correlation vs. causation", "definition": "The distinction between two things occurring together and one causing the other." },
-    { "term": "Method of development", "definition": "A pattern for organizing ideas, such as comparison, cause-effect, or definition." },
-    { "term": "Comparison-contrast", "definition": "Development that examines similarities and differences." },
-    { "term": "Cause-effect", "definition": "Development that explains reasons for or results of something." },
-    { "term": "Exemplification", "definition": "Development that supports a general claim with specific examples." },
-    { "term": "Definition (as method)", "definition": "Development that clarifies or redefines a key term to shape an argument." },
-    { "term": "Transition", "definition": "A word or phrase that signals the logical relationship between ideas." }
+    {
+      "term": "Evidence",
+      "definition": "Information a writer uses to support a claim."
+    },
+    {
+      "term": "Commentary",
+      "definition": "Explanation of how evidence supports a claim and why it matters."
+    },
+    {
+      "term": "Anecdote",
+      "definition": "A brief story used to illustrate a point."
+    },
+    {
+      "term": "Expert testimony",
+      "definition": "Evidence drawn from an authority on the subject."
+    },
+    {
+      "term": "Analogy",
+      "definition": "A comparison that explains something unfamiliar by relating it to something familiar."
+    },
+    {
+      "term": "Hasty generalization",
+      "definition": "A conclusion based on too few examples."
+    },
+    {
+      "term": "Correlation vs. causation",
+      "definition": "The distinction between two things occurring together and one causing the other."
+    },
+    {
+      "term": "Method of development",
+      "definition": "A pattern for organizing ideas, such as comparison, cause-effect, or definition."
+    },
+    {
+      "term": "Comparison-contrast",
+      "definition": "Development that examines similarities and differences."
+    },
+    {
+      "term": "Cause-effect",
+      "definition": "Development that explains reasons for or results of something."
+    },
+    {
+      "term": "Exemplification",
+      "definition": "Development that supports a general claim with specific examples."
+    },
+    {
+      "term": "Definition (as method)",
+      "definition": "Development that clarifies or redefines a key term to shape an argument."
+    },
+    {
+      "term": "Transition",
+      "definition": "A word or phrase that signals the logical relationship between ideas."
+    }
   ],
   "practice": [
     {
-      "id": "u3-q01", "tier": "Intro", "type": "mcq", "topic": "Methods of development",
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Methods of development",
       "stimulus": "A public library and a bookstore both lend shape to a neighborhood's evenings. Both offer warm light and a reason to linger. But the bookstore needs you to buy something before you leave, and the library asks only that you return what you borrowed. One sells access to ideas; the other insists it's already yours.",
       "stem": "The passage is developed primarily through",
       "choices": [
-        { "id": "A", "text": "comparison and contrast" },
-        { "id": "B", "text": "narration" },
-        { "id": "C", "text": "classification" },
-        { "id": "D", "text": "cause and effect" }
+        {
+          "id": "A",
+          "text": "narration"
+        },
+        {
+          "id": "B",
+          "text": "comparison and contrast"
+        },
+        {
+          "id": "C",
+          "text": "classification"
+        },
+        {
+          "id": "D",
+          "text": "cause and effect"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "It names similarities (\"both\") then turns on a difference (\"But\") to reach its point.",
-      "distractors": { "B": "There's no sequence of events." }
+      "distractors": {
+        "A": "There's no sequence of events."
+      }
     },
     {
-      "id": "u3-q02", "tier": "Intro", "type": "mcq", "topic": "Commentary",
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Commentary",
       "stimulus": "(1) In the year after the city added protected bike lanes on Main Street, cyclist injuries there fell by 30 percent. (2) The lanes were installed in the spring. (3) Because concrete curbs physically separate riders from traffic, the design removes the moment of conflict that causes most crashes. (4) Main Street is two miles long.",
       "stem": "Which sentence provides commentary that explains how the evidence supports a claim about the lanes' effectiveness?",
       "choices": [
-        { "id": "A", "text": "Sentence 3" },
-        { "id": "B", "text": "Sentence 1" },
-        { "id": "C", "text": "Sentence 2" },
-        { "id": "D", "text": "Sentence 4" }
+        {
+          "id": "A",
+          "text": "Sentence 2"
+        },
+        {
+          "id": "B",
+          "text": "Sentence 1"
+        },
+        {
+          "id": "C",
+          "text": "Sentence 3"
+        },
+        {
+          "id": "D",
+          "text": "Sentence 4"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Sentence 3 explains the mechanism linking the design to the drop in injuries.",
-      "distractors": { "B": "This is the evidence itself." }
+      "distractors": {
+        "B": "This is the evidence itself."
+      }
     },
     {
-      "id": "u3-q03", "tier": "Intro", "type": "mcq", "topic": "Definition",
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Definition",
       "stimulus": "When we call a town \"walkable,\" we usually mean that it has sidewalks. But a sidewalk that leads only to a highway is a decoration. A walkable town is one where a ten-year-old can reach a store, a park, and a friend's house without an adult driving her.",
       "stem": "The writer's redefinition of \"walkable\" primarily serves to",
       "choices": [
-        { "id": "A", "text": "set a stricter standard that many towns with sidewalks would fail to meet" },
-        { "id": "B", "text": "praise towns that have built sidewalks" },
-        { "id": "C", "text": "argue that children should not walk alone" },
-        { "id": "D", "text": "provide statistics on sidewalk construction" }
+        {
+          "id": "A",
+          "text": "set a stricter standard that many towns with sidewalks would fail to meet"
+        },
+        {
+          "id": "B",
+          "text": "praise towns that have built sidewalks"
+        },
+        {
+          "id": "C",
+          "text": "argue that children should not walk alone"
+        },
+        {
+          "id": "D",
+          "text": "provide statistics on sidewalk construction"
+        }
       ],
       "answer": "A",
       "explanation": "By defining walkability by destinations a child can reach, the writer disqualifies places that only have sidewalks.",
-      "distractors": { "B": "The writer dismisses sidewalks to nowhere as \"decoration.\"" }
+      "distractors": {
+        "B": "The writer dismisses sidewalks to nowhere as \"decoration.\""
+      }
     },
     {
-      "id": "u3-q04", "tier": "Intro", "type": "mcq", "topic": "Types of evidence",
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Types of evidence",
       "stimulus": "\"In thirty years of treating sports injuries,\" says Dr. Lena Ortiz, chief of orthopedics at a regional hospital, \"I have never seen as many overuse injuries in twelve-year-olds as I see now.\"",
       "stem": "The writer includes this quotation primarily to provide",
       "choices": [
-        { "id": "A", "text": "expert testimony that lends authority to a claim about youth overuse injuries" },
-        { "id": "B", "text": "statistical data proving a national trend" },
-        { "id": "C", "text": "a personal anecdote from the writer's childhood" },
-        { "id": "D", "text": "a counterargument the writer will refute" }
+        {
+          "id": "A",
+          "text": "a counterargument the writer will refute"
+        },
+        {
+          "id": "B",
+          "text": "statistical data proving a national trend"
+        },
+        {
+          "id": "C",
+          "text": "a personal anecdote from the writer's childhood"
+        },
+        {
+          "id": "D",
+          "text": "expert testimony that lends authority to a claim about youth overuse injuries"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "A specialist's long experience gives the claim credibility, though it isn't systematic data.",
-      "distractors": { "B": "It's one expert's observation, not statistics." }
+      "distractors": {
+        "B": "It's one expert's observation, not statistics."
+      }
     },
     {
-      "id": "u3-q05", "tier": "Exam level", "type": "mcq", "topic": "Transitions and line of reasoning",
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Transitions and line of reasoning",
       "stimulus": "Cities paved over their streams in the twentieth century to make room for roads. ______ many of those buried streams now flood basements and streets whenever heavy rain overwhelms the pipes that replaced them.",
       "stem": "Which word or phrase best fills the blank to show the logical relationship between the sentences?",
       "choices": [
-        { "id": "A", "text": "As a result," },
-        { "id": "B", "text": "For example," },
-        { "id": "C", "text": "Similarly," },
-        { "id": "D", "text": "In contrast," }
+        {
+          "id": "A",
+          "text": "For example,"
+        },
+        {
+          "id": "B",
+          "text": "As a result,"
+        },
+        {
+          "id": "C",
+          "text": "Similarly,"
+        },
+        {
+          "id": "D",
+          "text": "In contrast,"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The second sentence describes a consequence of the first: cause and effect.",
-      "distractors": { "B": "The second sentence isn't an example of paving.", "D": "There's no contrast." }
+      "distractors": {
+        "D": "There's no contrast.",
+        "A": "The second sentence isn't an example of paving."
+      }
     },
     {
-      "id": "u3-q06", "tier": "Exam level", "type": "mcq", "topic": "Analogy",
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Analogy",
       "stimulus": "A city's tree canopy works like a savings account. Every tree planted today is a deposit that pays interest in shade, cleaner air, and lower energy bills for decades. Cut a mature oak for a parking space, and you have not just spent the principal; you have closed the account.",
       "stem": "The extended analogy is most likely intended to",
       "choices": [
-        { "id": "A", "text": "persuade readers that trees are long-term investments whose loss is costly and hard to reverse" },
-        { "id": "B", "text": "explain how banks fund urban forestry" },
-        { "id": "C", "text": "argue that parking spaces are more valuable than trees" },
-        { "id": "D", "text": "describe the life cycle of an oak tree" }
+        {
+          "id": "A",
+          "text": "persuade readers that trees are long-term investments whose loss is costly and hard to reverse"
+        },
+        {
+          "id": "B",
+          "text": "explain how banks fund urban forestry"
+        },
+        {
+          "id": "C",
+          "text": "argue that parking spaces are more valuable than trees"
+        },
+        {
+          "id": "D",
+          "text": "describe the life cycle of an oak tree"
+        }
       ],
       "answer": "A",
       "explanation": "Framing trees as savings that compound over time makes cutting a mature tree seem like an irreversible financial loss.",
-      "distractors": { "B": "The banking language is figurative." }
+      "distractors": {
+        "B": "The banking language is figurative."
+      }
     },
     {
-      "id": "u3-q07", "tier": "Exam level", "type": "mcq", "topic": "Exemplification",
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Exemplification",
       "stimulus": "Claim: \"Small design changes can shift behavior more effectively than warnings.\"",
       "stem": "Which example would best illustrate this claim?",
       "choices": [
-        { "id": "A", "text": "A cafeteria that moved fruit to eye level near the register saw fruit sales rise sharply, while posters urging healthy eating had shown no effect." },
-        { "id": "B", "text": "A school posted more signs reminding students to eat fruit." },
-        { "id": "C", "text": "Many people say they want to eat healthier." },
-        { "id": "D", "text": "Fruit prices increased last year." }
+        {
+          "id": "A",
+          "text": "Many people say they want to eat healthier."
+        },
+        {
+          "id": "B",
+          "text": "A school posted more signs reminding students to eat fruit."
+        },
+        {
+          "id": "C",
+          "text": "A cafeteria that moved fruit to eye level near the register saw fruit sales rise sharply, while posters urging healthy eating had shown no effect."
+        },
+        {
+          "id": "D",
+          "text": "Fruit prices increased last year."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "It shows a design change working and directly compares it with a warning that didn't.",
-      "distractors": { "B": "Describes warnings, not design." }
+      "distractors": {
+        "B": "Describes warnings, not design."
+      }
     },
     {
-      "id": "u3-q08", "tier": "Exam level", "type": "mcq", "topic": "Evaluating evidence",
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Evaluating evidence",
       "stimulus": "My cousin dropped out of college, started a landscaping company, and now earns more than most of his former classmates. College degrees, clearly, are no longer worth the money.",
       "stem": "Which statement best identifies the main weakness in the writer's reasoning?",
       "choices": [
-        { "id": "A", "text": "It draws a broad conclusion from a single example." },
-        { "id": "B", "text": "It relies too heavily on statistics." },
-        { "id": "C", "text": "It cites an expert who isn't qualified." },
-        { "id": "D", "text": "It concedes too much to the opposing view." }
+        {
+          "id": "A",
+          "text": "It concedes too much to the opposing view."
+        },
+        {
+          "id": "B",
+          "text": "It relies too heavily on statistics."
+        },
+        {
+          "id": "C",
+          "text": "It cites an expert who isn't qualified."
+        },
+        {
+          "id": "D",
+          "text": "It draws a broad conclusion from a single example."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "One success story can't establish what's typical: a hasty generalization.",
-      "distractors": { "B": "There are no statistics." }
+      "distractors": {
+        "B": "There are no statistics."
+      }
     },
     {
-      "id": "u3-q09", "tier": "Exam level", "type": "mcq", "topic": "Line of reasoning",
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Line of reasoning",
       "stimulus": "(1) As a result, many families now face a choice between paying rent and buying groceries. (2) Over the past decade, rents in the region rose by 60 percent. (3) Wages, meanwhile, rose by only 18 percent. (4) Food banks report record demand from working households.",
       "stem": "Which order of sentences creates the most logical cause-and-effect sequence?",
       "choices": [
-        { "id": "A", "text": "2, 3, 1, 4" },
-        { "id": "B", "text": "1, 2, 3, 4" },
-        { "id": "C", "text": "4, 1, 3, 2" },
-        { "id": "D", "text": "3, 4, 2, 1" }
+        {
+          "id": "A",
+          "text": "2, 3, 1, 4"
+        },
+        {
+          "id": "B",
+          "text": "1, 2, 3, 4"
+        },
+        {
+          "id": "C",
+          "text": "4, 1, 3, 2"
+        },
+        {
+          "id": "D",
+          "text": "3, 4, 2, 1"
+        }
       ],
       "answer": "A",
       "explanation": "Causes (rising rents, slow wages) come first; \"As a result\" then introduces the effect, followed by evidence of it.",
-      "distractors": { "B": "\"As a result\" can't come before its cause." }
+      "distractors": {
+        "B": "\"As a result\" can't come before its cause."
+      }
     },
     {
-      "id": "u3-q10", "tier": "Exam level", "type": "mcq", "topic": "Evidence",
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Evidence",
       "stimulus": "When Maya's bus route was cut, her commute to the hospital where she works night shifts went from twenty minutes to an hour and fifteen. She is not alone. After last year's cuts, the transit agency's own data showed that riders in the county's lowest-income zip codes lost an average of 40 minutes of daily travel time.",
       "stem": "The data in the final sentence primarily serve to",
       "choices": [
-        { "id": "A", "text": "show that Maya's experience reflects a broader pattern rather than an isolated case" },
-        { "id": "B", "text": "contradict Maya's account" },
-        { "id": "C", "text": "introduce a new topic about hospital staffing" },
-        { "id": "D", "text": "argue that the transit agency's data are unreliable" }
+        {
+          "id": "A",
+          "text": "introduce a new topic about hospital staffing"
+        },
+        {
+          "id": "B",
+          "text": "contradict Maya's account"
+        },
+        {
+          "id": "C",
+          "text": "show that Maya's experience reflects a broader pattern rather than an isolated case"
+        },
+        {
+          "id": "D",
+          "text": "argue that the transit agency's data are unreliable"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "\"She is not alone\" signals the move from anecdote to evidence of a pattern.",
-      "distractors": { "D": "The writer relies on the agency's data." }
+      "distractors": {
+        "D": "The writer relies on the agency's data."
+      }
     },
     {
-      "id": "u3-q11", "tier": "Hardest", "type": "mcq", "topic": "Line of reasoning",
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Line of reasoning",
       "stimulus": "The essay opens with the writer's grandfather losing his job when the town's textile mill closed in 1998. It then traces how the closure shrank the tax base, which cut school budgets, which led families with means to move away, which further reduced the tax base. It ends by arguing that state aid formulas should account for such cycles.",
       "stem": "Which best describes how the essay is developed?",
       "choices": [
-        { "id": "A", "text": "A personal narrative introduces a chain of causes and effects that supports a policy argument." },
-        { "id": "B", "text": "A series of definitions builds toward a classification of towns." },
-        { "id": "C", "text": "A comparison of two towns leads to a narrative conclusion." },
-        { "id": "D", "text": "Expert testimony is refuted by personal experience." }
+        {
+          "id": "A",
+          "text": "A series of definitions builds toward a classification of towns."
+        },
+        {
+          "id": "B",
+          "text": "A personal narrative introduces a chain of causes and effects that supports a policy argument."
+        },
+        {
+          "id": "C",
+          "text": "A comparison of two towns leads to a narrative conclusion."
+        },
+        {
+          "id": "D",
+          "text": "Expert testimony is refuted by personal experience."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The anecdote makes the issue personal; the causal chain explains a self-reinforcing decline; the conclusion turns analysis into a proposal.",
-      "distractors": { "C": "Only one town is discussed." }
+      "distractors": {
+        "C": "Only one town is discussed."
+      }
     },
     {
-      "id": "u3-q12", "tier": "Hardest", "type": "mcq", "topic": "Definition",
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Definition",
       "stimulus": "Opponents point to the region's farms as proof that it is not a \"food desert.\" But a food desert is not a place without food; it is a place where people without cars cannot buy fresh food at prices they can afford within a reasonable distance. By that standard, a county can grow vegetables for half the state and still be one.",
       "stem": "The writer's definition primarily functions to",
       "choices": [
-        { "id": "A", "text": "neutralize the opponents' evidence by showing it doesn't address the conditions that actually define the problem" },
-        { "id": "B", "text": "concede that the opponents are correct" },
-        { "id": "C", "text": "argue that the region should stop farming" },
-        { "id": "D", "text": "provide statistics on food prices" }
+        {
+          "id": "A",
+          "text": "provide statistics on food prices"
+        },
+        {
+          "id": "B",
+          "text": "concede that the opponents are correct"
+        },
+        {
+          "id": "C",
+          "text": "argue that the region should stop farming"
+        },
+        {
+          "id": "D",
+          "text": "neutralize the opponents' evidence by showing it doesn't address the conditions that actually define the problem"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Defining the term by access and affordability makes farm output irrelevant, turning the opponents' best evidence into a non-answer.",
-      "distractors": { "B": "The writer rejects their conclusion." }
+      "distractors": {
+        "B": "The writer rejects their conclusion."
+      }
     },
     {
-      "id": "u3-q13", "tier": "Hardest", "type": "mcq", "topic": "Commentary",
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Commentary",
       "stimulus": "Claim: Libraries should keep evening hours even when fewer people visit then.\nEvidence: \"A library survey found that 70 percent of evening visitors work during the day and could not come at any other time.\"",
       "stem": "Which sentence, added after the evidence, would provide the most effective commentary?",
       "choices": [
-        { "id": "A", "text": "Evening visitors may be fewer, but they depend on those hours entirely, so cutting them would remove access for exactly the people least able to adjust." },
-        { "id": "B", "text": "The survey had many respondents." },
-        { "id": "C", "text": "Libraries also have morning hours." },
-        { "id": "D", "text": "Seventy percent is a large number." }
+        {
+          "id": "A",
+          "text": "The survey had many respondents."
+        },
+        {
+          "id": "B",
+          "text": "Evening visitors may be fewer, but they depend on those hours entirely, so cutting them would remove access for exactly the people least able to adjust."
+        },
+        {
+          "id": "C",
+          "text": "Libraries also have morning hours."
+        },
+        {
+          "id": "D",
+          "text": "Seventy percent is a large number."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "It addresses the low-attendance objection and explains why the statistic matters to the claim.",
-      "distractors": { "D": "Restates the evidence without explaining its significance." }
+      "distractors": {
+        "D": "Restates the evidence without explaining its significance."
+      }
     },
     {
-      "id": "u3-q14", "tier": "Hardest", "type": "mcq", "topic": "Evaluating reasoning",
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Evaluating reasoning",
       "stimulus": "Students who eat breakfast earn higher grades than students who skip it. The district should therefore require all students to eat breakfast at school, which will raise grades across the board.",
       "stem": "Which statement best identifies the flaw in the reasoning?",
       "choices": [
-        { "id": "A", "text": "It assumes eating breakfast causes higher grades, when other factors, such as family stability, might explain both." },
-        { "id": "B", "text": "It relies on an anecdote rather than a pattern." },
-        { "id": "C", "text": "It defines breakfast too narrowly." },
-        { "id": "D", "text": "It cites an unqualified expert." }
+        {
+          "id": "A",
+          "text": "It defines breakfast too narrowly."
+        },
+        {
+          "id": "B",
+          "text": "It relies on an anecdote rather than a pattern."
+        },
+        {
+          "id": "C",
+          "text": "It assumes eating breakfast causes higher grades, when other factors, such as family stability, might explain both."
+        },
+        {
+          "id": "D",
+          "text": "It cites an unqualified expert."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The evidence shows a correlation. A third factor could produce both outcomes, so mandating breakfast may not raise grades.",
-      "distractors": { "B": "The claim refers to a group pattern, not one story." }
+      "distractors": {
+        "B": "The claim refers to a group pattern, not one story."
+      }
     },
     {
-      "id": "u3-frq1", "tier": "Exam level", "type": "frq", "topic": "Rhetorical analysis", "frqType": "Q2 Rhetorical Analysis",
+      "id": "u3-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Rhetorical analysis",
+      "frqType": "Q2 Rhetorical Analysis",
       "stimulus": "The following passage is from a commencement address given by a nurse, written for this practice set, to graduates of a community college's health-sciences program.\n\nYou will forget most of the drug dosages you memorized this year. That is not a confession; it is a promise. The dosages will change, and the protocols will change, and the machine that beeps at you on your first night shift will be replaced by one that beeps in a different key. What will not change is the moment, sometime around three in the morning, when a frightened stranger looks at you and decides whether to trust you.\n\nI was twenty-two the first time it happened. An old man, a retired bricklayer, refused his medication because he thought I was too young to know what I was doing. I could have recited the dosage to him. Instead, I asked about the brick walls he had built. He told me about one behind a church in the town where I grew up. Then he took the pill.\n\nYou have been trained to treat bodies. Your patients will be people who have been frightened, sometimes for weeks, by what is happening to those bodies. The skill no exam measured is the one that will matter most: noticing the person who is not yet ready to be a patient, and meeting him where he is.\n\nSo learn the new protocols when they come. Respect the machines. But know that the most important instrument on the floor is the one you bring yourself.",
       "prompt": "Read the passage carefully. Write an essay that analyzes the rhetorical choices the speaker makes to convey her message about the most important skill in nursing.\n\nIn your response you should do the following:\n- Respond to the prompt with a thesis that analyzes the writer's rhetorical choices.\n- Select and use evidence to support your line of reasoning.\n- Explain how the evidence supports your line of reasoning.\n- Demonstrate an understanding of the rhetorical situation.\n- Use appropriate grammar and punctuation in communicating your argument.",
       "points": 6,
       "minutes": 40,
       "rubric": [
-        { "criterion": "Row A: Thesis", "points": 1, "description": "Responds with a defensible thesis that analyzes the writer's rhetorical choices." },
-        { "criterion": "Row B: Evidence and commentary", "points": 4, "description": "4: specific evidence supporting all claims; commentary consistently explains how choices contribute to the speaker's purpose. 3: commentary explains most choices. 2: some evidence, commentary mostly summarizes. 1: little relevant evidence or commentary." },
-        { "criterion": "Row C: Sophistication", "points": 1, "description": "Explains the significance of choices in context (e.g., the occasion of graduation, the tension between technical and human skill) or employs a vivid, persuasive style." }
+        {
+          "criterion": "Row A: Thesis",
+          "points": 1,
+          "description": "Responds with a defensible thesis that analyzes the writer's rhetorical choices."
+        },
+        {
+          "criterion": "Row B: Evidence and commentary",
+          "points": 4,
+          "description": "4: specific evidence supporting all claims; commentary consistently explains how choices contribute to the speaker's purpose. 3: commentary explains most choices. 2: some evidence, commentary mostly summarizes. 1: little relevant evidence or commentary."
+        },
+        {
+          "criterion": "Row C: Sophistication",
+          "points": 1,
+          "description": "Explains the significance of choices in context (e.g., the occasion of graduation, the tension between technical and human skill) or employs a vivid, persuasive style."
+        }
       ],
       "sampleResponse": "Speaking to new graduates who have just spent a year proving their technical knowledge, the nurse first unsettles their confidence in what they memorized, then replaces it with a personal story and a shift in vocabulary that elevate trust and attention to the person as the profession's central skill.\n\nThe speaker opens with a deliberately jarring claim: \"You will forget most of the drug dosages you memorized this year.\" For an audience celebrating their mastery of exactly that material, the line is provocative, and she immediately reframes it as \"a promise,\" not a confession. The repetition in \"the dosages will change, and the protocols will change\" and the wry image of a machine that \"beeps in a different key\" make technical knowledge seem temporary, almost comic. By diminishing what the graduates assume matters most, she creates space for the claim she actually wants them to remember.\n\nShe then grounds that claim in a short narrative. The detail that she was \"twenty-two\" invites the young graduates to see themselves in her, and the bricklayer's refusal dramatizes the exact fear she described. Her choice not to recite the dosage, even though she \"could have,\" is the hinge of the speech: competence alone didn't win his trust; curiosity about his life did. The story's quiet ending, \"Then he took the pill,\" lets the result speak without commentary, modeling the restraint she values.\n\nFinally, the speaker shifts her vocabulary to redefine the job. She contrasts \"bodies\" with \"people\" and \"patient\" with \"the person who is not yet ready to be a patient,\" suggesting that nursing begins before the clinical relationship does. Her closing metaphor, \"the most important instrument on the floor is the one you bring yourself,\" borrows the language of equipment the graduates know well and applies it to their own presence, leaving them with an image they can carry onto the floor.\n\nBecause she honors the occasion (\"Respect the machines\") while gently correcting its assumptions, the speaker persuades graduates proud of their training that their humanity is not a supplement to it but its purpose."
     }

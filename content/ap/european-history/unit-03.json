@@ -45,215 +45,495 @@
     "cramSheet": "**France:** Louis XIV · Versailles · intendants · Colbert · Nantes revoked 1685 · Utrecht 1713\n\n**Prussia:** army · Junkers · Frederick William I\n\n**Austria:** Habsburgs · Pragmatic Sanction · Maria Theresa\n\n**Russia:** Peter the Great · St. Petersburg · Table of Ranks · Great Northern War\n\n**Poland:** liberum veto · partitions 1772–95\n\n**England:** Civil War 1642–51 · Cromwell · Restoration 1660 · Glorious Revolution 1688 · Bill of Rights 1689\n\n**Dutch:** merchant republic · toleration · finance\n\n**Economy:** enclosure · crop rotation · putting-out · consumer revolution · Seven Years' War"
   },
   "vocab": [
-    { "term": "Absolutism", "definition": "A system in which a monarch claims complete sovereignty, unchecked by other institutions." },
-    { "term": "Divine right", "definition": "The belief that monarchs derive authority directly from God." },
-    { "term": "Intendants", "definition": "Royal officials who administered French provinces for the crown." },
-    { "term": "Junkers", "definition": "Prussian landed nobility who served as army officers." },
-    { "term": "Table of Ranks", "definition": "Peter the Great's system linking noble status to state service." },
-    { "term": "Liberum veto", "definition": "The right of any Polish noble to block legislation in the Diet." },
-    { "term": "Constitutionalism", "definition": "Government in which power is limited by law and shared institutions." },
-    { "term": "Glorious Revolution", "definition": "The 1688 replacement of James II by William and Mary, establishing parliamentary supremacy." },
-    { "term": "Bill of Rights (1689)", "definition": "English law limiting royal power and guaranteeing rights of Parliament and subjects." },
-    { "term": "Balance of power", "definition": "A diplomatic aim to prevent any single state from dominating Europe." },
-    { "term": "Enclosure", "definition": "Fencing off common lands into private holdings, increasing efficiency and displacing small farmers." },
-    { "term": "Putting-out system", "definition": "Merchants supplying raw materials to rural households for home production." }
+    {
+      "term": "Absolutism",
+      "definition": "A system in which a monarch claims complete sovereignty, unchecked by other institutions."
+    },
+    {
+      "term": "Divine right",
+      "definition": "The belief that monarchs derive authority directly from God."
+    },
+    {
+      "term": "Intendants",
+      "definition": "Royal officials who administered French provinces for the crown."
+    },
+    {
+      "term": "Junkers",
+      "definition": "Prussian landed nobility who served as army officers."
+    },
+    {
+      "term": "Table of Ranks",
+      "definition": "Peter the Great's system linking noble status to state service."
+    },
+    {
+      "term": "Liberum veto",
+      "definition": "The right of any Polish noble to block legislation in the Diet."
+    },
+    {
+      "term": "Constitutionalism",
+      "definition": "Government in which power is limited by law and shared institutions."
+    },
+    {
+      "term": "Glorious Revolution",
+      "definition": "The 1688 replacement of James II by William and Mary, establishing parliamentary supremacy."
+    },
+    {
+      "term": "Bill of Rights (1689)",
+      "definition": "English law limiting royal power and guaranteeing rights of Parliament and subjects."
+    },
+    {
+      "term": "Balance of power",
+      "definition": "A diplomatic aim to prevent any single state from dominating Europe."
+    },
+    {
+      "term": "Enclosure",
+      "definition": "Fencing off common lands into private holdings, increasing efficiency and displacing small farmers."
+    },
+    {
+      "term": "Putting-out system",
+      "definition": "Merchants supplying raw materials to rural households for home production."
+    }
   ],
   "practice": [
     {
-      "id": "u3-q01", "tier": "Intro", "type": "mcq", "topic": "French Absolutism",
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "French Absolutism",
       "stem": "Louis XIV built the palace of Versailles primarily to",
       "choices": [
-        { "id": "A", "text": "display royal power and keep nobles under his watch at court" },
-        { "id": "B", "text": "house the Estates-General" },
-        { "id": "C", "text": "serve as a military fortress" },
-        { "id": "D", "text": "host Protestant worship" }
+        {
+          "id": "A",
+          "text": "host Protestant worship"
+        },
+        {
+          "id": "B",
+          "text": "house the Estates-General"
+        },
+        {
+          "id": "C",
+          "text": "serve as a military fortress"
+        },
+        {
+          "id": "D",
+          "text": "display royal power and keep nobles under his watch at court"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Court life at Versailles drew nobles away from provincial power bases.",
       "distractors": {}
     },
     {
-      "id": "u3-q02", "tier": "Intro", "type": "mcq", "topic": "English Constitutionalism",
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "English Constitutionalism",
       "stem": "The English Bill of Rights (1689) established that",
       "choices": [
-        { "id": "A", "text": "the monarch could not levy taxes or keep a standing army in peacetime without Parliament's consent" },
-        { "id": "B", "text": "the monarch ruled by divine right" },
-        { "id": "C", "text": "England would become a republic" },
-        { "id": "D", "text": "Catholicism was the official religion" }
+        {
+          "id": "A",
+          "text": "the monarch ruled by divine right"
+        },
+        {
+          "id": "B",
+          "text": "the monarch could not levy taxes or keep a standing army in peacetime without Parliament's consent"
+        },
+        {
+          "id": "C",
+          "text": "England would become a republic"
+        },
+        {
+          "id": "D",
+          "text": "Catholicism was the official religion"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "It limited royal power and affirmed Parliament's authority.",
       "distractors": {}
     },
     {
-      "id": "u3-q03", "tier": "Intro", "type": "mcq", "topic": "Russian Absolutism",
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Russian Absolutism",
       "stem": "Peter the Great's reforms in Russia focused primarily on",
       "choices": [
-        { "id": "A", "text": "westernizing the military, government, and elite culture to strengthen the state" },
-        { "id": "B", "text": "abolishing serfdom" },
-        { "id": "C", "text": "creating a constitutional monarchy" },
-        { "id": "D", "text": "restoring the power of the boyars" }
+        {
+          "id": "A",
+          "text": "westernizing the military, government, and elite culture to strengthen the state"
+        },
+        {
+          "id": "B",
+          "text": "abolishing serfdom"
+        },
+        {
+          "id": "C",
+          "text": "creating a constitutional monarchy"
+        },
+        {
+          "id": "D",
+          "text": "restoring the power of the boyars"
+        }
       ],
       "answer": "A",
       "explanation": "He modeled Russia's army, navy, and bureaucracy on Western examples.",
-      "distractors": { "B": "Serfdom expanded." }
+      "distractors": {
+        "B": "Serfdom expanded."
+      }
     },
     {
-      "id": "u3-q04", "tier": "Intro", "type": "mcq", "topic": "Agricultural Revolution",
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Agricultural Revolution",
       "stem": "Enclosure of common lands in 18th-century England resulted in",
       "choices": [
-        { "id": "A", "text": "greater agricultural efficiency and the displacement of many small farmers" },
-        { "id": "B", "text": "a return to subsistence farming" },
-        { "id": "C", "text": "the end of private property in land" },
-        { "id": "D", "text": "a decline in food production" }
+        {
+          "id": "A",
+          "text": "the end of private property in land"
+        },
+        {
+          "id": "B",
+          "text": "a return to subsistence farming"
+        },
+        {
+          "id": "C",
+          "text": "greater agricultural efficiency and the displacement of many small farmers"
+        },
+        {
+          "id": "D",
+          "text": "a decline in food production"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Consolidated farms adopted new methods; many villagers lost access to land.",
       "distractors": {}
     },
     {
-      "id": "u3-q05", "tier": "Exam level", "type": "mcq", "topic": "French Absolutism",
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "French Absolutism",
       "stem": "Louis XIV's revocation of the Edict of Nantes (1685) had which unintended consequence?",
       "choices": [
-        { "id": "A", "text": "Skilled Huguenots emigrated, weakening the French economy and strengthening rival states." },
-        { "id": "B", "text": "France became predominantly Protestant." },
-        { "id": "C", "text": "The pope lost all influence in France." },
-        { "id": "D", "text": "Royal power collapsed immediately." }
+        {
+          "id": "A",
+          "text": "Royal power collapsed immediately."
+        },
+        {
+          "id": "B",
+          "text": "France became predominantly Protestant."
+        },
+        {
+          "id": "C",
+          "text": "The pope lost all influence in France."
+        },
+        {
+          "id": "D",
+          "text": "Skilled Huguenots emigrated, weakening the French economy and strengthening rival states."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Many Huguenot artisans and merchants fled to the Netherlands, Prussia, and England.",
       "distractors": {}
     },
     {
-      "id": "u3-q06", "tier": "Exam level", "type": "mcq", "topic": "Prussian Absolutism",
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Prussian Absolutism",
       "stem": "Prussian rulers built a powerful state in the 17th and 18th centuries primarily by",
       "choices": [
-        { "id": "A", "text": "creating a large, disciplined army and allying with the Junker nobility, who served as officers" },
-        { "id": "B", "text": "relying on overseas colonies for revenue" },
-        { "id": "C", "text": "sharing power with an elected parliament" },
-        { "id": "D", "text": "promoting religious uniformity under Catholicism" }
+        {
+          "id": "A",
+          "text": "sharing power with an elected parliament"
+        },
+        {
+          "id": "B",
+          "text": "relying on overseas colonies for revenue"
+        },
+        {
+          "id": "C",
+          "text": "creating a large, disciplined army and allying with the Junker nobility, who served as officers"
+        },
+        {
+          "id": "D",
+          "text": "promoting religious uniformity under Catholicism"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Prussia's army and bureaucracy were its foundation; Junkers gained control over serfs.",
       "distractors": {}
     },
     {
-      "id": "u3-q07", "tier": "Exam level", "type": "mcq", "topic": "Dutch Republic",
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Dutch Republic",
       "stem": "Which factor best explains the Dutch Republic's 17th-century prosperity?",
       "choices": [
-        { "id": "A", "text": "Merchant leadership, overseas trade, advanced finance, and relative religious toleration" },
-        { "id": "B", "text": "A powerful absolute monarchy" },
-        { "id": "C", "text": "Vast agricultural lands" },
-        { "id": "D", "text": "Isolation from European trade" }
+        {
+          "id": "A",
+          "text": "A powerful absolute monarchy"
+        },
+        {
+          "id": "B",
+          "text": "Merchant leadership, overseas trade, advanced finance, and relative religious toleration"
+        },
+        {
+          "id": "C",
+          "text": "Vast agricultural lands"
+        },
+        {
+          "id": "D",
+          "text": "Isolation from European trade"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Amsterdam became Europe's financial center under a republic run by merchant elites.",
       "distractors": {}
     },
     {
-      "id": "u3-q08", "tier": "Exam level", "type": "mcq", "topic": "English Civil War",
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "English Civil War",
       "stem": "Which issue most directly caused the English Civil War (1642–1651)?",
       "choices": [
-        { "id": "A", "text": "Conflict between Charles I and Parliament over taxation, religion, and royal authority" },
-        { "id": "B", "text": "A dispute over the Spanish succession" },
-        { "id": "C", "text": "The French Revolution" },
-        { "id": "D", "text": "Industrial strikes" }
+        {
+          "id": "A",
+          "text": "Conflict between Charles I and Parliament over taxation, religion, and royal authority"
+        },
+        {
+          "id": "B",
+          "text": "A dispute over the Spanish succession"
+        },
+        {
+          "id": "C",
+          "text": "The French Revolution"
+        },
+        {
+          "id": "D",
+          "text": "Industrial strikes"
+        }
       ],
       "answer": "A",
       "explanation": "Charles I's attempts to rule and tax without Parliament and his religious policies provoked war.",
       "distractors": {}
     },
     {
-      "id": "u3-q09", "tier": "Exam level", "type": "mcq", "topic": "Balance of Power",
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Balance of Power",
       "stem": "The coalitions formed against Louis XIV in the late 17th and early 18th centuries best illustrate",
       "choices": [
-        { "id": "A", "text": "the balance-of-power principle in European diplomacy" },
-        { "id": "B", "text": "religious unity among Catholic states" },
-        { "id": "C", "text": "the spread of nationalism" },
-        { "id": "D", "text": "the Concert of Europe" }
+        {
+          "id": "A",
+          "text": "religious unity among Catholic states"
+        },
+        {
+          "id": "B",
+          "text": "the balance-of-power principle in European diplomacy"
+        },
+        {
+          "id": "C",
+          "text": "the spread of nationalism"
+        },
+        {
+          "id": "D",
+          "text": "the Concert of Europe"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "States allied to prevent French hegemony.",
-      "distractors": { "D": "Formed after 1815." }
+      "distractors": {
+        "D": "Formed after 1815."
+      }
     },
     {
-      "id": "u3-q10", "tier": "Exam level", "type": "mcq", "topic": "Economic Change",
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Economic Change",
       "stem": "The putting-out system in 18th-century Europe was significant because it",
       "choices": [
-        { "id": "A", "text": "expanded rural textile production and accustomed families to market-oriented work before factories" },
-        { "id": "B", "text": "relied on steam-powered machines" },
-        { "id": "C", "text": "was banned by guilds everywhere" },
-        { "id": "D", "text": "ended agricultural labor" }
+        {
+          "id": "A",
+          "text": "expanded rural textile production and accustomed families to market-oriented work before factories"
+        },
+        {
+          "id": "B",
+          "text": "relied on steam-powered machines"
+        },
+        {
+          "id": "C",
+          "text": "was banned by guilds everywhere"
+        },
+        {
+          "id": "D",
+          "text": "ended agricultural labor"
+        }
       ],
       "answer": "A",
       "explanation": "Cottage industry bridged agriculture and later industrial production.",
       "distractors": {}
     },
     {
-      "id": "u3-q11", "tier": "Hardest", "type": "mcq", "topic": "Poland-Lithuania",
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Poland-Lithuania",
       "stem": "The partitions of Poland (1772–1795) are best explained by",
       "choices": [
-        { "id": "A", "text": "a weak elected monarchy and noble liberum veto that prevented strong central government, leaving Poland vulnerable to Russia, Prussia, and Austria" },
-        { "id": "B", "text": "Poland's conversion to Protestantism" },
-        { "id": "C", "text": "French invasion" },
-        { "id": "D", "text": "Poland's overseas colonial losses" }
+        {
+          "id": "A",
+          "text": "Poland's overseas colonial losses"
+        },
+        {
+          "id": "B",
+          "text": "Poland's conversion to Protestantism"
+        },
+        {
+          "id": "C",
+          "text": "French invasion"
+        },
+        {
+          "id": "D",
+          "text": "a weak elected monarchy and noble liberum veto that prevented strong central government, leaving Poland vulnerable to Russia, Prussia, and Austria"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Without centralized authority, Poland couldn't resist its absolutist neighbors.",
       "distractors": {}
     },
     {
-      "id": "u3-q12", "tier": "Hardest", "type": "mcq", "topic": "Comparing States",
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Comparing States",
       "stem": "Which statement best compares the relationship between monarchs and nobles in Prussia and England in the 18th century?",
       "choices": [
-        { "id": "A", "text": "Prussian nobles served the crown in exchange for privileges over serfs, while English landed elites dominated Parliament and limited the crown." },
-        { "id": "B", "text": "In both, nobles were excluded from government." },
-        { "id": "C", "text": "English nobles served as officers in an absolutist army; Prussian nobles controlled a parliament." },
-        { "id": "D", "text": "Both monarchies abolished the nobility." }
+        {
+          "id": "A",
+          "text": "English nobles served as officers in an absolutist army; Prussian nobles controlled a parliament."
+        },
+        {
+          "id": "B",
+          "text": "In both, nobles were excluded from government."
+        },
+        {
+          "id": "C",
+          "text": "Prussian nobles served the crown in exchange for privileges over serfs, while English landed elites dominated Parliament and limited the crown."
+        },
+        {
+          "id": "D",
+          "text": "Both monarchies abolished the nobility."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Different bargains between rulers and elites produced absolutist and constitutional outcomes.",
       "distractors": {}
     },
     {
-      "id": "u3-q13", "tier": "Hardest", "type": "mcq", "topic": "Balance of Power",
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Balance of Power",
       "stem": "The most significant long-term result of the Seven Years' War (1756–1763) for European states was",
       "choices": [
-        { "id": "A", "text": "Britain's emergence as the dominant colonial power and France's heavy debt, which contributed to later crises" },
-        { "id": "B", "text": "the unification of Germany" },
-        { "id": "C", "text": "Spain's acquisition of Canada" },
-        { "id": "D", "text": "the end of the Atlantic slave trade" }
+        {
+          "id": "A",
+          "text": "Britain's emergence as the dominant colonial power and France's heavy debt, which contributed to later crises"
+        },
+        {
+          "id": "B",
+          "text": "the unification of Germany"
+        },
+        {
+          "id": "C",
+          "text": "Spain's acquisition of Canada"
+        },
+        {
+          "id": "D",
+          "text": "the end of the Atlantic slave trade"
+        }
       ],
       "answer": "A",
       "explanation": "French losses and debt fed fiscal problems before 1789.",
       "distractors": {}
     },
     {
-      "id": "u3-q14", "tier": "Hardest", "type": "mcq", "topic": "French Absolutism",
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "French Absolutism",
       "stem": "Historians who argue that Louis XIV's absolutism was more limited in practice than in theory would most likely point to",
       "choices": [
-        { "id": "A", "text": "his continued need to negotiate with provincial elites, regional institutions, and privileged groups for revenue and cooperation" },
-        { "id": "B", "text": "his construction of Versailles" },
-        { "id": "C", "text": "his claim of divine right" },
-        { "id": "D", "text": "his revocation of the Edict of Nantes" }
+        {
+          "id": "A",
+          "text": "his claim of divine right"
+        },
+        {
+          "id": "B",
+          "text": "his construction of Versailles"
+        },
+        {
+          "id": "C",
+          "text": "his continued need to negotiate with provincial elites, regional institutions, and privileged groups for revenue and cooperation"
+        },
+        {
+          "id": "D",
+          "text": "his revocation of the Edict of Nantes"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Royal power depended on bargaining with nobles, parlements, and local estates.",
-      "distractors": { "B": "Evidence of power, not its limits." }
+      "distractors": {
+        "B": "Evidence of power, not its limits."
+      }
     },
     {
-      "id": "u3-frq1", "tier": "Hardest", "type": "frq", "topic": "Absolutism", "frqType": "Document-based question (DBQ)",
+      "id": "u3-frq1",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Absolutism",
+      "frqType": "Document-based question (DBQ)",
       "prompt": "Evaluate the extent to which European monarchs succeeded in centralizing political power in the period 1650–1750.\n\nDocuments (summaries):\n1. A French bishop's treatise on politics drawn from Scripture (late 1600s) argues that royal authority is sacred, comes from God, and is answerable to God alone.\n2. A courtier's memoir describes how Louis XIV made nobles compete for small honors in the daily ceremonies of Versailles, keeping them dependent on royal favor.\n3. A 1685 royal decree revokes the Edict of Nantes, ordering Protestant churches destroyed and Protestant worship banned in France.\n4. Summary of the English Bill of Rights (1689): it declares that suspending laws, levying money, or keeping a standing army in peacetime without Parliament's consent is illegal.\n5. Summary of a political treatise published in England in 1690 arguing that government rests on the consent of the governed and that people may resist rulers who violate their natural rights.\n6. A 1722 Russian decree establishes a Table of Ranks, under which noble status and promotion depend on service in the army, navy, or civil administration.\n7. A Polish noble's account (mid-1700s) describes how a single deputy's objection in the Diet could dissolve the session and nullify its laws.",
       "parts": [],
       "points": 7,
       "minutes": 60,
       "rubric": [
-        { "criterion": "Thesis", "points": 1, "description": "Defensible claim about the extent of centralization, with a line of reasoning." },
-        { "criterion": "Contextualization", "points": 1, "description": "E.g., religious wars and the Thirty Years' War, the Fronde, or the English Civil War motivated rulers to seek stronger control." },
-        { "criterion": "Evidence from documents", "points": 2, "description": "1: describes content of at least three documents. 2: uses at least four documents to support the argument." },
-        { "criterion": "Evidence beyond documents", "points": 1, "description": "E.g., intendants, Colbert's mercantilism, Prussian army and Junkers, Pragmatic Sanction, Glorious Revolution." },
-        { "criterion": "Sourcing", "points": 1, "description": "For two documents, explains how point of view, purpose, audience, or situation is relevant (e.g., Doc 1 bishop's purpose of legitimizing royal power; Doc 2 courtier's resentment)." },
-        { "criterion": "Complexity", "points": 1, "description": "E.g., contrasts success in France and Russia with limits in England and Poland, or shows that absolutism in practice depended on bargaining with elites." }
+        {
+          "criterion": "Thesis",
+          "points": 1,
+          "description": "Defensible claim about the extent of centralization, with a line of reasoning."
+        },
+        {
+          "criterion": "Contextualization",
+          "points": 1,
+          "description": "E.g., religious wars and the Thirty Years' War, the Fronde, or the English Civil War motivated rulers to seek stronger control."
+        },
+        {
+          "criterion": "Evidence from documents",
+          "points": 2,
+          "description": "1: describes content of at least three documents. 2: uses at least four documents to support the argument."
+        },
+        {
+          "criterion": "Evidence beyond documents",
+          "points": 1,
+          "description": "E.g., intendants, Colbert's mercantilism, Prussian army and Junkers, Pragmatic Sanction, Glorious Revolution."
+        },
+        {
+          "criterion": "Sourcing",
+          "points": 1,
+          "description": "For two documents, explains how point of view, purpose, audience, or situation is relevant (e.g., Doc 1 bishop's purpose of legitimizing royal power; Doc 2 courtier's resentment)."
+        },
+        {
+          "criterion": "Complexity",
+          "points": 1,
+          "description": "E.g., contrasts success in France and Russia with limits in England and Poland, or shows that absolutism in practice depended on bargaining with elites."
+        }
       ],
       "sampleResponse": "Between 1650 and 1750, monarchs in France and Russia succeeded to a large extent in centralizing power by co-opting nobles and imposing religious and administrative uniformity, but centralization was far from universal: in England and Poland, elites limited or paralyzed royal authority.\n\nThe upheavals of the early 1600s, including the Thirty Years' War, the French Fronde, and the English Civil War, convinced many rulers that strong central authority was needed to prevent disorder.\n\nIn France, Louis XIV relied on ideological and practical tools. The bishop in Document 1 presents royal authority as sacred and accountable only to God; as a churchman close to the court, his purpose was to legitimize the king's power, which shows how the crown enlisted the church. Document 2 shows Versailles turning powerful nobles into competitors for royal favor; the memoirist's resentful tone reflects a noble who felt diminished, which suggests the strategy worked. The 1685 decree in Document 3 imposed religious uniformity. Beyond the documents, Louis governed provinces through intendants, and Colbert's mercantilism strengthened royal finances.\n\nPeter the Great achieved similar results. The Table of Ranks in Document 6 tied noble status to state service, making the nobility an arm of the government.\n\nHowever, centralization had clear limits. In England, the Bill of Rights in Document 4 required Parliament's consent for taxes and a peacetime army, and Document 5 justified resistance to rulers who violated natural rights; written to defend the Glorious Revolution, it reflected Parliament's victory over James II. In Poland, Document 7 shows how the liberum veto allowed any deputy to block legislation, leaving the monarchy weak and the state vulnerable to partition later in the century.\n\nEven in France, absolutism depended on bargaining with elites rather than total control. Centralization thus succeeded where rulers could co-opt nobles, but it failed where landed elites controlled representative institutions."
     }

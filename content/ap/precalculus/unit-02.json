@@ -108,22 +108,22 @@
         },
         {
           "id": "B",
-          "text": "48"
+          "text": "96"
         },
         {
           "id": "C",
-          "text": "96"
+          "text": "48"
         },
         {
           "id": "D",
           "text": "30"
         }
       ],
-      "answer": "C",
+      "answer": "B",
       "explanation": "a₅ = 3 · 2⁵ = 96.",
       "distractors": {
         "A": "Arithmetic with d = 2.",
-        "B": "Uses 2⁴."
+        "C": "Uses 2⁴."
       }
     },
     {
@@ -135,7 +135,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "2"
+          "text": "log₃ 72"
         },
         {
           "id": "B",
@@ -147,13 +147,13 @@
         },
         {
           "id": "D",
-          "text": "log₃ 72"
+          "text": "2"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "4 − 2 = 2 (or log₃ 9 = 2).",
       "distractors": {
-        "D": "Subtracts the arguments."
+        "A": "Subtracts the arguments."
       }
     },
     {
@@ -195,7 +195,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "5 · 3ˣ"
+          "text": "5 + 20x"
         },
         {
           "id": "B",
@@ -207,10 +207,10 @@
         },
         {
           "id": "D",
-          "text": "5 + 20x"
+          "text": "5 · 3ˣ"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "a = 5; 5b² = 45 → b = 3.",
       "distractors": {
         "B": "Forgets the square."
@@ -225,7 +225,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "(3x + 1)/(x − 2)"
+          "text": "(3x − 1)/(x + 2)"
         },
         {
           "id": "B",
@@ -233,14 +233,14 @@
         },
         {
           "id": "C",
-          "text": "(3x − 1)/(x + 2)"
+          "text": "(3x + 1)/(x − 2)"
         },
         {
           "id": "D",
           "text": "(x + 1)/(2x − 3)"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "x = (2y + 1)/(y − 3) → xy − 3x = 2y + 1 → y(x − 2) = 3x + 1.",
       "distractors": {
         "B": "Reciprocal, not inverse."
@@ -255,11 +255,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "x = 5 only"
+          "text": "x = 5 and x = −2"
         },
         {
           "id": "B",
-          "text": "x = 5 and x = −2"
+          "text": "x = 5 only"
         },
         {
           "id": "C",
@@ -270,10 +270,10 @@
           "text": "x = 13/2"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "x(x − 3) = 10 → x² − 3x − 10 = 0 → x = 5 or −2; −2 makes ln(x) undefined.",
       "distractors": {
-        "B": "Fails to reject the extraneous solution."
+        "A": "Fails to reject the extraneous solution."
       }
     },
     {
@@ -315,7 +315,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "y ≈ 3.32(1.35)ˣ"
+          "text": "y ≈ 1.35(3.32)ˣ"
         },
         {
           "id": "B",
@@ -327,13 +327,13 @@
         },
         {
           "id": "D",
-          "text": "y ≈ 1.35(3.32)ˣ"
+          "text": "y ≈ 3.32(1.35)ˣ"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "y = e^1.2 · (e^0.3)ˣ ≈ 3.32(1.35)ˣ.",
       "distractors": {
-        "D": "Swaps the constants."
+        "A": "Swaps the constants."
       }
     },
     {
@@ -345,7 +345,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "0"
+          "text": "1"
         },
         {
           "id": "B",
@@ -353,18 +353,18 @@
         },
         {
           "id": "C",
-          "text": "1"
+          "text": "0"
         },
         {
           "id": "D",
           "text": "−1"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "g(−1) = 1; f(1) = 0.",
       "distractors": {
         "B": "Composes in the wrong order: g(f(−1)) = g(0) = 3.",
-        "C": "Stops at g(−1) = 1."
+        "A": "Stops at g(−1) = 1."
       }
     },
     {
@@ -407,11 +407,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "x > log₂ 12"
+          "text": "x > log₂ 24"
         },
         {
           "id": "B",
-          "text": "x > log₂ 24"
+          "text": "x > log₂ 12"
         },
         {
           "id": "C",
@@ -422,10 +422,10 @@
           "text": "x > log₂ 36"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "2^(x+1) > 24 → x + 1 > log₂ 24 → x > log₂ 24 − 1 = log₂ 12.",
       "distractors": {
-        "B": "Forgets to subtract 1."
+        "A": "Forgets to subtract 1."
       }
     },
     {
@@ -437,7 +437,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "ln[x/(x − 1)]"
+          "text": "−ln(x − 1)"
         },
         {
           "id": "B",
@@ -445,14 +445,14 @@
         },
         {
           "id": "C",
-          "text": "−ln(x − 1)"
+          "text": "ln[x/(x − 1)]"
         },
         {
           "id": "D",
           "text": "ln(x² − x²)"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "ln(x²) − ln[x(x − 1)] = ln[x²/(x(x − 1))] = ln[x/(x − 1)].",
       "distractors": {}
     },
@@ -465,7 +465,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "x = 3; x-intercept 3.5"
+          "text": "x = 0; x-intercept 1"
         },
         {
           "id": "B",
@@ -477,10 +477,10 @@
         },
         {
           "id": "D",
-          "text": "x = 0; x-intercept 1"
+          "text": "x = 3; x-intercept 3.5"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Asymptote where x − 3 = 0. Zero: log₂(x − 3) = −1 → x − 3 = ½ → x = 3.5.",
       "distractors": {
         "B": "Sets log₂(x − 3) = 0."

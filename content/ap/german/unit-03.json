@@ -97,7 +97,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Walter Gropius, 1919 in Weimar"
+          "text": "Lena, 1990 in Berlin"
         },
         {
           "id": "B",
@@ -109,10 +109,10 @@
         },
         {
           "id": "D",
-          "text": "Lena, 1990 in Berlin"
+          "text": "Walter Gropius, 1919 in Weimar"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -157,11 +157,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Wegen des Drucks der Nationalsozialisten, die moderne Kunst ablehnten"
+          "text": "Weil es kein Geld mehr hatte"
         },
         {
           "id": "B",
-          "text": "Weil es kein Geld mehr hatte"
+          "text": "Wegen des Drucks der Nationalsozialisten, die moderne Kunst ablehnten"
         },
         {
           "id": "C",
@@ -172,7 +172,7 @@
           "text": "Weil es nach Dessau zog"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Nazi pressure.",
       "distractors": {}
     },
@@ -187,7 +187,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Viele Lehrer emigrierten und lehrten im Ausland"
+          "text": "Durch einen Wettbewerb"
         },
         {
           "id": "B",
@@ -195,14 +195,14 @@
         },
         {
           "id": "C",
-          "text": "Durch einen Wettbewerb"
+          "text": "Viele Lehrer emigrierten und lehrten im Ausland"
         },
         {
           "id": "D",
           "text": "Durch das Internet"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Emigration.",
       "distractors": {}
     },
@@ -217,7 +217,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Bauhaus-Möbel, die für viele gedacht waren, sind heute teure Luxusobjekte"
+          "text": "Das Bauhaus lehnte Stahl und Glas ab"
         },
         {
           "id": "B",
@@ -225,14 +225,14 @@
         },
         {
           "id": "C",
-          "text": "Das Bauhaus lehnte Stahl und Glas ab"
+          "text": "Bauhaus-Möbel, die für viele gedacht waren, sind heute teure Luxusobjekte"
         },
         {
           "id": "D",
           "text": "Bauhaus-Stil ist heute unsichtbar"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Final paragraph.",
       "distractors": {}
     },
@@ -247,7 +247,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Ein bemaltes Stück der Berliner Mauer"
+          "text": "Eine Galerie in Graz"
         },
         {
           "id": "B",
@@ -259,10 +259,10 @@
         },
         {
           "id": "D",
-          "text": "Eine Galerie in Graz"
+          "text": "Ein bemaltes Stück der Berliner Mauer"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -307,11 +307,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Sie malt nur mit Erlaubnis, versteht aber den provokativen Charakter von Street Art"
+          "text": "Sie findet, dass alle Graffiti verboten werden sollten"
         },
         {
           "id": "B",
-          "text": "Sie findet, dass alle Graffiti verboten werden sollten"
+          "text": "Sie malt nur mit Erlaubnis, versteht aber den provokativen Charakter von Street Art"
         },
         {
           "id": "C",
@@ -322,7 +322,7 @@
           "text": "Sie hat keine Meinung"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Nuanced.",
       "distractors": {}
     },
@@ -337,11 +337,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Dass Menschen in der hektischen Stadt kurz stehen bleiben und nachdenken"
+          "text": "Dass ihre Bilder teuer verkauft werden"
         },
         {
           "id": "B",
-          "text": "Dass ihre Bilder teuer verkauft werden"
+          "text": "Dass Menschen in der hektischen Stadt kurz stehen bleiben und nachdenken"
         },
         {
           "id": "C",
@@ -352,7 +352,7 @@
           "text": "Dass die Polizei sie bemerkt"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Final answer.",
       "distractors": {}
     },
@@ -367,7 +367,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Textilkunst von traditionellen Trachten bis zu moderner Installationskunst"
+          "text": "Bauhaus-Möbel"
         },
         {
           "id": "B",
@@ -375,14 +375,14 @@
         },
         {
           "id": "C",
-          "text": "Bauhaus-Möbel"
+          "text": "Textilkunst von traditionellen Trachten bis zu moderner Installationskunst"
         },
         {
           "id": "D",
           "text": "Fotografien der Berliner Mauer"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -397,7 +397,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Sich anmelden"
+          "text": "Älter als 18 sein"
         },
         {
           "id": "B",
@@ -409,10 +409,10 @@
         },
         {
           "id": "D",
-          "text": "Älter als 18 sein"
+          "text": "Sich anmelden"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "'Anmeldung erforderlich.'",
       "distractors": {}
     },
@@ -457,11 +457,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Beide zeigen, wie Kunst gesellschaftliche Ideen und historische Umbrüche ausdrückt"
+          "text": "Beide wurden 1933 geschlossen"
         },
         {
           "id": "B",
-          "text": "Beide wurden 1933 geschlossen"
+          "text": "Beide zeigen, wie Kunst gesellschaftliche Ideen und historische Umbrüche ausdrückt"
         },
         {
           "id": "C",
@@ -472,7 +472,7 @@
           "text": "Beide befinden sich in Graz"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Art and history.",
       "distractors": {}
     },
@@ -486,7 +486,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "bemalt"
+          "text": "bemalend"
         },
         {
           "id": "B",
@@ -498,10 +498,10 @@
         },
         {
           "id": "D",
-          "text": "bemalend"
+          "text": "bemalt"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Passive: wurde + Partizip II.",
       "distractors": {}
     },

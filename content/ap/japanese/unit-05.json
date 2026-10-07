@@ -98,11 +98,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "まじめさ"
+          "text": "怠けること"
         },
         {
           "id": "B",
-          "text": "怠けること"
+          "text": "まじめさ"
         },
         {
           "id": "C",
@@ -113,7 +113,7 @@
           "text": "失敗"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -128,7 +128,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "法律で残業時間に上限が設けられた"
+          "text": "給料が二倍になった"
         },
         {
           "id": "B",
@@ -140,10 +140,10 @@
         },
         {
           "id": "D",
-          "text": "給料が二倍になった"
+          "text": "法律で残業時間に上限が設けられた"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -158,7 +158,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "仕事の量が変わらず、家に仕事を持ち帰る人もいること"
+          "text": "上司が早く帰ること"
         },
         {
           "id": "B",
@@ -166,14 +166,14 @@
         },
         {
           "id": "C",
-          "text": "上司が早く帰ること"
+          "text": "仕事の量が変わらず、家に仕事を持ち帰る人もいること"
         },
         {
           "id": "D",
           "text": "健康問題がなくなったこと"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Mixed results.",
       "distractors": {}
     },
@@ -218,11 +218,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "吹奏楽部"
+          "text": "野球部"
         },
         {
           "id": "B",
-          "text": "野球部"
+          "text": "吹奏楽部"
         },
         {
           "id": "C",
@@ -233,7 +233,7 @@
           "text": "サッカー部"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -248,7 +248,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "部活と勉強の両立"
+          "text": "家が遠いこと"
         },
         {
           "id": "B",
@@ -256,14 +256,14 @@
         },
         {
           "id": "C",
-          "text": "家が遠いこと"
+          "text": "部活と勉強の両立"
         },
         {
           "id": "D",
           "text": "楽器がないこと"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -308,7 +308,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "仕方ないし良い面もあるが、短い時間でも集中すれば上手になれる"
+          "text": "何も感じない"
         },
         {
           "id": "B",
@@ -320,10 +320,10 @@
         },
         {
           "id": "D",
-          "text": "何も感じない"
+          "text": "仕方ないし良い面もあるが、短い時間でも集中すれば上手になれる"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Nuanced.",
       "distractors": {}
     },
@@ -338,11 +338,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "アルバイトの面接に招待すること"
+          "text": "旅館の予約を確認すること"
         },
         {
           "id": "B",
-          "text": "旅館の予約を確認すること"
+          "text": "アルバイトの面接に招待すること"
         },
         {
           "id": "C",
@@ -353,7 +353,7 @@
           "text": "料理を注文すること"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Interview invitation.",
       "distractors": {}
     },
@@ -398,7 +398,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "あれば歓迎されるが、なくてもよい"
+          "text": "経験がある人は応募できない"
         },
         {
           "id": "B",
@@ -406,14 +406,14 @@
         },
         {
           "id": "C",
-          "text": "経験がある人は応募できない"
+          "text": "あれば歓迎されるが、なくてもよい"
         },
         {
           "id": "D",
           "text": "書かれていない"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "歓迎 vs 必須.",
       "distractors": {}
     },
@@ -428,7 +428,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "来週の都合のよい日時と、これまでの経験"
+          "text": "家族の人数"
         },
         {
           "id": "B",
@@ -440,10 +440,10 @@
         },
         {
           "id": "D",
-          "text": "家族の人数"
+          "text": "来週の都合のよい日時と、これまでの経験"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Two requests.",
       "distractors": {}
     },
@@ -487,7 +487,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "長い時間をかけることより、時間の使い方の質が大切だという考え"
+          "text": "部活は必要ない"
         },
         {
           "id": "B",
@@ -495,14 +495,14 @@
         },
         {
           "id": "C",
-          "text": "部活は必要ない"
+          "text": "長い時間をかけることより、時間の使い方の質が大切だという考え"
         },
         {
           "id": "D",
           "text": "アルバイトは禁止すべきだ"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Quality over hours.",
       "distractors": {}
     },

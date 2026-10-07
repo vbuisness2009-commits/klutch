@@ -97,11 +97,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "5"
+          "text": "15"
         },
         {
           "id": "B",
-          "text": "15"
+          "text": "5"
         },
         {
           "id": "C",
@@ -112,7 +112,7 @@
           "text": "10"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Five works.",
       "distractors": {}
     },
@@ -155,7 +155,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Overlapping forms, diminishing scale, and lighter, less detailed marks in the distance"
+          "text": "Using only outlines of equal weight"
         },
         {
           "id": "B",
@@ -167,10 +167,10 @@
         },
         {
           "id": "D",
-          "text": "Using only outlines of equal weight"
+          "text": "Overlapping forms, diminishing scale, and lighter, less detailed marks in the distance"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Atmospheric and linear perspective cues.",
       "distractors": {}
     },
@@ -213,7 +213,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "It shows strong skill and a clear connection among materials, processes, and ideas"
+          "text": "It is the largest"
         },
         {
           "id": "B",
@@ -221,14 +221,14 @@
         },
         {
           "id": "C",
-          "text": "It is the largest"
+          "text": "It shows strong skill and a clear connection among materials, processes, and ideas"
         },
         {
           "id": "D",
           "text": "It uses the most expensive materials"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Rubric priorities.",
       "distractors": {}
     },
@@ -242,11 +242,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "simplify and create emphasis through contrast or placement"
+          "text": "add more objects"
         },
         {
           "id": "B",
-          "text": "add more objects"
+          "text": "simplify and create emphasis through contrast or placement"
         },
         {
           "id": "C",
@@ -257,7 +257,7 @@
           "text": "make the work larger without other changes"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Design decision-making.",
       "distractors": {}
     },

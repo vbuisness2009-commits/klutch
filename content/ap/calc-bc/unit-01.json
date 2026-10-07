@@ -1,651 +1,651 @@
 {
- "number": 1,
- "title": "Limits and Continuity",
- "guide": {
-  "summary": "Unit 1 builds the language of calculus: what it means for a function to approach a value, how to compute limits from graphs, tables, and formulas, and how limits define continuity and asymptotes. On the exam it shows up directly (about 10–15% of MCQ) and indirectly everywhere — derivatives are limits, and the Intermediate Value Theorem is a standard FRQ justification.",
-  "sections": [
-   {
-    "heading": "What a limit says",
-    "body": "lim x→a f(x) = L means the outputs f(x) can be made as close to L as we like by taking x close enough to a (but not equal to a). The value f(a) itself is irrelevant to the limit — f(a) might equal L, equal something else, or not exist.\n\n**One-sided limits.** lim x→a⁻ f(x) uses x-values to the left of a; lim x→a⁺ f(x) uses values to the right. The two-sided limit exists **only if** both one-sided limits exist and are equal.\n\n**Reading a graph.** Trace the curve toward x = a from each side and read the y-value the curve heads toward. An open circle at (2, 5) and a filled dot at (2, 1) mean lim x→2 f(x) = 5 while f(2) = 1.\n\n**Reading a table.** Look at the trend as x closes in from both sides, e.g. x = 1.9, 1.99, 1.999 and 2.1, 2.01, 2.001. A table can *suggest* a limit but never proves it; AP questions ask what the table “suggests” or which value is “best estimated.”\n\n**Limits that do not exist** arise three ways: left and right limits differ (a jump), outputs grow without bound (vertical asymptote; we write = ∞ or −∞ to describe the behavior, but the limit still does not exist as a real number), or outputs oscillate (sin(1/x) near 0)."
-   },
-   {
-    "heading": "Computing limits algebraically",
-    "body": "Always try **direct substitution** first. Polynomials, rational functions (where the denominator ≠ 0), roots, exponentials, logs, and trig functions are continuous on their domains, so substitution works there.\n\nIf substitution gives **0/0**, the form is indeterminate — more work is needed:\n\n- **Factor and cancel.** lim x→3 (x² − 9)/(x − 3) = lim x→3 (x + 3) = 6.\n- **Multiply by a conjugate.** lim x→0 (√(x+4) − 2)/x = lim x→0 x/(x(√(x+4) + 2)) = 1/4.\n- **Combine fractions** in complex fractions, then cancel.\n- **Special trig limits:** lim x→0 sin x / x = 1 and lim x→0 (1 − cos x)/x = 0. Rescale: lim x→0 sin(3x)/(5x) = (3/5)·lim sin(3x)/(3x) = 3/5.\n\nIf substitution gives **nonzero/0**, the function is unbounded near a: check signs on each side to decide +∞ or −∞ (a vertical asymptote).\n\n**Squeeze Theorem.** If g(x) ≤ f(x) ≤ h(x) near a and lim g = lim h = L, then lim f = L. Classic: −x² ≤ x² sin(1/x) ≤ x², so lim x→0 x² sin(1/x) = 0. On FRQs, state both bounds and that their limits are equal.\n\n**Worked example.** Find lim x→2⁻ |x − 2|/(x² − 4). For x < 2, |x − 2| = −(x − 2), so the expression is −(x − 2)/((x − 2)(x + 2)) = −1/(x + 2) → −1/4. From the right it is +1/4, so the two-sided limit does not exist."
-   },
-   {
-    "heading": "Continuity and discontinuities",
-    "body": "f is **continuous at x = a** when three conditions hold: (1) f(a) is defined, (2) lim x→a f(x) exists, and (3) lim x→a f(x) = f(a). FRQs that ask you to justify continuity want all three, written with limit notation.\n\nTypes of discontinuity:\n\n| Type | What happens | Example |\n|---|---|---|\n| Removable | limit exists but ≠ f(a) or f(a) undefined | (x² − 4)/(x − 2) at x = 2 |\n| Jump | one-sided limits exist but differ | step functions, many piecewise functions |\n| Infinite | function unbounded (vertical asymptote) | 1/(x − 1) at x = 1 |\n\n**Making a piecewise function continuous.** Set the left-hand limit, right-hand limit, and function value equal at the break point. For f(x) = kx + 1 (x < 2) and x² − k (x ≥ 2): 2k + 1 = 4 − k, so k = 1. If there are two unknowns, you will usually be given a second condition (often differentiability — Unit 2).\n\n**Removing a discontinuity.** If the limit exists at a hole, redefining f(a) to equal that limit makes f continuous there. If the limit doesn’t exist, the discontinuity is not removable."
-   },
-   {
-    "heading": "Asymptotes and end behavior",
-    "body": "**Vertical asymptote** at x = a if lim x→a⁺ or lim x→a⁻ of f(x) is ±∞. For rational functions, cancel common factors first: a factor that cancels gives a hole, a factor that remains in the denominator gives an asymptote. Example: (x − 1)/(x² − 1) = 1/(x + 1) for x ≠ 1 — hole at x = 1, vertical asymptote at x = −1.\n\n**Horizontal asymptote** y = L if lim x→∞ f(x) = L or lim x→−∞ f(x) = L. For rational functions compare degrees:\n\n- top degree < bottom degree → limit 0\n- equal degrees → ratio of leading coefficients\n- top degree > bottom degree → unbounded (no horizontal asymptote)\n\nWatch two traps. (1) **Square roots as x → −∞:** √(x²) = |x| = −x when x < 0, so lim x→−∞ √(9x² + 1)/(x − 4) = −3, not 3. (2) **Exponentials:** eˣ → 0 as x → −∞ but grows faster than any polynomial as x → ∞. So (2eˣ + 3)/(eˣ − 1) has two different horizontal asymptotes: y = 2 (right) and y = −3 (left).\n\n**Growth rates (useful for end behavior):** ln x ≪ xᵖ ≪ eˣ as x → ∞. So lim x→∞ x¹⁰⁰/eˣ = 0."
-   },
-   {
-    "heading": "The Intermediate Value Theorem",
-    "body": "**IVT:** If f is continuous on the closed interval [a, b] and N is any number between f(a) and f(b), then there is at least one c in (a, b) with f(c) = N.\n\nOn FRQs the IVT point requires: (1) stating that f is continuous on the interval (often because f is differentiable, or because a problem says so — a table alone does not guarantee continuity), and (2) showing the target value is between two function values. Example: “Because f is differentiable, it is continuous on [1, 3]. Since f(1) = 4 > 0 > −2 = f(3), the IVT guarantees a value c in (1, 3) with f(c) = 0.”\n\n**Counting guaranteed zeros.** If a continuous f has values 4, −2, 3 at x = 1, 3, 5, there must be a zero in (1, 3) and another in (3, 5): at least two zeros. IVT gives minimums, never exact counts.\n\n**Shifted IVT.** To show f(c) = c + 3 for some c, apply IVT to g(x) = f(x) − x − 3, which is continuous when f is. Show g changes sign.\n\nIVT is not EVT or MVT: IVT needs only continuity and gives an output value; the Mean Value Theorem (Unit 5) needs differentiability and gives a derivative value."
-   }
+  "number": 1,
+  "title": "Limits and Continuity",
+  "guide": {
+    "summary": "Unit 1 builds the language of calculus: what it means for a function to approach a value, how to compute limits from graphs, tables, and formulas, and how limits define continuity and asymptotes. On the exam it shows up directly (about 10–15% of MCQ) and indirectly everywhere — derivatives are limits, and the Intermediate Value Theorem is a standard FRQ justification.",
+    "sections": [
+      {
+        "heading": "What a limit says",
+        "body": "lim x→a f(x) = L means the outputs f(x) can be made as close to L as we like by taking x close enough to a (but not equal to a). The value f(a) itself is irrelevant to the limit — f(a) might equal L, equal something else, or not exist.\n\n**One-sided limits.** lim x→a⁻ f(x) uses x-values to the left of a; lim x→a⁺ f(x) uses values to the right. The two-sided limit exists **only if** both one-sided limits exist and are equal.\n\n**Reading a graph.** Trace the curve toward x = a from each side and read the y-value the curve heads toward. An open circle at (2, 5) and a filled dot at (2, 1) mean lim x→2 f(x) = 5 while f(2) = 1.\n\n**Reading a table.** Look at the trend as x closes in from both sides, e.g. x = 1.9, 1.99, 1.999 and 2.1, 2.01, 2.001. A table can *suggest* a limit but never proves it; AP questions ask what the table “suggests” or which value is “best estimated.”\n\n**Limits that do not exist** arise three ways: left and right limits differ (a jump), outputs grow without bound (vertical asymptote; we write = ∞ or −∞ to describe the behavior, but the limit still does not exist as a real number), or outputs oscillate (sin(1/x) near 0)."
+      },
+      {
+        "heading": "Computing limits algebraically",
+        "body": "Always try **direct substitution** first. Polynomials, rational functions (where the denominator ≠ 0), roots, exponentials, logs, and trig functions are continuous on their domains, so substitution works there.\n\nIf substitution gives **0/0**, the form is indeterminate — more work is needed:\n\n- **Factor and cancel.** lim x→3 (x² − 9)/(x − 3) = lim x→3 (x + 3) = 6.\n- **Multiply by a conjugate.** lim x→0 (√(x+4) − 2)/x = lim x→0 x/(x(√(x+4) + 2)) = 1/4.\n- **Combine fractions** in complex fractions, then cancel.\n- **Special trig limits:** lim x→0 sin x / x = 1 and lim x→0 (1 − cos x)/x = 0. Rescale: lim x→0 sin(3x)/(5x) = (3/5)·lim sin(3x)/(3x) = 3/5.\n\nIf substitution gives **nonzero/0**, the function is unbounded near a: check signs on each side to decide +∞ or −∞ (a vertical asymptote).\n\n**Squeeze Theorem.** If g(x) ≤ f(x) ≤ h(x) near a and lim g = lim h = L, then lim f = L. Classic: −x² ≤ x² sin(1/x) ≤ x², so lim x→0 x² sin(1/x) = 0. On FRQs, state both bounds and that their limits are equal.\n\n**Worked example.** Find lim x→2⁻ |x − 2|/(x² − 4). For x < 2, |x − 2| = −(x − 2), so the expression is −(x − 2)/((x − 2)(x + 2)) = −1/(x + 2) → −1/4. From the right it is +1/4, so the two-sided limit does not exist."
+      },
+      {
+        "heading": "Continuity and discontinuities",
+        "body": "f is **continuous at x = a** when three conditions hold: (1) f(a) is defined, (2) lim x→a f(x) exists, and (3) lim x→a f(x) = f(a). FRQs that ask you to justify continuity want all three, written with limit notation.\n\nTypes of discontinuity:\n\n| Type | What happens | Example |\n|---|---|---|\n| Removable | limit exists but ≠ f(a) or f(a) undefined | (x² − 4)/(x − 2) at x = 2 |\n| Jump | one-sided limits exist but differ | step functions, many piecewise functions |\n| Infinite | function unbounded (vertical asymptote) | 1/(x − 1) at x = 1 |\n\n**Making a piecewise function continuous.** Set the left-hand limit, right-hand limit, and function value equal at the break point. For f(x) = kx + 1 (x < 2) and x² − k (x ≥ 2): 2k + 1 = 4 − k, so k = 1. If there are two unknowns, you will usually be given a second condition (often differentiability — Unit 2).\n\n**Removing a discontinuity.** If the limit exists at a hole, redefining f(a) to equal that limit makes f continuous there. If the limit doesn’t exist, the discontinuity is not removable."
+      },
+      {
+        "heading": "Asymptotes and end behavior",
+        "body": "**Vertical asymptote** at x = a if lim x→a⁺ or lim x→a⁻ of f(x) is ±∞. For rational functions, cancel common factors first: a factor that cancels gives a hole, a factor that remains in the denominator gives an asymptote. Example: (x − 1)/(x² − 1) = 1/(x + 1) for x ≠ 1 — hole at x = 1, vertical asymptote at x = −1.\n\n**Horizontal asymptote** y = L if lim x→∞ f(x) = L or lim x→−∞ f(x) = L. For rational functions compare degrees:\n\n- top degree < bottom degree → limit 0\n- equal degrees → ratio of leading coefficients\n- top degree > bottom degree → unbounded (no horizontal asymptote)\n\nWatch two traps. (1) **Square roots as x → −∞:** √(x²) = |x| = −x when x < 0, so lim x→−∞ √(9x² + 1)/(x − 4) = −3, not 3. (2) **Exponentials:** eˣ → 0 as x → −∞ but grows faster than any polynomial as x → ∞. So (2eˣ + 3)/(eˣ − 1) has two different horizontal asymptotes: y = 2 (right) and y = −3 (left).\n\n**Growth rates (useful for end behavior):** ln x ≪ xᵖ ≪ eˣ as x → ∞. So lim x→∞ x¹⁰⁰/eˣ = 0."
+      },
+      {
+        "heading": "The Intermediate Value Theorem",
+        "body": "**IVT:** If f is continuous on the closed interval [a, b] and N is any number between f(a) and f(b), then there is at least one c in (a, b) with f(c) = N.\n\nOn FRQs the IVT point requires: (1) stating that f is continuous on the interval (often because f is differentiable, or because a problem says so — a table alone does not guarantee continuity), and (2) showing the target value is between two function values. Example: “Because f is differentiable, it is continuous on [1, 3]. Since f(1) = 4 > 0 > −2 = f(3), the IVT guarantees a value c in (1, 3) with f(c) = 0.”\n\n**Counting guaranteed zeros.** If a continuous f has values 4, −2, 3 at x = 1, 3, 5, there must be a zero in (1, 3) and another in (3, 5): at least two zeros. IVT gives minimums, never exact counts.\n\n**Shifted IVT.** To show f(c) = c + 3 for some c, apply IVT to g(x) = f(x) − x − 3, which is continuous when f is. Show g changes sign.\n\nIVT is not EVT or MVT: IVT needs only continuity and gives an output value; the Mean Value Theorem (Unit 5) needs differentiability and gives a derivative value."
+      }
+    ],
+    "keyTakeaways": [
+      "A limit describes where outputs are heading, not the value at the point.",
+      "Two-sided limit exists ⇔ both one-sided limits exist and are equal.",
+      "0/0 means “do more algebra” (factor, conjugate, trig limit); nonzero/0 means a vertical asymptote.",
+      "Continuity at a: f(a) defined, limit exists, limit equals f(a).",
+      "IVT needs continuity on a closed interval and gives a guaranteed output value.",
+      "Compare degrees for rational end behavior; watch √(x²) = |x| as x → −∞."
+    ],
+    "commonMistakes": [
+      "Saying lim x→a f(x) = f(a) automatically, even at a hole or jump.",
+      "Writing lim x→1 (x² − 1)/(x − 1) = 0/0 = undefined and stopping — 0/0 is not a value.",
+      "Treating a canceled factor as a vertical asymptote instead of a hole.",
+      "Forgetting the negative sign from √(x²) = −x when x → −∞.",
+      "Applying IVT without stating continuity, or using a table alone as evidence of continuity.",
+      "Writing ∞ as if it were a number in a final ‘limit exists’ statement."
+    ],
+    "examTips": [
+      "MCQ limit questions are often answered fastest by recognizing structure: a derivative definition in disguise, a degree comparison, or sin(kx)/(kx).",
+      "Expect piecewise-continuity questions (‘for what value of k is f continuous?’) in Part A; set the one-sided expressions equal.",
+      "FRQs use IVT inside larger table problems: ‘Must there be a value of t where f(t) = 5? Justify.’",
+      "If asked whether a limit exists from a graph, check both sides separately before answering.",
+      "Graph-reading items often include a filled dot at a different height than the hole — read the limit from the curve, not the dot."
+    ],
+    "cramSheet": "- lim x→a f(x) = L: outputs approach L as x → a (x ≠ a). Two-sided exists ⇔ left = right.\n- Direct substitution first. 0/0 → factor, conjugate, common denominators, trig limits.\n- lim x→0 sin x/x = 1; lim x→0 (1 − cos x)/x = 0; lim sin(kx)/(mx) = k/m.\n- Squeeze: g ≤ f ≤ h, lim g = lim h = L ⇒ lim f = L.\n- Continuous at a ⇔ f(a) exists, lim exists, lim = f(a).\n- Discontinuities: removable (hole), jump, infinite (VA).\n- Rational: canceled factor → hole; remaining denominator zero → VA.\n- Horizontal asymptotes: deg top < bottom → 0; equal → leading-coefficient ratio; top > bottom → none.\n- As x → −∞, √(x²) = −x. eˣ → 0 as x → −∞.\n- Growth: ln x ≪ xᵖ ≪ eˣ.\n- IVT: f continuous on [a, b], N between f(a) and f(b) ⇒ ∃ c ∈ (a, b) with f(c) = N. State continuity!"
+  },
+  "vocab": [
+    {
+      "term": "Limit",
+      "definition": "The value L that f(x) approaches as x approaches a from both sides, written lim x→a f(x) = L; f(a) itself does not matter."
+    },
+    {
+      "term": "One-sided limit",
+      "definition": "A limit taken from only the left (x → a⁻) or only the right (x → a⁺)."
+    },
+    {
+      "term": "Indeterminate form",
+      "definition": "An expression like 0/0 or ∞/∞ produced by substitution that does not determine the limit; more algebra or analysis is required."
+    },
+    {
+      "term": "Continuity at a point",
+      "definition": "f is continuous at x = a if f(a) is defined, lim x→a f(x) exists, and the limit equals f(a)."
+    },
+    {
+      "term": "Continuous on an interval",
+      "definition": "Continuous at every point of the interval; on a closed interval [a, b], one-sided continuity at the endpoints."
+    },
+    {
+      "term": "Removable discontinuity",
+      "definition": "A point where the limit exists but either f(a) is undefined or f(a) ≠ the limit (a hole).",
+      "example": "(x² − 4)/(x − 2) at x = 2"
+    },
+    {
+      "term": "Jump discontinuity",
+      "definition": "A point where both one-sided limits exist but are not equal."
+    },
+    {
+      "term": "Infinite discontinuity",
+      "definition": "A point where f increases or decreases without bound on at least one side; a vertical asymptote."
+    },
+    {
+      "term": "Vertical asymptote",
+      "definition": "The line x = a when lim x→a⁺ f(x) or lim x→a⁻ f(x) is ∞ or −∞."
+    },
+    {
+      "term": "Horizontal asymptote",
+      "definition": "The line y = L when lim x→∞ f(x) = L or lim x→−∞ f(x) = L."
+    },
+    {
+      "term": "End behavior",
+      "definition": "How f(x) behaves as x → ∞ or x → −∞, described with limits."
+    },
+    {
+      "term": "Squeeze Theorem",
+      "definition": "If g(x) ≤ f(x) ≤ h(x) near a and lim g = lim h = L, then lim f = L."
+    },
+    {
+      "term": "Intermediate Value Theorem (IVT)",
+      "definition": "If f is continuous on [a, b] and N is between f(a) and f(b), there exists c in (a, b) with f(c) = N."
+    },
+    {
+      "term": "Direct substitution",
+      "definition": "Evaluating a limit by plugging in a, valid when the function is continuous at a."
+    },
+    {
+      "term": "Conjugate",
+      "definition": "For √A − B, the expression √A + B; multiplying by it removes roots in 0/0 limits."
+    },
+    {
+      "term": "Dominant term",
+      "definition": "The fastest-growing term of an expression, which controls end behavior; e.g., eˣ dominates any power of x."
+    }
   ],
-  "keyTakeaways": [
-   "A limit describes where outputs are heading, not the value at the point.",
-   "Two-sided limit exists ⇔ both one-sided limits exist and are equal.",
-   "0/0 means “do more algebra” (factor, conjugate, trig limit); nonzero/0 means a vertical asymptote.",
-   "Continuity at a: f(a) defined, limit exists, limit equals f(a).",
-   "IVT needs continuity on a closed interval and gives a guaranteed output value.",
-   "Compare degrees for rational end behavior; watch √(x²) = |x| as x → −∞."
-  ],
-  "commonMistakes": [
-   "Saying lim x→a f(x) = f(a) automatically, even at a hole or jump.",
-   "Writing lim x→1 (x² − 1)/(x − 1) = 0/0 = undefined and stopping — 0/0 is not a value.",
-   "Treating a canceled factor as a vertical asymptote instead of a hole.",
-   "Forgetting the negative sign from √(x²) = −x when x → −∞.",
-   "Applying IVT without stating continuity, or using a table alone as evidence of continuity.",
-   "Writing ∞ as if it were a number in a final ‘limit exists’ statement."
-  ],
-  "examTips": [
-   "MCQ limit questions are often answered fastest by recognizing structure: a derivative definition in disguise, a degree comparison, or sin(kx)/(kx).",
-   "Expect piecewise-continuity questions (‘for what value of k is f continuous?’) in Part A; set the one-sided expressions equal.",
-   "FRQs use IVT inside larger table problems: ‘Must there be a value of t where f(t) = 5? Justify.’",
-   "If asked whether a limit exists from a graph, check both sides separately before answering.",
-   "Graph-reading items often include a filled dot at a different height than the hole — read the limit from the curve, not the dot."
-  ],
-  "cramSheet": "- lim x→a f(x) = L: outputs approach L as x → a (x ≠ a). Two-sided exists ⇔ left = right.\n- Direct substitution first. 0/0 → factor, conjugate, common denominators, trig limits.\n- lim x→0 sin x/x = 1; lim x→0 (1 − cos x)/x = 0; lim sin(kx)/(mx) = k/m.\n- Squeeze: g ≤ f ≤ h, lim g = lim h = L ⇒ lim f = L.\n- Continuous at a ⇔ f(a) exists, lim exists, lim = f(a).\n- Discontinuities: removable (hole), jump, infinite (VA).\n- Rational: canceled factor → hole; remaining denominator zero → VA.\n- Horizontal asymptotes: deg top < bottom → 0; equal → leading-coefficient ratio; top > bottom → none.\n- As x → −∞, √(x²) = −x. eˣ → 0 as x → −∞.\n- Growth: ln x ≪ xᵖ ≪ eˣ.\n- IVT: f continuous on [a, b], N between f(a) and f(b) ⇒ ∃ c ∈ (a, b) with f(c) = N. State continuity!"
- },
- "vocab": [
-  {
-   "term": "Limit",
-   "definition": "The value L that f(x) approaches as x approaches a from both sides, written lim x→a f(x) = L; f(a) itself does not matter."
-  },
-  {
-   "term": "One-sided limit",
-   "definition": "A limit taken from only the left (x → a⁻) or only the right (x → a⁺)."
-  },
-  {
-   "term": "Indeterminate form",
-   "definition": "An expression like 0/0 or ∞/∞ produced by substitution that does not determine the limit; more algebra or analysis is required."
-  },
-  {
-   "term": "Continuity at a point",
-   "definition": "f is continuous at x = a if f(a) is defined, lim x→a f(x) exists, and the limit equals f(a)."
-  },
-  {
-   "term": "Continuous on an interval",
-   "definition": "Continuous at every point of the interval; on a closed interval [a, b], one-sided continuity at the endpoints."
-  },
-  {
-   "term": "Removable discontinuity",
-   "definition": "A point where the limit exists but either f(a) is undefined or f(a) ≠ the limit (a hole).",
-   "example": "(x² − 4)/(x − 2) at x = 2"
-  },
-  {
-   "term": "Jump discontinuity",
-   "definition": "A point where both one-sided limits exist but are not equal."
-  },
-  {
-   "term": "Infinite discontinuity",
-   "definition": "A point where f increases or decreases without bound on at least one side; a vertical asymptote."
-  },
-  {
-   "term": "Vertical asymptote",
-   "definition": "The line x = a when lim x→a⁺ f(x) or lim x→a⁻ f(x) is ∞ or −∞."
-  },
-  {
-   "term": "Horizontal asymptote",
-   "definition": "The line y = L when lim x→∞ f(x) = L or lim x→−∞ f(x) = L."
-  },
-  {
-   "term": "End behavior",
-   "definition": "How f(x) behaves as x → ∞ or x → −∞, described with limits."
-  },
-  {
-   "term": "Squeeze Theorem",
-   "definition": "If g(x) ≤ f(x) ≤ h(x) near a and lim g = lim h = L, then lim f = L."
-  },
-  {
-   "term": "Intermediate Value Theorem (IVT)",
-   "definition": "If f is continuous on [a, b] and N is between f(a) and f(b), there exists c in (a, b) with f(c) = N."
-  },
-  {
-   "term": "Direct substitution",
-   "definition": "Evaluating a limit by plugging in a, valid when the function is continuous at a."
-  },
-  {
-   "term": "Conjugate",
-   "definition": "For √A − B, the expression √A + B; multiplying by it removes roots in 0/0 limits."
-  },
-  {
-   "term": "Dominant term",
-   "definition": "The fastest-growing term of an expression, which controls end behavior; e.g., eˣ dominates any power of x."
-  }
- ],
- "practice": [
-  {
-   "id": "u1-q01",
-   "type": "mcq",
-   "tier": "Intro",
-   "topic": "1.6 Determining Limits Using Algebraic Manipulation",
-   "stem": "What is lim x→3 (x² − 9)/(x − 3)?",
-   "choices": [
+  "practice": [
     {
-     "id": "A",
-     "text": "0"
+      "id": "u1-q01",
+      "type": "mcq",
+      "tier": "Intro",
+      "topic": "1.6 Determining Limits Using Algebraic Manipulation",
+      "stem": "What is lim x→3 (x² − 9)/(x − 3)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "The limit does not exist."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Substitution gives 0/0. Factor: (x − 3)(x + 3)/(x − 3) = x + 3 for x ≠ 3, so the limit is 3 + 3 = 6.",
+      "distractors": {
+        "B": "Cancels incorrectly and keeps only x.",
+        "D": "Thinks 0/0 means the limit fails to exist; it is indeterminate, not nonexistent.",
+        "C": "Treats 0/0 as 0."
+      }
     },
     {
-     "id": "B",
-     "text": "3"
+      "id": "u1-q02",
+      "type": "mcq",
+      "tier": "Intro",
+      "topic": "1.3 Estimating Limit Values from Tables",
+      "stimulus": "| x | 1.9 | 1.99 | 1.999 | 2 | 2.001 | 2.01 | 2.1 |\n|---|---|---|---|---|---|---|---|\n| f(x) | 4.9 | 4.99 | 4.999 | 1 | 5.001 | 5.01 | 5.1 |",
+      "stem": "The table gives selected values of a function f. Based on the table, which value is the best estimate of lim x→2 f(x)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "5"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "The limit does not exist."
+        }
+      ],
+      "answer": "B",
+      "explanation": "From both sides the outputs approach 5 (4.9, 4.99, 4.999 and 5.1, 5.01, 5.001). The value f(2) = 1 does not affect the limit.",
+      "distractors": {
+        "A": "Reads f(2) instead of the trend near 2.",
+        "D": "Both one-sided trends agree, so the table suggests the limit exists.",
+        "C": "Averages unrelated values."
+      }
     },
     {
-     "id": "C",
-     "text": "6"
+      "id": "u1-q03",
+      "type": "mcq",
+      "tier": "Intro",
+      "topic": "1.15 Connecting Limits at Infinity and Horizontal Asymptotes",
+      "stem": "lim x→∞ (4x³ − x)/(2x³ + 5x²) is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "4"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "∞"
+        }
+      ],
+      "answer": "C",
+      "explanation": "Numerator and denominator have the same degree (3), so the limit is the ratio of leading coefficients: 4/2 = 2.",
+      "distractors": {
+        "A": "Applies the rule for a lower-degree numerator.",
+        "D": "Applies the rule for a higher-degree numerator.",
+        "B": "Ignores the 2 in the denominator."
+      }
     },
     {
-     "id": "D",
-     "text": "The limit does not exist."
+      "id": "u1-q04",
+      "type": "mcq",
+      "tier": "Intro",
+      "topic": "1.14 Connecting Infinite Limits and Vertical Asymptotes",
+      "stem": "The graph of f(x) = (x − 1)/(x² − 1) has which vertical asymptote(s)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "x = 1 only"
+        },
+        {
+          "id": "B",
+          "text": "No vertical asymptotes"
+        },
+        {
+          "id": "C",
+          "text": "x = 1 and x = −1"
+        },
+        {
+          "id": "D",
+          "text": "x = −1 only"
+        }
+      ],
+      "answer": "D",
+      "explanation": "x² − 1 = (x − 1)(x + 1). For x ≠ 1, f(x) = 1/(x + 1). The factor x − 1 cancels, giving a hole at x = 1; the remaining zero of the denominator, x = −1, is a vertical asymptote.",
+      "distractors": {
+        "A": "Confuses the hole at x = 1 with an asymptote and misses x = −1.",
+        "C": "Counts every zero of the original denominator without canceling.",
+        "B": "Thinks canceling removes all asymptotes."
+      }
+    },
+    {
+      "id": "u1-q05",
+      "type": "mcq",
+      "tier": "Exam level",
+      "topic": "1.9 Connecting Multiple Representations of Limits (trig limits)",
+      "stem": "What is lim x→0 sin(3x)/(5x)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "3/5"
+        },
+        {
+          "id": "C",
+          "text": "5/3"
+        },
+        {
+          "id": "D",
+          "text": "1"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Rewrite as (3/5)·[sin(3x)/(3x)]. As x → 0, 3x → 0, so the bracket → 1. The limit is 3/5.",
+      "distractors": {
+        "A": "Substitutes to get 0/0 and calls it 0.",
+        "C": "Inverts the ratio.",
+        "D": "Uses lim sin u/u = 1 without rescaling."
+      }
+    },
+    {
+      "id": "u1-q06",
+      "type": "mcq",
+      "tier": "Exam level",
+      "topic": "1.13 Removing Discontinuities",
+      "stem": "Let f(x) = kx + 1 for x < 2 and f(x) = x² − k for x ≥ 2. For what value of k is f continuous at x = 2?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "−1"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "3/2"
+        },
+        {
+          "id": "D",
+          "text": "3"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Continuity at 2 requires the left limit 2k + 1 to equal the right limit and f(2), both 4 − k. So 2k + 1 = 4 − k, 3k = 3, k = 1.",
+      "distractors": {
+        "A": "Arithmetic sign slip; checking k = −1 gives a left limit of −1 but a right limit of 5.",
+        "C": "Solves 2k + 1 = 4, dropping the −k on the right side.",
+        "D": "Sets 2k + 1 = 4 + k (sign error on k), giving k = 3; then the left limit is 7 but f(2) = 1."
+      }
+    },
+    {
+      "id": "u1-q07",
+      "type": "mcq",
+      "tier": "Exam level",
+      "topic": "1.15 Connecting Limits at Infinity and Horizontal Asymptotes",
+      "stem": "What is lim x→−∞ √(9x² + 1)/(x − 4)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "0"
+        },
+        {
+          "id": "C",
+          "text": "9"
+        },
+        {
+          "id": "D",
+          "text": "−3"
+        }
+      ],
+      "answer": "D",
+      "explanation": "For large negative x, √(9x² + 1) ≈ √(9x²) = 3|x| = −3x. So the expression ≈ −3x/x = −3. Formally divide numerator and denominator by x = −√(x²): numerator becomes −√(9 + 1/x²) → −3, denominator 1 − 4/x → 1.",
+      "distractors": {
+        "A": "Uses √(x²) = x, which is only true for x ≥ 0.",
+        "C": "Forgets to take the square root of 9.",
+        "B": "Thinks the degree of the numerator (2) exceeds the denominator's; the effective degree is 1."
+      }
+    },
+    {
+      "id": "u1-q08",
+      "type": "mcq",
+      "tier": "Exam level",
+      "topic": "1.16 Working with the Intermediate Value Theorem",
+      "stem": "A function f is continuous on [1, 5]. Selected values are f(1) = 4, f(3) = −2, and f(5) = 3. What is the least number of solutions that f(x) = 0 must have on the open interval (1, 5)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "3"
+        }
+      ],
+      "answer": "C",
+      "explanation": "f changes sign between x = 1 and x = 3 (4 to −2) and again between x = 3 and x = 5 (−2 to 3). By the IVT applied on each subinterval, there is at least one zero in (1, 3) and at least one in (3, 5): at least 2.",
+      "distractors": {
+        "A": "Thinks IVT guarantees nothing without a formula.",
+        "B": "Applies IVT only on [1, 5], where f(1) and f(5) are both positive, or only once.",
+        "D": "Counts one zero per given data point."
+      }
+    },
+    {
+      "id": "u1-q09",
+      "type": "mcq",
+      "tier": "Exam level",
+      "topic": "1.8 Determining Limits Using the Squeeze Theorem",
+      "stem": "For all real x, 2x ≤ g(x) ≤ x² + 1. What is lim x→1 g(x)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "It cannot be determined from the information given."
+        }
+      ],
+      "answer": "A",
+      "explanation": "lim x→1 2x = 2 and lim x→1 (x² + 1) = 2. Since g is squeezed between functions with the same limit, the Squeeze Theorem gives lim x→1 g(x) = 2. (The bounds are consistent because x² + 1 − 2x = (x − 1)² ≥ 0.)",
+      "distractors": {
+        "C": "Adds the bounds' constants incorrectly.",
+        "D": "Misses that the two bounds meet at x = 1.",
+        "B": "Evaluates only x² at 1."
+      }
+    },
+    {
+      "id": "u1-q10",
+      "type": "mcq",
+      "tier": "Exam level",
+      "topic": "1.10 Exploring Types of Discontinuities",
+      "stem": "Let f(x) = (x² + x − 6)/(x − 2) for x ≠ 2 and f(2) = 4. Which statement is true at x = 2?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "f has a removable discontinuity at x = 2."
+        },
+        {
+          "id": "B",
+          "text": "f is continuous at x = 2."
+        },
+        {
+          "id": "C",
+          "text": "f has a jump discontinuity at x = 2."
+        },
+        {
+          "id": "D",
+          "text": "f has an infinite discontinuity at x = 2."
+        }
+      ],
+      "answer": "A",
+      "explanation": "For x ≠ 2, f(x) = (x + 3)(x − 2)/(x − 2) = x + 3, so lim x→2 f(x) = 5. Because the limit exists but f(2) = 4 ≠ 5, the discontinuity is removable (redefining f(2) = 5 would fix it).",
+      "distractors": {
+        "C": "A jump needs different one-sided limits; both sides approach 5.",
+        "D": "The denominator zero cancels, so there is no asymptote.",
+        "B": "Assumes defining f(2) is enough; the limit must also equal f(2)."
+      }
+    },
+    {
+      "id": "u1-q11",
+      "type": "mcq",
+      "tier": "Hardest",
+      "topic": "1.6 Determining Limits Using Algebraic Manipulation",
+      "stem": "Let f(x) = |x − 2|/(x² − 4). Which of the following statements are true?\n\nI. lim x→2⁻ f(x) = −1/4\n\nII. lim x→2 f(x) exists.\n\nIII. The line x = −2 is a vertical asymptote of the graph of f.",
+      "choices": [
+        {
+          "id": "A",
+          "text": "I only"
+        },
+        {
+          "id": "B",
+          "text": "II and III only"
+        },
+        {
+          "id": "C",
+          "text": "I and III only"
+        },
+        {
+          "id": "D",
+          "text": "I, II, and III"
+        }
+      ],
+      "answer": "C",
+      "explanation": "For x < 2: |x − 2| = −(x − 2), so f(x) = −1/(x + 2) → −1/4 (I true). For x > 2: f(x) = 1/(x + 2) → 1/4, so the two-sided limit does not exist (II false). Near x = −2, the numerator → 4 while the denominator → 0, so f is unbounded: x = −2 is a vertical asymptote (III true).",
+      "distractors": {
+        "A": "Misses that x = −2 gives nonzero/0.",
+        "D": "Ignores that the one-sided limits at 2 differ.",
+        "B": "Assumes the absolute value doesn't change the sign from the left."
+      }
+    },
+    {
+      "id": "u1-q12",
+      "type": "mcq",
+      "tier": "Hardest",
+      "topic": "1.15 Connecting Limits at Infinity and Horizontal Asymptotes",
+      "stem": "Which of the following are the horizontal asymptotes of the graph of f(x) = (2eˣ + 3)/(eˣ − 1)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "y = 2 only"
+        },
+        {
+          "id": "B",
+          "text": "y = −3 only"
+        },
+        {
+          "id": "C",
+          "text": "y = 2 and y = 3"
+        },
+        {
+          "id": "D",
+          "text": "y = 2 and y = −3"
+        }
+      ],
+      "answer": "D",
+      "explanation": "As x → ∞, divide by eˣ: (2 + 3e⁻ˣ)/(1 − e⁻ˣ) → 2. As x → −∞, eˣ → 0, so f(x) → (0 + 3)/(0 − 1) = −3. Both lines are horizontal asymptotes.",
+      "distractors": {
+        "A": "Checks only x → ∞.",
+        "B": "Checks only x → −∞.",
+        "C": "Drops the sign of the −1 in the denominator."
+      }
+    },
+    {
+      "id": "u1-q13",
+      "type": "mcq",
+      "tier": "Hardest",
+      "topic": "1.6 Determining Limits Using Algebraic Manipulation",
+      "stem": "Let f(x) = (ax² + bx)/(x − 1), where a and b are constants. If lim x→1 f(x) = 5, what is the value of b?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "−5"
+        },
+        {
+          "id": "B",
+          "text": "5"
+        },
+        {
+          "id": "C",
+          "text": "−10"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
+      ],
+      "answer": "A",
+      "explanation": "For the limit to be finite, the numerator must be 0 at x = 1: a + b = 0, so b = −a. Then f(x) = a·x(x − 1)/(x − 1) = ax for x ≠ 1, so the limit is a = 5 and b = −5.",
+      "distractors": {
+        "B": "Gives a instead of b.",
+        "C": "Sets a + b equal to −2·5 by mistaking the limit condition.",
+        "D": "Assumes b must vanish so the expression simplifies."
+      }
+    },
+    {
+      "id": "u1-q14",
+      "type": "mcq",
+      "tier": "Hardest",
+      "topic": "1.16 Working with the Intermediate Value Theorem",
+      "stem": "A function f is continuous on [0, 4] with f(0) = 1 and f(4) = 9. Which of the following must be true?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "f(c) = 0 for some c in (0, 4)."
+        },
+        {
+          "id": "B",
+          "text": "f(c) = c + 3 for some c in (0, 4)."
+        },
+        {
+          "id": "C",
+          "text": "f′(c) = 2 for some c in (0, 4)."
+        },
+        {
+          "id": "D",
+          "text": "The maximum value of f on [0, 4] is 9."
+        }
+      ],
+      "answer": "B",
+      "explanation": "Let g(x) = f(x) − x − 3, which is continuous on [0, 4]. g(0) = 1 − 3 = −2 < 0 and g(4) = 9 − 7 = 2 > 0, so by the IVT g(c) = 0 for some c in (0, 4), meaning f(c) = c + 3.",
+      "distractors": {
+        "A": "0 is not between f(0) = 1 and f(4) = 9, so IVT does not guarantee it.",
+        "C": "This is the Mean Value Theorem conclusion, which requires differentiability — not given.",
+        "D": "The Extreme Value Theorem guarantees a maximum exists, but f could exceed 9 inside the interval."
+      }
+    },
+    {
+      "id": "u1-q15",
+      "type": "frq",
+      "tier": "Exam level",
+      "topic": "1.10–1.16 Continuity, limits, and the IVT",
+      "frqType": "Free response (no calculator)",
+      "prompt": "Let f be the function defined by\n\nf(x) = (x² + x − 12)/(x − 3) for x < 3, and f(x) = ax + 1 for x ≥ 3,\n\nwhere a is a constant.",
+      "parts": [
+        {
+          "label": "(a)",
+          "prompt": "Find lim x→3⁻ f(x). Show the work that leads to your answer.",
+          "points": 2
+        },
+        {
+          "label": "(b)",
+          "prompt": "Find the value of a for which f is continuous at x = 3. Justify your answer using the definition of continuity.",
+          "points": 3
+        },
+        {
+          "label": "(c)",
+          "prompt": "Let a be the value found in part (b). Explain why there must be a value c, 0 < c < 5, for which f(c) = 8.",
+          "points": 2
+        },
+        {
+          "label": "(d)",
+          "prompt": "Using the value of a from part (b), determine whether lim x→3 (f(x) − 7)/(x − 3) exists. Show the work that leads to your answer.",
+          "points": 2
+        }
+      ],
+      "points": 9,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "(a) Algebra",
+          "points": 1,
+          "description": "Factors the numerator as (x + 4)(x − 3) and cancels (or equivalent)."
+        },
+        {
+          "criterion": "(a) Answer",
+          "points": 1,
+          "description": "lim x→3⁻ f(x) = 7."
+        },
+        {
+          "criterion": "(b) Right side",
+          "points": 1,
+          "description": "States lim x→3⁺ f(x) = f(3) = 3a + 1."
+        },
+        {
+          "criterion": "(b) Equation",
+          "points": 1,
+          "description": "Sets 3a + 1 = 7 and gets a = 2."
+        },
+        {
+          "criterion": "(b) Justification",
+          "points": 1,
+          "description": "Uses the definition: f(3) exists, the left and right limits both equal 7, and the limit equals f(3)."
+        },
+        {
+          "criterion": "(c) Conditions",
+          "points": 1,
+          "description": "States f is continuous on [0, 5] (rational expression continuous for x < 3, linear for x ≥ 3, and continuous at 3 by part (b)) and computes f(0) = 4 and f(5) = 11."
+        },
+        {
+          "criterion": "(c) Conclusion",
+          "points": 1,
+          "description": "Since 4 < 8 < 11, the Intermediate Value Theorem guarantees c in (0, 5) with f(c) = 8."
+        },
+        {
+          "criterion": "(d) One-sided limits",
+          "points": 1,
+          "description": "Left: (x + 4 − 7)/(x − 3) = 1 → 1. Right: (2x + 1 − 7)/(x − 3) = 2 → 2."
+        },
+        {
+          "criterion": "(d) Conclusion",
+          "points": 1,
+          "description": "Because the one-sided limits (1 and 2) are not equal, the limit does not exist."
+        }
+      ],
+      "sampleResponse": "(a) For x < 3, f(x) = (x + 4)(x − 3)/(x − 3) = x + 4, so lim x→3⁻ f(x) = 3 + 4 = 7.\n\n(b) lim x→3⁺ f(x) = 3a + 1 = f(3). For continuity we need lim x→3⁻ f(x) = lim x→3⁺ f(x) = f(3): 7 = 3a + 1, so a = 2. Then f(3) = 7 is defined, lim x→3 f(x) = 7 exists, and lim x→3 f(x) = f(3), so f is continuous at x = 3.\n\n(c) With a = 2, f is continuous for x < 3 (x + 4 after simplifying, defined there), for x > 3 (linear), and at x = 3 by part (b), so f is continuous on [0, 5]. f(0) = (−12)/(−3) = 4 and f(5) = 2(5) + 1 = 11. Since 4 < 8 < 11, by the Intermediate Value Theorem there is a c in (0, 5) with f(c) = 8.\n\n(d) From the left: (f(x) − 7)/(x − 3) = (x + 4 − 7)/(x − 3) = (x − 3)/(x − 3) = 1, so the left limit is 1. From the right: (2x + 1 − 7)/(x − 3) = 2(x − 3)/(x − 3) = 2, so the right limit is 2. Since 1 ≠ 2, lim x→3 (f(x) − 7)/(x − 3) does not exist. (This shows f is continuous but not differentiable at x = 3.)"
     }
-   ],
-   "answer": "C",
-   "explanation": "Substitution gives 0/0. Factor: (x − 3)(x + 3)/(x − 3) = x + 3 for x ≠ 3, so the limit is 3 + 3 = 6.",
-   "distractors": {
-    "A": "Treats 0/0 as 0.",
-    "B": "Cancels incorrectly and keeps only x.",
-    "D": "Thinks 0/0 means the limit fails to exist; it is indeterminate, not nonexistent."
-   }
-  },
-  {
-   "id": "u1-q02",
-   "type": "mcq",
-   "tier": "Intro",
-   "topic": "1.3 Estimating Limit Values from Tables",
-   "stimulus": "| x | 1.9 | 1.99 | 1.999 | 2 | 2.001 | 2.01 | 2.1 |\n|---|---|---|---|---|---|---|---|\n| f(x) | 4.9 | 4.99 | 4.999 | 1 | 5.001 | 5.01 | 5.1 |",
-   "stem": "The table gives selected values of a function f. Based on the table, which value is the best estimate of lim x→2 f(x)?",
-   "choices": [
-    {
-     "id": "A",
-     "text": "1"
-    },
-    {
-     "id": "B",
-     "text": "3"
-    },
-    {
-     "id": "C",
-     "text": "5"
-    },
-    {
-     "id": "D",
-     "text": "The limit does not exist."
-    }
-   ],
-   "answer": "C",
-   "explanation": "From both sides the outputs approach 5 (4.9, 4.99, 4.999 and 5.1, 5.01, 5.001). The value f(2) = 1 does not affect the limit.",
-   "distractors": {
-    "A": "Reads f(2) instead of the trend near 2.",
-    "B": "Averages unrelated values.",
-    "D": "Both one-sided trends agree, so the table suggests the limit exists."
-   }
-  },
-  {
-   "id": "u1-q03",
-   "type": "mcq",
-   "tier": "Intro",
-   "topic": "1.15 Connecting Limits at Infinity and Horizontal Asymptotes",
-   "stem": "lim x→∞ (4x³ − x)/(2x³ + 5x²) is",
-   "choices": [
-    {
-     "id": "A",
-     "text": "0"
-    },
-    {
-     "id": "B",
-     "text": "2"
-    },
-    {
-     "id": "C",
-     "text": "4"
-    },
-    {
-     "id": "D",
-     "text": "∞"
-    }
-   ],
-   "answer": "B",
-   "explanation": "Numerator and denominator have the same degree (3), so the limit is the ratio of leading coefficients: 4/2 = 2.",
-   "distractors": {
-    "A": "Applies the rule for a lower-degree numerator.",
-    "C": "Ignores the 2 in the denominator.",
-    "D": "Applies the rule for a higher-degree numerator."
-   }
-  },
-  {
-   "id": "u1-q04",
-   "type": "mcq",
-   "tier": "Intro",
-   "topic": "1.14 Connecting Infinite Limits and Vertical Asymptotes",
-   "stem": "The graph of f(x) = (x − 1)/(x² − 1) has which vertical asymptote(s)?",
-   "choices": [
-    {
-     "id": "A",
-     "text": "x = 1 only"
-    },
-    {
-     "id": "B",
-     "text": "x = −1 only"
-    },
-    {
-     "id": "C",
-     "text": "x = 1 and x = −1"
-    },
-    {
-     "id": "D",
-     "text": "No vertical asymptotes"
-    }
-   ],
-   "answer": "B",
-   "explanation": "x² − 1 = (x − 1)(x + 1). For x ≠ 1, f(x) = 1/(x + 1). The factor x − 1 cancels, giving a hole at x = 1; the remaining zero of the denominator, x = −1, is a vertical asymptote.",
-   "distractors": {
-    "A": "Confuses the hole at x = 1 with an asymptote and misses x = −1.",
-    "C": "Counts every zero of the original denominator without canceling.",
-    "D": "Thinks canceling removes all asymptotes."
-   }
-  },
-  {
-   "id": "u1-q05",
-   "type": "mcq",
-   "tier": "Exam level",
-   "topic": "1.9 Connecting Multiple Representations of Limits (trig limits)",
-   "stem": "What is lim x→0 sin(3x)/(5x)?",
-   "choices": [
-    {
-     "id": "A",
-     "text": "0"
-    },
-    {
-     "id": "B",
-     "text": "3/5"
-    },
-    {
-     "id": "C",
-     "text": "5/3"
-    },
-    {
-     "id": "D",
-     "text": "1"
-    }
-   ],
-   "answer": "B",
-   "explanation": "Rewrite as (3/5)·[sin(3x)/(3x)]. As x → 0, 3x → 0, so the bracket → 1. The limit is 3/5.",
-   "distractors": {
-    "A": "Substitutes to get 0/0 and calls it 0.",
-    "C": "Inverts the ratio.",
-    "D": "Uses lim sin u/u = 1 without rescaling."
-   }
-  },
-  {
-   "id": "u1-q06",
-   "type": "mcq",
-   "tier": "Exam level",
-   "topic": "1.13 Removing Discontinuities",
-   "stem": "Let f(x) = kx + 1 for x < 2 and f(x) = x² − k for x ≥ 2. For what value of k is f continuous at x = 2?",
-   "choices": [
-    {
-     "id": "A",
-     "text": "−1"
-    },
-    {
-     "id": "B",
-     "text": "1"
-    },
-    {
-     "id": "C",
-     "text": "3/2"
-    },
-    {
-     "id": "D",
-     "text": "3"
-    }
-   ],
-   "answer": "B",
-   "explanation": "Continuity at 2 requires the left limit 2k + 1 to equal the right limit and f(2), both 4 − k. So 2k + 1 = 4 − k, 3k = 3, k = 1.",
-   "distractors": {
-    "A": "Arithmetic sign slip; checking k = −1 gives a left limit of −1 but a right limit of 5.",
-    "C": "Solves 2k + 1 = 4, dropping the −k on the right side.",
-    "D": "Sets 2k + 1 = 4 + k (sign error on k), giving k = 3; then the left limit is 7 but f(2) = 1."
-   }
-  },
-  {
-   "id": "u1-q07",
-   "type": "mcq",
-   "tier": "Exam level",
-   "topic": "1.15 Connecting Limits at Infinity and Horizontal Asymptotes",
-   "stem": "What is lim x→−∞ √(9x² + 1)/(x − 4)?",
-   "choices": [
-    {
-     "id": "A",
-     "text": "3"
-    },
-    {
-     "id": "B",
-     "text": "−3"
-    },
-    {
-     "id": "C",
-     "text": "9"
-    },
-    {
-     "id": "D",
-     "text": "0"
-    }
-   ],
-   "answer": "B",
-   "explanation": "For large negative x, √(9x² + 1) ≈ √(9x²) = 3|x| = −3x. So the expression ≈ −3x/x = −3. Formally divide numerator and denominator by x = −√(x²): numerator becomes −√(9 + 1/x²) → −3, denominator 1 − 4/x → 1.",
-   "distractors": {
-    "A": "Uses √(x²) = x, which is only true for x ≥ 0.",
-    "C": "Forgets to take the square root of 9.",
-    "D": "Thinks the degree of the numerator (2) exceeds the denominator's; the effective degree is 1."
-   }
-  },
-  {
-   "id": "u1-q08",
-   "type": "mcq",
-   "tier": "Exam level",
-   "topic": "1.16 Working with the Intermediate Value Theorem",
-   "stem": "A function f is continuous on [1, 5]. Selected values are f(1) = 4, f(3) = −2, and f(5) = 3. What is the least number of solutions that f(x) = 0 must have on the open interval (1, 5)?",
-   "choices": [
-    {
-     "id": "A",
-     "text": "0"
-    },
-    {
-     "id": "B",
-     "text": "1"
-    },
-    {
-     "id": "C",
-     "text": "2"
-    },
-    {
-     "id": "D",
-     "text": "3"
-    }
-   ],
-   "answer": "C",
-   "explanation": "f changes sign between x = 1 and x = 3 (4 to −2) and again between x = 3 and x = 5 (−2 to 3). By the IVT applied on each subinterval, there is at least one zero in (1, 3) and at least one in (3, 5): at least 2.",
-   "distractors": {
-    "A": "Thinks IVT guarantees nothing without a formula.",
-    "B": "Applies IVT only on [1, 5], where f(1) and f(5) are both positive, or only once.",
-    "D": "Counts one zero per given data point."
-   }
-  },
-  {
-   "id": "u1-q09",
-   "type": "mcq",
-   "tier": "Exam level",
-   "topic": "1.8 Determining Limits Using the Squeeze Theorem",
-   "stem": "For all real x, 2x ≤ g(x) ≤ x² + 1. What is lim x→1 g(x)?",
-   "choices": [
-    {
-     "id": "A",
-     "text": "1"
-    },
-    {
-     "id": "B",
-     "text": "2"
-    },
-    {
-     "id": "C",
-     "text": "3"
-    },
-    {
-     "id": "D",
-     "text": "It cannot be determined from the information given."
-    }
-   ],
-   "answer": "B",
-   "explanation": "lim x→1 2x = 2 and lim x→1 (x² + 1) = 2. Since g is squeezed between functions with the same limit, the Squeeze Theorem gives lim x→1 g(x) = 2. (The bounds are consistent because x² + 1 − 2x = (x − 1)² ≥ 0.)",
-   "distractors": {
-    "A": "Evaluates only x² at 1.",
-    "C": "Adds the bounds' constants incorrectly.",
-    "D": "Misses that the two bounds meet at x = 1."
-   }
-  },
-  {
-   "id": "u1-q10",
-   "type": "mcq",
-   "tier": "Exam level",
-   "topic": "1.10 Exploring Types of Discontinuities",
-   "stem": "Let f(x) = (x² + x − 6)/(x − 2) for x ≠ 2 and f(2) = 4. Which statement is true at x = 2?",
-   "choices": [
-    {
-     "id": "A",
-     "text": "f is continuous at x = 2."
-    },
-    {
-     "id": "B",
-     "text": "f has a removable discontinuity at x = 2."
-    },
-    {
-     "id": "C",
-     "text": "f has a jump discontinuity at x = 2."
-    },
-    {
-     "id": "D",
-     "text": "f has an infinite discontinuity at x = 2."
-    }
-   ],
-   "answer": "B",
-   "explanation": "For x ≠ 2, f(x) = (x + 3)(x − 2)/(x − 2) = x + 3, so lim x→2 f(x) = 5. Because the limit exists but f(2) = 4 ≠ 5, the discontinuity is removable (redefining f(2) = 5 would fix it).",
-   "distractors": {
-    "A": "Assumes defining f(2) is enough; the limit must also equal f(2).",
-    "C": "A jump needs different one-sided limits; both sides approach 5.",
-    "D": "The denominator zero cancels, so there is no asymptote."
-   }
-  },
-  {
-   "id": "u1-q11",
-   "type": "mcq",
-   "tier": "Hardest",
-   "topic": "1.6 Determining Limits Using Algebraic Manipulation",
-   "stem": "Let f(x) = |x − 2|/(x² − 4). Which of the following statements are true?\n\nI. lim x→2⁻ f(x) = −1/4\n\nII. lim x→2 f(x) exists.\n\nIII. The line x = −2 is a vertical asymptote of the graph of f.",
-   "choices": [
-    {
-     "id": "A",
-     "text": "I only"
-    },
-    {
-     "id": "B",
-     "text": "I and III only"
-    },
-    {
-     "id": "C",
-     "text": "II and III only"
-    },
-    {
-     "id": "D",
-     "text": "I, II, and III"
-    }
-   ],
-   "answer": "B",
-   "explanation": "For x < 2: |x − 2| = −(x − 2), so f(x) = −1/(x + 2) → −1/4 (I true). For x > 2: f(x) = 1/(x + 2) → 1/4, so the two-sided limit does not exist (II false). Near x = −2, the numerator → 4 while the denominator → 0, so f is unbounded: x = −2 is a vertical asymptote (III true).",
-   "distractors": {
-    "A": "Misses that x = −2 gives nonzero/0.",
-    "C": "Assumes the absolute value doesn't change the sign from the left.",
-    "D": "Ignores that the one-sided limits at 2 differ."
-   }
-  },
-  {
-   "id": "u1-q12",
-   "type": "mcq",
-   "tier": "Hardest",
-   "topic": "1.15 Connecting Limits at Infinity and Horizontal Asymptotes",
-   "stem": "Which of the following are the horizontal asymptotes of the graph of f(x) = (2eˣ + 3)/(eˣ − 1)?",
-   "choices": [
-    {
-     "id": "A",
-     "text": "y = 2 only"
-    },
-    {
-     "id": "B",
-     "text": "y = −3 only"
-    },
-    {
-     "id": "C",
-     "text": "y = 2 and y = −3"
-    },
-    {
-     "id": "D",
-     "text": "y = 2 and y = 3"
-    }
-   ],
-   "answer": "C",
-   "explanation": "As x → ∞, divide by eˣ: (2 + 3e⁻ˣ)/(1 − e⁻ˣ) → 2. As x → −∞, eˣ → 0, so f(x) → (0 + 3)/(0 − 1) = −3. Both lines are horizontal asymptotes.",
-   "distractors": {
-    "A": "Checks only x → ∞.",
-    "B": "Checks only x → −∞.",
-    "D": "Drops the sign of the −1 in the denominator."
-   }
-  },
-  {
-   "id": "u1-q13",
-   "type": "mcq",
-   "tier": "Hardest",
-   "topic": "1.6 Determining Limits Using Algebraic Manipulation",
-   "stem": "Let f(x) = (ax² + bx)/(x − 1), where a and b are constants. If lim x→1 f(x) = 5, what is the value of b?",
-   "choices": [
-    {
-     "id": "A",
-     "text": "−5"
-    },
-    {
-     "id": "B",
-     "text": "5"
-    },
-    {
-     "id": "C",
-     "text": "−10"
-    },
-    {
-     "id": "D",
-     "text": "0"
-    }
-   ],
-   "answer": "A",
-   "explanation": "For the limit to be finite, the numerator must be 0 at x = 1: a + b = 0, so b = −a. Then f(x) = a·x(x − 1)/(x − 1) = ax for x ≠ 1, so the limit is a = 5 and b = −5.",
-   "distractors": {
-    "B": "Gives a instead of b.",
-    "C": "Sets a + b equal to −2·5 by mistaking the limit condition.",
-    "D": "Assumes b must vanish so the expression simplifies."
-   }
-  },
-  {
-   "id": "u1-q14",
-   "type": "mcq",
-   "tier": "Hardest",
-   "topic": "1.16 Working with the Intermediate Value Theorem",
-   "stem": "A function f is continuous on [0, 4] with f(0) = 1 and f(4) = 9. Which of the following must be true?",
-   "choices": [
-    {
-     "id": "A",
-     "text": "f(c) = 0 for some c in (0, 4)."
-    },
-    {
-     "id": "B",
-     "text": "f(c) = c + 3 for some c in (0, 4)."
-    },
-    {
-     "id": "C",
-     "text": "f′(c) = 2 for some c in (0, 4)."
-    },
-    {
-     "id": "D",
-     "text": "The maximum value of f on [0, 4] is 9."
-    }
-   ],
-   "answer": "B",
-   "explanation": "Let g(x) = f(x) − x − 3, which is continuous on [0, 4]. g(0) = 1 − 3 = −2 < 0 and g(4) = 9 − 7 = 2 > 0, so by the IVT g(c) = 0 for some c in (0, 4), meaning f(c) = c + 3.",
-   "distractors": {
-    "A": "0 is not between f(0) = 1 and f(4) = 9, so IVT does not guarantee it.",
-    "C": "This is the Mean Value Theorem conclusion, which requires differentiability — not given.",
-    "D": "The Extreme Value Theorem guarantees a maximum exists, but f could exceed 9 inside the interval."
-   }
-  },
-  {
-   "id": "u1-q15",
-   "type": "frq",
-   "tier": "Exam level",
-   "topic": "1.10–1.16 Continuity, limits, and the IVT",
-   "frqType": "Free response (no calculator)",
-   "prompt": "Let f be the function defined by\n\nf(x) = (x² + x − 12)/(x − 3) for x < 3, and f(x) = ax + 1 for x ≥ 3,\n\nwhere a is a constant.",
-   "parts": [
-    {
-     "label": "(a)",
-     "prompt": "Find lim x→3⁻ f(x). Show the work that leads to your answer.",
-     "points": 2
-    },
-    {
-     "label": "(b)",
-     "prompt": "Find the value of a for which f is continuous at x = 3. Justify your answer using the definition of continuity.",
-     "points": 3
-    },
-    {
-     "label": "(c)",
-     "prompt": "Let a be the value found in part (b). Explain why there must be a value c, 0 < c < 5, for which f(c) = 8.",
-     "points": 2
-    },
-    {
-     "label": "(d)",
-     "prompt": "Using the value of a from part (b), determine whether lim x→3 (f(x) − 7)/(x − 3) exists. Show the work that leads to your answer.",
-     "points": 2
-    }
-   ],
-   "points": 9,
-   "minutes": 15,
-   "rubric": [
-    {
-     "criterion": "(a) Algebra",
-     "points": 1,
-     "description": "Factors the numerator as (x + 4)(x − 3) and cancels (or equivalent)."
-    },
-    {
-     "criterion": "(a) Answer",
-     "points": 1,
-     "description": "lim x→3⁻ f(x) = 7."
-    },
-    {
-     "criterion": "(b) Right side",
-     "points": 1,
-     "description": "States lim x→3⁺ f(x) = f(3) = 3a + 1."
-    },
-    {
-     "criterion": "(b) Equation",
-     "points": 1,
-     "description": "Sets 3a + 1 = 7 and gets a = 2."
-    },
-    {
-     "criterion": "(b) Justification",
-     "points": 1,
-     "description": "Uses the definition: f(3) exists, the left and right limits both equal 7, and the limit equals f(3)."
-    },
-    {
-     "criterion": "(c) Conditions",
-     "points": 1,
-     "description": "States f is continuous on [0, 5] (rational expression continuous for x < 3, linear for x ≥ 3, and continuous at 3 by part (b)) and computes f(0) = 4 and f(5) = 11."
-    },
-    {
-     "criterion": "(c) Conclusion",
-     "points": 1,
-     "description": "Since 4 < 8 < 11, the Intermediate Value Theorem guarantees c in (0, 5) with f(c) = 8."
-    },
-    {
-     "criterion": "(d) One-sided limits",
-     "points": 1,
-     "description": "Left: (x + 4 − 7)/(x − 3) = 1 → 1. Right: (2x + 1 − 7)/(x − 3) = 2 → 2."
-    },
-    {
-     "criterion": "(d) Conclusion",
-     "points": 1,
-     "description": "Because the one-sided limits (1 and 2) are not equal, the limit does not exist."
-    }
-   ],
-   "sampleResponse": "(a) For x < 3, f(x) = (x + 4)(x − 3)/(x − 3) = x + 4, so lim x→3⁻ f(x) = 3 + 4 = 7.\n\n(b) lim x→3⁺ f(x) = 3a + 1 = f(3). For continuity we need lim x→3⁻ f(x) = lim x→3⁺ f(x) = f(3): 7 = 3a + 1, so a = 2. Then f(3) = 7 is defined, lim x→3 f(x) = 7 exists, and lim x→3 f(x) = f(3), so f is continuous at x = 3.\n\n(c) With a = 2, f is continuous for x < 3 (x + 4 after simplifying, defined there), for x > 3 (linear), and at x = 3 by part (b), so f is continuous on [0, 5]. f(0) = (−12)/(−3) = 4 and f(5) = 2(5) + 1 = 11. Since 4 < 8 < 11, by the Intermediate Value Theorem there is a c in (0, 5) with f(c) = 8.\n\n(d) From the left: (f(x) − 7)/(x − 3) = (x + 4 − 7)/(x − 3) = (x − 3)/(x − 3) = 1, so the left limit is 1. From the right: (2x + 1 − 7)/(x − 3) = 2(x − 3)/(x − 3) = 2, so the right limit is 2. Since 1 ≠ 2, lim x→3 (f(x) − 7)/(x − 3) does not exist. (This shows f is continuous but not differentiable at x = 3.)"
-  }
- ]
+  ]
 }

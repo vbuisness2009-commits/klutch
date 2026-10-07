@@ -135,18 +135,18 @@
         },
         {
           "id": "B",
-          "text": "−20 N"
+          "text": "−10 N"
         },
         {
           "id": "C",
-          "text": "−10 N"
+          "text": "−20 N"
         },
         {
           "id": "D",
           "text": "+40 N"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "F = −dU/dx = −10x = −20 N.",
       "distractors": {
         "A": "Drops the negative sign."
@@ -279,7 +279,7 @@
         },
         {
           "id": "B",
-          "text": "17 kW"
+          "text": "0.87 kW"
         },
         {
           "id": "C",
@@ -287,10 +287,10 @@
         },
         {
           "id": "D",
-          "text": "0.87 kW"
+          "text": "17 kW"
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Force needed = mg sin θ ≈ 853 N; P = Fv ≈ 17,000 W.",
       "distractors": {
         "C": "Uses full weight."
@@ -334,7 +334,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "The particle is trapped between two turning points on either side of x = 2 m, and its maximum kinetic energy is 3 J."
+          "text": "The particle is at rest at x = 2 m."
         },
         {
           "id": "B",
@@ -346,10 +346,10 @@
         },
         {
           "id": "D",
-          "text": "The particle is at rest at x = 2 m."
+          "text": "The particle is trapped between two turning points on either side of x = 2 m, and its maximum kinetic energy is 3 J."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Turning points where U = −1 J; K_max = E − U_min = −1 − (−4) = 3 J at x = 2 m.",
       "distractors": {
         "C": "Uses |U_min|."
@@ -364,11 +364,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "√(GM/R)"
+          "text": "√(2GM/R)"
         },
         {
           "id": "B",
-          "text": "√(2GM/R)"
+          "text": "√(GM/R)"
         },
         {
           "id": "C",
@@ -379,10 +379,10 @@
           "text": "√(GM/2R)"
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "½mv² − GMm/R = 0.",
       "distractors": {
-        "A": "Orbital speed at the surface."
+        "B": "Orbital speed at the surface."
       }
     },
     {
@@ -394,7 +394,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "U = ½kx² − ¼bx⁴"
+          "text": "U = −k + 3bx²"
         },
         {
           "id": "B",
@@ -402,14 +402,14 @@
         },
         {
           "id": "C",
-          "text": "U = −k + 3bx²"
+          "text": "U = ½kx² − ¼bx⁴"
         },
         {
           "id": "D",
           "text": "U = ½kx² + ¼bx⁴"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "U = −∫F dx = ½kx² − ¼bx⁴.",
       "distractors": {
         "B": "Omits the negative in U = −∫F dx."
@@ -454,7 +454,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "3GMm/(4R)"
+          "text": "GMm/(4R)"
         },
         {
           "id": "B",
@@ -466,10 +466,10 @@
         },
         {
           "id": "D",
-          "text": "GMm/(4R)"
+          "text": "3GMm/(4R)"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Orbit energy = −GMm/(4R); surface energy (at rest) = −GMm/R. Difference = 3GMm/(4R).",
       "distractors": {
         "B": "Only potential energy change, ignores orbital KE."
@@ -488,7 +488,7 @@
         },
         {
           "id": "B",
-          "text": "v ∝ √t"
+          "text": "v is constant"
         },
         {
           "id": "C",
@@ -496,10 +496,10 @@
         },
         {
           "id": "D",
-          "text": "v is constant"
+          "text": "v ∝ √t"
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Pt = ½mv² → v = √(2Pt/m).",
       "distractors": {
         "A": "Constant force, not constant power."

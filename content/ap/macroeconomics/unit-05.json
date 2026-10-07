@@ -49,226 +49,562 @@
     "cramSheet": "**Phillips:** SRPC down-sloping · LRPC vertical at NRU · ↑AD → up-left along SRPC\n\n**SRPC shifts:** ↑expected inflation or negative supply shock → right/up\n\n**Mapping:** recessionary gap → right of LRPC · inflationary gap → left\n\n**Money:** MV = PY · long run: ↑M → ↑P only\n\n**Fiscal LR:** deficit → ↑D_LF → ↑r → ↓I (crowding out) → slower growth\n\n**Growth:** physical capital · human capital · technology · productivity · LRAS → right"
   },
   "vocab": [
-    { "term": "Short-run Phillips curve", "definition": "A curve showing the short-run inverse relationship between inflation and unemployment." },
-    { "term": "Long-run Phillips curve", "definition": "A vertical line at the natural rate of unemployment showing no long-run tradeoff." },
-    { "term": "Inflation expectations", "definition": "The inflation rate people anticipate, which affects wage and price setting and shifts the SRPC." },
-    { "term": "Quantity theory of money", "definition": "MV = PY; in the long run, money growth determines inflation." },
-    { "term": "Velocity of money", "definition": "The average number of times a dollar is spent in a year." },
-    { "term": "Budget deficit", "definition": "The amount by which government spending exceeds revenue in a year." },
-    { "term": "National debt", "definition": "The total accumulated amount the government owes." },
-    { "term": "Crowding out", "definition": "Reduction in private investment caused by government borrowing raising real interest rates." },
-    { "term": "Economic growth", "definition": "A sustained increase in potential output, shown by LRAS shifting right." },
-    { "term": "Productivity", "definition": "Output per worker or per hour of work." },
-    { "term": "Human capital", "definition": "The knowledge and skills of workers." },
-    { "term": "Supply-side policy", "definition": "Policy aimed at increasing aggregate supply, such as incentives for saving, investment, and work." }
+    {
+      "term": "Short-run Phillips curve",
+      "definition": "A curve showing the short-run inverse relationship between inflation and unemployment."
+    },
+    {
+      "term": "Long-run Phillips curve",
+      "definition": "A vertical line at the natural rate of unemployment showing no long-run tradeoff."
+    },
+    {
+      "term": "Inflation expectations",
+      "definition": "The inflation rate people anticipate, which affects wage and price setting and shifts the SRPC."
+    },
+    {
+      "term": "Quantity theory of money",
+      "definition": "MV = PY; in the long run, money growth determines inflation."
+    },
+    {
+      "term": "Velocity of money",
+      "definition": "The average number of times a dollar is spent in a year."
+    },
+    {
+      "term": "Budget deficit",
+      "definition": "The amount by which government spending exceeds revenue in a year."
+    },
+    {
+      "term": "National debt",
+      "definition": "The total accumulated amount the government owes."
+    },
+    {
+      "term": "Crowding out",
+      "definition": "Reduction in private investment caused by government borrowing raising real interest rates."
+    },
+    {
+      "term": "Economic growth",
+      "definition": "A sustained increase in potential output, shown by LRAS shifting right."
+    },
+    {
+      "term": "Productivity",
+      "definition": "Output per worker or per hour of work."
+    },
+    {
+      "term": "Human capital",
+      "definition": "The knowledge and skills of workers."
+    },
+    {
+      "term": "Supply-side policy",
+      "definition": "Policy aimed at increasing aggregate supply, such as incentives for saving, investment, and work."
+    }
   ],
   "practice": [
     {
-      "id": "u5-q01", "tier": "Intro", "type": "mcq", "topic": "5.2 The Phillips Curve", "skill": "1. Principles and Models",
+      "id": "u5-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "5.2 The Phillips Curve",
+      "skill": "1. Principles and Models",
       "stem": "The long-run Phillips curve is",
       "choices": [
-        { "id": "A", "text": "downward sloping" },
-        { "id": "B", "text": "vertical at the natural rate of unemployment" },
-        { "id": "C", "text": "horizontal at the expected inflation rate" },
-        { "id": "D", "text": "upward sloping" }
+        {
+          "id": "A",
+          "text": "downward sloping"
+        },
+        {
+          "id": "B",
+          "text": "horizontal at the expected inflation rate"
+        },
+        {
+          "id": "C",
+          "text": "vertical at the natural rate of unemployment"
+        },
+        {
+          "id": "D",
+          "text": "upward sloping"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "In the long run, unemployment returns to its natural rate regardless of inflation.",
-      "distractors": { "A": "Short-run Phillips curve." }
+      "distractors": {
+        "A": "Short-run Phillips curve."
+      }
     },
     {
-      "id": "u5-q02", "tier": "Intro", "type": "mcq", "topic": "5.3 Money Growth and Inflation", "skill": "3. Manipulation",
+      "id": "u5-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "5.3 Money Growth and Inflation",
+      "skill": "3. Manipulation",
       "stem": "According to the quantity theory of money, if velocity and real output are constant and the money supply increases by 8%, the price level will",
       "choices": [
-        { "id": "A", "text": "increase by 8%" },
-        { "id": "B", "text": "decrease by 8%" },
-        { "id": "C", "text": "stay the same" },
-        { "id": "D", "text": "increase by 16%" }
+        {
+          "id": "A",
+          "text": "increase by 16%"
+        },
+        {
+          "id": "B",
+          "text": "decrease by 8%"
+        },
+        {
+          "id": "C",
+          "text": "stay the same"
+        },
+        {
+          "id": "D",
+          "text": "increase by 8%"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "MV = PY with V and Y fixed means P rises in proportion to M.",
       "distractors": {}
     },
     {
-      "id": "u5-q03", "tier": "Intro", "type": "mcq", "topic": "5.4 Government Deficits and the National Debt", "skill": "1. Principles and Models",
+      "id": "u5-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "5.4 Government Deficits and the National Debt",
+      "skill": "1. Principles and Models",
       "stem": "The national debt is",
       "choices": [
-        { "id": "A", "text": "the amount government spending exceeds revenue in one year" },
-        { "id": "B", "text": "the accumulation of past budget deficits minus surpluses" },
-        { "id": "C", "text": "the value of imports minus exports" },
-        { "id": "D", "text": "the amount of money in circulation" }
+        {
+          "id": "A",
+          "text": "the amount government spending exceeds revenue in one year"
+        },
+        {
+          "id": "B",
+          "text": "the accumulation of past budget deficits minus surpluses"
+        },
+        {
+          "id": "C",
+          "text": "the value of imports minus exports"
+        },
+        {
+          "id": "D",
+          "text": "the amount of money in circulation"
+        }
       ],
       "answer": "B",
       "explanation": "Debt is a stock built from annual deficit flows.",
-      "distractors": { "A": "Budget deficit." }
+      "distractors": {
+        "A": "Budget deficit."
+      }
     },
     {
-      "id": "u5-q04", "tier": "Intro", "type": "mcq", "topic": "5.6 Economic Growth", "skill": "2. Interpretation",
+      "id": "u5-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "5.6 Economic Growth",
+      "skill": "2. Interpretation",
       "stem": "Which most directly increases an economy's long-run growth rate?",
       "choices": [
-        { "id": "A", "text": "A temporary tax rebate" },
-        { "id": "B", "text": "Investment in education that raises workers' productivity" },
-        { "id": "C", "text": "An increase in the price level" },
-        { "id": "D", "text": "A one-time increase in government consumption spending" }
+        {
+          "id": "A",
+          "text": "Investment in education that raises workers' productivity"
+        },
+        {
+          "id": "B",
+          "text": "A temporary tax rebate"
+        },
+        {
+          "id": "C",
+          "text": "An increase in the price level"
+        },
+        {
+          "id": "D",
+          "text": "A one-time increase in government consumption spending"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Human capital raises potential output, shifting LRAS right.",
       "distractors": {}
     },
     {
-      "id": "u5-q05", "tier": "Exam level", "type": "mcq", "topic": "5.2 The Phillips Curve", "skill": "2. Interpretation",
+      "id": "u5-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.2 The Phillips Curve",
+      "skill": "2. Interpretation",
       "stem": "A sharp increase in global oil prices would most likely affect the short-run Phillips curve by",
       "choices": [
-        { "id": "A", "text": "shifting it to the right (up)" },
-        { "id": "B", "text": "shifting it to the left (down)" },
-        { "id": "C", "text": "moving the economy up along it" },
-        { "id": "D", "text": "shifting the LRPC left" }
+        {
+          "id": "A",
+          "text": "moving the economy up along it"
+        },
+        {
+          "id": "B",
+          "text": "shifting it to the left (down)"
+        },
+        {
+          "id": "C",
+          "text": "shifting it to the right (up)"
+        },
+        {
+          "id": "D",
+          "text": "shifting the LRPC left"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "A negative supply shock raises both inflation and unemployment: SRPC shifts right.",
-      "distractors": { "C": "That results from an AD increase." }
+      "distractors": {
+        "A": "That results from an AD increase."
+      }
     },
     {
-      "id": "u5-q06", "tier": "Exam level", "type": "mcq", "topic": "5.5 Crowding Out", "skill": "2. Interpretation",
+      "id": "u5-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.5 Crowding Out",
+      "skill": "2. Interpretation",
       "stem": "A large increase in government borrowing to finance a deficit is most likely to",
       "choices": [
-        { "id": "A", "text": "raise real interest rates and reduce private investment" },
-        { "id": "B", "text": "lower real interest rates and raise private investment" },
-        { "id": "C", "text": "increase the money supply" },
-        { "id": "D", "text": "shift LRAS right immediately" }
+        {
+          "id": "A",
+          "text": "shift LRAS right immediately"
+        },
+        {
+          "id": "B",
+          "text": "lower real interest rates and raise private investment"
+        },
+        {
+          "id": "C",
+          "text": "increase the money supply"
+        },
+        {
+          "id": "D",
+          "text": "raise real interest rates and reduce private investment"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Government demand for loanable funds raises the real interest rate, crowding out private borrowing.",
       "distractors": {}
     },
     {
-      "id": "u5-q07", "tier": "Exam level", "type": "mcq", "topic": "5.2 The Phillips Curve", "skill": "2. Interpretation",
+      "id": "u5-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.2 The Phillips Curve",
+      "skill": "2. Interpretation",
       "stem": "An economy is in an inflationary gap. On the Phillips curve graph, its current point is",
       "choices": [
-        { "id": "A", "text": "on the SRPC to the left of the LRPC" },
-        { "id": "B", "text": "on the SRPC to the right of the LRPC" },
-        { "id": "C", "text": "on the LRPC" },
-        { "id": "D", "text": "at zero inflation" }
+        {
+          "id": "A",
+          "text": "on the SRPC to the left of the LRPC"
+        },
+        {
+          "id": "B",
+          "text": "on the SRPC to the right of the LRPC"
+        },
+        {
+          "id": "C",
+          "text": "on the LRPC"
+        },
+        {
+          "id": "D",
+          "text": "at zero inflation"
+        }
       ],
       "answer": "A",
       "explanation": "Output above potential means unemployment below the natural rate.",
       "distractors": {}
     },
     {
-      "id": "u5-q08", "tier": "Exam level", "type": "mcq", "topic": "5.1 Fiscal and Monetary Policy Actions in the Short Run", "skill": "2. Interpretation",
+      "id": "u5-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.1 Fiscal and Monetary Policy Actions in the Short Run",
+      "skill": "2. Interpretation",
       "stem": "The government increases spending while the central bank conducts contractionary monetary policy. What is the certain effect?",
       "choices": [
-        { "id": "A", "text": "Interest rates rise." },
-        { "id": "B", "text": "Real GDP rises." },
-        { "id": "C", "text": "The price level falls." },
-        { "id": "D", "text": "Investment rises." }
+        {
+          "id": "A",
+          "text": "Real GDP rises."
+        },
+        {
+          "id": "B",
+          "text": "Interest rates rise."
+        },
+        {
+          "id": "C",
+          "text": "The price level falls."
+        },
+        {
+          "id": "D",
+          "text": "Investment rises."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Both policies push interest rates up; their effects on AD offset, so output and price level are indeterminate.",
       "distractors": {}
     },
     {
-      "id": "u5-q09", "tier": "Exam level", "type": "mcq", "topic": "5.3 Money Growth and Inflation", "skill": "2. Interpretation",
+      "id": "u5-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.3 Money Growth and Inflation",
+      "skill": "2. Interpretation",
       "stem": "In the long run, an increase in the money supply will",
       "choices": [
-        { "id": "A", "text": "raise real GDP permanently" },
-        { "id": "B", "text": "raise the price level but leave real output at potential" },
-        { "id": "C", "text": "lower the natural rate of unemployment" },
-        { "id": "D", "text": "shift LRAS right" }
+        {
+          "id": "A",
+          "text": "raise real GDP permanently"
+        },
+        {
+          "id": "B",
+          "text": "raise the price level but leave real output at potential"
+        },
+        {
+          "id": "C",
+          "text": "lower the natural rate of unemployment"
+        },
+        {
+          "id": "D",
+          "text": "shift LRAS right"
+        }
       ],
       "answer": "B",
       "explanation": "Money is neutral in the long run.",
       "distractors": {}
     },
     {
-      "id": "u5-q10", "tier": "Exam level", "type": "mcq", "topic": "5.7 Public Policy and Economic Growth", "skill": "2. Interpretation",
+      "id": "u5-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "5.7 Public Policy and Economic Growth",
+      "skill": "2. Interpretation",
       "stem": "Which policy is most likely to increase long-run aggregate supply?",
       "choices": [
-        { "id": "A", "text": "Tax credits for business investment in new equipment and research" },
-        { "id": "B", "text": "A temporary increase in transfer payments" },
-        { "id": "C", "text": "Raising tariffs on imported machinery" },
-        { "id": "D", "text": "Selling government bonds to reduce the money supply" }
+        {
+          "id": "A",
+          "text": "Selling government bonds to reduce the money supply"
+        },
+        {
+          "id": "B",
+          "text": "A temporary increase in transfer payments"
+        },
+        {
+          "id": "C",
+          "text": "Raising tariffs on imported machinery"
+        },
+        {
+          "id": "D",
+          "text": "Tax credits for business investment in new equipment and research"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Encouraging capital investment and technology raises productive capacity.",
       "distractors": {}
     },
     {
-      "id": "u5-q11", "tier": "Hardest", "type": "mcq", "topic": "5.2 The Phillips Curve", "skill": "2. Interpretation",
+      "id": "u5-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "5.2 The Phillips Curve",
+      "skill": "2. Interpretation",
       "stem": "The central bank repeatedly uses expansionary policy to keep unemployment below the natural rate. Over time, which is most likely?",
       "choices": [
-        { "id": "A", "text": "Inflation expectations rise, shifting the SRPC up, so the same low unemployment requires ever-higher inflation until unemployment returns to the natural rate." },
-        { "id": "B", "text": "Unemployment stays permanently below the natural rate with constant inflation." },
-        { "id": "C", "text": "The LRPC shifts left." },
-        { "id": "D", "text": "Inflation falls." }
+        {
+          "id": "A",
+          "text": "Inflation expectations rise, shifting the SRPC up, so the same low unemployment requires ever-higher inflation until unemployment returns to the natural rate."
+        },
+        {
+          "id": "B",
+          "text": "Unemployment stays permanently below the natural rate with constant inflation."
+        },
+        {
+          "id": "C",
+          "text": "The LRPC shifts left."
+        },
+        {
+          "id": "D",
+          "text": "Inflation falls."
+        }
       ],
       "answer": "A",
       "explanation": "Workers adjust expectations, eliminating the tradeoff in the long run.",
       "distractors": {}
     },
     {
-      "id": "u5-q12", "tier": "Hardest", "type": "mcq", "topic": "5.5 Crowding Out", "skill": "2. Interpretation",
+      "id": "u5-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "5.5 Crowding Out",
+      "skill": "2. Interpretation",
       "stem": "How can a persistent government budget deficit reduce long-run economic growth?",
       "choices": [
-        { "id": "A", "text": "Higher real interest rates reduce private investment, slowing the growth of the capital stock and potential output." },
-        { "id": "B", "text": "Deficits increase the money multiplier." },
-        { "id": "C", "text": "Deficits lower real interest rates and cause overinvestment." },
-        { "id": "D", "text": "Deficits always cause recessions." }
+        {
+          "id": "A",
+          "text": "Deficits lower real interest rates and cause overinvestment."
+        },
+        {
+          "id": "B",
+          "text": "Deficits increase the money multiplier."
+        },
+        {
+          "id": "C",
+          "text": "Higher real interest rates reduce private investment, slowing the growth of the capital stock and potential output."
+        },
+        {
+          "id": "D",
+          "text": "Deficits always cause recessions."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Crowding out reduces capital accumulation, shifting LRAS right more slowly.",
       "distractors": {}
     },
     {
-      "id": "u5-q13", "tier": "Hardest", "type": "mcq", "topic": "5.3 Money Growth and Inflation", "skill": "3. Manipulation",
+      "id": "u5-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "5.3 Money Growth and Inflation",
+      "skill": "3. Manipulation",
       "stem": "In an economy, M = $2 trillion, V = 5, and real output Y = $8 trillion. What is the price level (as an index), and what would it be if M doubled with V and Y unchanged?",
       "choices": [
-        { "id": "A", "text": "1.25; 2.5" },
-        { "id": "B", "text": "0.8; 1.6" },
-        { "id": "C", "text": "1.25; 1.25" },
-        { "id": "D", "text": "4; 8" }
+        {
+          "id": "A",
+          "text": "0.8; 1.6"
+        },
+        {
+          "id": "B",
+          "text": "1.25; 2.5"
+        },
+        {
+          "id": "C",
+          "text": "1.25; 1.25"
+        },
+        {
+          "id": "D",
+          "text": "4; 8"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "P = MV/Y = (2 × 5)/8 = 1.25; doubling M gives 2.5.",
-      "distractors": { "B": "Inverts the ratio." }
+      "distractors": {
+        "A": "Inverts the ratio."
+      }
     },
     {
-      "id": "u5-q14", "tier": "Hardest", "type": "mcq", "topic": "5.6 Economic Growth", "skill": "3. Manipulation",
+      "id": "u5-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "5.6 Economic Growth",
+      "skill": "3. Manipulation",
       "stem": "Country A's real GDP per capita grows 1% per year and Country B's grows 3.5% per year. About how long until B's real GDP per capita doubles, and how does that compare with A?",
       "choices": [
-        { "id": "A", "text": "20 years for B, versus 70 years for A" },
-        { "id": "B", "text": "35 years for B, versus 70 for A" },
-        { "id": "C", "text": "3.5 years for B, versus 1 year for A" },
-        { "id": "D", "text": "Both take 70 years" }
+        {
+          "id": "A",
+          "text": "3.5 years for B, versus 1 year for A"
+        },
+        {
+          "id": "B",
+          "text": "35 years for B, versus 70 for A"
+        },
+        {
+          "id": "C",
+          "text": "20 years for B, versus 70 years for A"
+        },
+        {
+          "id": "D",
+          "text": "Both take 70 years"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Rule of 70: 70/3.5 = 20; 70/1 = 70.",
       "distractors": {}
     },
     {
-      "id": "u5-frq1", "tier": "Exam level", "type": "frq", "topic": "5.1–5.2 Stabilization Policy and the Phillips Curve", "frqType": "Long FRQ",
+      "id": "u5-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "5.1–5.2 Stabilization Policy and the Phillips Curve",
+      "frqType": "Long FRQ",
       "prompt": "Assume the economy of Veloria is in short-run equilibrium with real output above full-employment output. The central bank operates in a limited-reserves framework.",
       "parts": [
-        { "label": "a", "prompt": "Draw (describe) a correctly labeled AD-AS graph showing Veloria's current equilibrium, labeling the price level PL₁ and output Y₁.", "points": 2 },
-        { "label": "b", "prompt": "Identify an open-market operation the central bank could use to address this situation.", "points": 1 },
-        { "label": "c", "prompt": "Draw (describe) a correctly labeled money market graph showing the effect of the action in part (b) on the nominal interest rate.", "points": 2 },
-        { "label": "d", "prompt": "Explain how the change in the interest rate affects aggregate demand, and state the effect on real output and the price level.", "points": 1 },
-        { "label": "e", "prompt": "Draw (describe) a correctly labeled Phillips curve graph showing Veloria's initial position (point A) and the effect of the central bank's policy (point B).", "points": 2 },
-        { "label": "f", "prompt": "If instead the central bank takes no action, explain what happens to the short-run Phillips curve in the long run, and why.", "points": 2 }
+        {
+          "label": "a",
+          "prompt": "Draw (describe) a correctly labeled AD-AS graph showing Veloria's current equilibrium, labeling the price level PL₁ and output Y₁.",
+          "points": 2
+        },
+        {
+          "label": "b",
+          "prompt": "Identify an open-market operation the central bank could use to address this situation.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Draw (describe) a correctly labeled money market graph showing the effect of the action in part (b) on the nominal interest rate.",
+          "points": 2
+        },
+        {
+          "label": "d",
+          "prompt": "Explain how the change in the interest rate affects aggregate demand, and state the effect on real output and the price level.",
+          "points": 1
+        },
+        {
+          "label": "e",
+          "prompt": "Draw (describe) a correctly labeled Phillips curve graph showing Veloria's initial position (point A) and the effect of the central bank's policy (point B).",
+          "points": 2
+        },
+        {
+          "label": "f",
+          "prompt": "If instead the central bank takes no action, explain what happens to the short-run Phillips curve in the long run, and why.",
+          "points": 2
+        }
       ],
       "points": 10,
       "minutes": 20,
       "rubric": [
-        { "criterion": "a1: Graph labels", "points": 1, "description": "Axes labeled price level and real GDP; AD, SRAS, and vertical LRAS." },
-        { "criterion": "a2: Equilibrium", "points": 1, "description": "AD-SRAS equilibrium at Y₁ to the right of LRAS (Y_f), with PL₁ labeled." },
-        { "criterion": "b: OMO", "points": 1, "description": "Sell government bonds." },
-        { "criterion": "c1: Money market labels", "points": 1, "description": "Axes nominal interest rate and quantity of money; downward-sloping MD and vertical MS." },
-        { "criterion": "c2: Shift", "points": 1, "description": "MS shifts left, nominal interest rate rises." },
-        { "criterion": "d: AD effect", "points": 1, "description": "Higher interest rates reduce investment and interest-sensitive consumption, so AD decreases; real output and price level decrease." },
-        { "criterion": "e1: Phillips labels", "points": 1, "description": "Axes inflation rate and unemployment rate; downward-sloping SRPC and vertical LRPC at the natural rate; point A on SRPC left of LRPC." },
-        { "criterion": "e2: Movement", "points": 1, "description": "Point B on the same SRPC, down and to the right of A (higher unemployment, lower inflation)." },
-        { "criterion": "f1: Direction", "points": 1, "description": "The SRPC shifts right (up)." },
-        { "criterion": "f2: Reason", "points": 1, "description": "Because workers and firms expect higher inflation, nominal wages rise (SRAS shifts left), so inflation expectations rise and unemployment returns to the natural rate at a higher inflation rate." }
+        {
+          "criterion": "a1: Graph labels",
+          "points": 1,
+          "description": "Axes labeled price level and real GDP; AD, SRAS, and vertical LRAS."
+        },
+        {
+          "criterion": "a2: Equilibrium",
+          "points": 1,
+          "description": "AD-SRAS equilibrium at Y₁ to the right of LRAS (Y_f), with PL₁ labeled."
+        },
+        {
+          "criterion": "b: OMO",
+          "points": 1,
+          "description": "Sell government bonds."
+        },
+        {
+          "criterion": "c1: Money market labels",
+          "points": 1,
+          "description": "Axes nominal interest rate and quantity of money; downward-sloping MD and vertical MS."
+        },
+        {
+          "criterion": "c2: Shift",
+          "points": 1,
+          "description": "MS shifts left, nominal interest rate rises."
+        },
+        {
+          "criterion": "d: AD effect",
+          "points": 1,
+          "description": "Higher interest rates reduce investment and interest-sensitive consumption, so AD decreases; real output and price level decrease."
+        },
+        {
+          "criterion": "e1: Phillips labels",
+          "points": 1,
+          "description": "Axes inflation rate and unemployment rate; downward-sloping SRPC and vertical LRPC at the natural rate; point A on SRPC left of LRPC."
+        },
+        {
+          "criterion": "e2: Movement",
+          "points": 1,
+          "description": "Point B on the same SRPC, down and to the right of A (higher unemployment, lower inflation)."
+        },
+        {
+          "criterion": "f1: Direction",
+          "points": 1,
+          "description": "The SRPC shifts right (up)."
+        },
+        {
+          "criterion": "f2: Reason",
+          "points": 1,
+          "description": "Because workers and firms expect higher inflation, nominal wages rise (SRAS shifts left), so inflation expectations rise and unemployment returns to the natural rate at a higher inflation rate."
+        }
       ],
       "sampleResponse": "(a) The graph has 'Price Level' on the vertical axis and 'Real GDP' on the horizontal axis. Downward-sloping AD intersects upward-sloping SRAS at PL₁ and Y₁. A vertical LRAS is at Y_f, to the left of Y₁, showing an inflationary gap.\n\n(b) The central bank should sell government bonds on the open market.\n\n(c) The money market graph has 'Nominal Interest Rate' on the vertical axis and 'Quantity of Money' on the horizontal axis. MD slopes downward and MS is vertical. Selling bonds shifts MS to the left (MS₁ to MS₂), raising the nominal interest rate from i₁ to i₂.\n\n(d) A higher interest rate makes borrowing more expensive, so investment spending and interest-sensitive consumption fall, decreasing AD. Real output and the price level both decrease.\n\n(e) The Phillips curve graph has 'Inflation Rate' on the vertical axis and 'Unemployment Rate' on the horizontal axis. A vertical LRPC sits at the natural rate of unemployment. Point A is on the downward-sloping SRPC to the left of the LRPC (low unemployment, high inflation). Point B is lower and to the right on the same SRPC, closer to the LRPC.\n\n(f) The SRPC shifts to the right. With the economy above full employment, workers expect continued high inflation and demand higher nominal wages. Rising wages shift SRAS left, so expected inflation rises, moving the SRPC up until unemployment returns to the natural rate at a higher inflation rate."
     }

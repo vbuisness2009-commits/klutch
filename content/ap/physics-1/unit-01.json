@@ -55,33 +55,100 @@
     "cramSheet": "**Definitions:** Δx = x_f − x_i; v_avg = Δx/Δt; a = Δv/Δt. Distance ≥ |displacement|.\n\n**Constant a:** v = v₀ + at | x = x₀ + v₀t + ½at² | v² = v₀² + 2aΔx | Δx = ½(v₀ + v)t.\n\n**Graphs:** x–t slope = v. v–t slope = a, area = Δx. a–t area = Δv. Turnaround where v crosses 0.\n\n**Speeding up:** v and a same sign. **Slowing:** opposite signs.\n\n**Free fall:** a = 9.8 m/s² down always (even at the top). Drop from rest: h = ½gt², t ∝ √h, v = √(2gh).\n\n**Projectile:** vₓ = v₀cos θ constant; v_y = v₀sin θ − gt. Top: v_y = 0, t_top = v₀sin θ/g, H = (v₀sin θ)²/2g. Level-ground range max at 45°; θ and 90° − θ same range.\n\n**Relative motion:** v_AB = v_AG − v_BG. River: crossing time = width/(speed across); drift = current × time.\n\n**Linearize:** x ∝ t² → plot x vs. t², slope = ½a."
   },
   "vocab": [
-    { "term": "Scalar", "definition": "A quantity with magnitude only, such as distance, speed, time, or mass." },
-    { "term": "Vector", "definition": "A quantity with both magnitude and direction, such as displacement, velocity, acceleration, or force." },
-    { "term": "Position", "definition": "The location of an object relative to a chosen origin and positive direction." },
-    { "term": "Displacement", "definition": "The change in position, Δx = x_f − x_i; a vector that can be negative and depends only on the start and end points." },
-    { "term": "Distance", "definition": "The total length of the path traveled; a nonnegative scalar that is at least as large as the magnitude of the displacement." },
-    { "term": "Average velocity", "definition": "Displacement divided by the time interval, Δx/Δt; equals the slope of the secant line on a position–time graph." },
-    { "term": "Instantaneous velocity", "definition": "The velocity at a single instant; the slope of the tangent line on a position–time graph." },
-    { "term": "Speed", "definition": "The magnitude of velocity; average speed is total distance divided by elapsed time." },
-    { "term": "Acceleration", "definition": "The rate of change of velocity, a = Δv/Δt; the slope of a velocity–time graph." },
-    { "term": "Free fall", "definition": "Motion under the influence of gravity alone, with constant downward acceleration g = 9.8 m/s² near Earth's surface." },
-    { "term": "Projectile", "definition": "An object moving only under gravity after launch; its horizontal velocity is constant and its vertical motion has acceleration g downward." },
-    { "term": "Range", "definition": "The horizontal distance a projectile travels before returning to its launch height." },
-    { "term": "Reference frame", "definition": "The coordinate system and observer from which motion is measured; velocities depend on the frame." },
-    { "term": "Relative velocity", "definition": "The velocity of an object as measured by a particular observer: v_AB = v_AG − v_BG." },
-    { "term": "Inertial reference frame", "definition": "A frame that is not accelerating; all inertial observers measure the same acceleration for a given object." },
-    { "term": "Uniformly accelerated motion", "definition": "Motion with constant acceleration, described by the kinematic equations on the reference sheet." },
-    { "term": "Linearization", "definition": "Choosing graph axes (for example x vs. t²) so that a nonlinear relationship plots as a straight line whose slope has physical meaning." }
+    {
+      "term": "Scalar",
+      "definition": "A quantity with magnitude only, such as distance, speed, time, or mass."
+    },
+    {
+      "term": "Vector",
+      "definition": "A quantity with both magnitude and direction, such as displacement, velocity, acceleration, or force."
+    },
+    {
+      "term": "Position",
+      "definition": "The location of an object relative to a chosen origin and positive direction."
+    },
+    {
+      "term": "Displacement",
+      "definition": "The change in position, Δx = x_f − x_i; a vector that can be negative and depends only on the start and end points."
+    },
+    {
+      "term": "Distance",
+      "definition": "The total length of the path traveled; a nonnegative scalar that is at least as large as the magnitude of the displacement."
+    },
+    {
+      "term": "Average velocity",
+      "definition": "Displacement divided by the time interval, Δx/Δt; equals the slope of the secant line on a position–time graph."
+    },
+    {
+      "term": "Instantaneous velocity",
+      "definition": "The velocity at a single instant; the slope of the tangent line on a position–time graph."
+    },
+    {
+      "term": "Speed",
+      "definition": "The magnitude of velocity; average speed is total distance divided by elapsed time."
+    },
+    {
+      "term": "Acceleration",
+      "definition": "The rate of change of velocity, a = Δv/Δt; the slope of a velocity–time graph."
+    },
+    {
+      "term": "Free fall",
+      "definition": "Motion under the influence of gravity alone, with constant downward acceleration g = 9.8 m/s² near Earth's surface."
+    },
+    {
+      "term": "Projectile",
+      "definition": "An object moving only under gravity after launch; its horizontal velocity is constant and its vertical motion has acceleration g downward."
+    },
+    {
+      "term": "Range",
+      "definition": "The horizontal distance a projectile travels before returning to its launch height."
+    },
+    {
+      "term": "Reference frame",
+      "definition": "The coordinate system and observer from which motion is measured; velocities depend on the frame."
+    },
+    {
+      "term": "Relative velocity",
+      "definition": "The velocity of an object as measured by a particular observer: v_AB = v_AG − v_BG."
+    },
+    {
+      "term": "Inertial reference frame",
+      "definition": "A frame that is not accelerating; all inertial observers measure the same acceleration for a given object."
+    },
+    {
+      "term": "Uniformly accelerated motion",
+      "definition": "Motion with constant acceleration, described by the kinematic equations on the reference sheet."
+    },
+    {
+      "term": "Linearization",
+      "definition": "Choosing graph axes (for example x vs. t²) so that a nonlinear relationship plots as a straight line whose slope has physical meaning."
+    }
   ],
   "practice": [
     {
-      "id": "u1-q01", "type": "mcq", "tier": "Intro", "topic": "Displacement, Velocity, and Acceleration", "skill": "Mathematical Routines",
+      "id": "u1-q01",
+      "type": "mcq",
+      "tier": "Intro",
+      "topic": "Displacement, Velocity, and Acceleration",
+      "skill": "Mathematical Routines",
       "stem": "A car moving in a straight line speeds up uniformly from 4.0 m/s to 16 m/s in 3.0 s. How far does the car travel during this time?",
       "choices": [
-        { "id": "A", "text": "18 m" },
-        { "id": "B", "text": "30 m" },
-        { "id": "C", "text": "36 m" },
-        { "id": "D", "text": "48 m" }
+        {
+          "id": "A",
+          "text": "18 m"
+        },
+        {
+          "id": "B",
+          "text": "30 m"
+        },
+        {
+          "id": "C",
+          "text": "36 m"
+        },
+        {
+          "id": "D",
+          "text": "48 m"
+        }
       ],
       "answer": "B",
       "explanation": "With constant acceleration, average velocity = (4.0 + 16)/2 = 10 m/s. Distance = 10 m/s × 3.0 s = 30 m. (Check: a = 12/3 = 4 m/s², x = 4(3) + ½(4)(9) = 12 + 18 = 30 m.)",
@@ -92,13 +159,29 @@
       }
     },
     {
-      "id": "u1-q02", "type": "mcq", "tier": "Intro", "topic": "Representing Motion", "skill": "Creating Representations",
+      "id": "u1-q02",
+      "type": "mcq",
+      "tier": "Intro",
+      "topic": "Representing Motion",
+      "skill": "Creating Representations",
       "stem": "The position–time graph of an object is a straight line that starts at x = +12 m when t = 0 and slopes downward, reaching x = 0 at t = 4 s. Which statement describes the object's motion from t = 0 to t = 4 s?",
       "choices": [
-        { "id": "A", "text": "It moves in the negative direction with constant speed and zero acceleration." },
-        { "id": "B", "text": "It moves in the negative direction while slowing down." },
-        { "id": "C", "text": "It moves in the positive direction with a negative acceleration." },
-        { "id": "D", "text": "It is at rest because it ends at the origin." }
+        {
+          "id": "A",
+          "text": "It moves in the negative direction with constant speed and zero acceleration."
+        },
+        {
+          "id": "B",
+          "text": "It moves in the negative direction while slowing down."
+        },
+        {
+          "id": "C",
+          "text": "It moves in the positive direction with a negative acceleration."
+        },
+        {
+          "id": "D",
+          "text": "It is at rest because it ends at the origin."
+        }
       ],
       "answer": "A",
       "explanation": "A straight-line x–t graph has constant slope, so velocity is constant: (0 − 12)/4 = −3 m/s. Constant velocity means zero acceleration, and the negative slope means motion in the negative direction.",
@@ -109,31 +192,63 @@
       }
     },
     {
-      "id": "u1-q03", "type": "mcq", "tier": "Intro", "topic": "Displacement, Velocity, and Acceleration", "skill": "Scientific Questioning and Argumentation",
+      "id": "u1-q03",
+      "type": "mcq",
+      "tier": "Intro",
+      "topic": "Displacement, Velocity, and Acceleration",
+      "skill": "Scientific Questioning and Argumentation",
       "stem": "A ball is thrown straight upward. Air resistance is negligible. At the instant the ball reaches its highest point, which of the following is true?",
       "choices": [
-        { "id": "A", "text": "Its velocity is zero and its acceleration is zero." },
-        { "id": "B", "text": "Its velocity is zero and its acceleration is 9.8 m/s² downward." },
-        { "id": "C", "text": "Its velocity is 9.8 m/s downward and its acceleration is zero." },
-        { "id": "D", "text": "Its velocity is zero and its acceleration is changing from upward to downward." }
+        {
+          "id": "A",
+          "text": "Its velocity is zero and its acceleration is zero."
+        },
+        {
+          "id": "B",
+          "text": "Its velocity is 9.8 m/s downward and its acceleration is zero."
+        },
+        {
+          "id": "C",
+          "text": "Its velocity is zero and its acceleration is 9.8 m/s² downward."
+        },
+        {
+          "id": "D",
+          "text": "Its velocity is zero and its acceleration is changing from upward to downward."
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "At the peak the ball is momentarily at rest, so v = 0. Gravity still acts, so the acceleration is g = 9.8 m/s² downward at every point of the flight, including the top. If acceleration were zero there, the ball would stay at the top.",
       "distractors": {
         "A": "The classic misconception that zero velocity implies zero acceleration.",
-        "C": "Mixes up the units and meaning of velocity and acceleration.",
-        "D": "The acceleration is always downward; it never points upward during the flight."
+        "D": "The acceleration is always downward; it never points upward during the flight.",
+        "B": "Mixes up the units and meaning of velocity and acceleration."
       }
     },
     {
-      "id": "u1-q04", "type": "mcq", "tier": "Intro", "topic": "Representing Motion", "skill": "Mathematical Routines",
+      "id": "u1-q04",
+      "type": "mcq",
+      "tier": "Intro",
+      "topic": "Representing Motion",
+      "skill": "Mathematical Routines",
       "stimulus": "A cart's velocity–time graph has two segments:\n\n- From t = 0 to t = 4 s, the velocity increases linearly from 0 to 6 m/s.\n- From t = 4 s to t = 6 s, the velocity stays constant at 6 m/s.",
       "stem": "What is the cart's displacement from t = 0 to t = 6 s?",
       "choices": [
-        { "id": "A", "text": "12 m" },
-        { "id": "B", "text": "18 m" },
-        { "id": "C", "text": "24 m" },
-        { "id": "D", "text": "36 m" }
+        {
+          "id": "A",
+          "text": "12 m"
+        },
+        {
+          "id": "B",
+          "text": "18 m"
+        },
+        {
+          "id": "C",
+          "text": "24 m"
+        },
+        {
+          "id": "D",
+          "text": "36 m"
+        }
       ],
       "answer": "C",
       "explanation": "Displacement is the area under the v–t graph. Triangle: ½(4 s)(6 m/s) = 12 m. Rectangle: (2 s)(6 m/s) = 12 m. Total = 24 m.",
@@ -144,13 +259,29 @@
       }
     },
     {
-      "id": "u1-q05", "type": "mcq", "tier": "Exam level", "topic": "Vectors and Motion in Two Dimensions", "skill": "Mathematical Routines",
+      "id": "u1-q05",
+      "type": "mcq",
+      "tier": "Exam level",
+      "topic": "Vectors and Motion in Two Dimensions",
+      "skill": "Mathematical Routines",
       "stem": "A stone is thrown horizontally at 15 m/s from the edge of a cliff 20 m above level ground. Air resistance is negligible. Approximately how far from the base of the cliff does the stone land?",
       "choices": [
-        { "id": "A", "text": "20 m" },
-        { "id": "B", "text": "21 m" },
-        { "id": "C", "text": "30 m" },
-        { "id": "D", "text": "61 m" }
+        {
+          "id": "A",
+          "text": "20 m"
+        },
+        {
+          "id": "B",
+          "text": "21 m"
+        },
+        {
+          "id": "C",
+          "text": "30 m"
+        },
+        {
+          "id": "D",
+          "text": "61 m"
+        }
       ],
       "answer": "C",
       "explanation": "Vertical motion sets the time: 20 = ½(9.8)t², so t = √(40/9.8) = 2.0 s. Horizontal velocity is constant, so x = (15 m/s)(2.0 s) ≈ 30 m.",
@@ -161,13 +292,29 @@
       }
     },
     {
-      "id": "u1-q06", "type": "mcq", "tier": "Exam level", "topic": "Reference Frames and Relative Motion", "skill": "Mathematical Routines",
+      "id": "u1-q06",
+      "type": "mcq",
+      "tier": "Exam level",
+      "topic": "Reference Frames and Relative Motion",
+      "skill": "Mathematical Routines",
       "stem": "A boat crosses a river that is 60 m wide and flows east at 1.5 m/s. The boat is pointed due north and moves at 2.0 m/s relative to the water. How far east of its starting point does the boat land on the opposite bank?",
       "choices": [
-        { "id": "A", "text": "0 m" },
-        { "id": "B", "text": "36 m" },
-        { "id": "C", "text": "45 m" },
-        { "id": "D", "text": "80 m" }
+        {
+          "id": "A",
+          "text": "0 m"
+        },
+        {
+          "id": "B",
+          "text": "36 m"
+        },
+        {
+          "id": "C",
+          "text": "45 m"
+        },
+        {
+          "id": "D",
+          "text": "80 m"
+        }
       ],
       "answer": "C",
       "explanation": "The northward velocity component relative to the shore is 2.0 m/s, so crossing time = 60/2.0 = 30 s. The current carries the boat east at 1.5 m/s for that time: 1.5 × 30 = 45 m.",
@@ -178,48 +325,96 @@
       }
     },
     {
-      "id": "u1-q07", "type": "mcq", "tier": "Exam level", "topic": "Vectors and Motion in Two Dimensions", "skill": "Scientific Questioning and Argumentation",
+      "id": "u1-q07",
+      "type": "mcq",
+      "tier": "Exam level",
+      "topic": "Vectors and Motion in Two Dimensions",
+      "skill": "Scientific Questioning and Argumentation",
       "stem": "From the top of a tall building, ball X is launched horizontally with speed v. At the same instant, ball Y is launched from the same point with the same speed v but at 30° above the horizontal. Air resistance is negligible. Which statement is correct?",
       "choices": [
-        { "id": "A", "text": "Both balls land at the same time because they have the same launch speed." },
-        { "id": "B", "text": "Ball X lands first, and ball X has the larger horizontal velocity component throughout the flight." },
-        { "id": "C", "text": "Ball X lands first, but ball Y has the larger horizontal velocity component throughout the flight." },
-        { "id": "D", "text": "Ball Y lands first because it has an upward velocity component that is later reversed." }
+        {
+          "id": "A",
+          "text": "Both balls land at the same time because they have the same launch speed."
+        },
+        {
+          "id": "B",
+          "text": "Ball Y lands first because it has an upward velocity component that is later reversed."
+        },
+        {
+          "id": "C",
+          "text": "Ball X lands first, but ball Y has the larger horizontal velocity component throughout the flight."
+        },
+        {
+          "id": "D",
+          "text": "Ball X lands first, and ball X has the larger horizontal velocity component throughout the flight."
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Time of flight depends only on vertical motion. X starts with zero vertical velocity; Y starts with an upward component, so Y rises first and spends more time in the air. Horizontal components stay constant: X has v, Y has v cos 30° ≈ 0.87v, so X's is larger.",
       "distractors": {
         "A": "Launch speed alone does not set flight time; the vertical component does.",
         "C": "Forgets that only part of Y's speed, v cos 30°, is horizontal.",
-        "D": "An upward start delays the landing; it does not speed it up."
+        "B": "An upward start delays the landing; it does not speed it up."
       }
     },
     {
-      "id": "u1-q08", "type": "mcq", "tier": "Exam level", "topic": "Representing Motion", "skill": "Creating Representations",
+      "id": "u1-q08",
+      "type": "mcq",
+      "tier": "Exam level",
+      "topic": "Representing Motion",
+      "skill": "Creating Representations",
       "stem": "An object's velocity is +8 m/s at t = 0 and decreases linearly with time to −4 m/s at t = 6 s. What are the object's displacement and the distance it travels from t = 0 to t = 6 s?",
       "choices": [
-        { "id": "A", "text": "Displacement 12 m; distance 20 m" },
-        { "id": "B", "text": "Displacement 20 m; distance 12 m" },
-        { "id": "C", "text": "Displacement 12 m; distance 12 m" },
-        { "id": "D", "text": "Displacement 16 m; distance 20 m" }
+        {
+          "id": "A",
+          "text": "Displacement 16 m; distance 20 m"
+        },
+        {
+          "id": "B",
+          "text": "Displacement 20 m; distance 12 m"
+        },
+        {
+          "id": "C",
+          "text": "Displacement 12 m; distance 12 m"
+        },
+        {
+          "id": "D",
+          "text": "Displacement 12 m; distance 20 m"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Slope = −2 m/s², so v = 0 at t = 4 s. Area from 0 to 4 s = ½(4)(8) = +16 m. Area from 4 to 6 s = ½(2)(−4) = −4 m. Displacement = 16 − 4 = 12 m; distance = 16 + 4 = 20 m.",
       "distractors": {
         "B": "Swaps the definitions of distance and displacement.",
         "C": "Ignores that the object turned around, so distance would exceed displacement.",
-        "D": "Uses only the area before the turnaround as the displacement."
+        "A": "Uses only the area before the turnaround as the displacement."
       }
     },
     {
-      "id": "u1-q09", "type": "mcq", "tier": "Exam level", "topic": "Displacement, Velocity, and Acceleration", "skill": "Scientific Questioning and Argumentation",
+      "id": "u1-q09",
+      "type": "mcq",
+      "tier": "Exam level",
+      "topic": "Displacement, Velocity, and Acceleration",
+      "skill": "Scientific Questioning and Argumentation",
       "stimulus": "A cart is released from rest at t = 0 on a track. A motion sensor records:\n\n| t (s) | 0 | 1.0 | 2.0 | 3.0 |\n| --- | --- | --- | --- | --- |\n| x (m) | 0 | 1.5 | 6.0 | 13.5 |",
       "stem": "Which of the following best describes the cart's acceleration?",
       "choices": [
-        { "id": "A", "text": "Constant, 1.5 m/s²" },
-        { "id": "B", "text": "Constant, 3.0 m/s²" },
-        { "id": "C", "text": "Constant, 4.5 m/s²" },
-        { "id": "D", "text": "Increasing, because the distance covered each second increases" }
+        {
+          "id": "A",
+          "text": "Constant, 1.5 m/s²"
+        },
+        {
+          "id": "B",
+          "text": "Constant, 3.0 m/s²"
+        },
+        {
+          "id": "C",
+          "text": "Constant, 4.5 m/s²"
+        },
+        {
+          "id": "D",
+          "text": "Increasing, because the distance covered each second increases"
+        }
       ],
       "answer": "B",
       "explanation": "x/t² = 1.5 m/s² for every row, so x = 1.5t². Comparing with x = ½at² for a start from rest gives ½a = 1.5, so a = 3.0 m/s². Distances in successive seconds (1.5, 4.5, 7.5 m) grow by a constant 3.0 m, which is the signature of constant acceleration.",
@@ -230,13 +425,29 @@
       }
     },
     {
-      "id": "u1-q10", "type": "mcq", "tier": "Exam level", "topic": "Vectors and Motion in Two Dimensions", "skill": "Mathematical Routines",
+      "id": "u1-q10",
+      "type": "mcq",
+      "tier": "Exam level",
+      "topic": "Vectors and Motion in Two Dimensions",
+      "skill": "Mathematical Routines",
       "stem": "A ball is kicked from level ground at 25 m/s at 53° above the horizontal. Use sin 53° ≈ 0.80 and cos 53° ≈ 0.60. Air resistance is negligible. What is the maximum height the ball reaches?",
       "choices": [
-        { "id": "A", "text": "11 m" },
-        { "id": "B", "text": "20 m" },
-        { "id": "C", "text": "32 m" },
-        { "id": "D", "text": "41 m" }
+        {
+          "id": "A",
+          "text": "11 m"
+        },
+        {
+          "id": "B",
+          "text": "20 m"
+        },
+        {
+          "id": "C",
+          "text": "32 m"
+        },
+        {
+          "id": "D",
+          "text": "41 m"
+        }
       ],
       "answer": "B",
       "explanation": "Only the vertical component matters: v_y0 = 25(0.80) = 20 m/s. At the top v_y = 0, so 0 = 20² − 2(9.8)H and H = 400/19.6 ≈ 20 m.",
@@ -247,65 +458,129 @@
       }
     },
     {
-      "id": "u1-q11", "type": "mcq", "tier": "Hardest", "topic": "Displacement, Velocity, and Acceleration", "skill": "Mathematical Routines",
+      "id": "u1-q11",
+      "type": "mcq",
+      "tier": "Hardest",
+      "topic": "Displacement, Velocity, and Acceleration",
+      "skill": "Mathematical Routines",
       "stem": "Ball A is released from rest at height H above the ground. At the same instant, ball B is thrown straight upward from the ground directly below A with speed v₀. Air resistance is negligible. For what value of v₀ do the balls collide at the instant ball B reaches its highest point?",
       "choices": [
-        { "id": "A", "text": "√(gH/2)" },
-        { "id": "B", "text": "√(gH)" },
-        { "id": "C", "text": "√(2gH)" },
-        { "id": "D", "text": "2√(gH)" }
-      ],
-      "answer": "B",
-      "explanation": "Both balls have the same acceleration g, so relative to each other they move at constant speed v₀ and close the gap H in t = H/v₀. Ball B peaks at t = v₀/g. Setting H/v₀ = v₀/g gives v₀² = gH, so v₀ = √(gH). Check: at that time A has fallen ½g(H/v₀)² = H/2 and B has risen v₀²/2g = H/2, so they meet at mid-height.",
-      "distractors": {
-        "A": "Sets B's peak height (v₀²/2g) equal to H/4 or mishandles the meeting time.",
-        "C": "Requires B to reach height H at its peak, ignoring that A also falls.",
-        "D": "Doubles the correct answer, usually from using t = 2v₀/g (total flight time) for the peak."
-      }
-    },
-    {
-      "id": "u1-q12", "type": "mcq", "tier": "Hardest", "topic": "Vectors and Motion in Two Dimensions", "skill": "Mathematical Routines",
-      "stem": "A ball is launched from ground level at 20 m/s at 37° above the horizontal toward a vertical wall 24 m away. Use sin 37° ≈ 0.60 and cos 37° ≈ 0.80. Air resistance is negligible. Where does the ball hit the wall, and what is its vertical motion at that instant?",
-      "choices": [
-        { "id": "A", "text": "About 7.0 m above the ground, moving upward" },
-        { "id": "B", "text": "About 7.0 m above the ground, moving downward" },
-        { "id": "C", "text": "About 18 m above the ground, moving upward" },
-        { "id": "D", "text": "About 11 m above the ground, moving downward" }
-      ],
-      "answer": "B",
-      "explanation": "vₓ = 16 m/s, v_y0 = 12 m/s. Time to reach the wall: 24/16 = 1.5 s. Height: 12(1.5) − ½(9.8)(1.5)² = 18 − 11.0 = 7.0 m. Vertical velocity: 12 − 9.8(1.5) = −2.7 m/s, so the ball is already descending (its peak was at t = 1.22 s).",
-      "distractors": {
-        "A": "Gets the height right but does not check the sign of v_y; the peak occurred before 1.5 s.",
-        "C": "Forgets the −½gt² term (18 m is just v_y0·t).",
-        "D": "Uses the wrong time or swaps sine and cosine in the components."
-      }
-    },
-    {
-      "id": "u1-q13", "type": "mcq", "tier": "Hardest", "topic": "Reference Frames and Relative Motion", "skill": "Creating Representations",
-      "stem": "On a windless day, raindrops fall vertically at a constant 8.0 m/s relative to the ground. A car drives east at a constant 6.0 m/s. As seen by a passenger in the car, which describes the raindrops' motion?",
-      "choices": [
-        { "id": "A", "text": "Speed 10 m/s, slanting downward and toward the back of the car (westward), 37° from vertical" },
-        { "id": "B", "text": "Speed 10 m/s, slanting downward and toward the front of the car (eastward), 37° from vertical" },
-        { "id": "C", "text": "Speed 14 m/s, slanting downward and toward the back of the car, 53° from vertical" },
-        { "id": "D", "text": "Speed 8.0 m/s, falling vertically, because the car's horizontal motion does not affect vertical motion" }
+        {
+          "id": "A",
+          "text": "√(gH)"
+        },
+        {
+          "id": "B",
+          "text": "√(gH/2)"
+        },
+        {
+          "id": "C",
+          "text": "√(2gH)"
+        },
+        {
+          "id": "D",
+          "text": "2√(gH)"
+        }
       ],
       "answer": "A",
+      "explanation": "Both balls have the same acceleration g, so relative to each other they move at constant speed v₀ and close the gap H in t = H/v₀. Ball B peaks at t = v₀/g. Setting H/v₀ = v₀/g gives v₀² = gH, so v₀ = √(gH). Check: at that time A has fallen ½g(H/v₀)² = H/2 and B has risen v₀²/2g = H/2, so they meet at mid-height.",
+      "distractors": {
+        "C": "Requires B to reach height H at its peak, ignoring that A also falls.",
+        "D": "Doubles the correct answer, usually from using t = 2v₀/g (total flight time) for the peak.",
+        "B": "Sets B's peak height (v₀²/2g) equal to H/4 or mishandles the meeting time."
+      }
+    },
+    {
+      "id": "u1-q12",
+      "type": "mcq",
+      "tier": "Hardest",
+      "topic": "Vectors and Motion in Two Dimensions",
+      "skill": "Mathematical Routines",
+      "stem": "A ball is launched from ground level at 20 m/s at 37° above the horizontal toward a vertical wall 24 m away. Use sin 37° ≈ 0.60 and cos 37° ≈ 0.80. Air resistance is negligible. Where does the ball hit the wall, and what is its vertical motion at that instant?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "About 7.0 m above the ground, moving downward"
+        },
+        {
+          "id": "B",
+          "text": "About 7.0 m above the ground, moving upward"
+        },
+        {
+          "id": "C",
+          "text": "About 18 m above the ground, moving upward"
+        },
+        {
+          "id": "D",
+          "text": "About 11 m above the ground, moving downward"
+        }
+      ],
+      "answer": "A",
+      "explanation": "vₓ = 16 m/s, v_y0 = 12 m/s. Time to reach the wall: 24/16 = 1.5 s. Height: 12(1.5) − ½(9.8)(1.5)² = 18 − 11.0 = 7.0 m. Vertical velocity: 12 − 9.8(1.5) = −2.7 m/s, so the ball is already descending (its peak was at t = 1.22 s).",
+      "distractors": {
+        "C": "Forgets the −½gt² term (18 m is just v_y0·t).",
+        "D": "Uses the wrong time or swaps sine and cosine in the components.",
+        "B": "Gets the height right but does not check the sign of v_y; the peak occurred before 1.5 s."
+      }
+    },
+    {
+      "id": "u1-q13",
+      "type": "mcq",
+      "tier": "Hardest",
+      "topic": "Reference Frames and Relative Motion",
+      "skill": "Creating Representations",
+      "stem": "On a windless day, raindrops fall vertically at a constant 8.0 m/s relative to the ground. A car drives east at a constant 6.0 m/s. As seen by a passenger in the car, which describes the raindrops' motion?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Speed 8.0 m/s, falling vertically, because the car's horizontal motion does not affect vertical motion"
+        },
+        {
+          "id": "B",
+          "text": "Speed 10 m/s, slanting downward and toward the front of the car (eastward), 37° from vertical"
+        },
+        {
+          "id": "C",
+          "text": "Speed 14 m/s, slanting downward and toward the back of the car, 53° from vertical"
+        },
+        {
+          "id": "D",
+          "text": "Speed 10 m/s, slanting downward and toward the back of the car (westward), 37° from vertical"
+        }
+      ],
+      "answer": "D",
       "explanation": "v_rain,car = v_rain,ground − v_car,ground = (0, −8) − (6, 0) = (−6 m/s east, −8 m/s up), i.e., 6 m/s west and 8 m/s down. Magnitude √(36 + 64) = 10 m/s; angle from vertical tan⁻¹(6/8) = 37°, tilted toward the rear.",
       "distractors": {
         "B": "Adds the car's velocity instead of subtracting it.",
         "C": "Adds magnitudes (6 + 8) and measures the angle from the wrong axis.",
-        "D": "Correct that vertical motion is unaffected, but horizontal relative motion still exists."
+        "A": "Correct that vertical motion is unaffected, but horizontal relative motion still exists."
       }
     },
     {
-      "id": "u1-q14", "type": "mcq", "tier": "Hardest", "topic": "Representing Motion", "skill": "Mathematical Routines",
+      "id": "u1-q14",
+      "type": "mcq",
+      "tier": "Hardest",
+      "topic": "Representing Motion",
+      "skill": "Mathematical Routines",
       "stimulus": "An object moving along the x-axis has velocity −2.0 m/s at t = 0. Its acceleration is:\n\n| Time interval | Acceleration |\n| --- | --- |\n| 0 to 3.0 s | +2.0 m/s² |\n| 3.0 s to 5.0 s | −3.0 m/s² |",
       "stem": "What are the object's velocity at t = 5.0 s and its displacement from t = 0 to t = 5.0 s?",
       "choices": [
-        { "id": "A", "text": "v = −2.0 m/s; Δx = −10 m" },
-        { "id": "B", "text": "v = −2.0 m/s; Δx = +5.0 m" },
-        { "id": "C", "text": "v = +4.0 m/s; Δx = +5.0 m" },
-        { "id": "D", "text": "v = +2.0 m/s; Δx = +11 m" }
+        {
+          "id": "A",
+          "text": "v = −2.0 m/s; Δx = −10 m"
+        },
+        {
+          "id": "B",
+          "text": "v = −2.0 m/s; Δx = +5.0 m"
+        },
+        {
+          "id": "C",
+          "text": "v = +4.0 m/s; Δx = +5.0 m"
+        },
+        {
+          "id": "D",
+          "text": "v = +2.0 m/s; Δx = +11 m"
+        }
       ],
       "answer": "B",
       "explanation": "0–3 s: v(3) = −2 + 2(3) = +4 m/s; Δx₁ = (−2)(3) + ½(2)(9) = +3 m. 3–5 s: v(5) = 4 − 3(2) = −2 m/s; Δx₂ = 4(2) − ½(3)(4) = +2 m. Total Δx = +5 m. The final velocity happens to equal the initial velocity because the total area under a–t is 6 − 6 = 0.",
@@ -316,28 +591,88 @@
       }
     },
     {
-      "id": "u1-frq1", "type": "frq", "tier": "Exam level", "topic": "Displacement, Velocity, and Acceleration", "skill": "Mathematical Routines",
+      "id": "u1-frq1",
+      "type": "frq",
+      "tier": "Exam level",
+      "topic": "Displacement, Velocity, and Acceleration",
+      "skill": "Mathematical Routines",
       "frqType": "Mathematical Routines (MR)",
       "prompt": "A cart on a long horizontal track has a fan attached that exerts a constant force, giving the cart a constant acceleration of magnitude a directed in the −x direction. At t = 0 the cart is at x = 0 and moving in the +x direction with speed v₀. Friction is negligible.",
       "parts": [
-        { "label": "A", "prompt": "Derive an expression for the maximum position x_max the cart reaches, in terms of v₀, a, and physical constants as appropriate. Begin your derivation by writing a fundamental physics principle or an equation from the reference information.", "points": 3 },
-        { "label": "B", "prompt": "Describe a sketch of the cart's velocity v as a function of time t from t = 0 until the cart returns to x = 0. Label the time at which v = 0 and the velocity at the instant the cart returns to x = 0.", "points": 2 },
-        { "label": "C", "prompt": "In one trial, v₀ = 1.2 m/s and a = 0.40 m/s². Calculate x_max and the time at which the cart returns to x = 0.", "points": 2 },
-        { "label": "D", "prompt": "A student claims: 'If the initial speed is doubled with the same fan setting, the cart will go twice as far before turning around.' Indicate whether the claim is correct, and justify your answer using your expression from part A.", "points": 3 }
+        {
+          "label": "A",
+          "prompt": "Derive an expression for the maximum position x_max the cart reaches, in terms of v₀, a, and physical constants as appropriate. Begin your derivation by writing a fundamental physics principle or an equation from the reference information.",
+          "points": 3
+        },
+        {
+          "label": "B",
+          "prompt": "Describe a sketch of the cart's velocity v as a function of time t from t = 0 until the cart returns to x = 0. Label the time at which v = 0 and the velocity at the instant the cart returns to x = 0.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "In one trial, v₀ = 1.2 m/s and a = 0.40 m/s². Calculate x_max and the time at which the cart returns to x = 0.",
+          "points": 2
+        },
+        {
+          "label": "D",
+          "prompt": "A student claims: 'If the initial speed is doubled with the same fan setting, the cart will go twice as far before turning around.' Indicate whether the claim is correct, and justify your answer using your expression from part A.",
+          "points": 3
+        }
       ],
       "points": 10,
       "minutes": 22,
       "rubric": [
-        { "criterion": "A1: Starting equation", "points": 1, "description": "Writes a kinematic equation from the reference sheet relating velocity, acceleration, and displacement, e.g., v² = v₀² + 2a(x − x₀)." },
-        { "criterion": "A2: Correct substitution", "points": 1, "description": "Substitutes v = 0 at the turnaround and uses −a for the acceleration (or equivalent sign handling)." },
-        { "criterion": "A3: Correct expression", "points": 1, "description": "x_max = v₀²/(2a)." },
-        { "criterion": "B1: Shape", "points": 1, "description": "Straight line with constant negative slope starting at +v₀ at t = 0 and crossing zero at t = v₀/a." },
-        { "criterion": "B2: Endpoint", "points": 1, "description": "Line ends at v = −v₀ at t = 2v₀/a (the equal-areas condition for returning to x = 0)." },
-        { "criterion": "C1: x_max", "points": 1, "description": "x_max = (1.2)²/(2 × 0.40) = 1.8 m, with units." },
-        { "criterion": "C2: Return time", "points": 1, "description": "t = 2v₀/a = 6.0 s, with units." },
-        { "criterion": "D1: Claim", "points": 1, "description": "Indicates the claim is incorrect." },
-        { "criterion": "D2: Functional dependence", "points": 1, "description": "States that x_max is proportional to v₀² (from part A)." },
-        { "criterion": "D3: Conclusion", "points": 1, "description": "Concludes that doubling v₀ makes x_max four times as large, consistent with the expression." }
+        {
+          "criterion": "A1: Starting equation",
+          "points": 1,
+          "description": "Writes a kinematic equation from the reference sheet relating velocity, acceleration, and displacement, e.g., v² = v₀² + 2a(x − x₀)."
+        },
+        {
+          "criterion": "A2: Correct substitution",
+          "points": 1,
+          "description": "Substitutes v = 0 at the turnaround and uses −a for the acceleration (or equivalent sign handling)."
+        },
+        {
+          "criterion": "A3: Correct expression",
+          "points": 1,
+          "description": "x_max = v₀²/(2a)."
+        },
+        {
+          "criterion": "B1: Shape",
+          "points": 1,
+          "description": "Straight line with constant negative slope starting at +v₀ at t = 0 and crossing zero at t = v₀/a."
+        },
+        {
+          "criterion": "B2: Endpoint",
+          "points": 1,
+          "description": "Line ends at v = −v₀ at t = 2v₀/a (the equal-areas condition for returning to x = 0)."
+        },
+        {
+          "criterion": "C1: x_max",
+          "points": 1,
+          "description": "x_max = (1.2)²/(2 × 0.40) = 1.8 m, with units."
+        },
+        {
+          "criterion": "C2: Return time",
+          "points": 1,
+          "description": "t = 2v₀/a = 6.0 s, with units."
+        },
+        {
+          "criterion": "D1: Claim",
+          "points": 1,
+          "description": "Indicates the claim is incorrect."
+        },
+        {
+          "criterion": "D2: Functional dependence",
+          "points": 1,
+          "description": "States that x_max is proportional to v₀² (from part A)."
+        },
+        {
+          "criterion": "D3: Conclusion",
+          "points": 1,
+          "description": "Concludes that doubling v₀ makes x_max four times as large, consistent with the expression."
+        }
       ],
       "sampleResponse": "**A.** v² = v₀² + 2a(x − x₀). At the turnaround v = 0, x₀ = 0, and the acceleration is −a: 0 = v₀² − 2a·x_max, so **x_max = v₀²/(2a)**.\n\n**B.** The graph is a single straight line with negative slope −a. It starts at v = +v₀ at t = 0, crosses v = 0 at t = v₀/a (the turnaround), and continues to v = −v₀ at t = 2v₀/a, when the cart is back at x = 0 (the positive area before the crossing equals the negative area after it).\n\n**C.** x_max = (1.2 m/s)²/(2 × 0.40 m/s²) = **1.8 m**. Return time t = 2v₀/a = 2(1.2)/0.40 = **6.0 s**.\n\n**D.** The claim is incorrect. From part A, x_max = v₀²/(2a), so x_max is proportional to the square of the initial speed when a is unchanged. Doubling v₀ multiplies x_max by 2² = 4, so the cart goes four times as far, not twice as far."
     }

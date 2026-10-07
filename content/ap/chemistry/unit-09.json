@@ -108,7 +108,7 @@
         },
         {
           "id": "B",
-          "text": "2H₂(g) + O₂(g) → 2H₂O(l)"
+          "text": "NaCl(s) → Na⁺(aq) + Cl⁻(aq)"
         },
         {
           "id": "C",
@@ -116,10 +116,10 @@
         },
         {
           "id": "D",
-          "text": "NaCl(s) → Na⁺(aq) + Cl⁻(aq)"
+          "text": "2H₂(g) + O₂(g) → 2H₂O(l)"
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Three moles of gas become liquid: matter becomes far less dispersed.",
       "distractors": {}
     },
@@ -164,7 +164,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "at all temperatures"
+          "text": "only at high temperatures"
         },
         {
           "id": "B",
@@ -172,14 +172,14 @@
         },
         {
           "id": "C",
-          "text": "only at high temperatures"
+          "text": "at all temperatures"
         },
         {
           "id": "D",
           "text": "only at low temperatures"
         }
       ],
-      "answer": "C",
+      "answer": "A",
       "explanation": "ΔG = ΔH − TΔS becomes negative when TΔS > ΔH, which requires large T.",
       "distractors": {}
     },
@@ -192,11 +192,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "through the salt bridge from cathode to anode"
+          "text": "through the external wire from anode to cathode"
         },
         {
           "id": "B",
-          "text": "through the external wire from anode to cathode"
+          "text": "through the salt bridge from cathode to anode"
         },
         {
           "id": "C",
@@ -207,7 +207,7 @@
           "text": "through the solution from anode to cathode"
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Oxidation at the anode releases electrons that travel through the wire to the cathode. Ions, not electrons, move through the salt bridge.",
       "distractors": {}
     },
@@ -220,7 +220,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "ΔG°(298 K) ≈ −33 kJ/mol; the reaction is no longer favored above about 460 K."
+          "text": "ΔG°(298 K) ≈ −59,000 kJ/mol; favored at all temperatures."
         },
         {
           "id": "B",
@@ -228,18 +228,18 @@
         },
         {
           "id": "C",
-          "text": "ΔG°(298 K) ≈ −59,000 kJ/mol; favored at all temperatures."
+          "text": "ΔG°(298 K) ≈ −33 kJ/mol; the reaction is no longer favored above about 460 K."
         },
         {
           "id": "D",
           "text": "ΔG°(298 K) ≈ −151 kJ/mol; favored at all temperatures."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "ΔG° = −92 − 298(−0.199) = −32.7 kJ/mol. Crossover T = 92/0.199 ≈ 462 K; above that, ΔG° > 0.",
       "distractors": {
-        "C": "Uses J for ΔS without converting.",
-        "D": "Adds TΔS with the wrong sign."
+        "D": "Adds TΔS with the wrong sign.",
+        "A": "Uses J for ΔS without converting."
       }
     },
     {
@@ -259,14 +259,14 @@
         },
         {
           "id": "C",
-          "text": "10"
+          "text": "1.0 × 10⁵"
         },
         {
           "id": "D",
-          "text": "1.0 × 10⁵"
+          "text": "10"
         }
       ],
-      "answer": "C",
+      "answer": "D",
       "explanation": "K = e^(−ΔG°/RT) = e^(5700/(8.314 × 298)) = e^2.30 ≈ 10.",
       "distractors": {
         "A": "Sign error in the exponent."
@@ -281,7 +281,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "The reaction has a very large activation energy, so its rate is negligible."
+          "text": "The reaction is at equilibrium."
         },
         {
           "id": "B",
@@ -289,14 +289,14 @@
         },
         {
           "id": "C",
-          "text": "The reaction is at equilibrium."
+          "text": "The reaction has a very large activation energy, so its rate is negligible."
         },
         {
           "id": "D",
           "text": "Graphite is less stable than diamond."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Thermodynamic favorability says nothing about rate; strong covalent networks must be broken.",
       "distractors": {}
     },
@@ -343,7 +343,7 @@
         },
         {
           "id": "B",
-          "text": "−212 kJ/mol"
+          "text": "−2.12 × 10⁵ kJ/mol"
         },
         {
           "id": "C",
@@ -351,14 +351,14 @@
         },
         {
           "id": "D",
-          "text": "−2.12 × 10⁵ kJ/mol"
+          "text": "−212 kJ/mol"
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "ΔG° = −nFE° = −(2)(96,485)(1.10) = −2.12 × 10⁵ J = −212 kJ/mol.",
       "distractors": {
         "A": "n = 1.",
-        "D": "Forgets to convert J to kJ."
+        "B": "Forgets to convert J to kJ."
       }
     },
     {
@@ -370,11 +370,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "It increases, because Q decreases."
+          "text": "It decreases, because Q increases."
         },
         {
           "id": "B",
-          "text": "It decreases, because Q increases."
+          "text": "It increases, because Q decreases."
         },
         {
           "id": "C",
@@ -385,7 +385,7 @@
           "text": "It becomes negative immediately."
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Q = [Zn²⁺]/[Cu²⁺] increases, so E = E° − (RT/nF) ln Q decreases.",
       "distractors": {
         "C": "E° is constant, but E is not."
@@ -405,22 +405,22 @@
         },
         {
           "id": "B",
-          "text": "E° = 1.03 V; ΔG° = −199 kJ/mol"
+          "text": "E° = 1.03 V; ΔG° = −99 kJ/mol"
         },
         {
           "id": "C",
-          "text": "E° = 1.03 V; ΔG° = −99 kJ/mol"
+          "text": "E° = 1.03 V; ΔG° = −199 kJ/mol"
         },
         {
           "id": "D",
           "text": "E° = 0.57 V; ΔG° = −110 kJ/mol"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "E° = 0.80 − (−0.23) = 1.03 V (don't double Ag's potential). n = 2: ΔG° = −2(96,485)(1.03) = −199 kJ/mol.",
       "distractors": {
         "A": "Doubles E° for Ag.",
-        "C": "Uses n = 1."
+        "B": "Uses n = 1."
       }
     },
     {
@@ -433,7 +433,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "A → C is favored with ΔG° = −15 kJ/mol; reaction 2 drives reaction 1 by consuming B."
+          "text": "Coupling changes ΔG° of reaction 1 to a negative value."
         },
         {
           "id": "B",
@@ -445,13 +445,13 @@
         },
         {
           "id": "D",
-          "text": "Coupling changes ΔG° of reaction 1 to a negative value."
+          "text": "A → C is favored with ΔG° = −15 kJ/mol; reaction 2 drives reaction 1 by consuming B."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "ΔG values add: +20 + (−35) = −15 kJ/mol. Removing B keeps Q for reaction 1 low.",
       "distractors": {
-        "D": "Each reaction's ΔG° is unchanged; the overall sum is negative."
+        "A": "Each reaction's ΔG° is unchanged; the overall sum is negative."
       }
     },
     {
@@ -493,7 +493,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Q = K and ΔG = 0."
+          "text": "All reactants have been consumed."
         },
         {
           "id": "B",
@@ -501,18 +501,18 @@
         },
         {
           "id": "C",
-          "text": "All reactants have been consumed."
+          "text": "Q = K and ΔG = 0."
         },
         {
           "id": "D",
           "text": "Q > K and the reaction will reverse spontaneously."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The cell has reached equilibrium; E (not E°) and ΔG (not ΔG°) equal zero.",
       "distractors": {
         "B": "E° is a fixed property of the reaction.",
-        "C": "Equilibrium mixtures still contain reactants."
+        "A": "Equilibrium mixtures still contain reactants."
       }
     },
     {

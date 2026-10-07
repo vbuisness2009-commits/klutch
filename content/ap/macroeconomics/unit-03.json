@@ -45,225 +45,564 @@
     "cramSheet": "**AD shifters:** C (confidence, wealth, taxes) · I (rates, expectations) · G · Xn (foreign income, exchange rates)\n\n**Multipliers:** spending 1/MPS · tax −MPC/MPS · balanced budget 1\n\n**SRAS shifters:** wages, energy, productivity, supply shocks\n\n**LRAS:** vertical at Y_f · shifts with resources, tech\n\n**Gaps:** recessionary (Y < Y_f) · inflationary (Y > Y_f)\n\n**Self-correct:** wages adjust → SRAS shifts → back to Y_f\n\n**Fiscal:** expansionary ↑G ↓T · contractionary ↓G ↑T · lags · automatic stabilizers"
   },
   "vocab": [
-    { "term": "Aggregate demand", "definition": "Total quantity of goods and services demanded in an economy at each price level." },
-    { "term": "Marginal propensity to consume (MPC)", "definition": "The fraction of additional disposable income spent on consumption." },
-    { "term": "Spending multiplier", "definition": "1/MPS; the factor by which a change in spending changes real GDP." },
-    { "term": "Tax multiplier", "definition": "−MPC/MPS; the factor by which a change in taxes changes real GDP." },
-    { "term": "Short-run aggregate supply", "definition": "The upward-sloping relationship between price level and output when some input prices are sticky." },
-    { "term": "Long-run aggregate supply", "definition": "A vertical curve at potential output, independent of the price level." },
-    { "term": "Recessionary gap", "definition": "When equilibrium real output is below full-employment output." },
-    { "term": "Inflationary gap", "definition": "When equilibrium real output is above full-employment output." },
-    { "term": "Stagflation", "definition": "Simultaneous inflation and falling output, typically from a negative supply shock." },
-    { "term": "Expansionary fiscal policy", "definition": "Increasing government spending or cutting taxes to raise AD." },
-    { "term": "Automatic stabilizers", "definition": "Taxes and transfers that automatically change with the business cycle to moderate it." },
-    { "term": "Supply shock", "definition": "An unexpected event that shifts SRAS, such as a sudden change in oil prices." }
+    {
+      "term": "Aggregate demand",
+      "definition": "Total quantity of goods and services demanded in an economy at each price level."
+    },
+    {
+      "term": "Marginal propensity to consume (MPC)",
+      "definition": "The fraction of additional disposable income spent on consumption."
+    },
+    {
+      "term": "Spending multiplier",
+      "definition": "1/MPS; the factor by which a change in spending changes real GDP."
+    },
+    {
+      "term": "Tax multiplier",
+      "definition": "−MPC/MPS; the factor by which a change in taxes changes real GDP."
+    },
+    {
+      "term": "Short-run aggregate supply",
+      "definition": "The upward-sloping relationship between price level and output when some input prices are sticky."
+    },
+    {
+      "term": "Long-run aggregate supply",
+      "definition": "A vertical curve at potential output, independent of the price level."
+    },
+    {
+      "term": "Recessionary gap",
+      "definition": "When equilibrium real output is below full-employment output."
+    },
+    {
+      "term": "Inflationary gap",
+      "definition": "When equilibrium real output is above full-employment output."
+    },
+    {
+      "term": "Stagflation",
+      "definition": "Simultaneous inflation and falling output, typically from a negative supply shock."
+    },
+    {
+      "term": "Expansionary fiscal policy",
+      "definition": "Increasing government spending or cutting taxes to raise AD."
+    },
+    {
+      "term": "Automatic stabilizers",
+      "definition": "Taxes and transfers that automatically change with the business cycle to moderate it."
+    },
+    {
+      "term": "Supply shock",
+      "definition": "An unexpected event that shifts SRAS, such as a sudden change in oil prices."
+    }
   ],
   "practice": [
     {
-      "id": "u3-q01", "tier": "Intro", "type": "mcq", "topic": "3.2 Multipliers", "skill": "3. Manipulation",
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.2 Multipliers",
+      "skill": "3. Manipulation",
       "stem": "If the MPC is 0.8, what is the spending multiplier?",
       "choices": [
-        { "id": "A", "text": "0.2" },
-        { "id": "B", "text": "1.25" },
-        { "id": "C", "text": "4" },
-        { "id": "D", "text": "5" }
+        {
+          "id": "A",
+          "text": "0.2"
+        },
+        {
+          "id": "B",
+          "text": "1.25"
+        },
+        {
+          "id": "C",
+          "text": "4"
+        },
+        {
+          "id": "D",
+          "text": "5"
+        }
       ],
       "answer": "D",
       "explanation": "1/MPS = 1/0.2 = 5.",
-      "distractors": { "C": "Tax multiplier magnitude." }
+      "distractors": {
+        "C": "Tax multiplier magnitude."
+      }
     },
     {
-      "id": "u3-q02", "tier": "Intro", "type": "mcq", "topic": "3.6 Changes in the AD-AS Model in the Short Run", "skill": "2. Interpretation",
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.6 Changes in the AD-AS Model in the Short Run",
+      "skill": "2. Interpretation",
       "stem": "A sharp increase in oil prices would most likely cause",
       "choices": [
-        { "id": "A", "text": "AD to increase" },
-        { "id": "B", "text": "SRAS to decrease, raising the price level and lowering real output" },
-        { "id": "C", "text": "LRAS to increase" },
-        { "id": "D", "text": "SRAS to increase" }
+        {
+          "id": "A",
+          "text": "AD to increase"
+        },
+        {
+          "id": "B",
+          "text": "SRAS to decrease, raising the price level and lowering real output"
+        },
+        {
+          "id": "C",
+          "text": "LRAS to increase"
+        },
+        {
+          "id": "D",
+          "text": "SRAS to increase"
+        }
       ],
       "answer": "B",
       "explanation": "Higher input costs shift SRAS left: stagflation.",
       "distractors": {}
     },
     {
-      "id": "u3-q03", "tier": "Intro", "type": "mcq", "topic": "3.8 Fiscal Policy", "skill": "1. Principles and Models",
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.8 Fiscal Policy",
+      "skill": "1. Principles and Models",
       "stem": "Which is an example of expansionary fiscal policy?",
       "choices": [
-        { "id": "A", "text": "The central bank lowers interest rates." },
-        { "id": "B", "text": "Congress cuts personal income taxes." },
-        { "id": "C", "text": "Congress reduces spending on highways." },
-        { "id": "D", "text": "The central bank sells bonds." }
-      ],
-      "answer": "B",
-      "explanation": "Tax cuts increase disposable income and consumption, raising AD.",
-      "distractors": { "A": "Monetary policy." }
-    },
-    {
-      "id": "u3-q04", "tier": "Intro", "type": "mcq", "topic": "3.1 Aggregate Demand", "skill": "1. Principles and Models",
-      "stem": "Which explains why the aggregate demand curve slopes downward?",
-      "choices": [
-        { "id": "A", "text": "As the price level falls, real wealth increases, so consumption rises." },
-        { "id": "B", "text": "As incomes rise, people buy more." },
-        { "id": "C", "text": "Producers supply more at higher prices." },
-        { "id": "D", "text": "Government spending increases as prices fall." }
+        {
+          "id": "A",
+          "text": "Congress cuts personal income taxes."
+        },
+        {
+          "id": "B",
+          "text": "The central bank lowers interest rates."
+        },
+        {
+          "id": "C",
+          "text": "Congress reduces spending on highways."
+        },
+        {
+          "id": "D",
+          "text": "The central bank sells bonds."
+        }
       ],
       "answer": "A",
+      "explanation": "Tax cuts increase disposable income and consumption, raising AD.",
+      "distractors": {
+        "B": "Monetary policy."
+      }
+    },
+    {
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.1 Aggregate Demand",
+      "skill": "1. Principles and Models",
+      "stem": "Which explains why the aggregate demand curve slopes downward?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Producers supply more at higher prices."
+        },
+        {
+          "id": "B",
+          "text": "As incomes rise, people buy more."
+        },
+        {
+          "id": "C",
+          "text": "As the price level falls, real wealth increases, so consumption rises."
+        },
+        {
+          "id": "D",
+          "text": "Government spending increases as prices fall."
+        }
+      ],
+      "answer": "C",
       "explanation": "The real-wealth effect is one of the three reasons for the slope.",
       "distractors": {}
     },
     {
-      "id": "u3-q05", "tier": "Exam level", "type": "mcq", "topic": "3.2 Multipliers", "skill": "3. Manipulation",
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.2 Multipliers",
+      "skill": "3. Manipulation",
       "stem": "The MPC is 0.75. If the government cuts taxes by $40 billion, what is the maximum change in real GDP?",
       "choices": [
-        { "id": "A", "text": "Increase of $120 billion" },
-        { "id": "B", "text": "Increase of $160 billion" },
-        { "id": "C", "text": "Increase of $30 billion" },
-        { "id": "D", "text": "Decrease of $120 billion" }
+        {
+          "id": "A",
+          "text": "Increase of $120 billion"
+        },
+        {
+          "id": "B",
+          "text": "Increase of $160 billion"
+        },
+        {
+          "id": "C",
+          "text": "Increase of $30 billion"
+        },
+        {
+          "id": "D",
+          "text": "Decrease of $120 billion"
+        }
       ],
       "answer": "A",
       "explanation": "Tax multiplier = 0.75/0.25 = 3; a tax cut raises GDP by 3 × 40 = $120 billion.",
-      "distractors": { "B": "Uses the spending multiplier (4)." }
+      "distractors": {
+        "B": "Uses the spending multiplier (4)."
+      }
     },
     {
-      "id": "u3-q06", "tier": "Exam level", "type": "mcq", "topic": "3.7 Long-Run Self-Adjustment", "skill": "2. Interpretation",
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.7 Long-Run Self-Adjustment",
+      "skill": "2. Interpretation",
       "stem": "An economy is in a recessionary gap and no policy action is taken. In the long run, which adjustment occurs?",
       "choices": [
-        { "id": "A", "text": "Nominal wages fall, SRAS shifts right, and output returns to full employment at a lower price level." },
-        { "id": "B", "text": "AD shifts right automatically." },
-        { "id": "C", "text": "LRAS shifts left to meet output." },
-        { "id": "D", "text": "Nominal wages rise, SRAS shifts left." }
+        {
+          "id": "A",
+          "text": "AD shifts right automatically."
+        },
+        {
+          "id": "B",
+          "text": "Nominal wages fall, SRAS shifts right, and output returns to full employment at a lower price level."
+        },
+        {
+          "id": "C",
+          "text": "LRAS shifts left to meet output."
+        },
+        {
+          "id": "D",
+          "text": "Nominal wages rise, SRAS shifts left."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "High unemployment eventually pushes wages down, lowering costs.",
       "distractors": {}
     },
     {
-      "id": "u3-q07", "tier": "Exam level", "type": "mcq", "topic": "3.8 Fiscal Policy", "skill": "3. Manipulation",
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.8 Fiscal Policy",
+      "skill": "3. Manipulation",
       "stem": "Real GDP is $200 billion below full employment and the MPC is 0.75. What increase in government spending would close the gap, holding other factors constant?",
       "choices": [
-        { "id": "A", "text": "$25 billion" },
-        { "id": "B", "text": "$50 billion" },
-        { "id": "C", "text": "$66.7 billion" },
-        { "id": "D", "text": "$200 billion" }
+        {
+          "id": "A",
+          "text": "$25 billion"
+        },
+        {
+          "id": "B",
+          "text": "$50 billion"
+        },
+        {
+          "id": "C",
+          "text": "$66.7 billion"
+        },
+        {
+          "id": "D",
+          "text": "$200 billion"
+        }
       ],
       "answer": "B",
       "explanation": "Spending multiplier = 4; 200/4 = $50 billion.",
-      "distractors": { "C": "Required tax cut (200/3)." }
+      "distractors": {
+        "C": "Required tax cut (200/3)."
+      }
     },
     {
-      "id": "u3-q08", "tier": "Exam level", "type": "mcq", "topic": "3.6 Changes in the AD-AS Model in the Short Run", "skill": "2. Interpretation",
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.6 Changes in the AD-AS Model in the Short Run",
+      "skill": "2. Interpretation",
       "stem": "Rising incomes in a country's major trading partners would most likely",
       "choices": [
-        { "id": "A", "text": "increase AD through higher net exports, raising real output and the price level" },
-        { "id": "B", "text": "decrease SRAS" },
-        { "id": "C", "text": "decrease AD" },
-        { "id": "D", "text": "shift LRAS left" }
+        {
+          "id": "A",
+          "text": "decrease AD"
+        },
+        {
+          "id": "B",
+          "text": "decrease SRAS"
+        },
+        {
+          "id": "C",
+          "text": "increase AD through higher net exports, raising real output and the price level"
+        },
+        {
+          "id": "D",
+          "text": "shift LRAS left"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Foreigners buy more exports.",
       "distractors": {}
     },
     {
-      "id": "u3-q09", "tier": "Exam level", "type": "mcq", "topic": "3.9 Automatic Stabilizers", "skill": "1. Principles and Models",
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.9 Automatic Stabilizers",
+      "skill": "1. Principles and Models",
       "stem": "Which is an automatic stabilizer?",
       "choices": [
-        { "id": "A", "text": "A new infrastructure bill passed during a recession" },
-        { "id": "B", "text": "Unemployment insurance payments that rise when layoffs increase" },
-        { "id": "C", "text": "The central bank's purchase of bonds" },
-        { "id": "D", "text": "A one-time tax rebate" }
+        {
+          "id": "A",
+          "text": "A new infrastructure bill passed during a recession"
+        },
+        {
+          "id": "B",
+          "text": "A one-time tax rebate"
+        },
+        {
+          "id": "C",
+          "text": "The central bank's purchase of bonds"
+        },
+        {
+          "id": "D",
+          "text": "Unemployment insurance payments that rise when layoffs increase"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "These payments rise automatically during downturns without new legislation.",
-      "distractors": { "A": "Discretionary fiscal policy." }
+      "distractors": {
+        "A": "Discretionary fiscal policy."
+      }
     },
     {
-      "id": "u3-q10", "tier": "Exam level", "type": "mcq", "topic": "3.5 Equilibrium in the AD-AS Model", "skill": "2. Interpretation",
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.5 Equilibrium in the AD-AS Model",
+      "skill": "2. Interpretation",
       "stem": "Short-run equilibrium output is above full-employment output. Which is true?",
       "choices": [
-        { "id": "A", "text": "Unemployment is above the natural rate." },
-        { "id": "B", "text": "The economy has an inflationary gap and unemployment is below the natural rate." },
-        { "id": "C", "text": "The economy is in a recession." },
-        { "id": "D", "text": "LRAS has shifted right." }
+        {
+          "id": "A",
+          "text": "Unemployment is above the natural rate."
+        },
+        {
+          "id": "B",
+          "text": "The economy is in a recession."
+        },
+        {
+          "id": "C",
+          "text": "The economy has an inflationary gap and unemployment is below the natural rate."
+        },
+        {
+          "id": "D",
+          "text": "LRAS has shifted right."
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Producing beyond potential means unusually low unemployment and upward price pressure.",
       "distractors": {}
     },
     {
-      "id": "u3-q11", "tier": "Hardest", "type": "mcq", "topic": "3.2 Multipliers", "skill": "3. Manipulation",
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.2 Multipliers",
+      "skill": "3. Manipulation",
       "stem": "The government increases spending by $30 billion and raises taxes by $30 billion. If the MPC is 0.9, what is the maximum change in real GDP?",
       "choices": [
-        { "id": "A", "text": "$0" },
-        { "id": "B", "text": "Increase of $30 billion" },
-        { "id": "C", "text": "Increase of $300 billion" },
-        { "id": "D", "text": "Increase of $270 billion" }
-      ],
-      "answer": "B",
-      "explanation": "+30 × 10 = +300; −30 × 9 = −270. Net +30 (balanced-budget multiplier = 1).",
-      "distractors": { "A": "Assumes the effects cancel." }
-    },
-    {
-      "id": "u3-q12", "tier": "Hardest", "type": "mcq", "topic": "3.6 Changes in the AD-AS Model in the Short Run", "skill": "2. Interpretation",
-      "stem": "Simultaneously, consumer confidence falls sharply and a major technological advance lowers production costs. What is the certain short-run effect?",
-      "choices": [
-        { "id": "A", "text": "The price level decreases; real output is indeterminate." },
-        { "id": "B", "text": "Real output decreases; price level is indeterminate." },
-        { "id": "C", "text": "Both price level and output increase." },
-        { "id": "D", "text": "Both decrease." }
+        {
+          "id": "A",
+          "text": "Increase of $30 billion"
+        },
+        {
+          "id": "B",
+          "text": "$0"
+        },
+        {
+          "id": "C",
+          "text": "Increase of $300 billion"
+        },
+        {
+          "id": "D",
+          "text": "Increase of $270 billion"
+        }
       ],
       "answer": "A",
+      "explanation": "+30 × 10 = +300; −30 × 9 = −270. Net +30 (balanced-budget multiplier = 1).",
+      "distractors": {
+        "B": "Assumes the effects cancel."
+      }
+    },
+    {
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.6 Changes in the AD-AS Model in the Short Run",
+      "skill": "2. Interpretation",
+      "stem": "Simultaneously, consumer confidence falls sharply and a major technological advance lowers production costs. What is the certain short-run effect?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Both decrease."
+        },
+        {
+          "id": "B",
+          "text": "Real output decreases; price level is indeterminate."
+        },
+        {
+          "id": "C",
+          "text": "Both price level and output increase."
+        },
+        {
+          "id": "D",
+          "text": "The price level decreases; real output is indeterminate."
+        }
+      ],
+      "answer": "D",
       "explanation": "AD decreases (P ↓, Y ↓) and SRAS increases (P ↓, Y ↑): price level falls for certain.",
       "distractors": {}
     },
     {
-      "id": "u3-q13", "tier": "Hardest", "type": "mcq", "topic": "3.4 Long-Run Aggregate Supply", "skill": "2. Interpretation",
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.4 Long-Run Aggregate Supply",
+      "skill": "2. Interpretation",
       "stem": "Which event would shift both SRAS and LRAS to the right?",
       "choices": [
-        { "id": "A", "text": "A decrease in nominal wages" },
-        { "id": "B", "text": "An increase in the size and skills of the labor force" },
-        { "id": "C", "text": "An increase in government spending" },
-        { "id": "D", "text": "A temporary drop in oil prices" }
+        {
+          "id": "A",
+          "text": "A decrease in nominal wages"
+        },
+        {
+          "id": "B",
+          "text": "A temporary drop in oil prices"
+        },
+        {
+          "id": "C",
+          "text": "An increase in government spending"
+        },
+        {
+          "id": "D",
+          "text": "An increase in the size and skills of the labor force"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "More and better resources raise potential output and short-run capacity.",
-      "distractors": { "A": "Shifts only SRAS.", "D": "Temporary supply shock affects only SRAS." }
+      "distractors": {
+        "A": "Shifts only SRAS.",
+        "B": "Temporary supply shock affects only SRAS."
+      }
     },
     {
-      "id": "u3-q14", "tier": "Hardest", "type": "mcq", "topic": "3.8 Fiscal Policy", "skill": "2. Interpretation",
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.8 Fiscal Policy",
+      "skill": "2. Interpretation",
       "stem": "Why might discretionary fiscal policy enacted to fight a recession end up worsening inflation?",
       "choices": [
-        { "id": "A", "text": "Recognition, legislative, and implementation lags may cause the stimulus to take effect after the economy has already recovered." },
-        { "id": "B", "text": "Fiscal policy always shifts LRAS left." },
-        { "id": "C", "text": "Expansionary fiscal policy decreases AD." },
-        { "id": "D", "text": "Automatic stabilizers prevent all fiscal policy from working." }
+        {
+          "id": "A",
+          "text": "Expansionary fiscal policy decreases AD."
+        },
+        {
+          "id": "B",
+          "text": "Fiscal policy always shifts LRAS left."
+        },
+        {
+          "id": "C",
+          "text": "Recognition, legislative, and implementation lags may cause the stimulus to take effect after the economy has already recovered."
+        },
+        {
+          "id": "D",
+          "text": "Automatic stabilizers prevent all fiscal policy from working."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Delayed stimulus can push AD past full employment, opening an inflationary gap.",
       "distractors": {}
     },
     {
-      "id": "u3-frq1", "tier": "Exam level", "type": "frq", "topic": "3.5–3.8 AD-AS and Fiscal Policy", "frqType": "Long FRQ",
+      "id": "u3-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "3.5–3.8 AD-AS and Fiscal Policy",
+      "frqType": "Long FRQ",
       "prompt": "Assume the economy of Oriana is in short-run equilibrium with real output below full-employment output and the unemployment rate above the natural rate. The marginal propensity to consume is 0.8.",
       "parts": [
-        { "label": "a", "prompt": "Draw (describe) a correctly labeled AD-AS graph showing the current equilibrium, labeling equilibrium output Y₁, price level PL₁, and full-employment output Y_f.", "points": 3 },
-        { "label": "b", "prompt": "Identify one discretionary fiscal policy action that could move the economy to full employment.", "points": 1 },
-        { "label": "c", "prompt": "If the output gap is $400 billion, calculate the minimum change in government spending needed to close it. Show your work.", "points": 2 },
-        { "label": "d", "prompt": "Would the change in taxes needed to close the same gap be larger than, smaller than, or equal to the change in government spending? Explain.", "points": 2 },
-        { "label": "e", "prompt": "If no policy is taken, explain how the economy would return to full employment in the long run, and state what happens to the price level.", "points": 2 }
+        {
+          "label": "a",
+          "prompt": "Draw (describe) a correctly labeled AD-AS graph showing the current equilibrium, labeling equilibrium output Y₁, price level PL₁, and full-employment output Y_f.",
+          "points": 3
+        },
+        {
+          "label": "b",
+          "prompt": "Identify one discretionary fiscal policy action that could move the economy to full employment.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "If the output gap is $400 billion, calculate the minimum change in government spending needed to close it. Show your work.",
+          "points": 2
+        },
+        {
+          "label": "d",
+          "prompt": "Would the change in taxes needed to close the same gap be larger than, smaller than, or equal to the change in government spending? Explain.",
+          "points": 2
+        },
+        {
+          "label": "e",
+          "prompt": "If no policy is taken, explain how the economy would return to full employment in the long run, and state what happens to the price level.",
+          "points": 2
+        }
       ],
       "points": 10,
       "minutes": 20,
       "rubric": [
-        { "criterion": "a1: Axes and curves", "points": 1, "description": "Axes labeled price level and real GDP; downward-sloping AD and upward-sloping SRAS." },
-        { "criterion": "a2: LRAS", "points": 1, "description": "Vertical LRAS at Y_f." },
-        { "criterion": "a3: Equilibrium", "points": 1, "description": "AD-SRAS intersection at Y₁ to the left of Y_f, with PL₁ on the vertical axis." },
-        { "criterion": "b: Policy", "points": 1, "description": "Increase government spending, decrease taxes, or increase transfers." },
-        { "criterion": "c1: Multiplier", "points": 1, "description": "Spending multiplier = 1/(1 − 0.8) = 5." },
-        { "criterion": "c2: Answer", "points": 1, "description": "$400 billion ÷ 5 = $80 billion increase." },
-        { "criterion": "d1: Claim", "points": 1, "description": "Larger." },
-        { "criterion": "d2: Explanation", "points": 1, "description": "Tax multiplier (4) is smaller than spending multiplier (5) because part of a tax cut is saved; required tax cut = $100 billion." },
-        { "criterion": "e1: Mechanism", "points": 1, "description": "High unemployment causes nominal wages and input prices to fall, shifting SRAS to the right until output reaches Y_f." },
-        { "criterion": "e2: Price level", "points": 1, "description": "Price level decreases (below PL₁)." }
+        {
+          "criterion": "a1: Axes and curves",
+          "points": 1,
+          "description": "Axes labeled price level and real GDP; downward-sloping AD and upward-sloping SRAS."
+        },
+        {
+          "criterion": "a2: LRAS",
+          "points": 1,
+          "description": "Vertical LRAS at Y_f."
+        },
+        {
+          "criterion": "a3: Equilibrium",
+          "points": 1,
+          "description": "AD-SRAS intersection at Y₁ to the left of Y_f, with PL₁ on the vertical axis."
+        },
+        {
+          "criterion": "b: Policy",
+          "points": 1,
+          "description": "Increase government spending, decrease taxes, or increase transfers."
+        },
+        {
+          "criterion": "c1: Multiplier",
+          "points": 1,
+          "description": "Spending multiplier = 1/(1 − 0.8) = 5."
+        },
+        {
+          "criterion": "c2: Answer",
+          "points": 1,
+          "description": "$400 billion ÷ 5 = $80 billion increase."
+        },
+        {
+          "criterion": "d1: Claim",
+          "points": 1,
+          "description": "Larger."
+        },
+        {
+          "criterion": "d2: Explanation",
+          "points": 1,
+          "description": "Tax multiplier (4) is smaller than spending multiplier (5) because part of a tax cut is saved; required tax cut = $100 billion."
+        },
+        {
+          "criterion": "e1: Mechanism",
+          "points": 1,
+          "description": "High unemployment causes nominal wages and input prices to fall, shifting SRAS to the right until output reaches Y_f."
+        },
+        {
+          "criterion": "e2: Price level",
+          "points": 1,
+          "description": "Price level decreases (below PL₁)."
+        }
       ],
       "sampleResponse": "(a) The graph has 'Price Level' on the vertical axis and 'Real GDP' on the horizontal axis. A downward-sloping AD curve intersects an upward-sloping SRAS curve at price level PL₁ and output Y₁. A vertical LRAS curve stands at Y_f, to the right of Y₁, showing a recessionary gap.\n\n(b) Increase government spending.\n\n(c) Spending multiplier = 1/(1 − 0.8) = 1/0.2 = 5. Required increase in government spending = $400 billion ÷ 5 = $80 billion.\n\n(d) Larger. The tax multiplier is MPC/MPS = 0.8/0.2 = 4, smaller than the spending multiplier of 5, because households save part of any tax cut. A $100 billion tax cut would be needed, more than the $80 billion spending increase.\n\n(e) With unemployment above the natural rate, workers accept lower nominal wages and other input prices fall over time. Lower production costs shift SRAS to the right until it intersects AD at full-employment output Y_f. The price level falls below PL₁."
     }

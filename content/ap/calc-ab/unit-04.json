@@ -51,225 +51,578 @@
     "cramSheet": "**Interpretation template:** At t = __, [quantity] is [increasing/decreasing] at __ [units per time].\n\n**Motion:** v = x′ · a = v′ · speed = |v| · right if v > 0 · turn where v changes sign\n\n**Speed up:** v, a same sign · **Slow down:** opposite signs\n\n**Related rates:** picture → equation → d/dt → substitute → solve\n\n**Linearization:** f(x) ≈ f(a) + f′(a)(x − a) · f″ > 0 → under · f″ < 0 → over\n\n**L'Hôpital:** 0/0 or ∞/∞ → lim f′/g′ (state the form!)"
   },
   "vocab": [
-    { "term": "Rate of change in context", "definition": "A derivative interpreted with units: (units of output) per (unit of input) at a specific input value." },
-    { "term": "Position", "definition": "x(t), the location of a particle on a line at time t." },
-    { "term": "Velocity", "definition": "v(t) = x′(t), the rate of change of position; its sign gives direction." },
-    { "term": "Acceleration", "definition": "a(t) = v′(t), the rate of change of velocity." },
-    { "term": "Speed", "definition": "|v(t)|, the magnitude of velocity." },
-    { "term": "At rest", "definition": "A particle is at rest when v(t) = 0." },
-    { "term": "Speeding up", "definition": "Speed is increasing; happens when velocity and acceleration have the same sign." },
-    { "term": "Displacement", "definition": "Net change in position, x(b) − x(a)." },
-    { "term": "Total distance", "definition": "Sum of the absolute changes in position over each interval of constant direction." },
-    { "term": "Related rates", "definition": "Finding one rate of change from others using an equation that links the quantities, differentiated with respect to time." },
-    { "term": "Local linear approximation", "definition": "Using the tangent line y = f(a) + f′(a)(x − a) to estimate f near a." },
-    { "term": "Overestimate / underestimate", "definition": "A tangent-line estimate is too high when f is concave down and too low when f is concave up." },
-    { "term": "Indeterminate form", "definition": "A limit of type 0/0 or ∞/∞ whose value isn't determined by the form alone." },
-    { "term": "L'Hôpital's rule", "definition": "For 0/0 or ∞/∞ forms, lim f/g = lim f′/g′ when the latter exists." }
+    {
+      "term": "Rate of change in context",
+      "definition": "A derivative interpreted with units: (units of output) per (unit of input) at a specific input value."
+    },
+    {
+      "term": "Position",
+      "definition": "x(t), the location of a particle on a line at time t."
+    },
+    {
+      "term": "Velocity",
+      "definition": "v(t) = x′(t), the rate of change of position; its sign gives direction."
+    },
+    {
+      "term": "Acceleration",
+      "definition": "a(t) = v′(t), the rate of change of velocity."
+    },
+    {
+      "term": "Speed",
+      "definition": "|v(t)|, the magnitude of velocity."
+    },
+    {
+      "term": "At rest",
+      "definition": "A particle is at rest when v(t) = 0."
+    },
+    {
+      "term": "Speeding up",
+      "definition": "Speed is increasing; happens when velocity and acceleration have the same sign."
+    },
+    {
+      "term": "Displacement",
+      "definition": "Net change in position, x(b) − x(a)."
+    },
+    {
+      "term": "Total distance",
+      "definition": "Sum of the absolute changes in position over each interval of constant direction."
+    },
+    {
+      "term": "Related rates",
+      "definition": "Finding one rate of change from others using an equation that links the quantities, differentiated with respect to time."
+    },
+    {
+      "term": "Local linear approximation",
+      "definition": "Using the tangent line y = f(a) + f′(a)(x − a) to estimate f near a."
+    },
+    {
+      "term": "Overestimate / underestimate",
+      "definition": "A tangent-line estimate is too high when f is concave down and too low when f is concave up."
+    },
+    {
+      "term": "Indeterminate form",
+      "definition": "A limit of type 0/0 or ∞/∞ whose value isn't determined by the form alone."
+    },
+    {
+      "term": "L'Hôpital's rule",
+      "definition": "For 0/0 or ∞/∞ forms, lim f/g = lim f′/g′ when the latter exists."
+    }
   ],
   "practice": [
     {
-      "id": "u4-q01", "tier": "Intro", "type": "mcq", "topic": "4.2 Straight-Line Motion",
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.2 Straight-Line Motion",
       "stem": "A particle's position is s(t) = t² − 4t. What is its velocity at t = 3?",
       "choices": [
-        { "id": "A", "text": "2" },
-        { "id": "B", "text": "−3" },
-        { "id": "C", "text": "6" },
-        { "id": "D", "text": "−2" }
-      ],
-      "answer": "A",
-      "explanation": "v(t) = s′(t) = 2t − 4, so v(3) = 2.",
-      "distractors": { "B": "That is the position s(3).", "C": "Computed only 2t." }
-    },
-    {
-      "id": "u4-q02", "tier": "Intro", "type": "mcq", "topic": "4.7 L'Hôpital's Rule",
-      "stem": "lim(x→0) sin(3x)/x =",
-      "choices": [
-        { "id": "A", "text": "0" },
-        { "id": "B", "text": "1" },
-        { "id": "C", "text": "3" },
-        { "id": "D", "text": "1/3" }
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "−3"
+        },
+        {
+          "id": "C",
+          "text": "2"
+        },
+        {
+          "id": "D",
+          "text": "−2"
+        }
       ],
       "answer": "C",
-      "explanation": "The form is 0/0. L'Hôpital: 3cos(3x)/1 → 3 as x → 0.",
-      "distractors": { "B": "Used the standard limit sin x/x = 1 without the 3.", "D": "Inverted the ratio." }
+      "explanation": "v(t) = s′(t) = 2t − 4, so v(3) = 2.",
+      "distractors": {
+        "B": "That is the position s(3).",
+        "A": "Computed only 2t."
+      }
     },
     {
-      "id": "u4-q03", "tier": "Intro", "type": "mcq", "topic": "4.1 Interpreting the Meaning of the Derivative in Context",
-      "stem": "V(t) is the volume of water in a tank, in gallons, t minutes after a valve opens. Which is the best interpretation of V′(5) = −2?",
+      "id": "u4-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.7 L'Hôpital's Rule",
+      "stem": "lim(x→0) sin(3x)/x =",
       "choices": [
-        { "id": "A", "text": "At t = 5 minutes, the volume of water is decreasing at a rate of 2 gallons per minute." },
-        { "id": "B", "text": "After 5 minutes, the tank has lost 2 gallons." },
-        { "id": "C", "text": "At t = 5 minutes, the tank holds −2 gallons." },
-        { "id": "D", "text": "The volume decreases by 2 gallons every 5 minutes." }
+        {
+          "id": "A",
+          "text": "3"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "0"
+        },
+        {
+          "id": "D",
+          "text": "1/3"
+        }
       ],
       "answer": "A",
-      "explanation": "V′(5) is an instantaneous rate at t = 5, in gallons per minute; negative means decreasing.",
-      "distractors": { "B": "Describes a total change, not a rate.", "C": "Confuses V′ with V.", "D": "Treats the rate as an average over 5 minutes." }
+      "explanation": "The form is 0/0. L'Hôpital: 3cos(3x)/1 → 3 as x → 0.",
+      "distractors": {
+        "B": "Used the standard limit sin x/x = 1 without the 3.",
+        "D": "Inverted the ratio."
+      }
     },
     {
-      "id": "u4-q04", "tier": "Intro", "type": "mcq", "topic": "4.2 Straight-Line Motion",
+      "id": "u4-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.1 Interpreting the Meaning of the Derivative in Context",
+      "stem": "V(t) is the volume of water in a tank, in gallons, t minutes after a valve opens. Which is the best interpretation of V′(5) = −2?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "After 5 minutes, the tank has lost 2 gallons."
+        },
+        {
+          "id": "B",
+          "text": "At t = 5 minutes, the volume of water is decreasing at a rate of 2 gallons per minute."
+        },
+        {
+          "id": "C",
+          "text": "At t = 5 minutes, the tank holds −2 gallons."
+        },
+        {
+          "id": "D",
+          "text": "The volume decreases by 2 gallons every 5 minutes."
+        }
+      ],
+      "answer": "B",
+      "explanation": "V′(5) is an instantaneous rate at t = 5, in gallons per minute; negative means decreasing.",
+      "distractors": {
+        "C": "Confuses V′ with V.",
+        "D": "Treats the rate as an average over 5 minutes.",
+        "A": "Describes a total change, not a rate."
+      }
+    },
+    {
+      "id": "u4-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.2 Straight-Line Motion",
       "stem": "A particle has velocity v(t) = 3t² − 12. What is its acceleration at t = 1?",
       "choices": [
-        { "id": "A", "text": "6" },
-        { "id": "B", "text": "−9" },
-        { "id": "C", "text": "3" },
-        { "id": "D", "text": "0" }
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "−9"
+        },
+        {
+          "id": "C",
+          "text": "3"
+        },
+        {
+          "id": "D",
+          "text": "0"
+        }
       ],
       "answer": "A",
       "explanation": "a(t) = v′(t) = 6t, so a(1) = 6.",
-      "distractors": { "B": "That is v(1).", "D": "Confused acceleration with the time v = 0." }
+      "distractors": {
+        "B": "That is v(1).",
+        "D": "Confused acceleration with the time v = 0."
+      }
     },
     {
-      "id": "u4-q05", "tier": "Exam level", "type": "mcq", "topic": "4.2 Straight-Line Motion",
+      "id": "u4-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.2 Straight-Line Motion",
       "stem": "A particle moves along the x-axis with velocity v(t) = t² − 6t + 8 for t ≥ 0. For what values of t is the particle moving to the left?",
       "choices": [
-        { "id": "A", "text": "2 < t < 4" },
-        { "id": "B", "text": "t > 4" },
-        { "id": "C", "text": "0 ≤ t < 2" },
-        { "id": "D", "text": "t > 3" }
+        {
+          "id": "A",
+          "text": "t > 3"
+        },
+        {
+          "id": "B",
+          "text": "t > 4"
+        },
+        {
+          "id": "C",
+          "text": "0 ≤ t < 2"
+        },
+        {
+          "id": "D",
+          "text": "2 < t < 4"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "v(t) = (t − 2)(t − 4) is negative between its roots, so the particle moves left on 2 < t < 4.",
-      "distractors": { "D": "Used where acceleration 2t − 6 is positive." }
+      "distractors": {
+        "A": "Used where acceleration 2t − 6 is positive."
+      }
     },
     {
-      "id": "u4-q06", "tier": "Exam level", "type": "mcq", "topic": "4.4 Introduction to Related Rates",
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.4 Introduction to Related Rates",
       "stem": "The radius of a circle increases at 3 cm/s. How fast is the area increasing when the radius is 5 cm?",
       "choices": [
-        { "id": "A", "text": "30π cm²/s" },
-        { "id": "B", "text": "10π cm²/s" },
-        { "id": "C", "text": "15π cm²/s" },
-        { "id": "D", "text": "75π cm²/s" }
+        {
+          "id": "A",
+          "text": "15π cm²/s"
+        },
+        {
+          "id": "B",
+          "text": "10π cm²/s"
+        },
+        {
+          "id": "C",
+          "text": "30π cm²/s"
+        },
+        {
+          "id": "D",
+          "text": "75π cm²/s"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "A = πr², dA/dt = 2πr·dr/dt = 2π(5)(3) = 30π.",
-      "distractors": { "B": "Forgot to multiply by dr/dt.", "C": "Dropped the factor 2.", "D": "Computed πr²·dr/dt." }
+      "distractors": {
+        "B": "Forgot to multiply by dr/dt.",
+        "D": "Computed πr²·dr/dt.",
+        "A": "Dropped the factor 2."
+      }
     },
     {
-      "id": "u4-q07", "tier": "Exam level", "type": "mcq", "topic": "4.6 Approximating Values Using Local Linearity",
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.6 Approximating Values Using Local Linearity",
       "stem": "Using the line tangent to f(x) = √x at x = 16, the approximation of √16.2 is",
       "choices": [
-        { "id": "A", "text": "4.025" },
-        { "id": "B", "text": "4.05" },
-        { "id": "C", "text": "4.0125" },
-        { "id": "D", "text": "4.2" }
+        {
+          "id": "A",
+          "text": "4.0125"
+        },
+        {
+          "id": "B",
+          "text": "4.05"
+        },
+        {
+          "id": "C",
+          "text": "4.025"
+        },
+        {
+          "id": "D",
+          "text": "4.2"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "f(16) = 4, f′(x) = 1/(2√x) so f′(16) = 1/8. L(16.2) = 4 + (1/8)(0.2) = 4.025.",
-      "distractors": { "B": "Used slope 1/4.", "C": "Used slope 1/16.", "D": "Added 0.2 directly." }
+      "distractors": {
+        "B": "Used slope 1/4.",
+        "D": "Added 0.2 directly.",
+        "A": "Used slope 1/16."
+      }
     },
     {
-      "id": "u4-q08", "tier": "Exam level", "type": "mcq", "topic": "4.7 L'Hôpital's Rule",
+      "id": "u4-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.7 L'Hôpital's Rule",
       "stem": "lim(x→0) (eˣ − 1 − x)/x² =",
       "choices": [
-        { "id": "A", "text": "0" },
-        { "id": "B", "text": "1/2" },
-        { "id": "C", "text": "1" },
-        { "id": "D", "text": "The limit does not exist." }
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "1/2"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "The limit does not exist."
+        }
       ],
       "answer": "B",
       "explanation": "0/0, so differentiate: (eˣ − 1)/(2x), still 0/0. Again: eˣ/2 → 1/2.",
-      "distractors": { "A": "Stopped after one application and misread 0/0 as 0.", "C": "Forgot the 2 from differentiating x²." }
+      "distractors": {
+        "A": "Stopped after one application and misread 0/0 as 0.",
+        "C": "Forgot the 2 from differentiating x²."
+      }
     },
     {
-      "id": "u4-q09", "tier": "Exam level", "type": "mcq", "topic": "4.5 Solving Related Rates Problems",
+      "id": "u4-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.5 Solving Related Rates Problems",
       "stem": "A 10-foot ladder leans against a vertical wall. The bottom slides away from the wall at 2 ft/s. How fast is the top sliding down the wall when the bottom is 6 feet from the wall?",
       "choices": [
-        { "id": "A", "text": "3/2 ft/s" },
-        { "id": "B", "text": "2/3 ft/s" },
-        { "id": "C", "text": "8/3 ft/s" },
-        { "id": "D", "text": "3/4 ft/s" }
+        {
+          "id": "A",
+          "text": "3/4 ft/s"
+        },
+        {
+          "id": "B",
+          "text": "2/3 ft/s"
+        },
+        {
+          "id": "C",
+          "text": "8/3 ft/s"
+        },
+        {
+          "id": "D",
+          "text": "3/2 ft/s"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "x² + y² = 100; at x = 6, y = 8. 2x·x′ + 2y·y′ = 0 gives y′ = −(6)(2)/8 = −3/2. The top slides down at 3/2 ft/s.",
-      "distractors": { "B": "Inverted the ratio.", "C": "Swapped x and y in the formula.", "D": "Dropped dx/dt = 2." }
+      "distractors": {
+        "B": "Inverted the ratio.",
+        "C": "Swapped x and y in the formula.",
+        "A": "Dropped dx/dt = 2."
+      }
     },
     {
-      "id": "u4-q10", "tier": "Exam level", "type": "mcq", "topic": "4.2 Straight-Line Motion",
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.2 Straight-Line Motion",
       "stem": "A particle has velocity v(t) = t² − 4t + 3. At t = 2.5, which is true?",
       "choices": [
-        { "id": "A", "text": "Speeding up, because velocity and acceleration are both negative." },
-        { "id": "B", "text": "Slowing down, because velocity is negative and acceleration is positive." },
-        { "id": "C", "text": "Speeding up, because acceleration is positive." },
-        { "id": "D", "text": "Slowing down, because velocity is negative." }
+        {
+          "id": "A",
+          "text": "Slowing down, because velocity is negative and acceleration is positive."
+        },
+        {
+          "id": "B",
+          "text": "Speeding up, because velocity and acceleration are both negative."
+        },
+        {
+          "id": "C",
+          "text": "Speeding up, because acceleration is positive."
+        },
+        {
+          "id": "D",
+          "text": "Slowing down, because velocity is negative."
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "v(2.5) = 6.25 − 10 + 3 = −0.75 and a(t) = 2t − 4, so a(2.5) = 1. Opposite signs mean speed is decreasing.",
-      "distractors": { "C": "Positive acceleration alone doesn't decide speeding up.", "D": "Right conclusion, incomplete reasoning: you need both signs." }
+      "distractors": {
+        "C": "Positive acceleration alone doesn't decide speeding up.",
+        "D": "Right conclusion, incomplete reasoning: you need both signs."
+      }
     },
     {
-      "id": "u4-q11", "tier": "Hardest", "type": "mcq", "topic": "4.5 Solving Related Rates Problems",
+      "id": "u4-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.5 Solving Related Rates Problems",
       "stem": "Water drains from a conical tank with its vertex pointing down. The tank is 12 ft tall with a top radius of 4 ft. Water leaves at 2π ft³/min. How fast is the water level falling when the water is 6 ft deep?",
       "choices": [
-        { "id": "A", "text": "1/2 ft/min" },
-        { "id": "B", "text": "3/8 ft/min" },
-        { "id": "C", "text": "2 ft/min" },
-        { "id": "D", "text": "1/6 ft/min" }
+        {
+          "id": "A",
+          "text": "1/6 ft/min"
+        },
+        {
+          "id": "B",
+          "text": "3/8 ft/min"
+        },
+        {
+          "id": "C",
+          "text": "2 ft/min"
+        },
+        {
+          "id": "D",
+          "text": "1/2 ft/min"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Similar triangles: r = h/3. V = (1/3)π(h/3)²h = πh³/27. dV/dt = (πh²/9)·dh/dt. At h = 6: −2π = 4π·dh/dt, so dh/dt = −1/2. The level falls at 1/2 ft/min.",
-      "distractors": { "B": "Treated the radius as fixed at 4.", "C": "Inverted the final ratio." }
+      "distractors": {
+        "B": "Treated the radius as fixed at 4.",
+        "C": "Inverted the final ratio."
+      }
     },
     {
-      "id": "u4-q12", "tier": "Hardest", "type": "mcq", "topic": "4.6 Approximating Values Using Local Linearity",
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.6 Approximating Values Using Local Linearity",
       "stem": "f is twice differentiable with f(2) = 3, f′(2) = −1, and f″(x) > 0 for all x. The tangent line at x = 2 is used to approximate f(2.1). Which is true?",
       "choices": [
-        { "id": "A", "text": "The approximation is 2.9, an underestimate." },
-        { "id": "B", "text": "The approximation is 2.9, an overestimate." },
-        { "id": "C", "text": "The approximation is 3.1, an underestimate." },
-        { "id": "D", "text": "The approximation is 3.1, an overestimate." }
+        {
+          "id": "A",
+          "text": "The approximation is 3.1, an underestimate."
+        },
+        {
+          "id": "B",
+          "text": "The approximation is 2.9, an overestimate."
+        },
+        {
+          "id": "C",
+          "text": "The approximation is 2.9, an underestimate."
+        },
+        {
+          "id": "D",
+          "text": "The approximation is 3.1, an overestimate."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "L(2.1) = 3 + (−1)(0.1) = 2.9. Since f″ > 0, f is concave up and lies above its tangent line, so the estimate is too low.",
-      "distractors": { "B": "Reversed the concavity rule.", "C": "Ignored the negative slope." }
+      "distractors": {
+        "B": "Reversed the concavity rule.",
+        "A": "Ignored the negative slope."
+      }
     },
     {
-      "id": "u4-q13", "tier": "Hardest", "type": "mcq", "topic": "4.7 L'Hôpital's Rule",
+      "id": "u4-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.7 L'Hôpital's Rule",
       "stem": "lim(x→0⁺) x·ln x =",
       "choices": [
-        { "id": "A", "text": "0" },
-        { "id": "B", "text": "1" },
-        { "id": "C", "text": "−∞" },
-        { "id": "D", "text": "−1" }
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "1"
+        },
+        {
+          "id": "C",
+          "text": "−∞"
+        },
+        {
+          "id": "D",
+          "text": "−1"
+        }
       ],
       "answer": "A",
       "explanation": "Rewrite as ln x/(1/x), an −∞/∞ form. L'Hôpital: (1/x)/(−1/x²) = −x → 0.",
-      "distractors": { "C": "Assumed ln x → −∞ dominates without checking.", "D": "Differentiated the product as ln x + 1 and evaluated badly." }
+      "distractors": {
+        "C": "Assumed ln x → −∞ dominates without checking.",
+        "D": "Differentiated the product as ln x + 1 and evaluated badly."
+      }
     },
     {
-      "id": "u4-q14", "tier": "Hardest", "type": "mcq", "topic": "4.5 Solving Related Rates Problems",
+      "id": "u4-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.5 Solving Related Rates Problems",
       "stem": "A 6-foot person walks away from an 18-foot lamppost at 4 ft/s. How fast is the tip of the person's shadow moving along the ground?",
       "choices": [
-        { "id": "A", "text": "6 ft/s" },
-        { "id": "B", "text": "2 ft/s" },
-        { "id": "C", "text": "4 ft/s" },
-        { "id": "D", "text": "12 ft/s" }
+        {
+          "id": "A",
+          "text": "2 ft/s"
+        },
+        {
+          "id": "B",
+          "text": "6 ft/s"
+        },
+        {
+          "id": "C",
+          "text": "4 ft/s"
+        },
+        {
+          "id": "D",
+          "text": "12 ft/s"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Let x be the person's distance from the post and s the shadow length. Similar triangles: s/6 = (x + s)/18, so s = x/2. The tip is at x + s = 1.5x, which moves at 1.5·4 = 6 ft/s.",
-      "distractors": { "B": "That is the rate the shadow's length grows.", "C": "That is the person's speed, not the tip's." }
+      "distractors": {
+        "C": "That is the person's speed, not the tip's.",
+        "A": "That is the rate the shadow's length grows."
+      }
     },
     {
-      "id": "u4-frq1", "tier": "Exam level", "type": "frq", "topic": "4.2 Straight-Line Motion", "frqType": "Free response (no calculator)",
+      "id": "u4-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "4.2 Straight-Line Motion",
+      "frqType": "Free response (no calculator)",
       "prompt": "A particle moves along the x-axis. Its position at time t is x(t) = t³ − 6t² + 9t + 1 for 0 ≤ t ≤ 5.",
       "parts": [
-        { "label": "a", "prompt": "Find the velocity v(t). At what times is the particle at rest?", "points": 2 },
-        { "label": "b", "prompt": "On what interval is the particle moving to the left? Justify your answer.", "points": 2 },
-        { "label": "c", "prompt": "Is the speed of the particle increasing or decreasing at t = 2.5? Give a reason for your answer.", "points": 2 },
-        { "label": "d", "prompt": "Find the total distance traveled by the particle from t = 0 to t = 3.", "points": 3 }
+        {
+          "label": "a",
+          "prompt": "Find the velocity v(t). At what times is the particle at rest?",
+          "points": 2
+        },
+        {
+          "label": "b",
+          "prompt": "On what interval is the particle moving to the left? Justify your answer.",
+          "points": 2
+        },
+        {
+          "label": "c",
+          "prompt": "Is the speed of the particle increasing or decreasing at t = 2.5? Give a reason for your answer.",
+          "points": 2
+        },
+        {
+          "label": "d",
+          "prompt": "Find the total distance traveled by the particle from t = 0 to t = 3.",
+          "points": 3
+        }
       ],
       "points": 9,
       "minutes": 15,
       "rubric": [
-        { "criterion": "(a) Velocity", "points": 1, "description": "v(t) = 3t² − 12t + 9." },
-        { "criterion": "(a) At rest", "points": 1, "description": "t = 1 and t = 3." },
-        { "criterion": "(b) Interval", "points": 1, "description": "1 < t < 3." },
-        { "criterion": "(b) Justification", "points": 1, "description": "v(t) = 3(t − 1)(t − 3) < 0 on that interval." },
-        { "criterion": "(c) Signs", "points": 1, "description": "v(2.5) = −2.25 < 0 and a(2.5) = 6(2.5) − 12 = 3 > 0." },
-        { "criterion": "(c) Conclusion", "points": 1, "description": "Speed is decreasing because velocity and acceleration have opposite signs." },
-        { "criterion": "(d) Turning point", "points": 1, "description": "Identifies the direction change at t = 1." },
-        { "criterion": "(d) Positions", "points": 1, "description": "x(0) = 1, x(1) = 5, x(3) = 1." },
-        { "criterion": "(d) Distance", "points": 1, "description": "|5 − 1| + |1 − 5| = 8." }
+        {
+          "criterion": "(a) Velocity",
+          "points": 1,
+          "description": "v(t) = 3t² − 12t + 9."
+        },
+        {
+          "criterion": "(a) At rest",
+          "points": 1,
+          "description": "t = 1 and t = 3."
+        },
+        {
+          "criterion": "(b) Interval",
+          "points": 1,
+          "description": "1 < t < 3."
+        },
+        {
+          "criterion": "(b) Justification",
+          "points": 1,
+          "description": "v(t) = 3(t − 1)(t − 3) < 0 on that interval."
+        },
+        {
+          "criterion": "(c) Signs",
+          "points": 1,
+          "description": "v(2.5) = −2.25 < 0 and a(2.5) = 6(2.5) − 12 = 3 > 0."
+        },
+        {
+          "criterion": "(c) Conclusion",
+          "points": 1,
+          "description": "Speed is decreasing because velocity and acceleration have opposite signs."
+        },
+        {
+          "criterion": "(d) Turning point",
+          "points": 1,
+          "description": "Identifies the direction change at t = 1."
+        },
+        {
+          "criterion": "(d) Positions",
+          "points": 1,
+          "description": "x(0) = 1, x(1) = 5, x(3) = 1."
+        },
+        {
+          "criterion": "(d) Distance",
+          "points": 1,
+          "description": "|5 − 1| + |1 − 5| = 8."
+        }
       ],
       "sampleResponse": "(a) v(t) = x′(t) = 3t² − 12t + 9 = 3(t − 1)(t − 3). The particle is at rest at t = 1 and t = 3.\n\n(b) The particle moves left when v(t) < 0. For 1 < t < 3, (t − 1) > 0 and (t − 3) < 0, so v(t) < 0. It moves left on 1 < t < 3.\n\n(c) v(2.5) = 3(1.5)(−0.5) = −2.25. a(t) = 6t − 12, so a(2.5) = 3. Velocity and acceleration have opposite signs, so the speed is decreasing.\n\n(d) The particle changes direction at t = 1 (v changes from positive to negative). x(0) = 1, x(1) = 1 − 6 + 9 + 1 = 5, x(3) = 27 − 54 + 27 + 1 = 1. Total distance = |5 − 1| + |1 − 5| = 4 + 4 = 8."
     }

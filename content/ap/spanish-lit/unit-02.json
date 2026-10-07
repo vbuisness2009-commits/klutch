@@ -99,7 +99,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Un narrador en primera persona que recuerda su pasado"
+          "text": "Varios narradores alternos"
         },
         {
           "id": "B",
@@ -111,10 +111,10 @@
         },
         {
           "id": "D",
-          "text": "Varios narradores alternos"
+          "text": "Un narrador en primera persona que recuerda su pasado"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Retrospective first person.",
       "distractors": {}
     },
@@ -159,11 +159,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "exagerar humorísticamente la miseria de la comida"
+          "text": "elogiar la limpieza del mercader"
         },
         {
           "id": "B",
-          "text": "elogiar la limpieza del mercader"
+          "text": "exagerar humorísticamente la miseria de la comida"
         },
         {
           "id": "C",
@@ -174,7 +174,7 @@
           "text": "mostrar la riqueza de la casa"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Hyperbole for comic effect.",
       "distractors": {}
     },
@@ -219,7 +219,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "El clérigo, que mataba de hambre a Lázaro mientras guardaba el pan"
+          "text": "El escudero, que era pobre pero orgulloso"
         },
         {
           "id": "B",
@@ -227,14 +227,14 @@
         },
         {
           "id": "C",
-          "text": "El escudero, que era pobre pero orgulloso"
+          "text": "El clérigo, que mataba de hambre a Lázaro mientras guardaba el pan"
         },
         {
           "id": "D",
           "text": "El buldero, que vendía bulas falsas"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stingy, religious, starving his servant.",
       "distractors": {}
     },
@@ -248,7 +248,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "la obsesión por la honra y las apariencias a pesar de la pobreza"
+          "text": "la santidad verdadera"
         },
         {
           "id": "B",
@@ -260,10 +260,10 @@
         },
         {
           "id": "D",
-          "text": "la santidad verdadera"
+          "text": "la obsesión por la honra y las apariencias a pesar de la pobreza"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "He pretends wealth while starving.",
       "distractors": {}
     },
@@ -277,11 +277,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "A «Vuestra Merced», que le ha pedido que explique «el caso»"
+          "text": "Al rey Carlos V"
         },
         {
           "id": "B",
-          "text": "Al rey Carlos V"
+          "text": "A «Vuestra Merced», que le ha pedido que explique «el caso»"
         },
         {
           "id": "C",
@@ -292,7 +292,7 @@
           "text": "A los lectores del siglo XX"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The epistolary frame.",
       "distractors": {}
     },
@@ -306,7 +306,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "debe ser más astuto que los demás para sobrevivir"
+          "text": "la honra es lo más importante"
         },
         {
           "id": "B",
@@ -314,14 +314,14 @@
         },
         {
           "id": "C",
-          "text": "la honra es lo más importante"
+          "text": "debe ser más astuto que los demás para sobrevivir"
         },
         {
           "id": "D",
           "text": "los ciegos son buenos maestros de música"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "His awakening to cunning.",
       "distractors": {}
     },
@@ -335,7 +335,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "el carpe diem: disfrutar la juventud antes de que el tiempo la destruya"
+          "text": "el amor a Dios"
         },
         {
           "id": "B",
@@ -347,10 +347,10 @@
         },
         {
           "id": "D",
-          "text": "el amor a Dios"
+          "text": "el carpe diem: disfrutar la juventud antes de que el tiempo la destruya"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Classic Renaissance carpe diem.",
       "distractors": {}
     },
@@ -393,7 +393,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Denunciar ante la Corona los abusos contra los indígenas para que se tomaran medidas"
+          "text": "Describir la geografía de las Indias para los comerciantes"
         },
         {
           "id": "B",
@@ -401,14 +401,14 @@
         },
         {
           "id": "C",
-          "text": "Describir la geografía de las Indias para los comerciantes"
+          "text": "Denunciar ante la Corona los abusos contra los indígenas para que se tomaran medidas"
         },
         {
           "id": "D",
           "text": "Narrar su vida como pícaro"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Persuasive denunciation.",
       "distractors": {}
     },
@@ -422,7 +422,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "la hipérbole y la acumulación de ejemplos crueles para conmover al lector"
+          "text": "el realismo mágico"
         },
         {
           "id": "B",
@@ -434,10 +434,10 @@
         },
         {
           "id": "D",
-          "text": "el realismo mágico"
+          "text": "la hipérbole y la acumulación de ejemplos crueles para conmover al lector"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Emotional rhetoric to persuade.",
       "distractors": {}
     },
@@ -480,11 +480,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Lázaro cuenta su vida para explicar «el caso», una situación deshonrosa que intenta presentar como buena fortuna"
+          "text": "Lázaro describe con exactitud la geografía de Toledo"
         },
         {
           "id": "B",
-          "text": "Lázaro describe con exactitud la geografía de Toledo"
+          "text": "Lázaro cuenta su vida para explicar «el caso», una situación deshonrosa que intenta presentar como buena fortuna"
         },
         {
           "id": "C",
@@ -495,7 +495,7 @@
           "text": "Lázaro critica al ciego"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "His self-serving motive shapes the narrative.",
       "distractors": {}
     },

@@ -41,226 +41,562 @@
     "cramSheet": "**Conductors:** E = 0 inside · charge on surface · equipotential · E_out = σ/ε₀ ⟂ surface\n\n**Shells:** cavity +q → inner −q, outer +q\n\n**Capacitance:** plates ε₀A/d · sphere 4πε₀ab/(b − a) · cylinder 2πε₀L/ln(b/a)\n\n**Combine:** parallel ΣC · series 1/ΣC\n\n**Energy:** ½CΔV² = Q²/2C · u = ½ε₀E²\n\n**Dielectric:** C → κC · connected: Q, U ↑ · isolated: ΔV, U ↓"
   },
   "vocab": [
-    { "term": "Electrostatic equilibrium", "definition": "A state in which charges in a conductor are at rest." },
-    { "term": "Induced charge", "definition": "Charge redistributed on a conductor due to a nearby charge." },
-    { "term": "Grounding", "definition": "Connecting a conductor to Earth, setting its potential to zero." },
-    { "term": "Capacitance", "definition": "C = Q/ΔV, the charge stored per volt." },
-    { "term": "Spherical capacitor", "definition": "Two concentric conducting spheres; C = 4πε₀ab/(b − a)." },
-    { "term": "Cylindrical capacitor", "definition": "Two coaxial conducting cylinders; C = 2πε₀L/ln(b/a)." },
-    { "term": "Energy density", "definition": "Energy per unit volume stored in an electric field: u = ½ε₀E²." },
-    { "term": "Dielectric constant", "definition": "The factor κ by which a material increases capacitance." },
-    { "term": "Polarization", "definition": "Alignment of dipoles in a dielectric that partially cancels the applied field." },
-    { "term": "Equipotential conductor", "definition": "All points on and in a conductor in equilibrium share the same potential." },
-    { "term": "Surface charge density", "definition": "σ, charge per unit area on a conductor's surface." },
-    { "term": "Faraday cage", "definition": "An enclosing conductor that shields its interior from external electric fields." }
+    {
+      "term": "Electrostatic equilibrium",
+      "definition": "A state in which charges in a conductor are at rest."
+    },
+    {
+      "term": "Induced charge",
+      "definition": "Charge redistributed on a conductor due to a nearby charge."
+    },
+    {
+      "term": "Grounding",
+      "definition": "Connecting a conductor to Earth, setting its potential to zero."
+    },
+    {
+      "term": "Capacitance",
+      "definition": "C = Q/ΔV, the charge stored per volt."
+    },
+    {
+      "term": "Spherical capacitor",
+      "definition": "Two concentric conducting spheres; C = 4πε₀ab/(b − a)."
+    },
+    {
+      "term": "Cylindrical capacitor",
+      "definition": "Two coaxial conducting cylinders; C = 2πε₀L/ln(b/a)."
+    },
+    {
+      "term": "Energy density",
+      "definition": "Energy per unit volume stored in an electric field: u = ½ε₀E²."
+    },
+    {
+      "term": "Dielectric constant",
+      "definition": "The factor κ by which a material increases capacitance."
+    },
+    {
+      "term": "Polarization",
+      "definition": "Alignment of dipoles in a dielectric that partially cancels the applied field."
+    },
+    {
+      "term": "Equipotential conductor",
+      "definition": "All points on and in a conductor in equilibrium share the same potential."
+    },
+    {
+      "term": "Surface charge density",
+      "definition": "σ, charge per unit area on a conductor's surface."
+    },
+    {
+      "term": "Faraday cage",
+      "definition": "An enclosing conductor that shields its interior from external electric fields."
+    }
   ],
   "practice": [
     {
-      "id": "u2-q01", "tier": "Intro", "type": "mcq", "topic": "Conductors",
+      "id": "u2-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Conductors",
       "stem": "A point charge +q is placed at the center of a neutral conducting spherical shell. What charges reside on the inner and outer surfaces of the shell?",
       "choices": [
-        { "id": "A", "text": "Inner −q, outer +q" },
-        { "id": "B", "text": "Inner +q, outer −q" },
-        { "id": "C", "text": "Inner 0, outer 0" },
-        { "id": "D", "text": "Inner −q, outer 0" }
-      ],
-      "answer": "A",
-      "explanation": "E = 0 in the metal requires −q on the inner surface; neutrality puts +q on the outer surface.",
-      "distractors": { "D": "Violates the shell's neutrality." }
-    },
-    {
-      "id": "u2-q02", "tier": "Intro", "type": "mcq", "topic": "Capacitors",
-      "stem": "Capacitors of 3.0 μF and 6.0 μF are in series, and that pair is in parallel with a 4.0 μF capacitor. What is the equivalent capacitance?",
-      "choices": [
-        { "id": "A", "text": "2.0 μF" },
-        { "id": "B", "text": "6.0 μF" },
-        { "id": "C", "text": "13 μF" },
-        { "id": "D", "text": "1.3 μF" }
+        {
+          "id": "A",
+          "text": "Inner +q, outer −q"
+        },
+        {
+          "id": "B",
+          "text": "Inner −q, outer +q"
+        },
+        {
+          "id": "C",
+          "text": "Inner 0, outer 0"
+        },
+        {
+          "id": "D",
+          "text": "Inner −q, outer 0"
+        }
       ],
       "answer": "B",
+      "explanation": "E = 0 in the metal requires −q on the inner surface; neutrality puts +q on the outer surface.",
+      "distractors": {
+        "D": "Violates the shell's neutrality."
+      }
+    },
+    {
+      "id": "u2-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Capacitors",
+      "stem": "Capacitors of 3.0 μF and 6.0 μF are in series, and that pair is in parallel with a 4.0 μF capacitor. What is the equivalent capacitance?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2.0 μF"
+        },
+        {
+          "id": "B",
+          "text": "1.3 μF"
+        },
+        {
+          "id": "C",
+          "text": "13 μF"
+        },
+        {
+          "id": "D",
+          "text": "6.0 μF"
+        }
+      ],
+      "answer": "D",
       "explanation": "Series: 1/(1/3 + 1/6) = 2 μF; parallel with 4: 6 μF.",
       "distractors": {}
     },
     {
-      "id": "u2-q03", "tier": "Intro", "type": "mcq", "topic": "Conductors",
+      "id": "u2-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Conductors",
       "stem": "Which statement about a charged conductor in electrostatic equilibrium is true?",
       "choices": [
-        { "id": "A", "text": "The potential is the same everywhere on and inside it." },
-        { "id": "B", "text": "Charge is spread uniformly through its volume." },
-        { "id": "C", "text": "The field just outside is parallel to the surface." },
-        { "id": "D", "text": "The field inside is kQ/r²." }
+        {
+          "id": "A",
+          "text": "The field inside is kQ/r²."
+        },
+        {
+          "id": "B",
+          "text": "Charge is spread uniformly through its volume."
+        },
+        {
+          "id": "C",
+          "text": "The field just outside is parallel to the surface."
+        },
+        {
+          "id": "D",
+          "text": "The potential is the same everywhere on and inside it."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "With E = 0 inside, no work is done moving charge within it.",
       "distractors": {}
     },
     {
-      "id": "u2-q04", "tier": "Intro", "type": "mcq", "topic": "Energy Stored in Capacitors",
+      "id": "u2-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Energy Stored in Capacitors",
       "stem": "A 2.0 μF capacitor is charged to 100 V. How much energy does it store?",
       "choices": [
-        { "id": "A", "text": "1.0 × 10⁻⁴ J" },
-        { "id": "B", "text": "1.0 × 10⁻² J" },
-        { "id": "C", "text": "2.0 × 10⁻² J" },
-        { "id": "D", "text": "2.0 × 10⁻⁴ J" }
+        {
+          "id": "A",
+          "text": "1.0 × 10⁻⁴ J"
+        },
+        {
+          "id": "B",
+          "text": "1.0 × 10⁻² J"
+        },
+        {
+          "id": "C",
+          "text": "2.0 × 10⁻² J"
+        },
+        {
+          "id": "D",
+          "text": "2.0 × 10⁻⁴ J"
+        }
       ],
       "answer": "B",
       "explanation": "U = ½CΔV² = ½(2 × 10⁻⁶)(10⁴) = 0.010 J.",
-      "distractors": { "C": "Omits ½." }
+      "distractors": {
+        "C": "Omits ½."
+      }
     },
     {
-      "id": "u2-q05", "tier": "Exam level", "type": "mcq", "topic": "Capacitors",
+      "id": "u2-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Capacitors",
       "stem": "What is the capacitance of a spherical capacitor with inner radius 0.10 m and outer radius 0.20 m in vacuum? (1/4πε₀ = 9.0 × 10⁹ N·m²/C²)",
       "choices": [
-        { "id": "A", "text": "1.1 × 10⁻¹¹ F" },
-        { "id": "B", "text": "2.2 × 10⁻¹¹ F" },
-        { "id": "C", "text": "4.4 × 10⁻¹¹ F" },
-        { "id": "D", "text": "2.2 × 10⁻⁹ F" }
+        {
+          "id": "A",
+          "text": "1.1 × 10⁻¹¹ F"
+        },
+        {
+          "id": "B",
+          "text": "4.4 × 10⁻¹¹ F"
+        },
+        {
+          "id": "C",
+          "text": "2.2 × 10⁻¹¹ F"
+        },
+        {
+          "id": "D",
+          "text": "2.2 × 10⁻⁹ F"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "C = 4πε₀ab/(b − a) = (0.02/0.10)/(9 × 10⁹) ≈ 2.2 × 10⁻¹¹ F.",
       "distractors": {}
     },
     {
-      "id": "u2-q06", "tier": "Exam level", "type": "mcq", "topic": "Dielectrics",
+      "id": "u2-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Dielectrics",
       "stem": "A parallel-plate capacitor connected to a battery has a dielectric (κ = 4) slid between its plates. Which quantities change?",
       "choices": [
-        { "id": "A", "text": "C and Q increase by 4; ΔV unchanged; stored energy increases by 4." },
-        { "id": "B", "text": "C increases; ΔV decreases; Q unchanged." },
-        { "id": "C", "text": "Only C changes." },
-        { "id": "D", "text": "C and stored energy decrease." }
+        {
+          "id": "A",
+          "text": "C and Q increase by 4; ΔV unchanged; stored energy increases by 4."
+        },
+        {
+          "id": "B",
+          "text": "C increases; ΔV decreases; Q unchanged."
+        },
+        {
+          "id": "C",
+          "text": "Only C changes."
+        },
+        {
+          "id": "D",
+          "text": "C and stored energy decrease."
+        }
       ],
       "answer": "A",
       "explanation": "Battery fixes ΔV: Q = CΔV and U = ½CΔV² both scale with C.",
-      "distractors": { "B": "Isolated capacitor." }
+      "distractors": {
+        "B": "Isolated capacitor."
+      }
     },
     {
-      "id": "u2-q07", "tier": "Exam level", "type": "mcq", "topic": "Energy Stored in Capacitors",
+      "id": "u2-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Energy Stored in Capacitors",
       "stem": "In a region of uniform electric field 1.0 × 10⁵ V/m in vacuum, what is the energy density? (ε₀ = 8.85 × 10⁻¹² C²/N·m²)",
       "choices": [
-        { "id": "A", "text": "0.044 J/m³" },
-        { "id": "B", "text": "0.089 J/m³" },
-        { "id": "C", "text": "4.4 × 10⁻⁷ J/m³" },
-        { "id": "D", "text": "4.4 × 10³ J/m³" }
+        {
+          "id": "A",
+          "text": "0.044 J/m³"
+        },
+        {
+          "id": "B",
+          "text": "0.089 J/m³"
+        },
+        {
+          "id": "C",
+          "text": "4.4 × 10⁻⁷ J/m³"
+        },
+        {
+          "id": "D",
+          "text": "4.4 × 10³ J/m³"
+        }
       ],
       "answer": "A",
       "explanation": "u = ½ε₀E² = ½(8.85 × 10⁻¹²)(10¹⁰) ≈ 0.044 J/m³.",
-      "distractors": { "B": "Omits ½." }
+      "distractors": {
+        "B": "Omits ½."
+      }
     },
     {
-      "id": "u2-q08", "tier": "Exam level", "type": "mcq", "topic": "Conductors",
+      "id": "u2-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Conductors",
       "stem": "Why does charge concentrate at the sharp tip of a charged conductor, and what is a consequence?",
       "choices": [
-        { "id": "A", "text": "Surface charge density is greatest where curvature is greatest, so the field just outside the tip is strongest and can ionize air (corona discharge)." },
-        { "id": "B", "text": "The tip is at a higher potential." },
-        { "id": "C", "text": "The field inside the tip is nonzero." },
-        { "id": "D", "text": "Charge avoids the tip." }
-      ],
-      "answer": "A",
-      "explanation": "The whole conductor is equipotential; small radius of curvature requires larger σ, and E = σ/ε₀.",
-      "distractors": { "B": "The conductor is an equipotential." }
-    },
-    {
-      "id": "u2-q09", "tier": "Exam level", "type": "mcq", "topic": "Capacitors",
-      "stem": "Two capacitors, C and 2C, are connected in series to a battery of voltage V. What is the voltage across C?",
-      "choices": [
-        { "id": "A", "text": "V/3" },
-        { "id": "B", "text": "2V/3" },
-        { "id": "C", "text": "V/2" },
-        { "id": "D", "text": "V" }
+        {
+          "id": "A",
+          "text": "The tip is at a higher potential."
+        },
+        {
+          "id": "B",
+          "text": "Surface charge density is greatest where curvature is greatest, so the field just outside the tip is strongest and can ionize air (corona discharge)."
+        },
+        {
+          "id": "C",
+          "text": "The field inside the tip is nonzero."
+        },
+        {
+          "id": "D",
+          "text": "Charge avoids the tip."
+        }
       ],
       "answer": "B",
-      "explanation": "Same Q; ΔV = Q/C, so the smaller capacitor gets the larger share: V_C = 2V_{2C}, total V.",
-      "distractors": { "A": "Voltage across 2C." }
+      "explanation": "The whole conductor is equipotential; small radius of curvature requires larger σ, and E = σ/ε₀.",
+      "distractors": {
+        "A": "The conductor is an equipotential."
+      }
     },
     {
-      "id": "u2-q10", "tier": "Exam level", "type": "mcq", "topic": "Dielectrics",
+      "id": "u2-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Capacitors",
+      "stem": "Two capacitors, C and 2C, are connected in series to a battery of voltage V. What is the voltage across C?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "V/3"
+        },
+        {
+          "id": "B",
+          "text": "V"
+        },
+        {
+          "id": "C",
+          "text": "V/2"
+        },
+        {
+          "id": "D",
+          "text": "2V/3"
+        }
+      ],
+      "answer": "D",
+      "explanation": "Same Q; ΔV = Q/C, so the smaller capacitor gets the larger share: V_C = 2V_{2C}, total V.",
+      "distractors": {
+        "A": "Voltage across 2C."
+      }
+    },
+    {
+      "id": "u2-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Dielectrics",
       "stem": "An isolated charged parallel-plate capacitor has its plate separation doubled. What happens to its stored energy?",
       "choices": [
-        { "id": "A", "text": "It doubles, because external work is done separating the plates." },
-        { "id": "B", "text": "It halves." },
-        { "id": "C", "text": "It stays the same." },
-        { "id": "D", "text": "It quadruples." }
+        {
+          "id": "A",
+          "text": "It stays the same."
+        },
+        {
+          "id": "B",
+          "text": "It halves."
+        },
+        {
+          "id": "C",
+          "text": "It doubles, because external work is done separating the plates."
+        },
+        {
+          "id": "D",
+          "text": "It quadruples."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Q constant, C halves, U = Q²/(2C) doubles.",
-      "distractors": { "B": "Would be true if connected to a battery." }
+      "distractors": {
+        "B": "Would be true if connected to a battery."
+      }
     },
     {
-      "id": "u2-q11", "tier": "Hardest", "type": "mcq", "topic": "Capacitors",
+      "id": "u2-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Capacitors",
       "stem": "A coaxial cable has inner conductor radius a and outer conductor radius b, with length L. Which expression gives its capacitance?",
       "choices": [
-        { "id": "A", "text": "2πε₀L/ln(b/a)" },
-        { "id": "B", "text": "2πε₀L/(b − a)" },
-        { "id": "C", "text": "4πε₀ab/(b − a)" },
-        { "id": "D", "text": "ε₀πb²/L" }
+        {
+          "id": "A",
+          "text": "ε₀πb²/L"
+        },
+        {
+          "id": "B",
+          "text": "2πε₀L/(b − a)"
+        },
+        {
+          "id": "C",
+          "text": "4πε₀ab/(b − a)"
+        },
+        {
+          "id": "D",
+          "text": "2πε₀L/ln(b/a)"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "E = λ/(2πε₀r); ΔV = (λ/2πε₀) ln(b/a); C = λL/ΔV.",
-      "distractors": { "C": "Spherical capacitor." }
+      "distractors": {
+        "C": "Spherical capacitor."
+      }
     },
     {
-      "id": "u2-q12", "tier": "Hardest", "type": "mcq", "topic": "Conductors",
+      "id": "u2-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Conductors",
       "stem": "A conducting shell with inner radius b and outer radius c carries net charge +2Q. A point charge −Q sits at its center. What charge is on the shell's outer surface?",
       "choices": [
-        { "id": "A", "text": "+Q" },
-        { "id": "B", "text": "+2Q" },
-        { "id": "C", "text": "+3Q" },
-        { "id": "D", "text": "−Q" }
+        {
+          "id": "A",
+          "text": "+3Q"
+        },
+        {
+          "id": "B",
+          "text": "+2Q"
+        },
+        {
+          "id": "C",
+          "text": "+Q"
+        },
+        {
+          "id": "D",
+          "text": "−Q"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Inner surface: +Q (to cancel −Q). Outer: 2Q − Q = +Q.",
-      "distractors": { "C": "Adds instead of subtracting." }
+      "distractors": {
+        "A": "Adds instead of subtracting."
+      }
     },
     {
-      "id": "u2-q13", "tier": "Hardest", "type": "mcq", "topic": "Energy Stored in Capacitors",
+      "id": "u2-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Energy Stored in Capacitors",
       "stem": "A capacitor C₁ charged to voltage V₀ is connected (positive plate to positive plate) to an identical uncharged capacitor. After charge redistributes, what fraction of the original energy remains stored?",
       "choices": [
-        { "id": "A", "text": "1/2" },
-        { "id": "B", "text": "1/4" },
-        { "id": "C", "text": "1" },
-        { "id": "D", "text": "2" }
+        {
+          "id": "A",
+          "text": "1/2"
+        },
+        {
+          "id": "B",
+          "text": "1/4"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "2"
+        }
       ],
       "answer": "A",
       "explanation": "Charge conserved: each ends with Q/2 at V₀/2. Total U = 2 × ½C(V₀/2)² = ¼CV₀², half of ½CV₀².",
-      "distractors": { "C": "Assumes energy is conserved; it's dissipated in the connecting wires." }
+      "distractors": {
+        "C": "Assumes energy is conserved; it's dissipated in the connecting wires."
+      }
     },
     {
-      "id": "u2-q14", "tier": "Hardest", "type": "mcq", "topic": "Dielectrics",
+      "id": "u2-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Dielectrics",
       "stem": "A dielectric slab (κ) fills the left half of the area of a parallel-plate capacitor (full thickness), and the right half is air. What is the capacitance relative to C₀ (all air)?",
       "choices": [
-        { "id": "A", "text": "C₀(1 + κ)/2" },
-        { "id": "B", "text": "C₀κ" },
-        { "id": "C", "text": "2κC₀/(1 + κ)" },
-        { "id": "D", "text": "C₀/2" }
+        {
+          "id": "A",
+          "text": "C₀κ"
+        },
+        {
+          "id": "B",
+          "text": "C₀(1 + κ)/2"
+        },
+        {
+          "id": "C",
+          "text": "2κC₀/(1 + κ)"
+        },
+        {
+          "id": "D",
+          "text": "C₀/2"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Two capacitors in parallel, each with half the area: κC₀/2 + C₀/2.",
-      "distractors": { "C": "Series combination (dielectric filling half the thickness)." }
+      "distractors": {
+        "C": "Series combination (dielectric filling half the thickness)."
+      }
     },
     {
-      "id": "u2-frq1", "tier": "Hardest", "type": "frq", "topic": "Conductors", "frqType": "Translation Between Representations (TBR)",
+      "id": "u2-frq1",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Conductors",
+      "frqType": "Translation Between Representations (TBR)",
       "prompt": "A small solid conducting sphere of radius a carries charge +Q. It is centered inside a neutral thick conducting spherical shell with inner radius b and outer radius c (a < b < c).",
       "parts": [
-        { "label": "A", "prompt": "Indicate (describe) the charge on the small sphere's surface and on the shell's inner and outer surfaces.", "points": 2 },
-        { "label": "B", "prompt": "Using Gauss's law, derive expressions for the electric field in the regions r < a, a < r < b, b < r < c, and r > c.", "points": 4 },
-        { "label": "C", "prompt": "Sketch (describe) a graph of E(r) from r = 0 to r > c.", "points": 3 },
-        { "label": "D", "prompt": "Explain how the regions where E = 0 in your graph relate to the potential in those regions and to the charge distribution in (A).", "points": 3 }
+        {
+          "label": "A",
+          "prompt": "Indicate (describe) the charge on the small sphere's surface and on the shell's inner and outer surfaces.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Using Gauss's law, derive expressions for the electric field in the regions r < a, a < r < b, b < r < c, and r > c.",
+          "points": 4
+        },
+        {
+          "label": "C",
+          "prompt": "Sketch (describe) a graph of E(r) from r = 0 to r > c.",
+          "points": 3
+        },
+        {
+          "label": "D",
+          "prompt": "Explain how the regions where E = 0 in your graph relate to the potential in those regions and to the charge distribution in (A).",
+          "points": 3
+        }
       ],
       "points": 12,
       "minutes": 25,
       "rubric": [
-        { "criterion": "A1: Inner sphere", "points": 1, "description": "+Q on the outer surface of the small sphere." },
-        { "criterion": "A2: Shell", "points": 1, "description": "−Q on inner surface (r = b), +Q on outer surface (r = c)." },
-        { "criterion": "B1: r < a", "points": 1, "description": "E = 0 (inside conductor)." },
-        { "criterion": "B2: a < r < b", "points": 1, "description": "E = kQ/r² from a spherical Gaussian surface enclosing +Q." },
-        { "criterion": "B3: b < r < c", "points": 1, "description": "E = 0 (inside conducting shell; enclosed Q − Q = 0)." },
-        { "criterion": "B4: r > c", "points": 1, "description": "E = kQ/r²." },
-        { "criterion": "C1: Zero regions", "points": 1, "description": "E = 0 for r < a and b < r < c." },
-        { "criterion": "C2: 1/r² regions", "points": 1, "description": "Decreasing 1/r² curves in a < r < b and r > c." },
-        { "criterion": "C3: Discontinuities", "points": 1, "description": "Jumps at r = a, b, and c (field drops to zero at b, jumps back up at c to kQ/c²)." },
-        { "criterion": "D1: Potential", "points": 1, "description": "Where E = 0, V is constant (dV/dr = −E = 0): each conductor is an equipotential." },
-        { "criterion": "D2: Charge link", "points": 1, "description": "E = 0 in the shell because −Q on the inner surface cancels +Q enclosed." },
-        { "criterion": "D3: Consistency", "points": 1, "description": "Explicitly connects charge layout, graph, and potential behavior." }
+        {
+          "criterion": "A1: Inner sphere",
+          "points": 1,
+          "description": "+Q on the outer surface of the small sphere."
+        },
+        {
+          "criterion": "A2: Shell",
+          "points": 1,
+          "description": "−Q on inner surface (r = b), +Q on outer surface (r = c)."
+        },
+        {
+          "criterion": "B1: r < a",
+          "points": 1,
+          "description": "E = 0 (inside conductor)."
+        },
+        {
+          "criterion": "B2: a < r < b",
+          "points": 1,
+          "description": "E = kQ/r² from a spherical Gaussian surface enclosing +Q."
+        },
+        {
+          "criterion": "B3: b < r < c",
+          "points": 1,
+          "description": "E = 0 (inside conducting shell; enclosed Q − Q = 0)."
+        },
+        {
+          "criterion": "B4: r > c",
+          "points": 1,
+          "description": "E = kQ/r²."
+        },
+        {
+          "criterion": "C1: Zero regions",
+          "points": 1,
+          "description": "E = 0 for r < a and b < r < c."
+        },
+        {
+          "criterion": "C2: 1/r² regions",
+          "points": 1,
+          "description": "Decreasing 1/r² curves in a < r < b and r > c."
+        },
+        {
+          "criterion": "C3: Discontinuities",
+          "points": 1,
+          "description": "Jumps at r = a, b, and c (field drops to zero at b, jumps back up at c to kQ/c²)."
+        },
+        {
+          "criterion": "D1: Potential",
+          "points": 1,
+          "description": "Where E = 0, V is constant (dV/dr = −E = 0): each conductor is an equipotential."
+        },
+        {
+          "criterion": "D2: Charge link",
+          "points": 1,
+          "description": "E = 0 in the shell because −Q on the inner surface cancels +Q enclosed."
+        },
+        {
+          "criterion": "D3: Consistency",
+          "points": 1,
+          "description": "Explicitly connects charge layout, graph, and potential behavior."
+        }
       ],
       "sampleResponse": "A. The small sphere's +Q resides on its outer surface (r = a). The shell's inner surface (r = b) has −Q, induced by the sphere, and the shell's outer surface (r = c) has +Q, since the shell is neutral.\n\nB. Using concentric spherical Gaussian surfaces, by symmetry E is radial and uniform on each surface, so E(4πr²) = Q_enc/ε₀.\nr < a: inside the conducting sphere, E = 0.\na < r < b: Q_enc = +Q, so E = kQ/r².\nb < r < c: the Gaussian surface lies inside the conducting shell; Q_enc = Q − Q = 0, so E = 0.\nr > c: Q_enc = +Q, so E = kQ/r².\n\nC. The graph is zero from r = 0 to a, jumps to kQ/a² at r = a and falls as 1/r² until r = b, drops to zero from b to c, jumps to kQ/c² at r = c, and falls as 1/r² beyond.\n\nD. In regions where E = 0 (inside the sphere and inside the shell's material), dV/dr = −E = 0, so the potential is constant; each conductor is an equipotential. The field is zero inside the shell because the −Q induced on its inner surface exactly cancels the +Q of the sphere for any Gaussian surface within the metal. The charge layout in (A), the zero regions of the graph, and the constant potential all describe the same electrostatic equilibrium."
     }

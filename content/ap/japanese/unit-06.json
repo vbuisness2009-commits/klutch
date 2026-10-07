@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "まだ食べられるのに捨てられる食品"
+          "text": "高い食品"
         },
         {
           "id": "B",
@@ -110,10 +110,10 @@
         },
         {
           "id": "D",
-          "text": "高い食品"
+          "text": "まだ食べられるのに捨てられる食品"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Defined.",
       "distractors": {}
     },
@@ -128,11 +128,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "家庭"
+          "text": "工場"
         },
         {
           "id": "B",
-          "text": "工場"
+          "text": "家庭"
         },
         {
           "id": "C",
@@ -143,7 +143,7 @@
           "text": "レストランだけ"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -158,7 +158,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "賞味期限が近い商品を安く売るアプリやフードバンク"
+          "text": "外食を増やすこと"
         },
         {
           "id": "B",
@@ -170,10 +170,10 @@
         },
         {
           "id": "D",
-          "text": "外食を増やすこと"
+          "text": "賞味期限が近い商品を安く売るアプリやフードバンク"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Paragraph 2.",
       "distractors": {}
     },
@@ -188,7 +188,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "買いすぎないようにし、買った物を最後まで使い切ること"
+          "text": "アプリを使わないこと"
         },
         {
           "id": "B",
@@ -196,14 +196,14 @@
         },
         {
           "id": "C",
-          "text": "アプリを使わないこと"
+          "text": "買いすぎないようにし、買った物を最後まで使い切ること"
         },
         {
           "id": "D",
           "text": "食品を輸入すること"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Final sentence.",
       "distractors": {}
     },
@@ -218,11 +218,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "ブラジル"
+          "text": "アメリカ"
         },
         {
           "id": "B",
-          "text": "アメリカ"
+          "text": "ブラジル"
         },
         {
           "id": "C",
@@ -233,7 +233,7 @@
           "text": "中国"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -308,7 +308,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "外国人も日本人も、お互いの文化や習慣を知ろうとすること"
+          "text": "日本語を使わないこと"
         },
         {
           "id": "B",
@@ -320,10 +320,10 @@
         },
         {
           "id": "D",
-          "text": "日本語を使わないこと"
+          "text": "外国人も日本人も、お互いの文化や習慣を知ろうとすること"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Mutual effort.",
       "distractors": {}
     },
@@ -338,7 +338,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "約1億2千万人"
+          "text": "約12億人"
         },
         {
           "id": "B",
@@ -346,14 +346,14 @@
         },
         {
           "id": "C",
-          "text": "約12億人"
+          "text": "約1億2千万人"
         },
         {
           "id": "D",
           "text": "約120万人"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -368,11 +368,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "ブラジル"
+          "text": "フランス"
         },
         {
           "id": "B",
-          "text": "フランス"
+          "text": "ブラジル"
         },
         {
           "id": "C",
@@ -383,7 +383,7 @@
           "text": "ロシア"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -398,11 +398,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "数字は調査によって違うこと"
+          "text": "数字は正確であること"
         },
         {
           "id": "B",
-          "text": "数字は正確であること"
+          "text": "数字は調査によって違うこと"
         },
         {
           "id": "C",
@@ -413,7 +413,7 @@
           "text": "調査は行われていないこと"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Footnote.",
       "distractors": {}
     },
@@ -457,7 +457,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "食べ物を無駄にしないようにしています。"
+          "text": "食べ物を無駄にしないようをしています。"
         },
         {
           "id": "B",
@@ -465,14 +465,14 @@
         },
         {
           "id": "C",
-          "text": "食べ物を無駄にしないようをしています。"
+          "text": "食べ物を無駄にしないようにしています。"
         },
         {
           "id": "D",
           "text": "食べ物が無駄にしないようにしています。"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "～ないようにする.",
       "distractors": {}
     },
@@ -486,7 +486,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "まだ食べられるのに、捨てられてしまった。"
+          "text": "まだ食べられるのに、捨てられるしまった。"
         },
         {
           "id": "B",
@@ -498,10 +498,10 @@
         },
         {
           "id": "D",
-          "text": "まだ食べられるのに、捨てられるしまった。"
+          "text": "まだ食べられるのに、捨てられてしまった。"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Passive + ～てしまう.",
       "distractors": {}
     },

@@ -148,7 +148,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "The dissolution of the Soviet Union"
+          "text": "The September 11 attacks"
         },
         {
           "id": "B",
@@ -156,14 +156,14 @@
         },
         {
           "id": "C",
-          "text": "The September 11 attacks"
+          "text": "The dissolution of the Soviet Union"
         },
         {
           "id": "D",
           "text": "The founding of NATO"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The USSR broke into fifteen independent republics in December 1991.",
       "distractors": {
         "B": "That was in 1962."
@@ -178,11 +178,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "the U.S. invasion of Afghanistan"
+          "text": "the Persian Gulf War"
         },
         {
           "id": "B",
-          "text": "the Persian Gulf War"
+          "text": "the U.S. invasion of Afghanistan"
         },
         {
           "id": "C",
@@ -193,10 +193,10 @@
           "text": "the passage of NAFTA"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The U.S. invaded Afghanistan in October 2001 to remove the Taliban, which sheltered al-Qaeda.",
       "distractors": {
-        "B": "That was in 1991."
+        "A": "That was in 1991."
       }
     },
     {
@@ -208,7 +208,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "The Immigration and Nationality Act of 1965"
+          "text": "The Dawes Act"
         },
         {
           "id": "B",
@@ -220,10 +220,10 @@
         },
         {
           "id": "D",
-          "text": "The Dawes Act"
+          "text": "The Immigration and Nationality Act of 1965"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "It ended national-origin quotas and prioritized family reunification and skills.",
       "distractors": {
         "B": "That law restricted immigration."
@@ -268,7 +268,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "He began with a major military buildup and harsh rhetoric, then negotiated arms reductions with Gorbachev."
+          "text": "He pursued détente from the start, as Nixon had."
         },
         {
           "id": "B",
@@ -280,10 +280,10 @@
         },
         {
           "id": "D",
-          "text": "He pursued détente from the start, as Nixon had."
+          "text": "He began with a major military buildup and harsh rhetoric, then negotiated arms reductions with Gorbachev."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "After calling the USSR an \"evil empire,\" Reagan held summits with Gorbachev and signed the INF Treaty in 1987.",
       "distractors": {
         "C": "Defense spending rose sharply."
@@ -298,11 +298,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Manufacturing jobs moved overseas while service and technology sectors grew."
+          "text": "Manufacturing employment rose steadily in the Rust Belt."
         },
         {
           "id": "B",
-          "text": "Manufacturing employment rose steadily in the Rust Belt."
+          "text": "Manufacturing jobs moved overseas while service and technology sectors grew."
         },
         {
           "id": "C",
@@ -313,7 +313,7 @@
           "text": "Income inequality declined sharply."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Global supply chains and trade agreements shifted production abroad, contributing to deindustrialization.",
       "distractors": {
         "D": "Inequality widened."
@@ -328,7 +328,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "the Alien and Sedition Acts and wartime limits on speech in World War I"
+          "text": "the Federal Reserve Act"
         },
         {
           "id": "B",
@@ -336,14 +336,14 @@
         },
         {
           "id": "C",
-          "text": "the Federal Reserve Act"
+          "text": "the Alien and Sedition Acts and wartime limits on speech in World War I"
         },
         {
           "id": "D",
           "text": "the Erie Canal"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Each involved balancing national security against civil liberties during perceived threats.",
       "distractors": {
         "B": "That concerned land policy."
@@ -358,7 +358,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Widespread risky mortgage lending and complex financial securities tied to those mortgages"
+          "text": "A sudden increase in tariffs"
         },
         {
           "id": "B",
@@ -370,10 +370,10 @@
         },
         {
           "id": "D",
-          "text": "A sudden increase in tariffs"
+          "text": "Widespread risky mortgage lending and complex financial securities tied to those mortgages"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "When housing prices fell, defaults spread through banks holding mortgage-backed securities.",
       "distractors": {
         "B": "That was 1973."
@@ -448,7 +448,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Soviet economic stagnation, Gorbachev's reforms, popular movements in Eastern Europe, and U.S. pressure all contributed."
+          "text": "The United Nations dissolved the Soviet Union."
         },
         {
           "id": "B",
@@ -456,14 +456,14 @@
         },
         {
           "id": "C",
-          "text": "The United Nations dissolved the Soviet Union."
+          "text": "Soviet economic stagnation, Gorbachev's reforms, popular movements in Eastern Europe, and U.S. pressure all contributed."
         },
         {
           "id": "D",
           "text": "It ended solely because of Reagan's defense buildup."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Historians weigh multiple causes; a single-cause explanation misses internal Soviet factors and Eastern European agency.",
       "distractors": {
         "D": "Overstates one factor."
@@ -478,11 +478,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "In 2003 the U.S. cited a threat from alleged weapons of mass destruction and pursued regime change; in 1991 it acted to reverse Iraq's invasion of Kuwait."
+          "text": "In 2003 the U.S. sought to reverse an invasion of Kuwait."
         },
         {
           "id": "B",
-          "text": "In 2003 the U.S. sought to reverse an invasion of Kuwait."
+          "text": "In 2003 the U.S. cited a threat from alleged weapons of mass destruction and pursued regime change; in 1991 it acted to reverse Iraq's invasion of Kuwait."
         },
         {
           "id": "C",
@@ -493,7 +493,7 @@
           "text": "The 1991 war aimed to overthrow Saddam Hussein, while the 2003 war did not."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The 1991 war had a narrow, UN-backed goal; the 2003 war rested on preemption and WMD claims that proved false.",
       "distractors": {
         "D": "Reversed: 1991 left Saddam in power."
@@ -508,7 +508,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Growing income inequality and the concentration of wealth among top earners since the 1980s"
+          "text": "A sharp decrease in immigration"
         },
         {
           "id": "B",
@@ -520,10 +520,10 @@
         },
         {
           "id": "D",
-          "text": "A sharp decrease in immigration"
+          "text": "Growing income inequality and the concentration of wealth among top earners since the 1980s"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Like the late 1800s, recent decades saw rapid technological change, deregulation, and widening gaps between rich and poor.",
       "distractors": {
         "B": "Union membership declined."

@@ -278,7 +278,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "long by position"
+          "text": "elided"
         },
         {
           "id": "B",
@@ -286,14 +286,14 @@
         },
         {
           "id": "C",
-          "text": "elided"
+          "text": "long by position"
         },
         {
           "id": "D",
           "text": "a caesura"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Position rule.",
       "distractors": {}
     },
@@ -307,7 +307,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "The fifth"
+          "text": "The sixth"
         },
         {
           "id": "B",
@@ -315,14 +315,14 @@
         },
         {
           "id": "C",
-          "text": "The sixth"
+          "text": "The fifth"
         },
         {
           "id": "D",
           "text": "The fourth"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Standard pattern.",
       "distractors": {}
     },
@@ -336,7 +336,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "antithesis"
+          "text": "apostrophe"
         },
         {
           "id": "B",
@@ -348,10 +348,10 @@
         },
         {
           "id": "D",
-          "text": "apostrophe"
+          "text": "antithesis"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Opposed ideas side by side.",
       "distractors": {}
     },
@@ -365,11 +365,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "hendiadys"
+          "text": "chiasmus"
         },
         {
           "id": "B",
-          "text": "chiasmus"
+          "text": "hendiadys"
         },
         {
           "id": "C",
@@ -380,7 +380,7 @@
           "text": "metonymy"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "One idea through two nouns.",
       "distractors": {}
     },
@@ -394,7 +394,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "tricolon and asyndeton"
+          "text": "apostrophe and simile"
         },
         {
           "id": "B",
@@ -402,14 +402,14 @@
         },
         {
           "id": "C",
-          "text": "apostrophe and simile"
+          "text": "tricolon and asyndeton"
         },
         {
           "id": "D",
           "text": "hyperbaton and hendiadys"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Three parts, no conjunctions.",
       "distractors": {}
     },
@@ -423,7 +423,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "The interlocked word order of the golden line wraps the brooch around the garment, mirroring the action of fastening"
+          "text": "The line contains adjectives"
         },
         {
           "id": "B",
@@ -435,10 +435,10 @@
         },
         {
           "id": "D",
-          "text": "The line contains adjectives"
+          "text": "The interlocked word order of the golden line wraps the brooch around the garment, mirroring the action of fastening"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Device + effect.",
       "distractors": {}
     },
@@ -452,11 +452,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "cited accurately and translated or paraphrased, then explained"
+          "text": "copied in large blocks without comment"
         },
         {
           "id": "B",
-          "text": "copied in large blocks without comment"
+          "text": "cited accurately and translated or paraphrased, then explained"
         },
         {
           "id": "C",
@@ -467,7 +467,7 @@
           "text": "described as 'good imagery'"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Exam expectations.",
       "distractors": {}
     },
@@ -481,7 +481,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "slowness, weight, or solemnity"
+          "text": "a change of speaker"
         },
         {
           "id": "B",
@@ -493,10 +493,10 @@
         },
         {
           "id": "D",
-          "text": "a change of speaker"
+          "text": "slowness, weight, or solemnity"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Rhythm reinforcing meaning.",
       "distractors": {}
     },

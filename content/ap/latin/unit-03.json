@@ -99,7 +99,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Because the noise of chains was heard at night"
+          "text": "Because it had no courtyard"
         },
         {
           "id": "B",
@@ -111,10 +111,10 @@
         },
         {
           "id": "D",
-          "text": "Because it had no courtyard"
+          "text": "Because the noise of chains was heard at night"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "quod ... audiebatur.",
       "distractors": {}
     },
@@ -129,11 +129,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "when he had learned the price was cheap"
+          "text": "although the price was cheap he learned"
         },
         {
           "id": "B",
-          "text": "although the price was cheap he learned"
+          "text": "when he had learned the price was cheap"
         },
         {
           "id": "C",
@@ -144,7 +144,7 @@
           "text": "so that he might learn the cheap price"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "cum + pluperfect subjunctive.",
       "distractors": {}
     },
@@ -189,7 +189,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "not at all frightened"
+          "text": "nothing frightening"
         },
         {
           "id": "B",
@@ -197,14 +197,14 @@
         },
         {
           "id": "C",
-          "text": "nothing frightening"
+          "text": "not at all frightened"
         },
         {
           "id": "D",
           "text": "having frightened no one"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "nihil as adverbial accusative.",
       "distractors": {}
     },
@@ -219,7 +219,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "perfect of a deponent verb, translated actively: he followed"
+          "text": "present active"
         },
         {
           "id": "B",
@@ -227,14 +227,14 @@
         },
         {
           "id": "C",
-          "text": "present active"
+          "text": "perfect of a deponent verb, translated actively: he followed"
         },
         {
           "id": "D",
           "text": "a participle"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "sequor is deponent.",
       "distractors": {}
     },
@@ -277,7 +277,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "ghosts exist or are produced by fear"
+          "text": "Calpurnia is well"
         },
         {
           "id": "B",
@@ -289,10 +289,10 @@
         },
         {
           "id": "D",
-          "text": "Calpurnia is well"
+          "text": "ghosts exist or are produced by fear"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Opening question.",
       "distractors": {}
     },
@@ -306,11 +306,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "governor of Bithynia-Pontus"
+          "text": "commander at Misenum"
         },
         {
           "id": "B",
-          "text": "commander at Misenum"
+          "text": "governor of Bithynia-Pontus"
         },
         {
           "id": "C",
@@ -321,7 +321,7 @@
           "text": "priest in Athens"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Provincial governor.",
       "distractors": {}
     },
@@ -335,7 +335,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Offering incense and wine to the emperor's image and cursing Christ"
+          "text": "Paying a fine"
         },
         {
           "id": "B",
@@ -343,14 +343,14 @@
         },
         {
           "id": "C",
-          "text": "Paying a fine"
+          "text": "Offering incense and wine to the emperor's image and cursing Christ"
         },
         {
           "id": "D",
           "text": "Swearing by Jupiter in the Senate"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "His described procedure.",
       "distractors": {}
     },
@@ -393,7 +393,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "set a bad precedent and do not belong to the spirit of the age"
+          "text": "come from soldiers"
         },
         {
           "id": "B",
@@ -405,10 +405,10 @@
         },
         {
           "id": "D",
-          "text": "come from soldiers"
+          "text": "set a bad precedent and do not belong to the spirit of the age"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "nec nostri saeculi est.",
       "distractors": {}
     },
@@ -422,11 +422,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "longing for her, rereading her letters, and visiting her empty room at night"
+          "text": "his duties as governor"
         },
         {
           "id": "B",
-          "text": "his duties as governor"
+          "text": "longing for her, rereading her letters, and visiting her empty room at night"
         },
         {
           "id": "C",
@@ -437,7 +437,7 @@
           "text": "his travels in Africa"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Letters of desiderium.",
       "distractors": {}
     },
@@ -451,7 +451,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "more intimate and emotional in tone"
+          "text": "written in verse"
         },
         {
           "id": "B",
@@ -459,14 +459,14 @@
         },
         {
           "id": "C",
-          "text": "written in verse"
+          "text": "more intimate and emotional in tone"
         },
         {
           "id": "D",
           "text": "addressed to the Senate"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Register shift.",
       "distractors": {}
     },
@@ -480,11 +480,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "He appears as a curious intellectual in 7.27 and a careful, deferential administrator in 10.96"
+          "text": "He appears as a soldier in both"
         },
         {
           "id": "B",
-          "text": "He appears as a soldier in both"
+          "text": "He appears as a curious intellectual in 7.27 and a careful, deferential administrator in 10.96"
         },
         {
           "id": "C",
@@ -495,7 +495,7 @@
           "text": "He criticizes the emperor in both"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Different personae.",
       "distractors": {}
     },

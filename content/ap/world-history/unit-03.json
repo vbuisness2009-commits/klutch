@@ -47,219 +47,520 @@
     "cramSheet": "**Empires:** Ottoman (Sunni, 1453 Constantinople) · Safavid (Shia) · Mughal (Akbar) · Qing (Manchu, 1644) · Russia (serfdom, Peter the Great)\n\n**Administration:** devshirme · Janissaries · zamindars · tax farming · civil service exams\n\n**Legitimacy:** Taj Mahal · Süleymaniye · Versailles · Akbar's tolerance (jizya abolished) · Aurangzeb\n\n**Religion:** Ottoman-Safavid wars · Reformation 1517 · Counter-Reformation · Sikhism"
   },
   "vocab": [
-    { "term": "Gunpowder empires", "definition": "Empires such as the Ottoman, Safavid, and Mughal that expanded with firearms and artillery." },
-    { "term": "Devshirme", "definition": "Ottoman system of recruiting Christian boys for conversion and service as soldiers or officials." },
-    { "term": "Janissaries", "definition": "Elite Ottoman infantry trained through the devshirme." },
-    { "term": "Tax farming", "definition": "Selling the right to collect taxes to private individuals." },
-    { "term": "Zamindar", "definition": "Mughal landholder who collected taxes from peasants." },
-    { "term": "Jizya", "definition": "A tax on non-Muslims in Islamic states, abolished by Akbar." },
-    { "term": "Absolute monarchy", "definition": "A system in which a monarch claims unlimited authority, as with Louis XIV." },
-    { "term": "Divine right", "definition": "The belief that monarchs receive authority from God." },
-    { "term": "Protestant Reformation", "definition": "The sixteenth-century movement that broke from the Catholic Church, beginning with Martin Luther in 1517." },
-    { "term": "Counter-Reformation", "definition": "Catholic reforms responding to Protestantism, including the Council of Trent and the Jesuits." },
-    { "term": "Sikhism", "definition": "A religion founded in South Asia combining elements of Hinduism and Islam." },
-    { "term": "Serfdom", "definition": "A system binding peasants to the land and their lords, as in Russia." },
-    { "term": "Qing dynasty", "definition": "Manchu dynasty ruling China from 1644 to 1912." }
+    {
+      "term": "Gunpowder empires",
+      "definition": "Empires such as the Ottoman, Safavid, and Mughal that expanded with firearms and artillery."
+    },
+    {
+      "term": "Devshirme",
+      "definition": "Ottoman system of recruiting Christian boys for conversion and service as soldiers or officials."
+    },
+    {
+      "term": "Janissaries",
+      "definition": "Elite Ottoman infantry trained through the devshirme."
+    },
+    {
+      "term": "Tax farming",
+      "definition": "Selling the right to collect taxes to private individuals."
+    },
+    {
+      "term": "Zamindar",
+      "definition": "Mughal landholder who collected taxes from peasants."
+    },
+    {
+      "term": "Jizya",
+      "definition": "A tax on non-Muslims in Islamic states, abolished by Akbar."
+    },
+    {
+      "term": "Absolute monarchy",
+      "definition": "A system in which a monarch claims unlimited authority, as with Louis XIV."
+    },
+    {
+      "term": "Divine right",
+      "definition": "The belief that monarchs receive authority from God."
+    },
+    {
+      "term": "Protestant Reformation",
+      "definition": "The sixteenth-century movement that broke from the Catholic Church, beginning with Martin Luther in 1517."
+    },
+    {
+      "term": "Counter-Reformation",
+      "definition": "Catholic reforms responding to Protestantism, including the Council of Trent and the Jesuits."
+    },
+    {
+      "term": "Sikhism",
+      "definition": "A religion founded in South Asia combining elements of Hinduism and Islam."
+    },
+    {
+      "term": "Serfdom",
+      "definition": "A system binding peasants to the land and their lords, as in Russia."
+    },
+    {
+      "term": "Qing dynasty",
+      "definition": "Manchu dynasty ruling China from 1644 to 1912."
+    }
   ],
   "practice": [
     {
-      "id": "u3-q01", "tier": "Intro", "type": "mcq", "topic": "3.1 Empires Expand",
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.1 Empires Expand",
       "stem": "The Ottoman capture of Constantinople in 1453 was made possible largely by",
       "choices": [
-        { "id": "A", "text": "the use of large gunpowder cannons" },
-        { "id": "B", "text": "naval support from Ming China" },
-        { "id": "C", "text": "an alliance with the Safavids" },
-        { "id": "D", "text": "a peasant revolt inside the city" }
+        {
+          "id": "A",
+          "text": "a peasant revolt inside the city"
+        },
+        {
+          "id": "B",
+          "text": "naval support from Ming China"
+        },
+        {
+          "id": "C",
+          "text": "an alliance with the Safavids"
+        },
+        {
+          "id": "D",
+          "text": "the use of large gunpowder cannons"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Massive cannons breached the city's ancient walls.",
-      "distractors": { "C": "The Ottomans and Safavids were rivals." }
+      "distractors": {
+        "C": "The Ottomans and Safavids were rivals."
+      }
     },
     {
-      "id": "u3-q02", "tier": "Intro", "type": "mcq", "topic": "3.2 Empires: Administration",
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.2 Empires: Administration",
       "stem": "The Ottoman devshirme system provided the state with",
       "choices": [
-        { "id": "A", "text": "soldiers and officials loyal directly to the sultan" },
-        { "id": "B", "text": "Christian bishops for Balkan churches" },
-        { "id": "C", "text": "tax revenue from merchants" },
-        { "id": "D", "text": "independent regional nobles" }
+        {
+          "id": "A",
+          "text": "tax revenue from merchants"
+        },
+        {
+          "id": "B",
+          "text": "Christian bishops for Balkan churches"
+        },
+        {
+          "id": "C",
+          "text": "soldiers and officials loyal directly to the sultan"
+        },
+        {
+          "id": "D",
+          "text": "independent regional nobles"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Recruited boys were converted and trained, owing everything to the sultan.",
-      "distractors": { "D": "The system was designed to avoid powerful independent nobles." }
+      "distractors": {
+        "D": "The system was designed to avoid powerful independent nobles."
+      }
     },
     {
-      "id": "u3-q03", "tier": "Intro", "type": "mcq", "topic": "3.3 Empires: Belief Systems",
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.3 Empires: Belief Systems",
       "stem": "The Safavid Empire is most associated with making which religion its official faith?",
       "choices": [
-        { "id": "A", "text": "Shia Islam" },
-        { "id": "B", "text": "Sunni Islam" },
-        { "id": "C", "text": "Sikhism" },
-        { "id": "D", "text": "Zoroastrianism" }
+        {
+          "id": "A",
+          "text": "Sunni Islam"
+        },
+        {
+          "id": "B",
+          "text": "Shia Islam"
+        },
+        {
+          "id": "C",
+          "text": "Sikhism"
+        },
+        {
+          "id": "D",
+          "text": "Zoroastrianism"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The Safavids established Shia Islam in Persia, distinguishing themselves from the Sunni Ottomans.",
       "distractors": {}
     },
     {
-      "id": "u3-q04", "tier": "Intro", "type": "mcq", "topic": "3.2 Empires: Administration",
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "3.2 Empires: Administration",
       "stem": "In Mughal India, zamindars were primarily responsible for",
       "choices": [
-        { "id": "A", "text": "collecting taxes from peasants" },
-        { "id": "B", "text": "commanding the navy" },
-        { "id": "C", "text": "leading Sufi orders" },
-        { "id": "D", "text": "administering civil service exams" }
+        {
+          "id": "A",
+          "text": "collecting taxes from peasants"
+        },
+        {
+          "id": "B",
+          "text": "commanding the navy"
+        },
+        {
+          "id": "C",
+          "text": "leading Sufi orders"
+        },
+        {
+          "id": "D",
+          "text": "administering civil service exams"
+        }
       ],
       "answer": "A",
       "explanation": "Zamindars were landholders who collected revenue for the state.",
-      "distractors": { "D": "Civil service exams were Chinese." }
+      "distractors": {
+        "D": "Civil service exams were Chinese."
+      }
     },
     {
-      "id": "u3-q05", "tier": "Exam level", "type": "mcq", "topic": "3.3 Empires: Belief Systems",
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.3 Empires: Belief Systems",
       "stimulus": "The Mughal emperor Akbar abolished the tax on non-Muslims, married Rajput Hindu princesses, appointed Hindus to high office, and hosted debates among scholars of many faiths.",
       "stem": "Akbar's policies were most likely intended to",
       "choices": [
-        { "id": "A", "text": "strengthen his rule over a religiously diverse empire with a Hindu majority" },
-        { "id": "B", "text": "convert all subjects to Islam" },
-        { "id": "C", "text": "ally with the Ottomans against the Safavids" },
-        { "id": "D", "text": "prepare for war with the Qing" }
+        {
+          "id": "A",
+          "text": "prepare for war with the Qing"
+        },
+        {
+          "id": "B",
+          "text": "convert all subjects to Islam"
+        },
+        {
+          "id": "C",
+          "text": "ally with the Ottomans against the Safavids"
+        },
+        {
+          "id": "D",
+          "text": "strengthen his rule over a religiously diverse empire with a Hindu majority"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Tolerance won loyalty from Hindu elites and stabilized Mughal rule.",
-      "distractors": { "B": "His policies were the opposite of forced conversion." }
+      "distractors": {
+        "B": "His policies were the opposite of forced conversion."
+      }
     },
     {
-      "id": "u3-q06", "tier": "Exam level", "type": "mcq", "topic": "3.2 Empires: Administration",
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.2 Empires: Administration",
       "stem": "Which statement best describes how the Qing dynasty governed China?",
       "choices": [
-        { "id": "A", "text": "The Manchu rulers maintained Confucian institutions, including civil service exams, while preserving some Manchu privileges." },
-        { "id": "B", "text": "The Qing abolished the bureaucracy and ruled through Manchu tribal chiefs only." },
-        { "id": "C", "text": "The Qing converted China to Islam." },
-        { "id": "D", "text": "The Qing were Han Chinese rulers who expelled the Manchus." }
+        {
+          "id": "A",
+          "text": "The Manchu rulers maintained Confucian institutions, including civil service exams, while preserving some Manchu privileges."
+        },
+        {
+          "id": "B",
+          "text": "The Qing abolished the bureaucracy and ruled through Manchu tribal chiefs only."
+        },
+        {
+          "id": "C",
+          "text": "The Qing converted China to Islam."
+        },
+        {
+          "id": "D",
+          "text": "The Qing were Han Chinese rulers who expelled the Manchus."
+        }
       ],
       "answer": "A",
       "explanation": "Continuity in institutions helped legitimize foreign rule.",
-      "distractors": { "D": "The Qing were Manchu." }
+      "distractors": {
+        "D": "The Qing were Manchu."
+      }
     },
     {
-      "id": "u3-q07", "tier": "Exam level", "type": "mcq", "topic": "3.3 Empires: Belief Systems",
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.3 Empires: Belief Systems",
       "stem": "Repeated wars between the Ottoman and Safavid empires in the 1500s were fueled in part by",
       "choices": [
-        { "id": "A", "text": "the Sunni-Shia religious divide" },
-        { "id": "B", "text": "competition over Atlantic colonies" },
-        { "id": "C", "text": "Protestant-Catholic conflict" },
-        { "id": "D", "text": "disputes over Confucian exams" }
+        {
+          "id": "A",
+          "text": "competition over Atlantic colonies"
+        },
+        {
+          "id": "B",
+          "text": "the Sunni-Shia religious divide"
+        },
+        {
+          "id": "C",
+          "text": "Protestant-Catholic conflict"
+        },
+        {
+          "id": "D",
+          "text": "disputes over Confucian exams"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The Sunni Ottomans and Shia Safavids framed their rivalry in religious terms.",
       "distractors": {}
     },
     {
-      "id": "u3-q08", "tier": "Exam level", "type": "mcq", "topic": "3.2 Empires: Administration (legitimacy)",
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.2 Empires: Administration (legitimacy)",
       "stimulus": "Louis XIV moved his court to the enormous palace of Versailles, where nobles were expected to live and attend elaborate rituals of the king's daily life.",
       "stem": "This arrangement most directly served to",
       "choices": [
-        { "id": "A", "text": "centralize royal power by keeping nobles under the king's watch and dependent on his favor" },
-        { "id": "B", "text": "give nobles more independent power in the provinces" },
-        { "id": "C", "text": "promote Protestantism in France" },
-        { "id": "D", "text": "reduce royal spending" }
+        {
+          "id": "A",
+          "text": "promote Protestantism in France"
+        },
+        {
+          "id": "B",
+          "text": "give nobles more independent power in the provinces"
+        },
+        {
+          "id": "C",
+          "text": "centralize royal power by keeping nobles under the king's watch and dependent on his favor"
+        },
+        {
+          "id": "D",
+          "text": "reduce royal spending"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Versailles displayed absolute monarchy and neutralized aristocratic rivals.",
-      "distractors": { "D": "Versailles was enormously expensive." }
+      "distractors": {
+        "D": "Versailles was enormously expensive."
+      }
     },
     {
-      "id": "u3-q09", "tier": "Exam level", "type": "mcq", "topic": "3.3 Empires: Belief Systems (Europe)",
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.3 Empires: Belief Systems (Europe)",
       "stem": "Which was a major political consequence of the Protestant Reformation in Europe?",
       "choices": [
-        { "id": "A", "text": "Religious wars and the strengthening of some monarchs who broke with the pope" },
-        { "id": "B", "text": "The unification of Europe under the Catholic Church" },
-        { "id": "C", "text": "The end of all religious conflict in Europe" },
-        { "id": "D", "text": "The conversion of the Ottoman Empire to Protestantism" }
+        {
+          "id": "A",
+          "text": "The conversion of the Ottoman Empire to Protestantism"
+        },
+        {
+          "id": "B",
+          "text": "The unification of Europe under the Catholic Church"
+        },
+        {
+          "id": "C",
+          "text": "The end of all religious conflict in Europe"
+        },
+        {
+          "id": "D",
+          "text": "Religious wars and the strengthening of some monarchs who broke with the pope"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Rulers like Henry VIII used the break to increase their power; conflicts like the Thirty Years' War followed.",
-      "distractors": { "B": "The Reformation divided Western Christianity." }
+      "distractors": {
+        "B": "The Reformation divided Western Christianity."
+      }
     },
     {
-      "id": "u3-q10", "tier": "Exam level", "type": "mcq", "topic": "3.2 Empires: Administration",
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "3.2 Empires: Administration",
       "stem": "Which practice did the Ottomans use to raise revenue by selling collection rights to private individuals?",
       "choices": [
-        { "id": "A", "text": "Tax farming" },
-        { "id": "B", "text": "The mit'a" },
-        { "id": "C", "text": "The encomienda" },
-        { "id": "D", "text": "The devshirme" }
+        {
+          "id": "A",
+          "text": "The encomienda"
+        },
+        {
+          "id": "B",
+          "text": "The mit'a"
+        },
+        {
+          "id": "C",
+          "text": "Tax farming"
+        },
+        {
+          "id": "D",
+          "text": "The devshirme"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Tax farmers paid the state in advance and then collected taxes, often abusively.",
-      "distractors": { "C": "The encomienda was a Spanish colonial labor system." }
+      "distractors": {
+        "A": "The encomienda was a Spanish colonial labor system."
+      }
     },
     {
-      "id": "u3-q11", "tier": "Hardest", "type": "mcq", "topic": "3.2 Empires: Administration (comparison)",
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.2 Empires: Administration (comparison)",
       "stem": "Which statement best compares the Ottoman and Mughal approaches to governing religiously diverse populations?",
       "choices": [
-        { "id": "A", "text": "Both incorporated non-Muslims into state service and allowed religious communities a degree of autonomy, though policies varied by ruler." },
-        { "id": "B", "text": "Both forced all non-Muslims to convert." },
-        { "id": "C", "text": "The Ottomans had no non-Muslim subjects." },
-        { "id": "D", "text": "The Mughals were Christian rulers of a Muslim majority." }
+        {
+          "id": "A",
+          "text": "Both incorporated non-Muslims into state service and allowed religious communities a degree of autonomy, though policies varied by ruler."
+        },
+        {
+          "id": "B",
+          "text": "Both forced all non-Muslims to convert."
+        },
+        {
+          "id": "C",
+          "text": "The Ottomans had no non-Muslim subjects."
+        },
+        {
+          "id": "D",
+          "text": "The Mughals were Christian rulers of a Muslim majority."
+        }
       ],
       "answer": "A",
       "explanation": "The Ottoman millet system gave communities self-governance; Akbar integrated Hindus. Later rulers like Aurangzeb were less tolerant.",
-      "distractors": { "D": "The Mughals were Muslim rulers of a Hindu majority." }
+      "distractors": {
+        "D": "The Mughals were Muslim rulers of a Hindu majority."
+      }
     },
     {
-      "id": "u3-q12", "tier": "Hardest", "type": "mcq", "topic": "3.1 Empires Expand",
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.1 Empires Expand",
       "stem": "Which factor best explains why Russia, unlike many other land-based empires, expanded rapidly eastward across Siberia in the 1500s and 1600s?",
       "choices": [
-        { "id": "A", "text": "Demand for furs and the relative weakness of resistance in sparsely populated northern Asia" },
-        { "id": "B", "text": "Alliances with the Mughals" },
-        { "id": "C", "text": "Access to Atlantic ports" },
-        { "id": "D", "text": "Religious unity with the Safavids" }
+        {
+          "id": "A",
+          "text": "Alliances with the Mughals"
+        },
+        {
+          "id": "B",
+          "text": "Demand for furs and the relative weakness of resistance in sparsely populated northern Asia"
+        },
+        {
+          "id": "C",
+          "text": "Access to Atlantic ports"
+        },
+        {
+          "id": "D",
+          "text": "Religious unity with the Safavids"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The fur trade drove Cossack expansion; Siberian peoples were few and dispersed.",
-      "distractors": { "C": "Russia lacked good Atlantic access." }
+      "distractors": {
+        "C": "Russia lacked good Atlantic access."
+      }
     },
     {
-      "id": "u3-q13", "tier": "Hardest", "type": "mcq", "topic": "3.3 Empires: Belief Systems (Mughal)",
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.3 Empires: Belief Systems (Mughal)",
       "stem": "Aurangzeb, a later Mughal emperor, reinstated the tax on non-Muslims and destroyed some Hindu temples. Which outcome is most likely to have followed?",
       "choices": [
-        { "id": "A", "text": "Increased resistance from Hindu groups such as the Marathas, weakening Mughal control" },
-        { "id": "B", "text": "Greater loyalty among Hindu elites" },
-        { "id": "C", "text": "Immediate conversion of most Hindus to Islam" },
-        { "id": "D", "text": "A Mughal alliance with Hindu kingdoms against the Ottomans" }
+        {
+          "id": "A",
+          "text": "Increased resistance from Hindu groups such as the Marathas, weakening Mughal control"
+        },
+        {
+          "id": "B",
+          "text": "Greater loyalty among Hindu elites"
+        },
+        {
+          "id": "C",
+          "text": "Immediate conversion of most Hindus to Islam"
+        },
+        {
+          "id": "D",
+          "text": "A Mughal alliance with Hindu kingdoms against the Ottomans"
+        }
       ],
       "answer": "A",
       "explanation": "Reversing Akbar's tolerance alienated many subjects and contributed to revolts and decline.",
-      "distractors": { "B": "The policies alienated Hindu elites." }
+      "distractors": {
+        "B": "The policies alienated Hindu elites."
+      }
     },
     {
-      "id": "u3-q14", "tier": "Hardest", "type": "mcq", "topic": "3.4 Comparison in Land-Based Empires",
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "3.4 Comparison in Land-Based Empires",
       "stem": "A historian argues that land-based empires in 1450–1750 succeeded by balancing central control with local intermediaries. Which evidence best supports this argument?",
       "choices": [
-        { "id": "A", "text": "The Mughal use of zamindars and the Ottoman use of tax farmers to collect revenue" },
-        { "id": "B", "text": "The French court at Versailles" },
-        { "id": "C", "text": "Zheng He's voyages" },
-        { "id": "D", "text": "Martin Luther's Ninety-Five Theses" }
+        {
+          "id": "A",
+          "text": "Zheng He's voyages"
+        },
+        {
+          "id": "B",
+          "text": "The French court at Versailles"
+        },
+        {
+          "id": "C",
+          "text": "The Mughal use of zamindars and the Ottoman use of tax farmers to collect revenue"
+        },
+        {
+          "id": "D",
+          "text": "Martin Luther's Ninety-Five Theses"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Both empires relied on local agents to extract revenue for the center.",
-      "distractors": { "B": "Shows centralization rather than balance with local intermediaries." }
+      "distractors": {
+        "B": "Shows centralization rather than balance with local intermediaries."
+      }
     },
     {
-      "id": "u3-frq1", "tier": "Exam level", "type": "frq", "topic": "Land-based empires", "frqType": "SAQ (no stimulus)",
+      "id": "u3-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Land-based empires",
+      "frqType": "SAQ (no stimulus)",
       "prompt": "Answer (a), (b), and (c).",
       "parts": [
-        { "label": "a", "prompt": "Identify ONE way a land-based empire in the period c. 1450–1750 used military technology to expand.", "points": 1 },
-        { "label": "b", "prompt": "Explain ONE way rulers of a land-based empire legitimized their authority in this period.", "points": 1 },
-        { "label": "c", "prompt": "Explain ONE way religious differences affected political relationships in this period.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Identify ONE way a land-based empire in the period c. 1450–1750 used military technology to expand.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Explain ONE way rulers of a land-based empire legitimized their authority in this period.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Explain ONE way religious differences affected political relationships in this period.",
+          "points": 1
+        }
       ],
       "points": 3,
       "minutes": 13,
       "rubric": [
-        { "criterion": "(a)", "points": 1, "description": "E.g., Ottoman cannons at Constantinople; Mughal artillery at Panipat; Qing firearms in Central Asian campaigns." },
-        { "criterion": "(b)", "points": 1, "description": "E.g., Taj Mahal or Süleymaniye; Versailles and divine right; Qing patronage of Confucianism; Akbar's tolerance." },
-        { "criterion": "(c)", "points": 1, "description": "E.g., Ottoman-Safavid Sunni-Shia wars; Reformation and religious wars; Aurangzeb's policies provoking Hindu resistance." }
+        {
+          "criterion": "(a)",
+          "points": 1,
+          "description": "E.g., Ottoman cannons at Constantinople; Mughal artillery at Panipat; Qing firearms in Central Asian campaigns."
+        },
+        {
+          "criterion": "(b)",
+          "points": 1,
+          "description": "E.g., Taj Mahal or Süleymaniye; Versailles and divine right; Qing patronage of Confucianism; Akbar's tolerance."
+        },
+        {
+          "criterion": "(c)",
+          "points": 1,
+          "description": "E.g., Ottoman-Safavid Sunni-Shia wars; Reformation and religious wars; Aurangzeb's policies provoking Hindu resistance."
+        }
       ],
       "sampleResponse": "(a) The Ottomans used enormous gunpowder cannons to breach the walls of Constantinople in 1453, allowing them to take the Byzantine capital and expand into southeastern Europe.\n\n(b) Mughal emperor Shah Jahan built the Taj Mahal, a monumental tomb whose scale and beauty displayed the dynasty's wealth, piety, and power.\n\n(c) Religious differences intensified the rivalry between the Sunni Ottoman Empire and the Shia Safavid Empire, which fought repeated wars in the 1500s that each side framed as defending the true faith."
     }

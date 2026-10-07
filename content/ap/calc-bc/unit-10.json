@@ -118,11 +118,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "3/2"
+          "text": "1/2"
         },
         {
           "id": "B",
-          "text": "1/2"
+          "text": "3/2"
         },
         {
           "id": "C",
@@ -133,10 +133,10 @@
           "text": "The series diverges."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "First term 1, ratio 1/3: 1/(1 − 1/3) = 3/2.",
       "distractors": {
-        "B": "Started at n = 1: (1/3)/(2/3)."
+        "A": "Started at n = 1: (1/3)/(2/3)."
       }
     },
     {
@@ -148,7 +148,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "It diverges because its terms approach 1, not 0."
+          "text": "It converges to 1."
         },
         {
           "id": "B",
@@ -156,14 +156,14 @@
         },
         {
           "id": "C",
-          "text": "It converges to 1."
+          "text": "It diverges because its terms approach 1, not 0."
         },
         {
           "id": "D",
           "text": "The nth-term test is inconclusive."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "lim n/(n + 1) = 1 ≠ 0, so the nth-term test shows divergence.",
       "distractors": {
         "D": "The test is inconclusive only when terms go to 0."
@@ -178,7 +178,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Σ 1/n^(3/2)"
+          "text": "Σ 1/n^(1/3)"
         },
         {
           "id": "B",
@@ -190,10 +190,10 @@
         },
         {
           "id": "D",
-          "text": "Σ 1/n^(1/3)"
+          "text": "Σ 1/n^(3/2)"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "A p-series converges when p > 1; only 3/2 qualifies.",
       "distractors": {
         "B": "Harmonic series diverges."
@@ -208,7 +208,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Σₙ₌₀^∞ xⁿ/n!"
+          "text": "Σₙ₌₀^∞ (−1)ⁿxⁿ/n!"
         },
         {
           "id": "B",
@@ -216,19 +216,19 @@
         },
         {
           "id": "C",
-          "text": "Σₙ₌₀^∞ (−1)ⁿxⁿ/n!"
+          "text": "Σₙ₌₀^∞ xⁿ/n!"
         },
         {
           "id": "D",
           "text": "Σₙ₌₀^∞ x²ⁿ/(2n)!"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Every derivative of eˣ at 0 is 1.",
       "distractors": {
         "B": "That's 1/(1 − x).",
-        "C": "That's e^(−x).",
-        "D": "That's cosh x, not on the exam."
+        "D": "That's cosh x, not on the exam.",
+        "A": "That's e^(−x)."
       }
     },
     {
@@ -271,11 +271,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "converges conditionally"
+          "text": "converges absolutely"
         },
         {
           "id": "B",
-          "text": "converges absolutely"
+          "text": "converges conditionally"
         },
         {
           "id": "C",
@@ -286,7 +286,7 @@
           "text": "converges by the ratio test"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "It converges by the alternating series test, but Σ1/n diverges.",
       "distractors": {
         "D": "The ratio test gives L = 1, inconclusive."
@@ -301,11 +301,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "It diverges, because the ratio (n + 1)/3 approaches infinity."
+          "text": "It converges, because 3ⁿ grows faster than n!."
         },
         {
           "id": "B",
-          "text": "It converges, because 3ⁿ grows faster than n!."
+          "text": "It diverges, because the ratio (n + 1)/3 approaches infinity."
         },
         {
           "id": "C",
@@ -316,10 +316,10 @@
           "text": "It converges to 3."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "aₙ₊₁/aₙ = (n + 1)!/3ⁿ⁺¹ · 3ⁿ/n! = (n + 1)/3 → ∞.",
       "distractors": {
-        "B": "Factorials outgrow exponentials."
+        "A": "Factorials outgrow exponentials."
       }
     },
     {
@@ -361,7 +361,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "2"
+          "text": "∞"
         },
         {
           "id": "B",
@@ -373,10 +373,10 @@
         },
         {
           "id": "D",
-          "text": "∞"
+          "text": "2"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Ratio: |x|·n/(2(n + 1)) → |x|/2 < 1 gives |x| < 2.",
       "distractors": {
         "B": "Inverted the condition."
@@ -391,7 +391,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "x − x³/6 + x⁵/120"
+          "text": "x + x³/6 + x⁵/120"
         },
         {
           "id": "B",
@@ -399,14 +399,14 @@
         },
         {
           "id": "C",
-          "text": "x + x³/6 + x⁵/120"
+          "text": "x − x³/6 + x⁵/120"
         },
         {
           "id": "D",
           "text": "x − x³/3 + x⁵/5"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "sin x = x − x³/3! + x⁵/5! − ...",
       "distractors": {
         "B": "That's cos x.",
@@ -422,7 +422,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "[2, 4)"
+          "text": "(2, 4]"
         },
         {
           "id": "B",
@@ -430,18 +430,18 @@
         },
         {
           "id": "C",
-          "text": "(2, 4]"
+          "text": "[2, 4)"
         },
         {
           "id": "D",
           "text": "[2, 4]"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Ratio gives |x − 3| < 1. At x = 4: Σ1/n diverges. At x = 2: Σ(−1)ⁿ/n converges by the alternating series test.",
       "distractors": {
-        "C": "Swapped which endpoint converges.",
-        "B": "Skipped endpoint testing."
+        "B": "Skipped endpoint testing.",
+        "A": "Swapped which endpoint converges."
       }
     },
     {
@@ -484,7 +484,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "0.0005"
+          "text": "0.05"
         },
         {
           "id": "B",
@@ -496,15 +496,15 @@
         },
         {
           "id": "D",
-          "text": "0.05"
+          "text": "0.0005"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "M(0.1)³/3! = 3(0.001)/6 = 0.0005.",
       "distractors": {
         "C": "Used (0.1)⁴ instead of (0.1)³.",
         "B": "Used (0.1)² instead of (0.1)³.",
-        "D": "Used (0.1)¹."
+        "A": "Used (0.1)¹."
       }
     },
     {

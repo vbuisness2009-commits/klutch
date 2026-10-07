@@ -45,216 +45,494 @@
     "cramSheet": "**WWI:** MAIN causes · Sarajevo 1914 · trenches · Verdun, Somme · total war · U.S. 1917\n\n**Russia:** Feb 1917 · Oct 1917 Bolsheviks · Brest-Litovsk 1918 · civil war · NEP 1921 · Stalin: Five-Year Plans, collectivization, purges\n\n**Peace:** Versailles 1919 · Art. 231 · reparations · League · new states · mandates\n\n**Interwar:** hyperinflation 1923 · Depression 1929 · Mussolini 1922 · Hitler 1933 · Nuremberg Laws 1935 · Spanish Civil War\n\n**WWII:** Rhineland 1936 · Anschluss & Munich 1938 · Nazi-Soviet Pact · Poland 1939 · Barbarossa 1941 · Stalingrad · D-Day 1944 · 1945\n\n**Holocaust:** ~6 million Jews + Roma, disabled, others"
   },
   "vocab": [
-    { "term": "Total war", "definition": "War in which a nation mobilizes all its resources, civilians, and economy." },
-    { "term": "Trench warfare", "definition": "Fighting from fortified ditches, producing stalemate on the Western Front." },
-    { "term": "Bolsheviks", "definition": "Lenin's revolutionary Marxist party that seized power in Russia in 1917." },
-    { "term": "Treaty of Brest-Litovsk", "definition": "The 1918 treaty taking Russia out of World War I with major territorial losses." },
-    { "term": "New Economic Policy", "definition": "Lenin's 1921 policy allowing limited private trade and small business." },
-    { "term": "War guilt clause", "definition": "Article 231 of the Treaty of Versailles assigning responsibility for the war to Germany." },
-    { "term": "Self-determination", "definition": "The principle that nations should choose their own governments." },
-    { "term": "Fascism", "definition": "An authoritarian, ultranationalist ideology glorifying the state and rejecting liberal democracy." },
-    { "term": "Totalitarianism", "definition": "A system in which the state seeks control over all aspects of public and private life." },
-    { "term": "Collectivization", "definition": "Stalin's forced consolidation of farms into state-controlled collectives." },
-    { "term": "Appeasement", "definition": "Making concessions to an aggressor to avoid war, as at Munich in 1938." },
-    { "term": "Holocaust", "definition": "The Nazi genocide of about six million Jews and millions of others." }
+    {
+      "term": "Total war",
+      "definition": "War in which a nation mobilizes all its resources, civilians, and economy."
+    },
+    {
+      "term": "Trench warfare",
+      "definition": "Fighting from fortified ditches, producing stalemate on the Western Front."
+    },
+    {
+      "term": "Bolsheviks",
+      "definition": "Lenin's revolutionary Marxist party that seized power in Russia in 1917."
+    },
+    {
+      "term": "Treaty of Brest-Litovsk",
+      "definition": "The 1918 treaty taking Russia out of World War I with major territorial losses."
+    },
+    {
+      "term": "New Economic Policy",
+      "definition": "Lenin's 1921 policy allowing limited private trade and small business."
+    },
+    {
+      "term": "War guilt clause",
+      "definition": "Article 231 of the Treaty of Versailles assigning responsibility for the war to Germany."
+    },
+    {
+      "term": "Self-determination",
+      "definition": "The principle that nations should choose their own governments."
+    },
+    {
+      "term": "Fascism",
+      "definition": "An authoritarian, ultranationalist ideology glorifying the state and rejecting liberal democracy."
+    },
+    {
+      "term": "Totalitarianism",
+      "definition": "A system in which the state seeks control over all aspects of public and private life."
+    },
+    {
+      "term": "Collectivization",
+      "definition": "Stalin's forced consolidation of farms into state-controlled collectives."
+    },
+    {
+      "term": "Appeasement",
+      "definition": "Making concessions to an aggressor to avoid war, as at Munich in 1938."
+    },
+    {
+      "term": "Holocaust",
+      "definition": "The Nazi genocide of about six million Jews and millions of others."
+    }
   ],
   "practice": [
     {
-      "id": "u8-q01", "tier": "Intro", "type": "mcq", "topic": "World War I",
+      "id": "u8-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "World War I",
       "stem": "The immediate trigger for World War I was",
       "choices": [
-        { "id": "A", "text": "the assassination of Archduke Franz Ferdinand in Sarajevo" },
-        { "id": "B", "text": "Germany's invasion of Poland" },
-        { "id": "C", "text": "the Russian Revolution" },
-        { "id": "D", "text": "the Treaty of Versailles" }
+        {
+          "id": "A",
+          "text": "the assassination of Archduke Franz Ferdinand in Sarajevo"
+        },
+        {
+          "id": "B",
+          "text": "Germany's invasion of Poland"
+        },
+        {
+          "id": "C",
+          "text": "the Russian Revolution"
+        },
+        {
+          "id": "D",
+          "text": "the Treaty of Versailles"
+        }
       ],
       "answer": "A",
       "explanation": "The June 1914 assassination set off the July Crisis.",
-      "distractors": { "B": "Began WWII." }
+      "distractors": {
+        "B": "Began WWII."
+      }
     },
     {
-      "id": "u8-q02", "tier": "Intro", "type": "mcq", "topic": "Treaty of Versailles",
+      "id": "u8-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Treaty of Versailles",
       "stem": "Which was a provision of the Treaty of Versailles (1919)?",
       "choices": [
-        { "id": "A", "text": "Germany accepted responsibility for the war and was required to pay reparations." },
-        { "id": "B", "text": "Germany gained colonies in Africa." },
-        { "id": "C", "text": "Austria-Hungary was strengthened." },
-        { "id": "D", "text": "The United States joined the League of Nations." }
+        {
+          "id": "A",
+          "text": "Germany gained colonies in Africa."
+        },
+        {
+          "id": "B",
+          "text": "Germany accepted responsibility for the war and was required to pay reparations."
+        },
+        {
+          "id": "C",
+          "text": "Austria-Hungary was strengthened."
+        },
+        {
+          "id": "D",
+          "text": "The United States joined the League of Nations."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Article 231 and reparations were central and resented.",
       "distractors": {}
     },
     {
-      "id": "u8-q03", "tier": "Intro", "type": "mcq", "topic": "Russian Revolution",
+      "id": "u8-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Russian Revolution",
       "stem": "The Bolsheviks gained support in 1917 by promising",
       "choices": [
-        { "id": "A", "text": "peace, land, and bread" },
-        { "id": "B", "text": "continued participation in the war" },
-        { "id": "C", "text": "restoration of the tsar" },
-        { "id": "D", "text": "an alliance with Germany against Britain" }
+        {
+          "id": "A",
+          "text": "continued participation in the war"
+        },
+        {
+          "id": "B",
+          "text": "peace, land, and bread"
+        },
+        {
+          "id": "C",
+          "text": "restoration of the tsar"
+        },
+        {
+          "id": "D",
+          "text": "an alliance with Germany against Britain"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The slogan appealed to war-weary soldiers, peasants, and workers.",
       "distractors": {}
     },
     {
-      "id": "u8-q04", "tier": "Intro", "type": "mcq", "topic": "Road to WWII",
+      "id": "u8-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Road to WWII",
       "stem": "The Munich Agreement (1938) is the best-known example of",
       "choices": [
-        { "id": "A", "text": "appeasement" },
-        { "id": "B", "text": "containment" },
-        { "id": "C", "text": "collective security through the League" },
-        { "id": "D", "text": "détente" }
+        {
+          "id": "A",
+          "text": "détente"
+        },
+        {
+          "id": "B",
+          "text": "containment"
+        },
+        {
+          "id": "C",
+          "text": "collective security through the League"
+        },
+        {
+          "id": "D",
+          "text": "appeasement"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Britain and France allowed Hitler to annex the Sudetenland to avoid war.",
       "distractors": {}
     },
     {
-      "id": "u8-q05", "tier": "Exam level", "type": "mcq", "topic": "Total War",
+      "id": "u8-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Total War",
       "stem": "Which development best illustrates the concept of total war during World War I?",
       "choices": [
-        { "id": "A", "text": "Governments directed industrial production, rationed food, used propaganda, and employed women in munitions factories." },
-        { "id": "B", "text": "Professional armies fought brief battles far from civilians." },
-        { "id": "C", "text": "Economies remained under free-market control." },
-        { "id": "D", "text": "Only volunteers served in the military." }
+        {
+          "id": "A",
+          "text": "Economies remained under free-market control."
+        },
+        {
+          "id": "B",
+          "text": "Professional armies fought brief battles far from civilians."
+        },
+        {
+          "id": "C",
+          "text": "Governments directed industrial production, rationed food, used propaganda, and employed women in munitions factories."
+        },
+        {
+          "id": "D",
+          "text": "Only volunteers served in the military."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Entire societies and economies were mobilized.",
       "distractors": {}
     },
     {
-      "id": "u8-q06", "tier": "Exam level", "type": "mcq", "topic": "Russian Revolution",
+      "id": "u8-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Russian Revolution",
       "stem": "Lenin's New Economic Policy (1921) differed from War Communism in that it",
       "choices": [
-        { "id": "A", "text": "allowed peasants to sell surplus grain and permitted small private businesses" },
-        { "id": "B", "text": "collectivized all farms" },
-        { "id": "C", "text": "abolished money" },
-        { "id": "D", "text": "returned land to nobles" }
+        {
+          "id": "A",
+          "text": "allowed peasants to sell surplus grain and permitted small private businesses"
+        },
+        {
+          "id": "B",
+          "text": "collectivized all farms"
+        },
+        {
+          "id": "C",
+          "text": "abolished money"
+        },
+        {
+          "id": "D",
+          "text": "returned land to nobles"
+        }
       ],
       "answer": "A",
       "explanation": "A tactical retreat to revive the economy after civil war.",
-      "distractors": { "B": "Stalin's later policy." }
+      "distractors": {
+        "B": "Stalin's later policy."
+      }
     },
     {
-      "id": "u8-q07", "tier": "Exam level", "type": "mcq", "topic": "Interwar Crises",
+      "id": "u8-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Interwar Crises",
       "stem": "Which factor most directly increased support for the Nazi Party in the early 1930s?",
       "choices": [
-        { "id": "A", "text": "Mass unemployment and economic collapse during the Great Depression" },
-        { "id": "B", "text": "German victory in World War I" },
-        { "id": "C", "text": "The strength of the Weimar economy" },
-        { "id": "D", "text": "Soviet support for the Nazis" }
+        {
+          "id": "A",
+          "text": "The strength of the Weimar economy"
+        },
+        {
+          "id": "B",
+          "text": "German victory in World War I"
+        },
+        {
+          "id": "C",
+          "text": "Mass unemployment and economic collapse during the Great Depression"
+        },
+        {
+          "id": "D",
+          "text": "Soviet support for the Nazis"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The Depression discredited Weimar and boosted extremist parties.",
       "distractors": {}
     },
     {
-      "id": "u8-q08", "tier": "Exam level", "type": "mcq", "topic": "Stalinism",
+      "id": "u8-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Stalinism",
       "stem": "Stalin's forced collectivization of agriculture resulted in",
       "choices": [
-        { "id": "A", "text": "widespread famine and millions of deaths, especially in Ukraine" },
-        { "id": "B", "text": "an immediate rise in peasant living standards" },
-        { "id": "C", "text": "the return of private farming" },
-        { "id": "D", "text": "the end of industrialization" }
+        {
+          "id": "A",
+          "text": "the end of industrialization"
+        },
+        {
+          "id": "B",
+          "text": "an immediate rise in peasant living standards"
+        },
+        {
+          "id": "C",
+          "text": "the return of private farming"
+        },
+        {
+          "id": "D",
+          "text": "widespread famine and millions of deaths, especially in Ukraine"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Grain requisitions and resistance led to catastrophic famine in the early 1930s.",
       "distractors": {}
     },
     {
-      "id": "u8-q09", "tier": "Exam level", "type": "mcq", "topic": "Peace Settlement",
+      "id": "u8-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Peace Settlement",
       "stem": "The principle of self-determination at the Paris Peace Conference resulted most directly in",
       "choices": [
-        { "id": "A", "text": "the creation of new states in Eastern Europe such as Poland, Czechoslovakia, and Yugoslavia" },
-        { "id": "B", "text": "independence for all European colonies" },
-        { "id": "C", "text": "the unification of Germany and Austria" },
-        { "id": "D", "text": "the restoration of the Russian monarchy" }
+        {
+          "id": "A",
+          "text": "independence for all European colonies"
+        },
+        {
+          "id": "B",
+          "text": "the creation of new states in Eastern Europe such as Poland, Czechoslovakia, and Yugoslavia"
+        },
+        {
+          "id": "C",
+          "text": "the unification of Germany and Austria"
+        },
+        {
+          "id": "D",
+          "text": "the restoration of the Russian monarchy"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "It applied mainly to the defeated empires in Europe, not to colonies.",
       "distractors": {}
     },
     {
-      "id": "u8-q10", "tier": "Exam level", "type": "mcq", "topic": "World War II",
+      "id": "u8-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "World War II",
       "stem": "The Battle of Stalingrad (1942–1943) is significant because it",
       "choices": [
-        { "id": "A", "text": "marked a turning point on the Eastern Front, after which the Soviets pushed Germany back" },
-        { "id": "B", "text": "began World War II" },
-        { "id": "C", "text": "was a British naval victory" },
-        { "id": "D", "text": "led to Italy's entry into the war" }
+        {
+          "id": "A",
+          "text": "marked a turning point on the Eastern Front, after which the Soviets pushed Germany back"
+        },
+        {
+          "id": "B",
+          "text": "began World War II"
+        },
+        {
+          "id": "C",
+          "text": "was a British naval victory"
+        },
+        {
+          "id": "D",
+          "text": "led to Italy's entry into the war"
+        }
       ],
       "answer": "A",
       "explanation": "A German army was destroyed, and momentum shifted to the USSR.",
       "distractors": {}
     },
     {
-      "id": "u8-q11", "tier": "Hardest", "type": "mcq", "topic": "Totalitarianism",
+      "id": "u8-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Totalitarianism",
       "stem": "Which statement best compares Nazi Germany and the Stalinist Soviet Union in the 1930s?",
       "choices": [
-        { "id": "A", "text": "Both used terror, propaganda, and one-party rule, but Nazism was built on racial ideology and preserved private property, while Stalinism pursued class-based state control of the economy." },
-        { "id": "B", "text": "Both abolished private property." },
-        { "id": "C", "text": "Both supported liberal democracy." },
-        { "id": "D", "text": "Neither used secret police." }
+        {
+          "id": "A",
+          "text": "Both supported liberal democracy."
+        },
+        {
+          "id": "B",
+          "text": "Both abolished private property."
+        },
+        {
+          "id": "C",
+          "text": "Both used terror, propaganda, and one-party rule, but Nazism was built on racial ideology and preserved private property, while Stalinism pursued class-based state control of the economy."
+        },
+        {
+          "id": "D",
+          "text": "Neither used secret police."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Similar methods, different ideologies and economic structures.",
       "distractors": {}
     },
     {
-      "id": "u8-q12", "tier": "Hardest", "type": "mcq", "topic": "World War I",
+      "id": "u8-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "World War I",
       "stem": "Historians who emphasize the alliance system as a cause of World War I would most likely argue that",
       "choices": [
-        { "id": "A", "text": "commitments among the great powers turned a regional Austro-Serbian conflict into a general European war" },
-        { "id": "B", "text": "the war was caused only by Serbian nationalism" },
-        { "id": "C", "text": "colonial competition in Africa directly caused the war" },
-        { "id": "D", "text": "Russia sought to avoid war at all costs" }
+        {
+          "id": "A",
+          "text": "the war was caused only by Serbian nationalism"
+        },
+        {
+          "id": "B",
+          "text": "commitments among the great powers turned a regional Austro-Serbian conflict into a general European war"
+        },
+        {
+          "id": "C",
+          "text": "colonial competition in Africa directly caused the war"
+        },
+        {
+          "id": "D",
+          "text": "Russia sought to avoid war at all costs"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Russia backed Serbia, Germany backed Austria, and France and Britain were drawn in.",
       "distractors": {}
     },
     {
-      "id": "u8-q13", "tier": "Hardest", "type": "mcq", "topic": "Interwar Crises",
+      "id": "u8-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Interwar Crises",
       "stem": "Why did the League of Nations fail to prevent aggression in the 1930s?",
       "choices": [
-        { "id": "A", "text": "It lacked enforcement power, the United States never joined, and major powers were unwilling to impose meaningful sanctions." },
-        { "id": "B", "text": "It had a large standing army it refused to use." },
-        { "id": "C", "text": "Germany controlled it." },
-        { "id": "D", "text": "It was dissolved in 1925." }
+        {
+          "id": "A",
+          "text": "It lacked enforcement power, the United States never joined, and major powers were unwilling to impose meaningful sanctions."
+        },
+        {
+          "id": "B",
+          "text": "It had a large standing army it refused to use."
+        },
+        {
+          "id": "C",
+          "text": "Germany controlled it."
+        },
+        {
+          "id": "D",
+          "text": "It was dissolved in 1925."
+        }
       ],
       "answer": "A",
       "explanation": "Weak responses to Japan in Manchuria and Italy in Ethiopia exposed its limits.",
       "distractors": {}
     },
     {
-      "id": "u8-q14", "tier": "Hardest", "type": "mcq", "topic": "Intellectual Developments",
+      "id": "u8-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Intellectual Developments",
       "stem": "Which intellectual development of the early 20th century most challenged Enlightenment confidence in human rationality?",
       "choices": [
-        { "id": "A", "text": "Freud's argument that unconscious drives shape human behavior" },
-        { "id": "B", "text": "Newton's laws of motion" },
-        { "id": "C", "text": "Locke's theory of natural rights" },
-        { "id": "D", "text": "Adam Smith's laissez-faire economics" }
+        {
+          "id": "A",
+          "text": "Adam Smith's laissez-faire economics"
+        },
+        {
+          "id": "B",
+          "text": "Newton's laws of motion"
+        },
+        {
+          "id": "C",
+          "text": "Locke's theory of natural rights"
+        },
+        {
+          "id": "D",
+          "text": "Freud's argument that unconscious drives shape human behavior"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Psychoanalysis suggested irrational forces drive behavior.",
       "distractors": {}
     },
     {
-      "id": "u8-frq1", "tier": "Exam level", "type": "frq", "topic": "Interwar Period", "frqType": "Short-answer question (SAQ)",
+      "id": "u8-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Interwar Period",
+      "frqType": "Short-answer question (SAQ)",
       "prompt": "Answer (a), (b), and (c).",
       "parts": [
-        { "label": "a", "prompt": "Describe ONE way the Treaty of Versailles contributed to political instability in Germany in the period 1919–1933.", "points": 1 },
-        { "label": "b", "prompt": "Explain ONE way the Great Depression affected European politics in the 1930s.", "points": 1 },
-        { "label": "c", "prompt": "Explain ONE reason Britain and France pursued appeasement toward Germany in the 1930s.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Describe ONE way the Treaty of Versailles contributed to political instability in Germany in the period 1919–1933.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Explain ONE way the Great Depression affected European politics in the 1930s.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Explain ONE reason Britain and France pursued appeasement toward Germany in the 1930s.",
+          "points": 1
+        }
       ],
       "points": 3,
       "minutes": 13,
       "rubric": [
-        { "criterion": "(a)", "points": 1, "description": "E.g., war guilt clause and reparations fueled resentment; the 'stab-in-the-back' myth undermined Weimar; reparations contributed to hyperinflation." },
-        { "criterion": "(b)", "points": 1, "description": "E.g., unemployment boosted extremist parties (Nazis, communists); democracies weakened; governments expanded economic intervention." },
-        { "criterion": "(c)", "points": 1, "description": "E.g., memories of WWI losses and public desire for peace; belief Versailles was too harsh; military unpreparedness; fear of communism; economic constraints." }
+        {
+          "criterion": "(a)",
+          "points": 1,
+          "description": "E.g., war guilt clause and reparations fueled resentment; the 'stab-in-the-back' myth undermined Weimar; reparations contributed to hyperinflation."
+        },
+        {
+          "criterion": "(b)",
+          "points": 1,
+          "description": "E.g., unemployment boosted extremist parties (Nazis, communists); democracies weakened; governments expanded economic intervention."
+        },
+        {
+          "criterion": "(c)",
+          "points": 1,
+          "description": "E.g., memories of WWI losses and public desire for peace; belief Versailles was too harsh; military unpreparedness; fear of communism; economic constraints."
+        }
       ],
       "sampleResponse": "(a) The treaty's war guilt clause and heavy reparations humiliated many Germans, who blamed the Weimar government for accepting them; nationalists used this resentment to attack the republic's legitimacy.\n\n(b) In Germany, the Depression caused mass unemployment that discredited the Weimar government, and voters turned to the Nazis, who became the largest party in the Reichstag by 1932, leading to Hitler's appointment as chancellor in 1933.\n\n(c) British and French leaders remembered the enormous losses of World War I and faced public opinion strongly opposed to another war, so they made concessions such as allowing the annexation of the Sudetenland at Munich in 1938."
     }

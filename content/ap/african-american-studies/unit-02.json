@@ -40,218 +40,502 @@
     "cramSheet": "**Trade:** ~12.5 million embarked · most to Brazil/Caribbean · Middle Passage · 1619 Point Comfort\n\n**Law:** Virginia 1662 (status follows mother) · slave codes · 3/5 Clause · trade ban 1808 · Fugitive Slave Act 1850 · Dred Scott 1857\n\n**Resistance:** everyday · maroons (Great Dismal Swamp, Palmares) · Stono 1739 · Gabriel 1800 · German Coast 1811 · Vesey 1822 · Turner 1831 · Haiti 1791–1804 · Underground Railroad, Tubman\n\n**Voices:** Wheatley 1773 · Equiano 1789 · Walker 1829 · Douglass 1845/1852 · Jacobs 1861 · Sojourner Truth · AME Church\n\n**Emancipation:** Proclamation 1863 · 54th Massachusetts · 13th Amendment 1865"
   },
   "vocab": [
-    { "term": "Middle Passage", "definition": "The forced voyage of enslaved Africans across the Atlantic." },
-    { "term": "Partus sequitur ventrem", "definition": "The legal rule (Virginia, 1662) that a child's free or enslaved status followed the mother's." },
-    { "term": "Slave codes", "definition": "Laws that defined enslaved people as property and restricted their movement, literacy, and assembly." },
-    { "term": "Maroon community", "definition": "A settlement of people who escaped slavery." },
-    { "term": "Stono Rebellion", "definition": "A 1739 South Carolina revolt by enslaved people heading toward Spanish Florida." },
-    { "term": "Haitian Revolution", "definition": "The 1791–1804 revolution that ended slavery and created an independent Haiti." },
-    { "term": "Underground Railroad", "definition": "A network that helped enslaved people escape to free states and Canada." },
-    { "term": "Slave narrative", "definition": "An autobiographical account by a formerly enslaved person, often written to promote abolition." },
-    { "term": "Fugitive Slave Act of 1850", "definition": "A law requiring citizens and officials to help return people who escaped slavery." },
-    { "term": "Dred Scott v. Sandford", "definition": "An 1857 Supreme Court ruling that Black Americans were not citizens." },
-    { "term": "Emancipation Proclamation", "definition": "Lincoln's 1863 order freeing enslaved people in Confederate-held areas." },
-    { "term": "Thirteenth Amendment", "definition": "The 1865 amendment abolishing slavery except as punishment for a crime." }
+    {
+      "term": "Middle Passage",
+      "definition": "The forced voyage of enslaved Africans across the Atlantic."
+    },
+    {
+      "term": "Partus sequitur ventrem",
+      "definition": "The legal rule (Virginia, 1662) that a child's free or enslaved status followed the mother's."
+    },
+    {
+      "term": "Slave codes",
+      "definition": "Laws that defined enslaved people as property and restricted their movement, literacy, and assembly."
+    },
+    {
+      "term": "Maroon community",
+      "definition": "A settlement of people who escaped slavery."
+    },
+    {
+      "term": "Stono Rebellion",
+      "definition": "A 1739 South Carolina revolt by enslaved people heading toward Spanish Florida."
+    },
+    {
+      "term": "Haitian Revolution",
+      "definition": "The 1791–1804 revolution that ended slavery and created an independent Haiti."
+    },
+    {
+      "term": "Underground Railroad",
+      "definition": "A network that helped enslaved people escape to free states and Canada."
+    },
+    {
+      "term": "Slave narrative",
+      "definition": "An autobiographical account by a formerly enslaved person, often written to promote abolition."
+    },
+    {
+      "term": "Fugitive Slave Act of 1850",
+      "definition": "A law requiring citizens and officials to help return people who escaped slavery."
+    },
+    {
+      "term": "Dred Scott v. Sandford",
+      "definition": "An 1857 Supreme Court ruling that Black Americans were not citizens."
+    },
+    {
+      "term": "Emancipation Proclamation",
+      "definition": "Lincoln's 1863 order freeing enslaved people in Confederate-held areas."
+    },
+    {
+      "term": "Thirteenth Amendment",
+      "definition": "The 1865 amendment abolishing slavery except as punishment for a crime."
+    }
   ],
   "practice": [
     {
-      "id": "u2-q01", "tier": "Intro", "type": "mcq", "topic": "Slave Trade",
+      "id": "u2-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Slave Trade",
       "stem": "The largest share of enslaved Africans in the trans-Atlantic trade were taken to",
       "choices": [
-        { "id": "A", "text": "Brazil and the Caribbean" },
-        { "id": "B", "text": "New England" },
-        { "id": "C", "text": "Canada" },
-        { "id": "D", "text": "Western Europe" }
+        {
+          "id": "A",
+          "text": "Canada"
+        },
+        {
+          "id": "B",
+          "text": "New England"
+        },
+        {
+          "id": "C",
+          "text": "Brazil and the Caribbean"
+        },
+        {
+          "id": "D",
+          "text": "Western Europe"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Sugar economies there absorbed most captives.",
       "distractors": {}
     },
     {
-      "id": "u2-q02", "tier": "Intro", "type": "mcq", "topic": "Resistance",
+      "id": "u2-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Resistance",
       "stem": "Which is an example of everyday resistance to slavery?",
       "choices": [
-        { "id": "A", "text": "Secretly learning to read despite laws forbidding it" },
-        { "id": "B", "text": "Passing the Fugitive Slave Act" },
-        { "id": "C", "text": "The Dred Scott decision" },
-        { "id": "D", "text": "The Three-Fifths Clause" }
+        {
+          "id": "A",
+          "text": "Secretly learning to read despite laws forbidding it"
+        },
+        {
+          "id": "B",
+          "text": "Passing the Fugitive Slave Act"
+        },
+        {
+          "id": "C",
+          "text": "The Dred Scott decision"
+        },
+        {
+          "id": "D",
+          "text": "The Three-Fifths Clause"
+        }
       ],
       "answer": "A",
       "explanation": "Literacy defied slave codes and enabled escape.",
       "distractors": {}
     },
     {
-      "id": "u2-q03", "tier": "Intro", "type": "mcq", "topic": "Resistance",
+      "id": "u2-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Resistance",
       "stem": "The Haitian Revolution resulted in",
       "choices": [
-        { "id": "A", "text": "the first independent Black republic in the Americas" },
-        { "id": "B", "text": "the restoration of French slavery in Haiti" },
-        { "id": "C", "text": "the end of slavery in the United States" },
-        { "id": "D", "text": "a Spanish colony" }
+        {
+          "id": "A",
+          "text": "the restoration of French slavery in Haiti"
+        },
+        {
+          "id": "B",
+          "text": "the first independent Black republic in the Americas"
+        },
+        {
+          "id": "C",
+          "text": "the end of slavery in the United States"
+        },
+        {
+          "id": "D",
+          "text": "a Spanish colony"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Haiti declared independence in 1804.",
       "distractors": {}
     },
     {
-      "id": "u2-q04", "tier": "Intro", "type": "mcq", "topic": "Emancipation",
+      "id": "u2-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Emancipation",
       "stem": "The Thirteenth Amendment",
       "choices": [
-        { "id": "A", "text": "abolished slavery except as punishment for a crime" },
-        { "id": "B", "text": "guaranteed Black men the right to vote" },
-        { "id": "C", "text": "defined citizenship" },
-        { "id": "D", "text": "freed only enslaved people in Confederate states" }
+        {
+          "id": "A",
+          "text": "defined citizenship"
+        },
+        {
+          "id": "B",
+          "text": "guaranteed Black men the right to vote"
+        },
+        {
+          "id": "C",
+          "text": "abolished slavery except as punishment for a crime"
+        },
+        {
+          "id": "D",
+          "text": "freed only enslaved people in Confederate states"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The exception later enabled exploitative convict leasing.",
-      "distractors": { "B": "That is the 15th.", "C": "That is the 14th.", "D": "That is the Emancipation Proclamation." }
+      "distractors": {
+        "B": "That is the 15th.",
+        "D": "That is the Emancipation Proclamation.",
+        "A": "That is the 14th."
+      }
     },
     {
-      "id": "u2-q05", "tier": "Exam level", "type": "mcq", "topic": "Law of Slavery",
+      "id": "u2-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Law of Slavery",
       "stem": "Virginia's 1662 law making a child's status follow the mother's most directly",
       "choices": [
-        { "id": "A", "text": "made slavery hereditary and gave enslavers an economic incentive to exploit enslaved women" },
-        { "id": "B", "text": "freed the children of enslaved mothers" },
-        { "id": "C", "text": "banned the slave trade" },
-        { "id": "D", "text": "followed English common law that status came from the father" }
+        {
+          "id": "A",
+          "text": "made slavery hereditary and gave enslavers an economic incentive to exploit enslaved women"
+        },
+        {
+          "id": "B",
+          "text": "freed the children of enslaved mothers"
+        },
+        {
+          "id": "C",
+          "text": "banned the slave trade"
+        },
+        {
+          "id": "D",
+          "text": "followed English common law that status came from the father"
+        }
       ],
       "answer": "A",
       "explanation": "It reversed the English norm and tied slavery to birth.",
       "distractors": {}
     },
     {
-      "id": "u2-q06", "tier": "Exam level", "type": "mcq", "topic": "Resistance",
+      "id": "u2-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Resistance",
       "stimulus": "Summary of a 1739 colonial report: A group of enslaved people near the Stono River in South Carolina seized weapons, killed several colonists, and marched south with drums and banners, gathering recruits, before the colonial militia attacked them.",
       "stem": "The rebels were most likely heading south because",
       "choices": [
-        { "id": "A", "text": "Spanish Florida offered freedom to people escaping slavery in British colonies" },
-        { "id": "B", "text": "Georgia had abolished slavery" },
-        { "id": "C", "text": "the Underground Railroad ran south" },
-        { "id": "D", "text": "Haiti had just become independent" }
+        {
+          "id": "A",
+          "text": "Haiti had just become independent"
+        },
+        {
+          "id": "B",
+          "text": "Georgia had abolished slavery"
+        },
+        {
+          "id": "C",
+          "text": "the Underground Railroad ran south"
+        },
+        {
+          "id": "D",
+          "text": "Spanish Florida offered freedom to people escaping slavery in British colonies"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Spain promised freedom at Fort Mose to weaken British colonies.",
-      "distractors": { "D": "Haiti's independence came in 1804." }
+      "distractors": {
+        "A": "Haiti's independence came in 1804."
+      }
     },
     {
-      "id": "u2-q07", "tier": "Exam level", "type": "mcq", "topic": "Resistance",
+      "id": "u2-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Resistance",
       "stimulus": "Summary of a 1739 colonial report: A group of enslaved people near the Stono River in South Carolina seized weapons, killed several colonists, and marched south with drums and banners, gathering recruits, before the colonial militia attacked them.",
       "stem": "Which was a direct consequence of the event described?",
       "choices": [
-        { "id": "A", "text": "South Carolina passed a stricter slave code (the Negro Act of 1740) restricting assembly, education, and movement" },
-        { "id": "B", "text": "South Carolina abolished slavery" },
-        { "id": "C", "text": "The Emancipation Proclamation" },
-        { "id": "D", "text": "The founding of the AME Church" }
+        {
+          "id": "A",
+          "text": "The founding of the AME Church"
+        },
+        {
+          "id": "B",
+          "text": "South Carolina abolished slavery"
+        },
+        {
+          "id": "C",
+          "text": "The Emancipation Proclamation"
+        },
+        {
+          "id": "D",
+          "text": "South Carolina passed a stricter slave code (the Negro Act of 1740) restricting assembly, education, and movement"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Revolts typically led to harsher controls.",
       "distractors": {}
     },
     {
-      "id": "u2-q08", "tier": "Exam level", "type": "mcq", "topic": "Abolition",
+      "id": "u2-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Abolition",
       "stem": "Frederick Douglass's 1852 speech on the meaning of the Fourth of July to the enslaved primarily argued that",
       "choices": [
-        { "id": "A", "text": "America's celebration of liberty was hypocritical while slavery persisted" },
-        { "id": "B", "text": "Black Americans should emigrate to Africa" },
-        { "id": "C", "text": "slavery was protected by natural law" },
-        { "id": "D", "text": "the Union should be dissolved immediately" }
+        {
+          "id": "A",
+          "text": "Black Americans should emigrate to Africa"
+        },
+        {
+          "id": "B",
+          "text": "America's celebration of liberty was hypocritical while slavery persisted"
+        },
+        {
+          "id": "C",
+          "text": "slavery was protected by natural law"
+        },
+        {
+          "id": "D",
+          "text": "the Union should be dissolved immediately"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Douglass contrasted national ideals with the reality of slavery.",
       "distractors": {}
     },
     {
-      "id": "u2-q09", "tier": "Exam level", "type": "mcq", "topic": "Abolition",
+      "id": "u2-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Abolition",
       "stem": "Harriet Jacobs's Incidents in the Life of a Slave Girl (1861) is especially significant because it",
       "choices": [
-        { "id": "A", "text": "exposed the sexual exploitation of enslaved women, appealing to Northern women readers" },
-        { "id": "B", "text": "was the first poetry book by an African American" },
-        { "id": "C", "text": "called for violent revolution" },
-        { "id": "D", "text": "described life in Mali" }
+        {
+          "id": "A",
+          "text": "called for violent revolution"
+        },
+        {
+          "id": "B",
+          "text": "was the first poetry book by an African American"
+        },
+        {
+          "id": "C",
+          "text": "exposed the sexual exploitation of enslaved women, appealing to Northern women readers"
+        },
+        {
+          "id": "D",
+          "text": "described life in Mali"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Jacobs centered gendered experiences of slavery.",
-      "distractors": { "B": "That is Phillis Wheatley (1773)." }
+      "distractors": {
+        "B": "That is Phillis Wheatley (1773)."
+      }
     },
     {
-      "id": "u2-q10", "tier": "Exam level", "type": "mcq", "topic": "Law of Slavery",
+      "id": "u2-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Law of Slavery",
       "stem": "The Fugitive Slave Act of 1850 increased Northern opposition to slavery mainly because it",
       "choices": [
-        { "id": "A", "text": "required Northerners to assist in capturing people who had escaped and denied accused fugitives a jury trial" },
-        { "id": "B", "text": "abolished slavery in the territories" },
-        { "id": "C", "text": "allowed Black citizens to vote" },
-        { "id": "D", "text": "reopened the international slave trade" }
+        {
+          "id": "A",
+          "text": "required Northerners to assist in capturing people who had escaped and denied accused fugitives a jury trial"
+        },
+        {
+          "id": "B",
+          "text": "abolished slavery in the territories"
+        },
+        {
+          "id": "C",
+          "text": "allowed Black citizens to vote"
+        },
+        {
+          "id": "D",
+          "text": "reopened the international slave trade"
+        }
       ],
       "answer": "A",
       "explanation": "It made the North complicit and endangered free Black people.",
       "distractors": {}
     },
     {
-      "id": "u2-q11", "tier": "Hardest", "type": "mcq", "topic": "Abolition",
+      "id": "u2-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Abolition",
       "stem": "Phillis Wheatley's 1773 book of poems was published with a statement signed by prominent Boston men confirming she wrote it. This attestation best reflects",
       "choices": [
-        { "id": "A", "text": "widespread white doubt about Black intellectual ability, which Black writers had to overcome" },
-        { "id": "B", "text": "a legal requirement for all poets" },
-        { "id": "C", "text": "Wheatley's opposition to publishing" },
-        { "id": "D", "text": "the Massachusetts ban on slavery in 1773" }
+        {
+          "id": "A",
+          "text": "the Massachusetts ban on slavery in 1773"
+        },
+        {
+          "id": "B",
+          "text": "a legal requirement for all poets"
+        },
+        {
+          "id": "C",
+          "text": "Wheatley's opposition to publishing"
+        },
+        {
+          "id": "D",
+          "text": "widespread white doubt about Black intellectual ability, which Black writers had to overcome"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Authentication framed many early Black publications.",
-      "distractors": { "D": "Massachusetts courts ended slavery in the 1780s." }
+      "distractors": {
+        "A": "Massachusetts courts ended slavery in the 1780s."
+      }
     },
     {
-      "id": "u2-q12", "tier": "Hardest", "type": "mcq", "topic": "Resistance",
+      "id": "u2-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Resistance",
       "stem": "Which statement best compares David Walker's Appeal (1829) with Frederick Douglass's Narrative (1845)?",
       "choices": [
-        { "id": "A", "text": "Walker directly urged enslaved people to resist, even by force; Douglass used his life story to persuade white readers to oppose slavery." },
-        { "id": "B", "text": "Both defended colonization of Black Americans to Africa." },
-        { "id": "C", "text": "Walker's work was a slave narrative, and Douglass's was a pamphlet calling for revolt." },
-        { "id": "D", "text": "Both were written after emancipation." }
+        {
+          "id": "A",
+          "text": "Walker directly urged enslaved people to resist, even by force; Douglass used his life story to persuade white readers to oppose slavery."
+        },
+        {
+          "id": "B",
+          "text": "Both defended colonization of Black Americans to Africa."
+        },
+        {
+          "id": "C",
+          "text": "Walker's work was a slave narrative, and Douglass's was a pamphlet calling for revolt."
+        },
+        {
+          "id": "D",
+          "text": "Both were written after emancipation."
+        }
       ],
       "answer": "A",
       "explanation": "Audience and strategy differ.",
       "distractors": {}
     },
     {
-      "id": "u2-q13", "tier": "Hardest", "type": "mcq", "topic": "Emancipation",
+      "id": "u2-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Emancipation",
       "stem": "Historians describe enslaved people's flight to Union lines during the Civil War as 'self-emancipation' because",
       "choices": [
-        { "id": "A", "text": "their actions pressured Union policy toward emancipation before and beyond formal proclamations" },
-        { "id": "B", "text": "the Confederacy legally freed them" },
-        { "id": "C", "text": "the 13th Amendment had already passed" },
-        { "id": "D", "text": "Union armies refused to accept them" }
+        {
+          "id": "A",
+          "text": "the 13th Amendment had already passed"
+        },
+        {
+          "id": "B",
+          "text": "the Confederacy legally freed them"
+        },
+        {
+          "id": "C",
+          "text": "their actions pressured Union policy toward emancipation before and beyond formal proclamations"
+        },
+        {
+          "id": "D",
+          "text": "Union armies refused to accept them"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "'Contrabands' forced the question of freedom onto federal policy.",
       "distractors": {}
     },
     {
-      "id": "u2-q14", "tier": "Hardest", "type": "mcq", "topic": "Slave Trade",
+      "id": "u2-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Slave Trade",
       "stem": "The end of the U.S. international slave trade in 1808 was followed by",
       "choices": [
-        { "id": "A", "text": "the growth of a large domestic slave trade moving enslaved people from the Upper South to the Deep South" },
-        { "id": "B", "text": "a sharp decline in the enslaved population" },
-        { "id": "C", "text": "the immediate end of slavery" },
-        { "id": "D", "text": "the end of cotton production" }
+        {
+          "id": "A",
+          "text": "a sharp decline in the enslaved population"
+        },
+        {
+          "id": "B",
+          "text": "the growth of a large domestic slave trade moving enslaved people from the Upper South to the Deep South"
+        },
+        {
+          "id": "C",
+          "text": "the immediate end of slavery"
+        },
+        {
+          "id": "D",
+          "text": "the end of cotton production"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Cotton expansion drove forced migration of about a million people within the U.S.",
       "distractors": {}
     },
     {
-      "id": "u2-frq1", "tier": "Hardest", "type": "frq", "topic": "Resistance", "frqType": "Document-based question (DBQ)",
+      "id": "u2-frq1",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Resistance",
+      "frqType": "Document-based question (DBQ)",
       "prompt": "Evaluate the extent to which enslaved and free Black people resisted slavery through means other than armed revolt, 1739–1861.\n\nDocument 1 (summary): A 1739 colonial report on the Stono Rebellion describes enslaved people marching toward Spanish Florida after seizing weapons.\n\nDocument 2 (summary): The preface to Phillis Wheatley's Poems (1773) includes a statement from Boston leaders certifying that a young enslaved woman wrote the poems.\n\nDocument 3 (summary): David Walker's Appeal (1829) condemns slaveholding Christians and calls on Black people to resist enslavement and assert their humanity.\n\nDocument 4 (summary): In his Narrative (1845), Frederick Douglass describes how learning to read made him understand slavery and set him on the path to freedom.\n\nDocument 5 (summary): A runaway notice offers a reward for a man and woman who escaped together, noting that they may try to pass as free.\n\nDocument 6 (summary): Harriet Jacobs's Incidents (1861) describes hiding for nearly seven years in a tiny attic space to escape her enslaver and stay near her children.\n\nDocument 7 (summary): Accounts of Harriet Tubman describe her guiding dozens of people north on repeated trips through the Underground Railroad.",
       "parts": [
-        { "label": "Essay", "prompt": "Write an argument responding to the prompt using at least four documents and outside evidence.", "points": 7 }
+        {
+          "label": "Essay",
+          "prompt": "Write an argument responding to the prompt using at least four documents and outside evidence.",
+          "points": 7
+        }
       ],
       "points": 7,
       "minutes": 60,
       "rubric": [
-        { "criterion": "Claim", "points": 1, "description": "A defensible claim that establishes a line of reasoning about the extent of nonviolent resistance." },
-        { "criterion": "Evidence from documents", "points": 2, "description": "1 point for accurately describing three documents; 2 for using four documents to support the argument." },
-        { "criterion": "Outside evidence", "points": 1, "description": "Specific evidence not in the documents (e.g., maroon communities, Nat Turner, the AME Church, Sojourner Truth, the Haitian Revolution)." },
-        { "criterion": "Reasoning", "points": 2, "description": "1 point for explaining how evidence supports the claim; 2 for a complex argument (e.g., showing how forms of resistance overlapped or how revolts and legal crackdowns shaped other forms)." },
-        { "criterion": "Sourcing", "points": 1, "description": "Explains how the perspective, purpose, context, or audience of at least two documents is relevant to the argument (e.g., Jacobs writing for Northern women; runaway notice written by an enslaver)." }
+        {
+          "criterion": "Claim",
+          "points": 1,
+          "description": "A defensible claim that establishes a line of reasoning about the extent of nonviolent resistance."
+        },
+        {
+          "criterion": "Evidence from documents",
+          "points": 2,
+          "description": "1 point for accurately describing three documents; 2 for using four documents to support the argument."
+        },
+        {
+          "criterion": "Outside evidence",
+          "points": 1,
+          "description": "Specific evidence not in the documents (e.g., maroon communities, Nat Turner, the AME Church, Sojourner Truth, the Haitian Revolution)."
+        },
+        {
+          "criterion": "Reasoning",
+          "points": 2,
+          "description": "1 point for explaining how evidence supports the claim; 2 for a complex argument (e.g., showing how forms of resistance overlapped or how revolts and legal crackdowns shaped other forms)."
+        },
+        {
+          "criterion": "Sourcing",
+          "points": 1,
+          "description": "Explains how the perspective, purpose, context, or audience of at least two documents is relevant to the argument (e.g., Jacobs writing for Northern women; runaway notice written by an enslaver)."
+        }
       ],
       "sampleResponse": "Although armed revolts such as Stono drew the most attention, enslaved and free Black people resisted slavery primarily through escape, literacy, writing, and preserving family, forms of resistance that were less visible but more widespread and that steadily built the abolitionist movement.\n\nEscape was the most common direct challenge. The runaway notice (Doc 5) shows a couple fleeing together; because it was written by an enslaver trying to recover 'property,' its worry that they might pass as free reveals how hard escape was to stop. Harriet Tubman's repeated trips (Doc 7) show that escape could become organized resistance, and Harriet Jacobs's seven years in hiding (Doc 6) show the extreme sacrifices people made. Jacobs wrote for Northern white women, so she stressed motherhood to win their sympathy.\n\nLiteracy and writing were also resistance. Douglass (Doc 4) describes reading as the path to freedom, which is why slave codes banned teaching enslaved people. Wheatley's poems (Doc 2) challenged claims about Black intellect, although the need for white men to certify her authorship shows the racism she faced. Walker's Appeal (Doc 3) went further, urging resistance; Southern states responded by banning its circulation.\n\nArmed revolt still mattered. Stono (Doc 1) and Nat Turner's 1831 rebellion brought harsher laws, which pushed many toward escape and writing instead. Outside the documents, Black institutions such as the AME Church provided spiritual and organizational resources for abolition. These forms overlapped: Tubman escaped and then organized, and Douglass escaped and then wrote, showing that nonviolent resistance was the dominant and lasting strategy."
     }

@@ -99,11 +99,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Zwei Varianten einer Sprache werden für verschiedene Zwecke benutzt"
+          "text": "Zwei völlig verschiedene Sprachen"
         },
         {
           "id": "B",
-          "text": "Zwei völlig verschiedene Sprachen"
+          "text": "Zwei Varianten einer Sprache werden für verschiedene Zwecke benutzt"
         },
         {
           "id": "C",
@@ -114,7 +114,7 @@
           "text": "Eine Sprache, die verschwindet"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Defined.",
       "distractors": {}
     },
@@ -129,7 +129,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "In der Zeitung und in den Nachrichten"
+          "text": "In der Schulpause"
         },
         {
           "id": "B",
@@ -137,14 +137,14 @@
         },
         {
           "id": "C",
-          "text": "In der Schulpause"
+          "text": "In der Zeitung und in den Nachrichten"
         },
         {
           "id": "D",
           "text": "Im Laden"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Written/formal.",
       "distractors": {}
     },
@@ -189,7 +189,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Sie verstand den Dialekt am Anfang nicht, obwohl sie Deutsch gelernt hatte"
+          "text": "Sie durfte nicht in der Schweiz arbeiten"
         },
         {
           "id": "B",
@@ -197,14 +197,14 @@
         },
         {
           "id": "C",
-          "text": "Sie durfte nicht in der Schweiz arbeiten"
+          "text": "Sie verstand den Dialekt am Anfang nicht, obwohl sie Deutsch gelernt hatte"
         },
         {
           "id": "D",
           "text": "Sie mochte das Mittagessen nicht"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Dialect barrier.",
       "distractors": {}
     },
@@ -219,7 +219,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Dass Menschen ausgeschlossen werden, wenn nicht alle Hochdeutsch sprechen"
+          "text": "Dass Kinder kein Englisch lernen"
         },
         {
           "id": "B",
@@ -231,10 +231,10 @@
         },
         {
           "id": "D",
-          "text": "Dass Kinder kein Englisch lernen"
+          "text": "Dass Menschen ausgeschlossen werden, wenn nicht alle Hochdeutsch sprechen"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Inclusion concern.",
       "distractors": {}
     },
@@ -249,11 +249,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Wortübernahmen sind normal und bedrohen das Deutsche nicht"
+          "text": "Anglizismen sollten verboten werden"
         },
         {
           "id": "B",
-          "text": "Anglizismen sollten verboten werden"
+          "text": "Wortübernahmen sind normal und bedrohen das Deutsche nicht"
         },
         {
           "id": "C",
@@ -264,7 +264,7 @@
           "text": "Nur junge Leute benutzen Anglizismen"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "His view.",
       "distractors": {}
     },
@@ -309,7 +309,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Wenn Behörden oder Firmen Begriffe benutzen, die ältere Menschen nicht verstehen"
+          "text": "Wenn sie im Wörterbuch stehen"
         },
         {
           "id": "B",
@@ -317,14 +317,14 @@
         },
         {
           "id": "C",
-          "text": "Wenn sie im Wörterbuch stehen"
+          "text": "Wenn Behörden oder Firmen Begriffe benutzen, die ältere Menschen nicht verstehen"
         },
         {
           "id": "D",
           "text": "Wenn sie aus Amerika kommen"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Exclusion.",
       "distractors": {}
     },
@@ -339,11 +339,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Anglizismen werden an die deutsche Grammatik angepasst"
+          "text": "Deutsche benutzen keine Partizipien"
         },
         {
           "id": "B",
-          "text": "Deutsche benutzen keine Partizipien"
+          "text": "Anglizismen werden an die deutsche Grammatik angepasst"
         },
         {
           "id": "C",
@@ -354,7 +354,7 @@
           "text": "Das Wort ist falsch"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "German conjugation of loans.",
       "distractors": {}
     },
@@ -369,7 +369,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Gelassen und differenziert"
+          "text": "Ängstlich"
         },
         {
           "id": "B",
@@ -381,10 +381,10 @@
         },
         {
           "id": "D",
-          "text": "Ängstlich"
+          "text": "Gelassen und differenziert"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Calm but nuanced.",
       "distractors": {}
     },
@@ -399,11 +399,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Eine Zusage mitteilen und Unterlagen anfordern"
+          "text": "Eine Absage schicken"
         },
         {
           "id": "B",
-          "text": "Eine Absage schicken"
+          "text": "Eine Zusage mitteilen und Unterlagen anfordern"
         },
         {
           "id": "C",
@@ -414,7 +414,7 @@
           "text": "Eine Rechnung schicken"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Acceptance + requests.",
       "distractors": {}
     },
@@ -429,7 +429,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Kulturelle Aktivitäten und ein soziales Projekt"
+          "text": "Ein Praktikum in einer Firma"
         },
         {
           "id": "B",
@@ -437,14 +437,14 @@
         },
         {
           "id": "C",
-          "text": "Ein Praktikum in einer Firma"
+          "text": "Kulturelle Aktivitäten und ein soziales Projekt"
         },
         {
           "id": "D",
           "text": "Nichts"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Afternoons.",
       "distractors": {}
     },
@@ -488,7 +488,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "verstehen"
+          "text": "versteht"
         },
         {
           "id": "B",
@@ -500,10 +500,10 @@
         },
         {
           "id": "D",
-          "text": "versteht"
+          "text": "verstehen"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Damit + verb-final, plural present.",
       "distractors": {}
     },

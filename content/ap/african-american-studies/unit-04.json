@@ -40,218 +40,492 @@
     "cramSheet": "**Legal:** Brown 1954 (Marshall) · CRA 1964 · VRA 1965 · Fair Housing 1968\n\n**Direct action:** Till 1955 · Montgomery 1955–56 · Little Rock 1957 · Greensboro 1960 · SNCC (Ella Baker) · Freedom Rides 1961 · Birmingham 1963 · March on Washington 1963 · Freedom Summer 1964 (Hamer, MFDP) · Selma 1965\n\n**Black Power:** Malcolm X · Carmichael 1966 · Black Panthers 1966 (breakfast program, COINTELPRO) · Black Arts (Baraka) · SF State 1968–69\n\n**Black feminism:** Combahee 1977 · Crenshaw intersectionality 1989 · Chisholm 1968/1972\n\n**Diaspora:** Pan-Africanism · Négritude · Ghana 1957\n\n**Now:** redlining · The New Jim Crow 2010 · H.R. 40 1989 · BLM 2013/2020 · Obama 2008 · Afrofuturism (Butler)"
   },
   "vocab": [
-    { "term": "Brown v. Board of Education", "definition": "The 1954 Supreme Court ruling that segregated public schools are unconstitutional." },
-    { "term": "Nonviolent direct action", "definition": "Protest tactics such as boycotts, sit-ins, and marches that confront injustice without violence." },
-    { "term": "SNCC", "definition": "The Student Nonviolent Coordinating Committee, a youth-led civil rights group founded in 1960." },
-    { "term": "Group-centered leadership", "definition": "Ella Baker's model of empowering local people rather than relying on a single leader." },
-    { "term": "Voting Rights Act of 1965", "definition": "A law banning literacy tests and authorizing federal oversight of voter registration." },
-    { "term": "Black Power", "definition": "A movement emphasizing racial pride, self-determination, and community control." },
-    { "term": "Black Panther Party", "definition": "An organization founded in Oakland in 1966 that combined self-defense with community programs." },
-    { "term": "Black Arts Movement", "definition": "A 1960s–70s artistic movement creating work rooted in Black communities and politics." },
-    { "term": "Intersectionality", "definition": "The idea that overlapping forms of oppression, such as race, gender, and class, interact." },
-    { "term": "Pan-Africanism", "definition": "A movement for unity and solidarity among people of African descent worldwide." },
-    { "term": "Redlining", "definition": "Denying loans or services in Black neighborhoods, often marked on 1930s federal maps." },
-    { "term": "Reparations", "definition": "Compensation proposed to address the harms of slavery and later discrimination." }
+    {
+      "term": "Brown v. Board of Education",
+      "definition": "The 1954 Supreme Court ruling that segregated public schools are unconstitutional."
+    },
+    {
+      "term": "Nonviolent direct action",
+      "definition": "Protest tactics such as boycotts, sit-ins, and marches that confront injustice without violence."
+    },
+    {
+      "term": "SNCC",
+      "definition": "The Student Nonviolent Coordinating Committee, a youth-led civil rights group founded in 1960."
+    },
+    {
+      "term": "Group-centered leadership",
+      "definition": "Ella Baker's model of empowering local people rather than relying on a single leader."
+    },
+    {
+      "term": "Voting Rights Act of 1965",
+      "definition": "A law banning literacy tests and authorizing federal oversight of voter registration."
+    },
+    {
+      "term": "Black Power",
+      "definition": "A movement emphasizing racial pride, self-determination, and community control."
+    },
+    {
+      "term": "Black Panther Party",
+      "definition": "An organization founded in Oakland in 1966 that combined self-defense with community programs."
+    },
+    {
+      "term": "Black Arts Movement",
+      "definition": "A 1960s–70s artistic movement creating work rooted in Black communities and politics."
+    },
+    {
+      "term": "Intersectionality",
+      "definition": "The idea that overlapping forms of oppression, such as race, gender, and class, interact."
+    },
+    {
+      "term": "Pan-Africanism",
+      "definition": "A movement for unity and solidarity among people of African descent worldwide."
+    },
+    {
+      "term": "Redlining",
+      "definition": "Denying loans or services in Black neighborhoods, often marked on 1930s federal maps."
+    },
+    {
+      "term": "Reparations",
+      "definition": "Compensation proposed to address the harms of slavery and later discrimination."
+    }
   ],
   "practice": [
     {
-      "id": "u4-q01", "tier": "Intro", "type": "mcq", "topic": "Civil Rights",
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Civil Rights",
       "stem": "Brown v. Board of Education (1954) ruled that",
       "choices": [
-        { "id": "A", "text": "segregated public schools are unconstitutional" },
-        { "id": "B", "text": "separate but equal facilities are constitutional" },
-        { "id": "C", "text": "literacy tests are illegal" },
-        { "id": "D", "text": "housing discrimination is banned" }
+        {
+          "id": "A",
+          "text": "housing discrimination is banned"
+        },
+        {
+          "id": "B",
+          "text": "separate but equal facilities are constitutional"
+        },
+        {
+          "id": "C",
+          "text": "literacy tests are illegal"
+        },
+        {
+          "id": "D",
+          "text": "segregated public schools are unconstitutional"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "It overturned Plessy in public education.",
       "distractors": {}
     },
     {
-      "id": "u4-q02", "tier": "Intro", "type": "mcq", "topic": "Civil Rights",
+      "id": "u4-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Civil Rights",
       "stem": "The Voting Rights Act of 1965 followed directly from",
       "choices": [
-        { "id": "A", "text": "the Selma marches and the violence of 'Bloody Sunday'" },
-        { "id": "B", "text": "the Greensboro sit-ins" },
-        { "id": "C", "text": "the Little Rock Nine" },
-        { "id": "D", "text": "the founding of the NAACP" }
+        {
+          "id": "A",
+          "text": "the Greensboro sit-ins"
+        },
+        {
+          "id": "B",
+          "text": "the Selma marches and the violence of 'Bloody Sunday'"
+        },
+        {
+          "id": "C",
+          "text": "the Little Rock Nine"
+        },
+        {
+          "id": "D",
+          "text": "the founding of the NAACP"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Televised attacks on marchers spurred Congress to act.",
       "distractors": {}
     },
     {
-      "id": "u4-q03", "tier": "Intro", "type": "mcq", "topic": "Black Power",
+      "id": "u4-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Black Power",
       "stem": "The Black Panther Party's free breakfast program reflected its goal of",
       "choices": [
-        { "id": "A", "text": "community self-reliance and meeting local needs the government neglected" },
-        { "id": "B", "text": "integrating public schools" },
-        { "id": "C", "text": "supporting the Nation of Islam" },
-        { "id": "D", "text": "electing members to Congress" }
+        {
+          "id": "A",
+          "text": "integrating public schools"
+        },
+        {
+          "id": "B",
+          "text": "community self-reliance and meeting local needs the government neglected"
+        },
+        {
+          "id": "C",
+          "text": "supporting the Nation of Islam"
+        },
+        {
+          "id": "D",
+          "text": "electing members to Congress"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Survival programs were central to the Panthers' work.",
       "distractors": {}
     },
     {
-      "id": "u4-q04", "tier": "Intro", "type": "mcq", "topic": "Contemporary",
+      "id": "u4-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Contemporary",
       "stem": "Black Lives Matter was founded in 2013 after",
       "choices": [
-        { "id": "A", "text": "the acquittal of the man who killed Trayvon Martin" },
-        { "id": "B", "text": "the Montgomery bus boycott" },
-        { "id": "C", "text": "the election of Barack Obama" },
-        { "id": "D", "text": "the Tulsa massacre" }
+        {
+          "id": "A",
+          "text": "the election of Barack Obama"
+        },
+        {
+          "id": "B",
+          "text": "the Montgomery bus boycott"
+        },
+        {
+          "id": "C",
+          "text": "the acquittal of the man who killed Trayvon Martin"
+        },
+        {
+          "id": "D",
+          "text": "the Tulsa massacre"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Garza, Cullors, and Tometi launched it online.",
       "distractors": {}
     },
     {
-      "id": "u4-q05", "tier": "Exam level", "type": "mcq", "topic": "Civil Rights",
+      "id": "u4-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Civil Rights",
       "stem": "Ella Baker's approach to leadership, which influenced SNCC, emphasized",
       "choices": [
-        { "id": "A", "text": "developing local grassroots leaders rather than depending on a single charismatic figure" },
-        { "id": "B", "text": "armed self-defense" },
-        { "id": "C", "text": "litigation in the Supreme Court" },
-        { "id": "D", "text": "emigration to Africa" }
+        {
+          "id": "A",
+          "text": "developing local grassroots leaders rather than depending on a single charismatic figure"
+        },
+        {
+          "id": "B",
+          "text": "armed self-defense"
+        },
+        {
+          "id": "C",
+          "text": "litigation in the Supreme Court"
+        },
+        {
+          "id": "D",
+          "text": "emigration to Africa"
+        }
       ],
       "answer": "A",
       "explanation": "Group-centered leadership shaped SNCC's organizing.",
       "distractors": {}
     },
     {
-      "id": "u4-q06", "tier": "Exam level", "type": "mcq", "topic": "Civil Rights",
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Civil Rights",
       "stimulus": "Summary: In 1963, a jailed minister wrote a response to local white clergy who had criticized demonstrations in his city as untimely and urged patience. He argued that oppressed people cannot wait indefinitely for justice, that nonviolent direct action creates necessary tension to force negotiation, and that people have a moral duty to disobey unjust laws.",
       "stem": "This document is",
       "choices": [
-        { "id": "A", "text": "Martin Luther King Jr.'s Letter from Birmingham Jail" },
-        { "id": "B", "text": "Malcolm X's autobiography" },
-        { "id": "C", "text": "the Combahee River Collective Statement" },
-        { "id": "D", "text": "the Black Panther Ten-Point Program" }
+        {
+          "id": "A",
+          "text": "the Black Panther Ten-Point Program"
+        },
+        {
+          "id": "B",
+          "text": "Malcolm X's autobiography"
+        },
+        {
+          "id": "C",
+          "text": "the Combahee River Collective Statement"
+        },
+        {
+          "id": "D",
+          "text": "Martin Luther King Jr.'s Letter from Birmingham Jail"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Written during the 1963 Birmingham campaign.",
       "distractors": {}
     },
     {
-      "id": "u4-q07", "tier": "Exam level", "type": "mcq", "topic": "Civil Rights",
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Civil Rights",
       "stimulus": "Summary: In 1963, a jailed minister wrote a response to local white clergy who had criticized demonstrations in his city as untimely and urged patience. He argued that oppressed people cannot wait indefinitely for justice, that nonviolent direct action creates necessary tension to force negotiation, and that people have a moral duty to disobey unjust laws.",
       "stem": "The author's argument about unjust laws is most similar to the reasoning behind",
       "choices": [
-        { "id": "A", "text": "the Greensboro sit-ins, where students deliberately broke segregation rules" },
-        { "id": "B", "text": "Booker T. Washington's Atlanta address" },
-        { "id": "C", "text": "the Plessy decision" },
-        { "id": "D", "text": "the Black Codes" }
+        {
+          "id": "A",
+          "text": "the Black Codes"
+        },
+        {
+          "id": "B",
+          "text": "Booker T. Washington's Atlanta address"
+        },
+        {
+          "id": "C",
+          "text": "the Plessy decision"
+        },
+        {
+          "id": "D",
+          "text": "the Greensboro sit-ins, where students deliberately broke segregation rules"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Civil disobedience against segregation laws.",
       "distractors": {}
     },
     {
-      "id": "u4-q08", "tier": "Exam level", "type": "mcq", "topic": "Black Power",
+      "id": "u4-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Black Power",
       "stem": "Black Power advocates in the late 1960s most often criticized mainstream civil rights strategy for",
       "choices": [
-        { "id": "A", "text": "prioritizing integration and nonviolence over Black self-determination and community control" },
-        { "id": "B", "text": "relying too heavily on armed struggle" },
-        { "id": "C", "text": "opposing the Voting Rights Act" },
-        { "id": "D", "text": "supporting segregation" }
+        {
+          "id": "A",
+          "text": "opposing the Voting Rights Act"
+        },
+        {
+          "id": "B",
+          "text": "relying too heavily on armed struggle"
+        },
+        {
+          "id": "C",
+          "text": "prioritizing integration and nonviolence over Black self-determination and community control"
+        },
+        {
+          "id": "D",
+          "text": "supporting segregation"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Carmichael urged independent Black institutions and political power.",
       "distractors": {}
     },
     {
-      "id": "u4-q09", "tier": "Exam level", "type": "mcq", "topic": "Black Feminism",
+      "id": "u4-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Black Feminism",
       "stem": "The Combahee River Collective Statement (1977) argued that",
       "choices": [
-        { "id": "A", "text": "Black women face interlocking oppressions of race, gender, sexuality, and class that must be fought together" },
-        { "id": "B", "text": "sexism is unrelated to racism" },
-        { "id": "C", "text": "Black women should focus only on voting rights" },
-        { "id": "D", "text": "the women's movement fully represented Black women" }
+        {
+          "id": "A",
+          "text": "Black women face interlocking oppressions of race, gender, sexuality, and class that must be fought together"
+        },
+        {
+          "id": "B",
+          "text": "sexism is unrelated to racism"
+        },
+        {
+          "id": "C",
+          "text": "Black women should focus only on voting rights"
+        },
+        {
+          "id": "D",
+          "text": "the women's movement fully represented Black women"
+        }
       ],
       "answer": "A",
       "explanation": "It anticipated the later term 'intersectionality.'",
       "distractors": {}
     },
     {
-      "id": "u4-q10", "tier": "Exam level", "type": "mcq", "topic": "Contemporary",
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Contemporary",
       "stem": "Historians link redlining to today's racial wealth gap mainly because",
       "choices": [
-        { "id": "A", "text": "denying mortgages in Black neighborhoods limited homeownership, the main way American families build and pass down wealth" },
-        { "id": "B", "text": "redlining raised home values in Black neighborhoods" },
-        { "id": "C", "text": "it was required by the Thirteenth Amendment" },
-        { "id": "D", "text": "it applied only to commercial property" }
+        {
+          "id": "A",
+          "text": "redlining raised home values in Black neighborhoods"
+        },
+        {
+          "id": "B",
+          "text": "denying mortgages in Black neighborhoods limited homeownership, the main way American families build and pass down wealth"
+        },
+        {
+          "id": "C",
+          "text": "it was required by the Thirteenth Amendment"
+        },
+        {
+          "id": "D",
+          "text": "it applied only to commercial property"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Home equity compounds across generations.",
       "distractors": {}
     },
     {
-      "id": "u4-q11", "tier": "Hardest", "type": "mcq", "topic": "Black Power",
+      "id": "u4-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Black Power",
       "stem": "Which statement most accurately describes changes in Malcolm X's views?",
       "choices": [
-        { "id": "A", "text": "After leaving the Nation of Islam and visiting Mecca in 1964, he moved toward broader coalitions and framed Black struggle in international human rights terms." },
-        { "id": "B", "text": "He moved from nonviolence to armed revolution." },
-        { "id": "C", "text": "He abandoned Black nationalism to join the NAACP." },
-        { "id": "D", "text": "His views never changed." }
+        {
+          "id": "A",
+          "text": "His views never changed."
+        },
+        {
+          "id": "B",
+          "text": "He moved from nonviolence to armed revolution."
+        },
+        {
+          "id": "C",
+          "text": "He abandoned Black nationalism to join the NAACP."
+        },
+        {
+          "id": "D",
+          "text": "After leaving the Nation of Islam and visiting Mecca in 1964, he moved toward broader coalitions and framed Black struggle in international human rights terms."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "He founded the Organization of Afro-American Unity and sought to bring the case to the UN.",
       "distractors": {}
     },
     {
-      "id": "u4-q12", "tier": "Hardest", "type": "mcq", "topic": "Diaspora",
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Diaspora",
       "stem": "Ghana's independence in 1957 influenced the U.S. civil rights movement mainly by",
       "choices": [
-        { "id": "A", "text": "showing that colonized Black peoples could win self-government, inspiring activists who linked their struggle to global decolonization" },
-        { "id": "B", "text": "ending segregation in the U.S." },
-        { "id": "C", "text": "providing funding to the NAACP" },
-        { "id": "D", "text": "causing the Great Migration" }
+        {
+          "id": "A",
+          "text": "showing that colonized Black peoples could win self-government, inspiring activists who linked their struggle to global decolonization"
+        },
+        {
+          "id": "B",
+          "text": "ending segregation in the U.S."
+        },
+        {
+          "id": "C",
+          "text": "providing funding to the NAACP"
+        },
+        {
+          "id": "D",
+          "text": "causing the Great Migration"
+        }
       ],
       "answer": "A",
       "explanation": "King attended Ghana's independence celebration; activists drew on Pan-African ideas.",
       "distractors": {}
     },
     {
-      "id": "u4-q13", "tier": "Hardest", "type": "mcq", "topic": "Contemporary",
+      "id": "u4-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Contemporary",
       "stem": "Michelle Alexander's argument in The New Jim Crow (2010) is best summarized as",
       "choices": [
-        { "id": "A", "text": "mass incarceration functions as a system of racial control, stripping people with criminal records of rights in ways similar to Jim Crow" },
-        { "id": "B", "text": "racial discrimination ended with the Civil Rights Act" },
-        { "id": "C", "text": "segregation should be restored" },
-        { "id": "D", "text": "prisons have no racial disparities" }
+        {
+          "id": "A",
+          "text": "racial discrimination ended with the Civil Rights Act"
+        },
+        {
+          "id": "B",
+          "text": "mass incarceration functions as a system of racial control, stripping people with criminal records of rights in ways similar to Jim Crow"
+        },
+        {
+          "id": "C",
+          "text": "segregation should be restored"
+        },
+        {
+          "id": "D",
+          "text": "prisons have no racial disparities"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Loss of voting, housing, and employment rights after conviction parallels older exclusions.",
       "distractors": {}
     },
     {
-      "id": "u4-q14", "tier": "Hardest", "type": "mcq", "topic": "Movements",
+      "id": "u4-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Movements",
       "stem": "Which comparison between the 1960s civil rights movement and Black Lives Matter is most accurate?",
       "choices": [
-        { "id": "A", "text": "Both used mass protest to expose injustice, but BLM emphasized decentralized leadership and social media, echoing Ella Baker's group-centered model." },
-        { "id": "B", "text": "Both were led by a single national leader." },
-        { "id": "C", "text": "BLM focused mainly on school desegregation." },
-        { "id": "D", "text": "The civil rights movement relied primarily on social media." }
+        {
+          "id": "A",
+          "text": "BLM focused mainly on school desegregation."
+        },
+        {
+          "id": "B",
+          "text": "Both were led by a single national leader."
+        },
+        {
+          "id": "C",
+          "text": "Both used mass protest to expose injustice, but BLM emphasized decentralized leadership and social media, echoing Ella Baker's group-centered model."
+        },
+        {
+          "id": "D",
+          "text": "The civil rights movement relied primarily on social media."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "BLM's founders explicitly embraced decentralized organizing.",
       "distractors": {}
     },
     {
-      "id": "u4-frq1", "tier": "Exam level", "type": "frq", "topic": "Movements", "frqType": "Short-answer question (3 points)",
+      "id": "u4-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Movements",
+      "frqType": "Short-answer question (3 points)",
       "prompt": "Answer A, B, and C.",
       "parts": [
-        { "label": "A", "prompt": "Describe one goal shared by the civil rights movement and the Black Power movement.", "points": 1 },
-        { "label": "B", "prompt": "Explain one difference between the strategies of the civil rights movement and the Black Power movement.", "points": 1 },
-        { "label": "C", "prompt": "Explain how Black women activists shaped either movement.", "points": 1 }
+        {
+          "label": "A",
+          "prompt": "Describe one goal shared by the civil rights movement and the Black Power movement.",
+          "points": 1
+        },
+        {
+          "label": "B",
+          "prompt": "Explain one difference between the strategies of the civil rights movement and the Black Power movement.",
+          "points": 1
+        },
+        {
+          "label": "C",
+          "prompt": "Explain how Black women activists shaped either movement.",
+          "points": 1
+        }
       ],
       "points": 3,
       "minutes": 13,
       "rubric": [
-        { "criterion": "A", "points": 1, "description": "E.g., ending racial discrimination, securing political power and voting rights, improving economic conditions, dignity for Black Americans." },
-        { "criterion": "B", "points": 1, "description": "E.g., nonviolence and integration (sit-ins, marches, legislation) vs self-defense, community control, independent Black institutions (Panthers, Carmichael)." },
-        { "criterion": "C", "points": 1, "description": "E.g., Ella Baker and SNCC's grassroots model; Fannie Lou Hamer and the MFDP; Rosa Parks and boycott organizing; women's leadership in Panther community programs; Black feminist critiques like Combahee." }
+        {
+          "criterion": "A",
+          "points": 1,
+          "description": "E.g., ending racial discrimination, securing political power and voting rights, improving economic conditions, dignity for Black Americans."
+        },
+        {
+          "criterion": "B",
+          "points": 1,
+          "description": "E.g., nonviolence and integration (sit-ins, marches, legislation) vs self-defense, community control, independent Black institutions (Panthers, Carmichael)."
+        },
+        {
+          "criterion": "C",
+          "points": 1,
+          "description": "E.g., Ella Baker and SNCC's grassroots model; Fannie Lou Hamer and the MFDP; Rosa Parks and boycott organizing; women's leadership in Panther community programs; Black feminist critiques like Combahee."
+        }
       ],
       "sampleResponse": "A. Both movements sought to end racial oppression and give Black Americans real political power, such as the ability to vote and influence local government.\n\nB. The civil rights movement mainly used nonviolent direct action and pushed for integration and federal laws like the Voting Rights Act, while Black Power groups such as the Black Panthers stressed self-defense and community control through independent institutions.\n\nC. Ella Baker shaped the civil rights movement by helping found SNCC and promoting group-centered leadership, which trained local people to organize voter registration in places like Mississippi instead of relying on national leaders."
     }

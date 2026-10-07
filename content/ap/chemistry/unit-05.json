@@ -104,7 +104,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "rate = k[NO₂][CO]"
+          "text": "It cannot be determined without experimental data."
         },
         {
           "id": "B",
@@ -116,13 +116,13 @@
         },
         {
           "id": "D",
-          "text": "It cannot be determined without experimental data."
+          "text": "rate = k[NO₂][CO]"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "For an elementary step, orders equal the coefficients of the reactants.",
       "distractors": {
-        "D": "True for an overall reaction, but this step is stated to be elementary."
+        "A": "True for an overall reaction, but this step is stated to be elementary."
       }
     },
     {
@@ -192,11 +192,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "increases ΔH"
+          "text": "lowers the activation energy for both forward and reverse reactions"
         },
         {
           "id": "B",
-          "text": "lowers the activation energy for both forward and reverse reactions"
+          "text": "increases ΔH"
         },
         {
           "id": "C",
@@ -207,7 +207,7 @@
           "text": "increases the kinetic energy of the reactant molecules"
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "A catalyst provides an alternative pathway with lower Ea; ΔH, K, and temperature are unchanged.",
       "distractors": {}
     },
@@ -225,18 +225,18 @@
         },
         {
           "id": "B",
-          "text": "rate = k[A]²"
+          "text": "rate = k[A]²[B]"
         },
         {
           "id": "C",
-          "text": "rate = k[A]²[B]"
+          "text": "rate = k[A]²"
         },
         {
           "id": "D",
           "text": "rate = k[A]"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Trials 1→2: [A] ×2, rate ×4 → second order. Trials 1→3: [B] ×3, rate unchanged → zero order.",
       "distractors": {
         "A": "Uses coefficients."
@@ -314,11 +314,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Activation energy decreases at higher temperature."
+          "text": "A greater fraction of collisions have energy equal to or greater than the activation energy."
         },
         {
           "id": "B",
-          "text": "A greater fraction of collisions have energy equal to or greater than the activation energy."
+          "text": "Activation energy decreases at higher temperature."
         },
         {
           "id": "C",
@@ -329,10 +329,10 @@
           "text": "Molecules become larger and collide more often."
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "The Maxwell–Boltzmann distribution shifts to higher energies, increasing the fraction above Ea. Collision frequency rises only slightly.",
       "distractors": {
-        "A": "Ea is a property of the pathway, not of temperature."
+        "B": "Ea is a property of the pathway, not of temperature."
       }
     },
     {
@@ -349,7 +349,7 @@
         },
         {
           "id": "B",
-          "text": "I⁻ is a catalyst, IO⁻ is an intermediate, and rate = k[H₂O₂][I⁻]."
+          "text": "The overall reaction is 2H₂O₂ + I⁻ → 2H₂O + O₂."
         },
         {
           "id": "C",
@@ -357,13 +357,13 @@
         },
         {
           "id": "D",
-          "text": "The overall reaction is 2H₂O₂ + I⁻ → 2H₂O + O₂."
+          "text": "I⁻ is a catalyst, IO⁻ is an intermediate, and rate = k[H₂O₂][I⁻]."
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "I⁻ is consumed then regenerated (catalyst); IO⁻ is formed then consumed (intermediate). The slow step gives the rate law.",
       "distractors": {
-        "D": "I⁻ cancels; overall is 2H₂O₂ → 2H₂O + O₂."
+        "B": "I⁻ cancels; overall is 2H₂O₂ → 2H₂O + O₂."
       }
     },
     {
@@ -406,11 +406,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "rate = k[N₂O₂][O₂]"
+          "text": "rate = k[NO]²[O₂]"
         },
         {
           "id": "B",
-          "text": "rate = k[NO]²[O₂]"
+          "text": "rate = k[N₂O₂][O₂]"
         },
         {
           "id": "C",
@@ -421,10 +421,10 @@
           "text": "rate = k[NO][O₂]"
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Slow-step rate = k₂[N₂O₂][O₂]. The fast equilibrium gives [N₂O₂] = K[NO]², so rate = k[NO]²[O₂].",
       "distractors": {
-        "A": "Contains an intermediate; rate laws must use reactants."
+        "B": "Contains an intermediate; rate laws must use reactants."
       }
     },
     {
@@ -440,7 +440,7 @@
         },
         {
           "id": "B",
-          "text": "It is twice as long, because t½ = 1/(k[A]₀) and [A] has been halved."
+          "text": "It is four times as long, because the reaction is second order."
         },
         {
           "id": "C",
@@ -448,10 +448,10 @@
         },
         {
           "id": "D",
-          "text": "It is four times as long, because the reaction is second order."
+          "text": "It is twice as long, because t½ = 1/(k[A]₀) and [A] has been halved."
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Second-order half-life is inversely proportional to the starting concentration; halving [A] doubles t½.",
       "distractors": {
         "A": "Only true for first order."
@@ -467,11 +467,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Step 2 is rate-determining, and the reaction is endothermic."
+          "text": "Step 1 is rate-determining (Ea = 80 kJ/mol), an intermediate exists at the valley, and ΔH = −30 kJ/mol."
         },
         {
           "id": "B",
-          "text": "Step 1 is rate-determining (Ea = 80 kJ/mol), an intermediate exists at the valley, and ΔH = −30 kJ/mol."
+          "text": "Step 2 is rate-determining, and the reaction is endothermic."
         },
         {
           "id": "C",
@@ -482,7 +482,7 @@
           "text": "The valley represents the transition state of the overall reaction."
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Step 1 Ea = 80; step 2 Ea = 50 − 20 = 30. The larger barrier is step 1. Valleys are intermediates; ΔH = products − reactants = −30.",
       "distractors": {
         "D": "Transition states are peaks."

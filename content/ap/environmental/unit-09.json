@@ -45,230 +45,590 @@
     "cramSheet": "**Ozone:** CFCs → Cl destroys O₃ · UV ↑ → skin cancer, cataracts, ↓ phytoplankton · Montreal Protocol\n\n**Greenhouse:** IR absorbed by CO₂, CH₄, N₂O, H₂O · CO₂e = mass × GWP\n\n**Keeling:** rising + seasonal (NH summer ↓)\n\n**Feedbacks:** ice albedo · permafrost CH₄\n\n**Sea level:** thermal expansion + land ice (not sea ice)\n\n**Acidification:** CO₂ → H₂CO₃ → H⁺ · less CO₃²⁻ for shells\n\n**HIPPCO:** Habitat · Invasives · Population · Pollution · Climate · Overexploitation"
   },
   "vocab": [
-    { "term": "Stratospheric ozone", "definition": "Ozone in the stratosphere that absorbs harmful ultraviolet radiation." },
-    { "term": "Chlorofluorocarbons (CFCs)", "definition": "Synthetic chemicals that release chlorine and destroy stratospheric ozone." },
-    { "term": "Montreal Protocol", "definition": "A 1987 international treaty to phase out ozone-depleting substances." },
-    { "term": "Greenhouse effect", "definition": "Warming of Earth's surface as atmospheric gases absorb and re-emit infrared radiation." },
-    { "term": "Global warming potential (GWP)", "definition": "A gas's warming effect over a time period relative to the same mass of CO₂." },
-    { "term": "Albedo", "definition": "The fraction of incoming sunlight a surface reflects." },
-    { "term": "Positive feedback loop", "definition": "A process in which a change causes effects that amplify the original change." },
-    { "term": "Thermal expansion", "definition": "Increase in volume of water as it warms, contributing to sea-level rise." },
-    { "term": "Ocean acidification", "definition": "Decrease in ocean pH caused by absorption of atmospheric CO₂." },
-    { "term": "Invasive species", "definition": "A nonnative species that spreads and harms native ecosystems or the economy." },
-    { "term": "HIPPCO", "definition": "Acronym for the main threats to biodiversity: Habitat loss, Invasive species, Population growth, Pollution, Climate change, Overexploitation." },
-    { "term": "CITES", "definition": "International agreement regulating trade in endangered species." }
+    {
+      "term": "Stratospheric ozone",
+      "definition": "Ozone in the stratosphere that absorbs harmful ultraviolet radiation."
+    },
+    {
+      "term": "Chlorofluorocarbons (CFCs)",
+      "definition": "Synthetic chemicals that release chlorine and destroy stratospheric ozone."
+    },
+    {
+      "term": "Montreal Protocol",
+      "definition": "A 1987 international treaty to phase out ozone-depleting substances."
+    },
+    {
+      "term": "Greenhouse effect",
+      "definition": "Warming of Earth's surface as atmospheric gases absorb and re-emit infrared radiation."
+    },
+    {
+      "term": "Global warming potential (GWP)",
+      "definition": "A gas's warming effect over a time period relative to the same mass of CO₂."
+    },
+    {
+      "term": "Albedo",
+      "definition": "The fraction of incoming sunlight a surface reflects."
+    },
+    {
+      "term": "Positive feedback loop",
+      "definition": "A process in which a change causes effects that amplify the original change."
+    },
+    {
+      "term": "Thermal expansion",
+      "definition": "Increase in volume of water as it warms, contributing to sea-level rise."
+    },
+    {
+      "term": "Ocean acidification",
+      "definition": "Decrease in ocean pH caused by absorption of atmospheric CO₂."
+    },
+    {
+      "term": "Invasive species",
+      "definition": "A nonnative species that spreads and harms native ecosystems or the economy."
+    },
+    {
+      "term": "HIPPCO",
+      "definition": "Acronym for the main threats to biodiversity: Habitat loss, Invasive species, Population growth, Pollution, Climate change, Overexploitation."
+    },
+    {
+      "term": "CITES",
+      "definition": "International agreement regulating trade in endangered species."
+    }
   ],
   "practice": [
     {
-      "id": "u9-q01", "tier": "Intro", "type": "mcq", "topic": "9.1 Stratospheric Ozone Depletion", "skill": "1. Concept Explanation",
+      "id": "u9-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "9.1 Stratospheric Ozone Depletion",
+      "skill": "1. Concept Explanation",
       "stem": "CFCs destroy stratospheric ozone because",
       "choices": [
-        { "id": "A", "text": "UV radiation breaks them apart, releasing chlorine atoms that catalytically break down ozone" },
-        { "id": "B", "text": "they absorb infrared radiation" },
-        { "id": "C", "text": "they react with CO₂ to form ozone" },
-        { "id": "D", "text": "they increase rainfall in the stratosphere" }
+        {
+          "id": "A",
+          "text": "they increase rainfall in the stratosphere"
+        },
+        {
+          "id": "B",
+          "text": "they absorb infrared radiation"
+        },
+        {
+          "id": "C",
+          "text": "they react with CO₂ to form ozone"
+        },
+        {
+          "id": "D",
+          "text": "UV radiation breaks them apart, releasing chlorine atoms that catalytically break down ozone"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "A single chlorine atom can destroy thousands of ozone molecules because it is regenerated.",
-      "distractors": { "B": "That's their greenhouse effect, a separate issue." }
+      "distractors": {
+        "B": "That's their greenhouse effect, a separate issue."
+      }
     },
     {
-      "id": "u9-q02", "tier": "Intro", "type": "mcq", "topic": "9.3 The Greenhouse Effect", "skill": "1. Concept Explanation",
+      "id": "u9-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "9.3 The Greenhouse Effect",
+      "skill": "1. Concept Explanation",
       "stem": "Greenhouse gases warm Earth's surface primarily by",
       "choices": [
-        { "id": "A", "text": "absorbing incoming ultraviolet radiation" },
-        { "id": "B", "text": "absorbing and re-emitting infrared radiation given off by Earth's surface" },
-        { "id": "C", "text": "reflecting visible light back to the Sun" },
-        { "id": "D", "text": "destroying the ozone layer" }
+        {
+          "id": "A",
+          "text": "absorbing incoming ultraviolet radiation"
+        },
+        {
+          "id": "B",
+          "text": "destroying the ozone layer"
+        },
+        {
+          "id": "C",
+          "text": "reflecting visible light back to the Sun"
+        },
+        {
+          "id": "D",
+          "text": "absorbing and re-emitting infrared radiation given off by Earth's surface"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Earth emits infrared; greenhouse gases absorb it and re-radiate some back toward the surface.",
       "distractors": {}
     },
     {
-      "id": "u9-q03", "tier": "Intro", "type": "mcq", "topic": "9.8 Invasive Species", "skill": "1. Concept Explanation",
+      "id": "u9-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "9.8 Invasive Species",
+      "skill": "1. Concept Explanation",
       "stem": "Which trait makes a nonnative species most likely to become invasive?",
       "choices": [
-        { "id": "A", "text": "Specialized diet and slow reproduction" },
-        { "id": "B", "text": "Generalist diet, rapid reproduction, and no natural predators in the new area" },
-        { "id": "C", "text": "Large body size and long lifespan" },
-        { "id": "D", "text": "Narrow temperature tolerance" }
+        {
+          "id": "A",
+          "text": "Specialized diet and slow reproduction"
+        },
+        {
+          "id": "B",
+          "text": "Generalist diet, rapid reproduction, and no natural predators in the new area"
+        },
+        {
+          "id": "C",
+          "text": "Large body size and long lifespan"
+        },
+        {
+          "id": "D",
+          "text": "Narrow temperature tolerance"
+        }
       ],
       "answer": "B",
       "explanation": "Generalist, r-selected species without predators can spread quickly and outcompete natives.",
       "distractors": {}
     },
     {
-      "id": "u9-q04", "tier": "Intro", "type": "mcq", "topic": "9.10 Human Impacts on Biodiversity", "skill": "1. Concept Explanation",
+      "id": "u9-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "9.10 Human Impacts on Biodiversity",
+      "skill": "1. Concept Explanation",
       "stem": "The greatest current threat to global biodiversity is",
       "choices": [
-        { "id": "A", "text": "habitat loss and fragmentation" },
-        { "id": "B", "text": "noise pollution" },
-        { "id": "C", "text": "volcanic eruptions" },
-        { "id": "D", "text": "stratospheric ozone depletion" }
+        {
+          "id": "A",
+          "text": "habitat loss and fragmentation"
+        },
+        {
+          "id": "B",
+          "text": "noise pollution"
+        },
+        {
+          "id": "C",
+          "text": "volcanic eruptions"
+        },
+        {
+          "id": "D",
+          "text": "stratospheric ozone depletion"
+        }
       ],
       "answer": "A",
       "explanation": "Land conversion for agriculture and development removes the most habitat.",
       "distractors": {}
     },
     {
-      "id": "u9-q05", "tier": "Exam level", "type": "mcq", "topic": "9.2 Reducing Ozone Depletion", "skill": "7. Environmental Solutions",
+      "id": "u9-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "9.2 Reducing Ozone Depletion",
+      "skill": "7. Environmental Solutions",
       "stem": "Although CFC production was largely phased out after the Montreal Protocol, the Antarctic ozone hole is expected to take decades to fully recover. Why?",
       "choices": [
-        { "id": "A", "text": "CFCs already released persist in the atmosphere for many decades." },
-        { "id": "B", "text": "Ozone is produced only in the troposphere." },
-        { "id": "C", "text": "Carbon dioxide destroys ozone." },
-        { "id": "D", "text": "HFC replacements destroy more ozone than CFCs." }
-      ],
-      "answer": "A",
-      "explanation": "CFCs have long atmospheric lifetimes, so chlorine keeps reaching the stratosphere.",
-      "distractors": { "D": "HFCs do not deplete ozone, though they are greenhouse gases." }
-    },
-    {
-      "id": "u9-q06", "tier": "Exam level", "type": "mcq", "topic": "9.4 Increases in the Greenhouse Gases", "skill": "2. Visual Representations",
-      "stem": "The Keeling Curve shows CO₂ at Mauna Loa rising each year with a small decrease every Northern Hemisphere summer. The summer decrease is caused by",
-      "choices": [
-        { "id": "A", "text": "reduced fossil fuel use in summer" },
-        { "id": "B", "text": "increased photosynthesis during the Northern Hemisphere growing season" },
-        { "id": "C", "text": "ocean warming releasing CO₂" },
-        { "id": "D", "text": "volcanic eruptions in winter" }
+        {
+          "id": "A",
+          "text": "Ozone is produced only in the troposphere."
+        },
+        {
+          "id": "B",
+          "text": "CFCs already released persist in the atmosphere for many decades."
+        },
+        {
+          "id": "C",
+          "text": "Carbon dioxide destroys ozone."
+        },
+        {
+          "id": "D",
+          "text": "HFC replacements destroy more ozone than CFCs."
+        }
       ],
       "answer": "B",
-      "explanation": "The Northern Hemisphere has more land and vegetation; summer photosynthesis draws CO₂ down.",
-      "distractors": { "C": "Warmer water releases CO₂, which would raise it." }
+      "explanation": "CFCs have long atmospheric lifetimes, so chlorine keeps reaching the stratosphere.",
+      "distractors": {
+        "D": "HFCs do not deplete ozone, though they are greenhouse gases."
+      }
     },
     {
-      "id": "u9-q07", "tier": "Exam level", "type": "mcq", "topic": "9.7 Ocean Acidification", "skill": "1. Concept Explanation",
+      "id": "u9-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "9.4 Increases in the Greenhouse Gases",
+      "skill": "2. Visual Representations",
+      "stem": "The Keeling Curve shows CO₂ at Mauna Loa rising each year with a small decrease every Northern Hemisphere summer. The summer decrease is caused by",
+      "choices": [
+        {
+          "id": "A",
+          "text": "reduced fossil fuel use in summer"
+        },
+        {
+          "id": "B",
+          "text": "volcanic eruptions in winter"
+        },
+        {
+          "id": "C",
+          "text": "ocean warming releasing CO₂"
+        },
+        {
+          "id": "D",
+          "text": "increased photosynthesis during the Northern Hemisphere growing season"
+        }
+      ],
+      "answer": "D",
+      "explanation": "The Northern Hemisphere has more land and vegetation; summer photosynthesis draws CO₂ down.",
+      "distractors": {
+        "C": "Warmer water releases CO₂, which would raise it."
+      }
+    },
+    {
+      "id": "u9-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "9.7 Ocean Acidification",
+      "skill": "1. Concept Explanation",
       "stem": "How does increasing atmospheric CO₂ make it harder for oysters to build shells?",
       "choices": [
-        { "id": "A", "text": "CO₂ dissolves to form carbonic acid; the added H⁺ ions bind carbonate ions, reducing the carbonate available for calcium carbonate shells." },
-        { "id": "B", "text": "CO₂ raises ocean pH, dissolving calcium." },
-        { "id": "C", "text": "CO₂ blocks sunlight from reaching oysters." },
-        { "id": "D", "text": "CO₂ increases dissolved oxygen, damaging shells." }
+        {
+          "id": "A",
+          "text": "CO₂ dissolves to form carbonic acid; the added H⁺ ions bind carbonate ions, reducing the carbonate available for calcium carbonate shells."
+        },
+        {
+          "id": "B",
+          "text": "CO₂ raises ocean pH, dissolving calcium."
+        },
+        {
+          "id": "C",
+          "text": "CO₂ blocks sunlight from reaching oysters."
+        },
+        {
+          "id": "D",
+          "text": "CO₂ increases dissolved oxygen, damaging shells."
+        }
       ],
       "answer": "A",
       "explanation": "Acidification lowers pH and carbonate saturation, making calcification harder.",
-      "distractors": { "B": "pH decreases." }
+      "distractors": {
+        "B": "pH decreases."
+      }
     },
     {
-      "id": "u9-q08", "tier": "Exam level", "type": "mcq", "topic": "9.5 Global Climate Change", "skill": "1. Concept Explanation",
+      "id": "u9-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "9.5 Global Climate Change",
+      "skill": "1. Concept Explanation",
       "stem": "Which is an example of a positive feedback loop in the climate system?",
       "choices": [
-        { "id": "A", "text": "Warming melts Arctic sea ice, exposing darker ocean that absorbs more sunlight, causing more warming." },
-        { "id": "B", "text": "Warming increases plant growth, which absorbs more CO₂." },
-        { "id": "C", "text": "Volcanic aerosols reflect sunlight, cooling Earth." },
-        { "id": "D", "text": "Reforestation reduces atmospheric CO₂." }
+        {
+          "id": "A",
+          "text": "Volcanic aerosols reflect sunlight, cooling Earth."
+        },
+        {
+          "id": "B",
+          "text": "Warming increases plant growth, which absorbs more CO₂."
+        },
+        {
+          "id": "C",
+          "text": "Warming melts Arctic sea ice, exposing darker ocean that absorbs more sunlight, causing more warming."
+        },
+        {
+          "id": "D",
+          "text": "Reforestation reduces atmospheric CO₂."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Lower albedo amplifies the original warming.",
-      "distractors": { "B": "A negative (counteracting) feedback." }
+      "distractors": {
+        "B": "A negative (counteracting) feedback."
+      }
     },
     {
-      "id": "u9-q09", "tier": "Exam level", "type": "mcq", "topic": "9.4 Increases in the Greenhouse Gases", "skill": "6. Mathematical Routines",
+      "id": "u9-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "9.4 Increases in the Greenhouse Gases",
+      "skill": "6. Mathematical Routines",
       "stem": "A landfill emits 4.0 metric tons of methane per year. If methane's global warming potential is 25, what is the emission in CO₂-equivalent?",
       "choices": [
-        { "id": "A", "text": "0.16 t CO₂e" },
-        { "id": "B", "text": "29 t CO₂e" },
-        { "id": "C", "text": "100 t CO₂e" },
-        { "id": "D", "text": "250 t CO₂e" }
+        {
+          "id": "A",
+          "text": "0.16 t CO₂e"
+        },
+        {
+          "id": "B",
+          "text": "29 t CO₂e"
+        },
+        {
+          "id": "C",
+          "text": "100 t CO₂e"
+        },
+        {
+          "id": "D",
+          "text": "250 t CO₂e"
+        }
       ],
       "answer": "C",
       "explanation": "4.0 t × 25 = 100 t CO₂e.",
-      "distractors": { "A": "Divides by GWP." }
+      "distractors": {
+        "A": "Divides by GWP."
+      }
     },
     {
-      "id": "u9-q10", "tier": "Exam level", "type": "mcq", "topic": "9.9 Endangered Species", "skill": "7. Environmental Solutions",
+      "id": "u9-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "9.9 Endangered Species",
+      "skill": "7. Environmental Solutions",
       "stem": "A rare cat species lives in several forest fragments separated by farmland. Which strategy would most directly increase gene flow among the fragments?",
       "choices": [
-        { "id": "A", "text": "Building wildlife corridors of forest connecting the fragments" },
-        { "id": "B", "text": "Banning international trade in the cat's fur" },
-        { "id": "C", "text": "Introducing a predator to control prey" },
-        { "id": "D", "text": "Expanding farmland between fragments" }
+        {
+          "id": "A",
+          "text": "Building wildlife corridors of forest connecting the fragments"
+        },
+        {
+          "id": "B",
+          "text": "Banning international trade in the cat's fur"
+        },
+        {
+          "id": "C",
+          "text": "Introducing a predator to control prey"
+        },
+        {
+          "id": "D",
+          "text": "Expanding farmland between fragments"
+        }
       ],
       "answer": "A",
       "explanation": "Corridors let individuals move and breed between isolated populations.",
-      "distractors": { "B": "Reduces poaching but doesn't connect populations." }
+      "distractors": {
+        "B": "Reduces poaching but doesn't connect populations."
+      }
     },
     {
-      "id": "u9-q11", "tier": "Hardest", "type": "mcq", "topic": "9.1 Stratospheric Ozone Depletion", "skill": "1. Concept Explanation",
+      "id": "u9-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "9.1 Stratospheric Ozone Depletion",
+      "skill": "1. Concept Explanation",
       "stem": "Which is NOT a direct consequence of stratospheric ozone depletion?",
       "choices": [
-        { "id": "A", "text": "Increased rates of skin cancer" },
-        { "id": "B", "text": "Increased cataracts" },
-        { "id": "C", "text": "Reduced productivity of marine phytoplankton" },
-        { "id": "D", "text": "Increased average global surface temperature" }
+        {
+          "id": "A",
+          "text": "Increased rates of skin cancer"
+        },
+        {
+          "id": "B",
+          "text": "Increased average global surface temperature"
+        },
+        {
+          "id": "C",
+          "text": "Reduced productivity of marine phytoplankton"
+        },
+        {
+          "id": "D",
+          "text": "Increased cataracts"
+        }
       ],
-      "answer": "D",
+      "answer": "B",
       "explanation": "Ozone depletion raises UV at the surface; global warming results from greenhouse gases trapping infrared.",
       "distractors": {}
     },
     {
-      "id": "u9-q12", "tier": "Hardest", "type": "mcq", "topic": "9.4 Increases in the Greenhouse Gases", "skill": "6. Mathematical Routines",
+      "id": "u9-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "9.4 Increases in the Greenhouse Gases",
+      "skill": "6. Mathematical Routines",
       "stem": "Atmospheric CO₂ was about 315 ppm in 1958 and about 420 ppm in 2023. What was the average rate of increase?",
       "choices": [
-        { "id": "A", "text": "0.6 ppm/yr" },
-        { "id": "B", "text": "1.6 ppm/yr" },
-        { "id": "C", "text": "6.5 ppm/yr" },
-        { "id": "D", "text": "105 ppm/yr" }
+        {
+          "id": "A",
+          "text": "0.6 ppm/yr"
+        },
+        {
+          "id": "B",
+          "text": "1.6 ppm/yr"
+        },
+        {
+          "id": "C",
+          "text": "6.5 ppm/yr"
+        },
+        {
+          "id": "D",
+          "text": "105 ppm/yr"
+        }
       ],
       "answer": "B",
       "explanation": "(420 − 315)/(2023 − 1958) = 105/65 ≈ 1.6 ppm/yr.",
-      "distractors": { "A": "Divides 65 by 105." }
+      "distractors": {
+        "A": "Divides 65 by 105."
+      }
     },
     {
-      "id": "u9-q13", "tier": "Hardest", "type": "mcq", "topic": "9.5 Global Climate Change", "skill": "1. Concept Explanation",
+      "id": "u9-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "9.5 Global Climate Change",
+      "skill": "1. Concept Explanation",
       "stem": "Which pair of processes is primarily responsible for rising global sea level?",
       "choices": [
-        { "id": "A", "text": "Melting of floating Arctic sea ice and increased rainfall" },
-        { "id": "B", "text": "Thermal expansion of seawater and melting of glaciers and ice sheets on land" },
-        { "id": "C", "text": "Ocean acidification and coral bleaching" },
-        { "id": "D", "text": "Stratospheric ozone loss and increased UV" }
+        {
+          "id": "A",
+          "text": "Melting of floating Arctic sea ice and increased rainfall"
+        },
+        {
+          "id": "B",
+          "text": "Stratospheric ozone loss and increased UV"
+        },
+        {
+          "id": "C",
+          "text": "Ocean acidification and coral bleaching"
+        },
+        {
+          "id": "D",
+          "text": "Thermal expansion of seawater and melting of glaciers and ice sheets on land"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Floating ice already displaces its weight in water; land ice adds new water to the ocean.",
-      "distractors": { "A": "Sea ice melt adds almost nothing to sea level." }
+      "distractors": {
+        "A": "Sea ice melt adds almost nothing to sea level."
+      }
     },
     {
-      "id": "u9-q14", "tier": "Hardest", "type": "mcq", "topic": "9.6 Ocean Warming", "skill": "5. Data Analysis",
+      "id": "u9-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "9.6 Ocean Warming",
+      "skill": "5. Data Analysis",
       "stimulus": "Survey data show the center of a flounder population's range shifted 200 km north between 1980 and 2020, while average bottom-water temperature in its original range rose 1.2 °C.",
       "stem": "Which conclusion is best supported?",
       "choices": [
-        { "id": "A", "text": "The population shifted poleward about 5 km per year, consistent with tracking cooler water as the ocean warmed." },
-        { "id": "B", "text": "The population moved 200 km per year because of overfishing." },
-        { "id": "C", "text": "Warming had no effect; flounder always migrate north." },
-        { "id": "D", "text": "The flounder evolved higher heat tolerance and stayed in place." }
+        {
+          "id": "A",
+          "text": "The flounder evolved higher heat tolerance and stayed in place."
+        },
+        {
+          "id": "B",
+          "text": "The population moved 200 km per year because of overfishing."
+        },
+        {
+          "id": "C",
+          "text": "Warming had no effect; flounder always migrate north."
+        },
+        {
+          "id": "D",
+          "text": "The population shifted poleward about 5 km per year, consistent with tracking cooler water as the ocean warmed."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "200 km ÷ 40 years = 5 km/yr; the poleward shift matches the warming.",
-      "distractors": { "D": "Contradicts the observed range shift." }
+      "distractors": {
+        "A": "Contradicts the observed range shift."
+      }
     },
     {
-      "id": "u9-frq1", "tier": "Exam level", "type": "frq", "topic": "9.7 Ocean Acidification", "frqType": "Q1 Design an Investigation",
+      "id": "u9-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "9.7 Ocean Acidification",
+      "frqType": "Q1 Design an Investigation",
       "prompt": "Researchers raise juvenile clams for 60 days in tanks of seawater bubbled with air at different CO₂ concentrations. All tanks are kept at 15 °C with the same food supply. They measure average shell growth.\n\n| CO₂ (ppm) | Seawater pH | Mean shell growth (mm) |\n|---|---|---|\n| 280 | 8.2 | 6.1 |\n| 420 | 8.1 | 5.4 |\n| 800 | 7.8 | 3.2 |\n| 1,200 | 7.6 | 1.9 |",
       "parts": [
-        { "label": "a", "prompt": "Identify the independent variable.", "points": 1 },
-        { "label": "b", "prompt": "Identify the tank that serves as a control or baseline, and explain why.", "points": 1 },
-        { "label": "c", "prompt": "State a testable hypothesis for the investigation.", "points": 1 },
-        { "label": "d", "prompt": "Describe the trend shown by the data.", "points": 1 },
-        { "label": "e", "prompt": "Calculate the percent decrease in shell growth from 420 ppm to 1,200 ppm. Show your work.", "points": 1 },
-        { "label": "f", "prompt": "Explain the chemical process by which higher CO₂ reduces shell growth.", "points": 2 },
-        { "label": "g", "prompt": "Explain why the researchers held temperature constant.", "points": 1 },
-        { "label": "h", "prompt": "Describe one way ocean acidification could affect organisms that do not build shells.", "points": 1 },
-        { "label": "i", "prompt": "Propose one action that would reduce ocean acidification.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Identify the independent variable.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Identify the tank that serves as a control or baseline, and explain why.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "State a testable hypothesis for the investigation.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Describe the trend shown by the data.",
+          "points": 1
+        },
+        {
+          "label": "e",
+          "prompt": "Calculate the percent decrease in shell growth from 420 ppm to 1,200 ppm. Show your work.",
+          "points": 1
+        },
+        {
+          "label": "f",
+          "prompt": "Explain the chemical process by which higher CO₂ reduces shell growth.",
+          "points": 2
+        },
+        {
+          "label": "g",
+          "prompt": "Explain why the researchers held temperature constant.",
+          "points": 1
+        },
+        {
+          "label": "h",
+          "prompt": "Describe one way ocean acidification could affect organisms that do not build shells.",
+          "points": 1
+        },
+        {
+          "label": "i",
+          "prompt": "Propose one action that would reduce ocean acidification.",
+          "points": 1
+        }
       ],
       "points": 10,
       "minutes": 23,
       "rubric": [
-        { "criterion": "a: IV", "points": 1, "description": "CO₂ concentration (or pH)." },
-        { "criterion": "b: Control", "points": 1, "description": "280 ppm (pre-industrial level) or 420 ppm (current level), with a reason (baseline for comparison)." },
-        { "criterion": "c: Hypothesis", "points": 1, "description": "E.g., 'If CO₂ concentration increases, then clam shell growth will decrease.'" },
-        { "criterion": "d: Trend", "points": 1, "description": "As CO₂ increases and pH decreases, shell growth decreases." },
-        { "criterion": "e: Percent decrease", "points": 1, "description": "(5.4 − 1.9)/5.4 × 100 ≈ 65%." },
-        { "criterion": "f1: Carbonic acid", "points": 1, "description": "CO₂ dissolves in seawater forming carbonic acid, which releases H⁺ ions and lowers pH." },
-        { "criterion": "f2: Carbonate", "points": 1, "description": "H⁺ binds carbonate ions (forming bicarbonate), leaving less carbonate available to form calcium carbonate shells (shells may even dissolve)." },
-        { "criterion": "g: Temperature", "points": 1, "description": "Temperature also affects growth and CO₂ solubility; holding it constant ensures differences are due to CO₂." },
-        { "criterion": "h: Non-shell effects", "points": 1, "description": "E.g., food-web effects as shelled plankton (pteropods) decline; impaired sense of smell or behavior in fish; coral reef habitat loss." },
-        { "criterion": "i: Action", "points": 1, "description": "E.g., reduce CO₂ emissions by shifting from fossil fuels to renewable energy; protect seagrass and kelp that absorb CO₂ locally." }
+        {
+          "criterion": "a: IV",
+          "points": 1,
+          "description": "CO₂ concentration (or pH)."
+        },
+        {
+          "criterion": "b: Control",
+          "points": 1,
+          "description": "280 ppm (pre-industrial level) or 420 ppm (current level), with a reason (baseline for comparison)."
+        },
+        {
+          "criterion": "c: Hypothesis",
+          "points": 1,
+          "description": "E.g., 'If CO₂ concentration increases, then clam shell growth will decrease.'"
+        },
+        {
+          "criterion": "d: Trend",
+          "points": 1,
+          "description": "As CO₂ increases and pH decreases, shell growth decreases."
+        },
+        {
+          "criterion": "e: Percent decrease",
+          "points": 1,
+          "description": "(5.4 − 1.9)/5.4 × 100 ≈ 65%."
+        },
+        {
+          "criterion": "f1: Carbonic acid",
+          "points": 1,
+          "description": "CO₂ dissolves in seawater forming carbonic acid, which releases H⁺ ions and lowers pH."
+        },
+        {
+          "criterion": "f2: Carbonate",
+          "points": 1,
+          "description": "H⁺ binds carbonate ions (forming bicarbonate), leaving less carbonate available to form calcium carbonate shells (shells may even dissolve)."
+        },
+        {
+          "criterion": "g: Temperature",
+          "points": 1,
+          "description": "Temperature also affects growth and CO₂ solubility; holding it constant ensures differences are due to CO₂."
+        },
+        {
+          "criterion": "h: Non-shell effects",
+          "points": 1,
+          "description": "E.g., food-web effects as shelled plankton (pteropods) decline; impaired sense of smell or behavior in fish; coral reef habitat loss."
+        },
+        {
+          "criterion": "i: Action",
+          "points": 1,
+          "description": "E.g., reduce CO₂ emissions by shifting from fossil fuels to renewable energy; protect seagrass and kelp that absorb CO₂ locally."
+        }
       ],
       "sampleResponse": "(a) The CO₂ concentration of the air bubbled into each tank.\n\n(b) The 420 ppm tank, because it represents current atmospheric CO₂ and serves as a baseline to compare with future, higher levels.\n\n(c) If the CO₂ concentration of seawater increases, then juvenile clam shell growth will decrease.\n\n(d) As CO₂ increases from 280 to 1,200 ppm, pH falls from 8.2 to 7.6 and mean shell growth decreases from 6.1 mm to 1.9 mm.\n\n(e) (5.4 − 1.9) ÷ 5.4 × 100 = 3.5 ÷ 5.4 × 100 ≈ 65% decrease.\n\n(f) CO₂ dissolves in seawater and reacts with water to form carbonic acid, which releases hydrogen ions and lowers pH. These hydrogen ions combine with carbonate ions to form bicarbonate, so less carbonate is available for clams to combine with calcium to build calcium carbonate shells.\n\n(g) Temperature affects clam metabolism and how much CO₂ dissolves in water. Holding it constant ensures that differences in shell growth are caused by CO₂ alone.\n\n(h) Many fish eat shelled plankton such as pteropods; if those decline, fish lose an important food source.\n\n(i) Reduce CO₂ emissions by replacing coal-fired power plants with wind and solar power."
     }

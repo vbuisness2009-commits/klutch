@@ -99,7 +99,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Content analysis"
+          "text": "Case study of one teenager"
         },
         {
           "id": "B",
@@ -111,10 +111,10 @@
         },
         {
           "id": "D",
-          "text": "Case study of one teenager"
+          "text": "Content analysis"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "It systematically analyzes media content.",
       "distractors": {}
     },
@@ -128,11 +128,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "a convenience sample"
+          "text": "a random sample"
         },
         {
           "id": "B",
-          "text": "a random sample"
+          "text": "a convenience sample"
         },
         {
           "id": "C",
@@ -143,7 +143,7 @@
           "text": "a census"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Recruited through social media posts.",
       "distractors": {}
     },
@@ -186,7 +186,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Self-reported data from a non-random sample may be inaccurate and not representative of all students."
+          "text": "The study compared groups."
         },
         {
           "id": "B",
@@ -198,10 +198,10 @@
         },
         {
           "id": "D",
-          "text": "The study compared groups."
+          "text": "Self-reported data from a non-random sample may be inaccurate and not representative of all students."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Self-report and convenience sampling both threaten conclusions.",
       "distractors": {}
     },
@@ -215,7 +215,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "They suggest possible mechanisms behind the statistical association, which numbers alone can't show."
+          "text": "They prove causation."
         },
         {
           "id": "B",
@@ -223,14 +223,14 @@
         },
         {
           "id": "C",
-          "text": "They prove causation."
+          "text": "They suggest possible mechanisms behind the statistical association, which numbers alone can't show."
         },
         {
           "id": "D",
           "text": "They increase the sample size."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Qualitative data help explain quantitative patterns.",
       "distractors": {}
     },
@@ -243,11 +243,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "randomly assigning volunteers to a no-phones-after-9-p.m. condition or a normal-use condition and measuring sleep with sleep-tracking devices"
+          "text": "surveying more students"
         },
         {
           "id": "B",
-          "text": "surveying more students"
+          "text": "randomly assigning volunteers to a no-phones-after-9-p.m. condition or a normal-use condition and measuring sleep with sleep-tracking devices"
         },
         {
           "id": "C",
@@ -258,7 +258,7 @@
           "text": "analyzing social media posts about sleep"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Random assignment and objective measures support causal claims.",
       "distractors": {}
     },

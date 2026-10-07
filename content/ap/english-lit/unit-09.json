@@ -47,222 +47,486 @@
     "cramSheet": "**Whole work:** opening/ending · frame · narrator shifts · patterns\n\n**Complexity:** sympathy and culpability · distributed responsibility\n\n**Q3 prep:** 3 works · arcs · key scenes · symbols · quotations · common prompts\n\n**Row C:** sustained complexity · controlled style"
   },
   "vocab": [
-    { "term": "Frame narrative", "definition": "A story that contains another story within it." },
-    { "term": "Moral ambiguity", "definition": "A lack of clear right or wrong in a character or situation." },
-    { "term": "Antihero", "definition": "A protagonist lacking conventional heroic qualities." },
-    { "term": "Gothic", "definition": "A genre featuring dark settings, the supernatural, and psychological terror." },
-    { "term": "Tragedy", "definition": "A drama in which a protagonist's downfall results from a flaw or fate." },
-    { "term": "Satire", "definition": "Using humor, irony, or exaggeration to criticize society or individuals." },
-    { "term": "Foreshadowing", "definition": "Hints of future events." },
-    { "term": "Epistolary novel", "definition": "A novel told through letters or documents." },
-    { "term": "Doppelgänger", "definition": "A double of a character, often representing hidden aspects of the self." },
-    { "term": "Unreliable narrator", "definition": "A narrator whose credibility is compromised." },
-    { "term": "Resolution", "definition": "How a work's central conflicts are settled or left open." },
-    { "term": "Interpretation", "definition": "A defensible claim about a work's meaning." }
+    {
+      "term": "Frame narrative",
+      "definition": "A story that contains another story within it."
+    },
+    {
+      "term": "Moral ambiguity",
+      "definition": "A lack of clear right or wrong in a character or situation."
+    },
+    {
+      "term": "Antihero",
+      "definition": "A protagonist lacking conventional heroic qualities."
+    },
+    {
+      "term": "Gothic",
+      "definition": "A genre featuring dark settings, the supernatural, and psychological terror."
+    },
+    {
+      "term": "Tragedy",
+      "definition": "A drama in which a protagonist's downfall results from a flaw or fate."
+    },
+    {
+      "term": "Satire",
+      "definition": "Using humor, irony, or exaggeration to criticize society or individuals."
+    },
+    {
+      "term": "Foreshadowing",
+      "definition": "Hints of future events."
+    },
+    {
+      "term": "Epistolary novel",
+      "definition": "A novel told through letters or documents."
+    },
+    {
+      "term": "Doppelgänger",
+      "definition": "A double of a character, often representing hidden aspects of the self."
+    },
+    {
+      "term": "Unreliable narrator",
+      "definition": "A narrator whose credibility is compromised."
+    },
+    {
+      "term": "Resolution",
+      "definition": "How a work's central conflicts are settled or left open."
+    },
+    {
+      "term": "Interpretation",
+      "definition": "A defensible claim about a work's meaning."
+    }
   ],
   "practice": [
     {
-      "id": "u9-q01", "tier": "Intro", "type": "mcq", "topic": "Frame narrative",
+      "id": "u9-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Frame narrative",
       "stimulus": "A novel begins with letters from a sea captain to his sister. He describes rescuing a stranger, who then tells the story that makes up most of the novel. The novel ends with the captain's letters again.",
       "stem": "The novel's structure is best described as",
       "choices": [
-        { "id": "A", "text": "a frame narrative using an epistolary form" },
-        { "id": "B", "text": "a stream-of-consciousness novel" },
-        { "id": "C", "text": "a drama with stage directions" },
-        { "id": "D", "text": "a second-person narrative" }
+        {
+          "id": "A",
+          "text": "a frame narrative using an epistolary form"
+        },
+        {
+          "id": "B",
+          "text": "a stream-of-consciousness novel"
+        },
+        {
+          "id": "C",
+          "text": "a drama with stage directions"
+        },
+        {
+          "id": "D",
+          "text": "a second-person narrative"
+        }
       ],
       "answer": "A",
       "explanation": "Letters frame the inner story.",
       "distractors": {}
     },
     {
-      "id": "u9-q02", "tier": "Intro", "type": "mcq", "topic": "Antihero",
+      "id": "u9-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Antihero",
       "stem": "A protagonist who is selfish and dishonest but whom readers still follow with fascination and partial sympathy is best described as",
       "choices": [
-        { "id": "A", "text": "an antihero" },
-        { "id": "B", "text": "a foil" },
-        { "id": "C", "text": "a static minor character" },
-        { "id": "D", "text": "a narrator in a frame" }
+        {
+          "id": "A",
+          "text": "a static minor character"
+        },
+        {
+          "id": "B",
+          "text": "a foil"
+        },
+        {
+          "id": "C",
+          "text": "an antihero"
+        },
+        {
+          "id": "D",
+          "text": "a narrator in a frame"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Antiheroes lack conventional virtues but drive the story.",
       "distractors": {}
     },
     {
-      "id": "u9-q03", "tier": "Intro", "type": "mcq", "topic": "Satire",
+      "id": "u9-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Satire",
       "stimulus": "A novel describes a country whose leaders hold elaborate ceremonies to honor the national budget surplus, while the hospitals have no medicine.",
       "stem": "The passage most likely uses",
       "choices": [
-        { "id": "A", "text": "satire to criticize misplaced government priorities" },
-        { "id": "B", "text": "a sincere celebration of good governance" },
-        { "id": "C", "text": "a neutral economic report" },
-        { "id": "D", "text": "a pastoral setting" }
+        {
+          "id": "A",
+          "text": "a sincere celebration of good governance"
+        },
+        {
+          "id": "B",
+          "text": "satire to criticize misplaced government priorities"
+        },
+        {
+          "id": "C",
+          "text": "a neutral economic report"
+        },
+        {
+          "id": "D",
+          "text": "a pastoral setting"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The absurd ceremony exposes neglect through irony.",
       "distractors": {}
     },
     {
-      "id": "u9-q04", "tier": "Intro", "type": "mcq", "topic": "Tragedy",
+      "id": "u9-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Tragedy",
       "stem": "In a tragedy, the protagonist's downfall typically results from",
       "choices": [
-        { "id": "A", "text": "a flaw or error interacting with circumstances" },
-        { "id": "B", "text": "random luck with no connection to character" },
-        { "id": "C", "text": "a happy marriage" },
-        { "id": "D", "text": "a comic misunderstanding that is resolved" }
+        {
+          "id": "A",
+          "text": "a comic misunderstanding that is resolved"
+        },
+        {
+          "id": "B",
+          "text": "random luck with no connection to character"
+        },
+        {
+          "id": "C",
+          "text": "a happy marriage"
+        },
+        {
+          "id": "D",
+          "text": "a flaw or error interacting with circumstances"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Tragic downfalls connect to character, often a tragic flaw.",
       "distractors": {}
     },
     {
-      "id": "u9-q05", "tier": "Exam level", "type": "mcq", "topic": "Moral complexity",
+      "id": "u9-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Moral complexity",
       "stimulus": "In a novel, a creature abandoned by its creator learns language and kindness by secretly observing a family. When the family discovers and rejects it in horror, the creature turns to violence against its creator.",
       "stem": "The novel most likely invites readers to",
       "choices": [
-        { "id": "A", "text": "consider how rejection and neglect contribute to the creature's violence, complicating judgment of both creature and creator" },
-        { "id": "B", "text": "view the creature as evil by nature" },
-        { "id": "C", "text": "excuse all of the creature's actions" },
-        { "id": "D", "text": "ignore the creator's responsibility" }
+        {
+          "id": "A",
+          "text": "view the creature as evil by nature"
+        },
+        {
+          "id": "B",
+          "text": "consider how rejection and neglect contribute to the creature's violence, complicating judgment of both creature and creator"
+        },
+        {
+          "id": "C",
+          "text": "excuse all of the creature's actions"
+        },
+        {
+          "id": "D",
+          "text": "ignore the creator's responsibility"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The narrative distributes responsibility, building sympathy without excusing violence.",
       "distractors": {}
     },
     {
-      "id": "u9-q06", "tier": "Exam level", "type": "mcq", "topic": "Doppelgänger",
+      "id": "u9-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Doppelgänger",
       "stimulus": "In a novel, a respected doctor's hidden violent impulses are embodied in a separate, monstrous figure who appears at night.",
       "stem": "The second figure most likely functions as",
       "choices": [
-        { "id": "A", "text": "a doppelgänger representing the doctor's repressed self" },
-        { "id": "B", "text": "a foil from another family" },
-        { "id": "C", "text": "a comic sidekick" },
-        { "id": "D", "text": "an objective narrator" }
+        {
+          "id": "A",
+          "text": "a comic sidekick"
+        },
+        {
+          "id": "B",
+          "text": "a foil from another family"
+        },
+        {
+          "id": "C",
+          "text": "a doppelgänger representing the doctor's repressed self"
+        },
+        {
+          "id": "D",
+          "text": "an objective narrator"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The double externalizes what the respectable self hides.",
       "distractors": {}
     },
     {
-      "id": "u9-q07", "tier": "Exam level", "type": "mcq", "topic": "Ending reframes beginning",
+      "id": "u9-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Ending reframes beginning",
       "stimulus": "A play opens with a woman packing to leave her husband, and the audience assumes she is fleeing him. The final scene reveals she is leaving to care for her dying mother, and the husband has been begging her to let him come.",
       "stem": "The ending most likely",
       "choices": [
-        { "id": "A", "text": "forces the audience to reconsider its assumptions about both characters" },
-        { "id": "B", "text": "confirms the audience's first impression" },
-        { "id": "C", "text": "introduces an unrelated subplot" },
-        { "id": "D", "text": "has no effect on the opening's meaning" }
+        {
+          "id": "A",
+          "text": "has no effect on the opening's meaning"
+        },
+        {
+          "id": "B",
+          "text": "confirms the audience's first impression"
+        },
+        {
+          "id": "C",
+          "text": "introduces an unrelated subplot"
+        },
+        {
+          "id": "D",
+          "text": "forces the audience to reconsider its assumptions about both characters"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The reveal reframes the first scene, exposing misjudgment.",
       "distractors": {}
     },
     {
-      "id": "u9-q08", "tier": "Exam level", "type": "mcq", "topic": "Gothic setting",
+      "id": "u9-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Gothic setting",
       "stimulus": "A decaying mansion with locked rooms, flickering candles, and portraits whose eyes seem to follow visitors dominates a novel about a family hiding its history.",
       "stem": "The setting most likely",
       "choices": [
-        { "id": "A", "text": "externalizes the family's concealed secrets and psychological decay" },
-        { "id": "B", "text": "suggests the family is wealthy and happy" },
-        { "id": "C", "text": "is purely decorative" },
-        { "id": "D", "text": "creates a comic mood" }
+        {
+          "id": "A",
+          "text": "externalizes the family's concealed secrets and psychological decay"
+        },
+        {
+          "id": "B",
+          "text": "suggests the family is wealthy and happy"
+        },
+        {
+          "id": "C",
+          "text": "is purely decorative"
+        },
+        {
+          "id": "D",
+          "text": "creates a comic mood"
+        }
       ],
       "answer": "A",
       "explanation": "Gothic settings mirror hidden truths and inner decline.",
       "distractors": {}
     },
     {
-      "id": "u9-q09", "tier": "Exam level", "type": "mcq", "topic": "Unreliable narrator in novels",
+      "id": "u9-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Unreliable narrator in novels",
       "stimulus": "A butler narrating a novel repeatedly insists that he served his employer with perfect dignity, while gradually revealing that his employer supported dangerous political causes he never questioned.",
       "stem": "The gap between the narrator's claims and what he reveals most likely suggests",
       "choices": [
-        { "id": "A", "text": "the cost of unquestioning loyalty, which the narrator is only beginning to recognize" },
-        { "id": "B", "text": "that the employer was entirely admirable" },
-        { "id": "C", "text": "that the narrator is lying deliberately" },
-        { "id": "D", "text": "that dignity is the novel's simple message" }
+        {
+          "id": "A",
+          "text": "that the employer was entirely admirable"
+        },
+        {
+          "id": "B",
+          "text": "the cost of unquestioning loyalty, which the narrator is only beginning to recognize"
+        },
+        {
+          "id": "C",
+          "text": "that the narrator is lying deliberately"
+        },
+        {
+          "id": "D",
+          "text": "that dignity is the novel's simple message"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The unreliable narration exposes self-deception.",
-      "distractors": { "C": "Self-deception differs from deliberate lying." }
+      "distractors": {
+        "C": "Self-deception differs from deliberate lying."
+      }
     },
     {
-      "id": "u9-q10", "tier": "Exam level", "type": "mcq", "topic": "Resolution",
+      "id": "u9-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Resolution",
       "stimulus": "A novel about a family feud ends with a wedding uniting the two families, but the final paragraph mentions that the eldest brother refused to attend.",
       "stem": "The final detail most likely",
       "choices": [
-        { "id": "A", "text": "qualifies the happy resolution, suggesting the conflict isn't fully healed" },
-        { "id": "B", "text": "confirms perfect reconciliation" },
-        { "id": "C", "text": "introduces a new plot" },
-        { "id": "D", "text": "is irrelevant" }
+        {
+          "id": "A",
+          "text": "is irrelevant"
+        },
+        {
+          "id": "B",
+          "text": "confirms perfect reconciliation"
+        },
+        {
+          "id": "C",
+          "text": "introduces a new plot"
+        },
+        {
+          "id": "D",
+          "text": "qualifies the happy resolution, suggesting the conflict isn't fully healed"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The absence complicates closure.",
       "distractors": {}
     },
     {
-      "id": "u9-q11", "tier": "Hardest", "type": "mcq", "topic": "Moral ambiguity",
+      "id": "u9-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Moral ambiguity",
       "stimulus": "In a play, a mother steals medicine to save her child, and the pharmacist she robs loses his license as a result. The play gives both characters long, sympathetic speeches.",
       "stem": "The play's treatment of the characters most likely aims to",
       "choices": [
-        { "id": "A", "text": "present a moral dilemma without easy answers, showing how one character's survival can harm another" },
-        { "id": "B", "text": "condemn the mother clearly" },
-        { "id": "C", "text": "condemn the pharmacist" },
-        { "id": "D", "text": "entertain without any moral dimension" }
+        {
+          "id": "A",
+          "text": "condemn the pharmacist"
+        },
+        {
+          "id": "B",
+          "text": "condemn the mother clearly"
+        },
+        {
+          "id": "C",
+          "text": "present a moral dilemma without easy answers, showing how one character's survival can harm another"
+        },
+        {
+          "id": "D",
+          "text": "entertain without any moral dimension"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Balanced sympathy makes the conflict morally ambiguous.",
       "distractors": {}
     },
     {
-      "id": "u9-q12", "tier": "Hardest", "type": "mcq", "topic": "Frame and meaning",
+      "id": "u9-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Frame and meaning",
       "stimulus": "In a frame narrative, an ambitious explorer listens to a scientist's tale of how obsessive ambition destroyed him. At the end, the explorer decides to turn his ship back rather than risk his crew.",
       "stem": "The frame's ending most likely suggests",
       "choices": [
-        { "id": "A", "text": "that the inner story functions as a warning the listener heeds, offering an alternative to destructive ambition" },
-        { "id": "B", "text": "that the explorer ignores the warning" },
-        { "id": "C", "text": "that the inner story is unrelated to the frame" },
-        { "id": "D", "text": "that ambition is always rewarded" }
+        {
+          "id": "A",
+          "text": "that the inner story functions as a warning the listener heeds, offering an alternative to destructive ambition"
+        },
+        {
+          "id": "B",
+          "text": "that the explorer ignores the warning"
+        },
+        {
+          "id": "C",
+          "text": "that the inner story is unrelated to the frame"
+        },
+        {
+          "id": "D",
+          "text": "that ambition is always rewarded"
+        }
       ],
       "answer": "A",
       "explanation": "The frame dramatizes learning from the inner tale.",
       "distractors": {}
     },
     {
-      "id": "u9-q13", "tier": "Hardest", "type": "mcq", "topic": "Symbol across work",
+      "id": "u9-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Symbol across work",
       "stimulus": "In a novel, a green light across a bay appears in the first chapter as the protagonist reaches toward it. In the last chapter, the narrator reflects that the protagonist didn't realize his dream was already behind him.",
       "stem": "The development of the light's meaning most likely suggests",
       "choices": [
-        { "id": "A", "text": "that the dream it represents was always unreachable, located in an idealized past" },
-        { "id": "B", "text": "that the protagonist achieved his dream" },
-        { "id": "C", "text": "that the light is merely a navigation aid" },
-        { "id": "D", "text": "that the narrator dislikes the protagonist" }
+        {
+          "id": "A",
+          "text": "that the light is merely a navigation aid"
+        },
+        {
+          "id": "B",
+          "text": "that the protagonist achieved his dream"
+        },
+        {
+          "id": "C",
+          "text": "that the dream it represents was always unreachable, located in an idealized past"
+        },
+        {
+          "id": "D",
+          "text": "that the narrator dislikes the protagonist"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The light shifts from goal to symbol of an irrecoverable past.",
       "distractors": {}
     },
     {
-      "id": "u9-q14", "tier": "Hardest", "type": "mcq", "topic": "Literary argument",
+      "id": "u9-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Literary argument",
       "stem": "A student preparing for Q3 wants one work that can address prompts on ambition, isolation, responsibility, and identity. Which approach is most effective?",
       "choices": [
-        { "id": "A", "text": "Choose a complex novel she knows well and prepare specific scenes and quotations illustrating each theme." },
-        { "id": "B", "text": "Memorize a plot summary of many books she hasn't read." },
-        { "id": "C", "text": "Rely on a film adaptation." },
-        { "id": "D", "text": "Prepare no specific evidence and improvise." }
+        {
+          "id": "A",
+          "text": "Memorize a plot summary of many books she hasn't read."
+        },
+        {
+          "id": "B",
+          "text": "Choose a complex novel she knows well and prepare specific scenes and quotations illustrating each theme."
+        },
+        {
+          "id": "C",
+          "text": "Rely on a film adaptation."
+        },
+        {
+          "id": "D",
+          "text": "Prepare no specific evidence and improvise."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Deep, specific knowledge of a versatile work makes adaptable, evidence-rich essays possible.",
       "distractors": {}
     },
     {
-      "id": "u9-frq1", "tier": "Exam level", "type": "frq", "topic": "Literary argument", "frqType": "Q3 Literary Argument",
+      "id": "u9-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Literary argument",
+      "frqType": "Q3 Literary Argument",
       "prompt": "Many works of literature feature characters who are isolated from their communities, whether by choice or by circumstance.\n\nEither from your own reading or from a list of works your teacher provides, choose a work of fiction in which a character experiences isolation. Then, in a well-written essay, analyze how this isolation contributes to an interpretation of the work as a whole.\n\nIn your response you should do the following:\n- Respond to the prompt with a thesis that presents a defensible interpretation.\n- Provide evidence to support your line of reasoning.\n- Explain how the evidence supports your line of reasoning.\n- Use appropriate grammar and punctuation in communicating your argument.",
       "points": 6,
       "minutes": 40,
       "rubric": [
-        { "criterion": "Row A: Thesis", "points": 1, "description": "Defensible interpretation of how isolation contributes to the work's meaning." },
-        { "criterion": "Row B: Evidence and commentary", "points": 4, "description": "4: specific evidence from the chosen work, consistently connected to the interpretation. 3: most claims. 2: general or summary. 1: minimal." },
-        { "criterion": "Row C: Sophistication", "points": 1, "description": "E.g., explores how isolation is both imposed and chosen; relates it to the work's broader warning." }
+        {
+          "criterion": "Row A: Thesis",
+          "points": 1,
+          "description": "Defensible interpretation of how isolation contributes to the work's meaning."
+        },
+        {
+          "criterion": "Row B: Evidence and commentary",
+          "points": 4,
+          "description": "4: specific evidence from the chosen work, consistently connected to the interpretation. 3: most claims. 2: general or summary. 1: minimal."
+        },
+        {
+          "criterion": "Row C: Sophistication",
+          "points": 1,
+          "description": "E.g., explores how isolation is both imposed and chosen; relates it to the work's broader warning."
+        }
       ],
       "sampleResponse": "In Mary Shelley's Frankenstein, both Victor Frankenstein and the creature he makes suffer profound isolation, but in mirror-image ways: Victor isolates himself in pursuit of knowledge, while the creature is isolated against his will by a society that rejects him. Through this doubled isolation, Shelley suggests that cutting oneself off from human connection produces monstrosity, whether the isolation is chosen or imposed.\n\nVictor's isolation begins as ambition. At university he withdraws from family and friends, working alone for months to animate life and neglecting letters from home. His secrecy is self-chosen, and Shelley presents it as the source of his error: alone, with no one to question him, he creates a being he cannot face. When the creature opens its eyes, Victor flees, abandoning it at the moment it most needs care.\n\nThe creature's isolation is imposed. Hiding beside the De Lacey family's cottage, he learns language and kindness by watching them, longing to join their affectionate circle. When he finally reveals himself, they recoil in horror and Felix attacks him. This rejection transforms him; he burns the cottage and turns his rage toward his creator. Shelley makes clear that the creature was not born violent: he becomes violent after being denied every human bond.\n\nThe creature's request for a companion makes the theme explicit. He promises to leave humanity forever if Victor will make him a mate, arguing that his misery comes from loneliness. Victor, fearing what two creatures might do, destroys the female, and the creature retaliates by killing Elizabeth on Victor's wedding night, leaving Victor as alone as he made the creature.\n\nBy the novel's end, both are isolated in the Arctic, pursuing each other across ice. Shelley's frame narrator, Walton, agrees, however reluctantly, to his crew's demand to turn the ship back, stepping away from the path that destroyed Victor. The novel's meaning lies in this parallel: isolation, whether sought through ambition or imposed through rejection, erodes humanity, and the true monster is a world that refuses connection."
     }

@@ -47,219 +47,511 @@
     "cramSheet": "**Tech:** caravel · carrack · astrolabe · compass\n\n**Explorers:** Henry the Navigator · da Gama 1498 · Columbus 1492\n\n**Columbian Exchange:** smallpox → Americas · maize/potatoes → Afro-Eurasia · horses, sugar\n\n**Empires:** Portugal (trading posts) · Spain (Potosí, encomienda, mit'a) · Dutch/English (joint-stock, VOC) · mercantilism\n\n**Labor:** Atlantic slave trade (~12 million) · plantations · casta system\n\n**Silver:** Manila galleons · Ming single-whip\n\n**Resistance:** Tokugawa limits · Pueblo Revolt 1680 · Maroons · Queen Nzinga"
   },
   "vocab": [
-    { "term": "Caravel", "definition": "A small, maneuverable Portuguese ship suited to exploration." },
-    { "term": "Columbian Exchange", "definition": "The transfer of plants, animals, people, and diseases between the Eastern and Western Hemispheres after 1492." },
-    { "term": "Encomienda", "definition": "Spanish system granting colonists the labor of Indigenous people in exchange for protection and Christian instruction." },
-    { "term": "Hacienda", "definition": "A large agricultural estate in Spanish America." },
-    { "term": "Joint-stock company", "definition": "A business owned by investors who share profits and risks, such as the Dutch East India Company." },
-    { "term": "Mercantilism", "definition": "An economic policy in which colonies enrich the mother country by supplying raw materials and markets." },
-    { "term": "Atlantic slave trade", "definition": "The forced transportation of millions of Africans to the Americas." },
-    { "term": "Middle Passage", "definition": "The Atlantic crossing endured by enslaved Africans." },
-    { "term": "Casta system", "definition": "The racial hierarchy of Spanish colonial society." },
-    { "term": "Creole", "definition": "A person of European descent born in the Americas." },
-    { "term": "Potosí", "definition": "A massive silver mine in the Andes." },
-    { "term": "Manila galleons", "definition": "Spanish ships carrying American silver across the Pacific to the Philippines and China." },
-    { "term": "Maroons", "definition": "Communities of people who escaped slavery in the Americas." }
+    {
+      "term": "Caravel",
+      "definition": "A small, maneuverable Portuguese ship suited to exploration."
+    },
+    {
+      "term": "Columbian Exchange",
+      "definition": "The transfer of plants, animals, people, and diseases between the Eastern and Western Hemispheres after 1492."
+    },
+    {
+      "term": "Encomienda",
+      "definition": "Spanish system granting colonists the labor of Indigenous people in exchange for protection and Christian instruction."
+    },
+    {
+      "term": "Hacienda",
+      "definition": "A large agricultural estate in Spanish America."
+    },
+    {
+      "term": "Joint-stock company",
+      "definition": "A business owned by investors who share profits and risks, such as the Dutch East India Company."
+    },
+    {
+      "term": "Mercantilism",
+      "definition": "An economic policy in which colonies enrich the mother country by supplying raw materials and markets."
+    },
+    {
+      "term": "Atlantic slave trade",
+      "definition": "The forced transportation of millions of Africans to the Americas."
+    },
+    {
+      "term": "Middle Passage",
+      "definition": "The Atlantic crossing endured by enslaved Africans."
+    },
+    {
+      "term": "Casta system",
+      "definition": "The racial hierarchy of Spanish colonial society."
+    },
+    {
+      "term": "Creole",
+      "definition": "A person of European descent born in the Americas."
+    },
+    {
+      "term": "Potosí",
+      "definition": "A massive silver mine in the Andes."
+    },
+    {
+      "term": "Manila galleons",
+      "definition": "Spanish ships carrying American silver across the Pacific to the Philippines and China."
+    },
+    {
+      "term": "Maroons",
+      "definition": "Communities of people who escaped slavery in the Americas."
+    }
   ],
   "practice": [
     {
-      "id": "u4-q01", "tier": "Intro", "type": "mcq", "topic": "4.1 Technological Innovations",
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.1 Technological Innovations",
       "stem": "Which technology most directly helped European sailors determine their latitude at sea?",
       "choices": [
-        { "id": "A", "text": "The astrolabe" },
-        { "id": "B", "text": "The printing press" },
-        { "id": "C", "text": "The cotton gin" },
-        { "id": "D", "text": "The steam engine" }
+        {
+          "id": "A",
+          "text": "The printing press"
+        },
+        {
+          "id": "B",
+          "text": "The astrolabe"
+        },
+        {
+          "id": "C",
+          "text": "The cotton gin"
+        },
+        {
+          "id": "D",
+          "text": "The steam engine"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The astrolabe measured the angle of celestial bodies above the horizon.",
       "distractors": {}
     },
     {
-      "id": "u4-q02", "tier": "Intro", "type": "mcq", "topic": "4.3 Columbian Exchange",
+      "id": "u4-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.3 Columbian Exchange",
       "stem": "The most significant cause of Indigenous population decline in the Americas after 1492 was",
       "choices": [
-        { "id": "A", "text": "diseases such as smallpox to which they had no immunity" },
-        { "id": "B", "text": "famine caused by potatoes" },
-        { "id": "C", "text": "emigration to Europe" },
-        { "id": "D", "text": "wars among European powers" }
+        {
+          "id": "A",
+          "text": "wars among European powers"
+        },
+        {
+          "id": "B",
+          "text": "famine caused by potatoes"
+        },
+        {
+          "id": "C",
+          "text": "emigration to Europe"
+        },
+        {
+          "id": "D",
+          "text": "diseases such as smallpox to which they had no immunity"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Epidemics killed a large majority of Indigenous people in many regions.",
       "distractors": {}
     },
     {
-      "id": "u4-q03", "tier": "Intro", "type": "mcq", "topic": "4.4 Maritime Empires Established",
+      "id": "u4-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.4 Maritime Empires Established",
       "stem": "The Dutch East India Company is an example of",
       "choices": [
-        { "id": "A", "text": "a joint-stock company" },
-        { "id": "B", "text": "an encomienda" },
-        { "id": "C", "text": "a tribute system" },
-        { "id": "D", "text": "a feudal estate" }
+        {
+          "id": "A",
+          "text": "a joint-stock company"
+        },
+        {
+          "id": "B",
+          "text": "an encomienda"
+        },
+        {
+          "id": "C",
+          "text": "a tribute system"
+        },
+        {
+          "id": "D",
+          "text": "a feudal estate"
+        }
       ],
       "answer": "A",
       "explanation": "Investors pooled capital and shared risk and profits.",
       "distractors": {}
     },
     {
-      "id": "u4-q04", "tier": "Intro", "type": "mcq", "topic": "4.3 Columbian Exchange",
+      "id": "u4-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "4.3 Columbian Exchange",
       "stem": "Which crop from the Americas contributed to population growth in Europe and China after 1500?",
       "choices": [
-        { "id": "A", "text": "Potatoes" },
-        { "id": "B", "text": "Wheat" },
-        { "id": "C", "text": "Rice" },
-        { "id": "D", "text": "Sugarcane" }
+        {
+          "id": "A",
+          "text": "Sugarcane"
+        },
+        {
+          "id": "B",
+          "text": "Wheat"
+        },
+        {
+          "id": "C",
+          "text": "Rice"
+        },
+        {
+          "id": "D",
+          "text": "Potatoes"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Calorie-rich potatoes (and maize) supported larger populations.",
-      "distractors": { "B": "Wheat went from Europe to the Americas.", "D": "Sugarcane went to the Americas." }
+      "distractors": {
+        "B": "Wheat went from Europe to the Americas.",
+        "A": "Sugarcane went to the Americas."
+      }
     },
     {
-      "id": "u4-q05", "tier": "Exam level", "type": "mcq", "topic": "4.5 Maritime Empires Maintained and Developed",
+      "id": "u4-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.5 Maritime Empires Maintained and Developed",
       "stimulus": "Spanish authorities required Andean communities to send a portion of their men each year to work in the silver mines of Potosí, adapting an earlier Inca labor obligation.",
       "stem": "The policy described best illustrates",
       "choices": [
-        { "id": "A", "text": "colonizers adapting existing Indigenous labor systems for colonial extraction" },
-        { "id": "B", "text": "the abolition of coerced labor" },
-        { "id": "C", "text": "the Atlantic slave trade" },
-        { "id": "D", "text": "a joint-stock company" }
+        {
+          "id": "A",
+          "text": "the Atlantic slave trade"
+        },
+        {
+          "id": "B",
+          "text": "the abolition of coerced labor"
+        },
+        {
+          "id": "C",
+          "text": "colonizers adapting existing Indigenous labor systems for colonial extraction"
+        },
+        {
+          "id": "D",
+          "text": "a joint-stock company"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The Spanish repurposed the Inca mit'a to supply mine labor.",
       "distractors": {}
     },
     {
-      "id": "u4-q06", "tier": "Exam level", "type": "mcq", "topic": "4.4 Maritime Empires Established",
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.4 Maritime Empires Established",
       "stem": "Compared with Spain in the Americas, Portugal in the Indian Ocean primarily",
       "choices": [
-        { "id": "A", "text": "established fortified trading posts and used naval force to control trade rather than conquering large territories" },
-        { "id": "B", "text": "conquered large land empires" },
-        { "id": "C", "text": "relied on civil service exams" },
-        { "id": "D", "text": "avoided all military force" }
+        {
+          "id": "A",
+          "text": "conquered large land empires"
+        },
+        {
+          "id": "B",
+          "text": "established fortified trading posts and used naval force to control trade rather than conquering large territories"
+        },
+        {
+          "id": "C",
+          "text": "relied on civil service exams"
+        },
+        {
+          "id": "D",
+          "text": "avoided all military force"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Portugal built a trading-post empire in places like Goa and Malacca.",
-      "distractors": { "B": "Describes Spain in the Americas." }
+      "distractors": {
+        "A": "Describes Spain in the Americas."
+      }
     },
     {
-      "id": "u4-q07", "tier": "Exam level", "type": "mcq", "topic": "4.5 Maritime Empires Maintained and Developed",
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.5 Maritime Empires Maintained and Developed",
       "stem": "Which factor most directly explains the growth of the Atlantic slave trade in the 1600s and 1700s?",
       "choices": [
-        { "id": "A", "text": "Demand for labor on sugar and other cash-crop plantations in the Americas" },
-        { "id": "B", "text": "A labor shortage in Ming China" },
-        { "id": "C", "text": "The end of the Columbian Exchange" },
-        { "id": "D", "text": "The Protestant Reformation" }
+        {
+          "id": "A",
+          "text": "The Protestant Reformation"
+        },
+        {
+          "id": "B",
+          "text": "A labor shortage in Ming China"
+        },
+        {
+          "id": "C",
+          "text": "The end of the Columbian Exchange"
+        },
+        {
+          "id": "D",
+          "text": "Demand for labor on sugar and other cash-crop plantations in the Americas"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Labor-intensive plantations and Indigenous population collapse drove demand for enslaved Africans.",
       "distractors": {}
     },
     {
-      "id": "u4-q08", "tier": "Exam level", "type": "mcq", "topic": "4.6 Internal and External Challenges / silver",
+      "id": "u4-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.6 Internal and External Challenges / silver",
       "stimulus": "In the late 1500s, the Ming government began requiring taxes to be paid in silver. Much of this silver came from mines in Spanish America, shipped across the Pacific to Manila.",
       "stem": "This development best illustrates",
       "choices": [
-        { "id": "A", "text": "the creation of a global trade network linking the Americas, Europe, and Asia" },
-        { "id": "B", "text": "China's isolation from world trade" },
-        { "id": "C", "text": "the decline of the Spanish Empire" },
-        { "id": "D", "text": "the end of mercantilism" }
+        {
+          "id": "A",
+          "text": "the creation of a global trade network linking the Americas, Europe, and Asia"
+        },
+        {
+          "id": "B",
+          "text": "China's isolation from world trade"
+        },
+        {
+          "id": "C",
+          "text": "the decline of the Spanish Empire"
+        },
+        {
+          "id": "D",
+          "text": "the end of mercantilism"
+        }
       ],
       "answer": "A",
       "explanation": "Chinese demand for silver drew American silver across oceans.",
-      "distractors": { "B": "China was a central participant." }
+      "distractors": {
+        "B": "China was a central participant."
+      }
     },
     {
-      "id": "u4-q09", "tier": "Exam level", "type": "mcq", "topic": "4.7 Changing Social Hierarchies",
+      "id": "u4-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.7 Changing Social Hierarchies",
       "stem": "In Spanish colonial America, the casta system was primarily a",
       "choices": [
-        { "id": "A", "text": "hierarchy based on ancestry and race that placed people born in Spain at the top" },
-        { "id": "B", "text": "system of religious tolerance" },
-        { "id": "C", "text": "merit-based civil service" },
-        { "id": "D", "text": "labor union for miners" }
+        {
+          "id": "A",
+          "text": "merit-based civil service"
+        },
+        {
+          "id": "B",
+          "text": "system of religious tolerance"
+        },
+        {
+          "id": "C",
+          "text": "hierarchy based on ancestry and race that placed people born in Spain at the top"
+        },
+        {
+          "id": "D",
+          "text": "labor union for miners"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Peninsulares, then creoles, ranked above mixed-race, Indigenous, and African people.",
       "distractors": {}
     },
     {
-      "id": "u4-q10", "tier": "Exam level", "type": "mcq", "topic": "4.6 Challenges to State Power",
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "4.6 Challenges to State Power",
       "stem": "Tokugawa Japan's policies toward Europeans in the 1600s are best described as",
       "choices": [
-        { "id": "A", "text": "restricting contact, banning Christianity, and limiting trade mainly to the Dutch at Nagasaki" },
-        { "id": "B", "text": "welcoming Portuguese colonization" },
-        { "id": "C", "text": "converting the country to Catholicism" },
-        { "id": "D", "text": "joining the Spanish silver trade as a colony" }
+        {
+          "id": "A",
+          "text": "welcoming Portuguese colonization"
+        },
+        {
+          "id": "B",
+          "text": "restricting contact, banning Christianity, and limiting trade mainly to the Dutch at Nagasaki"
+        },
+        {
+          "id": "C",
+          "text": "converting the country to Catholicism"
+        },
+        {
+          "id": "D",
+          "text": "joining the Spanish silver trade as a colony"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The shogunate saw missionaries as a threat and tightly controlled foreign contact.",
       "distractors": {}
     },
     {
-      "id": "u4-q11", "tier": "Hardest", "type": "mcq", "topic": "4.3 Columbian Exchange",
+      "id": "u4-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.3 Columbian Exchange",
       "stem": "Which statement best evaluates the long-term demographic effects of the Columbian Exchange?",
       "choices": [
-        { "id": "A", "text": "It caused catastrophic population decline in the Americas while American crops supported population growth in parts of Afro-Eurasia." },
-        { "id": "B", "text": "It increased populations equally in all regions." },
-        { "id": "C", "text": "It had no significant demographic effects." },
-        { "id": "D", "text": "It decreased populations in Europe and China but increased them in the Americas." }
+        {
+          "id": "A",
+          "text": "It had no significant demographic effects."
+        },
+        {
+          "id": "B",
+          "text": "It increased populations equally in all regions."
+        },
+        {
+          "id": "C",
+          "text": "It caused catastrophic population decline in the Americas while American crops supported population growth in parts of Afro-Eurasia."
+        },
+        {
+          "id": "D",
+          "text": "It decreased populations in Europe and China but increased them in the Americas."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Effects were uneven: devastation in the Americas, growth elsewhere.",
-      "distractors": { "D": "Reverses the effects." }
+      "distractors": {
+        "D": "Reverses the effects."
+      }
     },
     {
-      "id": "u4-q12", "tier": "Hardest", "type": "mcq", "topic": "4.5 Maritime Empires (economics)",
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.5 Maritime Empires (economics)",
       "stem": "Joint-stock companies were significant to European expansion primarily because they",
       "choices": [
-        { "id": "A", "text": "spread financial risk among many investors, enabling costly and risky long-distance ventures" },
-        { "id": "B", "text": "were owned by Indigenous rulers" },
-        { "id": "C", "text": "prohibited trade with Asia" },
-        { "id": "D", "text": "replaced all royal involvement in colonization" }
+        {
+          "id": "A",
+          "text": "spread financial risk among many investors, enabling costly and risky long-distance ventures"
+        },
+        {
+          "id": "B",
+          "text": "were owned by Indigenous rulers"
+        },
+        {
+          "id": "C",
+          "text": "prohibited trade with Asia"
+        },
+        {
+          "id": "D",
+          "text": "replaced all royal involvement in colonization"
+        }
       ],
       "answer": "A",
       "explanation": "Pooling capital made expensive voyages feasible; companies like the VOC even had military powers.",
-      "distractors": { "D": "States chartered and supported these companies." }
+      "distractors": {
+        "D": "States chartered and supported these companies."
+      }
     },
     {
-      "id": "u4-q13", "tier": "Hardest", "type": "mcq", "topic": "4.6 Resistance",
+      "id": "u4-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.6 Resistance",
       "stem": "Which is the best example of resistance to European colonial rule in the period 1450–1750?",
       "choices": [
-        { "id": "A", "text": "The Pueblo Revolt of 1680, which drove Spanish colonists out of New Mexico for over a decade" },
-        { "id": "B", "text": "The founding of the Dutch East India Company" },
-        { "id": "C", "text": "The Ming single-whip tax reform" },
-        { "id": "D", "text": "Vasco da Gama's arrival in India" }
+        {
+          "id": "A",
+          "text": "Vasco da Gama's arrival in India"
+        },
+        {
+          "id": "B",
+          "text": "The founding of the Dutch East India Company"
+        },
+        {
+          "id": "C",
+          "text": "The Ming single-whip tax reform"
+        },
+        {
+          "id": "D",
+          "text": "The Pueblo Revolt of 1680, which drove Spanish colonists out of New Mexico for over a decade"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Pueblo peoples coordinated a successful uprising against Spanish rule and missionary repression.",
-      "distractors": { "C": "An internal Chinese reform." }
+      "distractors": {
+        "C": "An internal Chinese reform."
+      }
     },
     {
-      "id": "u4-q14", "tier": "Hardest", "type": "mcq", "topic": "4.8 Continuity and Change from 1450 to 1750",
+      "id": "u4-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "4.8 Continuity and Change from 1450 to 1750",
       "stem": "Which statement best describes Europe's position in Asia compared with the Americas between 1450 and 1750?",
       "choices": [
-        { "id": "A", "text": "Europeans conquered large parts of the Americas but in Asia mostly operated as traders on terms often set by powerful Asian states." },
-        { "id": "B", "text": "Europeans controlled most of Asia by 1600." },
-        { "id": "C", "text": "Europeans had no contact with Asia in this period." },
-        { "id": "D", "text": "Asian states colonized the Americas." }
+        {
+          "id": "A",
+          "text": "Europeans controlled most of Asia by 1600."
+        },
+        {
+          "id": "B",
+          "text": "Europeans conquered large parts of the Americas but in Asia mostly operated as traders on terms often set by powerful Asian states."
+        },
+        {
+          "id": "C",
+          "text": "Europeans had no contact with Asia in this period."
+        },
+        {
+          "id": "D",
+          "text": "Asian states colonized the Americas."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The Mughals, Qing, and Tokugawa remained strong; Europeans held coastal posts.",
-      "distractors": { "B": "Large-scale European control in Asia came mostly after 1750." }
+      "distractors": {
+        "A": "Large-scale European control in Asia came mostly after 1750."
+      }
     },
     {
-      "id": "u4-frq1", "tier": "Exam level", "type": "frq", "topic": "Labor systems", "frqType": "SAQ (no stimulus)",
+      "id": "u4-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Labor systems",
+      "frqType": "SAQ (no stimulus)",
       "prompt": "Answer (a), (b), and (c).",
       "parts": [
-        { "label": "a", "prompt": "Identify ONE labor system used in the Americas in the period c. 1450–1750.", "points": 1 },
-        { "label": "b", "prompt": "Explain ONE economic reason for the growth of that labor system.", "points": 1 },
-        { "label": "c", "prompt": "Explain ONE way enslaved or coerced laborers resisted their conditions.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Identify ONE labor system used in the Americas in the period c. 1450–1750.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Explain ONE economic reason for the growth of that labor system.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Explain ONE way enslaved or coerced laborers resisted their conditions.",
+          "points": 1
+        }
       ],
       "points": 3,
       "minutes": 13,
       "rubric": [
-        { "criterion": "(a)", "points": 1, "description": "E.g., chattel slavery, encomienda, Spanish adaptation of the mit'a, hacienda labor, indentured servitude." },
-        { "criterion": "(b)", "points": 1, "description": "E.g., demand for sugar and cash crops; silver mining; Indigenous population decline creating labor shortages." },
-        { "criterion": "(c)", "points": 1, "description": "E.g., Maroon communities, revolts (Pueblo Revolt), work slowdowns, preserving cultural and religious practices." }
+        {
+          "criterion": "(a)",
+          "points": 1,
+          "description": "E.g., chattel slavery, encomienda, Spanish adaptation of the mit'a, hacienda labor, indentured servitude."
+        },
+        {
+          "criterion": "(b)",
+          "points": 1,
+          "description": "E.g., demand for sugar and cash crops; silver mining; Indigenous population decline creating labor shortages."
+        },
+        {
+          "criterion": "(c)",
+          "points": 1,
+          "description": "E.g., Maroon communities, revolts (Pueblo Revolt), work slowdowns, preserving cultural and religious practices."
+        }
       ],
       "sampleResponse": "(a) Chattel slavery of Africans on plantations in Brazil and the Caribbean.\n\n(b) European demand for sugar made plantations extremely profitable, and because disease had devastated Indigenous populations, planters imported enslaved Africans to meet the enormous labor demands of sugar production.\n\n(c) Some enslaved people escaped and formed Maroon communities in remote areas, such as in Jamaica and Brazil, where they lived independently and sometimes fought colonial forces."
     }

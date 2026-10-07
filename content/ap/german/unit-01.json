@@ -99,7 +99,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Häuser, in denen sich Menschen aller Generationen begegnen"
+          "text": "Die Rente in Deutschland"
         },
         {
           "id": "B",
@@ -111,10 +111,10 @@
         },
         {
           "id": "D",
-          "text": "Die Rente in Deutschland"
+          "text": "Häuser, in denen sich Menschen aller Generationen begegnen"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Mehrgenerationenhäuser.",
       "distractors": {}
     },
@@ -129,11 +129,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Sie helfen älteren Menschen mit dem Smartphone"
+          "text": "Sie kochen das Mittagessen"
         },
         {
           "id": "B",
-          "text": "Sie kochen das Mittagessen"
+          "text": "Sie helfen älteren Menschen mit dem Smartphone"
         },
         {
           "id": "C",
@@ -144,7 +144,7 @@
           "text": "Sie bezahlen die Miete"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -189,7 +189,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Sie hängen stark von Freiwilligen ab"
+          "text": "Sie sind nur für Senioren"
         },
         {
           "id": "B",
@@ -197,14 +197,14 @@
         },
         {
           "id": "C",
-          "text": "Sie sind nur für Senioren"
+          "text": "Sie hängen stark von Freiwilligen ab"
         },
         {
           "id": "D",
           "text": "Sie liegen nur auf dem Land"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Dependence on volunteers.",
       "distractors": {}
     },
@@ -219,11 +219,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Das Gefühl, nützlich zu sein, motiviert die Menschen mehr als staatliche Programme"
+          "text": "Die Leute brauchen mehr Geld"
         },
         {
           "id": "B",
-          "text": "Die Leute brauchen mehr Geld"
+          "text": "Das Gefühl, nützlich zu sein, motiviert die Menschen mehr als staatliche Programme"
         },
         {
           "id": "C",
@@ -234,7 +234,7 @@
           "text": "Die Leute müssen dort arbeiten"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Meaning over programs.",
       "distractors": {}
     },
@@ -249,7 +249,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Er ist wie ein zweites Wohnzimmer"
+          "text": "Er ist ein Ferienhaus im Ausland"
         },
         {
           "id": "B",
@@ -261,10 +261,10 @@
         },
         {
           "id": "D",
-          "text": "Er ist ein Ferienhaus im Ausland"
+          "text": "Er ist wie ein zweites Wohnzimmer"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "His metaphor.",
       "distractors": {}
     },
@@ -279,7 +279,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Er fand sie komisch"
+          "text": "Er kannte sie nicht"
         },
         {
           "id": "B",
@@ -287,14 +287,14 @@
         },
         {
           "id": "C",
-          "text": "Er kannte sie nicht"
+          "text": "Er fand sie komisch"
         },
         {
           "id": "D",
           "text": "Er wollte sie abschaffen"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "'Am Anfang fand ich das komisch.'",
       "distractors": {}
     },
@@ -339,11 +339,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Menschen verschiedener Herkunft teilen ihren Alltag und tauschen Samen und Rezepte"
+          "text": "Alle müssen die gleichen Pflanzen anbauen"
         },
         {
           "id": "B",
-          "text": "Alle müssen die gleichen Pflanzen anbauen"
+          "text": "Menschen verschiedener Herkunft teilen ihren Alltag und tauschen Samen und Rezepte"
         },
         {
           "id": "C",
@@ -354,7 +354,7 @@
           "text": "Integrationskurse der Regierung"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Everyday exchange.",
       "distractors": {}
     },
@@ -399,7 +399,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Nichts"
+          "text": "Den Preis der Ersatzteile plus Kaffee"
         },
         {
           "id": "B",
@@ -407,14 +407,14 @@
         },
         {
           "id": "C",
-          "text": "Den Preis der Ersatzteile plus Kaffee"
+          "text": "Nichts"
         },
         {
           "id": "D",
           "text": "Eine Mitgliedsgebühr"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "'Kostenlos.'",
       "distractors": {}
     },
@@ -429,7 +429,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Das defekte Gerät und wenn möglich Ersatzteile"
+          "text": "Eine Rechnung"
         },
         {
           "id": "B",
@@ -441,10 +441,10 @@
         },
         {
           "id": "D",
-          "text": "Eine Rechnung"
+          "text": "Das defekte Gerät und wenn möglich Ersatzteile"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -489,7 +489,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Beide beruhen auf ehrenamtlichem Engagement und stärken die Nachbarschaft"
+          "text": "Beide verlangen hohe Gebühren"
         },
         {
           "id": "B",
@@ -501,10 +501,10 @@
         },
         {
           "id": "D",
-          "text": "Beide verlangen hohe Gebühren"
+          "text": "Beide beruhen auf ehrenamtlichem Engagement und stärken die Nachbarschaft"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Volunteer-based community.",
       "distractors": {}
     },

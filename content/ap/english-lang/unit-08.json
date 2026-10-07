@@ -138,11 +138,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "antithesis, contrasting two ideas in parallel structure"
+          "text": "a periodic sentence"
         },
         {
           "id": "B",
-          "text": "a periodic sentence"
+          "text": "antithesis, contrasting two ideas in parallel structure"
         },
         {
           "id": "C",
@@ -153,10 +153,10 @@
           "text": "an anecdote"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "\"Not a warehouse for books\" and \"a workshop for citizens\" mirror each other while opposing passive storage and active use.",
       "distractors": {
-        "B": "The main clause isn't delayed."
+        "A": "The main clause isn't delayed."
       }
     },
     {
@@ -169,11 +169,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "...to write résumés, interview confidently, and negotiate salaries."
+          "text": "...writing résumés, to interview confidently, and how to negotiate salaries."
         },
         {
           "id": "B",
-          "text": "...writing résumés, to interview confidently, and how to negotiate salaries."
+          "text": "...to write résumés, interview confidently, and negotiate salaries."
         },
         {
           "id": "C",
@@ -184,10 +184,10 @@
           "text": "...résumés, confidence, and how to negotiate."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "All three items become verb phrases following \"to.\"",
       "distractors": {
-        "B": "Mixes three forms."
+        "A": "Mixes three forms."
       }
     },
     {
@@ -200,7 +200,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "The intersection at Oak and Fifth has seen three near-misses involving students this semester, and a marked crosswalk would reduce the risk."
+          "text": "You guys are totally ignoring a nightmare."
         },
         {
           "id": "B",
@@ -212,10 +212,10 @@
         },
         {
           "id": "D",
-          "text": "You guys are totally ignoring a nightmare."
+          "text": "The intersection at Oak and Fifth has seen three near-misses involving students this semester, and a marked crosswalk would reduce the risk."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "A formal register and specific evidence suit officials.",
       "distractors": {
         "B": "Still informal and vague."
@@ -262,7 +262,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "delay the main point to build frustration, then deliver the tragic irony of the timing"
+          "text": "summarize the residents' petitions"
         },
         {
           "id": "B",
@@ -270,14 +270,14 @@
         },
         {
           "id": "C",
-          "text": "summarize the residents' petitions"
+          "text": "delay the main point to build frustration, then deliver the tragic irony of the timing"
         },
         {
           "id": "D",
           "text": "describe how stop signs are installed"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Repeated \"after\" phrases postpone the main clause, so the final detail lands as an indictment.",
       "distractors": {
         "B": "The ending shows the city acted too late."
@@ -293,11 +293,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "While Source B rightly warns that a longer year could exhaust teachers, Source D's finding that low-income students lose the most over summer suggests the solution is more staff, not a shorter year."
+          "text": "Source B says teachers would burn out. Source D says summer learning loss is largest among low-income students."
         },
         {
           "id": "B",
-          "text": "Source B says teachers would burn out. Source D says summer learning loss is largest among low-income students."
+          "text": "While Source B rightly warns that a longer year could exhaust teachers, Source D's finding that low-income students lose the most over summer suggests the solution is more staff, not a shorter year."
         },
         {
           "id": "C",
@@ -308,10 +308,10 @@
           "text": "Both sources discuss school."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Subordination concedes Source B's concern while Source D's evidence drives the main claim, connecting both to the writer's position.",
       "distractors": {
-        "B": "Summarizes separately without connecting them."
+        "A": "Summarizes separately without connecting them."
       }
     },
     {
@@ -355,7 +355,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "In eight out of every ten streams we tested, a single water bottle's worth of water held more than 200 tiny pieces of plastic."
+          "text": "Microplastic concentrations exceeded 200 particles per liter in 80 percent of sampled tributaries, a statistically significant result."
         },
         {
           "id": "B",
@@ -363,19 +363,19 @@
         },
         {
           "id": "C",
-          "text": "Microplastic concentrations exceeded 200 particles per liter in 80 percent of sampled tributaries, a statistically significant result."
+          "text": "In eight out of every ten streams we tested, a single water bottle's worth of water held more than 200 tiny pieces of plastic."
         },
         {
           "id": "D",
           "text": "All rivers are completely full of plastic."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "It translates percentages and units into concrete terms students can picture.",
       "distractors": {
         "B": "Too vague; loses the finding.",
-        "C": "Keeps the technical language.",
-        "D": "Overstates."
+        "D": "Overstates.",
+        "A": "Keeps the technical language."
       }
     },
     {
@@ -388,7 +388,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "a brisker rhythm that suggests the relentless pace of her responsibilities"
+          "text": "a contrast between the activities"
         },
         {
           "id": "B",
@@ -400,10 +400,10 @@
         },
         {
           "id": "D",
-          "text": "a contrast between the activities"
+          "text": "a brisker rhythm that suggests the relentless pace of her responsibilities"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Asyndeton compresses the list, making the duties pile on without pause.",
       "distractors": {
         "C": "Asyndeton is a deliberate stylistic choice."
@@ -419,7 +419,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "invert the expected relationship, presenting stewardship as the community's purpose rather than a means to its comfort"
+          "text": "provide evidence of the river's cleanliness"
         },
         {
           "id": "B",
@@ -427,14 +427,14 @@
         },
         {
           "id": "C",
-          "text": "provide evidence of the river's cleanliness"
+          "text": "invert the expected relationship, presenting stewardship as the community's purpose rather than a means to its comfort"
         },
         {
           "id": "D",
           "text": "summarize a scientific study"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Chiasmus reverses means and end: the community's reason for existing becomes caring for the river.",
       "distractors": {
         "B": "The sentence affirms living there."
@@ -481,11 +481,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Although some believe the quickly developed vaccine was rushed, it was tested on tens of thousands of volunteers."
+          "text": "Although the vaccine was tested on tens of thousands of volunteers, some believe it was rushed because it was developed quickly."
         },
         {
           "id": "B",
-          "text": "Although the vaccine was tested on tens of thousands of volunteers, some believe it was rushed because it was developed quickly."
+          "text": "Although some believe the quickly developed vaccine was rushed, it was tested on tens of thousands of volunteers."
         },
         {
           "id": "C",
@@ -496,11 +496,11 @@
           "text": "Because the vaccine was tested on volunteers, it was developed quickly."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The concern goes in the subordinate clause; the testing evidence gets the main clause and final position.",
       "distractors": {
-        "B": "Emphasizes the concern.",
-        "D": "False causation."
+        "D": "False causation.",
+        "A": "Emphasizes the concern."
       }
     },
     {
@@ -513,7 +513,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "expose an inconsistency in tax policy by setting two lists of three in parallel to contrast what we discourage with what we should encourage"
+          "text": "show that all taxes are equally fair"
         },
         {
           "id": "B",
@@ -525,10 +525,10 @@
         },
         {
           "id": "D",
-          "text": "show that all taxes are equally fair"
+          "text": "expose an inconsistency in tax policy by setting two lists of three in parallel to contrast what we discourage with what we should encourage"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Matching tricolons invite readers to see the second list as an illogical application of the principle stated in the first.",
       "distractors": {
         "B": "The first list is the premise, not the argument's goal."

@@ -99,7 +99,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Las dos identidades culturales del narrador"
+          "text": "Un error de la abuela"
         },
         {
           "id": "B",
@@ -111,10 +111,10 @@
         },
         {
           "id": "D",
-          "text": "Un error de la abuela"
+          "text": "Las dos identidades culturales del narrador"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Each side of the border.",
       "distractors": {}
     },
@@ -129,11 +129,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Un espacio intermedio entre dos culturas donde la identidad es incierta"
+          "text": "Un lugar de peligro físico"
         },
         {
           "id": "B",
-          "text": "Un lugar de peligro físico"
+          "text": "Un espacio intermedio entre dos culturas donde la identidad es incierta"
         },
         {
           "id": "C",
@@ -144,7 +144,7 @@
           "text": "El fin del viaje"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "'Entre las dos banderas.'",
       "distractors": {}
     },
@@ -159,7 +159,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "el paso de un mundo cultural a otro durante el viaje"
+          "text": "un problema con el coche"
         },
         {
           "id": "B",
@@ -167,14 +167,14 @@
         },
         {
           "id": "C",
-          "text": "un problema con el coche"
+          "text": "el paso de un mundo cultural a otro durante el viaje"
         },
         {
           "id": "D",
           "text": "que el padre está enojado"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Crossing cultures.",
       "distractors": {}
     },
@@ -189,11 +189,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "que la frontera es una construcción humana ajena a la naturaleza"
+          "text": "que el río es peligroso"
         },
         {
           "id": "B",
-          "text": "que el río es peligroso"
+          "text": "que la frontera es una construcción humana ajena a la naturaleza"
         },
         {
           "id": "C",
@@ -204,7 +204,7 @@
           "text": "que el narrador quiere ser cartógrafo"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Borders as artificial.",
       "distractors": {}
     },
@@ -248,7 +248,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "capturar un caballo blanco salvaje y legendario"
+          "text": "ganar una carrera de autos"
         },
         {
           "id": "B",
@@ -260,10 +260,10 @@
         },
         {
           "id": "D",
-          "text": "ganar una carrera de autos"
+          "text": "capturar un caballo blanco salvaje y legendario"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The legendary stallion.",
       "distractors": {}
     },
@@ -277,11 +277,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "siente una paz madura al aceptar la libertad del animal"
+          "text": "jura vengarse"
         },
         {
           "id": "B",
-          "text": "jura vengarse"
+          "text": "siente una paz madura al aceptar la libertad del animal"
         },
         {
           "id": "C",
@@ -292,7 +292,7 @@
           "text": "culpa a su padre"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Coming-of-age acceptance.",
       "distractors": {}
     },
@@ -335,7 +335,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Que su padre y su hermano sufren insolación trabajando en el campo"
+          "text": "Que su abuela se muda"
         },
         {
           "id": "B",
@@ -343,14 +343,14 @@
         },
         {
           "id": "C",
-          "text": "Que su abuela se muda"
+          "text": "Que su padre y su hermano sufren insolación trabajando en el campo"
         },
         {
           "id": "D",
           "text": "Que la maestra lo castiga"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Sunstroke in the fields.",
       "distractors": {}
     },
@@ -364,7 +364,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "se siente liberado del miedo y del fatalismo"
+          "text": "pierde la fe en su familia"
         },
         {
           "id": "B",
@@ -376,10 +376,10 @@
         },
         {
           "id": "D",
-          "text": "pierde la fe en su familia"
+          "text": "se siente liberado del miedo y del fatalismo"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Liberation and agency.",
       "distractors": {}
     },
@@ -393,7 +393,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "presentar una visión colectiva de la vida de los trabajadores migrantes"
+          "text": "contar la historia de un rey"
         },
         {
           "id": "B",
@@ -405,10 +405,10 @@
         },
         {
           "id": "D",
-          "text": "contar la historia de un rey"
+          "text": "presentar una visión colectiva de la vida de los trabajadores migrantes"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Collective voice.",
       "distractors": {}
     },
@@ -422,11 +422,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "se vuelve cada vez más agresivo en un atasco de tráfico"
+          "text": "gana la lotería"
         },
         {
           "id": "B",
-          "text": "gana la lotería"
+          "text": "se vuelve cada vez más agresivo en un atasco de tráfico"
         },
         {
           "id": "C",
@@ -437,7 +437,7 @@
           "text": "viaja al campo"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Traffic jam rage.",
       "distractors": {}
     },
@@ -480,7 +480,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "La vida de los trabajadores agrícolas mexicoamericanos y el despertar del movimiento chicano"
+          "text": "La independencia de Cuba"
         },
         {
           "id": "B",
@@ -488,14 +488,14 @@
         },
         {
           "id": "C",
-          "text": "La independencia de Cuba"
+          "text": "La vida de los trabajadores agrícolas mexicoamericanos y el despertar del movimiento chicano"
         },
         {
           "id": "D",
           "text": "La Revolución francesa"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Migrant labor; Chicano movement.",
       "distractors": {}
     },

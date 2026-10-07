@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "老人帮忙照顾孙子孙女的现象"
+          "text": "城市的交通问题"
         },
         {
           "id": "B",
@@ -110,10 +110,10 @@
         },
         {
           "id": "D",
-          "text": "城市的交通问题"
+          "text": "老人帮忙照顾孙子孙女的现象"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "隔代抚养.",
       "distractors": {}
     },
@@ -128,7 +128,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "因为年轻父母工作很忙"
+          "text": "因为学校要求"
         },
         {
           "id": "B",
@@ -136,14 +136,14 @@
         },
         {
           "id": "C",
-          "text": "因为学校要求"
+          "text": "因为年轻父母工作很忙"
         },
         {
           "id": "D",
           "text": "因为孩子不想上学"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -158,11 +158,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "教育孩子的方法，比如吃零食和运动"
+          "text": "孩子上哪个学校"
         },
         {
           "id": "B",
-          "text": "孩子上哪个学校"
+          "text": "教育孩子的方法，比如吃零食和运动"
         },
         {
           "id": "C",
@@ -173,7 +173,7 @@
           "text": "王奶奶的工作"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Snacks vs exercise.",
       "distractors": {}
     },
@@ -248,7 +248,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "退休以后一个人在家觉得孤单"
+          "text": "她以前是舞蹈老师"
         },
         {
           "id": "B",
@@ -256,14 +256,14 @@
         },
         {
           "id": "C",
-          "text": "她以前是舞蹈老师"
+          "text": "退休以后一个人在家觉得孤单"
         },
         {
           "id": "D",
           "text": "她想参加比赛"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -278,7 +278,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "把音量调小，并且八点半以前结束"
+          "text": "停止跳舞"
         },
         {
           "id": "B",
@@ -290,10 +290,10 @@
         },
         {
           "id": "D",
-          "text": "停止跳舞"
+          "text": "把音量调小，并且八点半以前结束"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Accommodation.",
       "distractors": {}
     },
@@ -308,11 +308,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "她在这里找到了归属感和朋友"
+          "text": "她搬到了广场上住"
         },
         {
           "id": "B",
-          "text": "她搬到了广场上住"
+          "text": "她在这里找到了归属感和朋友"
         },
         {
           "id": "C",
@@ -323,7 +323,7 @@
           "text": "她不喜欢自己的家"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Belonging.",
       "distractors": {}
     },
@@ -368,7 +368,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "年轻人可以参加你们的活动吗？"
+          "text": "您去过非洲吗？"
         },
         {
           "id": "B",
@@ -380,10 +380,10 @@
         },
         {
           "id": "D",
-          "text": "您去过非洲吗？"
+          "text": "年轻人可以参加你们的活动吗？"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "On topic.",
       "distractors": {}
     },
@@ -398,7 +398,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "每个周六上午"
+          "text": "每个周日下午"
         },
         {
           "id": "B",
@@ -406,14 +406,14 @@
         },
         {
           "id": "C",
-          "text": "每个周日下午"
+          "text": "每个周六上午"
         },
         {
           "id": "D",
           "text": "每月一次"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -428,11 +428,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "家长同意"
+          "text": "社区证书"
         },
         {
           "id": "B",
-          "text": "社区证书"
+          "text": "家长同意"
         },
         {
           "id": "C",
@@ -443,7 +443,7 @@
           "text": "已经参加过十次"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Under 18 needs consent.",
       "distractors": {}
     },
@@ -458,11 +458,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "参加满十次志愿活动"
+          "text": "在20日前报名"
         },
         {
           "id": "B",
-          "text": "在20日前报名"
+          "text": "参加满十次志愿活动"
         },
         {
           "id": "C",
@@ -473,7 +473,7 @@
           "text": "教会一位老人用手机"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -488,7 +488,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "都反映了老人在家庭和社区中的重要作用"
+          "text": "都在学校里进行"
         },
         {
           "id": "B",
@@ -500,10 +500,10 @@
         },
         {
           "id": "D",
-          "text": "都在学校里进行"
+          "text": "都反映了老人在家庭和社区中的重要作用"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Elders' roles.",
       "distractors": {}
     },

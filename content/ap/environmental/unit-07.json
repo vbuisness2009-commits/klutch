@@ -45,230 +45,574 @@
     "cramSheet": "**Primary:** CO, NOx, SO₂, PM, VOCs, Pb · **Secondary:** O₃, H₂SO₄, HNO₃\n\n**Criteria (6):** CO, Pb, NO₂, O₃, PM, SO₂\n\n**Smog:** NOx + VOCs + sun → O₃ · morning NO₂, afternoon O₃\n\n**Inversion:** warm over cool · traps pollution · valleys, calm nights\n\n**Indoor:** radon (soil uranium) · CO (combustion) · asbestos · VOCs\n\n**Controls:** catalytic converter · scrubber (SO₂) · ESP/baghouse (PM) · vapor recovery (VOCs)\n\n**Acid rain:** SO₂/NOx · limestone buffers · 1 pH = 10×"
   },
   "vocab": [
-    { "term": "Primary pollutant", "definition": "A pollutant emitted directly from a source." },
-    { "term": "Secondary pollutant", "definition": "A pollutant formed by chemical reactions in the atmosphere." },
-    { "term": "Criteria air pollutants", "definition": "Six pollutants regulated under the Clean Air Act: CO, lead, NO₂, ozone, particulate matter, SO₂." },
-    { "term": "Photochemical smog", "definition": "Air pollution formed when sunlight drives reactions between NOx and VOCs, producing ozone." },
-    { "term": "Volatile organic compounds (VOCs)", "definition": "Carbon-based chemicals that evaporate easily and contribute to smog." },
-    { "term": "Thermal inversion", "definition": "A warm air layer above cooler air that traps pollutants near the ground." },
-    { "term": "Particulate matter", "definition": "Tiny solid or liquid particles suspended in air (PM10, PM2.5)." },
-    { "term": "Radon", "definition": "A radioactive gas from uranium decay that can accumulate in buildings." },
-    { "term": "Catalytic converter", "definition": "A device in vehicle exhaust that converts CO, NOx, and hydrocarbons to less harmful gases." },
-    { "term": "Wet scrubber", "definition": "A smokestack device that removes SO₂ and particles with a liquid spray." },
-    { "term": "Electrostatic precipitator", "definition": "A device that charges particles and collects them on oppositely charged plates." },
-    { "term": "Acid deposition", "definition": "Deposition of sulfuric and nitric acids in rain, snow, fog, or dry particles." }
+    {
+      "term": "Primary pollutant",
+      "definition": "A pollutant emitted directly from a source."
+    },
+    {
+      "term": "Secondary pollutant",
+      "definition": "A pollutant formed by chemical reactions in the atmosphere."
+    },
+    {
+      "term": "Criteria air pollutants",
+      "definition": "Six pollutants regulated under the Clean Air Act: CO, lead, NO₂, ozone, particulate matter, SO₂."
+    },
+    {
+      "term": "Photochemical smog",
+      "definition": "Air pollution formed when sunlight drives reactions between NOx and VOCs, producing ozone."
+    },
+    {
+      "term": "Volatile organic compounds (VOCs)",
+      "definition": "Carbon-based chemicals that evaporate easily and contribute to smog."
+    },
+    {
+      "term": "Thermal inversion",
+      "definition": "A warm air layer above cooler air that traps pollutants near the ground."
+    },
+    {
+      "term": "Particulate matter",
+      "definition": "Tiny solid or liquid particles suspended in air (PM10, PM2.5)."
+    },
+    {
+      "term": "Radon",
+      "definition": "A radioactive gas from uranium decay that can accumulate in buildings."
+    },
+    {
+      "term": "Catalytic converter",
+      "definition": "A device in vehicle exhaust that converts CO, NOx, and hydrocarbons to less harmful gases."
+    },
+    {
+      "term": "Wet scrubber",
+      "definition": "A smokestack device that removes SO₂ and particles with a liquid spray."
+    },
+    {
+      "term": "Electrostatic precipitator",
+      "definition": "A device that charges particles and collects them on oppositely charged plates."
+    },
+    {
+      "term": "Acid deposition",
+      "definition": "Deposition of sulfuric and nitric acids in rain, snow, fog, or dry particles."
+    }
   ],
   "practice": [
     {
-      "id": "u7-q01", "tier": "Intro", "type": "mcq", "topic": "7.1 Introduction to Air Pollution", "skill": "1. Concept Explanation",
+      "id": "u7-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "7.1 Introduction to Air Pollution",
+      "skill": "1. Concept Explanation",
       "stem": "Which of the following is a secondary air pollutant?",
       "choices": [
-        { "id": "A", "text": "Carbon monoxide" },
-        { "id": "B", "text": "Sulfur dioxide" },
-        { "id": "C", "text": "Ground-level ozone" },
-        { "id": "D", "text": "Lead" }
+        {
+          "id": "A",
+          "text": "Carbon monoxide"
+        },
+        {
+          "id": "B",
+          "text": "Sulfur dioxide"
+        },
+        {
+          "id": "C",
+          "text": "Ground-level ozone"
+        },
+        {
+          "id": "D",
+          "text": "Lead"
+        }
       ],
       "answer": "C",
       "explanation": "Ozone forms in the atmosphere from NOx and VOCs in sunlight.",
       "distractors": {}
     },
     {
-      "id": "u7-q02", "tier": "Intro", "type": "mcq", "topic": "7.5 Indoor Air Pollutants", "skill": "1. Concept Explanation",
+      "id": "u7-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "7.5 Indoor Air Pollutants",
+      "skill": "1. Concept Explanation",
       "stem": "Radon gas in basements originates from",
       "choices": [
-        { "id": "A", "text": "burning natural gas in furnaces" },
-        { "id": "B", "text": "radioactive decay of uranium in rocks and soil" },
-        { "id": "C", "text": "decomposing building materials" },
-        { "id": "D", "text": "vehicle exhaust from attached garages" }
+        {
+          "id": "A",
+          "text": "burning natural gas in furnaces"
+        },
+        {
+          "id": "B",
+          "text": "decomposing building materials"
+        },
+        {
+          "id": "C",
+          "text": "radioactive decay of uranium in rocks and soil"
+        },
+        {
+          "id": "D",
+          "text": "vehicle exhaust from attached garages"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Radon-222 is a decay product of uranium; it seeps through foundation cracks.",
       "distractors": {}
     },
     {
-      "id": "u7-q03", "tier": "Intro", "type": "mcq", "topic": "7.6 Reduction of Air Pollutants", "skill": "7. Environmental Solutions",
+      "id": "u7-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "7.6 Reduction of Air Pollutants",
+      "skill": "7. Environmental Solutions",
       "stem": "A catalytic converter in a car reduces emissions of",
       "choices": [
-        { "id": "A", "text": "CO₂ only" },
-        { "id": "B", "text": "CO, NOx, and unburned hydrocarbons" },
-        { "id": "C", "text": "SO₂ and lead" },
-        { "id": "D", "text": "water vapor" }
+        {
+          "id": "A",
+          "text": "CO₂ only"
+        },
+        {
+          "id": "B",
+          "text": "water vapor"
+        },
+        {
+          "id": "C",
+          "text": "SO₂ and lead"
+        },
+        {
+          "id": "D",
+          "text": "CO, NOx, and unburned hydrocarbons"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "It oxidizes CO and hydrocarbons to CO₂ and H₂O and reduces NOx to N₂.",
-      "distractors": { "A": "Catalytic converters produce CO₂." }
+      "distractors": {
+        "A": "Catalytic converters produce CO₂."
+      }
     },
     {
-      "id": "u7-q04", "tier": "Intro", "type": "mcq", "topic": "7.3 Thermal Inversion", "skill": "1. Concept Explanation",
+      "id": "u7-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "7.3 Thermal Inversion",
+      "skill": "1. Concept Explanation",
       "stem": "During a thermal inversion,",
       "choices": [
-        { "id": "A", "text": "a layer of warm air lies above cooler air near the ground, trapping pollutants" },
-        { "id": "B", "text": "cool air lies above warm air, causing rapid mixing" },
-        { "id": "C", "text": "the ozone layer thins" },
-        { "id": "D", "text": "strong winds disperse pollutants" }
+        {
+          "id": "A",
+          "text": "a layer of warm air lies above cooler air near the ground, trapping pollutants"
+        },
+        {
+          "id": "B",
+          "text": "cool air lies above warm air, causing rapid mixing"
+        },
+        {
+          "id": "C",
+          "text": "the ozone layer thins"
+        },
+        {
+          "id": "D",
+          "text": "strong winds disperse pollutants"
+        }
       ],
       "answer": "A",
       "explanation": "The warm lid prevents surface air from rising and dispersing pollutants.",
-      "distractors": { "B": "Normal conditions." }
+      "distractors": {
+        "B": "Normal conditions."
+      }
     },
     {
-      "id": "u7-q05", "tier": "Exam level", "type": "mcq", "topic": "7.2 Photochemical Smog", "skill": "2. Visual Representations",
+      "id": "u7-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.2 Photochemical Smog",
+      "skill": "2. Visual Representations",
       "stimulus": "Hourly measurements on a sunny weekday in a large city: NO peaks at 7 a.m., NO₂ peaks at 9 a.m., and O₃ peaks at 2 p.m.",
       "stem": "Which explanation best accounts for the timing of the ozone peak?",
       "choices": [
-        { "id": "A", "text": "Ozone is emitted directly by afternoon traffic." },
-        { "id": "B", "text": "Ozone forms from NO₂ and VOCs emitted earlier, in reactions driven by sunlight, which is strongest in the early afternoon." },
-        { "id": "C", "text": "Ozone descends from the stratosphere in the afternoon." },
-        { "id": "D", "text": "Ozone forms at night and accumulates until afternoon." }
+        {
+          "id": "A",
+          "text": "Ozone forms from NO₂ and VOCs emitted earlier, in reactions driven by sunlight, which is strongest in the early afternoon."
+        },
+        {
+          "id": "B",
+          "text": "Ozone is emitted directly by afternoon traffic."
+        },
+        {
+          "id": "C",
+          "text": "Ozone descends from the stratosphere in the afternoon."
+        },
+        {
+          "id": "D",
+          "text": "Ozone forms at night and accumulates until afternoon."
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Morning rush-hour emissions provide precursors; peak sunlight drives ozone formation.",
       "distractors": {}
     },
     {
-      "id": "u7-q06", "tier": "Exam level", "type": "mcq", "topic": "7.7 Acid Rain", "skill": "1. Concept Explanation",
+      "id": "u7-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.7 Acid Rain",
+      "skill": "1. Concept Explanation",
       "stem": "Two lakes receive identical acid deposition. Lake 1 sits on limestone bedrock and Lake 2 on granite. Which is most likely?",
       "choices": [
-        { "id": "A", "text": "Lake 1's pH drops more, because limestone releases acid." },
-        { "id": "B", "text": "Lake 2's pH drops more, because granite has little capacity to neutralize acid." },
-        { "id": "C", "text": "Both lakes have the same pH." },
-        { "id": "D", "text": "Lake 2's pH rises." }
+        {
+          "id": "A",
+          "text": "Lake 1's pH drops more, because limestone releases acid."
+        },
+        {
+          "id": "B",
+          "text": "Lake 2's pH drops more, because granite has little capacity to neutralize acid."
+        },
+        {
+          "id": "C",
+          "text": "Both lakes have the same pH."
+        },
+        {
+          "id": "D",
+          "text": "Lake 2's pH rises."
+        }
       ],
       "answer": "B",
       "explanation": "Calcium carbonate in limestone neutralizes acid; granite provides almost no buffering.",
       "distractors": {}
     },
     {
-      "id": "u7-q07", "tier": "Exam level", "type": "mcq", "topic": "7.6 Reduction of Air Pollutants", "skill": "7. Environmental Solutions",
+      "id": "u7-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.6 Reduction of Air Pollutants",
+      "skill": "7. Environmental Solutions",
       "stem": "A coal-fired power plant wants to reduce sulfur dioxide emissions without changing fuel. Which technology is most appropriate?",
       "choices": [
-        { "id": "A", "text": "Catalytic converter" },
-        { "id": "B", "text": "Wet scrubber using a limestone slurry" },
-        { "id": "C", "text": "Vapor recovery nozzle" },
-        { "id": "D", "text": "Baghouse filter alone" }
+        {
+          "id": "A",
+          "text": "Catalytic converter"
+        },
+        {
+          "id": "B",
+          "text": "Vapor recovery nozzle"
+        },
+        {
+          "id": "C",
+          "text": "Wet scrubber using a limestone slurry"
+        },
+        {
+          "id": "D",
+          "text": "Baghouse filter alone"
+        }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Scrubbers react SO₂ with calcium compounds, forming solids (e.g., gypsum).",
-      "distractors": { "D": "Removes particles, not gases like SO₂." }
+      "distractors": {
+        "D": "Removes particles, not gases like SO₂."
+      }
     },
     {
-      "id": "u7-q08", "tier": "Exam level", "type": "mcq", "topic": "7.5 Indoor Air Pollutants", "skill": "7. Environmental Solutions",
+      "id": "u7-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.5 Indoor Air Pollutants",
+      "skill": "7. Environmental Solutions",
       "stem": "In many low-income households worldwide, the greatest indoor air pollution risk comes from",
       "choices": [
-        { "id": "A", "text": "radon in high-rise apartments" },
-        { "id": "B", "text": "burning wood, dung, or coal for cooking in poorly ventilated homes" },
-        { "id": "C", "text": "formaldehyde from new carpeting" },
-        { "id": "D", "text": "asbestos insulation" }
+        {
+          "id": "A",
+          "text": "radon in high-rise apartments"
+        },
+        {
+          "id": "B",
+          "text": "asbestos insulation"
+        },
+        {
+          "id": "C",
+          "text": "formaldehyde from new carpeting"
+        },
+        {
+          "id": "D",
+          "text": "burning wood, dung, or coal for cooking in poorly ventilated homes"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Incomplete combustion indoors produces particulates and CO, causing respiratory disease.",
       "distractors": {}
     },
     {
-      "id": "u7-q09", "tier": "Exam level", "type": "mcq", "topic": "7.8 Noise Pollution", "skill": "1. Concept Explanation",
+      "id": "u7-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.8 Noise Pollution",
+      "skill": "1. Concept Explanation",
       "stem": "Which is the most likely ecological effect of constant ship noise in a whale migration corridor?",
       "choices": [
-        { "id": "A", "text": "Increased dissolved oxygen" },
-        { "id": "B", "text": "Interference with whales' acoustic communication used for navigation and mating" },
-        { "id": "C", "text": "Lower ocean pH" },
-        { "id": "D", "text": "Faster growth of plankton" }
+        {
+          "id": "A",
+          "text": "Interference with whales' acoustic communication used for navigation and mating"
+        },
+        {
+          "id": "B",
+          "text": "Increased dissolved oxygen"
+        },
+        {
+          "id": "C",
+          "text": "Lower ocean pH"
+        },
+        {
+          "id": "D",
+          "text": "Faster growth of plankton"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Underwater noise masks the low-frequency calls whales rely on.",
       "distractors": {}
     },
     {
-      "id": "u7-q10", "tier": "Exam level", "type": "mcq", "topic": "7.4 Atmospheric CO₂ and Particulates", "skill": "1. Concept Explanation",
+      "id": "u7-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "7.4 Atmospheric CO₂ and Particulates",
+      "skill": "1. Concept Explanation",
       "stem": "Why is PM2.5 considered more harmful to human health than PM10?",
       "choices": [
-        { "id": "A", "text": "Smaller particles penetrate deeper into the lungs and can enter the bloodstream." },
-        { "id": "B", "text": "PM2.5 particles are heavier." },
-        { "id": "C", "text": "PM2.5 only comes from natural sources." },
-        { "id": "D", "text": "PM10 is filtered out by the ozone layer." }
+        {
+          "id": "A",
+          "text": "PM2.5 only comes from natural sources."
+        },
+        {
+          "id": "B",
+          "text": "PM2.5 particles are heavier."
+        },
+        {
+          "id": "C",
+          "text": "Smaller particles penetrate deeper into the lungs and can enter the bloodstream."
+        },
+        {
+          "id": "D",
+          "text": "PM10 is filtered out by the ozone layer."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Fine particles bypass upper-airway defenses and reach the alveoli.",
       "distractors": {}
     },
     {
-      "id": "u7-q11", "tier": "Hardest", "type": "mcq", "topic": "7.7 Acid Rain", "skill": "6. Mathematical Routines",
+      "id": "u7-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "7.7 Acid Rain",
+      "skill": "6. Mathematical Routines",
       "stem": "Unpolluted rain has a pH of about 5.6. Rain in an industrial region has a pH of 4.6. How many times greater is the hydrogen ion concentration of the industrial rain?",
       "choices": [
-        { "id": "A", "text": "1" },
-        { "id": "B", "text": "2" },
-        { "id": "C", "text": "10" },
-        { "id": "D", "text": "100" }
+        {
+          "id": "A",
+          "text": "1"
+        },
+        {
+          "id": "B",
+          "text": "2"
+        },
+        {
+          "id": "C",
+          "text": "10"
+        },
+        {
+          "id": "D",
+          "text": "100"
+        }
       ],
       "answer": "C",
       "explanation": "A difference of 1 pH unit is a tenfold difference in [H⁺].",
       "distractors": {}
     },
     {
-      "id": "u7-q12", "tier": "Hardest", "type": "mcq", "topic": "7.3 Thermal Inversion", "skill": "7. Environmental Solutions",
+      "id": "u7-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "7.3 Thermal Inversion",
+      "skill": "7. Environmental Solutions",
       "stimulus": "A city in a mountain valley has severe winter air pollution on calm, clear mornings, even though emissions are similar every day.",
       "stem": "Which explanation and response is best supported?",
       "choices": [
-        { "id": "A", "text": "Inversions trap emissions in the valley on calm, clear nights; limiting wood burning and vehicle use on forecast inversion days would reduce exposure." },
-        { "id": "B", "text": "Photochemical smog peaks in winter mornings; planting trees would help immediately." },
-        { "id": "C", "text": "Mountains generate pollutants; tunneling would fix the problem." },
-        { "id": "D", "text": "Emissions double on clear days; nothing can be done." }
+        {
+          "id": "A",
+          "text": "Photochemical smog peaks in winter mornings; planting trees would help immediately."
+        },
+        {
+          "id": "B",
+          "text": "Inversions trap emissions in the valley on calm, clear nights; limiting wood burning and vehicle use on forecast inversion days would reduce exposure."
+        },
+        {
+          "id": "C",
+          "text": "Mountains generate pollutants; tunneling would fix the problem."
+        },
+        {
+          "id": "D",
+          "text": "Emissions double on clear days; nothing can be done."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Clear nights cool the ground quickly, forming a cold layer under warmer air; valleys hold it in place.",
-      "distractors": { "B": "Smog needs strong sunlight; it peaks in summer afternoons." }
+      "distractors": {
+        "A": "Smog needs strong sunlight; it peaks in summer afternoons."
+      }
     },
     {
-      "id": "u7-q13", "tier": "Hardest", "type": "mcq", "topic": "7.1 Introduction to Air Pollution", "skill": "5. Data Analysis",
+      "id": "u7-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "7.1 Introduction to Air Pollution",
+      "skill": "5. Data Analysis",
       "stimulus": "U.S. airborne lead concentrations fell by more than 90% between 1980 and 2000, while vehicle miles traveled increased.",
       "stem": "Which explanation is best supported?",
       "choices": [
-        { "id": "A", "text": "Leaded gasoline was phased out, removing the main source even as driving increased." },
-        { "id": "B", "text": "People drove less." },
-        { "id": "C", "text": "Catalytic converters converted lead into CO₂." },
-        { "id": "D", "text": "Lead is a secondary pollutant that stopped forming." }
+        {
+          "id": "A",
+          "text": "Lead is a secondary pollutant that stopped forming."
+        },
+        {
+          "id": "B",
+          "text": "People drove less."
+        },
+        {
+          "id": "C",
+          "text": "Catalytic converters converted lead into CO₂."
+        },
+        {
+          "id": "D",
+          "text": "Leaded gasoline was phased out, removing the main source even as driving increased."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Removing lead from fuel eliminated emissions at the source.",
-      "distractors": { "C": "Lead is an element; it cannot be converted to CO₂ (it actually ruins catalytic converters)." }
+      "distractors": {
+        "C": "Lead is an element; it cannot be converted to CO₂ (it actually ruins catalytic converters)."
+      }
     },
     {
-      "id": "u7-q14", "tier": "Hardest", "type": "mcq", "topic": "7.8 Noise Pollution", "skill": "6. Mathematical Routines",
+      "id": "u7-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "7.8 Noise Pollution",
+      "skill": "6. Mathematical Routines",
       "stem": "Sound intensity increases tenfold for each 10-decibel increase. How many times more intense is a 90 dB construction site than a 60 dB conversation?",
       "choices": [
-        { "id": "A", "text": "1.5 times" },
-        { "id": "B", "text": "3 times" },
-        { "id": "C", "text": "30 times" },
-        { "id": "D", "text": "1,000 times" }
+        {
+          "id": "A",
+          "text": "1.5 times"
+        },
+        {
+          "id": "B",
+          "text": "3 times"
+        },
+        {
+          "id": "C",
+          "text": "30 times"
+        },
+        {
+          "id": "D",
+          "text": "1,000 times"
+        }
       ],
       "answer": "D",
       "explanation": "30 dB = three tenfold steps: 10³ = 1,000.",
-      "distractors": { "C": "Treats the scale as linear." }
+      "distractors": {
+        "C": "Treats the scale as linear."
+      }
     },
     {
-      "id": "u7-frq1", "tier": "Exam level", "type": "frq", "topic": "7.2 Photochemical Smog", "frqType": "Q2 Analyze an Environmental Problem and Propose a Solution",
+      "id": "u7-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "7.2 Photochemical Smog",
+      "frqType": "Q2 Analyze an Environmental Problem and Propose a Solution",
       "prompt": "A rapidly growing city in a sunny basin surrounded by mountains frequently exceeds air-quality standards for ground-level ozone in summer and for particulate matter in winter. Most residents commute by car, and a large coal-fired power plant sits at the edge of the city. Hospitals report more asthma attacks on high-ozone days.",
       "parts": [
-        { "label": "a", "prompt": "Identify the two primary pollutants that react to form ground-level ozone, and the condition needed.", "points": 1 },
-        { "label": "b", "prompt": "Explain why ozone concentrations are highest in summer afternoons.", "points": 1 },
-        { "label": "c", "prompt": "Explain how the city's geography contributes to high particulate levels in winter.", "points": 2 },
-        { "label": "d", "prompt": "Describe one human health effect of ground-level ozone.", "points": 1 },
-        { "label": "e", "prompt": "Propose one solution to reduce vehicle-related ozone precursors, and explain how it works.", "points": 2 },
-        { "label": "f", "prompt": "Identify a technology that would reduce particulate emissions from the power plant, and explain how it works.", "points": 2 },
-        { "label": "g", "prompt": "Describe one disadvantage of your solution in part (e).", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Identify the two primary pollutants that react to form ground-level ozone, and the condition needed.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Explain why ozone concentrations are highest in summer afternoons.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Explain how the city's geography contributes to high particulate levels in winter.",
+          "points": 2
+        },
+        {
+          "label": "d",
+          "prompt": "Describe one human health effect of ground-level ozone.",
+          "points": 1
+        },
+        {
+          "label": "e",
+          "prompt": "Propose one solution to reduce vehicle-related ozone precursors, and explain how it works.",
+          "points": 2
+        },
+        {
+          "label": "f",
+          "prompt": "Identify a technology that would reduce particulate emissions from the power plant, and explain how it works.",
+          "points": 2
+        },
+        {
+          "label": "g",
+          "prompt": "Describe one disadvantage of your solution in part (e).",
+          "points": 1
+        }
       ],
       "points": 10,
       "minutes": 23,
       "rubric": [
-        { "criterion": "a: Precursors", "points": 1, "description": "NOx and VOCs, in the presence of sunlight (all needed)." },
-        { "criterion": "b: Sunlight and heat", "points": 1, "description": "Intense sunlight and high temperatures in summer afternoons drive the photochemical reactions." },
-        { "criterion": "c1: Inversion", "points": 1, "description": "Winter thermal inversions form when cold air settles in the basin beneath warmer air." },
-        { "criterion": "c2: Trapping", "points": 1, "description": "Mountains block horizontal dispersal and the warm layer prevents vertical mixing, so particulates accumulate." },
-        { "criterion": "d: Health", "points": 1, "description": "E.g., irritates airways, worsens asthma, reduces lung function, causes coughing and chest pain." },
-        { "criterion": "e1: Solution", "points": 1, "description": "E.g., expand public transit, incentivize electric vehicles, stricter emissions testing, congestion pricing, carpool lanes." },
-        { "criterion": "e2: Mechanism", "points": 1, "description": "Explains how it reduces NOx/VOC emissions (fewer vehicle miles or zero tailpipe emissions)." },
-        { "criterion": "f1: Technology", "points": 1, "description": "Electrostatic precipitator or baghouse filter (or wet scrubber)." },
-        { "criterion": "f2: Mechanism", "points": 1, "description": "ESP: charges particles so they stick to oppositely charged plates; baghouse: fabric filters trap particles." },
-        { "criterion": "g: Disadvantage", "points": 1, "description": "E.g., transit is expensive to build; EVs cost more and may be charged with coal power; residents may resist." }
+        {
+          "criterion": "a: Precursors",
+          "points": 1,
+          "description": "NOx and VOCs, in the presence of sunlight (all needed)."
+        },
+        {
+          "criterion": "b: Sunlight and heat",
+          "points": 1,
+          "description": "Intense sunlight and high temperatures in summer afternoons drive the photochemical reactions."
+        },
+        {
+          "criterion": "c1: Inversion",
+          "points": 1,
+          "description": "Winter thermal inversions form when cold air settles in the basin beneath warmer air."
+        },
+        {
+          "criterion": "c2: Trapping",
+          "points": 1,
+          "description": "Mountains block horizontal dispersal and the warm layer prevents vertical mixing, so particulates accumulate."
+        },
+        {
+          "criterion": "d: Health",
+          "points": 1,
+          "description": "E.g., irritates airways, worsens asthma, reduces lung function, causes coughing and chest pain."
+        },
+        {
+          "criterion": "e1: Solution",
+          "points": 1,
+          "description": "E.g., expand public transit, incentivize electric vehicles, stricter emissions testing, congestion pricing, carpool lanes."
+        },
+        {
+          "criterion": "e2: Mechanism",
+          "points": 1,
+          "description": "Explains how it reduces NOx/VOC emissions (fewer vehicle miles or zero tailpipe emissions)."
+        },
+        {
+          "criterion": "f1: Technology",
+          "points": 1,
+          "description": "Electrostatic precipitator or baghouse filter (or wet scrubber)."
+        },
+        {
+          "criterion": "f2: Mechanism",
+          "points": 1,
+          "description": "ESP: charges particles so they stick to oppositely charged plates; baghouse: fabric filters trap particles."
+        },
+        {
+          "criterion": "g: Disadvantage",
+          "points": 1,
+          "description": "E.g., transit is expensive to build; EVs cost more and may be charged with coal power; residents may resist."
+        }
       ],
       "sampleResponse": "(a) Nitrogen oxides (NOx) and volatile organic compounds (VOCs), reacting in sunlight.\n\n(b) Summer afternoons have the most intense sunlight and the highest temperatures, which speed the photochemical reactions that convert NOx and VOCs into ozone.\n\n(c) On calm winter nights, cold air sinks into the basin and is capped by warmer air above, forming a thermal inversion. The surrounding mountains prevent air from moving out horizontally, and the warm layer stops vertical mixing, so particulates from vehicles and the power plant build up near the ground.\n\n(d) Ozone irritates the lining of the respiratory tract, triggering asthma attacks and reducing lung function.\n\n(e) Build a light-rail system with frequent service between suburbs and downtown. Shifting commuters from cars to rail reduces the vehicle miles traveled, cutting emissions of NOx and VOCs.\n\n(f) An electrostatic precipitator gives particles in the exhaust an electric charge; they are attracted to oppositely charged plates, where they are collected before leaving the smokestack.\n\n(g) Light rail is very expensive to build, requiring billions of dollars and years of construction."
     }

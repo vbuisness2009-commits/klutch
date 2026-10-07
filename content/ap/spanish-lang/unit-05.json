@@ -99,7 +99,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "El tiempo de conversación alrededor de la mesa después de comer"
+          "text": "Un tipo de mesa"
         },
         {
           "id": "B",
@@ -111,10 +111,10 @@
         },
         {
           "id": "D",
-          "text": "Un tipo de mesa"
+          "text": "El tiempo de conversación alrededor de la mesa después de comer"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Defined in the first paragraph.",
       "distractors": {}
     },
@@ -129,11 +129,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Los horarios laborales largos y comer deprisa frente al ordenador"
+          "text": "La falta de restaurantes"
         },
         {
           "id": "B",
-          "text": "La falta de restaurantes"
+          "text": "Los horarios laborales largos y comer deprisa frente al ordenador"
         },
         {
           "id": "C",
@@ -144,7 +144,7 @@
           "text": "Las vacaciones"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated in the second paragraph.",
       "distractors": {}
     },
@@ -159,7 +159,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Dedicar de vez en cuando tiempo a comer sin prisa y sin el móvil"
+          "text": "Eliminar la comida del mediodía"
         },
         {
           "id": "B",
@@ -167,14 +167,14 @@
         },
         {
           "id": "C",
-          "text": "Eliminar la comida del mediodía"
+          "text": "Dedicar de vez en cuando tiempo a comer sin prisa y sin el móvil"
         },
         {
           "id": "D",
           "text": "Prohibir los teléfonos en los restaurantes"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The author explicitly rejects three-hour meals and asks for something simpler.",
       "distractors": {
         "B": "The author says this is not what is being asked."
@@ -221,7 +221,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Porque no sabía qué carrera elegir"
+          "text": "Porque sus padres se lo exigieron"
         },
         {
           "id": "B",
@@ -233,10 +233,10 @@
         },
         {
           "id": "D",
-          "text": "Porque sus padres se lo exigieron"
+          "text": "Porque no sabía qué carrera elegir"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "She didn't know which major to choose.",
       "distractors": {}
     },
@@ -251,7 +251,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Trabajó en una cafetería y luego fue voluntaria en una escuela rural"
+          "text": "Viajó por toda Sudamérica"
         },
         {
           "id": "B",
@@ -259,14 +259,14 @@
         },
         {
           "id": "C",
-          "text": "Viajó por toda Sudamérica"
+          "text": "Trabajó en una cafetería y luego fue voluntaria en una escuela rural"
         },
         {
           "id": "D",
           "text": "Trabajó en un hotel"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Two activities she lists.",
       "distractors": {}
     },
@@ -281,11 +281,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Que le encanta enseñar"
+          "text": "Que no le gustan los niños"
         },
         {
           "id": "B",
-          "text": "Que no le gustan los niños"
+          "text": "Que le encanta enseñar"
         },
         {
           "id": "C",
@@ -296,7 +296,7 @@
           "text": "Que prefiere vivir en la ciudad"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "'Descubrí que me encanta enseñar.'",
       "distractors": {}
     },
@@ -341,7 +341,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Invitar al candidato a una entrevista"
+          "text": "Reservar una habitación"
         },
         {
           "id": "B",
@@ -353,10 +353,10 @@
         },
         {
           "id": "D",
-          "text": "Reservar una habitación"
+          "text": "Invitar al candidato a una entrevista"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "An interview invitation.",
       "distractors": {}
     },
@@ -371,11 +371,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Tener un título universitario"
+          "text": "Hablar inglés a nivel intermedio"
         },
         {
           "id": "B",
-          "text": "Hablar inglés a nivel intermedio"
+          "text": "Tener un título universitario"
         },
         {
           "id": "C",
@@ -386,7 +386,7 @@
           "text": "Atender a los clientes con amabilidad"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "A degree isn't mentioned.",
       "distractors": {}
     },
@@ -401,7 +401,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Alojamiento y una comida al día"
+          "text": "Clases de inglés gratuitas"
         },
         {
           "id": "B",
@@ -409,14 +409,14 @@
         },
         {
           "id": "C",
-          "text": "Clases de inglés gratuitas"
+          "text": "Alojamiento y una comida al día"
         },
         {
           "id": "D",
           "text": "Vacaciones pagadas"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated in the email.",
       "distractors": {}
     },
@@ -460,11 +460,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "apague"
+          "text": "apaga"
         },
         {
           "id": "B",
-          "text": "apaga"
+          "text": "apague"
         },
         {
           "id": "C",
@@ -475,7 +475,7 @@
           "text": "apagó"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Pedir que + present subjunctive.",
       "distractors": {}
     },

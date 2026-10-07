@@ -47,236 +47,561 @@
     "cramSheet": "**Byzantine:** San Vitale mosaics · Hagia Sophia (pendentives, Justinian)\n\n**Islamic Iberia:** Great Mosque of Córdoba (horseshoe arches) · Alhambra\n\n**Romanesque:** Sainte-Foy · Bayeux Embroidery (1066)\n\n**Gothic:** Chartres (flying buttresses, stained glass)\n\n**Proto-Ren:** Giotto Arena Chapel\n\n**Northern Ren:** Merode (Campin) · Arnolfini (van Eyck) · Isenheim (Grünewald) · Law and Grace (Cranach)\n\n**Italian Ren:** Donatello David · Last Supper · School of Athens · Sistine · Venus of Urbino\n\n**Baroque:** Calling of St. Matthew (Caravaggio, tenebrism) · Ecstasy of St. Teresa (Bernini) · Las Meninas · Woman Holding a Balance (Vermeer)\n\n**Colonial:** casta paintings (attrib. Juan Rodríguez Juárez)"
   },
   "vocab": [
-    { "term": "Pendentive", "definition": "A curved triangular support that allows a circular dome to rest on a square base." },
-    { "term": "Basilica", "definition": "A long rectangular hall adapted from Roman architecture for Christian churches." },
-    { "term": "Mosaic", "definition": "An image made of small pieces of colored stone or glass (tesserae)." },
-    { "term": "Horseshoe arch", "definition": "An arch that curves inward at its base, characteristic of Islamic Iberian architecture." },
-    { "term": "Tympanum", "definition": "The semicircular space above a church doorway, often carved with relief sculpture." },
-    { "term": "Flying buttress", "definition": "An external arched support that transfers the thrust of a vault outward, allowing thinner walls." },
-    { "term": "Fresco", "definition": "Painting on wet plaster, which binds the pigment as it dries." },
-    { "term": "Triptych", "definition": "A work of art in three panels." },
-    { "term": "Disguised symbolism", "definition": "Everyday objects carrying religious meaning, common in Northern Renaissance painting." },
-    { "term": "Linear perspective", "definition": "A system for creating the illusion of depth using lines converging at a vanishing point." },
-    { "term": "Contrapposto", "definition": "A pose with weight on one leg, creating a natural, relaxed stance." },
-    { "term": "Tenebrism", "definition": "Dramatic use of strong contrasts between light and dark." },
-    { "term": "Counter-Reformation", "definition": "The Catholic Church's response to Protestantism, encouraging emotionally powerful religious art." },
-    { "term": "Casta painting", "definition": "Colonial Spanish American paintings depicting racial mixtures in a hierarchical series." },
-    { "term": "Iconoclasm", "definition": "The destruction or rejection of religious images." }
+    {
+      "term": "Pendentive",
+      "definition": "A curved triangular support that allows a circular dome to rest on a square base."
+    },
+    {
+      "term": "Basilica",
+      "definition": "A long rectangular hall adapted from Roman architecture for Christian churches."
+    },
+    {
+      "term": "Mosaic",
+      "definition": "An image made of small pieces of colored stone or glass (tesserae)."
+    },
+    {
+      "term": "Horseshoe arch",
+      "definition": "An arch that curves inward at its base, characteristic of Islamic Iberian architecture."
+    },
+    {
+      "term": "Tympanum",
+      "definition": "The semicircular space above a church doorway, often carved with relief sculpture."
+    },
+    {
+      "term": "Flying buttress",
+      "definition": "An external arched support that transfers the thrust of a vault outward, allowing thinner walls."
+    },
+    {
+      "term": "Fresco",
+      "definition": "Painting on wet plaster, which binds the pigment as it dries."
+    },
+    {
+      "term": "Triptych",
+      "definition": "A work of art in three panels."
+    },
+    {
+      "term": "Disguised symbolism",
+      "definition": "Everyday objects carrying religious meaning, common in Northern Renaissance painting."
+    },
+    {
+      "term": "Linear perspective",
+      "definition": "A system for creating the illusion of depth using lines converging at a vanishing point."
+    },
+    {
+      "term": "Contrapposto",
+      "definition": "A pose with weight on one leg, creating a natural, relaxed stance."
+    },
+    {
+      "term": "Tenebrism",
+      "definition": "Dramatic use of strong contrasts between light and dark."
+    },
+    {
+      "term": "Counter-Reformation",
+      "definition": "The Catholic Church's response to Protestantism, encouraging emotionally powerful religious art."
+    },
+    {
+      "term": "Casta painting",
+      "definition": "Colonial Spanish American paintings depicting racial mixtures in a hierarchical series."
+    },
+    {
+      "term": "Iconoclasm",
+      "definition": "The destruction or rejection of religious images."
+    }
   ],
   "practice": [
     {
-      "id": "u3-q01", "tier": "Intro", "type": "mcq", "topic": "Proto-Renaissance",
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Proto-Renaissance",
       "stimulus": "A barrel-vaulted chapel in Padua, painted c. 1305, is covered with fresco panels of the lives of the Virgin and Christ. In one scene, mourners hunch over Christ's body; their faces show grief, and their weighty, solid bodies seem to occupy real space.",
       "stem": "Which artist painted this chapel, and what is significant about the style?",
       "choices": [
-        { "id": "A", "text": "Giotto; his naturalistic, emotionally expressive figures anticipated the Renaissance." },
-        { "id": "B", "text": "Michelangelo; his idealized anatomy defined the High Renaissance." },
-        { "id": "C", "text": "Caravaggio; his tenebrism defined the Baroque." },
-        { "id": "D", "text": "Van Eyck; his oil technique created minute detail." }
+        {
+          "id": "A",
+          "text": "Giotto; his naturalistic, emotionally expressive figures anticipated the Renaissance."
+        },
+        {
+          "id": "B",
+          "text": "Michelangelo; his idealized anatomy defined the High Renaissance."
+        },
+        {
+          "id": "C",
+          "text": "Caravaggio; his tenebrism defined the Baroque."
+        },
+        {
+          "id": "D",
+          "text": "Van Eyck; his oil technique created minute detail."
+        }
       ],
       "answer": "A",
       "explanation": "The Arena (Scrovegni) Chapel's frescoes broke from flat medieval convention with volume and human emotion.",
-      "distractors": { "B": "The Sistine Chapel is in Rome and over two centuries later.", "D": "Van Eyck worked in oil, not fresco, in Flanders." }
+      "distractors": {
+        "B": "The Sistine Chapel is in Rome and over two centuries later.",
+        "D": "Van Eyck worked in oil, not fresco, in Flanders."
+      }
     },
     {
-      "id": "u3-q02", "tier": "Intro", "type": "mcq", "topic": "Byzantine architecture",
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Byzantine architecture",
       "stimulus": "Built in Constantinople under Emperor Justinian from 532 to 537, this church's enormous central dome appears to float above a ring of windows.",
       "stem": "Which structural feature allowed the dome to rest on the building's square plan?",
       "choices": [
-        { "id": "A", "text": "Pendentives" },
-        { "id": "B", "text": "Flying buttresses" },
-        { "id": "C", "text": "Horseshoe arches" },
-        { "id": "D", "text": "A hypostyle hall" }
+        {
+          "id": "A",
+          "text": "A hypostyle hall"
+        },
+        {
+          "id": "B",
+          "text": "Flying buttresses"
+        },
+        {
+          "id": "C",
+          "text": "Horseshoe arches"
+        },
+        {
+          "id": "D",
+          "text": "Pendentives"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Hagia Sophia's pendentives transition from a square base to a circular dome.",
-      "distractors": { "B": "A Gothic innovation centuries later.", "D": "A forest of columns, typical of mosques like Córdoba." }
+      "distractors": {
+        "B": "A Gothic innovation centuries later.",
+        "A": "A forest of columns, typical of mosques like Córdoba."
+      }
     },
     {
-      "id": "u3-q03", "tier": "Intro", "type": "mcq", "topic": "Baroque Spain",
+      "id": "u3-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Baroque Spain",
       "stimulus": "In this 1656 painting, the painter stands at a large canvas beside the young princess and her attendants. A mirror on the back wall reflects the king and queen, who appear to stand where the viewer stands.",
       "stem": "The painting is",
       "choices": [
-        { "id": "A", "text": "Las Meninas by Diego Velázquez" },
-        { "id": "B", "text": "The Arnolfini Portrait by Jan van Eyck" },
-        { "id": "C", "text": "Woman Holding a Balance by Johannes Vermeer" },
-        { "id": "D", "text": "The Calling of Saint Matthew by Caravaggio" }
+        {
+          "id": "A",
+          "text": "The Arnolfini Portrait by Jan van Eyck"
+        },
+        {
+          "id": "B",
+          "text": "Las Meninas by Diego Velázquez"
+        },
+        {
+          "id": "C",
+          "text": "Woman Holding a Balance by Johannes Vermeer"
+        },
+        {
+          "id": "D",
+          "text": "The Calling of Saint Matthew by Caravaggio"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Velázquez's painting of the Spanish court plays with who is looking at whom.",
-      "distractors": { "B": "The Arnolfini Portrait (1434) also includes a mirror, but shows a merchant couple." }
+      "distractors": {
+        "A": "The Arnolfini Portrait (1434) also includes a mirror, but shows a merchant couple."
+      }
     },
     {
-      "id": "u3-q04", "tier": "Intro", "type": "mcq", "topic": "Gothic architecture",
+      "id": "u3-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Gothic architecture",
       "stem": "At Chartres Cathedral, flying buttresses made which feature possible?",
       "choices": [
-        { "id": "A", "text": "Thinner walls with very large stained glass windows" },
-        { "id": "B", "text": "A single enormous dome" },
-        { "id": "C", "text": "Thick walls with few small windows" },
-        { "id": "D", "text": "A flat timber roof" }
+        {
+          "id": "A",
+          "text": "Thick walls with few small windows"
+        },
+        {
+          "id": "B",
+          "text": "A single enormous dome"
+        },
+        {
+          "id": "C",
+          "text": "Thinner walls with very large stained glass windows"
+        },
+        {
+          "id": "D",
+          "text": "A flat timber roof"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "External buttresses carried the vaults' thrust, so walls could become frames for glass.",
-      "distractors": { "C": "Describes Romanesque churches." }
+      "distractors": {
+        "A": "Describes Romanesque churches."
+      }
     },
     {
-      "id": "u3-q05", "tier": "Exam level", "type": "mcq", "topic": "Northern Renaissance",
+      "id": "u3-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Northern Renaissance",
       "stimulus": "A small oil-on-wood triptych, c. 1427–1432, sets the Annunciation in a middle-class Flemish home. Lilies stand in a vase, a candle has just been extinguished, and in the right panel Joseph works as a carpenter making mousetraps. The donors kneel in the left panel, looking through a doorway.",
       "stem": "Which statement best explains the artist's choice of setting and objects?",
       "choices": [
-        { "id": "A", "text": "Ordinary domestic objects carry religious symbolism, making a sacred event intimate for private devotion by the depicted patrons." },
-        { "id": "B", "text": "The work was made for a royal palace to glorify the monarchy." },
-        { "id": "C", "text": "The objects are purely decorative and have no meaning." },
-        { "id": "D", "text": "The setting reflects Italian Renaissance interest in classical ruins." }
+        {
+          "id": "A",
+          "text": "The objects are purely decorative and have no meaning."
+        },
+        {
+          "id": "B",
+          "text": "The work was made for a royal palace to glorify the monarchy."
+        },
+        {
+          "id": "C",
+          "text": "Ordinary domestic objects carry religious symbolism, making a sacred event intimate for private devotion by the depicted patrons."
+        },
+        {
+          "id": "D",
+          "text": "The setting reflects Italian Renaissance interest in classical ruins."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The Merode Altarpiece (Campin workshop) uses disguised symbolism (lilies for purity, mousetraps alluding to trapping the devil) for a merchant family's home devotion.",
-      "distractors": { "D": "No classical ruins; the setting is a contemporary Flemish home." }
+      "distractors": {
+        "D": "No classical ruins; the setting is a contemporary Flemish home."
+      }
     },
     {
-      "id": "u3-q06", "tier": "Exam level", "type": "mcq", "topic": "Northern Renaissance",
+      "id": "u3-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Northern Renaissance",
       "stimulus": "The central panel of a large German altarpiece (c. 1512–1516) shows the crucified Christ with greenish, pockmarked skin, twisted hands, and a body covered in sores.",
       "stem": "The depiction of Christ's body is best explained by",
       "choices": [
-        { "id": "A", "text": "the altarpiece's location in a hospital where patients suffered from a disease that caused painful skin lesions" },
-        { "id": "B", "text": "the artist's desire to imitate classical sculpture" },
-        { "id": "C", "text": "Protestant rejection of religious images" },
-        { "id": "D", "text": "a royal commission celebrating military victory" }
+        {
+          "id": "A",
+          "text": "the artist's desire to imitate classical sculpture"
+        },
+        {
+          "id": "B",
+          "text": "the altarpiece's location in a hospital where patients suffered from a disease that caused painful skin lesions"
+        },
+        {
+          "id": "C",
+          "text": "Protestant rejection of religious images"
+        },
+        {
+          "id": "D",
+          "text": "a royal commission celebrating military victory"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Grünewald's Isenheim Altarpiece was made for Antonite monks treating ergotism (St. Anthony's fire); patients could identify their suffering with Christ's.",
-      "distractors": { "B": "Classical idealization is the opposite of this graphic suffering." }
+      "distractors": {
+        "A": "Classical idealization is the opposite of this graphic suffering."
+      }
     },
     {
-      "id": "u3-q07", "tier": "Exam level", "type": "mcq", "topic": "Baroque Italy",
+      "id": "u3-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Baroque Italy",
       "stimulus": "In a dim room, men in contemporary seventeenth-century clothing sit counting money at a table. A shaft of light enters from the upper right, following the pointing hand of Christ toward one of the men.",
       "stem": "Which statement best describes the painting's style and purpose?",
       "choices": [
-        { "id": "A", "text": "Caravaggio uses tenebrism and ordinary contemporary figures to make a sacred moment dramatic and immediate, consistent with Counter-Reformation goals." },
-        { "id": "B", "text": "Giotto uses gold leaf to emphasize the divine setting." },
-        { "id": "C", "text": "Raphael uses idealized classical figures in a grand architectural space." },
-        { "id": "D", "text": "Vermeer uses soft daylight to show a quiet Dutch interior." }
+        {
+          "id": "A",
+          "text": "Caravaggio uses tenebrism and ordinary contemporary figures to make a sacred moment dramatic and immediate, consistent with Counter-Reformation goals."
+        },
+        {
+          "id": "B",
+          "text": "Giotto uses gold leaf to emphasize the divine setting."
+        },
+        {
+          "id": "C",
+          "text": "Raphael uses idealized classical figures in a grand architectural space."
+        },
+        {
+          "id": "D",
+          "text": "Vermeer uses soft daylight to show a quiet Dutch interior."
+        }
       ],
       "answer": "A",
       "explanation": "The Calling of Saint Matthew places Christ's call in a tavern-like setting; the light becomes divine grace.",
-      "distractors": { "C": "Describes the School of Athens." }
+      "distractors": {
+        "C": "Describes the School of Athens."
+      }
     },
     {
-      "id": "u3-q08", "tier": "Exam level", "type": "mcq", "topic": "Baroque Italy",
+      "id": "u3-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Baroque Italy",
       "stimulus": "In a chapel in Rome, a marble saint swoons on a cloud as an angel prepares to pierce her heart with an arrow. Gilded rays descend from above, lit by a hidden window. On the side walls, sculpted members of the patron's family lean out of theater-like boxes.",
       "stem": "Which is the most accurate interpretation of the work's design?",
       "choices": [
-        { "id": "A", "text": "Bernini combines sculpture, architecture, and light to create a theatrical, emotional religious experience, with the patrons shown witnessing it." },
-        { "id": "B", "text": "The work rejects emotion in favor of classical restraint." },
-        { "id": "C", "text": "The work is a secular portrait commissioned by a merchant." },
-        { "id": "D", "text": "The work is a Protestant devotional image intended for private homes." }
+        {
+          "id": "A",
+          "text": "The work is a Protestant devotional image intended for private homes."
+        },
+        {
+          "id": "B",
+          "text": "The work rejects emotion in favor of classical restraint."
+        },
+        {
+          "id": "C",
+          "text": "The work is a secular portrait commissioned by a merchant."
+        },
+        {
+          "id": "D",
+          "text": "Bernini combines sculpture, architecture, and light to create a theatrical, emotional religious experience, with the patrons shown witnessing it."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The Ecstasy of Saint Teresa in the Cornaro Chapel is a total work of art aimed at moving viewers, in line with Counter-Reformation aims.",
-      "distractors": { "D": "It's Catholic and in a public chapel." }
+      "distractors": {
+        "A": "It's Catholic and in a public chapel."
+      }
     },
     {
-      "id": "u3-q09", "tier": "Exam level", "type": "mcq", "topic": "Islamic Iberia",
+      "id": "u3-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Islamic Iberia",
       "stimulus": "A vast prayer hall is filled with hundreds of columns supporting two tiers of arches. The arches curve inward at their bases and are made of alternating red brick and white stone.",
       "stem": "The building described is",
       "choices": [
-        { "id": "A", "text": "the Great Mosque of Córdoba" },
-        { "id": "B", "text": "Chartres Cathedral" },
-        { "id": "C", "text": "Hagia Sophia" },
-        { "id": "D", "text": "Santa Sabina" }
+        {
+          "id": "A",
+          "text": "the Great Mosque of Córdoba"
+        },
+        {
+          "id": "B",
+          "text": "Chartres Cathedral"
+        },
+        {
+          "id": "C",
+          "text": "Hagia Sophia"
+        },
+        {
+          "id": "D",
+          "text": "Santa Sabina"
+        }
       ],
       "answer": "A",
       "explanation": "Its hypostyle hall and double-tiered horseshoe arches with alternating voussoirs are signature features.",
-      "distractors": { "C": "Hagia Sophia centers on a dome." }
+      "distractors": {
+        "C": "Hagia Sophia centers on a dome."
+      }
     },
     {
-      "id": "u3-q10", "tier": "Exam level", "type": "mcq", "topic": "Romanesque",
+      "id": "u3-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Romanesque",
       "stimulus": "A long strip of linen, about 70 meters long, is embroidered in colored wool with scenes of ships, battles, and a comet, ending with the defeat of King Harold.",
       "stem": "Which statement about this work is most accurate?",
       "choices": [
-        { "id": "A", "text": "It narrates the Norman conquest of England in 1066 from the Norman perspective." },
-        { "id": "B", "text": "It is a woven tapestry depicting the Crusades." },
-        { "id": "C", "text": "It is a fresco cycle in a Gothic cathedral." },
-        { "id": "D", "text": "It depicts the life of Christ for pilgrims." }
+        {
+          "id": "A",
+          "text": "It depicts the life of Christ for pilgrims."
+        },
+        {
+          "id": "B",
+          "text": "It is a woven tapestry depicting the Crusades."
+        },
+        {
+          "id": "C",
+          "text": "It is a fresco cycle in a Gothic cathedral."
+        },
+        {
+          "id": "D",
+          "text": "It narrates the Norman conquest of England in 1066 from the Norman perspective."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The Bayeux Embroidery justifies William's invasion and celebrates his victory at Hastings.",
-      "distractors": { "B": "It's embroidered, not woven, and concerns 1066." }
+      "distractors": {
+        "B": "It's embroidered, not woven, and concerns 1066."
+      }
     },
     {
-      "id": "u3-q11", "tier": "Hardest", "type": "mcq", "topic": "Italian Renaissance",
+      "id": "u3-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Italian Renaissance",
       "stimulus": "A bronze sculpture of a slender, nude youth stands in contrapposto, wearing a hat and boots, one foot resting on a severed head. It is generally dated to the mid-1400s and is associated with the Medici family in Florence.",
       "stem": "Which statement best explains the sculpture's significance?",
       "choices": [
-        { "id": "A", "text": "It revived the freestanding nude figure of classical antiquity and could also symbolize Florence's defense against more powerful enemies." },
-        { "id": "B", "text": "It was the first marble sculpture of the Renaissance and was made for a Gothic cathedral façade." },
-        { "id": "C", "text": "It rejected classical forms in favor of Byzantine abstraction." },
-        { "id": "D", "text": "It was commissioned by the pope to decorate the Sistine Chapel." }
+        {
+          "id": "A",
+          "text": "It rejected classical forms in favor of Byzantine abstraction."
+        },
+        {
+          "id": "B",
+          "text": "It was the first marble sculpture of the Renaissance and was made for a Gothic cathedral façade."
+        },
+        {
+          "id": "C",
+          "text": "It revived the freestanding nude figure of classical antiquity and could also symbolize Florence's defense against more powerful enemies."
+        },
+        {
+          "id": "D",
+          "text": "It was commissioned by the pope to decorate the Sistine Chapel."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Donatello's David was the first freestanding nude male statue since antiquity; the biblical underdog suited Florentine civic identity, and its sensual form drew on classical models.",
-      "distractors": { "B": "It's bronze and freestanding, not an architectural sculpture." }
+      "distractors": {
+        "B": "It's bronze and freestanding, not an architectural sculpture."
+      }
     },
     {
-      "id": "u3-q12", "tier": "Hardest", "type": "mcq", "topic": "Dutch Baroque",
+      "id": "u3-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Dutch Baroque",
       "stimulus": "In a quiet room lit from a window, a woman holds an empty balance. On the wall behind her hangs a painting of the Last Judgment. Pearls and gold lie on the table.",
       "stem": "Which interpretation is best supported by the composition?",
       "choices": [
-        { "id": "A", "text": "The image invites reflection on weighing earthly goods against spiritual judgment, a moral theme suited to private viewing in a Protestant household." },
-        { "id": "B", "text": "The painting celebrates a Catholic saint's martyrdom for a church altar." },
-        { "id": "C", "text": "The painting documents a merchant's financial transaction for a legal record." },
-        { "id": "D", "text": "The painting glorifies a king's wealth." }
+        {
+          "id": "A",
+          "text": "The painting celebrates a Catholic saint's martyrdom for a church altar."
+        },
+        {
+          "id": "B",
+          "text": "The image invites reflection on weighing earthly goods against spiritual judgment, a moral theme suited to private viewing in a Protestant household."
+        },
+        {
+          "id": "C",
+          "text": "The painting documents a merchant's financial transaction for a legal record."
+        },
+        {
+          "id": "D",
+          "text": "The painting glorifies a king's wealth."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Vermeer's Woman Holding a Balance juxtaposes the balance and jewelry with the Last Judgment, suggesting moderation and moral reflection.",
-      "distractors": { "B": "No saint or church setting is depicted." }
+      "distractors": {
+        "A": "No saint or church setting is depicted."
+      }
     },
     {
-      "id": "u3-q13", "tier": "Hardest", "type": "mcq", "topic": "Colonial Americas",
+      "id": "u3-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Colonial Americas",
       "stimulus": "Painted in New Spain around 1715, this canvas shows a Spanish man, an Indigenous woman, and their child, labeled as a specific racial category. It was one of a series showing different combinations of parentage, arranged in a hierarchy.",
       "stem": "The series most likely functioned to",
       "choices": [
-        { "id": "A", "text": "classify colonial society into a racial hierarchy, presenting order and Spanish dominance to colonial and European viewers" },
-        { "id": "B", "text": "challenge the colonial racial system" },
-        { "id": "C", "text": "serve as altarpieces in Catholic churches" },
-        { "id": "D", "text": "document Indigenous religious rituals" }
+        {
+          "id": "A",
+          "text": "serve as altarpieces in Catholic churches"
+        },
+        {
+          "id": "B",
+          "text": "challenge the colonial racial system"
+        },
+        {
+          "id": "C",
+          "text": "classify colonial society into a racial hierarchy, presenting order and Spanish dominance to colonial and European viewers"
+        },
+        {
+          "id": "D",
+          "text": "document Indigenous religious rituals"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Casta paintings like this one, attributed to Juan Rodríguez Juárez, reflect anxieties about mixing and reinforce a hierarchy with Spaniards at the top.",
-      "distractors": { "B": "They reinforced, rather than challenged, the system." }
+      "distractors": {
+        "B": "They reinforced, rather than challenged, the system."
+      }
     },
     {
-      "id": "u3-q14", "tier": "Hardest", "type": "mcq", "topic": "Reformation",
+      "id": "u3-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Reformation",
       "stimulus": "A German woodcut (c. 1530) is divided vertically by a tree, barren on the left and leafy on the right. On the left, a man is driven toward hell by death and a devil while Moses points to the commandments. On the right, he is directed to the crucified Christ by John the Baptist.",
       "stem": "The composition primarily illustrates",
       "choices": [
-        { "id": "A", "text": "the Lutheran belief that salvation comes through faith and God's grace rather than through obeying the law alone" },
-        { "id": "B", "text": "the Catholic doctrine of salvation through good works and indulgences" },
-        { "id": "C", "text": "a celebration of a military victory" },
-        { "id": "D", "text": "the iconoclasm of Islamic art" }
+        {
+          "id": "A",
+          "text": "the Catholic doctrine of salvation through good works and indulgences"
+        },
+        {
+          "id": "B",
+          "text": "the Lutheran belief that salvation comes through faith and God's grace rather than through obeying the law alone"
+        },
+        {
+          "id": "C",
+          "text": "a celebration of a military victory"
+        },
+        {
+          "id": "D",
+          "text": "the iconoclasm of Islamic art"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Cranach the Elder's Allegory of Law and Grace visualizes Luther's theology; printmaking spread it widely.",
-      "distractors": { "B": "Lutherans rejected salvation through works and indulgences." }
+      "distractors": {
+        "A": "Lutherans rejected salvation through works and indulgences."
+      }
     },
     {
-      "id": "u3-frq1", "tier": "Exam level", "type": "frq", "topic": "Baroque Italy", "frqType": "Q5 Attribution",
+      "id": "u3-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Baroque Italy",
+      "frqType": "Q5 Attribution",
       "stimulus": "The work is described for this practice set: an oil painting (c. 1600) shows Christ, beardless and youthful, seated at a table with two disciples and a standing innkeeper. One disciple throws his arms wide in astonishment; another grips his chair as if to rise. A strong light from the upper left illuminates faces and a basket of fruit perched at the table's edge, while the background falls into deep shadow. The figures wear ordinary, worn clothing.",
       "prompt": "Answer (a)–(d).",
       "parts": [
-        { "label": "a", "prompt": "Attribute the painting to the artist who created it.", "points": 1 },
-        { "label": "b", "prompt": "Using specific visual evidence, justify your attribution by describing two similarities between this painting and a work in the required course content by the same artist.", "points": 2 },
-        { "label": "c", "prompt": "Explain how the artist's approach makes the religious subject immediate for viewers.", "points": 1 },
-        { "label": "d", "prompt": "Explain how this approach relates to the religious context in which the artist worked.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Attribute the painting to the artist who created it.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Using specific visual evidence, justify your attribution by describing two similarities between this painting and a work in the required course content by the same artist.",
+          "points": 2
+        },
+        {
+          "label": "c",
+          "prompt": "Explain how the artist's approach makes the religious subject immediate for viewers.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Explain how this approach relates to the religious context in which the artist worked.",
+          "points": 1
+        }
       ],
       "points": 5,
       "minutes": 15,
       "rubric": [
-        { "criterion": "(a) Attribution", "points": 1, "description": "Caravaggio." },
-        { "criterion": "(b) Similarity 1", "points": 1, "description": "Tenebrism: strong directional light against deep shadow, as in the Calling of Saint Matthew." },
-        { "criterion": "(b) Similarity 2", "points": 1, "description": "Ordinary people in everyday dress and setting, or dramatic gestures frozen at a key moment, as in the Calling of Saint Matthew." },
-        { "criterion": "(c) Immediacy", "points": 1, "description": "Explains that realistic, humble figures, dramatic gestures, and objects that seem to project into the viewer's space (the fruit basket) make the miracle seem to happen now, in the viewer's world." },
-        { "criterion": "(d) Context", "points": 1, "description": "Connects to the Counter-Reformation, which encouraged art that engaged ordinary viewers emotionally and directly in Catholic faith." }
+        {
+          "criterion": "(a) Attribution",
+          "points": 1,
+          "description": "Caravaggio."
+        },
+        {
+          "criterion": "(b) Similarity 1",
+          "points": 1,
+          "description": "Tenebrism: strong directional light against deep shadow, as in the Calling of Saint Matthew."
+        },
+        {
+          "criterion": "(b) Similarity 2",
+          "points": 1,
+          "description": "Ordinary people in everyday dress and setting, or dramatic gestures frozen at a key moment, as in the Calling of Saint Matthew."
+        },
+        {
+          "criterion": "(c) Immediacy",
+          "points": 1,
+          "description": "Explains that realistic, humble figures, dramatic gestures, and objects that seem to project into the viewer's space (the fruit basket) make the miracle seem to happen now, in the viewer's world."
+        },
+        {
+          "criterion": "(d) Context",
+          "points": 1,
+          "description": "Connects to the Counter-Reformation, which encouraged art that engaged ordinary viewers emotionally and directly in Catholic faith."
+        }
       ],
       "sampleResponse": "(a) Caravaggio.\n\n(b) Like The Calling of Saint Matthew, this painting uses tenebrism: a sharp beam of light from one side picks out faces and hands while the background disappears into darkness. Both paintings also set a sacred event among ordinary people in plain, everyday clothing, rather than idealized figures, and both freeze the dramatic instant of recognition, with figures reacting through sudden gestures.\n\n(c) The disciples' startled gestures and the basket of fruit teetering at the table's edge seem to push into the viewer's space, as if we are sitting at the table. Because the figures look like ordinary working people, viewers can recognize themselves in the scene, so the moment of recognizing Christ feels present rather than distant.\n\n(d) Caravaggio worked in Counter-Reformation Rome, where the Catholic Church called for religious art that was clear, emotionally powerful, and accessible to ordinary believers in response to Protestant criticism. His realism and dramatic light served that goal by making faith feel personal and immediate."
     }

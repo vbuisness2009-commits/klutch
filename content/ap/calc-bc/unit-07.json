@@ -123,11 +123,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "y = 5e^(2x)"
+          "text": "y = 2e^x"
         },
         {
           "id": "B",
-          "text": "y = 2e^x"
+          "text": "y = 5e^(2x)"
         },
         {
           "id": "C",
@@ -138,11 +138,11 @@
           "text": "y = e^(2x) + 5"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "y′ = 10e^(2x) = 2(5e^(2x)) = 2y.",
       "distractors": {
-        "B": "y′ = 2eˣ = y, not 2y.",
-        "D": "y′ = 2e^(2x), but 2y = 2e^(2x) + 10."
+        "D": "y′ = 2e^(2x), but 2y = 2e^(2x) + 10.",
+        "A": "y′ = 2eˣ = y, not 2y."
       }
     },
     {
@@ -185,7 +185,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "dP/dt = kP"
+          "text": "dP/dt = P + k"
         },
         {
           "id": "B",
@@ -197,15 +197,15 @@
         },
         {
           "id": "D",
-          "text": "dP/dt = P + k"
+          "text": "dP/dt = kP"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "\"Proportional to P\" means a constant times P.",
       "distractors": {
         "B": "Proportional to time, not to P.",
         "C": "Describes P itself, not its rate.",
-        "D": "Adds a constant instead of multiplying."
+        "A": "Adds a constant instead of multiplying."
       }
     },
     {
@@ -217,7 +217,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "y = x³ + C"
+          "text": "y = Ce^(x³)"
         },
         {
           "id": "B",
@@ -225,18 +225,18 @@
         },
         {
           "id": "C",
-          "text": "y = Ce^(x³)"
+          "text": "y = x³ + C"
         },
         {
           "id": "D",
           "text": "y = 3x³ + C"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Integrate: y = ∫3x² dx = x³ + C.",
       "distractors": {
         "B": "Differentiated.",
-        "C": "Treated it as dy/dx = 3x²y."
+        "A": "Treated it as dy/dx = 3x²y."
       }
     },
     {
@@ -248,7 +248,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "2e^(x²/2)"
+          "text": "x²/2 + 2"
         },
         {
           "id": "B",
@@ -260,15 +260,15 @@
         },
         {
           "id": "D",
-          "text": "x²/2 + 2"
+          "text": "2e^(x²/2)"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "dy/y = x dx → ln|y| = x²/2 + C. ln 2 = C. y = 2e^(x²/2).",
       "distractors": {
         "B": "Split e^(x²/2 + C) as e^(x²/2) + C.",
         "C": "Integrated x as x².",
-        "D": "Ignored the y on the right side."
+        "A": "Ignored the y on the right side."
       }
     },
     {
@@ -280,11 +280,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "50e^(0.3t)"
+          "text": "0.3e^(50t)"
         },
         {
           "id": "B",
-          "text": "0.3e^(50t)"
+          "text": "50e^(0.3t)"
         },
         {
           "id": "C",
@@ -295,7 +295,7 @@
           "text": "50(0.3)^t"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "dy/dt = ky ⇒ y = y₀e^(kt) with y₀ = 50, k = 0.3.",
       "distractors": {
         "C": "Added the initial value instead of multiplying.",
@@ -343,11 +343,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "y = Ce^(−x) + x − 1"
+          "text": "y = Ceˣ + x − 1"
         },
         {
           "id": "B",
-          "text": "y = Ceˣ + x − 1"
+          "text": "y = Ce^(−x) + x − 1"
         },
         {
           "id": "C",
@@ -358,12 +358,12 @@
           "text": "y = x − 1"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Check: y′ = −Ce^(−x) + 1, and x − y = x − Ce^(−x) − x + 1 = 1 − Ce^(−x). They match for all C.",
       "distractors": {
-        "B": "y′ would include +Ceˣ, but x − y gives −Ceˣ.",
         "C": "Gives y′ − (x − y) = 1 ≠ 0.",
-        "D": "A particular solution (C = 0), not the general one."
+        "D": "A particular solution (C = 0), not the general one.",
+        "A": "y′ would include +Ceˣ, but x − y gives −Ceˣ."
       }
     },
     {
@@ -375,7 +375,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "1/(1 − x)"
+          "text": "x³/3 + 1"
         },
         {
           "id": "B",
@@ -387,10 +387,10 @@
         },
         {
           "id": "D",
-          "text": "x³/3 + 1"
+          "text": "1/(1 − x)"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "dy/y² = dx → −1/y = x + C. At (0, 1): C = −1. So −1/y = x − 1, y = 1/(1 − x).",
       "distractors": {
         "B": "Sign error when solving for C.",
@@ -406,7 +406,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "(ln 2)/5"
+          "text": "5 ln 2"
         },
         {
           "id": "B",
@@ -414,18 +414,18 @@
         },
         {
           "id": "C",
-          "text": "5 ln 2"
+          "text": "(ln 2)/5"
         },
         {
           "id": "D",
           "text": "ln(2/5)"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "e^(5k) = 2, so 5k = ln 2.",
       "distractors": {
         "B": "Dropped the logarithm.",
-        "C": "Multiplied instead of dividing."
+        "A": "Multiplied instead of dividing."
       }
     },
     {
@@ -468,11 +468,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "2"
+          "text": "1"
         },
         {
           "id": "B",
-          "text": "1"
+          "text": "2"
         },
         {
           "id": "C",
@@ -483,11 +483,11 @@
           "text": "3"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "d²y/dx² = 1 + dy/dx = 1 + x + y. At (1, 0): 1 + 1 + 0 = 2.",
       "distractors": {
-        "B": "That is dy/dx at (1, 0), not d²y/dx².",
-        "C": "Assumed the second derivative of a solution curve is 0."
+        "C": "Assumed the second derivative of a solution curve is 0.",
+        "A": "That is dy/dx at (1, 0), not d²y/dx²."
       }
     },
     {
@@ -499,7 +499,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "(−∞, 1)"
+          "text": "(−1, 1)"
         },
         {
           "id": "B",
@@ -507,14 +507,14 @@
         },
         {
           "id": "C",
-          "text": "(−1, 1)"
+          "text": "(−∞, 1)"
         },
         {
           "id": "D",
           "text": "(1, ∞)"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "y = 1/(1 − x) has a vertical asymptote at x = 1. The solution through x = 0 lives on (−∞, 1).",
       "distractors": {
         "B": "Ignored the asymptote.",
@@ -530,7 +530,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "ln(13/8)/10"
+          "text": "ln(13/8)"
         },
         {
           "id": "B",
@@ -542,15 +542,15 @@
         },
         {
           "id": "D",
-          "text": "ln(13/8)"
+          "text": "ln(13/8)/10"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "T − 70 = 130e^(−kt). At t = 10: 80 = 130e^(−10k), so e^(−10k) = 8/13 and k = ln(13/8)/10.",
       "distractors": {
         "B": "Negative, but the model already has −k, so k > 0.",
         "C": "Used 200/150, ignoring the room temperature.",
-        "D": "Forgot to divide by 10."
+        "A": "Forgot to divide by 10."
       }
     },
     {
@@ -673,11 +673,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "250"
+          "text": "500"
         },
         {
           "id": "B",
-          "text": "500"
+          "text": "250"
         },
         {
           "id": "C",
@@ -688,10 +688,10 @@
           "text": "0.2"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Logistic growth is fastest at half the carrying capacity: 500/2.",
       "distractors": {
-        "B": "That's the carrying capacity, where growth stops."
+        "A": "That's the carrying capacity, where growth stops."
       }
     },
     {
@@ -703,7 +703,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "P decreases and approaches 500."
+          "text": "P stays constant at 600."
         },
         {
           "id": "B",
@@ -715,10 +715,10 @@
         },
         {
           "id": "D",
-          "text": "P stays constant at 600."
+          "text": "P decreases and approaches 500."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "For P > 500, (1 − P/500) < 0, so dP/dt < 0, and solutions approach the carrying capacity from above.",
       "distractors": {
         "C": "The equilibrium at 0 is unstable; solutions move away from it."
@@ -733,7 +733,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "an underestimate, because each step follows a tangent line that lies below the curve"
+          "text": "exact, because Euler's method is exact for concave-up functions"
         },
         {
           "id": "B",
@@ -741,14 +741,14 @@
         },
         {
           "id": "C",
-          "text": "exact, because Euler's method is exact for concave-up functions"
+          "text": "an underestimate, because each step follows a tangent line that lies below the curve"
         },
         {
           "id": "D",
           "text": "impossible to classify without the step size"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Each Euler step moves along a tangent line; for concave-up curves, tangents lie below the graph.",
       "distractors": {
         "B": "Reverses the relationship."

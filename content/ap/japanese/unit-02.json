@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "相手や場面によって使い分ける丁寧な言葉"
+          "text": "外国から来た言葉"
         },
         {
           "id": "B",
@@ -110,10 +110,10 @@
         },
         {
           "id": "D",
-          "text": "外国から来た言葉"
+          "text": "相手や場面によって使い分ける丁寧な言葉"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Defined.",
       "distractors": {}
     },
@@ -128,11 +128,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "何を召し上がりますか"
+          "text": "何を食べる？"
         },
         {
           "id": "B",
-          "text": "何を食べる？"
+          "text": "何を召し上がりますか"
         },
         {
           "id": "C",
@@ -143,7 +143,7 @@
           "text": "何をいただきますか"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Respectful form.",
       "distractors": {
         "D": "いただく is humble; used for your own actions."
@@ -160,11 +160,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "アルバイトや就職活動のとき"
+          "text": "小学校に入ったとき"
         },
         {
           "id": "B",
-          "text": "小学校に入ったとき"
+          "text": "アルバイトや就職活動のとき"
         },
         {
           "id": "C",
@@ -175,7 +175,7 @@
           "text": "結婚したとき"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -190,7 +190,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "敬語は人間関係に距離を作る"
+          "text": "敬語は三種類ある"
         },
         {
           "id": "B",
@@ -202,10 +202,10 @@
         },
         {
           "id": "D",
-          "text": "敬語は三種類ある"
+          "text": "敬語は人間関係に距離を作る"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "一方で….",
       "distractors": {}
     },
@@ -220,7 +220,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "形を完璧に覚えることより、相手を思いやる気持ち"
+          "text": "敬語の形を完璧に覚えること"
         },
         {
           "id": "B",
@@ -228,14 +228,14 @@
         },
         {
           "id": "C",
-          "text": "敬語の形を完璧に覚えること"
+          "text": "形を完璧に覚えることより、相手を思いやる気持ち"
         },
         {
           "id": "D",
           "text": "若者に敬語を禁止すること"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Final point.",
       "distractors": {}
     },
@@ -280,7 +280,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "明治時代以降、日本語を使うように強く求められたから"
+          "text": "アイヌの人々が海外に移住したから"
         },
         {
           "id": "B",
@@ -288,14 +288,14 @@
         },
         {
           "id": "C",
-          "text": "アイヌの人々が海外に移住したから"
+          "text": "明治時代以降、日本語を使うように強く求められたから"
         },
         {
           "id": "D",
           "text": "テレビがなかったから"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Historical pressure.",
       "distractors": {}
     },
@@ -310,7 +310,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "アニメや漫画"
+          "text": "オリンピック"
         },
         {
           "id": "B",
@@ -322,10 +322,10 @@
         },
         {
           "id": "D",
-          "text": "オリンピック"
+          "text": "アニメや漫画"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -340,11 +340,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "言葉には民族の考え方や歴史が込められているということ"
+          "text": "歴史の教科書を書き直すということ"
         },
         {
           "id": "B",
-          "text": "歴史の教科書を書き直すということ"
+          "text": "言葉には民族の考え方や歴史が込められているということ"
         },
         {
           "id": "C",
@@ -355,7 +355,7 @@
           "text": "古い言葉は使わないということ"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Language and identity.",
       "distractors": {}
     },
@@ -400,7 +400,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "合格を知らせ、書類を送るように頼むこと"
+          "text": "授業料を請求すること"
         },
         {
           "id": "B",
@@ -412,10 +412,10 @@
         },
         {
           "id": "D",
-          "text": "授業料を請求すること"
+          "text": "合格を知らせ、書類を送るように頼むこと"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Acceptance + requests.",
       "distractors": {}
     },
@@ -430,7 +430,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "文化体験と地域のボランティア活動"
+          "text": "自由時間だけ"
         },
         {
           "id": "B",
@@ -438,14 +438,14 @@
         },
         {
           "id": "C",
-          "text": "自由時間だけ"
+          "text": "文化体験と地域のボランティア活動"
         },
         {
           "id": "D",
           "text": "会社でのインターンシップ"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Afternoons.",
       "distractors": {}
     },
@@ -489,11 +489,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "明日、先生の研究室に伺います。"
+          "text": "先生が明日、研究室に伺います。"
         },
         {
           "id": "B",
-          "text": "先生が明日、研究室に伺います。"
+          "text": "明日、先生の研究室に伺います。"
         },
         {
           "id": "C",
@@ -504,7 +504,7 @@
           "text": "私がご飯を召し上がります。"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "伺う for one's own action.",
       "distractors": {}
     },

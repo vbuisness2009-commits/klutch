@@ -49,221 +49,531 @@
     "cramSheet": "**Shifters:** D (tastes, buyers, income, related goods, expectations) · S (inputs, tech, sellers, taxes, expectations)\n\n**PED:** %ΔQd/%ΔP · >1 elastic · TR test · elastic at high P on linear D\n\n**Other:** income (+ normal, − inferior) · cross (+ subs, − comps)\n\n**Surplus:** CS above P under D · PS below P above S · DWL lost triangle\n\n**Tax:** ↑P_consumer, ↓P_seller, ↓Q, revenue = t × Q₂ · less elastic bears more\n\n**Controls:** ceiling below eq → shortage · floor above eq → surplus\n\n**Trade:** world P < domestic → imports · tariff: ↑P, ↓imports, revenue = t × imports, DWL"
   },
   "vocab": [
-    { "term": "Price elasticity of demand", "definition": "Responsiveness of quantity demanded to a change in price: %ΔQd ÷ %ΔP." },
-    { "term": "Total revenue test", "definition": "Using the direction of TR when price changes to determine whether demand is elastic or inelastic." },
-    { "term": "Income elasticity of demand", "definition": "%ΔQd ÷ %ΔIncome; positive for normal goods, negative for inferior goods." },
-    { "term": "Cross-price elasticity", "definition": "%ΔQd of one good ÷ %ΔP of another; positive for substitutes, negative for complements." },
-    { "term": "Consumer surplus", "definition": "The difference between what consumers are willing to pay and what they actually pay." },
-    { "term": "Producer surplus", "definition": "The difference between the price sellers receive and their minimum acceptable price." },
-    { "term": "Deadweight loss", "definition": "The loss of total surplus when output is not at the efficient level." },
-    { "term": "Tax incidence", "definition": "The division of a tax burden between buyers and sellers." },
-    { "term": "Price ceiling", "definition": "A legal maximum price; binding when set below equilibrium." },
-    { "term": "Price floor", "definition": "A legal minimum price; binding when set above equilibrium." },
-    { "term": "Tariff", "definition": "A tax on imported goods." },
-    { "term": "World price", "definition": "The price of a good in the international market." }
+    {
+      "term": "Price elasticity of demand",
+      "definition": "Responsiveness of quantity demanded to a change in price: %ΔQd ÷ %ΔP."
+    },
+    {
+      "term": "Total revenue test",
+      "definition": "Using the direction of TR when price changes to determine whether demand is elastic or inelastic."
+    },
+    {
+      "term": "Income elasticity of demand",
+      "definition": "%ΔQd ÷ %ΔIncome; positive for normal goods, negative for inferior goods."
+    },
+    {
+      "term": "Cross-price elasticity",
+      "definition": "%ΔQd of one good ÷ %ΔP of another; positive for substitutes, negative for complements."
+    },
+    {
+      "term": "Consumer surplus",
+      "definition": "The difference between what consumers are willing to pay and what they actually pay."
+    },
+    {
+      "term": "Producer surplus",
+      "definition": "The difference between the price sellers receive and their minimum acceptable price."
+    },
+    {
+      "term": "Deadweight loss",
+      "definition": "The loss of total surplus when output is not at the efficient level."
+    },
+    {
+      "term": "Tax incidence",
+      "definition": "The division of a tax burden between buyers and sellers."
+    },
+    {
+      "term": "Price ceiling",
+      "definition": "A legal maximum price; binding when set below equilibrium."
+    },
+    {
+      "term": "Price floor",
+      "definition": "A legal minimum price; binding when set above equilibrium."
+    },
+    {
+      "term": "Tariff",
+      "definition": "A tax on imported goods."
+    },
+    {
+      "term": "World price",
+      "definition": "The price of a good in the international market."
+    }
   ],
   "practice": [
     {
-      "id": "u2-q01", "tier": "Intro", "type": "mcq", "topic": "2.3 Price Elasticity of Demand", "skill": "2. Interpretation",
+      "id": "u2-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.3 Price Elasticity of Demand",
+      "skill": "2. Interpretation",
       "stem": "A movie theater raises ticket prices and its total revenue falls. Demand for tickets in this price range is",
       "choices": [
-        { "id": "A", "text": "elastic" },
-        { "id": "B", "text": "inelastic" },
-        { "id": "C", "text": "unit elastic" },
-        { "id": "D", "text": "perfectly inelastic" }
+        {
+          "id": "A",
+          "text": "elastic"
+        },
+        {
+          "id": "B",
+          "text": "inelastic"
+        },
+        {
+          "id": "C",
+          "text": "unit elastic"
+        },
+        {
+          "id": "D",
+          "text": "perfectly inelastic"
+        }
       ],
       "answer": "A",
       "explanation": "Price and total revenue moved in opposite directions.",
       "distractors": {}
     },
     {
-      "id": "u2-q02", "tier": "Intro", "type": "mcq", "topic": "2.5 Other Elasticities", "skill": "2. Interpretation",
+      "id": "u2-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.5 Other Elasticities",
+      "skill": "2. Interpretation",
       "stem": "The cross-price elasticity between coffee and tea is +0.6. The goods are",
       "choices": [
-        { "id": "A", "text": "complements" },
-        { "id": "B", "text": "substitutes" },
-        { "id": "C", "text": "inferior goods" },
-        { "id": "D", "text": "unrelated" }
+        {
+          "id": "A",
+          "text": "complements"
+        },
+        {
+          "id": "B",
+          "text": "unrelated"
+        },
+        {
+          "id": "C",
+          "text": "inferior goods"
+        },
+        {
+          "id": "D",
+          "text": "substitutes"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "A positive cross-price elasticity means a price rise in one increases demand for the other.",
       "distractors": {}
     },
     {
-      "id": "u2-q03", "tier": "Intro", "type": "mcq", "topic": "2.8 The Effects of Government Intervention in Markets", "skill": "2. Interpretation",
+      "id": "u2-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.8 The Effects of Government Intervention in Markets",
+      "skill": "2. Interpretation",
       "stem": "A binding price ceiling on apartment rents will most likely cause",
       "choices": [
-        { "id": "A", "text": "a surplus of apartments" },
-        { "id": "B", "text": "a shortage of apartments" },
-        { "id": "C", "text": "an increase in the quantity supplied" },
-        { "id": "D", "text": "no change in the market" }
+        {
+          "id": "A",
+          "text": "a shortage of apartments"
+        },
+        {
+          "id": "B",
+          "text": "a surplus of apartments"
+        },
+        {
+          "id": "C",
+          "text": "an increase in the quantity supplied"
+        },
+        {
+          "id": "D",
+          "text": "no change in the market"
+        }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "At a price below equilibrium, quantity demanded exceeds quantity supplied.",
       "distractors": {}
     },
     {
-      "id": "u2-q04", "tier": "Intro", "type": "mcq", "topic": "2.6 Market Equilibrium and Consumer and Producer Surplus", "skill": "4. Graphing and Visuals",
+      "id": "u2-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.6 Market Equilibrium and Consumer and Producer Surplus",
+      "skill": "4. Graphing and Visuals",
       "stem": "On a supply-and-demand graph, consumer surplus is the area",
       "choices": [
-        { "id": "A", "text": "below the demand curve and above the market price" },
-        { "id": "B", "text": "above the supply curve and below the market price" },
-        { "id": "C", "text": "between the supply and demand curves to the right of equilibrium" },
-        { "id": "D", "text": "below the supply curve" }
+        {
+          "id": "A",
+          "text": "above the supply curve and below the market price"
+        },
+        {
+          "id": "B",
+          "text": "below the demand curve and above the market price"
+        },
+        {
+          "id": "C",
+          "text": "between the supply and demand curves to the right of equilibrium"
+        },
+        {
+          "id": "D",
+          "text": "below the supply curve"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "It measures willingness to pay above the price actually paid.",
-      "distractors": { "B": "Producer surplus." }
+      "distractors": {
+        "A": "Producer surplus."
+      }
     },
     {
-      "id": "u2-q05", "tier": "Exam level", "type": "mcq", "topic": "2.3 Price Elasticity of Demand", "skill": "3. Manipulation",
+      "id": "u2-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.3 Price Elasticity of Demand",
+      "skill": "3. Manipulation",
       "stem": "When the price of a sandwich rises from $4 to $6, quantity demanded falls from 100 to 80. Using the midpoint method, the price elasticity of demand is about",
       "choices": [
-        { "id": "A", "text": "0.40" },
-        { "id": "B", "text": "0.56" },
-        { "id": "C", "text": "1.80" },
-        { "id": "D", "text": "2.50" }
+        {
+          "id": "A",
+          "text": "0.40"
+        },
+        {
+          "id": "B",
+          "text": "0.56"
+        },
+        {
+          "id": "C",
+          "text": "1.80"
+        },
+        {
+          "id": "D",
+          "text": "2.50"
+        }
       ],
       "answer": "B",
       "explanation": "%ΔQ = 20/90 ≈ 22.2%; %ΔP = 2/5 = 40%; 22.2/40 ≈ 0.56 (inelastic).",
-      "distractors": { "A": "Uses initial values: 20% / 50%." }
+      "distractors": {
+        "A": "Uses initial values: 20% / 50%."
+      }
     },
     {
-      "id": "u2-q06", "tier": "Exam level", "type": "mcq", "topic": "2.8 The Effects of Government Intervention in Markets", "skill": "2. Interpretation",
+      "id": "u2-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.8 The Effects of Government Intervention in Markets",
+      "skill": "2. Interpretation",
       "stem": "A per-unit tax is placed on a good whose demand is perfectly inelastic. Who bears the burden of the tax?",
       "choices": [
-        { "id": "A", "text": "Buyers bear the entire tax." },
-        { "id": "B", "text": "Sellers bear the entire tax." },
-        { "id": "C", "text": "It is split equally." },
-        { "id": "D", "text": "The government bears it." }
+        {
+          "id": "A",
+          "text": "The government bears it."
+        },
+        {
+          "id": "B",
+          "text": "Sellers bear the entire tax."
+        },
+        {
+          "id": "C",
+          "text": "It is split equally."
+        },
+        {
+          "id": "D",
+          "text": "Buyers bear the entire tax."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Quantity doesn't change; price rises by the full amount of the tax.",
       "distractors": {}
     },
     {
-      "id": "u2-q07", "tier": "Exam level", "type": "mcq", "topic": "2.7 Market Disequilibrium and Changes in Equilibrium", "skill": "2. Interpretation",
+      "id": "u2-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.7 Market Disequilibrium and Changes in Equilibrium",
+      "skill": "2. Interpretation",
       "stem": "A popular diet recommends avoiding bread at the same time that the price of wheat (an input) falls. In the bread market,",
       "choices": [
-        { "id": "A", "text": "price definitely falls; quantity is indeterminate" },
-        { "id": "B", "text": "quantity definitely falls; price is indeterminate" },
-        { "id": "C", "text": "price and quantity both rise" },
-        { "id": "D", "text": "price definitely rises" }
+        {
+          "id": "A",
+          "text": "price and quantity both rise"
+        },
+        {
+          "id": "B",
+          "text": "quantity definitely falls; price is indeterminate"
+        },
+        {
+          "id": "C",
+          "text": "price definitely falls; quantity is indeterminate"
+        },
+        {
+          "id": "D",
+          "text": "price definitely rises"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Demand falls (P ↓, Q ↓) and supply rises (P ↓, Q ↑): price falls for certain.",
       "distractors": {}
     },
     {
-      "id": "u2-q08", "tier": "Exam level", "type": "mcq", "topic": "2.5 Other Elasticities", "skill": "2. Interpretation",
+      "id": "u2-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.5 Other Elasticities",
+      "skill": "2. Interpretation",
       "stem": "When consumers' incomes rise 10%, purchases of a store-brand cereal fall 5%. The income elasticity is",
       "choices": [
-        { "id": "A", "text": "0.5, so it is a normal good" },
-        { "id": "B", "text": "−0.5, so it is an inferior good" },
-        { "id": "C", "text": "−2.0, so it is a luxury" },
-        { "id": "D", "text": "2.0, so it is a luxury" }
+        {
+          "id": "A",
+          "text": "0.5, so it is a normal good"
+        },
+        {
+          "id": "B",
+          "text": "−0.5, so it is an inferior good"
+        },
+        {
+          "id": "C",
+          "text": "−2.0, so it is a luxury"
+        },
+        {
+          "id": "D",
+          "text": "2.0, so it is a luxury"
+        }
       ],
       "answer": "B",
       "explanation": "−5%/10% = −0.5; negative means inferior.",
       "distractors": {}
     },
     {
-      "id": "u2-q09", "tier": "Exam level", "type": "mcq", "topic": "2.8 The Effects of Government Intervention in Markets", "skill": "2. Interpretation",
+      "id": "u2-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.8 The Effects of Government Intervention in Markets",
+      "skill": "2. Interpretation",
       "stem": "The government sets a minimum price for milk above the equilibrium price. Which result is expected?",
       "choices": [
-        { "id": "A", "text": "A surplus of milk and deadweight loss" },
-        { "id": "B", "text": "A shortage of milk" },
-        { "id": "C", "text": "No effect" },
-        { "id": "D", "text": "Increased consumer surplus" }
+        {
+          "id": "A",
+          "text": "A surplus of milk and deadweight loss"
+        },
+        {
+          "id": "B",
+          "text": "A shortage of milk"
+        },
+        {
+          "id": "C",
+          "text": "No effect"
+        },
+        {
+          "id": "D",
+          "text": "Increased consumer surplus"
+        }
       ],
       "answer": "A",
       "explanation": "A binding floor raises Qs and lowers Qd; trades that would benefit both sides are lost.",
       "distractors": {}
     },
     {
-      "id": "u2-q10", "tier": "Exam level", "type": "mcq", "topic": "2.4 Price Elasticity of Supply", "skill": "2. Interpretation",
+      "id": "u2-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.4 Price Elasticity of Supply",
+      "skill": "2. Interpretation",
       "stem": "Why is the supply of fresh fish more elastic over a year than over a single day?",
       "choices": [
-        { "id": "A", "text": "Over a longer period, producers can add boats, crews, and capacity in response to price changes." },
-        { "id": "B", "text": "Consumers find more substitutes over time." },
-        { "id": "C", "text": "Fish become a luxury good." },
-        { "id": "D", "text": "Demand becomes perfectly inelastic." }
+        {
+          "id": "A",
+          "text": "Demand becomes perfectly inelastic."
+        },
+        {
+          "id": "B",
+          "text": "Consumers find more substitutes over time."
+        },
+        {
+          "id": "C",
+          "text": "Fish become a luxury good."
+        },
+        {
+          "id": "D",
+          "text": "Over a longer period, producers can add boats, crews, and capacity in response to price changes."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Time lets producers adjust inputs.",
-      "distractors": { "B": "Describes demand elasticity." }
+      "distractors": {
+        "B": "Describes demand elasticity."
+      }
     },
     {
-      "id": "u2-q11", "tier": "Hardest", "type": "mcq", "topic": "2.8 The Effects of Government Intervention in Markets", "skill": "3. Manipulation",
+      "id": "u2-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.8 The Effects of Government Intervention in Markets",
+      "skill": "3. Manipulation",
       "stimulus": "Demand: P = 20 − Q. Supply: P = 2 + Q. A $4 per-unit tax is imposed on sellers.",
       "stem": "Which is correct after the tax?",
       "choices": [
-        { "id": "A", "text": "Quantity 7; buyers pay $13; sellers keep $9; tax revenue $28; deadweight loss $4" },
-        { "id": "B", "text": "Quantity 9; buyers pay $11; revenue $36; no deadweight loss" },
-        { "id": "C", "text": "Quantity 7; buyers pay $15; sellers keep $11; revenue $28" },
-        { "id": "D", "text": "Quantity 5; buyers pay $15; revenue $20; deadweight loss $8" }
+        {
+          "id": "A",
+          "text": "Quantity 7; buyers pay $15; sellers keep $11; revenue $28"
+        },
+        {
+          "id": "B",
+          "text": "Quantity 9; buyers pay $11; revenue $36; no deadweight loss"
+        },
+        {
+          "id": "C",
+          "text": "Quantity 7; buyers pay $13; sellers keep $9; tax revenue $28; deadweight loss $4"
+        },
+        {
+          "id": "D",
+          "text": "Quantity 5; buyers pay $15; revenue $20; deadweight loss $8"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Original eq: Q = 9, P = 11. New supply P = 6 + Q → Q = 7, P_buyer = 13, P_seller = 9. Revenue 4 × 7 = 28. DWL = ½ × 4 × 2 = 4.",
       "distractors": {}
     },
     {
-      "id": "u2-q12", "tier": "Hardest", "type": "mcq", "topic": "2.9 International Trade and Public Policy", "skill": "3. Manipulation",
+      "id": "u2-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.9 International Trade and Public Policy",
+      "skill": "3. Manipulation",
       "stimulus": "Domestic demand: P = 20 − Q. Domestic supply: P = 2 + Q. The world price is $5, and the country can import any quantity at that price. The government then imposes a $2 per-unit tariff.",
       "stem": "How do imports and tariff revenue change?",
       "choices": [
-        { "id": "A", "text": "Imports fall from 12 to 8; tariff revenue is $16" },
-        { "id": "B", "text": "Imports fall from 12 to 10; tariff revenue is $20" },
-        { "id": "C", "text": "Imports rise from 8 to 12; tariff revenue is $24" },
-        { "id": "D", "text": "Imports fall from 15 to 13; tariff revenue is $26" }
+        {
+          "id": "A",
+          "text": "Imports fall from 12 to 8; tariff revenue is $16"
+        },
+        {
+          "id": "B",
+          "text": "Imports fall from 12 to 10; tariff revenue is $20"
+        },
+        {
+          "id": "C",
+          "text": "Imports rise from 8 to 12; tariff revenue is $24"
+        },
+        {
+          "id": "D",
+          "text": "Imports fall from 15 to 13; tariff revenue is $26"
+        }
       ],
       "answer": "A",
       "explanation": "At $5: Qd = 15, Qs = 3, imports 12. At $7: Qd = 13, Qs = 5, imports 8. Revenue = 2 × 8 = $16.",
-      "distractors": { "D": "Uses quantity demanded instead of imports." }
+      "distractors": {
+        "D": "Uses quantity demanded instead of imports."
+      }
     },
     {
-      "id": "u2-q13", "tier": "Hardest", "type": "mcq", "topic": "2.3 Price Elasticity of Demand", "skill": "2. Interpretation",
+      "id": "u2-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.3 Price Elasticity of Demand",
+      "skill": "2. Interpretation",
       "stem": "Along a straight-line demand curve, a firm is currently charging a price at which demand is inelastic. To increase total revenue, it should",
       "choices": [
-        { "id": "A", "text": "raise its price" },
-        { "id": "B", "text": "lower its price" },
-        { "id": "C", "text": "keep its price, since revenue is maximized" },
-        { "id": "D", "text": "lower output" }
+        {
+          "id": "A",
+          "text": "keep its price, since revenue is maximized"
+        },
+        {
+          "id": "B",
+          "text": "lower its price"
+        },
+        {
+          "id": "C",
+          "text": "raise its price"
+        },
+        {
+          "id": "D",
+          "text": "lower output"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "With inelastic demand, a price increase reduces quantity proportionally less, raising TR.",
       "distractors": {}
     },
     {
-      "id": "u2-q14", "tier": "Hardest", "type": "mcq", "topic": "2.8 The Effects of Government Intervention in Markets", "skill": "2. Interpretation",
+      "id": "u2-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.8 The Effects of Government Intervention in Markets",
+      "skill": "2. Interpretation",
       "stem": "Compared with the competitive equilibrium, a per-unit subsidy paid to producers results in",
       "choices": [
-        { "id": "A", "text": "a lower consumer price, a higher price received by producers, greater quantity, and deadweight loss from overproduction" },
-        { "id": "B", "text": "a higher consumer price and less quantity" },
-        { "id": "C", "text": "no deadweight loss because both sides gain" },
-        { "id": "D", "text": "a shortage" }
+        {
+          "id": "A",
+          "text": "a shortage"
+        },
+        {
+          "id": "B",
+          "text": "a higher consumer price and less quantity"
+        },
+        {
+          "id": "C",
+          "text": "no deadweight loss because both sides gain"
+        },
+        {
+          "id": "D",
+          "text": "a lower consumer price, a higher price received by producers, greater quantity, and deadweight loss from overproduction"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Units produced beyond the efficient quantity cost more than buyers value them.",
-      "distractors": { "C": "The subsidy cost exceeds the combined surplus gains." }
+      "distractors": {
+        "C": "The subsidy cost exceeds the combined surplus gains."
+      }
     },
     {
-      "id": "u2-frq1", "tier": "Exam level", "type": "frq", "topic": "2.6–2.8 Surplus and Government Intervention", "frqType": "Short FRQ",
+      "id": "u2-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "2.6–2.8 Surplus and Government Intervention",
+      "frqType": "Short FRQ",
       "prompt": "The market for gasoline in a country is perfectly competitive and initially in equilibrium. The government imposes a per-unit excise tax on gasoline sellers. Assume demand for gasoline is relatively inelastic and supply is relatively elastic.",
       "parts": [
-        { "label": "a", "prompt": "Draw (describe) a correctly labeled supply-and-demand graph showing the effect of the tax. Label the price buyers pay (P_b), the price sellers receive (P_s), and the new quantity (Q_t).", "points": 2 },
-        { "label": "b", "prompt": "Shade (describe) the area of tax revenue on your graph.", "points": 1 },
-        { "label": "c", "prompt": "Will buyers or sellers bear more of the tax burden? Explain using elasticity.", "points": 1 },
-        { "label": "d", "prompt": "Identify the area of deadweight loss on your graph.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Draw (describe) a correctly labeled supply-and-demand graph showing the effect of the tax. Label the price buyers pay (P_b), the price sellers receive (P_s), and the new quantity (Q_t).",
+          "points": 2
+        },
+        {
+          "label": "b",
+          "prompt": "Shade (describe) the area of tax revenue on your graph.",
+          "points": 1
+        },
+        {
+          "label": "c",
+          "prompt": "Will buyers or sellers bear more of the tax burden? Explain using elasticity.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Identify the area of deadweight loss on your graph.",
+          "points": 1
+        }
       ],
       "points": 5,
       "minutes": 10,
       "rubric": [
-        { "criterion": "a1: Graph and shift", "points": 1, "description": "Axes price and quantity; steep (inelastic) demand and flatter supply; supply shifts left/up by the tax amount." },
-        { "criterion": "a2: Labels", "points": 1, "description": "P_b where new supply meets demand at Q_t; P_s on original supply at Q_t; Q_t less than original Q." },
-        { "criterion": "b", "points": 1, "description": "Rectangle with height (P_b − P_s) and width Q_t." },
-        { "criterion": "c", "points": 1, "description": "Buyers, because demand is less elastic than supply; buyers can't easily reduce purchases, so price rises by most of the tax." },
-        { "criterion": "d", "points": 1, "description": "Triangle between Q_t and the original Q, bounded by demand and the original supply curve." }
+        {
+          "criterion": "a1: Graph and shift",
+          "points": 1,
+          "description": "Axes price and quantity; steep (inelastic) demand and flatter supply; supply shifts left/up by the tax amount."
+        },
+        {
+          "criterion": "a2: Labels",
+          "points": 1,
+          "description": "P_b where new supply meets demand at Q_t; P_s on original supply at Q_t; Q_t less than original Q."
+        },
+        {
+          "criterion": "b",
+          "points": 1,
+          "description": "Rectangle with height (P_b − P_s) and width Q_t."
+        },
+        {
+          "criterion": "c",
+          "points": 1,
+          "description": "Buyers, because demand is less elastic than supply; buyers can't easily reduce purchases, so price rises by most of the tax."
+        },
+        {
+          "criterion": "d",
+          "points": 1,
+          "description": "Triangle between Q_t and the original Q, bounded by demand and the original supply curve."
+        }
       ],
       "sampleResponse": "(a) The graph has 'Price' on the vertical axis and 'Quantity of gasoline' on the horizontal axis. A steep demand curve and a flatter supply curve intersect at P₁ and Q₁. The tax shifts supply up by the tax amount to S + tax. The new equilibrium with demand is at Q_t (less than Q₁) and buyers' price P_b (above P₁). Directly below at Q_t on the original supply curve is P_s, the price sellers keep (below P₁).\n\n(b) Tax revenue is the rectangle from P_s to P_b in height and from 0 to Q_t in width.\n\n(c) Buyers bear more of the burden. Because demand is relatively inelastic, buyers do not reduce their purchases much when price rises, so most of the tax is passed on to them: P_b rises far above P₁ while P_s falls only slightly.\n\n(d) Deadweight loss is the triangle between Q_t and Q₁, bounded above by the demand curve and below by the original supply curve."
     }

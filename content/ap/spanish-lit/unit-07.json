@@ -100,7 +100,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Sin sorpresa, porque ya han visto fenómenos extraños"
+          "text": "Llaman a científicos de la capital"
         },
         {
           "id": "B",
@@ -108,14 +108,14 @@
         },
         {
           "id": "C",
-          "text": "Llaman a científicos de la capital"
+          "text": "Sin sorpresa, porque ya han visto fenómenos extraños"
         },
         {
           "id": "D",
           "text": "Con indiferencia total durante semanas"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Previous rains of frogs and August snow.",
       "distractors": {}
     },
@@ -130,11 +130,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "el realismo mágico"
+          "text": "el naturalismo"
         },
         {
           "id": "B",
-          "text": "el naturalismo"
+          "text": "el realismo mágico"
         },
         {
           "id": "C",
@@ -145,7 +145,7 @@
           "text": "la novela picaresca"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Matter-of-fact tone.",
       "distractors": {}
     },
@@ -190,7 +190,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Que la abuela guardaba algo valioso (la alegría, el color) que se libera con su muerte"
+          "text": "Que Remigio miente para llamar la atención"
         },
         {
           "id": "B",
@@ -202,10 +202,10 @@
         },
         {
           "id": "D",
-          "text": "Que Remigio miente para llamar la atención"
+          "text": "Que la abuela guardaba algo valioso (la alegría, el color) que se libera con su muerte"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Poetic, metaphorical logic.",
       "distractors": {}
     },
@@ -220,7 +220,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Gabriel García Márquez"
+          "text": "Antonio Machado"
         },
         {
           "id": "B",
@@ -232,10 +232,10 @@
         },
         {
           "id": "D",
-          "text": "Antonio Machado"
+          "text": "Gabriel García Márquez"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Yellow butterflies are a famous García Márquez motif.",
       "distractors": {}
     },
@@ -249,11 +249,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "visitar la tumba de su hijo, a quien mataron acusado de ladrón"
+          "text": "vender flores en el mercado"
         },
         {
           "id": "B",
-          "text": "vender flores en el mercado"
+          "text": "visitar la tumba de su hijo, a quien mataron acusado de ladrón"
         },
         {
           "id": "C",
@@ -264,7 +264,7 @@
           "text": "buscar trabajo"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Carlos Centeno.",
       "distractors": {}
     },
@@ -307,7 +307,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "El sueño era la vida moderna; la realidad es el sacrificio azteca"
+          "text": "El moteca escapa y vuelve a su aldea"
         },
         {
           "id": "B",
@@ -315,14 +315,14 @@
         },
         {
           "id": "C",
-          "text": "El moteca escapa y vuelve a su aldea"
+          "text": "El sueño era la vida moderna; la realidad es el sacrificio azteca"
         },
         {
           "id": "D",
           "text": "Todo fue una película"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The famous reversal.",
       "distractors": {}
     },
@@ -336,11 +336,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "herido sobre sus hombros hacia Tonaya para buscar un médico"
+          "text": "a la escuela"
         },
         {
           "id": "B",
-          "text": "a la escuela"
+          "text": "herido sobre sus hombros hacia Tonaya para buscar un médico"
         },
         {
           "id": "C",
@@ -351,7 +351,7 @@
           "text": "a la iglesia para casarse"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Father carries Ignacio.",
       "distractors": {}
     },
@@ -394,7 +394,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Un diario que el narrador lee después de la muerte de Filiberto"
+          "text": "Una carta a Vuestra Merced"
         },
         {
           "id": "B",
@@ -406,10 +406,10 @@
         },
         {
           "id": "D",
-          "text": "Una carta a Vuestra Merced"
+          "text": "Un diario que el narrador lee después de la muerte de Filiberto"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Diary frame.",
       "distractors": {}
     },
@@ -423,7 +423,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "el pasado prehispánico regresa para dominar el México moderno"
+          "text": "las estatuas son solo objetos decorativos"
         },
         {
           "id": "B",
@@ -431,14 +431,14 @@
         },
         {
           "id": "C",
-          "text": "las estatuas son solo objetos decorativos"
+          "text": "el pasado prehispánico regresa para dominar el México moderno"
         },
         {
           "id": "D",
           "text": "el protagonista es un héroe revolucionario"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Allegory of cultural memory.",
       "distractors": {}
     },
@@ -452,7 +452,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "puede leerse como un hecho real o como el sueño de una muerte heroica en el hospital"
+          "text": "el narrador explica claramente que todo fue real"
         },
         {
           "id": "B",
@@ -460,14 +460,14 @@
         },
         {
           "id": "C",
-          "text": "el narrador explica claramente que todo fue real"
+          "text": "puede leerse como un hecho real o como el sueño de una muerte heroica en el hospital"
         },
         {
           "id": "D",
           "text": "no aparece ningún personaje"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Dream/reality ambiguity.",
       "distractors": {}
     },

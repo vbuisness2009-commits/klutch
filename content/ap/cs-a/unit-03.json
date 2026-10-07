@@ -100,7 +100,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "To prevent other classes from directly changing an object's state, enforcing encapsulation"
+          "text": "To allow static methods to use them"
         },
         {
           "id": "B",
@@ -108,14 +108,14 @@
         },
         {
           "id": "C",
-          "text": "To allow static methods to use them"
+          "text": "To prevent other classes from directly changing an object's state, enforcing encapsulation"
         },
         {
           "id": "D",
           "text": "Because constructors require it"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Private access ensures changes go through methods that can validate them.",
       "distractors": {}
     },
@@ -160,11 +160,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "1"
+          "text": "2"
         },
         {
           "id": "B",
-          "text": "2"
+          "text": "1"
         },
         {
           "id": "C",
@@ -175,7 +175,7 @@
           "text": "0"
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "count is shared; b is the second ticket created.",
       "distractors": {
         "C": "Thinks id updates with count."
@@ -190,7 +190,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "It has the same name as the class and no return type."
+          "text": "Each class can have only one constructor."
         },
         {
           "id": "B",
@@ -202,10 +202,10 @@
         },
         {
           "id": "D",
-          "text": "Each class can have only one constructor."
+          "text": "It has the same name as the class and no return type."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Constructors have no return type; classes can overload constructors.",
       "distractors": {}
     },
@@ -218,11 +218,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "10"
+          "text": "15"
         },
         {
           "id": "B",
-          "text": "15"
+          "text": "10"
         },
         {
           "id": "C",
@@ -233,7 +233,7 @@
           "text": "The code doesn't compile."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The method receives a copy of n; changing x doesn't affect n.",
       "distractors": {}
     },
@@ -247,7 +247,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "99"
+          "text": "7"
         },
         {
           "id": "B",
@@ -259,10 +259,10 @@
         },
         {
           "id": "D",
-          "text": "7"
+          "text": "99"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The method mutates x's object to 99, then reassigns its local copy of the reference to a new Box; x still refers to the original.",
       "distractors": {
         "C": "Thinks reassigning the parameter changes x."
@@ -278,7 +278,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "A static method cannot access the instance variable balance."
+          "text": "rate must be an int."
         },
         {
           "id": "B",
@@ -286,14 +286,14 @@
         },
         {
           "id": "C",
-          "text": "rate must be an int."
+          "text": "A static method cannot access the instance variable balance."
         },
         {
           "id": "D",
           "text": "The class has no constructor."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Static methods have no object, so instance variables aren't available.",
       "distractors": {
         "D": "A default constructor is supplied automatically."
@@ -340,7 +340,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "63"
+          "text": "78"
         },
         {
           "id": "B",
@@ -348,17 +348,17 @@
         },
         {
           "id": "C",
-          "text": "78"
+          "text": "63"
         },
         {
           "id": "D",
           "text": "60"
         }
       ],
-      "answer": "C",
+      "answer": "A",
       "explanation": "68 → 78; +5 would be 83 (rejected); −20 would be 58 (rejected). Remains 78.",
       "distractors": {
-        "A": "Applies all changes."
+        "C": "Applies all changes."
       }
     },
     {
@@ -399,7 +399,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "8,0"
+          "text": "0,0"
         },
         {
           "id": "B",
@@ -411,10 +411,10 @@
         },
         {
           "id": "D",
-          "text": "0,0"
+          "text": "8,0"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "this.a = b sets the field a to 8. b = a assigns the parameter b the value of parameter a (3); the field b stays 0.",
       "distractors": {
         "B": "Thinks b = a sets the field."
@@ -430,7 +430,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "1"
+          "text": "3"
         },
         {
           "id": "B",
@@ -438,17 +438,17 @@
         },
         {
           "id": "C",
-          "text": "3"
+          "text": "1"
         },
         {
           "id": "D",
           "text": "0"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "p: on (+1), off (−1). q: on (+1), off (−1), on (+1). Net 1.",
       "distractors": {
-        "C": "Counts each toggle to 'on' without decrements."
+        "A": "Counts each toggle to 'on' without decrements."
       }
     },
     {
@@ -461,11 +461,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "It compiles, because a method can access private fields of another object of the same class."
+          "text": "It doesn't compile, because other.num is private."
         },
         {
           "id": "B",
-          "text": "It doesn't compile, because other.num is private."
+          "text": "It compiles, because a method can access private fields of another object of the same class."
         },
         {
           "id": "C",
@@ -476,7 +476,7 @@
           "text": "It must be static to create a new Fraction."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Private access is per class, not per object.",
       "distractors": {}
     },
@@ -489,7 +489,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "The program may reproduce past bias, unfairly denying loans to applicants from those neighborhoods."
+          "text": "The program cannot be written in Java."
         },
         {
           "id": "B",
@@ -501,10 +501,10 @@
         },
         {
           "id": "D",
-          "text": "The program cannot be written in Java."
+          "text": "The program may reproduce past bias, unfairly denying loans to applicants from those neighborhoods."
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Algorithms trained on biased data can perpetuate discrimination.",
       "distractors": {}
     },

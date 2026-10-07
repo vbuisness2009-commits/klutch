@@ -192,18 +192,18 @@
         },
         {
           "id": "B",
-          "text": "It increases the time over which the occupant stops, reducing the average force."
+          "text": "It increases the occupant's momentum."
         },
         {
           "id": "C",
-          "text": "It increases the occupant's momentum."
+          "text": "It increases the time over which the occupant stops, reducing the average force."
         },
         {
           "id": "D",
           "text": "It eliminates the impulse."
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Same Δp over a longer Δt means smaller force.",
       "distractors": {}
     },
@@ -250,18 +250,18 @@
         },
         {
           "id": "B",
-          "text": "24 J"
+          "text": "36 J"
         },
         {
           "id": "C",
-          "text": "36 J"
+          "text": "24 J"
         },
         {
           "id": "D",
           "text": "0 J"
         }
       ],
-      "answer": "B",
+      "answer": "C",
       "explanation": "Initial K = 36 J; final K = ½(6)(2²) = 12 J; lost 24 J.",
       "distractors": {
         "A": "Final KE."
@@ -310,7 +310,7 @@
         },
         {
           "id": "B",
-          "text": "Velocity of the center of mass"
+          "text": "Each cart's momentum"
         },
         {
           "id": "C",
@@ -318,10 +318,10 @@
         },
         {
           "id": "D",
-          "text": "Each cart's momentum"
+          "text": "Velocity of the center of mass"
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "v_cm = p_total/M, and p_total is conserved.",
       "distractors": {}
     },
@@ -334,7 +334,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "3.0 m/s west"
+          "text": "3.0 m/s east"
         },
         {
           "id": "B",
@@ -346,10 +346,10 @@
         },
         {
           "id": "D",
-          "text": "3.0 m/s east"
+          "text": "3.0 m/s west"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "0 = 1(6) + 2v → v = −3 m/s.",
       "distractors": {
         "C": "Divides by total mass."
@@ -488,7 +488,7 @@
         },
         {
           "id": "B",
-          "text": "8.0 m/s"
+          "text": "2.0 m/s"
         },
         {
           "id": "C",
@@ -496,10 +496,10 @@
         },
         {
           "id": "D",
-          "text": "2.0 m/s"
+          "text": "8.0 m/s"
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "F stays positive until t = 4, so speed increases throughout. J = ∫(8 − 2t) dt from 0 to 4 = 32 − 16 = 16 N·s; v = 16/2 = 8 m/s.",
       "distractors": {
         "C": "Forgets to divide by mass."

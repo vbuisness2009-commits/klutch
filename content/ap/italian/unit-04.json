@@ -98,11 +98,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Il fenomeno per cui la marea sale e allaga la città"
+          "text": "Una festa veneziana"
         },
         {
           "id": "B",
-          "text": "Una festa veneziana"
+          "text": "Il fenomeno per cui la marea sale e allaga la città"
         },
         {
           "id": "C",
@@ -113,7 +113,7 @@
           "text": "Una sorgente di montagna"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Defined.",
       "distractors": {}
     },
@@ -128,7 +128,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Paratoie mobili si sollevano e separano temporaneamente la laguna dal mare"
+          "text": "Pompe svuotano la laguna ogni giorno"
         },
         {
           "id": "B",
@@ -136,14 +136,14 @@
         },
         {
           "id": "C",
-          "text": "Pompe svuotano la laguna ogni giorno"
+          "text": "Paratoie mobili si sollevano e separano temporaneamente la laguna dal mare"
         },
         {
           "id": "D",
           "text": "Le case vengono alzate"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Mobile barriers.",
       "distractors": {}
     },
@@ -188,7 +188,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Un uso troppo frequente potrebbe danneggiare la laguna, che ha bisogno di scambio d'acqua con il mare"
+          "text": "Il MOSE alza il livello del mare"
         },
         {
           "id": "B",
@@ -200,10 +200,10 @@
         },
         {
           "id": "D",
-          "text": "Il MOSE alza il livello del mare"
+          "text": "Un uso troppo frequente potrebbe danneggiare la laguna, che ha bisogno di scambio d'acqua con il mare"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Ecological balance.",
       "distractors": {}
     },
@@ -218,11 +218,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Pannelli solari sollevati sopra le coltivazioni"
+          "text": "Un trattore elettrico"
         },
         {
           "id": "B",
-          "text": "Un trattore elettrico"
+          "text": "Pannelli solari sollevati sopra le coltivazioni"
         },
         {
           "id": "C",
@@ -233,7 +233,7 @@
           "text": "Una serra di vetro"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Defined.",
       "distractors": {}
     },
@@ -248,7 +248,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Produzione di energia e ombra che riduce il bisogno d'acqua"
+          "text": "Nessun costo iniziale"
         },
         {
           "id": "B",
@@ -256,14 +256,14 @@
         },
         {
           "id": "C",
-          "text": "Nessun costo iniziale"
+          "text": "Produzione di energia e ombra che riduce il bisogno d'acqua"
         },
         {
           "id": "D",
           "text": "Più terra coltivabile"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Two benefits.",
       "distractors": {}
     },
@@ -278,11 +278,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "L'investimento iniziale è alto"
+          "text": "I pannelli rovinano tutte le piante"
         },
         {
           "id": "B",
-          "text": "I pannelli rovinano tutte le piante"
+          "text": "L'investimento iniziale è alto"
         },
         {
           "id": "C",
@@ -293,7 +293,7 @@
           "text": "Non produce energia"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Cost.",
       "distractors": {}
     },
@@ -308,7 +308,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Senza aiuti pubblici il progetto non sarebbe stato possibile"
+          "text": "Gli incentivi erano inutili"
         },
         {
           "id": "B",
@@ -316,14 +316,14 @@
         },
         {
           "id": "C",
-          "text": "Gli incentivi erano inutili"
+          "text": "Senza aiuti pubblici il progetto non sarebbe stato possibile"
         },
         {
           "id": "D",
           "text": "Hanno rifiutato gli incentivi"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Counterfactual.",
       "distractors": {}
     },
@@ -338,7 +338,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "I social network"
+          "text": "I giornali cartacei"
         },
         {
           "id": "B",
@@ -350,10 +350,10 @@
         },
         {
           "id": "D",
-          "text": "I giornali cartacei"
+          "text": "I social network"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "84 %.",
       "distractors": {}
     },
@@ -398,7 +398,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Circa un terzo"
+          "text": "Nessuno"
         },
         {
           "id": "B",
@@ -410,10 +410,10 @@
         },
         {
           "id": "D",
-          "text": "Nessuno"
+          "text": "Circa un terzo"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "33 %.",
       "distractors": {}
     },
@@ -428,7 +428,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "I social network peggiorano il rendimento scolastico"
+          "text": "Lo streaming è usato ogni giorno dalla maggioranza"
         },
         {
           "id": "B",
@@ -436,14 +436,14 @@
         },
         {
           "id": "C",
-          "text": "Lo streaming è usato ogni giorno dalla maggioranza"
+          "text": "I social network peggiorano il rendimento scolastico"
         },
         {
           "id": "D",
           "text": "Pochissimi non usano mai i social network"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "No school data.",
       "distractors": {}
     },
@@ -487,11 +487,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "venisse"
+          "text": "viene"
         },
         {
           "id": "B",
-          "text": "viene"
+          "text": "venisse"
         },
         {
           "id": "C",
@@ -502,7 +502,7 @@
           "text": "veniva"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Se + congiuntivo imperfetto → condizionale.",
       "distractors": {}
     },

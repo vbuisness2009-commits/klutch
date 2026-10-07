@@ -99,7 +99,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "La cohabitation entre personnes âgées et étudiants"
+          "text": "Les appels vidéo en famille"
         },
         {
           "id": "B",
@@ -111,10 +111,10 @@
         },
         {
           "id": "D",
-          "text": "Les appels vidéo en famille"
+          "text": "La cohabitation entre personnes âgées et étudiants"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Intergenerational housing.",
       "distractors": {}
     },
@@ -129,7 +129,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Une chambre gratuite ou à loyer modeste"
+          "text": "Des cours d'informatique"
         },
         {
           "id": "B",
@@ -137,14 +137,14 @@
         },
         {
           "id": "C",
-          "text": "Des cours d'informatique"
+          "text": "Une chambre gratuite ou à loyer modeste"
         },
         {
           "id": "D",
           "text": "Une bourse universitaire"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated in paragraph 1.",
       "distractors": {}
     },
@@ -189,11 +189,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Le jeune ne doit pas remplacer les professionnels de l'aide à domicile"
+          "text": "Les étudiants doivent payer un loyer élevé"
         },
         {
           "id": "B",
-          "text": "Les étudiants doivent payer un loyer élevé"
+          "text": "Le jeune ne doit pas remplacer les professionnels de l'aide à domicile"
         },
         {
           "id": "C",
@@ -204,7 +204,7 @@
           "text": "La colocation doit durer au moins cinq ans"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Not a nurse or home aide replacement.",
       "distractors": {}
     },
@@ -219,11 +219,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Favorable, mais nuancé par des conditions de réussite"
+          "text": "Très critique"
         },
         {
           "id": "B",
-          "text": "Très critique"
+          "text": "Favorable, mais nuancé par des conditions de réussite"
         },
         {
           "id": "C",
@@ -234,7 +234,7 @@
           "text": "Humoristique et moqueur"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Positive with a 'cependant'.",
       "distractors": {}
     },
@@ -249,7 +249,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Un système où chaque membre cotise et reçoit à tour de rôle la somme totale"
+          "text": "Un marché hebdomadaire"
         },
         {
           "id": "B",
@@ -257,14 +257,14 @@
         },
         {
           "id": "C",
-          "text": "Un marché hebdomadaire"
+          "text": "Un système où chaque membre cotise et reçoit à tour de rôle la somme totale"
         },
         {
           "id": "D",
           "text": "Une fête religieuse"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Rotating savings.",
       "distractors": {}
     },
@@ -309,7 +309,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Parce que le système repose sur la confiance et la réputation"
+          "text": "Parce qu'il y a une amende élevée"
         },
         {
           "id": "B",
@@ -321,10 +321,10 @@
         },
         {
           "id": "D",
-          "text": "Parce qu'il y a une amende élevée"
+          "text": "Parce que le système repose sur la confiance et la réputation"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Social trust.",
       "distractors": {}
     },
@@ -339,7 +339,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Elle renforce les liens sociaux et l'esprit de partage"
+          "text": "Elle est réservée aux riches"
         },
         {
           "id": "B",
@@ -351,10 +351,10 @@
         },
         {
           "id": "D",
-          "text": "Elle est réservée aux riches"
+          "text": "Elle renforce les liens sociaux et l'esprit de partage"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Linked to teranga.",
       "distractors": {}
     },
@@ -369,7 +369,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Comment décidez-vous qui reçoit l'argent en premier ?"
+          "text": "Avez-vous visité Paris ?"
         },
         {
           "id": "B",
@@ -377,14 +377,14 @@
         },
         {
           "id": "C",
-          "text": "Avez-vous visité Paris ?"
+          "text": "Comment décidez-vous qui reçoit l'argent en premier ?"
         },
         {
           "id": "D",
           "text": "Quelle heure est-il ?"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Follows the topic.",
       "distractors": {}
     },
@@ -399,11 +399,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Un plat ou une boisson à partager"
+          "text": "Des tables et des chaises"
         },
         {
           "id": "B",
-          "text": "Des tables et des chaises"
+          "text": "Un plat ou une boisson à partager"
         },
         {
           "id": "C",
@@ -414,7 +414,7 @@
           "text": "Une contribution en argent"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -459,7 +459,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Pour savoir ce que chacun apportera et mieux organiser le repas"
+          "text": "Pour inscrire les enfants à l'école"
         },
         {
           "id": "B",
@@ -471,10 +471,10 @@
         },
         {
           "id": "D",
-          "text": "Pour inscrire les enfants à l'école"
+          "text": "Pour savoir ce que chacun apportera et mieux organiser le repas"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "'Pour mieux nous organiser.'",
       "distractors": {}
     },
@@ -489,11 +489,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Les deux reposent sur des échanges qui répondent à des besoins concrets et créent des liens"
+          "text": "Les deux sont gérées par l'État"
         },
         {
           "id": "B",
-          "text": "Les deux sont gérées par l'État"
+          "text": "Les deux reposent sur des échanges qui répondent à des besoins concrets et créent des liens"
         },
         {
           "id": "C",
@@ -504,7 +504,7 @@
           "text": "Les deux sont des fêtes annuelles"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Practical mutual aid plus social ties.",
       "distractors": {}
     },

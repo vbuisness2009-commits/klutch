@@ -47,215 +47,490 @@
     "cramSheet": "**Justifications:** Social Darwinism · civilizing mission · missionaries\n\n**Expansion:** Berlin Conference 1884–85 · Scramble for Africa · Adwa 1896 · British Raj after 1857 · settler colonies\n\n**Tools:** steamships · railroads · quinine · machine guns\n\n**Resistance:** 1857 Rebellion · Xhosa Cattle-Killing · Ghost Dance · Boxer Rebellion\n\n**Economic imperialism:** Opium Wars · unequal treaties · export economies · Congo rubber\n\n**Migration:** indentured Indian/Chinese labor · Chinese Exclusion Act 1882 · enclaves"
   },
   "vocab": [
-    { "term": "Imperialism", "definition": "Extending a state's power over other territories through colonization or economic control." },
-    { "term": "Social Darwinism", "definition": "The misapplication of natural selection to societies, used to justify imperialism and racism." },
-    { "term": "Berlin Conference", "definition": "1884–1885 meeting where European powers set rules for claiming African territory." },
-    { "term": "Scramble for Africa", "definition": "Rapid European colonization of Africa in the late 1800s." },
-    { "term": "British Raj", "definition": "Direct British Crown rule over India from 1858 to 1947." },
-    { "term": "Indian Rebellion of 1857", "definition": "A widespread uprising against East India Company rule." },
-    { "term": "Opium Wars", "definition": "Wars in which Britain forced China to accept opium trade and open ports." },
-    { "term": "Unequal treaties", "definition": "Agreements forced on weaker states granting foreign powers special privileges." },
-    { "term": "Extraterritoriality", "definition": "Foreigners being subject to their own country's laws rather than the host country's." },
-    { "term": "Export economy", "definition": "An economy dependent on exporting raw materials or cash crops." },
-    { "term": "Indentured servitude", "definition": "Contract labor in which workers committed years of work in exchange for passage and wages." },
-    { "term": "Boxer Rebellion", "definition": "1899–1901 Chinese uprising against foreign influence." },
-    { "term": "Settler colonialism", "definition": "Colonization in which settlers permanently replace or displace Indigenous populations." }
+    {
+      "term": "Imperialism",
+      "definition": "Extending a state's power over other territories through colonization or economic control."
+    },
+    {
+      "term": "Social Darwinism",
+      "definition": "The misapplication of natural selection to societies, used to justify imperialism and racism."
+    },
+    {
+      "term": "Berlin Conference",
+      "definition": "1884–1885 meeting where European powers set rules for claiming African territory."
+    },
+    {
+      "term": "Scramble for Africa",
+      "definition": "Rapid European colonization of Africa in the late 1800s."
+    },
+    {
+      "term": "British Raj",
+      "definition": "Direct British Crown rule over India from 1858 to 1947."
+    },
+    {
+      "term": "Indian Rebellion of 1857",
+      "definition": "A widespread uprising against East India Company rule."
+    },
+    {
+      "term": "Opium Wars",
+      "definition": "Wars in which Britain forced China to accept opium trade and open ports."
+    },
+    {
+      "term": "Unequal treaties",
+      "definition": "Agreements forced on weaker states granting foreign powers special privileges."
+    },
+    {
+      "term": "Extraterritoriality",
+      "definition": "Foreigners being subject to their own country's laws rather than the host country's."
+    },
+    {
+      "term": "Export economy",
+      "definition": "An economy dependent on exporting raw materials or cash crops."
+    },
+    {
+      "term": "Indentured servitude",
+      "definition": "Contract labor in which workers committed years of work in exchange for passage and wages."
+    },
+    {
+      "term": "Boxer Rebellion",
+      "definition": "1899–1901 Chinese uprising against foreign influence."
+    },
+    {
+      "term": "Settler colonialism",
+      "definition": "Colonization in which settlers permanently replace or displace Indigenous populations."
+    }
   ],
   "practice": [
     {
-      "id": "u6-q01", "tier": "Intro", "type": "mcq", "topic": "6.2 State Expansion",
+      "id": "u6-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.2 State Expansion",
       "stem": "The Berlin Conference of 1884–1885 was primarily intended to",
       "choices": [
-        { "id": "A", "text": "set rules for European powers' claims to African territory" },
-        { "id": "B", "text": "end the Atlantic slave trade" },
-        { "id": "C", "text": "grant independence to African states" },
-        { "id": "D", "text": "settle the Opium Wars" }
+        {
+          "id": "A",
+          "text": "grant independence to African states"
+        },
+        {
+          "id": "B",
+          "text": "end the Atlantic slave trade"
+        },
+        {
+          "id": "C",
+          "text": "set rules for European powers' claims to African territory"
+        },
+        {
+          "id": "D",
+          "text": "settle the Opium Wars"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "European states negotiated how to claim Africa, without African participation.",
       "distractors": {}
     },
     {
-      "id": "u6-q02", "tier": "Intro", "type": "mcq", "topic": "6.1 Rationales for Imperialism",
+      "id": "u6-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.1 Rationales for Imperialism",
       "stem": "Social Darwinism was used to",
       "choices": [
-        { "id": "A", "text": "justify imperial domination as the natural result of racial or national superiority" },
-        { "id": "B", "text": "argue for the independence of colonies" },
-        { "id": "C", "text": "oppose industrialization" },
-        { "id": "D", "text": "promote religious tolerance" }
+        {
+          "id": "A",
+          "text": "justify imperial domination as the natural result of racial or national superiority"
+        },
+        {
+          "id": "B",
+          "text": "argue for the independence of colonies"
+        },
+        {
+          "id": "C",
+          "text": "oppose industrialization"
+        },
+        {
+          "id": "D",
+          "text": "promote religious tolerance"
+        }
       ],
       "answer": "A",
       "explanation": "It misapplied evolution to claim some peoples were destined to rule others.",
       "distractors": {}
     },
     {
-      "id": "u6-q03", "tier": "Intro", "type": "mcq", "topic": "6.4 Global Economic Development / 6.5 Economic Imperialism",
+      "id": "u6-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.4 Global Economic Development / 6.5 Economic Imperialism",
       "stem": "The Opium Wars resulted in",
       "choices": [
-        { "id": "A", "text": "unequal treaties that opened Chinese ports to foreign trade" },
-        { "id": "B", "text": "China's colonization of Britain" },
-        { "id": "C", "text": "the end of the Qing dynasty in 1842" },
-        { "id": "D", "text": "a ban on opium in Britain" }
+        {
+          "id": "A",
+          "text": "the end of the Qing dynasty in 1842"
+        },
+        {
+          "id": "B",
+          "text": "China's colonization of Britain"
+        },
+        {
+          "id": "C",
+          "text": "unequal treaties that opened Chinese ports to foreign trade"
+        },
+        {
+          "id": "D",
+          "text": "a ban on opium in Britain"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The Treaty of Nanjing and later treaties forced China to open ports and cede Hong Kong.",
-      "distractors": { "C": "The Qing fell in 1912." }
+      "distractors": {
+        "A": "The Qing fell in 1912."
+      }
     },
     {
-      "id": "u6-q04", "tier": "Intro", "type": "mcq", "topic": "6.6 Causes of Migration",
+      "id": "u6-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "6.6 Causes of Migration",
       "stem": "After the abolition of slavery in the British Empire, many plantations turned to which labor source?",
       "choices": [
-        { "id": "A", "text": "Indentured laborers from India and China" },
-        { "id": "B", "text": "Serfs from Russia" },
-        { "id": "C", "text": "The encomienda" },
-        { "id": "D", "text": "Janissaries" }
+        {
+          "id": "A",
+          "text": "Indentured laborers from India and China"
+        },
+        {
+          "id": "B",
+          "text": "Serfs from Russia"
+        },
+        {
+          "id": "C",
+          "text": "The encomienda"
+        },
+        {
+          "id": "D",
+          "text": "Janissaries"
+        }
       ],
       "answer": "A",
       "explanation": "Indentured workers were recruited for plantations in the Caribbean, Africa, and the Pacific.",
       "distractors": {}
     },
     {
-      "id": "u6-q05", "tier": "Exam level", "type": "mcq", "topic": "6.2 State Expansion",
+      "id": "u6-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.2 State Expansion",
       "stem": "Which change in British rule over India followed the Indian Rebellion of 1857?",
       "choices": [
-        { "id": "A", "text": "The British Crown replaced the East India Company and ruled India directly." },
-        { "id": "B", "text": "Britain granted India independence." },
-        { "id": "C", "text": "The Mughal Empire was restored to full power." },
-        { "id": "D", "text": "India was transferred to France." }
+        {
+          "id": "A",
+          "text": "India was transferred to France."
+        },
+        {
+          "id": "B",
+          "text": "Britain granted India independence."
+        },
+        {
+          "id": "C",
+          "text": "The Mughal Empire was restored to full power."
+        },
+        {
+          "id": "D",
+          "text": "The British Crown replaced the East India Company and ruled India directly."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The British Raj began in 1858.",
-      "distractors": { "C": "The last Mughal emperor was exiled." }
+      "distractors": {
+        "C": "The last Mughal emperor was exiled."
+      }
     },
     {
-      "id": "u6-q06", "tier": "Exam level", "type": "mcq", "topic": "6.3 Indigenous Responses to State Expansion",
+      "id": "u6-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.3 Indigenous Responses to State Expansion",
       "stimulus": "In 1896, Ethiopian forces under Emperor Menelik II, armed with modern rifles, defeated an invading Italian army at Adwa.",
       "stem": "The battle's significance is best described as",
       "choices": [
-        { "id": "A", "text": "preserving Ethiopian independence during the Scramble for Africa" },
-        { "id": "B", "text": "beginning Italian colonization of East Africa" },
-        { "id": "C", "text": "ending the Berlin Conference" },
-        { "id": "D", "text": "leading to British rule in Ethiopia" }
+        {
+          "id": "A",
+          "text": "beginning Italian colonization of East Africa"
+        },
+        {
+          "id": "B",
+          "text": "preserving Ethiopian independence during the Scramble for Africa"
+        },
+        {
+          "id": "C",
+          "text": "ending the Berlin Conference"
+        },
+        {
+          "id": "D",
+          "text": "leading to British rule in Ethiopia"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Ethiopia remained one of only two independent African states by 1914.",
       "distractors": {}
     },
     {
-      "id": "u6-q07", "tier": "Exam level", "type": "mcq", "topic": "6.4 Global Economic Development",
+      "id": "u6-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.4 Global Economic Development",
       "stem": "Which statement best describes the economic role of many colonies in the late 1800s?",
       "choices": [
-        { "id": "A", "text": "They supplied raw materials and cash crops to industrial nations and bought manufactured goods." },
-        { "id": "B", "text": "They became major industrial manufacturers." },
-        { "id": "C", "text": "They traded only with each other." },
-        { "id": "D", "text": "They controlled the economies of European states." }
+        {
+          "id": "A",
+          "text": "They supplied raw materials and cash crops to industrial nations and bought manufactured goods."
+        },
+        {
+          "id": "B",
+          "text": "They became major industrial manufacturers."
+        },
+        {
+          "id": "C",
+          "text": "They traded only with each other."
+        },
+        {
+          "id": "D",
+          "text": "They controlled the economies of European states."
+        }
       ],
       "answer": "A",
       "explanation": "Colonial economies were organized to serve industrial centers.",
       "distractors": {}
     },
     {
-      "id": "u6-q08", "tier": "Exam level", "type": "mcq", "topic": "6.3 Indigenous Responses",
+      "id": "u6-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.3 Indigenous Responses",
       "stimulus": "In 1856–1857, many Xhosa people in southern Africa killed their cattle and destroyed crops after a prophecy promised that doing so would cause their ancestors to return and drive out the British.",
       "stem": "This movement is best described as",
       "choices": [
-        { "id": "A", "text": "a religious, millenarian response to colonial pressure" },
-        { "id": "B", "text": "an industrial labor strike" },
-        { "id": "C", "text": "a nationalist revolution inspired by the Enlightenment" },
-        { "id": "D", "text": "an agricultural reform to increase exports" }
+        {
+          "id": "A",
+          "text": "an industrial labor strike"
+        },
+        {
+          "id": "B",
+          "text": "a religious, millenarian response to colonial pressure"
+        },
+        {
+          "id": "C",
+          "text": "a nationalist revolution inspired by the Enlightenment"
+        },
+        {
+          "id": "D",
+          "text": "an agricultural reform to increase exports"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The Xhosa Cattle-Killing, like the Ghost Dance, sought supernatural deliverance from colonizers; it caused famine.",
       "distractors": {}
     },
     {
-      "id": "u6-q09", "tier": "Exam level", "type": "mcq", "topic": "6.7 Effects of Migration",
+      "id": "u6-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.7 Effects of Migration",
       "stem": "The U.S. Chinese Exclusion Act of 1882 best illustrates",
       "choices": [
-        { "id": "A", "text": "discrimination and restrictions faced by migrants in receiving societies" },
-        { "id": "B", "text": "efforts to attract Chinese laborers" },
-        { "id": "C", "text": "the Opium Wars" },
-        { "id": "D", "text": "the end of indentured servitude" }
+        {
+          "id": "A",
+          "text": "the end of indentured servitude"
+        },
+        {
+          "id": "B",
+          "text": "efforts to attract Chinese laborers"
+        },
+        {
+          "id": "C",
+          "text": "the Opium Wars"
+        },
+        {
+          "id": "D",
+          "text": "discrimination and restrictions faced by migrants in receiving societies"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Nativist pressure led to banning Chinese laborers' immigration.",
       "distractors": {}
     },
     {
-      "id": "u6-q10", "tier": "Exam level", "type": "mcq", "topic": "6.2 State Expansion (technology)",
+      "id": "u6-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "6.2 State Expansion (technology)",
       "stem": "Which innovation most directly enabled Europeans to penetrate the interior of tropical Africa in the late 1800s?",
       "choices": [
-        { "id": "A", "text": "Quinine to prevent malaria" },
-        { "id": "B", "text": "The astrolabe" },
-        { "id": "C", "text": "The caravel" },
-        { "id": "D", "text": "The printing press" }
+        {
+          "id": "A",
+          "text": "The caravel"
+        },
+        {
+          "id": "B",
+          "text": "The astrolabe"
+        },
+        {
+          "id": "C",
+          "text": "Quinine to prevent malaria"
+        },
+        {
+          "id": "D",
+          "text": "The printing press"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Quinine reduced malaria deaths, which had kept Europeans mostly on coasts.",
       "distractors": {}
     },
     {
-      "id": "u6-q11", "tier": "Hardest", "type": "mcq", "topic": "6.5 Economic Imperialism",
+      "id": "u6-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.5 Economic Imperialism",
       "stem": "Which example best illustrates economic imperialism without formal colonization?",
       "choices": [
-        { "id": "A", "text": "British and American investors dominating Latin American railroads and export industries" },
-        { "id": "B", "text": "The British Raj in India" },
-        { "id": "C", "text": "French rule in Algeria" },
-        { "id": "D", "text": "Belgian rule in the Congo" }
+        {
+          "id": "A",
+          "text": "French rule in Algeria"
+        },
+        {
+          "id": "B",
+          "text": "The British Raj in India"
+        },
+        {
+          "id": "C",
+          "text": "British and American investors dominating Latin American railroads and export industries"
+        },
+        {
+          "id": "D",
+          "text": "Belgian rule in the Congo"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Latin American states remained independent but economically dependent on foreign capital.",
-      "distractors": { "B": "Formal colonial rule." }
+      "distractors": {
+        "B": "Formal colonial rule."
+      }
     },
     {
-      "id": "u6-q12", "tier": "Hardest", "type": "mcq", "topic": "6.3 Indigenous Responses (comparison)",
+      "id": "u6-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.3 Indigenous Responses (comparison)",
       "stem": "Which statement best compares the Boxer Rebellion and the Indian Rebellion of 1857?",
       "choices": [
-        { "id": "A", "text": "Both were uprisings against foreign influence that were suppressed and led to greater foreign control or concessions." },
-        { "id": "B", "text": "Both succeeded in expelling all foreigners." },
-        { "id": "C", "text": "Both were led by European settlers." },
-        { "id": "D", "text": "Both caused the immediate independence of their countries." }
+        {
+          "id": "A",
+          "text": "Both succeeded in expelling all foreigners."
+        },
+        {
+          "id": "B",
+          "text": "Both were uprisings against foreign influence that were suppressed and led to greater foreign control or concessions."
+        },
+        {
+          "id": "C",
+          "text": "Both were led by European settlers."
+        },
+        {
+          "id": "D",
+          "text": "Both caused the immediate independence of their countries."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The 1857 rebellion led to direct British rule; the Boxer defeat brought indemnities and more foreign troops in China.",
       "distractors": {}
     },
     {
-      "id": "u6-q13", "tier": "Hardest", "type": "mcq", "topic": "6.4 Global Economic Development",
+      "id": "u6-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.4 Global Economic Development",
       "stem": "Under King Leopold II's personal control of the Congo Free State, millions of Congolese suffered violence and death. The primary economic motive was",
       "choices": [
-        { "id": "A", "text": "the extraction of rubber for industrial demand" },
-        { "id": "B", "text": "the export of manufactured textiles" },
-        { "id": "C", "text": "the cultivation of potatoes" },
-        { "id": "D", "text": "the silver trade with China" }
+        {
+          "id": "A",
+          "text": "the silver trade with China"
+        },
+        {
+          "id": "B",
+          "text": "the export of manufactured textiles"
+        },
+        {
+          "id": "C",
+          "text": "the cultivation of potatoes"
+        },
+        {
+          "id": "D",
+          "text": "the extraction of rubber for industrial demand"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Rubber for tires and industrial uses drove forced labor; international outcry led Belgium to take over in 1908.",
       "distractors": {}
     },
     {
-      "id": "u6-q14", "tier": "Hardest", "type": "mcq", "topic": "6.6 Causes of Migration",
+      "id": "u6-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "6.6 Causes of Migration",
       "stem": "Which combination of factors best explains large-scale migration from southern China in the 1800s?",
       "choices": [
-        { "id": "A", "text": "Population pressure and instability at home, combined with labor demand in Southeast Asia and the Americas" },
-        { "id": "B", "text": "The Columbian Exchange" },
-        { "id": "C", "text": "Industrial jobs in rural China" },
-        { "id": "D", "text": "A ban on emigration from Europe" }
+        {
+          "id": "A",
+          "text": "Population pressure and instability at home, combined with labor demand in Southeast Asia and the Americas"
+        },
+        {
+          "id": "B",
+          "text": "The Columbian Exchange"
+        },
+        {
+          "id": "C",
+          "text": "Industrial jobs in rural China"
+        },
+        {
+          "id": "D",
+          "text": "A ban on emigration from Europe"
+        }
       ],
       "answer": "A",
       "explanation": "Push factors (overpopulation, the Taiping Rebellion) and pull factors (mines, plantations, railroads) drove migration.",
       "distractors": {}
     },
     {
-      "id": "u6-frq1", "tier": "Exam level", "type": "frq", "topic": "Imperialism", "frqType": "LEQ",
+      "id": "u6-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Imperialism",
+      "frqType": "LEQ",
       "prompt": "Evaluate the extent to which industrialization was the main cause of imperial expansion in the period c. 1750–1900.",
       "points": 6,
       "minutes": 40,
       "rubric": [
-        { "criterion": "Thesis/claim", "points": 1, "description": "Makes a defensible claim about the extent to which industrialization caused imperialism." },
-        { "criterion": "Contextualization", "points": 1, "description": "Describes broader context, e.g., the earlier era of maritime empires, the Industrial Revolution, or nationalism and great-power rivalry." },
-        { "criterion": "Evidence", "points": 2, "description": "1 point for two specific pieces of evidence; 2 points for using them to support the argument." },
-        { "criterion": "Analysis and reasoning", "points": 2, "description": "1 point for causation reasoning; 2 points for complexity, e.g., weighing industrialization against nationalism, ideology, or strategic competition." }
+        {
+          "criterion": "Thesis/claim",
+          "points": 1,
+          "description": "Makes a defensible claim about the extent to which industrialization caused imperialism."
+        },
+        {
+          "criterion": "Contextualization",
+          "points": 1,
+          "description": "Describes broader context, e.g., the earlier era of maritime empires, the Industrial Revolution, or nationalism and great-power rivalry."
+        },
+        {
+          "criterion": "Evidence",
+          "points": 2,
+          "description": "1 point for two specific pieces of evidence; 2 points for using them to support the argument."
+        },
+        {
+          "criterion": "Analysis and reasoning",
+          "points": 2,
+          "description": "1 point for causation reasoning; 2 points for complexity, e.g., weighing industrialization against nationalism, ideology, or strategic competition."
+        }
       ],
       "sampleResponse": "Industrialization was the most important cause of imperial expansion between 1750 and 1900, because it created both the demand for raw materials and markets and the technological means to conquer, but nationalism and ideologies of racial superiority also shaped where and why empires expanded.\n\nContext: Europeans had built maritime empires since the 1500s, but in Africa and much of Asia they were mostly confined to coastal trading posts. The Industrial Revolution, beginning in Britain in the late 1700s, transformed the balance of power.\n\nIndustrial economies needed raw materials and markets. British textile mills needed cotton from India and Egypt, and the demand for rubber led to brutal forced labor in King Leopold II's Congo. Imperial powers turned colonies into export economies that supplied industry and absorbed manufactured goods.\n\nIndustrialization also provided the tools of conquest. Steamships carried troops up rivers, quinine protected Europeans from malaria, and machine guns gave small forces overwhelming advantages, allowing the rapid Scramble for Africa after the Berlin Conference.\n\nYet industrialization alone doesn't explain imperialism. Nationalist rivalry pushed states like Germany and Italy to seek colonies for prestige, sometimes in places with little economic value. Ideologies like Social Darwinism and the civilizing mission persuaded publics that empire was natural and even moral. And resistance, such as Ethiopia's victory at Adwa, shows that industrial technology didn't guarantee success.\n\nIndustrialization was the main cause because it supplied the motive and the means, but nationalism and ideology determined much of the intensity and shape of the late nineteenth-century scramble for empire."
     }

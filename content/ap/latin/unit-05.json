@@ -99,7 +99,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "vocative, addressing the Roman"
+          "text": "genitive"
         },
         {
           "id": "B",
@@ -107,14 +107,14 @@
         },
         {
           "id": "C",
-          "text": "genitive"
+          "text": "vocative, addressing the Roman"
         },
         {
           "id": "D",
           "text": "ablative"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Direct address.",
       "distractors": {}
     },
@@ -129,7 +129,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "a future imperative: remember"
+          "text": "a subjunctive of purpose"
         },
         {
           "id": "B",
@@ -141,10 +141,10 @@
         },
         {
           "id": "D",
-          "text": "a subjunctive of purpose"
+          "text": "a future imperative: remember"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "memini's imperative.",
       "distractors": {}
     },
@@ -189,11 +189,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "to spare the conquered and to war down the proud"
+          "text": "to be spared by the conquered and the proud"
         },
         {
           "id": "B",
-          "text": "to be spared by the conquered and the proud"
+          "text": "to spare the conquered and to war down the proud"
         },
         {
           "id": "C",
@@ -204,7 +204,7 @@
           "text": "to spare the proud and conquer the subjects"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "parcere takes the dative.",
       "distractors": {}
     },
@@ -219,7 +219,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Aeneas' killing of the suppliant Turnus can be read as violating the command to spare the conquered"
+          "text": "Anchises appears in Book 12 to repeat it"
         },
         {
           "id": "B",
@@ -231,10 +231,10 @@
         },
         {
           "id": "D",
-          "text": "Anchises appears in Book 12 to repeat it"
+          "text": "Aeneas' killing of the suppliant Turnus can be read as violating the command to spare the conquered"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The central interpretive tension.",
       "distractors": {}
     },
@@ -248,11 +248,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Her sister Anna"
+          "text": "Mercury"
         },
         {
           "id": "B",
-          "text": "Mercury"
+          "text": "Her sister Anna"
         },
         {
           "id": "C",
@@ -263,7 +263,7 @@
           "text": "Iarbas"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Anna's speech.",
       "distractors": {}
     },
@@ -277,7 +277,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "remind him of his destiny in Italy and order him to leave Carthage"
+          "text": "punish Dido"
         },
         {
           "id": "B",
@@ -285,14 +285,14 @@
         },
         {
           "id": "C",
-          "text": "punish Dido"
+          "text": "remind him of his destiny in Italy and order him to leave Carthage"
         },
         {
           "id": "D",
           "text": "warn him about Turnus"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Duty over desire.",
       "distractors": {}
     },
@@ -335,7 +335,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "turns away in silence and returns to Sychaeus"
+          "text": "follows him to Elysium"
         },
         {
           "id": "B",
@@ -347,10 +347,10 @@
         },
         {
           "id": "D",
-          "text": "follows him to Elysium"
+          "text": "turns away in silence and returns to Sychaeus"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Silent rejection.",
       "distractors": {}
     },
@@ -393,11 +393,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Iulus wounds Silvia's pet stag"
+          "text": "Aeneas insults Latinus"
         },
         {
           "id": "B",
-          "text": "Aeneas insults Latinus"
+          "text": "Iulus wounds Silvia's pet stag"
         },
         {
           "id": "C",
@@ -408,7 +408,7 @@
           "text": "Camilla attacks the Trojan camp"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The stag incident.",
       "distractors": {}
     },
@@ -422,7 +422,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "a Volscian warrior maiden devoted to Diana"
+          "text": "a Trojan prophetess"
         },
         {
           "id": "B",
@@ -430,14 +430,14 @@
         },
         {
           "id": "C",
-          "text": "a Trojan prophetess"
+          "text": "a Volscian warrior maiden devoted to Diana"
         },
         {
           "id": "D",
           "text": "Latinus' queen"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Book 11.",
       "distractors": {}
     },
@@ -451,7 +451,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Seeing the sword belt of Pallas on Turnus' shoulder"
+          "text": "Lavinia's plea"
         },
         {
           "id": "B",
@@ -463,10 +463,10 @@
         },
         {
           "id": "D",
-          "text": "Lavinia's plea"
+          "text": "Seeing the sword belt of Pallas on Turnus' shoulder"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The balteus.",
       "distractors": {}
     },
@@ -480,11 +480,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Turnus' life fleeing with a groan, resentful, to the shades"
+          "text": "the founding of Rome"
         },
         {
           "id": "B",
-          "text": "the founding of Rome"
+          "text": "Turnus' life fleeing with a groan, resentful, to the shades"
         },
         {
           "id": "C",
@@ -495,7 +495,7 @@
           "text": "Juno's reconciliation speech"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "vitaque cum gemitu fugit indignata sub umbras.",
       "distractors": {}
     },

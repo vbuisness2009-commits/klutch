@@ -191,11 +191,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "The president could veto any law passed by Congress."
+          "text": "Congress could not levy taxes directly on citizens."
         },
         {
           "id": "B",
-          "text": "Congress could not levy taxes directly on citizens."
+          "text": "The president could veto any law passed by Congress."
         },
         {
           "id": "C",
@@ -206,12 +206,12 @@
           "text": "Large states dominated Congress because representation was based on population."
         }
       ],
-      "answer": "B",
+      "answer": "A",
       "explanation": "Under the Articles, Congress could only request money from the states, leaving it chronically unable to pay debts or fund an army.",
       "distractors": {
-        "A": "There was no executive under the Articles.",
         "C": "There was no national judiciary.",
-        "D": "Each state had one vote regardless of population."
+        "D": "Each state had one vote regardless of population.",
+        "B": "There was no executive under the Articles."
       }
     },
     {
@@ -223,11 +223,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "concurrent powers"
+          "text": "reserved powers"
         },
         {
           "id": "B",
-          "text": "reserved powers"
+          "text": "concurrent powers"
         },
         {
           "id": "C",
@@ -238,12 +238,12 @@
           "text": "implied powers"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Powers shared by both levels of government are concurrent powers.",
       "distractors": {
-        "B": "Reserved powers belong to the states alone under the Tenth Amendment.",
         "C": "Taxing is enumerated for Congress, but the question stresses that both levels share it.",
-        "D": "Implied powers come from the Necessary and Proper Clause."
+        "D": "Implied powers come from the Necessary and Proper Clause.",
+        "A": "Reserved powers belong to the states alone under the Tenth Amendment."
       }
     },
     {
@@ -293,23 +293,23 @@
         },
         {
           "id": "B",
-          "text": "The national government should restrict the formation of political groups to prevent majority tyranny."
+          "text": "A large republic makes it harder for any one faction to form an oppressive majority."
         },
         {
           "id": "C",
-          "text": "A large republic makes it harder for any one faction to form an oppressive majority."
+          "text": "The national government should restrict the formation of political groups to prevent majority tyranny."
         },
         {
           "id": "D",
           "text": "States should retain most governing power because they better reflect local interests."
         }
       ],
-      "answer": "C",
+      "answer": "B",
       "explanation": "Madison argues that extending the sphere brings in more interests, so it is less likely that a single majority faction can oppress others.",
       "distractors": {
         "A": "This is Brutus No. 1's Anti-Federalist position.",
-        "B": "Madison rejects removing the causes of faction because that would destroy liberty.",
-        "D": "This is an Anti-Federalist argument for state power."
+        "D": "This is an Anti-Federalist argument for state power.",
+        "C": "Madison rejects removing the causes of faction because that would destroy liberty."
       }
     },
     {
@@ -325,7 +325,7 @@
         },
         {
           "id": "B",
-          "text": "The Senate rejects a president's nominee to the Supreme Court."
+          "text": "An interest group files an amicus brief in a federal case."
         },
         {
           "id": "C",
@@ -333,15 +333,15 @@
         },
         {
           "id": "D",
-          "text": "An interest group files an amicus brief in a federal case."
+          "text": "The Senate rejects a president's nominee to the Supreme Court."
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Federalist No. 51 argues each branch must have the means to resist the others. Senate rejection of a nominee is the legislature checking the executive.",
       "distractors": {
         "A": "This is state policymaking, not one branch checking another.",
         "C": "This is direct democracy at the state level.",
-        "D": "This is interest-group participation in the courts."
+        "B": "This is interest-group participation in the courts."
       }
     },
     {
@@ -353,7 +353,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "The Necessary and Proper Clause and the Supremacy Clause"
+          "text": "The Full Faith and Credit Clause and the Commerce Clause"
         },
         {
           "id": "B",
@@ -361,19 +361,19 @@
         },
         {
           "id": "C",
-          "text": "The Full Faith and Credit Clause and the Commerce Clause"
+          "text": "The Necessary and Proper Clause and the Supremacy Clause"
         },
         {
           "id": "D",
           "text": "The Equal Protection Clause and the Tenth Amendment"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Congress could create the bank under the Necessary and Proper Clause (implied powers), and the Supremacy Clause barred a state from taxing a legitimate federal institution.",
       "distractors": {
         "B": "The Tenth Amendment was Maryland's losing argument; commerce was not the basis.",
-        "C": "Full Faith and Credit concerns states honoring each other's records.",
-        "D": "Equal protection is Fourteenth Amendment civil rights doctrine, irrelevant here."
+        "D": "Equal protection is Fourteenth Amendment civil rights doctrine, irrelevant here.",
+        "A": "Full Faith and Credit concerns states honoring each other's records."
       }
     },
     {
@@ -385,7 +385,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Both decisions expanded the power of Congress under the Commerce Clause."
+          "text": "McCulloch expanded national power, while Lopez limited Congress's power to regulate activity that is not economic."
         },
         {
           "id": "B",
@@ -397,15 +397,15 @@
         },
         {
           "id": "D",
-          "text": "McCulloch expanded national power, while Lopez limited Congress's power to regulate activity that is not economic."
+          "text": "Both decisions expanded the power of Congress under the Commerce Clause."
         }
       ],
-      "answer": "D",
+      "answer": "A",
       "explanation": "McCulloch upheld implied powers and national supremacy; Lopez held that gun possession near a school is not economic activity substantially affecting interstate commerce, limiting Congress.",
       "distractors": {
-        "A": "McCulloch was not a Commerce Clause case, and Lopez limited the clause.",
         "B": "Reverses both holdings.",
-        "C": "Neither case endorsed state nullification; McCulloch rejected state interference."
+        "C": "Neither case endorsed state nullification; McCulloch rejected state interference.",
+        "D": "McCulloch was not a Commerce Clause case, and Lopez limited the clause."
       }
     },
     {
@@ -419,7 +419,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "State governments gained more control over how federal money was spent over the period."
+          "text": "The federal government's ability to shape state policy through conditions on grants likely increased."
         },
         {
           "id": "B",
@@ -427,19 +427,19 @@
         },
         {
           "id": "C",
-          "text": "The federal government's ability to shape state policy through conditions on grants likely increased."
+          "text": "State governments gained more control over how federal money was spent over the period."
         },
         {
           "id": "D",
           "text": "States received less federal money in Year 4 than in Year 1."
         }
       ],
-      "answer": "C",
+      "answer": "A",
       "explanation": "Total grants rose while the block-grant share fell, so a growing share (91% vs. 86%) came as categorical grants with conditions, increasing federal leverage.",
       "distractors": {
-        "A": "A shrinking block-grant share means less state discretion.",
         "B": "The table shows nothing about mandates, and block grants shrank.",
-        "D": "Grants rose from 600 to 790."
+        "D": "Grants rose from 600 to 790.",
+        "C": "A shrinking block-grant share means less state discretion."
       }
     },
     {
@@ -451,11 +451,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "The adoption of the Bill of Rights"
+          "text": "The creation of the Electoral College"
         },
         {
           "id": "B",
-          "text": "The creation of the Electoral College"
+          "text": "The adoption of the Bill of Rights"
         },
         {
           "id": "C",
@@ -466,12 +466,12 @@
           "text": "The establishment of judicial review"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Several states ratified only after Federalists promised amendments protecting individual liberties; the Bill of Rights was ratified in 1791.",
       "distractors": {
-        "B": "The Electoral College was a Convention compromise before the ratification debate.",
         "C": "Also a Convention compromise.",
-        "D": "Judicial review came from Marbury v. Madison (1803)."
+        "D": "Judicial review came from Marbury v. Madison (1803).",
+        "A": "The Electoral College was a Convention compromise before the ratification debate."
       }
     },
     {
@@ -489,7 +489,7 @@
         },
         {
           "id": "B",
-          "text": "The House is apportioned by population while the Senate gives each state equal representation."
+          "text": "The Necessary and Proper Clause allows Congress to exercise implied powers."
         },
         {
           "id": "C",
@@ -497,15 +497,15 @@
         },
         {
           "id": "D",
-          "text": "The Necessary and Proper Clause allows Congress to exercise implied powers."
+          "text": "The House is apportioned by population while the Senate gives each state equal representation."
         }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "Madison's point is that the House draws power from the people as a whole (national) while the Senate draws power from the states as equal political units (federal). The bicameral design is the mixed source of power.",
       "distractors": {
         "A": "The Supremacy Clause is purely a national feature and does not show a mix.",
         "C": "The veto concerns separation of powers between branches, not national vs. federal sources.",
-        "D": "Implied powers expand national power; they don't illustrate a federal component."
+        "B": "Implied powers expand national power; they don't illustrate a federal component."
       }
     },
     {
@@ -585,11 +585,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "The Declaration of Independence's assertion of equality and consent of the governed"
+          "text": "The Articles of Confederation's guarantee of state sovereignty"
         },
         {
           "id": "B",
-          "text": "The Articles of Confederation's guarantee of state sovereignty"
+          "text": "The Declaration of Independence's assertion of equality and consent of the governed"
         },
         {
           "id": "C",
@@ -600,12 +600,12 @@
           "text": "Federalist No. 78's defense of an independent judiciary"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Eighty-seven years before 1863 is 1776. Lincoln quotes the Declaration's 'all men are created equal' and restates popular sovereignty, framing the war as a test of those founding ideals.",
       "distractors": {
-        "B": "1781 is not 87 years earlier, and the Articles stress state sovereignty rather than equality.",
         "C": "The Three-Fifths Compromise contradicts the equality Lincoln invokes.",
-        "D": "Federalist No. 78 concerns courts and has no connection to the passage."
+        "D": "Federalist No. 78 concerns courts and has no connection to the passage.",
+        "A": "1781 is not 87 years earlier, and the Articles stress state sovereignty rather than equality."
       }
     },
     {

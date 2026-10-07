@@ -99,7 +99,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Por su aire seco, su altura y sus cielos despejados"
+          "text": "Porque llueve con frecuencia"
         },
         {
           "id": "B",
@@ -107,14 +107,14 @@
         },
         {
           "id": "C",
-          "text": "Porque llueve con frecuencia"
+          "text": "Por su aire seco, su altura y sus cielos despejados"
         },
         {
           "id": "D",
           "text": "Porque está cerca del mar"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated in the first paragraph.",
       "distractors": {}
     },
@@ -129,11 +129,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "la falta de lluvia"
+          "text": "la contaminación lumínica"
         },
         {
           "id": "B",
-          "text": "la contaminación lumínica"
+          "text": "la falta de lluvia"
         },
         {
           "id": "C",
@@ -144,7 +144,7 @@
           "text": "las minas"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Dryness hurts farming but helps observation.",
       "distractors": {}
     },
@@ -159,11 +159,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "La luz artificial de ciudades y minas"
+          "text": "La falta de científicos"
         },
         {
           "id": "B",
-          "text": "La falta de científicos"
+          "text": "La luz artificial de ciudades y minas"
         },
         {
           "id": "C",
@@ -174,7 +174,7 @@
           "text": "El exceso de turistas"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Light pollution.",
       "distractors": {}
     },
@@ -189,7 +189,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "protege los cielos oscuros y beneficia la economía local"
+          "text": "está prohibido en Chile"
         },
         {
           "id": "B",
@@ -201,10 +201,10 @@
         },
         {
           "id": "D",
-          "text": "está prohibido en Chile"
+          "text": "protege los cielos oscuros y beneficia la economía local"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "It attracts visitors to dark skies and creates jobs.",
       "distractors": {}
     },
@@ -219,7 +219,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Una neblina densa que cubre los cerros de la costa"
+          "text": "Una cerveza artesanal"
         },
         {
           "id": "B",
@@ -227,14 +227,14 @@
         },
         {
           "id": "C",
-          "text": "Una cerveza artesanal"
+          "text": "Una neblina densa que cubre los cerros de la costa"
         },
         {
           "id": "D",
           "text": "Un canal de riego"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Defined by the narrator.",
       "distractors": {}
     },
@@ -279,7 +279,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Para regar huertos y producir cerveza artesanal"
+          "text": "Para limpiar las minas"
         },
         {
           "id": "B",
@@ -291,10 +291,10 @@
         },
         {
           "id": "D",
-          "text": "Para limpiar las minas"
+          "text": "Para regar huertos y producir cerveza artesanal"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Narrator's examples.",
       "distractors": {}
     },
@@ -372,11 +372,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "El grupo de 30–49 años usa más horas de pantalla para estudio o trabajo que para ocio"
+          "text": "Los mayores de 50 años pasan más tiempo total frente a una pantalla"
         },
         {
           "id": "B",
-          "text": "Los mayores de 50 años pasan más tiempo total frente a una pantalla"
+          "text": "El grupo de 30–49 años usa más horas de pantalla para estudio o trabajo que para ocio"
         },
         {
           "id": "C",
@@ -387,7 +387,7 @@
           "text": "Los jóvenes de 13–17 años estudian 5 horas frente a la pantalla"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "5,5 h vs 2,5 h.",
       "distractors": {}
     },
@@ -402,7 +402,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "18–29 y 30–49 años"
+          "text": "13–17 y 50 años o más"
         },
         {
           "id": "B",
@@ -410,14 +410,14 @@
         },
         {
           "id": "C",
-          "text": "13–17 y 50 años o más"
+          "text": "18–29 y 30–49 años"
         },
         {
           "id": "D",
           "text": "30–49 y 50 años o más"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Both total 8,0 h.",
       "distractors": {}
     },
@@ -432,11 +432,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Que las pantallas causan problemas de sueño en los adolescentes"
+          "text": "Que los adolescentes dedican más tiempo al ocio que al estudio frente a la pantalla"
         },
         {
           "id": "B",
-          "text": "Que los adolescentes dedican más tiempo al ocio que al estudio frente a la pantalla"
+          "text": "Que las pantallas causan problemas de sueño en los adolescentes"
         },
         {
           "id": "C",
@@ -447,7 +447,7 @@
           "text": "Que el tiempo de estudio/trabajo es mayor en el grupo de 30–49 años"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The chart shows hours, not health effects.",
       "distractors": {}
     },
@@ -461,7 +461,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "emitan"
+          "text": "emitirán"
         },
         {
           "id": "B",
@@ -469,14 +469,14 @@
         },
         {
           "id": "C",
-          "text": "emitirán"
+          "text": "emitan"
         },
         {
           "id": "D",
           "text": "emitieron"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Para que + present subjunctive.",
       "distractors": {}
     },
@@ -491,7 +491,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Ambos muestran cómo las condiciones del desierto se aprovechan con tecnología"
+          "text": "Ambos critican la ciencia"
         },
         {
           "id": "B",
@@ -503,10 +503,10 @@
         },
         {
           "id": "D",
-          "text": "Ambos critican la ciencia"
+          "text": "Ambos muestran cómo las condiciones del desierto se aprovechan con tecnología"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Both adapt to desert conditions.",
       "distractors": {}
     },

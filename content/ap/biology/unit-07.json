@@ -130,7 +130,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "phenotype"
+          "text": "acquired characteristics"
         },
         {
           "id": "B",
@@ -142,14 +142,14 @@
         },
         {
           "id": "D",
-          "text": "acquired characteristics"
+          "text": "phenotype"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The environment interacts with traits that are expressed; genotypes change in frequency as a consequence.",
       "distractors": {
         "B": "Unexpressed alleles (like recessive alleles in carriers) are invisible to selection.",
-        "D": "Acquired traits aren't inherited."
+        "A": "Acquired traits aren't inherited."
       }
     },
     {
@@ -161,11 +161,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "homologous structures, evidence of common ancestry"
+          "text": "analogous structures, evidence of convergent evolution"
         },
         {
           "id": "B",
-          "text": "analogous structures, evidence of convergent evolution"
+          "text": "homologous structures, evidence of common ancestry"
         },
         {
           "id": "C",
@@ -176,10 +176,10 @@
           "text": "structures produced by artificial selection"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Same underlying structure inherited from a shared ancestor, modified for different uses.",
       "distractors": {
-        "B": "Analogous structures have similar functions but different origins."
+        "A": "Analogous structures have similar functions but different origins."
       }
     },
     {
@@ -223,7 +223,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "the bottleneck effect"
+          "text": "stabilizing selection"
         },
         {
           "id": "B",
@@ -231,14 +231,14 @@
         },
         {
           "id": "C",
-          "text": "stabilizing selection"
+          "text": "the bottleneck effect"
         },
         {
           "id": "D",
           "text": "sympatric speciation"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "A drastic reduction in size randomly eliminated most alleles; the recovered population descends from the few survivors.",
       "distractors": {
         "B": "Gene flow would add variation from other populations."
@@ -286,7 +286,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Lizard and mouse"
+          "text": "Lamprey and shark"
         },
         {
           "id": "B",
@@ -298,10 +298,10 @@
         },
         {
           "id": "D",
-          "text": "Lamprey and shark"
+          "text": "Lizard and mouse"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Lizard and mouse share the most derived traits, including the amniotic egg, so they share the most recent common ancestor.",
       "distractors": {
         "B": "Frog and lizard share three derived traits; lizard and mouse share four, including the amniotic egg."
@@ -316,7 +316,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Resistant bacteria were already present by random mutation, and they survived and reproduced while susceptible bacteria died."
+          "text": "Individual bacteria gradually built up tolerance and passed it on."
         },
         {
           "id": "B",
@@ -324,18 +324,18 @@
         },
         {
           "id": "C",
-          "text": "Individual bacteria gradually built up tolerance and passed it on."
+          "text": "Resistant bacteria were already present by random mutation, and they survived and reproduced while susceptible bacteria died."
         },
         {
           "id": "D",
           "text": "Bacteria chose to become resistant because they needed to survive."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Mutation is random with respect to need; the antibiotic is the selective pressure that changed allele frequencies.",
       "distractors": {
         "B": "Selective agents don't direct mutations.",
-        "C": "Describes inheritance of acquired characteristics."
+        "A": "Describes inheritance of acquired characteristics."
       }
     },
     {
@@ -347,11 +347,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "temporal isolation, a prezygotic barrier"
+          "text": "habitat isolation, a prezygotic barrier"
         },
         {
           "id": "B",
-          "text": "habitat isolation, a prezygotic barrier"
+          "text": "temporal isolation, a prezygotic barrier"
         },
         {
           "id": "C",
@@ -362,11 +362,11 @@
           "text": "geographic isolation leading to allopatric speciation"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Different breeding times prevent mating, so no zygote forms.",
       "distractors": {
-        "B": "They share the same habitat.",
-        "D": "They live in the same pond, so there's no geographic barrier."
+        "D": "They live in the same pond, so there's no geographic barrier.",
+        "A": "They share the same habitat."
       }
     },
     {
@@ -378,11 +378,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "directional selection"
+          "text": "stabilizing selection"
         },
         {
           "id": "B",
-          "text": "stabilizing selection"
+          "text": "directional selection"
         },
         {
           "id": "C",
@@ -393,7 +393,7 @@
           "text": "genetic drift"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Predation favored one extreme (dark), shifting the population's phenotype distribution.",
       "distractors": {
         "D": "The change had a consistent environmental cause (visibility to predators), not random chance."
@@ -440,7 +440,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "About 0.29"
+          "text": "0.16"
         },
         {
           "id": "B",
@@ -452,15 +452,15 @@
         },
         {
           "id": "D",
-          "text": "0.16"
+          "text": "About 0.29"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Survivors: 360 AA + 480 Aa = 840 individuals, 1,680 alleles. Only Aa carry a: 480 alleles. 480/1,680 ≈ 0.29.",
       "distractors": {
         "B": "That's q before selection.",
         "C": "Divided by the original 2,000 alleles, ignoring that aa individuals were removed.",
-        "D": "That's q² before selection."
+        "A": "That's q² before selection."
       }
     },
     {
@@ -472,7 +472,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "reduce variation in birth weight while keeping the mean about the same"
+          "text": "produce two distinct birth weight peaks"
         },
         {
           "id": "B",
@@ -480,18 +480,18 @@
         },
         {
           "id": "C",
-          "text": "produce two distinct birth weight peaks"
+          "text": "reduce variation in birth weight while keeping the mean about the same"
         },
         {
           "id": "D",
           "text": "increase variation in birth weight"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stabilizing selection removes both extremes, narrowing the distribution around the existing mean.",
       "distractors": {
         "B": "Directional selection would shift the mean.",
-        "C": "Disruptive selection would split the distribution."
+        "A": "Disruptive selection would split the distribution."
       }
     },
     {
@@ -503,7 +503,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Crosses between them produce triploid offspring that are sterile."
+          "text": "The two populations are separated geographically."
         },
         {
           "id": "B",
@@ -511,18 +511,18 @@
         },
         {
           "id": "C",
-          "text": "The two populations are separated geographically."
+          "text": "Crosses between them produce triploid offspring that are sterile."
         },
         {
           "id": "D",
           "text": "The tetraploid's pollen is a different color."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Diploid gametes (2n) from the tetraploid fuse with haploid gametes (n), giving 3n offspring whose chromosomes can't pair evenly in meiosis. This postzygotic barrier isolates the tetraploid instantly.",
       "distractors": {
         "B": "Tetraploids can self-fertilize or mate with other tetraploids.",
-        "C": "Polyploid speciation is sympatric."
+        "A": "Polyploid speciation is sympatric."
       }
     },
     {
@@ -534,11 +534,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Some RNA molecules can store genetic information and catalyze chemical reactions."
+          "text": "RNA uses uracil instead of thymine."
         },
         {
           "id": "B",
-          "text": "RNA uses uracil instead of thymine."
+          "text": "Some RNA molecules can store genetic information and catalyze chemical reactions."
         },
         {
           "id": "C",
@@ -549,7 +549,7 @@
           "text": "Proteins are made of 20 amino acids."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "A molecule that can both carry information and act as an enzyme could self-replicate without DNA or proteins.",
       "distractors": {
         "C": "True, but it explains why DNA later took over storage, not why RNA came first."

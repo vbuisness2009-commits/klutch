@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "D F♯ A"
+          "text": "G B D"
         },
         {
           "id": "B",
@@ -106,14 +106,14 @@
         },
         {
           "id": "C",
-          "text": "G B D"
+          "text": "D F♯ A"
         },
         {
           "id": "D",
           "text": "A C♯ E"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Dominant of G.",
       "distractors": {}
     },
@@ -127,11 +127,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "accidentals not in the key signature"
+          "text": "their position in the measure"
         },
         {
           "id": "B",
-          "text": "their position in the measure"
+          "text": "accidentals not in the key signature"
         },
         {
           "id": "C",
@@ -142,7 +142,7 @@
           "text": "the key signature"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Chromatic notes.",
       "distractors": {}
     },
@@ -156,7 +156,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "G major"
+          "text": "B major"
         },
         {
           "id": "B",
@@ -168,10 +168,10 @@
         },
         {
           "id": "D",
-          "text": "B major"
+          "text": "G major"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "One accidental.",
       "distractors": {}
     },
@@ -243,7 +243,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "V7/IV"
+          "text": "V7/V"
         },
         {
           "id": "B",
@@ -251,14 +251,14 @@
         },
         {
           "id": "C",
-          "text": "V7/V"
+          "text": "V7/IV"
         },
         {
           "id": "D",
           "text": "IV7"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Dominant seventh of F.",
       "distractors": {}
     },
@@ -272,7 +272,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "vii°7/V"
+          "text": "ii°7"
         },
         {
           "id": "B",
@@ -284,10 +284,10 @@
         },
         {
           "id": "D",
-          "text": "ii°7"
+          "text": "vii°7/V"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Half step below G.",
       "distractors": {}
     },
@@ -301,11 +301,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "resolve up to G"
+          "text": "resolve down to F"
         },
         {
           "id": "B",
-          "text": "resolve down to F"
+          "text": "resolve up to G"
         },
         {
           "id": "C",
@@ -316,7 +316,7 @@
           "text": "leap to D"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Temporary leading tone.",
       "distractors": {}
     },
@@ -330,11 +330,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "vi in C and ii in G"
+          "text": "V in both keys"
         },
         {
           "id": "B",
-          "text": "V in both keys"
+          "text": "vi in C and ii in G"
         },
         {
           "id": "C",
@@ -345,7 +345,7 @@
           "text": "iii in C and vi in G"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Diatonic in both.",
       "distractors": {}
     },
@@ -359,7 +359,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "A C♯ E"
+          "text": "A C E"
         },
         {
           "id": "B",
@@ -367,14 +367,14 @@
         },
         {
           "id": "C",
-          "text": "A C E"
+          "text": "A C♯ E"
         },
         {
           "id": "D",
           "text": "E G♯ B"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Dominant of D.",
       "distractors": {}
     },
@@ -388,7 +388,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "A diminished triad is unstable and cannot act as a temporary tonic"
+          "text": "vii° doesn't exist in major"
         },
         {
           "id": "B",
@@ -400,10 +400,10 @@
         },
         {
           "id": "D",
-          "text": "vii° doesn't exist in major"
+          "text": "A diminished triad is unstable and cannot act as a temporary tonic"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Only major/minor triads can be tonicized.",
       "distractors": {}
     },
@@ -446,7 +446,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "G B D"
+          "text": "C E G"
         },
         {
           "id": "B",
@@ -454,14 +454,14 @@
         },
         {
           "id": "C",
-          "text": "C E G"
+          "text": "G B D"
         },
         {
           "id": "D",
           "text": "D F♯ A"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "III = C major; its dominant is G.",
       "distractors": {}
     },
@@ -475,11 +475,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "A cadence in the new key"
+          "text": "A single accidental"
         },
         {
           "id": "B",
-          "text": "A single accidental"
+          "text": "A cadence in the new key"
         },
         {
           "id": "C",
@@ -490,7 +490,7 @@
           "text": "A secondary dominant"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Cadential confirmation.",
       "distractors": {}
     },

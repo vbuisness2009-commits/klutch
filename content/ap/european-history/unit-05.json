@@ -45,213 +45,479 @@
     "cramSheet": "**Causes:** debt · privilege · bread · Enlightenment\n\n**1789:** Estates-General · Tennis Court Oath · Bastille · Great Fear · Aug 4 · Rights of Man · women's march\n\n**1790–91:** Civil Constitution of the Clergy · Constitution of 1791\n\n**Radical:** war 1792 · republic · Louis XVI executed 1793 · Terror · Robespierre · levée en masse · Thermidor 1794 · Directory\n\n**Women:** de Gouges 1791 · clubs banned 1793 · **Haiti** 1804\n\n**Napoleon:** 1799 coup · Concordat 1801 · Code 1804 · Continental System · Russia 1812 · Waterloo 1815\n\n**Vienna:** Metternich · legitimacy · balance · Concert of Europe · **Burke** · Romanticism"
   },
   "vocab": [
-    { "term": "Estates-General", "definition": "France's representative assembly of the three estates, summoned in 1789 for the first time since 1614." },
-    { "term": "Tennis Court Oath", "definition": "The 1789 pledge by the National Assembly not to disband until France had a constitution." },
-    { "term": "Declaration of the Rights of Man and of the Citizen", "definition": "The 1789 statement of liberty, equality, and popular sovereignty." },
-    { "term": "Civil Constitution of the Clergy", "definition": "The 1790 law subordinating the French church to the state." },
-    { "term": "Committee of Public Safety", "definition": "The body led by Robespierre that directed the Reign of Terror." },
-    { "term": "Levée en masse", "definition": "Mass conscription of French citizens for national defense (1793)." },
-    { "term": "Thermidorian Reaction", "definition": "The 1794 overthrow of Robespierre and end of the Terror." },
-    { "term": "Napoleonic Code", "definition": "Napoleon's 1804 civil code establishing legal equality for men and protecting property, while limiting women's rights." },
-    { "term": "Concordat of 1801", "definition": "Napoleon's agreement with the pope restoring the Catholic Church's role in France." },
-    { "term": "Continental System", "definition": "Napoleon's blockade intended to cut off British trade with Europe." },
-    { "term": "Congress of Vienna", "definition": "The 1814–1815 meeting that redrew Europe and restored legitimate monarchies after Napoleon." },
-    { "term": "Concert of Europe", "definition": "The post-1815 cooperation among great powers to maintain the settlement." }
+    {
+      "term": "Estates-General",
+      "definition": "France's representative assembly of the three estates, summoned in 1789 for the first time since 1614."
+    },
+    {
+      "term": "Tennis Court Oath",
+      "definition": "The 1789 pledge by the National Assembly not to disband until France had a constitution."
+    },
+    {
+      "term": "Declaration of the Rights of Man and of the Citizen",
+      "definition": "The 1789 statement of liberty, equality, and popular sovereignty."
+    },
+    {
+      "term": "Civil Constitution of the Clergy",
+      "definition": "The 1790 law subordinating the French church to the state."
+    },
+    {
+      "term": "Committee of Public Safety",
+      "definition": "The body led by Robespierre that directed the Reign of Terror."
+    },
+    {
+      "term": "Levée en masse",
+      "definition": "Mass conscription of French citizens for national defense (1793)."
+    },
+    {
+      "term": "Thermidorian Reaction",
+      "definition": "The 1794 overthrow of Robespierre and end of the Terror."
+    },
+    {
+      "term": "Napoleonic Code",
+      "definition": "Napoleon's 1804 civil code establishing legal equality for men and protecting property, while limiting women's rights."
+    },
+    {
+      "term": "Concordat of 1801",
+      "definition": "Napoleon's agreement with the pope restoring the Catholic Church's role in France."
+    },
+    {
+      "term": "Continental System",
+      "definition": "Napoleon's blockade intended to cut off British trade with Europe."
+    },
+    {
+      "term": "Congress of Vienna",
+      "definition": "The 1814–1815 meeting that redrew Europe and restored legitimate monarchies after Napoleon."
+    },
+    {
+      "term": "Concert of Europe",
+      "definition": "The post-1815 cooperation among great powers to maintain the settlement."
+    }
   ],
   "practice": [
     {
-      "id": "u5-q01", "tier": "Intro", "type": "mcq", "topic": "Causes of the French Revolution",
+      "id": "u5-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Causes of the French Revolution",
       "stem": "Which factor most directly led Louis XVI to summon the Estates-General in 1789?",
       "choices": [
-        { "id": "A", "text": "A severe financial crisis caused by war debts and an inefficient tax system" },
-        { "id": "B", "text": "Napoleon's military defeat" },
-        { "id": "C", "text": "The Congress of Vienna" },
-        { "id": "D", "text": "The spread of industrial factories" }
+        {
+          "id": "A",
+          "text": "A severe financial crisis caused by war debts and an inefficient tax system"
+        },
+        {
+          "id": "B",
+          "text": "Napoleon's military defeat"
+        },
+        {
+          "id": "C",
+          "text": "The Congress of Vienna"
+        },
+        {
+          "id": "D",
+          "text": "The spread of industrial factories"
+        }
       ],
       "answer": "A",
       "explanation": "The crown needed new revenue and couldn't tax the privileged estates without consent.",
       "distractors": {}
     },
     {
-      "id": "u5-q02", "tier": "Intro", "type": "mcq", "topic": "Radical Phase",
+      "id": "u5-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Radical Phase",
       "stem": "The Reign of Terror (1793–1794) was directed primarily by",
       "choices": [
-        { "id": "A", "text": "the Committee of Public Safety under Robespierre" },
-        { "id": "B", "text": "Napoleon Bonaparte" },
-        { "id": "C", "text": "the Directory" },
-        { "id": "D", "text": "Louis XVI" }
+        {
+          "id": "A",
+          "text": "Louis XVI"
+        },
+        {
+          "id": "B",
+          "text": "Napoleon Bonaparte"
+        },
+        {
+          "id": "C",
+          "text": "the Directory"
+        },
+        {
+          "id": "D",
+          "text": "the Committee of Public Safety under Robespierre"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The Committee used executions to defend the republic against internal and external enemies.",
       "distractors": {}
     },
     {
-      "id": "u5-q03", "tier": "Intro", "type": "mcq", "topic": "Napoleon",
+      "id": "u5-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Napoleon",
       "stem": "The Napoleonic Code (1804) did which of the following?",
       "choices": [
-        { "id": "A", "text": "Established legal equality for men and protected property rights while limiting women's rights" },
-        { "id": "B", "text": "Granted women the right to vote" },
-        { "id": "C", "text": "Restored feudal privileges" },
-        { "id": "D", "text": "Abolished private property" }
+        {
+          "id": "A",
+          "text": "Granted women the right to vote"
+        },
+        {
+          "id": "B",
+          "text": "Established legal equality for men and protected property rights while limiting women's rights"
+        },
+        {
+          "id": "C",
+          "text": "Restored feudal privileges"
+        },
+        {
+          "id": "D",
+          "text": "Abolished private property"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "It preserved some revolutionary principles while reinforcing patriarchal authority.",
       "distractors": {}
     },
     {
-      "id": "u5-q04", "tier": "Intro", "type": "mcq", "topic": "Congress of Vienna",
+      "id": "u5-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Congress of Vienna",
       "stem": "A central principle of the Congress of Vienna was",
       "choices": [
-        { "id": "A", "text": "restoring legitimate monarchs and maintaining a balance of power" },
-        { "id": "B", "text": "spreading republicanism across Europe" },
-        { "id": "C", "text": "unifying Germany and Italy" },
-        { "id": "D", "text": "dismantling the Austrian Empire" }
+        {
+          "id": "A",
+          "text": "unifying Germany and Italy"
+        },
+        {
+          "id": "B",
+          "text": "spreading republicanism across Europe"
+        },
+        {
+          "id": "C",
+          "text": "restoring legitimate monarchs and maintaining a balance of power"
+        },
+        {
+          "id": "D",
+          "text": "dismantling the Austrian Empire"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Metternich and the allies sought stability through legitimacy and balance.",
       "distractors": {}
     },
     {
-      "id": "u5-q05", "tier": "Exam level", "type": "mcq", "topic": "Moderate Phase",
+      "id": "u5-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Moderate Phase",
       "stem": "The Civil Constitution of the Clergy (1790) is significant because it",
       "choices": [
-        { "id": "A", "text": "turned many devout Catholics, including clergy and peasants, against the Revolution" },
-        { "id": "B", "text": "restored the pope's authority in France" },
-        { "id": "C", "text": "ended the monarchy" },
-        { "id": "D", "text": "granted religious toleration to Protestants for the first time" }
+        {
+          "id": "A",
+          "text": "granted religious toleration to Protestants for the first time"
+        },
+        {
+          "id": "B",
+          "text": "restored the pope's authority in France"
+        },
+        {
+          "id": "C",
+          "text": "ended the monarchy"
+        },
+        {
+          "id": "D",
+          "text": "turned many devout Catholics, including clergy and peasants, against the Revolution"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Requiring clergy to swear loyalty to the state divided France and fueled counterrevolution.",
       "distractors": {}
     },
     {
-      "id": "u5-q06", "tier": "Exam level", "type": "mcq", "topic": "Radical Phase",
+      "id": "u5-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Radical Phase",
       "stem": "Which development most directly contributed to the radicalization of the French Revolution in 1792–1793?",
       "choices": [
-        { "id": "A", "text": "War with Austria and Prussia and fears of foreign invasion and royal treason" },
-        { "id": "B", "text": "The Concordat of 1801" },
-        { "id": "C", "text": "Napoleon's coronation" },
-        { "id": "D", "text": "The Congress of Vienna" }
+        {
+          "id": "A",
+          "text": "War with Austria and Prussia and fears of foreign invasion and royal treason"
+        },
+        {
+          "id": "B",
+          "text": "The Concordat of 1801"
+        },
+        {
+          "id": "C",
+          "text": "Napoleon's coronation"
+        },
+        {
+          "id": "D",
+          "text": "The Congress of Vienna"
+        }
       ],
       "answer": "A",
       "explanation": "War and the king's suspected collaboration led to the republic and the Terror.",
       "distractors": {}
     },
     {
-      "id": "u5-q07", "tier": "Exam level", "type": "mcq", "topic": "Women and the Revolution",
+      "id": "u5-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Women and the Revolution",
       "stem": "Olympe de Gouges's Declaration of the Rights of Woman (1791) is best understood as",
       "choices": [
-        { "id": "A", "text": "a demand that revolutionary principles of equality and rights be extended to women" },
-        { "id": "B", "text": "a defense of the monarchy's divine right" },
-        { "id": "C", "text": "a call for the restoration of the clergy's privileges" },
-        { "id": "D", "text": "a Napoleonic law code" }
+        {
+          "id": "A",
+          "text": "a call for the restoration of the clergy's privileges"
+        },
+        {
+          "id": "B",
+          "text": "a defense of the monarchy's divine right"
+        },
+        {
+          "id": "C",
+          "text": "a demand that revolutionary principles of equality and rights be extended to women"
+        },
+        {
+          "id": "D",
+          "text": "a Napoleonic law code"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "She modeled it on the 1789 Declaration to highlight women's exclusion.",
       "distractors": {}
     },
     {
-      "id": "u5-q08", "tier": "Exam level", "type": "mcq", "topic": "Napoleon",
+      "id": "u5-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Napoleon",
       "stem": "Napoleon's conquests had which unintended effect in occupied lands such as Spain and the German states?",
       "choices": [
-        { "id": "A", "text": "They stimulated nationalism that fueled resistance to French rule." },
-        { "id": "B", "text": "They ended all local identities." },
-        { "id": "C", "text": "They restored feudalism everywhere." },
-        { "id": "D", "text": "They unified Italy permanently." }
+        {
+          "id": "A",
+          "text": "They ended all local identities."
+        },
+        {
+          "id": "B",
+          "text": "They stimulated nationalism that fueled resistance to French rule."
+        },
+        {
+          "id": "C",
+          "text": "They restored feudalism everywhere."
+        },
+        {
+          "id": "D",
+          "text": "They unified Italy permanently."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Occupation provoked national pride and uprisings, as in the Peninsular War.",
       "distractors": {}
     },
     {
-      "id": "u5-q09", "tier": "Exam level", "type": "mcq", "topic": "Atlantic Revolutions",
+      "id": "u5-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Atlantic Revolutions",
       "stem": "The Haitian Revolution (1791–1804) is significant in the context of the French Revolution because it",
       "choices": [
-        { "id": "A", "text": "applied revolutionary ideals of liberty and equality to enslaved people, creating an independent state led by formerly enslaved people" },
-        { "id": "B", "text": "restored French plantation slavery permanently" },
-        { "id": "C", "text": "was led by French nobles" },
-        { "id": "D", "text": "had no connection to European events" }
+        {
+          "id": "A",
+          "text": "was led by French nobles"
+        },
+        {
+          "id": "B",
+          "text": "restored French plantation slavery permanently"
+        },
+        {
+          "id": "C",
+          "text": "applied revolutionary ideals of liberty and equality to enslaved people, creating an independent state led by formerly enslaved people"
+        },
+        {
+          "id": "D",
+          "text": "had no connection to European events"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "It showed the radical implications of revolutionary principles in the Atlantic world.",
       "distractors": {}
     },
     {
-      "id": "u5-q10", "tier": "Exam level", "type": "mcq", "topic": "Reactions to Revolution",
+      "id": "u5-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Reactions to Revolution",
       "stem": "Edmund Burke's Reflections on the Revolution in France (1790) argued primarily that",
       "choices": [
-        { "id": "A", "text": "abrupt change based on abstract reason threatened social order, which should evolve gradually through tradition" },
-        { "id": "B", "text": "the Revolution should spread to Britain" },
-        { "id": "C", "text": "monarchy should be abolished everywhere" },
-        { "id": "D", "text": "laissez-faire economics required revolution" }
+        {
+          "id": "A",
+          "text": "abrupt change based on abstract reason threatened social order, which should evolve gradually through tradition"
+        },
+        {
+          "id": "B",
+          "text": "the Revolution should spread to Britain"
+        },
+        {
+          "id": "C",
+          "text": "monarchy should be abolished everywhere"
+        },
+        {
+          "id": "D",
+          "text": "laissez-faire economics required revolution"
+        }
       ],
       "answer": "A",
       "explanation": "Burke became a founding voice of modern conservatism.",
       "distractors": {}
     },
     {
-      "id": "u5-q11", "tier": "Hardest", "type": "mcq", "topic": "Napoleon",
+      "id": "u5-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Napoleon",
       "stem": "Which pair best represents Napoleon's mixed relationship with revolutionary ideals?",
       "choices": [
-        { "id": "A", "text": "Careers open to talent and legal equality for men, alongside censorship and authoritarian rule" },
-        { "id": "B", "text": "Restoring feudalism and abolishing the Code" },
-        { "id": "C", "text": "Granting universal suffrage and dissolving the army" },
-        { "id": "D", "text": "Expelling the Catholic Church and establishing a republic" }
+        {
+          "id": "A",
+          "text": "Expelling the Catholic Church and establishing a republic"
+        },
+        {
+          "id": "B",
+          "text": "Restoring feudalism and abolishing the Code"
+        },
+        {
+          "id": "C",
+          "text": "Granting universal suffrage and dissolving the army"
+        },
+        {
+          "id": "D",
+          "text": "Careers open to talent and legal equality for men, alongside censorship and authoritarian rule"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "He consolidated some gains while dismantling political liberty.",
       "distractors": {}
     },
     {
-      "id": "u5-q12", "tier": "Hardest", "type": "mcq", "topic": "Radical Phase",
+      "id": "u5-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Radical Phase",
       "stem": "Historians who emphasize the Terror's defensive purpose would most likely cite",
       "choices": [
-        { "id": "A", "text": "foreign invasion, the revolt in the Vendée, and economic crisis that threatened the republic's survival in 1793" },
-        { "id": "B", "text": "the Concordat of 1801" },
-        { "id": "C", "text": "the Congress of Vienna" },
-        { "id": "D", "text": "the Tennis Court Oath" }
+        {
+          "id": "A",
+          "text": "the Concordat of 1801"
+        },
+        {
+          "id": "B",
+          "text": "foreign invasion, the revolt in the Vendée, and economic crisis that threatened the republic's survival in 1793"
+        },
+        {
+          "id": "C",
+          "text": "the Congress of Vienna"
+        },
+        {
+          "id": "D",
+          "text": "the Tennis Court Oath"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The emergency context helps explain (though not excuse) extreme measures.",
       "distractors": {}
     },
     {
-      "id": "u5-q13", "tier": "Hardest", "type": "mcq", "topic": "Congress of Vienna",
+      "id": "u5-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Congress of Vienna",
       "stem": "Which outcome best shows the Congress of Vienna's effort to contain France rather than punish it harshly?",
       "choices": [
-        { "id": "A", "text": "France was restored to roughly its 1790 borders under a restored Bourbon king and surrounded by strengthened neighboring states." },
-        { "id": "B", "text": "France was divided among the allies." },
-        { "id": "C", "text": "France was required to become a republic." },
-        { "id": "D", "text": "France gained the Rhineland." }
+        {
+          "id": "A",
+          "text": "France was restored to roughly its 1790 borders under a restored Bourbon king and surrounded by strengthened neighboring states."
+        },
+        {
+          "id": "B",
+          "text": "France was divided among the allies."
+        },
+        {
+          "id": "C",
+          "text": "France was required to become a republic."
+        },
+        {
+          "id": "D",
+          "text": "France gained the Rhineland."
+        }
       ],
       "answer": "A",
       "explanation": "A stable, contained France fit the balance-of-power goal.",
       "distractors": {}
     },
     {
-      "id": "u5-q14", "tier": "Hardest", "type": "mcq", "topic": "Moderate Phase",
+      "id": "u5-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Moderate Phase",
       "stem": "The abolition of feudal privileges on August 4, 1789, was most directly a response to",
       "choices": [
-        { "id": "A", "text": "peasant uprisings during the Great Fear" },
-        { "id": "B", "text": "Napoleon's demands" },
-        { "id": "C", "text": "the execution of Louis XVI" },
-        { "id": "D", "text": "the Continental System" }
+        {
+          "id": "A",
+          "text": "the execution of Louis XVI"
+        },
+        {
+          "id": "B",
+          "text": "Napoleon's demands"
+        },
+        {
+          "id": "C",
+          "text": "peasant uprisings during the Great Fear"
+        },
+        {
+          "id": "D",
+          "text": "the Continental System"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Rural violence pushed the Assembly to end seigneurial dues and privileges.",
       "distractors": {}
     },
     {
-      "id": "u5-frq1", "tier": "Exam level", "type": "frq", "topic": "Napoleon and the Revolution", "frqType": "Long essay question (LEQ)",
+      "id": "u5-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Napoleon and the Revolution",
+      "frqType": "Long essay question (LEQ)",
       "prompt": "Evaluate the extent to which Napoleon Bonaparte preserved the principles of the French Revolution in the period 1799–1815.",
       "parts": [],
       "points": 6,
       "minutes": 40,
       "rubric": [
-        { "criterion": "Thesis", "points": 1, "description": "Defensible claim about the extent of preservation, with a line of reasoning." },
-        { "criterion": "Contextualization", "points": 1, "description": "Describes the instability of the Directory, war, and revolutionary divisions that enabled Napoleon's rise." },
-        { "criterion": "Evidence", "points": 2, "description": "1: two specific examples (Napoleonic Code, Concordat, careers open to talent, censorship, plebiscites, empire 1804). 2: uses them to support the argument." },
-        { "criterion": "Analysis and reasoning", "points": 2, "description": "1: uses continuity and change. 2: complex understanding, e.g., distinguishing social/legal principles preserved from political liberties abandoned, or effects inside France vs. conquered lands." }
+        {
+          "criterion": "Thesis",
+          "points": 1,
+          "description": "Defensible claim about the extent of preservation, with a line of reasoning."
+        },
+        {
+          "criterion": "Contextualization",
+          "points": 1,
+          "description": "Describes the instability of the Directory, war, and revolutionary divisions that enabled Napoleon's rise."
+        },
+        {
+          "criterion": "Evidence",
+          "points": 2,
+          "description": "1: two specific examples (Napoleonic Code, Concordat, careers open to talent, censorship, plebiscites, empire 1804). 2: uses them to support the argument."
+        },
+        {
+          "criterion": "Analysis and reasoning",
+          "points": 2,
+          "description": "1: uses continuity and change. 2: complex understanding, e.g., distinguishing social/legal principles preserved from political liberties abandoned, or effects inside France vs. conquered lands."
+        }
       ],
       "sampleResponse": "Napoleon preserved the Revolution's social and legal principles, especially equality before the law and the end of feudal privilege, but he abandoned its political ideals of liberty and popular sovereignty, so he preserved the Revolution only to a limited extent.\n\nBy 1799, France was exhausted by a decade of upheaval. The Directory was corrupt and divided, faced royalist and radical threats, and depended on the army, which allowed Napoleon to seize power in a coup.\n\nNapoleon preserved key revolutionary changes. The Napoleonic Code (1804) guaranteed legal equality for men and the abolition of feudal dues, and protected property, locking in the gains of August 1789. He opened careers to talent, promoting officials and officers based on ability rather than birth. In conquered territories, his administrators abolished serfdom and seigneurial rights, spreading these principles.\n\nYet Napoleon reversed the Revolution's political ideals. He crowned himself emperor in 1804, ruled through censorship and secret police, and used plebiscites to give his rule a democratic appearance without real participation. The Code also restored men's authority over wives and restricted women's rights. Through the Concordat of 1801 he reconciled with the Catholic Church, though he kept church lands in the hands of those who had bought them.\n\nThus Napoleon preserved the Revolution's achievements in civil equality and administration while replacing popular sovereignty with personal, authoritarian rule."
     }

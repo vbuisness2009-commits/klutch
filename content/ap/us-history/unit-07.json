@@ -152,7 +152,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Nineteenth"
+          "text": "Fifteenth"
         },
         {
           "id": "B",
@@ -164,10 +164,10 @@
         },
         {
           "id": "D",
-          "text": "Fifteenth"
+          "text": "Nineteenth"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The suffrage movement's decades of activism, plus women's wartime contributions, helped win ratification.",
       "distractors": {
         "C": "The 18th established Prohibition."
@@ -182,7 +182,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "created federal old-age pensions and unemployment insurance"
+          "text": "regulated the stock market"
         },
         {
           "id": "B",
@@ -190,19 +190,19 @@
         },
         {
           "id": "C",
-          "text": "regulated the stock market"
+          "text": "created federal old-age pensions and unemployment insurance"
         },
         {
           "id": "D",
           "text": "paid farmers to reduce production"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "It established a lasting federal role in providing economic security.",
       "distractors": {
         "B": "That's the FDIC.",
-        "C": "That's the SEC.",
-        "D": "That's the AAA."
+        "D": "That's the AAA.",
+        "A": "That's the SEC."
       }
     },
     {
@@ -214,11 +214,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "the Japanese attack on Pearl Harbor"
+          "text": "the sinking of the Lusitania"
         },
         {
           "id": "B",
-          "text": "the sinking of the Lusitania"
+          "text": "the Japanese attack on Pearl Harbor"
         },
         {
           "id": "C",
@@ -229,11 +229,11 @@
           "text": "the Zimmermann Telegram"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Congress declared war on Japan on December 8, 1941; Germany declared war on the U.S. days later.",
       "distractors": {
-        "B": "That was in 1915, during WWI.",
-        "D": "That helped bring the U.S. into WWI."
+        "D": "That helped bring the U.S. into WWI.",
+        "A": "That was in 1915, during WWI."
       }
     },
     {
@@ -246,7 +246,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "protect American commercial access to Chinese markets"
+          "text": "end Chinese immigration to the United States"
         },
         {
           "id": "B",
@@ -254,14 +254,14 @@
         },
         {
           "id": "C",
-          "text": "end Chinese immigration to the United States"
+          "text": "protect American commercial access to Chinese markets"
         },
         {
           "id": "D",
           "text": "support the Boxer Rebellion against foreigners"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The U.S. lacked a sphere of influence and wanted to keep China open to American trade.",
       "distractors": {
         "B": "The policy opposed carving up China.",
@@ -277,7 +277,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Industrial jobs in Northern cities and the desire to escape Jim Crow and racial violence in the South"
+          "text": "A labor surplus in Northern factories"
         },
         {
           "id": "B",
@@ -289,13 +289,13 @@
         },
         {
           "id": "D",
-          "text": "A labor surplus in Northern factories"
+          "text": "Industrial jobs in Northern cities and the desire to escape Jim Crow and racial violence in the South"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "War production and the drop in European immigration created labor demand, while segregation, disfranchisement, and lynching pushed people out.",
       "distractors": {
-        "D": "There was a labor shortage."
+        "A": "There was a labor shortage."
       }
     },
     {
@@ -307,11 +307,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "feared membership in the League of Nations would commit the U.S. to future wars without congressional approval"
+          "text": "believed the treaty was too lenient toward Germany"
         },
         {
           "id": "B",
-          "text": "believed the treaty was too lenient toward Germany"
+          "text": "feared membership in the League of Nations would commit the U.S. to future wars without congressional approval"
         },
         {
           "id": "C",
@@ -322,10 +322,10 @@
           "text": "opposed ending the war"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Article X's collective security pledge alarmed reservationists and irreconcilables led by Henry Cabot Lodge.",
       "distractors": {
-        "B": "The Senate's objections focused on the League, not harshness toward Germany."
+        "A": "The Senate's objections focused on the League, not harshness toward Germany."
       }
     },
     {
@@ -367,11 +367,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "guaranteeing workers' right to organize and bargain collectively"
+          "text": "banning all strikes"
         },
         {
           "id": "B",
-          "text": "banning all strikes"
+          "text": "guaranteeing workers' right to organize and bargain collectively"
         },
         {
           "id": "C",
@@ -382,7 +382,7 @@
           "text": "using the Sherman Act against unions"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "It created the National Labor Relations Board to protect union organizing, and union membership surged.",
       "distractors": {
         "C": "The minimum wage came with the Fair Labor Standards Act (1938)."
@@ -427,7 +427,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Governing people without their consent contradicted the principles of the Declaration of Independence."
+          "text": "The United States should instead annex Cuba."
         },
         {
           "id": "B",
@@ -435,17 +435,17 @@
         },
         {
           "id": "C",
-          "text": "The United States should instead annex Cuba."
+          "text": "Governing people without their consent contradicted the principles of the Declaration of Independence."
         },
         {
           "id": "D",
           "text": "Imperialism would require too few soldiers."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Figures like Mark Twain and Jane Addams argued colonial rule betrayed American republicanism. Some also used racist arguments against incorporating nonwhite peoples, which adds complexity.",
       "distractors": {
-        "C": "The Teller Amendment had pledged not to annex Cuba."
+        "A": "The Teller Amendment had pledged not to annex Cuba."
       }
     },
     {
@@ -457,7 +457,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "the federal government restricting civil liberties in the name of national security during wartime"
+          "text": "the protection of labor unions' right to strike"
         },
         {
           "id": "B",
@@ -469,10 +469,10 @@
         },
         {
           "id": "D",
-          "text": "the protection of labor unions' right to strike"
+          "text": "the federal government restricting civil liberties in the name of national security during wartime"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The Court upheld Schenck's conviction for distributing antidraft leaflets, a pattern that recurs in later wartime restrictions.",
       "distractors": {
         "C": "It upheld the act."
@@ -487,7 +487,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Unequal income distribution limited consumer demand, overproduction left goods unsold, and widespread bank failures wiped out savings and credit."
+          "text": "New Deal programs discouraged private investment from 1929 to 1932."
         },
         {
           "id": "B",
@@ -495,18 +495,18 @@
         },
         {
           "id": "C",
-          "text": "New Deal programs discouraged private investment from 1929 to 1932."
+          "text": "Unequal income distribution limited consumer demand, overproduction left goods unsold, and widespread bank failures wiped out savings and credit."
         },
         {
           "id": "D",
           "text": "A shortage of factory workers reduced output."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Structural weaknesses turned a financial panic into a long collapse. Thousands of banks failed with no deposit insurance, shrinking the money supply.",
       "distractors": {
-        "C": "The New Deal began in 1933.",
-        "D": "Unemployment was the problem, not a labor shortage."
+        "D": "Unemployment was the problem, not a labor shortage.",
+        "A": "The New Deal began in 1933."
       }
     },
     {
@@ -518,11 +518,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Many African Americans, urban ethnic voters, and union members shifted to the Democratic Party."
+          "text": "The Republican Party gained permanent control of Congress."
         },
         {
           "id": "B",
-          "text": "The Republican Party gained permanent control of Congress."
+          "text": "Many African Americans, urban ethnic voters, and union members shifted to the Democratic Party."
         },
         {
           "id": "C",
@@ -533,7 +533,7 @@
           "text": "Southern white voters abandoned the Democratic Party in the 1930s."
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The New Deal coalition dominated national politics for decades. Black voters, long loyal to the party of Lincoln, moved to Roosevelt's Democrats.",
       "distractors": {
         "D": "That shift came after the civil rights era."

@@ -98,7 +98,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "因为过度砍伐"
+          "text": "因为下雨太多"
         },
         {
           "id": "B",
@@ -110,10 +110,10 @@
         },
         {
           "id": "D",
-          "text": "因为下雨太多"
+          "text": "因为过度砍伐"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -158,7 +158,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "挡住风沙、保护水源、吸引游客"
+          "text": "增加了工厂"
         },
         {
           "id": "B",
@@ -170,10 +170,10 @@
         },
         {
           "id": "D",
-          "text": "增加了工厂"
+          "text": "挡住风沙、保护水源、吸引游客"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Paragraph 2.",
       "distractors": {}
     },
@@ -218,7 +218,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "十九世纪末从广东来，在铁路上工作"
+          "text": "从台湾来开餐馆"
         },
         {
           "id": "B",
@@ -226,14 +226,14 @@
         },
         {
           "id": "C",
-          "text": "从台湾来开餐馆"
+          "text": "十九世纪末从广东来，在铁路上工作"
         },
         {
           "id": "D",
           "text": "从北京来当医生"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -248,11 +248,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "很多不公平的对待，甚至有限制华人移民的法律"
+          "text": "受到热烈欢迎"
         },
         {
           "id": "B",
-          "text": "受到热烈欢迎"
+          "text": "很多不公平的对待，甚至有限制华人移民的法律"
         },
         {
           "id": "C",
@@ -263,7 +263,7 @@
           "text": "不需要工作"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Discrimination.",
       "distractors": {}
     },
@@ -278,11 +278,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "新移民来自各地，说普通话的人多了，年轻人搬到郊区"
+          "text": "所有人都只说粤语"
         },
         {
           "id": "B",
-          "text": "所有人都只说粤语"
+          "text": "新移民来自各地，说普通话的人多了，年轻人搬到郊区"
         },
         {
           "id": "C",
@@ -293,7 +293,7 @@
           "text": "没有游客了"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -308,7 +308,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "一个活的社区，而不只是游客拍照的地方"
+          "text": "一个只给游客的公园"
         },
         {
           "id": "B",
@@ -320,10 +320,10 @@
         },
         {
           "id": "D",
-          "text": "一个只给游客的公园"
+          "text": "一个活的社区，而不只是游客拍照的地方"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "不只是…而是….",
       "distractors": {}
     },
@@ -368,7 +368,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "官方语言之一"
+          "text": "被禁止使用"
         },
         {
           "id": "B",
@@ -376,14 +376,14 @@
         },
         {
           "id": "C",
-          "text": "被禁止使用"
+          "text": "官方语言之一"
         },
         {
           "id": "D",
           "text": "没有提到"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated.",
       "distractors": {}
     },
@@ -398,7 +398,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "不同来源的数据差别较大"
+          "text": "汉语正在消失"
         },
         {
           "id": "B",
@@ -410,10 +410,10 @@
         },
         {
           "id": "D",
-          "text": "汉语正在消失"
+          "text": "不同来源的数据差别较大"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Footnote.",
       "distractors": {}
     },
@@ -428,7 +428,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "都说明了华人和汉语分布在世界各地"
+          "text": "都只谈中国大陆"
         },
         {
           "id": "B",
@@ -436,14 +436,14 @@
         },
         {
           "id": "C",
-          "text": "都只谈中国大陆"
+          "text": "都说明了华人和汉语分布在世界各地"
         },
         {
           "id": "D",
           "text": "都和高考有关"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Global diaspora.",
       "distractors": {}
     },
@@ -457,11 +457,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "他们一次又一次地试验，终于成功了。"
+          "text": "他们一次又一次地试验，所以终于没成功了。"
         },
         {
           "id": "B",
-          "text": "他们一次又一次地试验，所以终于没成功了。"
+          "text": "他们一次又一次地试验，终于成功了。"
         },
         {
           "id": "C",
@@ -472,7 +472,7 @@
           "text": "他们试验一次又一次地终于。"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Correct structure.",
       "distractors": {}
     },

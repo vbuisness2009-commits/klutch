@@ -98,11 +98,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "E major"
+          "text": "A major"
         },
         {
           "id": "B",
-          "text": "A major"
+          "text": "E major"
         },
         {
           "id": "C",
@@ -113,7 +113,7 @@
           "text": "D major"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "F♯ C♯ G♯ D♯; key is a half step above D♯.",
       "distractors": {}
     },
@@ -156,7 +156,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "compound duple"
+          "text": "compound triple"
         },
         {
           "id": "B",
@@ -164,14 +164,14 @@
         },
         {
           "id": "C",
-          "text": "compound triple"
+          "text": "compound duple"
         },
         {
           "id": "D",
           "text": "simple duple"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Two dotted-quarter beats.",
       "distractors": {}
     },
@@ -185,7 +185,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "G♭"
+          "text": "G♯"
         },
         {
           "id": "B",
@@ -197,10 +197,10 @@
         },
         {
           "id": "D",
-          "text": "G♯"
+          "text": "G♭"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Same pitch.",
       "distractors": {}
     },
@@ -243,11 +243,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "G♯"
+          "text": "G"
         },
         {
           "id": "B",
-          "text": "G"
+          "text": "G♯"
         },
         {
           "id": "C",
@@ -258,7 +258,7 @@
           "text": "E"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Half step below A.",
       "distractors": {}
     },
@@ -272,7 +272,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "middle C (C4)"
+          "text": "F3"
         },
         {
           "id": "B",
@@ -280,14 +280,14 @@
         },
         {
           "id": "C",
-          "text": "F3"
+          "text": "middle C (C4)"
         },
         {
           "id": "D",
           "text": "A3"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Viola clef.",
       "distractors": {}
     },
@@ -301,7 +301,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Three dotted-quarter beats"
+          "text": "Two dotted-half beats"
         },
         {
           "id": "B",
@@ -313,10 +313,10 @@
         },
         {
           "id": "D",
-          "text": "Two dotted-half beats"
+          "text": "Three dotted-quarter beats"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Compound triple.",
       "distractors": {}
     },
@@ -359,7 +359,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "D♭ major"
+          "text": "C♭ major"
         },
         {
           "id": "B",
@@ -371,10 +371,10 @@
         },
         {
           "id": "D",
-          "text": "C♭ major"
+          "text": "D♭ major"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "B♭ E♭ A♭ D♭ G♭; next-to-last is D♭.",
       "distractors": {}
     },
@@ -388,7 +388,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "hemiola"
+          "text": "augmentation"
         },
         {
           "id": "B",
@@ -396,14 +396,14 @@
         },
         {
           "id": "C",
-          "text": "augmentation"
+          "text": "hemiola"
         },
         {
           "id": "D",
           "text": "rubato"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Metric regrouping.",
       "distractors": {}
     },
@@ -417,11 +417,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "G major and D major"
+          "text": "C major and E major"
         },
         {
           "id": "B",
-          "text": "C major and E major"
+          "text": "G major and D major"
         },
         {
           "id": "C",
@@ -432,7 +432,7 @@
           "text": "B♭ major and D major"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Adjacent on the circle of fifths.",
       "distractors": {}
     },
@@ -446,7 +446,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "one beat"
+          "text": "half a beat"
         },
         {
           "id": "B",
@@ -454,14 +454,14 @@
         },
         {
           "id": "C",
-          "text": "half a beat"
+          "text": "one beat"
         },
         {
           "id": "D",
           "text": "two beats"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The dotted quarter is the beat.",
       "distractors": {}
     },

@@ -47,237 +47,560 @@
     "cramSheet": "**Rococo:** The Swing · **Neoclassical:** Oath of the Horatii (David 1784)\n\n**Romantic:** Liberty Leading the People (1830) · Goya Disasters of War · Cole The Oxbow (1836)\n\n**Realism/photo:** Burial at Ornans · Daguerre · Muybridge Horse in Motion\n\n**Manet:** Olympia (1863) · **Impressionism:** Monet Saint-Lazare · Cassatt The Coiffure\n\n**Post-Imp:** Starry Night · The Scream · Mont Sainte-Victoire\n\n**Modern:** Demoiselles (1907) · Kandinsky · Duchamp Fountain (1917) · Villa Savoye · Fallingwater\n\n**Americas:** Two Fridas (1939) · Lawrence Migration Series\n\n**Postwar:** de Kooning · Frankenthaler · Warhol Marilyn Diptych · Spiral Jetty (1970)"
   },
   "vocab": [
-    { "term": "Rococo", "definition": "Eighteenth-century style of playful elegance, pastel color, and aristocratic leisure." },
-    { "term": "Neoclassicism", "definition": "Style reviving classical forms and moral seriousness, associated with Enlightenment and revolutionary ideals." },
-    { "term": "Romanticism", "definition": "Movement emphasizing emotion, imagination, nature, and the sublime." },
-    { "term": "The sublime", "definition": "An experience of awe mixed with fear, often inspired by vast or powerful nature." },
-    { "term": "Realism", "definition": "Nineteenth-century movement depicting ordinary life without idealization." },
-    { "term": "Impressionism", "definition": "Movement capturing fleeting effects of light and modern life with visible, broken brushwork." },
-    { "term": "Post-Impressionism", "definition": "Varied styles after Impressionism emphasizing structure, symbolism, or expressive color." },
-    { "term": "Cubism", "definition": "Style fragmenting objects into geometric planes seen from multiple viewpoints." },
-    { "term": "Readymade", "definition": "A manufactured object designated as art by an artist, as in Duchamp's Fountain." },
-    { "term": "Abstract Expressionism", "definition": "Postwar New York movement of large-scale gestural or color-field abstraction." },
-    { "term": "Pop art", "definition": "Art drawing on mass media, advertising, and consumer culture." },
-    { "term": "Silkscreen", "definition": "A printmaking technique pushing ink through a mesh stencil, used for repeated images." },
-    { "term": "Earthwork", "definition": "Large-scale art made from or in the landscape." },
-    { "term": "Cantilever", "definition": "A horizontal structure supported at only one end." },
-    { "term": "Aquatint", "definition": "An etching technique producing tonal areas, used by Goya." }
+    {
+      "term": "Rococo",
+      "definition": "Eighteenth-century style of playful elegance, pastel color, and aristocratic leisure."
+    },
+    {
+      "term": "Neoclassicism",
+      "definition": "Style reviving classical forms and moral seriousness, associated with Enlightenment and revolutionary ideals."
+    },
+    {
+      "term": "Romanticism",
+      "definition": "Movement emphasizing emotion, imagination, nature, and the sublime."
+    },
+    {
+      "term": "The sublime",
+      "definition": "An experience of awe mixed with fear, often inspired by vast or powerful nature."
+    },
+    {
+      "term": "Realism",
+      "definition": "Nineteenth-century movement depicting ordinary life without idealization."
+    },
+    {
+      "term": "Impressionism",
+      "definition": "Movement capturing fleeting effects of light and modern life with visible, broken brushwork."
+    },
+    {
+      "term": "Post-Impressionism",
+      "definition": "Varied styles after Impressionism emphasizing structure, symbolism, or expressive color."
+    },
+    {
+      "term": "Cubism",
+      "definition": "Style fragmenting objects into geometric planes seen from multiple viewpoints."
+    },
+    {
+      "term": "Readymade",
+      "definition": "A manufactured object designated as art by an artist, as in Duchamp's Fountain."
+    },
+    {
+      "term": "Abstract Expressionism",
+      "definition": "Postwar New York movement of large-scale gestural or color-field abstraction."
+    },
+    {
+      "term": "Pop art",
+      "definition": "Art drawing on mass media, advertising, and consumer culture."
+    },
+    {
+      "term": "Silkscreen",
+      "definition": "A printmaking technique pushing ink through a mesh stencil, used for repeated images."
+    },
+    {
+      "term": "Earthwork",
+      "definition": "Large-scale art made from or in the landscape."
+    },
+    {
+      "term": "Cantilever",
+      "definition": "A horizontal structure supported at only one end."
+    },
+    {
+      "term": "Aquatint",
+      "definition": "An etching technique producing tonal areas, used by Goya."
+    }
   ],
   "practice": [
     {
-      "id": "u4-q01", "tier": "Intro", "type": "mcq", "topic": "Neoclassicism",
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Neoclassicism",
       "stimulus": "In a stark Roman hall, three brothers extend their arms toward swords held by their father, swearing to fight for Rome. On the right, women of the family collapse in grief. The figures are crisply outlined against a simple arcade.",
       "stem": "The painting's style and subject most directly express",
       "choices": [
-        { "id": "A", "text": "Neoclassical ideals of civic virtue and sacrifice for the state" },
-        { "id": "B", "text": "Rococo aristocratic leisure" },
-        { "id": "C", "text": "Impressionist interest in fleeting light" },
-        { "id": "D", "text": "Abstract Expressionist gesture" }
+        {
+          "id": "A",
+          "text": "Neoclassical ideals of civic virtue and sacrifice for the state"
+        },
+        {
+          "id": "B",
+          "text": "Rococo aristocratic leisure"
+        },
+        {
+          "id": "C",
+          "text": "Impressionist interest in fleeting light"
+        },
+        {
+          "id": "D",
+          "text": "Abstract Expressionist gesture"
+        }
       ],
       "answer": "A",
       "explanation": "David's Oath of the Horatii (1784) uses classical clarity to celebrate duty over personal feeling.",
-      "distractors": { "B": "Rococo, like Fragonard's The Swing, is playful and decorative." }
+      "distractors": {
+        "B": "Rococo, like Fragonard's The Swing, is playful and decorative."
+      }
     },
     {
-      "id": "u4-q02", "tier": "Intro", "type": "mcq", "topic": "Impressionism",
+      "id": "u4-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Impressionism",
       "stimulus": "Steam from locomotives fills a Paris train shed with blue and violet haze, painted in short, visible strokes. The iron and glass roof frames the scene.",
       "stem": "This painting is most characteristic of",
       "choices": [
-        { "id": "A", "text": "Impressionism's focus on modern subjects and fleeting effects of light" },
-        { "id": "B", "text": "Neoclassicism's moral seriousness" },
-        { "id": "C", "text": "Byzantine spiritual abstraction" },
-        { "id": "D", "text": "Baroque tenebrism" }
+        {
+          "id": "A",
+          "text": "Baroque tenebrism"
+        },
+        {
+          "id": "B",
+          "text": "Neoclassicism's moral seriousness"
+        },
+        {
+          "id": "C",
+          "text": "Byzantine spiritual abstraction"
+        },
+        {
+          "id": "D",
+          "text": "Impressionism's focus on modern subjects and fleeting effects of light"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Monet's Saint-Lazare Station (1877) captures modern industry and atmosphere with broken brushwork.",
-      "distractors": { "D": "Tenebrism uses dark, dramatic contrast, not soft haze." }
+      "distractors": {
+        "A": "Tenebrism uses dark, dramatic contrast, not soft haze."
+      }
     },
     {
-      "id": "u4-q03", "tier": "Intro", "type": "mcq", "topic": "Dada",
+      "id": "u4-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Dada",
       "stimulus": "In 1917, an artist submitted a mass-produced porcelain urinal, turned on its back and signed \"R. Mutt,\" to an exhibition.",
       "stem": "The work's primary significance is that it",
       "choices": [
-        { "id": "A", "text": "challenged the idea that art must be handmade or beautiful by making the artist's choice and context the source of meaning" },
-        { "id": "B", "text": "demonstrated mastery of traditional sculpture technique" },
-        { "id": "C", "text": "celebrated industrial design as decoration" },
-        { "id": "D", "text": "was commissioned for a public restroom" }
+        {
+          "id": "A",
+          "text": "challenged the idea that art must be handmade or beautiful by making the artist's choice and context the source of meaning"
+        },
+        {
+          "id": "B",
+          "text": "demonstrated mastery of traditional sculpture technique"
+        },
+        {
+          "id": "C",
+          "text": "celebrated industrial design as decoration"
+        },
+        {
+          "id": "D",
+          "text": "was commissioned for a public restroom"
+        }
       ],
       "answer": "A",
       "explanation": "Duchamp's Fountain, a readymade, questioned what counts as art and who decides.",
-      "distractors": { "B": "No traditional craft was involved." }
+      "distractors": {
+        "B": "No traditional craft was involved."
+      }
     },
     {
-      "id": "u4-q04", "tier": "Intro", "type": "mcq", "topic": "Modern architecture",
+      "id": "u4-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Modern architecture",
       "stimulus": "A house built in rural Pennsylvania in the 1930s extends reinforced concrete terraces out over a waterfall, with stone walls rising from the site's natural rock.",
       "stem": "The design most directly reflects the architect's aim to",
       "choices": [
-        { "id": "A", "text": "integrate the building with its natural setting through cantilevers and local materials" },
-        { "id": "B", "text": "imitate a Gothic cathedral" },
-        { "id": "C", "text": "separate the house completely from nature" },
-        { "id": "D", "text": "revive Roman temple architecture" }
+        {
+          "id": "A",
+          "text": "imitate a Gothic cathedral"
+        },
+        {
+          "id": "B",
+          "text": "integrate the building with its natural setting through cantilevers and local materials"
+        },
+        {
+          "id": "C",
+          "text": "separate the house completely from nature"
+        },
+        {
+          "id": "D",
+          "text": "revive Roman temple architecture"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Frank Lloyd Wright's Fallingwater exemplifies organic architecture.",
-      "distractors": { "C": "The house is built over the waterfall to merge with it." }
+      "distractors": {
+        "C": "The house is built over the waterfall to merge with it."
+      }
     },
     {
-      "id": "u4-q05", "tier": "Exam level", "type": "mcq", "topic": "Realism / Manet",
+      "id": "u4-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Realism / Manet",
       "stimulus": "Exhibited at the 1865 Paris Salon, this painting shows a nude woman reclining on a bed, looking directly out at the viewer. A Black servant presents flowers, and a black cat arches at the foot of the bed. The modeling is flat, with harsh light.",
       "stem": "Which best explains why the painting provoked outrage?",
       "choices": [
-        { "id": "A", "text": "It recast a traditional idealized nude as a contemporary prostitute who confronts the viewer, and its flat technique broke academic conventions." },
-        { "id": "B", "text": "It depicted a religious subject in a disrespectful way." },
-        { "id": "C", "text": "It was painted with Impressionist broken brushwork outdoors." },
-        { "id": "D", "text": "It glorified the French monarchy." }
+        {
+          "id": "A",
+          "text": "It was painted with Impressionist broken brushwork outdoors."
+        },
+        {
+          "id": "B",
+          "text": "It depicted a religious subject in a disrespectful way."
+        },
+        {
+          "id": "C",
+          "text": "It recast a traditional idealized nude as a contemporary prostitute who confronts the viewer, and its flat technique broke academic conventions."
+        },
+        {
+          "id": "D",
+          "text": "It glorified the French monarchy."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Manet's Olympia parodied the Venus of Urbino; the direct gaze, modern setting, and flat handling made viewers uncomfortably complicit.",
-      "distractors": { "C": "It's a studio painting, not plein air." }
+      "distractors": {
+        "A": "It's a studio painting, not plein air."
+      }
     },
     {
-      "id": "u4-q06", "tier": "Exam level", "type": "mcq", "topic": "Early modernism",
+      "id": "u4-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Early modernism",
       "stimulus": "Five nude women in a brothel are rendered as sharp, angular planes. Two faces resemble African masks; space is compressed and fractured, so the figures seem seen from multiple angles at once.",
       "stem": "This 1907 painting is most significant because it",
       "choices": [
-        { "id": "A", "text": "broke with single-point perspective and naturalistic form, paving the way for Cubism" },
-        { "id": "B", "text": "was the first Impressionist painting" },
-        { "id": "C", "text": "revived Renaissance linear perspective" },
-        { "id": "D", "text": "was a Neoclassical history painting" }
+        {
+          "id": "A",
+          "text": "was a Neoclassical history painting"
+        },
+        {
+          "id": "B",
+          "text": "was the first Impressionist painting"
+        },
+        {
+          "id": "C",
+          "text": "revived Renaissance linear perspective"
+        },
+        {
+          "id": "D",
+          "text": "broke with single-point perspective and naturalistic form, paving the way for Cubism"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Picasso's Les Demoiselles d'Avignon fragmented the body and space, drawing on non-Western sources.",
-      "distractors": { "C": "It rejected linear perspective." }
+      "distractors": {
+        "C": "It rejected linear perspective."
+      }
     },
     {
-      "id": "u4-q07", "tier": "Exam level", "type": "mcq", "topic": "Latin American modernism",
+      "id": "u4-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Latin American modernism",
       "stimulus": "Two seated self-portraits of the same woman hold hands. One wears a European-style white dress; the other wears traditional Tehuana dress. Their exposed hearts are connected by a single artery; one holds surgical scissors as blood drips onto her dress. The work dates to 1939.",
       "stem": "The painting is best interpreted as",
       "choices": [
-        { "id": "A", "text": "Frida Kahlo's exploration of her divided cultural identity and emotional pain" },
-        { "id": "B", "text": "Diego Rivera's mural celebrating Mexican history" },
-        { "id": "C", "text": "a Renaissance double portrait of sisters" },
-        { "id": "D", "text": "a Cubist study of form" }
+        {
+          "id": "A",
+          "text": "a Cubist study of form"
+        },
+        {
+          "id": "B",
+          "text": "Diego Rivera's mural celebrating Mexican history"
+        },
+        {
+          "id": "C",
+          "text": "a Renaissance double portrait of sisters"
+        },
+        {
+          "id": "D",
+          "text": "Frida Kahlo's exploration of her divided cultural identity and emotional pain"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Painted around her divorce from Rivera, The Two Fridas expresses mixed European and Mexican heritage and heartbreak.",
-      "distractors": { "B": "Rivera's work is muralism; this is a self-portrait on canvas." }
+      "distractors": {
+        "B": "Rivera's work is muralism; this is a self-portrait on canvas."
+      }
     },
     {
-      "id": "u4-q08", "tier": "Exam level", "type": "mcq", "topic": "Romanticism",
+      "id": "u4-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Romanticism",
       "stimulus": "A bare-breasted woman in a Phrygian cap holds the French tricolor flag aloft as she strides over a barricade of corpses, leading a top-hatted man, a worker, and a boy with pistols.",
       "stem": "The painting's subject and style are best described as",
       "choices": [
-        { "id": "A", "text": "a Romantic allegory of the July Revolution of 1830, uniting classes under Liberty" },
-        { "id": "B", "text": "a Neoclassical depiction of ancient Rome" },
-        { "id": "C", "text": "a Realist record of peasant life" },
-        { "id": "D", "text": "a Rococo scene of aristocratic pleasure" }
+        {
+          "id": "A",
+          "text": "a Neoclassical depiction of ancient Rome"
+        },
+        {
+          "id": "B",
+          "text": "a Romantic allegory of the July Revolution of 1830, uniting classes under Liberty"
+        },
+        {
+          "id": "C",
+          "text": "a Realist record of peasant life"
+        },
+        {
+          "id": "D",
+          "text": "a Rococo scene of aristocratic pleasure"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Delacroix's Liberty Leading the People combines allegory and contemporary event with dynamic composition and emotion.",
-      "distractors": { "B": "The setting is contemporary Paris." }
+      "distractors": {
+        "A": "The setting is contemporary Paris."
+      }
     },
     {
-      "id": "u4-q09", "tier": "Exam level", "type": "mcq", "topic": "American Romanticism",
+      "id": "u4-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "American Romanticism",
       "stimulus": "An 1836 landscape is divided by a diagonal: on the left, a storm darkens a wild forest; on the right, sunlit fields wind around a river bend. A tiny painter sits in the foreground.",
       "stem": "The composition most likely invites viewers to consider",
       "choices": [
-        { "id": "A", "text": "the tension between untamed wilderness and the spread of cultivation in a growing nation" },
-        { "id": "B", "text": "the industrial machinery of the Saint-Lazare Station" },
-        { "id": "C", "text": "the religious devotion of Counter-Reformation Rome" },
-        { "id": "D", "text": "the fragmentation of form in Cubism" }
+        {
+          "id": "A",
+          "text": "the religious devotion of Counter-Reformation Rome"
+        },
+        {
+          "id": "B",
+          "text": "the industrial machinery of the Saint-Lazare Station"
+        },
+        {
+          "id": "C",
+          "text": "the tension between untamed wilderness and the spread of cultivation in a growing nation"
+        },
+        {
+          "id": "D",
+          "text": "the fragmentation of form in Cubism"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Thomas Cole's The Oxbow sets sublime nature against settlement, a debate tied to American expansion.",
-      "distractors": { "B": "No industrial subject appears." }
+      "distractors": {
+        "B": "No industrial subject appears."
+      }
     },
     {
-      "id": "u4-q10", "tier": "Exam level", "type": "mcq", "topic": "American modernism",
+      "id": "u4-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "American modernism",
       "stimulus": "A small panel painted in tempera with flat colors shows Black and white diners in a Northern restaurant, separated by a rope. A caption in the series notes that discrimination existed in the North as well.",
       "stem": "This panel's role in its series is best described as",
       "choices": [
-        { "id": "A", "text": "showing that the Great Migration north didn't escape segregation, complicating the story of the North as a promised land" },
-        { "id": "B", "text": "celebrating the end of segregation" },
-        { "id": "C", "text": "depicting the Civil War" },
-        { "id": "D", "text": "illustrating Jim Crow laws in the rural South only" }
+        {
+          "id": "A",
+          "text": "showing that the Great Migration north didn't escape segregation, complicating the story of the North as a promised land"
+        },
+        {
+          "id": "B",
+          "text": "celebrating the end of segregation"
+        },
+        {
+          "id": "C",
+          "text": "depicting the Civil War"
+        },
+        {
+          "id": "D",
+          "text": "illustrating Jim Crow laws in the rural South only"
+        }
       ],
       "answer": "A",
       "explanation": "Jacob Lawrence's Migration Series panel 49 shows the limits of opportunity in the North.",
-      "distractors": { "D": "The scene is set in the North." }
+      "distractors": {
+        "D": "The scene is set in the North."
+      }
     },
     {
-      "id": "u4-q11", "tier": "Hardest", "type": "mcq", "topic": "Romanticism / printmaking",
+      "id": "u4-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Romanticism / printmaking",
       "stimulus": "A small print made with etching and aquatint shows a bound, blindfolded man about to be shot by a row of soldiers whose faces aren't visible; a dead body lies in the foreground. It belongs to a series made during and after the French occupation of Spain.",
       "stem": "Which statement best describes this work?",
       "choices": [
-        { "id": "A", "text": "Goya's Disasters of War uses printmaking to depict the brutality of war without heroic glorification." },
-        { "id": "B", "text": "David's Neoclassical painting celebrating Napoleon's victories." },
-        { "id": "C", "text": "A Baroque altarpiece depicting a Christian martyr." },
-        { "id": "D", "text": "A Realist photograph documenting a battlefield." }
+        {
+          "id": "A",
+          "text": "Goya's Disasters of War uses printmaking to depict the brutality of war without heroic glorification."
+        },
+        {
+          "id": "B",
+          "text": "David's Neoclassical painting celebrating Napoleon's victories."
+        },
+        {
+          "id": "C",
+          "text": "A Baroque altarpiece depicting a Christian martyr."
+        },
+        {
+          "id": "D",
+          "text": "A Realist photograph documenting a battlefield."
+        }
       ],
       "answer": "A",
       "explanation": "Y no hai remedio (\"And there's nothing to be done\") rejects heroic war imagery, presenting anonymous executioners and helpless victims.",
-      "distractors": { "D": "It's a print, not a photograph." }
+      "distractors": {
+        "D": "It's a print, not a photograph."
+      }
     },
     {
-      "id": "u4-q12", "tier": "Hardest", "type": "mcq", "topic": "Photography",
+      "id": "u4-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Photography",
       "stimulus": "In 1878, a photographer used a row of cameras with tripwires to record a galloping horse in a sequence of images. The photographs showed that at one point all four hooves leave the ground together, and not in the outstretched way painters had shown.",
       "stem": "This work's broader significance is that it",
       "choices": [
-        { "id": "A", "text": "revealed motion the human eye couldn't perceive, influencing painters and anticipating motion pictures" },
-        { "id": "B", "text": "was the first daguerreotype" },
-        { "id": "C", "text": "was a Cubist painting of a horse" },
-        { "id": "D", "text": "was commissioned as a war propaganda image" }
+        {
+          "id": "A",
+          "text": "was a Cubist painting of a horse"
+        },
+        {
+          "id": "B",
+          "text": "was the first daguerreotype"
+        },
+        {
+          "id": "C",
+          "text": "revealed motion the human eye couldn't perceive, influencing painters and anticipating motion pictures"
+        },
+        {
+          "id": "D",
+          "text": "was commissioned as a war propaganda image"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Muybridge's The Horse in Motion changed how artists depicted motion and contributed to the development of cinema.",
-      "distractors": { "B": "Daguerre's work was in 1837." }
+      "distractors": {
+        "B": "Daguerre's work was in 1837."
+      }
     },
     {
-      "id": "u4-q13", "tier": "Hardest", "type": "mcq", "topic": "Postwar American art",
+      "id": "u4-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Postwar American art",
       "stimulus": "A 1970 work of mud, salt crystals, and black basalt rocks coils 1,500 feet into a lake in Utah. Over decades it has been submerged and reexposed as the water level rises and falls, its rocks encrusted white with salt.",
       "stem": "Which statement best explains the work's significance?",
       "choices": [
-        { "id": "A", "text": "As an earthwork, it rejects the gallery and the art market and incorporates natural processes of change into its meaning." },
-        { "id": "B", "text": "It was designed as a permanent monument that would never change." },
-        { "id": "C", "text": "It is a Pop art critique of consumer goods." },
-        { "id": "D", "text": "It is a site for religious pilgrimage." }
+        {
+          "id": "A",
+          "text": "It is a site for religious pilgrimage."
+        },
+        {
+          "id": "B",
+          "text": "It was designed as a permanent monument that would never change."
+        },
+        {
+          "id": "C",
+          "text": "It is a Pop art critique of consumer goods."
+        },
+        {
+          "id": "D",
+          "text": "As an earthwork, it rejects the gallery and the art market and incorporates natural processes of change into its meaning."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Smithson's Spiral Jetty is site-specific and embraces entropy; its changing state is part of the work.",
-      "distractors": { "B": "Change is central to its meaning." }
+      "distractors": {
+        "B": "Change is central to its meaning."
+      }
     },
     {
-      "id": "u4-q14", "tier": "Hardest", "type": "mcq", "topic": "Pop art",
+      "id": "u4-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Pop art",
       "stimulus": "Made in 1962 shortly after the actress's death, this two-panel work repeats a publicity photo of her face fifty times by silkscreen: in bright, garish colors on the left panel, and in black and white, increasingly smeared and faded, on the right.",
       "stem": "The contrast between the panels most likely suggests",
       "choices": [
-        { "id": "A", "text": "the tension between celebrity as a mass-produced image and the mortality of the person behind it" },
-        { "id": "B", "text": "the superiority of color photography" },
-        { "id": "C", "text": "a religious triptych celebrating a saint" },
-        { "id": "D", "text": "an Impressionist study of light" }
+        {
+          "id": "A",
+          "text": "the superiority of color photography"
+        },
+        {
+          "id": "B",
+          "text": "the tension between celebrity as a mass-produced image and the mortality of the person behind it"
+        },
+        {
+          "id": "C",
+          "text": "a religious triptych celebrating a saint"
+        },
+        {
+          "id": "D",
+          "text": "an Impressionist study of light"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Warhol's Marilyn Diptych juxtaposes vivid, commodified repetition with fading, as if her image outlives her.",
-      "distractors": { "C": "It's a diptych and secular, though some read it through the tradition of icons." }
+      "distractors": {
+        "C": "It's a diptych and secular, though some read it through the tradition of icons."
+      }
     },
     {
-      "id": "u4-frq1", "tier": "Exam level", "type": "frq", "topic": "Manet, Olympia", "frqType": "Q3 Visual Analysis",
+      "id": "u4-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Manet, Olympia",
+      "frqType": "Q3 Visual Analysis",
       "stimulus": "The work is Olympia by Édouard Manet, 1863, oil on canvas.",
       "prompt": "Answer (a)–(d).",
       "parts": [
-        { "label": "a", "prompt": "Identify the earlier work in the required course content that Manet reinterpreted in this painting.", "points": 1 },
-        { "label": "b", "prompt": "Describe TWO visual characteristics of Olympia that distinguish it from earlier idealized nudes.", "points": 2 },
-        { "label": "c", "prompt": "Explain how these visual characteristics change the relationship between the figure and the viewer.", "points": 1 },
-        { "label": "d", "prompt": "Explain one reason the painting provoked a hostile reaction when it was exhibited.", "points": 1 }
+        {
+          "label": "a",
+          "prompt": "Identify the earlier work in the required course content that Manet reinterpreted in this painting.",
+          "points": 1
+        },
+        {
+          "label": "b",
+          "prompt": "Describe TWO visual characteristics of Olympia that distinguish it from earlier idealized nudes.",
+          "points": 2
+        },
+        {
+          "label": "c",
+          "prompt": "Explain how these visual characteristics change the relationship between the figure and the viewer.",
+          "points": 1
+        },
+        {
+          "label": "d",
+          "prompt": "Explain one reason the painting provoked a hostile reaction when it was exhibited.",
+          "points": 1
+        }
       ],
       "points": 5,
       "minutes": 15,
       "rubric": [
-        { "criterion": "(a)", "points": 1, "description": "Titian's Venus of Urbino (1538)." },
-        { "criterion": "(b) Characteristic 1", "points": 1, "description": "E.g., the figure's direct, confrontational gaze at the viewer." },
-        { "criterion": "(b) Characteristic 2", "points": 1, "description": "E.g., flat modeling with harsh frontal light and little shading; or a hard-edged body rather than soft idealization; or a black cat replacing the faithful dog." },
-        { "criterion": "(c)", "points": 1, "description": "Explains that the gaze and starkness make the viewer a client being assessed by the woman, rather than an observer of a passive mythological goddess." },
-        { "criterion": "(d)", "points": 1, "description": "E.g., it presented a recognizable contemporary prostitute instead of a goddess, exposing bourgeois hypocrisy; or its flat technique violated academic standards." }
+        {
+          "criterion": "(a)",
+          "points": 1,
+          "description": "Titian's Venus of Urbino (1538)."
+        },
+        {
+          "criterion": "(b) Characteristic 1",
+          "points": 1,
+          "description": "E.g., the figure's direct, confrontational gaze at the viewer."
+        },
+        {
+          "criterion": "(b) Characteristic 2",
+          "points": 1,
+          "description": "E.g., flat modeling with harsh frontal light and little shading; or a hard-edged body rather than soft idealization; or a black cat replacing the faithful dog."
+        },
+        {
+          "criterion": "(c)",
+          "points": 1,
+          "description": "Explains that the gaze and starkness make the viewer a client being assessed by the woman, rather than an observer of a passive mythological goddess."
+        },
+        {
+          "criterion": "(d)",
+          "points": 1,
+          "description": "E.g., it presented a recognizable contemporary prostitute instead of a goddess, exposing bourgeois hypocrisy; or its flat technique violated academic standards."
+        }
       ],
       "sampleResponse": "(a) Manet reinterpreted Titian's Venus of Urbino.\n\n(b) First, Olympia looks directly and coolly at the viewer, while traditional nudes usually avert their eyes or gaze dreamily. Second, Manet models her body with flat, harsh light and very little shading, so she looks hard-edged and modern rather than soft and idealized.\n\n(c) Her gaze and the flat, almost photographic lighting make the viewer feel seen and placed in the position of a client arriving with the flowers the servant presents. Instead of passively displaying an ideal of beauty, the figure seems to assess the viewer, which makes looking uncomfortable.\n\n(d) Salon audiences recognized her as a contemporary Parisian courtesan, not a goddess, so the painting exposed the reality behind the polite tradition of the nude and implicated respectable viewers, many of whom were customers of such women."
     }

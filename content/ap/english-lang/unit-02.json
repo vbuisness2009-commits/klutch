@@ -47,226 +47,530 @@
     "cramSheet": "**Audience:** what they believe, know, value, and object to\n\n**Thesis:** defensible claim + (often) line of reasoning · can be qualified · can be implicit\n\n**Structures:** deductive · inductive · problem-solution · concession-refutation\n\n**Concession:** builds ethos, preempts objections — must be answered\n\n**Revision Qs:** goal in the question decides · check fit with paragraph purpose\n\n**Analysis formula:** choice → effect on audience → purpose"
   },
   "vocab": [
-    { "term": "Audience", "definition": "The readers or listeners a writer intends to inform or persuade." },
-    { "term": "Purpose", "definition": "What a writer wants to accomplish with the audience." },
-    { "term": "Thesis", "definition": "A defensible claim that a text argues and supports." },
-    { "term": "Defensible claim", "definition": "A claim reasonable people could dispute and that can be supported with evidence." },
-    { "term": "Line of reasoning", "definition": "The logical sequence of claims that work together to support the thesis." },
-    { "term": "Implicit thesis", "definition": "A main claim that isn't stated directly but can be inferred from the text." },
-    { "term": "Qualifier", "definition": "A word or phrase that limits or adds nuance to a claim, such as \"often\" or \"in most cases.\"" },
-    { "term": "Concession", "definition": "Acknowledging the validity of part of an opposing view." },
-    { "term": "Refutation", "definition": "Demonstrating that an opposing argument is wrong or weaker." },
-    { "term": "Deductive reasoning", "definition": "Reasoning from a general principle to a specific conclusion." },
-    { "term": "Inductive reasoning", "definition": "Reasoning from specific examples to a general conclusion." },
-    { "term": "Problem-solution structure", "definition": "An organization that establishes a problem before proposing a remedy." },
-    { "term": "Exigence", "definition": "The issue, problem, or event that prompts a writer to write." }
+    {
+      "term": "Audience",
+      "definition": "The readers or listeners a writer intends to inform or persuade."
+    },
+    {
+      "term": "Purpose",
+      "definition": "What a writer wants to accomplish with the audience."
+    },
+    {
+      "term": "Thesis",
+      "definition": "A defensible claim that a text argues and supports."
+    },
+    {
+      "term": "Defensible claim",
+      "definition": "A claim reasonable people could dispute and that can be supported with evidence."
+    },
+    {
+      "term": "Line of reasoning",
+      "definition": "The logical sequence of claims that work together to support the thesis."
+    },
+    {
+      "term": "Implicit thesis",
+      "definition": "A main claim that isn't stated directly but can be inferred from the text."
+    },
+    {
+      "term": "Qualifier",
+      "definition": "A word or phrase that limits or adds nuance to a claim, such as \"often\" or \"in most cases.\""
+    },
+    {
+      "term": "Concession",
+      "definition": "Acknowledging the validity of part of an opposing view."
+    },
+    {
+      "term": "Refutation",
+      "definition": "Demonstrating that an opposing argument is wrong or weaker."
+    },
+    {
+      "term": "Deductive reasoning",
+      "definition": "Reasoning from a general principle to a specific conclusion."
+    },
+    {
+      "term": "Inductive reasoning",
+      "definition": "Reasoning from specific examples to a general conclusion."
+    },
+    {
+      "term": "Problem-solution structure",
+      "definition": "An organization that establishes a problem before proposing a remedy."
+    },
+    {
+      "term": "Exigence",
+      "definition": "The issue, problem, or event that prompts a writer to write."
+    }
   ],
   "practice": [
     {
-      "id": "u2-q01", "tier": "Intro", "type": "mcq", "topic": "Audience and purpose",
+      "id": "u2-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Audience and purpose",
       "stimulus": "Members of the council, you have heard tonight that closing the Eastside branch on Sundays will save $84,000 a year. I want to show you what that number buys and what it costs. On Sundays, the branch logs more student computer sessions than on any weekday, because it is the only quiet space within walking distance of three public housing complexes.",
       "stem": "The speaker's choice to cite the number of student computer sessions is most likely intended to",
       "choices": [
-        { "id": "A", "text": "show budget-focused council members that the proposed savings have a concrete cost to a vulnerable group" },
-        { "id": "B", "text": "argue that the library should increase its computer budget" },
-        { "id": "C", "text": "criticize students for not using the library on weekdays" },
-        { "id": "D", "text": "prove that the council's savings estimate is mathematically wrong" }
+        {
+          "id": "A",
+          "text": "show budget-focused council members that the proposed savings have a concrete cost to a vulnerable group"
+        },
+        {
+          "id": "B",
+          "text": "argue that the library should increase its computer budget"
+        },
+        {
+          "id": "C",
+          "text": "criticize students for not using the library on weekdays"
+        },
+        {
+          "id": "D",
+          "text": "prove that the council's savings estimate is mathematically wrong"
+        }
       ],
       "answer": "A",
       "explanation": "The speaker accepts the $84,000 figure and reframes it by naming what would be lost, appealing to an audience that thinks in costs and benefits.",
-      "distractors": { "B": "The speaker defends existing hours; no new budget is requested.", "D": "The speaker doesn't dispute the estimate; she weighs it against costs." }
+      "distractors": {
+        "B": "The speaker defends existing hours; no new budget is requested.",
+        "D": "The speaker doesn't dispute the estimate; she weighs it against costs."
+      }
     },
     {
-      "id": "u2-q02", "tier": "Intro", "type": "mcq", "topic": "Thesis",
+      "id": "u2-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Thesis",
       "stimulus": "A student is writing an argument about homework in middle school. She has drafted four possible opening claims.",
       "stem": "Which sentence would serve best as a defensible thesis that also establishes a line of reasoning?",
       "choices": [
-        { "id": "A", "text": "Middle schools should cap nightly homework at one hour, because longer assignments reduce sleep without improving learning and widen gaps between students with and without help at home." },
-        { "id": "B", "text": "Homework is a topic that many people have opinions about." },
-        { "id": "C", "text": "Middle school students are assigned homework in most subjects." },
-        { "id": "D", "text": "This essay will discuss the advantages and disadvantages of homework." }
+        {
+          "id": "A",
+          "text": "Middle school students are assigned homework in most subjects."
+        },
+        {
+          "id": "B",
+          "text": "Homework is a topic that many people have opinions about."
+        },
+        {
+          "id": "C",
+          "text": "Middle schools should cap nightly homework at one hour, because longer assignments reduce sleep without improving learning and widen gaps between students with and without help at home."
+        },
+        {
+          "id": "D",
+          "text": "This essay will discuss the advantages and disadvantages of homework."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "It makes an arguable claim and previews two supporting reasons.",
-      "distractors": { "C": "A fact, not an arguable claim.", "D": "Announces a topic without taking a position." }
+      "distractors": {
+        "D": "Announces a topic without taking a position.",
+        "A": "A fact, not an arguable claim."
+      }
     },
     {
-      "id": "u2-q03", "tier": "Intro", "type": "mcq", "topic": "Claims and evidence",
+      "id": "u2-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Claims and evidence",
       "stimulus": "(1) Cities that replaced parking minimums with market-based parking have seen more housing built near transit. (2) After Buffalo eliminated its minimums in 2017, developers built projects with fewer spaces and more units. (3) Parking requirements, in other words, quietly decide how many homes a lot can hold. (4) Reformers should make this connection the center of housing debates.",
       "stem": "Which sentence functions primarily as evidence rather than as a claim?",
       "choices": [
-        { "id": "A", "text": "Sentence 2" },
-        { "id": "B", "text": "Sentence 1" },
-        { "id": "C", "text": "Sentence 3" },
-        { "id": "D", "text": "Sentence 4" }
+        {
+          "id": "A",
+          "text": "Sentence 1"
+        },
+        {
+          "id": "B",
+          "text": "Sentence 2"
+        },
+        {
+          "id": "C",
+          "text": "Sentence 3"
+        },
+        {
+          "id": "D",
+          "text": "Sentence 4"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Sentence 2 offers a specific example supporting the general claim in sentence 1.",
-      "distractors": { "B": "A general claim the example supports.", "C": "Interprets the evidence.", "D": "A recommendation." }
+      "distractors": {
+        "C": "Interprets the evidence.",
+        "D": "A recommendation.",
+        "A": "A general claim the example supports."
+      }
     },
     {
-      "id": "u2-q04", "tier": "Intro", "type": "mcq", "topic": "Rhetorical situation",
+      "id": "u2-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Rhetorical situation",
       "stimulus": "My grandmother kept a jar of buttons from every coat she ever owned. When I was eight, I spilled it across her kitchen floor, and instead of scolding me, she picked up a brass button and told me about the winter she wore it to her first job. I didn't understand then that I was holding an archive.",
       "stem": "Placed at the beginning of an essay arguing that ordinary objects deserve a place in local history museums, the anecdote primarily serves to",
       "choices": [
-        { "id": "A", "text": "establish through a personal example the idea that everyday objects carry historical meaning" },
-        { "id": "B", "text": "criticize museums for ignoring the writer's family" },
-        { "id": "C", "text": "provide statistical support for museum funding" },
-        { "id": "D", "text": "explain how to organize a button collection" }
+        {
+          "id": "A",
+          "text": "provide statistical support for museum funding"
+        },
+        {
+          "id": "B",
+          "text": "criticize museums for ignoring the writer's family"
+        },
+        {
+          "id": "C",
+          "text": "establish through a personal example the idea that everyday objects carry historical meaning"
+        },
+        {
+          "id": "D",
+          "text": "explain how to organize a button collection"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The final sentence reframes the jar as an archive, preparing readers to accept the essay's claim about ordinary objects.",
-      "distractors": { "B": "No museum is mentioned or criticized here." }
+      "distractors": {
+        "B": "No museum is mentioned or criticized here."
+      }
     },
     {
-      "id": "u2-q05", "tier": "Exam level", "type": "mcq", "topic": "Thesis / qualifying claims",
+      "id": "u2-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Thesis / qualifying claims",
       "stimulus": "Draft thesis: \"Standardized tests are useless and should be abolished.\"\n\nThe writer's research shows that test scores predict first-year college grades modestly, but less well than high school GPA, and that scores correlate strongly with family income.",
       "stem": "The writer wants to revise the thesis so that it reflects the complexity of the evidence. Which revision best accomplishes this goal?",
       "choices": [
-        { "id": "A", "text": "Although standardized tests offer some predictive value, colleges should make them optional, since grades predict success better and scores partly measure family income." },
-        { "id": "B", "text": "Standardized tests are completely useless and must be abolished immediately." },
-        { "id": "C", "text": "Standardized tests are the most accurate measure of student ability." },
-        { "id": "D", "text": "Many people have different opinions about standardized testing." }
+        {
+          "id": "A",
+          "text": "Many people have different opinions about standardized testing."
+        },
+        {
+          "id": "B",
+          "text": "Standardized tests are completely useless and must be abolished immediately."
+        },
+        {
+          "id": "C",
+          "text": "Standardized tests are the most accurate measure of student ability."
+        },
+        {
+          "id": "D",
+          "text": "Although standardized tests offer some predictive value, colleges should make them optional, since grades predict success better and scores partly measure family income."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "It concedes the modest predictive value the evidence shows, while making a defensible claim grounded in the other findings.",
-      "distractors": { "B": "Intensifies a claim the evidence doesn't fully support.", "C": "Contradicts the evidence.", "D": "Abandons the claim." }
+      "distractors": {
+        "B": "Intensifies a claim the evidence doesn't fully support.",
+        "C": "Contradicts the evidence.",
+        "A": "Abandons the claim."
+      }
     },
     {
-      "id": "u2-q06", "tier": "Exam level", "type": "mcq", "topic": "Rhetorical choices",
+      "id": "u2-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Rhetorical choices",
       "stimulus": "We tell young athletes that hard work always pays off. Then we hand the scholarship to the player whose parents could afford three years of private coaching. Is it any wonder that so many talented teenagers quit before they turn sixteen?",
       "stem": "The rhetorical question in the final sentence primarily functions to",
       "choices": [
-        { "id": "A", "text": "invite readers to draw the writer's conclusion themselves, emphasizing that quitting is a predictable response to an unfair system" },
-        { "id": "B", "text": "express genuine uncertainty about why athletes quit" },
-        { "id": "C", "text": "introduce a counterargument the writer will refute" },
-        { "id": "D", "text": "shift the topic from youth sports to education policy" }
+        {
+          "id": "A",
+          "text": "invite readers to draw the writer's conclusion themselves, emphasizing that quitting is a predictable response to an unfair system"
+        },
+        {
+          "id": "B",
+          "text": "express genuine uncertainty about why athletes quit"
+        },
+        {
+          "id": "C",
+          "text": "introduce a counterargument the writer will refute"
+        },
+        {
+          "id": "D",
+          "text": "shift the topic from youth sports to education policy"
+        }
       ],
       "answer": "A",
       "explanation": "The answer is implied by the preceding contrast; the question leads readers to judge the system for themselves.",
-      "distractors": { "B": "The question is rhetorical; the writer's view is clear." }
+      "distractors": {
+        "B": "The question is rhetorical; the writer's view is clear."
+      }
     },
     {
-      "id": "u2-q07", "tier": "Exam level", "type": "mcq", "topic": "Argument structure",
+      "id": "u2-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Argument structure",
       "stimulus": "(1) Some argue that four-day school weeks save districts money. (2) Savings are real but small, often under two percent of a budget. (3) Meanwhile, studies in several states show modest declines in math achievement. (4) For working parents, the fifth day becomes a childcare problem. (5) A district facing a deficit should look elsewhere first.\n\nThe writer wants to add this sentence: \"Districts should not trade learning and family stability for savings this slight.\"",
       "stem": "Where would the sentence best be placed?",
       "choices": [
-        { "id": "A", "text": "After sentence 4" },
-        { "id": "B", "text": "Before sentence 1" },
-        { "id": "C", "text": "After sentence 1" },
-        { "id": "D", "text": "After sentence 2" }
+        {
+          "id": "A",
+          "text": "After sentence 1"
+        },
+        {
+          "id": "B",
+          "text": "Before sentence 1"
+        },
+        {
+          "id": "C",
+          "text": "After sentence 4"
+        },
+        {
+          "id": "D",
+          "text": "After sentence 2"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "It synthesizes the small savings (2) and the costs to learning (3) and families (4), leading into the recommendation (5).",
-      "distractors": { "C": "Too early: the costs haven't been established.", "D": "Learning and family costs haven't been mentioned yet." }
+      "distractors": {
+        "D": "Learning and family costs haven't been mentioned yet.",
+        "A": "Too early: the costs haven't been established."
+      }
     },
     {
-      "id": "u2-q08", "tier": "Exam level", "type": "mcq", "topic": "Audience",
+      "id": "u2-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Audience",
       "stimulus": "Draft sentence: \"The algorithm's recall at k = 10 improved substantially once we applied hard negative mining.\"\n\nThe writer is revising a technical report into an article for a general newspaper audience.",
       "stem": "Which revision best adapts the sentence to the new audience while keeping its meaning?",
       "choices": [
-        { "id": "A", "text": "Once the researchers trained the program on examples that were easy to confuse, it got much better at listing the right answer among its top ten suggestions." },
-        { "id": "B", "text": "The algorithm got better." },
-        { "id": "C", "text": "Recall at k = 10, a standard metric, improved with hard negative mining, a known technique." },
-        { "id": "D", "text": "Hard negative mining is the most important invention in computing." }
+        {
+          "id": "A",
+          "text": "Hard negative mining is the most important invention in computing."
+        },
+        {
+          "id": "B",
+          "text": "The algorithm got better."
+        },
+        {
+          "id": "C",
+          "text": "Recall at k = 10, a standard metric, improved with hard negative mining, a known technique."
+        },
+        {
+          "id": "D",
+          "text": "Once the researchers trained the program on examples that were easy to confuse, it got much better at listing the right answer among its top ten suggestions."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "It translates jargon into plain language without losing the specific improvement or its cause.",
-      "distractors": { "B": "Loses the meaning.", "C": "Keeps the jargon.", "D": "Adds an unsupported claim." }
+      "distractors": {
+        "B": "Loses the meaning.",
+        "C": "Keeps the jargon.",
+        "A": "Adds an unsupported claim."
+      }
     },
     {
-      "id": "u2-q09", "tier": "Exam level", "type": "mcq", "topic": "Evidence",
+      "id": "u2-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Evidence",
       "stimulus": "Claim: \"Planting street trees is one of the cheapest ways for cities to protect residents from extreme heat.\"",
       "stem": "Which evidence would most directly support this claim?",
       "choices": [
-        { "id": "A", "text": "A city study finding that blocks with full tree canopy were up to 10°F cooler at street level, at a fraction of the cost of new cooling centers" },
-        { "id": "B", "text": "A survey showing most residents think trees are attractive" },
-        { "id": "C", "text": "A history of the city's first park" },
-        { "id": "D", "text": "A list of tree species native to the region" }
+        {
+          "id": "A",
+          "text": "A survey showing most residents think trees are attractive"
+        },
+        {
+          "id": "B",
+          "text": "A city study finding that blocks with full tree canopy were up to 10°F cooler at street level, at a fraction of the cost of new cooling centers"
+        },
+        {
+          "id": "C",
+          "text": "A history of the city's first park"
+        },
+        {
+          "id": "D",
+          "text": "A list of tree species native to the region"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The claim has two parts, heat protection and low cost; only this evidence addresses both.",
-      "distractors": { "B": "Addresses appeal, not heat or cost." }
+      "distractors": {
+        "A": "Addresses appeal, not heat or cost."
+      }
     },
     {
-      "id": "u2-q10", "tier": "Exam level", "type": "mcq", "topic": "Concession and refutation",
+      "id": "u2-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Concession and refutation",
       "stimulus": "Critics are right that self-checkout lanes have reduced some cashier jobs. But the stores that adopted them earliest also added positions in online order fulfillment, and those jobs pay, on average, more per hour. The question isn't whether work is changing; it's whether we train people to follow it.",
       "stem": "The first sentence of the passage primarily serves to",
       "choices": [
-        { "id": "A", "text": "concede a valid point before reframing the issue in the writer's favor" },
-        { "id": "B", "text": "state the writer's main claim" },
-        { "id": "C", "text": "provide the strongest evidence for the writer's position" },
-        { "id": "D", "text": "reject the critics' argument entirely" }
+        {
+          "id": "A",
+          "text": "concede a valid point before reframing the issue in the writer's favor"
+        },
+        {
+          "id": "B",
+          "text": "state the writer's main claim"
+        },
+        {
+          "id": "C",
+          "text": "provide the strongest evidence for the writer's position"
+        },
+        {
+          "id": "D",
+          "text": "reject the critics' argument entirely"
+        }
       ],
       "answer": "A",
       "explanation": "The writer grants job losses, then uses \"But\" to pivot to offsetting gains and a reframed question.",
-      "distractors": { "D": "The writer agrees the critics are \"right\" about job losses." }
+      "distractors": {
+        "D": "The writer agrees the critics are \"right\" about job losses."
+      }
     },
     {
-      "id": "u2-q11", "tier": "Hardest", "type": "mcq", "topic": "Rhetorical choices and audience",
+      "id": "u2-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Rhetorical choices and audience",
       "stimulus": "We are the generation that learned to read on screens. We know how to skim a feed and find what matters in seconds. And we know, better than anyone who came before us, how easily a confident sentence can be wrong. That is exactly why we should be the ones demanding that schools teach source evaluation, not resisting it as one more requirement.",
       "stem": "Written for an audience of fellow students, the passage's repeated use of \"we\" most likely serves to",
       "choices": [
-        { "id": "A", "text": "build a shared identity with the audience so that the requirement feels like the students' own demand rather than an imposition" },
-        { "id": "B", "text": "emphasize that the writer is more qualified than the audience" },
-        { "id": "C", "text": "criticize older generations for spreading misinformation" },
-        { "id": "D", "text": "signal that the writer is speaking on behalf of school administrators" }
+        {
+          "id": "A",
+          "text": "build a shared identity with the audience so that the requirement feels like the students' own demand rather than an imposition"
+        },
+        {
+          "id": "B",
+          "text": "emphasize that the writer is more qualified than the audience"
+        },
+        {
+          "id": "C",
+          "text": "criticize older generations for spreading misinformation"
+        },
+        {
+          "id": "D",
+          "text": "signal that the writer is speaking on behalf of school administrators"
+        }
       ],
       "answer": "A",
       "explanation": "Inclusive pronouns turn the audience's skills into a reason to embrace the requirement, anticipating resistance (\"one more requirement\").",
-      "distractors": { "B": "\"We\" includes the writer with the audience, not above it.", "C": "The comparison with earlier generations supports the students' expertise; it isn't the purpose of \"we.\"" }
+      "distractors": {
+        "B": "\"We\" includes the writer with the audience, not above it.",
+        "C": "The comparison with earlier generations supports the students' expertise; it isn't the purpose of \"we.\""
+      }
     },
     {
-      "id": "u2-q12", "tier": "Hardest", "type": "mcq", "topic": "Implicit thesis",
+      "id": "u2-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Implicit thesis",
       "stimulus": "The county fair still gives a blue ribbon for the best jam. It also now gives one for the best drone video of the fairgrounds, and last year that category drew three times as many entries. The 4-H barn, where my uncle once raised a prize steer, is half empty. The midway is louder than ever.",
       "stem": "Which statement best expresses the passage's implicit claim?",
       "choices": [
-        { "id": "A", "text": "The fair survives by adapting to new interests, but in doing so it is losing the agricultural traditions at its center." },
-        { "id": "B", "text": "Drone videos are better than jam." },
-        { "id": "C", "text": "The county should cancel the fair." },
-        { "id": "D", "text": "The writer's uncle was the best steer raiser in the county." }
+        {
+          "id": "A",
+          "text": "The writer's uncle was the best steer raiser in the county."
+        },
+        {
+          "id": "B",
+          "text": "Drone videos are better than jam."
+        },
+        {
+          "id": "C",
+          "text": "The county should cancel the fair."
+        },
+        {
+          "id": "D",
+          "text": "The fair survives by adapting to new interests, but in doing so it is losing the agricultural traditions at its center."
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The contrasts (old ribbon vs. popular new one, empty barn vs. loud midway) imply change that sustains the fair while hollowing out its farm roots.",
-      "distractors": { "C": "Nothing suggests ending the fair; it's thriving in some ways." }
+      "distractors": {
+        "C": "Nothing suggests ending the fair; it's thriving in some ways."
+      }
     },
     {
-      "id": "u2-q13", "tier": "Hardest", "type": "mcq", "topic": "Audience",
+      "id": "u2-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Audience",
       "stimulus": "Draft sentence for an op-ed in a business newspaper: \"Raising the minimum wage is simply the right thing to do, because no one who works full time should live in poverty.\"\n\nThe writer expects many readers to be skeptical business owners.",
       "stem": "Which revision would most effectively address the concerns of this audience?",
       "choices": [
-        { "id": "A", "text": "Raising the minimum wage gradually can reduce costly employee turnover, as firms that raised pay voluntarily have found, while ensuring full-time workers stay out of poverty." },
-        { "id": "B", "text": "Anyone who opposes a higher minimum wage simply doesn't care about workers." },
-        { "id": "C", "text": "Raising the minimum wage is the right thing to do, period." },
-        { "id": "D", "text": "The minimum wage was first established in 1938." }
+        {
+          "id": "A",
+          "text": "Anyone who opposes a higher minimum wage simply doesn't care about workers."
+        },
+        {
+          "id": "B",
+          "text": "Raising the minimum wage gradually can reduce costly employee turnover, as firms that raised pay voluntarily have found, while ensuring full-time workers stay out of poverty."
+        },
+        {
+          "id": "C",
+          "text": "Raising the minimum wage is the right thing to do, period."
+        },
+        {
+          "id": "D",
+          "text": "The minimum wage was first established in 1938."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "It connects the policy to the audience's interests (turnover costs), adds a reassuring qualifier (\"gradually\"), and keeps the moral argument as support.",
-      "distractors": { "B": "Alienates the audience.", "C": "Ignores their concerns." }
+      "distractors": {
+        "C": "Ignores their concerns.",
+        "A": "Alienates the audience."
+      }
     },
     {
-      "id": "u2-q14", "tier": "Hardest", "type": "mcq", "topic": "Line of reasoning",
+      "id": "u2-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Line of reasoning",
       "stimulus": "(1) Public pools are closing across the country, often because of lifeguard shortages. (2) Fewer pools means fewer free swim lessons in low-income neighborhoods. (3) Drowning rates among children who never take lessons are several times higher than among those who do. (4) Pools are also pleasant places to spend a summer afternoon. (5) Cities should therefore treat lifeguard pay as a public safety expense, not a recreation cost.",
       "stem": "Which sentence could be deleted with the least damage to the passage's line of reasoning?",
       "choices": [
-        { "id": "A", "text": "Sentence 4" },
-        { "id": "B", "text": "Sentence 2" },
-        { "id": "C", "text": "Sentence 3" },
-        { "id": "D", "text": "Sentence 1" }
+        {
+          "id": "A",
+          "text": "Sentence 3"
+        },
+        {
+          "id": "B",
+          "text": "Sentence 2"
+        },
+        {
+          "id": "C",
+          "text": "Sentence 4"
+        },
+        {
+          "id": "D",
+          "text": "Sentence 1"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The argument moves from closures (1) to lost lessons (2) to drowning risk (3) to a public-safety framing (5). Sentence 4's leisure point doesn't support that chain and even works against the public-safety framing.",
-      "distractors": { "C": "Sentence 3 supplies the safety stakes the conclusion depends on." }
+      "distractors": {
+        "A": "Sentence 3 supplies the safety stakes the conclusion depends on."
+      }
     },
     {
-      "id": "u2-frq1", "tier": "Exam level", "type": "frq", "topic": "Argument", "frqType": "Q3 Argument",
+      "id": "u2-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Argument",
+      "frqType": "Q3 Argument",
       "prompt": "Some communities have proposed banning cell phones in public schools for the entire school day, including lunch and passing periods. Supporters argue that phones harm concentration and social connection; opponents argue that students need to learn self-regulation and that phones provide safety and access to information.\n\nWrite an essay that argues your position on whether schools should ban phones for the entire school day.\n\nIn your response you should do the following:\n- Respond to the prompt with a thesis that presents a defensible position.\n- Provide evidence to support your line of reasoning.\n- Explain how the evidence supports your line of reasoning.\n- Use appropriate grammar and punctuation in communicating your argument.",
       "points": 6,
       "minutes": 40,
       "rubric": [
-        { "criterion": "Row A: Thesis", "points": 1, "description": "Responds with a defensible thesis that takes a position." },
-        { "criterion": "Row B: Evidence and commentary", "points": 4, "description": "4: specific evidence supporting all claims in a line of reasoning, with commentary that consistently explains how it supports the argument. 3: specific evidence with commentary explaining it for most claims. 2: some relevant evidence, commentary repeats or summarizes. 1: general evidence, little commentary." },
-        { "criterion": "Row C: Sophistication", "points": 1, "description": "Demonstrates sophistication of thought or a complex understanding of the rhetorical situation, e.g., explaining the significance or tensions in the issue, or a consistently vivid, persuasive style." }
+        {
+          "criterion": "Row A: Thesis",
+          "points": 1,
+          "description": "Responds with a defensible thesis that takes a position."
+        },
+        {
+          "criterion": "Row B: Evidence and commentary",
+          "points": 4,
+          "description": "4: specific evidence supporting all claims in a line of reasoning, with commentary that consistently explains how it supports the argument. 3: specific evidence with commentary explaining it for most claims. 2: some relevant evidence, commentary repeats or summarizes. 1: general evidence, little commentary."
+        },
+        {
+          "criterion": "Row C: Sophistication",
+          "points": 1,
+          "description": "Demonstrates sophistication of thought or a complex understanding of the rhetorical situation, e.g., explaining the significance or tensions in the issue, or a consistently vivid, persuasive style."
+        }
       ],
       "sampleResponse": "A school day without phones sounds like a return to an easier time, but schools would be wise to ban phones during class while leaving lunch and passing periods alone. A full-day ban treats a habit as if it were a hazard, and it takes away the one setting in which adolescents could practice the self-control they will need for the rest of their lives.\n\nIn the classroom, the case for restriction is strong. A phone face-up on a desk invites constant checking, and even a silenced notification pulls attention from a difficult problem or a discussion. Teachers already spend minutes of every period redirecting students; a class-time ban, enforced with pouches or a basket at the door, would return that time to learning and relieve teachers of a losing battle.\n\nLunch is different. It is unstructured time, and the habits students build there are the ones they will carry to college dorms and workplaces where no one collects their phones. If every hour of the school day is regulated, students never practice choosing a conversation over a screen; they simply wait for 3:15. A school that allows phones at lunch can still teach norms through advisory lessons and by modeling them, which builds judgment rather than dependence on rules.\n\nThere are practical reasons, too. Parents rely on a quick text to coordinate rides or warn of emergencies, and some students use phones to manage medical conditions or translate for family members. A full-day ban forces schools into exceptions and enforcement disputes that a narrower policy avoids.\n\nSupporters of total bans point to students eating in silence, scrolling instead of talking, and they are right that this is a loss. But a rule that removes the temptation does not teach students to resist it. The better policy protects instruction, where distraction does the most damage, and treats the rest of the day as a chance to teach the self-regulation that no ban can install."
     }

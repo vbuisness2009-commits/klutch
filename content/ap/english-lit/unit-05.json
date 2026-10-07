@@ -47,226 +47,497 @@
     "cramSheet": "**Forms:** sonnet (volta, couplet) · villanelle (refrains) · free verse\n\n**Figures:** conceit · paradox · oxymoron · layered metaphor\n\n**Movement:** shift · tension · beginning vs. end attitude\n\n**Essay:** progression or tension structure · complex thesis · short quotations"
   },
   "vocab": [
-    { "term": "Sonnet", "definition": "A 14-line poem, traditionally in iambic pentameter, often with a turn (volta)." },
-    { "term": "Shakespearean sonnet", "definition": "Three quatrains and a closing couplet, rhymed ABAB CDCD EFEF GG." },
-    { "term": "Petrarchan sonnet", "definition": "An octave and a sestet, with the volta usually between them." },
-    { "term": "Couplet", "definition": "Two consecutive rhyming lines." },
-    { "term": "Villanelle", "definition": "A 19-line form with two repeating refrains and two rhymes." },
-    { "term": "Free verse", "definition": "Poetry without regular meter or rhyme scheme." },
-    { "term": "Conceit", "definition": "An elaborate, often surprising extended comparison." },
-    { "term": "Paradox", "definition": "A statement that seems contradictory but reveals a truth." },
-    { "term": "Oxymoron", "definition": "Two contradictory terms placed together, such as \"bitter sweetness.\"" },
-    { "term": "Refrain", "definition": "A repeated line or phrase in a poem." },
-    { "term": "Iambic pentameter", "definition": "A line of five iambs (unstressed-stressed syllable pairs)." },
-    { "term": "Caesura", "definition": "A pause within a line of poetry." },
-    { "term": "Anaphora", "definition": "Repetition of words at the beginning of successive lines." }
+    {
+      "term": "Sonnet",
+      "definition": "A 14-line poem, traditionally in iambic pentameter, often with a turn (volta)."
+    },
+    {
+      "term": "Shakespearean sonnet",
+      "definition": "Three quatrains and a closing couplet, rhymed ABAB CDCD EFEF GG."
+    },
+    {
+      "term": "Petrarchan sonnet",
+      "definition": "An octave and a sestet, with the volta usually between them."
+    },
+    {
+      "term": "Couplet",
+      "definition": "Two consecutive rhyming lines."
+    },
+    {
+      "term": "Villanelle",
+      "definition": "A 19-line form with two repeating refrains and two rhymes."
+    },
+    {
+      "term": "Free verse",
+      "definition": "Poetry without regular meter or rhyme scheme."
+    },
+    {
+      "term": "Conceit",
+      "definition": "An elaborate, often surprising extended comparison."
+    },
+    {
+      "term": "Paradox",
+      "definition": "A statement that seems contradictory but reveals a truth."
+    },
+    {
+      "term": "Oxymoron",
+      "definition": "Two contradictory terms placed together, such as \"bitter sweetness.\""
+    },
+    {
+      "term": "Refrain",
+      "definition": "A repeated line or phrase in a poem."
+    },
+    {
+      "term": "Iambic pentameter",
+      "definition": "A line of five iambs (unstressed-stressed syllable pairs)."
+    },
+    {
+      "term": "Caesura",
+      "definition": "A pause within a line of poetry."
+    },
+    {
+      "term": "Anaphora",
+      "definition": "Repetition of words at the beginning of successive lines."
+    }
   ],
   "practice": [
     {
-      "id": "u5-q01", "tier": "Intro", "type": "mcq", "topic": "Oxymoron",
+      "id": "u5-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Oxymoron",
       "stimulus": "We lived in a loud silence after the diagnosis.",
       "stem": "\"Loud silence\" is an example of",
       "choices": [
-        { "id": "A", "text": "oxymoron" },
-        { "id": "B", "text": "simile" },
-        { "id": "C", "text": "apostrophe" },
-        { "id": "D", "text": "onomatopoeia" }
+        {
+          "id": "A",
+          "text": "simile"
+        },
+        {
+          "id": "B",
+          "text": "oxymoron"
+        },
+        {
+          "id": "C",
+          "text": "apostrophe"
+        },
+        {
+          "id": "D",
+          "text": "onomatopoeia"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Contradictory terms convey an oppressive, charged quiet.",
       "distractors": {}
     },
     {
-      "id": "u5-q02", "tier": "Intro", "type": "mcq", "topic": "Form",
+      "id": "u5-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Form",
       "stem": "In a Shakespearean sonnet, the final two lines usually",
       "choices": [
-        { "id": "A", "text": "form a rhymed couplet that resolves or twists the poem's argument" },
-        { "id": "B", "text": "introduce a new speaker" },
-        { "id": "C", "text": "repeat the first line exactly" },
-        { "id": "D", "text": "abandon rhyme entirely" }
+        {
+          "id": "A",
+          "text": "repeat the first line exactly"
+        },
+        {
+          "id": "B",
+          "text": "introduce a new speaker"
+        },
+        {
+          "id": "C",
+          "text": "form a rhymed couplet that resolves or twists the poem's argument"
+        },
+        {
+          "id": "D",
+          "text": "abandon rhyme entirely"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "The GG couplet often delivers a turn or summary.",
-      "distractors": { "C": "That's characteristic of refrains in forms like the villanelle." }
+      "distractors": {
+        "A": "That's characteristic of refrains in forms like the villanelle."
+      }
     },
     {
-      "id": "u5-q03", "tier": "Intro", "type": "mcq", "topic": "Paradox",
+      "id": "u5-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Paradox",
       "stimulus": "To keep her, I had to let her go.",
       "stem": "The line is an example of",
       "choices": [
-        { "id": "A", "text": "paradox" },
-        { "id": "B", "text": "alliteration" },
-        { "id": "C", "text": "hyperbole" },
-        { "id": "D", "text": "an end-stopped refrain" }
+        {
+          "id": "A",
+          "text": "an end-stopped refrain"
+        },
+        {
+          "id": "B",
+          "text": "alliteration"
+        },
+        {
+          "id": "C",
+          "text": "hyperbole"
+        },
+        {
+          "id": "D",
+          "text": "paradox"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "It seems contradictory but expresses a truth about love and freedom.",
       "distractors": {}
     },
     {
-      "id": "u5-q04", "tier": "Intro", "type": "mcq", "topic": "Volta",
+      "id": "u5-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Volta",
       "stimulus": "For eight lines, a poem praises the speaker's hometown in glowing detail. Line nine begins: \"But no one stays.\"",
       "stem": "Line nine most likely marks",
       "choices": [
-        { "id": "A", "text": "the poem's volta, introducing a contrasting idea" },
-        { "id": "B", "text": "the poem's title" },
-        { "id": "C", "text": "a continuation of the praise" },
-        { "id": "D", "text": "an apostrophe" }
+        {
+          "id": "A",
+          "text": "the poem's volta, introducing a contrasting idea"
+        },
+        {
+          "id": "B",
+          "text": "the poem's title"
+        },
+        {
+          "id": "C",
+          "text": "a continuation of the praise"
+        },
+        {
+          "id": "D",
+          "text": "an apostrophe"
+        }
       ],
       "answer": "A",
       "explanation": "\"But\" signals a turn from praise to loss.",
       "distractors": {}
     },
     {
-      "id": "u5-q05", "tier": "Exam level", "type": "mcq", "topic": "Conceit",
+      "id": "u5-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Conceit",
       "stimulus": "My heart is a pawnshop: / every pledge I made is here, / ticketed, waiting, / and I can't afford to buy any of them back.",
       "stem": "The conceit most directly suggests that the speaker",
       "choices": [
-        { "id": "A", "text": "has given away commitments or feelings and now feels unable to reclaim them" },
-        { "id": "B", "text": "works in a pawnshop" },
-        { "id": "C", "text": "values money above love" },
-        { "id": "D", "text": "has never made promises" }
+        {
+          "id": "A",
+          "text": "values money above love"
+        },
+        {
+          "id": "B",
+          "text": "works in a pawnshop"
+        },
+        {
+          "id": "C",
+          "text": "has given away commitments or feelings and now feels unable to reclaim them"
+        },
+        {
+          "id": "D",
+          "text": "has never made promises"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Pledges pawned and unaffordable suggest regret and loss.",
       "distractors": {}
     },
     {
-      "id": "u5-q06", "tier": "Exam level", "type": "mcq", "topic": "Repetition and form",
+      "id": "u5-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Repetition and form",
       "stimulus": "A villanelle about a speaker caring for a sick parent repeats the refrains \"I'll be here in the morning\" and \"The night is longer than it was.\"",
       "stem": "The repeated refrains most likely convey",
       "choices": [
-        { "id": "A", "text": "the speaker's steadfast commitment set against growing exhaustion and fear" },
-        { "id": "B", "text": "that the speaker plans to leave" },
-        { "id": "C", "text": "a cheerful, carefree mood" },
-        { "id": "D", "text": "confusion about the time of day" }
+        {
+          "id": "A",
+          "text": "that the speaker plans to leave"
+        },
+        {
+          "id": "B",
+          "text": "the speaker's steadfast commitment set against growing exhaustion and fear"
+        },
+        {
+          "id": "C",
+          "text": "a cheerful, carefree mood"
+        },
+        {
+          "id": "D",
+          "text": "confusion about the time of day"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The form's insistence mirrors devotion; the second refrain carries strain.",
       "distractors": {}
     },
     {
-      "id": "u5-q07", "tier": "Exam level", "type": "mcq", "topic": "Shift",
+      "id": "u5-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Shift",
       "stimulus": "The first stanza describes the speaker's childhood fear of the deep lake. The final stanza ends: \"Now I swim out past the buoys / where my father used to stop, / and float there, unafraid, / alone.\"",
       "stem": "The final word most likely",
       "choices": [
-        { "id": "A", "text": "complicates the speaker's triumph by suggesting loss or loneliness" },
-        { "id": "B", "text": "simply describes the lake" },
-        { "id": "C", "text": "shows the speaker is still afraid" },
-        { "id": "D", "text": "introduces a new character" }
+        {
+          "id": "A",
+          "text": "complicates the speaker's triumph by suggesting loss or loneliness"
+        },
+        {
+          "id": "B",
+          "text": "simply describes the lake"
+        },
+        {
+          "id": "C",
+          "text": "shows the speaker is still afraid"
+        },
+        {
+          "id": "D",
+          "text": "introduces a new character"
+        }
       ],
       "answer": "A",
       "explanation": "Isolated on its line, \"alone\" adds the father's absence to the speaker's courage.",
-      "distractors": { "C": "\"Unafraid\" says the opposite." }
+      "distractors": {
+        "C": "\"Unafraid\" says the opposite."
+      }
     },
     {
-      "id": "u5-q08", "tier": "Exam level", "type": "mcq", "topic": "Caesura",
+      "id": "u5-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Caesura",
       "stimulus": "She called my name. I didn't turn. / I wish, now, that I had.",
       "stem": "The pauses in these lines primarily",
       "choices": [
-        { "id": "A", "text": "slow the reading to emphasize the speaker's regret" },
-        { "id": "B", "text": "create a fast, excited rhythm" },
-        { "id": "C", "text": "introduce rhyme" },
-        { "id": "D", "text": "mark dialogue between two speakers" }
+        {
+          "id": "A",
+          "text": "mark dialogue between two speakers"
+        },
+        {
+          "id": "B",
+          "text": "create a fast, excited rhythm"
+        },
+        {
+          "id": "C",
+          "text": "introduce rhyme"
+        },
+        {
+          "id": "D",
+          "text": "slow the reading to emphasize the speaker's regret"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Short clauses and commas around \"now\" create hesitant, heavy pacing.",
       "distractors": {}
     },
     {
-      "id": "u5-q09", "tier": "Exam level", "type": "mcq", "topic": "Tension between images",
+      "id": "u5-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Tension between images",
       "stimulus": "The new mall glitters where the woods were; / in its parking lot, one oak, / fenced, labeled, kept.",
       "stem": "The image of the single oak most likely suggests",
       "choices": [
-        { "id": "A", "text": "that nature has been reduced to a preserved specimen within development" },
-        { "id": "B", "text": "that the forest is thriving" },
-        { "id": "C", "text": "that the mall is made of oak" },
-        { "id": "D", "text": "that the speaker loves shopping" }
+        {
+          "id": "A",
+          "text": "that the mall is made of oak"
+        },
+        {
+          "id": "B",
+          "text": "that the forest is thriving"
+        },
+        {
+          "id": "C",
+          "text": "that nature has been reduced to a preserved specimen within development"
+        },
+        {
+          "id": "D",
+          "text": "that the speaker loves shopping"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "\"Fenced, labeled, kept\" turns the tree into an exhibit, a trace of what was lost.",
       "distractors": {}
     },
     {
-      "id": "u5-q10", "tier": "Exam level", "type": "mcq", "topic": "Free verse and form",
+      "id": "u5-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Free verse and form",
       "stimulus": "A free verse poem about a refugee's journey uses lines that grow shorter as the poem progresses, ending with single-word lines.",
       "stem": "The narrowing lines most likely reflect",
       "choices": [
-        { "id": "A", "text": "the narrowing of the speaker's options and growing exhaustion" },
-        { "id": "B", "text": "the poet's lack of material" },
-        { "id": "C", "text": "a traditional sonnet structure" },
-        { "id": "D", "text": "a joyful arrival" }
+        {
+          "id": "A",
+          "text": "the poet's lack of material"
+        },
+        {
+          "id": "B",
+          "text": "the narrowing of the speaker's options and growing exhaustion"
+        },
+        {
+          "id": "C",
+          "text": "a traditional sonnet structure"
+        },
+        {
+          "id": "D",
+          "text": "a joyful arrival"
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Form mirrors experience: diminishing space and energy.",
       "distractors": {}
     },
     {
-      "id": "u5-q11", "tier": "Hardest", "type": "mcq", "topic": "Couplet twist",
+      "id": "u5-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Couplet twist",
       "stimulus": "A sonnet spends twelve lines praising a beloved's beauty with conventional comparisons to roses, stars, and summer. The final couplet reads: \"And yet I've never told you any of this, / afraid you'd hear how little I know you.\"",
       "stem": "The couplet most significantly",
       "choices": [
-        { "id": "A", "text": "reveals that the conventional praise masks a lack of real intimacy, reframing the entire poem" },
-        { "id": "B", "text": "confirms the praise as deeply personal" },
-        { "id": "C", "text": "introduces a new beloved" },
-        { "id": "D", "text": "rejects the sonnet form" }
+        {
+          "id": "A",
+          "text": "rejects the sonnet form"
+        },
+        {
+          "id": "B",
+          "text": "confirms the praise as deeply personal"
+        },
+        {
+          "id": "C",
+          "text": "introduces a new beloved"
+        },
+        {
+          "id": "D",
+          "text": "reveals that the conventional praise masks a lack of real intimacy, reframing the entire poem"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "The clichés become evidence of distance, not knowledge.",
-      "distractors": { "B": "The couplet suggests the opposite." }
+      "distractors": {
+        "B": "The couplet suggests the opposite."
+      }
     },
     {
-      "id": "u5-q12", "tier": "Hardest", "type": "mcq", "topic": "Complex attitude",
+      "id": "u5-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Complex attitude",
       "stimulus": "My father's hands could fix anything / but a conversation. / I learned to bring him broken radios, / so we'd have something / to say to each other.",
       "stem": "The speaker's attitude toward the father is best described as",
       "choices": [
-        { "id": "A", "text": "affectionate but aware of the emotional distance their bond required working around" },
-        { "id": "B", "text": "purely admiring of his technical skill" },
-        { "id": "C", "text": "bitterly resentful" },
-        { "id": "D", "text": "indifferent" }
+        {
+          "id": "A",
+          "text": "affectionate but aware of the emotional distance their bond required working around"
+        },
+        {
+          "id": "B",
+          "text": "purely admiring of his technical skill"
+        },
+        {
+          "id": "C",
+          "text": "bitterly resentful"
+        },
+        {
+          "id": "D",
+          "text": "indifferent"
+        }
       ],
       "answer": "A",
       "explanation": "The speaker finds a creative way to connect, revealing both love and limitation.",
       "distractors": {}
     },
     {
-      "id": "u5-q13", "tier": "Hardest", "type": "mcq", "topic": "Ambiguity",
+      "id": "u5-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Ambiguity",
       "stimulus": "The last line of a poem about leaving home reads: \"I left the door unlocked.\"",
       "stem": "Which interpretation best accounts for the line's ambiguity?",
       "choices": [
-        { "id": "A", "text": "It can suggest both carelessness about what's left behind and a hope of returning." },
-        { "id": "B", "text": "It only means the speaker forgot the key." },
-        { "id": "C", "text": "It proves the house was robbed." },
-        { "id": "D", "text": "It means the speaker never left." }
+        {
+          "id": "A",
+          "text": "It only means the speaker forgot the key."
+        },
+        {
+          "id": "B",
+          "text": "It can suggest both carelessness about what's left behind and a hope of returning."
+        },
+        {
+          "id": "C",
+          "text": "It proves the house was robbed."
+        },
+        {
+          "id": "D",
+          "text": "It means the speaker never left."
+        }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The unlocked door holds competing meanings, fitting a poem about mixed feelings toward home.",
       "distractors": {}
     },
     {
-      "id": "u5-q14", "tier": "Hardest", "type": "mcq", "topic": "Sound and meaning",
+      "id": "u5-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Sound and meaning",
       "stimulus": "Crack, clatter, the cups go down; / then the hush, the hush, the hush.",
       "stem": "The contrast in sound between the two lines most likely emphasizes",
       "choices": [
-        { "id": "A", "text": "a sudden break followed by a heavy, lingering silence" },
-        { "id": "B", "text": "a cheerful tea party" },
-        { "id": "C", "text": "the speaker's love of pottery" },
-        { "id": "D", "text": "a regular meter" }
+        {
+          "id": "A",
+          "text": "the speaker's love of pottery"
+        },
+        {
+          "id": "B",
+          "text": "a cheerful tea party"
+        },
+        {
+          "id": "C",
+          "text": "a sudden break followed by a heavy, lingering silence"
+        },
+        {
+          "id": "D",
+          "text": "a regular meter"
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Harsh consonants enact the break; repeated soft \"hush\" stretches the aftermath.",
       "distractors": {}
     },
     {
-      "id": "u5-frq1", "tier": "Exam level", "type": "frq", "topic": "Poetry analysis", "frqType": "Q1 Poetry Analysis",
+      "id": "u5-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Poetry analysis",
+      "frqType": "Q1 Poetry Analysis",
       "stimulus": "The following poem was written for this practice set.\n\n**Inventory**\n\nAfter the move, I counted what we kept:\none table, scarred where my brother carved his name;\nfour chairs, one wobbling, like a held-back laugh;\nthe blue bowl Mother never let us use.\n\nI counted what we left: the apple tree,\nthe height marks on the pantry door, the creek,\nthe neighbor's dog who walked me to the bus,\nthe sound the stairs made when I came home late.\n\nThe list of what we kept is longer now.\nI add to it each year: a crib, a desk,\na second table where my daughter writes\nher name in pencil, lightly, then erases it.\n\nBut when I close my eyes, it's still the creek,\nthe stairs, the tree. We take the furniture.\nWe leave the house. And something in the leaving\nkeeps us, the way a creek keeps its old course.",
       "prompt": "In this poem, the speaker reflects on moving away from a childhood home. Read the poem carefully. Then, in a well-written essay, analyze how the poet uses literary elements and techniques to convey the speaker's complex relationship to memory and loss.\n\nIn your response you should do the following:\n- Respond to the prompt with a thesis that presents a defensible interpretation.\n- Select and use evidence to support your line of reasoning.\n- Explain how the evidence supports your line of reasoning.\n- Use appropriate grammar and punctuation in communicating your argument.",
       "points": 6,
       "minutes": 40,
       "rubric": [
-        { "criterion": "Row A: Thesis", "points": 1, "description": "Defensible interpretation of the speaker's complex relationship to memory and loss." },
-        { "criterion": "Row B: Evidence and commentary", "points": 4, "description": "4: consistent specific evidence and commentary on structure, imagery, and figurative language. 3: most claims. 2: summary-heavy. 1: minimal." },
-        { "criterion": "Row C: Sophistication", "points": 1, "description": "E.g., explains the paradox that what's left behind is what endures; analyzes the creek image's dual meaning." }
+        {
+          "criterion": "Row A: Thesis",
+          "points": 1,
+          "description": "Defensible interpretation of the speaker's complex relationship to memory and loss."
+        },
+        {
+          "criterion": "Row B: Evidence and commentary",
+          "points": 4,
+          "description": "4: consistent specific evidence and commentary on structure, imagery, and figurative language. 3: most claims. 2: summary-heavy. 1: minimal."
+        },
+        {
+          "criterion": "Row C: Sophistication",
+          "points": 1,
+          "description": "E.g., explains the paradox that what's left behind is what endures; analyzes the creek image's dual meaning."
+        }
       ],
       "sampleResponse": "In \"Inventory,\" the speaker discovers that what a family carries away matters less than what it leaves behind. Through the structure of contrasting lists, the image of a daughter's erased name, and a closing paradox centered on the creek, the poet conveys a relationship to memory in which loss and preservation become the same thing.\n\nThe poem is organized as an inventory, a deliberately unsentimental form that the speaker's emotions keep breaking. The first stanza lists what was kept, but each object carries a human trace: the table \"scarred where my brother carved his name,\" a chair wobbling \"like a held-back laugh.\" Even the practical list is full of memory. The second stanza lists what was left, and these items, a tree, a creek, height marks, the \"sound the stairs made,\" cannot be packed. They are places, relationships, and sensations, things that were never truly possessions.\n\nThe third stanza shifts to the present and complicates the speaker's accounting. \"The list of what we kept is longer now\" as the speaker accumulates a new family's belongings. The image of the daughter writing \"her name in pencil, lightly, then erases it\" quietly contrasts with the brother's carved name in the first stanza. Where the brother marked his permanence, the daughter's mark is provisional, suggesting the speaker's awareness that this new home, too, will become a past.\n\nThe final stanza turns with \"But\": in memory, \"it's still the creek, / the stairs, the tree.\" The short declarative sentences, \"We take the furniture. / We leave the house,\" sound like flat facts until the closing paradox: \"something in the leaving / keeps us.\" The creek simile resolves the poem's tension. A creek that \"keeps its old course\" both moves constantly and remains the same, just as the speaker's identity is shaped by a place she no longer possesses.\n\nThe poem's inventory thus becomes an argument: what we leave behind is what keeps us."
     }

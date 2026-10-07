@@ -131,7 +131,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Para mostrar que el español también ha tomado palabras de otras lenguas"
+          "text": "Para criticar la influencia del árabe"
         },
         {
           "id": "B",
@@ -139,14 +139,14 @@
         },
         {
           "id": "C",
-          "text": "Para criticar la influencia del árabe"
+          "text": "Para mostrar que el español también ha tomado palabras de otras lenguas"
         },
         {
           "id": "D",
           "text": "Para dar ejemplos de Spanglish"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Historical borrowing makes contact normal.",
       "distractors": {}
     },
@@ -161,11 +161,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "requiere un buen dominio de las dos lenguas"
+          "text": "demuestra que el hablante no sabe bien ninguna lengua"
         },
         {
           "id": "B",
-          "text": "demuestra que el hablante no sabe bien ninguna lengua"
+          "text": "requiere un buen dominio de las dos lenguas"
         },
         {
           "id": "C",
@@ -176,7 +176,7 @@
           "text": "está prohibido en las universidades"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "'Exige un dominio considerable de ambos idiomas.'",
       "distractors": {}
     },
@@ -221,7 +221,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Parten del español que los estudiantes ya conocen"
+          "text": "Prohíben el cambio de código"
         },
         {
           "id": "B",
@@ -233,10 +233,10 @@
         },
         {
           "id": "D",
-          "text": "Prohíben el cambio de código"
+          "text": "Parten del español que los estudiantes ya conocen"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Stated in the last paragraph.",
       "distractors": {}
     },
@@ -251,7 +251,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Porque lo asociaban con la pobreza y la discriminación"
+          "text": "Porque nadie lo hablaba ya"
         },
         {
           "id": "B",
@@ -259,14 +259,14 @@
         },
         {
           "id": "C",
-          "text": "Porque nadie lo hablaba ya"
+          "text": "Porque lo asociaban con la pobreza y la discriminación"
         },
         {
           "id": "D",
           "text": "Porque preferían el inglés"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Stated by the narrator.",
       "distractors": {}
     },
@@ -281,7 +281,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Antes se prohibía el quechua en el aula; ahora se enseña junto al castellano"
+          "text": "Los niños ya no van a la escuela"
         },
         {
           "id": "B",
@@ -289,14 +289,14 @@
         },
         {
           "id": "C",
-          "text": "Los niños ya no van a la escuela"
+          "text": "Antes se prohibía el quechua en el aula; ahora se enseña junto al castellano"
         },
         {
           "id": "D",
           "text": "Los padres ya no participan"
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Contrast between her childhood and today.",
       "distractors": {}
     },
@@ -311,7 +311,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Los niños aprenden mejor a leer y se sienten orgullosos de su identidad"
+          "text": "Las familias reciben dinero"
         },
         {
           "id": "B",
@@ -323,10 +323,10 @@
         },
         {
           "id": "D",
-          "text": "Las familias reciben dinero"
+          "text": "Los niños aprenden mejor a leer y se sienten orgullosos de su identidad"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Two benefits she names.",
       "distractors": {}
     },
@@ -341,11 +341,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Faltan maestros formados y materiales escritos"
+          "text": "Hay demasiados libros en quechua"
         },
         {
           "id": "B",
-          "text": "Hay demasiados libros en quechua"
+          "text": "Faltan maestros formados y materiales escritos"
         },
         {
           "id": "C",
@@ -356,7 +356,7 @@
           "text": "El quechua no es una lengua oficial"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Stated by the narrator.",
       "distractors": {
         "D": "The report says it is official."
@@ -403,11 +403,11 @@
       "choices": [
         {
           "id": "A",
-          "text": "Informar sobre la aceptación preliminar y pedir documentos"
+          "text": "Rechazar una solicitud"
         },
         {
           "id": "B",
-          "text": "Rechazar una solicitud"
+          "text": "Informar sobre la aceptación preliminar y pedir documentos"
         },
         {
           "id": "C",
@@ -418,7 +418,7 @@
           "text": "Invitar a una fiesta"
         }
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "Preliminary acceptance and requests.",
       "distractors": {}
     },
@@ -433,7 +433,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Participar en un proyecto de servicio comunitario"
+          "text": "Viajar a otras ciudades"
         },
         {
           "id": "B",
@@ -445,10 +445,10 @@
         },
         {
           "id": "D",
-          "text": "Viajar a otras ciudades"
+          "text": "Participar en un proyecto de servicio comunitario"
         }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Mornings: classes; afternoons: service.",
       "distractors": {}
     },
@@ -493,7 +493,7 @@
       "choices": [
         {
           "id": "A",
-          "text": "Estimada familia: Me llamo Jordan y tengo muchas ganas de conocerlos."
+          "text": "A quien corresponda: Exijo una habitación grande."
         },
         {
           "id": "B",
@@ -501,14 +501,14 @@
         },
         {
           "id": "C",
-          "text": "A quien corresponda: Exijo una habitación grande."
+          "text": "Estimada familia: Me llamo Jordan y tengo muchas ganas de conocerlos."
         },
         {
           "id": "D",
           "text": "Hola, mándame fotos de la casa."
         }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "Polite, warm, and appropriate in register.",
       "distractors": {}
     },

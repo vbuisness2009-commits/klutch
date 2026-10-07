@@ -41,225 +41,558 @@
     "cramSheet": "**Kinematics:** ω = dθ/dt · α = dω/dt · v = rω · a_t = rα · a_c = ω²r\n\n**Torque:** τ = rF sin θ · Στ = Iα\n\n**I:** ∫r² dm · rod center ML²/12 · rod end ML²/3 · disk ½MR² · hoop MR² · sphere (2/5)MR² · I = I_cm + Md²\n\n**Equilibrium:** ΣF = 0, Στ = 0\n\n**Massive pulley:** a = (m₂ − m₁)g/(m₁ + m₂ + I/R²)"
   },
   "vocab": [
-    { "term": "Angular velocity", "definition": "The rate of change of angular position, ω = dθ/dt." },
-    { "term": "Angular acceleration", "definition": "The rate of change of angular velocity, α = dω/dt." },
-    { "term": "Torque", "definition": "The rotational effect of a force: τ = r × F." },
-    { "term": "Lever arm", "definition": "The perpendicular distance from the axis to the line of action of a force." },
-    { "term": "Rotational inertia", "definition": "Resistance to angular acceleration: I = ∫r² dm." },
-    { "term": "Parallel-axis theorem", "definition": "I = I_cm + Md² for an axis parallel to one through the center of mass." },
-    { "term": "Static equilibrium", "definition": "A state with zero net force and zero net torque." },
-    { "term": "Tangential acceleration", "definition": "Linear acceleration along the path: a_t = rα." },
-    { "term": "Centripetal acceleration", "definition": "Acceleration toward the axis: a_c = ω²r." },
-    { "term": "Radian", "definition": "The angle subtended by an arc equal to the radius; required in rotational equations." },
-    { "term": "Rigid body", "definition": "An object whose shape doesn't change as it rotates." },
-    { "term": "Pivot force", "definition": "The force exerted by an axle or hinge on a rotating object." }
+    {
+      "term": "Angular velocity",
+      "definition": "The rate of change of angular position, ω = dθ/dt."
+    },
+    {
+      "term": "Angular acceleration",
+      "definition": "The rate of change of angular velocity, α = dω/dt."
+    },
+    {
+      "term": "Torque",
+      "definition": "The rotational effect of a force: τ = r × F."
+    },
+    {
+      "term": "Lever arm",
+      "definition": "The perpendicular distance from the axis to the line of action of a force."
+    },
+    {
+      "term": "Rotational inertia",
+      "definition": "Resistance to angular acceleration: I = ∫r² dm."
+    },
+    {
+      "term": "Parallel-axis theorem",
+      "definition": "I = I_cm + Md² for an axis parallel to one through the center of mass."
+    },
+    {
+      "term": "Static equilibrium",
+      "definition": "A state with zero net force and zero net torque."
+    },
+    {
+      "term": "Tangential acceleration",
+      "definition": "Linear acceleration along the path: a_t = rα."
+    },
+    {
+      "term": "Centripetal acceleration",
+      "definition": "Acceleration toward the axis: a_c = ω²r."
+    },
+    {
+      "term": "Radian",
+      "definition": "The angle subtended by an arc equal to the radius; required in rotational equations."
+    },
+    {
+      "term": "Rigid body",
+      "definition": "An object whose shape doesn't change as it rotates."
+    },
+    {
+      "term": "Pivot force",
+      "definition": "The force exerted by an axle or hinge on a rotating object."
+    }
   ],
   "practice": [
     {
-      "id": "u5-q01", "tier": "Intro", "type": "mcq", "topic": "Torque",
+      "id": "u5-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Torque",
       "stem": "A 20 N force is applied 0.50 m from a hinge at 30° to the door's surface. What torque does it exert about the hinge?",
       "choices": [
-        { "id": "A", "text": "5.0 N·m" },
-        { "id": "B", "text": "8.7 N·m" },
-        { "id": "C", "text": "10 N·m" },
-        { "id": "D", "text": "40 N·m" }
+        {
+          "id": "A",
+          "text": "5.0 N·m"
+        },
+        {
+          "id": "B",
+          "text": "8.7 N·m"
+        },
+        {
+          "id": "C",
+          "text": "10 N·m"
+        },
+        {
+          "id": "D",
+          "text": "40 N·m"
+        }
       ],
       "answer": "A",
       "explanation": "τ = rF sin θ = (0.50)(20)(0.50) = 5.0 N·m.",
-      "distractors": { "B": "Uses cos 30°.", "C": "Assumes perpendicular force." }
+      "distractors": {
+        "B": "Uses cos 30°.",
+        "C": "Assumes perpendicular force."
+      }
     },
     {
-      "id": "u5-q02", "tier": "Intro", "type": "mcq", "topic": "Rotational Inertia",
+      "id": "u5-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Rotational Inertia",
       "stem": "A thin uniform rod of mass M and length L has I = ML²/12 about its center. What is its rotational inertia about one end?",
       "choices": [
-        { "id": "A", "text": "ML²/12" },
-        { "id": "B", "text": "ML²/6" },
-        { "id": "C", "text": "ML²/3" },
-        { "id": "D", "text": "ML²" }
+        {
+          "id": "A",
+          "text": "ML²/12"
+        },
+        {
+          "id": "B",
+          "text": "ML²/3"
+        },
+        {
+          "id": "C",
+          "text": "ML²/6"
+        },
+        {
+          "id": "D",
+          "text": "ML²"
+        }
       ],
-      "answer": "C",
+      "answer": "B",
       "explanation": "ML²/12 + M(L/2)² = ML²/3.",
       "distractors": {}
     },
     {
-      "id": "u5-q03", "tier": "Intro", "type": "mcq", "topic": "Rotational Kinematics",
+      "id": "u5-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Rotational Kinematics",
       "stem": "A wheel spins up from rest with constant angular acceleration 2.0 rad/s². What is its angular speed after 5.0 s?",
       "choices": [
-        { "id": "A", "text": "2.5 rad/s" },
-        { "id": "B", "text": "10 rad/s" },
-        { "id": "C", "text": "25 rad/s" },
-        { "id": "D", "text": "50 rad/s" }
+        {
+          "id": "A",
+          "text": "2.5 rad/s"
+        },
+        {
+          "id": "B",
+          "text": "10 rad/s"
+        },
+        {
+          "id": "C",
+          "text": "25 rad/s"
+        },
+        {
+          "id": "D",
+          "text": "50 rad/s"
+        }
       ],
       "answer": "B",
       "explanation": "ω = αt = 10 rad/s.",
-      "distractors": { "C": "Angular displacement." }
+      "distractors": {
+        "C": "Angular displacement."
+      }
     },
     {
-      "id": "u5-q04", "tier": "Intro", "type": "mcq", "topic": "Rotational Inertia",
+      "id": "u5-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Rotational Inertia",
       "stem": "A hoop and a solid disk have the same mass and radius. Which has the larger rotational inertia about its central axis?",
       "choices": [
-        { "id": "A", "text": "The hoop, because all its mass is at the maximum radius" },
-        { "id": "B", "text": "The disk" },
-        { "id": "C", "text": "They are equal" },
-        { "id": "D", "text": "It depends on angular speed" }
+        {
+          "id": "A",
+          "text": "It depends on angular speed"
+        },
+        {
+          "id": "B",
+          "text": "The disk"
+        },
+        {
+          "id": "C",
+          "text": "They are equal"
+        },
+        {
+          "id": "D",
+          "text": "The hoop, because all its mass is at the maximum radius"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "Hoop MR² vs. disk ½MR².",
       "distractors": {}
     },
     {
-      "id": "u5-q05", "tier": "Exam level", "type": "mcq", "topic": "Newton's Second Law in Rotational Form",
+      "id": "u5-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Newton's Second Law in Rotational Form",
       "stem": "A string wrapped around a 4.0 kg solid disk of radius 0.50 m (free to rotate about a fixed central axle) is pulled with a constant 10 N force. What is the disk's angular acceleration?",
       "choices": [
-        { "id": "A", "text": "2.5 rad/s²" },
-        { "id": "B", "text": "5.0 rad/s²" },
-        { "id": "C", "text": "10 rad/s²" },
-        { "id": "D", "text": "20 rad/s²" }
+        {
+          "id": "A",
+          "text": "2.5 rad/s²"
+        },
+        {
+          "id": "B",
+          "text": "5.0 rad/s²"
+        },
+        {
+          "id": "C",
+          "text": "10 rad/s²"
+        },
+        {
+          "id": "D",
+          "text": "20 rad/s²"
+        }
       ],
       "answer": "C",
       "explanation": "τ = 10 × 0.50 = 5.0 N·m; I = ½(4)(0.25) = 0.50 kg·m²; α = 10 rad/s².",
-      "distractors": { "B": "Uses I = MR²." }
+      "distractors": {
+        "B": "Uses I = MR²."
+      }
     },
     {
-      "id": "u5-q06", "tier": "Exam level", "type": "mcq", "topic": "Newton's Second Law in Rotational Form",
+      "id": "u5-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Newton's Second Law in Rotational Form",
       "stem": "An Atwood machine has masses 2.0 kg and 4.0 kg connected over a pulley that is a 2.0 kg uniform disk. The string doesn't slip. What is the acceleration of the masses? (g = 9.8 m/s²)",
       "choices": [
-        { "id": "A", "text": "2.8 m/s²" },
-        { "id": "B", "text": "3.3 m/s²" },
-        { "id": "C", "text": "2.45 m/s²" },
-        { "id": "D", "text": "4.9 m/s²" }
+        {
+          "id": "A",
+          "text": "4.9 m/s²"
+        },
+        {
+          "id": "B",
+          "text": "3.3 m/s²"
+        },
+        {
+          "id": "C",
+          "text": "2.45 m/s²"
+        },
+        {
+          "id": "D",
+          "text": "2.8 m/s²"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "a = (4 − 2)g/(2 + 4 + ½·2) = 19.6/7 = 2.8 m/s².",
-      "distractors": { "B": "Massless pulley." }
+      "distractors": {
+        "B": "Massless pulley."
+      }
     },
     {
-      "id": "u5-q07", "tier": "Exam level", "type": "mcq", "topic": "Newton's Second Law in Rotational Form",
+      "id": "u5-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Newton's Second Law in Rotational Form",
       "stem": "In the Atwood machine with a massive pulley above, how do the tensions compare?",
       "choices": [
-        { "id": "A", "text": "The tension on the 4.0 kg side is greater than on the 2.0 kg side." },
-        { "id": "B", "text": "They are equal." },
-        { "id": "C", "text": "The tension on the 2.0 kg side is greater." },
-        { "id": "D", "text": "Both tensions equal the weight of their masses." }
+        {
+          "id": "A",
+          "text": "The tension on the 2.0 kg side is greater."
+        },
+        {
+          "id": "B",
+          "text": "They are equal."
+        },
+        {
+          "id": "C",
+          "text": "The tension on the 4.0 kg side is greater than on the 2.0 kg side."
+        },
+        {
+          "id": "D",
+          "text": "Both tensions equal the weight of their masses."
+        }
       ],
-      "answer": "A",
+      "answer": "C",
       "explanation": "T₂ = 4(9.8 − 2.8) = 28 N; T₁ = 2(9.8 + 2.8) = 25.2 N. The difference provides the torque to accelerate the pulley.",
-      "distractors": { "B": "Only for a massless pulley." }
+      "distractors": {
+        "B": "Only for a massless pulley."
+      }
     },
     {
-      "id": "u5-q08", "tier": "Exam level", "type": "mcq", "topic": "Rotational Equilibrium",
+      "id": "u5-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Rotational Equilibrium",
       "stem": "A 6.0 m uniform beam weighing 400 N rests on supports at its ends. A 600 N person stands 2.0 m from the left end. What force does the right support exert?",
       "choices": [
-        { "id": "A", "text": "400 N" },
-        { "id": "B", "text": "500 N" },
-        { "id": "C", "text": "600 N" },
-        { "id": "D", "text": "1,000 N" }
+        {
+          "id": "A",
+          "text": "400 N"
+        },
+        {
+          "id": "B",
+          "text": "500 N"
+        },
+        {
+          "id": "C",
+          "text": "600 N"
+        },
+        {
+          "id": "D",
+          "text": "1,000 N"
+        }
       ],
       "answer": "A",
       "explanation": "Torques about left end: F_R(6) = 400(3) + 600(2) = 2,400 → F_R = 400 N.",
-      "distractors": { "B": "Splits the total weight equally." }
+      "distractors": {
+        "B": "Splits the total weight equally."
+      }
     },
     {
-      "id": "u5-q09", "tier": "Exam level", "type": "mcq", "topic": "Rotational Inertia",
+      "id": "u5-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Rotational Inertia",
       "stem": "A thin rod of length L has linear density λ = cx, where x is measured from one end. What is its rotational inertia about that end?",
       "choices": [
-        { "id": "A", "text": "cL⁴/4" },
-        { "id": "B", "text": "cL³/3" },
-        { "id": "C", "text": "cL⁴/3" },
-        { "id": "D", "text": "cL²/2" }
+        {
+          "id": "A",
+          "text": "cL²/2"
+        },
+        {
+          "id": "B",
+          "text": "cL³/3"
+        },
+        {
+          "id": "C",
+          "text": "cL⁴/3"
+        },
+        {
+          "id": "D",
+          "text": "cL⁴/4"
+        }
       ],
-      "answer": "A",
+      "answer": "D",
       "explanation": "I = ∫x² dm = ∫₀^L x²(cx) dx = cL⁴/4.",
-      "distractors": { "B": "Forgets the density factor x." }
+      "distractors": {
+        "B": "Forgets the density factor x."
+      }
     },
     {
-      "id": "u5-q10", "tier": "Exam level", "type": "mcq", "topic": "Rotational Kinematics",
+      "id": "u5-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Rotational Kinematics",
       "stem": "A point on the rim of a wheel of radius 0.30 m has angular speed 4.0 rad/s and angular acceleration 2.0 rad/s². What is its centripetal acceleration?",
       "choices": [
-        { "id": "A", "text": "0.60 m/s²" },
-        { "id": "B", "text": "1.2 m/s²" },
-        { "id": "C", "text": "4.8 m/s²" },
-        { "id": "D", "text": "2.4 m/s²" }
+        {
+          "id": "A",
+          "text": "0.60 m/s²"
+        },
+        {
+          "id": "B",
+          "text": "1.2 m/s²"
+        },
+        {
+          "id": "C",
+          "text": "4.8 m/s²"
+        },
+        {
+          "id": "D",
+          "text": "2.4 m/s²"
+        }
       ],
       "answer": "C",
       "explanation": "a_c = ω²r = 16 × 0.30 = 4.8 m/s².",
-      "distractors": { "A": "Tangential acceleration αr." }
+      "distractors": {
+        "A": "Tangential acceleration αr."
+      }
     },
     {
-      "id": "u5-q11", "tier": "Hardest", "type": "mcq", "topic": "Newton's Second Law in Rotational Form",
+      "id": "u5-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Newton's Second Law in Rotational Form",
       "stem": "A uniform rod of length 1.2 m is pivoted at one end and released from rest in a horizontal position. What is its initial angular acceleration? (g = 9.8 m/s²)",
       "choices": [
-        { "id": "A", "text": "8.2 rad/s²" },
-        { "id": "B", "text": "12 rad/s²" },
-        { "id": "C", "text": "16 rad/s²" },
-        { "id": "D", "text": "24 rad/s²" }
+        {
+          "id": "A",
+          "text": "8.2 rad/s²"
+        },
+        {
+          "id": "B",
+          "text": "12 rad/s²"
+        },
+        {
+          "id": "C",
+          "text": "16 rad/s²"
+        },
+        {
+          "id": "D",
+          "text": "24 rad/s²"
+        }
       ],
       "answer": "B",
       "explanation": "α = (Mg L/2)/(ML²/3) = 3g/(2L) = 29.4/2.4 ≈ 12 rad/s².",
-      "distractors": { "A": "Uses g/L." }
+      "distractors": {
+        "A": "Uses g/L."
+      }
     },
     {
-      "id": "u5-q12", "tier": "Hardest", "type": "mcq", "topic": "Newton's Second Law in Rotational Form",
+      "id": "u5-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Newton's Second Law in Rotational Form",
       "stem": "For the rod released from horizontal (pivoted at one end), what is the initial linear acceleration of the free end?",
       "choices": [
-        { "id": "A", "text": "g/2" },
-        { "id": "B", "text": "g" },
-        { "id": "C", "text": "3g/2" },
-        { "id": "D", "text": "2g" }
+        {
+          "id": "A",
+          "text": "3g/2"
+        },
+        {
+          "id": "B",
+          "text": "g"
+        },
+        {
+          "id": "C",
+          "text": "g/2"
+        },
+        {
+          "id": "D",
+          "text": "2g"
+        }
       ],
-      "answer": "C",
+      "answer": "A",
       "explanation": "a = αL = (3g/2L)L = 3g/2, faster than free fall.",
-      "distractors": { "B": "Assumes free fall." }
+      "distractors": {
+        "B": "Assumes free fall."
+      }
     },
     {
-      "id": "u5-q13", "tier": "Hardest", "type": "mcq", "topic": "Rotational Inertia",
+      "id": "u5-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Rotational Inertia",
       "stem": "A solid sphere (I_cm = (2/5)MR²) rotates about an axis tangent to its surface. What is its rotational inertia?",
       "choices": [
-        { "id": "A", "text": "(2/5)MR²" },
-        { "id": "B", "text": "(7/5)MR²" },
-        { "id": "C", "text": "MR²" },
-        { "id": "D", "text": "(3/5)MR²" }
+        {
+          "id": "A",
+          "text": "(2/5)MR²"
+        },
+        {
+          "id": "B",
+          "text": "(7/5)MR²"
+        },
+        {
+          "id": "C",
+          "text": "MR²"
+        },
+        {
+          "id": "D",
+          "text": "(3/5)MR²"
+        }
       ],
       "answer": "B",
       "explanation": "(2/5)MR² + MR².",
       "distractors": {}
     },
     {
-      "id": "u5-q14", "tier": "Hardest", "type": "mcq", "topic": "Rotational Equilibrium",
+      "id": "u5-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Rotational Equilibrium",
       "stem": "A uniform ladder leans against a frictionless wall. Which statement about the forces is correct when the ladder is in equilibrium?",
       "choices": [
-        { "id": "A", "text": "The floor's friction force equals the wall's normal force in magnitude." },
-        { "id": "B", "text": "No friction is needed because the wall is frictionless." },
-        { "id": "C", "text": "The wall's normal force equals the ladder's weight." },
-        { "id": "D", "text": "The floor's normal force is less than the ladder's weight." }
+        {
+          "id": "A",
+          "text": "The floor's friction force equals the wall's normal force in magnitude."
+        },
+        {
+          "id": "B",
+          "text": "No friction is needed because the wall is frictionless."
+        },
+        {
+          "id": "C",
+          "text": "The wall's normal force equals the ladder's weight."
+        },
+        {
+          "id": "D",
+          "text": "The floor's normal force is less than the ladder's weight."
+        }
       ],
       "answer": "A",
       "explanation": "Horizontal equilibrium: the only horizontal forces are wall normal force and floor friction.",
-      "distractors": { "D": "Vertically, floor normal force equals weight." }
+      "distractors": {
+        "D": "Vertically, floor normal force equals weight."
+      }
     },
     {
-      "id": "u5-frq1", "tier": "Hardest", "type": "frq", "topic": "Newton's Second Law in Rotational Form", "frqType": "Mathematical Routines (MR)",
+      "id": "u5-frq1",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Newton's Second Law in Rotational Form",
+      "frqType": "Mathematical Routines (MR)",
       "prompt": "A thin uniform rod of mass M and length L is pivoted about a frictionless axle at one end. It is held horizontal and released from rest.",
       "parts": [
-        { "label": "A", "prompt": "Starting from the definition of rotational inertia, derive the rod's rotational inertia about the pivot.", "points": 2 },
-        { "label": "B", "prompt": "Derive the rod's angular acceleration immediately after release.", "points": 2 },
-        { "label": "C", "prompt": "Determine the linear acceleration of the free end immediately after release, and compare it to g.", "points": 2 },
-        { "label": "D", "prompt": "Determine the magnitude and direction of the force exerted by the pivot on the rod immediately after release.", "points": 2 },
-        { "label": "E", "prompt": "A student says nothing can fall faster than g. Explain why the free end's acceleration doesn't violate any physical law.", "points": 2 }
+        {
+          "label": "A",
+          "prompt": "Starting from the definition of rotational inertia, derive the rod's rotational inertia about the pivot.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Derive the rod's angular acceleration immediately after release.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Determine the linear acceleration of the free end immediately after release, and compare it to g.",
+          "points": 2
+        },
+        {
+          "label": "D",
+          "prompt": "Determine the magnitude and direction of the force exerted by the pivot on the rod immediately after release.",
+          "points": 2
+        },
+        {
+          "label": "E",
+          "prompt": "A student says nothing can fall faster than g. Explain why the free end's acceleration doesn't violate any physical law.",
+          "points": 2
+        }
       ],
       "points": 10,
       "minutes": 22,
       "rubric": [
-        { "criterion": "A1: Integral setup", "points": 1, "description": "I = ∫r² dm with dm = (M/L) dx, from 0 to L." },
-        { "criterion": "A2: Result", "points": 1, "description": "I = ML²/3." },
-        { "criterion": "B1: Torque", "points": 1, "description": "τ = Mg(L/2), weight acting at the center of mass." },
-        { "criterion": "B2: α", "points": 1, "description": "α = τ/I = 3g/(2L)." },
-        { "criterion": "C1: a = αL", "points": 1, "description": "a_end = αL = 3g/2." },
-        { "criterion": "C2: Comparison", "points": 1, "description": "Greater than g." },
-        { "criterion": "D1: a_cm", "points": 1, "description": "a_cm = α(L/2) = 3g/4 downward; Mg − F_p = M(3g/4)." },
-        { "criterion": "D2: Result", "points": 1, "description": "F_p = Mg/4, upward." },
-        { "criterion": "E1: Rigid body", "points": 1, "description": "The end is not in free fall; it's part of a rigid body rotating about a pivot." },
-        { "criterion": "E2: Explanation", "points": 1, "description": "The rod's internal forces push the far end along while the center of mass accelerates at only 3g/4 < g; the pivot supports part of the weight." }
+        {
+          "criterion": "A1: Integral setup",
+          "points": 1,
+          "description": "I = ∫r² dm with dm = (M/L) dx, from 0 to L."
+        },
+        {
+          "criterion": "A2: Result",
+          "points": 1,
+          "description": "I = ML²/3."
+        },
+        {
+          "criterion": "B1: Torque",
+          "points": 1,
+          "description": "τ = Mg(L/2), weight acting at the center of mass."
+        },
+        {
+          "criterion": "B2: α",
+          "points": 1,
+          "description": "α = τ/I = 3g/(2L)."
+        },
+        {
+          "criterion": "C1: a = αL",
+          "points": 1,
+          "description": "a_end = αL = 3g/2."
+        },
+        {
+          "criterion": "C2: Comparison",
+          "points": 1,
+          "description": "Greater than g."
+        },
+        {
+          "criterion": "D1: a_cm",
+          "points": 1,
+          "description": "a_cm = α(L/2) = 3g/4 downward; Mg − F_p = M(3g/4)."
+        },
+        {
+          "criterion": "D2: Result",
+          "points": 1,
+          "description": "F_p = Mg/4, upward."
+        },
+        {
+          "criterion": "E1: Rigid body",
+          "points": 1,
+          "description": "The end is not in free fall; it's part of a rigid body rotating about a pivot."
+        },
+        {
+          "criterion": "E2: Explanation",
+          "points": 1,
+          "description": "The rod's internal forces push the far end along while the center of mass accelerates at only 3g/4 < g; the pivot supports part of the weight."
+        }
       ],
       "sampleResponse": "A. I = ∫r² dm. For a uniform rod, dm = (M/L) dx, with x from 0 to L measured from the pivot: I = (M/L)∫₀^L x² dx = (M/L)(L³/3) = ML²/3.\n\nB. The weight acts at the center of mass, a distance L/2 from the pivot and perpendicular to the horizontal rod: τ = MgL/2. Στ = Iα → α = (MgL/2)/(ML²/3) = 3g/(2L).\n\nC. a_end = αL = (3g/2L)(L) = 3g/2, which is greater than g.\n\nD. The center of mass accelerates downward at a_cm = α(L/2) = 3g/4. Newton's second law for the rod (down positive): Mg − F_p = M(3g/4), so F_p = Mg/4, directed upward.\n\nE. The free end isn't a freely falling object; it's part of a rigid rod rotating about a fixed pivot. The rod's center of mass accelerates at only 3g/4, less than g, because the pivot pushes up. Internal forces in the rigid rod drive the outer end faster than the center, so the far end's acceleration can exceed g without violating Newton's laws."
     }

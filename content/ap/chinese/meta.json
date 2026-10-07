@@ -1,0 +1,158 @@
+{
+  "slug": "chinese",
+  "name": "AP Chinese Language and Culture",
+  "lastVerified": "2026-10",
+  "overview": "AP Chinese Language and Culture develops interpretive, interpersonal, and presentational communication in Mandarin Chinese, organized around six themes and the cultures of Chinese-speaking communities in mainland China, Taiwan, Hong Kong, Singapore, and the diaspora. The course and exam were revised for 2026-27: students complete a research project during the year that feeds into the spoken part of the exam, and the written tasks are a story narration and an email response.",
+  "examMode": "Fully digital in Bluebook from May 2027 (spoken responses recorded and written responses typed in the app)",
+  "totalMinutes": 110,
+  "sections": [
+    {
+      "name": "Section I, Question 1",
+      "questionType": "Project presentation",
+      "count": 1,
+      "minutes": 6,
+      "weight": "20%",
+      "notes": "3 minutes to prepare and 3 minutes to present what you learned from your research project."
+    },
+    {
+      "name": "Section I, Question 2",
+      "questionType": "Project Q&A",
+      "count": 4,
+      "minutes": 4,
+      "weight": "15%",
+      "notes": "Four pre-recorded questions about your project; 40 seconds to answer each."
+    },
+    {
+      "name": "Section I, Question 3",
+      "questionType": "Story narration",
+      "count": 1,
+      "minutes": 15,
+      "weight": "7.5%",
+      "notes": "Write a story based on a series of four pictures. Questions 3 and 4 share 30 minutes."
+    },
+    {
+      "name": "Section I, Question 4",
+      "questionType": "Email response",
+      "count": 1,
+      "minutes": 15,
+      "weight": "7.5%",
+      "notes": "Reply to an email from a friend or community member."
+    },
+    {
+      "name": "Section II, Part A",
+      "questionType": "Multiple choice: listening",
+      "count": 25,
+      "minutes": 25,
+      "weight": "25%",
+      "notes": "Questions on audio such as conversations, announcements, and reports."
+    },
+    {
+      "name": "Section II, Part B",
+      "questionType": "Multiple choice: reading",
+      "count": 30,
+      "minutes": 40,
+      "weight": "25%",
+      "notes": "Questions on texts such as notes, ads, articles, emails, and stories."
+    }
+  ],
+  "units": [
+    {
+      "number": 1,
+      "title": "Families and Communities"
+    },
+    {
+      "number": 2,
+      "title": "Language and Culture"
+    },
+    {
+      "number": 3,
+      "title": "Art and Creativity"
+    },
+    {
+      "number": 4,
+      "title": "Science and Technology"
+    },
+    {
+      "number": 5,
+      "title": "Contemporary Life"
+    },
+    {
+      "number": 6,
+      "title": "Global Contexts"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Interpretive communication",
+      "description": "Understand main ideas, details, purpose, and audience in written and audio texts."
+    },
+    {
+      "name": "Interpersonal communication",
+      "description": "Respond spontaneously and appropriately to questions."
+    },
+    {
+      "name": "Presentational communication",
+      "description": "Present information and arguments in organized speech and writing."
+    },
+    {
+      "name": "Cultural comparison",
+      "description": "Connect products, practices, and perspectives of Chinese-speaking communities to your own."
+    }
+  ],
+  "scoring": {
+    "summary": "Multiple choice (listening 25%, reading 25%) is half the score; the project presentation (20%), project Q&A (15%), story narration (7.5%), and email response (7.5%) are the other half. Free responses are scored holistically on task completion, organization, language use, and register. Klutch's practice tasks use simplified practice scales."
+  },
+  "frqTypes": [
+    {
+      "name": "Project presentation",
+      "points": 5,
+      "howScored": "Klutch practice scale (holistic, 0–5): clear, organized presentation of research findings with cultural content and comparison, fluent delivery, and accurate language."
+    },
+    {
+      "name": "Project Q&A",
+      "points": 4,
+      "howScored": "Klutch practice scale (1 point per answer): each answer responds directly, elaborates, and uses appropriate register."
+    },
+    {
+      "name": "Story narration",
+      "points": 5,
+      "howScored": "Klutch practice scale (holistic, 0–5): a complete, logical story covering all four pictures, with transitions, varied vocabulary and structures, and accurate characters."
+    },
+    {
+      "name": "Email response",
+      "points": 5,
+      "howScored": "Klutch practice scale (holistic, 0–5): answers every question in the email, elaborates, uses appropriate register and email conventions, and accurate language."
+    }
+  ],
+  "strategy": [
+    "Read the questions before each audio or text so you know what to look for.",
+    "In story narration, cover every picture in order and connect events with 首先, 然后, 接着, 结果, 最后.",
+    "In the email response, answer every question in the original email and add details and reasons.",
+    "Use a range of structures: 虽然…但是, 因为…所以, 不但…而且, 除了…以外, 是…的, 把 and 被 sentences.",
+    "For the Q&A, answer in the first sentence, then give a reason and an example; fill the 40 seconds.",
+    "Rehearse your project presentation so you can deliver it from your outline without reading."
+  ],
+  "pitfalls": [
+    "Choosing a homophone or similar-looking character when typing.",
+    "Skipping one of the four pictures in story narration.",
+    "Leaving a question in the email unanswered.",
+    "Using an overly casual register with a community member or teacher.",
+    "Misplacing time words and location phrases (they go before the verb)."
+  ],
+  "sources": [
+    {
+      "title": "AP Chinese Language and Culture Exam (AP Central)",
+      "url": "https://apcentral.collegeboard.org/courses/ap-chinese-language-and-culture/exam"
+    },
+    {
+      "title": "AP Chinese Language and Culture Course (AP Central)",
+      "url": "https://apcentral.collegeboard.org/courses/ap-chinese-language-and-culture/course"
+    }
+  ],
+  "caveats": [
+    "The course and exam were revised for 2026-27; details of the project and scoring guidelines may still be updated. Check AP Central.",
+    "Klutch's practice texts use simplified characters; check AP Central for the character and input options available on the exam.",
+    "Klutch cannot play audio; listening practice uses written transcripts labeled as audio sources.",
+    "All passages and transcripts are original and written by Klutch."
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "number": 3,
+  "title": "Evaluate Multiple Perspectives",
+  "guide": {
+    "summary": "This unit covers situating your study in the scholarly conversation: synthesizing a literature review around themes and debates, handling conflicting findings, recognizing perspectives and bias in research, and conducting research ethically.",
+    "sections": [
+      {
+        "heading": "Synthesizing the literature",
+        "body": "A literature review is organized by themes, debates, or methods, not by source. For homework research, themes might be academic effects (Studies 1 and 2), well-being effects (Study 3), and policy positions (Study 4). Within each theme, show how studies relate: Study 1's plateau after two hours and Study 3's stress findings together suggest a trade-off between achievement and well-being at high loads. Note each study's method and limits: Study 1 is correlational, Study 2's experiment is limited to math and 12 classrooms, Study 3 explores experiences but doesn't measure achievement. The review should build toward the gap your study fills."
+      },
+      {
+        "heading": "Conflicting findings and perspective",
+        "body": "Studies may disagree because they use different populations, measures, settings, or methods, or because they ask different questions. Explaining why findings differ is more valuable than picking a side. Recognize perspective and possible bias: funders, organizational positions (a teachers' union, a test-prep company), and disciplinary assumptions shape what questions get asked. A position paper is not empirical research, though it can reveal stakeholder views. Peer review raises credibility but doesn't guarantee correctness; replication across studies does more."
+      },
+      {
+        "heading": "Research ethics",
+        "body": "Research with human participants requires review and approval before data collection, usually through a school Institutional Review Board (IRB) or similar committee. Core principles: informed consent (participants understand the purpose, procedures, risks, and their right to withdraw); parental consent plus student assent for minors; minimizing risk and avoiding deception unless justified and approved; confidentiality or anonymity of data; and fair selection of participants. Academic integrity requires accurate reporting of data (no fabrication or selective reporting) and proper attribution of others' work. Researchers should also reflect on their own positionality, how identity and experience might shape the work."
+      }
+    ],
+    "keyTakeaways": [
+      "Organize literature reviews by theme, not source.",
+      "Explain why findings conflict.",
+      "Position papers show perspective, not empirical findings.",
+      "IRB approval before collecting human data.",
+      "Consent, assent, confidentiality, minimal risk.",
+      "Report data honestly and attribute ideas."
+    ],
+    "commonMistakes": [
+      "Source-by-source summary reviews.",
+      "Treating advocacy documents as studies.",
+      "Assuming peer review means a finding is settled.",
+      "Collecting survey data before approval.",
+      "Promising anonymity while collecting names."
+    ],
+    "examTips": [
+      "Use synthesis phrases: 'While Study 1 finds..., Study 3 complicates this by...'",
+      "Describe your ethics process in your method section.",
+      "Expect an oral defense question on how you handled ethics."
+    ],
+    "cramSheet": "**Lit review:** themes/debates · relate studies · note methods/limits · build to gap\n\n**Conflicts:** population · measures · setting · method · question\n\n**Perspective:** funders · organizations · discipline · position papers ≠ studies\n\n**Ethics:** IRB · informed consent · parental consent + assent · minimal risk · confidentiality/anonymity · honest reporting · attribution · positionality"
+  },
+  "vocab": [
+    {
+      "term": "Synthesis",
+      "definition": "Relating sources to each other to show patterns, debates, and gaps."
+    },
+    {
+      "term": "Thematic organization",
+      "definition": "Structuring a literature review around ideas rather than individual sources."
+    },
+    {
+      "term": "Position paper",
+      "definition": "A document arguing an organization's stance, not original research."
+    },
+    {
+      "term": "Replication",
+      "definition": "Repeating a study to see whether results hold."
+    },
+    {
+      "term": "Institutional Review Board (IRB)",
+      "definition": "A committee that reviews research involving human participants for ethics."
+    },
+    {
+      "term": "Informed consent",
+      "definition": "Agreement to participate after understanding the study's purpose, procedures, and risks."
+    },
+    {
+      "term": "Assent",
+      "definition": "Agreement from a minor to participate, alongside parental consent."
+    },
+    {
+      "term": "Confidentiality",
+      "definition": "Keeping participants' identities known only to the researcher and protected."
+    },
+    {
+      "term": "Anonymity",
+      "definition": "Collecting data so that no one, including the researcher, can identify participants."
+    },
+    {
+      "term": "Positionality",
+      "definition": "How a researcher's identity and experiences relate to the research."
+    },
+    {
+      "term": "Fabrication",
+      "definition": "Inventing data or results."
+    },
+    {
+      "term": "Conflict of interest",
+      "definition": "A situation in which a researcher or funder has a stake in the results."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u3-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Sources",
+      "stimulus": "Practice scenario (written by Klutch; studies are fictional)\n\nA student reviewing research on homework in high school finds: Study 1 (a national survey of 10,000 students) shows a positive correlation between homework time and test scores up to about two hours a night, then no further gain. Study 2 (an experiment in 12 classrooms) finds that assigning daily practice problems improved math scores. Study 3 (interviews with 30 students) finds that heavy homework loads increased stress and reduced sleep. Study 4 (a teachers' union position paper) argues homework should be limited.",
+      "stem": "Which source in the scenario is not empirical research?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Study 4"
+        },
+        {
+          "id": "B",
+          "text": "Study 1"
+        },
+        {
+          "id": "C",
+          "text": "Study 2"
+        },
+        {
+          "id": "D",
+          "text": "Study 3"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A position paper argues a stance.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Ethics",
+      "stem": "Before surveying classmates for an AP Research project, a student must first",
+      "choices": [
+        {
+          "id": "A",
+          "text": "obtain approval from the school's IRB or review committee"
+        },
+        {
+          "id": "B",
+          "text": "publish the results"
+        },
+        {
+          "id": "C",
+          "text": "collect names for all participants"
+        },
+        {
+          "id": "D",
+          "text": "ask only friends to participate"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Approval comes before data collection.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q03",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Synthesis",
+      "stimulus": "Practice scenario (written by Klutch; studies are fictional)\n\nA student reviewing research on homework in high school finds: Study 1 (a national survey of 10,000 students) shows a positive correlation between homework time and test scores up to about two hours a night, then no further gain. Study 2 (an experiment in 12 classrooms) finds that assigning daily practice problems improved math scores. Study 3 (interviews with 30 students) finds that heavy homework loads increased stress and reduced sleep. Study 4 (a teachers' union position paper) argues homework should be limited.",
+      "stem": "Which sentence best synthesizes Studies 1 and 3?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Study 1's finding that achievement gains level off after about two hours, combined with Study 3's link between heavy loads and stress, suggests that very high homework loads may carry costs without academic benefits."
+        },
+        {
+          "id": "B",
+          "text": "Study 1 surveyed 10,000 students. Study 3 interviewed 30 students."
+        },
+        {
+          "id": "C",
+          "text": "Study 3 proves Study 1 wrong."
+        },
+        {
+          "id": "D",
+          "text": "Both studies are experiments."
+        }
+      ],
+      "answer": "A",
+      "explanation": "It connects findings to form a new insight.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q04",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Conflicting Findings",
+      "stimulus": "Practice scenario (written by Klutch; studies are fictional)\n\nA student reviewing research on homework in high school finds: Study 1 (a national survey of 10,000 students) shows a positive correlation between homework time and test scores up to about two hours a night, then no further gain. Study 2 (an experiment in 12 classrooms) finds that assigning daily practice problems improved math scores. Study 3 (interviews with 30 students) finds that heavy homework loads increased stress and reduced sleep. Study 4 (a teachers' union position paper) argues homework should be limited.",
+      "stem": "Study 2 found homework helps, while Study 3 found harms. The best explanation for how both could be true is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "they measured different outcomes (math scores vs stress and sleep) and possibly different homework amounts"
+        },
+        {
+          "id": "B",
+          "text": "one study must have fabricated data"
+        },
+        {
+          "id": "C",
+          "text": "interviews are always wrong"
+        },
+        {
+          "id": "D",
+          "text": "experiments are always wrong"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Different questions and measures.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q05",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Ethics",
+      "stem": "A student promises survey respondents anonymity but asks for their email addresses to send a gift card. The ethical problem is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "emails link responses to identities, so the survey isn't anonymous; the student should collect emails separately or promise confidentiality instead"
+        },
+        {
+          "id": "B",
+          "text": "gift cards are illegal"
+        },
+        {
+          "id": "C",
+          "text": "surveys can't be anonymous"
+        },
+        {
+          "id": "D",
+          "text": "there is no problem"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Anonymity and identifying information conflict.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q06",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Perspective",
+      "stimulus": "Practice scenario (written by Klutch; studies are fictional)\n\nA student reviewing research on homework in high school finds: Study 1 (a national survey of 10,000 students) shows a positive correlation between homework time and test scores up to about two hours a night, then no further gain. Study 2 (an experiment in 12 classrooms) finds that assigning daily practice problems improved math scores. Study 3 (interviews with 30 students) finds that heavy homework loads increased stress and reduced sleep. Study 4 (a teachers' union position paper) argues homework should be limited.",
+      "stem": "How should a student use Study 4 in a literature review?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "As evidence of a stakeholder perspective in the debate, noting that it is an advocacy document, not as empirical proof"
+        },
+        {
+          "id": "B",
+          "text": "As the strongest evidence because teachers are experts"
+        },
+        {
+          "id": "C",
+          "text": "Ignore it entirely because unions are biased"
+        },
+        {
+          "id": "D",
+          "text": "As a replication of Study 2"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Use it for what it is.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-t01",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Literature Review",
+      "frqType": "Research skill task",
+      "stimulus": "Practice scenario (written by Klutch; studies are fictional)\n\nA student reviewing research on homework in high school finds: Study 1 (a national survey of 10,000 students) shows a positive correlation between homework time and test scores up to about two hours a night, then no further gain. Study 2 (an experiment in 12 classrooms) finds that assigning daily practice problems improved math scores. Study 3 (interviews with 30 students) finds that heavy homework loads increased stress and reduced sleep. Study 4 (a teachers' union position paper) argues homework should be limited.",
+      "prompt": "Write a synthesized literature review paragraph using at least three of the studies.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Organize around a theme.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Relate the studies to one another.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Identify the gap.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 20,
+      "rubric": [
+        {
+          "criterion": "Theme",
+          "points": 2,
+          "description": "Organized around a theme or debate, not source by source."
+        },
+        {
+          "criterion": "Relationships",
+          "points": 2,
+          "description": "Explains how studies support, complicate, or conflict, with method notes."
+        },
+        {
+          "criterion": "Gap",
+          "points": 2,
+          "description": "Ends by identifying a gap the studies leave open."
+        }
+      ],
+      "sampleResponse": "Research suggests homework's academic benefits are real but limited. In a national survey, Study 1 found that homework time was associated with higher test scores up to about two hours per night, after which scores leveled off, and Study 2's classroom experiment found that daily practice problems improved math scores, providing causal evidence for at least one subject. Yet these benefits may come with costs: students interviewed in Study 3 described heavy workloads that increased stress and cut into sleep. Because Study 1 is correlational and Study 2 measured only math, neither shows whether the benefits outweigh the well-being costs Study 3 identifies. No study here measured achievement and well-being in the same students, leaving open how homework load affects both at once."
+    },
+    {
+      "id": "u3-t02",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Ethics",
+      "frqType": "Research skill task",
+      "prompt": "A student plans to interview classmates about their experiences with anxiety.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Describe the consent process.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Identify a risk and how to reduce it.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Explain how data will be protected.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Consent",
+          "points": 2,
+          "description": "Describes informed consent, parental consent, and assent."
+        },
+        {
+          "criterion": "Risk",
+          "points": 2,
+          "description": "Identifies a risk (distress, disclosure) and a mitigation (skip questions, resources, withdraw)."
+        },
+        {
+          "criterion": "Data",
+          "points": 2,
+          "description": "Describes confidentiality and data storage."
+        }
+      ],
+      "sampleResponse": "A. After IRB approval, give parents a consent form and students an assent form explaining the purpose, the kinds of questions, how long the interview takes, and that they can stop at any time.\n\nB. Talking about anxiety could cause distress. Participants can skip any question, the interviewer will avoid pressing for details, and every participant receives information about the school counselor and support resources.\n\nC. Recordings and transcripts will use pseudonyms, be stored on a password-protected device, and be deleted after the project; quotations will be edited to remove identifying details."
+    },
+    {
+      "id": "u3-t03",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Positionality",
+      "frqType": "Research skill task",
+      "prompt": "A student who is a varsity athlete is researching whether athletic participation affects academic performance.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Explain how the student's position could influence the research.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Describe ways to address this.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Explain how the position could benefit the research.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Positionality",
+          "points": 2,
+          "description": "Explains how the student's position might shape questions, interpretation, or access."
+        },
+        {
+          "criterion": "Mitigation",
+          "points": 2,
+          "description": "Gives concrete strategies (pre-registered hypotheses, disconfirming evidence, second coder, neutral recruitment)."
+        },
+        {
+          "criterion": "Benefit",
+          "points": 2,
+          "description": "Explains a way the position could help the research."
+        }
+      ],
+      "sampleResponse": "A. As an athlete, the student may expect positive effects and design questions or interpret results in ways that favor athletes; teammates might also answer differently because they know the researcher.\n\nB. The student can write hypotheses and analysis plans before collecting data, recruit through neutral channels such as advisory classes, use anonymous surveys, and actively report results that contradict expectations.\n\nC. Insider knowledge helps the student ask about real pressures like travel schedules, and athletes may be more willing to participate."
+    },
+    {
+      "id": "u3-t04",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Integrity",
+      "frqType": "Research skill task",
+      "prompt": "A student's survey results don't support their hypothesis, and a friend suggests dropping the 'weird' responses until the results look right.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Identify the problem.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Explain when excluding data is legitimate.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Explain why unexpected results are valuable.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Identify",
+          "points": 2,
+          "description": "Identifies the integrity violation (data manipulation/selective reporting)."
+        },
+        {
+          "criterion": "Legitimate handling",
+          "points": 2,
+          "description": "Explains legitimate exclusion criteria set in advance and reported transparently."
+        },
+        {
+          "criterion": "Value",
+          "points": 2,
+          "description": "Explains why unexpected results still create new understanding."
+        }
+      ],
+      "sampleResponse": "A. Removing responses to get a desired result is data manipulation, a form of research misconduct that misrepresents the findings.\n\nB. Responses can be excluded only by criteria decided before analysis and reported openly, such as incomplete surveys or failed attention-check questions, and the paper should say how many were removed and why.\n\nC. Results that contradict the hypothesis are still findings: they may show that the effect is weaker than assumed or differs in this population, and discussing why adds to the scholarly conversation."
+    }
+  ]
+}

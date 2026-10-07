@@ -1,0 +1,68 @@
+{
+  "slug": "research",
+  "name": "AP Research",
+  "lastVerified": "2026-10",
+  "overview": "AP Research is the second course in the AP Capstone program. Each student designs and carries out a year-long investigation of a question of their choosing, using an appropriate research method, and reports it in an academic paper and a presentation with an oral defense. The course builds on AP Seminar's QUEST framework, with a focus on research methods, ethics, and contributing new understanding to a scholarly conversation.",
+  "examMode": "No sit-down exam; the paper is submitted through the AP Digital Portfolio and the presentation is scored by the teacher",
+  "totalMinutes": 0,
+  "sections": [
+    {
+      "name": "Academic paper",
+      "questionType": "Research paper",
+      "count": 1,
+      "minutes": 0,
+      "weight": "75%",
+      "notes": "4,000–5,000 words, scored by College Board. Typically includes an introduction and literature review, method, results or findings, discussion and analysis, conclusion and future directions, and a bibliography."
+    },
+    {
+      "name": "Presentation and oral defense",
+      "questionType": "Presentation",
+      "count": 1,
+      "minutes": 20,
+      "weight": "25%",
+      "notes": "A 15–20 minute multimedia presentation followed by three or four questions from a panel of three evaluators, scored by the teacher."
+    }
+  ],
+  "units": [
+    { "number": 1, "title": "Question and Explore" },
+    { "number": 2, "title": "Understand and Analyze" },
+    { "number": 3, "title": "Evaluate Multiple Perspectives" },
+    { "number": 4, "title": "Synthesize Ideas" },
+    { "number": 5, "title": "Team, Transform, and Transmit" }
+  ],
+  "skills": [
+    { "name": "Question and Explore", "description": "Find a gap in the scholarly conversation and write a focused, feasible research question." },
+    { "name": "Understand and Analyze", "description": "Read scholarly studies critically, including their methods and data." },
+    { "name": "Evaluate Multiple Perspectives", "description": "Situate your work in the literature, weigh conflicting findings, and conduct research ethically." },
+    { "name": "Synthesize Ideas", "description": "Choose and justify a method, collect and analyze data, and draw conclusions that create new understanding." },
+    { "name": "Team, Transform, and Transmit", "description": "Communicate your research in academic writing and an oral defense, and reflect on your process." }
+  ],
+  "scoring": {
+    "summary": "The academic paper is 75% of the AP score and the presentation and oral defense 25%. There is no multiple-choice or timed free-response section. Both parts are scored with analytic rubrics published on AP Central; Klutch's practice tasks use simplified point scales, not the official rubric rows."
+  },
+  "frqTypes": [
+    { "name": "Research skill task", "points": 6, "howScored": "Klutch practice scale shown with each task, covering accuracy, justification, and specificity for tasks such as writing a research question, critiquing a method, or answering an oral defense question." }
+  ],
+  "strategy": [
+    "Choose a narrow question where you can collect your own data; a feasible small study beats an ambitious impossible one.",
+    "Build the literature review around themes and debates, ending with the gap your study fills.",
+    "Justify your method by explaining why it fits your question better than the alternatives.",
+    "Get approval from your school's review process before collecting data from people.",
+    "Report results before interpreting them, then discuss limitations honestly and say what your findings add.",
+    "Rehearse the oral defense with likely questions: why this method, what surprised you, what you would change."
+  ],
+  "pitfalls": [
+    "A question too broad, or one that only summarizes existing research instead of creating new understanding.",
+    "Claiming causation from correlational or survey data.",
+    "Overgeneralizing from a small or convenience sample.",
+    "A literature review that summarizes sources one by one instead of synthesizing them.",
+    "Hiding limitations instead of discussing them."
+  ],
+  "sources": [
+    { "title": "AP Research Assessment (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-research/exam" }
+  ],
+  "caveats": [
+    "Klutch's practice tasks use simplified point scales, not College Board's rubric rows; use the official rubrics on AP Central when drafting your paper.",
+    "All study abstracts and scenarios in Klutch's practice are fictional."
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "number": 2,
+  "title": "Understand and Analyze",
+  "guide": {
+    "summary": "AP Research students must read scholarly studies critically: understand their structure, interpret basic statistics and qualitative findings, and judge whether conclusions follow from the method and data.",
+    "sections": [
+      {
+        "heading": "Reading a study",
+        "body": "Most empirical articles follow IMRaD: Introduction (question and literature), Method (participants, materials, procedures, analysis), Results (findings without interpretation), and Discussion (interpretation, limitations, future research). Read the abstract for an overview, then the method to judge credibility before trusting the results. Ask: Who were the participants, and how were they selected? Were groups comparable? What exactly was measured, and how? Is the conclusion limited to what the design can support? In the mindfulness abstract, the schools were not randomly assigned, so differences between schools (teachers, demographics, other programs) could explain the results."
+      },
+      {
+        "heading": "Quantitative basics",
+        "body": "Descriptive statistics summarize data (mean, median, standard deviation). Inferential statistics test whether results are likely due to chance: a p-value below .05 is conventionally called statistically significant, meaning a difference this large would be unlikely if there were no real effect. Statistical significance is not the same as practical importance; effect size shows how big the difference is (here, a 5-point difference on a 60-point scale). Correlation measures association (r from −1 to 1) but doesn't establish causation; confounding variables may explain both. Random assignment in experiments is what allows causal claims; quasi-experiments with pre-existing groups support weaker conclusions. Validity asks whether a measure captures what it claims to; reliability asks whether it is consistent."
+      },
+      {
+        "heading": "Qualitative basics",
+        "body": "Qualitative research (interviews, focus groups, observations, open-ended responses, document analysis) explores meanings and experiences. Researchers code data, labeling segments with categories, and identify themes across participants. Quality is judged by trustworthiness: clear procedures, rich description, triangulation (using multiple data sources), member checking (confirming interpretations with participants), and reflexivity (acknowledging the researcher's own perspective). Qualitative findings are not meant to generalize statistically, but they can reveal processes and perspectives that numbers miss. Mixed-methods studies combine both to answer different parts of a question."
+      }
+    ],
+    "keyTakeaways": [
+      "Read the method before trusting the results.",
+      "Significance ≠ importance; check effect size.",
+      "Random assignment supports causal claims.",
+      "Correlation ≠ causation; watch for confounds.",
+      "Validity = measures the right thing; reliability = consistently.",
+      "Qualitative quality = trustworthiness, triangulation, reflexivity."
+    ],
+    "commonMistakes": [
+      "Treating p < .05 as proof of a big effect.",
+      "Accepting causal conclusions from non-random groups.",
+      "Ignoring how participants were selected.",
+      "Judging qualitative studies by sample size alone.",
+      "Confusing results with discussion."
+    ],
+    "examTips": [
+      "In your literature review, note each key study's method and limitation.",
+      "Use precise language: 'associated with' vs 'caused.'",
+      "In the oral defense, be ready to explain any statistic you report."
+    ],
+    "cramSheet": "**IMRaD:** Intro · Method · Results · Discussion\n\n**Quant:** mean/SD · p < .05 · effect size · correlation r · random assignment → causation · quasi-experiment · confound\n\n**Measures:** validity · reliability\n\n**Qual:** coding · themes · triangulation · member checking · reflexivity\n\n**Mixed methods:** both"
+  },
+  "vocab": [
+    {
+      "term": "IMRaD",
+      "definition": "The standard structure of empirical articles: Introduction, Method, Results, Discussion."
+    },
+    {
+      "term": "Statistical significance",
+      "definition": "A result unlikely to occur by chance if there were no real effect, often p < .05."
+    },
+    {
+      "term": "Effect size",
+      "definition": "A measure of how large a difference or relationship is."
+    },
+    {
+      "term": "Confounding variable",
+      "definition": "A factor that affects both variables, providing an alternative explanation."
+    },
+    {
+      "term": "Random assignment",
+      "definition": "Placing participants in groups by chance so the groups are comparable."
+    },
+    {
+      "term": "Quasi-experiment",
+      "definition": "A comparison using pre-existing groups without random assignment."
+    },
+    {
+      "term": "Validity",
+      "definition": "Whether a study or measure captures what it claims to."
+    },
+    {
+      "term": "Reliability",
+      "definition": "Whether a measure produces consistent results."
+    },
+    {
+      "term": "Coding",
+      "definition": "Labeling qualitative data segments with categories."
+    },
+    {
+      "term": "Theme",
+      "definition": "A pattern of meaning found across qualitative data."
+    },
+    {
+      "term": "Triangulation",
+      "definition": "Using multiple data sources or methods to check findings."
+    },
+    {
+      "term": "Reflexivity",
+      "definition": "A researcher's reflection on how their perspective shapes the research."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u2-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Design",
+      "stimulus": "Practice abstract (written by Klutch; the study is fictional)\n\nThis study examined whether a school-based mindfulness program reduced test anxiety. Ninth graders at two high schools participated. Students at School A (n = 120) received ten weekly 30-minute mindfulness sessions; students at School B (n = 115) continued their normal schedule. Test anxiety was measured with a validated self-report scale before and after the program. School A students' anxiety scores decreased by an average of 6 points on a 60-point scale, compared with 1 point at School B (p = .03). The authors conclude that mindfulness programs reduce test anxiety and recommend adoption in all high schools.",
+      "stem": "The study's design is best described as",
+      "choices": [
+        {
+          "id": "A",
+          "text": "a quasi-experiment comparing pre-existing groups"
+        },
+        {
+          "id": "B",
+          "text": "a randomized controlled trial"
+        },
+        {
+          "id": "C",
+          "text": "a content analysis"
+        },
+        {
+          "id": "D",
+          "text": "an ethnography"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Schools, not students, defined the groups, without random assignment.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Statistics",
+      "stimulus": "Practice abstract (written by Klutch; the study is fictional)\n\nThis study examined whether a school-based mindfulness program reduced test anxiety. Ninth graders at two high schools participated. Students at School A (n = 120) received ten weekly 30-minute mindfulness sessions; students at School B (n = 115) continued their normal schedule. Test anxiety was measured with a validated self-report scale before and after the program. School A students' anxiety scores decreased by an average of 6 points on a 60-point scale, compared with 1 point at School B (p = .03). The authors conclude that mindfulness programs reduce test anxiety and recommend adoption in all high schools.",
+      "stem": "p = .03 indicates that",
+      "choices": [
+        {
+          "id": "A",
+          "text": "the difference between schools would be unlikely if the program had no real effect"
+        },
+        {
+          "id": "B",
+          "text": "the program reduced anxiety by 3 percent"
+        },
+        {
+          "id": "C",
+          "text": "the result is certainly caused by mindfulness"
+        },
+        {
+          "id": "D",
+          "text": "3 percent of students improved"
+        }
+      ],
+      "answer": "A",
+      "explanation": "A p-value describes how surprising the data would be under no effect.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q03",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Validity",
+      "stimulus": "Practice abstract (written by Klutch; the study is fictional)\n\nThis study examined whether a school-based mindfulness program reduced test anxiety. Ninth graders at two high schools participated. Students at School A (n = 120) received ten weekly 30-minute mindfulness sessions; students at School B (n = 115) continued their normal schedule. Test anxiety was measured with a validated self-report scale before and after the program. School A students' anxiety scores decreased by an average of 6 points on a 60-point scale, compared with 1 point at School B (p = .03). The authors conclude that mindfulness programs reduce test anxiety and recommend adoption in all high schools.",
+      "stem": "Which is the strongest threat to the conclusion that mindfulness caused the decrease?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Other differences between School A and School B, such as teachers or testing schedules, could explain the change."
+        },
+        {
+          "id": "B",
+          "text": "The anxiety scale was validated."
+        },
+        {
+          "id": "C",
+          "text": "Anxiety was measured twice."
+        },
+        {
+          "id": "D",
+          "text": "The study used ninth graders."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Confounds between non-random groups threaten internal validity.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q04",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Statistics",
+      "stem": "A study finds r = 0.45 between hours of sleep and GPA. Which conclusion is justified?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Students who sleep more tend to have higher GPAs, but the data don't show that sleep causes higher grades."
+        },
+        {
+          "id": "B",
+          "text": "Sleeping more causes higher grades."
+        },
+        {
+          "id": "C",
+          "text": "45 percent of students sleep well."
+        },
+        {
+          "id": "D",
+          "text": "There is no relationship."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Correlation shows association only.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q05",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Generalizability",
+      "stimulus": "Practice abstract (written by Klutch; the study is fictional)\n\nThis study examined whether a school-based mindfulness program reduced test anxiety. Ninth graders at two high schools participated. Students at School A (n = 120) received ten weekly 30-minute mindfulness sessions; students at School B (n = 115) continued their normal schedule. Test anxiety was measured with a validated self-report scale before and after the program. School A students' anxiety scores decreased by an average of 6 points on a 60-point scale, compared with 1 point at School B (p = .03). The authors conclude that mindfulness programs reduce test anxiety and recommend adoption in all high schools.",
+      "stem": "The authors recommend adoption in all high schools. The best critique is that",
+      "choices": [
+        {
+          "id": "A",
+          "text": "two schools without random assignment, using self-report data, cannot support a recommendation for all high schools"
+        },
+        {
+          "id": "B",
+          "text": "the sample is too large"
+        },
+        {
+          "id": "C",
+          "text": "self-report scales are never valid"
+        },
+        {
+          "id": "D",
+          "text": "mindfulness is not a real practice"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The conclusion exceeds the design and sample.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q06",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Qualitative",
+      "stem": "A researcher interviews 10 teachers, codes transcripts, and shares the interpretations with participants to confirm accuracy. This last step is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "member checking"
+        },
+        {
+          "id": "B",
+          "text": "random assignment"
+        },
+        {
+          "id": "C",
+          "text": "a p-value test"
+        },
+        {
+          "id": "D",
+          "text": "triangulation"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Member checking verifies interpretations with participants.",
+      "distractors": {
+        "D": "Triangulation uses multiple sources or methods."
+      }
+    },
+    {
+      "id": "u2-t01",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Critique",
+      "frqType": "Research skill task",
+      "stimulus": "Practice abstract (written by Klutch; the study is fictional)\n\nThis study examined whether a school-based mindfulness program reduced test anxiety. Ninth graders at two high schools participated. Students at School A (n = 120) received ten weekly 30-minute mindfulness sessions; students at School B (n = 115) continued their normal schedule. Test anxiety was measured with a validated self-report scale before and after the program. School A students' anxiety scores decreased by an average of 6 points on a 60-point scale, compared with 1 point at School B (p = .03). The authors conclude that mindfulness programs reduce test anxiety and recommend adoption in all high schools.",
+      "prompt": "Critique the study described in the abstract.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Identify two strengths.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Identify two weaknesses.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Write a conclusion the evidence supports.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Strengths",
+          "points": 2,
+          "description": "Identifies real strengths (validated scale, pre/post measures, comparison group, reasonable sample)."
+        },
+        {
+          "criterion": "Weaknesses",
+          "points": 2,
+          "description": "Identifies key weaknesses (no random assignment, self-report, two schools, possible expectancy effects)."
+        },
+        {
+          "criterion": "Conclusion",
+          "points": 2,
+          "description": "States a conclusion the evidence does support."
+        }
+      ],
+      "sampleResponse": "A. Strengths: it used a validated anxiety scale, measured anxiety before and after, included a comparison school, and had over 100 students per group.\n\nB. Weaknesses: schools weren't randomly assigned, so other school differences could explain the result; self-reports could be influenced by students knowing they were in a program; and two schools can't represent all high schools.\n\nC. Supported conclusion: at School A, students in a mindfulness program reported larger decreases in test anxiety than students at a comparison school, suggesting the program may help and should be tested in a randomized study."
+    },
+    {
+      "id": "u2-t02",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Design",
+      "frqType": "Research skill task",
+      "stimulus": "Practice abstract (written by Klutch; the study is fictional)\n\nThis study examined whether a school-based mindfulness program reduced test anxiety. Ninth graders at two high schools participated. Students at School A (n = 120) received ten weekly 30-minute mindfulness sessions; students at School B (n = 115) continued their normal schedule. Test anxiety was measured with a validated self-report scale before and after the program. School A students' anxiety scores decreased by an average of 6 points on a 60-point scale, compared with 1 point at School B (p = .03). The authors conclude that mindfulness programs reduce test anxiety and recommend adoption in all high schools.",
+      "prompt": "Redesign the mindfulness study to support a stronger causal claim.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Describe how you would assign participants.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Describe an improved comparison condition.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Describe an improved measurement plan.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Randomization",
+          "points": 2,
+          "description": "Randomly assigns students (or classes) to conditions within the same school(s)."
+        },
+        {
+          "criterion": "Control",
+          "points": 2,
+          "description": "Uses an active control (e.g., study-skills sessions) to address expectancy effects."
+        },
+        {
+          "criterion": "Measures",
+          "points": 2,
+          "description": "Adds a non-self-report or follow-up measure and explains why."
+        }
+      ],
+      "sampleResponse": "A. Randomly assign ninth graders within the same schools to the mindfulness program or a comparison group, so school differences are balanced.\n\nB. Give the comparison group an equal amount of time in a study-skills session, so any difference isn't just due to receiving attention or expecting improvement.\n\nC. Add a measure beyond self-report, such as heart rate during a practice test, and a follow-up survey three months later to see whether effects last."
+    },
+    {
+      "id": "u2-t03",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Statistics",
+      "frqType": "Research skill task",
+      "prompt": "A student reports: 'My survey of 50 students found that students who play sports had higher GPAs (mean 3.4 vs 3.1, p = .04). This proves that sports improve grades.'",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Interpret the statistics.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Explain the error in the conclusion.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Rewrite the conclusion.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Interpretation",
+          "points": 2,
+          "description": "Correctly interprets the mean difference and p-value."
+        },
+        {
+          "criterion": "Error",
+          "points": 2,
+          "description": "Explains the causal error and gives a plausible confounding variable."
+        },
+        {
+          "criterion": "Revision",
+          "points": 2,
+          "description": "Rewrites the conclusion accurately."
+        }
+      ],
+      "sampleResponse": "A. Athletes averaged a GPA 0.3 points higher, and p = .04 means a difference this large would be unlikely if there were no real difference in the population sampled.\n\nB. The survey is correlational: students weren't assigned to play sports. Confounds such as eligibility rules requiring minimum grades, family income, or time management skills could explain both.\n\nC. In this sample, students who played sports had a modestly higher average GPA than those who did not, a statistically significant difference; the survey cannot show whether sports cause higher grades."
+    },
+    {
+      "id": "u2-t04",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Qualitative",
+      "frqType": "Research skill task",
+      "prompt": "A student interviewed eight first-generation college applicants about the application process and wants to analyze the transcripts.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Describe how to code and find themes.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Describe two ways to make findings trustworthy.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Explain a reflexivity concern and how to address it.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Coding",
+          "points": 2,
+          "description": "Describes a clear coding process (initial codes, refining, themes)."
+        },
+        {
+          "criterion": "Trustworthiness",
+          "points": 2,
+          "description": "Names at least two strategies (member checking, second coder, triangulation, audit trail)."
+        },
+        {
+          "criterion": "Reflexivity",
+          "points": 2,
+          "description": "Explains how the researcher's own position could shape interpretation and how to address it."
+        }
+      ],
+      "sampleResponse": "A. Read all transcripts, assign initial codes to meaningful segments (e.g., 'confusion about financial aid,' 'reliance on siblings'), group similar codes into categories, then identify themes that appear across most participants, recording each decision in a codebook.\n\nB. Ask a classmate to code two transcripts independently and compare; share themes with participants to check accuracy; and compare interview themes with school counseling data.\n\nC. If the researcher is also a first-generation applicant, they might notice experiences matching their own and overlook others. They should note their assumptions before coding and actively look for disconfirming examples."
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "number": 4,
+  "title": "Synthesize Ideas",
+  "guide": {
+    "summary": "Synthesize Ideas in AP Research means designing and justifying a method, collecting and analyzing data, and drawing conclusions that add new understanding while honestly acknowledging limitations.",
+    "sections": [
+      {
+        "heading": "Choosing and justifying a method",
+        "body": "Common methods: experiments (manipulate a variable and compare randomly assigned groups; strongest for causation), quasi-experiments (compare existing groups), surveys (measure attitudes or behaviors in larger samples; good for describing and correlating), interviews and focus groups (in-depth perspectives), content or discourse analysis (systematic study of texts, media, or documents), case studies (an in-depth look at one case), and mixed methods. The method section explains what you did in enough detail that someone could replicate it and why this method fits your question better than alternatives, often citing studies that used similar methods. Sampling matters: random samples support generalization; convenience samples (like social media recruitment) are easier but may be biased; purposive samples select people with specific characteristics for qualitative depth."
+      },
+      {
+        "heading": "Analyzing data and drawing conclusions",
+        "body": "Plan analysis in advance. Quantitative analysis might compare means, compute correlations, or run significance tests; present results in clear tables or graphs. Qualitative analysis codes data into themes, supported by representative quotations. Report results before interpreting them. Conclusions must match the design: the screen-time survey shows an association, and open-ended responses suggest mechanisms (notifications, losing track of time), but self-reported data from a convenience sample can't establish causation or represent all students. Mixed data can be powerful: the numbers show a pattern, and the qualitative responses help explain it."
+      },
+      {
+        "heading": "Limitations and new understanding",
+        "body": "Every study has limitations: sample size and type, self-report bias, measurement validity, confounding variables, a short time frame, or a single setting. Stating limitations clearly, along with how they affect interpretation, increases credibility. The discussion should explain how your findings relate to prior research (confirming, extending, or contradicting it), what new understanding your study contributes (even a small, local contribution counts), implications for practice or policy, and directions for future research that address your limitations."
+      }
+    ],
+    "keyTakeaways": [
+      "Match the method to the question; justify it.",
+      "Describe methods in replicable detail.",
+      "Sampling affects generalizability.",
+      "Report results, then interpret.",
+      "Conclusions must fit the design.",
+      "Limitations and future research are required."
+    ],
+    "commonMistakes": [
+      "Causal claims from surveys.",
+      "Generalizing from convenience samples.",
+      "Method sections without justification.",
+      "Mixing results and interpretation.",
+      "Overstating the contribution."
+    ],
+    "examTips": [
+      "Cite prior studies that used your method to justify it.",
+      "Use tables and figures with clear labels.",
+      "Explicitly state the new understanding in your conclusion."
+    ],
+    "cramSheet": "**Methods:** experiment · quasi-experiment · survey · interview/focus group · content analysis · case study · mixed\n\n**Sampling:** random · convenience · purposive · size\n\n**Analysis:** means · correlation · significance · coding/themes · tables/graphs\n\n**Discussion:** relate to prior research · new understanding · implications · limitations · future research"
+  },
+  "vocab": [
+    {
+      "term": "Method",
+      "definition": "The systematic procedure used to collect and analyze data."
+    },
+    {
+      "term": "Experiment",
+      "definition": "A method that manipulates a variable and compares randomly assigned groups."
+    },
+    {
+      "term": "Survey",
+      "definition": "A method collecting self-reported data from many respondents."
+    },
+    {
+      "term": "Content analysis",
+      "definition": "Systematic analysis of texts, media, or documents."
+    },
+    {
+      "term": "Case study",
+      "definition": "An in-depth study of a single case or small number of cases."
+    },
+    {
+      "term": "Mixed methods",
+      "definition": "Combining quantitative and qualitative methods."
+    },
+    {
+      "term": "Convenience sample",
+      "definition": "Participants chosen because they are easy to reach."
+    },
+    {
+      "term": "Random sample",
+      "definition": "Participants chosen so every member of the population has an equal chance."
+    },
+    {
+      "term": "Purposive sample",
+      "definition": "Participants selected for specific characteristics."
+    },
+    {
+      "term": "Self-report bias",
+      "definition": "Inaccuracy when participants report their own behavior or attitudes."
+    },
+    {
+      "term": "Replicability",
+      "definition": "Whether others could repeat a study using its described methods."
+    },
+    {
+      "term": "Future research",
+      "definition": "Suggested studies that address a study's limitations or new questions."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u4-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Methods",
+      "stem": "Which method best answers 'How are teenagers portrayed in top-grossing films from 2015–2025?'",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Content analysis"
+        },
+        {
+          "id": "B",
+          "text": "Randomized experiment"
+        },
+        {
+          "id": "C",
+          "text": "Survey"
+        },
+        {
+          "id": "D",
+          "text": "Case study of one teenager"
+        }
+      ],
+      "answer": "A",
+      "explanation": "It systematically analyzes media content.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Sampling",
+      "stimulus": "Practice scenario (written by Klutch; data are fictional)\n\nA student surveyed 85 students at their school (recruited through social media posts) about daily screen time and sleep. Results: students reporting more than 4 hours of recreational screen time slept an average of 6.4 hours on school nights, versus 7.3 hours for those reporting under 2 hours. Open-ended responses mentioned 'losing track of time' and 'checking notifications in bed.'",
+      "stem": "The student's sample is best described as",
+      "choices": [
+        {
+          "id": "A",
+          "text": "a convenience sample"
+        },
+        {
+          "id": "B",
+          "text": "a random sample"
+        },
+        {
+          "id": "C",
+          "text": "a purposive sample"
+        },
+        {
+          "id": "D",
+          "text": "a census"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Recruited through social media posts.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q03",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Conclusions",
+      "stimulus": "Practice scenario (written by Klutch; data are fictional)\n\nA student surveyed 85 students at their school (recruited through social media posts) about daily screen time and sleep. Results: students reporting more than 4 hours of recreational screen time slept an average of 6.4 hours on school nights, versus 7.3 hours for those reporting under 2 hours. Open-ended responses mentioned 'losing track of time' and 'checking notifications in bed.'",
+      "stem": "Which conclusion is best supported?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Among respondents, more recreational screen time was associated with less sleep, and responses suggest notifications and losing track of time may contribute."
+        },
+        {
+          "id": "B",
+          "text": "Screen time causes students to lose an hour of sleep."
+        },
+        {
+          "id": "C",
+          "text": "All teenagers sleep 6.4 hours."
+        },
+        {
+          "id": "D",
+          "text": "Screen time has no relationship with sleep."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Associational and hedged.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q04",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Limitations",
+      "stimulus": "Practice scenario (written by Klutch; data are fictional)\n\nA student surveyed 85 students at their school (recruited through social media posts) about daily screen time and sleep. Results: students reporting more than 4 hours of recreational screen time slept an average of 6.4 hours on school nights, versus 7.3 hours for those reporting under 2 hours. Open-ended responses mentioned 'losing track of time' and 'checking notifications in bed.'",
+      "stem": "Which is the most important limitation of the screen-time study?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Self-reported data from a non-random sample may be inaccurate and not representative of all students."
+        },
+        {
+          "id": "B",
+          "text": "The sample included 85 students."
+        },
+        {
+          "id": "C",
+          "text": "Open-ended questions were included."
+        },
+        {
+          "id": "D",
+          "text": "The study compared groups."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Self-report and convenience sampling both threaten conclusions.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q05",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Mixed Methods",
+      "stimulus": "Practice scenario (written by Klutch; data are fictional)\n\nA student surveyed 85 students at their school (recruited through social media posts) about daily screen time and sleep. Results: students reporting more than 4 hours of recreational screen time slept an average of 6.4 hours on school nights, versus 7.3 hours for those reporting under 2 hours. Open-ended responses mentioned 'losing track of time' and 'checking notifications in bed.'",
+      "stem": "Why does including open-ended responses strengthen the study?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They suggest possible mechanisms behind the statistical association, which numbers alone can't show."
+        },
+        {
+          "id": "B",
+          "text": "They make the sample random."
+        },
+        {
+          "id": "C",
+          "text": "They prove causation."
+        },
+        {
+          "id": "D",
+          "text": "They increase the sample size."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Qualitative data help explain quantitative patterns.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-q06",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Design",
+      "stem": "To test whether reducing screen time increases sleep, the strongest design would be",
+      "choices": [
+        {
+          "id": "A",
+          "text": "randomly assigning volunteers to a no-phones-after-9-p.m. condition or a normal-use condition and measuring sleep with sleep-tracking devices"
+        },
+        {
+          "id": "B",
+          "text": "surveying more students"
+        },
+        {
+          "id": "C",
+          "text": "interviewing parents"
+        },
+        {
+          "id": "D",
+          "text": "analyzing social media posts about sleep"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Random assignment and objective measures support causal claims.",
+      "distractors": {}
+    },
+    {
+      "id": "u4-t01",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Method Justification",
+      "frqType": "Research skill task",
+      "prompt": "Write a method justification for a study answering: 'How do first-year teachers at three local high schools describe the support they receive in their first semester?'",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Name the method.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Justify it.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Describe sampling and procedure.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Method",
+          "points": 2,
+          "description": "Chooses a fitting method (semi-structured interviews or focus groups)."
+        },
+        {
+          "criterion": "Justification",
+          "points": 2,
+          "description": "Explains why it fits better than alternatives, ideally citing similar prior use."
+        },
+        {
+          "criterion": "Sampling and procedure",
+          "points": 2,
+          "description": "Describes purposive sampling and replicable procedures."
+        }
+      ],
+      "sampleResponse": "A. Semi-structured interviews.\n\nB. Because the question asks how teachers describe their experiences, interviews capture detailed perspectives a survey would miss, while a semi-structured format keeps questions consistent across participants. Previous studies of new-teacher induction have used interviews for the same reason.\n\nC. I will purposively sample all first-year teachers at three high schools (about 9–12 people), conduct 30-minute recorded interviews with the same core questions and follow-ups, transcribe them, and code them for themes."
+    },
+    {
+      "id": "u4-t02",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Discussion",
+      "frqType": "Research skill task",
+      "stimulus": "Practice scenario (written by Klutch; data are fictional)\n\nA student surveyed 85 students at their school (recruited through social media posts) about daily screen time and sleep. Results: students reporting more than 4 hours of recreational screen time slept an average of 6.4 hours on school nights, versus 7.3 hours for those reporting under 2 hours. Open-ended responses mentioned 'losing track of time' and 'checking notifications in bed.'",
+      "prompt": "Write part of the discussion section for the screen-time study.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Interpret the findings.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Relate them to prior research.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "State the new understanding and a future study.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Interpretation",
+          "points": 2,
+          "description": "Interprets findings accurately without overclaiming."
+        },
+        {
+          "criterion": "Prior research",
+          "points": 2,
+          "description": "Relates findings to prior research (confirming or extending), stated generally if no sources given."
+        },
+        {
+          "criterion": "New understanding and future research",
+          "points": 2,
+          "description": "States the contribution and a specific future study addressing a limitation."
+        }
+      ],
+      "sampleResponse": "A. Students who reported more than four hours of recreational screen time reported almost an hour less sleep than those with under two hours, and their own explanations point to notifications and losing track of time.\n\nB. This pattern is consistent with prior research linking evening device use to shorter sleep, and it extends that work by documenting the pattern and students' own explanations at our school.\n\nC. The study contributes local evidence that school leaders could use for sleep education. Future research should use sleep trackers and randomly assign students to a nighttime phone limit to test whether reducing screen time causes more sleep."
+    },
+    {
+      "id": "u4-t03",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Data Presentation",
+      "frqType": "Research skill task",
+      "stimulus": "Practice scenario (written by Klutch; data are fictional)\n\nA student surveyed 85 students at their school (recruited through social media posts) about daily screen time and sleep. Results: students reporting more than 4 hours of recreational screen time slept an average of 6.4 hours on school nights, versus 7.3 hours for those reporting under 2 hours. Open-ended responses mentioned 'losing track of time' and 'checking notifications in bed.'",
+      "prompt": "Describe how to present the screen-time results in the paper.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Describe an appropriate figure.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Write a results sentence.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Describe how to present qualitative responses.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Figure",
+          "points": 2,
+          "description": "Proposes an appropriate graph or table with labeled axes and units."
+        },
+        {
+          "criterion": "Results text",
+          "points": 2,
+          "description": "Writes results that report without interpreting."
+        },
+        {
+          "criterion": "Qualitative",
+          "points": 2,
+          "description": "Presents qualitative data with themes and representative quotes, protecting identity."
+        }
+      ],
+      "sampleResponse": "A. A bar graph with screen-time categories (under 2, 2–4, over 4 hours) on the x-axis and mean school-night sleep hours on the y-axis, with the number of respondents in each group labeled.\n\nB. 'Respondents reporting more than 4 hours of daily recreational screen time reported a mean of 6.4 hours of sleep on school nights, compared with 7.3 hours among those reporting under 2 hours.'\n\nC. Group open-ended responses into themes, such as 'losing track of time' and 'nighttime notifications,' report how many respondents mentioned each, and include short anonymous quotations identified by participant number."
+    },
+    {
+      "id": "u4-t04",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Limitations",
+      "frqType": "Research skill task",
+      "stimulus": "Practice scenario (written by Klutch; data are fictional)\n\nA student surveyed 85 students at their school (recruited through social media posts) about daily screen time and sleep. Results: students reporting more than 4 hours of recreational screen time slept an average of 6.4 hours on school nights, versus 7.3 hours for those reporting under 2 hours. Open-ended responses mentioned 'losing track of time' and 'checking notifications in bed.'",
+      "prompt": "Write the limitations paragraph for the screen-time study.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Identify limitations.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Explain their effects.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Suggest how to address them.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Limitations",
+          "points": 2,
+          "description": "Names at least two specific limitations."
+        },
+        {
+          "criterion": "Effect",
+          "points": 2,
+          "description": "Explains how each affects interpretation."
+        },
+        {
+          "criterion": "Mitigation",
+          "points": 2,
+          "description": "Notes how future studies could address them."
+        }
+      ],
+      "sampleResponse": "This study has several limitations. First, respondents were recruited through social media, so students who use social media more may be overrepresented, and the results may not represent all students at the school. Second, screen time and sleep were self-reported, and students often misestimate both, which could exaggerate or hide the true relationship. Third, the survey design cannot establish causation; other factors, such as homework load or anxiety, might lead to both more screen time and less sleep. Future studies could use random sampling, phone screen-time reports and sleep trackers, and an experimental design to address these issues."
+    }
+  ]
+}

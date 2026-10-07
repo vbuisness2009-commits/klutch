@@ -1,0 +1,449 @@
+{
+  "number": 5,
+  "title": "Team, Transform, and Transmit",
+  "guide": {
+    "summary": "The final stage of AP Research is communication: writing a clear academic paper in a scholarly style, presenting your research to a panel, defending your choices in the oral defense, and reflecting on the research process.",
+    "sections": [
+      {
+        "heading": "The academic paper",
+        "body": "The 4,000–5,000-word paper usually includes: an introduction that presents the topic, its significance, and the research question; a literature review that synthesizes the scholarly conversation and identifies the gap; a method section that describes and justifies the design; results or findings presented clearly, often with tables or figures; a discussion that interprets results, connects them to the literature, and explains limitations; and a conclusion stating the new understanding, implications, and future research directions. Use a consistent citation style (often APA in the social sciences, MLA in the humanities) with in-text citations and a reference list. Academic writing is precise and formal, uses hedged language ('suggests,' 'is associated with'), defines key terms, and uses headings to guide readers."
+      },
+      {
+        "heading": "Presentation and oral defense",
+        "body": "The 15–20 minute presentation communicates the research journey and findings to a panel that may not be experts in the field: the question and why it matters, the gap, the method and why it was chosen, key findings, conclusions, limitations, and implications. Visuals should highlight data and structure, not replicate the paper. The panel then asks three or four questions. Typical questions probe your research process (how your question changed, why you chose your method, how you handled problems), your understanding of findings and limitations, and your reflection on what you learned. Answers should be specific, reference your decisions and evidence, and acknowledge limitations honestly."
+      },
+      {
+        "heading": "Reflection and revision",
+        "body": "Reflection is built into the course: research logs record decisions, problems, and changes; this record supports both the paper's method section and the oral defense. Strong reflection identifies what went wrong (low survey response, an ambiguous question), why, and what the researcher did about it, and connects lessons to future research. Revision based on feedback from peers, teachers, and mentors improves clarity and argument. A research paper is persuasive when every section serves the research question and the conclusion clearly states what is now known that wasn't before."
+      }
+    ],
+    "keyTakeaways": [
+      "Paper: intro, lit review, method, results, discussion, conclusion, references.",
+      "Use a consistent citation style.",
+      "Hedged, precise academic language.",
+      "Presentation tells the research story for non-experts.",
+      "Oral defense: specific, honest, reflective.",
+      "Keep a research log for reflection."
+    ],
+    "commonMistakes": [
+      "Results mixed with discussion.",
+      "Inconsistent or missing citations.",
+      "Overly casual or overstated language.",
+      "Slides copied from the paper.",
+      "Defensive answers in the oral defense."
+    ],
+    "examTips": [
+      "Use headings matching the paper's sections.",
+      "Practice the presentation with a timer and mock panel.",
+      "Prepare answers about method choice, limitations, and how your thinking changed."
+    ],
+    "cramSheet": "**Paper:** intro · lit review · method · results · discussion · conclusion · references · 4,000–5,000 words\n\n**Style:** APA/MLA consistent · hedged language · headings · defined terms\n\n**Presentation:** 15–20 min · question → gap → method → findings → conclusions → limits\n\n**Oral defense:** 3–4 questions · process · findings · reflection\n\n**Reflection:** research log · problems + responses · lessons"
+  },
+  "vocab": [
+    {
+      "term": "Abstract",
+      "definition": "A short summary of a paper's question, method, findings, and conclusion."
+    },
+    {
+      "term": "APA style",
+      "definition": "A citation and formatting style common in the social sciences."
+    },
+    {
+      "term": "In-text citation",
+      "definition": "A brief reference within the text pointing to a full source entry."
+    },
+    {
+      "term": "Reference list",
+      "definition": "The full list of sources cited in a paper."
+    },
+    {
+      "term": "Hedging",
+      "definition": "Cautious language that matches claims to the strength of evidence."
+    },
+    {
+      "term": "Results section",
+      "definition": "The part of a paper that reports findings without interpretation."
+    },
+    {
+      "term": "Discussion section",
+      "definition": "The part of a paper that interprets results and relates them to prior research."
+    },
+    {
+      "term": "Implications",
+      "definition": "What findings mean for practice, policy, or theory."
+    },
+    {
+      "term": "Oral defense",
+      "definition": "Answering panel questions about one's research."
+    },
+    {
+      "term": "Research journey",
+      "definition": "The process of inquiry, including changes and decisions."
+    },
+    {
+      "term": "Panel",
+      "definition": "The evaluators who ask oral defense questions."
+    },
+    {
+      "term": "Revision",
+      "definition": "Improving a draft based on feedback."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u5-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Paper Structure",
+      "stem": "In which section should a student explain why they chose interviews over a survey?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Method"
+        },
+        {
+          "id": "B",
+          "text": "Results"
+        },
+        {
+          "id": "C",
+          "text": "Abstract only"
+        },
+        {
+          "id": "D",
+          "text": "Reference list"
+        }
+      ],
+      "answer": "A",
+      "explanation": "The method section describes and justifies the design.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Language",
+      "stem": "Which sentence uses appropriately hedged academic language for a survey finding?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "These results suggest that students who use planners may experience less stress."
+        },
+        {
+          "id": "B",
+          "text": "This proves planners eliminate stress."
+        },
+        {
+          "id": "C",
+          "text": "Everyone should use planners."
+        },
+        {
+          "id": "D",
+          "text": "Planners are obviously the best."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Hedged and evidence-appropriate.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q03",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Oral Defense",
+      "stimulus": "Practice scenario (written by Klutch)\n\nA student studied how students at their school perceive the school's new phone-free policy. They planned a survey of 300 students but received only 62 responses, so they added 8 follow-up interviews. Survey respondents were split on the policy, while interviewees mostly said the policy improved focus in class but increased frustration during lunch.",
+      "stem": "A panelist asks why the student added interviews. The best answer",
+      "choices": [
+        {
+          "id": "A",
+          "text": "explains that low survey response limited the data, so interviews were added to deepen understanding, and notes how this changed the study's design"
+        },
+        {
+          "id": "B",
+          "text": "says the teacher required it"
+        },
+        {
+          "id": "C",
+          "text": "says interviews are always better"
+        },
+        {
+          "id": "D",
+          "text": "avoids mentioning the low response rate"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Specific, honest, and connected to the research process.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q04",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Paper Structure",
+      "stimulus": "Practice scenario (written by Klutch)\n\nA student studied how students at their school perceive the school's new phone-free policy. They planned a survey of 300 students but received only 62 responses, so they added 8 follow-up interviews. Survey respondents were split on the policy, while interviewees mostly said the policy improved focus in class but increased frustration during lunch.",
+      "stem": "A results section that says 'Students were split on the policy, probably because younger students are less mature' is flawed because it",
+      "choices": [
+        {
+          "id": "A",
+          "text": "mixes interpretation (and unsupported speculation) into the results"
+        },
+        {
+          "id": "B",
+          "text": "reports data"
+        },
+        {
+          "id": "C",
+          "text": "uses past tense"
+        },
+        {
+          "id": "D",
+          "text": "is too short"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Results report findings; interpretation belongs in the discussion, with evidence.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q05",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Limitations",
+      "stimulus": "Practice scenario (written by Klutch)\n\nA student studied how students at their school perceive the school's new phone-free policy. They planned a survey of 300 students but received only 62 responses, so they added 8 follow-up interviews. Survey respondents were split on the policy, while interviewees mostly said the policy improved focus in class but increased frustration during lunch.",
+      "stem": "What is the most important limitation to discuss about the survey?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The 62 respondents (about 21 percent of the target) may not represent the student body, because those with strong opinions may have been more likely to respond."
+        },
+        {
+          "id": "B",
+          "text": "Surveys always produce invalid data."
+        },
+        {
+          "id": "C",
+          "text": "62 is an even number."
+        },
+        {
+          "id": "D",
+          "text": "The survey was about phones."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Nonresponse bias limits generalization.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-q06",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "New Understanding",
+      "stimulus": "Practice scenario (written by Klutch)\n\nA student studied how students at their school perceive the school's new phone-free policy. They planned a survey of 300 students but received only 62 responses, so they added 8 follow-up interviews. Survey respondents were split on the policy, while interviewees mostly said the policy improved focus in class but increased frustration during lunch.",
+      "stem": "Which statement best expresses the study's new understanding?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "At this school, students' perceptions of the phone-free policy appear to depend on context: interviewees valued it during class but resented it during lunch."
+        },
+        {
+          "id": "B",
+          "text": "Phone policies are good."
+        },
+        {
+          "id": "C",
+          "text": "Phone policies are bad."
+        },
+        {
+          "id": "D",
+          "text": "Surveys work better than interviews."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Specific, qualified, and grounded in the data.",
+      "distractors": {}
+    },
+    {
+      "id": "u5-t01",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Oral Defense",
+      "frqType": "Research skill task",
+      "stimulus": "Practice scenario (written by Klutch)\n\nA student studied how students at their school perceive the school's new phone-free policy. They planned a survey of 300 students but received only 62 responses, so they added 8 follow-up interviews. Survey respondents were split on the policy, while interviewees mostly said the policy improved focus in class but increased frustration during lunch.",
+      "prompt": "Answer three likely oral defense questions about the phone-policy study.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Why did you change your research design?",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "What is the biggest limitation, and how does it affect your conclusions?",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "What would you do differently?",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Process",
+          "points": 2,
+          "description": "Specific explanation of how and why the design changed."
+        },
+        {
+          "criterion": "Limitations",
+          "points": 2,
+          "description": "Honest limitation with its effect on conclusions."
+        },
+        {
+          "criterion": "Reflection",
+          "points": 2,
+          "description": "Specific lesson and change for future research."
+        }
+      ],
+      "sampleResponse": "A. My survey response rate was low, about 62 of 300, so I couldn't draw strong conclusions from the numbers alone. I added eight interviews to understand why students felt the way they did, which turned the project into a mixed-methods study.\n\nB. My respondents may not represent the school; students with strong opinions are more likely to answer. So I describe my findings as perceptions of these participants, not of all students.\n\nC. I learned to plan recruitment more carefully, for example by distributing surveys during advisory period with administrators' permission, and to pilot my survey first. I'd also plan interviews from the start, since they gave me my most important finding about class versus lunch."
+    },
+    {
+      "id": "u5-t02",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Abstract",
+      "frqType": "Research skill task",
+      "stimulus": "Practice scenario (written by Klutch)\n\nA student studied how students at their school perceive the school's new phone-free policy. They planned a survey of 300 students but received only 62 responses, so they added 8 follow-up interviews. Survey respondents were split on the policy, while interviewees mostly said the policy improved focus in class but increased frustration during lunch.",
+      "prompt": "Write a 120–180 word abstract for the phone-policy study.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "State the question and context.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Summarize method and findings.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "State the conclusion and implication.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Question and context",
+          "points": 2,
+          "description": "States the question and why it matters."
+        },
+        {
+          "criterion": "Method and findings",
+          "points": 2,
+          "description": "Summarizes mixed methods and key findings accurately."
+        },
+        {
+          "criterion": "Conclusion",
+          "points": 2,
+          "description": "States a hedged conclusion and implication."
+        }
+      ],
+      "sampleResponse": "Many schools have adopted phone-free policies, but little research examines how students themselves experience these rules. This mixed-methods study explored how students at one suburban high school perceive a new phone-free policy. A survey was distributed to 300 students (n = 62 responses), followed by semi-structured interviews with eight students. Survey responses were divided between support and opposition. Interviews revealed that students' views depended on context: most interviewees felt the policy improved focus during class but caused frustration during lunch, when they wanted to connect with friends and family. Although the low response rate limits generalization, the findings suggest that schools might gain more student support by applying phone restrictions differently in instructional and social time. Future research should survey a larger, more representative sample and compare schools with different policy designs."
+    },
+    {
+      "id": "u5-t03",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Presentation",
+      "frqType": "Research skill task",
+      "stimulus": "Practice scenario (written by Klutch)\n\nA student studied how students at their school perceive the school's new phone-free policy. They planned a survey of 300 students but received only 62 responses, so they added 8 follow-up interviews. Survey respondents were split on the policy, while interviewees mostly said the policy improved focus in class but increased frustration during lunch.",
+      "prompt": "Plan the presentation for the phone-policy study (15–20 minutes).",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Outline the structure with time.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Describe visuals.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Explain how you'll adapt to the panel.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Structure",
+          "points": 2,
+          "description": "A logical sequence from question to implications with time allotments."
+        },
+        {
+          "criterion": "Visuals",
+          "points": 2,
+          "description": "Specific, appropriate visuals (survey chart, theme table) and what to avoid."
+        },
+        {
+          "criterion": "Audience",
+          "points": 2,
+          "description": "Adapts to a non-expert panel (defining terms, telling the research story)."
+        }
+      ],
+      "sampleResponse": "A. 2 min: hook and question; 3 min: literature and gap; 3 min: method and the shift to mixed methods; 5 min: findings; 3 min: conclusions, implications, limitations; 1 min: closing.\n\nB. A bar chart of survey responses with n = 62 labeled, a two-column table contrasting interview themes for class and lunch with short anonymous quotes, and no slides full of text.\n\nC. The panel may not know research terms, so I'll briefly define 'mixed methods' and 'semi-structured interview' and tell the story of why my design changed, which also prepares them for questions."
+    },
+    {
+      "id": "u5-t04",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Citations and Style",
+      "frqType": "Research skill task",
+      "prompt": "A student's draft includes: 'Smith said phones are bad for learning. Everyone knows teens are addicted to phones, so the policy definitely works.'",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Identify the problems.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Revise the sentences.",
+          "points": 3
+        },
+        {
+          "label": "C",
+          "prompt": "Explain the reference-list entry.",
+          "points": 1
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Problems",
+          "points": 2,
+          "description": "Identifies missing citation details, unsupported generalization, and overclaiming."
+        },
+        {
+          "criterion": "Revision",
+          "points": 3,
+          "description": "Rewrites with a properly formatted in-text citation, accurate paraphrase, and hedged claims."
+        },
+        {
+          "criterion": "Reference",
+          "points": 1,
+          "description": "Explains what the reference-list entry must include."
+        }
+      ],
+      "sampleResponse": "A. The sentence names 'Smith' without a year or full citation, oversimplifies the source ('phones are bad'), makes an unsupported generalization ('everyone knows'), and claims certainty the data can't support ('definitely works').\n\nB. Revised (APA): Smith (2021) found that students who kept phones on their desks scored lower on comprehension tests than students whose phones were in another room. Consistent with this, interviewees in the present study reported better focus during class under the phone-free policy, although these perceptions do not establish that the policy improved learning.\n\nC. The reference list must include Smith's full entry: author, year, title, and publication information (journal, volume, pages, DOI) in APA format."
+    }
+  ]
+}

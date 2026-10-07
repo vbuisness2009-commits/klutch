@@ -1,0 +1,446 @@
+{
+  "number": 1,
+  "title": "Question and Explore",
+  "guide": {
+    "summary": "In AP Research, inquiry starts with exploring a topic through scholarly literature until you find a gap: something not yet known, a population not yet studied, or a conflict not yet resolved. The gap shapes a focused, feasible research question.",
+    "sections": [
+      {
+        "heading": "From interest to gap",
+        "body": "Start broad, then read widely: scholarly databases (JSTOR, Google Scholar, ERIC, PubMed), review articles, and the reference lists of strong studies. Track sources in a research log with each study's question, method, sample, findings, and limitations. A gap appears when studies disagree, when a population, place, or time hasn't been studied, when a method hasn't been applied, or when authors' 'future research' sections name open questions. In the music scenario, most studies used college students in labs with assigned music; high school students studying at home with self-chosen music are a gap. Popular claims such as 'classical music makes you smarter' signal a public misconception worth testing, but they are not scholarly evidence."
+      },
+      {
+        "heading": "Writing the research question",
+        "body": "A strong AP Research question is focused (specific population, variables, context), feasible (you can collect the data in a school year with your resources and ethical constraints), grounded in the gap, and capable of producing new understanding. Compare 'How does music affect studying?' (too broad, already studied) with 'How do high school students who study with self-selected lyrical vs instrumental music at home perceive its effect on their focus?' The question should also imply a method: a 'to what extent does X affect Y' question suggests an experiment or quasi-experiment; a 'how do participants perceive' question suggests interviews or surveys; a 'how is X represented in' question suggests content analysis."
+      },
+      {
+        "heading": "The inquiry proposal and feasibility",
+        "body": "Before collecting data, students write an inquiry proposal: the question, the gap, the planned method and why it fits, the participants or materials, an ethics plan, and a timeline. Feasibility questions include: Can I recruit enough participants? Do I need equipment or software? Do I need review board approval for human subjects? How long will analysis take? It is better to answer a small question rigorously than a large one superficially. Revising the question as you learn more is normal; record those changes, because reflecting on them is part of the oral defense."
+      }
+    ],
+    "keyTakeaways": [
+      "Read the literature to find a gap before writing the question.",
+      "Gaps: unstudied populations, contexts, methods, or unresolved conflicts.",
+      "A good question is focused, feasible, and implies a method.",
+      "Keep a research log.",
+      "The proposal includes method, ethics, and timeline."
+    ],
+    "commonMistakes": [
+      "Choosing a question that existing research already answers.",
+      "Questions requiring resources a student can't access.",
+      "Using popular articles as the basis for the gap.",
+      "Not narrowing the population or context.",
+      "Skipping the ethics plan."
+    ],
+    "examTips": [
+      "Name the gap explicitly in your introduction: 'Little research has examined...'",
+      "In the oral defense, explain how your question evolved.",
+      "Use 'future research' sections of studies to find gaps."
+    ],
+    "cramSheet": "**Process:** interest → reading → gap → question → proposal\n\n**Gaps:** population · place/time · method · conflicting findings · 'future research'\n\n**Good RQ:** focused · feasible · grounded in gap · implies method\n\n**Proposal:** question · gap · method + justification · participants · ethics · timeline"
+  },
+  "vocab": [
+    {
+      "term": "Scholarly conversation",
+      "definition": "The ongoing body of research and debate on a topic."
+    },
+    {
+      "term": "Gap",
+      "definition": "Something the existing research has not yet addressed."
+    },
+    {
+      "term": "Literature review",
+      "definition": "A synthesis of existing research that situates a study and identifies a gap."
+    },
+    {
+      "term": "Research log",
+      "definition": "A record of sources, decisions, and changes during research."
+    },
+    {
+      "term": "Feasibility",
+      "definition": "Whether a study can realistically be completed with available time and resources."
+    },
+    {
+      "term": "Inquiry proposal",
+      "definition": "A plan describing the research question, method, ethics, and timeline."
+    },
+    {
+      "term": "Variable",
+      "definition": "A factor that can change or be measured in a study."
+    },
+    {
+      "term": "Population",
+      "definition": "The group a study aims to understand."
+    },
+    {
+      "term": "Database",
+      "definition": "A searchable collection of scholarly sources."
+    },
+    {
+      "term": "Review article",
+      "definition": "A scholarly article summarizing research on a topic."
+    },
+    {
+      "term": "Delimitation",
+      "definition": "A boundary a researcher deliberately sets on a study's scope."
+    },
+    {
+      "term": "New understanding",
+      "definition": "Knowledge a study adds to the scholarly conversation."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u1-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Gap",
+      "stimulus": "Practice scenario (written by Klutch)\n\nA student is interested in 'how music affects studying.' Their preliminary reading finds: (1) many lab studies on background music and memory tasks with college students, with mixed results; (2) a few studies suggesting lyrics hurt reading comprehension more than instrumental music; (3) almost no research on high school students who study with self-chosen music at home; and (4) popular articles claiming classical music makes you smarter.",
+      "stem": "Which best describes the gap in the scenario?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Little research has studied high school students using self-chosen music at home."
+        },
+        {
+          "id": "B",
+          "text": "No one has ever studied music and memory."
+        },
+        {
+          "id": "C",
+          "text": "Popular articles disagree with each other."
+        },
+        {
+          "id": "D",
+          "text": "College students don't listen to music."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Finding (3) identifies an unstudied population and context.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "Sources",
+      "stimulus": "Practice scenario (written by Klutch)\n\nA student is interested in 'how music affects studying.' Their preliminary reading finds: (1) many lab studies on background music and memory tasks with college students, with mixed results; (2) a few studies suggesting lyrics hurt reading comprehension more than instrumental music; (3) almost no research on high school students who study with self-chosen music at home; and (4) popular articles claiming classical music makes you smarter.",
+      "stem": "Why shouldn't the popular articles in finding (4) be used to establish the gap?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "They aren't scholarly research and may misrepresent studies."
+        },
+        {
+          "id": "B",
+          "text": "They are too recent."
+        },
+        {
+          "id": "C",
+          "text": "They are about classical music only."
+        },
+        {
+          "id": "D",
+          "text": "They are written in English."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Gaps are defined relative to scholarly literature.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q03",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Research Question",
+      "stimulus": "Practice scenario (written by Klutch)\n\nA student is interested in 'how music affects studying.' Their preliminary reading finds: (1) many lab studies on background music and memory tasks with college students, with mixed results; (2) a few studies suggesting lyrics hurt reading comprehension more than instrumental music; (3) almost no research on high school students who study with self-chosen music at home; and (4) popular articles claiming classical music makes you smarter.",
+      "stem": "Which research question is most feasible and grounded in the gap?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "How do students at my high school describe the effects of self-selected lyrical and instrumental music on their focus during homework?"
+        },
+        {
+          "id": "B",
+          "text": "How does music affect the human brain?"
+        },
+        {
+          "id": "C",
+          "text": "Does classical music increase IQ in all people?"
+        },
+        {
+          "id": "D",
+          "text": "What is the history of background music?"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Specific, feasible, and targets the gap.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q04",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "Method Fit",
+      "stem": "A question beginning 'To what extent does X cause a change in Y' most naturally calls for",
+      "choices": [
+        {
+          "id": "A",
+          "text": "an experimental or quasi-experimental design"
+        },
+        {
+          "id": "B",
+          "text": "a content analysis"
+        },
+        {
+          "id": "C",
+          "text": "a literature review only"
+        },
+        {
+          "id": "D",
+          "text": "an autobiography"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Causal questions require manipulation and comparison.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q05",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Feasibility",
+      "stem": "A student proposes measuring brain activity with fMRI scans of 200 students. The main problem is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "feasibility: the equipment, cost, and ethics approvals are beyond a high school project"
+        },
+        {
+          "id": "B",
+          "text": "the question is too narrow"
+        },
+        {
+          "id": "C",
+          "text": "fMRI is a qualitative method"
+        },
+        {
+          "id": "D",
+          "text": "200 is too small for any study"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Feasibility includes access to equipment and approvals.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q06",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "Gap",
+      "stimulus": "Practice scenario (written by Klutch)\n\nA student is interested in 'how music affects studying.' Their preliminary reading finds: (1) many lab studies on background music and memory tasks with college students, with mixed results; (2) a few studies suggesting lyrics hurt reading comprehension more than instrumental music; (3) almost no research on high school students who study with self-chosen music at home; and (4) popular articles claiming classical music makes you smarter.",
+      "stem": "Finding (1) reports mixed results. How could this conflict itself support a research project?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "A study could test a factor that might explain the conflict, such as whether the music has lyrics or the task type."
+        },
+        {
+          "id": "B",
+          "text": "Mixed results mean the topic should be avoided."
+        },
+        {
+          "id": "C",
+          "text": "The student should pick whichever result they prefer."
+        },
+        {
+          "id": "D",
+          "text": "Conflicts can't be researched."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Unresolved conflicts are gaps; finding (2) suggests lyrics as a moderating factor.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-t01",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Research Question",
+      "frqType": "Research skill task",
+      "stimulus": "Practice scenario (written by Klutch)\n\nA student is interested in 'how music affects studying.' Their preliminary reading finds: (1) many lab studies on background music and memory tasks with college students, with mixed results; (2) a few studies suggesting lyrics hurt reading comprehension more than instrumental music; (3) almost no research on high school students who study with self-chosen music at home; and (4) popular articles claiming classical music makes you smarter.",
+      "prompt": "Using the scenario, develop a research question.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Write a focused, feasible research question.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Explain how it addresses a gap.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Propose a method and justify it.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Question",
+          "points": 2,
+          "description": "A focused, feasible question with a defined population and variables."
+        },
+        {
+          "criterion": "Gap",
+          "points": 2,
+          "description": "Connects the question to a specific gap in the findings."
+        },
+        {
+          "criterion": "Method",
+          "points": 2,
+          "description": "Names a method that fits the question and explains why."
+        }
+      ],
+      "sampleResponse": "A. To what extent does studying with self-selected lyrical music, compared with instrumental music, affect reading comprehension scores among juniors at my high school?\n\nB. Existing studies mostly use college students with assigned music in labs (findings 1 and 3), and some suggest lyrics matter (finding 2). My question tests that factor with high school students using music they actually choose.\n\nC. A within-subjects experiment: each participant completes comparable reading passages under both conditions in random order, so differences can be attributed to the music type rather than to differences between people."
+    },
+    {
+      "id": "u1-t02",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "Narrowing",
+      "frqType": "Research skill task",
+      "prompt": "Narrow each broad topic into a feasible AP Research question.\n\n1. Climate change\n2. Social media and politics\n3. Video games",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Narrow topic 1.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Narrow topic 2.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Narrow topic 3.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Focus",
+          "points": 3,
+          "description": "Each question specifies population, context, and variables (1 point each)."
+        },
+        {
+          "criterion": "Feasibility",
+          "points": 2,
+          "description": "Each question could be answered by a student in a year."
+        },
+        {
+          "criterion": "Arguable",
+          "points": 1,
+          "description": "Questions produce new understanding, not fact lookups."
+        }
+      ],
+      "sampleResponse": "1. How do residents of my county who experienced the 2023 flood describe changes in their support for local flood-protection spending?\n2. How did the three largest local news outlets' Instagram posts frame the 2026 school board election?\n3. To what extent does playing a cooperative video game for 20 minutes affect students' scores on a teamwork task compared with playing a solo game?"
+    },
+    {
+      "id": "u1-t03",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Proposal",
+      "frqType": "Research skill task",
+      "prompt": "Draft key parts of an inquiry proposal for the question you wrote in Task 1 (or any AP Research question).",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Describe participants and recruitment.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Describe the ethics plan.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Give a timeline.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Participants",
+          "points": 2,
+          "description": "Describes recruitment and sample realistically."
+        },
+        {
+          "criterion": "Ethics",
+          "points": 2,
+          "description": "Identifies consent/assent, privacy, and review approval."
+        },
+        {
+          "criterion": "Timeline",
+          "points": 2,
+          "description": "A realistic sequence from approval to analysis."
+        }
+      ],
+      "sampleResponse": "A. Participants: about 40 juniors recruited through English classes, volunteers only, with a sign-up form describing the study.\n\nB. Ethics: submit the plan to the school's review board; obtain parental consent and student assent because participants are minors; store data with ID numbers instead of names; allow withdrawal at any time.\n\nC. Timeline: Oct–Nov approval and pilot test of reading passages; Dec–Jan data collection; Feb analysis; Mar–Apr writing and revision."
+    },
+    {
+      "id": "u1-t04",
+      "tier": "Hardest",
+      "type": "frq",
+      "topic": "Gap",
+      "frqType": "Research skill task",
+      "prompt": "A student's literature review ends: 'Many researchers have studied music and studying. Some say it helps and some say it hurts. Therefore I will study music and studying.'",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Explain what is wrong with the ending.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Rewrite it to identify a gap.",
+          "points": 3
+        },
+        {
+          "label": "C",
+          "prompt": "End with a research question that follows from the gap.",
+          "points": 1
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "Diagnosis",
+          "points": 2,
+          "description": "Identifies that no specific gap is stated and the review doesn't synthesize."
+        },
+        {
+          "criterion": "Revision",
+          "points": 3,
+          "description": "Rewrites the ending to name specific trends, the gap, and how the study addresses it."
+        },
+        {
+          "criterion": "Link",
+          "points": 1,
+          "description": "Revision leads directly into the research question."
+        }
+      ],
+      "sampleResponse": "A. The ending lists vague positions and never identifies what is missing, so it doesn't justify a new study.\n\nB/C. Revised: Laboratory studies of college students show mixed effects of background music on memory, though several suggest lyrics impair reading more than instrumental music does. However, these studies assigned music to participants in controlled settings, and few examined high school students studying with music they choose themselves. This study therefore asks: to what extent does self-selected lyrical music, compared with instrumental music, affect juniors' reading comprehension?"
+    }
+  ]
+}

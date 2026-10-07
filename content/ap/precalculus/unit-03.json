@@ -1,0 +1,266 @@
+{
+  "number": 3,
+  "title": "Trigonometric and Polar Functions",
+  "guide": {
+    "summary": "Unit 3 builds periodic functions from the unit circle: sine, cosine, and tangent values and graphs; sinusoidal transformations and models; inverse trigonometric functions; trigonometric equations, inequalities, and identities; reciprocal functions; and polar coordinates, polar graphs, and rates of change in polar functions.",
+    "sections": [
+      {
+        "heading": "The unit circle and trig functions",
+        "body": "For an angle θ in standard position, the point on the unit circle is (cos θ, sin θ), and tan θ = sin θ/cos θ (the slope of the terminal ray). Know exact values at multiples of π/6 and π/4, and signs by quadrant. Radians measure arc length on the unit circle: 2π radians = 360°. Reciprocal functions: sec θ = 1/cos θ, csc θ = 1/sin θ, cot θ = 1/tan θ. Pythagorean identity: sin²θ + cos²θ = 1, and its variants 1 + tan²θ = sec²θ and 1 + cot²θ = csc²θ."
+      },
+      {
+        "heading": "Sinusoidal functions",
+        "body": "f(θ) = a sin(b(θ + c)) + d (or cosine): amplitude |a|, period 2π/|b|, phase shift −c, midline y = d. Sinusoids alternate concave up and down, with inflection points on the midline; they increase fastest at the midline crossings. Tangent has period π, vertical asymptotes where cos θ = 0, and is always increasing between asymptotes. To build a model from context: midline = (max + min)/2, amplitude = (max − min)/2, period from the time for one cycle, then choose sine or cosine (cosine starts at a maximum; −cosine at a minimum)."
+      },
+      {
+        "heading": "Inverses, equations, and identities",
+        "body": "Inverse trig functions have restricted ranges: arcsin and arctan return values in [−π/2, π/2]; arccos returns values in [0, π]. Solving trig equations: isolate the function, find reference solutions, then add all solutions in the requested interval (sine and cosine repeat every 2π, tangent every π). Sum identities: sin(α + β) = sin α cos β + cos α sin β; cos(α + β) = cos α cos β − sin α sin β. Double-angle: sin 2θ = 2 sin θ cos θ; cos 2θ = cos²θ − sin²θ = 1 − 2sin²θ = 2cos²θ − 1."
+      },
+      {
+        "heading": "Polar coordinates and functions",
+        "body": "A point (r, θ) in polar form has rectangular coordinates x = r cos θ, y = r sin θ; r² = x² + y², tan θ = y/x. Polar graphs: r = a cos θ or a sin θ are circles; r = a + b cos θ gives limaçons (a cardioid when a = b); r = a cos(nθ) gives roses. In polar functions, if r is positive and increasing, the point moves away from the origin; if r is positive and decreasing, toward the origin. If r is negative, the point lies in the opposite direction of θ. Average rate of change of r with respect to θ = Δr/Δθ."
+      }
+    ],
+    "keyTakeaways": [
+      "(cos θ, sin θ) on the unit circle; tan = slope.",
+      "Amplitude |a|; period 2π/|b|; midline d.",
+      "Sinusoids change concavity on the midline.",
+      "arcsin, arctan ∈ [−π/2, π/2]; arccos ∈ [0, π].",
+      "x = r cos θ, y = r sin θ.",
+      "r positive and decreasing → moving toward origin."
+    ],
+    "commonMistakes": [
+      "Using b instead of 2π/b as the period.",
+      "Forgetting a second solution in a different quadrant.",
+      "Giving arccos(−½) as −π/3 (it's 2π/3).",
+      "Mixing degree mode and radians.",
+      "Treating a negative r as a point in the θ direction."
+    ],
+    "examTips": [
+      "Q3 FRQs: show how amplitude, period, midline, and phase come from the context.",
+      "Intervals of increase and concavity: use the graph's critical points and midline crossings.",
+      "Q4 symbolic: rewrite with identities step by step and state the solution interval.",
+      "Polar questions: convert or test a few θ values to see direction of motion."
+    ],
+    "cramSheet": "**Unit circle:** (cos θ, sin θ) · tan = sin/cos · π/6, π/4, π/3 values\n\n**Sinusoid:** a sin(b(θ + c)) + d · amp |a| · period 2π/|b| · midline d\n\n**Tangent:** period π · asymptotes cos = 0\n\n**Inverses:** arcsin, arctan [−π/2, π/2] · arccos [0, π]\n\n**Identities:** sin² + cos² = 1 · sin 2θ = 2 sin θ cos θ · cos 2θ = 1 − 2sin²θ\n\n**Polar:** x = r cos θ · y = r sin θ · r = a ± b cos θ limaçon · r = a cos nθ rose"
+  },
+  "vocab": [
+    { "term": "Radian", "definition": "The angle subtending an arc equal in length to the radius." },
+    { "term": "Unit circle", "definition": "Circle of radius 1 centered at the origin; points are (cos θ, sin θ)." },
+    { "term": "Period", "definition": "The length of one complete cycle of a periodic function." },
+    { "term": "Amplitude", "definition": "Half the distance between the maximum and minimum values of a sinusoid." },
+    { "term": "Midline", "definition": "The horizontal line halfway between a sinusoid's maximum and minimum." },
+    { "term": "Phase shift", "definition": "The horizontal translation of a periodic function." },
+    { "term": "Inverse sine (arcsin)", "definition": "The angle in [−π/2, π/2] with a given sine." },
+    { "term": "Pythagorean identity", "definition": "sin²θ + cos²θ = 1." },
+    { "term": "Double-angle identity", "definition": "Formulas for sin 2θ and cos 2θ in terms of θ." },
+    { "term": "Polar coordinates", "definition": "A point described by distance r from the origin and angle θ." },
+    { "term": "Limaçon", "definition": "Polar graph of r = a + b cos θ or a + b sin θ." },
+    { "term": "Rose curve", "definition": "Polar graph of r = a cos(nθ) or a sin(nθ)." }
+  ],
+  "practice": [
+    {
+      "id": "u3-q01", "tier": "Intro", "type": "mcq", "topic": "3.3 Sine and Cosine Function Values",
+      "stem": "What is the exact value of cos(4π/3)?",
+      "choices": [
+        { "id": "A", "text": "1/2" },
+        { "id": "B", "text": "−1/2" },
+        { "id": "C", "text": "−√3/2" },
+        { "id": "D", "text": "√3/2" }
+      ],
+      "answer": "B",
+      "explanation": "4π/3 is in Quadrant III with reference angle π/3; cosine is negative.",
+      "distractors": { "C": "That's sin(4π/3)." }
+    },
+    {
+      "id": "u3-q02", "tier": "Intro", "type": "mcq", "topic": "3.6 Sinusoidal Function Transformations",
+      "stem": "What are the amplitude, period, and midline of f(x) = 3 sin(2(x − π/4)) + 1?",
+      "choices": [
+        { "id": "A", "text": "3, π, y = 1" },
+        { "id": "B", "text": "3, 2, y = 1" },
+        { "id": "C", "text": "3, 4π, y = 1" },
+        { "id": "D", "text": "2, π, y = 3" }
+      ],
+      "answer": "A",
+      "explanation": "Amplitude |3|; period 2π/2 = π; midline y = 1.",
+      "distractors": { "B": "Uses b as the period." }
+    },
+    {
+      "id": "u3-q03", "tier": "Intro", "type": "mcq", "topic": "3.9 Inverse Trigonometric Functions",
+      "stem": "What is arccos(−1/2)?",
+      "choices": [
+        { "id": "A", "text": "−π/3" },
+        { "id": "B", "text": "2π/3" },
+        { "id": "C", "text": "4π/3" },
+        { "id": "D", "text": "−π/6" }
+      ],
+      "answer": "B",
+      "explanation": "The range of arccos is [0, π]; cos(2π/3) = −1/2.",
+      "distractors": { "A": "Outside arccos's range." }
+    },
+    {
+      "id": "u3-q04", "tier": "Intro", "type": "mcq", "topic": "3.13 Trigonometry and Polar Coordinates",
+      "stem": "What are the rectangular coordinates of the polar point (2, 2π/3)?",
+      "choices": [
+        { "id": "A", "text": "(−1, √3)" },
+        { "id": "B", "text": "(1, −√3)" },
+        { "id": "C", "text": "(−√3, 1)" },
+        { "id": "D", "text": "(√3, 1)" }
+      ],
+      "answer": "A",
+      "explanation": "x = 2 cos(2π/3) = −1; y = 2 sin(2π/3) = √3.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q05", "tier": "Exam level", "type": "mcq", "topic": "3.10 Trigonometric Equations and Inequalities",
+      "stem": "What are all solutions of 2 sin x − 1 = 0 on [0, 2π)?",
+      "choices": [
+        { "id": "A", "text": "π/6 only" },
+        { "id": "B", "text": "π/6 and 5π/6" },
+        { "id": "C", "text": "π/6 and 11π/6" },
+        { "id": "D", "text": "π/3 and 2π/3" }
+      ],
+      "answer": "B",
+      "explanation": "sin x = 1/2 in Quadrants I and II.",
+      "distractors": { "C": "Uses cosine's symmetry." }
+    },
+    {
+      "id": "u3-q06", "tier": "Exam level", "type": "mcq", "topic": "3.12 Equivalent Representations of Trigonometric Functions",
+      "stem": "If sin θ = 3/5 and π/2 < θ < π, what is sin 2θ?",
+      "choices": [
+        { "id": "A", "text": "24/25" },
+        { "id": "B", "text": "−24/25" },
+        { "id": "C", "text": "6/5" },
+        { "id": "D", "text": "−7/25" }
+      ],
+      "answer": "B",
+      "explanation": "cos θ = −4/5 in Quadrant II; sin 2θ = 2(3/5)(−4/5) = −24/25.",
+      "distractors": { "A": "Uses positive cosine.", "D": "cos 2θ is 7/25." }
+    },
+    {
+      "id": "u3-q07", "tier": "Exam level", "type": "mcq", "topic": "3.12 Equivalent Representations of Trigonometric Functions",
+      "stem": "For values where it is defined, sin²x/(1 − cos x) is equivalent to",
+      "choices": [
+        { "id": "A", "text": "1 + cos x" },
+        { "id": "B", "text": "1 − cos x" },
+        { "id": "C", "text": "sin x" },
+        { "id": "D", "text": "cos x" }
+      ],
+      "answer": "A",
+      "explanation": "sin²x = 1 − cos²x = (1 − cos x)(1 + cos x); cancel 1 − cos x.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q08", "tier": "Exam level", "type": "mcq", "topic": "3.7 Sinusoidal Function Context and Data Modeling",
+      "stem": "The tide's depth varies sinusoidally between 2 m at low tide and 10 m at high tide, with high tides 12 hours apart. High tide occurs at t = 0. Which model fits?",
+      "choices": [
+        { "id": "A", "text": "D(t) = 4 cos(πt/6) + 6" },
+        { "id": "B", "text": "D(t) = 8 cos(πt/6) + 2" },
+        { "id": "C", "text": "D(t) = 4 cos(πt/12) + 6" },
+        { "id": "D", "text": "D(t) = 4 sin(πt/6) + 6" }
+      ],
+      "answer": "A",
+      "explanation": "Amplitude 4, midline 6, period 12 → b = 2π/12 = π/6; cosine starts at the maximum.",
+      "distractors": { "C": "Period 24 hours.", "D": "Starts at the midline, not high tide." }
+    },
+    {
+      "id": "u3-q09", "tier": "Exam level", "type": "mcq", "topic": "3.8 The Tangent Function",
+      "stem": "Which statement about f(x) = tan x is true?",
+      "choices": [
+        { "id": "A", "text": "It has period π and vertical asymptotes at x = π/2 + kπ." },
+        { "id": "B", "text": "It has period 2π." },
+        { "id": "C", "text": "It has amplitude 1." },
+        { "id": "D", "text": "It is decreasing between asymptotes." }
+      ],
+      "answer": "A",
+      "explanation": "Tangent repeats every π and is undefined where cos x = 0.",
+      "distractors": { "C": "Tangent is unbounded." }
+    },
+    {
+      "id": "u3-q10", "tier": "Exam level", "type": "mcq", "topic": "3.14 Polar Function Graphs",
+      "stem": "Which polar equation produces a cardioid?",
+      "choices": [
+        { "id": "A", "text": "r = 2 + 2 cos θ" },
+        { "id": "B", "text": "r = 3 sin θ" },
+        { "id": "C", "text": "r = 4 cos(3θ)" },
+        { "id": "D", "text": "r = 1 + 3 cos θ" }
+      ],
+      "answer": "A",
+      "explanation": "Limaçon r = a + b cos θ with a = b.",
+      "distractors": { "B": "Circle.", "C": "Rose.", "D": "Limaçon with inner loop." }
+    },
+    {
+      "id": "u3-q11", "tier": "Hardest", "type": "mcq", "topic": "3.10 Trigonometric Equations and Inequalities",
+      "stem": "How many solutions does 2cos²x − cos x − 1 = 0 have on [0, 2π)?",
+      "choices": [
+        { "id": "A", "text": "2" },
+        { "id": "B", "text": "3" },
+        { "id": "C", "text": "4" },
+        { "id": "D", "text": "1" }
+      ],
+      "answer": "B",
+      "explanation": "(2cos x + 1)(cos x − 1) = 0 → cos x = −1/2 (2π/3, 4π/3) or cos x = 1 (0). Three solutions.",
+      "distractors": { "C": "Counts cos x = 1 twice." }
+    },
+    {
+      "id": "u3-q12", "tier": "Hardest", "type": "mcq", "topic": "3.15 Rates of Change in Polar Functions",
+      "stem": "For r = 2 + 2 cos θ, on the interval 0 < θ < π, which describes the distance from the origin?",
+      "choices": [
+        { "id": "A", "text": "It decreases, because r is positive and decreasing." },
+        { "id": "B", "text": "It increases, because r is positive and increasing." },
+        { "id": "C", "text": "It first increases, then decreases." },
+        { "id": "D", "text": "It is constant." }
+      ],
+      "answer": "A",
+      "explanation": "cos θ decreases from 1 to −1, so r falls from 4 to 0 while staying nonnegative.",
+      "distractors": {}
+    },
+    {
+      "id": "u3-q13", "tier": "Hardest", "type": "mcq", "topic": "3.5 Sinusoidal Functions",
+      "stem": "On which interval is f(x) = sin x both increasing and concave down?",
+      "choices": [
+        { "id": "A", "text": "(0, π/2)" },
+        { "id": "B", "text": "(π/2, π)" },
+        { "id": "C", "text": "(3π/2, 2π)" },
+        { "id": "D", "text": "(π, 3π/2)" }
+      ],
+      "answer": "A",
+      "explanation": "sin increases on (0, π/2) and is concave down on (0, π).",
+      "distractors": { "C": "Increasing but concave up." }
+    },
+    {
+      "id": "u3-q14", "tier": "Hardest", "type": "mcq", "topic": "3.12 Equivalent Representations of Trigonometric Functions",
+      "stem": "What is the exact value of cos(75°)?",
+      "choices": [
+        { "id": "A", "text": "(√6 − √2)/4" },
+        { "id": "B", "text": "(√6 + √2)/4" },
+        { "id": "C", "text": "(√3 − 1)/2" },
+        { "id": "D", "text": "√3/2 + √2/2" }
+      ],
+      "answer": "A",
+      "explanation": "cos(45° + 30°) = cos 45° cos 30° − sin 45° sin 30° = (√6 − √2)/4.",
+      "distractors": { "B": "That's sin 75° (or uses a plus sign)." }
+    },
+    {
+      "id": "u3-frq1", "tier": "Exam level", "type": "frq", "topic": "3.7 Sinusoidal Function Context and Data Modeling", "frqType": "Q3 Modeling a Periodic Context",
+      "prompt": "A Ferris wheel has a diameter of 40 meters, and its center is 25 meters above the ground. It completes one revolution every 8 minutes. A rider boards at the lowest point at time t = 0 minutes. Let h(t) be the rider's height above the ground. (No calculator.)",
+      "parts": [
+        { "label": "A", "prompt": "Write an expression for h(t) of the form h(t) = a cos(bt) + d, and identify the meaning of d in context.", "points": 2 },
+        { "label": "B", "prompt": "Find the exact value of h(1).", "points": 1 },
+        { "label": "C", "prompt": "On the interval 0 < t < 8, find all intervals where h is both increasing and concave down. Justify.", "points": 2 },
+        { "label": "D", "prompt": "For how many minutes during each revolution is the rider more than 35 meters above the ground?", "points": 1 }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        { "criterion": "A1: Expression", "points": 1, "description": "h(t) = −20 cos(πt/4) + 25 (a = −20 because the rider starts at the minimum; b = 2π/8)." },
+        { "criterion": "A2: Midline", "points": 1, "description": "d = 25: the height of the wheel's center, the average height." },
+        { "criterion": "B", "points": 1, "description": "h(1) = 25 − 20(√2/2) = 25 − 10√2 meters." },
+        { "criterion": "C1: Increasing", "points": 1, "description": "h increases from the minimum at t = 0 to the maximum at t = 4." },
+        { "criterion": "C2: Concave down", "points": 1, "description": "Concave down above the midline, (2, 6); both conditions on (2, 4)." },
+        { "criterion": "D", "points": 1, "description": "−20 cos(πt/4) + 25 > 35 → cos(πt/4) < −1/2 → 8/3 < t < 16/3, so 8/3 minutes." }
+      ],
+      "sampleResponse": "A. The amplitude is 20 (the radius) and the midline is 25 (the center height). The period is 8 minutes, so b = 2π/8 = π/4. The rider starts at the lowest point, so a = −20: h(t) = −20 cos(πt/4) + 25. d = 25 meters is the height of the center of the wheel, the midline height around which the rider's height oscillates.\n\nB. h(1) = −20 cos(π/4) + 25 = 25 − 20(√2/2) = 25 − 10√2 meters.\n\nC. h increases from the minimum at t = 0 to the maximum at t = 4. h is concave down when the rider is above the midline, which happens between the midline crossings at t = 2 and t = 6. Both conditions hold on (2, 4).\n\nD. −20 cos(πt/4) + 25 > 35 → cos(πt/4) < −1/2 → 2π/3 < πt/4 < 4π/3 → 8/3 < t < 16/3. The rider is above 35 meters for 16/3 − 8/3 = 8/3 minutes (about 2 minutes 40 seconds) each revolution."
+    }
+  ]
+}

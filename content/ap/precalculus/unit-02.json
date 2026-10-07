@@ -1,0 +1,583 @@
+{
+  "number": 2,
+  "title": "Exponential and Logarithmic Functions",
+  "guide": {
+    "summary": "Unit 2 contrasts additive and multiplicative change: arithmetic and geometric sequences, linear and exponential functions, exponential models from data, composition and inverse functions, logarithms and their properties, exponential and logarithmic equations, logarithmic models, and semi-log plots.",
+    "sections": [
+      {
+        "heading": "Sequences and exponential functions",
+        "body": "Arithmetic sequences add a common difference d: aₙ = a₀ + dn (discrete linear). Geometric sequences multiply by a common ratio r: aₙ = a₀rⁿ (discrete exponential). For a function f(x) = abˣ (a ≠ 0, b > 0, b ≠ 1): over equal-length input intervals, output values change by a constant ratio. b > 1: growth; 0 < b < 1: decay. Exponential functions are always concave up (a > 0) and have a horizontal asymptote. Equivalent forms: abˣ = a(b^k)^(x/k) changes the time unit (e.g., annual vs monthly factor), and e^(kx) gives continuous growth with b = e^k. Half-life and doubling time: f(t) = a(½)^(t/h), f(t) = a·2^(t/d)."
+      },
+      {
+        "heading": "Composition and inverses",
+        "body": "(f ∘ g)(x) = f(g(x)); the output of g becomes the input of f. A function has an inverse if it is one-to-one; f⁻¹ reverses inputs and outputs, so its graph reflects f's across y = x. To find an inverse algebraically, swap x and y and solve for y. Domain of f⁻¹ = range of f."
+      },
+      {
+        "heading": "Logarithms",
+        "body": "log_b(c) = a means bᵃ = c; the logarithm is the inverse of the exponential function. Properties: log_b(xy) = log_b x + log_b y; log_b(x/y) = log_b x − log_b y; log_b(xⁿ) = n log_b x; change of base log_b x = ln x/ln b. Logarithmic functions are concave down (for b > 1), increase slowly, and have a vertical asymptote at x = 0; their domain is x > 0. Over equal multiplicative input changes, log outputs change additively."
+      },
+      {
+        "heading": "Equations, models, and semi-log plots",
+        "body": "Solve exponential equations by taking logs of both sides; solve logarithmic equations by combining logs and exponentiating, then check for extraneous solutions (arguments must be positive). Logarithmic models fit data that increase quickly then level off in rate. On a semi-log plot (log y vs. x), exponential data appear linear: if ln y = mx + c, then y = e^c · (e^m)ˣ. Validate models by examining residuals and context (e.g., an exponential model for population can't grow forever)."
+      }
+    ],
+    "keyTakeaways": [
+      "Linear: equal differences; exponential: equal ratios.",
+      "abˣ: change time units with b^(1/k).",
+      "f⁻¹ reflects across y = x; swap and solve.",
+      "log_b c = a ⇔ bᵃ = c.",
+      "Check log equations for extraneous solutions.",
+      "Exponential data are linear on semi-log plots."
+    ],
+    "commonMistakes": [
+      "Writing log(x + y) = log x + log y.",
+      "Confusing growth rate (0.05) with growth factor (1.05).",
+      "Forgetting to check domain restrictions in log equations.",
+      "Composing functions in the wrong order.",
+      "Using the annual factor for monthly compounding without adjusting."
+    ],
+    "examTips": [
+      "Q2 modeling FRQs: define the parameters with units and interpret the base as a growth factor per time unit.",
+      "Justify model choice with differences or ratios in the data.",
+      "Q4 symbolic FRQs: rewrite expressions in a requested form step by step.",
+      "Semi-log questions: identify slope as ln(b) or log(b)."
+    ],
+    "cramSheet": "**Sequences:** arithmetic +d · geometric ×r\n\n**Exponential:** abˣ · equal ratios · b = 1 + rate · half-life (½)^(t/h)\n\n**Forms:** ab^x = a(b^k)^(x/k) · e^(kx)\n\n**Inverse:** swap & solve · reflect over y = x\n\n**Logs:** product → sum · quotient → difference · power → coefficient · change of base ln/ln\n\n**Solve:** take logs · combine & exponentiate · check domain\n\n**Semi-log:** ln y vs x linear ⇒ exponential"
+  },
+  "vocab": [
+    {
+      "term": "Arithmetic sequence",
+      "definition": "A sequence with a constant difference between consecutive terms."
+    },
+    {
+      "term": "Geometric sequence",
+      "definition": "A sequence with a constant ratio between consecutive terms."
+    },
+    {
+      "term": "Growth factor",
+      "definition": "The base b in abˣ; the multiplier per unit increase in x."
+    },
+    {
+      "term": "Half-life",
+      "definition": "Time for a decaying quantity to fall to half its value."
+    },
+    {
+      "term": "Composition",
+      "definition": "(f ∘ g)(x) = f(g(x))."
+    },
+    {
+      "term": "Inverse function",
+      "definition": "A function that reverses another function's input-output pairs."
+    },
+    {
+      "term": "One-to-one",
+      "definition": "Each output corresponds to exactly one input; required for an inverse function."
+    },
+    {
+      "term": "Logarithm",
+      "definition": "log_b c is the exponent to which b must be raised to get c."
+    },
+    {
+      "term": "Natural logarithm",
+      "definition": "ln x = log_e x."
+    },
+    {
+      "term": "Extraneous solution",
+      "definition": "A solution that arises algebraically but doesn't satisfy the original equation."
+    },
+    {
+      "term": "Semi-log plot",
+      "definition": "A graph with a logarithmic scale on one axis, making exponential data linear."
+    },
+    {
+      "term": "Residual",
+      "definition": "Actual value minus model-predicted value."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u2-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.1 Change in Arithmetic and Geometric Sequences",
+      "stem": "A geometric sequence has a₀ = 3 and common ratio 2. What is a₅?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "13"
+        },
+        {
+          "id": "B",
+          "text": "48"
+        },
+        {
+          "id": "C",
+          "text": "96"
+        },
+        {
+          "id": "D",
+          "text": "30"
+        }
+      ],
+      "answer": "C",
+      "explanation": "a₅ = 3 · 2⁵ = 96.",
+      "distractors": {
+        "A": "Arithmetic with d = 2.",
+        "B": "Uses 2⁴."
+      }
+    },
+    {
+      "id": "u2-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.9 Logarithmic Expressions",
+      "stem": "What is the value of log₃ 81 − log₃ 9?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "2"
+        },
+        {
+          "id": "B",
+          "text": "9"
+        },
+        {
+          "id": "C",
+          "text": "72"
+        },
+        {
+          "id": "D",
+          "text": "log₃ 72"
+        }
+      ],
+      "answer": "A",
+      "explanation": "4 − 2 = 2 (or log₃ 9 = 2).",
+      "distractors": {
+        "D": "Subtracts the arguments."
+      }
+    },
+    {
+      "id": "u2-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.5 Exponential Function Context and Data Modeling",
+      "stem": "A medication has a half-life of 6 hours. A patient takes 80 mg. How much remains after 18 hours?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10 mg"
+        },
+        {
+          "id": "B",
+          "text": "20 mg"
+        },
+        {
+          "id": "C",
+          "text": "26.7 mg"
+        },
+        {
+          "id": "D",
+          "text": "40 mg"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Three half-lives: 80(½)³ = 10 mg.",
+      "distractors": {
+        "C": "Divides by 3."
+      }
+    },
+    {
+      "id": "u2-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "2.3 Exponential Functions",
+      "stem": "An exponential function f(x) = abˣ passes through (0, 5) and (2, 45). What is f(x)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "5 · 3ˣ"
+        },
+        {
+          "id": "B",
+          "text": "5 · 9ˣ"
+        },
+        {
+          "id": "C",
+          "text": "45 · 3ˣ"
+        },
+        {
+          "id": "D",
+          "text": "5 + 20x"
+        }
+      ],
+      "answer": "A",
+      "explanation": "a = 5; 5b² = 45 → b = 3.",
+      "distractors": {
+        "B": "Forgets the square."
+      }
+    },
+    {
+      "id": "u2-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.8 Inverse Functions",
+      "stem": "What is the inverse of f(x) = (2x + 1)/(x − 3)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "(3x + 1)/(x − 2)"
+        },
+        {
+          "id": "B",
+          "text": "(x − 3)/(2x + 1)"
+        },
+        {
+          "id": "C",
+          "text": "(3x − 1)/(x + 2)"
+        },
+        {
+          "id": "D",
+          "text": "(x + 1)/(2x − 3)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "x = (2y + 1)/(y − 3) → xy − 3x = 2y + 1 → y(x − 2) = 3x + 1.",
+      "distractors": {
+        "B": "Reciprocal, not inverse."
+      }
+    },
+    {
+      "id": "u2-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.13 Exponential and Logarithmic Equations and Inequalities",
+      "stem": "What are the solutions of ln(x) + ln(x − 3) = ln(10)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "x = 5 only"
+        },
+        {
+          "id": "B",
+          "text": "x = 5 and x = −2"
+        },
+        {
+          "id": "C",
+          "text": "x = −2 only"
+        },
+        {
+          "id": "D",
+          "text": "x = 13/2"
+        }
+      ],
+      "answer": "A",
+      "explanation": "x(x − 3) = 10 → x² − 3x − 10 = 0 → x = 5 or −2; −2 makes ln(x) undefined.",
+      "distractors": {
+        "B": "Fails to reject the extraneous solution."
+      }
+    },
+    {
+      "id": "u2-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.4 Exponential Function Manipulation",
+      "stem": "An investment grows by 12% per year. Which expression gives the equivalent monthly growth factor?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1.01"
+        },
+        {
+          "id": "B",
+          "text": "1.12^(1/12)"
+        },
+        {
+          "id": "C",
+          "text": "1.12/12"
+        },
+        {
+          "id": "D",
+          "text": "1 + 0.12¹²"
+        }
+      ],
+      "answer": "B",
+      "explanation": "(b^(1/12))^(12t) = bᵗ; monthly factor ≈ 1.0095.",
+      "distractors": {
+        "A": "Divides the rate by 12 (nominal monthly, not equivalent)."
+      }
+    },
+    {
+      "id": "u2-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.15 Semi-log Plots",
+      "stem": "Data plotted as ln y vs. x lie on the line ln y = 0.3x + 1.2. Which model fits the data?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "y ≈ 3.32(1.35)ˣ"
+        },
+        {
+          "id": "B",
+          "text": "y = 0.3x + 1.2"
+        },
+        {
+          "id": "C",
+          "text": "y ≈ 1.2(0.3)ˣ"
+        },
+        {
+          "id": "D",
+          "text": "y ≈ 1.35(3.32)ˣ"
+        }
+      ],
+      "answer": "A",
+      "explanation": "y = e^1.2 · (e^0.3)ˣ ≈ 3.32(1.35)ˣ.",
+      "distractors": {
+        "D": "Swaps the constants."
+      }
+    },
+    {
+      "id": "u2-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.7 Composition of Functions",
+      "stem": "If f(x) = x² − 1 and g(x) = 2x + 3, what is f(g(−1))?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "0"
+        },
+        {
+          "id": "B",
+          "text": "3"
+        },
+        {
+          "id": "C",
+          "text": "1"
+        },
+        {
+          "id": "D",
+          "text": "−1"
+        }
+      ],
+      "answer": "A",
+      "explanation": "g(−1) = 1; f(1) = 0.",
+      "distractors": {
+        "B": "Composes in the wrong order: g(f(−1)) = g(0) = 3.",
+        "C": "Stops at g(−1) = 1."
+      }
+    },
+    {
+      "id": "u2-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "2.2 Change in Linear and Exponential Functions",
+      "stimulus": "| x | 0 | 2 | 4 | 6 |\n|---|---|---|---|---|\n| f(x) | 200 | 160 | 128 | 102.4 |",
+      "stem": "Which statement about f is supported?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "f is exponential with a decay factor of 0.8 per 2 units of x."
+        },
+        {
+          "id": "B",
+          "text": "f is linear with slope −20."
+        },
+        {
+          "id": "C",
+          "text": "f is exponential with decay factor 0.8 per unit of x."
+        },
+        {
+          "id": "D",
+          "text": "f is quadratic."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Ratios 160/200 = 128/160 = 0.8 over intervals of 2.",
+      "distractors": {
+        "C": "Per-unit factor is √0.8 ≈ 0.894."
+      }
+    },
+    {
+      "id": "u2-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.13 Exponential and Logarithmic Equations and Inequalities",
+      "stem": "For what values of x is 3 · 2^(x+1) > 72?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "x > log₂ 12"
+        },
+        {
+          "id": "B",
+          "text": "x > log₂ 24"
+        },
+        {
+          "id": "C",
+          "text": "x > 3"
+        },
+        {
+          "id": "D",
+          "text": "x > log₂ 36"
+        }
+      ],
+      "answer": "A",
+      "explanation": "2^(x+1) > 24 → x + 1 > log₂ 24 → x > log₂ 24 − 1 = log₂ 12.",
+      "distractors": {
+        "B": "Forgets to subtract 1."
+      }
+    },
+    {
+      "id": "u2-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.12 Logarithmic Function Manipulation",
+      "stem": "Which expression is equivalent to 2 ln(x) − ln(x² − x) for x > 1?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ln[x/(x − 1)]"
+        },
+        {
+          "id": "B",
+          "text": "ln(x − 1)"
+        },
+        {
+          "id": "C",
+          "text": "−ln(x − 1)"
+        },
+        {
+          "id": "D",
+          "text": "ln(x² − x²)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "ln(x²) − ln[x(x − 1)] = ln[x²/(x(x − 1))] = ln[x/(x − 1)].",
+      "distractors": {}
+    },
+    {
+      "id": "u2-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.11 Logarithmic Functions",
+      "stem": "The graph of g(x) = log₂(x − 3) + 1 has which vertical asymptote and x-intercept?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "x = 3; x-intercept 3.5"
+        },
+        {
+          "id": "B",
+          "text": "x = 3; x-intercept 4"
+        },
+        {
+          "id": "C",
+          "text": "x = −3; x-intercept 2"
+        },
+        {
+          "id": "D",
+          "text": "x = 0; x-intercept 1"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Asymptote where x − 3 = 0. Zero: log₂(x − 3) = −1 → x − 3 = ½ → x = 3.5.",
+      "distractors": {
+        "B": "Sets log₂(x − 3) = 0."
+      }
+    },
+    {
+      "id": "u2-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "2.6 Competing Function Model Validation",
+      "stem": "A linear model and an exponential model are both fit to a city's population data. The linear model's residuals form a U-shape (positive, negative, then positive), while the exponential model's residuals are scattered randomly around zero. Which conclusion is best?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "The exponential model is more appropriate, because its residuals show no pattern."
+        },
+        {
+          "id": "B",
+          "text": "The linear model is better, because some of its residuals are positive."
+        },
+        {
+          "id": "C",
+          "text": "Neither model is appropriate."
+        },
+        {
+          "id": "D",
+          "text": "Both are equally appropriate."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Patterned residuals indicate a systematic misfit.",
+      "distractors": {}
+    },
+    {
+      "id": "u2-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "2.5 Exponential Function Context and Data Modeling",
+      "frqType": "Q2 Modeling a Non-Periodic Context",
+      "prompt": "A town's population was 1,200 in 2010 and 1,500 in 2015. Let t be years since 2010.",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "(i) Write an exponential model P(t) = abᵗ that fits the data. (ii) Interpret b in context.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Use the model to predict the population in 2030. Show your work.",
+          "points": 1
+        },
+        {
+          "label": "C",
+          "prompt": "Determine, to the nearest tenth of a year, how long it takes the population to double according to the model.",
+          "points": 1
+        },
+        {
+          "label": "D",
+          "prompt": "A linear model through the same two points predicts 2,400 people in 2030. Give one reason an exponential model might be preferred and one limitation of the exponential model for long-term predictions.",
+          "points": 2
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "A1: Model",
+          "points": 1,
+          "description": "a = 1,200; b⁵ = 1.25 → b = 1.25^(1/5) ≈ 1.046; P(t) = 1,200(1.046)ᵗ."
+        },
+        {
+          "criterion": "A2: Interpretation",
+          "points": 1,
+          "description": "The population is multiplied by about 1.046 each year (grows about 4.6% per year)."
+        },
+        {
+          "criterion": "B",
+          "points": 1,
+          "description": "P(20) = 1,200(1.25)⁴ ≈ 2,930 people."
+        },
+        {
+          "criterion": "C",
+          "points": 1,
+          "description": "1.046ᵗ = 2 → t = ln 2/ln 1.0456 ≈ 15.5 years."
+        },
+        {
+          "criterion": "D1: Reason",
+          "points": 1,
+          "description": "Population growth is proportional to current size (births scale with population), so equal time intervals give equal ratios."
+        },
+        {
+          "criterion": "D2: Limitation",
+          "points": 1,
+          "description": "Exponential growth can't continue indefinitely due to limited land, housing, or resources (growth would level off)."
+        }
+      ],
+      "sampleResponse": "A. (i) a = 1,200 (the population at t = 0). 1,200b⁵ = 1,500 → b⁵ = 1.25 → b = 1.25^(1/5) ≈ 1.046. P(t) = 1,200(1.046)ᵗ.\n(ii) b ≈ 1.046 means the population is multiplied by about 1.046 each year; it grows by about 4.6% per year.\n\nB. 2030 corresponds to t = 20. P(20) = 1,200(1.25^(1/5))²⁰ = 1,200(1.25)⁴ ≈ 2,930 people.\n\nC. 1.0456ᵗ = 2 → t = ln 2 / ln 1.0456 ≈ 15.5 years.\n\nD. An exponential model may be better because population growth depends on the current population size; more people produce more births, so the population tends to increase by a constant percentage rather than a constant amount. However, the exponential model predicts unlimited growth, which is unrealistic in the long run because the town's land, housing, and resources are limited, so growth would eventually slow."
+    }
+  ]
+}

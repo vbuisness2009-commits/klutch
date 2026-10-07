@@ -1,0 +1,68 @@
+{
+ "slug": "precalculus",
+ "name": "AP Precalculus",
+ "lastVerified": "2026-10",
+ "overview": "AP Precalculus is a college precalculus course centered on functions as models of real phenomena: polynomial and rational functions, exponential and logarithmic functions, trigonometric and polar functions, and (in a unit not assessed on the exam) parametric functions, vectors, and matrices. The exam emphasizes rates of change, multiple representations (graphs, tables, equations, verbal descriptions), constructing and validating models, and symbolic manipulation.",
+ "examMode": "Hybrid digital: multiple-choice in Bluebook; free-response viewed in Bluebook and answered by hand (confirm the current format on AP Central).",
+ "totalMinutes": 180,
+ "sections": [
+  { "name": "Section I, Part A", "questionType": "Multiple choice", "count": 28, "minutes": 80, "weight": "43.75%", "calculator": "Not allowed", "notes": "Algebraic, graphical, and tabular reasoning without a calculator." },
+  { "name": "Section I, Part B", "questionType": "Multiple choice", "count": 12, "minutes": 40, "weight": "18.75%", "calculator": "Graphing calculator required" },
+  { "name": "Section II, Part A", "questionType": "Free response", "count": 2, "minutes": 30, "weight": "18.75%", "calculator": "Graphing calculator required", "notes": "Q1 Function Concepts; Q2 Modeling a Non-Periodic Context." },
+  { "name": "Section II, Part B", "questionType": "Free response", "count": 2, "minutes": 30, "weight": "18.75%", "calculator": "Not allowed", "notes": "Q3 Modeling a Periodic Context; Q4 Symbolic Manipulations." }
+ ],
+ "units": [
+  { "number": 1, "title": "Polynomial and Rational Functions", "weight": "30–40%" },
+  { "number": 2, "title": "Exponential and Logarithmic Functions", "weight": "27–40%" },
+  { "number": 3, "title": "Trigonometric and Polar Functions", "weight": "30–35%" },
+  { "number": 4, "title": "Functions Involving Parameters, Vectors, and Matrices", "weight": "Not assessed on the AP Exam" }
+ ],
+ "skills": [
+  { "name": "1. Procedural and Symbolic Fluency", "description": "Algebraically manipulate functions, equations, and expressions." },
+  { "name": "2. Multiple Representations", "description": "Translate mathematical information between graphs, tables, verbal descriptions, and symbols." },
+  { "name": "3. Communication and Reasoning", "description": "Communicate with precise language and provide rationales for conclusions." }
+ ],
+ "scoring": {
+  "summary": "Section I (40 MCQ) is 62.5% and Section II (4 FRQs × 6 points) is 37.5% of the composite, converted to 1–5 using cut points set each year. FRQ points require supporting work and units or context where requested.",
+  "approxCutoffs": [
+   { "score": 5, "minPercent": 70 },
+   { "score": 4, "minPercent": 55 },
+   { "score": 3, "minPercent": 40 },
+   { "score": 2, "minPercent": 27 }
+  ]
+ },
+ "frqTypes": [
+  { "name": "Q1 Function Concepts", "points": 6, "howScored": "Analyze a function given graphically or through composition/transformation: values, rates of change, concavity, end behavior, and justification with function concepts." },
+  { "name": "Q2 Modeling a Non-Periodic Context", "points": 6, "howScored": "Build and use a polynomial, rational, exponential, or logarithmic model from a context or data: identify parameters, evaluate, interpret in context with units, and assess model validity." },
+  { "name": "Q3 Modeling a Periodic Context", "points": 6, "howScored": "Construct a sinusoidal model from a context or graph (amplitude, period, midline, phase shift), interpret values, and describe intervals of increase/decrease and concavity." },
+  { "name": "Q4 Symbolic Manipulations", "points": 6, "howScored": "Rewrite and solve equations or expressions involving exponential, logarithmic, and trigonometric functions using identities and properties; solve inequalities on intervals." }
+ ],
+ "strategy": [
+  "Use the multiple-representation habit: for any function, picture its graph, table, and formula.",
+  "Average rate of change = [f(b) − f(a)]/(b − a); describe whether it is increasing or decreasing to judge concavity.",
+  "For exponential models, equal input intervals produce equal output ratios; for linear, equal differences.",
+  "For sinusoids, find midline (max + min)/2, amplitude (max − min)/2, period from consecutive peaks, then phase shift.",
+  "Always interpret answers in context with units when asked (e.g., 'the population increases by about 3% per year').",
+  "In symbolic FRQs, show each algebraic step; answers with no work rarely earn full credit.",
+  "Know the unit circle values for multiples of π/6 and π/4 cold for the no-calculator sections.",
+  "Check domain restrictions after solving logarithmic and rational equations."
+ ],
+ "pitfalls": [
+  "Confusing a hole (removable discontinuity) with a vertical asymptote.",
+  "Treating log(a + b) as log a + log b.",
+  "Mixing up period 2π/b with b.",
+  "Forgetting that the average rate of change of an exponential function increases (or decreases) over equal intervals.",
+  "Not converting between degrees and radians.",
+  "Ignoring extraneous solutions from log equations.",
+  "Reading polar graphs with the wrong sign of r.",
+  "Stating end behavior with x-values instead of limit notation or words."
+ ],
+ "sources": [
+  { "title": "AP Precalculus Exam (AP Central)", "url": "https://apcentral.collegeboard.org/courses/ap-precalculus/exam" },
+  { "title": "AP Precalculus Course and Exam Description", "url": "https://apcentral.collegeboard.org/courses/ap-precalculus/course" }
+ ],
+ "caveats": [
+  "Unit 4 is taught in the course but is not assessed on the AP Exam; practice for it is included for completeness.",
+  "Cutoffs are estimates; College Board does not publish cut scores."
+ ]
+}

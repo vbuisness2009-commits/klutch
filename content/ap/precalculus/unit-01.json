@@ -1,0 +1,574 @@
+{
+  "number": 1,
+  "title": "Polynomial and Rational Functions",
+  "guide": {
+    "summary": "Unit 1 develops the language of change for functions: average rates of change, increasing/decreasing and concavity, polynomial zeros and end behavior, rational functions with asymptotes and holes, transformations, equivalent forms (division, binomial theorem), and choosing and validating function models.",
+    "sections": [
+      {
+        "heading": "Rates of change",
+        "body": "Average rate of change of f on [a, b] = [f(b) − f(a)]/(b − a), the slope of the secant line. A function is increasing on an interval if output increases as input increases. Concave up: rates of change are increasing (graph bends upward); concave down: rates of change are decreasing. Points of inflection occur where concavity changes. For data in a table with equal input spacing, constant first differences indicate linear, constant second differences indicate quadratic, and constant nth differences indicate degree n."
+      },
+      {
+        "heading": "Polynomial functions",
+        "body": "A polynomial of degree n has at most n real zeros and at most n − 1 extrema. A zero of odd multiplicity crosses the x-axis; even multiplicity touches and turns. End behavior is governed by the leading term: even degree with positive leading coefficient → both ends up; odd degree with positive leading coefficient → down on the left, up on the right. Complex zeros of polynomials with real coefficients come in conjugate pairs. Even functions satisfy f(−x) = f(x) (symmetric about the y-axis); odd functions satisfy f(−x) = −f(x) (symmetric about the origin). Polynomial inequalities are solved with a sign chart."
+      },
+      {
+        "heading": "Rational functions",
+        "body": "Factor numerator and denominator. A common factor cancels and leaves a hole. A remaining zero of the denominator is a vertical asymptote. End behavior: if degree of numerator < degree of denominator, horizontal asymptote y = 0; if equal, y = ratio of leading coefficients; if numerator degree is one greater, a slant asymptote found by polynomial division. Zeros of a rational function are zeros of the numerator not canceled by the denominator."
+      },
+      {
+        "heading": "Transformations, equivalent forms, and models",
+        "body": "g(x) = af(b(x − h)) + k: vertical dilation by a (reflect if a < 0), horizontal dilation by 1/b, shift right h and up k. Equivalent forms reveal different features: factored form shows zeros, standard form shows end behavior; polynomial long division rewrites rational expressions; the binomial theorem expands (a + b)ⁿ using combinations. Choose a model by examining rates of change and context (linear: constant rate; quadratic: linearly changing rate; cubic or higher for more complex behavior), and consider domain restrictions and assumptions."
+      }
+    ],
+    "keyTakeaways": [
+      "Average rate of change = secant slope.",
+      "Concave up ↔ increasing rate of change.",
+      "Odd multiplicity crosses; even touches.",
+      "Common factor → hole; leftover denominator zero → VA.",
+      "Degree comparison gives horizontal or slant asymptotes.",
+      "Constant nth differences → degree n polynomial."
+    ],
+    "commonMistakes": [
+      "Calling a canceled factor a vertical asymptote.",
+      "Forgetting the negative sign when transforming horizontally (shift right for x − h).",
+      "Confusing increasing function with concave up.",
+      "Using the wrong leading term for end behavior after expanding.",
+      "Forgetting to exclude points where the denominator is zero in inequalities."
+    ],
+    "examTips": [
+      "Justify concavity with 'the average rates of change over consecutive equal intervals are increasing.'",
+      "Write end behavior using limits: lim_(x→∞) f(x) = ∞.",
+      "In rational-function questions, factor first and check for holes before asymptotes.",
+      "Sign charts: test each interval and include/exclude endpoints carefully."
+    ],
+    "cramSheet": "**ARC:** [f(b) − f(a)]/(b − a)\n\n**Concavity:** up = rates increasing · down = rates decreasing\n\n**Polynomials:** degree n → ≤ n zeros, ≤ n − 1 extrema · odd mult crosses, even touches · leading term → end behavior\n\n**Rational:** cancel → hole · leftover denom zero → VA · deg N < D → y = 0 · equal → ratio · N = D + 1 → slant\n\n**Transform:** af(b(x − h)) + k\n\n**Differences:** constant nth → degree n"
+  },
+  "vocab": [
+    {
+      "term": "Average rate of change",
+      "definition": "The change in output divided by change in input over an interval."
+    },
+    {
+      "term": "Concave up",
+      "definition": "A graph whose rate of change is increasing."
+    },
+    {
+      "term": "Point of inflection",
+      "definition": "A point where a graph changes concavity."
+    },
+    {
+      "term": "Multiplicity",
+      "definition": "The number of times a factor appears in a polynomial's factored form."
+    },
+    {
+      "term": "End behavior",
+      "definition": "How a function's outputs behave as inputs increase or decrease without bound."
+    },
+    {
+      "term": "Vertical asymptote",
+      "definition": "A vertical line x = a where a function's outputs grow without bound."
+    },
+    {
+      "term": "Horizontal asymptote",
+      "definition": "A horizontal line approached by a function as x → ±∞."
+    },
+    {
+      "term": "Removable discontinuity (hole)",
+      "definition": "A point excluded from the domain where a canceled factor would make the denominator zero."
+    },
+    {
+      "term": "Slant asymptote",
+      "definition": "A non-horizontal linear asymptote when numerator degree is one more than denominator degree."
+    },
+    {
+      "term": "Even function",
+      "definition": "f(−x) = f(x); symmetric about the y-axis."
+    },
+    {
+      "term": "Odd function",
+      "definition": "f(−x) = −f(x); symmetric about the origin."
+    },
+    {
+      "term": "Binomial theorem",
+      "definition": "(a + b)ⁿ = Σ C(n, k)aⁿ⁻ᵏbᵏ."
+    }
+  ],
+  "practice": [
+    {
+      "id": "u1-q01",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "1.1 Change in Tandem",
+      "stem": "What is the average rate of change of f(x) = x³ on the interval [1, 3]?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "9"
+        },
+        {
+          "id": "B",
+          "text": "13"
+        },
+        {
+          "id": "C",
+          "text": "26"
+        },
+        {
+          "id": "D",
+          "text": "27"
+        }
+      ],
+      "answer": "B",
+      "explanation": "(27 − 1)/(3 − 1) = 13.",
+      "distractors": {
+        "C": "Forgets to divide by the interval length."
+      }
+    },
+    {
+      "id": "u1-q02",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "1.5 Polynomial Functions and Complex Zeros",
+      "stem": "The polynomial p(x) = (x − 2)²(x + 1) has which behavior at its zeros?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Crosses at x = 2; touches at x = −1"
+        },
+        {
+          "id": "B",
+          "text": "Touches at x = 2; crosses at x = −1"
+        },
+        {
+          "id": "C",
+          "text": "Crosses at both"
+        },
+        {
+          "id": "D",
+          "text": "Touches at both"
+        }
+      ],
+      "answer": "B",
+      "explanation": "Even multiplicity at 2 (touch); odd at −1 (cross).",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q03",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "1.8 Rational Functions and Zeros",
+      "stem": "For r(x) = (x² − 4)/(x² − x − 2), where is there a hole?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "At x = 2, with y = 4/3"
+        },
+        {
+          "id": "B",
+          "text": "At x = −1"
+        },
+        {
+          "id": "C",
+          "text": "At x = −2"
+        },
+        {
+          "id": "D",
+          "text": "There is no hole"
+        }
+      ],
+      "answer": "A",
+      "explanation": "r = (x − 2)(x + 2)/[(x − 2)(x + 1)]; the (x − 2) cancels. At x = 2, the simplified value is 4/3.",
+      "distractors": {
+        "B": "Vertical asymptote.",
+        "C": "Zero of the function."
+      }
+    },
+    {
+      "id": "u1-q04",
+      "tier": "Intro",
+      "type": "mcq",
+      "topic": "1.6 Polynomial Functions and End Behavior",
+      "stem": "Which describes the end behavior of f(x) = −3x⁴ + 5x³ − x?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "f → −∞ as x → ∞ and as x → −∞"
+        },
+        {
+          "id": "B",
+          "text": "f → ∞ as x → ∞ and as x → −∞"
+        },
+        {
+          "id": "C",
+          "text": "f → ∞ as x → ∞; f → −∞ as x → −∞"
+        },
+        {
+          "id": "D",
+          "text": "f → −∞ as x → ∞; f → ∞ as x → −∞"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Even degree with negative leading coefficient: both ends down.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q05",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "1.3 Rates of Change in Linear and Quadratic Functions",
+      "stimulus": "| x | 0 | 1 | 2 | 3 | 4 |\n|---|---|---|---|---|---|\n| f(x) | 2 | 3 | 6 | 11 | 18 |",
+      "stem": "Which type of function best models the data?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Linear, because outputs increase"
+        },
+        {
+          "id": "B",
+          "text": "Quadratic, because the second differences are constant"
+        },
+        {
+          "id": "C",
+          "text": "Exponential, because outputs grow faster"
+        },
+        {
+          "id": "D",
+          "text": "Cubic, because there are five data points"
+        }
+      ],
+      "answer": "B",
+      "explanation": "First differences 1, 3, 5, 7; second differences 2, 2, 2.",
+      "distractors": {
+        "C": "Ratios aren't constant (1.5, 2, 1.83, 1.64)."
+      }
+    },
+    {
+      "id": "u1-q06",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "1.9 Rational Functions and Vertical Asymptotes",
+      "stem": "What are the vertical and horizontal asymptotes of r(x) = (3x² − 12)/(x² − x − 2)?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "VA x = −1; HA y = 3"
+        },
+        {
+          "id": "B",
+          "text": "VA x = 2 and x = −1; HA y = 3"
+        },
+        {
+          "id": "C",
+          "text": "VA x = −1; HA y = 0"
+        },
+        {
+          "id": "D",
+          "text": "VA x = 2; HA y = 1"
+        }
+      ],
+      "answer": "A",
+      "explanation": "3(x − 2)(x + 2)/[(x − 2)(x + 1)]: hole at 2, VA at −1; equal degrees → y = 3/1.",
+      "distractors": {
+        "B": "Misses the canceled factor."
+      }
+    },
+    {
+      "id": "u1-q07",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "1.12 Transformations of Functions",
+      "stem": "The graph of y = f(x) passes through (4, −2). Which point must lie on the graph of g(x) = 3f(x − 1) + 5?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "(3, −1)"
+        },
+        {
+          "id": "B",
+          "text": "(5, −1)"
+        },
+        {
+          "id": "C",
+          "text": "(5, 11)"
+        },
+        {
+          "id": "D",
+          "text": "(3, −6)"
+        }
+      ],
+      "answer": "B",
+      "explanation": "x − 1 = 4 → x = 5; g(5) = 3(−2) + 5 = −1.",
+      "distractors": {
+        "A": "Shifts left instead of right."
+      }
+    },
+    {
+      "id": "u1-q08",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "1.11 Equivalent Representations of Polynomial and Rational Expressions",
+      "stem": "What is the coefficient of x² in the expansion of (2x − 1)⁴?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "6"
+        },
+        {
+          "id": "B",
+          "text": "24"
+        },
+        {
+          "id": "C",
+          "text": "−24"
+        },
+        {
+          "id": "D",
+          "text": "−32"
+        }
+      ],
+      "answer": "B",
+      "explanation": "C(4, 2)(2x)²(−1)² = 6 × 4 = 24.",
+      "distractors": {
+        "D": "x³ coefficient."
+      }
+    },
+    {
+      "id": "u1-q09",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "1.4 Polynomial Functions and Rates of Change",
+      "stem": "A function's average rates of change over consecutive intervals of equal length are 8, 5, 2, −1. On this domain, the function is",
+      "choices": [
+        {
+          "id": "A",
+          "text": "increasing then decreasing, and concave down throughout"
+        },
+        {
+          "id": "B",
+          "text": "increasing and concave up"
+        },
+        {
+          "id": "C",
+          "text": "decreasing and concave down"
+        },
+        {
+          "id": "D",
+          "text": "increasing then decreasing, concave up"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Rates positive then negative; rates decreasing → concave down.",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q10",
+      "tier": "Exam level",
+      "type": "mcq",
+      "topic": "1.7 Rational Functions and End Behavior",
+      "stem": "Which function has a slant asymptote?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "(x² + 3x)/(x − 1)"
+        },
+        {
+          "id": "B",
+          "text": "(x + 1)/(x² − 4)"
+        },
+        {
+          "id": "C",
+          "text": "(2x² + 1)/(x² + 5)"
+        },
+        {
+          "id": "D",
+          "text": "(x³ + 1)/(x − 2)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Numerator degree exactly one more than denominator: (x² + 3x)/(x − 1) = x + 4 + 4/(x − 1).",
+      "distractors": {
+        "D": "Degree difference 2: no linear asymptote."
+      }
+    },
+    {
+      "id": "u1-q11",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "1.8 Rational Functions and Zeros",
+      "stem": "What is the solution set of (x − 1)(x + 2)/(x − 3) ≥ 0?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "[−2, 1] ∪ (3, ∞)"
+        },
+        {
+          "id": "B",
+          "text": "[−2, 1] ∪ [3, ∞)"
+        },
+        {
+          "id": "C",
+          "text": "(−∞, −2] ∪ [1, 3)"
+        },
+        {
+          "id": "D",
+          "text": "(−2, 1) ∪ (3, ∞)"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Sign chart: − on (−∞, −2), + on (−2, 1), − on (1, 3), + on (3, ∞). Include zeros −2 and 1; exclude 3.",
+      "distractors": {
+        "B": "Includes x = 3, where the expression is undefined."
+      }
+    },
+    {
+      "id": "u1-q12",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "1.5 Polynomial Functions and Complex Zeros",
+      "stem": "A polynomial with real coefficients has degree 5 and zeros 2, −3, and 1 + i. Which must also be true?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "1 − i is a zero, and there is exactly one more zero, which is real."
+        },
+        {
+          "id": "B",
+          "text": "1 − i is a zero, and there are two more complex zeros."
+        },
+        {
+          "id": "C",
+          "text": "The polynomial has five real zeros."
+        },
+        {
+          "id": "D",
+          "text": "1 + i is a double zero."
+        }
+      ],
+      "answer": "A",
+      "explanation": "Conjugate pairs: 1 − i. That's four zeros; the fifth must be real (a lone nonreal zero would need its conjugate).",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q13",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "1.12 Transformations of Functions",
+      "stem": "If f is an odd function and g(x) = f(x) · x², which statement is true?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "g is odd."
+        },
+        {
+          "id": "B",
+          "text": "g is even."
+        },
+        {
+          "id": "C",
+          "text": "g is neither."
+        },
+        {
+          "id": "D",
+          "text": "g(x) = 0 for all x."
+        }
+      ],
+      "answer": "A",
+      "explanation": "g(−x) = f(−x)(−x)² = −f(x)x² = −g(x).",
+      "distractors": {}
+    },
+    {
+      "id": "u1-q14",
+      "tier": "Hardest",
+      "type": "mcq",
+      "topic": "1.14 Function Model Construction and Application",
+      "stem": "A company models profit P(x) = −2x² + 120x − 1,000 (dollars) for x units, 0 ≤ x ≤ 60. Over which interval is the average rate of change of P equal to zero?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "[10, 50]"
+        },
+        {
+          "id": "B",
+          "text": "[0, 30]"
+        },
+        {
+          "id": "C",
+          "text": "[20, 30]"
+        },
+        {
+          "id": "D",
+          "text": "[30, 60]"
+        }
+      ],
+      "answer": "A",
+      "explanation": "Average rate zero when P(a) = P(b); by symmetry about the vertex x = 30, P(10) = P(50).",
+      "distractors": {}
+    },
+    {
+      "id": "u1-frq1",
+      "tier": "Exam level",
+      "type": "frq",
+      "topic": "1.7–1.10 Rational Functions",
+      "frqType": "Q1 Function Concepts",
+      "prompt": "The function h is defined by h(x) = (x² − 9)/(x² − 2x − 3).",
+      "parts": [
+        {
+          "label": "A",
+          "prompt": "Identify the x-coordinate of any hole in the graph of h, and find the y-value that the hole corresponds to. Show the work that leads to your answer.",
+          "points": 2
+        },
+        {
+          "label": "B",
+          "prompt": "Write an equation for each vertical asymptote and each horizontal asymptote of h. Justify using the factored form.",
+          "points": 2
+        },
+        {
+          "label": "C",
+          "prompt": "Determine lim_(x→−1⁺) h(x). Justify.",
+          "points": 1
+        },
+        {
+          "label": "D",
+          "prompt": "Find all real zeros of h.",
+          "points": 1
+        }
+      ],
+      "points": 6,
+      "minutes": 15,
+      "rubric": [
+        {
+          "criterion": "A1: Factoring",
+          "points": 1,
+          "description": "h(x) = (x − 3)(x + 3)/[(x − 3)(x + 1)]."
+        },
+        {
+          "criterion": "A2: Hole",
+          "points": 1,
+          "description": "Hole at x = 3; simplified value (3 + 3)/(3 + 1) = 3/2."
+        },
+        {
+          "criterion": "B1: VA",
+          "points": 1,
+          "description": "x = −1 (denominator zero not canceled)."
+        },
+        {
+          "criterion": "B2: HA",
+          "points": 1,
+          "description": "y = 1 (equal degrees, leading coefficients 1 and 1)."
+        },
+        {
+          "criterion": "C",
+          "points": 1,
+          "description": "For x slightly greater than −1: numerator (x + 3) ≈ 2 > 0, denominator (x + 1) → 0⁺, so h → +∞."
+        },
+        {
+          "criterion": "D",
+          "points": 1,
+          "description": "x = −3 (x = 3 is excluded as a hole)."
+        }
+      ],
+      "sampleResponse": "A. Factoring: h(x) = (x − 3)(x + 3)/[(x − 3)(x + 1)]. The common factor (x − 3) creates a hole at x = 3. For x ≠ 3, h(x) = (x + 3)/(x + 1), so the hole corresponds to y = 6/4 = 3/2.\n\nB. After canceling, the denominator x + 1 is zero at x = −1, so x = −1 is a vertical asymptote. The numerator and denominator have the same degree (2) with leading coefficients 1 and 1, so y = 1 is the horizontal asymptote.\n\nC. As x → −1 from the right, x + 3 → 2 (positive) and x + 1 → 0 through positive values, so h(x) = (x + 3)/(x + 1) → +∞.\n\nD. The numerator of the simplified function is zero at x = −3. (x = 3 is not a zero because h is undefined there.) The only real zero is x = −3."
+    }
+  ]
+}

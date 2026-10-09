@@ -23,12 +23,6 @@ export function googleConfigured(): boolean {
  * Google Cloud exactly, so APP_URL can pin it when proxies rewrite the host.
  */
 export function publicOrigin(req: Request): string {
-  const envAppUrl = (process.env.APP_URL || "")
-    .trim()
-    .replace(/^["']|["']$/g, "")
-    .replace(/\/+$/, "");
-  if (envAppUrl) return envAppUrl;
-
   const url = new URL(req.url);
   const host =
     req.headers.get("x-forwarded-host") || req.headers.get("host") || url.host;

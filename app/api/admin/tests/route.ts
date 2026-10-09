@@ -8,6 +8,7 @@ import {
   uniqueId,
   type StoredTest,
 } from "@/lib/testEngine/store";
+import { sql } from "@/lib/db";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 300;
@@ -52,29 +53,44 @@ export async function POST(request: Request) {
       );
     }
 
+    const uploadId = (formData.get("uploadId") as string)?.trim();
     const file = formData.get("file");
-    if (!(file instanceof File)) {
+
+    if (uploadId) {
+      kind = "pdf";
+      const rows = (await sql()`
+        SELECT data FROM upload_chunks WHERE id = ${uploadId} ORDER BY chunk_index ASC
+      `) as { data: string }[];
+      if (rows.length === 0) {
+        return NextResponse.json(
+          { error: "Uploaded chunks not found or expired. Please upload again." },
+          { status: 400 }
+        );
+      }
+      fileBuffer = Buffer.concat(rows.map((r) => Buffer.from(r.data, "base64")));
+      await sql()`DELETE FROM upload_chunks WHERE id = ${uploadId}`.catch(() => {});
+    } else if (file instanceof File) {
+      const fileName = file.name.toLowerCase();
+      if (fileName.endsWith(".pdf") || file.type === "application/pdf") {
+        kind = "pdf";
+        fileBuffer = Buffer.from(await file.arrayBuffer());
+      } else if (fileName.endsWith(".csv")) {
+        kind = "csv";
+        fileText = await file.text();
+      } else {
+        kind = "json";
+        fileText = await file.text();
+      }
+    } else {
       return NextResponse.json(
         { error: "Please select a file to upload." },
         { status: 400 }
       );
     }
 
-    const fileName = file.name.toLowerCase();
-    if (fileName.endsWith(".pdf") || file.type === "application/pdf") {
-      kind = "pdf";
-      fileBuffer = Buffer.from(await file.arrayBuffer());
-    } else if (fileName.endsWith(".csv")) {
-      kind = "csv";
-      fileText = await file.text();
-    } else {
-      kind = "json";
-      fileText = await file.text();
-    }
-
     title =
       (formData.get("title") as string)?.trim() ||
-      file.name.replace(/\.(pdf|json|csv)$/i, "");
+      (file instanceof File ? file.name.replace(/\.(pdf|json|csv)$/i, "") : "");
     collection =
       (formData.get("collection") as string)?.trim() || "Full-length tests";
     source = (formData.get("source") as string)?.trim() || "";
@@ -86,6 +102,7 @@ export async function POST(request: Request) {
   } else {
     // JSON body
     let body: {
+      uploadId?: string;
       title?: string;
       collection?: string;
       source?: string;
@@ -109,13 +126,26 @@ export async function POST(request: Request) {
     kind = body.kind || "json";
 
     if (kind === "pdf") {
-      if (!body.pdfBase64) {
+      if (body.uploadId) {
+        const rows = (await sql()`
+          SELECT data FROM upload_chunks WHERE id = ${body.uploadId} ORDER BY chunk_index ASC
+        `) as { data: string }[];
+        if (rows.length === 0) {
+          return NextResponse.json(
+            { error: "Uploaded chunks not found or expired. Please upload again." },
+            { status: 400 }
+          );
+        }
+        fileBuffer = Buffer.concat(rows.map((r) => Buffer.from(r.data, "base64")));
+        await sql()`DELETE FROM upload_chunks WHERE id = ${body.uploadId}`.catch(() => {});
+      } else if (body.pdfBase64) {
+        fileBuffer = Buffer.from(body.pdfBase64, "base64");
+      } else {
         return NextResponse.json(
-          { error: "pdfBase64 is required for PDF upload." },
+          { error: "pdfBase64 or uploadId is required for PDF upload." },
           { status: 400 }
         );
       }
-      fileBuffer = Buffer.from(body.pdfBase64, "base64");
     } else {
       fileText = body.text || "";
     }

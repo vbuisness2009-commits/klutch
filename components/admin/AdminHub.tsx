@@ -130,24 +130,80 @@ function UploadForm({ onUploaded }: { onUploaded: () => void }) {
         fileName.endsWith(".pdf") || file.type === "application/pdf";
 
       if (currentIsPdf) {
-        setBusyStatus(
-          hasKey
-            ? "Reading PDF, extracting questions & detecting answer key with AI…"
-            : "Reading PDF & extracting questions with AI…"
-        );
+        const CHUNK_SIZE = 3 * 1024 * 1024; // 3 MB chunks to avoid Vercel 4.5MB body limit
+        let res: Response;
 
-        const formData = new FormData();
-        formData.append("file", file);
-        formData.append("title", title || file.name.replace(/\.pdf$/i, ""));
-        formData.append("collection", collection || "Full-length tests");
-        formData.append("source", source);
-        formData.append("published", String(publishNow));
-        formData.append("hasKey", String(hasKey));
+        if (file.size > CHUNK_SIZE) {
+          const uploadId =
+            typeof crypto !== "undefined" && crypto.randomUUID
+              ? crypto.randomUUID()
+              : `up-${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;
+          const totalChunks = Math.ceil(file.size / CHUNK_SIZE);
 
-        const res = await fetch("/api/admin/tests", {
-          method: "POST",
-          body: formData,
-        });
+          for (let i = 0; i < totalChunks; i++) {
+            const start = i * CHUNK_SIZE;
+            const end = Math.min(file.size, start + CHUNK_SIZE);
+            const chunkBlob = file.slice(start, end);
+            const pct = Math.round(((i + 1) / totalChunks) * 100);
+
+            setBusyStatus(`Uploading file part ${i + 1} of ${totalChunks} (${pct}%)…`);
+
+            const chunkFormData = new FormData();
+            chunkFormData.append("uploadId", uploadId);
+            chunkFormData.append("chunkIndex", String(i));
+            chunkFormData.append("totalChunks", String(totalChunks));
+            chunkFormData.append("chunk", chunkBlob);
+
+            const chunkRes = await fetch("/api/admin/tests/chunk", {
+              method: "POST",
+              body: chunkFormData,
+            });
+
+            if (!chunkRes.ok) {
+              const chunkJson = await chunkRes.json().catch(() => ({}));
+              throw new Error(chunkJson.error || `Upload of chunk ${i + 1} failed (HTTP ${chunkRes.status}).`);
+            }
+          }
+
+          setBusyStatus(
+            hasKey
+              ? "Reading PDF, extracting questions & detecting answer key with AI…"
+              : "Reading PDF & extracting questions with AI…"
+          );
+
+          res = await fetch("/api/admin/tests", {
+            method: "POST",
+            headers: { "content-type": "application/json" },
+            body: JSON.stringify({
+              uploadId,
+              title: title || file.name.replace(/\.pdf$/i, ""),
+              collection: collection || "Full-length tests",
+              source,
+              published: publishNow,
+              hasKey,
+              kind: "pdf",
+            }),
+          });
+        } else {
+          setBusyStatus(
+            hasKey
+              ? "Reading PDF, extracting questions & detecting answer key with AI…"
+              : "Reading PDF & extracting questions with AI…"
+          );
+
+          const formData = new FormData();
+          formData.append("file", file);
+          formData.append("title", title || file.name.replace(/\.pdf$/i, ""));
+          formData.append("collection", collection || "Full-length tests");
+          formData.append("source", source);
+          formData.append("published", String(publishNow));
+          formData.append("hasKey", String(hasKey));
+
+          res = await fetch("/api/admin/tests", {
+            method: "POST",
+            body: formData,
+          });
+        }
 
         const json = (await res.json().catch(() => ({}))) as {
           error?: string;

@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import {
   GOOGLE_STATE_COOKIE,
+  cleanGoogleClientId,
   googleConfigured,
   googleRedirectUri,
 } from "@/lib/googleOAuth";
@@ -21,10 +22,11 @@ export async function GET(req: Request) {
   const state = Buffer.from(crypto.getRandomValues(new Uint8Array(24))).toString(
     "base64url"
   );
+  const redirectUri = googleRedirectUri(req);
   const auth = new URL("https://accounts.google.com/o/oauth2/v2/auth");
   auth.search = new URLSearchParams({
-    client_id: process.env.GOOGLE_CLIENT_ID!,
-    redirect_uri: googleRedirectUri(req),
+    client_id: cleanGoogleClientId(),
+    redirect_uri: redirectUri,
     response_type: "code",
     scope: "openid email profile",
     state,
@@ -32,7 +34,7 @@ export async function GET(req: Request) {
   }).toString();
 
   const res = NextResponse.redirect(auth);
-  res.cookies.set(GOOGLE_STATE_COOKIE, `${state}|${next}`, {
+  res.cookies.set(GOOGLE_STATE_COOKIE, `${state}|${next}|${redirectUri}`, {
     httpOnly: true,
     sameSite: "lax",
     secure: isSecureRequest(req),

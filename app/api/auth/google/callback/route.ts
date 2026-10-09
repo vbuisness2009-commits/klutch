@@ -27,9 +27,12 @@ import {
 
 export const dynamic = "force-dynamic";
 
-function toLogin(req: Request, error: string) {
+function toLogin(req: Request, error: string, detail?: string) {
   const back = new URL("/login", publicOrigin(req));
   back.searchParams.set("error", error);
+  if (detail) {
+    back.searchParams.set("detail", detail.slice(0, 120));
+  }
   const res = NextResponse.redirect(back);
   res.cookies.set(GOOGLE_STATE_COOKIE, "", { path: "/", maxAge: 0 });
   return res;
@@ -42,18 +45,21 @@ export async function GET(req: Request) {
 
   const code = url.searchParams.get("code");
   const state = url.searchParams.get("state");
-  const [expectedState, rawNext] = (
+  const [expectedState, rawNext, storedRedirectUri] = (
     cookies().get(GOOGLE_STATE_COOKIE)?.value ?? ""
   ).split("|");
   if (!code || !state || !expectedState || state !== expectedState) {
     return toLogin(req, "google_state");
   }
 
+  const redirectUri = storedRedirectUri || googleRedirectUri(req);
   let profile;
   try {
-    profile = await exchangeGoogleCode(code, googleRedirectUri(req));
-  } catch {
-    return toLogin(req, "google_failed");
+    profile = await exchangeGoogleCode(code, redirectUri);
+  } catch (err) {
+    const msg = err instanceof Error ? err.message : String(err);
+    console.error("Google token exchange error:", msg);
+    return toLogin(req, "google_failed", msg);
   }
   if (!profile.email_verified) return toLogin(req, "google_unverified");
 

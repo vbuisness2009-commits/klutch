@@ -31,8 +31,9 @@ function safeNext(next: string | null) {
 function AuthForm({ mode, title, subtitle, cta, alt, googleEnabled = false }: Props) {
   const params = useSearchParams();
   const next = safeNext(params.get("next"));
+  const detail = params.get("detail");
   const [error, setError] = useState<string | null>(
-    GOOGLE_ERRORS[params.get("error") ?? ""] ?? null
+    detail || (GOOGLE_ERRORS[params.get("error") ?? ""] ?? null)
   );
   const [loading, setLoading] = useState(false);
 

@@ -6,7 +6,7 @@ import { solveFormAnswers } from "../testEngine/solveForm";
 import type { TestForm } from "../testEngine/types";
 
 const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
-const PRIMARY_MODEL = "google/gemini-2.5-flash";
+const PRIMARY_MODEL = "google/gemini-3.1-pro-preview";
 const FALLBACK_MODEL = "google/gemini-2.5-pro";
 
 function keyPool(): string[] {
@@ -54,20 +54,22 @@ function buildPrompt(hasKey: boolean): string {
     ? `
 CRITICAL INSTRUCTIONS FOR ANSWER KEY EXTRACTION (User checked: PDF includes answer key):
 1. You MUST locate and extract the answer keys from this test PDF. Look for:
-   - Dedicated "Answer Key", "Scoring Guide", "Answers and Explanations", or scoring tables at the end of modules, at the end of the test, or in an appendix.
+   - Dedicated "Answer Key", "Scoring Guide", "Answers and Explanations", or scoring tables at the end of modules, at the end of the test booklet, or in an appendix.
    - Inline answer markings on question pages (e.g. bolded choice, answer letter printed beside question number, "Correct Answer: B", or explanation text).
 2. For each question where the answer is found in the PDF:
    - Set "correct": "A" | "B" | "C" | "D" for multiple-choice questions.
-   - Set "accepted": ["<value>"] for student-produced response (SPR) math questions (e.g. ["42", "42.0"]).
+   - Set "accepted": ["<value>"] for student-produced response (SPR) math questions (include equivalent representations such as fractions or decimals, e.g. ["3/4", "0.75"]).
    - Set "keySource": "paper".
 3. In addition to the "questions" list, populate the "answerKeyTable" array with every entry from any answer key table, scoring guide, or answer summary found in the PDF.
 4. If an explanation or rationale is printed in the PDF, copy it into "rationale".
-5. If an individual question does NOT have an answer printed in the PDF, set "keySource": "missing" (the AI solver will fill it in).`
+5. If an individual question does NOT have an answer printed in the PDF:
+   - Silently solve it with 100% precision: verify math solutions by plugging them back into original constraints; for Reading/Writing, eliminate incorrect distractors using Standard English conventions and passage evidence.
+   - Set "keySource": "solved".`
     : `
 NOTE ON ANSWER KEYS:
-- If the PDF prints answers or explanations, capture them with "keySource": "paper". Otherwise set "keySource": "missing".`;
+- If the PDF prints answers or explanations, capture them with "keySource": "paper". Otherwise, accurately solve the item and set "keySource": "solved".`;
 
-  return `You are an expert test extraction engine converting pages of a standardized Digital SAT practice test PDF into structured JSON for an online test player.
+  return `You are an elite Digital SAT test extraction and solving engine converting pages of a standardized Digital SAT practice test PDF into structured JSON for an online test player.
 
 ${keyInstructions}
 
@@ -84,7 +86,9 @@ RULES FOR EXTRACTION:
    - Multiple Choice: Provide "choices" array with { "label": "A"|"B"|"C"|"D", "content": "<HTML>" }.
    - Student-Produced Response (SPR): Math questions with no multiple-choice options. Omit choices and provide "format": "spr".
    - Math equations: Use clean standard HTML / MathML / unicode (e.g., <math><msup><mi>x</mi><mn>2</mn></msup></math> or x² or standard fractions). Do not leave equations blank.
-3. Output format: Return a strict JSON object with this exact shape:
+3. Accuracy & Rationales:
+   - When extracting or generating rationales, ensure explanations are clear, concise, and mathematically/grammatically sound.
+4. Output format: Return a strict JSON object with this exact shape:
 
 {
   "detectedTitle": "Optional title from test cover",
@@ -105,8 +109,8 @@ RULES FOR EXTRACTION:
       ],
       "correct": "A",
       "accepted": ["7"],
-      "keySource": "paper" | "missing",
-      "rationale": "<HTML explanation if present in PDF>"
+      "keySource": "paper" | "solved" | "missing",
+      "rationale": "<HTML explanation if present in PDF or derived>"
     }
   ],
   "answerKeyTable": [

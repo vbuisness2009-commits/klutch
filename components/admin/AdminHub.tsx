@@ -30,8 +30,9 @@ export function AdminHub() {
             Test library
           </h1>
           <p className="mt-2 max-w-[62ch] text-[15px] leading-relaxed text-zinc-400">
-            Upload a practice test as JSON. After import, Gemini fills any
-            missing answer keys so the paper is scorable.
+            Upload a practice test as a PDF, JSON, or CSV. When uploading a PDF with an answer key,
+            Klutch automatically extracts the questions, detects the key from tables or scoring guides,
+            and solves any missing items with AI so the paper is immediately playable and scorable.
           </p>
         </div>
         <button
@@ -73,96 +74,235 @@ export function AdminHub() {
 
 function UploadForm({ onUploaded }: { onUploaded: () => void }) {
   const fileRef = useRef<HTMLInputElement>(null);
+  const [selectedFile, setSelectedFile] = useState<File | null>(null);
   const [title, setTitle] = useState("");
   const [collection, setCollection] = useState("");
   const [source, setSource] = useState("");
   const [publishNow, setPublishNow] = useState(false);
+  const [hasKey, setHasKey] = useState(true);
   const [busy, setBusy] = useState(false);
-  const [message, setMessage] = useState<
-    { kind: "ok" | "error"; text: string } | null
-  >(null);
+  const [busyStatus, setBusyStatus] = useState("");
+  const [createdId, setCreatedId] = useState<string | null>(null);
+  const [message, setMessage] = useState<{
+    kind: "ok" | "error";
+    text: string;
+  } | null>(null);
   const [errors, setErrors] = useState<string[]>([]);
+
+  const isPdf = Boolean(
+    selectedFile &&
+      (selectedFile.name.toLowerCase().endsWith(".pdf") ||
+        selectedFile.type === "application/pdf")
+  );
+
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0] || null;
+    setSelectedFile(file);
+    setCreatedId(null);
+    setMessage(null);
+    setErrors([]);
+    if (file && !title) {
+      // Auto-suggest title based on filename
+      const suggested = file.name
+        .replace(/\.(pdf|json|csv)$/i, "")
+        .replace(/[-_]+/g, " ")
+        .replace(/\b\w/g, (c) => c.toUpperCase());
+      setTitle(suggested);
+    }
+  };
 
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const file = fileRef.current?.files?.[0];
+    const file = selectedFile || fileRef.current?.files?.[0];
     if (!file) {
-      setMessage({ kind: "error", text: "Pick a .json or .csv file first." });
+      setMessage({ kind: "error", text: "Select a .pdf, .json, or .csv file first." });
       return;
     }
-    const kind = file.name.toLowerCase().endsWith(".csv") ? "csv" : "json";
+
     setBusy(true);
+    setCreatedId(null);
     setMessage(null);
     setErrors([]);
-    try {
-      let text = await file.text();
-      if (text.charCodeAt(0) === 0xfeff) text = text.slice(1);
 
-      const res = await fetch("/api/admin/tests", {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify({
-          title: title || file.name.replace(/\.(json|csv)$/i, ""),
-          collection,
-          source,
-          published: publishNow,
-          kind,
-          text,
-        }),
-      });
-      const json = (await res.json().catch(() => ({}))) as {
-        error?: string;
-        id?: string;
-        scorable?: boolean;
-        warnings?: { where: string; message: string }[];
-        errors?: { where: string; message: string }[];
-        summary?: string;
-      };
-      if (!res.ok) {
-        setErrors((json.errors ?? []).map((er) => `${er.where}: ${er.message}`));
-        setMessage({ kind: "error", text: json.error ?? `Upload failed (HTTP ${res.status}).` });
-        return;
+    try {
+      const fileName = file.name.toLowerCase();
+      const currentIsPdf =
+        fileName.endsWith(".pdf") || file.type === "application/pdf";
+
+      if (currentIsPdf) {
+        setBusyStatus(
+          hasKey
+            ? "Reading PDF, extracting questions & detecting answer key with AI…"
+            : "Reading PDF & extracting questions with AI…"
+        );
+
+        const formData = new FormData();
+        formData.append("file", file);
+        formData.append("title", title || file.name.replace(/\.pdf$/i, ""));
+        formData.append("collection", collection || "Full-length tests");
+        formData.append("source", source);
+        formData.append("published", String(publishNow));
+        formData.append("hasKey", String(hasKey));
+
+        const res = await fetch("/api/admin/tests", {
+          method: "POST",
+          body: formData,
+        });
+
+        const json = (await res.json().catch(() => ({}))) as {
+          error?: string;
+          id?: string;
+          scorable?: boolean;
+          summary?: string;
+          warnings?: string[];
+          stats?: {
+            totalQuestions: number;
+            keysDetectedFromPdf: number;
+            keysSolvedByAi: number;
+          };
+        };
+
+        if (!res.ok) {
+          setMessage({
+            kind: "error",
+            text: json.error ?? `Upload failed (HTTP ${res.status}).`,
+          });
+          return;
+        }
+
+        setCreatedId(json.id || null);
+        setMessage({
+          kind: "ok",
+          text: `Successfully imported as ${json.id}! ${json.summary ?? ""}`,
+        });
+        setTitle("");
+        setSource("");
+        setSelectedFile(null);
+        if (fileRef.current) fileRef.current.value = "";
+        onUploaded();
+      } else {
+        // JSON or CSV
+        setBusyStatus("Validating test format…");
+        const kind = fileName.endsWith(".csv") ? "csv" : "json";
+        let text = await file.text();
+        if (text.charCodeAt(0) === 0xfeff) text = text.slice(1);
+
+        const res = await fetch("/api/admin/tests", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({
+            title: title || file.name.replace(/\.(json|csv)$/i, ""),
+            collection,
+            source,
+            published: publishNow,
+            kind,
+            text,
+          }),
+        });
+
+        const json = (await res.json().catch(() => ({}))) as {
+          error?: string;
+          id?: string;
+          scorable?: boolean;
+          warnings?: { where: string; message: string }[];
+          errors?: { where: string; message: string }[];
+          summary?: string;
+        };
+
+        if (!res.ok) {
+          setErrors(
+            (json.errors ?? []).map((er) => `${er.where}: ${er.message}`)
+          );
+          setMessage({
+            kind: "error",
+            text: json.error ?? `Upload failed (HTTP ${res.status}).`,
+          });
+          return;
+        }
+
+        const warn = json.warnings?.length
+          ? ` ${json.warnings.length} warning(s).`
+          : "";
+        setCreatedId(json.id || null);
+        setMessage({
+          kind: "ok",
+          text: `Imported as ${json.id}. ${json.summary ?? ""}${warn}${
+            json.scorable ? "" : " Some keys still missing."
+          }`,
+        });
+        setTitle("");
+        setSource("");
+        setSelectedFile(null);
+        if (fileRef.current) fileRef.current.value = "";
+        onUploaded();
       }
-      const warn = json.warnings?.length
-        ? ` ${json.warnings.length} warning${json.warnings.length === 1 ? "" : "s"}.`
-        : "";
-      setMessage({
-        kind: "ok",
-        text: `Imported as ${json.id}. ${json.summary ?? ""}${warn}${json.scorable ? "" : " Some keys still missing."}`,
-      });
-      setTitle("");
-      setSource("");
-      if (fileRef.current) fileRef.current.value = "";
-      onUploaded();
     } catch (err) {
       const detail = err instanceof Error ? err.message : "unknown error";
       setMessage({ kind: "error", text: `Upload failed: ${detail}` });
     } finally {
       setBusy(false);
+      setBusyStatus("");
     }
   };
 
   return (
     <form onSubmit={submit} className="panel mt-8 max-w-2xl space-y-4 p-6">
       <div>
-        <label htmlFor="file" className="block text-[13px] text-zinc-400">
-          Test file (.json or .csv)
+        <label htmlFor="file" className="block text-[13px] font-medium text-zinc-300">
+          Practice test file (.pdf, .json, or .csv)
         </label>
         <input
           id="file"
           ref={fileRef}
           type="file"
-          accept=".json,.csv,application/json,text/csv"
+          accept=".pdf,.json,.csv,application/pdf,application/json,text/csv"
+          onChange={handleFileChange}
           className="mt-1.5 block w-full text-sm text-zinc-300 file:mr-3 file:rounded file:border file:border-white/15 file:bg-white/[0.04] file:px-3 file:py-1.5 file:text-[13px] file:font-semibold file:text-white"
         />
-        <p className="mt-1.5 text-[12px] leading-relaxed text-zinc-600">
-          Author in the Klutch practice-test format — one row per question for
-          CSV, or sections → modules → items for JSON. Download a template:{" "}
-          <a href="/api/admin/tests/template?kind=json" className="text-mint underline underline-offset-4">JSON</a>
+        <p className="mt-1.5 text-[12px] leading-relaxed text-zinc-500">
+          Upload an official or practice SAT PDF, or author in JSON/CSV. Templates:{" "}
+          <a
+            href="/api/admin/tests/template?kind=json"
+            className="text-mint underline underline-offset-4"
+          >
+            JSON
+          </a>
           {" · "}
-          <a href="/api/admin/tests/template?kind=csv" className="text-mint underline underline-offset-4">CSV</a>
+          <a
+            href="/api/admin/tests/template?kind=csv"
+            className="text-mint underline underline-offset-4"
+          >
+            CSV
+          </a>
         </p>
       </div>
+
+      {isPdf && (
+        <div className="rounded-lg border border-mint/20 bg-mint/[0.04] p-4 space-y-2">
+          <div className="flex items-start gap-2.5">
+            <input
+              id="hasKey"
+              type="checkbox"
+              checked={hasKey}
+              onChange={(e) => setHasKey(e.target.checked)}
+              className="mt-0.5 h-4 w-4 rounded accent-mint"
+            />
+            <div>
+              <label
+                htmlFor="hasKey"
+                className="cursor-pointer text-[13px] font-semibold text-mint"
+              >
+                PDF includes answer key (auto-detect key)
+              </label>
+              <p className="mt-0.5 text-[12px] text-zinc-400 leading-relaxed">
+                When checked, Klutch scans the PDF for embedded answer keys, answer tables,
+                and scoring guides. Any remaining missing answers will automatically be solved
+                by AI so the test is 100% scorable and ready to play.
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="grid gap-4 sm:grid-cols-2">
         <div>
@@ -174,12 +314,12 @@ function UploadForm({ onUploaded }: { onUploaded: () => void }) {
             className={`mt-1.5 ${inputClass}`}
             value={title}
             onChange={(e) => setTitle(e.target.value)}
-            placeholder="Klutch SAT · Test 1"
+            placeholder="e.g. Practice Test 1"
           />
         </div>
         <div>
           <label htmlFor="collection" className="block text-[13px] text-zinc-400">
-            Section
+            Section / Collection
           </label>
           <input
             id="collection"
@@ -193,6 +333,7 @@ function UploadForm({ onUploaded }: { onUploaded: () => void }) {
             <option value="Full-length tests" />
             <option value="Math only" />
             <option value="Reading and Writing only" />
+            <option value="Official Practice Tests" />
             <option value="Klutch originals" />
           </datalist>
         </div>
@@ -211,7 +352,11 @@ function UploadForm({ onUploaded }: { onUploaded: () => void }) {
         />
       </div>
 
-      <Check label="Publish now (students see it immediately)" checked={publishNow} onChange={setPublishNow} />
+      <Check
+        label="Publish now (students see it immediately in test library)"
+        checked={publishNow}
+        onChange={setPublishNow}
+      />
 
       <div className="flex flex-wrap items-center gap-4 pt-1">
         <button
@@ -219,17 +364,34 @@ function UploadForm({ onUploaded }: { onUploaded: () => void }) {
           disabled={busy}
           className="rounded bg-mint px-4 py-2 text-[13px] font-semibold text-ink-950 transition hover:bg-mint-400 disabled:opacity-50"
         >
-          {busy ? "Uploading…" : "Upload"}
+          {busy ? "Processing…" : isPdf ? "Upload & Ingest PDF" : "Upload"}
         </button>
-        {message && (
-          <p
-            className={`max-w-[42ch] text-[13px] leading-relaxed ${
-              message.kind === "ok" ? "text-mint" : "text-rose-300"
-            }`}
-            role="status"
-          >
-            {message.text}
-          </p>
+
+        {busy && busyStatus && (
+          <span className="text-[13px] text-zinc-400 animate-pulse">
+            {busyStatus}
+          </span>
+        )}
+
+        {message && !busy && (
+          <div className="flex flex-wrap items-center gap-3">
+            <p
+              className={`max-w-[46ch] text-[13px] leading-relaxed ${
+                message.kind === "ok" ? "text-mint font-medium" : "text-rose-300"
+              }`}
+              role="status"
+            >
+              {message.text}
+            </p>
+            {createdId && (
+              <Link
+                href={`/practice/test/${createdId}`}
+                className="inline-flex items-center gap-1.5 rounded border border-mint/40 bg-mint/10 px-3 py-1 text-[12px] font-semibold text-mint hover:bg-mint/20 transition"
+              >
+                Open in test player &rarr;
+              </Link>
+            )}
+          </div>
         )}
       </div>
 
@@ -286,7 +448,8 @@ function TestTable({
   };
 
   const remove = async (id: string, title: string) => {
-    if (!confirm(`Delete "${title}"? This removes the file from disk.`)) return;
+    if (!confirm(`Delete "${title}"? This removes the test permanently.`))
+      return;
     await fetch(`/api/admin/tests/${id}`, { method: "DELETE" });
     onChanged();
   };
@@ -311,8 +474,10 @@ function TestTable({
                     <div className="nums mt-0.5 text-[12px] text-zinc-500">
                       {t.questionCount} questions &middot;{" "}
                       {t.sections.map((s) => s.name).join(" + ")}
-                      {!t.scorable && (
+                      {!t.scorable ? (
                         <span className="ml-2 text-amber-300">no answer key</span>
+                      ) : (
+                        <span className="ml-2 text-mint font-medium">scorable</span>
                       )}
                     </div>
                   </div>
@@ -333,8 +498,9 @@ function TestTable({
                     href={`/practice/test/${t.id}`}
                     className="text-[12px] font-semibold text-mint hover:text-mint-300"
                   >
-                    {t.published ? "Take it" : "Preview"}
+                    Open in tester &rarr;
                   </Link>
+
                   <button
                     type="button"
                     onClick={() => remove(t.id, t.title)}

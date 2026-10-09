@@ -68,8 +68,13 @@ export function TestPlayer({
   const [eliminatorOn, setEliminatorOn] = useState(false);
   const [timerHidden, setTimerHidden] = useState(false);
   const [secondsLeft, setSecondsLeft] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
   const [showDesmos, setShowDesmos] = useState(false);
   const [showRef, setShowRef] = useState(false);
+  const [showNavigator, setShowNavigator] = useState(false);
+  const [warnedFiveMin, setWarnedFiveMin] = useState(false);
+  const [fiveMinToast, setFiveMinToast] = useState(false);
+
   /** Active seconds per item id — survives module transitions until results. */
   const [itemTimes, setItemTimes] = useState<Record<string, number>>({});
   const [answerChanges, setAnswerChanges] = useState<Record<string, number>>(
@@ -103,12 +108,25 @@ export function TestPlayer({
   const startModule = useCallback(() => {
     setQIdx(0);
     setSecondsLeft(moduleSeconds);
+    setIsPaused(false);
+    setWarnedFiveMin(false);
+    setFiveMinToast(false);
+    setShowNavigator(false);
+    setShowDesmos(false);
+    setShowRef(false);
     setPhase("module");
   }, [moduleSeconds]);
 
   /** Module 1 performance picks the module 2 form; the server holds the keys. */
   const advance = useCallback(async () => {
     if (!section || !activeModule || advancing.current) return;
+
+    setIsPaused(false);
+    setShowNavigator(false);
+    setShowDesmos(false);
+    setShowRef(false);
+    setWarnedFiveMin(false);
+    setFiveMinToast(false);
 
     if (moduleNum === 1) {
       advancing.current = true;
@@ -163,6 +181,12 @@ export function TestPlayer({
     setModuleNum(1);
     setQIdx(0);
     setSecondsLeft(fast ? 45 : form.sections[next].secondsPerModule);
+    setIsPaused(false);
+    setWarnedFiveMin(false);
+    setFiveMinToast(false);
+    setShowNavigator(false);
+    setShowDesmos(false);
+    setShowRef(false);
     setPhase("module");
   }, [sectionIdx, form.sections, fast]);
 
@@ -181,11 +205,10 @@ export function TestPlayer({
     };
   }, []);
 
-  // Accumulate active time only while a question is displayed in module phase.
-  // Uses wall-clock deltas so brief visits still count (not just whole seconds).
+  // Accumulate active time only while a question is displayed and unpaused.
   useEffect(() => {
     const activeId =
-      phase === "module" && item && pageVisible && windowFocused
+      phase === "module" && item && pageVisible && windowFocused && !isPaused
         ? item.id
         : null;
     timingItemRef.current = activeId;
@@ -209,26 +232,43 @@ export function TestPlayer({
       add(performance.now());
       clearInterval(tick);
     };
-  }, [phase, item?.id, pageVisible, windowFocused]);
+  }, [phase, item?.id, pageVisible, windowFocused, isPaused]);
 
   // One ticking clock drives modules, the review screen, and the break.
-  // Stop the interval at 0 so a late tick cannot race past advance() and
-  // overwrite the freshly reset module timer with a negative value.
+  // Pausing freezes the interval cleanly.
   useEffect(() => {
     if (phase !== "module" && phase !== "review" && phase !== "break") return;
-    if (secondsLeft <= 0) return;
+    if (secondsLeft <= 0 || isPaused) return;
+
     const t = setInterval(
       () => setSecondsLeft((s) => (s <= 1 ? 0 : s - 1)),
       1000
     );
     return () => clearInterval(t);
-  }, [phase, secondsLeft > 0]);
+  }, [phase, secondsLeft > 0, isPaused]);
+
+  // College Board 5-minute warning alert
+  useEffect(() => {
+    if (
+      phase === "module" &&
+      secondsLeft <= 300 &&
+      secondsLeft > 0 &&
+      !warnedFiveMin &&
+      !fast
+    ) {
+      setWarnedFiveMin(true);
+      setTimerHidden(false); // Cannot hide timer in last 5 minutes
+      setFiveMinToast(true);
+      const timer = setTimeout(() => setFiveMinToast(false), 8000);
+      return () => clearTimeout(timer);
+    }
+  }, [phase, secondsLeft, warnedFiveMin, fast]);
 
   useEffect(() => {
-    if (secondsLeft !== 0) return;
+    if (secondsLeft !== 0 || isPaused) return;
     if (phase === "module" || phase === "review") advance();
     else if (phase === "break") resumeAfterBreak();
-  }, [secondsLeft, phase, advance, resumeAfterBreak]);
+  }, [secondsLeft, phase, isPaused, advance, resumeAfterBreak]);
 
   const respond = (value: string) => {
     if (!item) return;
@@ -243,7 +283,6 @@ export function TestPlayer({
       return { ...r, [item.id]: value };
     });
   };
-
 
   // ---------------------------------------------------------------- intro
   if (phase === "intro") {
@@ -289,7 +328,7 @@ export function TestPlayer({
         <button
           type="button"
           onClick={startModule}
-          className="mt-8 rounded bg-mint px-5 py-2.5 text-sm font-semibold text-ink-950 transition hover:bg-mint-400"
+          className="mt-8 rounded bg-mint px-5 py-2.5 text-sm font-semibold text-ink-950 transition hover:bg-mint-400 shadow-md shadow-mint/10"
         >
           Start section 1
         </button>
@@ -362,10 +401,26 @@ export function TestPlayer({
   if (!section || !activeModule || !item) return null;
 
   const answeredCount = items.filter((i) => responses[i.id]).length;
+  const isFinalFiveMin = secondsLeft <= 300 && !fast;
 
   // ------------------------------------------------------- module + review
   return (
-    <div className="flex min-h-[calc(100vh-3.5rem)] flex-col bg-ink-950">
+    <div className="flex min-h-[calc(100vh-3.5rem)] flex-col bg-ink-950 select-none">
+      {/* 5-minute warning alert banner */}
+      {fiveMinToast && (
+        <div className="bg-amber-500/15 border-b border-amber-500/30 px-6 py-2.5 text-center text-sm font-medium text-amber-200 flex items-center justify-center gap-3">
+          <span>⏰ 5 minutes remaining in this module.</span>
+          <button
+            type="button"
+            onClick={() => setFiveMinToast(false)}
+            className="text-[12px] text-amber-300 underline underline-offset-2 hover:text-white"
+          >
+            Dismiss
+          </button>
+        </div>
+      )}
+
+      {/* Header */}
       <header className="border-b border-white/[0.1] px-6 py-3">
         <div className="mx-auto flex max-w-[84rem] items-center gap-6">
           <div>
@@ -379,33 +434,61 @@ export function TestPlayer({
             </div>
           </div>
 
+          {/* Centered Timer */}
           <div className="mx-auto text-center">
-            <div className="nums font-display text-2xl font-bold tabular-nums text-white">
+            <div
+              className={`nums font-display text-2xl font-bold tabular-nums transition ${
+                isFinalFiveMin ? "text-amber-400 animate-pulse" : "text-white"
+              }`}
+            >
               {timerHidden ? "Hidden" : clock(secondsLeft)}
             </div>
             <button
               type="button"
+              disabled={isFinalFiveMin}
               onClick={() => setTimerHidden((h) => !h)}
-              className="text-[12px] text-zinc-500 transition hover:text-white"
+              className="text-[12px] text-zinc-500 transition hover:text-white disabled:opacity-40 disabled:cursor-not-allowed"
             >
-              {timerHidden ? "Show timer" : "Hide timer"}
+              {isFinalFiveMin
+                ? "Locked (last 5 min)"
+                : timerHidden
+                ? "Show timer"
+                : "Hide timer"}
             </button>
           </div>
 
+          {/* Tools & Pause */}
           <div className="flex items-center gap-2">
+            <button
+              type="button"
+              onClick={() => setIsPaused(true)}
+              title="Pause the test and timer"
+              className="rounded border border-white/15 px-2.5 py-1.5 text-[12px] font-semibold text-zinc-300 transition hover:border-white/35 hover:text-white"
+            >
+              Pause
+            </button>
+
             {isMath && (
               <>
                 <button
                   type="button"
                   onClick={() => setShowDesmos((d) => !d)}
-                  className="rounded border border-white/15 px-2.5 py-1.5 text-[12px] font-semibold text-zinc-300 transition hover:text-white"
+                  className={`rounded border px-2.5 py-1.5 text-[12px] font-semibold transition ${
+                    showDesmos
+                      ? "border-mint bg-mint/10 text-mint"
+                      : "border-white/15 text-zinc-300 hover:text-white"
+                  }`}
                 >
                   Calculator
                 </button>
                 <button
                   type="button"
                   onClick={() => setShowRef((r) => !r)}
-                  className="rounded border border-white/15 px-2.5 py-1.5 text-[12px] font-semibold text-zinc-300 transition hover:text-white"
+                  className={`rounded border px-2.5 py-1.5 text-[12px] font-semibold transition ${
+                    showRef
+                      ? "border-mint bg-mint/10 text-mint"
+                      : "border-white/15 text-zinc-300 hover:text-white"
+                  }`}
                 >
                   Reference
                 </button>
@@ -415,11 +498,62 @@ export function TestPlayer({
         </div>
       </header>
 
+      {/* Floating Tools */}
       {showRef && isMath && <ReferenceSheet onClose={() => setShowRef(false)} />}
       {showDesmos && isMath && (
         <DesmosPanel onClose={() => setShowDesmos(false)} />
       )}
 
+      {/* Test Paused Overlay */}
+      {isPaused && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-ink-950/95 backdrop-blur-md px-6">
+          <div className="panel max-w-lg w-full border border-white/20 p-8 text-center shadow-2xl">
+            <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-mint/10 border border-mint/30 text-mint">
+              <svg className="h-7 w-7" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z" />
+              </svg>
+            </div>
+            <h2 className="mt-5 font-display text-2xl font-bold text-white tracking-tight">
+              Test Paused
+            </h2>
+            <p className="mt-2 text-sm text-zinc-400 leading-relaxed">
+              Your test is currently paused and the timer has stopped. Questions
+              are obscured while paused so your pacing and scoring stay accurate.
+            </p>
+
+            <div className="mt-6 rounded border border-white/10 bg-white/[0.03] p-4 text-left space-y-2">
+              <div className="flex justify-between text-[13px]">
+                <span className="text-zinc-400">Current section:</span>
+                <span className="font-semibold text-white">
+                  {section.name}, Module {moduleNum}
+                </span>
+              </div>
+              <div className="flex justify-between text-[13px]">
+                <span className="text-zinc-400">Current question:</span>
+                <span className="font-semibold text-white">
+                  Question {qIdx + 1} of {items.length}
+                </span>
+              </div>
+              <div className="flex justify-between text-[13px]">
+                <span className="text-zinc-400">Time remaining:</span>
+                <span className="nums font-bold text-mint">
+                  {clock(secondsLeft)}
+                </span>
+              </div>
+            </div>
+
+            <button
+              type="button"
+              onClick={() => setIsPaused(false)}
+              className="mt-7 w-full rounded bg-mint py-3 text-sm font-semibold text-ink-950 transition hover:bg-mint-400 shadow-lg shadow-mint/20"
+            >
+              Resume Testing
+            </button>
+          </div>
+        </div>
+      )}
+
+      {/* Main Content */}
       <main className="flex-1">
         {phase === "review" ? (
           <ReviewScreen
@@ -433,41 +567,158 @@ export function TestPlayer({
           />
         ) : (
           <div>
-            <div>
-              <QuestionPane
-                item={item}
-                number={qIdx + 1}
-                response={responses[item.id]}
-                flagged={Boolean(flags[item.id])}
-                eliminated={eliminated[item.id] ?? []}
-                eliminatorOn={eliminatorOn}
-                onRespond={respond}
-                onToggleFlag={() =>
-                  setFlags((f) => ({ ...f, [item.id]: !f[item.id] }))
-                }
-                onToggleEliminate={(cid) =>
-                  setEliminated((e) => {
-                    const cur = e[item.id] ?? [];
-                    return {
-                      ...e,
-                      [item.id]: cur.includes(cid)
-                        ? cur.filter((x) => x !== cid)
-                        : [...cur, cid],
-                    };
-                  })
-                }
-                onToggleEliminator={() => setEliminatorOn((v) => !v)}
-              />
-            </div>
+            <QuestionPane
+              item={item}
+              number={qIdx + 1}
+              response={responses[item.id]}
+              flagged={Boolean(flags[item.id])}
+              eliminated={eliminated[item.id] ?? []}
+              eliminatorOn={eliminatorOn}
+              onRespond={respond}
+              onToggleFlag={() =>
+                setFlags((f) => ({ ...f, [item.id]: !f[item.id] }))
+              }
+              onToggleEliminate={(cid) =>
+                setEliminated((e) => {
+                  const cur = e[item.id] ?? [];
+                  return {
+                    ...e,
+                    [item.id]: cur.includes(cid)
+                      ? cur.filter((x) => x !== cid)
+                      : [...cur, cid],
+                  };
+                })
+              }
+              onToggleEliminator={() => setEliminatorOn((v) => !v)}
+            />
           </div>
         )}
       </main>
 
+      {/* In-test Question Navigator Popover */}
+      {showNavigator && (
+        <div
+          className="fixed inset-0 z-40 flex items-end sm:items-center justify-center bg-black/70 backdrop-blur-sm p-4 sm:p-6"
+          onClick={() => setShowNavigator(false)}
+        >
+          <div
+            className="panel max-w-xl w-full border border-white/20 p-6 shadow-2xl space-y-4"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <div className="flex items-center justify-between border-b border-white/10 pb-3">
+              <div>
+                <h3 className="font-display text-lg font-bold text-white">
+                  {section.name} · Module {moduleNum}
+                </h3>
+                <p className="text-[12px] text-zinc-400">
+                  Select a question to jump directly to it
+                </p>
+              </div>
+              <button
+                type="button"
+                onClick={() => setShowNavigator(false)}
+                className="text-sm text-zinc-400 hover:text-white"
+              >
+                ✕ Close
+              </button>
+            </div>
+
+            <div className="grid grid-cols-[repeat(auto-fill,minmax(2.75rem,1fr))] gap-2 max-h-[50vh] overflow-y-auto py-2">
+              {items.map((it, i) => {
+                const isCurrent = i === qIdx;
+                const answered = Boolean(responses[it.id]);
+                const flagged = Boolean(flags[it.id]);
+                return (
+                  <button
+                    key={it.id}
+                    type="button"
+                    onClick={() => {
+                      setQIdx(i);
+                      setPhase("module");
+                      setShowNavigator(false);
+                    }}
+                    className={`nums relative h-10 rounded border text-[13px] font-semibold transition ${
+                      isCurrent
+                        ? "border-mint bg-mint text-ink-950 font-bold ring-2 ring-mint/50"
+                        : answered
+                        ? "border-mint/50 bg-mint/10 text-white"
+                        : "border-dashed border-white/20 text-zinc-400 hover:text-white"
+                    }`}
+                  >
+                    {i + 1}
+                    {flagged && (
+                      <span
+                        aria-label="marked for review"
+                        className="absolute right-1 top-1 h-1.5 w-1.5 rounded-full bg-amber-300"
+                      />
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+
+            <div className="flex items-center justify-between border-t border-white/10 pt-3 text-[12px] text-zinc-400">
+              <div className="flex items-center gap-4">
+                <span className="flex items-center gap-1.5">
+                  <span className="h-2.5 w-2.5 rounded-sm border border-mint/50 bg-mint/10" />
+                  Answered
+                </span>
+                <span className="flex items-center gap-1.5">
+                  <span className="h-2.5 w-2.5 rounded-sm border border-dashed border-white/25" />
+                  Unanswered
+                </span>
+                <span className="flex items-center gap-1.5">
+                  <span className="h-1.5 w-1.5 rounded-full bg-amber-300" />
+                  Flagged
+                </span>
+              </div>
+              <button
+                type="button"
+                onClick={() => {
+                  setShowNavigator(false);
+                  setPhase("review");
+                }}
+                className="text-mint font-semibold hover:underline"
+              >
+                Review module →
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Footer */}
       <footer className="sticky bottom-0 border-t border-white/[0.1] bg-ink-950 px-6 py-3">
         <div className="mx-auto flex max-w-[84rem] items-center gap-4">
-          <span className="nums text-[13px] text-zinc-500">
-            {answeredCount} of {items.length} answered
-          </span>
+          {/* Interactive Question Jump Navigator Trigger */}
+          <button
+            type="button"
+            onClick={() => setShowNavigator(true)}
+            className="flex items-center gap-2 rounded border border-white/15 bg-white/[0.04] px-3 py-1.5 text-[13px] font-medium text-zinc-300 transition hover:border-mint/50 hover:bg-white/[0.08] hover:text-white"
+            title="Open question navigator grid"
+          >
+            <span className="nums font-semibold text-white">
+              Question {qIdx + 1} of {items.length}
+            </span>
+            <span className="text-zinc-600">·</span>
+            <span className="nums text-zinc-400">
+              {answeredCount} answered
+            </span>
+            <svg
+              className="h-3.5 w-3.5 text-zinc-400"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M4 6h16M4 12h16m-7 6h7"
+              />
+            </svg>
+          </button>
+
           <div className="ml-auto flex items-center gap-2">
             {phase === "module" && (
               <>

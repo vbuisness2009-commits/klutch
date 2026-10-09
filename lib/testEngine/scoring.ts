@@ -26,7 +26,7 @@ import {
   type TestForm,
   type Route,
   type SectionId,
-} from "./types";
+} from "./types.ts";
 
 /** Logistic scaling constant that makes the logistic approximate the normal ogive. */
 const D = 1.702;

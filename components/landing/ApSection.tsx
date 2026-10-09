@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { AP_SUBJECTS, type ApSubject } from "@/lib/apSubjects";
 import { AP_UNITS, NEEDS_CHECK } from "@/lib/apContent";
+import { currentUser } from "@/lib/userSession";
 
 const CATEGORIES: ApSubject["category"][] = [
   "Math & CS",
@@ -34,7 +35,10 @@ const pieces = [
   },
 ];
 
-export function ApSection() {
+export async function ApSection() {
+  const user = await currentUser();
+  const apHref = user ? "/ap" : "/signup?next=/ap";
+  const subjectHref = user ? "/ap#subjects" : "/signup?next=/ap";
   const unitCount = Object.values(AP_UNITS).reduce((n, u) => n + u.length, 0);
 
   return (
@@ -53,7 +57,7 @@ export function ApSection() {
             </p>
           </div>
           <Link
-            href="/ap"
+            href={apHref}
             className="text-sm font-medium text-mint underline decoration-mint/30 underline-offset-4 transition hover:decoration-mint"
           >
             Browse all subjects
@@ -66,7 +70,7 @@ export function ApSection() {
             return (
               <Link
                 key={cat}
-                href="/ap#subjects"
+                href={subjectHref}
                 className="flex items-baseline justify-between gap-4 border-b border-white/[0.07] py-3 transition hover:bg-white/[0.02]"
               >
                 <span className="text-sm text-zinc-200">{cat}</span>

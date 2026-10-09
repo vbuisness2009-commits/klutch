@@ -52,15 +52,20 @@ export function Nav() {
         </Link>
 
         <nav className="hidden items-center gap-6 md:flex">
-          {links.map((link) => (
-            <Link
-              key={link.href}
-              href={link.href}
-              className="text-sm text-zinc-400 transition hover:text-white"
-            >
-              {link.label}
-            </Link>
-          ))}
+          {links.map((link) => {
+            const href = user
+              ? link.href
+              : `/signup?next=${encodeURIComponent(link.href)}`;
+            return (
+              <Link
+                key={link.href}
+                href={href}
+                className="text-sm text-zinc-400 transition hover:text-white"
+              >
+                {link.label}
+              </Link>
+            );
+          })}
         </nav>
 
         <div className="flex items-center gap-4">

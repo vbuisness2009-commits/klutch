@@ -1,10 +1,14 @@
 import Link from "next/link";
 import { listTests } from "@/lib/testEngine/store";
+import { currentUser } from "@/lib/userSession";
 
 export async function SatSection() {
-  const uploaded = (await listTests()).filter(
-    (t) => t.published || t.published
-  );
+  const [uploaded, user] = await Promise.all([
+    listTests().then((tests) => tests.filter((t) => t.published)),
+    currentUser(),
+  ]);
+
+  const hubHref = user ? "/sat" : "/signup?next=/sat";
 
   return (
     <section id="sat" className="border-b border-white/[0.07]">
@@ -20,7 +24,7 @@ export async function SatSection() {
             </p>
           </div>
           <Link
-            href="/sat"
+            href={hubHref}
             className="text-sm font-medium text-mint underline decoration-mint/30 underline-offset-4 transition hover:decoration-mint"
           >
             Open the SAT hub
@@ -61,7 +65,13 @@ export async function SatSection() {
                       <span className="inline-flex flex-wrap items-baseline justify-end gap-x-4 gap-y-1">
                         {t.published ? (
                           <Link
-                            href={`/practice/test/${t.id}`}
+                            href={
+                              user
+                                ? `/practice/test/${t.id}`
+                                : `/signup?next=${encodeURIComponent(
+                                    `/practice/test/${t.id}`
+                                  )}`
+                            }
                             className="text-[13px] font-semibold text-mint transition hover:text-mint-300"
                           >
                             Start

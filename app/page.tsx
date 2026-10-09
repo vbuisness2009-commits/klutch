@@ -2,10 +2,14 @@ import Link from "next/link";
 import { Hero } from "@/components/landing/Hero";
 import { SatSection } from "@/components/landing/SatSection";
 import { ApSection } from "@/components/landing/ApSection";
+import { currentUser } from "@/lib/userSession";
 
 export const dynamic = "force-dynamic";
 
-export default function HomePage() {
+export default async function HomePage() {
+  const user = await currentUser();
+  const pickHref = user ? "/sat" : "/signup?next=/sat";
+
   return (
     <>
       <Hero />
@@ -18,7 +22,7 @@ export default function HomePage() {
           It takes about two hours and you&rsquo;ll get a score at the end.
         </p>
         <Link
-          href="/sat"
+          href={pickHref}
           className="mt-5 inline-block rounded bg-mint px-4 py-2.5 text-sm font-semibold text-ink-950 transition hover:bg-mint-400"
         >
           Pick a paper

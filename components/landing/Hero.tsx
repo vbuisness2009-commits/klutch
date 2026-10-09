@@ -1,13 +1,16 @@
 import Link from "next/link";
 import { AP_SUBJECTS } from "@/lib/apSubjects";
 import { listTests } from "@/lib/testEngine/store";
+import { currentUser } from "@/lib/userSession";
 
 const AP_COUNT = AP_SUBJECTS.length;
 
 export async function Hero() {
-  const satCount = (await listTests()).filter(
-    (t) => t.published || t.published
-  ).length;
+  const tests = await listTests();
+  const user = await currentUser();
+  const satCount = tests.filter((t) => t.published).length;
+  const satHref = user ? "/sat" : "/signup?next=/sat";
+  const apHref = user ? "/ap" : "/signup?next=/ap";
 
   return (
     <section className="border-b border-white/[0.07]">
@@ -25,13 +28,13 @@ export async function Hero() {
 
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <Link
-              href="/sat"
+              href={satHref}
               className="rounded bg-mint px-4 py-2.5 text-sm font-semibold text-ink-950 transition hover:bg-mint-400"
             >
               SAT archive
             </Link>
             <Link
-              href="/ap"
+              href={apHref}
               className="rounded border border-white/20 px-4 py-2.5 text-sm font-semibold text-white transition hover:border-white/40 hover:bg-white/[0.04]"
             >
               AP subjects

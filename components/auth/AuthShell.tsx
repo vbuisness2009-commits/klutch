@@ -10,13 +10,14 @@ type Props = {
   subtitle: string;
   cta: string;
   alt: React.ReactNode;
+  googleEnabled?: boolean;
 };
 
 const inputClass =
   "w-full rounded border border-white/12 bg-white/[0.03] px-3.5 py-2.5 text-sm text-white placeholder:text-zinc-600 focus:border-mint/60 focus:outline-none";
 
 const GOOGLE_ERRORS: Record<string, string> = {
-  google_unavailable: "Google sign-in isn't set up yet. Use email for now.",
+  google_unavailable: "Google sign-in isn't configured yet. Please sign in with email.",
   google_cancelled: "Google sign-in was cancelled.",
   google_state: "That Google sign-in link expired. Try again.",
   google_failed: "Google sign-in failed. Try again.",
@@ -27,7 +28,7 @@ function safeNext(next: string | null) {
   return next && next.startsWith("/") && !next.startsWith("//") ? next : "/dashboard";
 }
 
-function AuthForm({ mode, title, subtitle, cta, alt }: Props) {
+function AuthForm({ mode, title, subtitle, cta, alt, googleEnabled = false }: Props) {
   const params = useSearchParams();
   const next = safeNext(params.get("next"));
   const [error, setError] = useState<string | null>(
@@ -64,21 +65,25 @@ function AuthForm({ mode, title, subtitle, cta, alt }: Props) {
       </h1>
       <p className="mt-2 text-sm leading-relaxed text-zinc-400">{subtitle}</p>
 
-      <a
-        href={`/api/auth/google?next=${encodeURIComponent(next)}`}
-        className="mt-7 flex w-full items-center justify-center gap-2.5 rounded border border-white/15 bg-white px-4 py-2.5 text-sm font-semibold text-zinc-900 transition hover:bg-zinc-100"
-      >
-        <GoogleMark />
-        Continue with Google
-      </a>
+      {googleEnabled && (
+        <>
+          <a
+            href={`/api/auth/google?next=${encodeURIComponent(next)}`}
+            className="mt-7 flex w-full items-center justify-center gap-2.5 rounded border border-white/15 bg-white px-4 py-2.5 text-sm font-semibold text-zinc-900 transition hover:bg-zinc-100"
+          >
+            <GoogleMark />
+            Continue with Google
+          </a>
 
-      <div className="my-5 flex items-center gap-3 text-[12px] text-zinc-600">
-        <span className="h-px flex-1 bg-white/10" />
-        or with email
-        <span className="h-px flex-1 bg-white/10" />
-      </div>
+          <div className="my-5 flex items-center gap-3 text-[12px] text-zinc-600">
+            <span className="h-px flex-1 bg-white/10" />
+            or with email
+            <span className="h-px flex-1 bg-white/10" />
+          </div>
+        </>
+      )}
 
-      <form onSubmit={onSubmit} className="space-y-2.5">
+      <form onSubmit={onSubmit} className={`${googleEnabled ? "" : "mt-7"} space-y-2.5`}>
         {mode === "signup" && (
           <input
             name="name"
@@ -94,7 +99,7 @@ function AuthForm({ mode, title, subtitle, cta, alt }: Props) {
           type="email"
           required
           autoComplete="email"
-          placeholder="you@school.edu"
+          placeholder="you@gmail.com"
           className={inputClass}
         />
         <input

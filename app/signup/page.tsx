@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { AuthShell } from "@/components/auth/AuthShell";
+import { googleConfigured } from "@/lib/googleOAuth";
 
 export default function SignupPage() {
   return (
@@ -8,6 +9,7 @@ export default function SignupPage() {
       title="Start being klutch."
       subtitle="Create your account. Take your diagnostic. Get your plan."
       cta="Create account"
+      googleEnabled={googleConfigured()}
       alt={
         <>
           Already have one?{" "}

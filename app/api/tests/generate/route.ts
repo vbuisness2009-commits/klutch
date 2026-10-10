@@ -24,7 +24,7 @@ export async function POST() {
         ok: false,
         error: "insufficient_credits",
         message:
-          "You've used all of your practice test credits for this billing period. Upgrade to Pro for 12 tests or Unlimited to keep going.",
+          "You've used all of your practice test credits for this billing period. Upgrade to Pro for 15 tests or Unlimited to keep going.",
         upgradeUrl: "/pricing",
       },
       { status: 402 } // Payment Required

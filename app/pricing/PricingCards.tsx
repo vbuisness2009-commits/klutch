@@ -138,11 +138,11 @@ export function PricingCards({
                 Klutch Pro
               </h3>
               <span className="rounded-full bg-mint/20 border border-mint/30 px-2.5 py-0.5 text-xs font-bold text-mint">
-                12 Tests / Mo
+                15 Tests / Mo
               </span>
             </div>
             <p className="mt-2 text-xs leading-relaxed text-zinc-300">
-              For serious score improvement. Take up to 3 full tests every week with weak-skill breakdown.
+              For serious score improvement. Take up to 3–4 full tests every week with weak-skill breakdown.
             </p>
 
             <div className="mt-6 flex items-baseline gap-1">
@@ -157,7 +157,7 @@ export function PricingCards({
             <ul className="space-y-3 text-xs text-zinc-200">
               <li className="flex items-center gap-2">
                 <span className="text-mint font-bold">✓</span>
-                <span className="font-semibold text-white">12 Practice Test Credits / Month</span>
+                <span className="font-semibold text-white">15 Practice Test Credits / Month</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-mint font-bold">✓</span>

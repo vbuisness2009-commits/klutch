@@ -20,7 +20,7 @@ export const STRIPE_PRICES: Record<Exclude<MembershipTier, "free">, {
   pro: {
     priceId: process.env.STRIPE_PRICE_ID_PRO,
     fallbackPriceUsd: 19,
-    name: "Klutch Pro (12 Tests/Mo)",
+    name: "Klutch Pro (15 Tests/Mo)",
   },
   unlimited: {
     priceId: process.env.STRIPE_PRICE_ID_UNLIMITED,
@@ -64,7 +64,7 @@ export async function createCheckoutSession({
               name: plan.name,
               description:
                 tier === "pro"
-                  ? "12 College Board-calibrated Digital SAT practice tests every month + score analytics."
+                  ? "15 College Board-calibrated Digital SAT practice tests every month + score analytics."
                   : "Unlimited on-demand adaptive practice tests, AI score diagnostics, and AP exams.",
             },
             unit_amount: plan.fallbackPriceUsd * 100, // in cents

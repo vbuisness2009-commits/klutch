@@ -4,7 +4,7 @@ import { ensureSchema, sql, type MembershipTier, type UserRow } from "./db";
 
 export const PLAN_LIMITS: Record<MembershipTier, { monthlyCredits: number; name: string; priceUsd: number }> = {
   free: { monthlyCredits: 2, name: "Free Starter", priceUsd: 0 },
-  pro: { monthlyCredits: 12, name: "Klutch Pro", priceUsd: 19 },
+  pro: { monthlyCredits: 15, name: "Klutch Pro", priceUsd: 19 },
   unlimited: { monthlyCredits: 9999, name: "Klutch Elite / Unlimited", priceUsd: 29 },
 };
 

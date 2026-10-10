@@ -103,7 +103,7 @@ export function PaywallModal({
             </div>
             <ul className="mt-3 space-y-1.5 text-xs text-zinc-300">
               <li className="flex items-center gap-1.5">
-                <span className="text-mint">✓</span> 12 Practice Tests / month
+                <span className="text-mint">✓</span> 15 Practice Tests / month
               </li>
               <li className="flex items-center gap-1.5">
                 <span className="text-mint">✓</span> Shared Test Bank Access

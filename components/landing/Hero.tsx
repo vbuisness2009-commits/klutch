@@ -17,13 +17,13 @@ export async function Hero() {
       <div className="mx-auto grid max-w-6xl gap-12 px-5 pb-16 pt-14 sm:px-8 lg:grid-cols-[1.25fr_1fr] lg:gap-14 lg:pb-20 lg:pt-20">
         <div>
           <h1 className="max-w-[17ch] font-display text-[42px] font-bold leading-[1.05] tracking-tight text-white sm:text-[52px]">
-            The SAT and every AP, from the real papers.
+            Master the SAT and every AP exam.
           </h1>
 
           <p className="mt-6 max-w-[54ch] text-[17px] leading-relaxed text-zinc-400">
-            Klutch is a study archive for College Board exams. Sit a past
-            digital SAT under real timing, or work an AP subject unit by unit
-            with graded practice, guides, and vocab.
+            Klutch is your all-in-one prep platform for College Board exams. Sit
+            adaptive Digital SAT practice tests under real exam timing, or work
+            through AP subjects unit by unit with graded practice, guides, and vocab.
           </p>
 
           <div className="mt-8 flex flex-wrap items-center gap-3">
@@ -31,7 +31,7 @@ export async function Hero() {
               href={satHref}
               className="rounded bg-mint px-4 py-2.5 text-sm font-semibold text-ink-950 transition hover:bg-mint-400"
             >
-              SAT archive
+              Start SAT prep
             </Link>
             <Link
               href={apHref}
@@ -54,8 +54,8 @@ export async function Hero() {
             </div>
             <p className="nums mt-2 text-[13px] leading-relaxed text-zinc-400">
               {satCount === 0
-                ? "Papers appear here as they are uploaded."
-                : `${satCount} paper${satCount === 1 ? "" : "s"} ready — timed by module, scored 400 to 1600.`}
+                ? "Practice tests appear here as they are published."
+                : `${satCount} practice test${satCount === 1 ? "" : "s"} ready — timed by module, scored 400 to 1600.`}
             </p>
           </div>
 

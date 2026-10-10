@@ -90,17 +90,17 @@ export default async function Dashboard() {
                 Start the test
               </Link>
               <Link href="/sat" className={linkClass}>
-                Pick a different paper
+                Pick a different test
               </Link>
             </div>
           </>
         ) : (
           <>
             <h2 className="font-display text-base font-bold text-white">
-              No papers uploaded yet
+              No practice tests available yet
             </h2>
             <p className="mt-2 text-[13px] leading-relaxed text-zinc-400">
-              Once a paper is in the library, you can start it from here.
+              Once a test is published, you can start it from here.
             </p>
           </>
         )}

@@ -14,8 +14,8 @@ const CATEGORIES: ApSubject["category"][] = [
 
 const pieces = [
   {
-    title: "Past exams",
-    body: "Released papers, handled the same way as the SAT archive: real questions, real timing, scored 1 to 5.",
+    title: "Full-length exams",
+    body: "Comprehensive exam practice timed under real testing conditions, scored 1 to 5.",
   },
   {
     title: "Practice by difficulty",

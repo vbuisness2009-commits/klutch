@@ -43,7 +43,7 @@ function LoginForm() {
         Admin login
       </h1>
       <p className="mt-2 text-sm leading-relaxed text-zinc-400">
-        Upload papers and manage the library. After you sign in once, this
+        Upload practice tests and manage the library. After you sign in once, this
         browser stays trusted for a year.
       </p>
 

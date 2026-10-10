@@ -18,14 +18,14 @@ export default async function HomePage() {
 
       <section className="mx-auto max-w-6xl px-5 py-14 sm:px-8">
         <p className="max-w-[54ch] text-[15px] leading-relaxed text-zinc-400">
-          The fastest way to find out if this is useful is to sit one paper.
-          It takes about two hours and you&rsquo;ll get a score at the end.
+          The fastest way to find out if this is useful is to take a full practice test.
+          It takes about two hours and you&rsquo;ll get an instant score at the end.
         </p>
         <Link
           href={pickHref}
           className="mt-5 inline-block rounded bg-mint px-4 py-2.5 text-sm font-semibold text-ink-950 transition hover:bg-mint-400"
         >
-          Pick a paper
+          Take a practice test
         </Link>
       </section>
     </>

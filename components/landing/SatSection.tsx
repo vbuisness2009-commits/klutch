@@ -16,10 +16,10 @@ export async function SatSection() {
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
             <h2 className="font-display text-2xl font-bold tracking-tight text-white">
-              The SAT archive
+              Digital SAT practice
             </h2>
             <p className="mt-2 max-w-[56ch] text-sm leading-relaxed text-zinc-400">
-              Full papers you can sit under real timing: two Reading and Writing
+              Full-length practice tests you can sit under real exam timing: two Reading and Writing
               modules, two Math modules, adaptive between them.
             </p>
           </div>
@@ -33,14 +33,14 @@ export async function SatSection() {
 
         {uploaded.length === 0 ? (
           <p className="mt-8 text-sm text-zinc-500">
-            No papers uploaded yet.
+            No practice tests published yet.
           </p>
         ) : (
           <div className="mt-8 overflow-x-auto">
             <table className="w-full min-w-[640px] border-collapse text-left">
               <thead>
                 <tr className="border-b border-white/[0.14] text-[11px] font-medium text-zinc-500">
-                  <th className="pb-2.5 font-medium">Paper</th>
+                  <th className="pb-2.5 font-medium">Test</th>
                   <th className="pb-2.5 font-medium">Section</th>
                   <th className="nums pb-2.5 text-right font-medium">
                     Questions
@@ -87,7 +87,7 @@ export async function SatSection() {
         )}
 
         <p className="mt-5 text-[13px] text-zinc-500">
-          Sit a paper in the player for a score..
+          Complete a practice test in the player for a predictive score.
         </p>
       </div>
     </section>

@@ -3,9 +3,9 @@ import "./globals.css";
 import { AppChrome } from "@/components/AppChrome";
 
 export const metadata: Metadata = {
-  title: "Klutch: SAT and AP prep from the real papers",
+  title: "Klutch: Complete SAT and AP Exam Prep",
   description:
-    "A study archive for College Board exams. Sit a past digital SAT under real timing, or work an AP subject unit by unit with graded practice, guides, and vocab.",
+    "An all-in-one prep platform for College Board exams. Sit adaptive Digital SAT practice tests under real timing, or work an AP subject unit by unit with graded practice, guides, and vocab.",
   metadataBase: new URL(
     process.env.APP_URL ||
       (process.env.VERCEL_PROJECT_PRODUCTION_URL
@@ -13,9 +13,9 @@ export const metadata: Metadata = {
         : "http://localhost:3100")
   ),
   openGraph: {
-    title: "Klutch: SAT and AP prep from the real papers",
+    title: "Klutch: Complete SAT and AP Exam Prep",
     description:
-      "Past digital SAT papers plus every AP subject, broken into units with graded practice, guides, and vocab.",
+      "Adaptive Digital SAT practice tests plus every AP subject, broken into units with graded practice, guides, and vocab.",
     siteName: "Klutch",
     type: "website",
   },

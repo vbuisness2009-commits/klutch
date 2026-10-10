@@ -17,8 +17,8 @@ export default async function SatHub() {
           </h1>
           <p className="mt-5 max-w-[58ch] text-[16px] leading-relaxed text-zinc-400">
             {uploaded.length === 0
-              ? "Papers appear here when they are uploaded to the library."
-              : `${uploaded.length} paper${uploaded.length === 1 ? "" : "s"} ready to sit under timing.`}
+              ? "Practice tests appear here when they are published."
+              : `${uploaded.length} practice test${uploaded.length === 1 ? "" : "s"} ready to take under real exam timing.`}
           </p>
           <div className="mt-7 flex flex-wrap items-center gap-x-6 gap-y-3">
             {uploaded[0]?.published && (
@@ -36,10 +36,10 @@ export default async function SatHub() {
       <section id="tests" className="border-b border-white/[0.07]">
         <div className="mx-auto max-w-6xl px-5 py-14 sm:px-8">
           <h2 className="font-display text-2xl font-bold tracking-tight text-white">
-            Papers
+            Practice tests
           </h2>
           <p className="mt-2 max-w-[58ch] text-sm leading-relaxed text-zinc-400">
-            Sit the adaptive player for a timed score.
+            Full-length adaptive tests scored from 400 to 1600.
           </p>
 
           {uploaded.length === 0 ? (

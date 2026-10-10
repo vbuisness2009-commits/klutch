@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { listTests } from "@/lib/testEngine/store";
+import { listTests, type TestSummary } from "@/lib/testEngine/store";
 import { currentUser } from "@/lib/userSession";
 import { listAttempts } from "@/lib/attemptsStore";
 import type { AttemptRecord } from "@/lib/attempts";
@@ -19,24 +19,27 @@ export default async function Dashboard() {
   if (!user) {
     return (
       <section className="mx-auto max-w-6xl px-5 py-14 sm:px-8">
-        <h1 className="font-display text-[32px] font-bold tracking-tight text-white">
-          Your scores
-        </h1>
-        <p className="mt-2 max-w-[56ch] text-[15px] leading-relaxed text-zinc-400">
-          Make a free account and every paper you finish is saved here: section
-          scores, total score, and the skills you keep dropping points on.
-        </p>
-        <div className="mt-7 flex flex-wrap items-center gap-x-5 gap-y-3">
-          <Link
-            href="/signup?next=/dashboard"
-            className="rounded bg-mint px-4 py-2 text-[13px] font-semibold text-ink-950 transition hover:bg-mint-400"
-          >
-            Create account
-          </Link>
-          <Link href="/login?next=/dashboard" className={linkClass}>
-            Log in
-          </Link>
+        <div className="panel max-w-3xl p-6 sm:p-8">
+          <h1 className="font-display text-[28px] font-bold tracking-tight text-white sm:text-[32px]">
+            Your scores &amp; progress
+          </h1>
+          <p className="mt-2 max-w-[56ch] text-[15px] leading-relaxed text-zinc-400">
+            Create a free account to track your Digital SAT scores, timed practice attempts, and personalized weak-skill analytics across every test.
+          </p>
+          <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-3">
+            <Link
+              href="/signup?next=/dashboard"
+              className="rounded bg-mint px-4 py-2 text-[13px] font-semibold text-ink-950 transition hover:bg-mint-400"
+            >
+              Create account
+            </Link>
+            <Link href="/login?next=/dashboard" className={linkClass}>
+              Log in
+            </Link>
+          </div>
         </div>
+
+        <PracticeTestList tests={playable} user={null} />
       </section>
     );
   }
@@ -149,7 +152,71 @@ export default async function Dashboard() {
           </ul>
         </div>
       )}
+
+      <PracticeTestList tests={playable} user={user} />
     </section>
+  );
+}
+
+function PracticeTestList({
+  tests,
+  user,
+}: {
+  tests: TestSummary[];
+  user: unknown;
+}) {
+  return (
+    <div className="mt-12 max-w-3xl">
+      <div className="flex flex-wrap items-baseline justify-between gap-3 border-b border-white/[0.1] pb-3">
+        <div>
+          <h2 className="font-display text-xl font-bold tracking-tight text-white">
+            Practice Tests
+          </h2>
+          <p className="mt-1 text-xs text-zinc-400">
+            Full-length Digital SAT tests timed by module, scored 400 to 1600.
+          </p>
+        </div>
+        <span className="nums text-xs font-semibold text-mint">
+          {tests.length} available
+        </span>
+      </div>
+
+      <div className="mt-3 divide-y divide-white/[0.07] border-b border-white/[0.07]">
+        {tests.map((t) => (
+          <div
+            key={t.id}
+            className="flex flex-wrap items-center justify-between gap-4 py-4"
+          >
+            <div>
+              <div className="flex items-center gap-2.5">
+                <span className="font-display text-[16px] font-semibold text-white">
+                  {t.title}
+                </span>
+                <span className="rounded bg-white/[0.06] px-2 py-0.5 text-[11px] font-medium text-zinc-400">
+                  {t.collection || "Full-Length Adaptive"}
+                </span>
+              </div>
+              <p className="nums mt-1 text-[13px] text-zinc-400">
+                {t.questionCount} questions · 134 minutes · Reading &amp; Writing + Math
+              </p>
+            </div>
+
+            <div>
+              <Link
+                href={
+                  user
+                    ? `/practice/test/${t.id}`
+                    : `/signup?next=${encodeURIComponent(`/practice/test/${t.id}`)}`
+                }
+                className="rounded bg-mint px-3.5 py-1.5 text-[13px] font-semibold text-ink-950 transition hover:bg-mint-400"
+              >
+                Start Test
+              </Link>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
   );
 }
 

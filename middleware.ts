@@ -59,8 +59,16 @@ export async function middleware(req: NextRequest) {
     return NextResponse.next();
   }
 
-  // 5. Public landing, login, and signup pages
-  if (path === "/" || path === "/login" || path === "/signup") {
+  // 5. Public landing, login, signup, dashboard, and test hub pages
+  if (
+    path === "/" ||
+    path === "/login" ||
+    path === "/signup" ||
+    path === "/dashboard" ||
+    path === "/sat" ||
+    path === "/practice" ||
+    path.startsWith("/practice/")
+  ) {
     return NextResponse.next();
   }
 

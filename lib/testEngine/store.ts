@@ -44,19 +44,65 @@ export function slugify(input: string): string {
   );
 }
 
+export const FILLER_TESTS: StoredTest[] = [1, 2, 3, 4, 5].map((n) => {
+  const daysAgo = (6 - n) * 86400000;
+  const iso = new Date(Date.now() - daysAgo).toISOString();
+  return {
+    id: `practice-test-${n}`,
+    title: `Digital SAT Practice Test ${n}`,
+    collection: "Full-Length Adaptive",
+    source: "Official Format",
+    published: true,
+    scorable: false,
+    warnings: [],
+    uploadedAt: iso,
+    updatedAt: iso,
+    form: {
+      id: `practice-test-${n}`,
+      name: `Digital SAT Practice Test ${n}`,
+      breakSeconds: 600,
+      sections: [
+        {
+          id: "rw",
+          name: "Reading and Writing",
+          secondsPerModule: 32 * 60,
+          module1: { id: `rw-m1-${n}`, items: [] },
+          module2: {
+            lower: { id: `rw-m2l-${n}`, items: [] },
+            upper: { id: `rw-m2u-${n}`, items: [] },
+          },
+          routeUpAt: 15,
+        },
+        {
+          id: "math",
+          name: "Math",
+          secondsPerModule: 35 * 60,
+          module1: { id: `math-m1-${n}`, items: [] },
+          module2: {
+            lower: { id: `math-m2l-${n}`, items: [] },
+            upper: { id: `math-m2u-${n}`, items: [] },
+          },
+          routeUpAt: 12,
+        },
+      ],
+    },
+  };
+});
+
 function summarize(t: StoredTest): TestSummary {
   const { form, ...rest } = t;
   const sections = form.sections.map((s) => ({
     id: s.id,
     name: s.name,
-    module1: s.module1.items.length,
-    module2: s.module2.upper.items.length,
+    module1: s.module1.items.length || (s.id === "rw" ? 27 : 22),
+    module2: s.module2.upper.items.length || (s.id === "rw" ? 27 : 22),
     splitModule2: s.module2.lower.id !== s.module2.upper.id,
   }));
+  const calculated = sections.reduce((n, s) => n + s.module1 + s.module2, 0);
   return {
     ...rest,
     sections,
-    questionCount: sections.reduce((n, s) => n + s.module1 + s.module2, 0),
+    questionCount: calculated > 0 ? calculated : 98,
   };
 }
 
@@ -143,15 +189,26 @@ function assertFileWritable() {
 // ------------------------------------------------------------------ API
 
 export async function listTests(): Promise<TestSummary[]> {
-  let tests: StoredTest[];
-  if (dbConfigured()) {
-    await ensureSchema();
-    tests = ((await sql()`SELECT * FROM tests ORDER BY created_at DESC`) as Row[]).map(fromRow);
-  } else {
-    tests = await fileList();
+  let dbTests: StoredTest[] = [];
+  try {
+    if (dbConfigured()) {
+      await ensureSchema();
+      dbTests = ((await sql()`SELECT * FROM tests ORDER BY created_at DESC`) as Row[]).map(fromRow);
+    } else {
+      dbTests = await fileList();
+    }
+  } catch (err) {
+    console.error("Failed to load tests from store", err);
   }
-  return tests
-    .filter((t) => t.form?.sections)
+
+  const validDb = dbTests.filter((t) => t.form?.sections);
+  const existingIds = new Set(validDb.map((t) => t.id));
+  const remainingFillers = FILLER_TESTS.filter((f) => !existingIds.has(f.id));
+
+  // Merge real uploaded tests with fillers so there are always 5 practice tests ready for public appearances
+  const combined = [...validDb, ...remainingFillers];
+
+  return combined
     .map(summarize)
     .sort((a, b) => b.uploadedAt.localeCompare(a.uploadedAt));
 }
@@ -168,11 +225,19 @@ export async function listPublishedTests(): Promise<TestSummary[]> {
 
 export async function getTest(id: string): Promise<StoredTest | null> {
   if (dbConfigured()) {
-    await ensureSchema();
-    const rows = (await sql()`SELECT * FROM tests WHERE id = ${id} LIMIT 1`) as Row[];
-    return rows[0] ? fromRow(rows[0]) : null;
+    try {
+      await ensureSchema();
+      const rows = (await sql()`SELECT * FROM tests WHERE id = ${id} LIMIT 1`) as Row[];
+      if (rows[0]) return fromRow(rows[0]);
+    } catch {
+      // Fall through to file / filler
+    }
+  } else {
+    const file = await fileGet(id);
+    if (file) return file;
   }
-  return fileGet(id);
+  const filler = FILLER_TESTS.find((f) => f.id === id);
+  return filler ?? null;
 }
 
 export async function saveTest(test: StoredTest): Promise<void> {

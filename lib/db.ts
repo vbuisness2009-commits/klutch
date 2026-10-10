@@ -82,12 +82,34 @@ export function ensureSchema(): Promise<void> {
         created_at timestamptz NOT NULL DEFAULT now(),
         PRIMARY KEY (user_id, test_id)
       )`;
+    // Membership tiers & credit balances
+    await db`ALTER TABLE users ADD COLUMN IF NOT EXISTS membership_tier text NOT NULL DEFAULT 'free'`;
+    await db`ALTER TABLE users ADD COLUMN IF NOT EXISTS credits_balance integer NOT NULL DEFAULT 2`;
+    await db`ALTER TABLE users ADD COLUMN IF NOT EXISTS credits_reset_at timestamptz NOT NULL DEFAULT (now() + interval '30 days')`;
+    await db`ALTER TABLE users ADD COLUMN IF NOT EXISTS stripe_customer_id text`;
+    await db`ALTER TABLE users ADD COLUMN IF NOT EXISTS stripe_subscription_id text`;
+    await db`ALTER TABLE users ADD COLUMN IF NOT EXISTS subscription_status text NOT NULL DEFAULT 'none'`;
+
+    // Credit transactions audit ledger
+    await db`
+      CREATE TABLE IF NOT EXISTS credit_transactions (
+        id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+        user_id uuid NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+        amount integer NOT NULL,
+        reason text NOT NULL,
+        created_at timestamptz NOT NULL DEFAULT now()
+      )`;
+    await db`
+      CREATE INDEX IF NOT EXISTS credit_transactions_user_idx
+        ON credit_transactions (user_id, created_at DESC)`;
   })().catch((e) => {
     schemaReady = null;
     throw e;
   });
   return schemaReady;
 }
+
+export type MembershipTier = "free" | "pro" | "unlimited";
 
 export type UserRow = {
   id: string;
@@ -98,6 +120,12 @@ export type UserRow = {
   avatar_url: string | null;
   email_verified: boolean;
   created_at: string;
+  membership_tier: MembershipTier;
+  credits_balance: number;
+  credits_reset_at: string;
+  stripe_customer_id: string | null;
+  stripe_subscription_id: string | null;
+  subscription_status: string;
 };
 
 export type PublicUser = {
@@ -107,6 +135,10 @@ export type PublicUser = {
   avatarUrl: string | null;
   hasPassword: boolean;
   hasGoogle: boolean;
+  membershipTier: MembershipTier;
+  creditsBalance: number;
+  creditsResetAt: string;
+  subscriptionStatus: string;
 };
 
 export function toPublicUser(u: UserRow): PublicUser {
@@ -117,6 +149,10 @@ export function toPublicUser(u: UserRow): PublicUser {
     avatarUrl: u.avatar_url,
     hasPassword: Boolean(u.password_hash),
     hasGoogle: Boolean(u.google_sub),
+    membershipTier: u.membership_tier ?? "free",
+    creditsBalance: u.credits_balance ?? 2,
+    creditsResetAt: u.credits_reset_at ? new Date(u.credits_reset_at).toISOString() : new Date().toISOString(),
+    subscriptionStatus: u.subscription_status ?? "none",
   };
 }
 

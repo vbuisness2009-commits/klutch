@@ -3,18 +3,29 @@ import { listTests, type TestSummary } from "@/lib/testEngine/store";
 import { currentUser } from "@/lib/userSession";
 import { listAttempts } from "@/lib/attemptsStore";
 import type { AttemptRecord } from "@/lib/attempts";
+import { getUserCreditInfo } from "@/lib/credits";
 import { GenerateTestButton } from "@/components/dashboard/GenerateTestButton";
 import { CompletedTestsSection } from "@/components/dashboard/CompletedTestsSection";
+import { CreditsBadge } from "@/components/dashboard/CreditsBadge";
 
 export const dynamic = "force-dynamic";
 
 const linkClass =
   "text-[13px] font-medium text-zinc-300 underline decoration-white/25 underline-offset-4 transition hover:text-white hover:decoration-white/60";
 
-export default async function Dashboard() {
+export default async function Dashboard({
+  searchParams,
+}: {
+  searchParams?: { upgrade?: string; upgraded?: string };
+}) {
   const [user, tests] = await Promise.all([currentUser(), listTests()]);
   const playable = tests.filter((t) => t.published);
-  const attempts = user ? await listAttempts(user.id).catch(() => []) : [];
+  const [attempts, creditInfo] = user
+    ? await Promise.all([
+        listAttempts(user.id).catch(() => []),
+        getUserCreditInfo(user.id).catch(() => null),
+      ])
+    : [[], null];
   const takenIds = new Set(attempts.map((a) => a.formId));
   const nextTest = playable.find((t) => !takenIds.has(t.id)) ?? playable[0];
 
@@ -79,15 +90,36 @@ export default async function Dashboard() {
 
   return (
     <section className="mx-auto max-w-6xl px-5 py-14 sm:px-8">
-      {/* Greeting */}
-      <h1 className="font-display text-[32px] font-bold tracking-tight text-white">
-        {user.name ? `${user.name}'s scores` : "Your scores"}
-      </h1>
-      <p className="mt-2 max-w-[56ch] text-[15px] leading-relaxed text-zinc-400">
-        {scored.length === 0
-          ? "No tests completed yet. Generate a new adaptive test or pick a test below to start tracking your scores."
-          : `${scored.length} test${scored.length === 1 ? "" : "s"} completed.`}
-      </p>
+      {/* Upgrade Success Notification */}
+      {(searchParams?.upgrade === "success" || searchParams?.upgraded) && (
+        <div className="mb-6 rounded-xl border border-mint/40 bg-mint/10 p-4 text-sm font-semibold text-mint flex items-center justify-between">
+          <span>🎉 Membership updated successfully! Your practice test credits have been refreshed.</span>
+          <Link href="/dashboard" className="text-xs text-white underline">
+            Dismiss
+          </Link>
+        </div>
+      )}
+
+      {/* Greeting & Credit Status */}
+      <div className="flex flex-wrap items-center justify-between gap-4">
+        <div>
+          <h1 className="font-display text-[32px] font-bold tracking-tight text-white">
+            {user.name ? `${user.name}'s scores` : "Your scores"}
+          </h1>
+          <p className="mt-2 max-w-[56ch] text-[15px] leading-relaxed text-zinc-400">
+            {scored.length === 0
+              ? "No tests completed yet. Generate a new adaptive test or pick a test below to start tracking your scores."
+              : `${scored.length} test${scored.length === 1 ? "" : "s"} completed.`}
+          </p>
+        </div>
+        <div>
+          <CreditsBadge
+            tier={creditInfo?.tier}
+            balance={creditInfo?.balance}
+            isUnlimited={creditInfo?.isUnlimited}
+          />
+        </div>
+      </div>
 
       {/* Top Stat Cards */}
       {latest && (
@@ -115,6 +147,11 @@ export default async function Dashboard() {
               </span>
               <span className="rounded-full bg-white/[0.08] px-2.5 py-0.5 text-[11px] font-medium text-zinc-300">
                 Shared Bank · Maximum Credit Efficiency
+              </span>
+              <span className="rounded-full bg-mint/15 border border-mint/25 px-2.5 py-0.5 text-[11px] font-bold text-mint">
+                {creditInfo?.isUnlimited
+                  ? "Unlimited Tests"
+                  : `${creditInfo?.balance ?? 0} Credits Left`}
               </span>
             </div>
             <h2 className="mt-2.5 font-display text-2xl font-bold tracking-tight text-white sm:text-3xl">

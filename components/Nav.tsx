@@ -10,6 +10,7 @@ const links = [
   { href: "/ap", label: "AP" },
   { href: "/practice", label: "Practice" },
   { href: "/dashboard", label: "Dashboard" },
+  { href: "/pricing", label: "Pricing" },
 ];
 
 type Me = {

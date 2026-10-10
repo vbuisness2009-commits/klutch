@@ -506,7 +506,11 @@ function TestTable({
   const remove = async (id: string, title: string) => {
     if (!confirm(`Delete "${title}"? This removes the test permanently.`))
       return;
-    await fetch(`/api/admin/tests/${id}`, { method: "DELETE" });
+    const res = await fetch(`/api/admin/tests/${id}`, { method: "DELETE" });
+    if (!res.ok) {
+      alert("Failed to delete test.");
+      return;
+    }
     onChanged();
   };
 

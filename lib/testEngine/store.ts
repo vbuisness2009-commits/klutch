@@ -202,13 +202,8 @@ export async function listTests(): Promise<TestSummary[]> {
   }
 
   const validDb = dbTests.filter((t) => t.form?.sections);
-  const existingIds = new Set(validDb.map((t) => t.id));
-  const remainingFillers = FILLER_TESTS.filter((f) => !existingIds.has(f.id));
 
-  // Merge real uploaded tests with fillers so there are always 5 practice tests ready for public appearances
-  const combined = [...validDb, ...remainingFillers];
-
-  return combined
+  return validDb
     .map(summarize)
     .sort((a, b) => b.uploadedAt.localeCompare(a.uploadedAt));
 }
@@ -230,14 +225,13 @@ export async function getTest(id: string): Promise<StoredTest | null> {
       const rows = (await sql()`SELECT * FROM tests WHERE id = ${id} LIMIT 1`) as Row[];
       if (rows[0]) return fromRow(rows[0]);
     } catch {
-      // Fall through to file / filler
+      // Fall through to file
     }
   } else {
     const file = await fileGet(id);
     if (file) return file;
   }
-  const filler = FILLER_TESTS.find((f) => f.id === id);
-  return filler ?? null;
+  return null;
 }
 
 export async function saveTest(test: StoredTest): Promise<void> {

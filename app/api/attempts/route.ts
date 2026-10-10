@@ -74,6 +74,16 @@ export async function POST(req: Request) {
     RETURNING id, created_at
   `) as { id: string; created_at: string }[];
 
+  try {
+    await sql()`
+      INSERT INTO user_test_assignments (user_id, test_id, status, created_at)
+      VALUES (${user.id}, ${attempt.formId}, 'completed', now())
+      ON CONFLICT (user_id, test_id) DO UPDATE SET status = 'completed'
+    `;
+  } catch (err) {
+    console.error("Failed to record completion in user_test_assignments:", err);
+  }
+
   return NextResponse.json({ id: rows[0]!.id, createdAt: rows[0]!.created_at });
 }
 

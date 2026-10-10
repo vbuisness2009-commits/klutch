@@ -3,6 +3,8 @@ import { listTests, type TestSummary } from "@/lib/testEngine/store";
 import { currentUser } from "@/lib/userSession";
 import { listAttempts } from "@/lib/attemptsStore";
 import type { AttemptRecord } from "@/lib/attempts";
+import { GenerateTestButton } from "@/components/dashboard/GenerateTestButton";
+import { CompletedTestsSection } from "@/components/dashboard/CompletedTestsSection";
 
 export const dynamic = "force-dynamic";
 
@@ -39,6 +41,29 @@ export default async function Dashboard() {
           </div>
         </div>
 
+        {/* Endless Practice Engine Callout for signed-out guests */}
+        <div className="panel mt-8 max-w-3xl border border-mint/20 bg-gradient-to-br from-mint/10 via-ink-900/60 to-ink-950 p-6 sm:p-8">
+          <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
+            <div className="max-w-xl">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-mint/20 border border-mint/30 px-2.5 py-0.5 text-xs font-bold text-mint">
+                <svg className="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                Endless Practice Engine
+              </span>
+              <h2 className="mt-2 font-display text-2xl font-bold tracking-tight text-white">
+                Generate a New Adaptive Test
+              </h2>
+              <p className="mt-2 text-sm leading-relaxed text-zinc-300">
+                Never run out of tests. Generate brand-new 98-question adaptive tests matching the College Board blueprint, or draw an untaken test from our shared bank.
+              </p>
+            </div>
+            <div className="shrink-0">
+              <GenerateTestButton isLoggedIn={false} />
+            </div>
+          </div>
+        </div>
+
         <PracticeTestList tests={playable} user={null} />
       </section>
     );
@@ -54,19 +79,21 @@ export default async function Dashboard() {
 
   return (
     <section className="mx-auto max-w-6xl px-5 py-14 sm:px-8">
+      {/* Greeting */}
       <h1 className="font-display text-[32px] font-bold tracking-tight text-white">
         {user.name ? `${user.name}'s scores` : "Your scores"}
       </h1>
       <p className="mt-2 max-w-[56ch] text-[15px] leading-relaxed text-zinc-400">
-        {attempts.length === 0
-          ? "Nothing here yet. Finish a paper and this page starts tracking your scores and weak spots."
-          : `${attempts.length} paper${attempts.length === 1 ? "" : "s"} finished.`}
+        {scored.length === 0
+          ? "No tests completed yet. Generate a new adaptive test or pick a test below to start tracking your scores."
+          : `${scored.length} test${scored.length === 1 ? "" : "s"} completed.`}
       </p>
 
+      {/* Top Stat Cards */}
       {latest && (
         <div className="mt-8 grid max-w-3xl gap-4 sm:grid-cols-3">
-          <Stat label="Latest" value={latest.total!} sub={`±${latest.totalMargin ?? 0} · ${latest.formName}`} />
-          <Stat label="Best" value={best!.total!} sub={best!.formName} />
+          <Stat label="Latest Score" value={latest.total!} sub={`±${latest.totalMargin ?? 0} · ${latest.formName}`} />
+          <Stat label="Best Score" value={best!.total!} sub={best!.formName} />
           {latest.sections.map((s) =>
             s.score != null ? (
               <Stat key={s.id} label={s.name} value={s.score} sub={`${s.correct}/${s.total} correct`} />
@@ -75,45 +102,69 @@ export default async function Dashboard() {
         </div>
       )}
 
-      <div className="panel mt-8 max-w-xl p-6">
-        {nextTest ? (
-          <>
-            <h2 className="font-display text-base font-bold text-white">
-              {takenIds.has(nextTest.id) ? "Retake" : "Up next:"} {nextTest.title}
-            </h2>
-            <p className="mt-2 text-[13px] leading-relaxed text-zinc-400">
-              {nextTest.questionCount} questions under real timing. Treat it like
-              the real thing.
-            </p>
-            <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-3">
-              <Link
-                href={`/practice/test/${nextTest.id}`}
-                className="rounded bg-mint px-4 py-2 text-[13px] font-semibold text-ink-950 transition hover:bg-mint-400"
-              >
-                Start the test
-              </Link>
-              <Link href="/sat" className={linkClass}>
-                Pick a different test
-              </Link>
+      {/* Endless Adaptive Practice Test Generator Hero */}
+      <div className="panel mt-8 max-w-4xl overflow-hidden border border-mint/25 bg-gradient-to-br from-mint/10 via-ink-900/60 to-ink-950 p-6 sm:p-8">
+        <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
+          <div className="max-w-xl">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-mint/20 border border-mint/30 px-2.5 py-0.5 text-xs font-bold text-mint">
+                <svg className="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                Endless Practice Engine
+              </span>
+              <span className="rounded-full bg-white/[0.08] px-2.5 py-0.5 text-[11px] font-medium text-zinc-300">
+                Shared Bank · Maximum Credit Efficiency
+              </span>
             </div>
-          </>
-        ) : (
-          <>
-            <h2 className="font-display text-base font-bold text-white">
-              No practice tests available yet
+            <h2 className="mt-2.5 font-display text-2xl font-bold tracking-tight text-white sm:text-3xl">
+              Generate a New Adaptive Test
             </h2>
-            <p className="mt-2 text-[13px] leading-relaxed text-zinc-400">
-              Once a test is published, you can start it from here.
+            <p className="mt-2 text-sm leading-relaxed text-zinc-300">
+              Never get stuck when Bluebook tests run out. Click to draw a fresh untaken test from our shared library, or generate a brand-new 98-question adaptive test matching the official College Board blueprint.
             </p>
-          </>
-        )}
+          </div>
+          <div className="shrink-0">
+            <GenerateTestButton isLoggedIn={true} />
+          </div>
+        </div>
       </div>
 
+      {/* Up Next Card */}
+      {nextTest && (
+        <div className="panel mt-6 max-w-xl p-6">
+          <h2 className="font-display text-base font-bold text-white">
+            {takenIds.has(nextTest.id) ? "Retake" : "Up next:"} {nextTest.title}
+          </h2>
+          <p className="mt-2 text-[13px] leading-relaxed text-zinc-400">
+            {nextTest.questionCount} questions under real timing. Treat it like the real thing.
+          </p>
+          <div className="mt-5 flex flex-wrap items-center gap-x-5 gap-y-3">
+            <Link
+              href={`/practice/test/${nextTest.id}`}
+              className="rounded bg-mint px-4 py-2 text-[13px] font-semibold text-ink-950 transition hover:bg-mint-400"
+            >
+              Start the test
+            </Link>
+            <Link href="/sat" className={linkClass}>
+              Pick a different test
+            </Link>
+          </div>
+        </div>
+      )}
+
+      {/* Completed Tests Category with Score & Distribution */}
+      <CompletedTestsSection attempts={attempts} />
+
+      {/* Weak Skills Analytics */}
       {weakSkills.length > 0 && (
-        <div className="mt-12 max-w-3xl">
-          <h2 className="font-display text-xl font-bold tracking-tight text-white">
+        <div className="mt-14 max-w-4xl">
+          <h2 className="font-display text-2xl font-bold tracking-tight text-white">
             Where you&rsquo;re dropping points
           </h2>
+          <p className="mt-1 text-sm text-zinc-400">
+            Skills with the lowest accuracy across your completed attempts.
+          </p>
           <ul className="mt-4 divide-y divide-white/[0.07] border-y border-white/[0.07]">
             {weakSkills.map((s) => (
               <li key={`${s.sectionId}|${s.skill}`} className="flex items-baseline gap-4 py-3 text-sm">
@@ -128,32 +179,8 @@ export default async function Dashboard() {
         </div>
       )}
 
-      {attempts.length > 0 && (
-        <div className="mt-12 max-w-3xl">
-          <h2 className="font-display text-xl font-bold tracking-tight text-white">History</h2>
-          <ul className="mt-4 divide-y divide-white/[0.07] border-y border-white/[0.07]">
-            {attempts.map((a) => (
-              <li key={a.id} className="flex flex-wrap items-baseline gap-x-5 gap-y-1 py-3 text-sm">
-                <span className="flex-1 font-medium text-white">{a.formName}</span>
-                <span className="text-[12px] text-zinc-500">
-                  {new Date(a.createdAt).toLocaleDateString("en-US", {
-                    month: "short",
-                    day: "numeric",
-                    year: "numeric",
-                  })}
-                </span>
-                <span className="nums w-40 text-right text-zinc-300">
-                  {a.total != null
-                    ? `${a.total} · ${a.sections.map((s) => s.score).filter((x) => x != null).join(" / ")}`
-                    : `${a.totals.correct}/${a.totals.answered} answered · unscored`}
-                </span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      <PracticeTestList tests={playable} user={user} />
+      {/* Practice Tests Catalog */}
+      <PracticeTestList tests={playable} user={user} takenIds={takenIds} />
     </section>
   );
 }
@@ -161,18 +188,20 @@ export default async function Dashboard() {
 function PracticeTestList({
   tests,
   user,
+  takenIds = new Set(),
 }: {
   tests: TestSummary[];
   user: unknown;
+  takenIds?: Set<string>;
 }) {
   return (
-    <div className="mt-12 max-w-3xl">
+    <div className="mt-14 max-w-4xl">
       <div className="flex flex-wrap items-baseline justify-between gap-3 border-b border-white/[0.1] pb-3">
         <div>
-          <h2 className="font-display text-xl font-bold tracking-tight text-white">
-            Practice Tests
+          <h2 className="font-display text-2xl font-bold tracking-tight text-white">
+            Practice Tests Bank
           </h2>
-          <p className="mt-1 text-xs text-zinc-400">
+          <p className="mt-1 text-sm text-zinc-400">
             Full-length Digital SAT tests timed by module, scored 400 to 1600.
           </p>
         </div>
@@ -182,39 +211,62 @@ function PracticeTestList({
       </div>
 
       <div className="mt-3 divide-y divide-white/[0.07] border-b border-white/[0.07]">
-        {tests.map((t) => (
-          <div
-            key={t.id}
-            className="flex flex-wrap items-center justify-between gap-4 py-4"
-          >
-            <div>
-              <div className="flex items-center gap-2.5">
-                <span className="font-display text-[16px] font-semibold text-white">
-                  {t.title}
-                </span>
-                <span className="rounded bg-white/[0.06] px-2 py-0.5 text-[11px] font-medium text-zinc-400">
-                  {t.collection || "Full-Length Adaptive"}
-                </span>
-              </div>
-              <p className="nums mt-1 text-[13px] text-zinc-400">
-                {t.questionCount} questions · 134 minutes · Reading &amp; Writing + Math
-              </p>
-            </div>
+        {tests.map((t) => {
+          const isCompleted = takenIds.has(t.id);
+          const isGenerated =
+            t.collection === "Generated Tests" ||
+            t.id.startsWith("generated-test-") ||
+            t.source === "ai-blueprint";
 
-            <div>
-              <Link
-                href={
-                  user
-                    ? `/practice/test/${t.id}`
-                    : `/signup?next=${encodeURIComponent(`/practice/test/${t.id}`)}`
-                }
-                className="rounded bg-mint px-3.5 py-1.5 text-[13px] font-semibold text-ink-950 transition hover:bg-mint-400"
-              >
-                Start Test
-              </Link>
+          return (
+            <div
+              key={t.id}
+              className="flex flex-wrap items-center justify-between gap-4 py-4"
+            >
+              <div>
+                <div className="flex flex-wrap items-center gap-2.5">
+                  <span className="font-display text-[16px] font-semibold text-white">
+                    {t.title}
+                  </span>
+                  {isGenerated ? (
+                    <span className="rounded-full bg-mint/15 border border-mint/25 px-2 py-0.5 text-[11px] font-medium text-mint">
+                      Generated Test
+                    </span>
+                  ) : (
+                    <span className="rounded bg-white/[0.06] px-2 py-0.5 text-[11px] font-medium text-zinc-400">
+                      {t.collection || "Full-Length Adaptive"}
+                    </span>
+                  )}
+                  {isCompleted && (
+                    <span className="rounded-full bg-white/[0.08] px-2 py-0.5 text-[11px] font-medium text-zinc-300">
+                      Completed
+                    </span>
+                  )}
+                </div>
+                <p className="nums mt-1 text-[13px] text-zinc-400">
+                  {t.questionCount} questions · 134 minutes · Reading &amp; Writing + Math
+                </p>
+              </div>
+
+              <div>
+                <Link
+                  href={
+                    user
+                      ? `/practice/test/${t.id}`
+                      : `/signup?next=${encodeURIComponent(`/practice/test/${t.id}`)}`
+                  }
+                  className={`rounded px-3.5 py-1.5 text-[13px] font-semibold transition ${
+                    isCompleted
+                      ? "border border-white/20 bg-white/[0.04] text-white hover:bg-white/[0.08]"
+                      : "bg-mint text-ink-950 hover:bg-mint-400"
+                  }`}
+                >
+                  {isCompleted ? "Retake Test" : "Start Test"}
+                </Link>
+              </div>
             </div>
-          </div>
-        ))}
+          );
+        })}
       </div>
     </div>
   );

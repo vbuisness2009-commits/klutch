@@ -73,6 +73,15 @@ export function ensureSchema(): Promise<void> {
     await db`
       CREATE INDEX IF NOT EXISTS tests_published_created
         ON tests (published, created_at DESC)`;
+    // Track tests assigned to or taken by users for bank deduplication
+    await db`
+      CREATE TABLE IF NOT EXISTS user_test_assignments (
+        user_id uuid NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+        test_id text NOT NULL,
+        status text NOT NULL DEFAULT 'assigned',
+        created_at timestamptz NOT NULL DEFAULT now(),
+        PRIMARY KEY (user_id, test_id)
+      )`;
   })().catch((e) => {
     schemaReady = null;
     throw e;

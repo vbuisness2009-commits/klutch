@@ -46,9 +46,9 @@ export async function createCheckoutSession({
   appUrl: string;
 }): Promise<{ url: string; isMock: boolean }> {
   if (!stripe) {
-    // Graceful demo/test mode: simulate successful checkout return
-    const mockSuccessUrl = `${appUrl}/api/checkout/simulate?tier=${tier}&uid=${userId}&success=true`;
-    return { url: mockSuccessUrl, isMock: true };
+    // When Stripe keys are not yet configured, route to the card checkout payment screen
+    const checkoutUrl = `${appUrl}/checkout?tier=${tier}`;
+    return { url: checkoutUrl, isMock: true };
   }
 
   const plan = STRIPE_PRICES[tier];

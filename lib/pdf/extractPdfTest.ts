@@ -133,7 +133,7 @@ async function callModel(
   pdfBase64: string
 ): Promise<string> {
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 240_000); // 4 minute timeout
+  const timeout = setTimeout(() => controller.abort(), 360_000); // 6 minute timeout
 
   try {
     const res = await fetch(OPENROUTER_URL, {
@@ -147,7 +147,8 @@ async function callModel(
       body: JSON.stringify({
         model,
         temperature: 0.1,
-        max_tokens: 16384,
+        max_tokens: 65536,
+        response_format: { type: "json_object" },
         messages: [
           {
             role: "user",

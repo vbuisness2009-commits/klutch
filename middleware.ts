@@ -27,8 +27,8 @@ export async function middleware(req: NextRequest) {
     return NextResponse.next();
   }
 
-  // 2. Public auth endpoints
-  if (path.startsWith("/api/auth")) {
+  // 2. Public auth and webhook endpoints
+  if (path.startsWith("/api/auth") || path.startsWith("/api/webhooks")) {
     return NextResponse.next();
   }
 
@@ -59,11 +59,12 @@ export async function middleware(req: NextRequest) {
     return NextResponse.next();
   }
 
-  // 5. Public landing, login, signup, dashboard, and test hub pages
+  // 5. Public landing, login, signup, pricing, dashboard, and test hub pages
   if (
     path === "/" ||
     path === "/login" ||
     path === "/signup" ||
+    path === "/pricing" ||
     path === "/dashboard" ||
     path === "/sat" ||
     path === "/practice" ||

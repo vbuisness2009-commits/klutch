@@ -6,7 +6,7 @@ import { solveFormAnswers } from "../testEngine/solveForm";
 import type { TestForm } from "../testEngine/types";
 
 const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
-const PRIMARY_MODEL = "google/gemini-3.1-pro-preview";
+const PRIMARY_MODEL = "google/gemini-2.5-flash";
 const FALLBACK_MODEL = "google/gemini-2.5-pro";
 
 function keyPool(): string[] {
@@ -133,7 +133,7 @@ async function callModel(
   pdfBase64: string
 ): Promise<string> {
   const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 360_000); // 6 minute timeout
+  const timeout = setTimeout(() => controller.abort(), 180_000); // 3 minute timeout
 
   try {
     const res = await fetch(OPENROUTER_URL, {

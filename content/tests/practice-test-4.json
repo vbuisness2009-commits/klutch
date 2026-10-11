@@ -7,7 +7,7 @@
   "scorable": true,
   "warnings": [],
   "uploadedAt": "2026-10-11T00:19:16.686Z",
-  "updatedAt": "2026-10-11T01:30:00.000Z",
+  "updatedAt": "2026-10-11T15:15:00.000Z",
   "form": {
     "id": "practice-test-4",
     "name": "Digital SAT Practice Test 4",
@@ -504,32 +504,32 @@
               "id": "pt4-rw-m1-q16",
               "domain": "Standard English Conventions",
               "skill": "Boundaries",
-              "difficulty": "E",
+              "difficulty": "M",
               "html": false,
-              "stimulus": "The monarch butterfly's annual migration is an extraordinary feat of nature, these delicate insects travel thousands of miles from Canada and the US to overwintering sites in Mexico and California.",
-              "stem": "Which choice uses punctuation correctly?",
+              "stimulus": "The monarch butterfly's annual migration is an extraordinary navigational feat ______ these delicate insects travel thousands of miles from North American breeding grounds to overwintering oyamel fir groves in central Mexico.",
+              "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "The monarch butterfly's annual migration is an extraordinary feat of nature, these delicate insects travel thousands of miles from Canada and the US to overwintering sites in Mexico and California."
+                  "text": "; these"
                 },
                 {
                   "id": "B",
-                  "text": "The monarch butterfly's annual migration is an extraordinary feat of nature; these delicate insects travel thousands of miles from Canada and the US to overwintering sites in Mexico and California."
+                  "text": ", these"
                 },
                 {
                   "id": "C",
-                  "text": "The monarch butterfly's annual migration is an extraordinary feat of nature: these delicate insects travel thousands of miles from Canada and the US to overwintering sites in Mexico and California."
+                  "text": "these"
                 },
                 {
                   "id": "D",
-                  "text": "The monarch butterfly's annual migration is an extraordinary feat of nature—these delicate insects travel thousands of miles from Canada and the US to overwintering sites in Mexico and California."
+                  "text": ": and these"
                 }
               ],
-              "correct": "B",
+              "correct": "A",
               "keySource": "paper",
-              "rationale": "Choice B correctly uses a semicolon to join two independent clauses that are closely related in meaning. Choices A, C, and D create a comma splice, an incorrect use of a colon, and an incorrect use of a dash, respectively, to connect two independent clauses.",
+              "rationale": "Choice A is correct because a semicolon connects the two independent clauses without a comma splice (Choice B) or fused sentence (Choice C).",
               "expectedPace": 70
             },
             {
@@ -538,30 +538,30 @@
               "skill": "Boundaries",
               "difficulty": "M",
               "html": false,
-              "stimulus": "Dr. Aris Thorne a renowned astrophysicist presented his groundbreaking research on dark matter at the international conference last week.",
-              "stem": "Which choice uses punctuation correctly?",
+              "stimulus": "Dr. Aris Thorne, a leading astrophysicist at the Max Planck ______ presented groundbreaking observations on dark matter filament distributions at the symposium.",
+              "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "Dr. Aris Thorne a renowned astrophysicist presented his groundbreaking research on dark matter at the international conference last week."
+                  "text": "Institute,"
                 },
                 {
                   "id": "B",
-                  "text": "Dr. Aris Thorne, a renowned astrophysicist, presented his groundbreaking research on dark matter at the international conference last week."
+                  "text": "Institute"
                 },
                 {
                   "id": "C",
-                  "text": "Dr. Aris Thorne, a renowned astrophysicist presented his groundbreaking research on dark matter at the international conference last week."
+                  "text": "Institute;"
                 },
                 {
                   "id": "D",
-                  "text": "Dr. Aris Thorne a renowned astrophysicist, presented his groundbreaking research on dark matter at the international conference last week."
+                  "text": "Institute:"
                 }
               ],
-              "correct": "B",
+              "correct": "A",
               "keySource": "paper",
-              "rationale": "Choice B correctly uses commas to set off the appositive phrase 'a renowned astrophysicist,' which provides additional, non-essential information about Dr. Aris Thorne. Choices A, C, and D either omit necessary commas or place them incorrectly.",
+              "rationale": "Choice A is correct because the nonrestrictive appositive phrase ('a leading astrophysicist at the Max Planck Institute') must be closed with a comma before the main predicate 'presented groundbreaking observations.'",
               "expectedPace": 70
             },
             {
@@ -570,158 +570,158 @@
               "skill": "Boundaries",
               "difficulty": "M",
               "html": false,
-              "stimulus": "The expedition faced numerous challenges extreme weather conditions, difficult terrain, and dwindling supplies.",
-              "stem": "Which choice uses punctuation correctly?",
+              "stimulus": "The expedition through the Peruvian cloud forest encountered severe logistical ______ torrential downpours, impassable mountain ridges, and equipment failures.",
+              "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "The expedition faced numerous challenges extreme weather conditions, difficult terrain, and dwindling supplies."
+                  "text": "challenges:"
                 },
                 {
                   "id": "B",
-                  "text": "The expedition faced numerous challenges; extreme weather conditions, difficult terrain, and dwindling supplies."
+                  "text": "challenges;"
                 },
                 {
                   "id": "C",
-                  "text": "The expedition faced numerous challenges: extreme weather conditions, difficult terrain, and dwindling supplies."
+                  "text": "challenges,"
                 },
                 {
                   "id": "D",
-                  "text": "The expedition faced numerous challenges, extreme weather conditions, difficult terrain, and dwindling supplies."
+                  "text": "challenges"
                 }
               ],
-              "correct": "C",
+              "correct": "A",
               "keySource": "paper",
-              "rationale": "Choice C correctly uses a colon to introduce a list of items that explain or elaborate on the preceding independent clause. Choices A, B, and D use incorrect punctuation, either creating a run-on sentence or using a semicolon/comma inappropriately.",
+              "rationale": "Choice A is correct because a colon introduces the list of challenges after a complete independent clause.",
               "expectedPace": 70
             },
             {
               "id": "pt4-rw-m1-q19",
               "domain": "Standard English Conventions",
               "skill": "Boundaries",
-              "difficulty": "H",
+              "difficulty": "M",
               "html": false,
-              "stimulus": "Many scientists believe that dark energy the mysterious force accelerating the expansion of the universe makes up about 68% of the cosmos.",
-              "stem": "Which choice uses punctuation correctly?",
+              "stimulus": "Many astrophysicists hypothesize that dark energy—the enigmatic force accelerating the expansion of the ______ accounts for approximately 68 percent of the universe's total energy density.",
+              "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "Many scientists believe that dark energy the mysterious force accelerating the expansion of the universe makes up about 68% of the cosmos."
+                  "text": "cosmos—"
                 },
                 {
                   "id": "B",
-                  "text": "Many scientists believe that dark energy, the mysterious force accelerating the expansion of the universe, makes up about 68% of the cosmos."
+                  "text": "cosmos,"
                 },
                 {
                   "id": "C",
-                  "text": "Many scientists believe that dark energy—the mysterious force accelerating the expansion of the universe—makes up about 68% of the cosmos."
+                  "text": "cosmos;"
                 },
                 {
                   "id": "D",
-                  "text": "Many scientists believe that dark energy; the mysterious force accelerating the expansion of the universe; makes up about 68% of the cosmos."
+                  "text": "cosmos"
                 }
               ],
-              "correct": "C",
+              "correct": "A",
               "keySource": "paper",
-              "rationale": "Choice C correctly uses a pair of dashes to set off the non-essential phrase 'the mysterious force accelerating the expansion of the universe.' Dashes can be used for emphasis or to set off appositives that contain internal punctuation, making them a strong choice here. Choice B uses commas, which would also be acceptable, but dashes provide a stronger break. Choice D uses semicolons incorrectly, and Choice A lacks necessary punctuation.",
+              "rationale": "Choice A is correct because the parenthetical definition opens with an em-dash ('—the enigmatic force...'), requiring a closing em-dash before the predicate 'accounts for...'",
               "expectedPace": 70
             },
             {
               "id": "pt4-rw-m1-q20",
               "domain": "Standard English Conventions",
-              "skill": "Form, Structure, Sense",
-              "difficulty": "E",
+              "skill": "Form, Structure, and Sense",
+              "difficulty": "M",
               "html": false,
-              "stimulus": "The committee members, despite their diverse opinions, ultimately agrees on the final proposal.",
-              "stem": "Which choice completes the text with the most grammatically sound option?",
+              "stimulus": "The committee of environmental economists, despite heated disagreements during earlier rounds of ______ reached a unanimous verdict on the carbon pricing framework.",
+              "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "agrees"
+                  "text": "negotiations, ultimately"
                 },
                 {
                   "id": "B",
-                  "text": "agree"
+                  "text": "negotiations ultimately,"
                 },
                 {
                   "id": "C",
-                  "text": "agreeing"
+                  "text": "negotiations; ultimately"
                 },
                 {
                   "id": "D",
-                  "text": "agreed"
+                  "text": "negotiations: ultimately"
                 }
               ],
-              "correct": "B",
+              "correct": "A",
               "keySource": "paper",
-              "rationale": "The subject of the sentence is 'members,' which is plural. Therefore, the verb must also be plural. 'Agree' is the correct plural form of the verb in the present tense.",
+              "rationale": "Choice A is correct because the parenthetical prepositional phrase 'despite heated disagreements...' must be closed with a comma before the main verb 'reached.'",
               "expectedPace": 70
             },
             {
               "id": "pt4-rw-m1-q21",
               "domain": "Standard English Conventions",
-              "skill": "Form, Structure, Sense",
+              "skill": "Form, Structure, and Sense",
               "difficulty": "M",
               "html": false,
-              "stimulus": "Having been thoroughly researched and meticulously drafted, the new policy _________ to the board for approval.",
-              "stem": "Which choice completes the text with the most grammatically sound option?",
+              "stimulus": "Having been thoroughly researched and meticulously drafted over eighteen months, the renewable energy ______ to the state legislature for formal ratification.",
+              "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "was presented"
+                  "text": "bill was submitted"
                 },
                 {
                   "id": "B",
-                  "text": "presenting"
+                  "text": "bill, submitted"
                 },
                 {
                   "id": "C",
-                  "text": "presented"
+                  "text": "bill submitting"
                 },
                 {
                   "id": "D",
-                  "text": "did present"
+                  "text": "bill's submission"
                 }
               ],
               "correct": "A",
               "keySource": "paper",
-              "rationale": "The introductory participial phrase 'Having been thoroughly researched and meticulously drafted' describes 'the new policy.' The policy is the recipient of the action (being presented), so the passive voice 'was presented' is appropriate here. Choices B, C, and D imply that the policy itself performed the action of presenting.",
+              "rationale": "Choice A is correct because the subject following the introductory modifier must be the 'bill' itself, and it requires a complete passive verb 'was submitted' to form a grammatical sentence.",
               "expectedPace": 70
             },
             {
               "id": "pt4-rw-m1-q22",
               "domain": "Standard English Conventions",
-              "skill": "Form, Structure, Sense",
-              "difficulty": "H",
+              "skill": "Form, Structure, and Sense",
+              "difficulty": "M",
               "html": false,
-              "stimulus": "By the time the explorer reached the remote village, the inhabitants already _________ their annual harvest festival.",
-              "stem": "Which choice completes the text with the most grammatically sound option?",
+              "stimulus": "By the time archaeologists excavated the subterranean tombs at Ur in the 1920s, looters ______ already stripped several chambers of their gold funerary artifacts.",
+              "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "begin"
+                  "text": "had"
                 },
                 {
                   "id": "B",
-                  "text": "began"
+                  "text": "have"
                 },
                 {
                   "id": "C",
-                  "text": "had begun"
+                  "text": "will have"
                 },
                 {
                   "id": "D",
-                  "text": "will begin"
+                  "text": "are"
                 }
               ],
-              "correct": "C",
+              "correct": "A",
               "keySource": "paper",
-              "rationale": "The sentence describes two past actions: the explorer reaching the village and the inhabitants starting the festival. The phrase 'By the time' indicates that the festival began before the explorer arrived. Therefore, the past perfect tense ('had begun') is required to show that one past action was completed before another past action.",
+              "rationale": "Choice A is correct because the past perfect auxiliary 'had' expresses an action completed prior to the past benchmark 'By the time archaeologists excavated...'",
               "expectedPace": 70
             },
             {
@@ -1376,30 +1376,30 @@
                 "skill": "Boundaries",
                 "difficulty": "E",
                 "html": false,
-                "stimulus": "The librarian recommended several classic novels; 'Pride and Prejudice,' 'To Kill a Mockingbird,' and '1984' were among her top suggestions.",
-                "stem": "Which choice uses punctuation correctly in the text?",
+                "stimulus": "The archivist highlighted three foundational nineteenth-century ______ 'Pride and Prejudice,' 'Jane Eyre,' and 'Middlemarch.'",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "The librarian recommended several classic novels; 'Pride and Prejudice,' 'To Kill a Mockingbird,' and '1984' were among her top suggestions."
+                    "text": "novels:"
                   },
                   {
                     "id": "B",
-                    "text": "The librarian recommended several classic novels: 'Pride and Prejudice,' 'To Kill a Mockingbird,' and '1984' were among her top suggestions."
+                    "text": "novels;"
                   },
                   {
                     "id": "C",
-                    "text": "The librarian recommended several classic novels, 'Pride and Prejudice,' 'To Kill a Mockingbird,' and '1984' were among her top suggestions."
+                    "text": "novels,"
                   },
                   {
                     "id": "D",
-                    "text": "The librarian recommended several classic novels; 'Pride and Prejudice'; 'To Kill a Mockingbird'; and '1984' were among her top suggestions."
+                    "text": "novels"
                   }
                 ],
                 "correct": "A",
                 "keySource": "paper",
-                "rationale": "Choice A correctly uses a semicolon to separate two independent clauses that are closely related in meaning. The second clause provides examples of the novels mentioned in the first.",
+                "rationale": "Choice A is correct because a colon introduces the list of novel titles following an independent clause.",
                 "expectedPace": 70
               },
               {
@@ -1408,191 +1408,191 @@
                 "skill": "Boundaries",
                 "difficulty": "E",
                 "html": false,
-                "stimulus": "My grandmother a talented painter always encouraged me to explore my artistic side.",
-                "stem": "Which choice uses punctuation correctly in the text?",
+                "stimulus": "Beatrix Potter, a pioneering mycologist and children's ______ produced scientifically accurate watercolor illustrations of fungal spores that were celebrated by contemporary naturalists.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "My grandmother a talented painter always encouraged me to explore my artistic side."
+                    "text": "author,"
                   },
                   {
                     "id": "B",
-                    "text": "My grandmother, a talented painter, always encouraged me to explore my artistic side."
+                    "text": "author"
                   },
                   {
                     "id": "C",
-                    "text": "My grandmother; a talented painter; always encouraged me to explore my artistic side."
+                    "text": "author;"
                   },
                   {
                     "id": "D",
-                    "text": "My grandmother: a talented painter, always encouraged me to explore my artistic side."
+                    "text": "author:"
                   }
                 ],
-                "correct": "B",
+                "correct": "A",
                 "keySource": "paper",
-                "rationale": "Choice B correctly uses commas to set off the appositive phrase 'a talented painter,' which provides additional information about 'My grandmother' and is not essential to the sentence's core meaning.",
+                "rationale": "Choice A is correct because the nonrestrictive appositive ('a pioneering mycologist and children's author') must be closed with a comma before the predicate 'produced scientifically accurate...'",
                 "expectedPace": 70
               },
               {
                 "id": "pt4-rw-m2l-q18",
                 "domain": "Standard English Conventions",
-                "skill": "Boundaries",
-                "difficulty": "E",
+                "skill": "Boundaries and Syntax",
+                "difficulty": "M",
                 "html": false,
-                "stimulus": "The recipe called for three main ingredients flour, sugar, and butter.",
-                "stem": "Which choice uses punctuation correctly in the text?",
+                "stimulus": "During deep-sea dives in the Mariana Trench, marine biologists observed the Mariana snailfish (*Pseudoliparis swirei*) thriving at depths exceeding 26,000 _______ its bones are partially cartilaginous and its cellular membranes are rich in unsaturated fatty acids that resist immense hydrostatic pressure.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "The recipe called for three main ingredients flour, sugar, and butter."
+                    "text": "feet; because"
                   },
                   {
                     "id": "B",
-                    "text": "The recipe called for three main ingredients; flour, sugar, and butter."
+                    "text": "feet: because"
                   },
                   {
                     "id": "C",
-                    "text": "The recipe called for three main ingredients: flour, sugar, and butter."
+                    "text": "feet:"
                   },
                   {
                     "id": "D",
-                    "text": "The recipe called for three main ingredients—flour, sugar, and butter."
+                    "text": "feet,"
                   }
                 ],
                 "correct": "C",
+                "rationale": "Choice C is correct. A colon introduces an independent clause that elaborates upon or explains the preceding statement.",
                 "keySource": "paper",
-                "rationale": "Choice C correctly uses a colon to introduce a list of items that further explains or specifies the preceding phrase 'three main ingredients.'",
-                "expectedPace": 70
+                "expectedPace": 45
               },
               {
                 "id": "pt4-rw-m2l-q19",
                 "domain": "Standard English Conventions",
-                "skill": "Boundaries",
-                "difficulty": "E",
+                "skill": "Boundaries and Syntax",
+                "difficulty": "M",
                 "html": false,
-                "stimulus": "The old house stood on a hill, its windows were dark and empty.",
-                "stem": "Which choice uses punctuation correctly in the text?",
+                "stimulus": "In the early twentieth century, composer Florence Price seamlessly blended classical European symphonic structures with African American spiritual _______ her Symphony in E minor was the first composition by an African American woman to be played by a major American orchestra.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "The old house stood on a hill, its windows were dark and empty."
+                    "text": "melodies, in 1933,"
                   },
                   {
                     "id": "B",
-                    "text": "The old house stood on a hill; its windows were dark and empty."
+                    "text": "melodies; in 1933,"
                   },
                   {
                     "id": "C",
-                    "text": "The old house stood on a hill. Its windows were dark and empty."
+                    "text": "melodies in 1933,"
                   },
                   {
                     "id": "D",
-                    "text": "The old house stood on a hill and its windows were dark and empty."
+                    "text": "melodies and in 1933"
                   }
                 ],
                 "correct": "B",
+                "rationale": "Choice B is correct. A semicolon separates two related independent clauses where the second clause begins with the prepositional phrase 'in 1933'.",
                 "keySource": "paper",
-                "rationale": "Choice B correctly uses a semicolon to separate two independent clauses that are closely related in meaning. The original sentence is a comma splice, incorrectly joining two independent clauses with only a comma.",
-                "expectedPace": 70
+                "expectedPace": 45
               },
               {
                 "id": "pt4-rw-m2l-q20",
                 "domain": "Standard English Conventions",
-                "skill": "Form, Structure, and Sense",
-                "difficulty": "E",
+                "skill": "Boundaries and Syntax",
+                "difficulty": "M",
                 "html": false,
-                "stimulus": "A group of students often visits the museum on weekends.",
-                "stem": "Which choice completes the text with the most grammatically sound option?",
+                "stimulus": "A coalition of international botanists, after reviewing herbarium specimens gathered over two centuries across five _______ that at least 15 percent of endemic alpine flora face elevated extinction risks due to climate change.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "visits"
+                    "text": "continents, concluded"
                   },
                   {
                     "id": "B",
-                    "text": "visit"
+                    "text": "continents; concluded"
                   },
                   {
                     "id": "C",
-                    "text": "are visiting"
+                    "text": "continents concluded,"
                   },
                   {
                     "id": "D",
-                    "text": "have visited"
+                    "text": "continents, concluding"
                   }
                 ],
                 "correct": "A",
+                "rationale": "Choice A is correct. The nonrestrictive prepositional phrase 'after reviewing herbarium specimens...' must be closed with a comma before the main predicate 'concluded'.",
                 "keySource": "paper",
-                "rationale": "The subject of the sentence is 'group,' which is a singular noun. Therefore, the singular verb 'visits' is required for subject-verb agreement.",
-                "expectedPace": 70
+                "expectedPace": 45
               },
               {
                 "id": "pt4-rw-m2l-q21",
                 "domain": "Standard English Conventions",
-                "skill": "Form, Structure, and Sense",
-                "difficulty": "E",
+                "skill": "Boundaries and Syntax",
+                "difficulty": "M",
                 "html": false,
-                "stimulus": "Running quickly, the finish line was crossed by the athlete.",
-                "stem": "Which choice best improves the sentence for clarity and grammatical correctness?",
+                "stimulus": "Analyzing satellite telemetry from migration corridors, researchers found that the Arctic tern's annual round-trip journey spans nearly 44,000 miles, an endurance feat that _______ any other avian migration recorded.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "Running quickly, the finish line was crossed by the athlete."
+                    "text": "surpasses"
                   },
                   {
                     "id": "B",
-                    "text": "Running quickly, the athlete crossed the finish line."
+                    "text": "surpassing"
                   },
                   {
                     "id": "C",
-                    "text": "The finish line was crossed by the athlete, running quickly."
+                    "text": "to surpass"
                   },
                   {
                     "id": "D",
-                    "text": "Quickly running, the finish line was crossed by the athlete."
+                    "text": "have surpassed"
                   }
                 ],
-                "correct": "B",
+                "correct": "A",
+                "rationale": "Choice A is correct. The singular antecedent 'an endurance feat' takes the singular present verb 'surpasses' inside the relative clause.",
                 "keySource": "paper",
-                "rationale": "Choice B corrects the dangling modifier. 'Running quickly' should modify 'the athlete,' not 'the finish line.' In choice B, the athlete is the one performing the action of running.",
-                "expectedPace": 70
+                "expectedPace": 45
               },
               {
                 "id": "pt4-rw-m2l-q22",
                 "domain": "Standard English Conventions",
-                "skill": "Form, Structure, and Sense",
-                "difficulty": "E",
+                "skill": "Boundaries and Syntax",
+                "difficulty": "M",
                 "html": false,
-                "stimulus": "Yesterday, I walk to the store and bought some groceries.",
-                "stem": "Which choice corrects the verb tense in the text?",
+                "stimulus": "Having refined the CRISPR-Cas9 genome editing technique to target single nucleotide substitutions with unprecedented precision, _______ a vast array of hereditary genetic disorders without introducing double-stranded DNA breaks.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "walk"
+                    "text": "molecular biologists can now correct"
                   },
                   {
                     "id": "B",
-                    "text": "walked"
+                    "text": "the correction of genetic mutations by molecular biologists allows"
                   },
                   {
                     "id": "C",
-                    "text": "will walk"
+                    "text": "it is now possible for molecular biologists to correct"
                   },
                   {
                     "id": "D",
-                    "text": "had walked"
+                    "text": "therapies developed by molecular biologists now treat"
                   }
                 ],
-                "correct": "B",
+                "correct": "A",
+                "rationale": "Choice A is correct. The modifier 'Having refined...' correctly refers to 'molecular biologists', the subject that did the refining.",
                 "keySource": "paper",
-                "rationale": "The adverb 'Yesterday' indicates that the action happened in the past. Therefore, the past tense verb 'walked' is required to maintain consistency with 'bought' and the past timeframe.",
-                "expectedPace": 70
+                "expectedPace": 45
               },
               {
                 "id": "pt4-rw-m2l-q23",
@@ -2245,30 +2245,30 @@
                 "skill": "Boundaries",
                 "difficulty": "H",
                 "html": false,
-                "stimulus": "The renowned physicist, Dr. Aris Thorne, presented his groundbreaking theory on quantum entanglement; a concept that continues to perplex even seasoned researchers in the field.",
-                "stem": "Which choice uses punctuation correctly in the text?",
+                "stimulus": "Renowned theoretical physicist Dr. Aris Thorne delivered a lecture on quantum nonlocality at the Planck ______ an ontological concept that continues to challenge classical notions of causality.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "The renowned physicist, Dr. Aris Thorne, presented his groundbreaking theory on quantum entanglement; a concept that continues to perplex even seasoned researchers in the field."
+                    "text": "Institute,"
                   },
                   {
                     "id": "B",
-                    "text": "The renowned physicist, Dr. Aris Thorne, presented his groundbreaking theory on quantum entanglement: a concept that continues to perplex even seasoned researchers in the field."
+                    "text": "Institute;"
                   },
                   {
                     "id": "C",
-                    "text": "The renowned physicist, Dr. Aris Thorne presented his groundbreaking theory on quantum entanglement; a concept that continues to perplex even seasoned researchers in the field."
+                    "text": "Institute:"
                   },
                   {
                     "id": "D",
-                    "text": "The renowned physicist, Dr. Aris Thorne, presented his groundbreaking theory on quantum entanglement, a concept that continues to perplex even seasoned researchers in the field."
+                    "text": "Institute"
                   }
                 ],
-                "correct": "B",
+                "correct": "A",
                 "keySource": "paper",
-                "rationale": "A colon is correctly used here to introduce an explanation or elaboration of the preceding independent clause, 'quantum entanglement.' The phrase 'a concept that continues to perplex...' directly clarifies what quantum entanglement is in this context.",
+                "rationale": "Choice A is correct because a comma sets off the appositive phrase ('an ontological concept that continues to challenge...') modifying quantum nonlocality.",
                 "expectedPace": 70
               },
               {
@@ -2277,30 +2277,30 @@
                 "skill": "Boundaries",
                 "difficulty": "H",
                 "html": false,
-                "stimulus": "The newly discovered exoplanet, designated Kepler-186f, orbits within its star's habitable zone a region where liquid water could potentially exist on the planet's surface.",
-                "stem": "Which choice uses punctuation correctly in the text?",
+                "stimulus": "The exoplanet designated Kepler-186f orbits within its host star's circumstellar habitable ______ a zone where ambient temperatures could permit liquid water to persist on a terrestrial planet's surface.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "The newly discovered exoplanet, designated Kepler-186f, orbits within its star's habitable zone a region where liquid water could potentially exist on the planet's surface."
+                    "text": "zone—"
                   },
                   {
                     "id": "B",
-                    "text": "The newly discovered exoplanet, designated Kepler-186f, orbits within its star's habitable zone; a region where liquid water could potentially exist on the planet's surface."
+                    "text": "zone;"
                   },
                   {
                     "id": "C",
-                    "text": "The newly discovered exoplanet, designated Kepler-186f, orbits within its star's habitable zone—a region where liquid water could potentially exist on the planet's surface."
+                    "text": "zone,"
                   },
                   {
                     "id": "D",
-                    "text": "The newly discovered exoplanet, designated Kepler-186f, orbits within its star's habitable zone: a region, where liquid water could potentially exist on the planet's surface."
+                    "text": "zone"
                   }
                 ],
-                "correct": "C",
+                "correct": "A",
                 "keySource": "paper",
-                "rationale": "A dash is correctly used here to set off an explanatory phrase that provides an appositive, further defining 'habitable zone.' This punctuation choice emphasizes the explanatory nature of the following clause.",
+                "rationale": "Choice A is correct because an em-dash is standard for introducing an emphatic explanatory appositive phrase after a complete independent clause.",
                 "expectedPace": 70
               },
               {
@@ -2309,30 +2309,30 @@
                 "skill": "Boundaries",
                 "difficulty": "H",
                 "html": false,
-                "stimulus": "While some researchers advocate for a purely quantitative approach to sociological studies, others argue that qualitative methods offer invaluable insights into nuanced human behaviors.",
-                "stem": "Which choice uses punctuation correctly in the text?",
+                "stimulus": "While some sociologists prioritize quantitative analysis of large-scale demographic datasets, others maintain that ethnographic fieldwork ______ nuanced qualitative insights into community networks.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "While some researchers advocate for a purely quantitative approach to sociological studies, others argue that qualitative methods offer invaluable insights into nuanced human behaviors."
+                    "text": "yields"
                   },
                   {
                     "id": "B",
-                    "text": "While some researchers advocate for a purely quantitative approach to sociological studies others argue that qualitative methods offer invaluable insights into nuanced human behaviors."
+                    "text": "yields,"
                   },
                   {
                     "id": "C",
-                    "text": "While some researchers advocate for a purely quantitative approach to sociological studies; others argue that qualitative methods offer invaluable insights into nuanced human behaviors."
+                    "text": "; yields"
                   },
                   {
                     "id": "D",
-                    "text": "While some researchers advocate for a purely quantitative approach to sociological studies: others argue that qualitative methods offer invaluable insights into nuanced human behaviors."
+                    "text": "—yields"
                   }
                 ],
                 "correct": "A",
                 "keySource": "paper",
-                "rationale": "A comma is correctly used after the introductory dependent clause 'While some researchers advocate for a purely quantitative approach to sociological studies' to separate it from the independent clause that follows.",
+                "rationale": "Choice A is correct because no punctuation should separate the subject 'ethnographic fieldwork' from its verb 'yields' and direct object.",
                 "expectedPace": 70
               },
               {
@@ -2341,126 +2341,126 @@
                 "skill": "Boundaries",
                 "difficulty": "H",
                 "html": false,
-                "stimulus": "The artist's latest exhibition features intricate sculptures, vibrant oil paintings, and thought-provoking digital installations, it has garnered critical acclaim from art critics worldwide.",
-                "stem": "Which choice uses punctuation correctly in the text?",
+                "stimulus": "The museum's retrospective features monumental bronze sculptures, archival photographic prints, and site-specific kinetic ______ it has drawn record attendance from art historians worldwide.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "The artist's latest exhibition features intricate sculptures, vibrant oil paintings, and thought-provoking digital installations, it has garnered critical acclaim from art critics worldwide."
+                    "text": "installations;"
                   },
                   {
                     "id": "B",
-                    "text": "The artist's latest exhibition features intricate sculptures, vibrant oil paintings, and thought-provoking digital installations; it has garnered critical acclaim from art critics worldwide."
+                    "text": "installations,"
                   },
                   {
                     "id": "C",
-                    "text": "The artist's latest exhibition features intricate sculptures, vibrant oil paintings, and thought-provoking digital installations: it has garnered critical acclaim from art critics worldwide."
+                    "text": "installations"
                   },
                   {
                     "id": "D",
-                    "text": "The artist's latest exhibition features intricate sculptures, vibrant oil paintings, and thought-provoking digital installations. It has garnered critical acclaim from art critics worldwide."
+                    "text": "installations:"
                   }
                 ],
-                "correct": "B",
+                "correct": "A",
                 "keySource": "paper",
-                "rationale": "A semicolon is correctly used to join two closely related independent clauses. The second clause 'it has garnered critical acclaim from art critics worldwide' is directly related to the content of the exhibition described in the first clause.",
+                "rationale": "Choice A is correct because a semicolon connects the two independent clauses without creating a comma splice (Choice B).",
                 "expectedPace": 70
               },
               {
                 "id": "pt4-rw-m2u-q20",
                 "domain": "Standard English Conventions",
-                "skill": "Form, Structure, Sense",
+                "skill": "Form, Structure, and Sense",
                 "difficulty": "H",
                 "html": false,
-                "stimulus": "Neither the seasoned geologist nor her team of junior researchers were able to definitively identify the anomalous seismic patterns, suggesting an entirely new geological phenomenon.",
-                "stem": "Which choice completes the text with the most grammatically sound option?",
+                "stimulus": "Neither the senior seismologist nor her junior research ______ able to establish a statistical correlation between radon gas emissions and subsequent seismic tremors.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "were"
+                    "text": "assistants were"
                   },
                   {
                     "id": "B",
-                    "text": "was"
+                    "text": "assistants was"
                   },
                   {
                     "id": "C",
-                    "text": "are"
+                    "text": "assistants is"
                   },
                   {
                     "id": "D",
-                    "text": "have been"
+                    "text": "assistants has been"
                   }
                 ],
-                "correct": "B",
+                "correct": "A",
                 "keySource": "paper",
-                "rationale": "When 'neither...nor' connects subjects, the verb agrees with the subject closest to it. In this case, 'her team of junior researchers' is plural, but the singular 'geologist' is closer to the verb if the order were reversed, or 'team' is treated as a singular unit. However, the rule typically dictates agreement with the *nearest* subject. More accurately, 'team of junior researchers' acts as a singular unit here. The most precise application of the 'neither...nor' rule dictates that the verb agrees with the subject closest to it. 'Team' is singular, therefore 'was' is correct.",
+                "rationale": "Choice A is correct because with 'neither... nor', the verb agrees with the closer subject. 'Junior research assistants' is plural, requiring the plural verb 'were.' Choices B, C, and D are singular verbs.",
                 "expectedPace": 70
               },
               {
                 "id": "pt4-rw-m2u-q21",
                 "domain": "Standard English Conventions",
-                "skill": "Form, Structure, Sense",
+                "skill": "Form, Structure, and Sense",
                 "difficulty": "H",
                 "html": false,
-                "stimulus": "Having meticulously analyzed the ancient texts, the historian's groundbreaking theory about the origins of the Sumerian civilization was widely accepted by her peers.",
-                "stem": "Which choice completes the text with the most grammatically sound option?",
+                "stimulus": "Having meticulously analyzed the morphological traits of fossilized hominin dentition, ______ that the specimens belonged to a previously unrecorded species of Australopithecus.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "Having meticulously analyzed the ancient texts, the historian's groundbreaking theory about the origins of the Sumerian civilization was widely accepted by her peers."
+                    "text": "paleoanthropologist Meave Leakey determined"
                   },
                   {
                     "id": "B",
-                    "text": "Having meticulously analyzed the ancient texts, the groundbreaking theory about the origins of the Sumerian civilization by the historian was widely accepted by her peers."
+                    "text": "it was determined by paleoanthropologist Meave Leakey"
                   },
                   {
                     "id": "C",
-                    "text": "Having meticulously analyzed the ancient texts, the historian presented a groundbreaking theory about the origins of the Sumerian civilization that was widely accepted by her peers."
+                    "text": "the determination of paleoanthropologist Meave Leakey was"
                   },
                   {
                     "id": "D",
-                    "text": "Having meticulously analyzed the ancient texts, a groundbreaking theory about the origins of the Sumerian civilization was presented by the historian and widely accepted by her peers."
+                    "text": "the dentition's traits led paleoanthropologist Meave Leakey to conclude"
                   }
                 ],
-                "correct": "C",
+                "correct": "A",
                 "keySource": "paper",
-                "rationale": "Choice C corrects the dangling modifier in the original sentence. The introductory phrase 'Having meticulously analyzed the ancient texts' should modify the historian, not the theory. Choice C correctly places 'the historian' as the subject of the main clause, making the sentence grammatically sound.",
+                "rationale": "Choice A is correct because the introductory modifier must logically modify the researcher ('paleoanthropologist Meave Leakey') who analyzed the dentition.",
                 "expectedPace": 70
               },
               {
                 "id": "pt4-rw-m2u-q22",
                 "domain": "Standard English Conventions",
-                "skill": "Form, Structure, Sense",
+                "skill": "Form, Structure, and Sense",
                 "difficulty": "H",
                 "html": false,
-                "stimulus": "Although the team of astrophysicists was initially skeptical of the anomalous signal, they now acknowledge its potential significance and were conducting further investigations.",
-                "stem": "Which choice completes the text with the most grammatically sound option?",
+                "stimulus": "Although planetary scientists were initially skeptical of the geochemical readings, they now acknowledge their significance and ______ supplementary spectroscopic data from the orbital probe.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "were conducting"
+                    "text": "are analyzing"
                   },
                   {
                     "id": "B",
-                    "text": "had conducted"
+                    "text": "were analyzing"
                   },
                   {
                     "id": "C",
-                    "text": "are conducting"
+                    "text": "analyzed"
                   },
                   {
                     "id": "D",
-                    "text": "will conduct"
+                    "text": "had analyzed"
                   }
                 ],
-                "correct": "C",
+                "correct": "A",
                 "keySource": "paper",
-                "rationale": "The sentence indicates a present state ('they now acknowledge') and ongoing action. Therefore, the present progressive tense 'are conducting' is the most appropriate choice to maintain parallel tense and convey that the investigations are happening currently.",
+                "rationale": "Choice A is correct because the present progressive 'are analyzing' coordinates in tense and aspect with the present-tense predicate 'now acknowledge.' Choices B, C, and D use past tenses that conflict with 'now.'",
                 "expectedPace": 70
               },
               {
@@ -2638,64 +2638,64 @@
             {
               "id": "pt4-math-m1-q01",
               "domain": "Algebra",
-              "skill": "Linear equations in one variable",
-              "difficulty": "Foundational",
+              "skill": "Linear models in context",
+              "difficulty": "E",
               "html": false,
-              "stem": "If 3x - 7 = 11, what is the value of x?",
-              "rationale": "Add 7 to both sides to get 3x = 18, then divide by 3 to find x = 6.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "A solar panel installer charges a flat consultation fee of $250 plus $75 per hour of installation work. If a residential installation totaled $1,450 in charges, how many hours of work were performed?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "4"
+                  "text": "12"
                 },
                 {
                   "id": "B",
-                  "text": "6"
+                  "text": "14"
                 },
                 {
                   "id": "C",
-                  "text": "8"
+                  "text": "16"
                 },
                 {
                   "id": "D",
                   "text": "18"
                 }
               ],
-              "correct": "B"
+              "correct": "C",
+              "rationale": "Set up $250 + 75h = 1450 \\implies 75h = 1200 \\implies h = 16$ hours.",
+              "keySource": "paper",
+              "expectedPace": 65
             },
             {
               "id": "pt4-math-m1-q02",
               "domain": "Algebra",
-              "skill": "Linear equations in one variable",
-              "difficulty": "Foundational",
+              "skill": "Linear equations (structure)",
+              "difficulty": "E",
               "html": false,
-              "stem": "What is the solution to the equation 2(x + 5) = 22?",
-              "rationale": "Divide both sides by 2 to get x + 5 = 11, then subtract 5 from both sides to find x = 6.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "If $3(4x - 7) + 5 = 26$, what is the value of $4x - 7$?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "3"
+                  "text": "5"
                 },
                 {
                   "id": "B",
-                  "text": "6"
+                  "text": "7"
                 },
                 {
                   "id": "C",
-                  "text": "8"
+                  "text": "9"
                 },
                 {
                   "id": "D",
-                  "text": "16"
+                  "text": "11"
                 }
               ],
-              "correct": "B"
+              "correct": "B",
+              "rationale": "Subtract 5 from both sides: $3(4x - 7) = 21$. Divide by 3: $4x - 7 = 7$.",
+              "keySource": "paper",
+              "expectedPace": 60
             },
             {
               "id": "pt4-math-m1-q03",
@@ -2827,7 +2827,7 @@
               "skill": "Quadratics",
               "difficulty": "Foundational",
               "html": false,
-              "stem": "What is the value of x^2 + 3x - 5 when x = 2?",
+              "stem": "What is the value of $x^2 + 3x - 5$ when x = 2?",
               "rationale": "Substitute x = 2 into the expression: (2)^2 + 3(2) - 5 = 4 + 6 - 5 = 5.",
               "keySource": "paper",
               "expectedPace": 95,
@@ -2897,19 +2897,19 @@
               "choices": [
                 {
                   "id": "A",
-                  "text": "x^2 - 15"
+                  "text": "$x^2 - 15$"
                 },
                 {
                   "id": "B",
-                  "text": "x^2 - 2x - 15"
+                  "text": "$x^2 - 2x - 15$"
                 },
                 {
                   "id": "C",
-                  "text": "x^2 + 2x - 15"
+                  "text": "$x^2 + 2x - 15$"
                 },
                 {
                   "id": "D",
-                  "text": "x^2 - 8x - 15"
+                  "text": "$x^2 - 8x - 15$"
                 }
               ],
               "correct": "B"
@@ -2951,7 +2951,7 @@
               "skill": "Quadratics",
               "difficulty": "Intermediate",
               "html": false,
-              "stem": "What is the y-intercept of the graph of the equation y = x^2 - 6x + 8?",
+              "stem": "What is the y-intercept of the graph of the equation $y = x^2 - 6x + 8$?",
               "rationale": "The y-intercept of a quadratic in the form y = ax^2 + bx + c is the point where x = 0, which results in y = c. Here, c = 8, so the y-intercept is (0, 8).",
               "keySource": "paper",
               "expectedPace": 95,
@@ -3083,19 +3083,19 @@
               "choices": [
                 {
                   "id": "A",
-                  "text": "y = -2(x - 2)^2 + 5"
+                  "text": "$y = -2(x - 2)^2 + 5$"
                 },
                 {
                   "id": "B",
-                  "text": "y = 2(x - 2)^2 + 5"
+                  "text": "$y = 2(x - 2)^2 + 5$"
                 },
                 {
                   "id": "C",
-                  "text": "y = -2(x + 2)^2 + 5"
+                  "text": "$y = -2(x + 2)^2 + 5$"
                 },
                 {
                   "id": "D",
-                  "text": "y = 2(x + 2)^2 + 5"
+                  "text": "$y = 2(x + 2)^2 + 5$"
                 }
               ],
               "correct": "A"
@@ -3114,19 +3114,19 @@
               "choices": [
                 {
                   "id": "A",
-                  "text": "N = 100(2)^(t/3)"
+                  "text": "$N = 1002^(t/3)$"
                 },
                 {
                   "id": "B",
-                  "text": "N = 100(2)^(3t)"
+                  "text": "$N = 1002^(3t)$"
                 },
                 {
                   "id": "C",
-                  "text": "N = 100(1/2)^(t/3)"
+                  "text": "$N = 100(1/2)^(t/3)$"
                 },
                 {
                   "id": "D",
-                  "text": "N = 100(1/2)^(3t)"
+                  "text": "$N = 100(1/2)^(3t)$"
                 }
               ],
               "correct": "A"
@@ -3166,34 +3166,32 @@
             {
               "id": "pt4-math-m1-q18",
               "domain": "Algebra",
-              "skill": "Linear equations in one variable",
+              "skill": "Linear equations (algebraic structure)",
               "difficulty": "M",
               "html": false,
-              "stem": "If 5x + 10 = 35, what is the value of x?",
-              "rationale": "Explanation not provided.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "If $5(2x - 3) = 45$, what is the value of $2x - 1$?",
               "format": "spr",
               "accepted": [
-                "5",
-                "5.0"
-              ]
+                "11"
+              ],
+              "rationale": "Divide by 5: $2x - 3 = 9 \\implies 2x = 12$. Therefore, $2x - 1 = 12 - 1 = 11$.",
+              "keySource": "paper",
+              "expectedPace": 60
             },
             {
               "id": "pt4-math-m1-q19",
               "domain": "Algebra",
-              "skill": "Systems of linear equations",
+              "skill": "Linear function extrapolation",
               "difficulty": "M",
               "html": false,
-              "stem": "If 2x + y = 10 and x - y = 2, what is the value of x?",
-              "rationale": "Explanation not provided.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "For the linear function $f$, $f(2) = 7$ and $f(6) = 19$. What is the value of $f(10)$?",
               "format": "spr",
               "accepted": [
-                "4",
-                "4.0"
-              ]
+                "31"
+              ],
+              "rationale": "The slope is $m = (19 - 7)/(6 - 2) = 12/4 = 3$. Since 10 is 4 units past 6, $f(10) = 19 + 3(4) = 31$.",
+              "keySource": "paper",
+              "expectedPace": 70
             },
             {
               "id": "pt4-math-m1-q20",
@@ -3480,19 +3478,19 @@
                 "choices": [
                   {
                     "id": "A",
-                    "text": "x^2 + x - 6"
+                    "text": "$x^2 + x - 6$"
                   },
                   {
                     "id": "B",
-                    "text": "x^2 - x - 6"
+                    "text": "$x^2 - x - 6$"
                   },
                   {
                     "id": "C",
-                    "text": "x^2 + 5x - 6"
+                    "text": "$x^2 + 5x - 6$"
                   },
                   {
                     "id": "D",
-                    "text": "x^2 - 5x - 6"
+                    "text": "$x^2 - 5x - 6$"
                   }
                 ],
                 "correct": "A"
@@ -3503,7 +3501,7 @@
                 "skill": "Rational expressions",
                 "difficulty": "M",
                 "html": false,
-                "stem": "Which of the following is equivalent to (12x^3 - 6x^2) / (3x^2) for x not equal to 0?",
+                "stem": "Which of the following is equivalent to ($12x^3 - 6x^2$) / ($3x^2$) for x not equal to 0?",
                 "rationale": "Divide each term in the numerator by the denominator. (12x^3)/(3x^2) simplifies to 4x, and (-6x^2)/(3x^2) simplifies to -2.",
                 "keySource": "paper",
                 "expectedPace": 95,
@@ -3519,11 +3517,11 @@
                   },
                   {
                     "id": "C",
-                    "text": "4x^5 - 2x^4"
+                    "text": "$4x^5 - 2x^4$"
                   },
                   {
                     "id": "D",
-                    "text": "6x^2"
+                    "text": "$6x^2$"
                   }
                 ],
                 "correct": "A"
@@ -3534,7 +3532,7 @@
                 "skill": "Quadratics",
                 "difficulty": "M",
                 "html": false,
-                "stem": "What is the sum of the solutions to the equation x^2 - 5x + 6 = 0?",
+                "stem": "What is the sum of the solutions to the equation $x^2 - 5x + 6$ = 0?",
                 "rationale": "For a quadratic equation in the form ax^2 + bx + c = 0, the sum of the solutions is -b/a. Here, a=1 and b=-5, so the sum is -(-5)/1 = 5.",
                 "keySource": "paper",
                 "expectedPace": 95,
@@ -3565,7 +3563,7 @@
                 "skill": "Polynomials",
                 "difficulty": "M",
                 "html": false,
-                "stem": "If P(x) = x^2 - 3x + 4, what is the value of P(2)?",
+                "stem": "If P(x) = $x^2 - 3x + 4$, what is the value of P(2)?",
                 "rationale": "Substitute x = 2 into the polynomial: P(2) = (2)^2 - 3(2) + 4 = 4 - 6 + 4 = 2.",
                 "keySource": "paper",
                 "expectedPace": 95,
@@ -3697,19 +3695,19 @@
                 "choices": [
                   {
                     "id": "A",
-                    "text": "N = 500 * (2)^(t)"
+                    "text": "$N = 500 2^(t)$"
                   },
                   {
                     "id": "B",
-                    "text": "N = 500 * (2)^(3t)"
+                    "text": "$N = 500 2^(3t)$"
                   },
                   {
                     "id": "C",
-                    "text": "N = 500 * (2)^(t/3)"
+                    "text": "$N = 500 2^(t/3)$"
                   },
                   {
                     "id": "D",
-                    "text": "N = 500 * (3)^(t/2)"
+                    "text": "$N = 500 3^(t/2)$"
                   }
                 ],
                 "correct": "C"
@@ -3860,34 +3858,34 @@
             "items": [
               {
                 "id": "pt4-math-m2u-q01",
-                "domain": "Algebra",
-                "skill": "Linear equations in one variable",
+                "domain": "Advanced Math",
+                "skill": "Nonlinear system tangency",
                 "difficulty": "H",
                 "html": false,
-                "stem": "If 5(2x - 3) - 4x = 3x + 12, what is the value of x?",
-                "rationale": "Distribute the 5 to get 10x - 15 - 4x = 3x + 12. Combine like terms: 6x - 15 = 3x + 12. Subtract 3x from both sides: 3x - 15 = 12. Add 15 to both sides: 3x = 27. Divide by 3: x = 9.",
-                "keySource": "paper",
-                "expectedPace": 95,
+                "stem": "In the $xy$-plane, the line $y = 2x + k$ intersects the parabola $y = 2x^2 - 8x + 11$ at exactly one point. What is the value of the constant $k$?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "15"
+                    "text": "-3"
                   },
                   {
                     "id": "B",
-                    "text": "9"
+                    "text": "-1.5"
                   },
                   {
                     "id": "C",
-                    "text": "6"
+                    "text": "1.5"
                   },
                   {
                     "id": "D",
                     "text": "3"
                   }
                 ],
-                "correct": "A"
+                "correct": "B",
+                "rationale": "Set the equations equal: $2x^2 - 8x + 11 = 2x + k \\implies 2x^2 - 10x + (11 - k) = 0$. For exactly one intersection point, the discriminant must equal zero: $D = (-10)^2 - 4(2)(11 - k) = 0 \\implies 100 - 88 + 8k = 0 \\implies 12 + 8k = 0 \\implies k = -1.5$.",
+                "keySource": "paper",
+                "expectedPace": 85
               },
               {
                 "id": "pt4-math-m2u-q02",
@@ -3984,34 +3982,34 @@
               },
               {
                 "id": "pt4-math-m2u-q05",
-                "domain": "Algebra",
-                "skill": "Systems of equations",
+                "domain": "Geometry and Trigonometry",
+                "skill": "Circle equations (standard form)",
                 "difficulty": "H",
                 "html": false,
-                "stem": "If 3x - 2y = 10 and 5x + y = 3, what is the value of x + y?",
-                "rationale": "From the second equation, y = 3 - 5x. Substitute this into the first equation: 3x - 2(3 - 5x) = 10. This simplifies to 3x - 6 + 10x = 10, or 13x - 6 = 10. Adding 6 to both sides gives 13x = 16, so x = 16/13. Then y = 3 - 5(16/13) = 3 - 80/13 = (39 - 80)/13 = -41/13. Finally, x + y = 16/13 + (-41/13) = -25/13.",
-                "keySource": "paper",
-                "expectedPace": 95,
+                "stem": "The equation $x^2 + 10x + y^2 - 6y = 15$ represents a circle in the $xy$-plane. What is the diameter of the circle?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "-2"
+                    "text": "7"
                   },
                   {
                     "id": "B",
-                    "text": "-1"
+                    "text": "10"
                   },
                   {
                     "id": "C",
-                    "text": "1"
+                    "text": "14"
                   },
                   {
                     "id": "D",
-                    "text": "2"
+                    "text": "28"
                   }
                 ],
-                "correct": "B"
+                "correct": "C",
+                "rationale": "Complete the square for $x$ and $y$: $(x^2 + 10x + 25) + (y^2 - 6y + 9) = 15 + 25 + 9 \\implies (x + 5)^2 + (y - 3)^2 = 49$. The radius is $r = \\sqrt{49} = 7$. The diameter is $2r = 14$.",
+                "keySource": "paper",
+                "expectedPace": 80
               },
               {
                 "id": "pt4-math-m2u-q06",
@@ -4058,19 +4056,19 @@
                 "choices": [
                   {
                     "id": "A",
-                    "text": "f(x) = -2x^2 + 12x - 11"
+                    "text": "$f(x) = -2x^2 + 12x - 11$"
                   },
                   {
                     "id": "B",
-                    "text": "f(x) = -2x^2 - 12x + 7"
+                    "text": "$f(x) = -2x^2 - 12x + 7$"
                   },
                   {
                     "id": "C",
-                    "text": "f(x) = -2x^2 + 12x + 7"
+                    "text": "$f(x) = -2x^2 + 12x + 7$"
                   },
                   {
                     "id": "D",
-                    "text": "f(x) = -2x^2 - 12x - 11"
+                    "text": "$f(x) = -2x^2 - 12x - 11$"
                   }
                 ],
                 "correct": "A"
@@ -4081,7 +4079,7 @@
                 "skill": "Quadratics",
                 "difficulty": "H",
                 "html": false,
-                "stem": "For the quadratic equation ax^2 + bx + c = 0, where a, b, and c are constants and a is not 0, if the discriminant is 0, which of the following must be true about the graph of y = ax^2 + bx + c?",
+                "stem": "For the quadratic equation $ax^2 + bx + c = 0$, where a, b, and c are constants and a is not 0, if the discriminant is 0, which of the following must be true about the graph of $y = ax^2 + bx + c$?",
                 "rationale": "The discriminant (b^2 - 4ac) determines the number of real solutions to a quadratic equation. If the discriminant is 0, there is exactly one real solution, which means the parabola touches the x-axis at exactly one point, thus having one x-intercept.",
                 "keySource": "paper",
                 "expectedPace": 95,
@@ -4112,7 +4110,7 @@
                 "skill": "Polynomials",
                 "difficulty": "H",
                 "html": false,
-                "stem": "If P(x) = (x^2 - 4)(x + 3) and Q(x) = (x - 2)(x^2 + 5x + 6), which of the following is true?",
+                "stem": "If P(x) = ($x^2 - 4$)(x + 3) and Q(x) = (x - 2)($x^2 + 5x + 6$), which of the following is true?",
                 "rationale": "Factor P(x): P(x) = (x - 2)(x + 2)(x + 3). Factor Q(x): Q(x) = (x - 2)(x + 2)(x + 3) since x^2 + 5x + 6 = (x + 2)(x + 3). Since both polynomials factor into the same terms, P(x) = Q(x) for all x.",
                 "keySource": "paper",
                 "expectedPace": 95,
@@ -4120,19 +4118,19 @@
                 "choices": [
                   {
                     "id": "A",
-                    "text": "P(x) = Q(x) for all x."
+                    "text": "$P(x) = Q(x) for all x.$"
                   },
                   {
                     "id": "B",
-                    "text": "P(x) = -Q(x) for all x."
+                    "text": "$P(x) = -Q(x) for all x.$"
                   },
                   {
                     "id": "C",
-                    "text": "P(x) = Q(x) only when x = 2."
+                    "text": "$P(x) = Q(x) only when x = 2.$"
                   },
                   {
                     "id": "D",
-                    "text": "P(x) and Q(x) have different roots."
+                    "text": "$P(x) and Q(x) have different roots.$"
                   }
                 ],
                 "correct": "A"
@@ -4143,7 +4141,7 @@
                 "skill": "Rational expressions",
                 "difficulty": "H",
                 "html": false,
-                "stem": "Which of the following is equivalent to (x^2 - 9)/(x^2 - x - 6) for x not equal to 3 or -2?",
+                "stem": "Which of the following is equivalent to ($x^2 - 9$)/($x^2 - x - 6$) for x not equal to 3 or -2?",
                 "rationale": "Factor the numerator and the denominator. The numerator is a difference of squares: x^2 - 9 = (x - 3)(x + 3). The denominator is a quadratic that factors into (x - 3)(x + 2). So the expression becomes [(x - 3)(x + 3)] / [(x - 3)(x + 2)]. Since x is not equal to 3, we can cancel out the (x - 3) terms, leaving (x + 3)/(x + 2).",
                 "keySource": "paper",
                 "expectedPace": 95,
@@ -4151,19 +4149,19 @@
                 "choices": [
                   {
                     "id": "A",
-                    "text": "(x + 3)/(x + 2)"
+                    "text": "$(x + 3)/(x + 2)$"
                   },
                   {
                     "id": "B",
-                    "text": "(x - 3)/(x + 2)"
+                    "text": "$(x - 3)/(x + 2)$"
                   },
                   {
                     "id": "C",
-                    "text": "(x + 3)/(x - 2)"
+                    "text": "$(x + 3)/(x - 2)$"
                   },
                   {
                     "id": "D",
-                    "text": "(x - 3)/(x - 2)"
+                    "text": "$(x - 3)/(x - 2)$"
                   }
                 ],
                 "correct": "A"
@@ -4298,7 +4296,7 @@
                 "skill": "Nonlinear Functions (Quadratic)",
                 "difficulty": "H",
                 "html": false,
-                "stem": "The function f(x) = -2x^2 + 12x - 5 models the trajectory of a projectile, where x is the horizontal distance in meters and f(x) is the height in meters. What is the maximum height reached by the projectile?",
+                "stem": "The function f(x) = -$2x^2 + 12x - 5$ models the trajectory of a projectile, where x is the horizontal distance in meters and f(x) is the height in meters. What is the maximum height reached by the projectile?",
                 "rationale": "The maximum height occurs at the vertex of the parabola. The x-coordinate of the vertex is given by -b/(2a) = -12/(2 * -2) = -12/-4 = 3. Substitute x=3 into the function: f(3) = -2(3)^2 + 12(3) - 5 = -2(9) + 36 - 5 = -18 + 36 - 5 = 13. So the maximum height is 13 meters.",
                 "keySource": "paper",
                 "expectedPace": 95,
@@ -4337,19 +4335,19 @@
                 "choices": [
                   {
                     "id": "A",
-                    "text": "800 * (0.85)^(t/4)"
+                    "text": "$800 (0.85)^(t/4)$"
                   },
                   {
                     "id": "B",
-                    "text": "800 * (0.15)^(t/4)"
+                    "text": "$800 (0.15)^(t/4)$"
                   },
                   {
                     "id": "C",
-                    "text": "800 * (0.85)^(4t)"
+                    "text": "$800 (0.85)^(4t)$"
                   },
                   {
                     "id": "D",
-                    "text": "800 * (0.15)^(4t)"
+                    "text": "$800 (0.15)^(4t)$"
                   }
                 ],
                 "correct": "A"
@@ -4359,8 +4357,8 @@
                 "domain": "Geometry and Trigonometry",
                 "skill": "Circles and Radians",
                 "difficulty": "H",
-                "html": false,
-                "stem": "A circle has a radius of 6 units. An arc on this circle subtends a central angle of 5pi/6 radians. What is the length of the arc?",
+                "html": true,
+                "stem": "In the figure shown, the circle has center $O$ and radius $6$ units. An arc on this circle subtends a central angle of $\\frac{5\\pi}{6}$ radians. What is the length of the arc?",
                 "rationale": "The formula for arc length (s) is s = r * theta, where r is the radius and theta is the central angle in radians. Given r = 6 and theta = 5pi/6, the arc length is s = 6 * (5pi/6) = 5pi units.",
                 "keySource": "paper",
                 "expectedPace": 95,
@@ -4383,7 +4381,8 @@
                     "text": "15pi/2 units"
                   }
                 ],
-                "correct": "A"
+                "correct": "A",
+                "stimulus": "<div class=\"sat-diagram my-4 flex flex-col items-center justify-center\"><svg viewBox=\"0 0 340 230\" xmlns=\"http://www.w3.org/2000/svg\" class=\"mx-auto block max-w-[340px] w-full h-auto rounded-lg border border-white/10 bg-[#141416] p-2\">\n  <circle cx=\"170\" cy=\"115\" r=\"75\" fill=\"none\" stroke=\"#52525b\" stroke-width=\"2\"/>\n  <circle cx=\"170\" cy=\"115\" r=\"4\" fill=\"#38bdf8\"/>\n  <line x1=\"170\" y1=\"115\" x2=\"245\" y2=\"115\" stroke=\"#38bdf8\" stroke-width=\"2\"/>\n  <line x1=\"170\" y1=\"115\" x2=\"105\" y2=\"78\" stroke=\"#38bdf8\" stroke-width=\"2\"/>\n  <path d=\"M 245 115 A 75 75 0 0 0 105 78\" fill=\"none\" stroke=\"#f43f5e\" stroke-width=\"3\"/>\n  <path d=\"M 195 115 A 25 25 0 0 0 148 102\" fill=\"none\" stroke=\"#38bdf8\" stroke-width=\"1.5\"/>\n  <text x=\"160\" y=\"132\" fill=\"#f4f4f5\" font-family=\"system-ui, sans-serif\" font-size=\"13\" font-weight=\"600\">O</text>\n  <text x=\"252\" y=\"120\" fill=\"#f4f4f5\" font-family=\"system-ui, sans-serif\" font-size=\"13\" font-weight=\"700\">A</text>\n  <text x=\"90\" y=\"75\" fill=\"#f4f4f5\" font-family=\"system-ui, sans-serif\" font-size=\"13\" font-weight=\"700\">B</text>\n  <text x=\"180\" y=\"100\" fill=\"#38bdf8\" font-family=\"system-ui, sans-serif\" font-size=\"12\" font-weight=\"600\">5π/6</text>\n  <text x=\"205\" y=\"130\" fill=\"#a1a1aa\" font-family=\"system-ui, sans-serif\" font-size=\"12\" font-weight=\"600\">r = 6</text>\n</svg><span class=\"mt-1 text-[11px] text-zinc-400\">Note: Figure not drawn to scale.</span></div>"
               },
               {
                 "id": "pt4-math-m2u-q18",
@@ -4438,7 +4437,7 @@
                 "skill": "Expressions and Equations (Polynomials)",
                 "difficulty": "H",
                 "html": false,
-                "stem": "If (x - 3)(x + 5) = x^2 + Ax + B for all values of x, what is the value of A + B?",
+                "stem": "If (x - 3)(x + 5) = $x^2 + Ax + B$ for all values of x, what is the value of A + B?",
                 "rationale": "Expand the left side: (x - 3)(x + 5) = x^2 + 5x - 3x - 15 = x^2 + 2x - 15. Comparing this to x^2 + Ax + B, we find A = 2 and B = -15. Therefore, A + B = 2 + (-15) = -13.",
                 "keySource": "paper",
                 "expectedPace": 95,

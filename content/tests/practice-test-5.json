@@ -7,7 +7,7 @@
   "scorable": true,
   "warnings": [],
   "uploadedAt": "2026-10-11T00:20:17.034Z",
-  "updatedAt": "2026-10-11T01:30:00.000Z",
+  "updatedAt": "2026-10-11T15:15:00.000Z",
   "form": {
     "id": "practice-test-5",
     "name": "Digital SAT Practice Test 5",
@@ -504,32 +504,32 @@
               "id": "pt5-rw-m1-q16",
               "domain": "Standard English Conventions",
               "skill": "Boundaries",
-              "difficulty": "E",
+              "difficulty": "M",
               "html": false,
-              "stimulus": "Many scientists believe that the universe began with a 'Big Bang' approximately 13.8 billion years ago; however, the precise mechanisms of its initial expansion are still a subject of intense research.",
-              "stem": "Which choice uses punctuation in a way that is consistent with the conventions of standard English?",
+              "stimulus": "Cosmologists widely agree that the observable universe expanded from an extremely hot, dense state roughly 13.8 billion years ______ however, the exact quantum dynamics of the inflationary epoch remain an active area of theoretical inquiry.",
+              "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "ago; however, the precise mechanisms"
+                  "text": "ago;"
                 },
                 {
                   "id": "B",
-                  "text": "ago, however, the precise mechanisms"
+                  "text": "ago,"
                 },
                 {
                   "id": "C",
-                  "text": "ago: however, the precise mechanisms"
+                  "text": "ago"
                 },
                 {
                   "id": "D",
-                  "text": "ago. However, the precise mechanisms"
+                  "text": "ago:"
                 }
               ],
               "correct": "A",
               "keySource": "paper",
-              "rationale": "A semicolon is correctly used here to join two independent clauses that are closely related in meaning, with a conjunctive adverb ('however') introducing the second clause, followed by a comma.",
+              "rationale": "Choice A is correct because a semicolon is required before the conjunctive adverb 'however' when linking two independent clauses. Choice B produces a comma splice.",
               "expectedPace": 70
             },
             {
@@ -538,113 +538,113 @@
               "skill": "Boundaries",
               "difficulty": "M",
               "html": false,
-              "stimulus": "The ancient city of Petra, located in modern-day Jordan, is famous for its rock-cut architecture especially its most iconic structure, Al-Khazneh, or 'The Treasury.'",
-              "stem": "Which choice uses punctuation in a way that is consistent with the conventions of standard English?",
+              "stimulus": "The ancient Nabataean capital of Petra is renowned for its monumental rock-cut ______ most notably the Treasury, whose classical façade was carved directly into sandstone cliff faces.",
+              "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "architecture especially its most iconic structure, Al-Khazneh,"
+                  "text": "architecture—"
                 },
                 {
                   "id": "B",
-                  "text": "architecture especially its most iconic structure; Al-Khazneh,"
+                  "text": "architecture;"
                 },
                 {
                   "id": "C",
-                  "text": "architecture—especially its most iconic structure—Al-Khazneh,"
+                  "text": "architecture,"
                 },
                 {
                   "id": "D",
-                  "text": "architecture, especially its most iconic structure: Al-Khazneh,"
+                  "text": "architecture"
                 }
               ],
-              "correct": "C",
+              "correct": "A",
               "keySource": "paper",
-              "rationale": "The phrase 'especially its most iconic structure' functions as an emphatic parenthetical element that should be set off by dashes to emphasize the information and smoothly integrate it into the sentence.",
+              "rationale": "Choice A is correct because an em-dash is standard for introducing an emphatic, detailed appositive phrase ('most notably the Treasury...'). Semicolons (Choice B) cannot link an independent clause to a non-clause phrase.",
               "expectedPace": 70
             },
             {
               "id": "pt5-rw-m1-q18",
               "domain": "Standard English Conventions",
               "skill": "Boundaries",
-              "difficulty": "H",
+              "difficulty": "M",
               "html": false,
-              "stimulus": "Scientists have identified several key factors contributing to climate change increased greenhouse gas emissions, deforestation, and industrial pollution.",
-              "stem": "Which choice uses punctuation in a way that is consistent with the conventions of standard English?",
+              "stimulus": "Paleoclimatologists reconstruct ancient sea surface temperatures using three complementary geochemical ______ oxygen isotope ratios in foraminifera shells, magnesium-calcium ratios, and alkenone unsaturation indices.",
+              "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "change increased greenhouse gas emissions,"
+                  "text": "proxies:"
                 },
                 {
                   "id": "B",
-                  "text": "change; increased greenhouse gas emissions,"
+                  "text": "proxies;"
                 },
                 {
                   "id": "C",
-                  "text": "change: increased greenhouse gas emissions,"
+                  "text": "proxies,"
                 },
                 {
                   "id": "D",
-                  "text": "change—increased greenhouse gas emissions,"
+                  "text": "proxies"
                 }
               ],
-              "correct": "C",
+              "correct": "A",
               "keySource": "paper",
-              "rationale": "A colon is correctly used here to introduce a list or explanation that elaborates on the preceding independent clause. The list of factors directly follows and clarifies 'several key factors contributing to climate change'.",
+              "rationale": "Choice A is correct because a colon introduces the list of geochemical proxies following a grammatically complete independent clause.",
               "expectedPace": 70
             },
             {
               "id": "pt5-rw-m1-q19",
               "domain": "Standard English Conventions",
               "skill": "Boundaries",
-              "difficulty": "E",
+              "difficulty": "M",
               "html": false,
-              "stimulus": "The new art exhibit features works by local artists, it also includes a special section dedicated to emerging talent.",
-              "stem": "Which choice uses punctuation in a way that is consistent with the conventions of standard English?",
+              "stimulus": "The botanical conservatory exhibits rare carnivorous flora from Southeast Asian peat swamp ______ it also maintains an extensive seed bank for critically endangered highland pitcher plants.",
+              "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "artists, it also includes"
+                  "text": "forests;"
                 },
                 {
                   "id": "B",
-                  "text": "artists; it also includes"
+                  "text": "forests,"
                 },
                 {
                   "id": "C",
-                  "text": "artists. It also includes"
+                  "text": "forests"
                 },
                 {
                   "id": "D",
-                  "text": "artists and it also includes"
+                  "text": "forests—and,"
                 }
               ],
-              "correct": "B",
+              "correct": "A",
               "keySource": "paper",
-              "rationale": "The original sentence contains a comma splice, joining two independent clauses with only a comma. A semicolon is used correctly here to separate two independent clauses that are closely related in meaning without creating a comma splice.",
+              "rationale": "Choice A is correct because a semicolon connects the two independent clauses without creating a comma splice (Choice B).",
               "expectedPace": 70
             },
             {
               "id": "pt5-rw-m1-q20",
               "domain": "Standard English Conventions",
-              "skill": "Form, Structure, Sense",
-              "difficulty": "E",
+              "skill": "Form, Structure, and Sense",
+              "difficulty": "M",
               "html": false,
-              "stimulus": "The recent study on urban biodiversity suggest that green spaces, even small ones, play a crucial role in supporting local insect populations.",
-              "stem": "Which choice completes the text with the most logical and precise word or phrase?",
+              "stimulus": "A comprehensive meta-analysis of urban biodiversity studies ______ that green roofs and pocket parks provide critical stepping-stone corridors for native pollinator populations.",
+              "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "suggest"
+                  "text": "suggests"
                 },
                 {
                   "id": "B",
-                  "text": "suggests"
+                  "text": "suggest"
                 },
                 {
                   "id": "C",
@@ -655,73 +655,73 @@
                   "text": "have suggested"
                 }
               ],
-              "correct": "B",
+              "correct": "A",
               "keySource": "paper",
-              "rationale": "The subject of the sentence is 'The recent study,' which is singular. Therefore, the verb must also be singular, 'suggests,' to maintain subject-verb agreement.",
+              "rationale": "Choice A is correct because the subject is 'A comprehensive meta-analysis' (singular), which requires the singular verb 'suggests.' Choices B, C, and D are plural verbs.",
               "expectedPace": 70
             },
             {
               "id": "pt5-rw-m1-q21",
               "domain": "Standard English Conventions",
-              "skill": "Form, Structure, Sense",
+              "skill": "Form, Structure, and Sense",
               "difficulty": "M",
               "html": false,
-              "stimulus": "Known for its vibrant colors and intricate patterns, the monarch butterfly's migration spans thousands of miles, traveling from Canada and the United States to Mexico.",
-              "stem": "Which choice best improves the underlined portion of the sentence?",
+              "stimulus": "Decorated with iridescent wing scales that reflect ultraviolet sunlight, ______ as they navigate across the subalpine valleys of the Sierra Nevada.",
+              "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "Known for its vibrant colors and intricate patterns, the monarch butterfly's migration"
+                  "text": "alpine butterflies evade avian predators"
                 },
                 {
                   "id": "B",
-                  "text": "Known for its vibrant colors and intricate patterns, the monarch butterfly"
+                  "text": "the flight of alpine butterflies confuses predators"
                 },
                 {
                   "id": "C",
-                  "text": "The monarch butterfly's migration, known for its vibrant colors and intricate patterns,"
+                  "text": "predators are evaded by alpine butterflies"
                 },
                 {
                   "id": "D",
-                  "text": "With its vibrant colors and intricate patterns, the monarch butterfly's migration"
+                  "text": "it is common for alpine butterflies to evade predators"
                 }
               ],
-              "correct": "B",
+              "correct": "A",
               "keySource": "paper",
-              "rationale": "The introductory phrase 'Known for its vibrant colors and intricate patterns' modifies the monarch butterfly itself, not its migration. Choice B correctly places the subject 'the monarch butterfly' immediately after the modifying phrase, resolving the dangling modifier.",
+              "rationale": "Choice A is correct because the entity described by 'Decorated with iridescent wing scales...' must be 'alpine butterflies.' Choices B, C, and D misplace the modifier.",
               "expectedPace": 70
             },
             {
               "id": "pt5-rw-m1-q22",
               "domain": "Standard English Conventions",
-              "skill": "Form, Structure, Sense",
-              "difficulty": "H",
+              "skill": "Form, Structure, and Sense",
+              "difficulty": "M",
               "html": false,
-              "stimulus": "Before the invention of the printing press, books were painstakingly copied by hand, a process that made them rare and expensive; consequently, literacy rates remain low.",
-              "stem": "Which choice best maintains the tense consistency of the sentence?",
+              "stimulus": "Before the advent of movable ceramic and metal type in medieval East Asia, scribes painstakingly transcribed Buddhist sutras by hand, a labor-intensive tradition that ______ each scroll a precious commodity.",
+              "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "remain"
+                  "text": "made"
                 },
                 {
                   "id": "B",
-                  "text": "remains"
+                  "text": "makes"
                 },
                 {
                   "id": "C",
-                  "text": "had remained"
+                  "text": "has made"
                 },
                 {
                   "id": "D",
-                  "text": "remained"
+                  "text": "will make"
                 }
               ],
-              "correct": "D",
+              "correct": "A",
               "keySource": "paper",
-              "rationale": "The sentence describes historical events ('were painstakingly copied,' 'made them rare and expensive'). Therefore, the verb describing the consequence of these past events ('literacy rates') should also be in the past tense ('remained') to maintain tense consistency.",
+              "rationale": "Choice A is correct because the past-tense verb 'made' maintains temporal consistency with the past-tense matrix clause 'scribes painstakingly transcribed.' Choices B, C, and D use non-past tenses.",
               "expectedPace": 70
             },
             {
@@ -1376,63 +1376,63 @@
                 "skill": "Boundaries",
                 "difficulty": "E",
                 "html": false,
-                "stimulus": "The ancient Egyptians were skilled engineers they built monumental structures like the pyramids that still stand today.",
-                "stem": "Which choice uses punctuation correctly to combine or separate the sentences?",
+                "stimulus": "Ancient Egyptian architects possessed remarkable surveying ______ they aligned the base of the Great Pyramid of Giza to true north with an accuracy of within four minutes of arc.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "The ancient Egyptians were skilled engineers; they built monumental structures like the pyramids that still stand today."
+                    "text": "precision;"
                   },
                   {
                     "id": "B",
-                    "text": "The ancient Egyptians were skilled engineers, they built monumental structures like the pyramids that still stand today."
+                    "text": "precision,"
                   },
                   {
                     "id": "C",
-                    "text": "The ancient Egyptians were skilled engineers: they built monumental structures like the pyramids that still stand today."
+                    "text": "precision"
                   },
                   {
                     "id": "D",
-                    "text": "The ancient Egyptians were skilled engineers they built monumental structures, like the pyramids that still stand today."
+                    "text": "precision: and"
                   }
                 ],
                 "correct": "A",
                 "keySource": "paper",
-                "rationale": "Choice A correctly uses a semicolon to join two independent clauses that are closely related in meaning. Choices B and D create comma splices or run-on sentences, and choice C uses a colon incorrectly between two independent clauses without a list or explanation following.",
+                "rationale": "Choice A is correct because a semicolon connects the two independent clauses without creating a comma splice.",
                 "expectedPace": 70
               },
               {
                 "id": "pt5-rw-m2l-q17",
                 "domain": "Standard English Conventions",
-                "skill": "Boundaries",
-                "difficulty": "E",
+                "skill": "Boundaries and Syntax",
+                "difficulty": "M",
                 "html": false,
-                "stimulus": "The recipe calls for several ingredients flour, sugar, eggs, and milk.",
-                "stem": "Which choice uses punctuation correctly?",
+                "stimulus": "In materials science, metamaterials possess engineered properties that do not occur in nature _______ their microstructures can bend electromagnetic waves around objects, rendering them undetectable to specific radar wavelengths.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "The recipe calls for several ingredients: flour, sugar, eggs, and milk."
+                    "text": "for example,"
                   },
                   {
                     "id": "B",
-                    "text": "The recipe calls for several ingredients; flour, sugar, eggs, and milk."
+                    "text": "for example:"
                   },
                   {
                     "id": "C",
-                    "text": "The recipe calls for several ingredients—flour, sugar, eggs, and milk."
+                    "text": "for example;"
                   },
                   {
                     "id": "D",
-                    "text": "The recipe calls for several ingredients, flour, sugar, eggs, and milk."
+                    "text": "for example"
                   }
                 ],
-                "correct": "A",
+                "correct": "B",
+                "rationale": "Choice B is correct. A colon introduces an independent clause that gives a specific, illustrative example of the preceding general claim.",
                 "keySource": "paper",
-                "rationale": "Choice A correctly uses a colon to introduce a list of items following an independent clause. Choices B and D use incorrect punctuation for introducing a list, and choice C uses a dash incorrectly in this context.",
-                "expectedPace": 70
+                "expectedPace": 45
               },
               {
                 "id": "pt5-rw-m2l-q18",
@@ -1440,159 +1440,159 @@
                 "skill": "Boundaries",
                 "difficulty": "E",
                 "html": false,
-                "stimulus": "Many artists are inspired by nature its beauty and complexity offer endless possibilities for creative expression.",
-                "stem": "Which choice uses punctuation correctly to combine or separate the sentences?",
+                "stimulus": "Naturalist John Muir argued that wilderness landscapes possessed inherent aesthetic and spiritual ______ they should be protected from commercial resource extraction.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "Many artists are inspired by nature, its beauty and complexity offer endless possibilities for creative expression."
+                    "text": "value, and"
                   },
                   {
                     "id": "B",
-                    "text": "Many artists are inspired by nature—its beauty and complexity offer endless possibilities for creative expression."
+                    "text": "value; and,"
                   },
                   {
                     "id": "C",
-                    "text": "Many artists are inspired by nature; its beauty and complexity offer endless possibilities for creative expression."
+                    "text": "value"
                   },
                   {
                     "id": "D",
-                    "text": "Many artists are inspired by nature: its beauty and complexity offer endless possibilities for creative expression."
+                    "text": "value, so that"
                   }
                 ],
-                "correct": "B",
+                "correct": "A",
                 "keySource": "paper",
-                "rationale": "Choice B correctly uses an em dash to introduce an explanation or elaboration of the preceding clause. Choice A creates a comma splice, and choices C and D are grammatically permissible but less stylistically appropriate for the explanatory relationship.",
+                "rationale": "Choice A is correct because a comma combined with the coordinating conjunction 'and' properly joins the two independent clauses.",
                 "expectedPace": 70
               },
               {
                 "id": "pt5-rw-m2l-q19",
                 "domain": "Standard English Conventions",
-                "skill": "Boundaries",
-                "difficulty": "E",
+                "skill": "Boundaries and Syntax",
+                "difficulty": "M",
                 "html": false,
-                "stimulus": "The old house stood on a hill overlooking the town it had been vacant for years.",
-                "stem": "Which choice correctly punctuates the sentence?",
+                "stimulus": "Urban planners studying traffic congestion in Singapore observed that dynamic toll pricing curtailed peak-hour congestion by 16 _______ commuters shifted travel times or opted for mass transit alternatives.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "The old house stood on a hill overlooking the town, it had been vacant for years."
+                    "text": "percent, because"
                   },
                   {
                     "id": "B",
-                    "text": "The old house stood on a hill overlooking the town; it had been vacant for years."
+                    "text": "percent; because"
                   },
                   {
                     "id": "C",
-                    "text": "The old house stood on a hill overlooking the town it had been vacant for years."
+                    "text": "percent:"
                   },
                   {
                     "id": "D",
-                    "text": "The old house stood on a hill overlooking the town: it had been vacant for years."
+                    "text": "percent,"
                   }
                 ],
-                "correct": "B",
+                "correct": "A",
+                "rationale": "Choice A is correct. A comma followed by the subordinating conjunction 'because' properly links the independent clause to the dependent causal clause.",
                 "keySource": "paper",
-                "rationale": "Choice B correctly uses a semicolon to join two independent clauses that are closely related in meaning. Choice A creates a comma splice, and choice C is a run-on sentence. Choice D uses a colon incorrectly.",
-                "expectedPace": 70
+                "expectedPace": 45
               },
               {
                 "id": "pt5-rw-m2l-q20",
                 "domain": "Standard English Conventions",
-                "skill": "Form, Structure, Sense",
-                "difficulty": "E",
+                "skill": "Boundaries and Syntax",
+                "difficulty": "M",
                 "html": false,
-                "stimulus": "The committee members, after much deliberation, decides to postpone the vote until next month.",
-                "stem": "Which choice best corrects the underlined portion of the sentence?",
+                "stimulus": "A team of behavioral economists at Stanford University, examining retirement savings behavior across several corporate _______ that automatic enrollment nudges increased employee participation rates from 59 percent to over 85 percent.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "decides"
+                    "text": "plans, discovered"
                   },
                   {
                     "id": "B",
-                    "text": "decide"
+                    "text": "plans; discovered"
                   },
                   {
                     "id": "C",
-                    "text": "has decided"
+                    "text": "plans discovered,"
                   },
                   {
                     "id": "D",
-                    "text": "deciding"
+                    "text": "plans, discovering"
                   }
                 ],
-                "correct": "B",
+                "correct": "A",
+                "rationale": "Choice A is correct. A comma is required to close the nonessential participial phrase 'examining retirement savings behavior across several corporate plans' before the main verb 'discovered'.",
                 "keySource": "paper",
-                "rationale": "The subject of the sentence is 'members,' which is plural. Therefore, the verb must also be plural. 'Decide' correctly agrees with the plural subject.",
-                "expectedPace": 70
+                "expectedPace": 45
               },
               {
                 "id": "pt5-rw-m2l-q21",
                 "domain": "Standard English Conventions",
-                "skill": "Form, Structure, Sense",
-                "difficulty": "E",
+                "skill": "Boundaries and Syntax",
+                "difficulty": "M",
                 "html": false,
-                "stimulus": "Running quickly, the finish line was crossed by the athlete.",
-                "stem": "Which choice best corrects the underlined portion of the sentence?",
+                "stimulus": "Long-term monitoring of coral bleaching events on the Great Barrier Reef indicates that thermal stress during marine heatwaves _______ the symbiotic relationship between corals and their photosynthetic zooxanthellae.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "Running quickly, the finish line was crossed by the athlete."
+                    "text": "disrupts"
                   },
                   {
                     "id": "B",
-                    "text": "Running quickly, the athlete crossed the finish line."
+                    "text": "disrupting"
                   },
                   {
                     "id": "C",
-                    "text": "The finish line was crossed quickly by the athlete, running."
+                    "text": "to disrupt"
                   },
                   {
                     "id": "D",
-                    "text": "The athlete, running quickly, the finish line was crossed."
+                    "text": "have disrupted"
                   }
                 ],
-                "correct": "B",
+                "correct": "A",
+                "rationale": "Choice A is correct. The singular subject 'thermal stress' requires the singular present verb 'disrupts' in the noun clause.",
                 "keySource": "paper",
-                "rationale": "Choice B corrects the dangling modifier. The phrase 'Running quickly' should modify 'the athlete,' not 'the finish line.' This revision places the athlete as the subject immediately after the introductory phrase.",
-                "expectedPace": 70
+                "expectedPace": 45
               },
               {
                 "id": "pt5-rw-m2l-q22",
                 "domain": "Standard English Conventions",
-                "skill": "Form, Structure, Sense",
-                "difficulty": "E",
+                "skill": "Boundaries and Syntax",
+                "difficulty": "M",
                 "html": false,
-                "stimulus": "Yesterday, I walk to the store and bought some groceries.",
-                "stem": "Which choice best corrects the underlined portion of the sentence?",
+                "stimulus": "Having conducted rigorous isotopic analysis of fossilized tooth enamel from Neanderthal and anatomically modern human specimens in the Levant, _______ that both species occupied overlapping ecological niches during the late Pleistocene epoch.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "walk"
+                    "text": "paleoanthropologists concluded"
                   },
                   {
                     "id": "B",
-                    "text": "walked"
+                    "text": "the conclusion of paleoanthropologists was"
                   },
                   {
                     "id": "C",
-                    "text": "will walk"
+                    "text": "it was concluded by paleoanthropologists"
                   },
                   {
                     "id": "D",
-                    "text": "had walked"
+                    "text": "evidence analyzed by paleoanthropologists showed"
                   }
                 ],
-                "correct": "B",
+                "correct": "A",
+                "rationale": "Choice A is correct. The introductory modifier 'Having conducted rigorous isotopic analysis...' must modify 'paleoanthropologists', the researchers who performed the isotopic analysis.",
                 "keySource": "paper",
-                "rationale": "The sentence begins with 'Yesterday,' indicating that the action took place in the past. Therefore, the verb 'walk' needs to be in the past tense, 'walked,' to maintain tense consistency with 'bought'.",
-                "expectedPace": 70
+                "expectedPace": 45
               },
               {
                 "id": "pt5-rw-m2l-q23",
@@ -2245,30 +2245,30 @@
                 "skill": "Boundaries",
                 "difficulty": "H",
                 "html": false,
-                "stimulus": "The renowned astrophysicist, Dr. Aris Thorne, presented his groundbreaking theory on dark matter distribution at the conference; his presentation, though dense with complex equations, captivated the audience.",
-                "stem": "Which choice uses punctuation in a way that is consistent with the example provided?",
+                "stimulus": "Theoretical astrophysicist Dr. Aris Thorne delivered a lecture on primordial black hole nucleosynthesis at the Cambridge ______ his remarks, dense with non-equilibrium thermodynamic equations, captivated the assembled cosmologists.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "The antique manuscript, discovered in a forgotten library vault; contained cryptic symbols and an unknown language."
+                    "text": "colloquium;"
                   },
                   {
                     "id": "B",
-                    "text": "The intricate mosaic, a testament to ancient artistry; depicted scenes of mythical beasts and divine rituals."
+                    "text": "colloquium,"
                   },
                   {
                     "id": "C",
-                    "text": "The experimental drug showed promising results in preliminary trials; however, further testing is required to confirm its efficacy and safety."
+                    "text": "colloquium"
                   },
                   {
                     "id": "D",
-                    "text": "The dense fog, which had enveloped the coastal town all morning; finally began to lift in the late afternoon."
+                    "text": "colloquium:"
                   }
                 ],
-                "correct": "C",
+                "correct": "A",
                 "keySource": "paper",
-                "rationale": "The example uses a semicolon to correctly separate two independent clauses that are closely related in meaning. Choice C also uses a semicolon correctly to separate two independent clauses, where the second clause begins with a conjunctive adverb ('however').",
+                "rationale": "Choice A is correct because a semicolon connects two complete, balanced independent clauses without creating a comma splice.",
                 "expectedPace": 70
               },
               {
@@ -2277,30 +2277,30 @@
                 "skill": "Boundaries",
                 "difficulty": "H",
                 "html": false,
-                "stimulus": "The philosopher's central argument—that consciousness is an emergent property of complex neural networks—has been widely debated among neuroscientists and cognitive psychologists.",
-                "stem": "Which choice uses punctuation in a way that is consistent with the example provided?",
+                "stimulus": "The philosopher's central contention—that consciousness arises as an emergent property of self-referential neural networks—______ heated controversy among dualists and functionalists alike.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "The newly discovered species—a bioluminescent deep-sea fish—exhibited a unique predatory adaptation."
+                    "text": "ignited"
                   },
                   {
                     "id": "B",
-                    "text": "The ancient ruins—though extensively excavated—still held many secrets about the civilization that built them."
+                    "text": ", ignited"
                   },
                   {
                     "id": "C",
-                    "text": "The complex algorithm—designed to predict market fluctuations—required immense computational power."
+                    "text": "—ignited"
                   },
                   {
                     "id": "D",
-                    "text": "All of the above."
+                    "text": "; ignited"
                   }
                 ],
-                "correct": "D",
+                "correct": "A",
                 "keySource": "paper",
-                "rationale": "The example uses a pair of dashes to set off a non-essential phrase that provides additional information or explanation. All options A, B, and C correctly use dashes in the same manner to set off parenthetical or explanatory phrases.",
+                "rationale": "Choice A is correct because the parenthetical em-dash clause has already closed ('networks—'), so the main verb 'ignited' should follow directly without superfluous punctuation.",
                 "expectedPace": 70
               },
               {
@@ -2309,30 +2309,30 @@
                 "skill": "Boundaries",
                 "difficulty": "H",
                 "html": false,
-                "stimulus": "The expedition team faced numerous challenges: treacherous terrain, unpredictable weather, and dwindling supplies.",
-                "stem": "Which choice uses punctuation in a way that is consistent with the example provided?",
+                "stimulus": "Oceanographers deploying benthic landers into the Kermadec Trench documented three distinct deep-sea ______ amphipod gigantism, endemic hadal snailfish species, and dense bacterial mats metabolizing hydrothermal methane.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "The scientist listed the necessary equipment for the experiment; a centrifuge, a spectrophotometer, and various reagents."
+                    "text": "phenomena:"
                   },
                   {
                     "id": "B",
-                    "text": "The curator highlighted the key characteristics of Baroque art: dramatic intensity, elaborate ornamentation, and emotional exuberance."
+                    "text": "phenomena;"
                   },
                   {
                     "id": "C",
-                    "text": "The ancient prophecy foretold three omens—a comet, a drought, and a king's demise."
+                    "text": "phenomena,"
                   },
                   {
                     "id": "D",
-                    "text": "She had only one goal; to finish the marathon before sunset."
+                    "text": "phenomena"
                   }
                 ],
-                "correct": "B",
+                "correct": "A",
                 "keySource": "paper",
-                "rationale": "The example uses a colon to introduce a list of items that elaborates on the preceding independent clause. Choice B similarly uses a colon to introduce a list of characteristics that further define 'key characteristics of Baroque art'.",
+                "rationale": "Choice A is correct because a colon introduces an explanatory series after an independent clause.",
                 "expectedPace": 70
               },
               {
@@ -2341,126 +2341,126 @@
                 "skill": "Boundaries",
                 "difficulty": "H",
                 "html": false,
-                "stimulus": "The intricate lacework required immense patience, the artisan spent months perfecting each delicate pattern.",
-                "stem": "Which choice corrects the comma splice in the example provided?",
+                "stimulus": "The intricate silver filigree on the Byzantine reliquary required exceptional metallurgic ______ the goldsmith spent months drawing and soldering individual wires thinner than human hair.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "The intricate lacework required immense patience; the artisan spent months perfecting each delicate pattern."
+                    "text": "finesse;"
                   },
                   {
                     "id": "B",
-                    "text": "The intricate lacework required immense patience, and the artisan spent months perfecting each delicate pattern."
+                    "text": "finesse,"
                   },
                   {
                     "id": "C",
-                    "text": "Because the intricate lacework required immense patience, the artisan spent months perfecting each delicate pattern."
+                    "text": "finesse"
                   },
                   {
                     "id": "D",
-                    "text": "All of the above."
+                    "text": "finesse: and"
                   }
                 ],
-                "correct": "D",
+                "correct": "A",
                 "keySource": "paper",
-                "rationale": "The original sentence contains a comma splice, incorrectly joining two independent clauses with only a comma. All options A, B, and C correctly resolve this: A uses a semicolon, B uses a comma and a coordinating conjunction, and C subordinates one clause, making it a complex sentence.",
+                "rationale": "Choice A is correct because a semicolon connects the two independent clauses without a comma splice.",
                 "expectedPace": 70
               },
               {
                 "id": "pt5-rw-m2u-q20",
                 "domain": "Standard English Conventions",
-                "skill": "Form, Structure, Sense",
+                "skill": "Form, Structure, and Sense",
                 "difficulty": "H",
                 "html": false,
-                "stimulus": "Neither of the proposed solutions to the energy crisis were deemed viable by the expert panel.",
-                "stem": "Which choice corrects the error in subject-verb agreement in the example provided?",
+                "stimulus": "Neither of the proposed geotechnical interventions to reinforce the subsiding Venetian sea ______ deemed structurally feasible by the engineering commission.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "Neither of the proposed solutions to the energy crisis was deemed viable by the expert panel."
+                    "text": "walls was"
                   },
                   {
                     "id": "B",
-                    "text": "Neither of the proposed solutions to the energy crisis are deemed viable by the expert panel."
+                    "text": "walls were"
                   },
                   {
                     "id": "C",
-                    "text": "Neither of the proposed solutions to the energy crisis have been deemed viable by the expert panel."
+                    "text": "walls are"
                   },
                   {
                     "id": "D",
-                    "text": "Neither of the proposed solutions to the energy crisis being deemed viable by the expert panel."
+                    "text": "walls have been"
                   }
                 ],
                 "correct": "A",
                 "keySource": "paper",
-                "rationale": "The subject 'Neither' is singular, so it requires a singular verb. 'Was' (choice A) is the correct singular past tense verb, correcting the original error where 'were' was used.",
+                "rationale": "Choice A is correct because 'Neither' is an indefinite pronoun that takes a singular verb ('was') when followed by a prepositional phrase ('of the proposed geotechnical interventions...'). Choices B, C, and D use plural verbs.",
                 "expectedPace": 70
               },
               {
                 "id": "pt5-rw-m2u-q21",
                 "domain": "Standard English Conventions",
-                "skill": "Form, Structure, Sense",
+                "skill": "Form, Structure, and Sense",
                 "difficulty": "H",
                 "html": false,
-                "stimulus": "Having been thoroughly researched and meticulously documented, the historian published her definitive work on the Byzantine Empire.",
-                "stem": "Which choice corrects the dangling modifier in the example provided?",
+                "stimulus": "Having spent years cataloging rare Greek manuscripts preserved in monastic scriptoria, ______ a groundbreaking monograph detailing the evolution of Byzantine minuscule script.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "Having been thoroughly researched and meticulously documented, the definitive work on the Byzantine Empire was published by the historian."
+                    "text": "paleographer Maria Kontos published"
                   },
                   {
                     "id": "B",
-                    "text": "Thoroughly researched and meticulously documented, the historian published her definitive work on the Byzantine Empire."
+                    "text": "the publication of a monograph was achieved by paleographer Maria Kontos,"
                   },
                   {
                     "id": "C",
-                    "text": "The historian published her definitive work on the Byzantine Empire, having been thoroughly researched and meticulously documented."
+                    "text": "it was possible for paleographer Maria Kontos to publish"
                   },
                   {
                     "id": "D",
-                    "text": "After thoroughly researching and meticulously documenting it, the historian published her definitive work on the Byzantine Empire."
+                    "text": "paleographer Maria Kontos's monograph was published,"
                   }
                 ],
-                "correct": "D",
+                "correct": "A",
                 "keySource": "paper",
-                "rationale": "The original sentence has a dangling modifier because 'Having been thoroughly researched and meticulously documented' incorrectly modifies 'the historian' instead of 'the definitive work'. Choice D correctly places the subject 'the historian' after a clear introductory clause that specifies what was researched and documented.",
+                "rationale": "Choice A is correct because the subject following the introductory participial phrase must be the person who cataloged the manuscripts ('paleographer Maria Kontos').",
                 "expectedPace": 70
               },
               {
                 "id": "pt5-rw-m2u-q22",
                 "domain": "Standard English Conventions",
-                "skill": "Form, Structure, Sense",
+                "skill": "Form, Structure, and Sense",
                 "difficulty": "H",
                 "html": false,
-                "stimulus": "Before the advent of modern refrigeration, preserving food for extended periods posed significant challenges, and people relied on methods such as salting, smoking, and pickling.",
-                "stem": "Which choice maintains the most logical and consistent verb tense in the example provided?",
+                "stimulus": "Before the commercial development of mechanical refrigeration in the late nineteenth century, communities in temperate zones ______ ice harvested from frozen lakes and insulated in straw-lined cellars.",
+                "stem": "Which choice completes the text so that it conforms to the conventions of Standard English?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "Before the advent of modern refrigeration, preserving food for extended periods poses significant challenges, and people relied on methods such as salting, smoking, and pickling."
+                    "text": "stored"
                   },
                   {
                     "id": "B",
-                    "text": "Before the advent of modern refrigeration, preserving food for extended periods had posed significant challenges, and people rely on methods such as salting, smoking, and pickling."
+                    "text": "store"
                   },
                   {
                     "id": "C",
-                    "text": "Before the advent of modern refrigeration, preserving food for extended periods posed significant challenges, and people had relied on methods such as salting, smoking, and pickling."
+                    "text": "will store"
                   },
                   {
                     "id": "D",
-                    "text": "Before the advent of modern refrigeration, preserving food for extended periods posed significant challenges, and people relied on methods such as salting, smoking, and pickling."
+                    "text": "are storing"
                   }
                 ],
-                "correct": "D",
+                "correct": "A",
                 "keySource": "paper",
-                "rationale": "The original sentence already maintains consistent past tense ('posed' and 'relied') to describe historical events before modern refrigeration. All other options introduce tense shifts that make the sentence illogical or inconsistent.",
+                "rationale": "Choice A is correct because the simple past tense 'stored' agrees with the historical past time frame established by 'Before the commercial development of mechanical refrigeration...'",
                 "expectedPace": 70
               },
               {
@@ -2669,33 +2669,33 @@
             {
               "id": "pt5-math-m1-q02",
               "domain": "Algebra",
-              "skill": "Linear equations in one variable",
+              "skill": "Linear models in context",
               "difficulty": "E",
               "html": false,
-              "stem": "What value of y satisfies the equation 2(y - 3) = 10?",
-              "rationale": "First, divide both sides by 2 to get y - 3 = 5. Then, add 3 to both sides to find y = 8.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "A graphic design studio charges an initial client onboarding fee of $75 plus $45 per hour of design production. If a client was billed a total of $345, for how many hours of design work was the client charged?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "5"
+                  "text": "4"
                 },
                 {
                   "id": "B",
-                  "text": "6"
+                  "text": "5"
                 },
                 {
                   "id": "C",
-                  "text": "8"
+                  "text": "6"
                 },
                 {
                   "id": "D",
-                  "text": "13"
+                  "text": "8"
                 }
               ],
-              "correct": "C"
+              "correct": "C",
+              "rationale": "Set up $75 + 45h = 345 \\implies 45h = 270 \\implies h = 6$ hours.",
+              "keySource": "paper",
+              "expectedPace": 65
             },
             {
               "id": "pt5-math-m1-q03",
@@ -2731,64 +2731,64 @@
             {
               "id": "pt5-math-m1-q04",
               "domain": "Algebra",
-              "skill": "Systems of equations",
+              "skill": "Linear systems in context",
               "difficulty": "M",
               "html": false,
-              "stem": "If x + y = 7 and x - y = 3, what is the value of x?",
-              "rationale": "Adding the two equations (x + y) + (x - y) = 7 + 3 results in 2x = 10, so x = 5.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "A community recreation pool charges $8 per child and $14 per adult for day admission. On a Saturday afternoon, 120 visitors purchased admission, generating $1,320 in ticket revenue. How many children entered the pool?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "2"
+                  "text": "45"
                 },
                 {
                   "id": "B",
-                  "text": "3"
+                  "text": "50"
                 },
                 {
                   "id": "C",
-                  "text": "5"
+                  "text": "60"
                 },
                 {
                   "id": "D",
-                  "text": "10"
+                  "text": "75"
                 }
               ],
-              "correct": "C"
+              "correct": "C",
+              "rationale": "Let $c$ be children and $a$ be adults: $c + a = 120$ and $8c + 14a = 1320$. Substitute $a = 120 - c$: $8c + 14(120 - c) = 1320 \\implies 8c + 1680 - 14c = 1320 \\implies -6c = -360 \\implies c = 60$.",
+              "keySource": "paper",
+              "expectedPace": 75
             },
             {
               "id": "pt5-math-m1-q05",
               "domain": "Algebra",
-              "skill": "Linear equations in one variable",
-              "difficulty": "M",
+              "skill": "Linear equation structure",
+              "difficulty": "E",
               "html": false,
-              "stem": "For what value of k is 2k - 5 = 3k + 1?",
-              "rationale": "Subtract 2k from both sides to get -5 = k + 1, then subtract 1 from both sides to find k = -6.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "If $3(2x - 7) + 8 = 29$, what is the value of $2x - 7$?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "-6"
+                  "text": "5"
                 },
                 {
                   "id": "B",
-                  "text": "-4"
+                  "text": "7"
                 },
                 {
                   "id": "C",
-                  "text": "4"
+                  "text": "9"
                 },
                 {
                   "id": "D",
-                  "text": "6"
+                  "text": "11"
                 }
               ],
-              "correct": "A"
+              "correct": "B",
+              "rationale": "Subtract 8 from both sides: $3(2x - 7) = 21$. Divide by 3: $2x - 7 = 7$.",
+              "keySource": "paper",
+              "expectedPace": 60
             },
             {
               "id": "pt5-math-m1-q06",
@@ -2856,33 +2856,33 @@
             {
               "id": "pt5-math-m1-q08",
               "domain": "Advanced Math",
-              "skill": "Quadratics",
+              "skill": "Quadratic vertex coordinates",
               "difficulty": "M",
               "html": false,
-              "stem": "If f(x) = x^2 - 4x + 3, what is f(2)?",
-              "rationale": "Substitute x = 2 into the function: f(2) = (2)^2 - 4(2) + 3 = 4 - 8 + 3 = -1.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "For the quadratic function $g$, $g(x) = x^2 - 8x + c$. If the vertex of the graph of $g$ in the $xy$-plane has coordinates $(4, -7)$, what is the value of $c$?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "-1"
+                  "text": "-9"
                 },
                 {
                   "id": "B",
-                  "text": "0"
+                  "text": "7"
                 },
                 {
                   "id": "C",
-                  "text": "1"
+                  "text": "9"
                 },
                 {
                   "id": "D",
-                  "text": "3"
+                  "text": "16"
                 }
               ],
-              "correct": "A"
+              "correct": "C",
+              "rationale": "Substitute the vertex coordinates $(4, -7)$ into $g(x)$: $-7 = (4)^2 - 8(4) + c \\implies -7 = 16 - 32 + c \\implies -7 = -16 + c \\implies c = 9$.",
+              "keySource": "paper",
+              "expectedPace": 70
             },
             {
               "id": "pt5-math-m1-q09",
@@ -2890,7 +2890,7 @@
               "skill": "Polynomials",
               "difficulty": "M",
               "html": false,
-              "stem": "Which of the following is a factor of x^2 + 5x + 6?",
+              "stem": "Which of the following is a factor of $x^2 + 5x + 6$?",
               "rationale": "The quadratic expression factors into (x + 2)(x + 3), so (x + 2) is a factor.",
               "keySource": "paper",
               "expectedPace": 95,
@@ -2898,19 +2898,19 @@
               "choices": [
                 {
                   "id": "A",
-                  "text": "(x + 1)"
+                  "text": "$(x + 1)$"
                 },
                 {
                   "id": "B",
-                  "text": "(x + 2)"
+                  "text": "$(x + 2)$"
                 },
                 {
                   "id": "C",
-                  "text": "(x - 2)"
+                  "text": "$(x - 2)$"
                 },
                 {
                   "id": "D",
-                  "text": "(x - 3)"
+                  "text": "$(x - 3)$"
                 }
               ],
               "correct": "B"
@@ -3076,7 +3076,7 @@
               "skill": "Nonlinear functions",
               "difficulty": "M",
               "html": false,
-              "stem": "The function f(x) = x^2 - 6x + c has a minimum value of -5. What is the value of c?",
+              "stem": "The function f(x) = $x^2 - 6x + c$ has a minimum value of -5. What is the value of c?",
               "rationale": "The x-coordinate of the vertex of a parabola in the form ax^2 + bx + c is -b/(2a). For f(x) = x^2 - 6x + c, the x-coordinate of the vertex is -(-6)/(2*1) = 3. Substitute x = 3 into the function and set it equal to the minimum value: f(3) = (3)^2 - 6(3) + c = -5, which simplifies to 9 - 18 + c = -5, so -9 + c = -5, and c = 4.",
               "keySource": "paper",
               "expectedPace": 95,
@@ -3115,19 +3115,19 @@
               "choices": [
                 {
                   "id": "A",
-                  "text": "P(t) = 100 * (2)^(3t)"
+                  "text": "$P(t) = 100 2^(3t)$"
                 },
                 {
                   "id": "B",
-                  "text": "P(t) = 100 * (2)^(t/3)"
+                  "text": "$P(t) = 100 2^(t/3)$"
                 },
                 {
                   "id": "C",
-                  "text": "P(t) = 100 * (3)^(t/2)"
+                  "text": "$P(t) = 100 3^(t/2)$"
                 },
                 {
                   "id": "D",
-                  "text": "P(t) = 100 * (2t)^3"
+                  "text": "$P(t) = 100 (2t)^3$"
                 }
               ],
               "correct": "B"
@@ -3137,8 +3137,8 @@
               "domain": "Geometry and Trigonometry",
               "skill": "Circles, radians",
               "difficulty": "M",
-              "html": false,
-              "stem": "A circle has a radius of 5 units. What is the length of the arc subtended by a central angle of 2 radians?",
+              "html": true,
+              "stem": "In the figure shown, the circle has center $O$ and a radius of $5$ units. What is the length of the arc subtended by a central angle of $2$ radians?",
               "rationale": "The formula for arc length (s) when the angle is in radians is s = r * theta, where r is the radius and theta is the central angle. Given r = 5 and theta = 2 radians, s = 5 * 2 = 10 units.",
               "keySource": "paper",
               "expectedPace": 95,
@@ -3161,7 +3161,8 @@
                   "text": "20 units"
                 }
               ],
-              "correct": "C"
+              "correct": "C",
+              "stimulus": "<div class=\"sat-diagram my-4 flex flex-col items-center justify-center\"><svg viewBox=\"0 0 340 230\" xmlns=\"http://www.w3.org/2000/svg\" class=\"mx-auto block max-w-[340px] w-full h-auto rounded-lg border border-white/10 bg-[#141416] p-2\">\n  <circle cx=\"170\" cy=\"115\" r=\"75\" fill=\"none\" stroke=\"#52525b\" stroke-width=\"2\"/>\n  <circle cx=\"170\" cy=\"115\" r=\"4\" fill=\"#38bdf8\"/>\n  <line x1=\"170\" y1=\"115\" x2=\"245\" y2=\"115\" stroke=\"#38bdf8\" stroke-width=\"2\"/>\n  <line x1=\"170\" y1=\"115\" x2=\"138\" y2=\"47\" stroke=\"#38bdf8\" stroke-width=\"2\"/>\n  <path d=\"M 245 115 A 75 75 0 0 0 138 47\" fill=\"none\" stroke=\"#f43f5e\" stroke-width=\"3\"/>\n  <path d=\"M 195 115 A 25 25 0 0 0 159 92\" fill=\"none\" stroke=\"#38bdf8\" stroke-width=\"1.5\"/>\n  <text x=\"160\" y=\"132\" fill=\"#f4f4f5\" font-family=\"system-ui, sans-serif\" font-size=\"13\" font-weight=\"600\">O</text>\n  <text x=\"252\" y=\"120\" fill=\"#f4f4f5\" font-family=\"system-ui, sans-serif\" font-size=\"13\" font-weight=\"700\">A</text>\n  <text x=\"130\" y=\"42\" fill=\"#f4f4f5\" font-family=\"system-ui, sans-serif\" font-size=\"13\" font-weight=\"700\">B</text>\n  <text x=\"175\" y=\"98\" fill=\"#38bdf8\" font-family=\"system-ui, sans-serif\" font-size=\"12\" font-weight=\"600\">θ = 2 rad</text>\n  <text x=\"205\" y=\"130\" fill=\"#a1a1aa\" font-family=\"system-ui, sans-serif\" font-size=\"12\" font-weight=\"600\">r = 5</text>\n</svg><span class=\"mt-1 text-[11px] text-zinc-400\">Note: Figure not drawn to scale.</span></div>"
             },
             {
               "id": "pt5-math-m1-q18",
@@ -3180,18 +3181,18 @@
             },
             {
               "id": "pt5-math-m1-q19",
-              "domain": "Advanced Math",
-              "skill": "System of equations",
+              "domain": "Algebra",
+              "skill": "Linear functions (slope & intercept)",
               "difficulty": "M",
               "html": false,
-              "stem": "If 2x + y = 10 and x - y = 2, what is the value of x?",
-              "rationale": "Explanation not provided.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "The linear function $p$ satisfies $p(3) = 14$ and $p(7) = 30$. What is the value of $p(10)$?",
               "format": "spr",
               "accepted": [
-                "4"
-              ]
+                "42"
+              ],
+              "rationale": "The slope is $m = (30 - 14)/(7 - 3) = 16/4 = 4$. Using $p(x) = 4x + b$: $14 = 4(3) + b \\implies b = 2$. Therefore $p(10) = 4(10) + 2 = 42$.",
+              "keySource": "paper",
+              "expectedPace": 70
             },
             {
               "id": "pt5-math-m1-q20",
@@ -3230,7 +3231,7 @@
               "skill": "Functions",
               "difficulty": "M",
               "html": false,
-              "stem": "If f(x) = 3x^2 - 5, what is the value of f(2)?",
+              "stem": "If f(x) = $3x^2 - 5$, what is the value of f(2)?",
               "rationale": "Explanation not provided.",
               "keySource": "paper",
               "expectedPace": 95,
@@ -3442,19 +3443,19 @@
                 "choices": [
                   {
                     "id": "A",
-                    "text": "2x^2 + 5x - 12"
+                    "text": "$2x^2 + 5x - 12$"
                   },
                   {
                     "id": "B",
-                    "text": "2x^2 - 5x - 12"
+                    "text": "$2x^2 - 5x - 12$"
                   },
                   {
                     "id": "C",
-                    "text": "2x^2 + 8x - 12"
+                    "text": "$2x^2 + 8x - 12$"
                   },
                   {
                     "id": "D",
-                    "text": "2x^2 + 5x + 12"
+                    "text": "$2x^2 + 5x + 12$"
                   }
                 ],
                 "correct": "A",
@@ -3468,7 +3469,7 @@
                 "skill": "Quadratic equations (factoring)",
                 "difficulty": "M",
                 "html": false,
-                "stem": "Which of the following values of x is a solution to the equation x^2 - 4x - 12 = 0?",
+                "stem": "Which of the following values of x is a solution to the equation $x^2 - 4x - 12$ = 0?",
                 "choices": [
                   {
                     "id": "A",
@@ -3507,19 +3508,19 @@
                 "choices": [
                   {
                     "id": "A",
-                    "text": "x^2 + x - 6"
+                    "text": "$x^2 + x - 6$"
                   },
                   {
                     "id": "B",
-                    "text": "x^2 - x - 6"
+                    "text": "$x^2 - x - 6$"
                   },
                   {
                     "id": "C",
-                    "text": "x^2 + 5x - 6"
+                    "text": "$x^2 + 5x - 6$"
                   },
                   {
                     "id": "D",
-                    "text": "x^2 - 5x - 6"
+                    "text": "$x^2 - 5x - 6$"
                   }
                 ],
                 "correct": "A"
@@ -3530,7 +3531,7 @@
                 "skill": "Polynomials",
                 "difficulty": "M",
                 "html": false,
-                "stem": "If f(x) = x^2 + 2x - 1, what is the value of f(3)?",
+                "stem": "If f(x) = $x^2 + 2x - 1$, what is the value of f(3)?",
                 "rationale": "To find f(3), substitute x = 3 into the function: f(3) = (3)^2 + 2(3) - 1 = 9 + 6 - 1 = 14.",
                 "keySource": "paper",
                 "expectedPace": 95,
@@ -3685,7 +3686,7 @@
                 "skill": "Nonlinear functions",
                 "difficulty": "M",
                 "html": false,
-                "stem": "The function f(x) = x^2 - 4x + 3 is defined for all real numbers. Which of the following is an equivalent form of f(x) that displays its vertex as a constant or coefficient?",
+                "stem": "The function f(x) = $x^2 - 4x + 3$ is defined for all real numbers. Which of the following is an equivalent form of f(x) that displays its vertex as a constant or coefficient?",
                 "rationale": "To display the vertex, we complete the square. f(x) = (x^2 - 4x + 4) + 3 - 4 = (x - 2)^2 - 1, which shows the vertex at (2, -1).",
                 "keySource": "paper",
                 "expectedPace": 95,
@@ -3693,19 +3694,19 @@
                 "choices": [
                   {
                     "id": "A",
-                    "text": "f(x) = (x - 2)^2 - 1"
+                    "text": "$f(x) = (x - 2)^2 - 1$"
                   },
                   {
                     "id": "B",
-                    "text": "f(x) = (x - 3)(x - 1)"
+                    "text": "$f(x) = (x - 3)(x - 1)$"
                   },
                   {
                     "id": "C",
-                    "text": "f(x) = x(x - 4) + 3"
+                    "text": "$f(x) = x(x - 4) + 3$"
                   },
                   {
                     "id": "D",
-                    "text": "f(x) = (x + 2)^2 - 1"
+                    "text": "$f(x) = (x + 2)^2 - 1$"
                   }
                 ],
                 "correct": "A"
@@ -3724,19 +3725,19 @@
                 "choices": [
                   {
                     "id": "A",
-                    "text": "P(t) = 50 + 2t"
+                    "text": "$P(t) = 50 + 2t$"
                   },
                   {
                     "id": "B",
-                    "text": "P(t) = 50 * t^2"
+                    "text": "$P(t) = 50t^2$"
                   },
                   {
                     "id": "C",
-                    "text": "P(t) = 50 * 2^t"
+                    "text": "$P(t) = 50 2^t$"
                   },
                   {
                     "id": "D",
-                    "text": "P(t) = 2 * 50^t"
+                    "text": "$P(t) = 2 50^t$"
                   }
                 ],
                 "correct": "C"
@@ -3856,34 +3857,34 @@
             "items": [
               {
                 "id": "pt5-math-m2u-q01",
-                "domain": "Algebra",
-                "skill": "Linear equations in one variable",
+                "domain": "Advanced Math",
+                "skill": "Nonlinear system tangency",
                 "difficulty": "H",
                 "html": false,
-                "stem": "If 7(2x - 3) - 5x = 4(x + 1) + 2, what is the value of x?",
-                "rationale": "Expanding both sides gives 14x - 21 - 5x = 4x + 4 + 2. Simplifying yields 9x - 21 = 4x + 6. Subtracting 4x and adding 21 results in 5x = 27, so x = 27/5.",
-                "keySource": "paper",
-                "expectedPace": 95,
+                "stem": "In the $xy$-plane, the line $y = 3x + c$ intersects the parabola $y = 2x^2 - 5x + 11$ at exactly one point. What is the value of the constant $c$?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "27/5"
+                    "text": "-3"
                   },
                   {
                     "id": "B",
-                    "text": "23/5"
+                    "text": "1"
                   },
                   {
                     "id": "C",
-                    "text": "19/5"
+                    "text": "3"
                   },
                   {
                     "id": "D",
-                    "text": "17/5"
+                    "text": "5"
                   }
                 ],
-                "correct": "A"
+                "correct": "C",
+                "rationale": "Set equations equal: $2x^2 - 5x + 11 = 3x + c \\implies 2x^2 - 8x + (11 - c) = 0$. For exactly one intersection, the discriminant must be zero: $D = (-8)^2 - 4(2)(11 - c) = 0 \\implies 64 - 88 + 8c = 0 \\implies -24 + 8c = 0 \\implies c = 3$.",
+                "keySource": "paper",
+                "expectedPace": 85
               },
               {
                 "id": "pt5-math-m2u-q02",
@@ -3930,19 +3931,19 @@
                 "choices": [
                   {
                     "id": "A",
-                    "text": "6x + 10y = 24"
+                    "text": "$6x + 10y = 24$"
                   },
                   {
                     "id": "B",
-                    "text": "6x + 10y = 18"
+                    "text": "$6x + 10y = 18$"
                   },
                   {
                     "id": "C",
-                    "text": "5x + 3y = 12"
+                    "text": "$5x + 3y = 12$"
                   },
                   {
                     "id": "D",
-                    "text": "3x - 5y = 12"
+                    "text": "$3x - 5y = 12$"
                   }
                 ],
                 "correct": "B"
@@ -3980,34 +3981,34 @@
               },
               {
                 "id": "pt5-math-m2u-q05",
-                "domain": "Algebra",
-                "skill": "Linear equations in one variable",
+                "domain": "Advanced Math",
+                "skill": "Quadratic symmetry & evaluation",
                 "difficulty": "H",
                 "html": false,
-                "stem": "If (x - 2)/3 + (x + 1)/2 = 5, what is the value of x?",
-                "rationale": "Multiply the entire equation by the least common multiple of 3 and 2, which is 6. This gives 2(x - 2) + 3(x + 1) = 30. Expanding yields 2x - 4 + 3x + 3 = 30, which simplifies to 5x - 1 = 30. Adding 1 to both sides gives 5x = 31, so x = 31/5.",
-                "keySource": "paper",
-                "expectedPace": 95,
+                "stem": "The function $f$ is defined by $f(x) = a(x - 4)^2 + 12$, where $a$ is a constant. If $f(1) = -15$, what is the value of $f(7)$?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "27/5"
+                    "text": "-27"
                   },
                   {
                     "id": "B",
-                    "text": "29/5"
+                    "text": "-15"
                   },
                   {
                     "id": "C",
-                    "text": "31/5"
+                    "text": "12"
                   },
                   {
                     "id": "D",
-                    "text": "33/5"
+                    "text": "15"
                   }
                 ],
-                "correct": "C"
+                "correct": "B",
+                "rationale": "The parabola has axis of symmetry at $x = 4$. Notice that $x = 1$ and $x = 7$ are equidistant from $x = 4$ ($|1 - 4| = |7 - 4| = 3$). By the symmetry of quadratic functions, $f(7) = f(1) = -15$.",
+                "keySource": "paper",
+                "expectedPace": 75
               },
               {
                 "id": "pt5-math-m2u-q06",
@@ -4077,7 +4078,7 @@
                 "skill": "Quadratics",
                 "difficulty": "H",
                 "html": false,
-                "stem": "The equation of a parabola is given by y = x^2 - 6x + c. If the vertex of the parabola is (3, -5), what is the value of c?",
+                "stem": "The equation of a parabola is given by y = $x^2 - 6x + c$. If the vertex of the parabola is (3, -5), what is the value of c?",
                 "rationale": "The x-coordinate of the vertex of a parabola y = ax^2 + bx + c is given by -b/(2a). Here, x = -(-6)/(2*1) = 3, which matches the given vertex. To find c, substitute the vertex (3, -5) into the equation: -5 = (3)^2 - 6(3) + c. This simplifies to -5 = 9 - 18 + c, so -5 = -9 + c. Adding 9 to both sides gives c = 4.",
                 "keySource": "paper",
                 "expectedPace": 95,
@@ -4108,7 +4109,7 @@
                 "skill": "Polynomials",
                 "difficulty": "H",
                 "html": false,
-                "stem": "If (x - 2) is a factor of the polynomial P(x) = x^3 - kx^2 + 4x - 8, what is the value of k?",
+                "stem": "If (x - 2) is a factor of the polynomial P(x) = $x^3 - kx^2 + 4x - 8$, what is the value of k?",
                 "rationale": "According to the Factor Theorem, if (x - 2) is a factor of P(x), then P(2) must be equal to 0. Substituting x = 2 into the polynomial gives P(2) = (2)^3 - k(2)^2 + 4(2) - 8 = 0. This simplifies to 8 - 4k + 8 - 8 = 0, so 8 - 4k = 0. Thus, 4k = 8, and k = 2.",
                 "keySource": "paper",
                 "expectedPace": 95,
@@ -4139,7 +4140,7 @@
                 "skill": "Rational expressions",
                 "difficulty": "H",
                 "html": false,
-                "stem": "Which of the following is equivalent to (x^2 - 9)/(x^2 - 5x + 6) for x not equal to 2 or 3?",
+                "stem": "Which of the following is equivalent to ($x^2 - 9$)/($x^2 - 5x + 6$) for x not equal to 2 or 3?",
                 "rationale": "Factor the numerator and the denominator. The numerator is a difference of squares: x^2 - 9 = (x - 3)(x + 3). The denominator is a quadratic that factors to (x - 2)(x - 3). So the expression becomes [(x - 3)(x + 3)] / [(x - 2)(x - 3)]. Since x is not equal to 3, (x - 3) can be canceled, leaving (x + 3)/(x - 2).",
                 "keySource": "paper",
                 "expectedPace": 95,
@@ -4147,19 +4148,19 @@
                 "choices": [
                   {
                     "id": "A",
-                    "text": "(x + 3)/(x - 2)"
+                    "text": "$(x + 3)/(x - 2)$"
                   },
                   {
                     "id": "B",
-                    "text": "(x - 3)/(x - 2)"
+                    "text": "$(x - 3)/(x - 2)$"
                   },
                   {
                     "id": "C",
-                    "text": "(x + 3)/(x + 2)"
+                    "text": "$(x + 3)/(x + 2)$"
                   },
                   {
                     "id": "D",
-                    "text": "(x - 3)/(x + 2)"
+                    "text": "$(x - 3)/(x + 2)$"
                   }
                 ],
                 "correct": "A"
@@ -4170,7 +4171,7 @@
                 "skill": "Quadratics",
                 "difficulty": "H",
                 "html": false,
-                "stem": "The equation 2x^2 + 5x + c = 0 has exactly one real solution. What is the value of c?",
+                "stem": "The equation $2x^2 + 5x + c$ = 0 has exactly one real solution. What is the value of c?",
                 "rationale": "For a quadratic equation ax^2 + bx + c = 0 to have exactly one real solution, its discriminant (b^2 - 4ac) must be equal to 0. Here, a = 2, b = 5, and c = c. So, (5)^2 - 4(2)(c) = 0. This simplifies to 25 - 8c = 0. Therefore, 8c = 25, and c = 25/8.",
                 "keySource": "paper",
                 "expectedPace": 95,
@@ -4418,7 +4419,7 @@
                 "skill": "Quadratic equations",
                 "difficulty": "H",
                 "html": false,
-                "stem": "For the quadratic equation 2x^2 - 8x + c = 0, the product of the roots is 6. What is the value of c?",
+                "stem": "For the quadratic equation $2x^2 - 8x + c$ = 0, the product of the roots is 6. What is the value of c?",
                 "rationale": "For a quadratic equation in the form ax^2 + bx + c = 0, the product of the roots is given by c/a. In this equation, a=2. We are given that the product of the roots is 6. So, c/2 = 6. Multiplying both sides by 2 gives c = 12.",
                 "keySource": "paper",
                 "expectedPace": 95,
@@ -4449,7 +4450,7 @@
                 "skill": "Polynomials",
                 "difficulty": "H",
                 "html": false,
-                "stem": "If p(x) = x^3 - 2x^2 + 5x - 7, what is the remainder when p(x) is divided by x - 2?",
+                "stem": "If p(x) = $x^3 - 2x^2 + 5x - 7$, what is the remainder when p(x) is divided by x - 2?",
                 "rationale": "According to the Remainder Theorem, when a polynomial p(x) is divided by x - a, the remainder is p(a). In this case, a = 2. So, we need to calculate p(2). p(2) = (2)^3 - 2(2)^2 + 5(2) - 7 = 8 - 2(4) + 10 - 7 = 8 - 8 + 10 - 7 = 0 + 10 - 7 = 3. The remainder is 3.",
                 "keySource": "paper",
                 "expectedPace": 95,

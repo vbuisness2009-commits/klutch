@@ -198,10 +198,14 @@ async function synthesizeRwModule(
       stimulus: q.stimulus,
       stem: q.stem,
       format: "mc",
-      choices: (q.choices || []).map((c) => ({
-        id: c.label,
-        text: c.content,
-      })),
+      choices: (q.choices || []).map((c, cIdx) => {
+        const letter = (["A", "B", "C", "D"][cIdx] || "A") as "A" | "B" | "C" | "D";
+        const content = c.content || (c as any).text || (c.label && c.label.length > 2 ? c.label : "");
+        return {
+          id: letter,
+          text: content || String(c),
+        };
+      }),
       correct: q.correct || "A",
       keySource: "paper",
       rationale: q.rationale,
@@ -325,10 +329,14 @@ async function synthesizeMathModule(
       const mc: MultipleChoiceItem = {
         ...base,
         format: "mc",
-        choices: (q.choices || []).map((c) => ({
-          id: c.label,
-          text: c.content,
-        })),
+        choices: (q.choices || []).map((c, cIdx) => {
+          const letter = (["A", "B", "C", "D"][cIdx] || "A") as "A" | "B" | "C" | "D";
+          const content = c.content || (c as any).text || (c.label && c.label.length > 2 ? c.label : "");
+          return {
+            id: letter,
+            text: content || String(c),
+          };
+        }),
         correct: q.correct || "A",
       };
       item = mc;

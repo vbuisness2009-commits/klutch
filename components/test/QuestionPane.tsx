@@ -101,14 +101,17 @@ export function QuestionPane({
         </div>
       ) : (
         <ul className="mt-5 space-y-2">
-          {item.choices.map((c) => {
-            const struck = eliminated.includes(c.id);
-            const selected = response === c.id;
+          {item.choices.map((c, idx) => {
+            const letter = (LETTERS[idx] ?? c.id) as "A" | "B" | "C" | "D";
+            const choiceId = c.id && c.id.length <= 2 ? c.id : letter;
+            const choiceText = c.text || (c.id && c.id.length > 2 ? c.id : "");
+            const struck = eliminated.includes(choiceId);
+            const selected = response === choiceId;
             return (
-              <li key={c.id} className="flex items-stretch gap-2">
+              <li key={choiceId} className="flex items-stretch gap-2">
                 <button
                   type="button"
-                  onClick={() => onRespond(c.id)}
+                  onClick={() => onRespond(choiceId)}
                   disabled={struck}
                   aria-pressed={selected}
                   className={`flex flex-1 items-start gap-3 rounded border px-3.5 py-3 text-left transition ${
@@ -124,11 +127,11 @@ export function QuestionPane({
                         : "border-white/25 text-zinc-300"
                     }`}
                   >
-                    {c.id}
+                    {letter}
                   </span>
                   <Rich
                     html={item.html}
-                    content={c.text}
+                    content={choiceText}
                     as="span"
                     className={`text-[15px] leading-relaxed text-zinc-100 ${
                       struck ? "line-through" : ""
@@ -138,10 +141,10 @@ export function QuestionPane({
                 {eliminatorOn && (
                   <button
                     type="button"
-                    onClick={() => onToggleEliminate(c.id)}
-                    title={struck ? `Undo cross out ${c.id}` : `Cross out ${c.id}`}
+                    onClick={() => onToggleEliminate(choiceId)}
+                    title={struck ? `Undo cross out ${letter}` : `Cross out ${letter}`}
                     aria-label={
-                      struck ? `Undo cross out ${c.id}` : `Cross out ${c.id}`
+                      struck ? `Undo cross out ${letter}` : `Cross out ${letter}`
                     }
                     className={`w-10 flex-shrink-0 rounded border text-[12px] font-bold transition ${
                       struck
@@ -149,7 +152,7 @@ export function QuestionPane({
                         : "border-white/12 text-zinc-500 hover:text-white"
                     }`}
                   >
-                    {struck ? c.id : LETTERS[0] && "\u2014"}
+                    {struck ? letter : "\u2014"}
                   </button>
                 )}
               </li>

@@ -230,7 +230,7 @@ async function fetchMathBatch(
     ? "Module 1 (Routing Baseline): Ascending difficulty from foundational to intermediate. Algebra, quadratics, percentages, basic trig."
     : isUpper
     ? "Module 2 Upper (Hard Curve): Rigorous multi-step algebra, parametric systems (no/infinite solutions: ax+by=c), quadratic vertex form and discriminant constraints, completing the square on circle equations, trig cofunctions, and non-trivial SPRs."
-    : "Module 2 Lower (Foundational Curve): Single/two-step linear equations, direct proportions, Pythagorean theorem, right triangles.";
+    : "Module 2 Lower (Foundational Curve): Accessible high-school level SAT questions (Easy to Medium). Realistic word problems on linear models (slope and intercept in context), systems of equations with integer solutions, linear inequalities, percent change / ratios / rates, quadratic zeros by factoring, basic coordinate geometry and circle properties. Never generate elementary-school arithmetic or trivial 1-step problems.";
 
   const spec =
     part === 1
@@ -241,7 +241,7 @@ async function fetchMathBatch(
 - Q12-14: Problem-Solving and Data Analysis (Percentages, ratios, conditional probability)
 - Q15-16: Advanced Math (Nonlinear functions, exponential growth/decay)
 - Q17: Geometry and Trigonometry (Circles, radians, right triangle trig)
-- Q18-22: EXACTLY 5 questions Student-Produced Response (format: "spr", no choices, accepted: ["<exact>", "<decimal>"]). Covers Algebra, Advanced Math, and Geometry.`;
+- Q18-22: EXACTLY 5 questions Student-Produced Response (format: "spr", no choices array). "accepted" MUST be an array of actual numeric answer strings (e.g. ["7"], ["-4"], ["3/4", "0.75"]). NEVER use placeholders like "<exact>" or multiple-choice letters. Covers Algebra, Advanced Math, and Geometry.`;
 
   const prompt = `You are an elite Digital SAT Math test designer creating questions for ${label}.
 ${spec}

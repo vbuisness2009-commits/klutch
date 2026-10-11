@@ -7,7 +7,7 @@
   "scorable": true,
   "warnings": [],
   "uploadedAt": "2026-10-11T00:18:29.456Z",
-  "updatedAt": "2026-10-11T00:18:29.456Z",
+  "updatedAt": "2026-10-11T00:46:50.035Z",
   "form": {
     "id": "practice-test-3",
     "name": "Digital SAT Practice Test 3",
@@ -3340,33 +3340,33 @@
               {
                 "id": "pt3-math-m2l-q04",
                 "domain": "Algebra",
-                "skill": "Linear inequalities in one variable",
+                "skill": "Linear equations with fractions",
                 "difficulty": "E",
                 "html": false,
-                "stem": "If 3x - 5 < 10, which of the following is a possible value for x?",
-                "rationale": "Add 5 to both sides to get 3x < 15. Divide by 3 to find x < 5. The only choice that satisfies x < 5 is 4.",
-                "keySource": "paper",
-                "expectedPace": 95,
-                "format": "mc",
+                "stem": "If (x + 4)/2 = 9, what is the value of x?",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "4"
+                    "text": "14"
                   },
                   {
                     "id": "B",
-                    "text": "5"
+                    "text": "16"
                   },
                   {
                     "id": "C",
-                    "text": "6"
+                    "text": "18"
                   },
                   {
                     "id": "D",
-                    "text": "7"
+                    "text": "22"
                   }
                 ],
-                "correct": "A"
+                "correct": "A",
+                "rationale": "Multiply both sides by 2: x + 4 = 18. Subtract 4: x = 14.",
+                "keySource": "paper",
+                "expectedPace": 95,
+                "format": "mc"
               },
               {
                 "id": "pt3-math-m2l-q05",
@@ -3777,13 +3777,13 @@
                 "skill": "Circles",
                 "difficulty": "E",
                 "html": false,
-                "stem": "A circle has a radius of 5 units. What is the circumference of the circle?",
-                "rationale": "The circumference of a circle is given by the formula C = 2 * pi * r. With a radius of 5, the circumference is 2 * pi * 5 = 10pi.",
+                "stem": "A circle has a radius of 5 units. If the circumference of the circle is k*pi units, what is the value of k?",
+                "rationale": "The circumference of a circle is C = 2 * pi * r. With r = 5, C = 2 * pi * 5 = 10pi. Therefore, k = 10.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "B"
+                  "10"
                 ]
               },
               {
@@ -4384,13 +4384,13 @@
                 "skill": "Circles and radians",
                 "difficulty": "H",
                 "html": false,
-                "stem": "A circle has a radius of 12 units. An arc on this circle measures 4pi units. What is the measure of the central angle subtended by this arc, in radians?",
-                "rationale": "The formula for arc length (s) is s = r * theta, where r is the radius and theta is the central angle in radians. Given s = 4pi and r = 12, we have 4pi = 12 * theta. Dividing by 12 gives theta = 4pi / 12 = pi/3 radians.",
+                "stem": "A circle has a radius of 12 units. An arc on this circle measures 4pi units. If the measure of the central angle subtended by this arc is pi/k radians, what is the value of k?",
+                "rationale": "Arc length s = r * theta. Here 4pi = 12 * theta, so theta = 4pi / 12 = pi / 3. Comparing pi/3 to pi/k, we have k = 3.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "A"
+                  "3"
                 ]
               },
               {
@@ -4400,7 +4400,7 @@
                 "difficulty": "H",
                 "html": false,
                 "stem": "For the system of equations below, what is the value of x + y? \n3x - 2y = 10 \n2x + 5y = -2",
-                "rationale": "Multiply the first equation by 5 and the second equation by 2: 15x - 10y = 50 and 4x + 10y = -4. Add the two new equations: (15x - 10y) + (4x + 10y) = 50 + (-4), which simplifies to 19x = 46. So, x = 46/19. This is not leading to a simple integer. Let's recheck the question. Oh, it asks for x+y. \nMultiply the first equation by 2 and the second equation by 3: 6x - 4y = 20 and 6x + 15y = -6. Subtract the first new equation from the second: (6x + 15y) - (6x - 4y) = -6 - 20, which simplifies to 19y = -26. So y = -26/19. Substitute y back into 3x - 2y = 10: 3x - 2(-26/19) = 10 => 3x + 52/19 = 10 => 3x = 10 - 52/19 = (190 - 52)/19 = 138/19. So x = 138 / (19 * 3) = 46/19. Then x + y = 46/19 + (-26/19) = 20/19. This is not an integer. Let me adjust the problem to ensure an integer answer for x+y. \nLet's try to make x+y = 2. If x=2, y=0. Then 3(2)-2(0)=6, 2(2)+5(0)=4. So 3x-2y=6, 2x+5y=4. This works. \nFor the system of equations below, what is the value of x + y? \n3x - 2y = 6 \n2x + 5y = 4",
+                "rationale": "Multiply the first equation by 5 and the second equation by 2: 15x - 10y = 30 and 4x + 10y = 8. Adding the equations gives 19x = 38, so x = 2. Substituting into 3(2) - 2y = 6 yields y = 0. Therefore, x + y = 2 + 0 = 2.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
@@ -4410,17 +4410,17 @@
               },
               {
                 "id": "pt3-math-m2u-q20",
-                "domain": "Algebra",
-                "skill": "Systems of linear equations",
+                "domain": "Advanced Math",
+                "skill": "Quadratic functions (vertex)",
                 "difficulty": "H",
                 "html": false,
-                "stem": "For the system of equations below, what is the value of x + y? \n3x - 2y = 6 \n2x + 5y = 4",
-                "rationale": "Multiply the first equation by 5 and the second equation by 2: 15x - 10y = 30 and 4x + 10y = 8. Add the two new equations: (15x - 10y) + (4x + 10y) = 30 + 8, which simplifies to 19x = 38. So, x = 2. Substitute x = 2 into the first equation: 3(2) - 2y = 6 => 6 - 2y = 6 => -2y = 0 => y = 0. Therefore, x + y = 2 + 0 = 2.",
+                "stem": "The quadratic function f(x) = 2x^2 - 12x + 23 reaches its minimum value at (h, k). What is the value of k?",
+                "rationale": "The vertex x-coordinate is h = -b / (2a) = -(-12) / (2 * 2) = 12 / 4 = 3. Evaluating f(3) = 2(3)^2 - 12(3) + 23 = 18 - 36 + 23 = 5. Therefore, the minimum value k is 5.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "2"
+                  "5"
                 ]
               },
               {

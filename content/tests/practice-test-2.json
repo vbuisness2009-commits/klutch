@@ -7,7 +7,7 @@
   "scorable": true,
   "warnings": [],
   "uploadedAt": "2026-10-11T00:17:17.504Z",
-  "updatedAt": "2026-10-11T00:17:17.504Z",
+  "updatedAt": "2026-10-11T00:46:13.846Z",
   "form": {
     "id": "practice-test-2",
     "name": "Digital SAT Practice Test 2",
@@ -3773,16 +3773,16 @@
               {
                 "id": "pt2-math-m2l-q18",
                 "domain": "Algebra",
-                "skill": "Solving linear equations",
+                "skill": "Linear equations (intercepts)",
                 "difficulty": "E",
                 "html": false,
-                "stem": "If 5x - 7 = 18, what is the value of x?",
-                "rationale": "Add 7 to both sides: 5x = 25. Then divide by 5: x = 5.",
+                "stem": "Line p in the xy-plane has the equation 3x + 2y = 18. What is the y-intercept of line p?",
+                "rationale": "To find the y-intercept, set x = 0: 3(0) + 2y = 18, which gives 2y = 18, so y = 9.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "5"
+                  "9"
                 ]
               },
               {
@@ -3803,16 +3803,16 @@
               {
                 "id": "pt2-math-m2l-q20",
                 "domain": "Advanced Math",
-                "skill": "Function evaluation",
-                "difficulty": "E",
+                "skill": "Quadratic equations (factoring)",
+                "difficulty": "M",
                 "html": false,
-                "stem": "If f(x) = 2x + 3, what is the value of f(4)?",
-                "rationale": "Substitute x = 4 into the function: f(4) = 2(4) + 3 = 8 + 3 = 11.",
+                "stem": "If the positive solution to the equation x^2 - 11x + 28 = 0 is greater than 5, what is this solution?",
+                "rationale": "Factoring the quadratic gives (x - 4)(x - 7) = 0, so x = 4 or x = 7. The solution greater than 5 is 7.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "11"
+                  "7"
                 ]
               },
               {
@@ -4383,13 +4383,13 @@
                 "skill": "Nonlinear functions (exponential)",
                 "difficulty": "H",
                 "html": false,
-                "stem": "The number of bacteria in a colony is modeled by the function N(t) = 50 * (2)^(t/3), where t is the time in hours. Which of the following statements is true about the bacteria colony?",
-                "rationale": "In the exponential growth model N(t) = P * b^(t/k), P is the initial amount, b is the growth factor, and k is the time it takes for the growth factor to be applied. Here, P=50 (initial bacteria), b=2 (doubling), and k=3 (every 3 hours). Thus, the number of bacteria doubles every 3 hours.",
+                "stem": "The number of bacteria in a colony is modeled by the function N(t) = 50 * (2)^(t/3), where t is the time in hours. According to the model, after how many hours will the population of bacteria reach 400?",
+                "rationale": "Set N(t) = 400: 50 * (2)^(t/3) = 400. Divide by 50: (2)^(t/3) = 8. Since 8 = 2^3, we have t/3 = 3, so t = 9 hours.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "B"
+                  "9"
                 ]
               },
               {
@@ -4404,7 +4404,7 @@
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "B"
+                  "5"
                 ]
               },
               {
@@ -4413,13 +4413,13 @@
                 "skill": "Circles and radians",
                 "difficulty": "H",
                 "html": false,
-                "stem": "In a circle with center O, an arc subtends a central angle of 2pi/3 radians. If the length of the arc is 10pi, what is the area of the sector formed by this arc and the two radii?",
-                "rationale": "The arc length formula is s = r * theta. Given s = 10pi and theta = 2pi/3, we can find the radius: 10pi = r * (2pi/3) => r = 10pi * (3 / 2pi) = 15. The area of a sector is A = (1/2) * r^2 * theta. So, A = (1/2) * (15)^2 * (2pi/3) = (1/2) * 225 * (2pi/3) = 225pi/3 = 75pi.",
+                "stem": "In a circle with center O, an arc subtends a central angle of 2pi/3 radians. If the length of the arc is 10pi, the area of the sector formed by this arc is k*pi. What is the value of k?",
+                "rationale": "The arc length formula is s = r * theta. Given s = 10pi and theta = 2pi/3: r = 10pi / (2pi/3) = 15. The sector area is A = (1/2) * r^2 * theta = (1/2) * 225 * (2pi/3) = 75pi. Thus, k = 75.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "C"
+                  "75"
                 ]
               },
               {

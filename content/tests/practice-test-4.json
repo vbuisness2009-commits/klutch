@@ -7,7 +7,7 @@
   "scorable": true,
   "warnings": [],
   "uploadedAt": "2026-10-11T00:19:16.686Z",
-  "updatedAt": "2026-10-11T00:19:16.686Z",
+  "updatedAt": "2026-10-11T00:46:50.041Z",
   "form": {
     "id": "practice-test-4",
     "name": "Digital SAT Practice Test 4",
@@ -3626,30 +3626,30 @@
                 "skill": "Ratios and proportions",
                 "difficulty": "E",
                 "html": false,
-                "stem": "The ratio of red marbles to blue marbles in a bag is 3:5. If there are 24 red marbles, how many blue marbles are there?",
-                "rationale": "Set up the proportion 3/5 = 24/x. Cross-multiplying gives 3x = 5 * 24, so 3x = 120, which means x = 40 blue marbles.",
-                "keySource": "paper",
-                "expectedPace": 95,
-                "format": "mc",
+                "stem": "A recipe requires 4 cups of flour for every 3 cups of sugar. If a chef uses 12 cups of flour, how many cups of sugar should be used?",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "14"
+                    "text": "6"
                   },
                   {
                     "id": "B",
-                    "text": "30"
+                    "text": "8"
                   },
                   {
                     "id": "C",
-                    "text": "40"
+                    "text": "9"
                   },
                   {
                     "id": "D",
-                    "text": "72"
+                    "text": "16"
                   }
                 ],
-                "correct": "C"
+                "correct": "C",
+                "rationale": "Set up a proportion: 4/3 = 12/s. Cross-multiplying: 4s = 36, so s = 9 cups of sugar.",
+                "keySource": "paper",
+                "expectedPace": 95,
+                "format": "mc"
               },
               {
                 "id": "pt4-math-m2l-q14",
@@ -3778,46 +3778,46 @@
               {
                 "id": "pt4-math-m2l-q18",
                 "domain": "Algebra",
-                "skill": "Solving linear equations",
+                "skill": "Linear equations in context",
                 "difficulty": "E",
                 "html": false,
-                "stem": "If 5x - 7 = 23, what is the value of x?",
-                "rationale": "Explanation not provided.",
+                "stem": "A water tank starts with 150 gallons of water and drains at a constant rate of 6 gallons per minute. After how many minutes will exactly 42 gallons remain in the tank?",
+                "rationale": "Let m be minutes: 150 - 6m = 42. Subtract 150: -6m = -108. Divide by -6: m = 18 minutes.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "6"
+                  "18"
                 ]
               },
               {
                 "id": "pt4-math-m2l-q19",
-                "domain": "Advanced Math",
-                "skill": "Evaluating functions",
+                "domain": "Algebra",
+                "skill": "Linear equations in one variable",
                 "difficulty": "E",
                 "html": false,
-                "stem": "If f(x) = 3x + 4, what is the value of f(5)?",
-                "rationale": "Explanation not provided.",
+                "stem": "If (2x + 5)/3 = 7, what is the value of x?",
+                "rationale": "Multiply both sides by 3: 2x + 5 = 21. Subtract 5: 2x = 16. Divide by 2: x = 8.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "19"
+                  "8"
                 ]
               },
               {
                 "id": "pt4-math-m2l-q20",
                 "domain": "Geometry and Trigonometry",
                 "skill": "Pythagorean theorem",
-                "difficulty": "E",
+                "difficulty": "M",
                 "html": false,
-                "stem": "A right triangle has legs of length 6 and 8. What is the length of the hypotenuse?",
-                "rationale": "Explanation not provided.",
+                "stem": "In a right triangle, the length of the hypotenuse is 25 and the length of one leg is 15. What is the length of the other leg?",
+                "rationale": "By the Pythagorean theorem, a^2 + 15^2 = 25^2 => a^2 + 225 = 625 => a^2 = 400 => a = 20.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "10"
+                  "20"
                 ]
               },
               {
@@ -4394,7 +4394,7 @@
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "<exact>"
+                  "-2"
                 ]
               },
               {
@@ -4409,7 +4409,7 @@
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "<exact>"
+                  "1"
                 ]
               },
               {
@@ -4424,7 +4424,7 @@
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "<exact>"
+                  "12"
                 ]
               },
               {
@@ -4439,7 +4439,7 @@
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "<exact>"
+                  "-13"
                 ]
               },
               {
@@ -4448,13 +4448,13 @@
                 "skill": "Functions (Domain and Range)",
                 "difficulty": "H",
                 "html": false,
-                "stem": "What is the smallest integer value of x for which the expression sqrt(15 - 3x) is a real number?",
+                "stem": "What is the greatest integer value of x for which the expression sqrt(15 - 3x) is a real number?",
                 "rationale": "For the expression sqrt(15 - 3x) to be a real number, the radicand must be non-negative. So, 15 - 3x >= 0. Subtract 15 from both sides: -3x >= -15. Divide by -3 and reverse the inequality sign: x <= 5. The smallest integer value of x for which this condition is met is any integer less than or equal to 5. However, the question asks for the smallest integer *value of x for which the expression is a real number*, which implies finding the boundary. The smallest integer value for x that allows 15-3x to be non-negative is when x is as large as possible while still satisfying x <= 5. The question seems to imply finding the largest possible value of x to keep it a real number, or perhaps the wording is tricky and asks for the smallest integer *overall* that could be x. Assuming it implies the largest integer x that makes the expression real, that would be 5. If it means the smallest integer in the domain, then any integer x <= 5 would work, and there is no 'smallest'. Re-interpreting, it's likely asking for the largest integer x such that the expression is defined. So, x = 5. (If the question were 'What is the largest integer value of x...', it would be 5. If it means the smallest possible integer value that *can* be plugged in, then there isn't one. Given the context of Digital SAT SPR, it most likely means the largest integer value in the domain where the expression is real, i.e., the boundary point.) Let's assume the question meant 'largest integer value' or 'the integer value of x at the boundary of the domain'. x <= 5. The largest integer is 5. If it literally means 'smallest integer value of x', then the answer would be negative infinity, which is not an integer. This is a common phrasing that often implies the boundary. Let's assume it wants the largest integer value for x from the domain. The largest integer for x is 5.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "<exact>"
+                  "5"
                 ]
               }
             ]

@@ -5,6 +5,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { FeedbackChat } from "./FeedbackChat";
 import { attemptFromAnalytics } from "@/lib/attempts";
 import { saveAttempt, type SaveResult } from "@/lib/attemptsClient";
+import { formatMathHtml } from "@/lib/formatMath";
 import {
   HEURISTIC_NOTE,
   buildSessionAnalytics,
@@ -569,11 +570,12 @@ function RichBlock({
   content: string;
   className?: string;
 }) {
-  if (html) {
+  const formatted = formatMathHtml(content);
+  if (html || formatted.includes("katex") || formatted.includes("<span") || formatted.includes("<br")) {
     return (
       <div
-        className={`${className ?? ""} [&_p]:mb-2 [&_p:last-child]:mb-0 [&_table]:my-2 [&_td]:border [&_td]:border-white/15 [&_td]:px-2 [&_td]:py-1 [&_img]:my-2 [&_img]:mx-auto [&_img]:block [&_img]:max-h-[min(320px,50vh)] [&_img]:max-w-full [&_img]:rounded-md [&_img]:bg-white [&_img]:p-1.5`}
-        dangerouslySetInnerHTML={{ __html: content }}
+        className={`${className ?? ""} whitespace-pre-line [&_p]:mb-2 [&_p:last-child]:mb-0 [&_table]:my-2 [&_td]:border [&_td]:border-white/15 [&_td]:px-2 [&_td]:py-1 [&_img]:my-2 [&_img]:mx-auto [&_img]:block [&_img]:max-h-[min(320px,50vh)] [&_img]:max-w-full [&_img]:rounded-md [&_img]:bg-white [&_img]:p-1.5`}
+        dangerouslySetInnerHTML={{ __html: formatted }}
       />
     );
   }
@@ -619,7 +621,10 @@ function SolutionTabs({ solutions }: { solutions: SolutionPath[] }) {
         {path.steps.map((step, i) => (
           <li key={i} className="flex gap-3 text-[14px] leading-relaxed">
             <span className="nums w-4 flex-shrink-0 text-zinc-600">{i + 1}</span>
-            <span className="text-zinc-300">{step}</span>
+            <span
+              className="text-zinc-300"
+              dangerouslySetInnerHTML={{ __html: formatMathHtml(step) }}
+            />
           </li>
         ))}
       </ol>

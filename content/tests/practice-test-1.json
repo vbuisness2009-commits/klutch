@@ -7,7 +7,7 @@
   "scorable": true,
   "warnings": [],
   "uploadedAt": "2026-10-11T00:16:30.459Z",
-  "updatedAt": "2026-10-11T00:16:30.459Z",
+  "updatedAt": "2026-10-11T00:46:50.027Z",
   "form": {
     "id": "practice-test-1",
     "name": "Digital SAT Practice Test 1",
@@ -3494,33 +3494,33 @@
               {
                 "id": "pt1-math-m2l-q09",
                 "domain": "Advanced Math",
-                "skill": "Polynomials",
-                "difficulty": "M",
+                "skill": "Quadratic functions (vertex form)",
+                "difficulty": "E",
                 "html": false,
-                "stem": "If P(x) = x^2 + 3x - 4, what is the value of P(2)?",
-                "rationale": "Substitute x = 2 into the polynomial: P(2) = (2)^2 + 3(2) - 4 = 4 + 6 - 4 = 6.",
-                "keySource": "paper",
-                "expectedPace": 95,
-                "format": "mc",
+                "stem": "The function g(x) = (x - 4)^2 + 3 models a parabola in the xy-plane. What are the coordinates of the vertex of the parabola?",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "2"
+                    "text": "(4, 3)"
                   },
                   {
                     "id": "B",
-                    "text": "4"
+                    "text": "(-4, 3)"
                   },
                   {
                     "id": "C",
-                    "text": "6"
+                    "text": "(4, -3)"
                   },
                   {
                     "id": "D",
-                    "text": "14"
+                    "text": "(-4, -3)"
                   }
                 ],
-                "correct": "C"
+                "correct": "A",
+                "rationale": "A quadratic in vertex form is g(x) = a(x - h)^2 + k, with vertex at (h, k). Here h = 4 and k = 3, so the vertex is (4, 3).",
+                "keySource": "paper",
+                "expectedPace": 95,
+                "format": "mc"
               },
               {
                 "id": "pt1-math-m2l-q10",
@@ -3773,76 +3773,76 @@
               {
                 "id": "pt1-math-m2l-q18",
                 "domain": "Algebra",
-                "skill": "Linear equations in one variable",
+                "skill": "Linear functions (slope)",
                 "difficulty": "E",
                 "html": false,
-                "stem": "If 3x + 7 = 22, what is the value of x?",
-                "rationale": "Explanation not provided.",
+                "stem": "Line k in the xy-plane passes through the points (2, 5) and (6, 17). What is the slope of line k?",
+                "rationale": "The slope m is given by (y2 - y1) / (x2 - x1) = (17 - 5) / (6 - 2) = 12 / 4 = 3.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "5"
+                  "3"
                 ]
               },
               {
                 "id": "pt1-math-m2l-q19",
-                "domain": "Algebra",
-                "skill": "Solving systems of linear equations",
+                "domain": "Problem-Solving and Data Analysis",
+                "skill": "Percentages",
                 "difficulty": "E",
                 "html": false,
-                "stem": "If y = x + 3 and y = 7, what is the value of x?",
-                "rationale": "Explanation not provided.",
+                "stem": "A bakery prepared 250 muffins in the morning. By noon, 68% of the muffins had been sold. How many muffins remained unsold?",
+                "rationale": "If 68% were sold, 100% - 68% = 32% remained unsold. 0.32 * 250 = 80 muffins.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "4"
+                  "80"
                 ]
               },
               {
                 "id": "pt1-math-m2l-q20",
-                "domain": "Advanced Math",
-                "skill": "Functions",
+                "domain": "Algebra",
+                "skill": "Linear equations in one variable",
                 "difficulty": "E",
                 "html": false,
-                "stem": "If f(x) = 2x - 5, what is the value of f(6)?",
-                "rationale": "Explanation not provided.",
+                "stem": "If 4(2x - 3) = 36, what is the value of 2x - 3?",
+                "rationale": "Divide both sides by 4: 2x - 3 = 36 / 4 = 9.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "7"
+                  "9"
                 ]
               },
               {
                 "id": "pt1-math-m2l-q21",
                 "domain": "Geometry and Trigonometry",
-                "skill": "Pythagorean theorem",
+                "skill": "Triangle angle sum",
                 "difficulty": "E",
                 "html": false,
-                "stem": "A right triangle has legs of length 3 and 4. What is the length of the hypotenuse?",
-                "rationale": "Explanation not provided.",
+                "stem": "In triangle ABC, the measure of angle A is 45 degrees and the measure of angle B is 75 degrees. What is the measure, in degrees, of angle C?",
+                "rationale": "The sum of interior angles in a triangle is 180 degrees. Measure of angle C = 180 - (45 + 75) = 180 - 120 = 60 degrees.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "5"
+                  "60"
                 ]
               },
               {
                 "id": "pt1-math-m2l-q22",
                 "domain": "Problem-Solving and Data Analysis",
-                "skill": "Proportions",
+                "skill": "Percentages and discounts",
                 "difficulty": "E",
                 "html": false,
-                "stem": "If a car travels 120 miles in 2 hours, how many miles will it travel in 3 hours at the same constant speed?",
-                "rationale": "Explanation not provided.",
+                "stem": "At an electronics store, the regular price of a pair of headphones is $80. During a weekend sale, the store offers a 25% discount. What is the sale price, in dollars, of the headphones before sales tax?",
+                "rationale": "A 25% discount on $80 is 0.25 * 80 = $20 off. The sale price is 80 - 20 = $60.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "180"
+                  "60"
                 ]
               }
             ]

@@ -1,6 +1,7 @@
 "use client";
 
 import { isSpr, type Item } from "@/lib/testEngine/types";
+import { formatMathHtml } from "@/lib/formatMath";
 
 type Props = {
   item: Item;
@@ -197,11 +198,12 @@ function Rich({
   as?: "div" | "span";
 }) {
   const Tag = as;
-  if (html) {
+  const formatted = formatMathHtml(content);
+  if (html || formatted.includes("katex") || formatted.includes("<span") || formatted.includes("<br")) {
     return (
       <Tag
-        className={`${className ?? ""} [&_p]:mb-2 [&_p:last-child]:mb-0 [&_table]:my-2 [&_td]:border [&_td]:border-white/15 [&_td]:px-2 [&_td]:py-1 [&_math]:px-[0.05em] [&_math]:text-[1.05em] [&_math]:text-inherit [&_img]:my-2 [&_img]:mx-auto [&_img]:block [&_img]:max-h-[min(420px,70vh)] [&_img]:max-w-full [&_img]:rounded-md [&_img]:bg-white [&_img]:p-1.5`}
-        dangerouslySetInnerHTML={{ __html: content }}
+        className={`${className ?? ""} whitespace-pre-line [&_p]:mb-2 [&_p:last-child]:mb-0 [&_table]:my-2 [&_td]:border [&_td]:border-white/15 [&_td]:px-2 [&_td]:py-1 [&_math]:px-[0.05em] [&_math]:text-[1.05em] [&_math]:text-inherit [&_img]:my-2 [&_img]:mx-auto [&_img]:block [&_img]:max-h-[min(420px,70vh)] [&_img]:max-w-full [&_img]:rounded-md [&_img]:bg-white [&_img]:p-1.5`}
+        dangerouslySetInnerHTML={{ __html: formatted }}
       />
     );
   }

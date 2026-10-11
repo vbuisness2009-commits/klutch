@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import "katex/dist/katex.min.css";
 import { AppChrome } from "@/components/AppChrome";
 
 export const metadata: Metadata = {

@@ -7,7 +7,7 @@
   "scorable": true,
   "warnings": [],
   "uploadedAt": "2026-10-11T00:20:17.034Z",
-  "updatedAt": "2026-10-11T00:20:17.034Z",
+  "updatedAt": "2026-10-11T00:46:50.048Z",
   "form": {
     "id": "practice-test-5",
     "name": "Digital SAT Practice Test 5",
@@ -3463,33 +3463,33 @@
               {
                 "id": "pt5-math-m2l-q08",
                 "domain": "Advanced Math",
-                "skill": "Quadratics",
+                "skill": "Quadratic equations (factoring)",
                 "difficulty": "M",
                 "html": false,
-                "stem": "What are the solutions to the equation x^2 - 9 = 0?",
-                "rationale": "To solve x^2 - 9 = 0, add 9 to both sides to get x^2 = 9. Taking the square root of both sides gives x = 3 and x = -3.",
-                "keySource": "paper",
-                "expectedPace": 95,
-                "format": "mc",
+                "stem": "Which of the following values of x is a solution to the equation x^2 - 4x - 12 = 0?",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "x = 3 only"
+                    "text": "2"
                   },
                   {
                     "id": "B",
-                    "text": "x = -3 only"
+                    "text": "4"
                   },
                   {
                     "id": "C",
-                    "text": "x = 3 and x = -3"
+                    "text": "6"
                   },
                   {
                     "id": "D",
-                    "text": "No real solutions"
+                    "text": "12"
                   }
                 ],
-                "correct": "C"
+                "correct": "C",
+                "rationale": "Factoring the equation gives (x - 6)(x + 2) = 0. The solutions are x = 6 and x = -2. Among the choices, 6 is a solution.",
+                "keySource": "paper",
+                "expectedPace": 95,
+                "format": "mc"
               },
               {
                 "id": "pt5-math-m2l-q09",
@@ -3773,31 +3773,31 @@
               {
                 "id": "pt5-math-m2l-q18",
                 "domain": "Algebra",
-                "skill": "Linear equations in one variable",
+                "skill": "Linear equations in context",
                 "difficulty": "E",
                 "html": false,
-                "stem": "If 3x + 7 = 22, what is the value of x?",
-                "rationale": "Explanation not provided.",
+                "stem": "A landscaping service charges a flat equipment fee of $45 plus $28 per hour of labor. If a customer is billed a total of $241 for a landscaping job, how many hours of labor were performed?",
+                "rationale": "Let h be the hours of labor. The equation modeling the total cost is 45 + 28h = 241. Subtract 45 from both sides: 28h = 196. Divide by 28: h = 7. Thus, 7 hours of labor were performed.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "<exact>"
+                  "7"
                 ]
               },
               {
                 "id": "pt5-math-m2l-q19",
                 "domain": "Algebra",
-                "skill": "Solving systems of linear equations",
+                "skill": "Systems of linear equations",
                 "difficulty": "M",
                 "html": false,
-                "stem": "If 2x + y = 10 and x - y = 2, what is the value of x?",
-                "rationale": "Explanation not provided.",
+                "stem": "At a community book sale, paperback books cost $3 each and hardcover books cost $7 each. Maya bought a total of 12 books and spent $52. How many hardcover books did she buy?",
+                "rationale": "Let p be paperbacks and h be hardcovers: p + h = 12 and 3p + 7h = 52. Substituting p = 12 - h into the second equation: 3(12 - h) + 7h = 52, which simplifies to 36 + 4h = 52, so 4h = 16, which gives h = 4 hardcover books.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "<exact>"
+                  "4"
                 ]
               },
               {
@@ -3806,43 +3806,43 @@
                 "skill": "Quadratic equations",
                 "difficulty": "M",
                 "html": false,
-                "stem": "What is one possible solution to the equation x^2 - 9 = 0?",
-                "rationale": "Explanation not provided.",
+                "stem": "If (x - 6)^2 = 81 and x > 0, what is the value of x?",
+                "rationale": "Take the square root of both sides: x - 6 = 9 or x - 6 = -9. Since x > 0, x - 6 = 9 gives x = 15.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "<exact>"
+                  "15"
                 ]
               },
               {
                 "id": "pt5-math-m2l-q21",
                 "domain": "Geometry and Trigonometry",
-                "skill": "Area of a triangle",
+                "skill": "Perimeter of a rectangle",
                 "difficulty": "E",
                 "html": false,
-                "stem": "A triangle has a base of 8 units and a height of 5 units. What is the area of the triangle?",
-                "rationale": "Explanation not provided.",
+                "stem": "A rectangle has a length that is 5 units greater than its width. If the perimeter of the rectangle is 58 units, what is the width of the rectangle?",
+                "rationale": "Let w be the width; then length is w + 5. The perimeter is 2(w + w + 5) = 58, which simplifies to 4w + 10 = 58. Subtract 10: 4w = 48, so w = 12 units.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "<exact>"
+                  "12"
                 ]
               },
               {
                 "id": "pt5-math-m2l-q22",
                 "domain": "Algebra",
-                "skill": "Functions",
+                "skill": "Linear functions in context",
                 "difficulty": "E",
                 "html": false,
-                "stem": "If f(x) = 2x + 3, what is the value of f(4)?",
-                "rationale": "Explanation not provided.",
+                "stem": "The function C(x) = 18x + 35 models the total monthly cost, in dollars, of a gym membership with x personal training sessions. If a member's bill for one month was $125, how many personal training sessions did the member have?",
+                "rationale": "Set C(x) = 125: 18x + 35 = 125. Subtract 35: 18x = 90. Divide by 18: x = 5 personal training sessions.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "<exact>"
+                  "5"
                 ]
               }
             ]
@@ -3946,33 +3946,33 @@
               {
                 "id": "pt5-math-m2u-q04",
                 "domain": "Algebra",
-                "skill": "Linear equations in one variable",
+                "skill": "Linear equations with fractional coefficients",
                 "difficulty": "H",
                 "html": false,
-                "stem": "If (x - 2)/3 + (x + 1)/2 = 5, what is the value of x?",
-                "rationale": "Multiply the entire equation by the least common multiple of 3 and 2, which is 6. This gives 2(x - 2) + 3(x + 1) = 30. Expanding yields 2x - 4 + 3x + 3 = 30, which simplifies to 5x - 1 = 30. Adding 1 to both sides gives 5x = 31, so x = 31/5. Oh, wait, 29/5. Let me recheck. 2x - 4 + 3x + 3 = 5x - 1 = 30. So 5x = 31. This implies x = 31/5. Let me adjust my choices to match. My apologies. I will adjust the choices to make 31/5 the correct answer without changing the math.",
+                "stem": "For what value of c does the equation (2x + 7)/5 - (x - 3)/2 = c have the solution x = 1?",
+                "rationale": "Substitute x = 1 into the equation: (2(1) + 7)/5 - (1 - 3)/2 = 9/5 - (-2/2) = 9/5 + 1 = 14/5. Thus, c = 14/5.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "13/5"
+                    "text": "14/5"
                   },
                   {
                     "id": "B",
-                    "text": "17/5"
+                    "text": "12/5"
                   },
                   {
                     "id": "C",
-                    "text": "23/5"
+                    "text": "8/5"
                   },
                   {
                     "id": "D",
-                    "text": "29/5"
+                    "text": "2"
                   }
                 ],
-                "correct": "D"
+                "correct": "A"
               },
               {
                 "id": "pt5-math-m2u-q05",
@@ -4383,13 +4383,13 @@
                 "skill": "Circles, radians, right triangle trig",
                 "difficulty": "H",
                 "html": false,
-                "stem": "A circle is centered at the origin (0,0) and has a radius of 5. A point P on the circle has coordinates (x, y) such that the angle formed by the positive x-axis and the line segment from the origin to P is theta radians. If cos(theta) = -3/5, what is the value of y?",
-                "rationale": "For a point (x, y) on a circle of radius r centered at the origin, x = r * cos(theta) and y = r * sin(theta). We are given r = 5 and cos(theta) = -3/5. Therefore, x = 5 * (-3/5) = -3. To find y, we use the identity sin^2(theta) + cos^2(theta) = 1. So, sin^2(theta) + (-3/5)^2 = 1, which means sin^2(theta) + 9/25 = 1. Thus, sin^2(theta) = 1 - 9/25 = 16/25. This gives sin(theta) = +/- 4/5. Since x = -3 (negative), the point P is in either the second or third quadrant. The problem does not specify the quadrant, but typically for a unique y value, it implies one specific quadrant. If y were -4, it would be in Q3. If y were 4, it would be in Q2. Both are valid. However, options are given. If cos(theta) = -3/5, then x is negative. If sin(theta) = 4/5, y is positive. If sin(theta) = -4/5, y is negative. Both 4 and -4 are options. In standard problems, if not specified, often the principal value or positive y is considered first, or the problem implies a context. Without further information, both y=4 and y=-4 are mathematically possible. However, given multiple choice, we need to pick one. Let's assume the question implicitly refers to the second quadrant where y is positive. If so, sin(theta) = 4/5. Then y = r * sin(theta) = 5 * (4/5) = 4.",
+                "stem": "A circle is centered at the origin (0,0) and has a radius of 5. A point P on the circle in quadrant II has coordinates (x, y) such that the angle formed by the positive x-axis and the line segment from the origin to P is theta radians. If cos(theta) = -3/5, what is the value of y?",
+                "rationale": "On a circle of radius r = 5, y = r * sin(theta). Using sin^2(theta) + cos^2(theta) = 1 with cos(theta) = -3/5 gives sin^2(theta) = 1 - 9/25 = 16/25. Since P is in quadrant II, sin(theta) is positive, so sin(theta) = 4/5. Therefore, y = 5 * (4/5) = 4.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
-                  "D"
+                  "4"
                 ]
               },
               {

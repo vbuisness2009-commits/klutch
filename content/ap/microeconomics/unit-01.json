@@ -140,30 +140,35 @@
       "id": "u1-q02",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "1.6 Marginal Analysis and Consumer Choice",
+      "topic": "1.2 Opportunity Cost and the Production Possibilities Curve",
       "skill": "1. Principles and Models",
-      "stem": "A rational consumer should continue buying units of a good as long as",
+      "stem": "A nation's production possibilities curve (PPC) is bowed outward from the origin. Which economic principle explains this concave shape?",
       "choices": [
         {
           "id": "A",
-          "text": "total utility is positive"
+          "text": "The law of increasing opportunity cost, because economic resources are specialized and not equally suited to producing both goods."
         },
         {
           "id": "B",
-          "text": "the average benefit exceeds the average cost"
+          "text": "The law of demand, because consumer marginal utility diminishes with increased consumption."
         },
         {
           "id": "C",
-          "text": "the marginal benefit of the next unit is at least its marginal cost"
+          "text": "Constant returns to scale, because technology and inputs are perfectly substitutable across sectors."
         },
         {
           "id": "D",
-          "text": "marginal utility is increasing"
+          "text": "The law of comparative advantage, because trading partners specialize in goods with the lowest absolute cost."
         }
       ],
-      "answer": "C",
-      "explanation": "Marginal analysis compares the next unit's benefit and cost.",
-      "distractors": {}
+      "answer": "A",
+      "explanation": "A bowed-out (concave) PPC reflects increasing opportunity costs. As an economy shifts resources from Good A to Good B, it must reallocate inputs that are progressively less suited to producing Good B (e.g., farm equipment and fertile land shifted into manufacturing microchips), requiring increasingly larger sacrifices of Good A for each additional unit of Good B.",
+      "distractors": {
+        "B": "The law of demand describes consumer willingness to purchase at different prices, not production feasibility.",
+        "C": "Constant returns to scale or perfect input substitutability would produce a straight-line PPC.",
+        "D": "Comparative advantage is based on lowest opportunity cost, not absolute cost."
+      },
+      "stimulus": null
     },
     {
       "id": "u1-q03",
@@ -198,30 +203,35 @@
       "id": "u1-q04",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "1.3 Production Possibilities Curve",
+      "topic": "1.4 Demand and Income Elasticity",
       "skill": "4. Graphing and Visuals",
-      "stem": "A straight-line production possibilities curve indicates",
+      "stem": "During an economic expansion, average household disposable income increases by 8 percent. In response, the market quantity demanded of intercity bus tickets falls by 5 percent. In economics, intercity bus transportation is classified as which type of good?",
       "choices": [
         {
           "id": "A",
-          "text": "increasing opportunity cost"
+          "text": "An inferior good, because its income elasticity of demand is negative."
         },
         {
           "id": "B",
-          "text": "inefficient production"
+          "text": "A normal luxury good, because its demand is relatively inelastic."
         },
         {
           "id": "C",
-          "text": "decreasing opportunity cost"
+          "text": "A complementary good, because income and demand move in opposite directions."
         },
         {
           "id": "D",
-          "text": "constant opportunity cost"
+          "text": "A public good, because it is non-rival and non-excludable."
         }
       ],
-      "answer": "D",
-      "explanation": "Resources are perfectly substitutable between the two goods.",
-      "distractors": {}
+      "answer": "A",
+      "explanation": "Income elasticity of demand is (%Δ Quantity Demanded) / (%Δ Income) = −5% / +8% = −0.625. When income increases and quantity demanded decreases (negative income elasticity), consumers substitute toward higher-quality alternatives (such as air travel or personal automobiles), defining the product as an inferior good.",
+      "distractors": {
+        "B": "Normal goods have positive income elasticity (%ΔQ and %ΔIncome move in the same direction).",
+        "C": "Complements describe cross-price elasticity between two related goods, not responsiveness to income.",
+        "D": "Bus tickets are rival and excludable, making them private goods."
+      },
+      "stimulus": null
     },
     {
       "id": "u1-q05",
@@ -319,32 +329,35 @@
       "id": "u1-q08",
       "tier": "Exam level",
       "type": "mcq",
-      "topic": "1.6 Marginal Analysis and Consumer Choice",
+      "topic": "1.3 Economic Growth and the Long-Run Aggregate Supply Curve",
       "skill": "1. Principles and Models",
-      "stem": "Which statement best explains why the demand curve for most goods slopes downward?",
+      "stem": "Which of the following policy actions or economic events would cause an outward shift in a country's production possibilities curve (PPC) and an increase in its long-run aggregate supply (LRAS)?",
       "choices": [
         {
           "id": "A",
-          "text": "Producers lower prices as they produce more."
+          "text": "An increase in government funding for scientific research and STEM technical training that improves labor productivity."
         },
         {
           "id": "B",
-          "text": "As people consume more of a good, each additional unit provides less marginal utility, so they will buy more only at lower prices."
+          "text": "An increase in government transfer payments financed by short-term fiscal deficits."
         },
         {
           "id": "C",
-          "text": "Total utility decreases as consumption increases."
+          "text": "A reduction in the central bank's policy interest rate that temporarily stimulates consumer borrowing."
         },
         {
           "id": "D",
-          "text": "Marginal utility increases with consumption."
+          "text": "A depreciation of the domestic currency that makes exports cheaper to foreign buyers."
         }
       ],
-      "answer": "B",
-      "explanation": "Diminishing marginal utility lowers willingness to pay for additional units.",
+      "answer": "A",
+      "explanation": "Outward shifts of the PPC and LRAS represent genuine long-run economic growth—an increase in the economy's productive capacity. This is achieved exclusively by increasing the quantity or quality of resources (physical capital, human capital, labor force) or through technological advancement. STEM training and research increase human capital and total factor productivity.",
       "distractors": {
-        "C": "Total utility typically still rises."
-      }
+        "B": "Transfer payments increase consumer spending, shifting Aggregate Demand (AD) right, but do not increase the economy's productive capacity.",
+        "C": "Monetary policy interest rate cuts shift AD in the short run without altering the long-run PPC boundary.",
+        "D": "Currency depreciation affects net exports and AD, not potential output."
+      },
+      "stimulus": null
     },
     {
       "id": "u1-q09",

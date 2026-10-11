@@ -152,32 +152,33 @@
       "tier": "Intro",
       "topic": "1.1 Structure of Water and Hydrogen Bonding",
       "skill": "1.B",
-      "stem": "Which of the following best explains why water has a high specific heat?",
+      "stem": "Which of the following best explains how water's high specific heat capacity promotes biological homeostasis in temperate coastal ecosystems?",
       "choices": [
         {
           "id": "A",
-          "text": "Covalent bonds within each water molecule must be broken before the temperature can rise."
+          "text": "Extensive hydrogen bonding between water molecules absorbs large amounts of thermal energy with minimal temperature change, buffering organisms against extreme temperature fluctuations."
         },
         {
           "id": "B",
-          "text": "Water molecules are nonpolar, so they absorb heat without changing state."
+          "text": "Covalent bonds between hydrogen and oxygen break and reform rapidly, converting excess solar heat directly into chemical potential energy."
         },
         {
           "id": "C",
-          "text": "Hydrogen bonds between water molecules absorb energy as they break before molecular motion increases."
+          "text": "Water expands upon freezing, forming an insulating surface layer of ice that prevents heat transfer from the underlying water."
         },
         {
           "id": "D",
-          "text": "Water is less dense as a solid than as a liquid."
+          "text": "High surface tension reduces the rate of oceanic evaporation, maintaining high atmospheric humidity."
         }
       ],
-      "answer": "C",
-      "explanation": "Temperature reflects the average kinetic energy of molecules. In water, much of the added energy first goes into breaking hydrogen bonds between molecules, so temperature rises slowly. That is why aquatic environments and bodies resist temperature change.",
+      "answer": "A",
+      "explanation": "Water's high specific heat capacity is caused by extensive hydrogen bonding among water molecules. Much of the absorbed thermal energy is used to disrupt hydrogen bonds rather than increase kinetic motion (temperature). As a result, coastal water bodies absorb and release immense heat without large temperature shifts, buffering marine and terrestrial organisms from physiological temperature stress.",
       "distractors": {
-        "A": "Confuses intramolecular covalent bonds (which do not break on heating) with intermolecular hydrogen bonds.",
-        "B": "Water is polar; that polarity is the source of hydrogen bonding.",
-        "D": "A true property of water, but it explains why ice floats, not specific heat."
-      }
+        "B": "Covalent O-H bonds within water molecules do not break during normal thermal absorption; only intermolecular hydrogen bonds are affected.",
+        "C": "Describes ice density and insulation, which is related to freezing rather than specific heat capacity.",
+        "D": "Describes surface tension (cohesion), not thermal buffering capacity."
+      },
+      "stimulus": null
     },
     {
       "id": "u1-q02",

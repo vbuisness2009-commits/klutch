@@ -144,31 +144,34 @@
       "id": "u6-q02",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "6.4 Angular Momentum",
-      "stem": "What is the angular momentum of a disk with rotational inertia 4 kg·m² rotating at 5 rad/s?",
+      "topic": "6.5 Conservation of Angular Momentum",
+      "stem": "A uniform horizontal disk of mass M and radius R rotates freely about a vertical axle through its center with angular speed ω₀. An identical disk initially at rest is dropped onto the first disk. Due to friction between the surfaces, the two disks eventually rotate together at angular speed ω_f. What is ω_f, and what fraction of the initial rotational kinetic energy is lost to heat?",
       "choices": [
         {
           "id": "A",
-          "text": "50 kg·m²/s"
+          "text": "ω_f = ω₀ / 2; half of the rotational kinetic energy is lost"
         },
         {
           "id": "B",
-          "text": "20 kg·m²/s"
+          "text": "ω_f = ω₀ / 2; no rotational kinetic energy is lost"
         },
         {
           "id": "C",
-          "text": "1.25 kg·m²/s"
+          "text": "ω_f = ω₀ / 4; three-fourths of the rotational kinetic energy is lost"
         },
         {
           "id": "D",
-          "text": "100 kg·m²/s"
+          "text": "ω_f = ω₀ / √2; half of the rotational kinetic energy is lost"
         }
       ],
-      "answer": "B",
-      "explanation": "L = Iω = 4 × 5 = 20 kg·m²/s.",
+      "answer": "A",
+      "explanation": "Since no external torque acts on the system about the axle, angular momentum is conserved: L_i = I·ω₀. When the second identical disk is added, the total rotational inertia becomes 2I. Conservation of angular momentum gives I·ω₀ = 2I·ω_f ⇒ ω_f = ω₀ / 2. Initial rotational kinetic energy is K_i = ½ I ω₀². Final rotational kinetic energy is K_f = ½ (2I) (ω₀/2)² = I (ω₀²/4) = ¼ I ω₀² = ½ K_i. Exactly half (50%) of the initial rotational kinetic energy is dissipated as thermal energy.",
       "distractors": {
-        "A": "Computed ½Iω², the kinetic energy."
-      }
+        "B": "Incorrectly assumes mechanical energy is conserved in an inelastic rotational collision.",
+        "C": "Assumes the final angular velocity drops by a factor of 4.",
+        "D": "Conserves kinetic energy instead of angular momentum to find angular velocity."
+      },
+      "stimulus": null
     },
     {
       "id": "u6-q03",
@@ -204,31 +207,34 @@
       "id": "u6-q04",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "6.2 Torque and Work",
-      "stem": "A constant torque of 5 N·m turns a wheel through 4 rad. How much work does the torque do?",
+      "topic": "6.3 Rotational Kinetic Energy and Rolling",
+      "stem": "A solid sphere (I = ⅖MR²), a solid cylinder (I = ½MR²), and a hollow spherical shell (I = ⅔MR²), all with identical mass M and outer radius R, are released from rest at the top of a ramp inclined at angle θ. All three roll down the ramp without slipping. In what order do they reach the bottom of the ramp?",
       "choices": [
         {
           "id": "A",
-          "text": "1.25 J"
+          "text": "Solid sphere first, then solid cylinder, then hollow sphere"
         },
         {
           "id": "B",
-          "text": "20 J"
+          "text": "All three reach the bottom at the same time because mass and radius are equal"
         },
         {
           "id": "C",
-          "text": "9 J"
+          "text": "Hollow sphere first, then solid cylinder, then solid sphere"
         },
         {
           "id": "D",
-          "text": "40 J"
+          "text": "Solid cylinder first, then solid sphere, then hollow sphere"
         }
       ],
-      "answer": "B",
-      "explanation": "W = τΔθ = 5 × 4 = 20 J.",
+      "answer": "A",
+      "explanation": "For an object rolling without slipping down an incline, the linear acceleration is a = (g·sin θ) / (1 + I/(MR²)). The smaller the ratio I/(MR²), the smaller the fraction of gravitational potential energy converted into rotational kinetic energy, and the greater the translational linear acceleration. Here, I/(MR²) values are: solid sphere = 0.40, solid cylinder = 0.50, hollow sphere = 0.67. Therefore, the solid sphere has the greatest acceleration and finishes first, followed by the solid cylinder, and lastly the hollow sphere.",
       "distractors": {
-        "C": "Added instead of multiplying."
-      }
+        "B": "Neglects rotational inertia, applying the Galileo rule for sliding objects without friction.",
+        "C": "Reverses the order, believing objects with larger rotational inertia accelerate faster.",
+        "D": "Misorders the cylinder and solid sphere."
+      },
+      "stimulus": null
     },
     {
       "id": "u6-q05",

@@ -152,32 +152,34 @@
       "id": "u3-q02",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "3.1 Translational Kinetic Energy",
-      "stem": "What is the kinetic energy of a 2 kg object moving at 3 m/s?",
+      "topic": "3.3 Work and the Work-Energy Theorem",
+      "stem": "A block of mass m is released from rest at the top of a frictionless curved track of height h. At the bottom of the track, the block slides onto a rough horizontal surface with coefficient of kinetic friction μₖ. How far does the block slide along the rough surface before coming to rest?",
       "choices": [
         {
           "id": "A",
-          "text": "9 J"
+          "text": "h / μₖ"
         },
         {
           "id": "B",
-          "text": "6 J"
+          "text": "μₖ·h"
         },
         {
           "id": "C",
-          "text": "18 J"
+          "text": "h / (2μₖ)"
         },
         {
           "id": "D",
-          "text": "3 J"
+          "text": "√(2gh) / μₖ"
         }
       ],
       "answer": "A",
-      "explanation": "K = ½(2)(3²) = 9 J.",
+      "explanation": "By conservation of mechanical energy, the kinetic energy at the bottom of the ramp equals the initial gravitational potential energy: KE = mgh. On the rough surface, the friction force is fₖ = μₖ·N = μₖmg. The work done by friction over distance d must remove all kinetic energy: W_friction = −fₖ·d = −μₖmg·d. Setting |W_friction| = KE gives μₖmg·d = mgh ⇒ d = h / μₖ.",
       "distractors": {
-        "B": "Didn't square v.",
-        "C": "Forgot the ½."
-      }
+        "B": "Multiplies by μₖ instead of dividing, which has incorrect units.",
+        "C": "Includes an erroneous factor of 1/2 from kinetic energy.",
+        "D": "Confuses speed with distance."
+      },
+      "stimulus": null
     },
     {
       "id": "u3-q03",

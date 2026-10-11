@@ -121,33 +121,34 @@
       "id": "u2-q01",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "2.5 Power Rule",
-      "stem": "If f(x) = 3x⁴ − 5x + 2, then f′(x) =",
+      "topic": "2.2 Defining the Derivative",
+      "stem": "lim x→4 (x·√x − 8)/(x − 4) represents the derivative of a function f at a number a. What are f and a?",
       "choices": [
         {
           "id": "A",
-          "text": "3x³ − 5"
+          "text": "f(x) = x^(3/2) and a = 4"
         },
         {
           "id": "B",
-          "text": "12x³ − 5x"
+          "text": "f(x) = x·√x and a = 8"
         },
         {
           "id": "C",
-          "text": "12x³ − 5"
+          "text": "f(x) = √x and a = 4"
         },
         {
           "id": "D",
-          "text": "12x⁴ − 5"
+          "text": "f(x) = x² − 8 and a = 4"
         }
       ],
-      "answer": "C",
-      "explanation": "Differentiate term by term: d/dx(3x⁴) = 12x³, d/dx(−5x) = −5, and d/dx(2) = 0. So f′(x) = 12x³ − 5.",
+      "answer": "A",
+      "explanation": "The alternative definition of derivative is f′(a) = lim x→a [f(x) − f(a)] / (x − a). Here the denominator is x − 4, indicating a = 4. The numerator is f(x) − f(4), where f(x) = x·√x = x^(3/2) and f(4) = 4·√4 = 8. Thus f(x) = x^(3/2) and a = 4.",
       "distractors": {
-        "B": "Kept the x on the linear term; the derivative of −5x is −5.",
-        "D": "Multiplied by the power but did not lower the exponent.",
-        "A": "Dropped the power but forgot to multiply by it."
-      }
+        "B": "Confuses the output value f(4) = 8 with the input value a.",
+        "C": "Ignores the factor of x multiplying √x.",
+        "D": "Manufactures a quadratic from the numerator numbers."
+      },
+      "stimulus": null
     },
     {
       "id": "u2-q02",
@@ -185,64 +186,67 @@
       "id": "u2-q03",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "2.8 Derivatives of sin and cos",
-      "stem": "d/dx (sin x − cos x) =",
+      "topic": "2.4 Connecting Differentiability and Continuity",
+      "stem": "Let f(x) = ax² + 1 for x ≤ 1 and f(x) = bx − 2 for x > 1. For which values of constants a and b is f differentiable at x = 1?",
       "choices": [
         {
           "id": "A",
-          "text": "cos x − sin x"
+          "text": "a = 3 and b = 6"
         },
         {
           "id": "B",
-          "text": "−cos x + sin x"
+          "text": "a = −3 and b = −6"
         },
         {
           "id": "C",
-          "text": "cos x + sin x"
+          "text": "a = 2 and b = 5"
         },
         {
           "id": "D",
-          "text": "−cos x − sin x"
+          "text": "a = −1 and b = −2"
         }
       ],
-      "answer": "C",
-      "explanation": "(sin x)′ = cos x and (cos x)′ = −sin x, so (−cos x)′ = sin x. The total is cos x + sin x.",
+      "answer": "A",
+      "explanation": "For f to be differentiable at x = 1, it must be both continuous and have equal one-sided derivatives at x = 1. Continuity: a(1)² + 1 = b(1) − 2 ⇒ a + 1 = b − 2 ⇒ b = a + 3. Differentiability: left derivative is 2ax evaluated at 1 = 2a; right derivative is b. So b = 2a. Setting 2a = a + 3 yields a = 3, which implies b = 6.",
       "distractors": {
-        "A": "Treated the derivative of cos x as +sin x.",
-        "B": "Differentiated sin x as −cos x, which is its antiderivative."
-      }
+        "B": "Inverts the signs of the coefficients.",
+        "C": "Satisfies continuity (2+1 = 5-2 = 3) but fails differentiability (2a = 4 ≠ 5).",
+        "D": "Fails both conditions."
+      },
+      "stimulus": null
     },
     {
       "id": "u2-q04",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "2.3 Estimating Derivatives",
-      "stem": "What is the slope of the line tangent to y = √x at x = 4?",
+      "topic": "2.9 The Quotient Rule",
+      "stem": "What is the slope of the line tangent to the graph of y = (2x + 1)/(x² + 3) at the point where x = 1?",
       "choices": [
         {
           "id": "A",
-          "text": "1/2"
+          "text": "1/8"
         },
         {
           "id": "B",
-          "text": "1/4"
+          "text": "−1/8"
         },
         {
           "id": "C",
-          "text": "2"
+          "text": "1/2"
         },
         {
           "id": "D",
-          "text": "1/8"
+          "text": "5/16"
         }
       ],
-      "answer": "B",
-      "explanation": "y = x^(1/2), so y′ = ½x^(−1/2) = 1/(2√x). At x = 4, y′ = 1/(2·2) = 1/4.",
+      "answer": "A",
+      "explanation": "Apply the quotient rule: y′ = [(x² + 3)(2) − (2x + 1)(2x)] / (x² + 3)². At x = 1: numerator is (4)(2) − (3)(2) = 8 − 6 = 2. Denominator is (4)² = 16. Thus y′(1) = 2/16 = 1/8.",
       "distractors": {
-        "A": "Forgot the 2 in the denominator or computed 1/√4.",
-        "C": "That is y(4), not the slope.",
-        "D": "Used 1/(2x) instead of 1/(2√x)."
-      }
+        "B": "Subtracts the terms in the numerator in reverse order: 6 - 8 = -2.",
+        "C": "Differentiates numerator and denominator separately: 2/(2x) = 1.",
+        "D": "Miscalculates the numerator as 8 - 3 = 5."
+      },
+      "stimulus": null
     },
     {
       "id": "u2-q05",

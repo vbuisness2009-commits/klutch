@@ -117,32 +117,34 @@
       "id": "u7-q01",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "7.2 Verifying Solutions for Differential Equations",
-      "stem": "Which function is a solution to dy/dx = 2y?",
+      "topic": "7.7 Solving Separable Differential Equations",
+      "stem": "What is the particular solution to the differential equation dy/dx = 2xy with the initial condition y(0) = 3?",
       "choices": [
         {
           "id": "A",
-          "text": "y = e^(2x) + 5"
+          "text": "y = 3e^(x²)"
         },
         {
           "id": "B",
-          "text": "y = 2e^x"
+          "text": "y = 3e^(2x)"
         },
         {
           "id": "C",
-          "text": "y = x² + 5"
+          "text": "y = x² + 3"
         },
         {
           "id": "D",
-          "text": "y = 5e^(2x)"
+          "text": "y = e^(x²) + 2"
         }
       ],
-      "answer": "D",
-      "explanation": "y′ = 10e^(2x) = 2(5e^(2x)) = 2y.",
+      "answer": "A",
+      "explanation": "Separating variables: (1/y) dy = 2x dx. Integrating gives ln|y| = x² + C ⇒ y = Ae^(x²). Since y(0) = 3, A = 3. Thus y = 3e^(x²).",
       "distractors": {
-        "B": "y′ = 2eˣ = y, not 2y.",
-        "A": "y′ = 2e^(2x), but 2y = 2e^(2x) + 10."
-      }
+        "B": "Integrates 2x as 2 instead of x².",
+        "C": "Integrates without separating variables.",
+        "D": "Applies the initial condition additively instead of multiplicatively."
+      },
+      "stimulus": null
     },
     {
       "id": "u7-q02",
@@ -211,32 +213,34 @@
       "id": "u7-q04",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "7.6 Finding General Solutions Using Separation of Variables",
-      "stem": "What is the general solution of dy/dx = 3x²?",
+      "topic": "7.4 Reasoning Using Slope Fields",
+      "stem": "Which of the following differential equations produces a slope field where slopes are negative for all points in Quadrant II and positive for all points in Quadrant IV?",
       "choices": [
         {
           "id": "A",
-          "text": "y = Ce^(x³)"
+          "text": "dy/dx = x·y²"
         },
         {
           "id": "B",
-          "text": "y = 6x + C"
+          "text": "dy/dx = x/y"
         },
         {
           "id": "C",
-          "text": "y = x³ + C"
+          "text": "dy/dx = x²y"
         },
         {
           "id": "D",
-          "text": "y = 3x³ + C"
+          "text": "dy/dx = xy"
         }
       ],
-      "answer": "C",
-      "explanation": "Integrate: y = ∫3x² dx = x³ + C.",
+      "answer": "A",
+      "explanation": "In Quadrant II, x < 0 and y > 0. For dy/dx = x·y², (negative)·(positive) = negative. In Quadrant IV, x > 0 and y < 0. For dy/dx = x·y², (positive)·(positive) = positive. Therefore dy/dx = x·y² satisfies both conditions.",
       "distractors": {
-        "B": "Differentiated.",
-        "A": "Treated it as dy/dx = 3x²y."
-      }
+        "B": "In Quadrant IV, x/y is negative because positive/negative is negative.",
+        "C": "In Quadrant IV, x²y is negative because positive * negative is negative.",
+        "D": "In Quadrant IV, xy is negative."
+      },
+      "stimulus": null
     },
     {
       "id": "u7-q05",

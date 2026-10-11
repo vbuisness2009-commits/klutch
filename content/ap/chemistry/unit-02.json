@@ -452,32 +452,34 @@
       "id": "u2-q12",
       "tier": "Hardest",
       "type": "mcq",
-      "topic": "VSEPR and Hybridization",
-      "stem": "Acrylonitrile is H₂C=CH–C≡N. How many σ and π bonds does it contain?",
+      "topic": "2.7 Molecular Geometry and Polarity",
+      "stem": "Consider the molecules XeF₄ and SF₄. Which statement accurately compares their molecular geometries and net dipole moments?",
       "choices": [
         {
           "id": "A",
-          "text": "6 σ, 3 π"
+          "text": "XeF₄ is square planar and nonpolar; SF₄ is seesaw-shaped and polar."
         },
         {
           "id": "B",
-          "text": "5 σ, 3 π"
+          "text": "Both XeF₄ and SF₄ are tetrahedral and nonpolar."
         },
         {
           "id": "C",
-          "text": "6 σ, 2 π"
+          "text": "XeF₄ is square planar and polar; SF₄ is tetrahedral and nonpolar."
         },
         {
           "id": "D",
-          "text": "9 σ, 0 π"
+          "text": "XeF₄ is octahedral and nonpolar; SF₄ is seesaw-shaped and nonpolar."
         }
       ],
       "answer": "A",
-      "explanation": "Three C–H (3σ), C=C (1σ + 1π), C–C (1σ), C≡N (1σ + 2π): 6σ, 3π.",
+      "explanation": "XeF₄ has 8 + 4(7) = 36 valence electrons: 4 bonding pairs and 2 lone pairs on Xe (octahedral electron geometry). The two lone pairs occupy opposite axial positions, giving a square planar molecular geometry where bond dipoles cancel, making XeF₄ nonpolar. SF₄ has 6 + 4(7) = 34 valence electrons: 4 bonding pairs and 1 lone pair on S (trigonal bipyramidal electron geometry). The lone pair occupies an equatorial position, creating an asymmetric seesaw geometry where the polar S–F bonds do not cancel, making SF₄ polar.",
       "distractors": {
-        "D": "Counts every line as σ.",
-        "B": "Misses one C–H or the C–C bond."
-      }
+        "B": "Neglects lone pairs on the central atoms, incorrectly predicting simple tetrahedral geometry.",
+        "C": "Claims square planar geometry is polar, ignoring inversion center symmetry.",
+        "D": "Confuses electron domain geometry with molecular geometry."
+      },
+      "stimulus": null
     },
     {
       "id": "u2-q13",

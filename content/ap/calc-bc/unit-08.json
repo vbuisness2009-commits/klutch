@@ -182,32 +182,34 @@
       "id": "u8-q03",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "8.2 Connecting Position, Velocity, and Acceleration Using Integrals",
-      "stem": "A particle has velocity v(t) = 2t and position x(0) = 3. What is x(2)?",
+      "topic": "8.3 Using Accumulation Functions and Definite Integrals in Applied Contexts",
+      "stem": "A particle moves along a straight line with velocity v(t) = 3√t − t for t ≥ 0. If the particle's position is x = 4 when t = 1, what is the particle's position when t = 4?",
       "choices": [
         {
           "id": "A",
-          "text": "8"
+          "text": "21/2"
         },
         {
           "id": "B",
-          "text": "4"
+          "text": "13/2"
         },
         {
           "id": "C",
-          "text": "3"
+          "text": "17/2"
         },
         {
           "id": "D",
-          "text": "7"
+          "text": "19/2"
         }
       ],
-      "answer": "D",
-      "explanation": "x(2) = 3 + ∫₀² 2t dt = 3 + 4 = 7.",
+      "answer": "A",
+      "explanation": "By FTC: x(4) = x(1) + ∫₁⁴ (3√t − t) dt. Antiderivative is 2t^(3/2) − t²/2. At t = 4: 2(8) − 8 = 8. At t = 1: 2(1) − 1/2 = 3/2. The displacement is 8 − 3/2 = 13/2. Adding initial position: x(4) = 4 + 13/2 = 21/2.",
       "distractors": {
-        "B": "Forgot the initial position.",
-        "A": "Added v(2) = 4 twice."
-      }
+        "B": "Finds displacement ∫₁⁴ v(t) dt = 13/2 but forgets to add initial position x(1) = 4.",
+        "C": "Adds 4 to 8 without subtracting the lower limit at t = 1.",
+        "D": "Arithmetic error."
+      },
+      "stimulus": null
     },
     {
       "id": "u8-q04",
@@ -462,33 +464,34 @@
       "id": "u8-q12",
       "tier": "Hardest",
       "type": "mcq",
-      "topic": "8.2 Position from Velocity",
-      "stem": "A particle has velocity v(t) = sin(πt) and position x(0) = 1. What is x(1)?",
+      "topic": "8.8 Volumes with Cross Sections: Non-Axis Solids",
+      "stem": "The base of a solid is the region bounded by y = ln(x), the x-axis, and the vertical line x = e. Every cross section perpendicular to the y-axis is an equilateral triangle. Which expression gives the volume of the solid?",
       "choices": [
         {
           "id": "A",
-          "text": "1 − 2/π"
+          "text": "(√3/4) ∫₀¹ (e − eʸ)² dy"
         },
         {
           "id": "B",
-          "text": "2/π"
+          "text": "(√3/4)(e² − 1)/2"
         },
         {
           "id": "C",
-          "text": "1"
+          "text": "(√3/4) ∫₁ᵉ (ln x)² dx"
         },
         {
           "id": "D",
-          "text": "1 + 2/π"
+          "text": "(√3/2) ∫₀¹ (e − eʸ) dy"
         }
       ],
-      "answer": "D",
-      "explanation": "∫₀¹ sin(πt) dt = [−cos(πt)/π]₀¹ = (1/π) + (1/π) = 2/π. x(1) = 1 + 2/π.",
+      "answer": "A",
+      "explanation": "Cross sections are perpendicular to the y-axis, so integrate with respect to y from y = 0 to y = ln(e) = 1. For any y, the side length of the equilateral triangle is the horizontal distance s(y) = e − eʸ. The cross-sectional area is A(y) = (√3/4)s² = (√3/4)(e − eʸ)². Therefore, the volume is (√3/4) ∫₀¹ (e − eʸ)² dy.",
       "distractors": {
-        "B": "Forgot x(0).",
-        "C": "Thought sin integrates to zero over this interval.",
-        "A": "Sign error in the antiderivative."
-      }
+        "B": "Confuses the integral with a standard polynomial area.",
+        "C": "Integrates with respect to x instead of y.",
+        "D": "Uses the height formula (√3/2)s instead of the area formula (√3/4)s²."
+      },
+      "stimulus": null
     },
     {
       "id": "u8-q13",

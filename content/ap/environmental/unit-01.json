@@ -115,64 +115,69 @@
       "id": "u1-q01",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "1.5 The Nitrogen Cycle",
+      "topic": "1.4 The Nitrogen Cycle",
       "skill": "1. Concept Explanation",
-      "stem": "Which process converts atmospheric N₂ into a form that plants can absorb?",
+      "stem": "Atmospheric nitrogen gas (N₂) accounts for roughly 78 percent of Earth's atmosphere but cannot be directly assimilated by most plants. Which biological process converts N₂ into a biologically usable form, and which organisms carry it out?",
       "choices": [
         {
           "id": "A",
-          "text": "Denitrification"
+          "text": "Biological nitrogen fixation carried out by specialized bacteria (such as Rhizobium in legume root nodules and free-living cyanobacteria)."
         },
         {
           "id": "B",
-          "text": "Assimilation"
+          "text": "Denitrification carried out by anaerobic fungi in waterlogged soils."
         },
         {
           "id": "C",
-          "text": "Ammonification"
+          "text": "Assimilation carried out by photosynthetic chloroplasts in plant leaves."
         },
         {
           "id": "D",
-          "text": "Nitrogen fixation"
+          "text": "Ammonification carried out by decomposers consuming plant leaf litter."
         }
       ],
-      "answer": "D",
-      "explanation": "Fixation by bacteria (or lightning) converts N₂ into ammonia/ammonium.",
+      "answer": "A",
+      "explanation": "N₂ has a strong triple covalent bond (N≡N) that plants cannot break. Biological nitrogen fixation converts N₂ into ammonia (NH₃) or ammonium (NH₄⁺) using the enzyme nitrogenase. This reaction is carried out exclusively by diazotrophic bacteria, including symbiotic Rhizobium living in root nodules of legumes and aquatic cyanobacteria.",
       "distractors": {
-        "A": "Does the reverse: returns N₂ to the air.",
-        "C": "Converts organic waste to ammonium, not N₂."
-      }
+        "B": "Denitrification is the opposite process: anaerobic bacteria convert nitrates (NO₃⁻) back into atmospheric N₂ gas.",
+        "C": "Assimilation is the uptake of nitrates and ammonium by plants to synthesize amino acids, not the fixation of N₂ gas.",
+        "D": "Ammonification breaks down organic nitrogen in waste/detritus into ammonium."
+      },
+      "stimulus": null
     },
     {
       "id": "u1-q02",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "1.6 The Phosphorus Cycle",
+      "topic": "1.5 The Phosphorus Cycle",
       "skill": "1. Concept Explanation",
-      "stem": "Phosphorus is often the limiting nutrient in freshwater lakes primarily because",
+      "stem": "Which of the following characteristics of the phosphorus cycle best explains why phosphorus is typically the primary limiting nutrient in freshwater aquatic ecosystems?",
       "choices": [
         {
           "id": "A",
-          "text": "most phosphorus is stored in the atmosphere"
+          "text": "The phosphorus cycle lacks a significant atmospheric gaseous phase, relying primarily on the slow geological weathering of phosphate-bearing rocks."
         },
         {
           "id": "B",
-          "text": "it is rapidly removed from water by denitrifying bacteria"
+          "text": "Phosphorus evaporates into the upper atmosphere and is permanently lost to space via solar wind stripping."
         },
         {
           "id": "C",
-          "text": "it has no significant gaseous phase and is released slowly from rock by weathering"
+          "text": "Aquatic organisms cannot absorb inorganic phosphate ions across their cellular membranes."
         },
         {
           "id": "D",
-          "text": "plants cannot absorb phosphorus from water"
+          "text": "Denitrifying bacteria actively convert dissolved orthophosphate into toxic insoluble phosphine gas."
         }
       ],
-      "answer": "C",
-      "explanation": "With no atmospheric reservoir, phosphorus enters ecosystems slowly through weathering, keeping supplies low.",
+      "answer": "A",
+      "explanation": "Unlike carbon, nitrogen, and sulfur, the phosphorus cycle does not include a stable gaseous atmospheric component. Phosphorus reservoirs reside almost entirely in sedimentary rocks and ocean sediments. Because natural mobilization depends on slow chemical weathering, bioavailable orthophosphate (PO₄³⁻) is naturally scarce in freshwater lakes, making it the primary limiting factor for primary productivity.",
       "distractors": {
-        "B": "Denitrification affects nitrogen."
-      }
+        "B": "Phosphorus does not exist as an atmospheric gas under ambient conditions, so it cannot be lost to space.",
+        "C": "Aquatic plants and phytoplankton actively absorb dissolved inorganic phosphate (PO₄³⁻).",
+        "D": "Denitrification is a nitrogen cycle process, not a phosphorus cycle reaction."
+      },
+      "stimulus": null
     },
     {
       "id": "u1-q03",
@@ -304,32 +309,35 @@
       "id": "u1-q07",
       "tier": "Exam level",
       "type": "mcq",
-      "topic": "1.4 The Carbon Cycle",
+      "topic": "1.6 The Carbon Cycle and Ocean Acidification",
       "skill": "1. Concept Explanation",
-      "stem": "Which statement best explains why burning fossil fuels increases atmospheric CO₂ over time?",
+      "stem": "Over the past century, increased combustion of fossil fuels has driven atmospheric CO₂ concentrations from 280 ppm to over 420 ppm. Which sequence accurately describes the chemical mechanism of ocean acidification resulting from this carbon flux?",
       "choices": [
         {
           "id": "A",
-          "text": "It decreases the rate of photosynthesis worldwide."
+          "text": "CO₂ dissolves in seawater to form carbonic acid (H₂CO₃), which dissociates into hydrogen ions (H⁺) and bicarbonate; the excess H⁺ ions bind to carbonate ions (CO₃²⁻), reducing the carbonate available for marine calcifiers to build calcium carbonate (CaCO₃) shells."
         },
         {
           "id": "B",
-          "text": "It converts atmospheric oxygen directly into carbon dioxide without using any carbon."
+          "text": "Excess CO₂ gas reacts with dissolved oxygen, depleting oceanic oxygen and suffocating benthic organisms while raising ocean pH."
         },
         {
           "id": "C",
-          "text": "It moves carbon from a long-term reservoir into the atmosphere faster than natural processes return it to long-term storage."
+          "text": "CO₂ combines directly with calcium ions to form insoluble limestone precipitates, lowering ocean salinity."
         },
         {
           "id": "D",
-          "text": "It releases carbon that was originally stored in the stratosphere."
+          "text": "Dissolved CO₂ increases ocean surface temperatures, which directly breaks down water molecules into hydroxide ions (OH⁻)."
         }
       ],
-      "answer": "C",
-      "explanation": "Fossil carbon accumulated over millions of years is released in decades; sinks (oceans, photosynthesis) cannot absorb it all.",
+      "answer": "A",
+      "explanation": "When atmospheric CO₂ dissolves in seawater: CO₂ + H₂O ⇌ H₂CO₃ ⇌ H⁺ + HCO₃⁻. The released H⁺ ions react with existing carbonate ions: H⁺ + CO₃²⁻ ⇌ HCO₃⁻. This lowers oceanic pH (acidification) and depletes the ambient concentration of carbonate ions (CO₃²⁻), severely hindering corals, pteropods, and shellfish from depositing calcium carbonate (CaCO₃) skeletons.",
       "distractors": {
-        "D": "Fossil fuel carbon comes from ancient organisms in sedimentary rock."
-      }
+        "B": "CO₂ does not react with oxygen to raise pH; ocean acidification lowers pH (increases acidity).",
+        "C": "Acidification dissolves calcium carbonate structures rather than precipitating limestone.",
+        "D": "Acidification increases H⁺ ion concentration, not hydroxide (OH⁻) ions."
+      },
+      "stimulus": null
     },
     {
       "id": "u1-q08",

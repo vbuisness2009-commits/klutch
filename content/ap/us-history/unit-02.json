@@ -129,123 +129,133 @@
       "id": "u2-q01",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "Transatlantic Trade / Chesapeake",
-      "stem": "The growth of tobacco cultivation in the Chesapeake in the 1600s most directly led to",
+      "topic": "2.2 European Colonization: Chesapeake and Tobacco",
+      "stem": "The economic conditions described in the excerpt most directly contributed to which of the following developments in the Chesapeake colonies?",
       "choices": [
         {
           "id": "A",
-          "text": "the end of England's mercantilist policies"
+          "text": "The rapid transition from indentured servitude to racialized, hereditary chattel slavery as the primary agricultural labor force."
         },
         {
           "id": "B",
-          "text": "the development of large towns centered on churches"
+          "text": "The emergence of diversified manufacturing and commercial shipbuilding along Chesapeake waterways."
         },
         {
           "id": "C",
-          "text": "close trade alliances with French fur traders"
+          "text": "The widespread adoption of communal land ownership and cooperative agriculture among yeoman farmers."
         },
         {
           "id": "D",
-          "text": "rising demand for labor, met first by indentured servants and later by enslaved Africans"
+          "text": "The decline of royal authority and the immediate establishment of an independent colonial republic."
         }
       ],
-      "answer": "D",
-      "explanation": "Tobacco was labor-intensive and land-hungry, so planters imported servants and, increasingly, enslaved people.",
+      "answer": "A",
+      "explanation": "Intensive tobacco monoculture in the Chesapeake required an abundant, permanent labor supply. Following Bacon's Rebellion (1676) and declining European indentured migration, Chesapeake planters increasingly turned to enslaved Africans, legally institutionalizing lifelong, hereditary racial slavery in colonial slave codes by the early 1700s.",
       "distractors": {
-        "B": "Describes New England.",
-        "C": "Describes French colonization."
-      }
+        "B": "Shipbuilding and diversified commerce developed in New England and the Middle Colonies, not the agrarian plantation South.",
+        "C": "Chesapeake society was characterized by large private plantations and stark wealth inequality, not communal landholding.",
+        "D": "Virginia remained a royal colony closely tied to the British crown until the American Revolution."
+      },
+      "stimulus": "\"Our planters, from their eager desire to make great quantities of tobacco, have neglected to cultivate corn and grain, and have cleared and impoverished their lands, relying upon Britain for supplies, while depending entirely on the labor of indentured servants and imported Africans to tend the leaf.\"\n\n—Letter from a Virginia colonist to an English merchant, 1682"
     },
     {
       "id": "u2-q02",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "Regions of British Colonies",
-      "stem": "Compared with settlers in the Chesapeake, settlers in early New England were more likely to",
+      "topic": "2.3 The Regions of British Colonies",
+      "stem": "The ideas expressed in the excerpt most directly contributed to which of the following characteristics of early New England settlement?",
       "choices": [
         {
           "id": "A",
-          "text": "rely on enslaved labor as their main workforce"
+          "text": "A cohesive society based on tightly knit town communities, covenant theology, and town hall participatory governance."
         },
         {
           "id": "B",
-          "text": "grow cash crops on large plantations"
+          "text": "A plantation-based economy reliant on indentured servants for cash-crop export."
         },
         {
           "id": "C",
-          "text": "migrate as families for religious reasons"
+          "text": "Widespread religious toleration and separation of church and civil government."
         },
         {
           "id": "D",
-          "text": "die young from tropical diseases"
+          "text": "Peaceful coexistence and permanent territorial sharing with neighboring Algonquin nations."
         }
       ],
-      "answer": "C",
-      "explanation": "Puritans came in family groups seeking to build godly communities, producing more balanced sex ratios.",
+      "answer": "A",
+      "explanation": "Puritan settlers in Massachusetts Bay sought to create a model godly commonwealth based on covenant theology. This religious mission fostered compact, family-centered towns clustered around meetinghouses that served both religious worship and local democratic governance (town meetings).",
       "distractors": {
-        "B": "Describes the Chesapeake and South."
-      }
+        "B": "Describes the Chesapeake plantation system, not rocky, family-farmed New England.",
+        "C": "Puritan magistrates expelled dissenters like Roger Williams and Anne Hutchinson for unorthodox views.",
+        "D": "Puritan land expansion led to violent conflict with Indigenous peoples, including the Pequot War and King Philip's War."
+      },
+      "stimulus": "\"We must consider that we shall be as a city upon a hill. The eyes of all people are upon us, so that if we shall deal falsely with our God in this work we have undertaken, and so cause Him to withdraw His present help from us, we shall be made a story and a by-word through the world.\"\n\n—John Winthrop, \"A Model of Christian Charity,\" 1630"
     },
     {
       "id": "u2-q03",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "Interactions Between American Indians and Europeans / mercantilism",
-      "stem": "Britain's Navigation Acts reflected which economic policy?",
+      "topic": "2.4 Transatlantic Trade and Mercantilism",
+      "stem": "The legislation in the excerpt was primarily designed to implement which economic policy?",
       "choices": [
         {
           "id": "A",
-          "text": "Subsistence agriculture"
+          "text": "Mercantilism, by ensuring that colonial raw materials enriched the home country and prevented foreign commercial rivals from profiting."
         },
         {
           "id": "B",
-          "text": "Free trade"
+          "text": "Free-trade capitalism, by eliminating tariffs and encouraging colonial merchants to trade directly with Dutch and French ports."
         },
         {
           "id": "C",
-          "text": "Laissez-faire capitalism"
+          "text": "Physiocracy, by prioritizing agricultural self-sufficiency over maritime commerce."
         },
         {
           "id": "D",
-          "text": "Mercantilism"
+          "text": "Industrial corporatism, by subsidizing colonial factories to compete with British manufacturing."
         }
       ],
-      "answer": "D",
-      "explanation": "The acts channeled colonial trade through England to enrich the mother country.",
+      "answer": "A",
+      "explanation": "The Navigation Acts embodied mercantilist theory: colonies existed to supply raw commodities (tobacco, sugar) exclusively to the mother country and purchase British manufactured exports, using English shipping to build imperial naval dominance and hoard specie.",
       "distractors": {
-        "B": "The acts restricted trade.",
-        "C": "Laissez-faire ideas came later and opposed such regulation."
-      }
+        "B": "The Navigation Acts strictly forbade free trade with foreign nations like the Netherlands and France.",
+        "C": "Physiocracy was an 18th-century French economic philosophy, not 17th-century English imperial policy.",
+        "D": "British policy discouraged colonial manufacturing through acts like the Wool Act and Iron Act."
+      },
+      "stimulus": "\"No goods or commodities whatsoever shall be imported into or exported out of any lands, islands, plantations, or territories to his Majesty belonging or in his possession... but in such ships or vessels as do truly and without fraud belong only to the people of England... and whereof the master and three fourths of the mariners at least are English.\"\n\n—The Navigation Act of 1660"
     },
     {
       "id": "u2-q04",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "Colonial Society and Culture",
-      "stem": "The First Great Awakening of the 1730s and 1740s is best described as",
+      "topic": "2.7 Colonial Society and Culture: The First Great Awakening",
+      "stem": "The religious revival reflected in the excerpt most significantly influenced colonial society by...",
       "choices": [
         {
           "id": "A",
-          "text": "a political campaign for independence from Britain"
+          "text": "fostering a shared evangelical experience across regional boundaries and encouraging colonists to question traditional clerical authority."
         },
         {
           "id": "B",
-          "text": "a movement to end the Atlantic slave trade"
+          "text": "unifying all British colonies under a single established state church supported by compulsory tax revenues."
         },
         {
           "id": "C",
-          "text": "a religious revival that emphasized personal faith and challenged established ministers"
+          "text": "strengthening the authority of traditional Puritan ministers over their congregations in New England."
         },
         {
           "id": "D",
-          "text": "a scientific movement based on reason alone"
+          "text": "causing colonists to abandon Christian beliefs in favor of secular Deism and Enlightenment rationalism."
         }
       ],
-      "answer": "C",
-      "explanation": "Itinerant preachers like George Whitefield drew huge crowds with emotional sermons, weakening the authority of official clergy.",
+      "answer": "A",
+      "explanation": "The First Great Awakening (1730s–1740s) was the first major intercolonial mass movement. It emphasized personal conversion and emotional piety over formal dogma, empowering 'New Light' lay believers to challenge traditional clerical hierarchy and established churches, laying cultural groundwork for questioning political authority.",
       "distractors": {
-        "D": "Describes the Enlightenment."
-      }
+        "B": "The Awakening splintered denominations into 'Old Lights' and 'New Lights,' multiplying sects rather than establishing a state church.",
+        "C": "It directly undermined traditional clerical authority.",
+        "D": "It was an intensely emotional Christian revival, not a secular Deist movement."
+      },
+      "stimulus": "\"The wrath of God burns against them, their damnation does not slumber; the pit is prepared, the fire is made ready, the furnace is now hot... The bow of God's wrath is bent, and the arrow made ready on the string, and justice bends the arrow at your heart... and nothing but the mere pleasure of God keeps the arrow one moment from being made drunk with your blood.\"\n\n—Jonathan Edwards, \"Sinners in the Hands of an Angry God,\" 1741"
     },
     {
       "id": "u2-q05",

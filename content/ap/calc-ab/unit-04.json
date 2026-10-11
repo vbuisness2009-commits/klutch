@@ -117,32 +117,34 @@
       "id": "u4-q01",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "4.2 Straight-Line Motion",
-      "stem": "A particle's position is s(t) = t² − 4t. What is its velocity at t = 3?",
+      "topic": "4.2 Straight-Line Motion: Connecting Position, Velocity, and Acceleration",
+      "stem": "A particle moves along the x-axis with position s(t) = 2t³ − 9t² + 12t for t ≥ 0. At what time(s) t is the particle at rest?",
       "choices": [
         {
           "id": "A",
-          "text": "6"
+          "text": "t = 1 and t = 2 only"
         },
         {
           "id": "B",
-          "text": "−3"
+          "text": "t = 1.5 only"
         },
         {
           "id": "C",
-          "text": "2"
+          "text": "t = 0, t = 1, and t = 2"
         },
         {
           "id": "D",
-          "text": "−2"
+          "text": "t = 3 only"
         }
       ],
-      "answer": "C",
-      "explanation": "v(t) = s′(t) = 2t − 4, so v(3) = 2.",
+      "answer": "A",
+      "explanation": "A particle is at rest when its velocity is zero. The velocity is v(t) = s′(t) = 6t² − 18t + 12. Set v(t) = 0: 6(t² − 3t + 2) = 0 ⇒ 6(t − 1)(t − 2) = 0 ⇒ t = 1 and t = 2.",
       "distractors": {
-        "B": "That is the position s(3).",
-        "A": "Computed only 2t."
-      }
+        "B": "Solves for the zero of acceleration (12t - 18 = 0 ⇒ t = 1.5) instead of velocity.",
+        "C": "Includes t = 0 where position is 0, confusing position with velocity.",
+        "D": "Factors incorrectly."
+      },
+      "stimulus": null
     },
     {
       "id": "u4-q02",
@@ -211,32 +213,34 @@
       "id": "u4-q04",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "4.2 Straight-Line Motion",
-      "stem": "A particle has velocity v(t) = 3t² − 12. What is its acceleration at t = 1?",
+      "topic": "4.2 Straight-Line Motion: Speed",
+      "stem": "A particle moves along a line with velocity v(t) = t² − 5t + 4 and acceleration a(t) = 2t − 5 for t ≥ 0. For which interval of t is the speed of the particle increasing?",
       "choices": [
         {
           "id": "A",
-          "text": "6"
+          "text": "(1, 2.5) and (4, ∞)"
         },
         {
           "id": "B",
-          "text": "−9"
+          "text": "(0, 1) and (4, ∞)"
         },
         {
           "id": "C",
-          "text": "3"
+          "text": "(2.5, ∞)"
         },
         {
           "id": "D",
-          "text": "0"
+          "text": "(1, 4)"
         }
       ],
       "answer": "A",
-      "explanation": "a(t) = v′(t) = 6t, so a(1) = 6.",
+      "explanation": "Speed is increasing when velocity and acceleration have the SAME sign. v(t) = (t − 1)(t − 4): positive on (0, 1) and (4, ∞); negative on (1, 4). a(t) = 2t − 5: negative on (0, 2.5); positive on (2.5, ∞). Both negative on (1, 2.5); both positive on (4, ∞). Thus speed increases on (1, 2.5) and (4, ∞).",
       "distractors": {
-        "B": "That is v(1).",
-        "D": "Confused acceleration with the time v = 0."
-      }
+        "B": "Identifies where velocity is positive, confusing velocity increasing with speed increasing.",
+        "C": "Identifies where acceleration is positive only.",
+        "D": "Identifies where velocity is negative only."
+      },
+      "stimulus": null
     },
     {
       "id": "u4-q05",

@@ -117,32 +117,34 @@
       "id": "u4-q01",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "4.2 Linear Momentum",
-      "stem": "What is the momentum of a 3 kg ball moving at 4 m/s?",
+      "topic": "4.3 Conservation of Linear Momentum",
+      "stem": "A block of mass m moving with speed v₀ on a frictionless horizontal surface collides with and sticks to a block of mass 3m initially at rest. What fraction of the initial kinetic energy of the system is dissipated during the collision?",
       "choices": [
         {
           "id": "A",
-          "text": "24 kg·m/s"
+          "text": "3/4"
         },
         {
           "id": "B",
-          "text": "12 kg·m/s"
+          "text": "1/4"
         },
         {
           "id": "C",
-          "text": "0.75 kg·m/s"
+          "text": "1/2"
         },
         {
           "id": "D",
-          "text": "7 kg·m/s"
+          "text": "2/3"
         }
       ],
-      "answer": "B",
-      "explanation": "p = mv = 3 × 4 = 12 kg·m/s.",
+      "answer": "A",
+      "explanation": "By conservation of linear momentum: m·v₀ = (m + 3m)·v_f ⇒ 4m·v_f = mv₀ ⇒ v_f = v₀ / 4. Initial kinetic energy is K_i = ½ m v₀². Final kinetic energy is K_f = ½ (4m) v_f² = 2m (v₀/4)² = 2m (v₀²/16) = ⅛ m v₀² = ¼ K_i. The fraction of initial kinetic energy dissipated as thermal energy and deformation is (K_i − K_f) / K_i = (K_i − ¼ K_i) / K_i = 3/4.",
       "distractors": {
-        "D": "Added mass and speed.",
-        "A": "Computed mv² = 48 and halved it: that's kinetic energy."
-      }
+        "B": "Finds the fraction of kinetic energy remaining (1/4) rather than the fraction dissipated.",
+        "C": "Assumes an arbitrary 50% energy loss.",
+        "D": "Inverts mass ratio."
+      },
+      "stimulus": null
     },
     {
       "id": "u4-q02",

@@ -121,121 +121,133 @@
       "id": "u3-q01",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "The Seven Years' War",
-      "stem": "Which was a major reason Britain began taxing the American colonies after 1763?",
+      "topic": "3.3 Taxation without Representation",
+      "stem": "The argument in the excerpt was primarily aimed at challenging which British political concept?",
       "choices": [
         {
           "id": "A",
-          "text": "To repay loans from the Continental Congress"
+          "text": "Virtual representation, the idea that members of Parliament represented the interests of all British subjects regardless of geographic franchise."
         },
         {
           "id": "B",
-          "text": "To fund a war against Spain in Florida"
+          "text": "Direct democracy, the idea that every citizen must vote directly on all parliamentary legislation."
         },
         {
           "id": "C",
-          "text": "To punish the colonies for supporting France"
+          "text": "Salutary neglect, the long-standing policy of lax imperial enforcement of trade laws."
         },
         {
           "id": "D",
-          "text": "To pay debts from the Seven Years' War and the cost of defending its expanded empire"
+          "text": "Judicial review, the power of imperial courts to declare acts of Parliament unconstitutional."
         }
       ],
-      "answer": "D",
-      "explanation": "The war doubled Britain's debt, and keeping troops in North America was expensive.",
+      "answer": "A",
+      "explanation": "Parliament justified taxing colonists without colonial MPs by claiming 'virtual representation'—that MPs represented the entire empire's collective interest. Colonists rejected this, insisting that under English constitutional law, legitimate taxation required 'actual representation' by legislators chosen by the local electorate.",
       "distractors": {
-        "C": "Colonists fought for Britain in the war."
-      }
+        "B": "Neither Britain nor the colonies practiced direct democracy.",
+        "C": "Colonists favored salutary neglect and protested its abandonment.",
+        "D": "British constitutional law embraced parliamentary sovereignty, not judicial review of parliamentary statutes."
+      },
+      "stimulus": "\"It is inseparably essential to the freedom of a people, and the undoubted right of Englishmen, that no taxes be imposed on them, but with their own consent, given personally, or by their representatives... That the people of these colonies are not, and from their local circumstances cannot be, represented in the House of Commons in Great Britain.\"\n\n—Declaration of Rights and Grievances, Stamp Act Congress, 1765"
     },
     {
       "id": "u3-q02",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "The Articles of Confederation",
-      "stem": "A major weakness of the national government under the Articles of Confederation was that Congress could not",
+      "topic": "3.7 The Articles of Confederation",
+      "stem": "The weakness of the Articles of Confederation described in the excerpt became most dramatically evident during which event?",
       "choices": [
         {
           "id": "A",
-          "text": "levy taxes"
+          "text": "Shays' Rebellion, when Massachusetts farmers shut down courts and the national government lacked funds or troops to intervene."
         },
         {
           "id": "B",
-          "text": "make treaties"
+          "text": "The Boston Tea Party, when Parliament closed Boston harbor."
         },
         {
           "id": "C",
-          "text": "declare war"
+          "text": "The Hartford Convention, when New England states threatened secession over wartime trade embargoes."
         },
         {
           "id": "D",
-          "text": "organize western territories"
+          "text": "The Whiskey Rebellion, when western farmers refused to pay a federal excise tax."
         }
       ],
       "answer": "A",
-      "explanation": "Congress could only request money from states, which often refused.",
+      "explanation": "Shays' Rebellion (1786–1787) in western Massachusetts exposed the fatal weakness of the Articles of Confederation: the Confederation Congress had neither the authority to raise tax revenue nor the military capability to put down domestic insurrections, alarming national leaders and catalyzing the Constitutional Convention.",
       "distractors": {
-        "D": "It did organize territories through the Northwest Ordinance."
-      }
+        "B": "The Boston Tea Party occurred in 1773, before the Articles of Confederation were written.",
+        "C": "The Hartford Convention occurred in 1814 during the War of 1812 under the Constitution.",
+        "D": "The Whiskey Rebellion (1794) occurred under the Constitution, and President Washington successfully mobilized federal militia."
+      },
+      "stimulus": "\"The fundamental defect of the Confederation is that the Congress has no power of sanction, no power to compel obedience, and no power to levy taxes directly on the citizens. It must beg the several States for requisitions of money, which are paid tardily, partially, or not at all.\"\n\n—Alexander Hamilton, *The Continentalist*, 1782"
     },
     {
       "id": "u3-q03",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "Debates About the Constitution",
-      "stem": "Anti-Federalists were most likely to support",
+      "topic": "3.8 The Constitutional Convention and Debates over Ratification",
+      "stem": "The argument in the excerpt reflects the core position of which group during the constitutional debates?",
       "choices": [
         {
           "id": "A",
-          "text": "ratifying the Constitution without changes"
+          "text": "Anti-Federalists, who feared that an energetic, consolidated national government would overpower state sovereignty and civil liberties."
         },
         {
           "id": "B",
-          "text": "a strong national bank"
+          "text": "Federalists, who argued that an extended republic would dilute factional influence."
         },
         {
           "id": "C",
-          "text": "adding a bill of rights to the Constitution"
+          "text": "War Hawks, who demanded territorial conquest of Canada and Florida."
         },
         {
           "id": "D",
-          "text": "a powerful executive"
+          "text": "Loyalists, who supported preserving direct royal government under King George III."
         }
       ],
-      "answer": "C",
-      "explanation": "Fearing centralized power, Anti-Federalists demanded explicit protections for individual liberties.",
+      "answer": "A",
+      "explanation": "Brutus No. 1 expressed the classic Anti-Federalist critique drawing on Montesquieu: a free republic can only survive over a small, homogeneous territory where citizens know their representatives. They warned that the proposed Constitution created an unchecked central authority that would obliterate state autonomy.",
       "distractors": {
-        "A": "That was the Federalist position."
-      }
+        "B": "Federalists (Madison in Federalist No. 10) argued the opposite: an extended republic protects liberty by preventing majority factions from dominating.",
+        "C": "War Hawks emerged in 1811 ahead of the War of 1812.",
+        "D": "Anti-Federalists were American patriots who supported state independence, not royal Loyalists."
+      },
+      "stimulus": "\"In a republic of such vast extent as the United States, the representatives would be detached from their constituents, the legislature would be unable to attend to the varying interests of distant provinces, and the executive and judicial branches would inevitably degenerate into tyranny over the sovereign states.\"\n\n—Brutus No. 1, 1787"
     },
     {
       "id": "u3-q04",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "The American Revolution",
-      "stem": "Thomas Paine's pamphlet Common Sense (1776) is significant because it",
+      "topic": "3.5 The American Revolution: Philosophical Foundations",
+      "stem": "Thomas Paine's pamphlet was historically significant primarily because it...",
       "choices": [
         {
           "id": "A",
-          "text": "argued for reconciliation with Britain"
+          "text": "used plain, accessible language to shift public opinion from reconciliation with Britain to an uncompromising demand for republican independence."
         },
         {
           "id": "B",
-          "text": "persuaded many colonists to support independence and republican government"
+          "text": "persuaded the French monarchy to enter into a formal military alliance with the Continental Congress."
         },
         {
           "id": "C",
-          "text": "outlined the structure of the Articles of Confederation"
+          "text": "convinced the British Parliament to repeal the Coercive Acts and offer the colonies home rule."
         },
         {
           "id": "D",
-          "text": "called for the abolition of slavery in the South"
+          "text": "outlined the detailed division of powers between the executive, legislative, and judicial branches."
         }
       ],
-      "answer": "B",
-      "explanation": "Written in plain language, it attacked monarchy and sold widely, shifting opinion toward independence.",
+      "answer": "A",
+      "explanation": "*Common Sense* was an unprecedented popular bestseller. By rejecting polite legalistic arguments and directly attacking hereditary monarchy using biblical and Enlightenment arguments, Paine transformed popular colonial sentiment from protesting specific taxes to demanding total political independence.",
       "distractors": {
-        "A": "Paine argued the opposite."
-      }
+        "B": "The American victory at Saratoga (1777) and Benjamin Franklin's diplomacy secured the French alliance.",
+        "C": "Parliament did not repeal the Coercive Acts in response to Paine.",
+        "D": "Paine advocated a simple unicameral legislature; separation of powers was articulated by Montesquieu, John Adams, and James Madison."
+      },
+      "stimulus": "\"A government of our own is our natural right: and when a man reflects on the precariousness of human affairs, he will become convinced, that it is infinitely wiser and safer, to form a constitution of our own in a cool deliberate manner, while we have it in our power, than to trust such an interesting event to time and chance... Of more worth is one honest man to society, and in the sight of God, than all the crowned ruffians that ever lived.\"\n\n—Thomas Paine, *Common Sense*, January 1776"
     },
     {
       "id": "u3-q05",

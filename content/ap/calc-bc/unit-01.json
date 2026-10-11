@@ -123,32 +123,33 @@
       "type": "mcq",
       "tier": "Intro",
       "topic": "1.6 Determining Limits Using Algebraic Manipulation",
-      "stem": "What is lim x→3 (x² − 9)/(x − 3)?",
+      "stem": "For what value of the constant k is the function f continuous at x = 3, where f(x) = (x² + kx − 15)/(x − 3) for x ≠ 3 and f(3) = 8?",
       "choices": [
         {
           "id": "A",
-          "text": "6"
+          "text": "2"
         },
         {
           "id": "B",
-          "text": "3"
+          "text": "−2"
         },
         {
           "id": "C",
-          "text": "0"
+          "text": "5"
         },
         {
           "id": "D",
-          "text": "The limit does not exist."
+          "text": "No such value of k exists."
         }
       ],
       "answer": "A",
-      "explanation": "Substitution gives 0/0. Factor: (x − 3)(x + 3)/(x − 3) = x + 3 for x ≠ 3, so the limit is 3 + 3 = 6.",
+      "explanation": "For f to be continuous at x = 3, lim x→3 f(x) must equal f(3) = 8. Since the denominator approaches 0, the numerator must also approach 0: 3² + 3k − 15 = 0 ⇒ 3k = 6 ⇒ k = 2. With k = 2, f(x) = (x² + 2x − 15)/(x − 3) = ((x − 3)(x + 5))/(x − 3) = x + 5 for x ≠ 3. Then lim x→3 (x + 5) = 8 = f(3), confirming continuity.",
       "distractors": {
-        "B": "Cancels incorrectly and keeps only x.",
-        "D": "Thinks 0/0 means the limit fails to exist; it is indeterminate, not nonexistent.",
-        "C": "Treats 0/0 as 0."
-      }
+        "B": "Solves 3k = −6 instead of 3k = 6.",
+        "C": "Confuses the root x = −5 with the coefficient k.",
+        "D": "Fails to recognize that the 0/0 indeterminate form can be resolved by factoring."
+      },
+      "stimulus": null
     },
     {
       "id": "u1-q02",
@@ -188,32 +189,33 @@
       "type": "mcq",
       "tier": "Intro",
       "topic": "1.15 Connecting Limits at Infinity and Horizontal Asymptotes",
-      "stem": "lim x→∞ (4x³ − x)/(2x³ + 5x²) is",
+      "stem": "What is lim x→−∞ (√(9x² − 2x) + 4)/(2x − 5)?",
       "choices": [
         {
           "id": "A",
-          "text": "0"
+          "text": "−3/2"
         },
         {
           "id": "B",
-          "text": "4"
+          "text": "3/2"
         },
         {
           "id": "C",
-          "text": "2"
+          "text": "9/2"
         },
         {
           "id": "D",
-          "text": "∞"
+          "text": "The limit does not exist."
         }
       ],
-      "answer": "C",
-      "explanation": "Numerator and denominator have the same degree (3), so the limit is the ratio of leading coefficients: 4/2 = 2.",
+      "answer": "A",
+      "explanation": "As x → −∞, x is negative, so √(x²) = |x| = −x. Factoring x² from the square root gives √(9x² − 2x) = √[x²(9 − 2/x)] = |x|√(9 − 2/x) = −x√(9 − 2/x). Dividing numerator and denominator by x gives [−√(9 − 2/x) + 4/x] / [2 − 5/x]. Taking the limit as x → −∞ yields (−√9 + 0)/(2 − 0) = −3/2.",
       "distractors": {
-        "A": "Applies the rule for a lower-degree numerator.",
-        "D": "Applies the rule for a higher-degree numerator.",
-        "B": "Ignores the 2 in the denominator."
-      }
+        "B": "Forgets that √(x²) = −x when x < 0, resulting in an erroneous positive sign.",
+        "C": "Squares the ratio 3/2 or forgets the square root of 9.",
+        "D": "Mistakenly assumes the square root cannot be evaluated as x → −∞."
+      },
+      "stimulus": null
     },
     {
       "id": "u1-q04",
@@ -251,33 +253,34 @@
       "id": "u1-q05",
       "type": "mcq",
       "tier": "Exam level",
-      "topic": "1.9 Connecting Multiple Representations of Limits (trig limits)",
-      "stem": "What is lim x→0 sin(3x)/(5x)?",
+      "topic": "1.9 Connecting Multiple Representations of Limits",
+      "stem": "What is lim x→0 (1 − cos(4x))/(x·sin(2x))?",
       "choices": [
         {
           "id": "A",
-          "text": "0"
+          "text": "4"
         },
         {
           "id": "B",
-          "text": "3/5"
+          "text": "2"
         },
         {
           "id": "C",
-          "text": "5/3"
+          "text": "8"
         },
         {
           "id": "D",
-          "text": "1"
+          "text": "0"
         }
       ],
-      "answer": "B",
-      "explanation": "Rewrite as (3/5)·[sin(3x)/(3x)]. As x → 0, 3x → 0, so the bracket → 1. The limit is 3/5.",
+      "answer": "A",
+      "explanation": "Direct substitution gives 0/0. Using standard trigonometric limits, multiply and divide by 16x²: (1 − cos(4x))/(16x²) · 16x² / (x·sin(2x)) = [(1 − cos(4x))/(4x)²] · [16x / (2x · sin(2x)/(2x))] · (1/1) = (1/2) · (16/2) / 1 = (1/2) · 8 = 4.",
       "distractors": {
-        "A": "Substitutes to get 0/0 and calls it 0.",
-        "C": "Inverts the ratio.",
-        "D": "Uses lim sin u/u = 1 without rescaling."
-      }
+        "B": "Forgets the factor of 16 in (4x)² or takes (4/2) = 2 without accounting for the 1/2 factor in 1 - cos(u).",
+        "C": "Neglects the 1/2 factor in lim (1 - cos u)/u² = 1/2.",
+        "D": "Assumes the numerator 1 - cos(0) = 0 forces the whole limit to be 0 without evaluating the indeterminate form."
+      },
+      "stimulus": null
     },
     {
       "id": "u1-q06",

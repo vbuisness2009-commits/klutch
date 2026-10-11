@@ -151,32 +151,34 @@
       "id": "u4-q02",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "4.6 Cell Cycle",
-      "stem": "During which phase of the cell cycle is DNA replicated?",
+      "topic": "4.6 Cell Cycle Regulation and Mitosis",
+      "stem": "During mitosis, the spindle assembly checkpoint (M checkpoint) monitors whether all kinetochores are properly attached to spindle microtubules. If a chemical inhibitor prevents kinetochore attachment to the mitotic spindle, at which stage will dividing cells arrest?",
       "choices": [
         {
           "id": "A",
-          "text": "Prophase"
+          "text": "Metaphase, preventing the transition to anaphase."
         },
         {
           "id": "B",
-          "text": "G1 phase"
+          "text": "Prophase, preventing chromatin condensation."
         },
         {
           "id": "C",
-          "text": "S phase"
+          "text": "Anaphase, preventing sister chromatid separation."
         },
         {
           "id": "D",
-          "text": "Anaphase"
+          "text": "Telophase, preventing nuclear envelope reformation."
         }
       ],
-      "answer": "C",
-      "explanation": "The S (synthesis) phase of interphase is when DNA is copied.",
+      "answer": "A",
+      "explanation": "The spindle assembly checkpoint operates at the metaphase-to-anaphase transition. Unattached kinetochores emit an inhibitory signal that prevents activation of the anaphase-promoting complex/cyclosome (APC/C). Because APC/C cannot ubiquitinate securin, the enzyme separase remains inactive and cohesin cannot be cleaved. The cell arrests at metaphase.",
       "distractors": {
-        "D": "Sister chromatids separate in anaphase.",
-        "A": "Chromosomes condense in prophase, but they were already replicated."
-      }
+        "B": "Chromatin condenses normally during prophase before spindle attachment is verified.",
+        "C": "The cell never enters anaphase; it arrests before anaphase begins.",
+        "D": "Telophase occurs after chromosome separation has completed."
+      },
+      "stimulus": null
     },
     {
       "id": "u4-q03",

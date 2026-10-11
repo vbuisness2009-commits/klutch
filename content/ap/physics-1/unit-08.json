@@ -147,31 +147,34 @@
       "id": "u8-q02",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "8.2 Pressure",
-      "stem": "A 100 N force is spread evenly over an area of 0.50 m². What is the pressure?",
+      "topic": "8.2 Fluids: Pressure and Buoyancy",
+      "stem": "A solid rectangular block of wood with uniform cross-sectional area A, height H, and density ρ_b floats vertically in water of density ρ_w (where ρ_b < ρ_w). If the block is pushed down slightly by a distance y into the water and released, what is the net restoring force on the block?",
       "choices": [
         {
           "id": "A",
-          "text": "200 Pa"
+          "text": "−ρ_w·A·g·y"
         },
         {
           "id": "B",
-          "text": "50 Pa"
+          "text": "−ρ_b·A·g·y"
         },
         {
           "id": "C",
-          "text": "0.005 Pa"
+          "text": "−(ρ_w − ρ_b)·A·g·y"
         },
         {
           "id": "D",
-          "text": "100 Pa"
+          "text": "−ρ_w·A·H·g"
         }
       ],
       "answer": "A",
-      "explanation": "P = F/A = 100/0.50 = 200 Pa.",
+      "explanation": "At equilibrium, the buoyant force equals the weight of the block: F_b,eq = mg = ρ_b·A·H·g. When displaced downward by distance y, the additional volume of displaced fluid is ΔV = A·y. The additional upward buoyant force created is ΔF_b = ρ_w·ΔV·g = ρ_w·A·y·g. Because this force opposes the displacement y, the net restoring force is F_net = −ρ_w·A·g·y. This linear restoring force is what produces simple harmonic vertical oscillations.",
       "distractors": {
-        "B": "Multiplied instead of dividing."
-      }
+        "B": "Uses the density of the block rather than the density of the displaced fluid.",
+        "C": "Subtracts the block's density, forgetting that the block's gravitational weight is already balanced by the equilibrium buoyant force.",
+        "D": "Calculates the total buoyant force on the fully submerged block rather than the restoring force."
+      },
+      "stimulus": null
     },
     {
       "id": "u8-q03",

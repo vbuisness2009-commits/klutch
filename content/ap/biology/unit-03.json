@@ -117,64 +117,67 @@
       "id": "u3-q01",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "3.5 Photosynthesis",
-      "stem": "In which part of the chloroplast does the Calvin cycle take place?",
+      "topic": "3.5 Photosynthesis and the Calvin Cycle",
+      "stem": "In an experiment studying the Calvin cycle, Chlorella algae illuminated with constant light are suddenly transferred into complete darkness. Within seconds of the light-to-dark transition, which change in metabolite concentrations occurs in the chloroplast stroma?",
       "choices": [
         {
           "id": "A",
-          "text": "Thylakoid membrane"
+          "text": "3-PGA (3-phosphoglycerate) accumulates, while RuBP (ribulose-1,5-bisphosphate) rapidly depletes."
         },
         {
           "id": "B",
-          "text": "Stroma"
+          "text": "RuBP accumulates, while 3-PGA rapidly depletes."
         },
         {
           "id": "C",
-          "text": "Thylakoid lumen"
+          "text": "Both RuBP and 3-PGA concentrations increase proportionally."
         },
         {
           "id": "D",
-          "text": "Outer membrane"
+          "text": "G3P (glyceraldehyde-3-phosphate) accumulates due to accelerated reduction reactions."
         }
       ],
-      "answer": "B",
-      "explanation": "The Calvin cycle enzymes, including rubisco, are dissolved in the stroma.",
+      "answer": "A",
+      "explanation": "In the light, ATP and NADPH from the light-dependent reactions convert 3-PGA into G3P, which is then used to regenerate RuBP. In sudden darkness, ATP and NADPH production ceases immediately. However, RuBisCO continues fixing CO₂ onto existing RuBP in the stroma as long as RuBP remains, producing 3-PGA. Because 3-PGA cannot be reduced without ATP and NADPH, 3-PGA accumulates while RuBP is exhausted without being regenerated.",
       "distractors": {
-        "C": "That's where H⁺ accumulates during the light reactions.",
-        "A": "That's where the light-dependent reactions occur."
-      }
+        "B": "Reverses the reaction direction; RuBP regeneration requires ATP, which is absent in the dark.",
+        "C": "Both cannot increase because the cycle requires energy input to complete.",
+        "D": "G3P synthesis requires ATP and NADPH, so it halts in darkness."
+      },
+      "stimulus": null
     },
     {
       "id": "u3-q02",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "3.6 Cellular Respiration",
-      "stem": "Which molecule is the final electron acceptor in aerobic cellular respiration?",
+      "topic": "3.6 Cellular Respiration and the Electron Transport Chain",
+      "stem": "The compound 2,4-dinitrophenol (DNP) acts as a mitochondrial uncoupler by shuttling protons across the inner mitochondrial membrane into the matrix. If isolated, actively respiring mitochondria are treated with DNP in the presence of pyruvate and ADP, what effect will DNP have on oxygen consumption and ATP synthesis?",
       "choices": [
         {
           "id": "A",
-          "text": "Carbon dioxide"
+          "text": "Oxygen consumption continues or increases, while ATP synthesis drops dramatically."
         },
         {
           "id": "B",
-          "text": "NAD⁺"
+          "text": "Both oxygen consumption and ATP synthesis cease immediately."
         },
         {
           "id": "C",
-          "text": "Oxygen"
+          "text": "ATP synthesis increases, while oxygen consumption decreases."
         },
         {
           "id": "D",
-          "text": "Pyruvate"
+          "text": "The proton gradient increases, driving accelerated substrate-level phosphorylation."
         }
       ],
-      "answer": "C",
-      "explanation": "O₂ accepts electrons at the end of the electron transport chain and combines with H⁺ to form water.",
+      "answer": "A",
+      "explanation": "DNP dissipates the proton motive force by allowing protons to diffuse back across the inner mitochondrial membrane into the matrix without passing through ATP synthase. Because the proton gradient is dissipated, ATP synthase cannot synthesize ATP. However, the electron transport chain continues transferring electrons to oxygen (often at an accelerated rate because respiratory control by the proton gradient is lost). Thus oxygen consumption remains high while ATP synthesis halts.",
       "distractors": {
-        "B": "NAD⁺ is an electron carrier that delivers electrons to the chain, not the final acceptor.",
-        "D": "Pyruvate accepts electrons only in fermentation.",
-        "A": "CO₂ is a waste product of the Krebs cycle."
-      }
+        "B": "Oxygen consumption does not cease because electron transport complexes are not directly inhibited by uncouplers.",
+        "C": "ATP synthesis requires a proton gradient, so it cannot increase when the gradient is dissipated.",
+        "D": "DNP decreases the proton gradient, and substrate-level phosphorylation occurs in glycolysis and the citric acid cycle, not at the inner membrane."
+      },
+      "stimulus": null
     },
     {
       "id": "u3-q03",

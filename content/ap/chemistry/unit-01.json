@@ -115,32 +115,34 @@
       "id": "u1-q01",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "Moles and Molar Mass",
-      "stem": "How many atoms are in 9.0 g of H₂O (molar mass 18.0 g/mol)?",
+      "topic": "1.1 Moles and Molar Mass in Context",
+      "stem": "A sample of a pure hydrocarbon containing only carbon and hydrogen is completely burned in excess oxygen, producing 8.80 g of CO₂ (molar mass 44.0 g/mol) and 5.40 g of H₂O (molar mass 18.0 g/mol). What is the empirical formula of the hydrocarbon?",
       "choices": [
         {
           "id": "A",
-          "text": "3.0 × 10²³"
+          "text": "CH₃"
         },
         {
           "id": "B",
-          "text": "6.0 × 10²³"
+          "text": "CH₄"
         },
         {
           "id": "C",
-          "text": "9.0 × 10²³"
+          "text": "C₂H₅"
         },
         {
           "id": "D",
-          "text": "1.8 × 10²⁴"
+          "text": "C₃H₈"
         }
       ],
-      "answer": "C",
-      "explanation": "9.0 g ÷ 18.0 g/mol = 0.50 mol H₂O. Each molecule has 3 atoms, so 1.5 mol atoms × 6.02 × 10²³ = 9.0 × 10²³ atoms.",
+      "answer": "A",
+      "explanation": "Moles of CO₂ = 8.80 g / 44.0 g/mol = 0.200 mol CO₂, which contains 0.200 mol C. Moles of H₂O = 5.40 g / 18.0 g/mol = 0.300 mol H₂O, which contains 2 × 0.300 = 0.600 mol H. The molar ratio of C to H is 0.200 : 0.600 = 1 : 3. Therefore, the empirical formula is CH₃ (e.g., ethane C₂H₆).",
       "distractors": {
-        "A": "Molecules, not atoms.",
-        "B": "Uses 1 mol instead of 0.50 mol."
-      }
+        "B": "Forgets to multiply moles of H₂O by 2 to account for two hydrogen atoms per water molecule, obtaining a 1:1.5 ratio.",
+        "C": "Miscalculates the ratio as 2 : 5.",
+        "D": "Assumes complete combustion of propane C₃H₈."
+      },
+      "stimulus": null
     },
     {
       "id": "u1-q02",
@@ -177,32 +179,34 @@
       "id": "u1-q03",
       "tier": "Intro",
       "type": "mcq",
-      "topic": "Atomic Structure and Electron Configuration",
-      "stem": "Which is the ground-state electron configuration of Fe²⁺?",
+      "topic": "1.7 Periodic Trends: Ionization Energy",
+      "stem": "The first ionization energy of phosphorus (P) is 1,012 kJ/mol, while the first ionization energy of sulfur (S) is 999.6 kJ/mol. Which statement best explains why sulfur has a lower first ionization energy than phosphorus despite having a greater nuclear charge?",
       "choices": [
         {
           "id": "A",
-          "text": "[Ar] 3d⁶"
+          "text": "The electron removed from sulfur is paired in a 3p orbital, and electron-electron repulsion makes it easier to remove."
         },
         {
           "id": "B",
-          "text": "[Ar] 4s² 3d⁴"
+          "text": "Sulfur has greater core-electron shielding than phosphorus."
         },
         {
           "id": "C",
-          "text": "[Ar] 4s² 3d⁶"
+          "text": "The valence electrons in sulfur occupy a higher principal energy level than those in phosphorus."
         },
         {
           "id": "D",
-          "text": "[Ar] 4s¹ 3d⁵"
+          "text": "Phosphorus has a stable, fully filled 3p subshell."
         }
       ],
       "answer": "A",
-      "explanation": "Fe is [Ar]4s²3d⁶. Transition metals lose 4s electrons first, giving Fe²⁺ = [Ar]3d⁶.",
+      "explanation": "Phosphorus has the valence electron configuration 3s²3p³, with three unpaired electrons in separate 3p orbitals (half-filled subshell, minimizing repulsion according to Hund's rule). Sulfur has configuration 3s²3p⁴, where one 3p orbital contains a pair of electrons. The electrostatic repulsion between the two paired electrons in that single 3p orbital increases their energy and makes it require slightly less energy to remove one, overcoming the increase in nuclear charge.",
       "distractors": {
-        "C": "Neutral Fe.",
-        "B": "Removes 3d electrons before 4s."
-      }
+        "B": "Both P and S have the same core electron configuration ([Ne]), so core shielding is identical.",
+        "C": "Both elements have valence electrons in the n = 3 principal energy level.",
+        "D": "A half-filled subshell (3p³) has three electrons, not a fully filled subshell (3p⁶)."
+      },
+      "stimulus": null
     },
     {
       "id": "u1-q04",

@@ -331,31 +331,33 @@
       "tier": "Exam level",
       "type": "mcq",
       "topic": "5.11 Solving Optimization Problems",
-      "stem": "Among all rectangles with perimeter 40, what is the largest possible area?",
+      "stem": "What is the maximum area of a rectangle with its base on the x-axis and its upper two vertices on the parabola y = 12 − x²?",
       "choices": [
         {
           "id": "A",
-          "text": "400"
+          "text": "32"
         },
         {
           "id": "B",
-          "text": "100"
+          "text": "16"
         },
         {
           "id": "C",
-          "text": "80"
+          "text": "48"
         },
         {
           "id": "D",
-          "text": "96"
+          "text": "24"
         }
       ],
-      "answer": "B",
-      "explanation": "Sides x and 20 − x. A = x(20 − x), A′ = 20 − 2x = 0 at x = 10. A″ = −2 < 0, a max. A = 100.",
+      "answer": "A",
+      "explanation": "By symmetry, the upper vertices are (−x, 12 − x²) and (x, 12 − x²) for x > 0. The base has length 2x and height y = 12 − x². The area is A(x) = 2x(12 − x²) = 24x − 2x³ for 0 < x < √12. Setting A′(x) = 0 gives 24 − 6x² = 0 ⇒ x² = 4 ⇒ x = 2. Since A″(x) = −12x < 0, this gives the absolute maximum area: A(2) = 2(2)(12 − 4) = 4(8) = 32.",
       "distractors": {
-        "D": "A non-optimal rectangle (8 × 12).",
-        "A": "Squared the half-perimeter, 20², instead of using sides of 10."
-      }
+        "B": "Uses width x instead of 2x: x(12 - x²) = 2(8) = 16.",
+        "C": "Multiplies 2x by 12 without subtracting the x² term.",
+        "D": "Arithmetic error multiplying dimensions."
+      },
+      "stimulus": null
     },
     {
       "id": "u5-q09",

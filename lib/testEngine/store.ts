@@ -137,6 +137,22 @@ type Row = {
 };
 
 function fromRow(r: Row): StoredTest {
+  let form = r.form;
+  if (typeof form === "string") {
+    try {
+      form = JSON.parse(form);
+    } catch (e) {
+      console.error("Failed to parse form JSON from row", r.id, e);
+    }
+  }
+  let warnings = r.warnings;
+  if (typeof warnings === "string") {
+    try {
+      warnings = JSON.parse(warnings);
+    } catch {
+      warnings = [];
+    }
+  }
   return {
     id: r.id,
     title: r.title,
@@ -144,10 +160,10 @@ function fromRow(r: Row): StoredTest {
     source: r.source,
     published: r.published,
     scorable: r.scorable,
-    warnings: r.warnings ?? [],
+    warnings: warnings ?? [],
     uploadedAt: new Date(r.created_at).toISOString(),
     updatedAt: new Date(r.updated_at).toISOString(),
-    form: r.form,
+    form,
   };
 }
 
@@ -189,21 +205,32 @@ function assertFileWritable() {
 // ------------------------------------------------------------------ API
 
 export async function listTests(): Promise<TestSummary[]> {
-  let dbTests: StoredTest[] = [];
-  try {
-    if (dbConfigured()) {
-      await ensureSchema();
-      dbTests = ((await sql()`SELECT * FROM tests ORDER BY created_at DESC`) as Row[]).map(fromRow);
-    } else {
-      dbTests = await fileList();
+  const map = new Map<string, StoredTest>();
+
+  // 1. Filesystem tests (static files committed to repository)
+  const files = await fileList();
+  for (const t of files) {
+    if (t.form?.sections) {
+      map.set(t.id, t);
     }
-  } catch (err) {
-    console.error("Failed to load tests from store", err);
   }
 
-  const validDb = dbTests.filter((t) => t.form?.sections);
+  // 2. Database tests (overlay or add newly generated tests)
+  if (dbConfigured()) {
+    try {
+      await ensureSchema();
+      const rows = ((await sql()`SELECT * FROM tests ORDER BY created_at DESC`) as Row[]).map(fromRow);
+      for (const t of rows) {
+        if (t.form?.sections) {
+          map.set(t.id, t);
+        }
+      }
+    } catch (err) {
+      console.error("Failed to load tests from store", err);
+    }
+  }
 
-  return validDb
+  return Array.from(map.values())
     .map(summarize)
     .sort((a, b) => b.uploadedAt.localeCompare(a.uploadedAt));
 }
@@ -219,17 +246,19 @@ export async function listPublishedTests(): Promise<TestSummary[]> {
 }
 
 export async function getTest(id: string): Promise<StoredTest | null> {
+  // Check file store first
+  const file = await fileGet(id);
+  if (file) return file;
+
+  // Then check database
   if (dbConfigured()) {
     try {
       await ensureSchema();
       const rows = (await sql()`SELECT * FROM tests WHERE id = ${id} LIMIT 1`) as Row[];
       if (rows[0]) return fromRow(rows[0]);
     } catch {
-      // Fall through to file
+      // Fall through to null
     }
-  } else {
-    const file = await fileGet(id);
-    if (file) return file;
   }
   return null;
 }

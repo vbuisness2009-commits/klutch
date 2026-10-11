@@ -7,7 +7,7 @@
   "scorable": true,
   "warnings": [],
   "uploadedAt": "2026-10-11T00:17:17.504Z",
-  "updatedAt": "2026-10-11T00:46:13.846Z",
+  "updatedAt": "2026-10-11T00:55:00.000Z",
   "form": {
     "id": "practice-test-2",
     "name": "Digital SAT Practice Test 2",
@@ -2638,22 +2638,19 @@
             {
               "id": "pt2-math-m1-q01",
               "domain": "Algebra",
-              "skill": "Linear equations in one variable",
-              "difficulty": "Foundational",
+              "skill": "Linear equations in context",
+              "difficulty": "E",
               "html": false,
-              "stem": "If 3x + 7 = 22, what is the value of x?",
-              "rationale": "Subtracting 7 from both sides gives 3x = 15, then dividing by 3 yields x = 5.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "A community gym charges a one-time registration fee of $35 plus $24 per month of membership. If Sofia paid a total of $179, for how many months of membership did she pay?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "3"
+                  "text": "5"
                 },
                 {
                   "id": "B",
-                  "text": "5"
+                  "text": "6"
                 },
                 {
                   "id": "C",
@@ -2661,10 +2658,13 @@
                 },
                 {
                   "id": "D",
-                  "text": "9"
+                  "text": "8"
                 }
               ],
-              "correct": "B"
+              "correct": "B",
+              "rationale": "Equation: $35 + 24m = 179$. Subtract 35: $24m = 144$. Divide by 24: $m = 6$ months.",
+              "keySource": "paper",
+              "expectedPace": 65
             },
             {
               "id": "pt2-math-m1-q02",
@@ -3246,33 +3246,33 @@
               {
                 "id": "pt2-math-m2l-q01",
                 "domain": "Algebra",
-                "skill": "Linear equations in one variable",
+                "skill": "Linear equations in context",
                 "difficulty": "E",
                 "html": false,
-                "stem": "If 4x - 8 = 16, what is the value of x?",
-                "rationale": "To solve 4x - 8 = 16, first add 8 to both sides to get 4x = 24. Then, divide both sides by 4 to find x = 6.",
-                "keySource": "paper",
-                "expectedPace": 95,
+                "stem": "A plumber charges a service call fee of $50 plus $45 per hour of work. If the total bill for a job was $230, how many hours did the plumber work?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "4"
+                    "text": "3"
                   },
                   {
                     "id": "B",
-                    "text": "6"
+                    "text": "4"
                   },
                   {
                     "id": "C",
-                    "text": "8"
+                    "text": "5"
                   },
                   {
                     "id": "D",
-                    "text": "12"
+                    "text": "6"
                   }
                 ],
-                "correct": "B"
+                "correct": "B",
+                "rationale": "Equation: $50 + 45h = 230$. Subtract 50: $45h = 180$. Divide by 45: $h = 4$ hours.",
+                "keySource": "paper",
+                "expectedPace": 65
               },
               {
                 "id": "pt2-math-m2l-q02",
@@ -3463,33 +3463,33 @@
               {
                 "id": "pt2-math-m2l-q08",
                 "domain": "Advanced Math",
-                "skill": "Quadratics",
+                "skill": "Quadratic equations (factoring)",
                 "difficulty": "E",
                 "html": false,
-                "stem": "If x^2 = 25, which of the following could be a value of x?",
-                "rationale": "Taking the square root of both sides of x^2 = 25 gives x = plus or minus 5. So, x could be 5 or -5.",
-                "keySource": "paper",
-                "expectedPace": 95,
+                "stem": "What is the positive solution to the equation $x^2 - 7x - 18 = 0$?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "-25"
+                    "text": "2"
                   },
                   {
                     "id": "B",
-                    "text": "-5"
+                    "text": "7"
                   },
                   {
                     "id": "C",
-                    "text": "0"
+                    "text": "9"
                   },
                   {
                     "id": "D",
-                    "text": "50"
+                    "text": "18"
                   }
                 ],
-                "correct": "B"
+                "correct": "C",
+                "rationale": "Factoring yields $(x - 9)(x + 2) = 0$. The solutions are $x = 9$ and $x = -2$. The positive solution is 9.",
+                "keySource": "paper",
+                "expectedPace": 75
               },
               {
                 "id": "pt2-math-m2l-q09",
@@ -3742,33 +3742,33 @@
               {
                 "id": "pt2-math-m2l-q17",
                 "domain": "Geometry and Trigonometry",
-                "skill": "Pythagorean Theorem",
-                "difficulty": "E",
+                "skill": "Similar triangles",
+                "difficulty": "M",
                 "html": false,
-                "stem": "A right triangle has legs of length 6 and 8. What is the length of the hypotenuse?",
-                "rationale": "Using the Pythagorean theorem, a^2 + b^2 = c^2, we have 6^2 + 8^2 = c^2. This simplifies to 36 + 64 = c^2, so 100 = c^2, and c = 10.",
-                "keySource": "paper",
-                "expectedPace": 95,
+                "stem": "Triangle $ABC$ is similar to triangle $DEF$, where angle $A$ corresponds to angle $D$ and angle $B$ corresponds to angle $E$. If the measure of angle $A$ is $42^\\circ$ and the measure of angle $B$ is $76^\\circ$, what is the measure, in degrees, of angle $F$?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "7"
+                    "text": "52"
                   },
                   {
                     "id": "B",
-                    "text": "10"
+                    "text": "62"
                   },
                   {
                     "id": "C",
-                    "text": "12"
+                    "text": "72"
                   },
                   {
                     "id": "D",
-                    "text": "14"
+                    "text": "82"
                   }
                 ],
-                "correct": "B"
+                "correct": "B",
+                "rationale": "Since the interior angles of a triangle sum to $180^\\circ$: $\\text{m}\\angle C = 180^\\circ - (42^\\circ + 76^\\circ) = 180^\\circ - 118^\\circ = 62^\\circ$. Since the triangles are similar, $\\text{m}\\angle F = \\text{m}\\angle C = 62^\\circ$.",
+                "keySource": "paper",
+                "expectedPace": 80
               },
               {
                 "id": "pt2-math-m2l-q18",

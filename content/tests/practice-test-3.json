@@ -7,7 +7,7 @@
   "scorable": true,
   "warnings": [],
   "uploadedAt": "2026-10-11T00:18:29.456Z",
-  "updatedAt": "2026-10-11T00:46:50.035Z",
+  "updatedAt": "2026-10-11T00:55:00.000Z",
   "form": {
     "id": "practice-test-3",
     "name": "Digital SAT Practice Test 3",
@@ -2824,33 +2824,33 @@
             {
               "id": "pt3-math-m1-q07",
               "domain": "Advanced Math",
-              "skill": "Quadratic equations",
-              "difficulty": "Intermediate",
+              "skill": "Quadratic expressions (factoring)",
+              "difficulty": "M",
               "html": false,
-              "stem": "What is one solution to the equation x^2 - 9 = 0?",
-              "rationale": "The equation x^2 - 9 = 0 can be factored as (x - 3)(x + 3) = 0, giving solutions x = 3 and x = -3. Alternatively, x^2 = 9, so x = +/- sqrt(9) = +/- 3.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "Which of the following is equivalent to $4x^2 - 25$?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "-3"
+                  "text": "(2x - 5)(2x + 5)"
                 },
                 {
                   "id": "B",
-                  "text": "-9"
+                  "text": "(4x - 5)(x + 5)"
                 },
                 {
                   "id": "C",
-                  "text": "0"
+                  "text": "(2x - 5)^2"
                 },
                 {
                   "id": "D",
-                  "text": "1"
+                  "text": "(4x - 25)(x + 1)"
                 }
               ],
-              "correct": "A"
+              "correct": "A",
+              "rationale": "$4x^2 - 25$ is a difference of squares: $(2x)^2 - 5^2 = (2x - 5)(2x + 5)$.",
+              "keySource": "paper",
+              "expectedPace": 70
             },
             {
               "id": "pt3-math-m1-q08",
@@ -3464,33 +3464,33 @@
               {
                 "id": "pt3-math-m2l-q08",
                 "domain": "Advanced Math",
-                "skill": "Quadratic equations",
-                "difficulty": "E",
+                "skill": "Quadratic functions (vertex)",
+                "difficulty": "M",
                 "html": false,
-                "stem": "What are the solutions to the equation x^2 - 9 = 0?",
-                "rationale": "The equation x^2 - 9 = 0 can be factored as (x - 3)(x + 3) = 0. Setting each factor to zero gives x = 3 and x = -3.",
-                "keySource": "paper",
-                "expectedPace": 95,
+                "stem": "The function $h(t) = -5(t - 3)^2 + 45$ gives the height, in meters, of an object $t$ seconds after being launched. What is the maximum height, in meters, reached by the object?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "x = 3 only"
+                    "text": "3"
                   },
                   {
                     "id": "B",
-                    "text": "x = -3 only"
+                    "text": "15"
                   },
                   {
                     "id": "C",
-                    "text": "x = 0 and x = 9"
+                    "text": "45"
                   },
                   {
                     "id": "D",
-                    "text": "x = 3 and x = -3"
+                    "text": "90"
                   }
                 ],
-                "correct": "D"
+                "correct": "C",
+                "rationale": "The vertex form $h(t) = a(t - k)^2 + M$ has a maximum value of $M$ when $a < 0$. Here, the maximum height is 45 meters at $t = 3$ seconds.",
+                "keySource": "paper",
+                "expectedPace": 75
               },
               {
                 "id": "pt3-math-m2l-q09",
@@ -3789,17 +3789,17 @@
               {
                 "id": "pt3-math-m2l-q19",
                 "domain": "Algebra",
-                "skill": "Linear equations in one variable",
+                "skill": "Linear equations in context",
                 "difficulty": "E",
                 "html": false,
-                "stem": "If 3x + 7 = 22, what is the value of x?",
-                "rationale": "Explanation not provided.",
-                "keySource": "paper",
-                "expectedPace": 95,
+                "stem": "An electronics store sells portable power banks for $22 each. A customer uses a coupon for $15 off the total purchase and pays a total of $117 before tax. How many power banks did the customer buy?",
                 "format": "spr",
                 "accepted": [
-                  "5"
-                ]
+                  "6"
+                ],
+                "rationale": "Let p be the number of power banks: $22p - 15 = 117$. Add 15: $22p = 132$. Divide by 22: $p = 6$.",
+                "keySource": "paper",
+                "expectedPace": 75
               },
               {
                 "id": "pt3-math-m2l-q20",
@@ -3834,17 +3834,17 @@
               {
                 "id": "pt3-math-m2l-q22",
                 "domain": "Geometry and Trigonometry",
-                "skill": "Pythagorean theorem",
+                "skill": "Perimeter and geometry",
                 "difficulty": "E",
                 "html": false,
-                "stem": "A right triangle has legs of length 3 and 4. What is the length of the hypotenuse?",
-                "rationale": "Explanation not provided.",
-                "keySource": "paper",
-                "expectedPace": 95,
+                "stem": "A rectangular garden has a length of 18 meters and a width of 11 meters. A gardener wants to place a fence around the entire perimeter of the garden. How many meters of fencing are needed?",
                 "format": "spr",
                 "accepted": [
-                  "5"
-                ]
+                  "58"
+                ],
+                "rationale": "The perimeter of a rectangle is $2 \\times (\\text{length} + \\text{width}) = 2 \\times (18 + 11) = 2 \\times 29 = 58$ meters.",
+                "keySource": "paper",
+                "expectedPace": 70
               }
             ]
           },

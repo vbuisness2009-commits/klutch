@@ -7,7 +7,7 @@
   "scorable": true,
   "warnings": [],
   "uploadedAt": "2026-10-11T00:16:30.459Z",
-  "updatedAt": "2026-10-11T00:46:50.027Z",
+  "updatedAt": "2026-10-11T00:55:00.000Z",
   "form": {
     "id": "practice-test-1",
     "name": "Digital SAT Practice Test 1",
@@ -2638,33 +2638,33 @@
             {
               "id": "pt1-math-m1-q01",
               "domain": "Algebra",
-              "skill": "Linear equations in one variable",
-              "difficulty": "Foundational",
+              "skill": "Linear equations in context",
+              "difficulty": "E",
               "html": false,
-              "stem": "If 5x - 7 = 23, what is the value of x?",
-              "rationale": "Add 7 to both sides of the equation to get 5x = 30. Then, divide by 5 to find x = 6.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "A ride-share company charges a base fare of $3.50 plus $2.25 per mile traveled. If a rider was charged a total of $26.00 for a trip, how many miles was the trip?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "3"
+                  "text": "8"
                 },
                 {
                   "id": "B",
-                  "text": "4"
+                  "text": "10"
                 },
                 {
                   "id": "C",
-                  "text": "6"
+                  "text": "12"
                 },
                 {
                   "id": "D",
-                  "text": "8"
+                  "text": "14"
                 }
               ],
-              "correct": "C"
+              "correct": "B",
+              "rationale": "Let m be miles: $3.50 + 2.25m = 26.00$. Subtract 3.50: $2.25m = 22.50$. Divide by 2.25: $m = 10$ miles.",
+              "keySource": "paper",
+              "expectedPace": 65
             },
             {
               "id": "pt1-math-m1-q02",
@@ -2855,33 +2855,33 @@
             {
               "id": "pt1-math-m1-q08",
               "domain": "Advanced Math",
-              "skill": "Quadratics",
-              "difficulty": "Foundational",
+              "skill": "Quadratic equations (factoring)",
+              "difficulty": "M",
               "html": false,
-              "stem": "What are the solutions to the equation x^2 - 9 = 0?",
-              "rationale": "The equation x^2 - 9 = 0 can be rewritten as x^2 = 9. Taking the square root of both sides gives x = sqrt(9) or x = -sqrt(9), so x = 3 and x = -3.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "What is the sum of the solutions to the equation $(2x - 3)(x + 5) = 0$?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "x = 3 only"
+                  "text": "-7/2"
                 },
                 {
                   "id": "B",
-                  "text": "x = -3 only"
+                  "text": "-3/2"
                 },
                 {
                   "id": "C",
-                  "text": "x = 3 and x = -3"
+                  "text": "3/2"
                 },
                 {
                   "id": "D",
-                  "text": "No real solutions"
+                  "text": "7/2"
                 }
               ],
-              "correct": "C"
+              "correct": "A",
+              "rationale": "The solutions are $x = 3/2 = 1.5$ and $x = -5$. Their sum is $1.5 + (-5) = -3.5 = -7/2$.",
+              "keySource": "paper",
+              "expectedPace": 75
             },
             {
               "id": "pt1-math-m1-q09",
@@ -3165,47 +3165,47 @@
             {
               "id": "pt1-math-m1-q18",
               "domain": "Algebra",
-              "skill": "Linear equations in one variable",
+              "skill": "Linear models in context",
               "difficulty": "M",
               "html": false,
-              "stem": "If 5x - 7 = 2x + 11, what is the value of x?",
-              "rationale": "Explanation not provided.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "A catering service prepares boxed lunches for corporate events. The company charges a delivery fee of $40 plus $15 per boxed lunch. If a company has a budget of $550, what is the maximum number of boxed lunches they can order?",
               "format": "spr",
               "accepted": [
-                "6"
-              ]
+                "34"
+              ],
+              "rationale": "Set up $40 + 15n \\le 550$. Subtract 40: $15n \\le 510$. Divide by 15: $n \\le 34$. The maximum number is 34.",
+              "keySource": "paper",
+              "expectedPace": 85
             },
             {
               "id": "pt1-math-m1-q19",
               "domain": "Advanced Math",
-              "skill": "Quadratic equations",
+              "skill": "Nonlinear functions (zeros)",
               "difficulty": "M",
               "html": false,
-              "stem": "What is the positive solution to the equation x^2 - 9 = 0?",
-              "rationale": "Explanation not provided.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "The function $f$ is defined by $f(x) = (x - 7)^2 - 36$. What is the greater of the two zeros of $f$?",
               "format": "spr",
               "accepted": [
-                "3"
-              ]
+                "13"
+              ],
+              "rationale": "Set $f(x) = 0$: $(x - 7)^2 - 36 = 0 \\implies (x - 7)^2 = 36$. Thus $x - 7 = 6$ or $x - 7 = -6$, giving $x = 13$ or $x = 1$. The greater zero is 13.",
+              "keySource": "paper",
+              "expectedPace": 90
             },
             {
               "id": "pt1-math-m1-q20",
               "domain": "Geometry and Trigonometry",
-              "skill": "Area of a triangle",
+              "skill": "Right triangles (area and perimeter)",
               "difficulty": "M",
               "html": false,
-              "stem": "A triangle has a base of 8 units and a height of 5 units. What is the area of the triangle?",
-              "rationale": "Explanation not provided.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "A right triangle has a hypotenuse of length 17 units and one leg of length 8 units. What is the area, in square units, of the triangle?",
               "format": "spr",
               "accepted": [
-                "20"
-              ]
+                "60"
+              ],
+              "rationale": "By the Pythagorean theorem, the other leg has length $\\sqrt{17^2 - 8^2} = \\sqrt{289 - 64} = \\sqrt{225} = 15$. The area is $(1/2) \\times 8 \\times 15 = 60$ square units.",
+              "keySource": "paper",
+              "expectedPace": 95
             },
             {
               "id": "pt1-math-m1-q21",
@@ -3225,17 +3225,17 @@
             {
               "id": "pt1-math-m1-q22",
               "domain": "Problem-Solving and Data Analysis",
-              "skill": "Rates, Ratios, Proportions",
+              "skill": "Ratios and rates",
               "difficulty": "M",
               "html": false,
-              "stem": "A car travels at a constant speed of 60 miles per hour. How many miles will it travel in 2.5 hours?",
-              "rationale": "Explanation not provided.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "A print shop prints 45 posters every 6 minutes. At this constant rate, how many posters can the print shop print in 24 minutes?",
               "format": "spr",
               "accepted": [
-                "150"
-              ]
+                "180"
+              ],
+              "rationale": "The rate is $45 / 6 = 7.5$ posters per minute. In 24 minutes, it prints $7.5 \\times 24 = 180$ posters (or $24 / 6 = 4$ intervals of 45: $4 \\times 45 = 180$).",
+              "keySource": "paper",
+              "expectedPace": 85
             }
           ]
         },
@@ -3432,33 +3432,33 @@
               {
                 "id": "pt1-math-m2l-q07",
                 "domain": "Advanced Math",
-                "skill": "Quadratic equations",
-                "difficulty": "M",
+                "skill": "Quadratic equations (zeros)",
+                "difficulty": "E",
                 "html": false,
-                "stem": "Which of the following is a solution to the equation x^2 - 9 = 0?",
-                "rationale": "The equation can be factored as (x - 3)(x + 3) = 0, which means x = 3 or x = -3. Therefore, -3 is a solution.",
-                "keySource": "paper",
-                "expectedPace": 95,
+                "stem": "What is the positive solution to the equation $(x - 4)(x + 9) = 0$?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "-3"
+                    "text": "4"
                   },
                   {
                     "id": "B",
-                    "text": "0"
+                    "text": "5"
                   },
                   {
                     "id": "C",
-                    "text": "1"
+                    "text": "9"
                   },
                   {
                     "id": "D",
-                    "text": "9"
+                    "text": "13"
                   }
                 ],
-                "correct": "A"
+                "correct": "A",
+                "rationale": "The solutions are $x = 4$ and $x = -9$. The positive solution is 4.",
+                "keySource": "paper",
+                "expectedPace": 70
               },
               {
                 "id": "pt1-math-m2l-q08",

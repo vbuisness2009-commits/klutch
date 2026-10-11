@@ -7,7 +7,7 @@
   "scorable": true,
   "warnings": [],
   "uploadedAt": "2026-10-11T00:19:16.686Z",
-  "updatedAt": "2026-10-11T00:46:50.041Z",
+  "updatedAt": "2026-10-11T00:55:00.000Z",
   "form": {
     "id": "practice-test-4",
     "name": "Digital SAT Practice Test 4",
@@ -2855,33 +2855,33 @@
             {
               "id": "pt4-math-m1-q08",
               "domain": "Advanced Math",
-              "skill": "Quadratics",
-              "difficulty": "Foundational",
+              "skill": "Quadratic equations (zeros)",
+              "difficulty": "M",
               "html": false,
-              "stem": "If x^2 = 81, what are the possible values of x?",
-              "rationale": "The square root of 81 is 9, but both positive and negative values, 9 and -9, when squared result in 81.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "What is the product of the solutions to the equation $x^2 - 6x - 16 = 0$?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "9 only"
+                  "text": "-16"
                 },
                 {
                   "id": "B",
-                  "text": "-9 only"
+                  "text": "-6"
                 },
                 {
                   "id": "C",
-                  "text": "9 and -9"
+                  "text": "6"
                 },
                 {
                   "id": "D",
-                  "text": "No real solutions"
+                  "text": "16"
                 }
               ],
-              "correct": "C"
+              "correct": "A",
+              "rationale": "For any quadratic $x^2 + bx + c = 0$, the product of the roots is $c = -16$. (Or factor as $(x - 8)(x + 2) = 0$, roots 8 and -2: $8 \\times (-2) = -16$).",
+              "keySource": "paper",
+              "expectedPace": 75
             },
             {
               "id": "pt4-math-m1-q09",
@@ -3197,18 +3197,17 @@
             {
               "id": "pt4-math-m1-q20",
               "domain": "Advanced Math",
-              "skill": "Quadratic equations",
+              "skill": "Exponential functions",
               "difficulty": "M",
               "html": false,
-              "stem": "What is one possible solution to the equation x^2 - 9 = 0?",
-              "rationale": "Explanation not provided.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "The function $P(t) = 250(2)^{t/4}$ models the population of insects in a terrarium $t$ days after observation began. After how many days will the population reach 1,000?",
               "format": "spr",
               "accepted": [
-                "3",
-                "-3"
-              ]
+                "8"
+              ],
+              "rationale": "Set $P(t) = 1000$: $250(2)^{t/4} = 1000 \\implies 2^{t/4} = 4 = 2^2 \\implies t/4 = 2 \\implies t = 8$ days.",
+              "keySource": "paper",
+              "expectedPace": 90
             },
             {
               "id": "pt4-math-m1-q21",
@@ -3251,13 +3250,10 @@
               {
                 "id": "pt4-math-m2l-q01",
                 "domain": "Algebra",
-                "skill": "Linear equations in one variable",
+                "skill": "Linear equations in context",
                 "difficulty": "E",
                 "html": false,
-                "stem": "If 5x - 7 = 18, what is the value of x?",
-                "rationale": "Add 7 to both sides of the equation to get 5x = 25. Then, divide by 5 to find x = 5.",
-                "keySource": "paper",
-                "expectedPace": 95,
+                "stem": "A photographer charges an initial studio fee of $45 plus $18 for each edited digital portrait. If a client was billed a total of $135, how many edited digital portraits did the client order?",
                 "format": "mc",
                 "choices": [
                   {
@@ -3266,49 +3262,52 @@
                   },
                   {
                     "id": "B",
-                    "text": "4"
-                  },
-                  {
-                    "id": "C",
                     "text": "5"
                   },
                   {
+                    "id": "C",
+                    "text": "7"
+                  },
+                  {
                     "id": "D",
-                    "text": "6"
+                    "text": "9"
                   }
                 ],
-                "correct": "C"
+                "correct": "B",
+                "rationale": "Equation: $45 + 18p = 135 \\implies 18p = 90 \\implies p = 5$ portraits.",
+                "keySource": "paper",
+                "expectedPace": 65
               },
               {
                 "id": "pt4-math-m2l-q02",
                 "domain": "Algebra",
-                "skill": "Linear equations in one variable",
+                "skill": "Linear functions (slope-intercept)",
                 "difficulty": "E",
                 "html": false,
-                "stem": "If y/3 + 4 = 9, what is the value of y?",
-                "rationale": "Subtract 4 from both sides to get y/3 = 5. Then, multiply by 3 to find y = 15.",
-                "keySource": "paper",
-                "expectedPace": 95,
+                "stem": "A line in the xy-plane has a slope of 3 and passes through the point $(2, 11)$. What is the y-intercept of the line?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "5"
+                    "text": "3"
                   },
                   {
                     "id": "B",
-                    "text": "12"
+                    "text": "5"
                   },
                   {
                     "id": "C",
-                    "text": "15"
+                    "text": "7"
                   },
                   {
                     "id": "D",
-                    "text": "27"
+                    "text": "9"
                   }
                 ],
-                "correct": "C"
+                "correct": "B",
+                "rationale": "Using $y = mx + b$: $11 = 3(2) + b \\implies 11 = 6 + b \\implies b = 5$.",
+                "keySource": "paper",
+                "expectedPace": 70
               },
               {
                 "id": "pt4-math-m2l-q03",
@@ -3437,33 +3436,33 @@
               {
                 "id": "pt4-math-m2l-q07",
                 "domain": "Advanced Math",
-                "skill": "Quadratics",
-                "difficulty": "M",
+                "skill": "Quadratic equations",
+                "difficulty": "E",
                 "html": false,
-                "stem": "If x^2 = 81, what is one possible value of x?",
-                "rationale": "To find x, take the square root of both sides. The square root of 81 is 9, so x = 9 or x = -9.",
-                "keySource": "paper",
-                "expectedPace": 95,
+                "stem": "If $(x - 5)^2 = 49$ and $x > 0$, what is the value of $x$?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "3"
+                    "text": "7"
                   },
                   {
                     "id": "B",
-                    "text": "9"
+                    "text": "10"
                   },
                   {
                     "id": "C",
-                    "text": "18"
+                    "text": "12"
                   },
                   {
                     "id": "D",
-                    "text": "40.5"
+                    "text": "14"
                   }
                 ],
-                "correct": "B"
+                "correct": "C",
+                "rationale": "Taking the square root: $x - 5 = 7 \\implies x = 12$ (or $x - 5 = -7 \\implies x = -2$, but $x > 0$). Thus $x = 12$.",
+                "keySource": "paper",
+                "expectedPace": 70
               },
               {
                 "id": "pt4-math-m2l-q08",

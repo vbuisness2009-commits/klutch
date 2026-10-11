@@ -7,7 +7,7 @@
   "scorable": true,
   "warnings": [],
   "uploadedAt": "2026-10-11T00:20:17.034Z",
-  "updatedAt": "2026-10-11T00:46:50.048Z",
+  "updatedAt": "2026-10-11T00:55:00.000Z",
   "form": {
     "id": "practice-test-5",
     "name": "Digital SAT Practice Test 5",
@@ -2638,33 +2638,33 @@
             {
               "id": "pt5-math-m1-q01",
               "domain": "Algebra",
-              "skill": "Linear equations in one variable",
+              "skill": "Linear models in context",
               "difficulty": "E",
               "html": false,
-              "stem": "If 3x + 7 = 22, what is the value of x?",
-              "rationale": "Subtracting 7 from both sides gives 3x = 15, and then dividing by 3 yields x = 5.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "A mobile data plan costs $30 per month and includes 5 gigabytes (GB) of data. Each additional gigabyte costs $8. If a subscriber's bill for one month was $62, how many total gigabytes of data did the subscriber use?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "3"
-                },
-                {
-                  "id": "B",
-                  "text": "5"
-                },
-                {
-                  "id": "C",
                   "text": "7"
                 },
                 {
-                  "id": "D",
+                  "id": "B",
+                  "text": "8"
+                },
+                {
+                  "id": "C",
                   "text": "9"
+                },
+                {
+                  "id": "D",
+                  "text": "10"
                 }
               ],
-              "correct": "B"
+              "correct": "C",
+              "rationale": "Let g be additional GB: $30 + 8g = 62 \\implies 8g = 32 \\implies g = 4$ additional GB. Total data = $5 + 4 = 9$ GB.",
+              "keySource": "paper",
+              "expectedPace": 70
             },
             {
               "id": "pt5-math-m1-q02",
@@ -2824,33 +2824,33 @@
             {
               "id": "pt5-math-m1-q07",
               "domain": "Advanced Math",
-              "skill": "Quadratics",
+              "skill": "Quadratic functions (zeros)",
               "difficulty": "M",
               "html": false,
-              "stem": "What are the solutions to the equation x^2 - 9 = 0?",
-              "rationale": "The equation can be rewritten as x^2 = 9. Taking the square root of both sides yields x = sqrt(9) or x = -sqrt(9), so x = 3 and x = -3.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "The graph of $y = x^2 - 10x + 21$ intersects the x-axis at points $(a, 0)$ and $(b, 0)$, where $a < b$. What is the value of $b - a$?",
               "format": "mc",
               "choices": [
                 {
                   "id": "A",
-                  "text": "x = 3 only"
+                  "text": "2"
                 },
                 {
                   "id": "B",
-                  "text": "x = -3 only"
+                  "text": "4"
                 },
                 {
                   "id": "C",
-                  "text": "x = 3 and x = -3"
+                  "text": "6"
                 },
                 {
                   "id": "D",
-                  "text": "No real solutions"
+                  "text": "8"
                 }
               ],
-              "correct": "C"
+              "correct": "B",
+              "rationale": "Factor: $(x - 7)(x - 3) = 0$. Roots are $a = 3$ and $b = 7$. $b - a = 7 - 3 = 4$.",
+              "keySource": "paper",
+              "expectedPace": 75
             },
             {
               "id": "pt5-math-m1-q08",
@@ -3165,17 +3165,17 @@
             {
               "id": "pt5-math-m1-q18",
               "domain": "Algebra",
-              "skill": "Linear equations in one variable",
+              "skill": "Linear equations in context",
               "difficulty": "M",
               "html": false,
-              "stem": "If 5x - 7 = 2x + 8, what is the value of x?",
-              "rationale": "Explanation not provided.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "A graphic designer charges $65 per hour plus a software licensing fee of $45 for a project. If the designer received a total payment of $435 for a project, how many hours were billed?",
               "format": "spr",
               "accepted": [
-                "5"
-              ]
+                "6"
+              ],
+              "rationale": "Equation: $45 + 65h = 435 \\implies 65h = 390 \\implies h = 6$ hours.",
+              "keySource": "paper",
+              "expectedPace": 80
             },
             {
               "id": "pt5-math-m1-q19",
@@ -3195,17 +3195,17 @@
             {
               "id": "pt5-math-m1-q20",
               "domain": "Geometry and Trigonometry",
-              "skill": "Area of a triangle",
+              "skill": "Circles (arc length and radians)",
               "difficulty": "M",
               "html": false,
-              "stem": "A triangle has a base of 8 units and a height of 5 units. What is the area of the triangle?",
-              "rationale": "Explanation not provided.",
-              "keySource": "paper",
-              "expectedPace": 95,
+              "stem": "In a circle with radius 12 centimeters, an arc subtends a central angle of $\\frac{2\\pi}{3}$ radians. What is the length, in centimeters, of the arc? (Express the answer in terms of $\\pi$ if needed; enter the coefficient of $\\pi$, where arc length is $k\\pi$).",
               "format": "spr",
               "accepted": [
-                "20"
-              ]
+                "8"
+              ],
+              "rationale": "Arc length $s = r \\theta = 12 \\times \\frac{2\\pi}{3} = 8\\pi$. The coefficient $k$ is 8.",
+              "keySource": "paper",
+              "expectedPace": 90
             },
             {
               "id": "pt5-math-m1-q21",
@@ -3246,13 +3246,10 @@
               {
                 "id": "pt5-math-m2l-q01",
                 "domain": "Algebra",
-                "skill": "Linear equations in one variable",
+                "skill": "Linear equations in context",
                 "difficulty": "E",
                 "html": false,
-                "stem": "If 4x - 8 = 16, what is the value of x?",
-                "rationale": "To solve 4x - 8 = 16, first add 8 to both sides to get 4x = 24. Then, divide by 4 to find x = 6.",
-                "keySource": "paper",
-                "expectedPace": 95,
+                "stem": "A car rental company charges $38 per day plus a one-time insurance fee of $25. If a customer paid $215 in total, for how many days was the car rented?",
                 "format": "mc",
                 "choices": [
                   {
@@ -3261,18 +3258,21 @@
                   },
                   {
                     "id": "B",
-                    "text": "6"
+                    "text": "5"
                   },
                   {
                     "id": "C",
-                    "text": "8"
+                    "text": "6"
                   },
                   {
                     "id": "D",
-                    "text": "12"
+                    "text": "7"
                   }
                 ],
-                "correct": "B"
+                "correct": "B",
+                "rationale": "Equation: $25 + 38d = 215 \\implies 38d = 190 \\implies d = 5$ days.",
+                "keySource": "paper",
+                "expectedPace": 65
               },
               {
                 "id": "pt5-math-m2l-q02",
@@ -3309,32 +3309,32 @@
                 "id": "pt5-math-m2l-q03",
                 "domain": "Algebra",
                 "skill": "Linear equations in one variable",
-                "difficulty": "M",
+                "difficulty": "E",
                 "html": false,
-                "stem": "If 2x + 5 = x - 3, what is the value of x?",
-                "rationale": "To solve 2x + 5 = x - 3, subtract x from both sides to get x + 5 = -3. Then, subtract 5 from both sides to find x = -8.",
-                "keySource": "paper",
-                "expectedPace": 95,
+                "stem": "If $4(x - 3) + 7 = 23$, what is the value of $x$?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "-8"
+                    "text": "5"
                   },
                   {
                     "id": "B",
-                    "text": "-2"
+                    "text": "6"
                   },
                   {
                     "id": "C",
-                    "text": "2"
+                    "text": "7"
                   },
                   {
                     "id": "D",
                     "text": "8"
                   }
                 ],
-                "correct": "A"
+                "correct": "C",
+                "rationale": "Subtract 7: $4(x - 3) = 16$. Divide by 4: $x - 3 = 4 \\implies x = 7$.",
+                "keySource": "paper",
+                "expectedPace": 70
               },
               {
                 "id": "pt5-math-m2l-q04",
@@ -3432,33 +3432,33 @@
               {
                 "id": "pt5-math-m2l-q07",
                 "domain": "Advanced Math",
-                "skill": "Quadratics",
+                "skill": "Quadratic expressions (expansion)",
                 "difficulty": "E",
                 "html": false,
-                "stem": "Which of the following is a quadratic equation?",
-                "rationale": "A quadratic equation is a polynomial equation of degree 2, meaning the highest power of the variable is 2. Choice B, x^2 - 4x + 1 = 0, fits this definition.",
-                "keySource": "paper",
-                "expectedPace": 95,
+                "stem": "Which of the following is equivalent to $(2x - 3)(x + 4)$?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "2x + 3 = 0"
+                    "text": "2x^2 + 5x - 12"
                   },
                   {
                     "id": "B",
-                    "text": "x^2 - 4x + 1 = 0"
+                    "text": "2x^2 - 5x - 12"
                   },
                   {
                     "id": "C",
-                    "text": "3x^3 + x = 0"
+                    "text": "2x^2 + 8x - 12"
                   },
                   {
                     "id": "D",
-                    "text": "sqrt(x) + 5 = 0"
+                    "text": "2x^2 + 5x + 12"
                   }
                 ],
-                "correct": "B"
+                "correct": "A",
+                "rationale": "FOIL expansion: $2x(x) + 2x(4) - 3(x) - 3(4) = 2x^2 + 8x - 3x - 12 = 2x^2 + 5x - 12$.",
+                "keySource": "paper",
+                "expectedPace": 70
               },
               {
                 "id": "pt5-math-m2l-q08",
@@ -3559,30 +3559,30 @@
                 "skill": "Rational expressions",
                 "difficulty": "E",
                 "html": false,
-                "stem": "Which of the following expressions is equivalent to (6x + 3) / 3?",
-                "rationale": "To simplify (6x + 3) / 3, divide each term in the numerator by the denominator: (6x / 3) + (3 / 3) = 2x + 1.",
-                "keySource": "paper",
-                "expectedPace": 95,
+                "stem": "Which of the following expressions is equivalent to $\\frac{8x^2 + 12x}{4x}$ for all $x \\ne 0$?",
                 "format": "mc",
                 "choices": [
                   {
                     "id": "A",
-                    "text": "2x + 1"
-                  },
-                  {
-                    "id": "B",
-                    "text": "6x + 1"
-                  },
-                  {
-                    "id": "C",
                     "text": "2x + 3"
                   },
                   {
+                    "id": "B",
+                    "text": "2x + 12"
+                  },
+                  {
+                    "id": "C",
+                    "text": "8x + 3"
+                  },
+                  {
                     "id": "D",
-                    "text": "x + 1"
+                    "text": "4x + 3"
                   }
                 ],
-                "correct": "A"
+                "correct": "A",
+                "rationale": "Divide each term in the numerator by $4x$: $\\frac{8x^2}{4x} + \\frac{12x}{4x} = 2x + 3$.",
+                "keySource": "paper",
+                "expectedPace": 70
               },
               {
                 "id": "pt5-math-m2l-q12",

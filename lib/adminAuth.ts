@@ -17,8 +17,24 @@ function secret(): string {
   );
 }
 
+export function getAdminEmails(): string[] {
+  const envVal = (process.env.ADMIN_EMAIL || "").trim().toLowerCase();
+  if (!envVal) return [];
+  return envVal
+    .split(/[,;\s]+/)
+    .map((e) => e.trim().toLowerCase())
+    .filter(Boolean);
+}
+
 export function adminEmail(): string {
-  return (process.env.ADMIN_EMAIL || "").trim().toLowerCase();
+  const list = getAdminEmails();
+  return list[0] || "";
+}
+
+export function isAdminEmail(email: string | null | undefined): boolean {
+  if (!email) return false;
+  const clean = email.trim().toLowerCase();
+  return getAdminEmails().includes(clean);
 }
 
 export function adminPasswordConfigured(): boolean {
@@ -36,11 +52,10 @@ function timingSafeEqualStr(a: string, b: string): boolean {
 
 /** Constant-time-ish password check against ADMIN_PASSWORD. */
 export function checkAdminCredentials(email: string, password: string): boolean {
-  const expectedEmail = adminEmail();
   const expectedPass = process.env.ADMIN_PASSWORD || "";
-  if (!expectedEmail || !expectedPass) return false;
+  if (!expectedPass) return false;
 
-  const emailOk = email.trim().toLowerCase() === expectedEmail;
+  const emailOk = isAdminEmail(email);
   const passOk = timingSafeEqualStr(password, expectedPass);
   return emailOk && passOk;
 }
@@ -112,7 +127,7 @@ export async function verifyAdminSession(
       new TextDecoder().decode(fromB64url(payload))
     ) as { email?: string; exp?: number };
     if (!data.email || !data.exp || data.exp < Date.now()) return null;
-    if (data.email !== adminEmail()) return null;
+    if (!isAdminEmail(data.email)) return null;
     return { email: data.email };
   } catch {
     return null;

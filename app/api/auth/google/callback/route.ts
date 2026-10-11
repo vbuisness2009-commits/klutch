@@ -21,7 +21,7 @@ import {
 import {
   ADMIN_COOKIE,
   ADMIN_COOKIE_MAX_AGE,
-  adminEmail,
+  isAdminEmail,
   signAdminSession,
 } from "@/lib/adminAuth";
 
@@ -103,8 +103,8 @@ export async function GET(req: Request) {
   res.cookies.set(GOOGLE_STATE_COOKIE, "", { path: "/", maxAge: 0 });
   await setUserSessionCookie(res, user!.id, req);
 
-  // A Google-verified login with the operator's email also opens the admin hub.
-  if (adminEmail() && profile.email === adminEmail()) {
+  // A Google-verified login with any admin email also opens the admin hub.
+  if (isAdminEmail(profile.email)) {
     res.cookies.set(ADMIN_COOKIE, await signAdminSession(profile.email), {
       httpOnly: true,
       sameSite: "lax",

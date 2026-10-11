@@ -7,12 +7,25 @@ export function CreditsBadge({
   tier = "free",
   balance = 0,
   isUnlimited = false,
+  isAdmin = false,
 }: {
   tier?: "free" | "pro" | "unlimited";
   balance?: number;
   isUnlimited?: boolean;
+  isAdmin?: boolean;
 }) {
   const [modalOpen, setModalOpen] = useState(false);
+
+  if (isAdmin) {
+    return (
+      <div className="flex flex-wrap items-center gap-2">
+        <div className="inline-flex items-center gap-2 rounded-full border border-mint/40 bg-mint/15 px-3.5 py-1 text-xs font-semibold text-mint shadow-sm shadow-mint/10">
+          <span className="h-1.5 w-1.5 rounded-full bg-mint animate-pulse" />
+          <span>👑 Admin Account · All Features Unlocked</span>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <>

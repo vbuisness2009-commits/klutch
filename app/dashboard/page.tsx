@@ -4,6 +4,7 @@ import { currentUser } from "@/lib/userSession";
 import { listAttempts } from "@/lib/attemptsStore";
 import type { AttemptRecord } from "@/lib/attempts";
 import { getUserCreditInfo } from "@/lib/credits";
+import { isAdminRequest } from "@/lib/adminRequest";
 import { GenerateTestButton } from "@/components/dashboard/GenerateTestButton";
 import { CompletedTestsSection } from "@/components/dashboard/CompletedTestsSection";
 import { CreditsBadge } from "@/components/dashboard/CreditsBadge";
@@ -18,7 +19,11 @@ export default async function Dashboard({
 }: {
   searchParams?: { upgrade?: string; upgraded?: string };
 }) {
-  const [user, tests] = await Promise.all([currentUser(), listTests()]);
+  const [user, tests, adminReq] = await Promise.all([
+    currentUser(),
+    listTests(),
+    isAdminRequest(),
+  ]);
   const playable = tests.filter((t) => t.published);
   const [attempts, creditInfo] = user
     ? await Promise.all([
@@ -117,6 +122,7 @@ export default async function Dashboard({
             tier={creditInfo?.tier}
             balance={creditInfo?.balance}
             isUnlimited={creditInfo?.isUnlimited}
+            isAdmin={Boolean(creditInfo?.isAdmin || adminReq)}
           />
         </div>
       </div>

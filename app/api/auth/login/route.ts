@@ -1,7 +1,8 @@
 import { NextResponse } from "next/server";
 import bcrypt from "bcryptjs";
 import { dbConfigured, findUserByEmail, toPublicUser } from "@/lib/db";
-import { setUserSessionCookie } from "@/lib/userSession";
+import { setUserSessionCookie, isSecureRequest } from "@/lib/userSession";
+import { ADMIN_COOKIE, ADMIN_COOKIE_MAX_AGE, isAdminEmail, signAdminSession } from "@/lib/adminAuth";
 
 export const dynamic = "force-dynamic";
 
@@ -45,7 +46,26 @@ export async function POST(req: Request) {
     return fail("Wrong email or password.");
   }
 
-  const res = NextResponse.json({ user: toPublicUser(user) });
+  const isAdm = isAdminEmail(user.email);
+  const res = NextResponse.json({
+    user: {
+      ...toPublicUser(user),
+      isAdmin: isAdm,
+      membershipTier: isAdm ? "unlimited" : user.membership_tier ?? "free",
+      creditsBalance: isAdm ? 99999 : user.credits_balance ?? 2,
+    },
+  });
   await setUserSessionCookie(res, user.id, req);
+
+  if (isAdm) {
+    res.cookies.set(ADMIN_COOKIE, await signAdminSession(user.email), {
+      httpOnly: true,
+      sameSite: "lax",
+      secure: isSecureRequest(req),
+      path: "/",
+      maxAge: ADMIN_COOKIE_MAX_AGE,
+    });
+  }
+
   return res;
 }

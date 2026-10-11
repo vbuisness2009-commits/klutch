@@ -1,6 +1,7 @@
 import "server-only";
 
 import { ensureSchema, sql, type MembershipTier, type UserRow } from "./db";
+import { isAdminEmail } from "./adminAuth";
 
 export const PLAN_LIMITS: Record<MembershipTier, { monthlyCredits: number; name: string; priceUsd: number }> = {
   free: { monthlyCredits: 2, name: "Free Starter", priceUsd: 0 },
@@ -15,6 +16,7 @@ export type UserCreditInfo = {
   resetsAt: string;
   subscriptionStatus: string;
   monthlyAllowance: number;
+  isAdmin?: boolean;
 };
 
 /**
@@ -24,11 +26,11 @@ export async function getUserCreditInfo(userId: string): Promise<UserCreditInfo>
   await ensureSchema();
 
   const rows = (await sql()`
-    SELECT membership_tier, credits_balance, credits_reset_at, subscription_status
+    SELECT email, membership_tier, credits_balance, credits_reset_at, subscription_status
     FROM users
     WHERE id = ${userId}
     LIMIT 1
-  `) as Pick<UserRow, "membership_tier" | "credits_balance" | "credits_reset_at" | "subscription_status">[];
+  `) as (Pick<UserRow, "membership_tier" | "credits_balance" | "credits_reset_at" | "subscription_status"> & { email?: string })[];
 
   if (!rows[0]) {
     return {
@@ -38,10 +40,24 @@ export async function getUserCreditInfo(userId: string): Promise<UserCreditInfo>
       resetsAt: new Date().toISOString(),
       subscriptionStatus: "none",
       monthlyAllowance: PLAN_LIMITS.free.monthlyCredits,
+      isAdmin: false,
     };
   }
 
   const user = rows[0];
+
+  // Admin accounts automatically receive full access to all features and infinite credits
+  if (user.email && isAdminEmail(user.email)) {
+    return {
+      tier: "unlimited",
+      balance: 99999,
+      isUnlimited: true,
+      resetsAt: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toISOString(),
+      subscriptionStatus: "active",
+      monthlyAllowance: 99999,
+      isAdmin: true,
+    };
+  }
   const tier: MembershipTier = user.membership_tier || "free";
   const now = new Date();
   const resetAt = user.credits_reset_at ? new Date(user.credits_reset_at) : now;
@@ -100,12 +116,12 @@ export async function deductTestCredit(
   await ensureSchema();
   const info = await getUserCreditInfo(userId);
 
-  if (info.isUnlimited) {
+  if (info.isUnlimited || info.isAdmin) {
     await sql()`
       INSERT INTO credit_transactions (user_id, amount, reason, created_at)
       VALUES (${userId}, 0, ${reason}, now())
     `;
-    return { success: true, remaining: 9999, isUnlimited: true };
+    return { success: true, remaining: 99999, isUnlimited: true };
   }
 
   if (info.balance <= 0) {

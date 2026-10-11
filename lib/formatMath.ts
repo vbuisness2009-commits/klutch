@@ -24,11 +24,7 @@ function renderKatex(expr: string, display = false): string {
   }
 }
 
-/**
- * Parses LaTeX ($...$, $$...$$) and common math patterns (e.g. ^2, ^(3t), equations)
- * into authentic, fully rendered KaTeX HTML spans.
- */
-export function formatMathHtml(text: string): string {
+function formatMathInner(text: string): string {
   if (!text) return "";
 
   // 1. Explicit display mode $$ ... $$
@@ -41,7 +37,7 @@ export function formatMathHtml(text: string): string {
     renderKatex(math, false)
   );
 
-  // If already contains rendered katex, we can return or continue checking unrendered parts
+  // If already contains rendered katex, we can return
   if (result.includes('class="katex"')) {
     return result;
   }
@@ -74,7 +70,6 @@ export function formatMathHtml(text: string): string {
   }
 
   // 5. Entire string is a math formula, equation, or expression
-  // e.g. "P(t) = 100 * (2)^(3t)", "800 * (0.85)^(t/4)", "-2 < x <= 4", "f(x) = 2x^2 + 5"
   const isEntireMath =
     /^(?:[A-Za-z]\([A-Za-z0-9\s,\/+-]*\)|\b[a-zA-Z]\b|[-+0-9\.\(\)])[-+0-9A-Za-z\s\/\^\*\(\)\.=<>≤≥]*$/.test(
       trimmed
@@ -88,8 +83,6 @@ export function formatMathHtml(text: string): string {
   }
 
   // 6. Inline equations in prose: e.g. "If the equation (x - 3)^2 = 4 has two solutions..."
-  // e.g. "If 2x + y = 10 and x - y = 2, what is..."
-  // e.g. "If f(x) = 2x + 3, what is..."
   const eqRegex =
     /((?:[0-9a-zA-Z\(\)\^]+|[a-zA-Z]\([a-zA-Z0-9,\s+-]+\))(?:\s*[-+*\/]\s*[0-9a-zA-Z\(\)\^]+)*\s*=\s*[-+]?[0-9a-zA-Z\(\)\^]+(?:\s*[-+*\/]\s*[0-9a-zA-Z\(\)\^]+)*)/g;
   result = result.replace(eqRegex, (m) => renderKatex(m, false));
@@ -101,6 +94,29 @@ export function formatMathHtml(text: string): string {
     if (m.includes('class="katex"')) return m;
     return renderKatex(m, false);
   });
+
+  return result;
+}
+
+/**
+ * Parses LaTeX ($...$, $$...$$) and common math patterns (e.g. ^2, ^(3t), equations)
+ * into authentic, fully rendered KaTeX HTML spans, while protecting SVG vector graphics.
+ */
+export function formatMathHtml(text: string): string {
+  if (!text) return "";
+
+  // Protect any SVG elements from math equation regex replacement
+  const svgs: string[] = [];
+  const protectedText = text.replace(/<svg[\s\S]*?<\/svg>/gi, (match) => {
+    svgs.push(match);
+    return `___SVG_BLOCK_${svgs.length - 1}___`;
+  });
+
+  let result = formatMathInner(protectedText);
+
+  if (svgs.length > 0) {
+    result = result.replace(/___SVG_BLOCK_(\d+)___/g, (_, idx) => svgs[Number(idx)]);
+  }
 
   return result;
 }

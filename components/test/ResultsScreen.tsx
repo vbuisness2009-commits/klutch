@@ -571,10 +571,10 @@ function RichBlock({
   className?: string;
 }) {
   const formatted = formatMathHtml(content);
-  if (html || formatted.includes("katex") || formatted.includes("<span") || formatted.includes("<br")) {
+  if (html || formatted.includes("katex") || formatted.includes("<span") || formatted.includes("<br") || formatted.includes("<svg")) {
     return (
       <div
-        className={`${className ?? ""} whitespace-pre-line [&_p]:mb-2 [&_p:last-child]:mb-0 [&_table]:my-2 [&_td]:border [&_td]:border-white/15 [&_td]:px-2 [&_td]:py-1 [&_img]:my-2 [&_img]:mx-auto [&_img]:block [&_img]:max-h-[min(320px,50vh)] [&_img]:max-w-full [&_img]:rounded-md [&_img]:bg-white [&_img]:p-1.5`}
+        className={`${className ?? ""} whitespace-pre-line [&_p]:mb-2 [&_p:last-child]:mb-0 [&_table]:my-2 [&_td]:border [&_td]:border-white/15 [&_td]:px-2 [&_td]:py-1 [&_img]:my-2 [&_img]:mx-auto [&_img]:block [&_img]:max-h-[min(320px,50vh)] [&_img]:max-w-full [&_img]:rounded-md [&_img]:bg-white [&_img]:p-1.5 [&_svg]:mx-auto [&_svg]:block [&_svg]:max-w-[380px] [&_svg]:w-full [&_svg]:my-3`}
         dangerouslySetInnerHTML={{ __html: formatted }}
       />
     );

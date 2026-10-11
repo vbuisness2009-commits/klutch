@@ -7,7 +7,7 @@
   "scorable": true,
   "warnings": [],
   "uploadedAt": "2026-10-11T00:18:29.456Z",
-  "updatedAt": "2026-10-11T00:55:00.000Z",
+  "updatedAt": "2026-10-11T01:30:00.000Z",
   "form": {
     "id": "practice-test-3",
     "name": "Digital SAT Practice Test 3",
@@ -3136,9 +3136,9 @@
               "domain": "Geometry and Trigonometry",
               "skill": "Circles, radians, right triangle trig",
               "difficulty": "M",
-              "html": false,
-              "stem": "In a circle with center O, the radius is 6. An arc subtends a central angle of pi/3 radians. What is the length of this arc?",
-              "rationale": "The formula for arc length (s) is s = r * theta, where r is the radius and theta is the central angle in radians. Given r = 6 and theta = pi/3, s = 6 * (pi/3) = 2pi.",
+              "html": true,
+              "stem": "In the circle shown, point $O$ is the center of the circle, the radius is $6$, and central angle $AOB$ measures $\\frac{\\pi}{4}$ radians. What is the area of the shaded sector?",
+              "rationale": "The area of a sector is $A = \\frac{1}{2}r^2\\theta$. Substituting $r = 6$ and $\\theta = \\frac{\\pi}{4}$: $$A = \\frac{1}{2}(36)\\left(\\frac{\\pi}{4}\\right) = \\frac{9\\pi}{2}$$",
               "keySource": "paper",
               "expectedPace": 95,
               "format": "mc",
@@ -3160,7 +3160,8 @@
                   "text": "3pi"
                 }
               ],
-              "correct": "C"
+              "correct": "C",
+              "stimulus": "<div class=\"sat-diagram my-4 flex flex-col items-center justify-center\"><svg viewBox=\"0 0 340 235\" xmlns=\"http://www.w3.org/2000/svg\" class=\"mx-auto block max-w-[340px] w-full h-auto rounded-lg border border-white/10 bg-[#141416] p-2\">\n  <circle cx=\"170\" cy=\"110\" r=\"75\" fill=\"none\" stroke=\"#52525b\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/>\n  <path d=\"M 170 110 L 245 110 A 75 75 0 0 0 223.03 56.97 Z\" fill=\"#38bdf8\" fill-opacity=\"0.16\" stroke=\"#38bdf8\" stroke-width=\"2\"/>\n  <path d=\"M 194 110 A 24 24 0 0 0 186.97 93.03\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"1.5\"/>\n  <circle cx=\"170\" cy=\"110\" r=\"3.5\" fill=\"#f4f4f5\"/>\n  <circle cx=\"245\" cy=\"110\" r=\"3.5\" fill=\"#38bdf8\"/>\n  <circle cx=\"223.03\" cy=\"56.97\" r=\"3.5\" fill=\"#38bdf8\"/>\n  <text x=\"208.8\" y=\"97.9\" fill=\"#fbbf24\" font-size=\"12\" font-family=\"system-ui, sans-serif\" font-weight=\"600\">π/4</text>\n  <text x=\"156\" y=\"125\" fill=\"#f4f4f5\" font-size=\"13\" font-family=\"system-ui, sans-serif\" font-weight=\"600\">O</text>\n  <text x=\"255\" y=\"114\" fill=\"#f4f4f5\" font-size=\"13\" font-family=\"system-ui, sans-serif\" font-weight=\"600\">A</text>\n  <text x=\"231.0\" y=\"53.0\" fill=\"#f4f4f5\" font-size=\"13\" font-family=\"system-ui, sans-serif\" font-weight=\"600\">B</text>\n  <text x=\"207.5\" y=\"126\" fill=\"#a1a1aa\" font-size=\"12\" font-family=\"system-ui, sans-serif\">r = 6</text>\n  <text x=\"170\" y=\"222\" text-anchor=\"middle\" fill=\"#71717a\" font-size=\"11\" font-style=\"italic\" font-family=\"system-ui, sans-serif\">Note: Figure not drawn to scale.</text>\n</svg></div>"
             },
             {
               "id": "pt3-math-m1-q18",
@@ -3197,15 +3198,16 @@
               "domain": "Geometry and Trigonometry",
               "skill": "Area of geometric shapes",
               "difficulty": "M",
-              "html": false,
-              "stem": "A rectangle has a length of 12 units and a width of 5 units. What is the area of the rectangle?",
-              "rationale": "The area of a rectangle is given by the formula Area = length * width. So, Area = 12 * 5 = 60 square units.",
+              "html": true,
+              "stem": "In the figure, line $l$ is parallel to line $m$, and line $t$ intersects both lines. What is the value of $x$?",
+              "rationale": "Since lines $l$ and $m$ are parallel, alternate interior angles are equal: $$5x - 30 = 3x + 10 \\implies 2x = 40 \\implies x = 20$$",
               "keySource": "paper",
               "expectedPace": 95,
               "format": "spr",
               "accepted": [
-                "60"
-              ]
+                "20"
+              ],
+              "stimulus": "<div class=\"sat-diagram my-4 flex flex-col items-center justify-center\"><svg viewBox=\"0 0 340 235\" xmlns=\"http://www.w3.org/2000/svg\" class=\"mx-auto block max-w-[340px] w-full h-auto rounded-lg border border-white/10 bg-[#141416] p-2\">\n  <!-- Lines l and m -->\n  <line x1=\"30\" y1=\"80\" x2=\"310\" y2=\"80\" stroke=\"#38bdf8\" stroke-width=\"2\"/>\n  <line x1=\"30\" y1=\"150\" x2=\"310\" y2=\"150\" stroke=\"#38bdf8\" stroke-width=\"2\"/>\n  <!-- Transversal t -->\n  <line x1=\"85\" y1=\"35\" x2=\"255\" y2=\"195\" stroke=\"#a78bfa\" stroke-width=\"2\"/>\n  <!-- Parallel markers -->\n  <polygon points=\"170,76 178,80 170,84\" fill=\"#38bdf8\"/>\n  <polygon points=\"170,146 178,150 170,154\" fill=\"#38bdf8\"/>\n  <text x=\"318\" y=\"84\" fill=\"#d4d4d8\" font-size=\"13\" font-style=\"italic\" font-family=\"system-ui, sans-serif\">l</text>\n  <text x=\"318\" y=\"154\" fill=\"#d4d4d8\" font-size=\"13\" font-style=\"italic\" font-family=\"system-ui, sans-serif\">m</text>\n  <text x=\"75\" y=\"42\" fill=\"#d4d4d8\" font-size=\"13\" font-style=\"italic\" font-family=\"system-ui, sans-serif\">t</text>\n  <!-- Angles (Alternate interior) -->\n  <path d=\"M 153 80 A 20 20 0 0 1 146 92\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"1.5\"/>\n  <text x=\"156\" y=\"102\" fill=\"#fbbf24\" font-size=\"11\" font-family=\"system-ui, sans-serif\">(3x + 10)°</text>\n  <path d=\"M 187 150 A 20 20 0 0 1 194 138\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"1.5\"/>\n  <text x=\"120\" y=\"142\" fill=\"#fbbf24\" font-size=\"11\" font-family=\"system-ui, sans-serif\">(5x - 30)°</text>\n  <text x=\"170\" y=\"222\" text-anchor=\"middle\" fill=\"#71717a\" font-size=\"11\" font-style=\"italic\" font-family=\"system-ui, sans-serif\">Note: Figure not drawn to scale.</text>\n</svg></div>"
             },
             {
               "id": "pt3-math-m1-q21",
@@ -3776,15 +3778,16 @@
                 "domain": "Geometry and Trigonometry",
                 "skill": "Circles",
                 "difficulty": "E",
-                "html": false,
-                "stem": "A circle has a radius of 5 units. If the circumference of the circle is k*pi units, what is the value of k?",
-                "rationale": "The circumference of a circle is C = 2 * pi * r. With r = 5, C = 2 * pi * 5 = 10pi. Therefore, k = 10.",
+                "html": true,
+                "stem": "In right triangle $ABC$ shown, leg $\\overline{AC}$ has length $6$ units and leg $\\overline{BC}$ has length $8$ units. What is the length of hypotenuse $\\overline{AB}$?",
+                "rationale": "By the Pythagorean theorem, $AB = \\sqrt{6^2 + 8^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10$ units.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
                   "10"
-                ]
+                ],
+                "stimulus": "<div class=\"sat-diagram my-4 flex flex-col items-center justify-center\"><svg viewBox=\"0 0 340 235\" xmlns=\"http://www.w3.org/2000/svg\" class=\"mx-auto block max-w-[340px] w-full h-auto rounded-lg border border-white/10 bg-[#141416] p-2\">\n  <polygon points=\"80,175 260,175 80,60\" fill=\"#38bdf8\" fill-opacity=\"0.12\" stroke=\"#38bdf8\" stroke-width=\"2\"/>\n  <rect x=\"80\" y=\"161\" width=\"14\" height=\"14\" fill=\"none\" stroke=\"#38bdf8\" stroke-width=\"1.5\"/>\n  <circle cx=\"80\" cy=\"175\" r=\"3.5\" fill=\"#f4f4f5\"/>\n  <circle cx=\"260\" cy=\"175\" r=\"3.5\" fill=\"#f4f4f5\"/>\n  <circle cx=\"80\" cy=\"60\" r=\"3.5\" fill=\"#f4f4f5\"/>\n  <text x=\"66\" y=\"189\" fill=\"#f4f4f5\" font-size=\"13\" font-family=\"system-ui, sans-serif\" font-weight=\"600\">C</text>\n  <text x=\"270\" y=\"181\" fill=\"#f4f4f5\" font-size=\"13\" font-family=\"system-ui, sans-serif\" font-weight=\"600\">B</text>\n  <text x=\"76\" y=\"50\" fill=\"#f4f4f5\" font-size=\"13\" font-family=\"system-ui, sans-serif\" font-weight=\"600\">A</text>\n  <text x=\"170.0\" y=\"193\" text-anchor=\"middle\" fill=\"#a1a1aa\" font-size=\"13\" font-family=\"system-ui, sans-serif\" font-weight=\"500\">8</text>\n  <text x=\"66\" y=\"121.5\" text-anchor=\"end\" fill=\"#a1a1aa\" font-size=\"13\" font-family=\"system-ui, sans-serif\" font-weight=\"500\">6</text>\n  <text x=\"182.0\" y=\"109.5\" fill=\"#a1a1aa\" font-size=\"13\" font-family=\"system-ui, sans-serif\" font-weight=\"500\">c</text>\n\n  <text x=\"170\" y=\"222\" text-anchor=\"middle\" fill=\"#71717a\" font-size=\"11\" font-style=\"italic\" font-family=\"system-ui, sans-serif\">Note: Figure not drawn to scale.</text>\n</svg></div>"
               },
               {
                 "id": "pt3-math-m2l-q19",
@@ -3836,15 +3839,16 @@
                 "domain": "Geometry and Trigonometry",
                 "skill": "Perimeter and geometry",
                 "difficulty": "E",
-                "html": false,
-                "stem": "A rectangular garden has a length of 18 meters and a width of 11 meters. A gardener wants to place a fence around the entire perimeter of the garden. How many meters of fencing are needed?",
+                "html": true,
+                "stem": "In triangle $ABC$ shown, the measure of angle $A$ is $50^\\circ$ and the measure of angle $B$ is $72^\\circ$. What is the measure, in degrees, of angle $C$?",
                 "format": "spr",
                 "accepted": [
                   "58"
                 ],
-                "rationale": "The perimeter of a rectangle is $2 \\times (\\text{length} + \\text{width}) = 2 \\times (18 + 11) = 2 \\times 29 = 58$ meters.",
+                "rationale": "The interior angles of a triangle sum to $180^\\circ$. Thus, the measure of angle $C$ is $180^\\circ - 50^\\circ - 72^\\circ = 58^\\circ$.",
                 "keySource": "paper",
-                "expectedPace": 70
+                "expectedPace": 70,
+                "stimulus": "<div class=\"sat-diagram my-4 flex flex-col items-center justify-center\"><svg viewBox=\"0 0 340 235\" xmlns=\"http://www.w3.org/2000/svg\" class=\"mx-auto block max-w-[340px] w-full h-auto rounded-lg border border-white/10 bg-[#141416] p-2\">\n  <polygon points=\"60,175 270,175 180,60\" fill=\"#38bdf8\" fill-opacity=\"0.12\" stroke=\"#38bdf8\" stroke-width=\"2\"/>\n  <circle cx=\"60\" cy=\"175\" r=\"3.5\" fill=\"#f4f4f5\"/>\n  <circle cx=\"270\" cy=\"175\" r=\"3.5\" fill=\"#f4f4f5\"/>\n  <circle cx=\"180\" cy=\"60\" r=\"3.5\" fill=\"#f4f4f5\"/>\n  <text x=\"46\" y=\"190\" fill=\"#f4f4f5\" font-size=\"13\" font-family=\"system-ui, sans-serif\" font-weight=\"600\">A</text>\n  <text x=\"278\" y=\"190\" fill=\"#f4f4f5\" font-size=\"13\" font-family=\"system-ui, sans-serif\" font-weight=\"600\">B</text>\n  <text x=\"180\" y=\"46\" text-anchor=\"middle\" fill=\"#f4f4f5\" font-size=\"13\" font-family=\"system-ui, sans-serif\" font-weight=\"600\">C</text>\n  <!-- Angle arcs -->\n  <path d=\"M 85 175 A 25 25 0 0 0 78 155\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"1.5\"/>\n  <text x=\"88\" y=\"166\" fill=\"#fbbf24\" font-size=\"11\" font-family=\"system-ui, sans-serif\">50°</text>\n  <path d=\"M 245 175 A 25 25 0 0 1 252 153\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"1.5\"/>\n  <text x=\"220\" y=\"166\" fill=\"#fbbf24\" font-size=\"11\" font-family=\"system-ui, sans-serif\">72°</text>\n  <path d=\"M 170 76 A 22 22 0 0 0 192 76\" fill=\"none\" stroke=\"#34d399\" stroke-width=\"1.5\"/>\n  <text x=\"180\" y=\"98\" text-anchor=\"middle\" fill=\"#34d399\" font-size=\"12\" font-family=\"system-ui, sans-serif\" font-weight=\"600\">C</text>\n  <text x=\"170\" y=\"222\" text-anchor=\"middle\" fill=\"#71717a\" font-size=\"11\" font-style=\"italic\" font-family=\"system-ui, sans-serif\">Note: Figure not drawn to scale.</text>\n</svg></div>"
               }
             ]
           },
@@ -4321,9 +4325,9 @@
                 "domain": "Advanced Math",
                 "skill": "Nonlinear functions",
                 "difficulty": "H",
-                "html": false,
-                "stem": "The function f(x) = a(x - h)^2 + k is graphed in the xy-plane. The vertex of the parabola is (3, -2). If the parabola passes through the point (5, 6), what is the value of a?",
-                "rationale": "Given the vertex (h, k) = (3, -2), the function is f(x) = a(x - 3)^2 - 2. Since the parabola passes through (5, 6), substitute these values: 6 = a(5 - 3)^2 - 2. This simplifies to 6 = a(2)^2 - 2, or 6 = 4a - 2. Adding 2 to both sides gives 8 = 4a, so a = 2.",
+                "html": true,
+                "stem": "The graph of the quadratic function $f(x) = a(x - h)^2 + k$ is shown in the $xy$-plane. If the vertex is at $(3, -4)$ and the graph passes through $(1, 0)$, what is the value of $a$?",
+                "rationale": "Using vertex form with vertex $(3, -4)$: $f(x) = a(x - 3)^2 - 4$. Since the graph passes through $(1, 0)$, we substitute $x = 1, y = 0$: $$0 = a(1 - 3)^2 - 4 \\implies 4a = 4 \\implies a = 1$$",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "mc",
@@ -4345,7 +4349,8 @@
                     "text": "4"
                   }
                 ],
-                "correct": "B"
+                "correct": "B",
+                "stimulus": "<div class=\"sat-diagram my-4 flex flex-col items-center justify-center\"><svg viewBox=\"0 0 340 255\" xmlns=\"http://www.w3.org/2000/svg\" class=\"mx-auto block max-w-[340px] w-full h-auto rounded-lg border border-white/10 bg-[#141416] p-2\">\n  <text x=\"170\" y=\"20\" text-anchor=\"middle\" fill=\"#d4d4d8\" font-size=\"12\" font-family=\"system-ui\" font-weight=\"500\">y = f(x)</text>\n  <line x1=\"45.0\" y1=\"30\" x2=\"45.0\" y2=\"225\" stroke=\"#27272a\" stroke-width=\"1\"/><line x1=\"78.8\" y1=\"30\" x2=\"78.8\" y2=\"225\" stroke=\"#27272a\" stroke-width=\"1\"/><line x1=\"112.5\" y1=\"30\" x2=\"112.5\" y2=\"225\" stroke=\"#27272a\" stroke-width=\"1\"/><line x1=\"146.2\" y1=\"30\" x2=\"146.2\" y2=\"225\" stroke=\"#27272a\" stroke-width=\"1\"/><line x1=\"180.0\" y1=\"30\" x2=\"180.0\" y2=\"225\" stroke=\"#27272a\" stroke-width=\"1\"/><line x1=\"213.8\" y1=\"30\" x2=\"213.8\" y2=\"225\" stroke=\"#27272a\" stroke-width=\"1\"/><line x1=\"247.5\" y1=\"30\" x2=\"247.5\" y2=\"225\" stroke=\"#27272a\" stroke-width=\"1\"/><line x1=\"281.2\" y1=\"30\" x2=\"281.2\" y2=\"225\" stroke=\"#27272a\" stroke-width=\"1\"/><line x1=\"315.0\" y1=\"30\" x2=\"315.0\" y2=\"225\" stroke=\"#27272a\" stroke-width=\"1\"/><line x1=\"45\" y1=\"225.0\" x2=\"315\" y2=\"225.0\" stroke=\"#27272a\" stroke-width=\"1\"/><line x1=\"45\" y1=\"205.5\" x2=\"315\" y2=\"205.5\" stroke=\"#27272a\" stroke-width=\"1\"/><line x1=\"45\" y1=\"186.0\" x2=\"315\" y2=\"186.0\" stroke=\"#27272a\" stroke-width=\"1\"/><line x1=\"45\" y1=\"166.5\" x2=\"315\" y2=\"166.5\" stroke=\"#27272a\" stroke-width=\"1\"/><line x1=\"45\" y1=\"147.0\" x2=\"315\" y2=\"147.0\" stroke=\"#27272a\" stroke-width=\"1\"/><line x1=\"45\" y1=\"127.5\" x2=\"315\" y2=\"127.5\" stroke=\"#27272a\" stroke-width=\"1\"/><line x1=\"45\" y1=\"108.0\" x2=\"315\" y2=\"108.0\" stroke=\"#27272a\" stroke-width=\"1\"/><line x1=\"45\" y1=\"88.5\" x2=\"315\" y2=\"88.5\" stroke=\"#27272a\" stroke-width=\"1\"/><line x1=\"45\" y1=\"69.0\" x2=\"315\" y2=\"69.0\" stroke=\"#27272a\" stroke-width=\"1\"/><line x1=\"45\" y1=\"49.5\" x2=\"315\" y2=\"49.5\" stroke=\"#27272a\" stroke-width=\"1\"/><line x1=\"45\" y1=\"30.0\" x2=\"315\" y2=\"30.0\" stroke=\"#27272a\" stroke-width=\"1\"/>\n  \n  <line x1=\"35\" y1=\"127.5\" x2=\"325\" y2=\"127.5\" stroke=\"#a1a1aa\" stroke-width=\"1.5\"/>\n  <line x1=\"78.8\" y1=\"235\" x2=\"78.8\" y2=\"20\" stroke=\"#a1a1aa\" stroke-width=\"1.5\"/>\n  <text x=\"330\" y=\"131.5\" fill=\"#a1a1aa\" font-size=\"11\" font-family=\"system-ui\">x</text>\n  <text x=\"78.8\" y=\"16\" text-anchor=\"middle\" fill=\"#a1a1aa\" font-size=\"11\" font-family=\"system-ui\">y</text>\n  <text x=\"71.8\" y=\"139.5\" fill=\"#71717a\" font-size=\"10\" font-family=\"system-ui\">O</text>\n\n  <text x=\"146.2\" y=\"141.5\" text-anchor=\"middle\" fill=\"#71717a\" font-size=\"10\" font-family=\"system-ui\">2</text><text x=\"213.8\" y=\"141.5\" text-anchor=\"middle\" fill=\"#71717a\" font-size=\"10\" font-family=\"system-ui\">4</text><text x=\"281.2\" y=\"141.5\" text-anchor=\"middle\" fill=\"#71717a\" font-size=\"10\" font-family=\"system-ui\">6</text><text x=\"70.8\" y=\"208.5\" text-anchor=\"end\" fill=\"#71717a\" font-size=\"10\" font-family=\"system-ui\">-4</text><text x=\"70.8\" y=\"169.5\" text-anchor=\"end\" fill=\"#71717a\" font-size=\"10\" font-family=\"system-ui\">-2</text><text x=\"70.8\" y=\"91.5\" text-anchor=\"end\" fill=\"#71717a\" font-size=\"10\" font-family=\"system-ui\">2</text><text x=\"70.8\" y=\"52.5\" text-anchor=\"end\" fill=\"#71717a\" font-size=\"10\" font-family=\"system-ui\">4</text>\n  <polyline points=\"75.4,18.1 78.8,30.0 82.1,41.5 85.5,52.6 88.9,63.3 92.3,73.7 95.6,83.6 99.0,93.2 102.4,102.3 105.8,111.1 109.1,119.5 112.5,127.5 115.9,135.1 119.2,142.3 122.6,149.1 126.0,155.6 129.4,161.6 132.8,167.3 136.1,172.5 139.5,177.4 142.9,181.9 146.3,186.0 149.6,189.7 153.0,193.0 156.4,195.9 159.8,198.5 163.1,200.6 166.5,202.4 169.9,203.7 173.3,204.7 176.6,205.3 180.0,205.5 183.4,205.3 186.8,204.7 190.1,203.7 193.5,202.4 196.9,200.6 200.3,198.5 203.6,195.9 207.0,193.0 210.4,189.7 213.8,186.0 217.1,181.9 220.5,177.4 223.9,172.5 227.3,167.3 230.6,161.6 234.0,155.6 237.4,149.1 240.8,142.3 244.1,135.1 247.5,127.5 250.9,119.5 254.2,111.1 257.6,102.3 261.0,93.2 264.4,83.6 267.7,73.7 271.1,63.3 274.5,52.6 277.9,41.5 281.2,30.0 284.6,18.1\" fill=\"none\" stroke=\"#38bdf8\" stroke-width=\"2.2\"/>\n  \n  <circle cx=\"180.0\" cy=\"205.5\" r=\"4\" fill=\"#38bdf8\" stroke=\"#ffffff\" stroke-width=\"1.5\"/>\n  <text x=\"188.0\" y=\"197.5\" fill=\"#38bdf8\" font-size=\"11\" font-family=\"system-ui\" font-weight=\"600\">(3, -4)</text>\n\n</svg></div>"
               },
               {
                 "id": "pt3-math-m2u-q17",
@@ -4383,15 +4388,16 @@
                 "domain": "Geometry and Trigonometry",
                 "skill": "Circles and radians",
                 "difficulty": "H",
-                "html": false,
-                "stem": "A circle has a radius of 12 units. An arc on this circle measures 4pi units. If the measure of the central angle subtended by this arc is pi/k radians, what is the value of k?",
-                "rationale": "Arc length s = r * theta. Here 4pi = 12 * theta, so theta = 4pi / 12 = pi / 3. Comparing pi/3 to pi/k, we have k = 3.",
+                "html": true,
+                "stem": "In the figure, a circle has radius $12$ units, and an arc subtends a central angle of $\\frac{\\pi}{k}$ radians. If the arc length is $4\\pi$ units, what is the value of $k$?",
+                "rationale": "Using $s = r\\theta$: $4\\pi = 12 \\times \\theta \\implies \\theta = \\frac{4\\pi}{12} = \\frac{\\pi}{3}$. Comparing $\\frac{\\pi}{3}$ with $\\frac{\\pi}{k}$, we obtain $k = 3$.",
                 "keySource": "paper",
                 "expectedPace": 95,
                 "format": "spr",
                 "accepted": [
                   "3"
-                ]
+                ],
+                "stimulus": "<div class=\"sat-diagram my-4 flex flex-col items-center justify-center\"><svg viewBox=\"0 0 340 235\" xmlns=\"http://www.w3.org/2000/svg\" class=\"mx-auto block max-w-[340px] w-full h-auto rounded-lg border border-white/10 bg-[#141416] p-2\">\n  <circle cx=\"170\" cy=\"110\" r=\"75\" fill=\"none\" stroke=\"#52525b\" stroke-width=\"1.5\" stroke-dasharray=\"3,3\"/>\n  <path d=\"M 170 110 L 245 110 A 75 75 0 0 0 207.50 45.05 Z\" fill=\"#38bdf8\" fill-opacity=\"0.16\" stroke=\"#38bdf8\" stroke-width=\"2\"/>\n  <path d=\"M 194 110 A 24 24 0 0 0 182.00 89.22\" fill=\"none\" stroke=\"#fbbf24\" stroke-width=\"1.5\"/>\n  <circle cx=\"170\" cy=\"110\" r=\"3.5\" fill=\"#f4f4f5\"/>\n  <circle cx=\"245\" cy=\"110\" r=\"3.5\" fill=\"#38bdf8\"/>\n  <circle cx=\"207.50\" cy=\"45.05\" r=\"3.5\" fill=\"#38bdf8\"/>\n  <text x=\"206.4\" y=\"93.0\" fill=\"#fbbf24\" font-size=\"12\" font-family=\"system-ui, sans-serif\" font-weight=\"600\">π/k</text>\n  <text x=\"156\" y=\"125\" fill=\"#f4f4f5\" font-size=\"13\" font-family=\"system-ui, sans-serif\" font-weight=\"600\">O</text>\n  <text x=\"255\" y=\"114\" fill=\"#f4f4f5\" font-size=\"13\" font-family=\"system-ui, sans-serif\" font-weight=\"600\">A</text>\n  <text x=\"215.5\" y=\"41.0\" fill=\"#f4f4f5\" font-size=\"13\" font-family=\"system-ui, sans-serif\" font-weight=\"600\">B</text>\n  <text x=\"207.5\" y=\"126\" fill=\"#a1a1aa\" font-size=\"12\" font-family=\"system-ui, sans-serif\">r = 12</text>\n  <text x=\"170\" y=\"222\" text-anchor=\"middle\" fill=\"#71717a\" font-size=\"11\" font-style=\"italic\" font-family=\"system-ui, sans-serif\">Note: Figure not drawn to scale.</text>\n</svg></div>"
               },
               {
                 "id": "pt3-math-m2u-q19",

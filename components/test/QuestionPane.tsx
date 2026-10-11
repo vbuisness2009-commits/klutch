@@ -30,7 +30,10 @@ export function QuestionPane({
   onToggleEliminate,
   onToggleEliminator,
 }: Props) {
-  const twoPane = Boolean(item.stimulus) && !isSpr(item);
+  const isMath =
+    ["Algebra", "Advanced Math", "Problem-Solving and Data Analysis", "Geometry and Trigonometry"].includes(item.domain) ||
+    item.id.includes("math");
+  const twoPane = !isMath && Boolean(item.stimulus) && !isSpr(item);
 
   const question = (
     <div className="max-w-[46rem]">
@@ -199,10 +202,10 @@ function Rich({
 }) {
   const Tag = as;
   const formatted = formatMathHtml(content);
-  if (html || formatted.includes("katex") || formatted.includes("<span") || formatted.includes("<br")) {
+  if (html || formatted.includes("katex") || formatted.includes("<span") || formatted.includes("<br") || formatted.includes("<svg")) {
     return (
       <Tag
-        className={`${className ?? ""} whitespace-pre-line [&_p]:mb-2 [&_p:last-child]:mb-0 [&_table]:my-2 [&_td]:border [&_td]:border-white/15 [&_td]:px-2 [&_td]:py-1 [&_math]:px-[0.05em] [&_math]:text-[1.05em] [&_math]:text-inherit [&_img]:my-2 [&_img]:mx-auto [&_img]:block [&_img]:max-h-[min(420px,70vh)] [&_img]:max-w-full [&_img]:rounded-md [&_img]:bg-white [&_img]:p-1.5`}
+        className={`${className ?? ""} whitespace-pre-line [&_p]:mb-2 [&_p:last-child]:mb-0 [&_table]:my-2 [&_td]:border [&_td]:border-white/15 [&_td]:px-2 [&_td]:py-1 [&_math]:px-[0.05em] [&_math]:text-[1.05em] [&_math]:text-inherit [&_img]:my-2 [&_img]:mx-auto [&_img]:block [&_img]:max-h-[min(420px,70vh)] [&_img]:max-w-full [&_img]:rounded-md [&_img]:bg-white [&_img]:p-1.5 [&_svg]:mx-auto [&_svg]:block [&_svg]:max-w-[420px] [&_svg]:w-full [&_svg]:my-4`}
         dangerouslySetInnerHTML={{ __html: formatted }}
       />
     );

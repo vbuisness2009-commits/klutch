@@ -90,35 +90,60 @@ async function callOpenRouter(prompt: string): Promise<string> {
   }
 }
 
-async function synthesizeRwModule(
-  testNumber: number,
-  moduleNum: 1 | 2
-): Promise<Item[]> {
-  const prompt = `You are a College Board psychometric test designer creating Reading and Writing Module ${moduleNum} for a brand new, authentic Digital SAT practice test (Generated Test #${testNumber}).
+const JSON_PROMPT_RULE = `CRITICAL FORMAT RULES:
+- Output strict, valid JSON ONLY.
+- DO NOT use unescaped double quotes inside strings. For titles, quotations, dialogue, or excerpts, ALWAYS use single quotes (') like 'The Raven' or 'quoted text'.
+- Every multiple choice question must have exactly 4 choices with labels "A", "B", "C", "D".
+- "correct" must be exactly "A", "B", "C", or "D".
+- Provide a clear 1-2 sentence "rationale" explaining why the correct choice is right.`;
 
-Generate EXACTLY 27 questions strictly adhering to the official College Board domain sequence:
-- Questions 1-8: Craft and Structure (Words in Context: 4 items, Text Structure & Purpose: 2 items, Cross-Text: 2 items)
-- Questions 9-15: Information and Ideas (Central Ideas & Details: 3 items, Command of Evidence: 2 items, Inferences: 2 items)
-- Questions 16-22: Standard English Conventions (Boundaries/Punctuation: 4 items, Form/Structure/Sense: 3 items)
-- Questions 23-27: Expression of Ideas (Transitions: 3 items, Rhetorical Synthesis with research bullets: 2 items)
+async function fetchRwBatch(
+  testLabel: string,
+  variant: "m1" | "m2u" | "m2l",
+  part: 1 | 2
+): Promise<GeneratedRwQuestion[]> {
+  const isRouting = variant === "m1";
+  const isUpper = variant === "m2u";
+  const label = `${testLabel} RW ${variant.toUpperCase()} (Part ${part})`;
 
-Difficulty Mix for Module ${moduleNum}:
-${moduleNum === 1 ? "- Balanced routing module: 6 Easy (E), 15 Medium (M), 6 Hard (H)" : "- Adaptive upper module: 3 Easy (E), 10 Medium (M), 14 Hard (H)"}
+  const diffGuide = isRouting
+    ? "Module 1 (Routing Baseline): Balanced distribution (mix of Easy, Medium, Hard). Standard high school to AP English reading level."
+    : isUpper
+    ? "Module 2 Upper (Hard Curve): High discrimination. Collegiate-level prose, dense science/social science hypotheses, subtle distractors, advanced vocabulary (e.g. esoteric, vacillate, corroborate, preclude, tenuous, eschew)."
+    : "Module 2 Lower (Foundational Curve): Accessible informational prose, straightforward vocabulary and direct syntax.";
 
-RULES:
-1. Every passage/stimulus must be realistic, academic, high-school/undergraduate level text.
-2. Multiple choice: exactly 4 choices (A, B, C, D).
-3. "correct": exactly one letter A, B, C, or D.
-4. "rationale": 1-2 sentence explanation of why the correct choice is right and why other options fail.
+  const spec =
+    part === 1
+      ? `Generate EXACTLY 14 questions (numbered 1 to 14) for Craft and Structure + Information and Ideas:
+- Q1-4: Craft and Structure -> Words in Context (4 questions testing academic vocabulary)
+- Q5-6: Craft and Structure -> Text Structure and Purpose (2 questions)
+- Q7-8: Craft and Structure -> Cross-Text Connections (2 questions, Text 1 & Text 2)
+- Q9-11: Information and Ideas -> Central Ideas and Details (3 questions)
+- Q12-13: Information and Ideas -> Command of Evidence (2 questions testing hypotheses)
+- Q14: Information and Ideas -> Inferences (1 question: 'Which choice most logically completes the text?')`
+      : `Generate EXACTLY 13 questions (numbered 15 to 27) for Information and Ideas + Conventions + Expression of Ideas:
+- Q15: Information and Ideas -> Inferences (1 question: 'Which choice most logically completes the text?')
+- Q16-19: Standard English Conventions -> Boundaries (4 questions: semicolons, dashes, colons, comma splices)
+- Q20-22: Standard English Conventions -> Form, Structure, Sense (3 questions: subject-verb agreement, modifiers, verb tense)
+- Q23-25: Expression of Ideas -> Transitions (3 questions: Consequently, Furthermore, In contrast, Specifically)
+- Q26-27: Expression of Ideas -> Rhetorical Synthesis (2 questions: 4-5 bulleted research notes with a specified goal)`;
 
-Output strict JSON with this shape:
+  const prompt = `You are a College Board assessment designer creating questions for ${label}.
+${spec}
+
+Difficulty Calibration:
+${diffGuide}
+
+${JSON_PROMPT_RULE}
+
+Output format:
 {
   "questions": [
     {
-      "number": 1,
+      "number": ${part === 1 ? 1 : 15},
       "domain": "Craft and Structure",
       "skill": "Words in Context",
-      "difficulty": "M",
+      "difficulty": "${isUpper ? "H" : isRouting ? "M" : "E"}",
       "stimulus": "Passage text...",
       "stem": "Which choice completes the text with the most logical and precise word or phrase?",
       "choices": [
@@ -128,22 +153,47 @@ Output strict JSON with this shape:
         { "label": "D", "content": "..." }
       ],
       "correct": "B",
-      "rationale": "..."
+      "rationale": "Choice B is correct because..."
     }
   ]
 }`;
 
-  const raw = await callOpenRouter(prompt);
-  const parsed = parseModelJson<{ questions: GeneratedRwQuestion[] }>(raw);
-  const questions = parsed.questions || [];
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const res = await callOpenRouter(prompt);
+      const parsed = parseModelJson<{ questions: GeneratedRwQuestion[] }>(res);
+      const questions = parsed.questions || [];
+      if (questions.length >= (part === 1 ? 13 : 12)) {
+        return questions;
+      }
+    } catch (e: any) {
+      if (attempt === 3) throw e;
+    }
+  }
+  return [];
+}
+
+async function synthesizeRwModule(
+  testLabel: string,
+  variant: "m1" | "m2u" | "m2l"
+): Promise<Item[]> {
+  const isRouting = variant === "m1";
+  const isUpper = variant === "m2u";
+
+  const [p1, p2] = await Promise.all([
+    fetchRwBatch(testLabel, variant, 1),
+    fetchRwBatch(testLabel, variant, 2),
+  ]);
+
+  const questions = [...p1, ...p2].slice(0, 27);
 
   return questions.map((q, idx): Item => {
-    const id = `gen${testNumber}-rw-m${moduleNum}-q${String(idx + 1).padStart(2, "0")}`;
+    const id = `${testLabel}-rw-${variant}-q${String(idx + 1).padStart(2, "0")}`;
     const baseItem: MultipleChoiceItem = {
       id,
       domain: q.domain,
       skill: q.skill,
-      difficulty: q.difficulty || "M",
+      difficulty: q.difficulty || (isUpper ? "H" : isRouting ? "M" : "E"),
       html: false,
       stimulus: q.stimulus,
       stem: q.stem,
@@ -163,72 +213,100 @@ Output strict JSON with this shape:
   });
 }
 
-async function synthesizeMathModule(
-  testNumber: number,
-  moduleNum: 1 | 2
-): Promise<Item[]> {
-  const prompt = `You are an elite Digital SAT Math test designer creating Math Module ${moduleNum} for a brand new, authentic Digital SAT practice test (Generated Test #${testNumber}).
+async function fetchMathBatch(
+  testLabel: string,
+  variant: "m1" | "m2u" | "m2l",
+  part: 1 | 2
+): Promise<GeneratedMathQuestion[]> {
+  const isRouting = variant === "m1";
+  const isUpper = variant === "m2u";
+  const label = `${testLabel} Math ${variant.toUpperCase()} (Part ${part})`;
 
-Generate EXACTLY 22 questions matching the official College Board Math distribution:
-- Algebra: 8 questions (Linear equations, systems, inequalities)
-- Advanced Math: 7 questions (Quadratics, polynomials, exponential, nonlinear functions)
-- Problem-Solving and Data Analysis: 4 questions (Ratios, percentages, statistics, probability)
-- Geometry and Trigonometry: 3 questions (Circles, right triangles, radians)
+  const diffGuide = isRouting
+    ? "Module 1 (Routing Baseline): Ascending difficulty from foundational to intermediate. Algebra, quadratics, percentages, basic trig."
+    : isUpper
+    ? "Module 2 Upper (Hard Curve): Rigorous multi-step algebra, parametric systems (no/infinite solutions: ax+by=c), quadratic vertex form and discriminant constraints, completing the square on circle equations, trig cofunctions, and non-trivial SPRs."
+    : "Module 2 Lower (Foundational Curve): Single/two-step linear equations, direct proportions, Pythagorean theorem, right triangles.";
 
-Format Distribution:
-- Exactly 17 questions Multiple Choice (format: "mc", choices: A, B, C, D)
-- Exactly 5 questions Student-Produced Response (format: "spr", no choices, accepted: ["<exact answer>", "<decimal equivalent>"])
+  const spec =
+    part === 1
+      ? `Generate EXACTLY 11 questions (numbered 1 to 11) Multiple Choice:
+- Q1-6: Algebra (Linear equations in 1 variable, linear inequalities, systems of equations)
+- Q7-11: Advanced Math (Quadratics, polynomials, rational expressions)`
+      : `Generate EXACTLY 11 questions (numbered 12 to 22):
+- Q12-14: Problem-Solving and Data Analysis (Percentages, ratios, conditional probability)
+- Q15-16: Advanced Math (Nonlinear functions, exponential growth/decay)
+- Q17: Geometry and Trigonometry (Circles, radians, right triangle trig)
+- Q18-22: EXACTLY 5 questions Student-Produced Response (format: "spr", no choices, accepted: ["<exact>", "<decimal>"]). Covers Algebra, Advanced Math, and Geometry.`;
 
-Order questions roughly from easiest to hardest (Questions 1-6 mostly E, 7-16 mostly M, 17-22 mostly H).
+  const prompt = `You are an elite Digital SAT Math test designer creating questions for ${label}.
+${spec}
 
-RULES:
-1. Ensure every math problem is mathematically sound and has an unambiguous, verifiable answer.
-2. Use clean HTML or text for equations (e.g. x^2, fractions, standard equations).
-3. "rationale": concise 1-2 sentence solution step.
+Difficulty Calibration:
+${diffGuide}
 
-Output strict JSON with this shape:
+${JSON_PROMPT_RULE}
+- Write math equations in clean standard notation: e.g. "3x^2 - 12x + 5 = 0", "f(x) = 2(x - 3)^2 + 8", "sqrt(x + 7)", "x/4 + y/6 = 10". Never use complex backslash LaTeX escapes.
+
+Output format:
 {
   "questions": [
     {
-      "number": 1,
+      "number": ${part === 1 ? 1 : 12},
       "domain": "Algebra",
       "skill": "Linear equations in one variable",
-      "difficulty": "E",
+      "difficulty": "${isUpper ? "H" : isRouting ? "M" : "E"}",
       "format": "mc",
-      "stem": "If 3x + 7 = 22, what is the value of x?",
+      "stem": "If 4x - 8 = 16, what is the value of x?",
       "choices": [
-        { "label": "A", "content": "3" },
-        { "label": "B", "content": "5" },
-        { "label": "C", "content": "7" },
-        { "label": "D", "content": "15" }
+        { "label": "A", "content": "4" },
+        { "label": "B", "content": "6" },
+        { "label": "C", "content": "8" },
+        { "label": "D", "content": "12" }
       ],
       "correct": "B",
-      "rationale": "Subtracting 7 gives 3x = 15, so x = 5."
-    },
-    {
-      "number": 18,
-      "domain": "Advanced Math",
-      "skill": "Quadratic equations",
-      "difficulty": "H",
-      "format": "spr",
-      "stem": "What is the positive solution to x^2 - 12x + 36 = 0?",
-      "accepted": ["6", "6.0"],
-      "rationale": "(x-6)^2 = 0, so x = 6."
+      "rationale": "Adding 8 gives 4x = 24, so x = 6."
     }
   ]
 }`;
 
-  const raw = await callOpenRouter(prompt);
-  const parsed = parseModelJson<{ questions: GeneratedMathQuestion[] }>(raw);
-  const questions = parsed.questions || [];
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const res = await callOpenRouter(prompt);
+      const parsed = parseModelJson<{ questions: GeneratedMathQuestion[] }>(res);
+      const questions = parsed.questions || [];
+      if (questions.length >= 10) {
+        return questions;
+      }
+    } catch (e: any) {
+      if (attempt === 3) throw e;
+    }
+  }
+  return [];
+}
+
+async function synthesizeMathModule(
+  testLabel: string,
+  variant: "m1" | "m2u" | "m2l"
+): Promise<Item[]> {
+  const isRouting = variant === "m1";
+  const isUpper = variant === "m2u";
+
+  const [p1, p2] = await Promise.all([
+    fetchMathBatch(testLabel, variant, 1),
+    fetchMathBatch(testLabel, variant, 2),
+  ]);
+
+  const questions = [...p1, ...p2].slice(0, 22);
 
   return questions.map((q, idx): Item => {
-    const id = `gen${testNumber}-math-m${moduleNum}-q${String(idx + 1).padStart(2, "0")}`;
+    const isSpr = q.format === "spr" || idx >= 17 || (!q.choices && q.accepted);
+    const id = `${testLabel}-math-${variant}-q${String(idx + 1).padStart(2, "0")}`;
     const base = {
       id,
       domain: q.domain,
       skill: q.skill,
-      difficulty: q.difficulty || "M",
+      difficulty: q.difficulty || (isUpper ? "H" : isRouting ? "M" : "E"),
       html: false,
       stem: q.stem,
       rationale: q.rationale,
@@ -236,7 +314,7 @@ Output strict JSON with this shape:
     };
 
     let item: Item;
-    if (q.format === "spr" || (!q.choices && q.accepted)) {
+    if (isSpr) {
       const spr: SprItem = {
         ...base,
         format: "spr",
@@ -264,21 +342,32 @@ Output strict JSON with this shape:
 }
 
 /**
- * Generate a complete, balanced 98-question Digital SAT practice test.
- * Runs module synthesis in parallel for speed (~20-25 seconds total).
+ * Generate a complete, psychometrically calibrated 98-question Digital SAT practice test
+ * with distinct Routing (M1), Upper Adaptive (M2U), and Lower Adaptive (M2L) modules.
  */
 export async function generateBlueprintTest(
-  testNumber: number
+  identifier: number | string,
+  options?: {
+    title?: string;
+    collection?: string;
+    source?: string;
+  }
 ): Promise<StoredTest> {
-  const testId = `generated-test-${testNumber}`;
-  const title = `Generated Test ${testNumber}`;
+  const isCustomId = typeof identifier === "string";
+  const testId = isCustomId ? identifier : `generated-test-${identifier}`;
+  const title =
+    options?.title ?? (isCustomId ? identifier : `Generated Test ${identifier}`);
+  const collection = options?.collection ?? "Generated Tests";
+  const source = options?.source ?? "ai-blueprint";
 
-  // Synthesize both modules in parallel
-  const [rwM1, rwM2, mathM1, mathM2] = await Promise.all([
-    synthesizeRwModule(testNumber, 1),
-    synthesizeRwModule(testNumber, 2),
-    synthesizeMathModule(testNumber, 1),
-    synthesizeMathModule(testNumber, 2),
+  // Synthesize all 6 modules in parallel across Upper and Lower branches
+  const [rwM1, rwM2u, rwM2l, mathM1, mathM2u, mathM2l] = await Promise.all([
+    synthesizeRwModule(testId, "m1"),
+    synthesizeRwModule(testId, "m2u"),
+    synthesizeRwModule(testId, "m2l"),
+    synthesizeMathModule(testId, "m1"),
+    synthesizeMathModule(testId, "m2u"),
+    synthesizeMathModule(testId, "m2l"),
   ]);
 
   const rwSection: Section = {
@@ -287,8 +376,8 @@ export async function generateBlueprintTest(
     secondsPerModule: 32 * 60,
     module1: { id: `${testId}-rw-m1`, items: rwM1 },
     module2: {
-      lower: { id: `${testId}-rw-m2l`, items: rwM2 },
-      upper: { id: `${testId}-rw-m2u`, items: rwM2 },
+      lower: { id: `${testId}-rw-m2l`, items: rwM2l },
+      upper: { id: `${testId}-rw-m2u`, items: rwM2u },
     },
     routeUpAt: 15,
   };
@@ -299,8 +388,8 @@ export async function generateBlueprintTest(
     secondsPerModule: 35 * 60,
     module1: { id: `${testId}-math-m1`, items: mathM1 },
     module2: {
-      lower: { id: `${testId}-math-m2l`, items: mathM2 },
-      upper: { id: `${testId}-math-m2u`, items: mathM2 },
+      lower: { id: `${testId}-math-m2l`, items: mathM2l },
+      upper: { id: `${testId}-math-m2u`, items: mathM2u },
     },
     routeUpAt: 12,
   };
@@ -316,8 +405,8 @@ export async function generateBlueprintTest(
   return {
     id: testId,
     title,
-    collection: "Generated Tests",
-    source: "ai-blueprint",
+    collection,
+    source,
     published: true,
     scorable: true,
     warnings: [],

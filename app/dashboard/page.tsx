@@ -239,7 +239,7 @@ function PracticeTestList({
             Practice Tests Bank
           </h2>
           <p className="mt-1 text-sm text-zinc-400">
-            Full-length Digital SAT tests timed by module, scored 400 to 1600.
+            Official Practice Tests 1–5 are completely free to all students (0 credits used).
           </p>
         </div>
         <span className="nums text-xs font-semibold text-mint">
@@ -255,6 +255,11 @@ function PracticeTestList({
             t.id.startsWith("generated-test-") ||
             t.source === "ai-blueprint";
 
+          const isOfficialFree =
+            t.id.startsWith("practice-test-") ||
+            t.collection === "Official Practice Tests" ||
+            t.source?.toLowerCase().includes("free");
+
           return (
             <div
               key={t.id}
@@ -265,7 +270,11 @@ function PracticeTestList({
                   <span className="font-display text-[16px] font-semibold text-white">
                     {t.title}
                   </span>
-                  {isGenerated ? (
+                  {isOfficialFree ? (
+                    <span className="rounded-full bg-emerald-400/15 border border-emerald-400/30 px-2 py-0.5 text-[11px] font-semibold text-emerald-300">
+                      100% Free · 0 Credits
+                    </span>
+                  ) : isGenerated ? (
                     <span className="rounded-full bg-mint/15 border border-mint/25 px-2 py-0.5 text-[11px] font-medium text-mint">
                       Generated Test
                     </span>

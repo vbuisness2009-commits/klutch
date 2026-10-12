@@ -82,33 +82,34 @@ export function routeFor(
 }
 
 /**
- * Keyed form limited to the modules the student actually sat, and only for
- * questions they answered. Blank questions score as wrong either way, so
- * withholding their keys doesn't change the result.
+ * Keyed form limited to the modules the student actually sat. Reveals full
+ * answer keys and rationales for all questions in sat modules (both answered
+ * and omitted) so students can review them on the results screen. The unrouted
+ * module 2 branch remains redacted.
  */
 export function keyedFormForRoutes(
   form: TestForm,
   routes: Partial<Record<SectionId, Route>>,
   responses: Record<string, string>
 ): TestForm {
-  const reveal = (items: Item[]) =>
-    items.map((it) => (responses[it.id]?.trim() ? it : redactItem(it)));
+  void responses;
   return {
     ...form,
     sections: form.sections.map((s) => {
       const taken = routes[s.id] ?? "lower";
       const skipped: Route = taken === "upper" ? "lower" : "upper";
-      const played = { ...s.module2[taken], items: reveal(s.module2[taken].items) };
+      const played = s.module2[taken];
       const blanked = {
         ...s.module2[skipped],
         items: s.module2[skipped].items.map(redactItem),
       };
       return {
         ...s,
-        module1: { ...s.module1, items: reveal(s.module1.items) },
-        module2: taken === "upper"
-          ? { upper: played, lower: blanked }
-          : { lower: played, upper: blanked },
+        module1: s.module1,
+        module2:
+          taken === "upper"
+            ? { upper: played, lower: blanked }
+            : { lower: played, upper: blanked },
       };
     }),
   };

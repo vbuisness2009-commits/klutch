@@ -486,8 +486,14 @@ function QuestionRow({
   const isOmitted = !row.response || !row.response.trim();
   const isIncorrect = !isCorrect && !isOmitted;
   const isMath = row.sectionId === "math";
-
-  const answerKey = isSpr(item) ? item.accepted[0] : item.correct;
+  const anyItem = item as any;
+  const answerKey =
+    (isSpr(item) ? item.accepted?.[0] : item.correct) ||
+    anyItem.correct ||
+    anyItem.accepted?.[0] ||
+    anyItem.answer ||
+    anyItem.key ||
+    "—";
 
   // Pace label
   const isFast = row.timeSec > 0 && row.timeSec < row.expectedPace.minSec * 0.7;
@@ -767,12 +773,30 @@ function ExplainMoreCard({
     setError(null);
 
     try {
-      const correctKey = isSpr(item) ? item.accepted[0] : item.correct;
+      const anyItem = item as any;
+      const correctKey =
+        (isSpr(item) ? item.accepted?.[0] : item.correct) ||
+        anyItem.correct ||
+        anyItem.accepted?.[0] ||
+        anyItem.answer ||
+        anyItem.key ||
+        item.rationale?.match(/Choice\s+([A-D])\s+is\s+correct/i)?.[1] ||
+        item.rationale?.match(/(?:equals|is|=\s*)\s*([-+]?\d+(?:\.\d+)?(?:\/\d+)?)/i)?.[1] ||
+        anyItem.choices?.[0]?.id ||
+        "";
+
+      const stemText =
+        item.stem ||
+        (item as any).question ||
+        (item as any).prompt ||
+        (item as any).text ||
+        "";
+
       const res = await fetch("/api/practice/explain-more", {
         method: "POST",
         headers: { "content-type": "application/json" },
         body: JSON.stringify({
-          stem: item.stem,
+          stem: stemText,
           stimulus: item.stimulus,
           choices: isSpr(item) ? undefined : item.choices,
           correct: correctKey,

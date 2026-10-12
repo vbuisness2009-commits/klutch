@@ -52,11 +52,38 @@ export async function POST(req: Request) {
       sectionId,
     } = body;
 
-    if (!stem || !correct) {
-      return NextResponse.json(
-        { ok: false, error: "Missing required question stem or correct key." },
-        { status: 400 }
+    // Resilient fallback extraction for stem
+    let stemText = String(
+      stem ||
+        (body as any).question ||
+        (body as any).prompt ||
+        (body as any).text ||
+        ""
+    ).trim();
+    if (!stemText && stimulus) {
+      stemText = stimulus.trim();
+    }
+    if (!stemText) {
+      stemText = "Analyze this SAT question and determine the step-by-step solution.";
+    }
+
+    // Resilient fallback extraction for correct key
+    let correctKey = String(
+      correct || (body as any).answer || (body as any).key || ""
+    ).trim();
+    if (!correctKey && rationale) {
+      const matchLetter = rationale.match(/Choice\s+([A-D])\s+is\s+correct/i);
+      const matchNum = rationale.match(
+        /(?:equals|is|=\s*)\s*([-+]?\d+(?:\.\d+)?(?:\/\d+)?)/i
       );
+      if (matchLetter) correctKey = matchLetter[1].toUpperCase();
+      else if (matchNum) correctKey = matchNum[1];
+    }
+    if (!correctKey && choices && choices.length > 0) {
+      correctKey = choices[0].id || "A";
+    }
+    if (!correctKey) {
+      correctKey = "Answer";
     }
 
     const isMath = Boolean(
@@ -77,8 +104,8 @@ QUESTION DETAILS:
 - Domain: ${domain || "SAT"}
 - Skill: ${skill || "General"}
 - Section: ${isMath ? "Math" : "Reading & Writing"}
-${stimulus ? `- Stimulus/Passage: """${stimulus.slice(0, 1500)}"""\n` : ""}- Question Stem: """${stem}"""
-${choices && choices.length > 0 ? `- Choices:\n${choices.map((c) => `  ${c.id}: ${c.text}`).join("\n")}\n` : ""}- Correct Answer: ${correct}
+${stimulus ? `- Stimulus/Passage: """${stimulus.slice(0, 1500)}"""\n` : ""}- Question Stem: """${stemText}"""
+${choices && choices.length > 0 ? `- Choices:\n${choices.map((c) => `  ${c.id}: ${c.text}`).join("\n")}\n` : ""}- Correct Answer: ${correctKey}
 ${studentAnswer ? `- Student's Answer: ${studentAnswer}\n` : ""}${rationale ? `- Official Rationale: """${rationale.slice(0, 1200)}"""\n` : ""}
 
 INSTRUCTIONS:
@@ -152,7 +179,12 @@ Return STRICT, VALID JSON ONLY with this exact structure:
     }
 
     // Fallback if LLM call is offline or sandbox blocks outbound network
-    return NextResponse.json(generateLocalFallback(body, isMath));
+    return NextResponse.json(
+      generateLocalFallback(
+        { ...body, stem: stemText, correct: correctKey },
+        isMath
+      )
+    );
   } catch (error) {
     console.error("Explain-more route error:", error);
     return NextResponse.json(

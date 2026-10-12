@@ -1061,7 +1061,7 @@ function TargetedDrillPlayer({
                     rationale: reviewQ.rationale,
                   };
                   const solution = resolveProblemSolution(itemForSolver as Item, reviewQ.rationale);
-                  return (
+                  return solution.showDesmos ? (
                     <div className="mt-5 grid grid-cols-1 items-start gap-5 lg:grid-cols-2">
                       <div className="min-w-0">
                         <DesmosVisualizer model={solution.desmos} />
@@ -1102,6 +1102,44 @@ function TargetedDrillPlayer({
                           </strong>
                           <div dangerouslySetInnerHTML={{ __html: formatMathHtml(reviewQ.rationale) }} />
                         </div>
+                      </div>
+                    </div>
+                  ) : (
+                    <div className="mt-5 rounded-xl border border-white/10 bg-[#0c1017] p-5 shadow-xl">
+                      <div className="flex items-center justify-between border-b border-white/10 pb-3">
+                        <div className="flex items-center gap-2">
+                          <span className="flex h-5 w-5 items-center justify-center rounded bg-emerald-500/20 text-emerald-400 text-xs font-bold">
+                            ✓
+                          </span>
+                          <h4 className="text-xs font-bold uppercase tracking-wider text-white">
+                            Steps to Solve
+                          </h4>
+                        </div>
+                        <span className="text-[10px] text-zinc-400 font-mono">
+                          {solution.topicTitle}
+                        </span>
+                      </div>
+                      <div className="mt-3 space-y-2.5">
+                        {solution.stepsToSolve.steps.map((s) => (
+                          <div key={s.stepNumber} className="rounded-lg border border-white/5 bg-white/[0.02] p-2.5">
+                            <div className="flex items-center gap-2">
+                              <span className="flex h-4 w-4 items-center justify-center rounded-full bg-emerald-500/20 font-mono text-[10px] font-bold text-emerald-400">
+                                {s.stepNumber}
+                              </span>
+                              <span className="text-xs font-semibold text-zinc-200">{s.title}</span>
+                            </div>
+                            <div
+                              className="mt-1 pl-6 text-xs leading-relaxed text-zinc-300"
+                              dangerouslySetInnerHTML={{ __html: formatMathHtml(s.detail) }}
+                            />
+                          </div>
+                        ))}
+                      </div>
+                      <div className="mt-3 rounded-lg border border-white/10 bg-white/[0.02] p-3 text-xs leading-relaxed text-zinc-300">
+                        <strong className="block text-zinc-400 font-semibold mb-1">
+                          Detailed Mathematical Walkthrough:
+                        </strong>
+                        <div dangerouslySetInnerHTML={{ __html: formatMathHtml(reviewQ.rationale) }} />
                       </div>
                     </div>
                   );

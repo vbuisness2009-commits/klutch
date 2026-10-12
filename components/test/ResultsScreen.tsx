@@ -717,8 +717,8 @@ function QuestionRow({
             </div>
           )}
 
-          {/* Side-by-side: Left = Desmos & Inputs for this problem, Right = Steps to Solve */}
-          {solution.isMath ? (
+          {/* Side-by-side if Math AND Desmos makes it easier & faster; otherwise clean full-width Steps to Solve */}
+          {solution.isMath && solution.showDesmos ? (
             <div className="mb-4 grid grid-cols-1 items-start gap-5 lg:grid-cols-2">
               {/* Left Column: Desmos Calculator & Exact Inputs for this Problem */}
               <div className="min-w-0">

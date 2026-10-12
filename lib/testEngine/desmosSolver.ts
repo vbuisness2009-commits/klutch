@@ -61,6 +61,7 @@ export type StepsToSolveModel = {
 export type ProblemSolution = {
   isMath: boolean;
   topicTitle: string;
+  showDesmos: boolean;
   desmos: DesmosModel;
   stepsToSolve: StepsToSolveModel;
 };
@@ -72,8 +73,11 @@ const COLOR_PURPLE = "#a855f7";
 const COLOR_AMBER = "#f59e0b";
 
 /**
- * Extracts and synthesizes a high-accuracy Desmos solution and a 3-step structured
+ * Extracts and synthesizes a high-accuracy solution and a 3-step structured
  * walkthrough for any SAT question.
+ *
+ * Desmos is selectively enabled ONLY when it provides a genuine strategic
+ * advantage (faster and easier than manual calculation).
  */
 export function resolveProblemSolution(
   item: Item,
@@ -111,6 +115,7 @@ export function resolveProblemSolution(
     return {
       isMath: false,
       topicTitle,
+      showDesmos: false,
       desmos: {
         title: "Reading & Writing Question",
         canGraph: false,
@@ -134,10 +139,12 @@ export function resolveProblemSolution(
 
   // MATH SOLVER
   const parsed = parseMathProblem(stem, rationale, item);
+  const showDesmos = isDesmosAdvantageous(item, parsed);
 
   return {
     isMath: true,
     topicTitle,
+    showDesmos,
     desmos: parsed.desmos,
     stepsToSolve: {
       title: "Steps to Solve",
@@ -163,6 +170,106 @@ function checkIsMath(item: Item): boolean {
   ) {
     return true;
   }
+  return false;
+}
+
+/**
+ * Determines whether Desmos provides a genuine strategic advantage (faster and easier)
+ * over manual calculation.
+ */
+export function isDesmosAdvantageous(
+  item: Item,
+  parsed: ParsedMathResult
+): boolean {
+  const text = `${item.stem} ${item.skill || ""} ${item.domain || ""}`.toLowerCase();
+
+  // Exclude pure geometry, trigonometry, statistics, and percentages
+  // where coordinate graphing in Desmos is slower, irrelevant, or non-applicable.
+  const isGeometryOrTrig =
+    text.includes("right triangle") ||
+    text.includes("pythagorean") ||
+    text.includes("hypotenuse") ||
+    text.includes("sine") ||
+    text.includes("cosine") ||
+    text.includes("tangent") ||
+    text.includes("cos(") ||
+    text.includes("sin(") ||
+    text.includes("tan(") ||
+    text.includes("arc length") ||
+    text.includes("sector") ||
+    text.includes("central angle") ||
+    text.includes("radians") ||
+    text.includes("parallel lines") ||
+    text.includes("alternate interior") ||
+    text.includes("congruent") ||
+    text.includes("similar triangle");
+
+  if (isGeometryOrTrig && !text.includes("xy-plane") && !text.includes("circle in the xy")) {
+    return false;
+  }
+
+  const isStatsOrPercent =
+    text.includes("mean") ||
+    text.includes("median") ||
+    text.includes("average") ||
+    text.includes("standard deviation") ||
+    text.includes("margin of error") ||
+    text.includes("sample") ||
+    text.includes("survey") ||
+    text.includes("percent") ||
+    text.includes("discount") ||
+    text.includes("ratio") ||
+    text.includes("proportion");
+
+  if (isStatsOrPercent) {
+    return false;
+  }
+
+  // 1. Systems of equations (2 equations, 2 variables):
+  // Desmos is 5x faster than by-hand elimination/substitution.
+  if (parsed.desmos.curveType === "system") {
+    return true;
+  }
+
+  // 2. Quadratics / Parabolas (vertex, min/max, roots, factoring):
+  // Desmos gray snap dots show (h, k) and roots in 3 seconds.
+  if (parsed.desmos.curveType === "quadratic") {
+    return true;
+  }
+
+  // 3. Circle in coordinate plane:
+  // Desmos graphs implicit (x - h)^2 + (y - k)^2 = r^2 directly without completing the square.
+  if (parsed.desmos.curveType === "circle") {
+    return true;
+  }
+
+  // 4. Linear Inequalities:
+  // Desmos automatically shades the solution region and plots dashed/solid boundary lines.
+  if (parsed.desmos.curveType === "inequality") {
+    return true;
+  }
+
+  // 5. Points / coordinate line regression:
+  if (parsed.desmos.curveType === "points") {
+    return true;
+  }
+
+  // 6. Equations in one variable:
+  // Only advantageous if complex: rational, radical, absolute value, or factored polynomial.
+  // Basic 1-step or 2-step linear equations (e.g. 3(x - 2) = 15 or 4x + 7 = 23) are FASTER by hand!
+  if (parsed.desmos.curveType === "equation") {
+    const eq = parsed.desmos.expressions[0]?.latex || item.stem;
+    const isComplex =
+      eq.includes("/") ||
+      eq.includes("^") ||
+      eq.includes("|") ||
+      eq.includes("sqrt") ||
+      (eq.match(/\([^\)]+\)/g) || []).length >= 2;
+
+    return isComplex;
+  }
+
+  // Fallback calculations, arithmetic word problems: NOT advantageous in Desmos.
   return false;
 }
 
@@ -246,16 +353,16 @@ function parseMathProblem(
   const inequality = tryParseInequality(clean, stem, rationale);
   if (inequality) return inequality;
 
-  // 6. Check for Single-Variable Linear Equation (e.g. 2(x + 3) - 5 = 15)
-  const singleVar = tryParseSingleVarEquation(clean, stem, rationale);
-  if (singleVar) return singleVar;
-
-  // 7. Check for Function evaluation (e.g. P(x) = x^2 + 3x - 4, what is P(2))
+  // 6. Check for Function evaluation (e.g. P(x) = x^2 + 3x - 4, what is P(2))
   const funcEval = tryParseFunctionEval(clean, stem, rationale);
   if (funcEval) return funcEval;
 
-  // 8. Fallback: Arithmetic calculation or formula
-  return buildArithmeticFallback(clean, stem, rationale, item);
+  // 7. Check for Single-Variable Linear Equation (e.g. 2(x + 3) - 5 = 15)
+  const singleVar = tryParseSingleVarEquation(clean, stem, rationale);
+  if (singleVar) return singleVar;
+
+  // 8. Specialized & Arithmetic Fallbacks (Geometry, Statistics, Rates, Percentages)
+  return buildSpecializedFallback(clean, stem, rationale, item);
 }
 
 // -----------------------------------------------------------------------
@@ -266,7 +373,6 @@ function tryParseLinearSystem(
   stem: string,
   rationale: string
 ): ParsedMathResult | null {
-  // Regex to match a1 x + b1 y = c1
   const lineMatches = Array.from(
     clean.matchAll(
       /([-+]?\s*\d*\.?\d*)\s*x\s*([+-]\s*\d*\.?\d*)\s*y\s*=\s*([-+]?\s*\d+\.?\d*)/gi
@@ -274,7 +380,6 @@ function tryParseLinearSystem(
   );
 
   if (lineMatches.length < 2) {
-    // Check if one equation is in slope-intercept e.g. y = x - 1
     const mSlope = clean.match(
       /y\s*=\s*([-+]?\s*\d*\.?\d*)\s*x\s*([+-]\s*\d+\.?\d*)?/i
     );
@@ -284,7 +389,6 @@ function tryParseLinearSystem(
     if (!mSlope || !mStandard) return null;
   }
 
-  // Parse coefficients
   const parseCoeffs = (m: RegExpMatchArray) => {
     let aStr = (m[1] || "").replace(/\s+/g, "");
     if (aStr === "" || aStr === "+") aStr = "1";
@@ -303,7 +407,6 @@ function tryParseLinearSystem(
   const eq1 = parseCoeffs(lineMatches[0]);
   const eq2 = parseCoeffs(lineMatches[1]);
 
-  // Determinant
   const det = eq1.a * eq2.b - eq2.a * eq1.b;
 
   let ix = 0;
@@ -316,8 +419,6 @@ function tryParseLinearSystem(
     hasUnique = true;
   }
 
-  // SVG Curves
-  // y = (-a/b) x + (c/b)
   const curves: SvgCurve[] = [];
   if (Math.abs(eq1.b) > 1e-6) {
     curves.push({
@@ -392,14 +493,14 @@ function tryParseLinearSystem(
   const steps: SolveStep[] = [
     {
       stepNumber: 1,
-      title: "Identify the Given System",
+      title: "Identify the Given Linear System",
       detail: `The problem provides two linear constraints: $${eq1.text}$ and $${eq2.text}$.`,
     },
     {
       stepNumber: 2,
-      title: "Desmos & Algebraic Intersection",
+      title: "Find Intersection Point",
       detail: hasUnique
-        ? `Enter both lines into Desmos. The lines intersect at $(x, y) = (${ix}, ${iy})$. Algebraically, solving by elimination or substitution yields $x = ${ix}$ and $y = ${iy}$.`
+        ? `Enter both lines into Desmos. The lines intersect at $(x, y) = (${ix}, ${iy})$. By algebraic elimination: solving gives $x = ${ix}$ and $y = ${iy}$.`
         : `The determinant is zero, meaning the lines have equal slopes (parallel).`,
     },
     {
@@ -441,17 +542,15 @@ function tryParseCircle(
   stem: string,
   rationale: string
 ): ParsedMathResult | null {
-  // Pattern 1: (x - h)^2 + (y - k)^2 = r^2
   const centerRadiusMatch = clean.match(
     /\(x\s*([+-]\s*\d+(?:\.\d+)?)\)\^2\s*\+\s*\(y\s*([+-]\s*\d+(?:\.\d+)?)\)\^2\s*=\s*(\d+(?:\.\d+)?)/i
   );
 
-  // Pattern 2: x^2 + y^2 - 6x + 4y - 12 = 0
   const generalMatch = clean.match(
     /x\^2\s*\+\s*y\^2\s*([+-]\s*\d+(?:\.\d+)?x)?\s*([+-]\s*\d+(?:\.\d+)?y)?\s*([+-]\s*\d+(?:\.\d+)?)?\s*=\s*0/i
   );
 
-  if (!centerRadiusMatch && !generalMatch && !clean.toLowerCase().includes("circle")) {
+  if (!centerRadiusMatch && !generalMatch && !clean.toLowerCase().includes("circle in the xy")) {
     return null;
   }
 
@@ -470,7 +569,6 @@ function tryParseCircle(
     eqText = centerRadiusMatch[0];
   } else if (generalMatch) {
     eqText = generalMatch[0];
-    // Try extracting from rationale: e.g. center (3, -2) and r = 5
     const ptMatch = rationale.match(/\((-?\d+),\s*(-?\d+)\)/);
     if (ptMatch) {
       h = parseInt(ptMatch[1], 10);
@@ -481,7 +579,6 @@ function tryParseCircle(
       r = parseFloat(rMatch[1]);
     }
   } else {
-    // Circle problem with radius mentioned
     const rMatch = clean.match(/radius\s*(?:of|is|=)?\s*(\d+(?:\.\d+)?)/i);
     if (rMatch) r = parseFloat(rMatch[1]);
     eqText = `(x - ${h})^2 + (y - ${k})^2 = ${r * r}`;
@@ -526,12 +623,12 @@ function tryParseCircle(
   const steps: SolveStep[] = [
     {
       stepNumber: 1,
-      title: "Identify Standard Circle Form",
-      detail: `Recall $(x - h)^2 + (y - k)^2 = r^2$, where $(h, k)$ is the center and $r$ is the radius.`,
+      title: "Identify Standard Circle Equation Form",
+      detail: `Recall standard circle form: $(x - h)^2 + (y - k)^2 = r^2$, where $(h, k)$ is the center and $r$ is the radius.`,
     },
     {
       stepNumber: 2,
-      title: "Extract Center & Radius",
+      title: "Determine Center & Radius",
       detail: `The equation gives center $(h, k) = (${h}, ${k})$ and radius $r = \\sqrt{${r * r}} = ${r}$.`,
     },
     {
@@ -553,12 +650,12 @@ function tryParseCircle(
       curveType: "circle",
       curves,
       desmosInstructions: [
-        `Type the equation "${eqText}" directly into line 1. Desmos plots the entire circle instantly without solving for y.`,
-        `Type "(${h}, ${k})" into line 2 to highlight the center point.`,
+        `Type "${eqText}" directly into row 1. Desmos plots the entire circle instantly without solving for y.`,
+        `Type "(${h}, ${k})" into row 2 to highlight the center point.`,
         `Count or subtract coordinates from center to the rightmost point (${h + r}, ${k}) to verify radius $r = ${r}$.`,
       ],
       proTip:
-        "Desmos plots implicit circle equations directly! You never need to complete the square by hand if you can verify by plotting.",
+        "Desmos graphs implicit circle equations directly! You never need to complete the square by hand if you can verify by plotting.",
     },
     steps,
   };
@@ -572,17 +669,14 @@ function tryParseQuadratic(
   stem: string,
   rationale: string
 ): ParsedMathResult | null {
-  // Vertex form: a(x - h)^2 + k
   const vertexMatch = clean.match(
     /([-+]?\s*\d*\.?\d*)\s*\(x\s*([+-]\s*\d+(?:\.\d+)?)\)\^2\s*([+-]\s*\d+(?:\.\d+)?)/i
   );
 
-  // Standard form: ax^2 + bx + c
   const stdMatch = clean.match(
     /(?:f\(x\)|y|P\(x\)|g\(x\)|h\(x\))?\s*=?\s*([-+]?\s*\d*\.?\d*)\s*x\^2\s*([+-]\s*\d*\.?\d*x)?\s*([+-]\s*\d+\.?\d*)?/i
   );
 
-  // Factored form: (x - r1)(x - r2)
   const factoredMatch = clean.match(
     /\(x\s*([+-]\s*\d+(?:\.\d+)?)\)\s*\(x\s*([+-]\s*\d+(?:\.\d+)?)\)/i
   );
@@ -632,11 +726,9 @@ function tryParseQuadratic(
     return null;
   }
 
-  // Calculate vertex (h, k)
   const h = Math.round((-b / (2 * a)) * 100) / 100;
   const k = Math.round((a * h * h + b * h + c) * 100) / 100;
 
-  // Real roots
   const disc = b * b - 4 * a * c;
   const roots: number[] = [];
   if (disc >= 0) {
@@ -841,7 +933,7 @@ function tryParseTwoPoints(
         yMin: cy - span,
         yMax: cy + span,
       },
-      curveType: "linear",
+      curveType: "points",
       curves,
       desmosInstructions: [
         `Enter both points "(${p1.x}, ${p1.y})" and "(${p2.x}, ${p2.y})" into Desmos.`,
@@ -872,7 +964,6 @@ function tryParseInequality(
   let raw = ineqMatch[0].trim();
   raw = raw.replace(/\\ge/g, ">=").replace(/\\le/g, "<=");
 
-  // Boundary value
   let mStr = (ineqMatch[1] || "").replace(/\s+/g, "");
   if (mStr === "" || mStr === "+") mStr = "1";
   if (mStr === "-") mStr = "-1";
@@ -908,15 +999,15 @@ function tryParseInequality(
     },
     {
       stepNumber: 2,
-      title: "Isolate x",
-      detail: `Isolating $x$: subtract $${b}$ and divide by $${m}$, yielding critical boundary $x = ${boundary}$.`,
+      title: "Isolate the Variable",
+      detail: `Isolating $x$: subtract $${b}$ from both sides and divide by $${m}$, yielding boundary $x = ${boundary}$. (Remember to flip the inequality sign if dividing by a negative number).`,
     },
     {
       stepNumber: 3,
-      title: "Confirm the Answer",
+      title: "Confirm Solution Interval",
       detail: rationale
         ? cleanFirstSentence(rationale)
-        : `The solution set corresponds to the boundary at $x = ${boundary}$.`,
+        : `The solution corresponds to the critical boundary at $x = ${boundary}$.`,
     },
   ];
 
@@ -947,116 +1038,7 @@ function tryParseInequality(
 }
 
 // -----------------------------------------------------------------------
-// 6. SINGLE-VARIABLE EQUATION
-// -----------------------------------------------------------------------
-function tryParseSingleVarEquation(
-  clean: string,
-  stem: string,
-  rationale: string
-): ParsedMathResult | null {
-  // First search in stem specifically, without question mark
-  const stemClean = stem
-    .replace(/\$([0-9]+(?:\.[0-9]+)?)/g, "$1")
-    .replace(/[*_#\?]/g, "")
-    .trim();
-
-  let cand = "";
-
-  const stemEqMatch = stemClean.match(
-    /([a-zA-Z0-9_\(\)\/\s\+\-\*\.]+\s*=\s*[-+]?[a-zA-Z0-9_\(\)\/\s\+\-\*\.]+)/
-  );
-
-  if (stemEqMatch) {
-    cand = stemEqMatch[1].trim();
-  } else {
-    const eqMatch = clean.match(
-      /([a-zA-Z0-9_\(\)\/\s\+\-\*\.]+\s*=\s*[-+]?[a-zA-Z0-9_\(\)\/\s\+\-\*\.]+)/
-    );
-    if (eqMatch) cand = eqMatch[1].trim();
-  }
-
-  if (!cand) return null;
-
-  cand = cand.replace(/^(what value of [a-zA-Z] satisfies the equation|equation|is|if|let|satisfies|where)\s+/i, "").trim();
-  if (!cand.includes("=") || !/[a-zA-Z]/.test(cand) || cand.length > 50) return null;
-  if (cand.toLowerCase().startsWith("choice") || cand.toLowerCase().startsWith("step")) return null;
-
-  // Detect variable name
-  const varMatch = cand.match(/\b([a-zA-Z])\b/);
-  const varName = varMatch ? varMatch[1] : "x";
-
-  // Check if rationale states the solution - get the last equation assignment
-  const allSolMatches = Array.from(
-    rationale.matchAll(/(?:[a-zA-Z]|answer|equals|is)\s*=\s*([-+]?\d+(?:\.\d+)?)/gi)
-  );
-  const lastMatch = allSolMatches.length > 0 ? allSolMatches[allSolMatches.length - 1] : null;
-  const sol = lastMatch ? parseFloat(lastMatch[1]) : 5;
-
-  const curves: SvgCurve[] = [
-    {
-      type: "vertical-line",
-      x: sol,
-      color: COLOR_GREEN,
-    },
-  ];
-
-  const expressions: DesmosExpression[] = [
-    { latex: cand, color: COLOR_GREEN, label: "Given Equation" },
-    { latex: `${varName} = ${sol}`, color: COLOR_BLUE, label: "Solution" },
-  ];
-
-  const keyPoints: KeyPoint[] = [
-    { x: sol, y: 0, label: `${varName} = ${sol}`, highlight: true },
-  ];
-
-  const steps: SolveStep[] = [
-    {
-      stepNumber: 1,
-      title: "Set up the Equation",
-      detail: `The question requires solving: $${cand}$.`,
-    },
-    {
-      stepNumber: 2,
-      title: "Solve for Variable",
-      detail: rationale
-        ? cleanFirstSentence(rationale)
-        : `Isolating the variable gives solution $${sol}$.`,
-    },
-    {
-      stepNumber: 3,
-      title: "Confirm the Answer",
-      detail: `Substituting back into the equation confirms the equality.`,
-    },
-  ];
-
-  return {
-    desmos: {
-      title: "Linear Equation in One Variable",
-      canGraph: true,
-      expressions,
-      keyPoints,
-      viewBox: {
-        xMin: sol - 8,
-        xMax: sol + 8,
-        yMin: -6,
-        yMax: 6,
-      },
-      curveType: "equation",
-      curves,
-      desmosInstructions: [
-        `Type the equation "${cand}" directly into Desmos.`,
-        `Desmos graphs a vertical line at the exact value that satisfies the equation.`,
-        `Click the x-axis intercept dot to immediately read the solution $x = ${sol}$.`,
-      ],
-      proTip:
-        "You can type single-variable equations directly into Desmos! Desmos will plot the exact vertical line solution for you.",
-    },
-    steps,
-  };
-}
-
-// -----------------------------------------------------------------------
-// 7. FUNCTION EVALUATION
+// 6. FUNCTION EVALUATION
 // -----------------------------------------------------------------------
 function tryParseFunctionEval(
   clean: string,
@@ -1070,11 +1052,9 @@ function tryParseFunctionEval(
 
   const fDef = fMatch[1].trim();
 
-  // Find input value e.g. P(2) or f(3)
   const evalMatch = clean.match(/([fghP]\((-?\d+(?:\.\d+)?)\))/i);
   const inputVal = evalMatch ? parseFloat(evalMatch[2]) : 2;
 
-  // Find output from rationale
   const outMatch = rationale.match(
     /(?:equals|is|=\s*)\s*([-+]?\d+(?:\.\d+)?)/i
   );
@@ -1111,12 +1091,12 @@ function tryParseFunctionEval(
     },
     {
       stepNumber: 2,
-      title: "Substitute Input Value",
-      detail: `Substitute the specified input value $x = ${inputVal}$ into every instance of $x$.`,
+      title: "Substitute Given Value",
+      detail: `Substitute the specified input $x = ${inputVal}$ into every instance of the variable.`,
     },
     {
       stepNumber: 3,
-      title: "Compute Output",
+      title: "Evaluate & Compute Output",
       detail: rationale
         ? cleanFirstSentence(rationale)
         : `Evaluating yields output value $${outVal}$.`,
@@ -1150,66 +1130,191 @@ function tryParseFunctionEval(
 }
 
 // -----------------------------------------------------------------------
-// 8. ARITHMETIC / GEOMETRY FALLBACK
+// 7. SINGLE-VARIABLE EQUATION
 // -----------------------------------------------------------------------
-function buildArithmeticFallback(
+function tryParseSingleVarEquation(
   clean: string,
   stem: string,
-  rationale: string,
-  item: Item
-): ParsedMathResult {
-  // Look for formulas or arithmetic expressions in rationale or stem
-  const formulaMatch = clean.match(
-    /([a-zA-Z]\s*=\s*[-+]?[a-zA-Z0-9_\(\)\/\^\s\+\-\*\.]+|\\frac\{[^\}]+\}\{[^\}]+\})/
+  rationale: string
+): ParsedMathResult | null {
+  const stemClean = stem
+    .replace(/\$([0-9]+(?:\.[0-9]+)?)/g, "$1")
+    .replace(/[*_#\?]/g, "")
+    .trim();
+
+  let cand = "";
+
+  const stemEqMatch = stemClean.match(
+    /([a-zA-Z0-9_\(\)\/\s\+\-\*\.]+\s*=\s*[-+]?[a-zA-Z0-9_\(\)\/\s\+\-\*\.]+)/
   );
 
-  const formulaText = formulaMatch ? formulaMatch[1].trim() : "Calculation Expression";
+  if (stemEqMatch) {
+    cand = stemEqMatch[1].trim();
+  } else {
+    const eqMatch = clean.match(
+      /([a-zA-Z0-9_\(\)\/\s\+\-\*\.]+\s*=\s*[-+]?[a-zA-Z0-9_\(\)\/\s\+\-\*\.]+)/
+    );
+    if (eqMatch) cand = eqMatch[1].trim();
+  }
+
+  if (!cand) return null;
+
+  cand = cand
+    .replace(/^(what value of [a-zA-Z] satisfies the equation|equation|is|if|let|satisfies|where)\s+/i, "")
+    .trim();
+  if (!cand.includes("=") || !/[a-zA-Z]/.test(cand) || cand.length > 50) return null;
+  if (cand.toLowerCase().startsWith("choice") || cand.toLowerCase().startsWith("step")) return null;
+
+  const varMatch = cand.match(/\b([a-zA-Z])\b/);
+  const varName = varMatch ? varMatch[1] : "x";
+
+  const allSolMatches = Array.from(
+    rationale.matchAll(/(?:[a-zA-Z]|answer|equals|is)\s*=\s*([-+]?\d+(?:\.\d+)?)/gi)
+  );
+  const lastMatch = allSolMatches.length > 0 ? allSolMatches[allSolMatches.length - 1] : null;
+  const sol = lastMatch ? parseFloat(lastMatch[1]) : 5;
+
+  const curves: SvgCurve[] = [
+    {
+      type: "vertical-line",
+      x: sol,
+      color: COLOR_GREEN,
+    },
+  ];
 
   const expressions: DesmosExpression[] = [
-    {
-      latex: formulaText,
-      color: COLOR_BLUE,
-      label: "Scientific Calculator Entry",
-    },
+    { latex: cand, color: COLOR_GREEN, label: "Given Equation" },
+    { latex: `${varName} = ${sol}`, color: COLOR_BLUE, label: "Solution" },
+  ];
+
+  const keyPoints: KeyPoint[] = [
+    { x: sol, y: 0, label: `${varName} = ${sol}`, highlight: true },
   ];
 
   const steps: SolveStep[] = [
     {
       stepNumber: 1,
-      title: "Identify Given Quantities & Formula",
-      detail: stem.slice(0, 140) + "...",
+      title: "Set up the Governing Equation",
+      detail: `The question requires solving: $${cand}$.`,
     },
     {
       stepNumber: 2,
-      title: "Substitute Values",
+      title: "Isolate the Target Variable",
       detail: rationale
         ? cleanFirstSentence(rationale)
-        : "Apply the governing relationship or formula to solve for the target quantity.",
+        : `Performing standard inverse algebraic operations isolates $${varName} = ${sol}$.`,
     },
     {
       stepNumber: 3,
-      title: "Calculate & Confirm",
-      detail:
-        "Compute the numerical result using Desmos to avoid manual arithmetic slips.",
+      title: "Confirm the Answer",
+      detail: `Substitute $${varName} = ${sol}$ back into the original equation to verify that both sides remain strictly equal.`,
     },
   ];
 
   return {
     desmos: {
-      title: "Desmos Scientific Calculation",
-      canGraph: false,
+      title: "Equation in One Variable",
+      canGraph: true,
       expressions,
+      keyPoints,
+      viewBox: {
+        xMin: sol - 8,
+        xMax: sol + 8,
+        yMin: -6,
+        yMax: 6,
+      },
+      curveType: "equation",
+      curves,
+      desmosInstructions: [
+        `Type the equation "${cand}" directly into Desmos.`,
+        `Desmos graphs a vertical line at the exact value that satisfies the equation.`,
+        `Click the x-axis intercept dot to immediately read the solution $x = ${sol}$.`,
+      ],
+      proTip:
+        "You can type complex single-variable equations directly into Desmos! It graphs the vertical solution line automatically.",
+    },
+    steps,
+  };
+}
+
+// -----------------------------------------------------------------------
+// 8. SPECIALIZED FALLBACK (GEOMETRY, STATISTICS, RATES, PERCENTAGES)
+// -----------------------------------------------------------------------
+function buildSpecializedFallback(
+  clean: string,
+  stem: string,
+  rationale: string,
+  item: Item
+): ParsedMathResult {
+  const text = `${stem} ${item.skill || ""} ${item.domain || ""}`.toLowerCase();
+
+  let step1Title = "Identify Given Information & Formula";
+  let step1Detail = stem.slice(0, 140) + "...";
+  let step2Title = "Step-by-Step Calculation";
+  let step2Detail = rationale
+    ? cleanFirstSentence(rationale)
+    : "Apply the governing relationship to solve for the target quantity.";
+  let step3Title = "Conclude & Verify";
+  let step3Detail = "Verify units and confirm the final numerical value.";
+
+  if (text.includes("triangle") || text.includes("pythagorean") || text.includes("cosine") || text.includes("sine")) {
+    step1Title = "Identify Right Triangle Relationship";
+    step1Detail = "Recall standard trigonometric and geometric ratios: $\\sin = \\frac{\\text{opp}}{\\text{hyp}}$, $\\cos = \\frac{\\text{adj}}{\\text{hyp}}$, $\\tan = \\frac{\\text{opp}}{\\text{adj}}$, and $a^2 + b^2 = c^2$.";
+    step2Title = "Substitute Known Sides & Angles";
+    step2Detail = rationale ? cleanFirstSentence(rationale) : "Use the Pythagorean theorem or trigonometric identity to find the unknown dimension.";
+    step3Title = "Confirm Exact Ratio";
+    step3Detail = "State the final simplified ratio or angle measure.";
+  } else if (text.includes("arc length") || text.includes("sector") || text.includes("radians")) {
+    step1Title = "Apply Circle Sector / Arc Formula";
+    step1Detail = "For a central angle $\\theta$ in radians and radius $r$: arc length is $s = r\\theta$, and sector area is $A = \\frac{1}{2}r^2\\theta$.";
+    step2Title = "Substitute Radius & Angle";
+    step2Detail = rationale ? cleanFirstSentence(rationale) : "Substitute the given measurements into the formula.";
+    step3Title = "Simplify in Terms of Pi";
+    step3Detail = "Express the final answer in terms of $\\pi$ or decimal as requested.";
+  } else if (text.includes("mean") || text.includes("average") || text.includes("median")) {
+    step1Title = "Set up Average / Sum Equation";
+    step1Detail = "Recall $\\text{Mean} = \\frac{\\text{Sum of values}}{\\text{Number of values}}$, which also means $\\text{Total Sum} = \\text{Mean} \\times \\text{Count}$.";
+    step2Title = "Calculate Total Sum & Missing Value";
+    step2Detail = rationale ? cleanFirstSentence(rationale) : "Compute the total sum and solve for the unknown quantity.";
+    step3Title = "Verify Statistical Consistency";
+    step3Detail = "Double-check the calculation against the problem context.";
+  } else if (text.includes("percent") || text.includes("discount") || text.includes("increase")) {
+    step1Title = "Determine Percentage Multiplier";
+    step1Detail = "A percent change of $P\\%$ corresponds to multiplying by $(1 \\pm \\frac{P}{100})$.";
+    step2Title = "Apply Percent Calculation";
+    step2Detail = rationale ? cleanFirstSentence(rationale) : "Multiply the base amount by the appropriate percentage rate.";
+    step3Title = "State Final Price / Value";
+    step3Detail = "Confirm the final amount after the percentage change.";
+  } else if (text.includes("ratio") || text.includes("proportion")) {
+    step1Title = "Set up the Proportion";
+    step1Detail = "Set up equal ratios $\\frac{a}{b} = \\frac{c}{d}$ with matching units on corresponding sides.";
+    step2Title = "Cross-Multiply & Solve";
+    step2Detail = rationale ? cleanFirstSentence(rationale) : "Cross-multiply to isolate the unknown quantity.";
+    step3Title = "Confirm Final Units";
+    step3Detail = "Ensure the result matches the requested quantity and units.";
+  }
+
+  const steps: SolveStep[] = [
+    { stepNumber: 1, title: step1Title, detail: step1Detail },
+    { stepNumber: 2, title: step2Title, detail: step2Detail },
+    { stepNumber: 3, title: step3Title, detail: step3Detail },
+  ];
+
+  return {
+    desmos: {
+      title: "Algebraic & Analytical Solution",
+      canGraph: false,
+      expressions: [],
       keyPoints: [],
       viewBox: { xMin: -5, xMax: 5, yMin: -5, yMax: 5 },
       curveType: "calculation",
       curves: [],
       desmosInstructions: [
-        "Use Desmos as a fast scientific calculator directly within Bluebook.",
-        "Type the arithmetic formula into row 1.",
-        "Desmos computes exact decimal and fraction values instantly.",
+        "This question is solved fastest using algebraic formulas or mental math.",
+        "A coordinate graph is not required.",
       ],
       proTip:
-        "Click the fraction button (next to the answer) in Desmos to convert between decimal and fraction formats instantly.",
+        "Knowing when NOT to use Desmos is a key SAT skill! Pure geometry theorems and mental math are faster solved by hand.",
     },
     steps,
   };

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { FeedbackChat } from "./FeedbackChat";
 import { DesmosVisualizer } from "./DesmosVisualizer";
+import { resolveProblemSolution, type ProblemSolution } from "@/lib/testEngine/desmosSolver";
 import { attemptFromAnalytics } from "@/lib/attempts";
 import { saveAttempt, type SaveResult } from "@/lib/attemptsClient";
 import { formatMathHtml } from "@/lib/formatMath";
@@ -502,6 +503,11 @@ function QuestionRow({
   const label =
     !item.skill || item.skill === "Imported" ? item.domain : item.skill;
 
+  const solution = useMemo(
+    () => resolveProblemSolution(item, item.rationale),
+    [item]
+  );
+
   return (
     <div className="group transition-colors">
       <button
@@ -711,26 +717,31 @@ function QuestionRow({
             </div>
           )}
 
-          {/* Official Rationale & Solutions */}
-          <div className="mb-4 rounded-xl border border-white/10 bg-white/[0.03] p-4 sm:p-5">
-            <h4 className="text-[12px] font-semibold uppercase tracking-wider text-zinc-400">
-              Explanation & Solution Walkthrough
-            </h4>
-            {item.solutions && item.solutions.length > 0 ? (
-              <SolutionTabs solutions={item.solutions} />
-            ) : (
-              <RichBlock
-                html={item.html}
-                content={item.rationale || "No written explanation available."}
-                className="mt-3 max-w-[75ch] text-[13px] leading-relaxed text-zinc-300"
-              />
-            )}
-          </div>
+          {/* Side-by-side: Left = Desmos & Inputs for this problem, Right = Steps to Solve */}
+          {solution.isMath ? (
+            <div className="mb-4 grid grid-cols-1 items-start gap-5 lg:grid-cols-2">
+              {/* Left Column: Desmos Calculator & Exact Inputs for this Problem */}
+              <div className="min-w-0">
+                <DesmosVisualizer model={solution.desmos} />
+              </div>
 
-          {/* For Math: Desmos Graphing Calculator & Screenshot */}
-          {isMath && (
+              {/* Right Column: Labeled "Steps to Solve" */}
+              <div className="min-w-0">
+                <StepsToSolveCard
+                  solution={solution}
+                  item={item}
+                  response={response}
+                />
+              </div>
+            </div>
+          ) : (
+            /* Reading & Writing: Full-width Steps to Solve */
             <div className="mb-4">
-              <DesmosVisualizer item={item} rationale={item.rationale} />
+              <StepsToSolveCard
+                solution={solution}
+                item={item}
+                response={response}
+              />
             </div>
           )}
 
@@ -949,6 +960,94 @@ function ExplainMoreCard({
           )}
         </div>
       )}
+    </div>
+  );
+}
+
+function StepsToSolveCard({
+  solution,
+  item,
+  response,
+}: {
+  solution: ProblemSolution;
+  item: Item;
+  response?: string;
+}) {
+  const { steps, correctAnswerText, fullRationale } = solution.stepsToSolve;
+
+  return (
+    <div className="overflow-hidden rounded-xl border border-white/10 bg-[#0c1017] shadow-xl">
+      {/* Steps to Solve Header */}
+      <div className="flex items-center justify-between border-b border-white/10 bg-[#161b22] px-4 py-2.5">
+        <div className="flex items-center gap-2.5">
+          <div className="flex h-5 w-5 items-center justify-center rounded bg-emerald-500/20 text-emerald-400">
+            <svg
+              className="h-3.5 w-3.5"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2.5"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            >
+              <polyline points="20 6 9 17 4 12" />
+            </svg>
+          </div>
+          <span className="text-[12px] font-semibold tracking-wide text-zinc-200">
+            Steps to Solve
+          </span>
+          <span className="rounded bg-white/[0.06] px-1.5 py-0.5 text-[10px] font-medium text-emerald-400">
+            Step-by-Step Method
+          </span>
+        </div>
+        <span className="max-w-[160px] truncate text-[11px] text-zinc-400 sm:max-w-none">
+          {solution.topicTitle}
+        </span>
+      </div>
+
+      <div className="p-4 sm:p-5">
+        {/* Step-by-Step Walkthrough */}
+        <div className="space-y-3">
+          {steps.map((s) => (
+            <div
+              key={s.stepNumber}
+              className="rounded-lg border border-white/5 bg-white/[0.02] p-3 transition hover:border-white/10 hover:bg-white/[0.03]"
+            >
+              <div className="flex items-center gap-2">
+                <span className="flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full bg-emerald-500/20 font-mono text-[11px] font-bold text-emerald-400">
+                  {s.stepNumber}
+                </span>
+                <span className="text-[12px] font-semibold text-zinc-200">
+                  {s.title}
+                </span>
+              </div>
+              <div
+                className="mt-1.5 pl-7 text-[12px] leading-relaxed text-zinc-300"
+                dangerouslySetInnerHTML={{ __html: formatMathHtml(s.detail) }}
+              />
+            </div>
+          ))}
+        </div>
+
+        {/* Detailed Mathematical Walkthrough / Official Rationale */}
+        {fullRationale && (
+          <div className="mt-4 rounded-lg border border-white/10 bg-white/[0.02] p-3 text-[12px] leading-relaxed text-zinc-300">
+            <span className="mb-1 block text-[11px] font-semibold uppercase tracking-wider text-zinc-400">
+              Official Mathematical Walkthrough
+            </span>
+            <div dangerouslySetInnerHTML={{ __html: formatMathHtml(fullRationale) }} />
+          </div>
+        )}
+
+        {/* Verified Answer Key Box */}
+        <div className="mt-4 flex items-center justify-between rounded-lg border border-emerald-500/30 bg-emerald-950/20 px-3.5 py-2.5 text-[12px]">
+          <span className="font-medium text-zinc-400">Verified Answer Key:</span>
+          <span
+            className="font-mono font-bold text-emerald-400"
+            dangerouslySetInnerHTML={{ __html: formatMathHtml(correctAnswerText) }}
+          />
+        </div>
+      </div>
     </div>
   );
 }

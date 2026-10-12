@@ -6,6 +6,9 @@ import { useState, useMemo, useEffect, useRef } from "react";
 import { TARGETED_TOPICS, type TargetedTopic } from "@/lib/targeted/topics";
 import type { TargetedQuestionItem, TargetedQuestionSet } from "@/lib/targeted/store";
 import { formatMathHtml } from "@/lib/formatMath";
+import { DesmosVisualizer } from "@/components/test/DesmosVisualizer";
+import { resolveProblemSolution } from "@/lib/testEngine/desmosSolver";
+import type { Item } from "@/lib/testEngine/types";
 
 export type PracticeAttemptRecord = {
   id: string;
@@ -1041,19 +1044,74 @@ function TargetedDrillPlayer({
                 </div>
               </div>
 
-              {/* Rationale */}
-              <div className="mt-4 rounded-xl border border-white/10 bg-white/[0.02] p-4 text-xs leading-relaxed text-zinc-300">
-                <strong className="block text-mint font-semibold text-xs mb-1">
-                  Step-by-Step Explanation:
-                </strong>
-                <div dangerouslySetInnerHTML={{ __html: formatMathHtml(reviewQ.rationale) }} />
-              </div>
-
-              {/* Desmos Hint */}
-              {reviewQ.desmosHint && (
-                <div className="mt-3 rounded-lg border border-cyan-500/20 bg-cyan-950/20 p-3 text-xs text-cyan-200">
-                  <strong className="text-cyan-300 font-mono">Desmos Shortcut: </strong>
-                  {reviewQ.desmosHint}
+              {/* Rationale & Desmos Solution */}
+              {set.section === "math" ? (
+                (() => {
+                  const itemForSolver: any = {
+                    id: reviewQ.id,
+                    domain: set.domain,
+                    skill: set.topic,
+                    difficulty: reviewQ.difficulty,
+                    stem: reviewQ.stem,
+                    stimulus: reviewQ.stimulus,
+                    format: reviewQ.format === "spr" ? "spr" : "mc",
+                    choices: reviewQ.choices || [],
+                    correct: reviewQ.correct,
+                    accepted: reviewQ.accepted || [reviewQ.correct],
+                    rationale: reviewQ.rationale,
+                  };
+                  const solution = resolveProblemSolution(itemForSolver as Item, reviewQ.rationale);
+                  return (
+                    <div className="mt-5 grid grid-cols-1 items-start gap-5 lg:grid-cols-2">
+                      <div className="min-w-0">
+                        <DesmosVisualizer model={solution.desmos} />
+                      </div>
+                      <div className="min-w-0 rounded-xl border border-white/10 bg-[#0c1017] p-5 shadow-xl">
+                        <div className="flex items-center justify-between border-b border-white/10 pb-3">
+                          <div className="flex items-center gap-2">
+                            <span className="flex h-5 w-5 items-center justify-center rounded bg-emerald-500/20 text-emerald-400 text-xs font-bold">
+                              ✓
+                            </span>
+                            <h4 className="text-xs font-bold uppercase tracking-wider text-white">
+                              Steps to Solve
+                            </h4>
+                          </div>
+                          <span className="text-[10px] text-zinc-400 font-mono">
+                            {solution.topicTitle}
+                          </span>
+                        </div>
+                        <div className="mt-3 space-y-2.5">
+                          {solution.stepsToSolve.steps.map((s) => (
+                            <div key={s.stepNumber} className="rounded-lg border border-white/5 bg-white/[0.02] p-2.5">
+                              <div className="flex items-center gap-2">
+                                <span className="flex h-4 w-4 items-center justify-center rounded-full bg-emerald-500/20 font-mono text-[10px] font-bold text-emerald-400">
+                                  {s.stepNumber}
+                                </span>
+                                <span className="text-xs font-semibold text-zinc-200">{s.title}</span>
+                              </div>
+                              <div
+                                className="mt-1 pl-6 text-xs leading-relaxed text-zinc-300"
+                                dangerouslySetInnerHTML={{ __html: formatMathHtml(s.detail) }}
+                              />
+                            </div>
+                          ))}
+                        </div>
+                        <div className="mt-3 rounded-lg border border-white/10 bg-white/[0.02] p-3 text-xs leading-relaxed text-zinc-300">
+                          <strong className="block text-zinc-400 font-semibold mb-1">
+                            Detailed Mathematical Walkthrough:
+                          </strong>
+                          <div dangerouslySetInnerHTML={{ __html: formatMathHtml(reviewQ.rationale) }} />
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })()
+              ) : (
+                <div className="mt-4 rounded-xl border border-white/10 bg-white/[0.02] p-4 text-xs leading-relaxed text-zinc-300">
+                  <strong className="block text-mint font-semibold text-xs mb-1">
+                    Step-by-Step Explanation:
+                  </strong>
+                  <div dangerouslySetInnerHTML={{ __html: formatMathHtml(reviewQ.rationale) }} />
                 </div>
               )}
             </div>

@@ -102,6 +102,25 @@ export function ensureSchema(): Promise<void> {
     await db`
       CREATE INDEX IF NOT EXISTS credit_transactions_user_idx
         ON credit_transactions (user_id, created_at DESC)`;
+
+    // Targeted practice question sets bank
+    await db`
+      CREATE TABLE IF NOT EXISTS targeted_question_sets (
+        id text PRIMARY KEY,
+        section text NOT NULL,
+        domain text NOT NULL,
+        topic text NOT NULL,
+        skill text NOT NULL,
+        questions jsonb NOT NULL,
+        easy_count integer NOT NULL DEFAULT 10,
+        medium_count integer NOT NULL DEFAULT 10,
+        hard_count integer NOT NULL DEFAULT 10,
+        created_at timestamptz NOT NULL DEFAULT now(),
+        updated_at timestamptz NOT NULL DEFAULT now()
+      )`;
+    await db`
+      CREATE INDEX IF NOT EXISTS targeted_sets_section_idx
+        ON targeted_question_sets (section, topic)`;
   })().catch((e) => {
     schemaReady = null;
     throw e;

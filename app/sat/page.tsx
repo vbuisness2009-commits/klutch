@@ -38,6 +38,25 @@ export default async function SatHub() {
           <div className="mt-6">
             <GenerateTestCard isLoggedIn={Boolean(user)} />
           </div>
+
+          {/* Targeted Practice Banner */}
+          <div className="mt-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4 rounded-xl border border-white/10 bg-white/[0.02] p-5">
+            <div className="flex items-center gap-3.5">
+              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-mint/15 text-mint font-bold text-lg border border-mint/20">
+                🎯
+              </span>
+              <div>
+                <h4 className="text-sm font-bold text-white">Struggling with a specific question type?</h4>
+                <p className="mt-0.5 text-xs text-zinc-400">Drill Geometry, Algebra, Vocab, or input any custom topic. 30 questions: 10 Easy, 10 Medium, 10 Hard.</p>
+              </div>
+            </div>
+            <Link
+              href="/practice/targeted"
+              className="shrink-0 inline-flex items-center justify-center rounded-lg border border-white/15 bg-white/[0.06] hover:border-mint/50 hover:bg-mint/10 hover:text-mint px-4 py-2 text-xs font-semibold text-white transition"
+            >
+              Launch Targeted Drills →
+            </Link>
+          </div>
         </div>
       </section>
 

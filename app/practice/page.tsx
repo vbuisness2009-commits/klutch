@@ -12,6 +12,12 @@ export default async function PracticeIndex() {
 
   const options = [
     {
+      href: "/practice/targeted",
+      title: "Targeted skill drills",
+      body: "Zero in on specific struggle areas (Linear Systems, Circles, Quadratics, Vocab, Transitions) or type your own topic. Drill 30 calibrated questions: 10 Easy, 10 Medium, 10 Hard.",
+      meta: "30 Questions",
+    },
+    {
       href: "/practice/demo",
       title: "One question",
       body: "A single question in the player, so you can see the interface before committing two hours to it.",

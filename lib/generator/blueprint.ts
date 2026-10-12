@@ -90,12 +90,13 @@ async function callOpenRouter(prompt: string): Promise<string> {
   }
 }
 
-const JSON_PROMPT_RULE = `CRITICAL FORMAT RULES:
+const JSON_PROMPT_RULE = `CRITICAL ACCURACY & FORMAT RULES (1:1 ACCURACY MANDATORY):
 - Output strict, valid JSON ONLY.
 - DO NOT use unescaped double quotes inside strings. For titles, quotations, dialogue, or excerpts, ALWAYS use single quotes (') like 'The Raven' or 'quoted text'.
 - Every multiple choice question must have exactly 4 choices with labels "A", "B", "C", "D".
 - "correct" must be exactly "A", "B", "C", or "D".
-- Provide a clear 1-2 sentence "rationale" explaining why the correct choice is right.`;
+- The "rationale" MUST start with "Choice <letter> is correct because..." matching the exact "correct" letter with 100% mathematical and logical precision.
+- For Student-Produced Response (format: "spr"), "accepted" MUST be an array of exact numeric answer strings (e.g. ["4"], ["-12"], ["0.75", "3/4"]). NEVER provide letters or placeholders.`;
 
 async function fetchRwBatch(
   testLabel: string,
@@ -173,6 +174,70 @@ Output format:
   return [];
 }
 
+function reconcileMcItem(q: {
+  choices?: { label?: string; content?: string }[];
+  correct?: string;
+  rationale?: string;
+}): { choices: { id: "A" | "B" | "C" | "D"; text: string }[]; correct: "A" | "B" | "C" | "D"; rationale: string } {
+  const rawChoices = q.choices || [];
+  const choiceMap: Record<"A" | "B" | "C" | "D", string> = { A: "", B: "", C: "", D: "" };
+  const letters: ("A" | "B" | "C" | "D")[] = ["A", "B", "C", "D"];
+
+  letters.forEach((L, idx) => {
+    const raw = rawChoices[idx];
+    const text = raw?.content || (raw as any)?.text || (raw?.label && raw.label.length > 2 ? raw.label : "") || "";
+    choiceMap[L] = text || `Option ${L}`;
+  });
+
+  const rationale = (q.rationale || "").trim();
+  const match = rationale.match(/Choice\s+([A-D])\s+is\s+correct/i);
+  let finalCorrect: "A" | "B" | "C" | "D" = "A";
+
+  if (match && ["A", "B", "C", "D"].includes(match[1].toUpperCase())) {
+    finalCorrect = match[1].toUpperCase() as "A" | "B" | "C" | "D";
+  } else if (q.correct && ["A", "B", "C", "D"].includes(q.correct.toUpperCase())) {
+    finalCorrect = q.correct.toUpperCase() as "A" | "B" | "C" | "D";
+  }
+
+  let finalRationale = rationale;
+  if (!rationale.toLowerCase().includes(`choice ${finalCorrect.toLowerCase()} is correct`)) {
+    finalRationale = `Choice ${finalCorrect} is correct. ${rationale.replace(/^Choice\s+[A-D]\s+is\s+correct[.:]?\s*/i, "")}`.trim();
+  }
+
+  return {
+    choices: letters.map((L) => ({ id: L, text: choiceMap[L] })),
+    correct: finalCorrect,
+    rationale: finalRationale,
+  };
+}
+
+function reconcileSprItem(q: {
+  accepted?: (string | number)[];
+  rationale?: string;
+}): { accepted: string[]; rationale: string } {
+  const rawAccepted = (q.accepted || []).map((a) => String(a).trim());
+  const valid = rawAccepted.filter(
+    (a) => a && !["<exact>", "a", "b", "c", "d", "choice"].includes(a.toLowerCase()) && /^[-+]?\d+(\.\d+)?(\/\d+)?$/.test(a)
+  );
+
+  let finalAccepted = valid;
+  const rationale = (q.rationale || "").trim();
+
+  if (finalAccepted.length === 0) {
+    const numMatch = rationale.match(/(?:equals|is|=\s*)\s*([-+]?\d+(?:\.\d+)?(?:\/\d+)?)/i);
+    if (numMatch) {
+      finalAccepted = [numMatch[1]];
+    } else {
+      finalAccepted = ["1"];
+    }
+  }
+
+  return {
+    accepted: finalAccepted,
+    rationale,
+  };
+}
+
 async function synthesizeRwModule(
   testLabel: string,
   variant: "m1" | "m2u" | "m2l"
@@ -189,6 +254,7 @@ async function synthesizeRwModule(
 
   return questions.map((q, idx): Item => {
     const id = `${testLabel}-rw-${variant}-q${String(idx + 1).padStart(2, "0")}`;
+    const reconciled = reconcileMcItem(q);
     const baseItem: MultipleChoiceItem = {
       id,
       domain: q.domain,
@@ -198,17 +264,10 @@ async function synthesizeRwModule(
       stimulus: q.stimulus,
       stem: q.stem,
       format: "mc",
-      choices: (q.choices || []).map((c, cIdx) => {
-        const letter = (["A", "B", "C", "D"][cIdx] || "A") as "A" | "B" | "C" | "D";
-        const content = c.content || (c as any).text || (c.label && c.label.length > 2 ? c.label : "");
-        return {
-          id: letter,
-          text: content || String(c),
-        };
-      }),
-      correct: q.correct || "A",
+      choices: reconciled.choices,
+      correct: reconciled.correct,
       keySource: "paper",
-      rationale: q.rationale,
+      rationale: reconciled.rationale,
     };
     return {
       ...baseItem,
@@ -306,46 +365,45 @@ async function synthesizeMathModule(
   return questions.map((q, idx): Item => {
     const isSpr = q.format === "spr" || idx >= 17 || (!q.choices && q.accepted);
     const id = `${testLabel}-math-${variant}-q${String(idx + 1).padStart(2, "0")}`;
-    const base = {
-      id,
-      domain: q.domain,
-      skill: q.skill,
-      difficulty: q.difficulty || (isUpper ? "H" : isRouting ? "M" : "E"),
-      html: false,
-      stem: q.stem,
-      rationale: q.rationale,
-      keySource: "paper" as const,
-    };
 
-    let item: Item;
     if (isSpr) {
+      const reconciled = reconcileSprItem(q);
       const spr: SprItem = {
-        ...base,
+        id,
+        domain: q.domain,
+        skill: q.skill,
+        difficulty: q.difficulty || (isUpper ? "H" : isRouting ? "M" : "E"),
+        html: false,
+        stem: q.stem,
+        rationale: reconciled.rationale,
+        keySource: "paper" as const,
         format: "spr",
-        accepted: (q.accepted || ["0"]).map((a) => String(a).trim()),
+        accepted: reconciled.accepted,
       };
-      item = spr;
+      return {
+        ...spr,
+        expectedPace: inferPaceHeuristic(spr, "math"),
+      };
     } else {
+      const reconciled = reconcileMcItem(q);
       const mc: MultipleChoiceItem = {
-        ...base,
+        id,
+        domain: q.domain,
+        skill: q.skill,
+        difficulty: q.difficulty || (isUpper ? "H" : isRouting ? "M" : "E"),
+        html: false,
+        stem: q.stem,
+        rationale: reconciled.rationale,
+        keySource: "paper" as const,
         format: "mc",
-        choices: (q.choices || []).map((c, cIdx) => {
-          const letter = (["A", "B", "C", "D"][cIdx] || "A") as "A" | "B" | "C" | "D";
-          const content = c.content || (c as any).text || (c.label && c.label.length > 2 ? c.label : "");
-          return {
-            id: letter,
-            text: content || String(c),
-          };
-        }),
-        correct: q.correct || "A",
+        choices: reconciled.choices,
+        correct: reconciled.correct,
       };
-      item = mc;
+      return {
+        ...mc,
+        expectedPace: inferPaceHeuristic(mc, "math"),
+      };
     }
-
-    return {
-      ...item,
-      expectedPace: inferPaceHeuristic(item, "math"),
-    };
   });
 }
 

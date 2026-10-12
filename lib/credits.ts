@@ -3,10 +3,13 @@ import "server-only";
 import { ensureSchema, sql, type MembershipTier, type UserRow } from "./db";
 import { isAdminEmail } from "./adminAuth";
 
-export const PLAN_LIMITS: Record<MembershipTier, { monthlyCredits: number; name: string; priceUsd: number }> = {
-  free: { monthlyCredits: 2, name: "Free Starter", priceUsd: 0 },
-  pro: { monthlyCredits: 15, name: "Klutch Pro", priceUsd: 19 },
-  unlimited: { monthlyCredits: 9999, name: "Klutch Elite / Unlimited", priceUsd: 29 },
+export const PLAN_LIMITS: Record<
+  MembershipTier,
+  { monthlyCredits: number; name: string; priceUsd: number; maxCoachQuestionsPerTest: number }
+> = {
+  free: { monthlyCredits: 2, name: "Free Starter", priceUsd: 0, maxCoachQuestionsPerTest: 3 },
+  pro: { monthlyCredits: 15, name: "Klutch Pro", priceUsd: 19, maxCoachQuestionsPerTest: 9999 },
+  unlimited: { monthlyCredits: 9999, name: "Klutch Elite / Unlimited", priceUsd: 29, maxCoachQuestionsPerTest: 9999 },
 };
 
 export type UserCreditInfo = {
@@ -16,6 +19,7 @@ export type UserCreditInfo = {
   resetsAt: string;
   subscriptionStatus: string;
   monthlyAllowance: number;
+  maxCoachQuestionsPerTest: number;
   isAdmin?: boolean;
 };
 
@@ -40,6 +44,7 @@ export async function getUserCreditInfo(userId: string): Promise<UserCreditInfo>
       resetsAt: new Date().toISOString(),
       subscriptionStatus: "none",
       monthlyAllowance: PLAN_LIMITS.free.monthlyCredits,
+      maxCoachQuestionsPerTest: PLAN_LIMITS.free.maxCoachQuestionsPerTest,
       isAdmin: false,
     };
   }
@@ -55,6 +60,7 @@ export async function getUserCreditInfo(userId: string): Promise<UserCreditInfo>
       resetsAt: new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toISOString(),
       subscriptionStatus: "active",
       monthlyAllowance: 99999,
+      maxCoachQuestionsPerTest: 9999,
       isAdmin: true,
     };
   }
@@ -86,6 +92,7 @@ export async function getUserCreditInfo(userId: string): Promise<UserCreditInfo>
       resetsAt: nextReset,
       subscriptionStatus: user.subscription_status ?? "none",
       monthlyAllowance: newAllowance,
+      maxCoachQuestionsPerTest: PLAN_LIMITS[tier].maxCoachQuestionsPerTest,
     };
   }
 
@@ -97,6 +104,7 @@ export async function getUserCreditInfo(userId: string): Promise<UserCreditInfo>
     resetsAt: resetAt.toISOString(),
     subscriptionStatus: user.subscription_status ?? "none",
     monthlyAllowance: PLAN_LIMITS[tier].monthlyCredits,
+    maxCoachQuestionsPerTest: PLAN_LIMITS[tier].maxCoachQuestionsPerTest,
   };
 }
 

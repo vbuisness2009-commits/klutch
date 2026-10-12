@@ -12,6 +12,8 @@
 
 import { NextResponse } from "next/server";
 import type { FeedbackPayload, FeedbackItemPayload } from "@/lib/testEngine/analytics";
+import { currentUser } from "@/lib/userSession";
+import { getUserCreditInfo, PLAN_LIMITS } from "@/lib/credits";
 
 export const dynamic = "force-dynamic";
 export const maxDuration = 60;
@@ -254,6 +256,39 @@ export async function POST(req: Request) {
   }
 
   const mode = body.mode === "chat" ? "chat" : "summary";
+
+  // Check user membership tier & usage limits
+  const user = await currentUser();
+  const creditInfo = user ? await getUserCreditInfo(user.id) : null;
+  const tier = creditInfo?.tier ?? "free";
+  const isProOrUnlimited =
+    tier === "pro" || tier === "unlimited" || Boolean(creditInfo?.isAdmin);
+  const maxCoachQuestions = isProOrUnlimited
+    ? 9999
+    : PLAN_LIMITS.free.maxCoachQuestionsPerTest; // 3 questions per test review
+
+  // In chat mode, enforce limit on user questions
+  const userQuestions = (body.messages ?? []).filter((m) => m.role === "user");
+  const questionsUsed = userQuestions.length;
+
+  if (mode === "chat" && !isProOrUnlimited && questionsUsed > maxCoachQuestions) {
+    return NextResponse.json(
+      {
+        ok: false,
+        limitReached: true,
+        tier: "free",
+        questionsUsed,
+        maxQuestions: maxCoachQuestions,
+        error: `You have reached the free tier limit of ${maxCoachQuestions} AI Coach questions for this test review. Upgrade to Klutch Pro or Elite for unlimited coaching.`,
+      },
+      { status: 403 }
+    );
+  }
+
+  const questionsRemaining = isProOrUnlimited
+    ? 9999
+    : Math.max(0, maxCoachQuestions - (mode === "chat" ? questionsUsed : 0));
+
   const keys = keyPool();
 
   if (keys.length > 0) {
@@ -290,6 +325,10 @@ export async function POST(req: Request) {
           mode,
           content,
           model: "openrouter-gemini",
+          tier,
+          questionsRemaining,
+          maxQuestions: maxCoachQuestions,
+          isUnlimited: isProOrUnlimited,
         });
       }
     } catch (err) {
@@ -309,5 +348,9 @@ export async function POST(req: Request) {
     mode,
     content: fallbackContent,
     model: "klutch-coach-engine",
+    tier,
+    questionsRemaining,
+    maxQuestions: maxCoachQuestions,
+    isUnlimited: isProOrUnlimited,
   });
 }

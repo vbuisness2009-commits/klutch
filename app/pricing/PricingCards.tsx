@@ -89,6 +89,10 @@ export function PricingCards({
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-mint font-bold">✓</span>
+                <span>AI Score Diagnostic + 3 Coach Questions / Test</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-mint font-bold">✓</span>
                 <span>Section Accuracy &amp; Question Distribution</span>
               </li>
               <li className="flex items-center gap-2">
@@ -158,6 +162,10 @@ export function PricingCards({
               <li className="flex items-center gap-2">
                 <span className="text-mint font-bold">✓</span>
                 <span className="font-semibold text-white">15 Practice Test Credits / Month</span>
+              </li>
+              <li className="flex items-center gap-2">
+                <span className="text-mint font-bold">✓</span>
+                <span className="font-semibold text-white">Unlimited AI Coach &amp; Strategy Q&amp;A</span>
               </li>
               <li className="flex items-center gap-2">
                 <span className="text-mint font-bold">✓</span>

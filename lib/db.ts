@@ -121,6 +121,28 @@ export function ensureSchema(): Promise<void> {
     await db`
       CREATE INDEX IF NOT EXISTS targeted_sets_section_idx
         ON targeted_question_sets (section, topic)`;
+
+    // Targeted practice student attempts ledger
+    await db`
+      CREATE TABLE IF NOT EXISTS targeted_attempts (
+        id uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+        user_id uuid REFERENCES users(id) ON DELETE CASCADE,
+        set_id text,
+        section text NOT NULL,
+        domain text NOT NULL,
+        topic text NOT NULL,
+        total_questions integer NOT NULL DEFAULT 30,
+        answered_count integer NOT NULL DEFAULT 0,
+        correct_count integer NOT NULL DEFAULT 0,
+        easy_correct integer NOT NULL DEFAULT 0,
+        medium_correct integer NOT NULL DEFAULT 0,
+        hard_correct integer NOT NULL DEFAULT 0,
+        score_percent integer NOT NULL DEFAULT 0,
+        created_at timestamptz NOT NULL DEFAULT now()
+      )`;
+    await db`
+      CREATE INDEX IF NOT EXISTS targeted_attempts_user_idx
+        ON targeted_attempts (user_id, created_at DESC)`;
   })().catch((e) => {
     schemaReady = null;
     throw e;

@@ -178,3 +178,127 @@ export async function listTargetedSetsFromBank(
     return [];
   }
 }
+
+export type TargetedAttempt = {
+  id: string;
+  userId?: string | null;
+  setId?: string | null;
+  section: "math" | "rw";
+  domain: string;
+  topic: string;
+  totalQuestions: number;
+  answeredCount: number;
+  correctCount: number;
+  easyCorrect: number;
+  mediumCorrect: number;
+  hardCorrect: number;
+  scorePercent: number;
+  createdAt: string;
+};
+
+/**
+ * Save a completed targeted practice session.
+ */
+export async function saveTargetedAttempt(attempt: {
+  userId?: string | null;
+  setId?: string | null;
+  section: "math" | "rw";
+  domain: string;
+  topic: string;
+  totalQuestions: number;
+  answeredCount: number;
+  correctCount: number;
+  easyCorrect: number;
+  mediumCorrect: number;
+  hardCorrect: number;
+  scorePercent: number;
+}): Promise<TargetedAttempt | null> {
+  if (!dbConfigured()) return null;
+
+  try {
+    await ensureSchema();
+    const rows = (await sql()`
+      INSERT INTO targeted_attempts
+        (user_id, set_id, section, domain, topic, total_questions, answered_count, correct_count, easy_correct, medium_correct, hard_correct, score_percent, created_at)
+      VALUES (
+        ${attempt.userId || null},
+        ${attempt.setId || null},
+        ${attempt.section},
+        ${attempt.domain},
+        ${attempt.topic},
+        ${attempt.totalQuestions},
+        ${attempt.answeredCount},
+        ${attempt.correctCount},
+        ${attempt.easyCorrect},
+        ${attempt.mediumCorrect},
+        ${attempt.hardCorrect},
+        ${attempt.scorePercent},
+        now()
+      )
+      RETURNING *
+    `) as any[];
+
+    if (rows[0]) {
+      const r = rows[0];
+      return {
+        id: r.id,
+        userId: r.user_id,
+        setId: r.set_id,
+        section: r.section,
+        domain: r.domain,
+        topic: r.topic,
+        totalQuestions: r.total_questions,
+        answeredCount: r.answered_count,
+        correctCount: r.correct_count,
+        easyCorrect: r.easy_correct,
+        mediumCorrect: r.medium_correct,
+        hardCorrect: r.hard_correct,
+        scorePercent: r.score_percent,
+        createdAt: new Date(r.created_at).toISOString(),
+      };
+    }
+  } catch (err) {
+    console.error("Error saving targeted attempt:", err);
+  }
+  return null;
+}
+
+/**
+ * List past targeted practice attempts for a student.
+ */
+export async function listTargetedAttempts(
+  userId?: string
+): Promise<TargetedAttempt[]> {
+  if (!dbConfigured() || !userId) return [];
+
+  try {
+    await ensureSchema();
+    const rows = (await sql()`
+      SELECT * FROM targeted_attempts
+      WHERE user_id = ${userId}
+      ORDER BY created_at DESC
+      LIMIT 100
+    `) as any[];
+
+    return rows.map((r) => ({
+      id: r.id,
+      userId: r.user_id,
+      setId: r.set_id,
+      section: r.section,
+      domain: r.domain,
+      topic: r.topic,
+      totalQuestions: r.total_questions,
+      answeredCount: r.answered_count,
+      correctCount: r.correct_count,
+      easyCorrect: r.easy_correct,
+      mediumCorrect: r.medium_correct,
+      hardCorrect: r.hard_correct,
+      scorePercent: r.score_percent,
+      createdAt: new Date(r.created_at).toISOString(),
+    }));
+  } catch (err) {
+    console.error("Error listing targeted attempts:", err);
+    return [];
+  }
+}
+

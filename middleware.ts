@@ -27,8 +27,12 @@ export async function middleware(req: NextRequest) {
     return NextResponse.next();
   }
 
-  // 2. Public auth and webhook endpoints
-  if (path.startsWith("/api/auth") || path.startsWith("/api/webhooks")) {
+  // 2. Public auth, webhook, and practice review endpoints
+  if (
+    path.startsWith("/api/auth") ||
+    path.startsWith("/api/webhooks") ||
+    path.startsWith("/api/practice/")
+  ) {
     return NextResponse.next();
   }
 

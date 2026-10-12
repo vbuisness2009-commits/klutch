@@ -127,7 +127,7 @@ export function LatestScoreCard({ initialLatest = null, className = "" }: Props)
 
   return (
     <div
-      className={`group relative overflow-hidden rounded-2xl border border-mint/25 bg-gradient-to-r from-mint/[0.08] via-ink-900/50 to-ink-950 p-5 shadow-lg backdrop-blur transition hover:border-mint/45 sm:p-6 ${className}`}
+      className={`glass-card p-5 sm:p-6 transition duration-200 hover:border-mint/30 ${className}`}
     >
       <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
         {/* Left: Score Hero */}

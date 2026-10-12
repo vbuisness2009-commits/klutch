@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { Logo } from "./Logo";
 import { flushPendingAttempt } from "@/lib/attemptsClient";
@@ -19,6 +20,7 @@ type Me = {
 };
 
 export function Nav() {
+  const pathname = usePathname();
   const [me, setMe] = useState<Me | null>(null);
 
   useEffect(() => {
@@ -46,22 +48,31 @@ export function Nav() {
   const user = me?.user;
 
   return (
-    <header className="sticky top-0 z-40 w-full border-b border-white/[0.07] bg-ink-950/85 backdrop-blur">
+    <header className="sticky top-0 z-40 w-full border-b border-white/[0.08] bg-[#04040A]/80 backdrop-blur-xl">
       <div className="mx-auto flex h-14 max-w-6xl items-center justify-between px-5 sm:px-8">
-        <Link href="/" className="flex items-center gap-2">
+        <Link href="/" className="flex items-center gap-2.5 transition hover:opacity-90">
           <Logo />
         </Link>
 
-        <nav className="hidden items-center gap-6 md:flex">
+        <nav className="hidden items-center gap-7 md:flex">
           {links.map((link) => {
+            const isActive =
+              link.href === "/"
+                ? pathname === "/"
+                : pathname?.startsWith(link.href);
             const href = user
               ? link.href
               : `/signup?next=${encodeURIComponent(link.href)}`;
+
             return (
               <Link
                 key={link.href}
                 href={href}
-                className="text-sm text-zinc-400 transition hover:text-white"
+                className={`text-[13px] font-medium transition duration-150 ${
+                  isActive
+                    ? "text-white"
+                    : "text-zinc-400 hover:text-zinc-200"
+                }`}
               >
                 {link.label}
               </Link>
@@ -69,20 +80,21 @@ export function Nav() {
           })}
         </nav>
 
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-3.5">
           {me?.isAdmin && (
             <Link
               href="/admin"
-              className="text-sm font-medium text-mint transition hover:text-mint-300"
+              className="rounded-md border border-mint/30 bg-mint/10 px-2.5 py-1 text-xs font-semibold text-mint transition hover:bg-mint/20"
             >
               Admin
             </Link>
           )}
+
           {user ? (
             <>
               <Link
                 href="/dashboard"
-                className="flex items-center gap-2 text-sm text-zinc-300 transition hover:text-white"
+                className="flex items-center gap-2 rounded-lg border border-white/[0.08] bg-white/[0.03] px-2.5 py-1.5 text-xs text-zinc-300 transition hover:border-white/20 hover:text-white"
                 title={user.email}
               >
                 {user.avatarUrl ? (
@@ -91,19 +103,19 @@ export function Nav() {
                     src={user.avatarUrl}
                     alt=""
                     referrerPolicy="no-referrer"
-                    className="h-6 w-6 rounded-full"
+                    className="h-5 w-5 rounded-full object-cover"
                   />
                 ) : (
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-mint/15 text-[11px] font-bold text-mint">
+                  <span className="flex h-5 w-5 items-center justify-center rounded-full bg-mint/20 text-[10px] font-bold text-mint">
                     {(user.name || user.email)[0]!.toUpperCase()}
                   </span>
                 )}
-                <span className="hidden sm:inline">{user.name || user.email}</span>
+                <span className="hidden sm:inline font-medium">{user.name || user.email}</span>
               </Link>
               <button
                 type="button"
                 onClick={logOut}
-                className="text-sm text-zinc-500 transition hover:text-white"
+                className="text-xs text-zinc-400 transition hover:text-white"
               >
                 Log out
               </button>
@@ -112,13 +124,13 @@ export function Nav() {
             <>
               <Link
                 href="/login"
-                className={`hidden text-sm text-zinc-400 transition hover:text-white sm:block ${me ? "" : "invisible"}`}
+                className={`hidden text-[13px] font-medium text-zinc-400 transition hover:text-white sm:block ${me ? "" : "invisible"}`}
               >
                 Log in
               </Link>
               <Link
                 href="/signup"
-                className={`rounded bg-mint px-3.5 py-1.5 text-sm font-semibold text-ink-950 transition hover:bg-mint-400 ${me ? "" : "invisible"}`}
+                className={`rounded-lg bg-mint px-3.5 py-1.5 text-xs font-bold text-ink-950 shadow-sm transition hover:bg-mint-400 ${me ? "" : "invisible"}`}
               >
                 Sign up
               </Link>

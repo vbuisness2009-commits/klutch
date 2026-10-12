@@ -18,15 +18,19 @@ export default async function SatHub() {
 
   return (
     <>
-      <section className="border-b border-white/[0.07]">
+      <section className="border-b border-white/[0.08]">
         <div className="mx-auto max-w-6xl px-5 py-14 sm:px-8">
-          <h1 className="max-w-[18ch] font-display text-[38px] font-bold leading-[1.08] tracking-tight text-white sm:text-[46px]">
-            Digital SAT practice tests
+          <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-xs text-zinc-300">
+            <span className="h-1.5 w-1.5 rounded-full bg-mint" />
+            <span>Digital SAT Practice Library</span>
+          </div>
+          <h1 className="mt-4 font-display text-[36px] font-bold leading-[1.08] tracking-tight text-white sm:text-[46px]">
+            Digital SAT Practice Tests
           </h1>
-          <p className="mt-4 max-w-[58ch] text-[16px] leading-relaxed text-zinc-400">
+          <p className="mt-3 max-w-[58ch] text-[15px] leading-relaxed text-zinc-400">
             {uploaded.length === 0
               ? "Practice tests appear here when they are published."
-              : `${uploaded.length} practice test${uploaded.length === 1 ? "" : "s"} ready to take under real exam timing.`}
+              : `${uploaded.length} full-length adaptive tests calibrated against the official College Board testing blueprint.`}
           </p>
 
           {/* Latest Score Card */}
@@ -40,63 +44,80 @@ export default async function SatHub() {
           </div>
 
           {/* Targeted Practice Banner */}
-          <div className="mt-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4 rounded-xl border border-white/10 bg-white/[0.02] p-5">
-            <div className="flex items-center gap-3.5">
-              <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-mint/15 text-mint font-bold text-lg border border-mint/20">
-                🎯
-              </span>
+          <div className="mt-6 flex flex-col sm:flex-row sm:items-center justify-between gap-4 rounded-xl border border-white/10 bg-white/[0.02] p-5 shadow-sm transition hover:border-white/15">
+            <div className="flex items-center gap-4">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl border border-mint/20 bg-mint/10 text-mint">
+                <svg className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <circle cx="12" cy="12" r="9" strokeWidth="1.75" />
+                  <circle cx="12" cy="12" r="5" strokeWidth="1.75" />
+                  <circle cx="12" cy="12" r="1.5" fill="currentColor" />
+                </svg>
+              </div>
               <div>
-                <h4 className="text-sm font-bold text-white">Struggling with a specific question type?</h4>
-                <p className="mt-0.5 text-xs text-zinc-400">Drill Geometry, Algebra, Vocab, or input any custom topic. 30 questions: 10 Easy, 10 Medium, 10 Hard.</p>
+                <h4 className="text-sm font-bold text-white">Targeted Skill Drills</h4>
+                <p className="mt-0.5 text-xs text-zinc-400">Struggling with a specific concept? Drill 30 calibrated questions (10 Easy, 10 Medium, 10 Hard) with step-by-step rationales.</p>
               </div>
             </div>
             <Link
               href="/practice/targeted"
-              className="shrink-0 inline-flex items-center justify-center rounded-lg border border-white/15 bg-white/[0.06] hover:border-mint/50 hover:bg-mint/10 hover:text-mint px-4 py-2 text-xs font-semibold text-white transition"
+              className="shrink-0 inline-flex items-center justify-center gap-1.5 rounded-lg border border-white/15 bg-white/[0.05] hover:border-mint/50 hover:bg-mint/15 hover:text-mint px-4 py-2.5 text-xs font-semibold text-white transition"
             >
-              Launch Targeted Drills →
+              <span>Launch Drills</span>
+              <span>→</span>
             </Link>
           </div>
         </div>
       </section>
 
-      <section id="tests" className="border-b border-white/[0.07]">
+      <section id="tests" className="border-b border-white/[0.08]">
         <div className="mx-auto max-w-6xl px-5 py-14 sm:px-8">
-          <h2 className="font-display text-2xl font-bold tracking-tight text-white">
-            Official Practice Exams
-          </h2>
-          <p className="mt-2 max-w-[58ch] text-sm leading-relaxed text-zinc-400">
-            Full-length adaptive tests scored from 400 to 1600.
-          </p>
+          <div className="flex items-baseline justify-between border-b border-white/[0.08] pb-4">
+            <h2 className="font-display text-xl font-bold tracking-tight text-white">
+              Official Practice Exams
+            </h2>
+            <span className="text-xs text-zinc-400 font-mono">
+              Scored 400 to 1600
+            </span>
+          </div>
 
           {uploaded.length === 0 ? (
             <p className="mt-8 text-sm text-zinc-500">Nothing uploaded yet.</p>
           ) : (
-            <div className="mt-8">
+            <div className="mt-2 divide-y divide-white/[0.06]">
               {uploaded.map((t) => (
                 <div
                   key={t.id}
-                  className="flex flex-wrap items-baseline gap-x-5 gap-y-2 border-b border-white/[0.07] py-4"
+                  className="flex flex-wrap items-center justify-between gap-4 py-4.5 transition hover:bg-white/[0.015]"
                 >
-                  <span className="min-w-[14rem] font-display text-[17px] font-semibold text-white">
-                    {t.title}
-                  </span>
-                  <span className="nums text-[13px] text-zinc-500">
-                    {t.questionCount} questions
-                  </span>
-                  <span className="text-[13px] text-zinc-500">
-                    {t.collection}
-                  </span>
-                  <span className="ml-auto flex flex-wrap items-baseline gap-x-5 gap-y-1">
+                  <div>
+                    <h3 className="font-display text-[16px] font-semibold text-white">
+                      {t.title}
+                    </h3>
+                    <div className="mt-1 flex items-center gap-3 text-xs text-zinc-400">
+                      <span>{t.collection}</span>
+                      <span>•</span>
+                      <span className="nums font-mono">{t.questionCount} questions</span>
+                      <span>•</span>
+                      <span>Adaptive 2-stage</span>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center gap-4">
                     {t.published && (
                       <Link
-                        href={`/practice/test/${t.id}`}
-                        className="text-[13px] font-semibold text-mint"
+                        href={
+                          user
+                            ? `/practice/test/${t.id}`
+                            : `/signup?next=${encodeURIComponent(
+                                `/practice/test/${t.id}`
+                              )}`
+                        }
+                        className="rounded-lg bg-mint px-4 py-2 text-xs font-bold text-ink-950 transition hover:bg-mint-400"
                       >
-                        Start test
+                        Start Test →
                       </Link>
                     )}
-                  </span>
+                  </div>
                 </div>
               ))}
             </div>

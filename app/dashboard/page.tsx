@@ -141,20 +141,18 @@ export default async function Dashboard({
       )}
 
       {/* Endless Adaptive Practice Test Generator Hero */}
-      <div className="panel mt-8 max-w-4xl overflow-hidden border border-mint/25 bg-gradient-to-br from-mint/10 via-ink-900/60 to-ink-950 p-6 sm:p-8">
+      <div className="glass-card mt-8 max-w-4xl p-6 sm:p-8 transition duration-200 hover:border-white/15">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
           <div className="max-w-xl">
             <div className="flex flex-wrap items-center gap-2">
-              <span className="inline-flex items-center gap-1.5 rounded-full bg-mint/20 border border-mint/30 px-2.5 py-0.5 text-xs font-bold text-mint">
-                <svg className="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-                Endless Practice Engine
+              <span className="inline-flex items-center gap-1.5 rounded-full bg-mint/10 border border-mint/30 px-2.5 py-0.5 text-xs font-semibold text-mint">
+                <span className="h-1.5 w-1.5 rounded-full bg-mint" />
+                Adaptive Exam Generator
               </span>
               <span className="rounded-full bg-white/[0.08] px-2.5 py-0.5 text-[11px] font-medium text-zinc-300">
-                Shared Bank · Maximum Credit Efficiency
+                Shared Bank Library
               </span>
-              <span className="rounded-full bg-mint/15 border border-mint/25 px-2.5 py-0.5 text-[11px] font-bold text-mint">
+              <span className="rounded-full bg-mint/15 border border-mint/25 px-2.5 py-0.5 text-[11px] font-bold text-mint font-mono">
                 {creditInfo?.isUnlimited
                   ? "Unlimited Tests"
                   : `${creditInfo?.balance ?? 0} Credits Left`}
@@ -164,7 +162,7 @@ export default async function Dashboard({
               Generate a New Adaptive Test
             </h2>
             <p className="mt-2 text-sm leading-relaxed text-zinc-300">
-              Never get stuck when Bluebook tests run out. Click to draw a fresh untaken test from our shared library, or generate a brand-new 98-question adaptive test matching the official College Board blueprint.
+              Never get stuck when Bluebook tests run out. Draw a fresh untaken test from our shared bank or generate a brand-new 98-question adaptive test matching the official College Board blueprint.
             </p>
           </div>
           <div className="shrink-0">
@@ -326,10 +324,10 @@ function PracticeTestList({
 
 function Stat({ label, value, sub }: { label: string; value: number; sub: string }) {
   return (
-    <div className="panel p-5">
-      <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-zinc-500">{label}</p>
-      <p className="nums mt-2 font-display text-[32px] font-bold leading-none text-white">{value}</p>
-      <p className="mt-2 truncate text-[12px] text-zinc-500">{sub}</p>
+    <div className="glass-card p-5">
+      <p className="text-[11px] font-semibold uppercase tracking-wider text-zinc-400">{label}</p>
+      <p className="nums mt-2 font-mono text-[34px] font-bold leading-none text-white">{value}</p>
+      <p className="mt-2 truncate text-xs text-zinc-400">{sub}</p>
     </div>
   );
 }

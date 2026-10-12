@@ -198,14 +198,12 @@ export function TargetedPracticeView() {
       {!selectedSet && (
         <div className="mt-6 border-b border-white/[0.08] pb-8">
           <div className="flex flex-wrap items-center gap-2">
-            <span className="inline-flex items-center gap-1.5 rounded-full border border-mint/30 bg-mint/15 px-3 py-0.5 text-xs font-bold text-mint">
-              <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-              Topic Drill Engine
+            <span className="inline-flex items-center gap-1.5 rounded-full border border-mint/30 bg-mint/10 px-3 py-0.5 text-xs font-semibold text-mint">
+              <span className="h-1.5 w-1.5 rounded-full bg-mint" />
+              Surgical Subtopic Drills
             </span>
             <span className="rounded bg-white/[0.06] px-2 py-0.5 text-[11px] font-medium text-zinc-400">
-              30 Questions per Topic · 10 Easy, 10 Med, 10 Hard
+              30 Calibrated Items · 10 Easy, 10 Med, 10 Hard
             </span>
           </div>
 
@@ -213,7 +211,7 @@ export function TargetedPracticeView() {
             Targeted Skill Practice
           </h1>
           <p className="mt-2.5 max-w-[68ch] text-[15px] leading-relaxed text-zinc-400">
-            Zero in on the exact question types you struggle with. Select any SAT subtopic below—or type your own specific weakness—to drill 30 calibrated questions with step-by-step rationales, Desmos hacks, and AI explanations.
+            Zero in on specific struggle areas. Select any official College Board subtopic below—or define your own custom weakness—to drill 30 calibrated questions with step-by-step rationales and Desmos calculator techniques.
           </p>
 
           {/* Section Switcher (Math vs Reading & Writing) */}
@@ -221,14 +219,17 @@ export function TargetedPracticeView() {
             <button
               type="button"
               onClick={() => setActiveSection("math")}
-              className={`flex items-center gap-2 rounded-xl border px-5 py-3 text-sm font-bold transition ${
+              className={`flex items-center gap-2.5 rounded-xl border px-5 py-3 text-sm font-semibold transition ${
                 activeSection === "math"
-                  ? "border-mint bg-mint/15 text-white shadow-[0_0_15px_rgba(52,211,153,0.15)] ring-1 ring-mint/40"
+                  ? "border-mint/50 bg-mint/10 text-white shadow-sm ring-1 ring-mint/30"
                   : "border-white/10 bg-white/[0.02] text-zinc-400 hover:border-white/20 hover:text-white"
               }`}
             >
-              <span>📐 Math Modules</span>
-              <span className="rounded bg-black/40 px-1.5 py-0.5 text-[11px] text-mint">
+              <svg className="h-4 w-4 text-mint" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 7h6m-6 4h6m-6 4h4m5-13H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V4a2 2 0 00-2-2z" />
+              </svg>
+              <span>Math Modules</span>
+              <span className="rounded bg-black/40 px-1.5 py-0.5 text-[11px] font-mono text-mint">
                 12 Topics
               </span>
             </button>
@@ -236,14 +237,17 @@ export function TargetedPracticeView() {
             <button
               type="button"
               onClick={() => setActiveSection("rw")}
-              className={`flex items-center gap-2 rounded-xl border px-5 py-3 text-sm font-bold transition ${
+              className={`flex items-center gap-2.5 rounded-xl border px-5 py-3 text-sm font-semibold transition ${
                 activeSection === "rw"
-                  ? "border-mint bg-mint/15 text-white shadow-[0_0_15px_rgba(52,211,153,0.15)] ring-1 ring-mint/40"
+                  ? "border-mint/50 bg-mint/10 text-white shadow-sm ring-1 ring-mint/30"
                   : "border-white/10 bg-white/[0.02] text-zinc-400 hover:border-white/20 hover:text-white"
               }`}
             >
-              <span>📖 Reading &amp; Writing Modules</span>
-              <span className="rounded bg-black/40 px-1.5 py-0.5 text-[11px] text-mint">
+              <svg className="h-4 w-4 text-mint" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+              </svg>
+              <span>Reading &amp; Writing Modules</span>
+              <span className="rounded bg-black/40 px-1.5 py-0.5 text-[11px] font-mono text-mint">
                 10 Topics
               </span>
             </button>
@@ -251,10 +255,13 @@ export function TargetedPracticeView() {
             <button
               type="button"
               onClick={() => setCustomModalOpen(true)}
-              className="ml-auto flex items-center gap-2 rounded-xl border border-purple-500/30 bg-purple-950/20 px-4 py-3 text-sm font-semibold text-purple-300 transition hover:border-purple-500/50 hover:bg-purple-950/40"
+              className="ml-auto flex items-center gap-2 rounded-xl border border-white/15 bg-white/[0.04] px-4 py-3 text-sm font-semibold text-zinc-300 transition hover:border-white/30 hover:bg-white/[0.08] hover:text-white"
             >
-              <span>✨ Custom / Other Topic</span>
-              <span className="text-xs text-purple-400">→</span>
+              <svg className="h-4 w-4 text-zinc-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4" />
+              </svg>
+              <span>Custom Topic Generator</span>
+              <span className="text-xs text-zinc-500">→</span>
             </button>
           </div>
         </div>
@@ -262,20 +269,20 @@ export function TargetedPracticeView() {
 
       {/* Loading Overlay */}
       {loading && (
-        <div className="my-14 rounded-2xl border border-mint/25 bg-[#0c1219] p-8 text-center shadow-xl">
-          <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl border border-mint/30 bg-mint/15 text-mint shadow-inner">
+        <div className="glass-card my-14 p-8 text-center">
+          <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-2xl border border-mint/30 bg-mint/10 text-mint">
             <svg className="h-6 w-6 animate-spin" fill="none" viewBox="0 0 24 24">
               <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4" />
               <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4z" />
             </svg>
           </div>
           <h3 className="mt-4 font-display text-xl font-bold text-white">
-            Preparing Targeted Practice Set
+            Calibrating Practice Drill
           </h3>
           <p className="mt-2 text-sm text-zinc-400">
             {loadingMsg}
           </p>
-          <div className="mt-4 flex justify-center gap-3 text-xs text-zinc-500">
+          <div className="mt-4 flex justify-center gap-3 text-xs text-zinc-500 font-mono">
             <span>✓ 10 Easy</span>
             <span>·</span>
             <span>✓ 10 Medium</span>
@@ -310,15 +317,15 @@ export function TargetedPracticeView() {
 
       {/* Practice History & Scoring Log (Shown on topics list screen) */}
       {!selectedSet && !loading && attempts.length > 0 && (
-        <div className="mt-8 rounded-2xl border border-white/10 bg-white/[0.02] p-5 sm:p-6 shadow-lg">
+        <div className="glass-card mt-8 p-5 sm:p-6">
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between border-b border-white/[0.08] pb-4">
             <div>
               <div className="flex items-center gap-2">
-                <span className="flex h-2.5 w-2.5 rounded-full bg-mint shadow-[0_0_8px_rgba(52,211,153,0.8)]" />
+                <span className="h-2 w-2 rounded-full bg-mint" />
                 <h2 className="font-display text-lg font-bold text-white">
-                  Your Practice History &amp; Scoring Log
+                  Practice History &amp; Scoring Log
                 </h2>
-                <span className="rounded-full bg-white/10 px-2 py-0.5 text-xs text-zinc-300 font-medium">
+                <span className="rounded-full bg-white/10 px-2 py-0.5 text-xs text-zinc-300 font-mono">
                   {attempts.length} {attempts.length === 1 ? "Drill" : "Drills"}
                 </span>
               </div>
@@ -332,7 +339,7 @@ export function TargetedPracticeView() {
               <div className="flex items-center gap-2.5 text-xs">
                 <div className="rounded-xl border border-white/10 bg-black/40 px-3.5 py-2">
                   <span className="text-zinc-500 block text-[10px] uppercase font-bold tracking-wider">
-                    Avg Score
+                    Avg Accuracy
                   </span>
                   <span className="font-mono text-base font-bold text-mint">
                     {historyStats.avgScore}%
@@ -340,10 +347,10 @@ export function TargetedPracticeView() {
                 </div>
                 <div className="rounded-xl border border-white/10 bg-black/40 px-3.5 py-2">
                   <span className="text-zinc-500 block text-[10px] uppercase font-bold tracking-wider">
-                    Solved
+                    Questions Solved
                   </span>
                   <span className="font-mono text-base font-bold text-white">
-                    {historyStats.totalSolved} Qs
+                    {historyStats.totalSolved}
                   </span>
                 </div>
               </div>
@@ -359,13 +366,13 @@ export function TargetedPracticeView() {
               >
                 <div className="flex items-start gap-3">
                   <span
-                    className={`mt-0.5 rounded-lg px-2 py-1 text-xs font-bold ${
+                    className={`mt-0.5 rounded-md px-2 py-0.5 text-[11px] font-semibold uppercase tracking-wider ${
                       attempt.section === "math"
-                        ? "border border-cyan-500/30 bg-cyan-500/15 text-cyan-300"
-                        : "border border-purple-500/30 bg-purple-500/15 text-purple-300"
+                        ? "border border-cyan-500/30 bg-cyan-500/10 text-cyan-300"
+                        : "border border-purple-500/30 bg-purple-500/10 text-purple-300"
                     }`}
                   >
-                    {attempt.section === "math" ? "📐 Math" : "📖 RW"}
+                    {attempt.section === "math" ? "Math" : "RW"}
                   </span>
                   <div>
                     <div className="flex flex-wrap items-center gap-2">
@@ -407,7 +414,7 @@ export function TargetedPracticeView() {
                     >
                       {attempt.correctCount} / {attempt.totalQuestions}
                     </span>
-                    <span className="block text-[11px] text-zinc-400">
+                    <span className="block text-[11px] font-mono text-zinc-400">
                       ({attempt.scorePercent}%)
                     </span>
                   </div>
@@ -435,7 +442,7 @@ export function TargetedPracticeView() {
                 Select a Topic to Practice
               </h2>
               <span className="text-xs text-zinc-400">
-                Pick any domain or generate custom AI drills
+                22 College Board domains · Calibrated 30-item sets
               </span>
             </div>
           </div>
@@ -446,7 +453,7 @@ export function TargetedPracticeView() {
                 <h3 className="font-display text-lg font-bold text-white">
                   {domain}
                 </h3>
-                <span className="text-xs text-zinc-500">
+                <span className="text-xs text-zinc-500 font-mono">
                   ({topics.length} topics)
                 </span>
               </div>
@@ -462,11 +469,11 @@ export function TargetedPracticeView() {
                     <div>
                       <div className="flex items-center justify-between text-[11px] text-zinc-400">
                         <span>{t.domain}</span>
-                        <span className="rounded bg-mint/10 px-1.5 py-0.5 text-[10px] font-semibold text-mint">
-                          30 Qs
+                        <span className="rounded bg-mint/10 px-1.5 py-0.5 text-[10px] font-semibold text-mint font-mono">
+                          30 Items
                         </span>
                       </div>
-                      <h4 className="mt-2 font-display text-base font-bold text-white group-hover:text-mint">
+                      <h4 className="mt-2 font-display text-base font-bold text-white group-hover:text-mint transition-colors">
                         {t.name}
                       </h4>
                       <p className="mt-1.5 text-xs leading-relaxed text-zinc-400">
@@ -475,7 +482,7 @@ export function TargetedPracticeView() {
                     </div>
 
                     <div className="mt-4 flex items-center justify-between border-t border-white/[0.06] pt-3 text-xs text-zinc-400">
-                      <span>10 Easy · 10 Med · 10 Hard</span>
+                      <span className="font-mono text-[11px]">10E · 10M · 10H</span>
                       <span className="font-semibold text-mint group-hover:underline">
                         Start Drill →
                       </span>
@@ -487,27 +494,27 @@ export function TargetedPracticeView() {
           ))}
 
           {/* "Other" Custom Topic Card */}
-          <div className="rounded-2xl border border-purple-500/25 bg-gradient-to-br from-purple-950/20 to-black p-6 sm:p-8">
+          <div className="glass-card p-6 sm:p-8">
             <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
               <div>
-                <span className="inline-flex items-center gap-1.5 rounded-full border border-purple-500/30 bg-purple-500/15 px-2.5 py-0.5 text-xs font-bold text-purple-300">
-                  ✨ Custom AI Generator
+                <span className="inline-flex items-center gap-1.5 rounded-full border border-white/10 bg-white/[0.04] px-2.5 py-0.5 text-xs font-semibold text-zinc-300">
+                  <span className="h-1.5 w-1.5 rounded-full bg-mint" />
+                  Custom Topic Engine
                 </span>
                 <h3 className="mt-2 font-display text-xl font-bold text-white">
                   Struggling with a specific concept not listed?
                 </h3>
                 <p className="mt-1 max-w-xl text-xs leading-relaxed text-zinc-400">
-                  Type any weakness (e.g. circle equations, comma splices, trigonometric identities). The AI synthesizes 30 calibrated questions with complete step-by-step rationales and saves them into the bank.
+                  Type any weakness (e.g. circle equations completing the square, dangling modifiers, trigonometry identities). The engine synthesizes 30 calibrated questions with step-by-step rationales.
                 </p>
               </div>
 
               <button
                 type="button"
                 onClick={() => setCustomModalOpen(true)}
-                className="inline-flex items-center justify-center gap-2 rounded-xl bg-purple-500 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-purple-500/20 transition hover:bg-purple-400 sm:self-center"
+                className="btn-primary shrink-0"
               >
-                <span>Input Custom Topic</span>
-                <span>→</span>
+                <span>Input Custom Topic →</span>
               </button>
             </div>
           </div>
@@ -516,8 +523,8 @@ export function TargetedPracticeView() {
 
       {/* Custom Topic Generator Modal ("What do you want to practice?") */}
       {customModalOpen && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4 backdrop-blur-sm">
-          <div className="relative w-full max-w-lg rounded-2xl border border-white/10 bg-[#0e141c] p-6 shadow-2xl sm:p-8">
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4 backdrop-blur-md">
+          <div className="glass-card relative w-full max-w-lg p-6 sm:p-8">
             <button
               type="button"
               onClick={() => setCustomModalOpen(false)}
@@ -526,14 +533,14 @@ export function TargetedPracticeView() {
               ✕
             </button>
 
-            <span className="inline-block rounded-full border border-purple-500/30 bg-purple-500/15 px-2.5 py-0.5 text-xs font-bold text-purple-300">
+            <span className="inline-block rounded-full border border-white/15 bg-white/[0.05] px-2.5 py-0.5 text-xs font-semibold text-zinc-300">
               Custom Topic Drill
             </span>
             <h3 className="mt-2 font-display text-2xl font-bold text-white">
               What do you want to practice?
             </h3>
             <p className="mt-1 text-xs text-zinc-400">
-              Input any math concept, grammar rule, or reading skill. The AI will generate 30 questions (10 Easy, 10 Medium, 10 Hard) with complete answer keys and solutions.
+              Input any math concept, grammar rule, or reading skill. The engine will generate 30 questions (10 Easy, 10 Medium, 10 Hard) with complete answer keys and solutions.
             </p>
 
             <form onSubmit={handleCustomSubmit} className="mt-6 space-y-4">
@@ -545,9 +552,9 @@ export function TargetedPracticeView() {
                   <button
                     type="button"
                     onClick={() => setActiveSection("math")}
-                    className={`flex-1 rounded-lg border py-2 text-xs font-bold transition ${
+                    className={`flex-1 rounded-lg border py-2 text-xs font-semibold transition ${
                       activeSection === "math"
-                        ? "border-mint bg-mint/20 text-white"
+                        ? "border-mint bg-mint/15 text-white"
                         : "border-white/10 bg-white/[0.02] text-zinc-400"
                     }`}
                   >
@@ -556,9 +563,9 @@ export function TargetedPracticeView() {
                   <button
                     type="button"
                     onClick={() => setActiveSection("rw")}
-                    className={`flex-1 rounded-lg border py-2 text-xs font-bold transition ${
+                    className={`flex-1 rounded-lg border py-2 text-xs font-semibold transition ${
                       activeSection === "rw"
-                        ? "border-mint bg-mint/20 text-white"
+                        ? "border-mint bg-mint/15 text-white"
                         : "border-white/10 bg-white/[0.02] text-zinc-400"
                     }`}
                   >
@@ -596,7 +603,7 @@ export function TargetedPracticeView() {
                 <button
                   type="submit"
                   disabled={!customInput.trim()}
-                  className="rounded-xl bg-mint px-5 py-2.5 text-xs font-bold text-ink-950 transition hover:bg-mint-400 disabled:opacity-50"
+                  className="btn-primary py-2.5 px-5 text-xs disabled:opacity-50"
                 >
                   Generate 30-Question Drill
                 </button>
@@ -730,18 +737,19 @@ function TargetedDrillPlayer({
         : reviewUserAns.toUpperCase() === reviewQ.correct.toUpperCase());
 
     return (
-      <div className="rounded-2xl border border-white/10 bg-[#0c1017] p-6 shadow-2xl sm:p-10">
+      <div className="glass-card p-6 sm:p-10">
         {/* Top Header */}
         <div className="flex flex-col gap-2 border-b border-white/[0.08] pb-6 text-center sm:text-left sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <span className="inline-flex items-center gap-1.5 rounded-full border border-mint/30 bg-mint/15 px-3 py-1 text-xs font-bold text-mint">
-              ✓ Drill Completed
+            <span className="inline-flex items-center gap-1.5 rounded-full border border-mint/30 bg-mint/10 px-3 py-1 text-xs font-semibold text-mint">
+              <span className="h-1.5 w-1.5 rounded-full bg-mint" />
+              Diagnostic Completed
             </span>
             <h2 className="mt-2 font-display text-2xl font-bold text-white sm:text-3xl">
               {set.topic}
             </h2>
             <p className="mt-1 text-xs text-zinc-400">
-              {set.section === "math" ? "📐 Math" : "📖 Reading & Writing"} • {set.domain} • 30-Question Calibrated Diagnostic
+              {set.section === "math" ? "Math" : "Reading & Writing"} • {set.domain} • 30-Question Calibrated Set
             </p>
           </div>
 
@@ -749,20 +757,20 @@ function TargetedDrillPlayer({
           <button
             type="button"
             onClick={() => setDrillFinished(false)}
-            className="self-center sm:self-auto rounded-lg border border-white/15 bg-white/[0.05] px-3.5 py-1.5 text-xs font-semibold text-zinc-300 hover:text-white hover:border-white/30"
+            className="self-center sm:self-auto rounded-lg border border-white/15 bg-white/[0.04] px-3.5 py-1.5 text-xs font-semibold text-zinc-300 hover:text-white hover:border-white/30 transition"
           >
             ← Back to Question Player
           </button>
         </div>
 
         {/* Hero Score Showcase */}
-        <div className="mt-8 rounded-2xl border border-white/10 bg-gradient-to-b from-white/[0.04] to-black/60 p-6 sm:p-8">
+        <div className="mt-8 rounded-2xl border border-white/10 bg-black/40 p-6 sm:p-8">
           <div className="flex flex-col items-center justify-between gap-6 sm:flex-row">
             <div>
               <span className="text-xs uppercase font-bold tracking-wider text-zinc-400">
                 Diagnostic Score
               </span>
-              <div className="mt-1 flex items-baseline gap-3">
+              <div className="nums mt-1 flex items-baseline gap-3">
                 <span className="font-mono text-5xl font-extrabold text-white sm:text-6xl">
                   {stats.correctCount}
                 </span>
@@ -784,17 +792,17 @@ function TargetedDrillPlayer({
 
               <p className="mt-3 text-sm text-zinc-300">
                 {stats.scorePercent >= 90
-                  ? "🌟 Elite Mastery! You have near-perfect accuracy on this question type."
+                  ? "Elite Mastery — Exceptional precision across every difficulty tier."
                   : stats.scorePercent >= 75
-                  ? "🎯 Strong Performance! Solid command with only a few tricky questions to review."
+                  ? "Strong Performance — Solid foundation with only minor gaps to review."
                   : stats.scorePercent >= 50
-                  ? "📈 Solid Progress! Review the rationales and Desmos calculator shortcuts below."
-                  : "💪 Focused Practice Recommended! Check the step-by-step solutions below to close your concept gaps."}
+                  ? "Solid Progress — Review the rationales and Desmos calculator shortcuts below."
+                  : "Practice Recommended — Study the step-by-step solutions below to close concept gaps."}
               </p>
             </div>
 
             {/* Questions Answered counter */}
-            <div className="rounded-xl border border-white/10 bg-black/40 p-4 text-center min-w-[140px]">
+            <div className="rounded-xl border border-white/10 bg-white/[0.02] p-4 text-center min-w-[140px]">
               <span className="block text-[11px] uppercase tracking-wider text-zinc-400 font-semibold">
                 Answered
               </span>
@@ -811,7 +819,10 @@ function TargetedDrillPlayer({
           <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
             <div className="rounded-xl border border-emerald-500/30 bg-emerald-950/20 p-4">
               <div className="flex items-center justify-between text-xs">
-                <span className="font-semibold text-emerald-300">🟢 Easy Tier</span>
+                <span className="flex items-center gap-1.5 font-semibold text-emerald-300">
+                  <span className="h-2 w-2 rounded-full bg-emerald-400" />
+                  Easy Tier
+                </span>
                 <span className="font-mono text-xs text-zinc-400">10 Questions</span>
               </div>
               <div className="mt-2 flex items-baseline justify-between">
@@ -826,7 +837,10 @@ function TargetedDrillPlayer({
 
             <div className="rounded-xl border border-amber-500/30 bg-amber-950/20 p-4">
               <div className="flex items-center justify-between text-xs">
-                <span className="font-semibold text-amber-300">🟡 Medium Tier</span>
+                <span className="flex items-center gap-1.5 font-semibold text-amber-300">
+                  <span className="h-2 w-2 rounded-full bg-amber-400" />
+                  Medium Tier
+                </span>
                 <span className="font-mono text-xs text-zinc-400">10 Questions</span>
               </div>
               <div className="mt-2 flex items-baseline justify-between">
@@ -841,7 +855,10 @@ function TargetedDrillPlayer({
 
             <div className="rounded-xl border border-rose-500/30 bg-rose-950/20 p-4">
               <div className="flex items-center justify-between text-xs">
-                <span className="font-semibold text-rose-300">🔴 Hard (700+) Tier</span>
+                <span className="flex items-center gap-1.5 font-semibold text-rose-300">
+                  <span className="h-2 w-2 rounded-full bg-rose-400" />
+                  Hard (700+) Tier
+                </span>
                 <span className="font-mono text-xs text-zinc-400">10 Questions</span>
               </div>
               <div className="mt-2 flex items-baseline justify-between">
@@ -863,7 +880,7 @@ function TargetedDrillPlayer({
               Ready for your next step?
             </h3>
             <p className="mt-0.5 text-xs text-zinc-400">
-              Drill another weak topic with AI or head back to home.
+              Select another topic to drill or return to the home screen.
             </p>
           </div>
 
@@ -872,18 +889,24 @@ function TargetedDrillPlayer({
             <button
               type="button"
               onClick={onGenerateMore}
-              className="flex items-center gap-2 rounded-xl bg-mint px-6 py-3 text-sm font-bold text-ink-950 shadow-lg shadow-mint/20 transition hover:bg-mint-400"
+              className="btn-primary py-3 px-5 text-sm"
             >
-              <span>🔄 Generate More Questions</span>
+              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+              </svg>
+              <span>Generate More Questions</span>
             </button>
 
             {/* Thank you, I'm done Button */}
             <button
               type="button"
               onClick={onDone}
-              className="flex items-center gap-2 rounded-xl border border-white/20 bg-white/[0.06] px-6 py-3 text-sm font-bold text-white transition hover:bg-white/10 hover:border-white/30"
+              className="btn-secondary py-3 px-5 text-sm"
             >
-              <span>🏠 Thank you, I&apos;m done</span>
+              <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+              </svg>
+              <span>Thank you, I&apos;m done</span>
             </button>
           </div>
         </div>
@@ -901,13 +924,13 @@ function TargetedDrillPlayer({
             </div>
             <div className="flex items-center gap-3 text-xs">
               <span className="flex items-center gap-1.5 text-emerald-400">
-                <span className="h-2.5 w-2.5 rounded-full bg-emerald-500" /> Correct
+                <span className="h-2 w-2 rounded-full bg-emerald-500" /> Correct
               </span>
               <span className="flex items-center gap-1.5 text-rose-400">
-                <span className="h-2.5 w-2.5 rounded-full bg-rose-500" /> Incorrect
+                <span className="h-2 w-2 rounded-full bg-rose-500" /> Incorrect
               </span>
               <span className="flex items-center gap-1.5 text-zinc-500">
-                <span className="h-2.5 w-2.5 rounded-full bg-zinc-600" /> Skipped
+                <span className="h-2 w-2 rounded-full bg-zinc-600" /> Skipped
               </span>
             </div>
           </div>
@@ -944,7 +967,7 @@ function TargetedDrillPlayer({
                   }`}
                 >
                   <span>Q{idx + 1}</span>
-                  <span className="text-[9px] uppercase opacity-75">{q.difficulty}</span>
+                  <span className="text-[9px] uppercase font-mono opacity-75">{q.difficulty}</span>
                 </button>
               );
             })}
@@ -952,14 +975,14 @@ function TargetedDrillPlayer({
 
           {/* Expanded Question Review Card */}
           {reviewQ && (
-            <div className="mt-6 rounded-2xl border border-white/15 bg-black/60 p-6 shadow-xl">
+            <div className="mt-6 rounded-2xl border border-white/15 bg-black/70 p-6 shadow-xl backdrop-blur">
               <div className="flex items-center justify-between border-b border-white/[0.08] pb-4">
                 <div className="flex items-center gap-2">
                   <span className="font-mono text-sm font-bold text-white">
                     Question {(reviewQIdx ?? 0) + 1} Review
                   </span>
                   <span
-                    className={`rounded px-2 py-0.5 text-xs font-bold uppercase ${
+                    className={`rounded px-2 py-0.5 text-xs font-bold uppercase font-mono ${
                       reviewQ.difficulty === "E"
                         ? "bg-emerald-500/20 text-emerald-300"
                         : reviewQ.difficulty === "M"
@@ -970,7 +993,7 @@ function TargetedDrillPlayer({
                     {reviewQ.difficulty === "E" ? "Easy" : reviewQ.difficulty === "M" ? "Medium" : "Hard"}
                   </span>
                   <span
-                    className={`rounded px-2 py-0.5 text-xs font-bold ${
+                    className={`rounded px-2 py-0.5 text-xs font-semibold ${
                       reviewIsCorrect
                         ? "bg-emerald-500/20 text-emerald-300"
                         : "bg-rose-500/20 text-rose-300"
@@ -985,7 +1008,7 @@ function TargetedDrillPlayer({
                   onClick={() => setReviewQIdx(null)}
                   className="text-xs text-zinc-400 hover:text-white"
                 >
-                  ✕ Close Review
+                  ✕ Close
                 </button>
               </div>
 
@@ -1029,7 +1052,7 @@ function TargetedDrillPlayer({
               {/* Desmos Hint */}
               {reviewQ.desmosHint && (
                 <div className="mt-3 rounded-lg border border-cyan-500/20 bg-cyan-950/20 p-3 text-xs text-cyan-200">
-                  <strong className="text-cyan-300">💡 Desmos Fast-Track: </strong>
+                  <strong className="text-cyan-300 font-mono">Desmos Shortcut: </strong>
                   {reviewQ.desmosHint}
                 </div>
               )}
@@ -1044,7 +1067,7 @@ function TargetedDrillPlayer({
   // ACTIVE QUESTION SOLVING VIEW
   // ----------------------------------------------------
   return (
-    <div className="rounded-2xl border border-white/[0.08] bg-[#0c1017] p-5 shadow-2xl sm:p-8">
+    <div className="glass-card p-5 sm:p-8">
       {/* Top Banner */}
       <div className="flex flex-col gap-4 border-b border-white/[0.08] pb-5 sm:flex-row sm:items-center sm:justify-between">
         <div>
@@ -1070,13 +1093,13 @@ function TargetedDrillPlayer({
           <button
             type="button"
             onClick={finishDrill}
-            className="rounded-lg border border-mint/40 bg-mint/15 px-3.5 py-1.5 text-xs font-bold text-mint hover:bg-mint hover:text-ink-950 transition"
+            className="rounded-lg border border-mint/40 bg-mint/10 px-3.5 py-1.5 text-xs font-semibold text-mint hover:bg-mint hover:text-ink-950 transition"
           >
             Finish Drill &amp; View Score
           </button>
 
           {/* Difficulty Filter Tabs */}
-          <div className="flex flex-wrap items-center gap-1.5 rounded-lg border border-white/10 bg-black/40 p-1 text-xs">
+          <div className="flex flex-wrap items-center gap-1 rounded-lg border border-white/10 bg-black/40 p-1 text-xs">
             <button
               type="button"
               onClick={() => {
@@ -1138,7 +1161,7 @@ function TargetedDrillPlayer({
                 Question {currentIndex + 1} of {filteredQuestions.length}
               </span>
               <span
-                className={`rounded px-1.5 py-0.5 text-[10px] font-semibold uppercase ${
+                className={`rounded px-1.5 py-0.5 text-[10px] font-semibold uppercase font-mono ${
                   currentQ.difficulty === "E"
                     ? "bg-emerald-500/15 text-emerald-300"
                     : currentQ.difficulty === "M"
@@ -1167,7 +1190,7 @@ function TargetedDrillPlayer({
                     key={q.id}
                     type="button"
                     onClick={() => setCurrentIndex(idx)}
-                    className={`h-6 w-6 rounded text-[11px] font-bold transition ${
+                    className={`h-6 w-6 rounded text-[11px] font-mono font-bold transition ${
                       currentIndex === idx
                         ? "bg-mint text-ink-950 ring-1 ring-mint"
                         : hasAnswered
@@ -1264,7 +1287,7 @@ function TargetedDrillPlayer({
                 <button
                   type="button"
                   onClick={() => setChecked((prev) => ({ ...prev, [globalIdx]: true }))}
-                  className="rounded-lg bg-mint px-4 py-2 text-xs font-bold text-ink-950"
+                  className="rounded-lg bg-mint px-4 py-2 text-xs font-bold text-ink-950 hover:bg-mint-400 transition"
                 >
                   Check
                 </button>
@@ -1281,7 +1304,7 @@ function TargetedDrillPlayer({
                     isCorrect ? "text-emerald-400" : "text-rose-400"
                   }`}
                 >
-                  {isCorrect ? "✓ Correct!" : `✗ Incorrect — Correct answer is ${currentQ.correct}`}
+                  {isCorrect ? "✓ Correct" : `✗ Incorrect — Correct answer is ${currentQ.correct}`}
                 </span>
               </div>
 
@@ -1293,7 +1316,7 @@ function TargetedDrillPlayer({
               {/* Desmos Hint for Math */}
               {currentQ.desmosHint && (
                 <div className="mt-3 rounded-lg border border-cyan-500/20 bg-cyan-950/20 p-3 text-xs text-cyan-200">
-                  <strong className="text-cyan-300">💡 Desmos Fast-Track: </strong>
+                  <strong className="text-cyan-300 font-mono">Desmos Shortcut: </strong>
                   {currentQ.desmosHint}
                 </div>
               )}
@@ -1311,7 +1334,7 @@ function TargetedDrillPlayer({
               ← Previous
             </button>
 
-            <span className="text-center text-xs text-zinc-500">
+            <span className="text-center text-xs font-mono text-zinc-500">
               {currentIndex + 1} of {filteredQuestions.length}
             </span>
 
@@ -1328,7 +1351,7 @@ function TargetedDrillPlayer({
                 <button
                   type="button"
                   onClick={finishDrill}
-                  className="rounded-lg bg-mint px-6 py-2 text-xs font-bold text-ink-950 shadow-md shadow-mint/20 transition hover:bg-mint-400"
+                  className="btn-primary py-2 px-5 text-xs"
                 >
                   Complete Drill &amp; See Score →
                 </button>

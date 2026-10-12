@@ -154,19 +154,17 @@ export function GenerateTestCard({ isLoggedIn = true, className = "" }: Props) {
   return (
     <>
       <div
-        className={`group relative overflow-hidden rounded-2xl border border-mint/25 bg-gradient-to-br from-[#0c1514] via-[#0c1017] to-[#080d12] p-6 shadow-xl backdrop-blur transition hover:border-mint/45 sm:p-8 ${className}`}
+        className={`glass-card p-6 sm:p-8 transition duration-200 hover:border-white/15 ${className}`}
       >
         <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
           <div className="max-w-2xl">
             <div className="flex items-center gap-2">
-              <span className="inline-flex items-center gap-1.5 rounded-full border border-mint/30 bg-mint/15 px-3 py-0.5 text-xs font-bold text-mint">
-                <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M13 10V3L4 14h7v7l9-11h-7z" />
-                </svg>
-                AI Blueprint Synthesis
+              <span className="inline-flex items-center gap-1.5 rounded-full border border-mint/30 bg-mint/10 px-2.5 py-0.5 text-xs font-semibold text-mint">
+                <span className="h-1.5 w-1.5 rounded-full bg-mint" />
+                Adaptive Exam Synthesis
               </span>
               <span className="rounded bg-white/[0.06] px-2 py-0.5 text-[11px] font-medium text-zinc-400">
-                98-Question Adaptive
+                98-Question Form
               </span>
             </div>
 
@@ -196,7 +194,7 @@ export function GenerateTestCard({ isLoggedIn = true, className = "" }: Props) {
             <button
               type="button"
               onClick={handleStartGeneration}
-              className="group/btn relative flex items-center gap-3 overflow-hidden rounded-xl bg-gradient-to-r from-mint via-mint-400 to-emerald-400 px-6 py-4 text-sm font-bold text-ink-950 shadow-lg shadow-mint/20 transition hover:brightness-105 active:scale-[0.98]"
+              className="btn-primary py-3.5 px-6 text-sm"
             >
               <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M12 4v16m8-8H4" />

@@ -127,8 +127,8 @@ export function PricingCards({
         </div>
 
         {/* KLUTCH PRO */}
-        <div className="relative flex flex-col justify-between rounded-2xl border-2 border-mint bg-gradient-to-b from-mint/[0.08] via-ink-900/60 to-ink-950 p-6 shadow-xl shadow-mint/5 backdrop-blur sm:p-8">
-          <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 rounded-full bg-mint px-4 py-1 text-[11px] font-black uppercase tracking-wider text-ink-950">
+        <div className="relative flex flex-col justify-between rounded-2xl border border-mint/50 bg-gradient-to-b from-mint/[0.05] via-[#0c1017] to-[#04040A] p-6 shadow-xl shadow-mint/5 backdrop-blur sm:p-8">
+          <div className="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full border border-mint/40 bg-mint px-3.5 py-0.5 text-[10px] font-black uppercase tracking-wider text-ink-950 shadow-sm">
             Most Popular
           </div>
 

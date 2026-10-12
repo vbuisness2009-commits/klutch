@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { AP_SUBJECTS, type ApSubject } from "@/lib/apSubjects";
-import { AP_UNITS, NEEDS_CHECK } from "@/lib/apContent";
+import { AP_UNITS } from "@/lib/apContent";
 import { currentUser } from "@/lib/userSession";
 
 const CATEGORIES: ApSubject["category"][] = [
@@ -12,97 +12,102 @@ const CATEGORIES: ApSubject["category"][] = [
   "Arts",
 ];
 
-const pieces = [
+const features = [
   {
-    title: "Full-length exams",
-    body: "Comprehensive exam practice timed under real testing conditions, scored 1 to 5.",
+    title: "Full-Length Mock Exams",
+    body: "Timed exam practice under authentic conditions, scored on the official 1 to 5 scale with section pacing analytics.",
   },
   {
-    title: "Practice by difficulty",
-    body: "Every problem graded Intro, Exam level, or Hardest, so you can warm up or go straight at the ones that decide your score.",
+    title: "Graded by Difficulty",
+    body: "Problems tiered from Foundational to Exam Level and Hardest, ensuring you master both the baseline and score-deciding items.",
   },
   {
-    title: "Unit guides",
-    body: "One walkthrough per unit of the College Board course, written to be read the night before rather than over a semester.",
+    title: "Unit-by-Unit Walkthroughs",
+    body: "Concise, high-yield walkthroughs for each College Board course unit, written for rapid review before test day.",
   },
   {
-    title: "Vocab",
-    body: "The terms each unit expects you to already know, with the definition the exam actually rewards.",
+    title: "Key Exam Vocabulary",
+    body: "Essential terminology with the exact conceptual definitions rewarded on free-response and multiple-choice rubrics.",
   },
   {
-    title: "Video",
-    body: "Links out to the explanation that covers a unit best, rather than us re-recording something worse.",
+    title: "Curated Video Deep Dives",
+    body: "Hand-selected video walkthroughs for the most challenging topics, so you see hard proofs and concepts worked step by step.",
+  },
+  {
+    title: "Targeted FRQ Strategy",
+    body: "Step-by-step breakdowns for free-response rubrics, showing where points are won or lost.",
   },
 ];
 
 export async function ApSection() {
   const user = await currentUser();
   const apHref = user ? "/ap" : "/signup?next=/ap";
-  const subjectHref = user ? "/ap#subjects" : "/signup?next=/ap";
   const unitCount = Object.values(AP_UNITS).reduce((n, u) => n + u.length, 0);
 
   return (
-    <section id="ap" className="border-b border-white/[0.07]">
+    <section id="ap" className="border-b border-white/[0.08]">
       <div className="mx-auto max-w-6xl px-5 py-16 sm:px-8">
         <div className="flex flex-wrap items-end justify-between gap-4">
           <div>
-            <h2 className="font-display text-2xl font-bold tracking-tight text-white">
-              AP, subject by subject
+            <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/[0.03] px-3 py-1 text-xs text-zinc-300">
+              <span className="h-1.5 w-1.5 rounded-full bg-magenta" />
+              <span>38 Subjects · {unitCount} Units</span>
+            </div>
+            <h2 className="mt-3 font-display text-2xl font-bold tracking-tight text-white sm:text-3xl">
+              Advanced Placement (AP) Suite
             </h2>
             <p className="nums mt-2 max-w-[58ch] text-sm leading-relaxed text-zinc-400">
-              All {AP_SUBJECTS.length} subjects the College Board offers, broken
-              into the {unitCount} units their course descriptions use.{" "}
-              {NEEDS_CHECK.size} of them were redesigned recently and are marked
-              provisional until we recheck the breakdown.
+              Complete course preparation for all 38 College Board AP courses, structured by authentic unit blueprints with guided practice and full-length exam simulations.
             </p>
           </div>
           <Link
             href={apHref}
-            className="text-sm font-medium text-mint underline decoration-mint/30 underline-offset-4 transition hover:decoration-mint"
+            className="text-xs font-semibold text-mint hover:text-mint-300 transition"
           >
-            Browse all subjects
+            Browse All Subjects →
           </Link>
         </div>
 
-        <div className="mt-8 grid gap-x-10 gap-y-1 sm:grid-cols-2 lg:grid-cols-3">
+        {/* Categories Grid */}
+        <div className="mt-8 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
           {CATEGORIES.map((cat) => {
             const subjects = AP_SUBJECTS.filter((s) => s.category === cat);
             return (
               <Link
                 key={cat}
-                href={subjectHref}
-                className="flex items-baseline justify-between gap-4 border-b border-white/[0.07] py-3 transition hover:bg-white/[0.02]"
+                href={user ? `/ap#${cat.toLowerCase().replace(/[^a-z0-9]+/g, "-")}` : `/signup?next=/ap`}
+                className="group flex items-center justify-between rounded-xl border border-white/[0.08] bg-white/[0.02] p-4 transition duration-150 hover:border-white/20 hover:bg-white/[0.04]"
               >
-                <span className="text-sm text-zinc-200">{cat}</span>
-                <span className="nums flex-shrink-0 text-[12px] text-zinc-500">
-                  {subjects.length}
+                <span className="text-sm font-semibold text-zinc-200 group-hover:text-white transition-colors">
+                  {cat}
+                </span>
+                <span className="nums rounded-md bg-white/[0.06] px-2 py-0.5 text-xs font-mono font-medium text-zinc-400 group-hover:text-mint transition-colors">
+                  {subjects.length} Subjects
                 </span>
               </Link>
             );
           })}
         </div>
 
-        <h3 className="mt-12 font-display text-base font-bold text-white">
-          What goes into each subject
+        {/* Core Subject Pillars */}
+        <h3 className="mt-12 font-display text-base font-bold text-white border-t border-white/[0.08] pt-8">
+          The Anatomy of Each AP Subject
         </h3>
-        <div className="mt-5 grid gap-x-12 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
-          {pieces.map((p) => (
-            <div key={p.title}>
+        <div className="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {features.map((f) => (
+            <div
+              key={f.title}
+              className="rounded-xl border border-white/[0.06] bg-white/[0.015] p-5"
+            >
               <div className="text-sm font-semibold text-zinc-100">
-                {p.title}
+                {f.title}
               </div>
-              <p className="mt-1.5 max-w-[42ch] text-[13px] leading-relaxed text-zinc-400">
-                {p.body}
+              <p className="mt-1.5 text-xs leading-relaxed text-zinc-400">
+                {f.body}
               </p>
             </div>
           ))}
         </div>
-
-        <p className="mt-10 max-w-[62ch] text-[13px] leading-relaxed text-zinc-500">
-          None of the five are loaded yet. Every subject page is built out
-          against its real units, so you can see the shape of it and watch each
-          one fill in.
-        </p>
       </div>
     </section>
   );

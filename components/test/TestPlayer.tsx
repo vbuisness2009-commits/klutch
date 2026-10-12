@@ -45,6 +45,7 @@ export function TestPlayer({
   formId,
   preview = false,
   builtIn = false,
+  review = false,
 }: {
   form: TestForm;
   fast: boolean;
@@ -56,15 +57,19 @@ export function TestPlayer({
   preview?: boolean;
   /** The built-in placeholder form rather than an authored Klutch test. */
   builtIn?: boolean;
+  /** Directly open the results review breakdown screen. */
+  review?: boolean;
 }) {
-  const [phase, setPhase] = useState<Phase>("intro");
+  const [phase, setPhase] = useState<Phase>(review ? "done" : "intro");
   const [sectionIdx, setSectionIdx] = useState(0);
   const [moduleNum, setModuleNum] = useState<1 | 2>(1);
   const [qIdx, setQIdx] = useState(0);
   const [responses, setResponses] = useState<Record<string, string>>({});
   const [flags, setFlags] = useState<Record<string, boolean>>({});
   const [eliminated, setEliminated] = useState<Record<string, string[]>>({});
-  const [routes, setRoutes] = useState<Partial<Record<SectionId, Route>>>({});
+  const [routes, setRoutes] = useState<Partial<Record<SectionId, Route>>>(
+    review ? { rw: "upper", math: "upper" } : {}
+  );
   const [eliminatorOn, setEliminatorOn] = useState(false);
   const [timerHidden, setTimerHidden] = useState(false);
   const [secondsLeft, setSecondsLeft] = useState(0);

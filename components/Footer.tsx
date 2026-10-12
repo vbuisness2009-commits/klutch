@@ -31,9 +31,18 @@ export function Footer() {
           trademarks, not ours.
         </p>
 
-        <p className="mt-4 text-[13px] text-zinc-600">
-          &copy; {new Date().getFullYear()} Klutch
-        </p>
+        <div className="mt-4 flex flex-wrap items-center justify-between gap-3 text-[13px] text-zinc-500">
+          <p>&copy; {new Date().getFullYear()} Klutch Prep</p>
+          <p>
+            Official contact:{" "}
+            <a
+              href="mailto:prep.klutch@gmail.com"
+              className="text-zinc-400 underline decoration-white/20 transition hover:text-mint hover:decoration-mint"
+            >
+              prep.klutch@gmail.com
+            </a>
+          </p>
+        </div>
       </div>
     </footer>
   );

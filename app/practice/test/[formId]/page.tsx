@@ -12,7 +12,7 @@ export default async function TestPage({
   searchParams,
 }: {
   params: { formId: string };
-  searchParams: { fast?: string; preview?: string };
+  searchParams: { fast?: string; preview?: string; review?: string };
 }) {
   const admin = await isAdminRequest();
   const loaded = await loadPlayableForm(params.formId, { admin });
@@ -68,6 +68,7 @@ export default async function TestPage({
       formId={params.formId}
       builtIn={loaded.builtIn}
       preview={admin && (!loaded.published || searchParams.preview === "1")}
+      review={searchParams.review === "1"}
     />
   );
 }

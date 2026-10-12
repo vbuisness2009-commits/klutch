@@ -25,11 +25,11 @@ export function GenerateTestButton({
 
     setLoading(true);
     setError(null);
-    setStatusMsg("Checking test bank for fresh exam...");
+    setStatusMsg("Synthesizing authentic 98-question adaptive test...");
 
     try {
       const timer = setTimeout(() => {
-        setStatusMsg("Synthesizing authentic 98-question adaptive test...");
+        setStatusMsg("Calibrating IRT difficulty and answer keys...");
       }, 1500);
 
       const res = await fetch("/api/tests/generate", {
@@ -57,11 +57,7 @@ export function GenerateTestButton({
         throw new Error(data.error || "Failed to generate test.");
       }
 
-      setStatusMsg(
-        data.reusedFromBank
-          ? `Allocated ${data.title} from bank! Launching...`
-          : `Generated brand new ${data.title}! Launching...`
-      );
+      setStatusMsg(`Calibrated ${data.title}! Launching exam...`);
 
       // Navigate straight into the player
       router.push(`/practice/test/${data.testId}`);

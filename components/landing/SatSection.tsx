@@ -1,12 +1,18 @@
 import Link from "next/link";
 import { listTests } from "@/lib/testEngine/store";
 import { currentUser } from "@/lib/userSession";
+import { listAttempts } from "@/lib/attemptsStore";
+import { LatestScoreCard } from "@/components/sat/LatestScoreCard";
+import { GenerateTestCard } from "@/components/sat/GenerateTestCard";
 
 export async function SatSection() {
   const [uploaded, user] = await Promise.all([
     listTests().then((tests) => tests.filter((t) => t.published)),
     currentUser(),
   ]);
+
+  const attempts = user ? await listAttempts(user.id).catch(() => []) : [];
+  const latestScored = attempts.find((a) => a.scorable && a.total != null) ?? null;
 
   const hubHref = user ? "/sat" : "/signup?next=/sat";
 
@@ -31,12 +37,31 @@ export async function SatSection() {
           </Link>
         </div>
 
+        {/* Latest Score Card */}
+        <div className="mt-8">
+          <LatestScoreCard initialLatest={latestScored} />
+        </div>
+
+        {/* Generate Your Own Practice Test Card */}
+        <div className="mt-6">
+          <GenerateTestCard isLoggedIn={Boolean(user)} />
+        </div>
+
+        <div className="mt-10 flex items-baseline justify-between">
+          <h3 className="font-display text-lg font-bold text-white">
+            Official Practice Exams
+          </h3>
+          <span className="text-xs text-zinc-500">
+            {uploaded.length} full-length tests ready
+          </span>
+        </div>
+
         {uploaded.length === 0 ? (
-          <p className="mt-8 text-sm text-zinc-500">
+          <p className="mt-6 text-sm text-zinc-500">
             No practice tests published yet.
           </p>
         ) : (
-          <div className="mt-8 overflow-x-auto">
+          <div className="mt-4 overflow-x-auto">
             <table className="w-full min-w-[640px] border-collapse text-left">
               <thead>
                 <tr className="border-b border-white/[0.14] text-[11px] font-medium text-zinc-500">

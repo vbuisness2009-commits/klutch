@@ -71,7 +71,7 @@ export default async function Dashboard({
                 Generate a New Adaptive Test
               </h2>
               <p className="mt-2 text-sm leading-relaxed text-zinc-300">
-                Never run out of tests. Generate brand-new 98-question adaptive tests matching the College Board blueprint, or draw an untaken test from our shared bank.
+                Never run out of tests. Generate brand-new 98-question adaptive tests matching the official College Board blueprint with multi-step math and advanced reading passages.
               </p>
             </div>
             <div className="shrink-0">

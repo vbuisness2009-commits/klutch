@@ -75,7 +75,7 @@ export function CompletedTestsSection({
                           <svg className="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M13 10V3L4 14h7v7l9-11h-7z" />
                           </svg>
-                          Generated Test · AI Adaptive Bank
+                          Generated Test · Adaptive Synthesis
                         </span>
                       ) : (
                         <span className="rounded-full bg-white/[0.06] border border-white/10 px-2.5 py-0.5 text-[11px] font-medium text-zinc-300">

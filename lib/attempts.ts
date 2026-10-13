@@ -1,5 +1,28 @@
 import type { SessionAnalytics } from "./testEngine/analytics";
 
+export type MissedQuestionItem = {
+  id: string; // e.g. `${formId}_${itemId}`
+  formId: string;
+  formName: string;
+  itemId: string;
+  sectionId: "rw" | "math";
+  moduleNum: 1 | 2;
+  numberInModule: number;
+  domain: string;
+  skill: string;
+  difficulty: "E" | "M" | "H";
+  format: "mc" | "spr";
+  stem: string;
+  stimulus?: string;
+  choices?: { id: string; text: string }[];
+  answer: string;
+  rationale?: string;
+  studentResponse?: string;
+  mastered?: boolean;
+  masteredAt?: string;
+  createdAt?: string;
+};
+
 /** What a finished test stores on the student's account. */
 export type AttemptInput = {
   formId: string;
@@ -23,6 +46,7 @@ export type AttemptInput = {
     correct: number;
     total: number;
   }[];
+  missedQuestions?: MissedQuestionItem[];
 };
 
 export type AttemptRecord = AttemptInput & { id: string; createdAt: string };

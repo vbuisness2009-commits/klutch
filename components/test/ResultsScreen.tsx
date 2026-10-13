@@ -5,7 +5,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { FeedbackChat } from "./FeedbackChat";
 import { DesmosVisualizer } from "./DesmosVisualizer";
 import { resolveProblemSolution, type ProblemSolution } from "@/lib/testEngine/desmosSolver";
-import { attemptFromAnalytics } from "@/lib/attempts";
+import { attemptFromAnalytics, type MissedQuestionItem } from "@/lib/attempts";
 import { saveAttempt, type SaveResult } from "@/lib/attemptsClient";
 import { formatMathHtml } from "@/lib/formatMath";
 import {
@@ -188,8 +188,53 @@ export function ResultsScreen({
   useEffect(() => {
     if (savedOnce.current || preview) return;
     savedOnce.current = true;
-    void saveAttempt(attemptFromAnalytics(analytics)).then(setSaveStatus);
-  }, [analytics, preview]);
+
+    const missedList: MissedQuestionItem[] = [];
+    for (const row of analytics.items) {
+      if (row.correct === false) {
+        const fullItem = itemById.get(row.itemId);
+        if (fullItem) {
+          missedList.push({
+            id: `${analytics.formId}_${row.itemId}`,
+            formId: analytics.formId,
+            formName: analytics.formName,
+            itemId: row.itemId,
+            sectionId: row.sectionId,
+            moduleNum: row.moduleNum,
+            numberInModule: row.numberInModule,
+            domain: row.domain,
+            skill: row.skill,
+            difficulty: row.difficulty,
+            format: fullItem.format,
+            stem: fullItem.stem,
+            stimulus: fullItem.stimulus,
+            choices: fullItem.format === "mc" ? fullItem.choices : undefined,
+            answer: fullItem.format === "mc" ? fullItem.correct : (fullItem.accepted?.[0] || ""),
+            rationale: fullItem.rationale,
+            studentResponse: row.response,
+            mastered: false,
+          });
+        }
+      }
+    }
+
+    try {
+      const existingRaw = localStorage.getItem("klutch_missed_questions");
+      const existing: MissedQuestionItem[] = existingRaw ? JSON.parse(existingRaw) : [];
+      const map = new Map<string, MissedQuestionItem>();
+      existing.forEach((q) => map.set(`${q.formId}_${q.itemId}`, q));
+      missedList.forEach((q) => map.set(`${q.formId}_${q.itemId}`, q));
+      localStorage.setItem("klutch_missed_questions", JSON.stringify([...map.values()]));
+    } catch {
+      // safe fallback
+    }
+
+    const payload = {
+      ...attemptFromAnalytics(analytics),
+      missedQuestions: missedList,
+    };
+    void saveAttempt(payload).then(setSaveStatus);
+  }, [analytics, preview, itemById]);
 
   return (
     <div className="relative min-h-[calc(100vh-3.5rem)] overflow-hidden">
@@ -343,19 +388,28 @@ export function ResultsScreen({
           <FeedbackChat analytics={feedbackPayload} />
         </div>
 
-        <div className="mt-10 flex items-center justify-between border-t border-white/[0.08] pt-6">
+        <div className="mt-10 flex flex-wrap items-center justify-between gap-4 border-t border-white/[0.08] pt-6">
           <Link
             href="/practice"
             className="text-[13px] font-semibold text-zinc-400 transition hover:text-mint"
           >
             ← Back to practice
           </Link>
-          <Link
-            href="/dashboard"
-            className="text-[13px] font-semibold text-mint transition hover:underline"
-          >
-            View Dashboard →
-          </Link>
+          <div className="flex flex-wrap items-center gap-3">
+            <Link
+              href="/dashboard"
+              className="inline-flex items-center gap-1.5 rounded-xl border border-rose-500/30 bg-rose-500/10 px-3.5 py-2 text-xs font-bold text-rose-300 transition hover:bg-rose-500/20"
+            >
+              <span>Redo Missed Questions</span>
+              <span>→</span>
+            </Link>
+            <Link
+              href="/dashboard"
+              className="text-[13px] font-semibold text-mint transition hover:underline"
+            >
+              View Progress Tracker →
+            </Link>
+          </div>
         </div>
       </section>
     </div>

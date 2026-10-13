@@ -41,6 +41,9 @@ function sanitize(raw: Partial<AttemptInput>): AttemptInput | null {
       correct: num(s.correct) ?? 0,
       total: num(s.total) ?? 0,
     })),
+    missedQuestions: Array.isArray((raw as any).missedQuestions)
+      ? (raw as any).missedQuestions
+      : undefined,
   };
 }
 
@@ -82,6 +85,15 @@ export async function POST(req: Request) {
     `;
   } catch (err) {
     console.error("Failed to record completion in user_test_assignments:", err);
+  }
+
+  if (attempt.missedQuestions && attempt.missedQuestions.length > 0) {
+    try {
+      const { saveMissedQuestions } = await import("@/lib/missedQuestionsStore");
+      await saveMissedQuestions(user.id, attempt.missedQuestions);
+    } catch (err) {
+      console.warn("Failed to auto-save missed questions in attempt route:", err);
+    }
   }
 
   return NextResponse.json({ id: rows[0]!.id, createdAt: rows[0]!.created_at });

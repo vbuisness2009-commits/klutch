@@ -143,6 +143,36 @@ export function ensureSchema(): Promise<void> {
     await db`
       CREATE INDEX IF NOT EXISTS targeted_attempts_user_idx
         ON targeted_attempts (user_id, created_at DESC)`;
+
+    // Missed questions repository (mistake bank & redo tracker)
+    await db`
+      CREATE TABLE IF NOT EXISTS missed_questions (
+        id text PRIMARY KEY,
+        user_id uuid NOT NULL REFERENCES users(id) ON DELETE CASCADE,
+        form_id text NOT NULL,
+        form_name text NOT NULL,
+        item_id text NOT NULL,
+        section_id text NOT NULL,
+        module_num integer NOT NULL DEFAULT 1,
+        number_in_module integer NOT NULL DEFAULT 1,
+        domain text NOT NULL DEFAULT '',
+        skill text NOT NULL DEFAULT '',
+        difficulty text NOT NULL DEFAULT 'M',
+        format text NOT NULL DEFAULT 'mc',
+        stem text NOT NULL,
+        stimulus text,
+        choices jsonb,
+        answer text NOT NULL,
+        rationale text,
+        student_response text,
+        mastered boolean NOT NULL DEFAULT false,
+        mastered_at timestamptz,
+        created_at timestamptz NOT NULL DEFAULT now(),
+        CONSTRAINT missed_questions_user_item_unique UNIQUE (user_id, form_id, item_id)
+      )`;
+    await db`
+      CREATE INDEX IF NOT EXISTS missed_questions_user_idx
+        ON missed_questions (user_id, mastered, created_at DESC)`;
   })().catch((e) => {
     schemaReady = null;
     throw e;

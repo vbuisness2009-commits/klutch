@@ -8,6 +8,9 @@ import { isAdminRequest } from "@/lib/adminRequest";
 import { GenerateTestButton } from "@/components/dashboard/GenerateTestButton";
 import { CompletedTestsSection } from "@/components/dashboard/CompletedTestsSection";
 import { CreditsBadge } from "@/components/dashboard/CreditsBadge";
+import { ScoreProgressGraph } from "@/components/dashboard/ScoreProgressGraph";
+import { MissedQuestionsSection } from "@/components/dashboard/MissedQuestionsSection";
+import { listMissedQuestions } from "@/lib/missedQuestionsStore";
 
 export const dynamic = "force-dynamic";
 
@@ -25,12 +28,13 @@ export default async function Dashboard({
     isAdminRequest(),
   ]);
   const playable = tests.filter((t) => t.published);
-  const [attempts, creditInfo] = user
+  const [attempts, creditInfo, missedQuestions] = user
     ? await Promise.all([
         listAttempts(user.id).catch(() => []),
         getUserCreditInfo(user.id).catch(() => null),
+        listMissedQuestions(user.id).catch(() => []),
       ])
-    : [[], null];
+    : [[], null, []];
   const takenIds = new Set(attempts.map((a) => a.formId));
   const nextTest = playable.find((t) => !takenIds.has(t.id)) ?? playable[0];
 
@@ -78,6 +82,15 @@ export default async function Dashboard({
               <GenerateTestButton isLoggedIn={false} />
             </div>
           </div>
+        </div>
+
+        {/* Guest Progress Graph & Missed Questions (Local storage fallback) */}
+        <div className="mt-8 max-w-3xl">
+          <ScoreProgressGraph attempts={[]} />
+        </div>
+
+        <div className="mt-8 max-w-3xl">
+          <MissedQuestionsSection initialQuestions={[]} isLoggedIn={false} />
         </div>
 
         <PracticeTestList tests={playable} user={null} />
@@ -140,6 +153,11 @@ export default async function Dashboard({
         </div>
       )}
 
+      {/* Score Progress Graph Tracker */}
+      <div className="mt-8 max-w-4xl">
+        <ScoreProgressGraph attempts={attempts} />
+      </div>
+
       {/* Endless Adaptive Practice Test Generator Hero */}
       <div className="glass-card mt-8 max-w-4xl p-6 sm:p-8 transition duration-200 hover:border-white/15">
         <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
@@ -196,6 +214,12 @@ export default async function Dashboard({
 
       {/* Completed Tests Category with Score & Distribution */}
       <CompletedTestsSection attempts={attempts} />
+
+      {/* Your Missed Questions (Mistake Bank & Redo Repository) */}
+      <MissedQuestionsSection
+        initialQuestions={missedQuestions}
+        isLoggedIn={Boolean(user)}
+      />
 
       {/* Weak Skills Analytics */}
       {weakSkills.length > 0 && (

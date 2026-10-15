@@ -173,6 +173,24 @@ export function ensureSchema(): Promise<void> {
     await db`
       CREATE INDEX IF NOT EXISTS missed_questions_user_idx
         ON missed_questions (user_id, mastered, created_at DESC)`;
+
+    // Multi-stage PDF test import jobs to prevent 504 timeouts
+    await db`
+      CREATE TABLE IF NOT EXISTS test_import_jobs (
+        id text PRIMARY KEY,
+        title text NOT NULL,
+        collection text NOT NULL DEFAULT 'Full-length tests',
+        source text NOT NULL DEFAULT '',
+        published boolean NOT NULL DEFAULT false,
+        has_key boolean NOT NULL DEFAULT true,
+        status text NOT NULL DEFAULT 'ready',
+        step_data jsonb NOT NULL DEFAULT '{}'::jsonb,
+        created_at timestamptz NOT NULL DEFAULT now(),
+        updated_at timestamptz NOT NULL DEFAULT now()
+      )`;
+    await db`
+      DELETE FROM test_import_jobs WHERE created_at < now() - interval '2 hours'
+    `.catch(() => {});
   })().catch((e) => {
     schemaReady = null;
     throw e;

@@ -130,106 +130,147 @@ function UploadForm({ onUploaded }: { onUploaded: () => void }) {
         fileName.endsWith(".pdf") || file.type === "application/pdf";
 
       if (currentIsPdf) {
-        const CHUNK_SIZE = 3 * 1024 * 1024; // 3 MB chunks to avoid Vercel 4.5MB body limit
-        let res: Response;
+        const CHUNK_SIZE = 2.5 * 1024 * 1024; // 2.5 MB chunks to stay safely under Vercel body limits
+        const uploadId =
+          typeof crypto !== "undefined" && crypto.randomUUID
+            ? crypto.randomUUID()
+            : `up-${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;
+        const totalChunks = Math.ceil(file.size / CHUNK_SIZE);
 
-        if (file.size > CHUNK_SIZE) {
-          const uploadId =
-            typeof crypto !== "undefined" && crypto.randomUUID
-              ? crypto.randomUUID()
-              : `up-${Date.now()}-${Math.random().toString(36).slice(2, 9)}`;
-          const totalChunks = Math.ceil(file.size / CHUNK_SIZE);
+        for (let i = 0; i < totalChunks; i++) {
+          const start = i * CHUNK_SIZE;
+          const end = Math.min(file.size, start + CHUNK_SIZE);
+          const chunkBlob = file.slice(start, end);
+          const pct = Math.round(((i + 1) / totalChunks) * 100);
 
-          for (let i = 0; i < totalChunks; i++) {
-            const start = i * CHUNK_SIZE;
-            const end = Math.min(file.size, start + CHUNK_SIZE);
-            const chunkBlob = file.slice(start, end);
-            const pct = Math.round(((i + 1) / totalChunks) * 100);
+          setBusyStatus(
+            totalChunks > 1
+              ? `Uploading file part ${i + 1} of ${totalChunks} (${pct}%)…`
+              : "Uploading test PDF…"
+          );
 
-            setBusyStatus(`Uploading file part ${i + 1} of ${totalChunks} (${pct}%)…`);
+          const chunkFormData = new FormData();
+          chunkFormData.append("uploadId", uploadId);
+          chunkFormData.append("chunkIndex", String(i));
+          chunkFormData.append("totalChunks", String(totalChunks));
+          chunkFormData.append("chunk", chunkBlob);
 
-            const chunkFormData = new FormData();
-            chunkFormData.append("uploadId", uploadId);
-            chunkFormData.append("chunkIndex", String(i));
-            chunkFormData.append("totalChunks", String(totalChunks));
-            chunkFormData.append("chunk", chunkBlob);
+          const chunkRes = await fetch("/api/admin/tests/chunk", {
+            method: "POST",
+            body: chunkFormData,
+          });
 
-            const chunkRes = await fetch("/api/admin/tests/chunk", {
-              method: "POST",
-              body: chunkFormData,
-            });
+          if (!chunkRes.ok) {
+            const chunkJson = await chunkRes.json().catch(() => ({}));
+            throw new Error(
+              chunkJson.error || `Upload of chunk ${i + 1} failed (HTTP ${chunkRes.status}).`
+            );
+          }
+        }
 
-            if (!chunkRes.ok) {
-              const chunkJson = await chunkRes.json().catch(() => ({}));
-              throw new Error(chunkJson.error || `Upload of chunk ${i + 1} failed (HTTP ${chunkRes.status}).`);
+        // Initialize import job
+        setBusyStatus("Initializing import pipeline…");
+        const initRes = await fetch("/api/admin/tests/jobs", {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({
+            uploadId,
+            title: title || file.name.replace(/\.pdf$/i, ""),
+            collection: collection || "Full-length tests",
+            source,
+            published: publishNow,
+            hasKey,
+          }),
+        });
+
+        if (!initRes.ok) {
+          const initJson = await initRes.json().catch(() => ({}));
+          throw new Error(initJson.error || `Failed to create import job (HTTP ${initRes.status}).`);
+        }
+
+        // Helper to run a step with automatic retry on transient error
+        const executeStep = async (stepName: string, description: string) => {
+          setBusyStatus(description);
+          let attempts = 0;
+          let lastErr: Error | null = null;
+          while (attempts < 2) {
+            attempts++;
+            try {
+              const res = await fetch(`/api/admin/tests/jobs/${uploadId}`, {
+                method: "POST",
+                headers: { "content-type": "application/json" },
+                body: JSON.stringify({ step: stepName }),
+              });
+              const json = await res.json().catch(() => ({}));
+              if (!res.ok) {
+                throw new Error(json.error || `Step '${stepName}' failed (HTTP ${res.status}).`);
+              }
+              return json;
+            } catch (e) {
+              lastErr = e instanceof Error ? e : new Error(String(e));
+              if (attempts < 2) {
+                setBusyStatus(`${description} (retrying…)`);
+                await new Promise((r) => setTimeout(r, 2000));
+              }
             }
           }
-
-          setBusyStatus(
-            hasKey
-              ? "Reading PDF, extracting questions & detecting answer key with AI…"
-              : "Reading PDF & extracting questions with AI…"
-          );
-
-          res = await fetch("/api/admin/tests", {
-            method: "POST",
-            headers: { "content-type": "application/json" },
-            body: JSON.stringify({
-              uploadId,
-              title: title || file.name.replace(/\.pdf$/i, ""),
-              collection: collection || "Full-length tests",
-              source,
-              published: publishNow,
-              hasKey,
-              kind: "pdf",
-            }),
-          });
-        } else {
-          setBusyStatus(
-            hasKey
-              ? "Reading PDF, extracting questions & detecting answer key with AI…"
-              : "Reading PDF & extracting questions with AI…"
-          );
-
-          const formData = new FormData();
-          formData.append("file", file);
-          formData.append("title", title || file.name.replace(/\.pdf$/i, ""));
-          formData.append("collection", collection || "Full-length tests");
-          formData.append("source", source);
-          formData.append("published", String(publishNow));
-          formData.append("hasKey", String(hasKey));
-
-          res = await fetch("/api/admin/tests", {
-            method: "POST",
-            body: formData,
-          });
-        }
-
-        const json = (await res.json().catch(() => ({}))) as {
-          error?: string;
-          id?: string;
-          scorable?: boolean;
-          summary?: string;
-          warnings?: string[];
-          stats?: {
-            totalQuestions: number;
-            keysDetectedFromPdf: number;
-            keysSolvedByAi: number;
-          };
+          throw lastErr || new Error(`Step '${stepName}' failed.`);
         };
 
-        if (!res.ok) {
-          setMessage({
-            kind: "error",
-            text: json.error ?? `Upload failed (HTTP ${res.status}).`,
-          });
-          return;
+        // Step 1: Discover structure
+        const discData = await executeStep("discover", "Analyzing test structure & detecting sections with AI…");
+        const structure = discData.structure || {};
+
+        // Step 2 & 3: Extract sections
+        if (structure.isStandardSat) {
+          if (structure.hasReadingWriting !== false) {
+            const rwData = await executeStep(
+              "rw",
+              "Extracting Reading & Writing section (Module 1 & 2)…"
+            );
+            setBusyStatus(
+              `Reading & Writing extracted (${rwData.count || 0} questions). Preparing Math…`
+            );
+          }
+
+          if (structure.hasMath !== false) {
+            const mathData = await executeStep(
+              "math",
+              "Extracting Math section (Module 1 & 2, multiple-choice & SPR)…"
+            );
+            setBusyStatus(
+              `Math extracted (${mathData.count || 0} questions). Preparing answer keys…`
+            );
+          }
+        } else {
+          const genData = await executeStep(
+            "general",
+            "Extracting practice test questions with AI…"
+          );
+          setBusyStatus(`Extracted ${genData.count || 0} questions…`);
         }
 
-        setCreatedId(json.id || null);
+        // Step 4: Extract answer keys if requested
+        if (hasKey && structure.hasAnswerKey !== false) {
+          const keysData = await executeStep(
+            "keys",
+            "Extracting answer key table & scoring guide…"
+          );
+          setBusyStatus(`Verified ${keysData.count || 0} answer keys. Finalizing test…`);
+        }
+
+        // Step 5: Finalize test
+        const finData = await executeStep(
+          "finalize",
+          publishNow
+            ? "Validating test scoring & publishing to student library…"
+            : "Validating test scoring & saving…"
+        );
+
+        setCreatedId(finData.id || null);
         setMessage({
           kind: "ok",
-          text: `Successfully imported as ${json.id}! ${json.summary ?? ""}`,
+          text: `Successfully imported as ${finData.id}! ${finData.summary ?? ""}`,
         });
         setTitle("");
         setSource("");
